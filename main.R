@@ -1,10 +1,14 @@
 require(XML)
 file <- "data/fennica_1470_1800_records.xml"
+# TODO: later include also 1800-1917
 
 # Turning XML into a dataframe
 # "row names were found from a short variable and have been discarded"
 library(plyr)
 li <- xmlToList(file)
+
+# Collect into a table
+tab.orig <- do.call(rbind, li)
 
 # Pick record IDs
 record <- sapply(li, function (x) {x[[1]]})
@@ -27,5 +31,5 @@ write.table(tab, file = "fennica.csv", quote = F, sep = "\t")
 # data <- xmlParse(file)
 # df <- xmlToDataFrame(file)
 # li <- xmlToList(xmlParse(file = file, asText = TRUE))
-# tab <- do.call(rbind, li)
+
 
