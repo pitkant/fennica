@@ -37,7 +37,7 @@ lang$undetermined <- check_language("und")
 
 lang <- lang[,-1]
 
-print(colSums(lang))
+# print(colSums(lang))
 
 # ---------------------------------------------
 
@@ -54,6 +54,8 @@ df$title_remainder <- df.orig[["245b"]]
 df$pub_where <- df.orig[["260a"]]
 df$pub_who <- df.orig[["260b"]]
 df$pub_when <- df.orig[["260c"]]
+df$pub_from <- df.orig[["260c"]]
+df$pub_till <- df.orig[["260c"]]
 df$phys_extent <- df.orig[["300a"]]
 df$phys_details <- df.orig[["300b"]]
 df$phys_dim <- df.orig[["300c"]]
@@ -73,6 +75,8 @@ df$uncontrolled <- df.orig[["720a"]]
 df$successor <- df.orig[["785t"]]
 df$holder <- df.orig[["852a"]]
 
+df <- df[,-1]
+
 # ---------------------------------------------
 
 print("Fix placenames")
@@ -81,7 +85,11 @@ fix_placenames <- function (v) {
   # nimi vaihtunut -> nykyinen nimi
   # liittynyt isompaan yksikköön -> silloinen nimi
   
+  v <- gsub("–"," ",v)
+  v <- gsub("\\-"," ",v)
+  
   v <- gsub("Tryckt i ","",v)
+  v <- gsub("Tryckt j ","",v)  
   v <- gsub(" prändäty","",v)
   v <- gsub(" prändätty","",v)
   v <- gsub(" pränt","",v)
@@ -112,7 +120,7 @@ fix_placenames <- function (v) {
   uppsala <- c("Upsaliae","Upsala","Ubsaliae","Vpsala")
   v[v %in% uppsala] <- "Uppsala"
   
-  pietari <- c("S.-Peterburg","Sanktpeterburg","St. Petersburg","Petrograd")
+  pietari <- c("S. Peterburg","Sanktpeterburg","St. Petersburg","Petrograd","St. Petersbourg")
   v[v %in% pietari] <- "Pietari"
   
   tartto <- c("Dorpati Livonorum","Dorpati","Dorpat","Dorpt","Tartu")
@@ -205,7 +213,8 @@ fix_placenames <- function (v) {
 }
 
 df$pub_where <- fix_placenames(df$pub_where)
-print(df %>% group_by(pub_where) %>% tally(sort=TRUE),n=100)
+
+# print(df %>% group_by(pub_where) %>% tally(sort=TRUE),n=150)
 
 # ---------------------------------------------
 
@@ -296,5 +305,108 @@ fix_death <- function(v) {
 df$author_birth <- fix_birth(df$author_birth)
 df$author_death <- fix_death(df$author_death)
 
-print(df %>% group_by(author_birth) %>% tally(sort=TRUE),n=400)
-print(df %>% group_by(author_death) %>% tally(sort=TRUE),n=400)
+# ---------------------------------------------
+
+print("Clean publishing years")
+
+fix_pubwhen <- function(v) {
+  v <- gsub("\\-\\-","\\-",v)
+  v <- gsub("\\- ","\\-",v)
+  v <- gsub(" \\-","\\-",v)
+  v <- gsub("\\[","",v)
+  v <- gsub("\\]","",v)
+  v <- gsub("\\?","",v)
+  v <- gsub("^([0-9]{4})$","\\1",v)
+  v <- gsub("^.* ([0-9]{4})$","\\1",v)
+  v <- gsub("^([0-9]{4}) .*$","\\1",v)
+  v <- gsub("^[0-9]{4}\\-[0-9]{4}",NA,v)
+  v <- gsub("^.* [0-9]{4}\\-[0-9]{4}",NA,v)
+  v <- gsub("^[0-9]{1,3}$",NA,v)
+  v <- gsub("^[0-9]{2}[0-9]{2}\\-[0-9]{2}",NA,v)
+  v <- gsub("^.*\\;([0-9]{4})$","\\1",v)
+  v <- gsub("^([0-9]{4})\\;.*$","\\1",v)
+  v <- gsub("^([0-9]{4})\\,\\;.*$","\\1",v)
+  v <- gsub("^n.([0-9]{4})$","\\1",v)  
+  v <- gsub("^s.a$",NA,v)
+  v <- gsub("^s. a$",NA,v)
+  v <- gsub("^S.a$",NA,v)
+  v <- gsub("^S. a$",NA,v)
+  v <- gsub("^(?![0-9]{4}$).+$",NA,v,perl=TRUE)
+}
+
+fix_pubfrom <- function(v) {
+  v <- gsub("\\-\\-","\\-",v)
+  v <- gsub("\\- ","\\-",v)
+  v <- gsub(" \\-","\\-",v)
+  v <- gsub("\\[","",v)
+  v <- gsub("\\]","",v)
+  v <- gsub("\\?","",v)
+  v <- gsub("^[0-9]{4}$",NA,v)
+  v <- gsub("^.* [0-9]{4}$",NA,v)
+  v <- gsub("^[0-9]{4} .*$",NA,v)
+  v <- gsub("^([0-9]{4})\\-[0-9]{4}","\\1",v)
+  v <- gsub("^.* ([0-9]{4})\\-[0-9]{4}","\\1",v)
+  v <- gsub("^[0-9]{1,3}$",NA,v)
+  v <- gsub("^([0-9]{2})([0-9]{2})\\-[0-9]{2}","\\1\\2",v)
+  v <- gsub("^.*\\;[0-9]{4}$",NA,v)
+  v <- gsub("^[0-9]{4}\\;.*$",NA,v)
+  v <- gsub("^[0-9]{4}\\,\\;.*$",NA,v)
+  v <- gsub("^n.[0-9]{4}$",NA,v)
+  v <- gsub("^s.a$",NA,v)
+  v <- gsub("^s. a$",NA,v)
+  v <- gsub("^S.a$",NA,v)
+  v <- gsub("^S. a$",NA,v)
+}
+
+fix_pubtill <- function(v) {
+  v <- gsub("\\-\\-","\\-",v)
+  v <- gsub("\\- ","\\-",v)
+  v <- gsub(" \\-","\\-",v)
+  v <- gsub("\\[","",v)
+  v <- gsub("\\]","",v)
+  v <- gsub("\\?","",v)
+  v <- gsub("^[0-9]{4}$",NA,v)
+  v <- gsub("^.* [0-9]{4}$",NA,v)
+  v <- gsub("^[0-9]{4} .*$",NA,v)
+  v <- gsub("^[0-9]{4}\\-([0-9]{4})","\\1",v)
+  v <- gsub("^.* [0-9]{4}\\-([0-9]{4})","\\1",v)
+  v <- gsub("^[0-9]{1,3}$",NA,v)
+  v <- gsub("^([0-9]{2})[0-9]{2}\\-([0-9]{2})","\\1\\2",v)
+  v <- gsub("^.*\\;[0-9]{4}$",NA,v)
+  v <- gsub("^[0-9]{4}\\;.*$",NA,v)
+  v <- gsub("^[0-9]{4}\\,\\;.*$",NA,v)
+  v <- gsub("^n.[0-9]{4}$",NA,v)
+  v <- gsub("^s.a$",NA,v)
+  v <- gsub("^s. a$",NA,v)
+  v <- gsub("^S.a$",NA,v)
+  v <- gsub("^S. a$",NA,v)
+}
+
+df$pub_when <- fix_pubwhen(df$pub_when)
+df$pub_from <- fix_pubfrom(df$pub_from)
+df$pub_till <- fix_pubtill(df$pub_till)
+
+counts_by_town <- function(ldf, str) {
+  f <- ldf %>% filter(pub_where == str) %>% group_by(pub_when) %>% tally() %>% arrange(pub_when)
+  f$cumul <- cumsum(f$n)
+
+  png(paste0(str,"_noncumul.png"))
+  plot(f$pub_when,f$n)
+  dev.off()
+  
+  png(paste0(str,"_cumul.png"))
+  plot(f$pub_when,f$cumul)
+  dev.off()
+  
+}
+
+counts_by_town(df,"Helsinki")
+counts_by_town(df,"Turku")
+counts_by_town(df,"Porvoo")
+counts_by_town(df,"Tukholma")
+counts_by_town(df,"Vaasa")
+counts_by_town(df,"Tampere")
+counts_by_town(df,"Kuopio")
+counts_by_town(df,"Hämeenlinna")
+counts_by_town(df,"Viipuri")
+counts_by_town(df,"Jyväskylä")
