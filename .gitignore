@@ -1,4 +1,5 @@
 *~
-data
 *.csv
 *.csv.gz
+.Rproj.user
+fennica.Rproj
