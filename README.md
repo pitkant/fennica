@@ -1,3 +1,3 @@
-Preliminary code to read selected fields from
-[Fennica](http://www.kansalliskirjasto.fi/kirjastoala/fennica.html) XML records
-into a CSV table. Will be later extended into an R package.
+Some R tools for researching [Fennica](http://www.kansalliskirjasto.fi/kirjastoala/fennica.html) records.
+Uses (at least at the moment) preparsed CSV files.
+Will eventually be extended into a full R package.
