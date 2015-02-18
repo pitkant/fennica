@@ -211,119 +211,90 @@ print(df %>% group_by(pub_where) %>% tally(sort=TRUE),n=100)
 
 print("Collect author life statistics")
 
-df$author_birth <- gsub("–","\\-",df$author_birth)
-df$author_death <- gsub("–","\\-",df$author_death)
+fix_birth <- function(v) {
+  v <- gsub("–","\\-",v)
+  v <- gsub("^([0-9]{3,4})\\-[0-9]{3,4}$","\\1",v)
+  v <- gsub("^fl. ([0-9]{3,4})\\-[0-9]{3,4}$",NA,v)
+  v <- gsub("^n. ([0-9]{4})\\-[0-9]{4}$","\\1",v)
+  v <- gsub("^([0-9]{4})\\-n. [0-9]{4}$","\\1",v)
+  v <- gsub("^n. ([0-9]{4})\\-n. [0-9]{4}$","\\1",v)
+  v <- gsub("^s. ([0-9]{4})$","\\1",v)
+  v <- gsub("^s. n. ([0-9]{4})$","\\1",v)
+  v <- gsub("^k. ([0-9]{4})$",NA,v)
+  v <- gsub("^d. ([0-9]{4})$",NA,v)
+  v <- gsub("^k. n. ([0-9]{4})$",NA,v)
+  v <- gsub("^k. ennen ([0-9]{4})$",NA,v)
+  v <- gsub("^k. viimeistään ([0-9]{4})$",NA,v)
+  v <- gsub("^k. ([0-9]{4}) jälkeen$",NA,v)
+  v <- gsub("^s. n. ([0-9]{4}), k. [0-9]{4}$","\\1",v)
+  v <- gsub("^s. ([0-9]{4}), k. n. [0-9]{4}$","\\1",v)
+  v <- gsub("^[0-9]{4}\\-luku$",NA,v)
+  v <- gsub("^eli vielä ([0-9]{4})$",NA,v)
+  v <- gsub("^[0-9]$",NA,v)
+  v <- gsub("^([0-9]{2,3})\\-[0-9]{2,3} e.Kr$","\\-\\1",v)
+  v <- gsub("^n. ([0-9]{2,3})\\-[0-9]{2,3} e.Kr$","\\-\\1",v)
+  v <- gsub("^([0-9]{2,3})\\-[0-9]{2,3} e. Kr$","\\-\\1",v)
+  v <- gsub("^n. ([0-9]{2,3})\\-[0-9]{2,3} e. Kr$","\\-\\1",v)
+  v <- gsub("^s. ehkä 1620-luvulla, k. 1694$",NA,v)
+  v <- gsub("^s. 1630-luvulla, k. 1684$",NA,v)
+  v <- gsub("^s. 1590-luvulla, k. 1651$",NA,v)
+  v <- gsub("^k. 1616/1617$",NA,v)
+  v <- gsub("^n. 20 e.Kr.-40 j.Kr$","-20",v)
+  v <- gsub("^1600/1700\\-luku$",NA,v)
+  v <- gsub("^eli 300\\-luvun puolivälissä$",NA,v)
+  v <- gsub("^300-l. j. Kr$",NA,v)
+  v <- gsub("^k. 1730-luvulla$",NA,v)
+  v <- gsub("^k. vähän ennen vuotta 1600$",NA,v)
+  v <- gsub("^n. 363-425 j.Kr$",NA,v)
+  v <- gsub("^s. 1678, k. 1695 jälkeen$","1678",v)
+  v <- gsub("^s. n. 1560, k. ennen 1617$","1560",v)
+  v <- gsub("^s. viim. 1638, k. 1681$",NA,v)
+  v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
+}
 
-df$author_birth <- gsub("^([0-9]{3,4})\\-[0-9]{3,4}$","\\1",df$author_birth)
-df$author_death <- gsub("^[0-9]{3,4}\\-([0-9]{3,4})$","\\1",df$author_death)
+fix_death <- function(v) {
+  v <- gsub("–","\\-",v)
+  v <- gsub("^[0-9]{3,4}\\-([0-9]{3,4})$","\\1",v)
+  v <- gsub("^fl. [0-9]{3,4}\\-([0-9]{3,4})$",NA,v)
+  v <- gsub("^n. [0-9]{4}\\-([0-9]{4})$","\\1",v)
+  v <- gsub("^[0-9]{4}\\-n. ([0-9]{4})$","\\1",v)
+  v <- gsub("^n. [0-9]{4}\\-n. ([0-9]{4})$","\\1",v)
+  v <- gsub("^s. ([0-9]{4})$",NA,v)
+  v <- gsub("^s. n. ([0-9]{4})$",NA,v)
+  v <- gsub("^k. ([0-9]{4})$","\\1",v)
+  v <- gsub("^d. ([0-9]{4})$","\\1",v)
+  v <- gsub("^k. n. ([0-9]{4})$","\\1",v)
+  v <- gsub("^k. ennen ([0-9]{4})$",NA,v)
+  v <- gsub("^k. viimeistään ([0-9]{4})$",NA,v)
+  v <- gsub("^k. ([0-9]{4}) jälkeen$",NA,v)
+  v <- gsub("^s. n. [0-9]{4}, k. ([0-9]{4})$","\\1",v)
+  v <- gsub("^s. [0-9]{4}, k. n. ([0-9]{4})$","\\1",v)
+  v <- gsub("^[0-9]{4}\\-luku$",NA,v)
+  v <- gsub("^eli vielä ([0-9]{4})$",NA,v)
+  v <- gsub("^[0-9]$",NA,v)
+  v <- gsub("^[0-9]{2,3}\\-([0-9]{2,3}) e.Kr$","\\-\\1",v)
+  v <- gsub("^n. [0-9]{2,3}\\-([0-9]{2,3}) e.Kr$","\\-\\1",v)
+  v <- gsub("^[0-9]{2,3}\\-([0-9]{2,3}) e. Kr$","\\-\\1",v)
+  v <- gsub("^n. [0-9]{2,3}\\-([0-9]{2,3}) e. Kr$","\\-\\1",v)
+  v <- gsub("^s. ehkä 1620-luvulla, k. 1694$","1694",v)
+  v <- gsub("^s. 1630-luvulla, k. 1684$","1684",v)
+  v <- gsub("^s. 1590-luvulla, k. 1651$","1651",v)
+  v <- gsub("^k. 1616/1617$","1616",v)
+  v <- gsub("^n. 20 e.Kr.-40 j.Kr$","40",v)
+  v <- gsub("^1600/1700\\-luku$",NA,v)
+  v <- gsub("^eli 300\\-luvun puolivälissä$",NA,v)
+  v <- gsub("^300-l. j. Kr$",NA,v)
+  v <- gsub("^k. 1730-luvulla$",NA,v)
+  v <- gsub("^k. vähän ennen vuotta 1600$",NA,v)
+  v <- gsub("^n. 363-425 j.Kr$",NA,v)
+  v <- gsub("^s. 1678, k. 1695 jälkeen$",NA,v)
+  v <- gsub("^s. n. 1560, k. ennen 1617$",NA,v)
+  v <- gsub("^s. viim. 1638, k. 1681$","1681",v)
+  v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
+}
 
-df$author_birth <- gsub("^fl. ([0-9]{3,4})\\-[0-9]{3,4}$",NA,df$author_birth)
-df$author_death <- gsub("^fl. [0-9]{3,4}\\-([0-9]{3,4})$",NA,df$author_death)
-
-df$author_birth <- gsub("^n. ([0-9]{4})\\-[0-9]{4}$","\\1",df$author_birth)
-df$author_death <- gsub("^n. [0-9]{4}\\-([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^([0-9]{4})\\-n. [0-9]{4}$","\\1",df$author_birth)
-df$author_death <- gsub("^[0-9]{4}\\-n. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^n. ([0-9]{4})\\-n. [0-9]{4}$","\\1",df$author_birth)
-df$author_death <- gsub("^n. [0-9]{4}\\-n. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^s. ([0-9]{4})$","\\1",df$author_birth)
-df$author_death <- gsub("^s. ([0-9]{4})$",NA,df$author_death)
-
-df$author_birth <- gsub("^s. n. ([0-9]{4})$","\\1",df$author_birth)
-df$author_death <- gsub("^s. n. ([0-9]{4})$",NA,df$author_death)
-
-df$author_birth <- gsub("^k. ([0-9]{4})$",NA,df$author_birth)
-df$author_death <- gsub("^k. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^d. ([0-9]{4})$",NA,df$author_birth)
-df$author_death <- gsub("^d. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^k. n. ([0-9]{4})$",NA,df$author_birth)
-df$author_death <- gsub("^k. n. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^k. ennen ([0-9]{4})$",NA,df$author_birth)
-df$author_death <- gsub("^k. ennen ([0-9]{4})$",NA,df$author_death)
-
-df$author_birth <- gsub("^k. viimeistään ([0-9]{4})$",NA,df$author_birth)
-df$author_death <- gsub("^k. viimeistään ([0-9]{4})$",NA,df$author_death)
-
-df$author_birth <- gsub("^k. ([0-9]{4}) jälkeen$",NA,df$author_birth)
-df$author_death <- gsub("^k. ([0-9]{4}) jälkeen$",NA,df$author_death)
-
-df$author_birth <- gsub("^s. n. ([0-9]{4}), k. [0-9]{4}$","\\1",df$author_birth)
-df$author_death <- gsub("^s. n. [0-9]{4}, k. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^s. ([0-9]{4}), k. n. [0-9]{4}$","\\1",df$author_birth)
-df$author_death <- gsub("^s. [0-9]{4}, k. n. ([0-9]{4})$","\\1",df$author_death)
-
-df$author_birth <- gsub("^[0-9]{4}\\-luku$",NA,df$author_birth)
-df$author_death <- gsub("^[0-9]{4}\\-luku$",NA,df$author_death)
-
-df$author_birth <- gsub("^eli vielä ([0-9]{4})$",NA,df$author_birth)
-df$author_death <- gsub("^eli vielä ([0-9]{4})$",NA,df$author_death)
-
-df$author_birth <- gsub("^[0-9]$",NA,df$author_birth)
-df$author_death <- gsub("^[0-9]$",NA,df$author_death)
-
-df$author_birth <- gsub("^([0-9]{2,3})\\-[0-9]{2,3} e.Kr$","\\-\\1",df$author_birth)
-df$author_death <- gsub("^[0-9]{2,3}\\-([0-9]{2,3}) e.Kr$","\\-\\1",df$author_death)
-
-df$author_birth <- gsub("^n. ([0-9]{2,3})\\-[0-9]{2,3} e.Kr$","\\-\\1",df$author_birth)
-df$author_death <- gsub("^n. [0-9]{2,3}\\-([0-9]{2,3}) e.Kr$","\\-\\1",df$author_death)
-
-df$author_birth <- gsub("^([0-9]{2,3})\\-[0-9]{2,3} e. Kr$","\\-\\1",df$author_birth)
-df$author_death <- gsub("^[0-9]{2,3}\\-([0-9]{2,3}) e. Kr$","\\-\\1",df$author_death)
-
-df$author_birth <- gsub("^n. ([0-9]{2,3})\\-[0-9]{2,3} e. Kr$","\\-\\1",df$author_birth)
-df$author_death <- gsub("^n. [0-9]{2,3}\\-([0-9]{2,3}) e. Kr$","\\-\\1",df$author_death)
-
-df$author_birth <- gsub("^s. ehkä 1620-luvulla, k. 1694$",NA,df$author_birth)
-df$author_death <- gsub("^s. ehkä 1620-luvulla, k. 1694$","1694",df$author_death)
-
-df$author_birth <- gsub("^s. 1630-luvulla, k. 1684$",NA,df$author_birth)
-df$author_death <- gsub("^s. 1630-luvulla, k. 1684$","1684",df$author_death)
-
-df$author_birth <- gsub("^s. 1590-luvulla, k. 1651$",NA,df$author_birth)
-df$author_death <- gsub("^s. 1590-luvulla, k. 1651$","1651",df$author_death)
-
-df$author_birth <- gsub("^k. 1616/1617$",NA,df$author_birth)
-df$author_death <- gsub("^k. 1616/1617$","1616",df$author_death)
-
-df$author_birth <- gsub("^n. 20 e.Kr.-40 j.Kr$","-20",df$author_birth)
-df$author_death <- gsub("^n. 20 e.Kr.-40 j.Kr$","40",df$author_death)
-
-df$author_birth <- gsub("^1600/1700\\-luku$",NA,df$author_birth)
-df$author_death <- gsub("^1600/1700\\-luku$",NA,df$author_death)
-
-df$author_birth <- gsub("^eli 300\\-luvun puolivälissä$",NA,df$author_birth)
-df$author_death <- gsub("^eli 300\\-luvun puolivälissä$",NA,df$author_death)
-
-df$author_birth <- gsub("^300-l. j. Kr$",NA,df$author_birth)
-df$author_death <- gsub("^300-l. j. Kr$",NA,df$author_death)
-
-df$author_birth <- gsub("^k. 1730-luvulla$",NA,df$author_birth)
-df$author_death <- gsub("^k. 1730-luvulla$",NA,df$author_death)
-
-df$author_birth <- gsub("^k. vähän ennen vuotta 1600$",NA,df$author_birth)
-df$author_death <- gsub("^k. vähän ennen vuotta 1600$",NA,df$author_death)
-
-df$author_birth <- gsub("^n. 363-425 j.Kr$",NA,df$author_birth)
-df$author_death <- gsub("^n. 363-425 j.Kr$",NA,df$author_death)
-
-df$author_birth <- gsub("^s. 1678, k. 1695 jälkeen$","1678",df$author_birth)
-df$author_death <- gsub("^s. 1678, k. 1695 jälkeen$",NA,df$author_death)
-
-df$author_birth <- gsub("^s. n. 1560, k. ennen 1617$","1560",df$author_birth)
-df$author_death <- gsub("^s. n. 1560, k. ennen 1617$",NA,df$author_death)
-
-df$author_birth <- gsub("^s. viim. 1638, k. 1681$",NA,df$author_birth)
-df$author_death <- gsub("^s. viim. 1638, k. 1681$","1681",df$author_death)
-
-df$author_birth <- gsub("^toiminta\\-aika 1770\\-luku$",NA,df$author_birth)
-df$author_death <- gsub("^toiminta\\-aika 1770\\-luku$",NA,df$author_death)
+df$author_birth <- fix_birth(df$author_birth)
+df$author_death <- fix_death(df$author_death)
 
 print(df %>% group_by(author_birth) %>% tally(sort=TRUE),n=400)
 print(df %>% group_by(author_death) %>% tally(sort=TRUE),n=400)
