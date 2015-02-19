@@ -291,5 +291,3 @@ fix_placenames <- function (v) {
 }
 
 df$pub_where <- fix_placenames(df$pub_where)
-
-# print(df %>% group_by(pub_where) %>% tally(sort=TRUE),n=150)

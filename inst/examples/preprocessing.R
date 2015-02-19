@@ -15,15 +15,15 @@ df$pub_who <- df.orig[["260b"]]
 df$pub_when <- df.orig[["260c"]]
 df$pub_from <- df.orig[["260c"]]
 df$pub_till <- df.orig[["260c"]]
-df$phys_extent <- df.orig[["300a"]]
-df$phys_details <- df.orig[["300b"]]
-df$phys_dim <- df.orig[["300c"]]
-df$phys_accomp <- df.orig[["300e"]]
-df$pub_frequency <- df.orig[["310a"]]
-df$pub_interval <- df.orig[["362a"]]
-df$note_general <- df.orig[["500a"]]
-df$note_dissert <- df.orig[["502a"]]
-df$note_granter <- df.orig[["502c"]]
+df$phys_extent <- df.orig[["300a"]] # 15074 unique, 4057 NA
+df$phys_details <- df.orig[["300b"]] # 158 unique, 63701 NA
+df$phys_dim <- df.orig[["300c"]] # 1076 unique, 33978 NA
+df$phys_accomp <- df.orig[["300e"]] # 170 unique, 71448 NA
+df$pub_frequency <- df.orig[["310a"]] # 38 unique, 70918 NA
+df$pub_interval <- df.orig[["362a"]] # 2191 unique, 68570 NA
+df$note_general <- df.orig[["500a"]] # 21528 unique, 36382 NA
+df$note_dissert <- df.orig[["502a"]] # 4 unique, 65501 NA
+df$note_granter <- df.orig[["502c"]] # 88 unique, 66074 NA
 df$note_year <- df.orig[["502d"]]
 df$note_source <- df.orig[["510a"]]
 df$note_loc <- df.orig[["510c"]]
@@ -48,20 +48,25 @@ source("inst/examples/author_name.R") # author_family, author_first, author_othe
 
 # ---------------------------------------------
 
-print("Collect author life statistics")
+print("Extract author dates")
 source("inst/examples/author_lifespan.R") # author_birth, author_death
 
 # ---------------------------------------------
 
-print("Fix placenames")
+print("Clean place names")
 source("inst/examples/place.R") # pub_where
 
 # ---------------------------------------------
 
-print("Fix publishing houses")
+print("Clean publishing house names")
 source("inst/examples/house.R") # pub_who
 
 # ---------------------------------------------
 
 print("Clean publishing years")
 source("inst/examples/time.R") # pub_when, pub_from, pub_till
+
+# ---------------------------------------------
+
+print("Clean university names")
+source("inst/examples/university.R") # note_granter
