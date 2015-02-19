@@ -4,9 +4,14 @@ fix_placenames <- function (v) {
   
   v <- gsub("–"," ",v)
   v <- gsub("\\-"," ",v)
+  v <- gsub(" :;","; ",v)
+  v <- gsub(" ;;","; ",v)
+  v <- gsub(",","",v)
   
   v <- gsub("^Tryckt i ","",v)
+  v <- gsub("^Trykkt i ","",v)
   v <- gsub("^Tryckt j ","",v)
+  v <- gsub("^Trykkt j ","",v)
   v <- gsub("^Prändäty ","",v)
   v <- gsub("^Prändätty ","",v)
   v <- gsub("^Pränt ","",v)
@@ -48,7 +53,7 @@ fix_placenames <- function (v) {
   greifswald <- c("Gryphiswaldiae","Gryphiae")
   v[v %in% greifswald] <- "Greifswald"
   
-  helsinki <- c("Helsingfors","Helsingissä","Helsingforsiae","Gel'singfors","Hki","Helsingissä] :;Helsinki")
+  helsinki <- c("Helsingfors","Helsingissä","Helsingforsiae","Gel'singfors","Hki","Helsingissä]; Helsinki","Helsigfors","Helsingfros","Helsingis","Hfors")
   v[v %in% helsinki] <- "Helsinki"
   
   jena <- c("Ienae","Jenae")
@@ -60,7 +65,7 @@ fix_placenames <- function (v) {
   kiel <- c("Kiliae")
   v[v %in% kiel] <- "Kiel"
   
-  koopenhamina <- c("København","Kjøbenhavn","Köbenhavn","Kjöbenhavn")
+  koopenhamina <- c("København","Kjøbenhavn","Köbenhavn","Kjöbenhavn","Copenhague")
   v[v %in% koopenhamina] <- "Kööpenhamina"
   
   leiden <- c("Lugduni Batavorum","Ludguni Batavorum")
@@ -87,7 +92,7 @@ fix_placenames <- function (v) {
   oslo <- c("Kristiania")
   v[v %in% oslo] <- "Oslo"
 
-  pietari <- c("S. Peterburg","Sanktpeterburg","St. Petersburg","Petrograd","St. Petersbourg","S:t Petersburg","St Petersbourg")
+  pietari <- c("S. Peterburg","Sanktpeterburg","St. Petersburg","Petrograd","St. Petersbourg","S:t Petersburg","St Petersbourg","Sankt Peterburg")
   v[v %in% pietari] <- "Pietari"
   
   parnu <- c("Pernaviae")
@@ -99,6 +104,9 @@ fix_placenames <- function (v) {
   rostock <- c("Rostochii","Rostochi","Rostochiae")
   v[v %in% rostock] <- "Rostock"
   
+  sortavala <- c("Sordavala","Sortawala")
+  v[v %in% sortavala] <- "Sortavala"
+  
   strangnas <- c("Stregnesij","Strengnesiae")
   v[v %in% strangnas] <- "Strängnäs"
 
@@ -108,7 +116,7 @@ fix_placenames <- function (v) {
   tartto <- c("Dorpati Livonorum","Dorpati","Dorpat","Dorpt","Tartu","Dorpati Livonvm")
   v[v %in% tartto] <- "Tartto"
   
-  tukholma <- c("Stockholm","Stockholmisa","Stockholmis","Stockholmiae","Stockholmin","Stockholman","Stockholme","Holmiae","Stokholmis","Stokholmiae")
+  tukholma <- c("Stockholm","Stockholmisa","Stockholmis","Stockholmiae","Stockholmin","Stockholman","Stockholme","Holmiae","Stokholmis","Stokholmiae","Stokholmisa","Stokkholmisa","Stocholm","Stockholmi")
   v[v %in% tukholma] <- "Tukholma"
   
   turenki <- c("Turengi")
@@ -123,7 +131,7 @@ fix_placenames <- function (v) {
   vaasa <- c("Wasa","Waasa","Wasasa","Vasa","Vasasa","Nikolaistad","Nikolainkaupunki","Wasae")
   v[v %in% vaasa] <- "Vaasa"
   
-  viipuri <- c("Wiipuri","Viborg","Wiborg","Vyborg","Viburgi","Wiburgi") # huom! Tanskassakin on Viborg
+  viipuri <- c("Wiipuri","Viborg","Wiborg","Vyborg","Viburgi","Wiburgi","Wiburg") # huom! Tanskassakin on Viborg
   v[v %in% viipuri] <- "Viipuri"
   
   wittenberg <- c("Wittebergae","Witebergae","Wittenbergae")
@@ -135,7 +143,6 @@ fix_placenames <- function (v) {
   # useita kaupunkeja
   v[v=="Stockholmisa ja Turusa"] <- "Tukholma; Turku"
   v[v=="Stockholm och Åbo"] <- "Tukholma; Turku"
-  v[v=="Helsinki ;;Viipuri"] <- "Helsinki; Viipuri"
   
   # ruotsinkieliset
   v[v=="Borgå"] <- "Porvoo"
@@ -151,7 +158,6 @@ fix_placenames <- function (v) {
   v[v=="Fredrikshamn"] <- "Hamina"
   v[v=="Kronoby"] <- "Kruunupyy"
   v[v=="Nykarleby"] <- "Uusikaarlepyy"
-  v[v=="Sordavala"] <- "Sortavala"
   v[v=="Kaskö"] <- "Kaskinen"
   v[v=="S:t Michel"] <- "Mikkeli"
   v[v=="Karis"] <- "Karjaa"
@@ -166,21 +172,27 @@ fix_placenames <- function (v) {
   v[v=="Hamburg"] <- "Hampuri"
   
   # Yhdysvallat
-  v <- gsub("^Brooklyn.*$","Brooklyn, NY",v) # Brooklyn itsenäinen vuoteen 1898
-  v <- gsub("^Hancock.*$","Hancock, MI",v)
-  v <- gsub("^Fitchburg.*$","Fitchburg, MA",v)
-  v <- gsub("^Astoria.*$","Astoria, OR",v)
-  v <- gsub("^Ashtabula.*$","Ashtabula, OH",v)
-  v <- gsub("^New York.*$","New York, NY",v) # tuskin tarkoittaa osavaltiota
-  v[v=="Kaleva (Mich"] <- "Kaleva, MI"
-  v[v=="Duluth (Minn"] <- "Duluth, MN"
-  v[v=="Calumet (Mich"] <- "Calumet, MI"
-  v[v=="Chicago"] <- "Chicago, IL"
-  v[v=="Superior (Wis"] <- "Superior, WI"
-  v[v=="Ironwood (Mich"] <- "Ironwood, MI"
+  v <- gsub("^Brooklyn .*$","Brooklyn, NY",v) # Brooklyn itsenäinen vuoteen 1898
+  v <- gsub("^Hancock .*$","Hancock, MI",v)
+  v <- gsub("^Fitchburg .*$","Fitchburg, MA",v)
+  v <- gsub("^Astoria .*$","Astoria, OR",v)
+  v <- gsub("^Ashtabula .*$","Ashtabula, OH",v)
+  v <- gsub("^New York .*$","New York, NY",v)
+  v <- gsub("^Worcester .*$","Worcester, MA",v)
+  v <- gsub("^Kaleva .*$","Kaleva, MI",v)
+  v <- gsub("^Duluth .*$","Duluth, MN",v)
+  v <- gsub("^Calumet .*$","Calumet, MI",v)
+  v <- gsub("^Chicago .*$","Chicago, IL",v)
+  v <- gsub("^Superior .*$","Superior, WI",v)
+  v <- gsub("^Ironwood .*$","Ironwood, MI",v)
+  v <- gsub("^Almena .*$","Almena, WI",v)
+  v <- gsub("^Quincy .*$","Quincy, MA",v)
+  v <- gsub("^Ishpeming .*$","Ishpeming, MI",v)
+  v <- gsub("^Seattle .*$","Seattle, WA",v)
+  v[v=="New York"] <- "New York, NY"
   
   # Kanada
-  v[v=="Port Arthur (Ont"] <- "Port Arthur, ON" # nyt osa Thunder Bayta
+  v <- gsub("^Port Arthur .*$","Port Arthur, ON",v) # nyt osa Thunder Bayta
   
   # sine loco
   v[v=="S.l"] <- NA
@@ -192,6 +204,8 @@ fix_placenames <- function (v) {
   # paikallissijat
   v <- gsub("ssa$","",v)
   v <- gsub("ssä$","",v)
+  v <- gsub("lla$","",v)
+  v <- gsub("llä$","",v)
   
   # korjaus edelliseen
   v[v=="For"] <- "Forssa"
