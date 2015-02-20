@@ -1,5 +1,7 @@
 *~
 *.csv
 *.csv.gz
+.Rdata
+.Rhistory
 .Rproj.user
 fennica.Rproj
