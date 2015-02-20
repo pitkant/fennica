@@ -1,7 +1,7 @@
 print("Start collecting variables to a polished data frame")
 
 df <- tbl_df(data.frame(list(row.index = 1:nrow(df.orig))))
-source("inst/examples/embellish.R")
+source("inst/examples/embellish.R", encoding = "UTF-8")
 
 df$author_family <- embellish_field(df.orig[["100a"]]) # 12322 unique, 26081 NA
 df$author_first <- embellish_field(df.orig[["100a"]]) # - as above
@@ -40,34 +40,34 @@ df <- df[,-1]
 # ---------------------------------------------
 
 print("Construct binary matrix of languages")
-source("inst/examples/language.R")
+source("inst/examples/language.R", encoding = "UTF-8")
 
 # ---------------------------------------------
 
 print("Group author names")
-source("inst/examples/author_name.R") # author_family, author_first, author_other
+source("inst/examples/author_name.R", encoding = "UTF-8") # author_family, author_first, author_other
 
 # ---------------------------------------------
 
 print("Extract author dates")
-source("inst/examples/author_lifespan.R") # author_birth, author_death
+source("inst/examples/author_lifespan.R", encoding = "UTF-8") # author_birth, author_death
 
 # ---------------------------------------------
 
 print("Clean place names")
-source("inst/examples/place.R") # pub_where
+source("inst/examples/place.R", encoding = "UTF-8") # pub_where
 
 # ---------------------------------------------
 
 print("Clean publishing house names")
-source("inst/examples/house.R") # pub_who
+source("inst/examples/house.R", encoding = "UTF-8") # pub_who
 
 # ---------------------------------------------
 
 print("Clean publishing years")
-source("inst/examples/time.R") # pub_when, pub_from, pub_till
+source("inst/examples/time.R", encoding = "UTF-8") # pub_when, pub_from, pub_till
 
 # ---------------------------------------------
 
 print("Clean university names")
-source("inst/examples/university.R") # note_granter
+source("inst/examples/university.R", encoding = "UTF-8") # note_granter

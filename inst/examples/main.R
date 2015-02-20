@@ -22,7 +22,7 @@ print("Read raw data")
 df.orig <- read_fennica_data(fennica.data.file)
 
 # Preprocess the raw data
-source("inst/examples/preprocessing.R")
+source("inst/examples/preprocessing.R", encoding = "UTF-8")
 
 # Analyze the preprocessed data
 # source("analysis.R")

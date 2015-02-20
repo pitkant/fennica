@@ -15,7 +15,7 @@
 read_fennica_data <- function (file) {
   
   # Read data
-  tab <- read.csv(file, sep = "|", strip.white = TRUE)
+  tab <- read.csv(file, sep = "|", strip.white = TRUE, encoding = "UTF-8")
   
   # Convert empty cells to NAs
   tab <- apply(tab, 2, function (x) {y <- x; y[x %in% c(" ", "")] <- NA; y})
