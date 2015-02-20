@@ -12,8 +12,6 @@ dir.create(output.folder)
 
 # -------------------------------------------
 
-library(dplyr)
-
 # Load R package
 # library(fennica)
 
@@ -26,4 +24,3 @@ source("inst/examples/preprocessing.R", encoding = "UTF-8")
 
 # Analyze the preprocessed data
 # source("analysis.R")
-

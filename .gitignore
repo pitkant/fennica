@@ -1,6 +1,5 @@
 *~
-*.csv
-*.csv.gz
+inst/examples/data
 .Rdata
 .Rhistory
 .Rproj.user

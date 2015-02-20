@@ -1,3 +1,5 @@
+library(dplyr)
+
 print("Start collecting variables to a polished data frame")
 
 df <- tbl_df(data.frame(list(row.index = 1:nrow(df.orig))))
