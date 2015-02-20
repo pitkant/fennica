@@ -1,5 +1,3 @@
-lang <- data.frame(list(row.index = 1:nrow(df.orig)))
-
 check_language <- function (str) {
   v <- grepl(paste0(".*",str,".*$"), df.orig[["041a"]], ignore.case = T) + grepl(str, df.orig[["041h"]], ignore.case = T)
   v[v == 2] <- 1
@@ -8,32 +6,28 @@ check_language <- function (str) {
 }
 
 # Major languages in this dataset
-lang$finnish <- check_language("fin")
-lang$swedish <- check_language("swe")
-lang$latin <- check_language("lat")
-lang$german <- check_language("ger")
-lang$english <- check_language("eng")
-lang$french <- check_language("fre")
-lang$russian <- check_language("rus")
-lang$greek <- check_language("grc")
-lang$danish <- check_language("dan")
+df$lang_finnish <- check_language("fin")
+df$lang_swedish <- check_language("swe")
+df$lang_latin <- check_language("lat")
+df$lang_german <- check_language("ger")
+df$lang_english <- check_language("eng")
+df$lang_french <- check_language("fre")
+df$lang_russian <- check_language("rus")
+df$lang_greek <- check_language("grc")
+df$lang_danish <- check_language("dan")
 
 # Minor languages in this dataset
-lang$italian <- check_language("ita")
-lang$hebrew <- check_language("heb")
-lang$dutch <- check_language("dut")
-lang$spanish <- check_language("spa")
-lang$sami <- check_language("smi")
-lang$moderngreek <- check_language("gre")
-lang$icelandic <- check_language("ice")
-lang$arabic <- check_language("ara")
-lang$portuguese <- check_language("por")
+df$lang_italian <- check_language("ita")
+df$lang_hebrew <- check_language("heb")
+df$lang_dutch <- check_language("dut")
+df$lang_spanish <- check_language("spa")
+df$lang_sami <- check_language("smi")
+df$lang_moderngreek <- check_language("gre")
+df$lang_icelandic <- check_language("ice")
+df$lang_arabic <- check_language("ara")
+df$lang_portuguese <- check_language("por")
 
 # Language aggregates per the MARC standard
-lang$finnougrian <- check_language("fiu")
-lang$multiple <- check_language("mul")
-lang$undetermined <- check_language("und")
-
-lang <- lang[,-1]
-
-# print(colSums(lang))
+df$lang_finnougrian <- check_language("fiu")
+df$lang_multiple <- check_language("mul")
+df$lang_undetermined <- check_language("und")
