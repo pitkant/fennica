@@ -54,7 +54,7 @@ source("inst/examples/author_lifespan.R", encoding = "UTF-8") # author_birth, au
 
 # ---------------------------------------------
 
-print("Clean place names")
+print("Clean place names (this may take several minutes)")
 source("inst/examples/place.R", encoding = "UTF-8") # pub_where
 
 # ---------------------------------------------
