@@ -10,7 +10,9 @@ embellish <- function(v) {
   v <- embellish_unit(v)
 }
 
-combine <- function(x1,x2,x3,x4,x5,x6) {
+all_na <- rep(NA,size_global)
+
+combine <- function(x1=all_na,x2=all_na,x3=all_na,x4=all_na,x5=all_na,x6=all_na) {
   t <- ""
   t <- ifelse(is.na(x1),t,paste0(t,";",as.character(x1)))
   t <- ifelse(is.na(x2),t,paste0(t,";",as.character(x2)))
@@ -18,6 +20,7 @@ combine <- function(x1,x2,x3,x4,x5,x6) {
   t <- ifelse(is.na(x4),t,paste0(t,";",as.character(x4)))
   t <- ifelse(is.na(x5),t,paste0(t,";",as.character(x5)))
   t <- ifelse(is.na(x6),t,paste0(t,";",as.character(x6)))
+  t <- ifelse(t=="",NA,t)
 
 	t
 }

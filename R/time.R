@@ -1,4 +1,7 @@
+# keskeneräisiä
+
 fix_pubwhen <- function(v) {
+  v <- gsub("\\-\\-\\-","\\-",v)
   v <- gsub("\\-\\-","\\-",v)
   v <- gsub("\\- ","\\-",v)
   v <- gsub(" \\-","\\-",v)
@@ -20,11 +23,13 @@ fix_pubwhen <- function(v) {
   v <- gsub("^s. a$",NA,v)
   v <- gsub("^S.a$",NA,v)
   v <- gsub("^S. a$",NA,v)
+  v <- gsub("^1892/1893\\-1900$",NA,v)
   v <- gsub("^(?![0-9]{4}$).+$",NA,v,perl=TRUE)
   v <- as.numeric(v)
 }
 
 fix_pubfrom <- function(v) {
+  v <- gsub("\\-\\-\\-","\\-",v)
   v <- gsub("\\-\\-","\\-",v)
   v <- gsub("\\- ","\\-",v)
   v <- gsub(" \\-","\\-",v)
@@ -46,10 +51,12 @@ fix_pubfrom <- function(v) {
   v <- gsub("^s. a$",NA,v)
   v <- gsub("^S.a$",NA,v)
   v <- gsub("^S. a$",NA,v)
+  v <- gsub("^1892/1893\\-1900$","1893",v)
   v <- as.numeric(v)
 }
 
 fix_pubtill <- function(v) {
+  v <- gsub("\\-\\-\\-","\\-",v)
   v <- gsub("\\-\\-","\\-",v)
   v <- gsub("\\- ","\\-",v)
   v <- gsub(" \\-","\\-",v)
@@ -71,5 +78,6 @@ fix_pubtill <- function(v) {
   v <- gsub("^s. a$",NA,v)
   v <- gsub("^S.a$",NA,v)
   v <- gsub("^S. a$",NA,v)
+  v <- gsub("^1892/1893\\-1900$","1893",v)
   v <- as.numeric(v)
 }

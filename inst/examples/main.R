@@ -18,6 +18,7 @@ dir.create(output.folder)
 source("R/data.R")
 print("Read raw data")
 df.orig <- read_fennica_data(fennica.data.file)
+size_global <- nrow(df.orig)
 
 # Preprocess the raw data
 source("inst/examples/preprocessing.R", encoding = "UTF-8")
