@@ -11,7 +11,3 @@ fix_first <- function(v) {
 fix_other <- function(v) {
   v <- gsub("^(.*)\\, .*$",NA,v)
 }
-
-df$author_family <- fix_family(df$author_family)
-df$author_first <- fix_first(df$author_first)
-df$author_other <- fix_other(df$author_other)

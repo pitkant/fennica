@@ -16,5 +16,3 @@ fix_pubhouses <- function(v) {
   v <- gsub("^s.n$",NA,v)
   v <- gsub("^s. n$",NA,v)
 }
-
-df$pub_who <- fix_pubhouses(df$pub_who)

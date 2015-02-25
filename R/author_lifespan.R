@@ -37,6 +37,7 @@ fix_birth <- function(v) {
   v <- gsub("^s. n. 1560, k. ennen 1617$","1560",v)
   v <- gsub("^s. viim. 1638, k. 1681$",NA,v)
   v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
+  v <- as.numeric(v)
 }
 
 fix_death <- function(v) {
@@ -78,7 +79,5 @@ fix_death <- function(v) {
   v <- gsub("^s. n. 1560, k. ennen 1617$",NA,v)
   v <- gsub("^s. viim. 1638, k. 1681$","1681",v)
   v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
+  v <- as.numeric(v)
 }
-
-df$author_birth <- fix_birth(df$author_birth)
-df$author_death <- fix_death(df$author_death)

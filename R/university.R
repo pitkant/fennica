@@ -32,5 +32,3 @@ fix_university <- function(v) {
   v <- gsub("^.*Paris.*$","Pariisi",v)
   v <- gsub("^.*Wittenberg.*$","Wittenberg",v)
 }
-
-df$note_granter <- fix_university(df$note_granter)

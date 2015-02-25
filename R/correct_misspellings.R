@@ -116,5 +116,3 @@ correct_misspellings <- function(v) {
 
 	v
 }
-
-df$pub_where <- correct_misspellings(df$pub_where)

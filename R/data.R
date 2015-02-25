@@ -28,5 +28,4 @@ read_fennica_data <- function (file) {
   names(df) <- field.names
   
   df
-  
 }

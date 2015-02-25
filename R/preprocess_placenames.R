@@ -92,5 +92,3 @@ preprocess_placenames <- function(v) {
 
 	v
 }
-
-df$pub_where <- preprocess_placenames(df$pub_where)
