@@ -1,3 +1,24 @@
+collect_misspellings <- function (city, variations, all) {
+	eff <- 1
+	while (eff > 0) {
+		eff <- 0
+		for (i in 1:length(all)) {
+			if(is.na(all[i])) {
+				next
+			}
+			if(min(adist(all[i],variations)) == 1){
+				variations <- c(variations,as.character(all[i]))
+				eff <- 1
+			}
+		}
+	}
+	write.csv2(variations, file=paste0("inst/examples/output.tables/city_",city,".csv"), fileEncoding="UTF-8")
+	for (x in variations){
+		all <- all[which(all!=get("x"))]
+	}
+	all
+}
+
 preprocess_placenames <- function(v) {
 	# anywhere
 	v <- gsub("–"," ",v)
@@ -108,6 +129,14 @@ preprocess_placenames <- function(v) {
 	v[v=="Sa"] <- NA
 	v[v=="sa"] <- NA
 	v[v=="SI"] <- NA
+
+	v
+}
+
+correct_misspellings <- function(v,filename,correct) {
+	synonyms <- read.csv2(paste0("inst/examples/output.tables/city_",filename,".csv"),header=FALSE,encoding="UTF-8")
+	synonyms <- unlist(synonyms[[2]])
+	v[v %in% synonyms] <- correct
 
 	v
 }

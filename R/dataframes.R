@@ -13,7 +13,45 @@ classes_to_simple <- function(x) {
 	y$term 					<- x$term@.Data
 	y$miscellanea 			<- x$miscellanea@.Data
 
-	y
+	y <- y[,-1]
+}
+
+classes_to_summary <- function(x) {
+	y <- tbl_df(data.frame(list(row.index = 1:nrow(x))))
+	y$language 				<- x$language@.Data
+	y$family_name 			<- x$author@name_family
+	y$first_name 			<- x$author@name_first
+	y$other_name 			<- x$author@name_other
+	y$date_of_birth 		<- x$author@date_birth
+	y$date_of_death 		<- x$author@date_death
+	y$uniform_title 		<- x$title@uniform
+	y$proper_title 			<- x$title@proper
+	y$title_remainder 		<- x$title@remainder
+	y$publication_place 	<- x$publication@place
+	y$publisher 			<- x$publication@publisher
+	y$publication_frequency	<- x$publication@frequency
+	y$publication_interval	<- x$publication@interval
+	y$published_in 			<- x$publication@time_at
+	y$published_from		<- x$publication@time_from
+	y$published_until 		<- x$publication@time_until
+	y$extent				<- x$physical@extent
+	y$physical_details 		<- x$physical@details
+	y$physical_dimensions 	<- x$physical@dimension
+	y$accomppanied_by 		<- x$physical@accomppanied
+	y$general_note 			<- x$note@general
+	y$dissertation_note 	<- x$note@dissertation
+	y$granter_note 			<- x$note@granter
+	y$year_note 			<- x$note@year
+	y$source_note 			<- x$note@source
+	y$location_note 		<- x$note@location
+	y$topical_terms			<- x$term@topic
+	y$geographic_terms 		<- x$term@geography
+	y$corporate 			<- x$miscellanea@corporate
+	y$uncontrolled 			<- x$miscellanea@uncontrolled
+	y$successor 			<- x$miscellanea@successor
+	y$holder 				<- x$miscellanea@holder
+
+	y <- y[,-1]
 }
 
 classes_to_full <- function(x) {
@@ -85,5 +123,5 @@ classes_to_full <- function(x) {
 	y$miscellanea_scc 		<- x$miscellanea@successor
 	y$miscellanea_hdr 		<- x$miscellanea@holder
 
-	y
+	y <- y[,-1]
 }
