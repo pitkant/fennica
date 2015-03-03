@@ -2,7 +2,7 @@
 title: "Summary"
 author: "Niko Ilomäki"
 date: "Tuesday, March 3, 2015"
-output: html_document
+output: pdf_document
 ---
 
 # Summary of the preprocessed Fennica data
