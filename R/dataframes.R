@@ -92,6 +92,7 @@ classes_to_full <- function(x) {
 	y$title_rem 			<- x$title@remainder
 	y$publication			<- x$publication@.Data
 	y$publication_plc 		<- x$publication@place
+	y$publication_ctr		<- x$publication@country
 	y$publication_pbl 		<- x$publication@publisher
 	y$publication_tim		<- x$publication@time
 	y$publication_frq		<- x$publication@frequency

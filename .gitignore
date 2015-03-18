@@ -1,6 +1,6 @@
 *~
 inst/examples/data
-.Rdata
+*.Rdata
 .Rhistory
 .Rproj.user
 fennica.Rproj

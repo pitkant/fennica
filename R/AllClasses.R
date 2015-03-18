@@ -53,6 +53,7 @@ Publicus <- setClass("Publicus",
 	contains="character",
 	slots=list(
 		place="character",
+		country="character",
 		publisher="character",
 		time="character",
 		frequency="character",
@@ -105,33 +106,3 @@ Miscellaneus <- setClass("Miscellaneus",
 		holder="character"
 	)
 )
-
-setGeneric("evalSubfields", function(x) {
-	standardGeneric("evalSubfields")
-})
-
-setMethod("evalSubfields", c(x = "Lingua"), function(x) {
-	doThis <- function(abbrv){grepl(abbrv, x@.Data, ignore.case = T)}
-	x@finnish <- doThis("fin")
-	x@swedish <- doThis("swe")
-	x@latin <- doThis("lat")
-	x@german <- doThis("ger")
-	x@english <- doThis("eng")
-	x@french <- doThis("fre")
-	x@russian <- doThis("rus")
-	x@greek <- doThis("grc")
-	x@danish <- doThis("dan")
-	x@italian <- doThis("ita")
-	x@hebrew <- doThis("heb")
-	x@dutch <- doThis("dut")
-	x@spanish <- doThis("spa")
-	x@sami <- doThis("smi")
-	x@moderngreek <- doThis("gre")
-	x@icelandic <- doThis("ice")
-	x@arabic <- doThis("ara")
-	x@portuguese <- doThis("por")
-	x@finnougrian <- doThis("fiu")
-	x@multiple <- doThis("mul")
-	x@undetermined <- doThis("und")	
-	x
-})
