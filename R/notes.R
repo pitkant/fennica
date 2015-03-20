@@ -5,10 +5,20 @@
 # df$note_source <- embellish_field(df.orig[["510a"]]) # 5000 unique, 60165 NA
 # df$note_loc <- embellish_field(df.orig[["510c"]]) # 6451 unique, 65267 NA
 
-fix_note_dissert <- function(v) {
-	v[v=="Diss"] <- "d"
-	v[v=="Diss. :;Diss"] <- "diss"
-	v[v=="Diss. synod"] <- "synod"
+fix_note_diss <- function(df.orig, df) {
+	v <- df.orig$note_dissertation
+	v[v=="Diss"] <- TRUE
+	v[v=="Diss. :;Diss"] <- TRUE
+	v[v=="Diss. synod"] <- FALSE
+	v[is.na(v)] <- FALSE
+	df$note_diss <- v
 
-	v
+	v <- df.orig$note_dissertation
+	v[v=="Diss"] <- FALSE
+	v[v=="Diss. :;Diss"] <- FALSE
+	v[v=="Diss. synod"] <- TRUE
+	v[is.na(v)] <- FALSE
+	df$note_synod <- v
+
+	df
 }

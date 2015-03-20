@@ -1,4 +1,31 @@
-fix_birth <- function(v) {
+fix_family <- function(df.orig, df) {
+	v <- df.orig$author_name
+	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
+	v <- gsub("^(.*)\\, .*$","\\1",v)
+	df$author_name_family <- v
+
+	df
+}
+
+fix_first <- function(df.orig, df) {
+	v <- df.orig$author_name
+	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
+	v <- gsub("^.*\\, (.*)$","\\1",v)
+	df$author_name_first <- v
+
+	df
+}
+
+fix_other <- function(d.orig, df) {
+	v <- df.orig$author_name
+	v <- gsub("^(.*)\\, .*$",NA,v)
+	df$author_name_other <- v
+
+	df
+}
+
+fix_birth <- function(df.orig, df) {
+  v <- df.orig$author_date
   v <- gsub("^([0-9]{3,4})\\D[0-9]{3,4}$","\\1",v)
   v <- gsub("^fl. ([0-9]{3,4})\\D[0-9]{3,4}$",NA,v)
   v <- gsub("^n. ([0-9]{4})\\D[0-9]{4}$","\\1",v)
@@ -37,9 +64,13 @@ fix_birth <- function(v) {
   v <- gsub("^s. viim. 1638, k. 1681$",NA,v)
   v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
   v <- as.numeric(v)
+  df$author_date_birth <- v
+
+  df
 }
 
-fix_death <- function(v) {
+fix_death <- function(df.orig, df) {
+  v <- df.orig$author_date
   v <- gsub("^[0-9]{3,4}\\D([0-9]{3,4})$","\\1",v)
   v <- gsub("^fl. [0-9]{3,4}\\D([0-9]{3,4})$",NA,v)
   v <- gsub("^n. [0-9]{4}\\D([0-9]{4})$","\\1",v)
@@ -78,4 +109,7 @@ fix_death <- function(v) {
   v <- gsub("^s. viim. 1638, k. 1681$","1681",v)
   v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
   v <- as.numeric(v)
+  df$author_date_death <- v
+
+  df
 }
