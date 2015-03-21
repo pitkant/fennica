@@ -1,12 +1,10 @@
-library(dplyr)
-
 source("R/editing.R", encoding = "UTF-8")
 
 print("Start collecting variables to a polished data frame")
 
-df.orig <- data.frame(list(row.index = 1:size_global))
+df.orig <- data.frame(list(row.index = 1:data_size))
 
-df.orig$language <- embellish(combine(df.raw[["041a"]],df.raw[["041h"]]))
+df.orig$language <- embellish(paste_without_NA(df.raw[["041a"]],df.raw[["041h"]]))
 
 df.orig$author_name <- embellish(df.raw[["100a"]])
 df.orig$author_date <- embellish(df.raw[["100d"]])

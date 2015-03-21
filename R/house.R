@@ -1,4 +1,6 @@
-fix_pubhouses <- function(v) {
+fix_pubhouses <- function(df.orig, df) {
+  v <- df.orig$publication_publisher
+
   v <- gsub("typis ","",v)
   v <- gsub("impressit ","",v)
   v <- gsub("impress. ","",v)
@@ -15,4 +17,8 @@ fix_pubhouses <- function(v) {
   v <- gsub("tryckt i ","",v)
   v <- gsub("^s.n$",NA,v)
   v <- gsub("^s. n$",NA,v)
+
+  df$publisher <- v
+
+  df
 }

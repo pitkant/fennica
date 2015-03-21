@@ -2,7 +2,7 @@ fix_family <- function(df.orig, df) {
 	v <- df.orig$author_name
 	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
 	v <- gsub("^(.*)\\, .*$","\\1",v)
-	df$author_name_family <- v
+	df$family_name <- v
 
 	df
 }
@@ -11,7 +11,7 @@ fix_first <- function(df.orig, df) {
 	v <- df.orig$author_name
 	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
 	v <- gsub("^.*\\, (.*)$","\\1",v)
-	df$author_name_first <- v
+	df$first_name <- v
 
 	df
 }
@@ -19,7 +19,7 @@ fix_first <- function(df.orig, df) {
 fix_other <- function(d.orig, df) {
 	v <- df.orig$author_name
 	v <- gsub("^(.*)\\, .*$",NA,v)
-	df$author_name_other <- v
+	df$other_name <- v
 
 	df
 }
@@ -64,7 +64,7 @@ fix_birth <- function(df.orig, df) {
   v <- gsub("^s. viim. 1638, k. 1681$",NA,v)
   v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
   v <- as.numeric(v)
-  df$author_date_birth <- v
+  df$birth_year <- v
 
   df
 }
@@ -109,7 +109,7 @@ fix_death <- function(df.orig, df) {
   v <- gsub("^s. viim. 1638, k. 1681$","1681",v)
   v <- gsub("^toiminta\\-aika 1770\\-luku$",NA,v)
   v <- as.numeric(v)
-  df$author_date_death <- v
+  df$death_year <- v
 
   df
 }

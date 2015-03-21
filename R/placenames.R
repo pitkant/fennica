@@ -19,7 +19,9 @@ collect_misspellings <- function (city, variations, all) {
 	all
 }
 
-preprocess_placenames <- function(v) {
+preprocess_placenames <- function(df.orig, df) {
+	v <- df.orig$publication_place
+
 	# anywhere
 	v <- gsub("–"," ",v)
 	v <- gsub("\\-"," ",v)
@@ -130,7 +132,9 @@ preprocess_placenames <- function(v) {
 	v[v=="sa"] <- NA
 	v[v=="SI"] <- NA
 
-	v
+	df$city <- v
+
+	df
 }
 
 correct_misspellings <- function(v,filename,correct) {
@@ -141,8 +145,9 @@ correct_misspellings <- function(v,filename,correct) {
 	v
 }
 
-deduce_country <- function(v) {
-	w <- rep(NA, size_global)
+deduce_country <- function(df) {
+	v <- df$city
+	w <- rep(NA, data_size)
 	w[v=="Altdorf"] <- "Saksa"
 	w[v=="Ashtabula OH"] <- "USA"
 	w[v=="Astoria OR"] <- "USA"
@@ -245,5 +250,7 @@ deduce_country <- function(v) {
 	w[v=="Wittenberg"] <- "Saksa"
 	w[v=="Worcester MA"] <- "USA"
 
-	w
+	df$country <- w
+
+	df
 }
