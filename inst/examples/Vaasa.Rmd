@@ -1,0 +1,22 @@
+---
+title: "Julkaisutoiminta Vaasassa 1764-1917"
+author: "Niko Ilomäki"
+date: "`r Sys.Date()`"
+output: markdown_document
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(dplyr)
+```
+
+```{r, echo=FALSE}
+# data ei välttämättä lopullinen
+df <- readRDS("df.Rdata")
+vaasa <- df %>% filter(city == "Vaasa") %>% group_by(published_in) %>% tally() %>% arrange(published_in)
+```
+
+```{r, echo=FALSE, fig.width=20, fig.height=10}
+plot(vaasa$published_in,vaasa$n,pch="_",cex.main=2,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=1.5,xlab="vuosi",ylab="dokumenttia",axes=FALSE)
+axis(side = 1, at = c(1764,1809,1863,1917))
+axis(side = 2, at = c(0,25,50,75,100,125,150,175,194))
+```
