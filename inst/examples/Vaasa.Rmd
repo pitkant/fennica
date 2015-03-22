@@ -22,8 +22,17 @@ vaasa <- inner_join(vaasa1,vaasa2)
 ```{r, echo=FALSE, fig.width=20, fig.height=10}
 par(las=1)
 par(mar=c(8,8,5,3))
-plot(vaasa$published_in,vaasa$n,pch="_",cex.main=3,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=2.5,xlab="vuosi",ylab="dokumenttia",cex.axis=2,axes=FALSE,col="black")
-lines(vaasa$published_in,vaasa$m,type="l",lty=3,col="grey",lwd=2.5)
-axis(side = 1, at = c(1764,1809,1863,1917))
-axis(side = 2, at = c(0,25,50,75,100,125,150,175,194))
+plot(vaasa$published_in,vaasa$n,pch="_",cex.main=3,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=2,xlab="",ylab="Dokumenttia / vuosi",axes=FALSE,col="black")
+lines(vaasa$published_in,vaasa$m,type="l",lty=3,col="darkgrey",lwd=2.5)
+axis(side = 1, at = c(1764,1809,1863,1917),cex.axis=1.5)
+axis(side = 2, at = c(0,20,40,60,80,100,120,140,160,180,194),cex.axis=1.2)
+```
+
+```{r, echo=FALSE, fig.width=20, fig.height=10}
+par(las=1)
+par(mar=c(8,8,5,3))
+plot(vaasa$published_in,vaasa$n,pch="_",cex.main=3,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=2,xlab="",ylab="Dokumenttia / vuosi",axes=FALSE,col="black")
+lines(vaasa$published_in,vaasa$m,type="l",lty=3,col="darkgrey",lwd=2.5)
+axis(side = 1, at = c(1764,1780,1800,1820,1840,1860,1880,1900,1917),cex.axis=1.5)
+axis(side = 2, at = c(0,20,40,60,80,100,120,140,160,180,194),cex.axis=1.2)
 ```
