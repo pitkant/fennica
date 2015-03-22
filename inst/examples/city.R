@@ -1,4 +1,4 @@
-source("R/placenames.R", encoding="UTF-8")
+source("../../R/placenames.R", encoding="UTF-8")
 
 unique_cities <- unique(df$city)
 
@@ -107,7 +107,7 @@ unique_cities <- collect_misspellings("vasteros",c("Västerås","Arosia","Arosie
 unique_cities <- collect_misspellings("wittenberg",c("Wittenberg","Wittenbergae"),unique_cities)
 unique_cities <- collect_misspellings("worcester",c("Worcester","Worcester MA","Worcester Mass","Worcester Massachusetts"),unique_cities)
 
-write(unique_cities, file="inst/examples/output.tables/city_others.csv")
+write(unique_cities, file="output.tables/city_others.csv")
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------
 

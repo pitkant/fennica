@@ -1,4 +1,4 @@
-source("R/editing.R", encoding = "UTF-8")
+source("../../R/editing.R", encoding = "UTF-8")
 
 print("Start collecting variables to a polished data frame")
 

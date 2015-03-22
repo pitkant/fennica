@@ -3,4 +3,4 @@ inst/examples/data
 *.Rdata
 .Rhistory
 .Rproj.user
-fennica.Rproj
+*.Rproj

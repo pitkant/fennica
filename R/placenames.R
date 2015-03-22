@@ -12,7 +12,7 @@ collect_misspellings <- function (city, variations, all) {
 			}
 		}
 	}
-	write.csv2(variations, file=paste0("inst/examples/output.tables/city_",city,".csv"), fileEncoding="UTF-8")
+	write.csv2(variations, file=paste0("output.tables/city_",city,".csv"), fileEncoding="UTF-8")
 	for (x in variations){
 		all <- all[which(all!=get("x"))]
 	}
@@ -138,7 +138,7 @@ preprocess_placenames <- function(df.orig, df) {
 }
 
 correct_misspellings <- function(v,filename,correct) {
-	synonyms <- read.csv2(paste0("inst/examples/output.tables/city_",filename,".csv"),header=FALSE,encoding="UTF-8")
+	synonyms <- read.csv2(paste0("output.tables/city_",filename,".csv"),header=FALSE,encoding="UTF-8")
 	synonyms <- unlist(synonyms[[2]])
 	v[v %in% synonyms] <- correct
 

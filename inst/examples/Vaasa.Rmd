@@ -9,14 +9,21 @@ output: markdown_document
 library(dplyr)
 ```
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 # data ei välttämättä lopullinen
 df <- readRDS("df.Rdata")
-vaasa <- df %>% filter(city == "Vaasa") %>% group_by(published_in) %>% tally() %>% arrange(published_in)
+df <- df %>% filter(!is.na(published_in))
+vaasa1 <- df %>% filter(city == "Vaasa") %>% group_by(published_in) %>% tally() %>% arrange(published_in)
+vaasa1$decade <- as.numeric(paste0(substr(vaasa1$published_in,1,3),"0"))
+vaasa2 <- vaasa1 %>% group_by(decade) %>% summarise(m = sum(n)/10)
+vaasa <- inner_join(vaasa1,vaasa2)
 ```
 
 ```{r, echo=FALSE, fig.width=20, fig.height=10}
-plot(vaasa$published_in,vaasa$n,pch="_",cex.main=2,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=1.5,xlab="vuosi",ylab="dokumenttia",axes=FALSE)
+par(las=1)
+par(mar=c(8,8,5,3))
+plot(vaasa$published_in,vaasa$n,pch="_",cex.main=3,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=2.5,xlab="vuosi",ylab="dokumenttia",cex.axis=2,axes=FALSE,col="black")
+lines(vaasa$published_in,vaasa$m,type="l",lty=3,col="grey",lwd=2.5)
 axis(side = 1, at = c(1764,1809,1863,1917))
 axis(side = 2, at = c(0,25,50,75,100,125,150,175,194))
 ```
