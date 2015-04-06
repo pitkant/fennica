@@ -12,7 +12,7 @@ collect_misspellings <- function (city, variations, all) {
 			}
 		}
 	}
-	write.csv2(variations, file=paste0("output.tables/city_",city,".csv"), fileEncoding="UTF-8")
+	write.csv(variations, file=paste0("output.tables/city_",city,".csv"), fileEncoding="UTF-8")
 	for (x in variations){
 		all <- all[which(all!=get("x"))]
 	}
@@ -116,6 +116,7 @@ preprocess_placenames <- function(df.orig, df) {
 	v <- gsub(" caupungis$","",v)
 	v <- gsub(" impressum$","",v)
 	v <- gsub(" impressit$","",v)
+	v <- gsub(" impressa$","",v)
 	v <- gsub(" impre$","",v)
 	v <- gsub(" v editum$","",v)
 	v <- gsub(" sic$","",v)
@@ -125,6 +126,7 @@ preprocess_placenames <- function(df.orig, df) {
 
 	# sine loco
 	v[v=="Sl"] <- NA
+	v[v=="S l"] <- NA
 	v[v=="sl"] <- NA
 	v[v=="Sn"] <- NA
 	v[v=="sn"] <- NA
@@ -138,7 +140,7 @@ preprocess_placenames <- function(df.orig, df) {
 }
 
 correct_misspellings <- function(v,filename,correct) {
-	synonyms <- read.csv2(paste0("output.tables/city_",filename,".csv"),header=FALSE,encoding="UTF-8")
+	synonyms <- read.csv(paste0("output.tables/city_",filename,".csv"),header=FALSE,encoding="UTF-8")
 	synonyms <- unlist(synonyms[[2]])
 	v[v %in% synonyms] <- correct
 
@@ -149,8 +151,10 @@ deduce_country <- function(df) {
 	v <- df$city
 	w <- rep(NA, data_size)
 	w[v=="Altdorf"] <- "Saksa"
+	w[v=="Amsterdam"] <- "Alankomaat"
 	w[v=="Ashtabula OH"] <- "USA"
 	w[v=="Astoria OR"] <- "USA"
+	w[v=="Barcelona"] <- "Espanja"
 	w[v=="Berliini"] <- "Saksa"
 	w[v=="Boston MA"] <- "USA"
 	w[v=="Bridgeport CT"] <- "USA"
@@ -246,6 +250,7 @@ deduce_country <- function(df) {
 	w[v=="Uusikaupunki"] <- "Suomi"
 	w[v=="Vaasa"] <- "Suomi"
 	w[v=="Viipuri"] <- "Suomi"
+	w[v=="Vilna"] <- "Liettua"
 	w[v=="Västerås"] <- "Ruotsi"
 	w[v=="Wittenberg"] <- "Saksa"
 	w[v=="Worcester MA"] <- "USA"
