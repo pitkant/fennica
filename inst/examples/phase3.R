@@ -27,9 +27,10 @@ df$title_remainder <- df.orig$title_remainder
 # ---------------------------------------------
 
 print("Publication data")
-source("../../R/placenames.R", encoding = "UTF-8")
+source("../../R/city.R", encoding = "UTF-8")
 df <- preprocess_placenames(df.orig, df)
-source("city.R", encoding = "UTF-8") # later account for multiple places
+source("city_examples.R", encoding = "UTF-8") # later account for multiple places
+source("../../R/country.R", encoding = "UTF-8")
 df <- deduce_country(df)
 source("../../R/house.R", encoding = "UTF-8")
 df <- fix_pubhouses(df.orig, df)
@@ -57,7 +58,6 @@ df <- fix_note_diss(df.orig, df)
 df <- fix_university(df.orig, df)
 df$note_year <- df.orig$note_year
 df$note_source <- df.orig$note_source
-df$note_location <- df.orig$note_location
 
 # ---------------------------------------------
 
