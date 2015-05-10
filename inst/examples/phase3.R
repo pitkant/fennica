@@ -76,3 +76,5 @@ df$holder <- df.orig$holder
 # ---------------------------------------------
 
 df <- df[,-1]
+
+saveRDS(df, "df.RData")
