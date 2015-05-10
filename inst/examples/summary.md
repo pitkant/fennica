@@ -11,12 +11,7 @@ output: markdown_document
 
 Fraction of documents with entries for each annotation field.
 
-
-```
-## Error in order(df3$missing): object 'df3' not found
-```
-
-![plot of chunk annotations](figure/annotations-1.png) 
+![plot of chunk missing](figure/missing-1.png) 
 
 ## Topics
 
@@ -29,7 +24,7 @@ Fraction of documents with entries for each annotation field.
 
 Top-50 topics and number of documents for each. In total, there are 3533 unique topics and 20889 documents assigned to one or more topics (29).
 
-![plot of chunk topics22](figure/topics22-1.png) 
+![plot of chunk topics3](figure/topics3-1.png) 
 
 
 ## Authors
@@ -65,7 +60,7 @@ Top-50 geographical places are shown together with the number of documents assig
 
 Top-50 publication places are shown together with the number of documents. This info is available for 68832 documents (96%). There are 734 unique publication places.
 
-![plot of chunk place](figure/place-1.png) 
+![plot of chunk city](figure/city-1.png) 
 
 
 ```

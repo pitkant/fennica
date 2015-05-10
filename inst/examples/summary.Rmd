@@ -11,7 +11,7 @@ output: markdown_document
 
 Fraction of documents with entries for each annotation field.
 
-```{r, annotations, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
+```{r missing, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
 
 library(stringr)
 library(dplyr)
@@ -21,7 +21,7 @@ df <- readRDS("df.RData")
 
 missing <- 100*apply(df, 2, function (x) {mean(is.na(x))})
 df2 <- data.frame(list(missing = missing, field = names(missing)))
-df2$field <- factor(df2$field, levels = df2$field[rev(order(df3$missing))])
+df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
 theme_set(theme_bw(15))
 p <- ggplot(df2, aes(x = field, y = 100 - missing))
 p <- p + geom_bar(stat = "identity")
@@ -34,7 +34,7 @@ print(p)
 
 ## Topics
 
-```{r, topics, echo=FALSE, message=FALSE, warning=FALSE}
+```{r topics1, topics, echo=FALSE, message=FALSE, warning=FALSE}
 
 # List all topics
 spl <- strsplit(na.omit(as.character(df$term_topic)), ";")
@@ -48,7 +48,7 @@ tab <- tab[!names(tab) == "NA"]
 tab <- rev(sort(tab)) 
 ```
 
-```{r, topics2, echo=FALSE, message=FALSE, warning=FALSE}
+```{r topics2, echo=FALSE, message=FALSE, warning=FALSE}
 # Write to file
 f <- "output.tables/subjecttopics.tab"
 print(paste("Complete subject topic counts in file:", f))
@@ -58,7 +58,7 @@ ntop <- 50
 
 Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$term_topic))` unique topics and `r sum(!is.na(df$term_topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$term_topic)))`).
 
-```{r, topics22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$term_topic)))[1:ntop]), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Most common topics")
 ```
 
@@ -67,7 +67,7 @@ par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$term_topic)))[1:ntop]),
 
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
-```{r, authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 ntop <- 50
 a <- rev(rev(sort(table(paste(df$author_family,df$author_first,sep=", "))))[1:ntop])
 par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Top authors")
@@ -76,18 +76,18 @@ par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab 
 
 ## Subject geographical places
 
-```{r, geo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r geo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 tab <- rev(sort(table(unlist(strsplit(as.character(df$term_geography), ";")))))
 ```
 
 Top-`r ntop` geographical places are shown together with the number of documents assigned to that region. Geography information is available for `r sum(!is.na(df$term_geography))` documents (`r round(100*mean(!is.na(df$term_geography)))`%). There are `r length(tab)` unique geographical places.
 
-```{r, geo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r geo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 ntop <- 50
 par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents (log10)", main = "Most common geographic places")
 ```
 
-```{r, geo3, echo=FALSE, message=FALSE, warning=FALSE}
+```{r geo3, echo=FALSE, message=FALSE, warning=FALSE}
 f <- "output.tables/geoplaces.csv"
 print(paste("Complete counts in file:", f))
 write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
@@ -101,13 +101,13 @@ write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|",
 
 Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$city))` documents (`r round(100*mean(!is.na(df$city)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$city), ";")))))` unique publication places.
 
-```{r, place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r city, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 tab <- rev(sort(table(str_trim(unlist(strsplit(as.character(df$city), ";"))))))
 ntop <- 50
 par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents (log10)", main = "Most common publication places")
 ```
 
-```{r, place2, echo=FALSE, message=FALSE, warning=FALSE}
+```{r city2, echo=FALSE, message=FALSE, warning=FALSE}
 f <- "output.tables/publicationplaces.csv"
 print(paste("Complete counts in file:", f))
 write.table(cbind(Place = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)

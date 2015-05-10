@@ -11,7 +11,7 @@ library(ggplot2)
 library(stringr)
 ```
 
-```{r, annotations, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
+```{r suvut, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
 df <- readRDS("df.Rdata")
 df <- df %>% filter(!is.na(family_name))
 df2 <- df %>% group_by(family_name) %>% summarise(members = n_distinct(first_name))
