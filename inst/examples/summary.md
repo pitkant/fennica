@@ -31,11 +31,6 @@ Top-50 topics and number of documents for each. In total, there are 3533 unique 
 
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
-```
-
 ![plot of chunk authors](figure/authors-1.png) 
 
 

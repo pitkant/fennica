@@ -68,8 +68,9 @@ par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$term_topic)))[1:ntop]),
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
 ```{r authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+df$author <- paste(df$family_name,df$first_name,sep=", ")
 ntop <- 50
-a <- rev(rev(sort(table(paste(df$author_family,df$author_first,sep=", "))))[1:ntop])
+a <- rev(rev(sort(table(df$author)))[2:ntop+1])
 par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Top authors")
 ```
 
