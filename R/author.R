@@ -1,3 +1,17 @@
+#' @title fix_family
+#' @description Pick and polish family name
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_family(df.orig, df)}
+#' @keywords utilities
 fix_family <- function(df.orig, df) {
 	v <- df.orig$author_name
 	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
@@ -7,6 +21,20 @@ fix_family <- function(df.orig, df) {
 	df
 }
 
+#' @title fix_first
+#' @description Pick and polish first name
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_first(df.orig, df)}
+#' @keywords utilities
 fix_first <- function(df.orig, df) {
 	v <- df.orig$author_name
 	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
@@ -16,6 +44,20 @@ fix_first <- function(df.orig, df) {
 	df
 }
 
+#' @title fix_other
+#' @description Polish one-part name
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_other(df.orig, df)}
+#' @keywords utilities
 fix_other <- function(d.orig, df) {
 	v <- df.orig$author_name
 	v <- gsub("^(.*)\\, .*$",NA,v)
@@ -24,6 +66,20 @@ fix_other <- function(d.orig, df) {
 	df
 }
 
+#' @title fix_birth
+#' @description Pick and polish birth year
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_birth(df.orig, df)}
+#' @keywords utilities
 fix_birth <- function(df.orig, df) {
   v <- df.orig$author_date
   v <- gsub("^([0-9]{3,4})\\D[0-9]{3,4}$","\\1",v)
@@ -69,6 +125,20 @@ fix_birth <- function(df.orig, df) {
   df
 }
 
+#' @title fix_death
+#' @description Pick and polish year of death
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_death(df.orig, df)}
+#' @keywords utilities
 fix_death <- function(df.orig, df) {
   v <- df.orig$author_date
   v <- gsub("^[0-9]{3,4}\\D([0-9]{3,4})$","\\1",v)

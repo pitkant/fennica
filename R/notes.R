@@ -1,10 +1,17 @@
-# df$note_general <- embellish_field(df.orig[["500a"]]) # 21528 unique, 36382 NA
-# df$note_dissert <- embellish_field(df.orig[["502a"]]) # 4 unique, 65501 NA
-# df$note_granter <- embellish_field(df.orig[["502c"]]) # 88 unique, 66074 NA
-# df$note_year <- embellish_field(df.orig[["502d"]]) # 283 unique, 66258 NA
-# df$note_source <- embellish_field(df.orig[["510a"]]) # 5000 unique, 60165 NA
-# df$note_loc <- embellish_field(df.orig[["510c"]]) # 6451 unique, 65267 NA
-
+#' @title fix_note_diss
+#' @description Establish two binary variables: dissertation and synodal dissertation
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_note_diss(df.orig, df)}
+#' @keywords utilities
 fix_note_diss <- function(df.orig, df) {
 	v <- df.orig$note_dissertation
 	v[v=="Diss"] <- TRUE
@@ -25,6 +32,20 @@ fix_note_diss <- function(df.orig, df) {
 	df
 }
 
+#' @title fix_university
+#' @description Polish university names
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_university(df.orig, df)}
+#' @keywords utilities
 fix_university <- function(df.orig, df) {
   v <- df.orig$note_granter
   # Turun yliopisto ja Åbo Akademi perustettiin vasta aineiston loputtua  (1920 ja 1918, vastaavasti)

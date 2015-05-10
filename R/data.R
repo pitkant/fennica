@@ -2,14 +2,14 @@
 #' @description Read preparsed Fennica data
 #'
 #' @param file Source Fennica data file
-#' @return data.frame
+#' @return Dataframe with unpolished fields
 #'
 #' @export
 #' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @references See citation("fennica")
 #' 
-#' @examples \dontrun{est <- read_fennica_data(file)}
+#' @examples \dontrun{df.raw <- read_fennica_data(file)}
 #' @keywords utilities
 
 read_fennica_data <- function (file) {

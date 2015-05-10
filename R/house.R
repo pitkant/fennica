@@ -1,3 +1,17 @@
+#' @title fix_pubhouses
+#' @description Polish publishing house names
+#'
+#' @param df.orig Dataframe with original fields
+#' @param df Main dataframe
+#' @return Main dataframe
+#'
+#' @export
+#' 
+#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @references See citation("fennica")
+#' 
+#' @examples \dontrun{df <- fix_pubhouses(df.orig, df)}
+#' @keywords utilities
 fix_pubhouses <- function(df.orig, df) {
   v <- df.orig$publication_publisher
 
