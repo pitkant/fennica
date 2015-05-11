@@ -13,7 +13,7 @@
 #' @examples \dontrun{df <- fix_family(df.orig, df)}
 #' @keywords utilities
 fix_family <- function(df.orig, df) {
-	v <- df.orig$author_name
+	v <- fixEncoding(df.orig$author_name,latin1=TRUE)
 	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
 	v <- gsub("^(.*)\\, .*$","\\1",v)
 	df$family_name <- v
@@ -36,7 +36,7 @@ fix_family <- function(df.orig, df) {
 #' @examples \dontrun{df <- fix_first(df.orig, df)}
 #' @keywords utilities
 fix_first <- function(df.orig, df) {
-	v <- df.orig$author_name
+	v <- fixEncoding(df.orig$author_name,latin1=TRUE)
 	v <- gsub("^(?!(.*\\, .*$)).+$",NA,v,perl=TRUE)
 	v <- gsub("^.*\\, (.*)$","\\1",v)
 	df$first_name <- v
@@ -59,7 +59,7 @@ fix_first <- function(df.orig, df) {
 #' @examples \dontrun{df <- fix_other(df.orig, df)}
 #' @keywords utilities
 fix_other <- function(d.orig, df) {
-	v <- df.orig$author_name
+	v <- fixEncoding(df.orig$author_name,latin1=TRUE)
 	v <- gsub("^(.*)\\, .*$",NA,v)
 	df$other_name <- v
 

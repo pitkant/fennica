@@ -1,7 +1,7 @@
 source("../../R/city.R", encoding="UTF-8")
 source("../../R/country.R", encoding="UTF-8")
 
-unique_cities <- unique(df$city)
+unique_cities <- fixEncoding(unique(df$city),latin1=TRUE)
 
 # -------------------------------------------------------------------------------------------------------------------------------------------------------------
 

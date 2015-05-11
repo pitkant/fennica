@@ -13,7 +13,7 @@
 #' @examples \dontrun{df <- fix_pubwhen(df.orig, df)}
 #' @keywords utilities
 fix_pubwhen <- function(df.orig, df) {
-  v <- df.orig$publication_time
+  v <- fixEncoding(df.orig$publication_time,latin1=TRUE)
 
   v <- gsub("\\-\\-\\-","\\-",v)
   v <- gsub("\\-\\-","\\-",v)
@@ -61,7 +61,7 @@ fix_pubwhen <- function(df.orig, df) {
 #' @examples \dontrun{df <- fix_pubfrom(df.orig, df)}
 #' @keywords utilities
 fix_pubfrom <- function(df.orig, df) {
-  v <- df.orig$publication_time
+  v <- fixEncoding(df.orig$publication_time,latin1=TRUE)
 
   v <- gsub("\\-\\-\\-","\\-",v)
   v <- gsub("\\-\\-","\\-",v)
@@ -108,7 +108,7 @@ fix_pubfrom <- function(df.orig, df) {
 #' @examples \dontrun{df <- fix_pubtill(df.orig, df)}
 #' @keywords utilities
 fix_pubtill <- function(df.orig, df) {
-  v <- df.orig$publication_time
+  v <- fixEncoding(df.orig$publication_time,latin1=TRUE)
 
   v <- gsub("\\-\\-\\-","\\-",v)
   v <- gsub("\\-\\-","\\-",v)

@@ -19,6 +19,7 @@ Depends:
     stringr
 Imports:
     dplyr,
+    tau
 Suggests:
     knitr,
     rmarkdown

@@ -1,4 +1,5 @@
 library(dplyr)
+library(tau)
 df <- tbl_df(data.frame(list(row.index = 1:data_size)))
 
 # ---------------------------------------------
