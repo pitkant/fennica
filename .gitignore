@@ -4,4 +4,6 @@
 *~
 inst/examples/data
 *.Rdata
+*.RData
+*.Rds
 *.Rproj
