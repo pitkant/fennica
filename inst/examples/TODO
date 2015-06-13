@@ -1,0 +1,316 @@
+Terve Niko,
+
+Katsoin Fennican läpi ja listasin kohdat jotka mielestäni kannattaisi
+yhtenäistää mahdollisimman pikaisesti estc:n kanssa tai muuten vielä
+tehdä.
+
+Tässä nähdäkseni kaikki mitä vielä tarvittaisiin fennica-paketin
+viimeistelyyn julkaisua ajatellen (myös aiempi meilini listattu mukaan
+tähän). Listaan nämä tässä tärkeysjärjestyksessä. Ollaan nyt
+aktiivisesti yhteyksissä että saadaan hommaa nopeasti eteenpäin.
+
+Yhtenäistin jo kokeeksi fennican city.R/preprocess_placenames -
+funktion ja estc:n R/geo.R : harmonize_place - funktion ja siirsin
+bibliographicaan. Modasin sun phase3.R koodin vastaavasti ja testasin
+että toimii. Voit tarkistella lisää ja parantaa. Nyt siis tämä funktio
+jaettu estc:n ja fennican kesken. 
+
+-------------------------------------------
+
+Paketin CRAN-käännön siivous virheistä ja varoituksista (tämä on nopea homma):
+
+CRAN-pakettien R-kansiossa ei valitettavasti saa olla skandeja, eli
+poista ne (esim. Ilomäki -> Ilomaki)
+
+Found the following hidden files and directories:
+  inst/examples/.RData
+  inst/extras/.RData
+
+-> Lisää juureen /.Rbuildignore-file jossa listattu nämä
+
+Malformed Description field: should contain one or more complete
+sentences. -> DESRIPTION-file, kenttä Description - Aloita isolla
+alkukirjaimella ja lopeta pisteeseen.
+
+Invalid license file pointers: LICENSE -> Katso mallia
+estc-paketista. DESCRIPTION-filen License kenttä + LICENSE-file pitää
+mätchätä.
+
+* checking R files for non-ASCII characters ... WARNING
+Found the following files with non-ASCII characters:
+  author.R
+  city.R
+  country.R
+  house.R
+  notes.R
+
+-> Poista non-ASCIIT siltä osin kuin mahdollista. Voit jättää ne mitä
+   ei pysty poistamaan. Pitää ihmetellä niitä lisää sitten joskus.
+
+Namespaces in Imports field not imported from:
+  ‘dplyr’ ‘tau’
+  All declared Imports should be used.
+
+-> Jos käytät näitä tietyissä R-koodeissa, lisää roxygen-dokumentaatioon
+   #' @importFrom tau sometaufunction
+   jne.
+
+-> dplyr kandee ehkä importata kokonaisuudessaan. Lisää silloin fileen
+   firstlib.R rivi
+   #' @import dplyr 
+
+Tämän jälkeen importit lisätään NAMESPACEEn ja DESCRIPTIONiin
+automaattisesti kun käytät paketille devtools::document-funktiota
+R:ssä.
+
+Jos et käytä näitä funktioissa, siirrä ne DESCRIPTION-filen
+Suggests-kenttään.
+
+counts_by_language: no visible global function definition for ‘%>%’ ->
+Luulen että tämä poistuu sen jälkeen kun tuo dplyr-importti on
+fiksattu yllä mainitulla tavalla
+
+counts_by_language: no visible global function definition for
+  ‘group_by’
+counts_by_language: no visible binding for global variable
+  ‘publication_tia’
+
+-> Tällaisten kohdalla pitäisi lisätä kyseisen funktion
+   roxygen-dokumentaatiokenttään
+   #' importFrom dplyr group_by
+   jneje. eli selektiivinen importtaus kullekin funktiolle.
+
+Undocumented arguments in documentation object 'fix_other'
+  ‘d.orig’
+Documented arguments not in \usage in documentation object 'fix_other':
+  ‘df.orig’
+
+-> funktion dokumentaatio ja implementointi ei mätchää. Tarkista että
+   argumenttien nimet mätchää roxygen-osiossa ja funktion argumenteissa.
+
+> t <- paste_without_NA()
+Error in ifelse(is.na(x1), t, paste0(t, ";", as.character(x1))) : 
+  object 'data_size' not found
+Calls: paste_without_NA -> ifelse
+Execution halted
+
+-> Esimerkki on rikki. Kommentoi esimerkki pois, käännä paketti,
+   testaa ja fiksaa, palauta korjattu esimerkki roxygeniin. Jos et saa
+   korjatuksi, jätä pois. Periaatteessa kaikkien @export funktioitten
+   kohdalla pitäisi olla esimerkki mutta vähän tästä voi joustaa.
+
+---------------------------
+
+Siirrä phase3.R / mark_languages - funktion bibliographica-pakettiin
+(NVI). Sen jälkeen voidaan käyttää myös estcssä (Leo)
+
+---------------------------
+
+Sivumäärät: käytä (ja kehitä) bibliographican polish_pages-funktiota
+sivumäärien estimointiin. Funktio on aika sotku tällä hetkellä mutta
+ajaa asiansa. Sitä pitänee kuitenkin hieman sovittaa ennen kuin toimii
+myös fennicalle. Yksityiskohdista ja parannuksista olisi helpompi
+jutella sitten kun olet vähän katsonut tätä Fennican kanssa. Putsaus
+(hidas) tapahtuu näin: library(bibliographica); pp <-
+polish_pages(df$physical_extent) Tällä hetkellä tämä näyttää jo
+arvioivan sivumäärän 33% dokumenteista Fennicassa. Pitää tarkistella
+meneenkö ne oikein, ja miten loput saisi mukaan. Samalla voidaan
+miettiä pitäisikö funktiota yksinkertaistaa sillä riskillä että
+vähemmän sivuja saadaan mukaan.
+
+-----------------------------------------
+
+Dokumentin dimensiokenttä:
+https://github.com/rOpenGov/estc/blob/master/inst/examples/document.dimensions.R
+tässä poimin ensin kentästä kaiken mitä irti lähtee (folio/quarto ym
+tieto sekä cm-mitat jos annettu). Sen jälkeen täydennän Mikon taulujen
+avulla loput puuttuvat tiedot. Meidän olisi hyvä yhtenäistää
+standardikokojen esitysmuoto. Olen harmonisoinut standardikoot
+lopullisessa datassa muotoon 1to, 2to, 4to, 8to jne. Muutetaan ne
+myöhemmin vastaamaan oikeaoppisia termejä, mutta toistaiseksi riittää
+että saadaan fennican ja estcn siivottuun dataan yhtenäinen muoto eli
+tämä. Toimivin tapa toteuttaa tämä olisi varmaankin täydentää ja
+käyttää bibliographican harmonize_dimension-funktiota, jotta se osaa
+konvertoida myös fennica-datassa esiintyvät muodot (4:o) samoiksi kuin
+estc:ssä (4to). Toivon että kysyt omatoimisesti jos jokin jäi
+epäselväksi.
+
+Lisäksi dimensiokentässä on noita cm-tietoja. Voit kokeilla toimiiko
+miten mun polish_dimensions(.., fill = FALSE) pitäisi vielä viilata
+fennicalle. Jonkun verran näyttäisi jo toimivan sellaisenaan: tmp <-
+polish_dimensions(unique(df$physical_dimension), fill = FALSE)
+
+Tuon fill = TRUE-option käyttöä pitää miettiä. Että käykö Mikon
+laatimat muuntotaulukot sellaisenaan fennica-datalle vai pitääkö
+laatia uudet. Voisit kuitenkin koittaa myös täydentää tiedot ja
+vaihdetaan muunnostaulukot sitten myöhemmin jos tulee tarve: tmp2 <-
+polish_dimensions(unique(df$physical_dimension), fill = TRUE)
+
+Pidä erillään tieto alkuperäisestä kokotiedosta ja jälkikäteen
+estimoiduista tiedoista (kuten mun koodissa), jotta voidaan vertailla
+jälkikäteen näitä.
+
+--------------------------
+
+Julkaisijakenttä -> Tulosta Mikkoa varten output.tables-kansioon CSV,
+jossa on listattu julkaisijat suuruusjärjestyksessä. Tähän tyyliin
+(tähän voisi kirjoittaa oman funktionsakin selkeyden vuoksi mutta eipä
+ole tullut tehtyä):
+
+print("Write places with missing geolocation to file")
+tab <- rev(sort(table(df[is.na(idx), "publication.place"])))
+tab <- tab[tab > 0]
+tab <- cbind(names(tab), tab)
+colnames(tab) <- c("name", "count")
+write.table(tab, file = paste(output.folder, "missinggeocoordinates.csv", sep = ""), quote = F, row.names = F, sep = "\t")
+
+Sen jälkeen pistä Mikolle sähköpostilla tieto että voi tarkistella
+listaa ja katsoa löytyykö esim synonyymejä. Jos löytyy niin
+julkaisikasynonyymeistä oma taulukkonsa ja bibliographican
+harmonize_terms-funktion avulla synonyymien harmonisointi.
+
+----------------------------------------
+
+Found the following files with duplicate lower-cased file names:
+  inst/examples/output.tables/city_Altdorf.csv
+  inst/examples/output.tables/city_Berliini.csv
+  etc..
+
+-> Pidän valtavasti ideasta, että tämä synonyymitaulujen haku on
+   mahd. pitkälle automatisoitu stringmatchingillä kuten olet tehnyt. 
+
+-> Tämä on nyt output.tables-hakemistossa. Kokoa näistä yksi
+   kaupunkinimien synonyymitiedosto, jota käytetään lopullisen paketin
+   input-tiedostona kaupunkien nimien harmonisointiin. Ja
+   output.tables-hakemistoon tulostaat ne tapaukset jotka jää vielä
+   mätchäyksestä ulos (myöhempää viilausta varten).
+
+-> Poista lower-cased file names
+-> Yhdistä kaikki filet yhdeksi kaupunkinimien synonyymifileksi
+-> Käytetään samaa synonyymifileä fennican ja estc:n kanssa
+
+---------------------------------
+
+Fennica ja ESTC sisältää nyt samoja raakadatakenttiä eri nimillä:
+ESTC: 245.a-Title
+Fennica: 245a
+ym.ym.
+
+-> Voisiko parserit tehdä niin, että kirjastoluetteloista saadaan aina
+   kentille yhtenäinen standardinimi (esim. muotoa 245a tai muu
+   sopiva)? Sitten voitaisiin tehdä valmis R-funktio, joka osaa
+   konvertoida nämä selkokieliseen muotoon omana steppinään ennen (tai
+   jälkeen) muuta esikäsittelyä. Tällä hetkellä uudelleennimeäminen
+   tehdään sekä ESTC:ssä että Fennicassa omalla koodillaan (fennica:
+   inst/examples/phase2.R; estc: inst/examples/preprocess.R). Tän
+   kohdan saisi helposti yhtenäiseksi, pistäisi molempien aineistojen
+   esikäsittelyyn jotain tyyliin:
+   df.orig <- harmonize_field_names(df.orig)
+
+   Kaikkia nimiä ei ehkä voi yhtenäistää. Näiden osalta vaan jätetään
+   alkuperäinen kenttänimi jolloin käyttäjä voi tehdä loput
+   custom-muutokset tarpeen mukaan. Mutta automatisoidaan se mikä
+   voidaan.
+
+Sulla on parsimishommaan hyvä kosketus nyt niin olisi toimivin jos
+saisit koodatuksi tän kohdan. Voin testata ja muuttaa estc:n käyttään
+tuota jos saat implementoiduksi. Eli pitää tehdä:
+
+- parserin output niin että antaa aina saman kenttänimen (muotoa 245a
+  tms) sekä fennicalle, estc:lle että muille katalogeille kun kyseessä
+  sama raakadataformaatti
+
+- bibliographicaan uusi funktio harmonize_field_names joka konvertoi
+  nämä koodit selkokielisiksi (245a -> title jne.)
+
+- estc- ja fennica-koodien muokkaus käyttämään tätä viilattua
+  versiota. Työnjakona Fennica (NVI) ja ESTC (Leo)
+
+---------------------------------------
+
+phase2.R embellish-toiminnot pitäisi sisältyä jo
+read_fennica_data-funktioon selkeyden vuoksi. Tärkeää, että koodi
+olisi mahdollisimman tiivistä ja luettavaa. Pyritään siihen että
+tällaiset tekniset ja aineiston jatkokäyttäjän kannalta epäoleelliset
+rutiinit on siivottu valmiitten funktioitten sisään.
+
+----------------------------------------
+
+phase3.R:
+df$title_uniform <- df.orig$title_uniform
+df$title_proper <- df.orig$title_proper
+df$title_remainder <- df.orig$title_remainder
+
+- Koodin luettavuuden parantamiseksi kompakti tyyli olisi mielestäni
+  parempi, eli älä tee erillistä poimintaa kentille joita ei sen
+  enempää esikäsitellä (esim. nämä title-kentät). Sen sijaan poimi
+  koodin alussa valitut kentät tyyliin: df <- df.orig[,
+  selected.fields] ja sen jälkeen oma funktionsa kunkin kentän
+  siivoamiseen vain niiden kenttien osalta joille todella tehdään
+  siivousta.
+
+--------------------------------------
+
+city_examples.R correct_misspellings - funktio olisi hyvä tehdä niin
+että kaiken saa siivotuksi noin sadan rivin sijasta yhden rivin
+komennolla joka hyödyntää valmiiksi konstruoitua paikannimien
+synonyymilistaa (synonyymilistan tuottava koodikin on hyvä olla
+saatavilla mutta lopullisissa analyyseissä voidaan käyttää suoraan
+sitä synonyymilistaa joka pistetään avoimesti saataville verkkoon).
+
+----------------------------------------
+
+fix_university
+
+-> tee selkeyden ja yhtenäisyyden nimissä inst/extdata-kansioon
+   lisättävällä synonyymitiedostolla kuten kaupunkinimet ym. Analyysi
+   on läpinäkyvämpi ja helpommin modattavissa, kun käytetty
+   synonyymilista on kaikkien tarkistettavissa ja muokattavissa
+   yhdessä yksikäsitteisessä ja avoimessa tiedostossa. Ja käytetään
+   samaa siivomaiskäytäntöä (synonyymilista) kuin
+   muuallakin. (Synonyymilistan generointi voi olla kokonaan
+   automatisoitu, mutta usein sitä ei voida kokonaan
+   automatisoida. Selkeyden vuoksi on hyvä että lopulta käytössä on
+   yksikäsitteinen synonyymilista, johon on voitu automaattisen
+   generoinnin jälkeen lisätä entryjä myös käsin.)
+
+
+
+==================================
+
+Leo katsoo näitä ja palailee asiaan:
+
+----------------------------------------
+
+Yhtenäistä fennica:deduce_country ja estc:get_country ja siirrä
+bibliographicaan. Leo tsekkaa.
+
+------------------------------------------
+
+Yhtenäistä fennica:fix_pubhouses ja estc:polish_publisher ja siirrä
+bibliographicaan(?). Leo tsekkaa.
+
+--------------------------------------------
+
+phase3.R:
+df <- fix_pubwhen(df.orig, df)
+df <- fix_pubfrom(df.orig, df)
+df <- fix_pubtill(df.orig, df)
+
+-> Nämäkin taitaa olla päällekkäisiä estc:n vastaavien kanssa. Pitää
+   yhtenäistää.
+
+-------------------------------------------------
+
+phase3.R:
+df <- fix_family(df.orig, df)
+df <- fix_first(df.orig, df)
+df <- fix_other(df.orig, df)
+df <- fix_birth(df.orig, df)
+df <- fix_death(df.orig, df)
+
+-> Vastaavia tehdään estc:ssä mutta eri funktioilla. Nämä pitäisi myös
+   yhtenäistää, koska voidaan käyttää muittenkin luetteloiden
+   kanssa. Voin katsoa tätä itse vähän lisää.
+
+
