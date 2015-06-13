@@ -29,7 +29,19 @@ df$title_remainder <- df.orig$title_remainder
 
 print("Publication data")
 source("../../R/city.R", encoding = "UTF-8")
-df <- preprocess_placenames(df.orig, df)
+
+# Korvasin preprocess_placenames-funktion talla. Tarkista etta
+# paikannimet konvertoituu oikein ja tarvittaessa voit taydentaa
+# funktiota suoraan bibliographicaan.  Huom:
+# bibliographica::polish_place hyödyntää paikannimien synonyymilistaa
+# johon voisi lisätä mukaan nuo automaattisesti
+# generoimasi. Synonyymilistojen generointiin tekemäsi
+# string-mätchäysfunktion voisit lisätä bibliographica-pakettiin
+# esimerkin kera myöhempää hyödyntämistä varten.
+
+library(bibliographica)
+df$publication_place <- polish_place(df.orig$publication_place, remove.unknown = FALSE)
+
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
 source("../../R/country.R", encoding = "UTF-8")
 df <- deduce_country(df)
