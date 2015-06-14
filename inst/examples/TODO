@@ -1,19 +1,12 @@
-Terve Niko,
-
-Katsoin Fennican läpi ja listasin kohdat jotka mielestäni kannattaisi
-yhtenäistää mahdollisimman pikaisesti estc:n kanssa tai muuten vielä
-tehdä.
-
 Tässä nähdäkseni kaikki mitä vielä tarvittaisiin fennica-paketin
 viimeistelyyn julkaisua ajatellen (myös aiempi meilini listattu mukaan
 tähän). Listaan nämä tässä tärkeysjärjestyksessä. Ollaan nyt
 aktiivisesti yhteyksissä että saadaan hommaa nopeasti eteenpäin.
 
-Yhtenäistin jo kokeeksi fennican city.R/preprocess_placenames -
-funktion ja estc:n R/geo.R : harmonize_place - funktion ja siirsin
+Yhtenäistin kokeeksi fennican city.R/preprocess_placenames - funktion
+ja estc:n R/geo.R : harmonize_place - funktion ja siirsin
 bibliographicaan. Modasin sun phase3.R koodin vastaavasti ja testasin
-että toimii. Voit tarkistella lisää ja parantaa. Nyt siis tämä funktio
-jaettu estc:n ja fennican kesken. 
+että toimii. Voit tarkistella lisää ja parantaa. 
 
 -------------------------------------------
 
@@ -171,6 +164,13 @@ harmonize_terms-funktion avulla synonyymien harmonisointi.
 
 ----------------------------------------
 
+city_examples.R correct_misspellings - funktio olisi hyvä tehdä niin
+että kaiken saa siivotuksi noin sadan rivin sijasta yhden rivin
+komennolla joka hyödyntää valmiiksi konstruoitua paikannimien
+synonyymilistaa (synonyymilistan tuottava koodikin on hyvä olla
+saatavilla mutta lopullisissa analyyseissä voidaan käyttää suoraan
+sitä synonyymilistaa joka pistetään avoimesti saataville verkkoon).
+
 Found the following files with duplicate lower-cased file names:
   inst/examples/output.tables/city_Altdorf.csv
   inst/examples/output.tables/city_Berliini.csv
@@ -250,15 +250,6 @@ df$title_remainder <- df.orig$title_remainder
   siivousta.
 
 --------------------------------------
-
-city_examples.R correct_misspellings - funktio olisi hyvä tehdä niin
-että kaiken saa siivotuksi noin sadan rivin sijasta yhden rivin
-komennolla joka hyödyntää valmiiksi konstruoitua paikannimien
-synonyymilistaa (synonyymilistan tuottava koodikin on hyvä olla
-saatavilla mutta lopullisissa analyyseissä voidaan käyttää suoraan
-sitä synonyymilistaa joka pistetään avoimesti saataville verkkoon).
-
-----------------------------------------
 
 fix_university
 
