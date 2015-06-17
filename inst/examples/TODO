@@ -21,14 +21,6 @@ Found the following hidden files and directories:
 
 -> Lisää juureen /.Rbuildignore-file jossa listattu nämä
 
-Malformed Description field: should contain one or more complete
-sentences. -> DESRIPTION-file, kenttä Description - Aloita isolla
-alkukirjaimella ja lopeta pisteeseen.
-
-Invalid license file pointers: LICENSE -> Katso mallia
-estc-paketista. DESCRIPTION-filen License kenttä + LICENSE-file pitää
-mätchätä.
-
 * checking R files for non-ASCII characters ... WARNING
 Found the following files with non-ASCII characters:
   author.R
@@ -39,58 +31,6 @@ Found the following files with non-ASCII characters:
 
 -> Poista non-ASCIIT siltä osin kuin mahdollista. Voit jättää ne mitä
    ei pysty poistamaan. Pitää ihmetellä niitä lisää sitten joskus.
-
-Namespaces in Imports field not imported from:
-  ‘dplyr’ ‘tau’
-  All declared Imports should be used.
-
--> Jos käytät näitä tietyissä R-koodeissa, lisää roxygen-dokumentaatioon
-   #' @importFrom tau sometaufunction
-   jne.
-
--> dplyr kandee ehkä importata kokonaisuudessaan. Lisää silloin fileen
-   firstlib.R rivi
-   #' @import dplyr 
-
-Tämän jälkeen importit lisätään NAMESPACEEn ja DESCRIPTIONiin
-automaattisesti kun käytät paketille devtools::document-funktiota
-R:ssä.
-
-Jos et käytä näitä funktioissa, siirrä ne DESCRIPTION-filen
-Suggests-kenttään.
-
-counts_by_language: no visible global function definition for ‘%>%’ ->
-Luulen että tämä poistuu sen jälkeen kun tuo dplyr-importti on
-fiksattu yllä mainitulla tavalla
-
-counts_by_language: no visible global function definition for
-  ‘group_by’
-counts_by_language: no visible binding for global variable
-  ‘publication_tia’
-
--> Tällaisten kohdalla pitäisi lisätä kyseisen funktion
-   roxygen-dokumentaatiokenttään
-   #' importFrom dplyr group_by
-   jneje. eli selektiivinen importtaus kullekin funktiolle.
-
-Undocumented arguments in documentation object 'fix_other'
-  ‘d.orig’
-Documented arguments not in \usage in documentation object 'fix_other':
-  ‘df.orig’
-
--> funktion dokumentaatio ja implementointi ei mätchää. Tarkista että
-   argumenttien nimet mätchää roxygen-osiossa ja funktion argumenteissa.
-
-> t <- paste_without_NA()
-Error in ifelse(is.na(x1), t, paste0(t, ";", as.character(x1))) : 
-  object 'data_size' not found
-Calls: paste_without_NA -> ifelse
-Execution halted
-
--> Esimerkki on rikki. Kommentoi esimerkki pois, käännä paketti,
-   testaa ja fiksaa, palauta korjattu esimerkki roxygeniin. Jos et saa
-   korjatuksi, jätä pois. Periaatteessa kaikkien @export funktioitten
-   kohdalla pitäisi olla esimerkki mutta vähän tästä voi joustaa.
 
 ---------------------------
 

@@ -21,7 +21,7 @@ Pick and polish year of publication (books)
 \dontrun{df <- fix_pubwhen(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

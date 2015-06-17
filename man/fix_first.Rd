@@ -21,7 +21,7 @@ Pick and polish first name
 \dontrun{df <- fix_first(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

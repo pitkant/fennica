@@ -18,10 +18,10 @@ Vector of strings
 Variant of two-variable paste for situations where NA is possible
 }
 \examples{
-t <- paste_without_NA()
+t <- paste_without_NA(x1=NA,x2=NA)
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

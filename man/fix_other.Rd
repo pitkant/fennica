@@ -4,12 +4,12 @@
 \alias{fix_other}
 \title{fix_other}
 \usage{
-fix_other(d.orig, df)
+fix_other(df.orig, df)
 }
 \arguments{
-\item{df}{Main dataframe}
-
 \item{df.orig}{Dataframe with original fields}
+
+\item{df}{Main dataframe}
 }
 \value{
 Main dataframe
@@ -21,7 +21,7 @@ Polish one-part name
 \dontrun{df <- fix_other(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

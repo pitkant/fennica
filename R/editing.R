@@ -30,7 +30,7 @@ embellish <- function(v) {
 #' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
-#' @examples t <- paste_without_NA()
+#' @examples t <- paste_without_NA(x1=NA,x2=NA)
 #' @keywords utilities
 paste_without_NA <- function(x1=rep(NA,data_size),x2=rep(NA,data_size)) {
   t <- ""

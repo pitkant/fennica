@@ -11,15 +11,15 @@
 #' @examples \dontrun{counts_total(df)}
 #' @keywords utilities
 counts_total <- function(df) {
-  f <- df %>% group_by(publication_tia) %>% tally() %>% arrange(publication_tia)
+  f <- df %>% group_by(published_in) %>% tally() %>% arrange(published_in)
   f$cumul <- cumsum(f$n)
   
   png("figure/total_noncumul.png")
-  plot(f$publication_tia,f$n)
+  plot(f$published_in,f$n)
   dev.off()
   
   png("figure/total_cumul.png")
-  plot(f$publication_tia,f$cumul)
+  plot(f$published_in,f$cumul)
   dev.off()
   
 }
@@ -39,15 +39,15 @@ counts_total <- function(df) {
 #' @examples \dontrun{counts_by_town(df,"Hämeenlinna","Hameenlinna")}
 #' @keywords utilities
 counts_by_town <- function(df, str, file) {
-  f <- df %>% filter(publication_plc == str) %>% group_by(publication_tia) %>% tally() %>% arrange(publication_tia)
+  f <- df %>% filter(publication_place == str) %>% group_by(published_in) %>% tally() %>% arrange(published_in)
   f$cumul <- cumsum(f$n)
   
   png(paste0("figure/",file,"_noncumul.png"))
-  plot(f$publication_tia,f$n)
+  plot(f$published_in,f$n)
   dev.off()
   
   png(paste0("figure/",file,"_cumul.png"))
-  plot(f$publication_tia,f$cumul)
+  plot(f$published_in,f$cumul)
   dev.off()
 }
 
@@ -66,14 +66,14 @@ counts_by_town <- function(df, str, file) {
 #' @examples \dontrun{counts_by_language(df,"finnish","lang_finnish")}
 #' @keywords utilities
 counts_by_language <- function(df, str, file) {
-  f <- df %>% filter(df[,get("str")] == 1) %>% group_by(publication_tia) %>% tally() %>% arrange(publication_tia)
+  f <- df %>% filter(df[,get("str")] == 1) %>% group_by(published_in) %>% tally() %>% arrange(published_in)
   f$cumul <- cumsum(f$n)
   
   png(paste0("figure/",file,"_noncumul.png"))
-  plot(f$publication_tia,f$n)
+  plot(f$published_in,f$n)
   dev.off()
   
   png(paste0("figure/",file,"_cumul.png"))
-  plot(f$publication_tia,f$cumul)
+  plot(f$published_in,f$cumul)
   dev.off()
 }

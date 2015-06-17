@@ -61,7 +61,7 @@ fix_first <- function(df.orig, df) {
 #' 
 #' @examples \dontrun{df <- fix_other(df.orig, df)}
 #' @keywords utilities
-fix_other <- function(d.orig, df) {
+fix_other <- function(df.orig, df) {
 	v <- fixEncoding(df.orig$author_name,latin1=TRUE)
 	v <- gsub("^(.*)\\, .*$",NA,v)
 	df$other_name <- v

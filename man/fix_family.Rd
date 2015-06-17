@@ -21,7 +21,7 @@ Pick and polish family name
 \dontrun{df <- fix_family(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

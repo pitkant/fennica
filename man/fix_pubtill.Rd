@@ -21,7 +21,7 @@ Pick and polish last year of publication (newspapers and magazines)
 \dontrun{df <- fix_pubtill(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

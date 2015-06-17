@@ -21,7 +21,7 @@ Establish two binary variables: dissertation and synodal dissertation
 \dontrun{df <- fix_note_diss(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

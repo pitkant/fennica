@@ -19,7 +19,7 @@ Add country field to data frame based on city field
 \dontrun{df <- deduce_country(df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

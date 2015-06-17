@@ -21,7 +21,7 @@ Polish publishing house names
 \dontrun{df <- fix_pubhouses(df.orig, df)}
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

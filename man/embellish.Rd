@@ -19,7 +19,7 @@ Remove preceding and following characters from strings
 v <- embellish(c("  Bernard Mandeville         "," John Locke    "))
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

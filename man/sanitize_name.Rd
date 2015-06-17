@@ -19,7 +19,7 @@ Remove Nordic characters etc. from strings to use in filenames
 name <- sanitize_name("Hämeenlinna")
 }
 \author{
-Niko Ilomäki \email{niko.ilomaki@helsinki.fi}
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")
