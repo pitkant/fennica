@@ -5,9 +5,10 @@
 #' @param df Main dataframe
 #' @return Main dataframe
 #'
+#' @importFrom tau fixEncoding
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_family(df.orig, df)}
@@ -28,9 +29,10 @@ fix_family <- function(df.orig, df) {
 #' @param df Main dataframe
 #' @return Main dataframe
 #'
+#' @importFrom tau fixEncoding
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_first(df.orig, df)}
@@ -51,9 +53,10 @@ fix_first <- function(df.orig, df) {
 #' @param df Main dataframe
 #' @return Main dataframe
 #'
+#' @importFrom tau fixEncoding
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_other(df.orig, df)}
@@ -75,7 +78,7 @@ fix_other <- function(d.orig, df) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_birth(df.orig, df)}
@@ -134,7 +137,7 @@ fix_birth <- function(df.orig, df) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_death(df.orig, df)}

@@ -7,7 +7,7 @@
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_note_diss(df.orig, df)}
@@ -41,7 +41,7 @@ fix_note_diss <- function(df.orig, df) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_university(df.orig, df)}

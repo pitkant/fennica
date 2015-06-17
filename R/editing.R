@@ -6,7 +6,7 @@
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples v <- embellish(c("  Bernard Mandeville         "," John Locke    "))
@@ -27,7 +27,7 @@ embellish <- function(v) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples t <- paste_without_NA()

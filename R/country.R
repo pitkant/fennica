@@ -6,7 +6,7 @@
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- deduce_country(df)}

@@ -5,9 +5,10 @@
 #' @param df Dataframe with modified fields
 #' @return Dataframe with modified fields
 #'
+#' @importFrom tau fixEncoding
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_pubwhen(df.orig, df)}
@@ -53,9 +54,10 @@ fix_pubwhen <- function(df.orig, df) {
 #' @param df Dataframe with modified fields
 #' @return Dataframe with modified fields
 #'
+#' @importFrom tau fixEncoding
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_pubfrom(df.orig, df)}
@@ -100,9 +102,10 @@ fix_pubfrom <- function(df.orig, df) {
 #' @param df Dataframe with modified fields
 #' @return Dataframe with modified fields
 #'
+#' @importFrom tau fixEncoding
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{df <- fix_pubtill(df.orig, df)}

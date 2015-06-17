@@ -5,7 +5,7 @@
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{counts_total(df)}
@@ -33,7 +33,7 @@ counts_total <- function(df) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{counts_by_town(df,"Hämeenlinna","Hameenlinna")}
@@ -60,7 +60,7 @@ counts_by_town <- function(df, str, file) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{counts_by_language(df,"finnish","lang_finnish")}

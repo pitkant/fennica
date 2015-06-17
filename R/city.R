@@ -6,7 +6,7 @@
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples name <- sanitize_name("Hämeenlinna")
@@ -46,7 +46,7 @@ sanitize_name <- function(name) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{all <- collect_misspellings("Hämeenlinna",c("Hämeenlinna","Tavastehus"),c("Hämeenlinnae","Tavasteehuus"))}
@@ -83,7 +83,7 @@ collect_misspellings <- function (city, variations, all) {
 #'
 #' @export
 #' 
-#' @author Niko Ilomäki \email{niko.ilomaki@@helsinki.fi}
+#' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
 #' @examples \dontrun{v <- correct_misspellings(v,"Hämeenlinna")}
