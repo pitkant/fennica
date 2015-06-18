@@ -15,12 +15,6 @@ Paketin CRAN-käännön siivous virheistä ja varoituksista (tämä on nopea hom
 CRAN-pakettien R-kansiossa ei valitettavasti saa olla skandeja, eli
 poista ne (esim. Ilomäki -> Ilomaki)
 
-Found the following hidden files and directories:
-  inst/examples/.RData
-  inst/extras/.RData
-
--> Lisää juureen /.Rbuildignore-file jossa listattu nämä
-
 * checking R files for non-ASCII characters ... WARNING
 Found the following files with non-ASCII characters:
   author.R
@@ -31,11 +25,6 @@ Found the following files with non-ASCII characters:
 
 -> Poista non-ASCIIT siltä osin kuin mahdollista. Voit jättää ne mitä
    ei pysty poistamaan. Pitää ihmetellä niitä lisää sitten joskus.
-
----------------------------
-
-Siirrä phase3.R / mark_languages - funktion bibliographica-pakettiin
-(NVI). Sen jälkeen voidaan käyttää myös estcssä (Leo)
 
 ---------------------------
 
@@ -131,35 +120,6 @@ Found the following files with duplicate lower-cased file names:
 
 ---------------------------------
 
-Fennica ja ESTC sisältää nyt samoja raakadatakenttiä eri nimillä:
-ESTC: 245.a-Title
-Fennica: 245a
-ym.ym.
-
--> Voisiko parserit tehdä niin, että kirjastoluetteloista saadaan aina
-   kentille yhtenäinen standardinimi (esim. muotoa 245a tai muu
-   sopiva)? Sitten voitaisiin tehdä valmis R-funktio, joka osaa
-   konvertoida nämä selkokieliseen muotoon omana steppinään ennen (tai
-   jälkeen) muuta esikäsittelyä. Tällä hetkellä uudelleennimeäminen
-   tehdään sekä ESTC:ssä että Fennicassa omalla koodillaan (fennica:
-   inst/examples/phase2.R; estc: inst/examples/preprocess.R). Tän
-   kohdan saisi helposti yhtenäiseksi, pistäisi molempien aineistojen
-   esikäsittelyyn jotain tyyliin:
-   df.orig <- harmonize_field_names(df.orig)
-
-   Kaikkia nimiä ei ehkä voi yhtenäistää. Näiden osalta vaan jätetään
-   alkuperäinen kenttänimi jolloin käyttäjä voi tehdä loput
-   custom-muutokset tarpeen mukaan. Mutta automatisoidaan se mikä
-   voidaan.
-
-Sulla on parsimishommaan hyvä kosketus nyt niin olisi toimivin jos
-saisit koodatuksi tän kohdan. Voin testata ja muuttaa estc:n käyttään
-tuota jos saat implementoiduksi. Eli pitää tehdä:
-
-- parserin output niin että antaa aina saman kenttänimen (muotoa 245a
-  tms) sekä fennicalle, estc:lle että muille katalogeille kun kyseessä
-  sama raakadataformaatti
-
 - bibliographicaan uusi funktio harmonize_field_names joka konvertoi
   nämä koodit selkokielisiksi (245a -> title jne.)
 
@@ -191,21 +151,7 @@ df$title_remainder <- df.orig$title_remainder
 
 --------------------------------------
 
-fix_university
-
--> tee selkeyden ja yhtenäisyyden nimissä inst/extdata-kansioon
-   lisättävällä synonyymitiedostolla kuten kaupunkinimet ym. Analyysi
-   on läpinäkyvämpi ja helpommin modattavissa, kun käytetty
-   synonyymilista on kaikkien tarkistettavissa ja muokattavissa
-   yhdessä yksikäsitteisessä ja avoimessa tiedostossa. Ja käytetään
-   samaa siivomaiskäytäntöä (synonyymilista) kuin
-   muuallakin. (Synonyymilistan generointi voi olla kokonaan
-   automatisoitu, mutta usein sitä ei voida kokonaan
-   automatisoida. Selkeyden vuoksi on hyvä että lopulta käytössä on
-   yksikäsitteinen synonyymilista, johon on voitu automaattisen
-   generoinnin jälkeen lisätä entryjä myös käsin.)
-
-
+fix_university: käytä synonyymilistaa
 
 ==================================
 

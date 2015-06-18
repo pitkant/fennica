@@ -22,5 +22,6 @@ Imports:
 Suggests:
 	stringr,
     knitr,
-    rmarkdown
+    rmarkdown,
+    bibliographica
 LazyLoad: yes

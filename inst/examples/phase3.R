@@ -1,17 +1,17 @@
 library(dplyr)
 library(tau)
+library(fennica)
+library(bibliographica)
 df <- tbl_df(data.frame(list(row.index = 1:data_size)))
 
 # ---------------------------------------------
 
 print("Languages")
-source("../../R/languages.R", encoding = "UTF-8")
 df <- mark_languages(df.orig, df)
 
 # ---------------------------------------------
 
 print("Author data")
-source("../../R/author.R", encoding="UTF-8")
 df <- fix_family(df.orig, df)
 df <- fix_first(df.orig, df)
 df <- fix_other(df.orig, df)
@@ -28,7 +28,6 @@ df$title_remainder <- df.orig$title_remainder
 # ---------------------------------------------
 
 print("Publication data")
-source("../../R/city.R", encoding = "UTF-8")
 
 # Korvasin preprocess_placenames-funktion talla. Tarkista etta
 # paikannimet konvertoituu oikein ja tarvittaessa voit taydentaa
@@ -39,15 +38,11 @@ source("../../R/city.R", encoding = "UTF-8")
 # string-mätchäysfunktion voisit lisätä bibliographica-pakettiin
 # esimerkin kera myöhempää hyödyntämistä varten.
 
-library(bibliographica)
 df$publication_place <- polish_place(df.orig$publication_place, remove.unknown = FALSE)
 
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
-source("../../R/country.R", encoding = "UTF-8")
 df <- deduce_country(df)
-source("../../R/house.R", encoding = "UTF-8")
 df <- fix_pubhouses(df.orig, df)
-source("../../R/time.R", encoding = "UTF-8")
 df <- fix_pubwhen(df.orig, df)
 df <- fix_pubfrom(df.orig, df)
 df <- fix_pubtill(df.orig, df)
@@ -65,7 +60,6 @@ df$physical_accomppanied <- df.orig$physical_accomppanied
 # ---------------------------------------------
 
 print("Notes")
-source("../../R/notes.R", encoding = "UTF-8")
 df$note_general <- df.orig$note_general
 df <- fix_note_diss(df.orig, df)
 df <- fix_university(df.orig, df)
