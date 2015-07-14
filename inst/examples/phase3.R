@@ -41,7 +41,17 @@ print("Publication data")
 df$publication_place <- polish_place(df.orig$publication_place, remove.unknown = FALSE)
 
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
-df <- deduce_country(df)
+
+
+# LL removed this and saved a copy to
+# inst/extras/country.R df <- deduce_country(df)
+# Now using tools from bibliographica.
+# I put the assigment df$country <- ... outside of the function
+# because the mapping function itself may have also other uses than
+# data.frame augmentation
+df$country <- bibliographica::get_country(df$city)$country
+
+
 df <- fix_pubhouses(df.orig, df)
 df <- fix_pubwhen(df.orig, df)
 df <- fix_pubfrom(df.orig, df)
