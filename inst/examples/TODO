@@ -164,11 +164,6 @@ df <- fix_pubtill(df.orig, df)
 
 -----------------------------------
 
-Yhtenäistä fennica:fix_pubhouses ja estc:polish_publisher ja siirrä
-bibliographicaan(?). Leo tsekkaa tuonnempana.
-
------------------------------------
-
 These could be later combined with bibliographica::polish_author
 and name validity checks added as in estc. 
 df <- fix_family(df.orig, df)
