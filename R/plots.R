@@ -39,6 +39,7 @@ counts_total <- function(df) {
 #' @examples \dontrun{counts_by_town(df,"Hämeenlinna","Hameenlinna")}
 #' @keywords utilities
 counts_by_town <- function(df, str, file) {
+
   f <- df %>% filter(publication_place == str) %>% group_by(published_in) %>% tally() %>% arrange(published_in)
   f$cumul <- cumsum(f$n)
   

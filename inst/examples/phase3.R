@@ -51,8 +51,11 @@ source("city_examples.R", encoding = "UTF-8") # later account for multiple place
 # data.frame augmentation
 df$country <- bibliographica::get_country(df$city)$country
 
+# Replaced fix_pubhouses with bibliographica function:
+#df <- fix_pubhouses(df.orig, df)
+df$publisher <- remove_print_statements(df.orig$publication_publisher)
 
-df <- fix_pubhouses(df.orig, df)
+
 df <- fix_pubwhen(df.orig, df)
 df <- fix_pubfrom(df.orig, df)
 df <- fix_pubtill(df.orig, df)

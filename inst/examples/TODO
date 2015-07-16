@@ -1,15 +1,3 @@
-Tässä nähdäkseni kaikki mitä vielä tarvittaisiin fennica-paketin
-viimeistelyyn julkaisua ajatellen (myös aiempi meilini listattu mukaan
-tähän). Listaan nämä tässä tärkeysjärjestyksessä. Ollaan nyt
-aktiivisesti yhteyksissä että saadaan hommaa nopeasti eteenpäin.
-
-Yhtenäistin kokeeksi fennican city.R/preprocess_placenames - funktion
-ja estc:n R/geo.R : harmonize_place - funktion ja siirsin
-bibliographicaan. Modasin sun phase3.R koodin vastaavasti ja testasin
-että toimii. Voit tarkistella lisää ja parantaa. 
-
--------------------------------------------
-
 Paketin CRAN-käännön siivous virheistä ja varoituksista (tämä on nopea homma):
 
 CRAN-pakettien R-kansiossa ei valitettavasti saa olla skandeja, eli
@@ -151,38 +139,40 @@ df$title_remainder <- df.orig$title_remainder
 
 --------------------------------------
 
-fix_university: käytä synonyymilistaa
+fix_university: käytä synonyymilistaa ja geneeristä funktiota
+sorvi::harmonize_names (tätäkin voidaan parannella jos tulee mieleen
+ehdotuksia)
 
-==================================
+----------------------------------
 
-Leo katsoo näitä ja palailee asiaan:
+Olisiko mahdollista selkeyden vuoksi yhdistää funktiot fix_birth ja fix_death ?
+Näyttää aika päällekkäisiltä sisällön puolesta:
+df <- fix_birth(df.orig, df)
+df <- fix_death(df.orig, df)
 
-----------------------------------------
+-----------------------------------
 
-Yhtenäistä fennica:fix_pubhouses ja estc:polish_publisher ja siirrä
-bibliographicaan(?). Leo tsekkaa.
+Onko näitä funktioita mahdollista yhdistää yhdeksi geneeriseksi
+aikakentän siivousfunktioksi, ei haittaa jos muutama prosentti datasta
+menetetään ? Jos saat nämä yhdistetyksi, voisin itse sen jälkeen
+integroida nämä estc::polish_years-funktion kanssa ja siirtää
+bibliographicaan.
 
---------------------------------------------
-
-phase3.R:
 df <- fix_pubwhen(df.orig, df)
 df <- fix_pubfrom(df.orig, df)
 df <- fix_pubtill(df.orig, df)
 
--> Nämäkin taitaa olla päällekkäisiä estc:n vastaavien kanssa. Pitää
-   yhtenäistää.
+-----------------------------------
 
--------------------------------------------------
+Yhtenäistä fennica:fix_pubhouses ja estc:polish_publisher ja siirrä
+bibliographicaan(?). Leo tsekkaa tuonnempana.
 
-phase3.R:
+-----------------------------------
+
+These could be later combined with bibliographica::polish_author
+and name validity checks added as in estc. 
 df <- fix_family(df.orig, df)
 df <- fix_first(df.orig, df)
 df <- fix_other(df.orig, df)
-df <- fix_birth(df.orig, df)
-df <- fix_death(df.orig, df)
-
--> Vastaavia tehdään estc:ssä mutta eri funktioilla. Nämä pitäisi myös
-   yhtenäistää, koska voidaan käyttää muittenkin luetteloiden
-   kanssa. Voin katsoa tätä itse vähän lisää.
-
+Leo will check later.
 
