@@ -36,7 +36,7 @@ read_fennica_data <- function (file) {
 
   # Pick field clear names
   df <- select(df,
-    language = X041;
+    language = X041,
     author_name = X100a,
     author_date = X100d,
     title_uniform = X240a,
