@@ -1,7 +1,25 @@
+# Update the pkg
+library(devtools)
+install_github("ropengov/fennica")
+
+# Load R package
 library(dplyr)
 library(tau)
 library(fennica)
 library(bibliographica)
+
+fennica.data.file <- "data/fennica.csv.gz"
+output.folder <- "output.tables/"
+
+# Create the output directory if not yet exists
+dir.create(output.folder)
+
+print("Read raw data")
+df.orig <- read_fennica_data(fennica.data.file)
+data_size <- nrow(df.orig)
+
+# ---------------------------------------------
+
 df <- tbl_df(data.frame(list(row.index = 1:data_size)))
 
 # ---------------------------------------------
@@ -85,3 +103,5 @@ df$holder <- df.orig$holder
 df <- df[,-1]
 
 saveRDS(df, "df.Rds")
+
+# source("inst/examples/visualization.R", encoding = "UTF-8")

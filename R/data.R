@@ -31,7 +31,7 @@ read_fennica_data <- function (file) {
   })
 
   # Form data frame
-  df <- tbl_df(as.data.frame(tab))
+  df <- tbl_df(as.data.frame(tab, stringsAsFactors = FALSE))
 
   # Pick field clear names
   df <- select(df,
