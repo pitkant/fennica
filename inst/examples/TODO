@@ -126,14 +126,6 @@ Found the following files with duplicate lower-cased file names:
 - estc- ja fennica-koodien muokkaus käyttämään tätä viilattua
   versiota. Työnjakona Fennica (NVI) ja ESTC (Leo)
 
----------------------------------------
-
-phase2.R embellish-toiminnot pitäisi sisältyä jo
-read_fennica_data-funktioon selkeyden vuoksi. Tärkeää, että koodi
-olisi mahdollisimman tiivistä ja luettavaa. Pyritään siihen että
-tällaiset tekniset ja aineiston jatkokäyttäjän kannalta epäoleelliset
-rutiinit on siivottu valmiitten funktioitten sisään.
-
 ----------------------------------------
 
 phase3.R:
