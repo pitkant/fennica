@@ -4,8 +4,7 @@
 #' @param file Source Fennica data file
 #' @return Dataframe with unpolished fields
 #'
-#' @importFrom dplyr tbl_df
-#' @importFrom dplyr select
+#' @import dplyr
 #' @export
 #' 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
