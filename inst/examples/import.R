@@ -16,11 +16,10 @@ dir.create(output.folder)
 
 print("Read raw data")
 df.orig <- read_fennica_data(fennica.data.file)
-data_size <- nrow(df.orig)
 
 # ---------------------------------------------
 
-df <- tbl_df(data.frame(list(row.index = 1:data_size)))
+df <- tbl_df(data.frame(list(row.index = 1:nrow(df.orig))))
 
 # ---------------------------------------------
 

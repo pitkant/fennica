@@ -13,7 +13,7 @@
 #' @keywords utilities
 deduce_country <- function(df) {
 	v <- df$city
-	w <- rep(NA, data_size)
+	w <- rep(NA, nrow(df))
 	w[v=="Almena WI"] <- "USA"
 	w[v=="Altdorf"] <- "Saksa"
 	w[v=="Amsterdam"] <- "Alankomaat"
