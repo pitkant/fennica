@@ -14,6 +14,31 @@ Found the following files with non-ASCII characters:
 -> Poista non-ASCIIT siltä osin kuin mahdollista. Voit jättää ne mitä
    ei pysty poistamaan. Pitää ihmetellä niitä lisää sitten joskus.
 
+
+-----------------------------------
+
+Voitko yhdistää nämä yhdeksi geneeriseksi aikakentän ("260c" estc:ssä,
+onko tämä sama myös fennicassa?) siivousfunktioksi ja siirtää funktio
+bibliographicaan. Ideaalisesti funktio palauttaisi taulukon, jossa on
+sarakkeina originaali entry, julkaisuvuosi, ja sitten nuo alku- ja
+loppuvuodet jos ne on annettu. Tämä näyttää toimivan jo nyt hyvin
+estc:lle, mutta fix_pubwhen ei aina palauta vuotta, vaikka fix_pubfrom
+ja/tai fix_pubtill löytäisi sen. Eli estimoi julkaisuvuosi aina
+pyöristettynä keskiarvona from/till-vuosista. Voit käyttää
+bibliographican remove_print_statements-funktiota, sen pitäisi
+ratkaista ongelmat monen sellaisen vuoden kohdalla joissa putsaus
+toistaiseksi epäonnistuu. fix_pubwhen funktiossa published_in
+ei ole optimaalinen kenttänimi, koska sitä käytetään myös
+julkaisupaikkojen kohdalla. Tämä ratkeaa, kun yhdistät nämä yhdeksi
+funktioksi joka palauttaa taulukon jossa siivotut vuositiedot. Siitä
+voi sitten poimia haluamansa lopulliseen dataframeen.
+df <- fix_pubwhen(df.orig, df)
+df <- fix_pubfrom(df.orig, df)
+df <- fix_pubtill(df.orig, df)
+
+-> Pistä heti viestiä kun pääset tässä eteenpäin niin testaan estc:n
+   kanssa ja saatan ehdottaa jotain.
+
 ---------------------------
 
 Sivumäärät: käytä (ja kehitä) bibliographican polish_pages-funktiota
@@ -149,18 +174,6 @@ Olisiko mahdollista selkeyden vuoksi yhdistää funktiot fix_birth ja fix_death 
 Näyttää aika päällekkäisiltä sisällön puolesta:
 df <- fix_birth(df.orig, df)
 df <- fix_death(df.orig, df)
-
------------------------------------
-
-Onko näitä funktioita mahdollista yhdistää yhdeksi geneeriseksi
-aikakentän siivousfunktioksi, ei haittaa jos muutama prosentti datasta
-menetetään ? Jos saat nämä yhdistetyksi, voisin itse sen jälkeen
-integroida nämä estc::polish_years-funktion kanssa ja siirtää
-bibliographicaan.
-
-df <- fix_pubwhen(df.orig, df)
-df <- fix_pubfrom(df.orig, df)
-df <- fix_pubtill(df.orig, df)
 
 -----------------------------------
 
