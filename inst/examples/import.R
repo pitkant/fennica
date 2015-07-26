@@ -15,7 +15,8 @@ output.folder <- "output.tables/"
 dir.create(output.folder)
 
 print("Read raw data")
-df.orig <- read_fennica_data(fennica.data.file)
+# df.orig <- read_fennica_data(fennica.data.file)
+df.orig <- bibliographica::read_bibliographic_metadata(fennica.data.file)
 
 # ---------------------------------------------
 
