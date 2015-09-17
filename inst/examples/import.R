@@ -22,28 +22,42 @@ df$language <- paste0(df$language,";",df$language2)
 df$language <- gsub("NA","",df$language)
 df$language <- gsub("^;","",df$language)
 df$language <- gsub(";$","",df$language)
-df <- bibliographica::mark_languages(df)
+df <- cbind(
+	df,
+	bibliographica::mark_languages(df$language)
+)
 
 print("Names of authors")
-df <- bibliographica::polish_name_of_author(df)
+df <- cbind(
+	df,
+	bibliographica::polish_name_of_author(df$author_name)
+)
 
 print("Lifespans of authors")
-tmp <- bibliographica::polish_years(df$author_date)
-df$author_birth <- tmp$start
-df$author_death <- tmp$end
-remove(tmp)
+df <- cbind(
+	df,
+	bibliographica::polish_years(df$author_date)
+)
+df <- dplyr::rename(df, author_birth = start)
+df <- dplyr::rename(df, author_death = end)
 
 print("Publishers")
-df <- bibliographica::polish_publisher(df)
+df$publisher <- bibliographica::polish_publisher(df$publisher)
 
 print("Years of publication")
-df <- bibliographica::polish_year_of_publication(df)
+df <- cbind(
+	df,
+	bibliographica::polish_year_of_publication(df$publication_time)
+)
 
 print("Dissertations")
-df <- bibliographica::mark_dissertations(df)
+df <- cbind(
+	df,
+	bibliographica::mark_dissertations(df$note_dissertation)
+)
 
 print("Universities")
-df <- bibliographica::polish_university(df)
+df$note_granter <- bibliographica::polish_university(df$note_granter)
 
 print("Place names")
 
@@ -60,5 +74,7 @@ df$publication_place <- bibliographica::polish_place(df$publication_place, remov
 
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
 df <- deduce_country(df)
+
+df <- tbl_df(df) # cbind overrides locality above
 
 saveRDS(df, "df.Rds")
