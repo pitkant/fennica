@@ -28,7 +28,10 @@ print("Names of authors")
 df <- bibliographica::polish_name_of_author(df)
 
 print("Lifespans of authors")
-df <- bibliographica::polish_lifespan_of_author(df)
+tmp <- bibliographica::polish_years(df$author_date)
+df$author_birth <- tmp$start
+df$author_death <- tmp$end
+remove(tmp)
 
 print("Publishers")
 df <- bibliographica::polish_publisher(df)

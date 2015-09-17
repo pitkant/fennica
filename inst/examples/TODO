@@ -126,21 +126,6 @@ Found the following files with duplicate lower-cased file names:
 - estc- ja fennica-koodien muokkaus käyttämään tätä viilattua
   versiota. Työnjakona Fennica (NVI) ja ESTC (Leo)
 
-----------------------------------------
-
-phase3.R:
-df$title_uniform <- df.orig$title_uniform
-df$title_proper <- df.orig$title_proper
-df$title_remainder <- df.orig$title_remainder
-
-- Koodin luettavuuden parantamiseksi kompakti tyyli olisi mielestäni
-  parempi, eli älä tee erillistä poimintaa kentille joita ei sen
-  enempää esikäsitellä (esim. nämä title-kentät). Sen sijaan poimi
-  koodin alussa valitut kentät tyyliin: df <- df.orig[,
-  selected.fields] ja sen jälkeen oma funktionsa kunkin kentän
-  siivoamiseen vain niiden kenttien osalta joille todella tehdään
-  siivousta.
-
 --------------------------------------
 
 fix_university: käytä synonyymilistaa

@@ -18,7 +18,7 @@ Vector of city names
 Correct misspelled city names based on mapping constructed earlier
 }
 \examples{
-\dontrun{v <- correct_misspellings(v,"Hämeenlinna")}
+\dontrun{v <- correct_misspellings(v,"HÃ¤meenlinna")}
 }
 \author{
 Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
