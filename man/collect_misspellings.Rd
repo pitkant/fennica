@@ -20,7 +20,7 @@ List of all non-assigned city names in the data
 Use Levenshtein distance iteratively to find plausible misspellings
 }
 \examples{
-\dontrun{all <- collect_misspellings("HÃ¤meenlinna",c("HÃ¤meenlinna","Tavastehus"),c("HÃ¤meenlinnae","Tavasteehuus"))}
+\dontrun{all <- collect_misspellings("Hämeenlinna",c("Hämeenlinna","Tavastehus"),c("Hämeenlinnae","Tavasteehuus"))}
 }
 \author{
 Niko Ilomaki \email{niko.ilomaki@helsinki.fi}

@@ -17,7 +17,7 @@ counts_by_town(df, str, file)
 Plot publication year counts by town
 }
 \examples{
-\dontrun{counts_by_town(df,"HÃ¤meenlinna","Hameenlinna")}
+\dontrun{counts_by_town(df,"Hämeenlinna","Hameenlinna")}
 }
 \author{
 Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
