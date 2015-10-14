@@ -56,10 +56,10 @@ write.table(cbind(Topic = sort(names(tab))), file = f, sep = "\t", quote = F, ro
 ntop <- 50
 ```
 
-Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$term_topic))` unique topics and `r sum(!is.na(df$term_topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$term_topic)))`).
+Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$subject_topic))` unique topics and `r sum(!is.na(df$subject_topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$subject_topic)))`).
 
 ```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$term_topic)))[1:ntop]), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Most common topics")
+par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$subject_topic)))[1:ntop]), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Most common topics")
 ```
 
 
