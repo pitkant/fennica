@@ -42,7 +42,7 @@ df <- dplyr::rename(df, author_birth = start)
 df <- dplyr::rename(df, author_death = end)
 
 print("Publishers")
-df$publisher <- bibliographica::polish_publisher(df$publisher)
+df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)
 
 print("Years of publication")
 df <- cbind(
