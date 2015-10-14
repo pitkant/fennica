@@ -1,17 +1,12 @@
 # Update the pkg
-library(devtools)
 devtools::install_github("ropengov/bibliographica")
 devtools::install_github("ropengov/fennica")
 
-# Load R packages
+# Load dplyr
 library(dplyr)
-library(tau)
-library(fennica)
-library(bibliographica)
-
-output.folder <- "output.tables/"
 
 # Create the output directory if not yet exists
+output.folder <- "output.tables/"
 dir.create(output.folder)
 
 print("Read raw data")
@@ -73,8 +68,8 @@ print("Place names")
 df$publication_place <- bibliographica::polish_place(df$publication_place, remove.unknown = FALSE)
 
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
-df <- deduce_country(df)
+df$country <- fennica::deduce_country(df$publication_place)
 
-df <- tbl_df(df) # cbind overrides locality above
+df <- dplyr::tbl_df(df) # cbind overrides locality above
 
 saveRDS(df, "df.Rds")
