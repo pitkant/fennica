@@ -17,7 +17,7 @@ library(stringr)
 library(dplyr)
 library(ggplot2)
 
-df <- readRDS("df.RData")
+df <- readRDS("df.Rds")
 
 missing <- 100*apply(df, 2, function (x) {mean(is.na(x))})
 df2 <- data.frame(list(missing = missing, field = names(missing)))
@@ -37,7 +37,7 @@ print(p)
 ```{r topics1, topics, echo=FALSE, message=FALSE, warning=FALSE}
 
 # List all topics
-spl <- strsplit(na.omit(as.character(df$term_topic)), ";")
+spl <- strsplit(na.omit(as.character(df$subject_topic)), ";")
 
 # Topics per document
 # hist(sapply(spl, length))
@@ -78,10 +78,10 @@ par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab 
 ## Subject geographical places
 
 ```{r geo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-tab <- rev(sort(table(unlist(strsplit(as.character(df$term_geography), ";")))))
+tab <- rev(sort(table(unlist(strsplit(as.character(df$subject_geography), ";")))))
 ```
 
-Top-`r ntop` geographical places are shown together with the number of documents assigned to that region. Geography information is available for `r sum(!is.na(df$term_geography))` documents (`r round(100*mean(!is.na(df$term_geography)))`%). There are `r length(tab)` unique geographical places.
+Top-`r ntop` geographical places are shown together with the number of documents assigned to that region. Geography information is available for `r sum(!is.na(df$subject_geography))` documents (`r round(100*mean(!is.na(df$subject_geography)))`%). There are `r length(tab)` unique geographical places.
 
 ```{r geo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 ntop <- 50
@@ -100,14 +100,15 @@ write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|",
 
 ### Publication places
 
-Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$city))` documents (`r round(100*mean(!is.na(df$city)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$city), ";")))))` unique publication places.
+Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` unique publication places.
 
-```{r city, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-tab <- rev(sort(table(str_trim(unlist(strsplit(as.character(df$city), ";"))))))
+```{r publication_place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+tab <- rev(sort(table(str_trim(unlist(strsplit(as.character(df$publication_place), ";"))))))
 ntop <- 50
 par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents (log10)", main = "Most common publication places")
 ```
 
+	
 ```{r city2, echo=FALSE, message=FALSE, warning=FALSE}
 f <- "output.tables/publication_place.csv"
 print(paste("Complete counts in file:", f))

@@ -3,15 +3,12 @@ library(devtools)
 #devtools::install_github("ropengov/bibliographica")
 #devtools::install_github("ropengov/fennica")
 
-# Load R packages
+# Load dplyr
 library(dplyr)
-library(tau)
-library(fennica)
 library(bibliographica)
 
-output.folder <- "output.tables/"
-
 # Create the output directory if not yet exists
+output.folder <- "output.tables/"
 dir.create(output.folder)
 
 print("Read raw data")
@@ -76,11 +73,7 @@ source("city_examples.R", encoding = "UTF-8") # later account for multiple place
 print("Write unrecognized place names to file")
 tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), "publication_place"]), paste(output.folder, "publication_place_discarded.csv", sep = ""))
 
-
-df <- deduce_country(df)
-
-
-
-df <- tbl_df(df) # cbind overrides locality above
+df$country <- fennica::deduce_country(df$publication_place)
+df <- dplyr::tbl_df(df) # cbind overrides locality above
 
 saveRDS(df, "df.Rds")

@@ -11,9 +11,9 @@ library(dplyr)
 
 ```{r, echo=FALSE, message=FALSE}
 # data ei välttämättä lopullinen
-df <- readRDS("df.Rdata")
+df <- readRDS("df.Rds")
 df <- df %>% filter(!is.na(published_in))
-tmp1 <- df %>% filter(city == "Turku") %>% group_by(published_in) %>% tally() %>% arrange(published_in)
+tmp1 <- df %>% filter(publication_place == "Turku") %>% group_by(published_in) %>% tally() %>% arrange(published_in)
 tmp1$decade <- as.numeric(paste0(substr(tmp1$published_in,1,3),"0"))
 tmp2 <- tmp1 %>% group_by(decade) %>% summarise(m = sum(n)/10)
 final <- inner_join(tmp1,tmp2)
