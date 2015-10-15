@@ -9,7 +9,7 @@ output: markdown_document
 
 
 ```
-## Error in gzfile(file, "rb"): cannot open the connection
+## Error: data_frames can only contain 1d atomic vectors and lists
 ```
 
 ![plot of chunk suvut](figure/suvut-1.png) 

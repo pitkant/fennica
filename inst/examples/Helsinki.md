@@ -9,16 +9,11 @@ output: markdown_document
 
 
 ```
-## Warning in gzfile(file, "rb"): cannot open compressed file 'df.Rdata',
-## probable reason 'No such file or directory'
+## Error: data_frames can only contain 1d atomic vectors and lists
 ```
 
 ```
-## Error in gzfile(file, "rb"): cannot open the connection
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'city' not found
+## Error: data_frames can only contain 1d atomic vectors and lists
 ```
 
 ```

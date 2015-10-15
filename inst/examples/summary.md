@@ -13,10 +13,16 @@ Fraction of documents with entries for each annotation field.
 
 
 ```
-## Error in gzfile(file, "rb"): cannot open the connection
+## Error in if (inherits(X[[j]], "data.frame") && ncol(xj) > 1L) X[[j]] <- as.matrix(X[[j]]): missing value where TRUE/FALSE needed
 ```
 
-![plot of chunk missing](figure/missing-1.png) 
+```
+## Error in order(df2$missing): argument 1 is not a vector
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'field' not found
+```
 
 ## Topics
 
@@ -43,12 +49,7 @@ Top-50 uniquely identified authors and number of documents for each (duplicate d
 
 
 
-Top-50 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 0 documents (NaN%). There are 0 unique geographical places.
-
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
-```
+Top-50 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5838 documents (8%). There are 645 unique geographical places.
 
 ![plot of chunk geo2](figure/geo2-1.png) 
 
@@ -63,15 +64,11 @@ Top-50 geographical places are shown together with the number of documents assig
 
 ### Publication places
 
-Top-50 publication places are shown together with the number of documents. This info is available for 0 documents (NaN%). There are 0 unique publication places.
+Top-50 publication places are shown together with the number of documents. This info is available for 68832 documents (96%). There are 766 unique publication places.
 
+![plot of chunk publication_place](figure/publication_place-1.png) 
 
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
-```
-
-![plot of chunk city](figure/city-1.png) 
-
+	
 
 ```
 ## [1] "Complete counts in file: output.tables/publication_place.csv"
