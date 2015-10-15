@@ -109,8 +109,8 @@ par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, 
 ```
 
 ```{r city2, echo=FALSE, message=FALSE, warning=FALSE}
-f <- "output.tables/publicationplaces.csv"
+f <- "output.tables/publication_place.csv"
 print(paste("Complete counts in file:", f))
-write.table(cbind(Place = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
+tmp <- write_xtable(df$publication_place, filename = f)
 ```
 

@@ -49,7 +49,8 @@ sanitize_name <- function(name) {
 #' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
-#' @examples \dontrun{all <- collect_misspellings("Hämeenlinna",c("Hämeenlinna","Tavastehus"),c("Hämeenlinnae","Tavasteehuus"))}
+#' @examples \dontrun{all <- collect_misspellings("Hämeenlinna",c("Hämeenlinna","Tavastehus"),
+#'					                        c("Hämeenlinnae","Tavasteehuus"))}
 #' @keywords utilities
 collect_misspellings <- function (city, variations, all) {
 	eff <- 1

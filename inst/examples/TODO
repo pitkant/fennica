@@ -10,6 +10,15 @@ että toimii. Voit tarkistella lisää ja parantaa.
 
 -------------------------------------------
 
+Vähintään tarvitaan:
+painopaikka: sort(table(df$publication_place))
+vuodet (df$published_from / df$published_till lehdille; df$published_in kirjoille - mistä tulee -1917 lehtirangessa ?)
+painaja/kustantajakenttä: df$corporate
+physical_dimension (LL)
+physical_extent (LL)
+paperinkulutus (NVI ?)
+(mahdollisesti identtiset otsikkokentät vertailuun Kungligan kanssa)
+
  “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tämä hypoteesi me voidaan todentaa/tarkistaa/korjata kun mukana on paperinkulutus!
 
 ----------------------------------------

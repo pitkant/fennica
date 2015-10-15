@@ -1,7 +1,7 @@
 # Update the pkg
 library(devtools)
-devtools::install_github("ropengov/bibliographica")
-devtools::install_github("ropengov/fennica")
+#devtools::install_github("ropengov/bibliographica")
+#devtools::install_github("ropengov/fennica")
 
 # Load R packages
 library(dplyr)
@@ -16,6 +16,7 @@ dir.create(output.folder)
 
 print("Read raw data")
 df <- bibliographica::read_bibliographic_metadata("data/fennica.csv.gz")
+df.orig <- df
 
 print("Languages")
 df$language <- paste0(df$language,";",df$language2)
@@ -71,9 +72,15 @@ print("Place names")
 # esimerkin kera myöhempää hyödyntämistä varten.
 
 df$publication_place <- bibliographica::polish_place(df$publication_place, remove.unknown = FALSE)
-
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
+
+print("Write unrecognized place names to file")
+tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), "publication_place"]), paste(output.folder, "discarded_place.csv", sep = ""))
+
+
 df <- deduce_country(df)
+
+
 
 df <- tbl_df(df) # cbind overrides locality above
 
