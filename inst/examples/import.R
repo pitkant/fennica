@@ -73,9 +73,8 @@ print("Place names")
 
 df$publication_place <- bibliographica::polish_place(df$publication_place, remove.unknown = FALSE)
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
-
 print("Write unrecognized place names to file")
-tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), "publication_place"]), paste(output.folder, "discarded_place.csv", sep = ""))
+tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), "publication_place"]), paste(output.folder, "publication_place_discarded.csv", sep = ""))
 
 
 df <- deduce_country(df)

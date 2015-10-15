@@ -1,0 +1,6 @@
+Preprocessing of the data:
+source("import.R")
+
+Convert all Rmd files:
+source("knit_all.R")
+
