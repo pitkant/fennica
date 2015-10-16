@@ -11,7 +11,7 @@ että toimii. Voit tarkistella lisää ja parantaa.
 -------------------------------------------
 
 Vähintään tarvitaan:
-painopaikka: sort(table(df$publication_place))
+painopaikka: sort(table(df$publication_place)) & df$country
 vuodet (df$published_from / df$published_till lehdille; df$published_in kirjoille - mistä tulee -1917 lehtirangessa ?)
 painaja/kustantajakenttä: df$corporate
 physical_dimension (LL)

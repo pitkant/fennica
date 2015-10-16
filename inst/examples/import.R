@@ -76,4 +76,23 @@ tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), ]$p
 df$country <- get_country(df$publication_place)
 #df <- dplyr::tbl_df(df) # cbind overrides locality above
 
+
+print("Number of pages")
+# ESTC-specific handling -> Fennica-specific?
+x <- df.orig$physical_extent
+# x <- estc::harmonize_pages_specialcases(x)
+# Generic handling
+tmp <- polish_pages(x, verbose = FALSE)
+df$pagecount <- tmp$total.page
+print("Summarize page conversions")
+tab <- cbind(
+	     pagecount = df$pagecount, 
+	     original = as.character(df.orig$physical_extent)
+	     )
+tmp2 <- write_xtable(tab, paste(output.folder, "documentpages-estimated.csv", sep = ""))
+tmp3 <- write_xtable(df.orig[which(is.na(df$pagecount)), ]$physical_extent, paste(output.folder, "documentpages-estimated-discarded.csv", sep = ""))
+#source("summarize.page.conversions.R")
+
+
+
 saveRDS(df, "df.Rds")
