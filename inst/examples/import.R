@@ -68,10 +68,21 @@ print("Place names")
 # string-mätchäysfunktion voisit lisätä bibliographica-pakettiin
 # esimerkin kera myöhempää hyödyntämistä varten.
 
+# Polish publication places
 df$publication_place <- bibliographica::polish_place(df$publication_place, remove.unknown = FALSE)
+
+# Recognize synonymes with string matching
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
+
+# Finally manual harmonization for the remaining place names
+f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
+sn <- read.csv(f, sep = ";")
+pl <- harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)
+df$publication_place <- pl$name
+
 print("Write unrecognized place names to file")
 tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), ]$publication_place), paste(output.folder, "publication_place_discarded.csv", sep = ""))
+
 
 df$country <- get_country(df$publication_place)
 #df <- dplyr::tbl_df(df) # cbind overrides locality above
