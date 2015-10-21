@@ -64,7 +64,7 @@ Top-50 geographical places are shown together with the number of documents assig
 
 ### Publication places
 
-Top-50 publication places are shown together with the number of documents. This info is available for 68832 documents (96%). There are 766 unique publication places.
+Top-50 publication places are shown together with the number of documents. This info is available for 68765 documents (96%). There are 861 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png) 
 

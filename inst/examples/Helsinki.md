@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Helsingissä 1746-1917"
 author: "Niko Ilomäki"
-date: "2015-10-15"
+date: "2015-10-21"
 output: markdown_document
 ---
 
@@ -48,10 +48,6 @@ output: markdown_document
 
 ```
 ## Warning in remove(tmp1, tmp2, final): object 'tmp1' not found
-```
-
-```
-## Warning in remove(tmp1, tmp2, final): object 'tmp2' not found
 ```
 
 ```
