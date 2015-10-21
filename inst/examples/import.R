@@ -6,6 +6,7 @@ library(devtools)
 # Load dplyr
 library(dplyr)
 library(bibliographica)
+library(sorvi)
 
 # Create the output directory if not yet exists
 output.folder <- "output.tables/"
@@ -36,8 +37,8 @@ df <- cbind(
 	df,
 	bibliographica::polish_years(df$author_date)
 )
-df <- dplyr::rename(df, author_birth = start)
-df <- dplyr::rename(df, author_death = end)
+df <- dplyr::rename(df, author_birth = from)
+df <- dplyr::rename(df, author_death = till)
 
 print("Publishers")
 df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)
@@ -77,7 +78,7 @@ source("city_examples.R", encoding = "UTF-8") # later account for multiple place
 # Finally manual harmonization for the remaining place names
 f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
 sn <- read.csv(f, sep = ";")
-pl <- harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)
+pl <- sorvi::harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)
 df$publication_place <- pl$name
 
 print("Write unrecognized place names to file")
@@ -104,7 +105,7 @@ tmp2 <- write_xtable(tab, paste(output.folder, "documentpages-estimated.csv", se
 tmp3 <- write_xtable(df.orig[which(is.na(df$pagecount)), ]$physical_extent, paste(output.folder, "documentpages-estimated-discarded.csv", sep = ""))
 #source("summarize.page.conversions.R")
 
-#print("Document dimensions") 
+print("Document dimensions") 
 d <- df.orig$physical_dimension
 d <- gsub(",", ".", d) # 75,9 -> 75.9
 d <- gsub(":o.", "to", d) # 8:o. -> 8to
@@ -113,6 +114,13 @@ d <- gsub(".o$", "to", d) # 8:o. -> 8to
 f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographica")
 synonyms <- read.csv(f, sep = "\t")
 d <- harmonize_names(d, synonyms, mode = "recursive")$name
+print("Polish dimensions")
 tmp <- polish_dimensions(d, fill = TRUE)
+tmp3 <- write_xtable(df.orig$physical_dimension[is.na(tmp$gatherings)], paste(output.folder, "dimensions_discarded.csv", sep = ""))
 
 saveRDS(df, "df.Rds")
+
+# Newly added : predefined dimensions missing.
+#8long
+#16molong
+#20to
