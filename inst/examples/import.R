@@ -116,7 +116,13 @@ synonyms <- read.csv(f, sep = "\t")
 d <- harmonize_names(d, synonyms, mode = "recursive")$name
 print("Polish dimensions")
 tmp <- polish_dimensions(d, fill = TRUE)
-tmp3 <- write_xtable(df.orig$physical_dimension[is.na(tmp$gatherings)], paste(output.folder, "dimensions_discarded.csv", sep = ""))
+for (field in c("gatherings", "width", "height", "area", "obl")) {
+  df[[field]] <- tmp[[field]]
+}
+
+tmp3 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA")], paste(output.folder, "missing_gatherings.csv", sep = ""))
+
+tmp4 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA" & is.na(tmp$width) & is.na(tmp$height))], paste(output.folder, "missing_dimensions.csv", sep = ""))
 
 saveRDS(df, "df.Rds")
 
@@ -124,3 +130,4 @@ saveRDS(df, "df.Rds")
 #8long
 #16molong
 #20to
+#21to
