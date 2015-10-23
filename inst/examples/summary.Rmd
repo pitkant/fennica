@@ -1,11 +1,11 @@
 ---
 title: "Summary"
-author: "Niko Ilomäki"
-date: "Tuesday, March 3, 2015"
+author: "Niko Ilomäki and Leo Lahti"
+date: "Tuesday, October 20, 2015"
 output: markdown_document
 ---
 
-# Summary of the preprocessed Fennica data
+# Fennica summary
 
 ## Annotated documents
 
@@ -17,6 +17,7 @@ library(stringr)
 library(dplyr)
 library(ggplot2)
 
+# Read the preprocessed data
 df <- readRDS("df.Rds")
 
 missing <- 100*apply(df, 2, function (x) {mean(is.na(x))})
@@ -47,6 +48,7 @@ tab <- sort(table(unlist(spl)))
 tab <- tab[!names(tab) == "NA"]
 tab <- rev(sort(tab)) 
 ```
+
 
 ```{r topics2, echo=FALSE, message=FALSE, warning=FALSE}
 # Write to file

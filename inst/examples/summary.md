@@ -1,11 +1,11 @@
 ---
 title: "Summary"
-author: "Niko Ilomäki"
-date: "Tuesday, March 3, 2015"
+author: "Niko Ilomäki and Leo Lahti"
+date: "Tuesday, October 20, 2015"
 output: markdown_document
 ---
 
-# Summary of the preprocessed Fennica data
+# Fennica summary
 
 ## Annotated documents
 
@@ -21,10 +21,11 @@ Fraction of documents with entries for each annotation field.
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'field' not found
+## Error in 100 - missing: non-numeric argument to binary operator
 ```
 
 ## Topics
+
 
 
 

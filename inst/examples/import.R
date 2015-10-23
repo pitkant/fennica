@@ -94,7 +94,7 @@ print("Number of pages")
 x <- df.orig$physical_extent
 # x <- estc::harmonize_pages_specialcases(x)
 # Generic handling
-tmp <- polish_pages(x, verbose = FALSE)
+tmp <- polish_pages(x, verbose = TRUE)
 df$pagecount <- tmp$total.page
 print("Summarize page conversions")
 tab <- cbind(
