@@ -51,5 +51,9 @@ output: markdown_document
 ```
 
 ```
+## Warning in remove(tmp1, tmp2, final): object 'tmp2' not found
+```
+
+```
 ## Warning in remove(tmp1, tmp2, final): object 'final' not found
 ```

@@ -16,13 +16,7 @@ Fraction of documents with entries for each annotation field.
 ## Error in if (inherits(X[[j]], "data.frame") && ncol(xj) > 1L) X[[j]] <- as.matrix(X[[j]]): missing value where TRUE/FALSE needed
 ```
 
-```
-## Error in order(df2$missing): argument 1 is not a vector
-```
-
-```
-## Error in 100 - missing: non-numeric argument to binary operator
-```
+![plot of chunk missing](figure/missing-1.png) 
 
 ## Topics
 

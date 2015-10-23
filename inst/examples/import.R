@@ -41,7 +41,7 @@ df <- dplyr::rename(df, author_birth = from)
 df <- dplyr::rename(df, author_death = till)
 
 print("Publishers")
-df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)
+df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)$name
 
 print("Years of publication")
 df <- cbind(
@@ -56,7 +56,7 @@ df <- cbind(
 )
 
 print("Universities")
-df$note_granter <- bibliographica::polish_university(df$note_granter)
+df$note_granter <- bibliographica::polish_university(df$note_granter)$name
 
 print("Place names")
 
@@ -85,7 +85,7 @@ print("Write unrecognized place names to file")
 tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), ]$publication_place), paste(output.folder, "publication_place_discarded.csv", sep = ""))
 
 
-df$country <- get_country(df$publication_place)
+df$country <- get_country(df$publication_place)$country
 #df <- dplyr::tbl_df(df) # cbind overrides locality above
 
 

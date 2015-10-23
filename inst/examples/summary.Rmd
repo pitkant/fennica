@@ -20,9 +20,11 @@ library(ggplot2)
 # Read the preprocessed data
 df <- readRDS("df.Rds")
 
-missing <- 100*apply(df, 2, function (x) {mean(is.na(x))})
+# Need to use this trick to have NAs for all data types
+missing <- 100*apply(df, 2, function (x) {mean(is.na(gsub("^NA$", NA, as.character(x))))})
 df2 <- data.frame(list(missing = missing, field = names(missing)))
 df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
+
 theme_set(theme_bw(15))
 p <- ggplot(df2, aes(x = field, y = 100 - missing))
 p <- p + geom_bar(stat = "identity")
