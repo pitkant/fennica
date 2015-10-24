@@ -124,10 +124,13 @@ tmp3 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA")], 
 
 tmp4 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA" & is.na(tmp$width) & is.na(tmp$height))], paste(output.folder, "missing_dimensions.csv", sep = ""))
 
+print("Add estimated paper consumption")
+# One m2 is 100 * 100 cm2 = 1e4 cm2
+# One km2 is 1000 * 1000 m2 = 1e6 m2 = 1e10 cm2
+# Estimated average print run per document: 1000
+printrun <- 1000
+df <- mutate(df, paper.consumption.km2 = width * height * pagecount/2 * (1/1e10) * printrun)
+
+
 saveRDS(df, "df.Rds")
 
-# Newly added : predefined dimensions missing.
-#8long
-#16molong
-#20to
-#21to

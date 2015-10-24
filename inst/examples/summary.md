@@ -11,7 +11,21 @@ output: markdown_document
 
 Fraction of documents with entries for each annotation field.
 
-![plot of chunk missing](figure/missing-1.png) 
+
+
+Percentage of non-NA entries among all documents in the preprocessed data (note that in some cases a significant fraction of this information is missing already in the raw data)
+
+![plot of chunk missingb](figure/missingb-1.png) 
+
+
+Fields of special interest: success percentage compared to non-NA entries in the raw data: 
+
+
+```
+## Error in eval(expr, envir, enclos): object 'paper.consumption.km2' not found
+```
+
+![plot of chunk missing2](figure/missing2-1.png) ![plot of chunk missing2](figure/missing2-2.png) 
 
 ## Topics
 

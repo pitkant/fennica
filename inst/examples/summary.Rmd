@@ -24,6 +24,29 @@ df <- readRDS("df.Rds")
 missing <- 100*apply(df, 2, function (x) {mean(is.na(gsub("^NA$", NA, as.character(x))))})
 df2 <- data.frame(list(missing = missing, field = names(missing)))
 df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
+```
+
+Percentage of non-NA entries among all documents in the preprocessed data (note that in some cases a significant fraction of this information is missing already in the raw data)
+
+```{r missingb, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
+theme_set(theme_bw(15))
+p <- ggplot(df2, aes(x = field, y = 100 - missing))
+p <- p + geom_bar(stat = "identity")
+p <- p + coord_flip()
+p <- p + ylab("")
+p <- p + xlab("")
+p <- p + ggtitle("Documents with data (%)")
+print(p)
+```
+
+
+Fields of special interest: success percentage compared to non-NA entries in the raw data: 
+
+```{r missing2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
+dfs <- df %>% select(publication_place, country, published_in, published_from, published_till, corporate, area, pagecount, gatherings, width, height, paper.consumption.km2)
+missing <- 100*apply(dfs, 2, function (x) {mean(is.na(gsub("^NA$", NA, as.character(x))))})
+df2 <- data.frame(list(missing = missing, field = names(missing)))
+df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
 
 theme_set(theme_bw(15))
 p <- ggplot(df2, aes(x = field, y = 100 - missing))
@@ -32,6 +55,21 @@ p <- p + coord_flip()
 p <- p + ylab("")
 p <- p + xlab("")
 p <- p + ggtitle("Documents with data (%)")
+print(p)
+
+
+dfs <- df.orig %>% select(publication_place, note_year, corporate, physical_extent, physical_dimension)
+missing <- 100*apply(dfs, 2, function (x) {mean(is.na(gsub("^NA$", NA, as.character(x))))})
+df2 <- data.frame(list(missing = missing, field = names(missing)))
+df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
+
+theme_set(theme_bw(15))
+p <- ggplot(df2, aes(x = field, y = 100 - missing))
+p <- p + geom_bar(stat = "identity")
+p <- p + coord_flip()
+p <- p + ylab("")
+p <- p + xlab("")
+p <- p + ggtitle("Documents with raw data (%)")
 print(p)
 ```
 
