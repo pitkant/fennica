@@ -46,7 +46,8 @@ df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)$name
 print("Years of publication")
 df <- cbind(
 	df,
-	bibliographica::polish_year_of_publication(df$publication_time)
+	bibliographica::polish_years(df$publication_time)
+	#bibliographica::polish_year_of_publication(df$publication_time)	
 )
 
 print("Dissertations")

@@ -22,7 +22,11 @@ Fields of special interest: success percentage compared to non-NA entries in the
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'paper.consumption.km2' not found
+## Error in eval(expr, envir, enclos): object 'published_in' not found
+```
+
+```
+## Error in apply(dfs, 2, function(x) {: object 'dfs' not found
 ```
 
 ![plot of chunk missing2](figure/missing2-1.png) ![plot of chunk missing2](figure/missing2-2.png) 

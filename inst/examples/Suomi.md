@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Suomessa 1640-1917"
 author: "Niko Ilomäki"
-date: "2015-10-23"
+date: "2015-10-24"
 output: markdown_document
 ---
 
@@ -9,15 +9,23 @@ output: markdown_document
 
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, "decade", value = 0): replacement has 1 row, data has 0
+## Error in eval(expr, envir, enclos): object 'published_in' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'decade'
+## Error in eval(expr, envir, enclos): unknown column 'published_in'
 ```
 
 ```
-## Error in tbl_vars(y): object 'tmp2' not found
+## Error in substr(tmp1$published_in, 1, 3): object 'tmp1' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'tmp1' not found
+```
+
+```
+## Error in inner_join(tmp1, tmp2): object 'tmp1' not found
 ```
 
 
@@ -37,6 +45,10 @@ output: markdown_document
 ## Error in axis(side = 2, at = c(0, 400, 800, 1200, 1600, 1874), cex.axis = 3.2): plot.new has not been called yet
 ```
 
+
+```
+## Warning in remove(tmp1, tmp2, final): object 'tmp1' not found
+```
 
 ```
 ## Warning in remove(tmp1, tmp2, final): object 'tmp2' not found
