@@ -11,11 +11,6 @@ output: markdown_document
 
 Fraction of documents with entries for each annotation field.
 
-
-```
-## Error in if (inherits(X[[j]], "data.frame") && ncol(xj) > 1L) X[[j]] <- as.matrix(X[[j]]): missing value where TRUE/FALSE needed
-```
-
 ![plot of chunk missing](figure/missing-1.png) 
 
 ## Topics
