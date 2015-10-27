@@ -1,39 +1,26 @@
 #' @title sanitize_name
 #' @description Remove Nordic characters etc. from strings to use in filenames
 #'
-#' @param name String or vector of strings
+#' @param x String or vector of strings
 #' @return String or vector of strings
 #'
 #' @export
+#' @importFrom sorvi harmonize_names
 #' 
 #' @author Niko Ilomaki \email{niko.ilomaki@@helsinki.fi}
 #' @references See citation("fennica")
 #' 
-#' @examples name <- sanitize_name("Hämeenlinna")
+#' @examples name <- sanitize_name("Turku")
 #' @keywords utilities
-sanitize_name <- function(name) {
-	name <- gsub("ä","a",name)
-	name <- gsub("ö","o",name)
-	name <- gsub("ü","u",name)
-	name <- gsub("å","o",name)
-	name <- gsub("á","a",name)
-	name <- gsub("à","a",name)
-	name <- gsub("é","e",name)
-	name <- gsub("è","e",name)
-	name <- gsub("í","i",name)
-	name <- gsub("ì","i",name)
-	name <- gsub("Ä","A",name)
-	name <- gsub("Ö","O",name)
-	name <- gsub("Ü","U",name)
-	name <- gsub("Å","O",name)
-	name <- gsub("Á","A",name)
-	name <- gsub("À","A",name)
-	name <- gsub("É","E",name)
-	name <- gsub("È","E",name)
-	name <- gsub("Í","I",name)
-	name <- gsub("Ì","I",name)
-	name <- gsub(" ","",name)
-	name
+sanitize_name <- function(x) {
+
+  f <- system.file("extdata/specialchars.csv", package = "fennica")
+  sn <- read.csv(f, sep = "\t")
+
+  x <- harmonize_names(x, sn)$name
+  x <- gsub(" ","",x)
+
+  x
 }
 
 #' @title collect_misspellings

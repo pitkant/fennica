@@ -4,10 +4,10 @@
 \alias{sanitize_name}
 \title{sanitize_name}
 \usage{
-sanitize_name(name)
+sanitize_name(x)
 }
 \arguments{
-\item{name}{String or vector of strings}
+\item{x}{String or vector of strings}
 }
 \value{
 String or vector of strings
@@ -16,7 +16,7 @@ String or vector of strings
 Remove Nordic characters etc. from strings to use in filenames
 }
 \examples{
-name <- sanitize_name("Hämeenlinna")
+name <- sanitize_name("Turku")
 }
 \author{
 Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
