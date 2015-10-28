@@ -44,11 +44,11 @@ print("Publishers")
 df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)$name
 
 print("Years of publication")
-df <- cbind(
-	df,
-	bibliographica::polish_years(df$publication_time)
-	#bibliographica::polish_year_of_publication(df$publication_time)	
-)
+tmp <- bibliographica::polish_years(df$publication_time)
+df$published_from <- tmp$from
+df$published_till <- tmp$till
+# Now published from == published in for simplicity; perhaps separated later
+df$published_in <- tmp$from 
 
 print("Dissertations")
 df <- cbind(

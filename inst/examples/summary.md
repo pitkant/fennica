@@ -20,15 +20,6 @@ Percentage of non-NA entries among all documents in the preprocessed data (note 
 
 Fields of special interest: success percentage compared to non-NA entries in the raw data: 
 
-
-```
-## Error in eval(expr, envir, enclos): object 'published_in' not found
-```
-
-```
-## Error in apply(dfs, 2, function(x) {: object 'dfs' not found
-```
-
 ![plot of chunk missing2](figure/missing2-1.png) ![plot of chunk missing2](figure/missing2-2.png) 
 
 ## Topics
