@@ -24,25 +24,15 @@ Fields of special interest: real success percentage (proportion of successful co
 
 ## Pagecounts
 
-[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-estimated-discarded.csv)
+[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_discarded.csv)
 
-[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-estimated.csv)
+[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_conversion.csv)
 
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
-
-
-```
-## Error in eval(expr, envir, enclos): could not find function "order_gatherings"
-```
 
 ![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
 
 Compare gatherings and page counts. 
-
-
-```
-## Error in eval(expr, envir, enclos): could not find function "order_gatherings"
-```
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 
@@ -56,11 +46,11 @@ Compare gatherings and page counts.
 
 ## Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68765 documents (96%). There are 861 unique publication places.
+Top-20 publication places are shown together with the number of documents. This info is available for 68827 documents (96%). There are 862 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png) 
 
-[Successfully converted publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place.csv)
+[Successfully converted publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_accepted.csv)
 
 [Discarded publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_discarded.csv)
 
@@ -79,21 +69,20 @@ Top-20 publication places are shown together with the number of documents. This 
 
 ## Publisher 
 
-[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv)
+[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.tab)
 
-[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.tab)
 
 We also have corporate info available ?
 
-[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
-
+[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.tab)
 
 
 ## Authors
 
-[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
+[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.tab)
 
-[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
+[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.tab)
 
 
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
@@ -107,9 +96,8 @@ Top-50 uniquely identified authors and number of documents for each (duplicate d
 
 
 
-```
-## [1] "Complete subject topic counts in file: output.tables/subjecttopics.tab"
-```
+
+[Complete subject topic counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/subjecttopics.tab)
 
 Top-50 topics and number of documents for each. In total, there are 3533 unique topics and 20889 documents assigned to one or more topics (29).
 
@@ -130,4 +118,4 @@ Top-50 geographical places are shown together with the number of documents assig
 ## [1] "Complete counts in file: output.tables/geoplaces.csv"
 ```
 
-
+[Complete geoplace listing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)

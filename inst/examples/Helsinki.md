@@ -16,44 +16,31 @@ output: markdown_document
 ## Error in eval(expr, envir, enclos): unknown column 'published_in'
 ```
 
+
 ```
-## Error in substr(tmp1$published_in, 1, 3): object 'tmp1' not found
+## Warning in min(x): no non-missing arguments to min; returning Inf
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'tmp1' not found
+## Warning in max(x): no non-missing arguments to max; returning -Inf
 ```
 
 ```
-## Error in inner_join(tmp1, tmp2): object 'tmp1' not found
-```
-
-
-```
-## Error in plot(final$published_in, final$n, cex = 1.8, pch = "|", cex.main = 5, : object 'final' not found
+## Warning in min(x): no non-missing arguments to min; returning Inf
 ```
 
 ```
-## Error in lines(final$published_in, final$m, type = "l", lty = 3, col = "black", : object 'final' not found
+## Warning in max(x): no non-missing arguments to max; returning -Inf
 ```
 
 ```
-## Error in axis(side = 1, at = c(1746, 1809, 1863, 1917), cex.axis = 3.2): plot.new has not been called yet
+## Error in plot.window(...): need finite 'xlim' values
 ```
 
+![plot of chunk Helsinki](figure/Helsinki-1.png) 
+
 ```
-## Error in axis(side = 2, at = c(0, 250, 500, 750, 1000, 1159), cex.axis = 3.2): plot.new has not been called yet
+## Error in xy.coords(x, y): 'x' and 'y' lengths differ
 ```
 
 
-```
-## Warning in remove(tmp1, tmp2, final): object 'tmp1' not found
-```
-
-```
-## Warning in remove(tmp1, tmp2, final): object 'tmp2' not found
-```
-
-```
-## Warning in remove(tmp1, tmp2, final): object 'final' not found
-```

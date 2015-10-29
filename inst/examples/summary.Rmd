@@ -70,9 +70,9 @@ par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Rea
 
 ## Pagecounts
 
-[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages_discarded.csv)
+[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_discarded.csv)
 
-[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages_accepted.csv)
+[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_conversion.csv)
 
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
@@ -135,7 +135,7 @@ ntop <- 50
 par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents (log10)", main = "Most common publication places")
 ```
 
-[Successfully converted publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place.csv)
+[Successfully converted publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_accepted.csv)
 
 [Discarded publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_discarded.csv)
 
@@ -154,21 +154,20 @@ par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, 
 
 ## Publisher 
 
-[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv)
+[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.tab)
 
-[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.tab)
 
 We also have corporate info available ?
 
-[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
-
+[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.tab)
 
 
 ## Authors
 
-[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
+[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.tab)
 
-[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
+[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.tab)
 
 
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
@@ -201,10 +200,11 @@ tab <- rev(sort(tab))
 ```{r topics2, echo=FALSE, message=FALSE, warning=FALSE}
 # Write to file
 f <- "output.tables/subjecttopics.tab"
-print(paste("Complete subject topic counts in file:", f))
 write.table(cbind(Topic = sort(names(tab))), file = f, sep = "\t", quote = F, row.names = F)
 ntop <- 50
 ```
+
+[Complete subject topic counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/subjecttopics.tab)
 
 Top-`r ntop` topics and number of documents for each. In total, there are `r length(unique(df$subject_topic))` unique topics and `r sum(!is.na(df$subject_topic))` documents assigned to one or more topics (`r round(100*mean(!is.na(df$subject_topic)))`).
 
@@ -233,4 +233,4 @@ print(paste("Complete counts in file:", f))
 write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
 ```
 
-
+[Complete geoplace listing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)
