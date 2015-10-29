@@ -49,6 +49,7 @@ df$publisher <- bibliographica::polish_publisher(df.orig$publisher)$name
 
 print("Take corporate field as such for now")
 df$corporate <- df.orig$corporate
+df$corporate <- gsub("S\\.n\\. \\(tuntematon kirjapaino\\)", NA, df$corporate)
 
 print("Years of publication")
 tmp <- bibliographica::polish_years(df$publication_time)
@@ -113,7 +114,7 @@ for (field in c("gatherings", "width", "height", "area", "obl")) {
   df[[field]] <- tmp[[field]]
 }
 
-tmp2 <- write_xtable(tmp, paste(output.folder, "accepted_dimensions.csv", sep = ""))
+tmp2 <- write_xtable(tmp[, c("original", "gatherings", "width", "height", "obl")], paste(output.folder, "accepted_dimensions.csv", sep = ""))
 
 tmp3 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA")], paste(output.folder, "missing_gatherings.csv", sep = ""))
 
@@ -136,13 +137,13 @@ for (varname in c("author", "corporate", "publisher", "language", "publication_p
 
   # Accepted fields
   x <- as.character(df[[varname]])
-  tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.tab", sep = "_"), sep = ""))  
+  tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.csv", sep = "_"), sep = ""))  
 
   # Discarded fields
   o <- as.character(df.orig[[varname]])
   disc <- as.vector(na.omit(o[which(is.na(x))]))
   if (is.null(disc)) {disc <- NA}
-  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.tab", sep = "_"), sep = ""))
+  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""))
 
 }
 
@@ -171,5 +172,4 @@ for (nam in names(originals)) {
 }
 
 
-# -------------------------------------
 

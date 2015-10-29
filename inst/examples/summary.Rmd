@@ -117,9 +117,9 @@ print(p)
 
 ## Publication time
 
-[Successfully converted publication times](publication-time-accepted.csv)
+[Successfully converted publication times](output.tables/publication-time-accepted.csv)
 
-[Discarded publication times](publication-time-discarded.csv)
+[Discarded publication times](output.tables/publication-time-discarded.csv)
 
 ```{r publication_time, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 hist(df$publication_year, main = "Document frequencies over time")
@@ -169,12 +169,9 @@ We also have corporate info available ?
 
 [Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.tab)
 
-
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
 ```{r authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-df$author <- paste(df$family_name,df$first_name,sep=", ")
-ntop <- 50
 a <- rev(rev(sort(table(df$author)))[2:ntop+1])
 par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Top authors")
 ```
@@ -183,7 +180,6 @@ par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab 
 ## Topics
 
 ```{r topics1, topics, echo=FALSE, message=FALSE, warning=FALSE}
-
 # List all topics
 spl <- strsplit(na.omit(as.character(df$subject_topic)), ";")
 
@@ -213,7 +209,6 @@ par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$subject_topic)))[1:ntop
 ```
 
 
-
 ## Subject geographical places
 
 ```{r geo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
@@ -229,7 +224,6 @@ par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, 
 
 ```{r geo3, echo=FALSE, message=FALSE, warning=FALSE}
 f <- "output.tables/geoplaces.csv"
-print(paste("Complete counts in file:", f))
 write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
 ```
 
