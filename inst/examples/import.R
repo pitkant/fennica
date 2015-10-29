@@ -70,21 +70,15 @@ print("Universities")
 df$note_granter <- bibliographica::polish_university(df$note_granter)$name
 
 print("Place names")
-# Korvasin preprocess_placenames-funktion talla. Tarkista etta
-# paikannimet konvertoituu oikein ja tarvittaessa voit taydentaa
-# funktiota suoraan bibliographicaan.  Huom:
 # bibliographica::polish_place hyödyntää paikannimien synonyymilistaa
 # johon voisi lisätä mukaan nuo automaattisesti
 # generoimasi. Synonyymilistojen generointiin tekemäsi
 # string-mätchäysfunktion voisit lisätä bibliographica-pakettiin
 # esimerkin kera myöhempää hyödyntämistä varten.
-
 # Polish publication places
-df$publication_place <- bibliographica::polish_place(df$publication_place, remove.unknown = FALSE)
-
+df$publication_place <- bibliographica::polish_place(df.orig$publication_place, remove.unknown = FALSE)
 # Recognize synonymes with string matching
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
-
 # Finally manual harmonization for the remaining place names
 f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
 sn <- read.csv(f, sep = ";")
@@ -146,8 +140,7 @@ for (varname in c("author", "corporate", "publisher", "language", "publication_p
 
   # Discarded fields
   o <- as.character(df.orig[[varname]])
-  x <- as.character(df[[varname]])
-  disc <- as.vector(na.omit(o[is.na(x)]))
+  disc <- as.vector(na.omit(o[which(is.na(x))]))
   if (is.null(disc)) {disc <- NA}
   tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.tab", sep = "_"), sep = ""))
 
