@@ -16,6 +16,7 @@ Fraction of documents with entries for each annotation field.
 library(stringr)
 library(dplyr)
 library(ggplot2)
+ntop <- 20
 
 # Read the preprocessed data
 df <- readRDS("df.Rds")
@@ -40,38 +41,143 @@ print(p)
 ```
 
 
-Fields of special interest: success percentage compared to non-NA entries in the raw data: 
+Fields of special interest: real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
 ```{r missing2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
-dfs <- df %>% select(publication_place, country, published_in, published_from, published_till, corporate, area, pagecount, gatherings, width, height, paper.consumption.km2)
-missing <- 100*apply(dfs, 2, function (x) {mean(is.na(gsub("^NA$", NA, as.character(x))))})
-df2 <- data.frame(list(missing = missing, field = names(missing)))
-df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
+dfs <- df %>% select(author, publication_place, country, publication_year, published_from, published_till, corporate, area, pagecount, gatherings, width, height, paper.consumption.km2, publisher)
+success <- as.data.frame(t(apply(dfs, 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
+original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publication_time, corporate, physical_extent, physical_dimension), 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
 
-theme_set(theme_bw(15))
-p <- ggplot(df2, aes(x = field, y = 100 - missing))
-p <- p + geom_bar(stat = "identity")
+# Compare the number of non-NA entries in preprocessed data to number
+# of non-NA entries in the original data:
+real.success <- c()
+real.success[["publication_place"]] <- success$publication_place/original.nonNA$publication_place
+real.success[["country"]] <- success$country/original.nonNA$publication_place
+real.success[["publication_year"]] <- success$publication_year/original.nonNA$publication_time
+real.success[["published_from"]] <- success$published_from/original.nonNA$publication_time
+real.success[["published_till"]] <- success$published_till/original.nonNA$publication_time
+real.success[["corporate"]] <- success$corporate/original.nonNA$corporate
+real.success[["publisher"]] <- success$publisher/original.nonNA$publisher
+real.success[["pagecount"]] <- success$pagecount/original.nonNA$physical_extent
+real.success[["area"]] <- success$area/original.nonNA$physical_dimension
+real.success[["gatherings"]] <- success$gatherings/original.nonNA$physical_dimension
+real.success[["author"]] <- success$author/original.nonNA$author
+real.success[["paper"]] <- success$paper.consumption.km2/sum(rowMeans(!is.na(df.orig[, c("physical_extent", "physical_dimension")])) == 1)
+par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Real success rate (selected fields)", las = 1, xlim = c(0, 1), xlab = "Success rate (%)")
+```
+
+## Pagecounts
+
+[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-accepted-discarded.csv)
+
+[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-accepted.csv)
+
+Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+
+```{r summarysizecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+dfs <- df %>% filter(!is.na(area) & !is.na(gatherings))
+dfs <- dfs[, c("gatherings", "area")]
+dfm <- melt(table(dfs))
+names(dfm) <- c("gatherings", "area", "documents")
+dfm$gatherings <- order_gatherings(dfm$gatherings)
+p <- ggplot(dfm, aes(x = gatherings, y = area)) 
+p <- p + scale_y_continuous(trans = "log2")
+p <- p + geom_point(aes(size = documents))
+p <- p + scale_size(trans="log10")
+p <- p + ggtitle("Document size distribution: gatherings vs. cm2")
+p <- p + xlab("Size (gatherings)")
+p <- p + ylab("Size (cm2)")
 p <- p + coord_flip()
-p <- p + ylab("")
-p <- p + xlab("")
-p <- p + ggtitle("Documents with data (%)")
-print(p)
-
-
-dfs <- df.orig %>% select(publication_place, note_year, corporate, physical_extent, physical_dimension)
-missing <- 100*apply(dfs, 2, function (x) {mean(is.na(gsub("^NA$", NA, as.character(x))))})
-df2 <- data.frame(list(missing = missing, field = names(missing)))
-df2$field <- factor(df2$field, levels = df2$field[rev(order(df2$missing))])
-
-theme_set(theme_bw(15))
-p <- ggplot(df2, aes(x = field, y = 100 - missing))
-p <- p + geom_bar(stat = "identity")
-p <- p + coord_flip()
-p <- p + ylab("")
-p <- p + xlab("")
-p <- p + ggtitle("Documents with raw data (%)")
 print(p)
 ```
+
+Compare gatherings and page counts. 
+
+```{r summarypagecomp, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
+dfs <- select(df, pagecount, gatherings) 
+dfs$pagecount <- as.numeric(gsub(" pages", "", dfs$pagecount))
+dfs <- dfs %>% filter(!is.na(pagecount) & !is.na(gatherings))
+dfg <- group_by(dfs, pagecount, gatherings) %>% tally()
+names(dfg) <- c("pages", "gatherings", "documents")
+dfg$gatherings <- order_gatherings(dfg$gatherings)
+ylims <- range(dfg$pages)
+p <- ggplot(dfg, aes(x = gatherings, y = pages)) 
+n <- nchar(max(na.omit(table(dfg$pages))))
+ylim <- ylim(ylims)
+p <- p + scale_y_log10(breaks=10^(0:n))
+p <- p + geom_point(aes(size = documents))
+p <- p + scale_size(trans="log10")
+p <- p + xlab("Size (gatherings)")
+p <- p + ylab("Pages (original and estimated)")
+p <- p + coord_flip()
+print(p)
+```
+
+## Publication time
+
+[Successfully converted publication times](publication-time-accepted.csv)
+
+[Discarded publication times](publication-time-discarded.csv)
+
+```{r publication_time, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+hist(df$publication_year, main = "Document frequencies over time")
+```
+
+## Publication places
+
+Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` unique publication places.
+
+```{r publication_place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+tab <- rev(sort(table(str_trim(unlist(strsplit(as.character(df$publication_place), ";"))))))
+ntop <- 50
+par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents (log10)", main = "Most common publication places")
+```
+
+[Successfully converted publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place.csv)
+
+[Discarded publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_discarded.csv)
+
+[Publication places missing country information](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_missingcountry.csv)
+
+
+
+## Dimensions
+
+[Successfully converted dimension info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/accepted_dimensions.csv)
+
+[Discarded dimension info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/missing_dimensions.csv)
+
+[Discarded gatherings info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/missing_gatherings.csv)
+
+
+## Publisher 
+
+[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv)
+
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
+
+We also have corporate info available ?
+
+[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
+
+
+
+## Authors
+
+[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
+
+[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
+
+
+Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
+
+```{r authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+df$author <- paste(df$family_name,df$first_name,sep=", ")
+ntop <- 50
+a <- rev(rev(sort(table(df$author)))[2:ntop+1])
+par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Top authors")
+```
+
 
 ## Topics
 
@@ -105,17 +211,6 @@ par(mar = c(5, 10, 3, 1)); barplot(rev(rev(sort(table(df$subject_topic)))[1:ntop
 ```
 
 
-## Authors
-
-Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
-
-```{r authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-df$author <- paste(df$family_name,df$first_name,sep=", ")
-ntop <- 50
-a <- rev(rev(sort(table(df$author)))[2:ntop+1])
-par(mar = c(5, 10, 3, 1)); barplot(a, horiz = T, las = 1, cex.names = 0.8, xlab = "Documents", main = "Top authors")
-```
-
 
 ## Subject geographical places
 
@@ -136,24 +231,4 @@ print(paste("Complete counts in file:", f))
 write.table(cbind(Geography = names(tab), Documents = tab), file = f, sep = "|", quote = F, row.names = F)
 ```
 
-
-
-## Publication 
-
-### Publication places
-
-Top-`r ntop` publication places are shown together with the number of documents. This info is available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%). There are `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` unique publication places.
-
-```{r publication_place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-tab <- rev(sort(table(str_trim(unlist(strsplit(as.character(df$publication_place), ";"))))))
-ntop <- 50
-par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, cex.names = 0.8, xlab = "Documents (log10)", main = "Most common publication places")
-```
-
-	
-```{r city2, echo=FALSE, message=FALSE, warning=FALSE}
-f <- "output.tables/publication_place.csv"
-print(paste("Complete counts in file:", f))
-tmp <- write_xtable(df$publication_place, filename = f)
-```
 

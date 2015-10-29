@@ -17,22 +17,13 @@ df <- bibliographica::read_bibliographic_metadata("data/fennica.csv.gz")
 df.orig <- df
 
 print("Languages")
-df$language <- paste0(df$language,";",df$language2)
-df$language <- gsub("NA","",df$language)
-df$language <- gsub("^;","",df$language)
-df$language <- gsub(";$","",df$language)
 df <- cbind(
 	df,
-	bibliographica::mark_languages(df$language)
+	bibliographica::mark_languages(df$language2)
 )
+	
 
-print("Names of authors")
-df <- cbind(
-	df,
-	bibliographica::polish_name_of_author(df$author_name)
-)
-
-print("Lifespans of authors")
+print("Author lifespans")
 df <- cbind(
 	df,
 	bibliographica::polish_years(df$author_date)
@@ -40,15 +31,34 @@ df <- cbind(
 df <- dplyr::rename(df, author_birth = from)
 df <- dplyr::rename(df, author_death = till)
 
+print("Author names")
+df <- cbind(
+	df,
+	bibliographica::polish_name_of_author(df$author_name)
+)
+
+print("Unique author IDs")
+# Unique author identifier by combining name, birth and death years
+df$author <- apply(df[, c("author_name", "author_birth", "author_death")], 1, function (x) {paste(x[[1]], " (", x[[2]], "-", x[[3]], ")", sep = "")})
+df$author <- gsub("NA \\(NA-NA\\)", NA, df$author)
+df$author <- gsub(" \\(NA-NA\\)", "", df$author)
+
+
 print("Publishers")
-df$publisher_simplified <- bibliographica::polish_publisher(df$publisher)$name
+df$publisher <- bibliographica::polish_publisher(df.orig$publisher)$name
+
+print("Take corporate field as such for now")
+df$corporate <- df.orig$corporate
 
 print("Years of publication")
 tmp <- bibliographica::polish_years(df$publication_time)
 df$published_from <- tmp$from
 df$published_till <- tmp$till
 # Now published from == published in for simplicity; perhaps separated later
-df$published_in <- tmp$from 
+df$publication_year <- tmp$from
+# Accepted and Discarded time entries
+tmp2 <- write_xtable(tmp, paste(output.folder, "publication-time-accepted.csv", sep = ""))
+tmp3 <- write_xtable(df.orig$publication_time[rowMeans(is.na(df[, c("publication_year", "published_from", "published_till")]))==1], paste(output.folder, "publication-time-discarded.csv", sep = ""))
 
 print("Dissertations")
 df <- cbind(
@@ -60,7 +70,6 @@ print("Universities")
 df$note_granter <- bibliographica::polish_university(df$note_granter)$name
 
 print("Place names")
-
 # Korvasin preprocess_placenames-funktion talla. Tarkista etta
 # paikannimet konvertoituu oikein ja tarvittaessa voit taydentaa
 # funktiota suoraan bibliographicaan.  Huom:
@@ -82,13 +91,10 @@ sn <- read.csv(f, sep = ";")
 pl <- sorvi::harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)
 df$publication_place <- pl$name
 
-print("Write unrecognized place names to file")
-tmp <- write_xtable(as.character(df.orig[which(is.na(df$publication_place)), ]$publication_place), paste(output.folder, "publication_place_discarded.csv", sep = ""))
-
-
+# Add publication country
 df$country <- get_country(df$publication_place)$country
-#df <- dplyr::tbl_df(df) # cbind overrides locality above
-
+# No country mapping
+tmp <- write_xtable(as.character(df$publication_place[is.na(df$country)]), filename = "output.tables/publication_place_missingcountry.csv")
 
 print("Number of pages")
 # ESTC-specific handling -> Fennica-specific?
@@ -97,14 +103,6 @@ x <- df.orig$physical_extent
 # Generic handling
 tmp <- polish_pages(x, verbose = TRUE)
 df$pagecount <- tmp$total.page
-print("Summarize page conversions")
-tab <- cbind(
-	     pagecount = df$pagecount, 
-	     original = as.character(df.orig$physical_extent)
-	     )
-tmp2 <- write_xtable(tab, paste(output.folder, "documentpages-estimated.csv", sep = ""))
-tmp3 <- write_xtable(df.orig[which(is.na(df$pagecount)), ]$physical_extent, paste(output.folder, "documentpages-estimated-discarded.csv", sep = ""))
-#source("summarize.page.conversions.R")
 
 print("Document dimensions") 
 d <- df.orig$physical_dimension
@@ -121,6 +119,8 @@ for (field in c("gatherings", "width", "height", "area", "obl")) {
   df[[field]] <- tmp[[field]]
 }
 
+tmp2 <- write_xtable(tmp, paste(output.folder, "accepted_dimensions.csv", sep = ""))
+
 tmp3 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA")], paste(output.folder, "missing_gatherings.csv", sep = ""))
 
 tmp4 <- write_xtable(df.orig$physical_dimension[which(tmp$gatherings == "NA" & is.na(tmp$width) & is.na(tmp$height))], paste(output.folder, "missing_dimensions.csv", sep = ""))
@@ -134,4 +134,39 @@ df <- mutate(df, paper.consumption.km2 = width * height * pagecount/2 * (1/1e10)
 
 
 saveRDS(df, "df.Rds")
+
+# ---------------------------------------------------------------
+
+print("Summarize accepted and discarded entries")
+for (varname in c("author", "corporate", "publisher", "language", "publication_place")) {
+
+  # Accepted fields
+  x <- as.character(df[[varname]])
+  tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.csv", sep = "_"), sep = ""))  
+
+  # Discarded fields
+  o <- as.character(df.orig[[varname]])
+  x <- as.character(df[[varname]])
+  disc <- as.vector(na.omit(o[is.na(x)]))
+  if (is.null(disc)) {disc <- NA}
+  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""))
+
+}
+
+
+# Conversion summaries
+originals <- c(publisher = "publisher",
+	       physical_extent = "pagecount"
+	       )
+for (nam in names(originals)) {
+  o <- as.character(df.orig[[originals[[nam]]]])
+  x <- as.character(df[[nam]])
+  inds <- which(!is.na(x))
+  tmp1 <- write_xtable(cbind(original = o[inds],
+      	 		    polished = x[inds]),
+    paste(output.folder, paste(nam, "conversion.csv", sep = "_"), sep = ""))
+
+}
+
+# -------------------------------------
 
