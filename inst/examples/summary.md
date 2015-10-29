@@ -24,15 +24,25 @@ Fields of special interest: real success percentage (proportion of successful co
 
 ## Pagecounts
 
-[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-accepted-discarded.csv)
+[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-estimated-discarded.csv)
 
-[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-accepted.csv)
+[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-estimated.csv)
 
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+
+
+```
+## Error in eval(expr, envir, enclos): could not find function "order_gatherings"
+```
 
 ![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
 
 Compare gatherings and page counts. 
+
+
+```
+## Error in eval(expr, envir, enclos): could not find function "order_gatherings"
+```
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 

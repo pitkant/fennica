@@ -162,11 +162,21 @@ for (nam in names(originals)) {
   o <- as.character(df.orig[[originals[[nam]]]])
   x <- as.character(df[[nam]])
   inds <- which(!is.na(x))
-  tmp1 <- write_xtable(cbind(original = o[inds],
+  tmp <- write_xtable(cbind(original = o[inds],
       	 		    polished = x[inds]),
     paste(output.folder, paste(nam, "conversion.csv", sep = "_"), sep = ""))
 
 }
+# Discard summaries
+for (nam in names(originals)) {
+  o <- as.character(df.orig[[originals[[nam]]]])
+  x <- as.character(df[[nam]])
+  inds <- which(is.na(x))
+  tmp <- write_xtable(o[inds],
+    paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""))
+
+}
+
 
 # -------------------------------------
 

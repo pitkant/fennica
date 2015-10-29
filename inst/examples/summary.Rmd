@@ -70,9 +70,9 @@ par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Rea
 
 ## Pagecounts
 
-[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-accepted-discarded.csv)
+[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages_discarded.csv)
 
-[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages-accepted.csv)
+[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/documentpages_accepted.csv)
 
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
