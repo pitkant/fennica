@@ -22,59 +22,11 @@ Fields of special interest: real success percentage (proportion of successful co
 
 
 ```
-## Error in select_(.data, .dots = lazyeval::lazy_dots(...)): object 'df.orig' not found
+## Error in real.success[["publisher"]] <- success$publisher/original.nonNA$publisher: replacement has length zero
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'original.nonNA' not found
-```
-
-```
-## Error in is.data.frame(x): object 'df.orig' not found
-```
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'ylim' values
+## Error in real.success[["author"]] <- success$author/original.nonNA$author: replacement has length zero
 ```
 
 ![plot of chunk missing2](figure/missing2-1.png) 
@@ -97,7 +49,7 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 ```
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "order_gatherings"
+## Error in order_gatherings(dfm$gatherings): object 'dfm' not found
 ```
 
 ```
@@ -109,11 +61,6 @@ Compare gatherings and cm2 sizes as a quality check. This includes all data; the
 ```
 
 Compare gatherings and page counts. 
-
-
-```
-## Error in eval(expr, envir, enclos): could not find function "order_gatherings"
-```
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
 
