@@ -47,7 +47,7 @@ Fields of special interest: real success percentage (proportion of successful co
 ```{r missing2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
 dfs <- df %>% select(author, publication_place, country, publication_year, published_from, published_till, corporate, area, pagecount, gatherings, width, height, paper.consumption.km2, publisher)
 success <- as.data.frame(t(apply(dfs, 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
-original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publication_time, corporate, physical_extent, physical_dimension), 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
+original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publication_time, corporate, physical_extent, physical_dimension, publisher, author_name), 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
 
 # Compare the number of non-NA entries in preprocessed data to number
 # of non-NA entries in the original data:
@@ -64,7 +64,7 @@ real.success[["area"]] <- success$area/original.nonNA$physical_dimension
 real.success[["gatherings"]] <- success$gatherings/original.nonNA$physical_dimension
 real.success[["author"]] <- success$author/original.nonNA$author
 real.success[["paper"]] <- success$paper.consumption.km2/sum(rowMeans(!is.na(df.orig[, c("physical_extent", "physical_dimension")])) == 1)
-par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Real success rate (selected fields)", las = 1, xlim = c(0, 1), xlab = "Success rate (%)")
+par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Real success rate (selected fields)", las = 1, xlim = c(0, 100), xlab = "Success rate (%)")
 ```
 
 ## Pagecounts
