@@ -142,21 +142,21 @@ for (varname in c("author", "corporate", "publisher", "language", "publication_p
 
   # Accepted fields
   x <- as.character(df[[varname]])
-  tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.csv", sep = "_"), sep = ""))  
+  tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.tab", sep = "_"), sep = ""))  
 
   # Discarded fields
   o <- as.character(df.orig[[varname]])
   x <- as.character(df[[varname]])
   disc <- as.vector(na.omit(o[is.na(x)]))
   if (is.null(disc)) {disc <- NA}
-  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""))
+  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.tab", sep = "_"), sep = ""))
 
 }
 
 
 # Conversion summaries
 originals <- c(publisher = "publisher",
-	       physical_extent = "pagecount"
+	       pagecount = "physical_extent"
 	       )
 for (nam in names(originals)) {
   o <- as.character(df.orig[[originals[[nam]]]])
