@@ -15,6 +15,7 @@ Fraction of documents with entries for each annotation field.
 
 library(stringr)
 library(dplyr)
+library(reshape2)
 library(ggplot2)
 ntop <- 20
 

@@ -30,26 +30,7 @@ Fields of special interest: real success percentage (proportion of successful co
 
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
-
-```
-## Error in eval(expr, envir, enclos): could not find function "melt"
-```
-
-```
-## Error in names(dfm) <- c("gatherings", "area", "documents"): object 'dfm' not found
-```
-
-```
-## Error in order_gatherings(dfm$gatherings): object 'dfm' not found
-```
-
-```
-## Error in ggplot(dfm, aes(x = gatherings, y = area)): object 'dfm' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'documents' not found
-```
+![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
 
 Compare gatherings and page counts. 
 
