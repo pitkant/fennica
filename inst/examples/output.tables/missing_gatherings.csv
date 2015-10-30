@@ -49,6 +49,7 @@ o.	8
 9 x 13 cm	4
 8 x 11 cm.	4
 8 :o.	4
+48,2 x 32 cm, lehti 58 x 41 cm.	4
 19 x 29 cm.	4
 17 x 25 cm.	4
 13 x 18 cm.	4
@@ -57,6 +58,8 @@ o.	8
 70 x 61 cm.	3
 70 x 59 cm.	3
 55 cm.	3
+48,2 x 32 cm, lehti 58,2 x 41 cm.	3
+48,2 x 32 cm, lehti 58 x 45 cm.	3
 41 x 47 cm.	3
 40 x 53,7 cm, lehti 45 x 60 cm.	3
 37,7 x 42,7 cm, lehti 45 x 50 cm.	3
@@ -78,13 +81,16 @@ Koko vaihtelee.	2
 68 x 63 cm.	2
 60 cm.	2
 6 x 10 cm.	2
+57 x 73 cm.	2
 57 x 68 cm.	2
 56 x 71 cm.	2
 56 x 68 cm.	2
 56 cm.	2
+55,5 x 73 cm.	2
 51,4 x 43,1 cm, lehti 58,2 x 50,4 cm.	2
 51 x 42,8 cm, lehti 58 x 50,3 cm.	2
 50,6 x 43 cm, lehti 58 x 50,3 cm.	2
+50 x 33,8 cm, lehti 58,2 x 40,7 cm.	2
 46,7 x 41,5 cm, lehti 51,1 x 43,6 cm.	2
 41 x 55,5 cm, lehti 45 x 60 cm.	2
 41 x 55 cm, lehti 45 x 60 cm.	2
@@ -101,6 +107,7 @@ Koko vaihtelee.	2
 37,7 x 42,8 cm, lehti 43 x 48 cm.	2
 37,6 x 42,8 cm, lehti 44 x 50 cm.	2
 37,5 x 42,8 cm, lehti 44 x 49 cm.	2
+37 x 46 cm.	2
 32 x 32 cm.	2
 32 x 30 cm.	2
 32 x 22,7 cm, lehti 41,3 x 26,5 cm.	2
@@ -132,6 +139,8 @@ n. 51,3 x 42,6 cm, lehti 58 x 51 cm +	1
 n. 28 x 16,9 cm, lehti 29 x 22 cm.	1
 n. 136 x 158 cm, lehdet n. 34 x 52,5 cm.	1
 lehti n. 63 x 51 cm.	1
+lehti 54 x 74 cm, kansi 19 x 13,5 cm.	1
+lehti 46,3 x 37,8 cm.	1
 lehti 44,1 x 51 cm, kansi 16 x 11 cm.	1
 lehti 42,7 x 57,5 cm, kansi 15,5 x 12,5 cm.	1
 lehti 27 x 29 cm.	1
@@ -151,6 +160,11 @@ cm.	1
 8:o [16:o?].	1
 8 cm.	1
 76,5 x 99,5 cm, lehti 88 x 110 cm.	1
+74,3 x 58 cm, lehti 83 x 62 cm.	1
+74 x 56 cm.	1
+73,5 x 57,7 cm, lehti 80,5 x 63 cm.	1
+73 x 64 cm.	1
+73 x 56 cm.	1
 72,5 x 70,5 cm, lehti 77 x 74 cm.	1
 72,5 x 55,5 cm.	1
 72 x 51 cm, lehti 77 x 57,7 cm.	1
@@ -170,6 +184,7 @@ cm.	1
 69 x 61,3 cm, lehti 79 x 69 cm.	1
 69 x 58 cm.	1
 69 x 51 cm.	1
+68 x 73 cm.	1
 68 x 65 cm.	1
 68 x 54 cm.	1
 67 x 55 cm.	1
@@ -180,7 +195,6 @@ cm.	1
 66 x 54,3 cm, lehti 73,7 x 62 cm.	1
 66 cm.	1
 65,8 x 48,3 cm.	1
-64,7 x 31,1 cm, lehti 68 x 34 cm.	1
 64,5 x 72 cm, lehti 69 x 75 cm.	1
 64 x 69 cm.	1
 64 x 62 cm.	1
@@ -209,8 +223,10 @@ cm.	1
 57,5 x 62,5 cm, lehti 62 x 70 cm.	1
 57,3 x 62,5 cm, lehti 61,5 x 70 cm.	1
 57,2 x 49 cm, lehti 64,5 x 52 cm.	1
+57 x 73 cm +	1
 56,8 x 48 cm, lehti 73,5 x 53,5 cm.	1
 56,2 x 47,6 cm, lehti 65,5 x 53 cm.	1
+56 x 73 cm.	1
 56 x 46 cm.	1
 56 x 40 cm.	1
 55,5 x 72 cm.	1
@@ -288,12 +304,15 @@ cm.	1
 50,5 x 66,4 cm, lehti 56,2 x 70,7 cm.	1
 50,4 x 58,2 cm, lehti 54 x 64 cm.	1
 50,4 x 43,1 cm, lehti 58 x 50,6 cm.	1
+50,4 x 34 cm, lehti 58,3 x 40,5 cm.	1
+50,4 x 33,8 cm, lehti 56 x 37,7 cm.	1
 50,3 x 56,4 cm.	1
 50,2 x 58,5 cm, lehti 54,3 x 70,2 cm.	1
 50,2 x 55 cm, lehti 53 x 58 cm.	1
 50 x 57,8 cm, lehti 52,5 x 63,3 cm.	1
 50 x 50 cm.	1
 50 x 49,3 cm, lehti 55 x 68 cm.	1
+49,9 x 36,5 cm, lehti 65,5 x 50,5 cm.	1
 49,8 x 57 cm, lehti 54 x 65 cm.	1
 49,8 x 48,9 cm, lehti 53,5 x 53 cm.	1
 49,5 x 69,1 cm, lehti 51,2 x 70,5 cm.	1
@@ -321,18 +340,26 @@ cm.	1
 48,2 x 57 cm, lehti 54,5 x 62,5 cm.	1
 48,2 x 56 cm, lehti 54 x 62 cm.	1
 48,2 x 55,5 cm, lehti 53,5 x 58,5 cm.	1
+48,2 x 32 cm, lehti 58,2 x 40,7 cm.	1
+48,2 x 32 cm, lehti 58 x 40,8 cm.	1
+48,2 x 32 cm, lehti 50,7 x 34 cm.	1
+48,2 x 32 cm, lehti 49,5 x 34,3 cm.	1
 48 x 55,7 cm, lehti 53,2 x 60,8 cm.	1
 48 x 54 cm.	1
 48 x 44 cm.	1
 48 x 39,6 cm, lehti 56,3 x 45,3 cm.	1
+48 x 36 cm.	1
+48 x 32 cm, lehti 54,2 x 38 cm.	1
 47,9 x 55,3 cm, lehti 52 x 59 cm.	1
 47,8 x 58,5 cm, lehti 50,5 x 62,7 cm.	1
+47,8 x 36 cm, lehti 55 x 42 cm.	1
 47,6 x 58,6 cm, lehti 54 x 65,5 cm.	1
 47,5 x 63 cm, lehti 49 x 64 cm.	1
 47,5 x 58,2 cm, lehti 51,2 x 64,8 cm.	1
 47,1 x 62,7 cm, lehti 54,8 x 72,8 cm.	1
 47 x 68 cm, taitettuna 25 x 15 cm.	1
 47 x 55 cm.	1
+47 x 37 cm.	1
 46,8 x 64,4 cm, lehti 54,3 x 73,3 cm.	1
 46,8 x 64,4 cm, lehti 52,3 x 68,7 cm.	1
 46,8 x 63,8 cm, lehti 54 x 70 cm.	1
@@ -347,6 +374,7 @@ cm.	1
 46 x 61 cm.	1
 46 x 52 cm, lehti 50,7 x 64,5 cm.	1
 46 x 45 cm.	1
+46 cm.	1
 45,9 x 59 cm, lehti 54,3 x 63,7 cm.	1
 45,5 x 60,5 cm, lehti 52 x 64 cm.	1
 45,5 x 55,3 cm, lehti 46,7 x 59,5 cm.	1
@@ -436,6 +464,9 @@ cm.	1
 38-39 cm.	1
 38 x 52,2 cm, lehti 54 x 65,5 cm.	1
 38 x 51 cm, lehti 51 x 62 cm.	1
+38 x 48 cm.	1
+38 x 46,7 cm.	1
+38 x 46 cm.	1
 38 x 33,5 cm, lehti 42 x 37 cm.	1
 37,9 x 42,7 cm, lehti 43 x 55 cm.	1
 37,9 x 42,7 cm, lehti 43 x 54 cm.	1
@@ -478,19 +509,29 @@ cm.	1
 37,4 x 42,8 cm, lehti 43 x 49 cm.	1
 37,3 x 42,7 cm, lehti 42 x 48 cm.	1
 37,1 x 42,6 cm, lehti 44 x 49 cm.	1
+37 x 47 cm.	1
+36,5 x 49 cm.	1
+36,3 x 48,3 cm, lehti n. 47 x 55,5 cm.	1
+36,3 x 48 cm, lehti n. 46 x 57 cm.	1
+36,3 x 48 cm, lehti n. 45 x 53,5 cm.	1
+36,2 x 47 cm (41,2 x 55,6 cm ), lehti 53 x 61,5 cm.	1
 36 x 58,5 cm.	1
+36 x 46 cm.	1
 36 x 28 cm.	1
 36 x 26,2 cm, lehti 43 x 34,2 cm.	1
+35,4 x 47,4 cm, lehti 45 x 57 cm.	1
 35,3 x 42,3 cm, lehti 40,2 x 50,6 cm.	1
 35,3 x 28 cm, lehti 43,2 x 32,8 cm.	1
 35,2 x 30,1 cm, lehti 42,5 x 35,3 cm.	1
 34-40 cm.	1
-33 x 58,5 cm.	1
+34 x 46 cm, lehti 39,8 x 52,4 cm.	1
+33 x 48 cm.	1
+33 x 47 cm.	1
 33 x 37 cm.	1
 33 x 32 cm.	1
 33 x 31 cm.	1
 33 x 30 cm.	1
-32,5 x 57,5 cm.	1
+32,5 x 47 cm, kansi 16,5 x 12cm.	1
 32,3 x 35,3 cm, lehti 35,5 x 38,5 cm.	1
 32 x 33,6 cm, lehti 37 x 35 cm.	1
 32 x 23 cm.	1
@@ -504,7 +545,9 @@ cm.	1
 30,7 x 23 cm, lehti 42,5 x 30,8 cm.	1
 30,5 x 25,4 cm.	1
 30 x 17 cm, lehti 34 x 26 cm.	1
+29,5 x 46 cm.	1
 29-37 cm.	1
+29 x 46 cm.	1
 29 x 36 cm.	1
 29 x 34 cm.	1
 28,3 x 35,9 cm, lehti 33,2 x 39 cm.	1
@@ -544,7 +587,6 @@ cm.	1
 24,2 x 31,7 cm, lehti 26,5 x 34 cm.	1
 24-31 cm.	1
 24-30 cm.	1
-24 x 62,5 cm, lehti 35,5 x 73 cm.	1
 23,1 x 22,5 cm, lehti 24,3 x 28,3 cm.	1
 23 x 32 cm.	1
 23 x 31,3 cm, lehti 25 x 33,6 cm.	1
@@ -582,6 +624,7 @@ cm.	1
 1896.	1
 1869.	1
 18,8 x 26,7 cm, lehti 21,3 x 30 cm.	1
+18,5 x 48,8 cm, lehti 22,7 x 52,5 cm.	1
 18,5 x 13,6 cm, lehti 23 x 18,3 cm.	1
 18-21 cm.	1
 18-19 cm.	1
@@ -596,7 +639,6 @@ cm.	1
 17 x 24 cm.	1
 16,7 x 10,6 cm, lehti 23 x 16 cm.	1
 16,6 x 23,4 cm, lehti 21 x 29 cm.	1
-16,3 x 63 cm, lehti 24,5 x 76,5 cm.	1
 16-19 cm.	1
 16 x 23 cm.	1
 16 cm +	1

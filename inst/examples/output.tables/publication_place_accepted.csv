@@ -1,65 +1,90 @@
 Name	Count
-Tukholma	3912
+Helsinki	26950
+Turku	13615
+Stockholm	3922
+Porvoo	3770
+Vaasa	3494
 Tampere	2469
+Kuopio	1569
+Hämeenlinna	1409
+Viipuri	1321
+Jyväskylä	1031
+Uppsala	733
+Pori	709
 Oulu	652
-upsaliae	405
-s peterburg'	288
+Sortavala	547
+Saint Petersburg	380
 Rauma	251
+Mikkeli	223
 hancock mich	195
-helsingforsiae	193
+Leipzig	188
+London	177
 Kotka	176
 Karjaa	175
-Lontoo	167
 Tammisaari	162
-Berliini	149
-fitchburg mass	127
-Kööpenhamina	123
+Lahti	160
+Hamina	160
+Berlin	158
+Saint Peterbourg	149
+Fitchburg MA	129
+Joensuu	127
+Copenhagen	125
 Kokkola	107
-brooklyn n y	105
-Pietari	92
-Tartto	90
-sanktpeterburg'	84
+New York NY	105
+Örebro	95
+Savonlinna	92
+Tartu	90
+Hanko	81
+Saint Petersbourg	77
 Pietarsaari	76
 dorpati livonorum	74
 Maarianhamina	66
-st petersburg	65
+New York N\.Y	65
 Käkisalmi	62
+Uusikaupunki	58
 Rostock	55
 Lappeenranta	55
 Kristiinankaupunki	54
-Tallinna	49
+Tallinn	49
 kaleva mich	49
 ashtabula ohio	46
+Amsterdam	46
 stockholmisa ja turusa	42
 Lund	42
-Riika	36
+Kajaani	42
+Wittenberg	39
+Moscow	39
+Kemi	39
+Riga	37
 Oslo	36
 duluth minn	36
-moskva	35
 calumet mich	35
-ubsaliae	34
 Heinola	33
-vyborg'	29
+Lapua	31
+Gothenburg	31
 Loviisa	29
-dorp	24
+Budapest	27
+Raahe	26
+Skara	25
+Dorp	24
 Uusikaarlepyy	23
-münchen	22
+Strängnäs	23
+München	22
 Kruunupyy	21
 Jena	21
-Wien	20
+Vienna	20
 Stuttgart	20
-st pétersbourg	20
 port arthur ont	20
 Parkano	20
 Dresden	20
 dorpt	19
+Nurnberg	18
+Linköping	18
 Kaskinen	18
 Västerås	17
 Turenki	16
 Hyvinkää	16
-götheborg	16
 Braunschweig	16
-Göteborg	15
 Chicago IL	15
 s t michel	14
 superior wis	13
@@ -70,228 +95,211 @@ ironwood mich	12
 Hampuri	12
 printåbo	11
 Pärnu	11
+Lybeck	11
 astoria ore	11
 astoria or	11
+Tornio	10
 Norrköping	10
 Laihia	10
 Forssa	10
-vpsaliae	9
-s peterburg	9
-nürnberg	9
 Isokyrö	9
 Heidelberg	9
+Utrecht	8
 Terijoki	8
 Salo	8
-Rooma	8
-Pest	8
-lübeck	8
+Rome	8
 Karlskrona	8
+imprimeaboae	8
 Haaparanta	8
-gryphiswaldiae	8
-zürich	7
+Greifswald	8
+Göttingen	8
+Frankfurt	8
+Zurich	7
 Worcester MA	7
 Wiesbaden	7
-upsalis	7
-upsaliae ime	7
+Weimar	7
+upsaliae imprimeime	7
 tübingen	7
 quincy mass	7
 printstockholm	7
+imprimeboae	7
 hernösand	7
+gryphiswaldiae	7
 Giessen	7
 Firenze	7
 Eura	7
+Augsburg	7
 arosiae	7
-Varsova	6
-norimbergae	6
+Warsaw	6
+Reykjavik	6
+Piikkiö	6
 new york mills minn	6
 Narva	6
 ishpeming mich	6
 ísafjördur	6
 i.e nae	6
+Haarlem	6
 Bonn	6
 Bergen	6
-wilno	5
-upsalae	5
+Vilnius	5
+Tromsö	5
+Strasbourg	5
 stockholm upsala och åbo	5
-sankt peterburg'	5
-s t petersburg	5
 printåpo	5
 pernau	5
-odense	5
-nytorp	5
-milano	5
+Odense	5
+Nytorp	5
+Milano	5
 lvgdvni batavorvm	5
-jämsä	5
-haapajärvi	5
+Jämsä	5
+Halle	5
+Haapajärvi	5
 fitchburg massachusetts	5
 Falun	5
+Chicago	5
 Cambridge	5
+Brahe	5
 Bern	5
 almena wis	5
 wasa nikolaistad	4
-upsalas	4
-tromsø	4
-st petersbourg	4
 Seinäjoki	4
 seattle wash	4
-sanktpeterburg''	4
-s peterburg' a è vineke	4
 Rovaniemi	4
-reykjavik	4
 printupsala	4
 piotrogród	4
+Parainen	4
+Oxford	4
 Orivesi	4
-odessa	4
-madrid	4
-londini gothorum	4
+Odessa	4
+Madrid	4
 Laitila	4
-kuortane	4
+Kuortane	4
 Kouvola	4
 Kiel	4
-karjalohja	4
-jönköping	4
+Karjalohja	4
+Jönnköping	4
 hancock mi	4
 gotha	4
 duluth mn	4
 cassel	4
-brahestad	4
 Basel	4
 anvers	4
-amstelodami	4
 aboae finnorum	4
+Warsow	3
 stockholm och åbo	3
 stettin	3
 st michel	3
 scaris	3
-satakunta	3
-sääksmäki	3
+Satakunta	3
+Sääksmäki	3
 rock island ill	3
 rigae livonum	3
 regiomonti borvssiae	3
-printvpsala	3
 port arthur ontario	3
 port arthur ont can	3
-piikkis	3
-piikkiö	3
-petersburg	3
-peterisa	3
 Parikkala	3
-nyslott	3
+Nyslott	3
 mitau	3
 marpurgi cattorum	3
 malm	3
+Lohja	3
+Leiden	3
 Leeuwarden	3
+Krakow	3
 kauvatsa	3
-kainuu	3
-juva	3
-helsingforsiæ	3
+Kainuu	3
+Juva	3
 hauniae	3
 har'kov'	3
-hankoniemi	3
+Hankoniemi	3
 Hancock MI	3
+Hamburg	3
 gefle	3
 franckfurt am mäyn und leipzig	3
 fitchburgissa mass	3
+Espoo	3
 Cincinnati OH	3
-chicago ill	3
 Brussels	3
-brooklyn ny	3
-berlin'	3
+Brooklyn	3
 Barcelona	3
 ashtabula oh	3
 arhangel'sk'	3
 Altdorf	3
-ypäjä	2
-ylistaro	2
+Ypäjä	2
+Ylistaro	2
 weimar verlage des industrie comptoirs	2
 wandsbek	2
 Virolahti	2
-viitasaari	2
+Viitasaari	2
 vicenza	2
-v' sanktpeterburgě	2
-urjala	2
-upsalie ime	2
-upsalassa	2
-upsal	2
-tyrvää	2
-tukhulmissa	2
-trieste	2
-the theater in oxford	2
+Venice	2
+Urjala	2
+upsalie imprimeime	2
+Tyrvää	2
+Trieste	2
+The Hague	2
 Suomussalmi	2
 Stockton	2
 stockholm och upsala	2
-st pietarborissa	2
-st peterbourg	2
-st mikkelissä	2
 sorau	2
 smithville minn	2
 Sipoo	2
-sankt peterburg	2
-saarijärvi	2
-s peterburg''	2
-s	2
+Saarijärvi	2
+printvpsala	2
 printaboae	2
-pihlava	2
-pietärissä	2
+Pihlava	2
 Philadelphia PA	2
 petrozavodsk'	2
 petropoli	2
-petäjävesi	2
+Petäjävesi	2
 pernå	2
-pargas	2
+Pargas	2
 på nytt medh egen bekostnadt vplagd och stockholm	2
+Ottawa	2
 offenbach am main	2
-nyköping	2
-nuremberg	2
+Nyköping	2
 new york mills mn	2
 new york mills	2
 New Haven Ma	2
-napoli	2
-naantali	2
-mustiala	2
-mu helsinki	2
-Moskova	2
-montréal	2
-maestricht	2
+Närpiö	2
+Napoli	2
+Naantali	2
+Mustiala	2
+Montreal	2
+Minneapolis	2
+Maastricht	2
 lvgd batav	2
-lubecae	2
-lojo	2
 lipsiae	2
-lapualla	2
-lahdessa	2
-kyrkslätt	2
-krakow	2
+Leibzig	2
 köping	2
 Koningsberg	2
 Köln	2
-koivisto	2
-kiiminki	2
+Koivisto	2
+Kirkkonummi	2
+Kiiminki	2
 kazan'	2
-karstula	2
-karlstad	2
+Karstula	2
+Karlstad	2
 karkku	2
-karhula	2
+Karhula	2
 jurjew	2
 junecopiae	2
-joensuussa	2
 jelgawâ	2
-janakkala	2
-jaakkima	2
-ja turusa	2
-ilmajoki	2
-ikaalinen	2
+Janakkala	2
+Jaakkima	2
+Ilmajoki	2
+Ikaalinen	2
 Huopalahti	2
-helsingborg	2
+Helsingborg	2
 helmaestadii	2
-heinävesi	2
+Heinävesi	2
 Hannover	2
-hancockissa mich	2
-hämeenkyrö	2
+Hancock	2
+Hämeenkyrö	2
 halle a d saale	2
 hållas	2
 hafniae	2
-genève	2
-gamburg'	2
+Geneve	2
 fürth	2
 förut stockholm och å nyo uplagd i åbo	2
 fichtburg mass	2
@@ -305,25 +313,22 @@ brvnsbergae	2
 bridgeport conn	2
 breslau	2
 Boston MA	2
-berlin charlottenburg	2
-b'' sanktpeterburgê	2
 augustae vindel augsburg	2
 astoria oregon	2
 Ashtabula OH	2
-amstelaedami	2
+Århus	2
 alten stettin	2
-aboae ime	2
+aboae imprimeime	2
 åbo och stockholm	2
 aalborg	2
 aabenraa	2
 York	1
-ylivieska	1
-ylimarkku	1
+Ylivieska	1
+Ylimarkku	1
 würzburg	1
 worchester ma	1
 wismariae	1
 wisingzborg	1
-wisingsbvrgi	1
 wisingsburgi	1
 wiljandis	1
 wiljandi	1
@@ -332,9 +337,7 @@ wijsingsborg	1
 wib	1
 weida	1
 watton mich	1
-warschau	1
-w krakowie	1
-vyborg''	1
+wasasa t	1
 vthi wästeråås	1
 vthi stockholm	1
 vreta	1
@@ -342,77 +345,54 @@ vlm	1
 vjatka	1
 virginia minn	1
 vind augsburg	1
-vilnae	1
+Vilna	1
 vïden'	1
-viborgae	1
 verteutscht und riga	1
-verona	1
+Verona	1
 ver rigae livonum	1
-venise	1
-venezia	1
-vbsaliae	1
-varsovie	1
-varšava	1
 Vammala	1
-valkjärvi	1
-valaam	1
-vainikkala	1
-v' sanktpeterburge	1
+Valkjärvi	1
+Valamo	1
+Vainikkala	1
 v telči	1
 uusikirkko	1
-uudessakaupungissa	1
 ûr'ev''	1
-upsalie	1
 upsaliae et aboae	1
-upsaiae	1
 ugra	1
 u s a	1
-tʼamsterdam	1
 tyrnaviae	1
-tvrvsa	1
 Tuusula	1
-turusa johan winterildä kuning da boktr dä suures ruhtinan maasa suomes	1
-turusa johan winterildä cuning da boktr dä suures ruhtinan maasa suomes	1
 turura !	1
-turun kaupungisa	1
 turtle lake wis	1
 turku tai viipuri	1
 turku ja helsinki	1
-tulkittu sures fangiuxes olles mutta stocholmisa	1
 tsingshi	1
 trukketum hernösandesne	1
-trondhjem	1
-tromsö	1
+Trondheim	1
 torgelow	1
 tomsk	1
-toholampi	1
+Toholampi	1
 tockholmisa ja turusa	1
-tikkurila	1
-the corner house in ludgate street next s t pauls church london	1
-tervonsalmi	1
-terni	1
+Tikkurila	1
+Tervonsalmi	1
+Terni	1
 tê gryfisbaldía greifswald	1
-tavastgus'	1
-tammela	1
-taipalsaari	1
-t'amsterdam	1
+Tammela	1
+Taipalsaari	1
+t waasasa	1
 t hus	1
 svartå	1
 superior wi	1
-suonenjoki	1
-suomen niemen turusa	1
+Suonenjoki	1
 suobaci recusa	1
 suobaci	1
-sundsvall	1
+Sundsvall	1
 sudbury ontario	1
-stukkolmis	1
 strengnesii	1
 strengnensii	1
 strasburg	1
 stralsund	1
 stralesundii	1
-stokgol'm'	1
-stockohlm	1
 stockholmisa ja turvsa	1
 stockholmiae sveonum	1
 stockholm upsala und åbo	1
@@ -422,65 +402,42 @@ stockholm åbo	1
 stockh ja turus	1
 stocholm !	1
 stetini	1
-ståkkhålm	1
-ståkhålm	1
-st pietarissa	1
-st petterburg	1
-st petersburgisa	1
-st pétersburg	1
-st petersbrg	1
-st petersborg	1
-st peterborissa	1
-st peterborisa	1
-st petarborisa	1
-st mikkeli	1
 st louis kaunti minn	1
 sotckholm !	1
-simola	1
+Simola	1
 Siena	1
 serdobol'	1
 schwerin	1
-savonlinnassa	1
 Sauvo	1
-sarvlaks	1
-sankt' peterburg'	1
+Sarvlaks	1
 sandstone minn	1
 samma åhr	1
-salmi	1
-sakkola	1
-säkkijärvi	1
-saint pétersbourg	1
-s petersburg	1
-s peterburg' m merkušev	1
-s peterburg' b gosudarstvennaâ tipografìâ	1
-s a	1
+Salmi	1
+Sakkola	1
+Säkkijärvi	1
 Rotterdam	1
 rock springs wyo	1
-riga mietau	1
-reykjavík	1
 rewalisa	1
-reikjavik	1
 regiomonti borussorum	1
 regenspurg	1
+Regensburg	1
 red lodge mont	1
 red jacket mich	1
 red jacket mi	1
-recusa aboae	1
 räwelisä	1
-ravenna	1
-rautio	1
-rautalampi	1
-rantasalmi	1
-raisio	1
-räisälä	1
-rääkkylä	1
+Ravenna	1
+Rautio	1
+Rautalampi	1
+Rantasalmi	1
+Raisio	1
+Räisälä	1
+Rääkkylä	1
 quedlinburg	1
 purleigh	1
 prunkkala	1
 printwiborg	1
 printstrengnäs	1
 printe j stockholm	1
-primo upsaliae per eschillum matthiae a nunc recusum stockholmiae	1
 primo rostochii nunc recusum stockholmiae	1
 praze	1
 poznán	1
@@ -489,140 +446,107 @@ port arthur	1
 port arth ont can	1
 pori otto andersin	1
 pistoia	1
-pirkkala	1
+Pirkkala	1
 pinjainen	1
 piitem	1
 pietarporissa	1
-pieksämäki	1
+Pieksämäki	1
 petrozavodsk''	1
 peterburg	1
 pesten	1
-perno	1
-perkjärvi	1
-perho	1
+Perno	1
+Perkjärvi	1
+Perho	1
 pejteri	1
 paris chez le sr desnos rue au globe	1
-pani hin turusa	1
-paimio	1
-padova	1
-p	1
-oulunkylä	1
-oulainen	1
-ottawa canada	1
-ottawa	1
-otavan asema	1
-östersund	1
+Paimio	1
+Padova	1
+Oulunkylä	1
+Oulainen	1
+Otava	1
+Östersund	1
 orismala	1
 orisberg	1
-orimattila	1
-örebroosa	1
+Orimattila	1
 oniipa	1
-och på mångas begäran ånyo uplagd i åbo	1
-occidentalis arhusae	1
 oahspe home letchworth	1
-nya wasa	1
-nurmijärvi	1
-nummela	1
-norimberge	1
+Nurmijärvi	1
+Nummela	1
 nora	1
-noormarkku	1
+Noormarkku	1
 Nokia	1
-nizza	1
-neuchatel	1
+Nizza	1
+Neuchatel	1
 neu ruppin	1
 neapel	1
-närpiö	1
-närpes	1
 nanaimo b c	1
 nagy várad	1
-mutta nytt toisen kerran wastwdest stockholmin	1
-mustasaari	1
-moscou	1
-moscoosa	1
-montpellier	1
+Mustasaari	1
+Montpellier	1
 mitau und leipzig	1
-minsk	1
-minneapolis mn	1
-minneapolis minn	1
+Minsk	1
 milwaukee wis	1
 messina	1
-marttila	1
+Marttila	1
 marpvrgi cattorvm	1
-mäntyharju	1
-mänttä	1
-malmö	1
+Mäntyharju	1
+Mänttä	1
+Malmö	1
 Magdeburg	1
 macon	1
-maaninka	1
+Maaninka	1
 lvtetiae parisorvm	1
-luulaja	1
+Luulaja	1
 lutetiae parisiorum	1
-lundini goth	1
-luleå	1
+Luleå	1
 lugd batavorum	1
 ludguni batavorum	1
-london'	1
-londini scanorum	1
-londini scanor	1
-londini goth	1
 lond scanorum	1
-loimijoki	1
-loimaa	1
-lohtaja	1
-lohja	1
-liverpoolissa	1
-lisboa	1
-linköpingisä	1
+Loimijoki	1
+Loimaa	1
+Lohtaja	1
+Liverpool	1
+Lisbon	1
+Linnköping	1
 Liège	1
 libau	1
-lepzig	1
 leitmeritz	1
 leipzig und amsterdam	1
 leip	1
-leibzig	1
 le mans	1
 Lausanne	1
-landskrona	1
-lammi	1
-laihiala	1
+Landskrona	1
+Lammi	1
+Laihiala	1
 la chapelle montligeon	1
 l'vìv	1
-kyrö	1
-kyôpenhaminassa	1
-kylmäkoski	1
+Kyrö	1
+Kylmäkoski	1
 kvevlaks	1
-kuusankoski	1
-kurkijoki	1
-kuopio linnas	1
-kristinehamn	1
-korsnäs	1
-korsholm	1
+Kuusankoski	1
+Kurkijoki	1
+Kristinehamn	1
+Korsnäs	1
+Korsholm	1
 kolozsvár	1
 Kokemäki	1
-kodisjoki	1
-kjøbnehavn	1
-kivennapa	1
+Kodisjoki	1
+Kivennapa	1
 kirvu	1
 kirchhain	1
-keyserligh frij rijkzstad lybeck	1
-kettuvaara	1
-kemissä	1
-keltto	1
-kausala	1
-kaukaa	1
-kauhajoki	1
-kaprio	1
-kangasala	1
-kallislahti	1
-kalevassa mich	1
-kajana	1
-jyväskylän kaupunnissa	1
-jyvæskylæssæ	1
-jyvaeskylae	1
+Kettuvaara	1
+Keltto	1
+Kausala	1
+Kaukaa	1
+Kauhajoki	1
+Kaprio	1
+Kangasala	1
+Kallislahti	1
+Kaleva	1
 junekopiae	1
 jönkiöping	1
 jetzo auffs newe stade	1
-jalasjärvi	1
+Jalasjärvi	1
 jacobson minn	1
 jääski	1
 ja toisen kerran turusa	1
@@ -630,11 +554,19 @@ ja kolmanen kerran turusa	1
 j cedervaller poikineen	1
 ishpeming mi	1
 ironwood michigan	1
-inkerinmaalla	1
-ingå	1
-impilahti	1
+Inkoo	1
+Inkerinmaa	1
+imprimewisingsbvrgi	1
+imprimehenis auräicis	1
+imprimegryphiswaldiae	1
+imprimegryphisuualdiae	1
+imprimeabo	1
+imprimeá stockholm	1
+imprimea stockholm	1
+imprimeà åbo	1
+Impilahti	1
 Imatra	1
-hvitträsk	1
+Hvitträsk	1
 Hull	1
 houghton mich	1
 houghton mi	1
@@ -644,53 +576,32 @@ holmiae sveonum	1
 holmiae svecorum	1
 holmiae sueonum	1
 holmiae recusa	1
-hirvensalmi	1
-hinnerjoki	1
-henis auräicis	1
-helsinki simelius	1
-helsinki otava	1
-helsinki k e holm	1
-helsinki frenckell	1
-helsinki b frenckell	1
-helsingör	1
-helsingofrs	1
-helsingissä helsingfors	1
-helsingin kaupungisa	1
-helsingi linnas	1
-helsingfors helsingissä	1
+Hirvensalmi	1
+Hinnerjoki	1
+Helsingör	1
 helmstadii	1
-heinjoki	1
-heilbronn	1
-haukilahti	1
-harjavallassa	1
+Heinäjoki	1
+Heilbronn	1
+Haukilahti	1
+Harjavalta	1
 harbor oh	1
 harbor	1
 hanna wyo	1
-hamburgi	1
 halle a/s	1
 halle a s	1
 halberstadtiae	1
 haderslev	1
-haag	1
 gütersloh	1
-gryphisuualdiae	1
 grand rapids mich	1
 göttingen und gotha	1
-godby åland	1
-giöthebörisa ruotzin kielen eric stackbergildä mutta palkan edestä suomexi turusa	1
+Godby	1
 giessae cattorum	1
 gera	1
 gedrukkt azu bo	1
-g gel'singfors'	1
 fridrihsgamn'	1
 freiburg in baden	1
 freiburg im breisgau	1
 frankfurt und leipzig	1
-frankfurt am main	1
-frankfurt a/m	1
-francofvrti	1
-francofurti	1
-franckfurth	1
 francfort et leipzig	1
 franc fort leipzig	1
 folkhögskolan breidablick	1
@@ -700,11 +611,10 @@ eveleth minnesota	1
 erlangen	1
 erfurt	1
 erffurt	1
-enthlímmenon en abóe	1
 enare	1
 ely minn	1
 ely mi	1
-elbingen	1
+Elbingen	1
 Edinburgh	1
 dorpt i lieflandh	1
 dorpato pernaviam translatae	1
@@ -712,70 +622,48 @@ dorpati livonvm	1
 dorpati livonúm	1
 dorpati livonrum	1
 dorpati livonorvm	1
-dordrecht	1
+Dordrecht	1
 dieren	1
 deutschland stralsund	1
-dantzig	1
+Dantzig	1
 clear creek utah	1
-christianstad	1
-chigaco ill	1
-chicago il	1
-carlstad	1
+Christianstad	1
+Carlstad	1
 Calumet MI	1
 calumet mi	1
 Calcutta	1
 burgo sancti petri	1
-buenos aires	1
-brvnsvigae	1
+Buenos Aires	1
+Brunnsvik	1
 brünn	1
 bronx n y	1
-brisbane	1
+Brisbane	1
 bremae	1
-brändö	1
-brahestads	1
-borgosa	1
-björkboda	1
+Brändö	1
+Björkboda	1
 Birmingham	1
-billnäs	1
-bielefeld	1
+Billnäs	1
+Bielefeld	1
 berttula	1
-berlin' berlin	1
-berlin und stettin	1
-berlin grunewald	1
 bennäs	1
-b viipurin läänin maatalouskomisioni	1
 b borg	1
 auctoritate regia privilegialis holmiae	1
 Astoria OR	1
 askersundiae	1
-arnstadt	1
+Arnstadt	1
 arhangelsk	1
 arhangel'sk''	1
 argentorati	1
 arezzo	1
-ånyo stockholm	1
-anttola	1
+Anttola	1
 ancova	1
 amsterdam et a leipzig	1
 amsteldam et a leipzig	1
-amersfoort	1
+Amersfoort	1
 alten stetin	1
 alfeld leine	1
-ala tornio	1
+Alatornio	1
 akureyri	1
 agnifitiae	1
-åggelby	1
+Åggelby	1
 aff vthgångit i åbo	1
-adoae po aboae	1
-abost	1
-aboae impensis autoris	1
-aboae fennorum	1
-abóa turku	1
-aboâ turku	1
-abo !	1
-åbae !	1
-aarhus	1
-á stockholm	1
-à berlin	1
-à amsterdam	1
-à åbo	1
