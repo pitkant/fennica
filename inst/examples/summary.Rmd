@@ -154,9 +154,9 @@ par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, 
 
 ## Publisher 
 
-[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv) (Check that ok to discard these)
 
-[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_conversion.csv)
+[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv) (Check for formatting and synonymes)
 
 We also have corporate info available ?
 

@@ -124,7 +124,7 @@ Brussels;Brussels
 Brvnsbergae;Braniewo
 Brvnsvigae;Braniewo
 brvnsvigae;Brunnsvik
-b'' sanktpeterburgê;Saint Petersbourg
+b'' sanktpeterburge;̂Saint Petersburg
 B'' Sanktpeterburge_;Saint Petersburg
 Budapest;Budapest
 buenos aires;Buenos Aires
@@ -134,6 +134,7 @@ b viipurin läänin maatalouskomisioni;Viipuri
 b Viipurin läänin maatalouskomisioni;Viipuri
 Calcutta;Calcutta
 Calumet MI;Calumet MI
+Calumet MI;calumet mich
 Cambridge;Cambridge
 carlstad;Carlstad
 Carlstad;Carlstad
@@ -162,9 +163,11 @@ dorp;Dorp
 Dorp;Tartu
 Dorpt i Lieflandh;Tartu
 Dorpt;Tartu
+dorpt;Tartu
 Dörpt;Tartu
 Dresden;Dresden
 Duluth MN;Duluth MN
+Duluth MN;duluth minn
 Edinburgh;Edinburgh
 Edita Wittebergae;Wittenberg
 elbingen;Elbingen
@@ -711,9 +714,9 @@ Pesten;Budapest
 petäjävesi;Petäjävesi
 Petäjävesi;Petäjävesi
 Peterburg;Saint Petersburg
-peterisa;Saint Petersbourg
+peterisa;Saint Petersburg
 Peterisa;Saint Petersburg
-petersburg;Saint Petersbourg
+petersburg;Saint Petersburg
 Petersburg;Saint Petersburg
 Petropoli;Saint Petersburg
 Petrozavodsk';Petrozavodsk
@@ -722,7 +725,7 @@ Philadelphia PA;Philadelphia PA
 pieksämäki;Pieksämäki
 Pieksämäki;Pieksämäki
 Pietari;Saint Petersburg
-pietärissä;Saint Petersbourg
+pietärissä;Saint Petersburg
 Pietärissä;Saint Petersburg
 Pietarporissa;Saint Petersburg
 Pietarsaari;Pietarsaari
@@ -766,6 +769,7 @@ Prunkkala;Turku
 Purleigh;Purleigh
 Quedlinburg;Quedlinburg
 Quincy MA;Quincy MA
+Quincy MA;quincy mass
 Raahe;Raahe
 rääkkylä;Rääkkylä
 Rääkkylä;Rääkkylä
@@ -814,7 +818,7 @@ sääksmäki;Sääksmäki
 Sääksmäki;Sääksmäki
 saarijärvi;Saarijärvi
 Saarijärvi;Saarijärvi
-saint pétersbourg;Saint Petersbourg
+saint pétersbourg;Saint Petersburg
 Saint Pe_tersbourg;Saint Petersburg
 Sairala;Sairala
 säkkijärvi;Säkkijärvi
@@ -827,11 +831,11 @@ Salo;Salo
 samma öhr;NA
 s a;NA
 Sandstone Minn;Sandstone MI
-sanktpeterburg';Saint Peterbourg
-sankt peterburg;Saint Petersbourg
-sankt peterburg';Saint Petersbourg
-sankt' peterburg';Saint Petersbourg
-sanktpeterburg'';Saint Petersbourg
+sanktpeterburg';Saint Petersburg
+sankt peterburg;Saint Petersburg
+sankt peterburg';Saint Petersburg
+sankt' peterburg';Saint Petersburg
+sanktpeterburg'';Saint Petersburg
 Sarvlaks;Sarvilahti
 sarvlaks;Sarvlaks
 Satakunta;Pori
@@ -858,17 +862,17 @@ Sorau;_ary
 Sortavala;Sortavala
 sotckholm;Stockholm
 Sotckholm !;Stockholm
-s peterburg' a è vineke;Saint Petersbourg
+s peterburg' a è vineke;Saint Petersburg
 S Peterburg' A E_ Vineke;Saint Petersburg
-s peterburg' b gosudarstvennaâ tipografìâ;Saint Petersbourg
+s peterburg' b gosudarstvennaâ tipografìâ;Saint Petersburg
 S Peterburg' B Gosudarstvennaa_ tipografi_a_;Saint Petersburg
-s peterburg' m merkušev;Saint Petersbourg
+s peterburg' m merkušev;Saint Petersburg
 S Peterburg' M Merkus_ev;Saint Petersburg
-s peterburg;Saint Petersbourg
-s peterburg'';Saint Petersbourg
+s peterburg;Saint Petersburg
+s peterburg'';Saint Petersburg
 s peterburg;Saint Petersburg
 s peterburg';Saint Petersburg
-s petersburg;Saint Petersbourg
+s petersburg;Saint Petersburg
 ståkhålm;Stockholm
 ståkkhålm;Stockholm
 Stetini;Szczecin
@@ -901,25 +905,25 @@ Stökhölm;Stockholm
 Stokkholmisa sic;Stockholm
 stokkholmisa;Stockholm
 Stökkhölm;Stockholm
-st petarborisa;Saint Petersbourg
+st petarborisa;Saint Petersburg
 St Petarborisa;Saint Petersburg
-st peterborisa;Saint Petersbourg
+st peterborisa;Saint Petersburg
 St Peterborisa;Saint Petersburg
-st peterborissa;Saint Petersbourg
+st peterborissa;Saint Petersburg
 St Peterborissa;Saint Petersburg
-st peterbourg;Saint Petersbourg
-st petersborg;Saint Petersbourg
-st pétersbourg;Saint Petersbourg
-st petersbourg;Saint Petersbourg
-st petersbrg;Saint Petersbourg
-st petersburgisa;Saint Petersbourg
+st peterbourg;Saint Petersburg
+st petersborg;Saint Petersburg
+st pétersbourg;Saint Petersburg
+st petersbourg;Saint Petersburg
+st petersbrg;Saint Petersburg
+st petersburgisa;Saint Petersburg
 St Petersburgisa;Saint Petersburg
-st petersburg;Saint Peterbourg
-s t petersburg;Saint Petersbourg
-st pétersburg;Saint Petersbourg
-st petterburg;Saint Petersbourg
-st pietarborissa;Saint Petersbourg
-st pietarissa;Saint Petersbourg
+st petersburg;Saint Petersburg
+s t petersburg;Saint Petersburg
+st pétersburg;Saint Petersburg
+st petterburg;Saint Petersburg
+st pietarborissa;Saint Petersburg
+st pietarissa;Saint Petersburg
 St Pietarissa;Saint Petersburg
 Stralesundii;Stralsund
 Stralsund;Stralsund
@@ -989,7 +993,9 @@ trondhjem;Trondheim
 Trondhjem;Trondhjem
 Trukketum Hernösandesne;Härnösand
 Tsingshi;Tsingshi
-Tu_bingen;Tu_bingen
+Tu_bingen;Tübingen
+Tubingen;Tübingen
+tubingen;Tübingen
 Tukholma;Stockholm
 tukhulmissa;Stockholm
 Tukhulmissa;Stockholm
@@ -1093,8 +1099,8 @@ vpsala;Uppsala
 vpsaliae;Uppsala
 Vpsaliae;Uppsala
 Vreta;Vreta
-v' sanktpeterburgě;Saint Petersbourg
-v' sanktpeterburge;Saint Petersbourg
+v' sanktpeterburgě;Saint Petersburg
+v' sanktpeterburge;Saint Petersburg
 V' Sanktpeterburge_;Saint Petersburg
 V' Sanktpeterburge;Saint Petersburg
 V Telc_i;Tel_
