@@ -38,15 +38,15 @@ Compare gatherings and page counts.
 
 ## Publication time
 
-[Successfully converted publication times](publication-time-accepted.csv)
+[Successfully converted publication times](output.tables/publication-time-accepted.csv)
 
-[Discarded publication times](publication-time-discarded.csv)
+[Discarded publication times](output.tables/publication-time-discarded.csv)
 
 ![plot of chunk publication_time](figure/publication_time-1.png) 
 
 ## Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68827 documents (96%). There are 862 unique publication places.
+Top-20 publication places are shown together with the number of documents. This info is available for 68828 documents (96%). There are 860 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png) 
 
@@ -84,7 +84,6 @@ We also have corporate info available ?
 
 [Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.tab)
 
-
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
 ![plot of chunk authors](figure/authors-1.png) 
@@ -104,7 +103,6 @@ Top-50 topics and number of documents for each. In total, there are 3533 unique 
 ![plot of chunk topics3](figure/topics3-1.png) 
 
 
-
 ## Subject geographical places
 
 
@@ -114,8 +112,5 @@ Top-50 geographical places are shown together with the number of documents assig
 ![plot of chunk geo2](figure/geo2-1.png) 
 
 
-```
-## [1] "Complete counts in file: output.tables/geoplaces.csv"
-```
 
 [Complete geoplace listing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)
