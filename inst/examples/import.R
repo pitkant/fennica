@@ -162,6 +162,13 @@ for (nam in names(originals)) {
     paste(output.folder, paste(nam, "conversion.csv", sep = "_"), sep = ""))
 
 }
+# Accept summaries
+for (nam in names(originals)) {
+  x <- as.character(df[[nam]])
+  tmp <- write_xtable(x,
+    paste(output.folder, paste(nam, "accepted.csv", sep = "_"), sep = ""))
+
+}
 # Discard summaries
 for (nam in names(originals)) {
   o <- as.character(df.orig[[originals[[nam]]]])
@@ -171,6 +178,8 @@ for (nam in names(originals)) {
     paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""))
 
 }
+
+
 
 
 
