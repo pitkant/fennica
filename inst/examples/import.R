@@ -85,6 +85,7 @@ f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "f
 sn <- read.csv(f, sep = ";")
 pl <- sorvi::harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)
 df$publication_place <- pl$name
+# setdiff(names(sort(table(df$publication_place))), c(as.character(sn$synonyme), as.character(sn$name)))[1:20]
 
 # Add publication country
 df$country <- get_country(df$publication_place)$country

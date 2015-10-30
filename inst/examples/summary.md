@@ -46,7 +46,7 @@ Compare gatherings and page counts.
 
 ## Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68828 documents (96%). There are 860 unique publication places.
+Top-20 publication places are shown together with the number of documents. This info is available for 12789 documents (18%). There are 781 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png) 
 
@@ -69,9 +69,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 ## Publisher 
 
-[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.tab)
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
 
-[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.tab)
+[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_conversion.csv)
 
 We also have corporate info available ?
 
@@ -80,9 +80,9 @@ We also have corporate info available ?
 
 ## Authors
 
-[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.tab)
+[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
 
-[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.tab)
+[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
 
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
