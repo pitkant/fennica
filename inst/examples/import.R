@@ -133,7 +133,7 @@ saveRDS(df.orig, "df.orig.Rds")
 # ---------------------------------------------------------------
 
 print("Summarize accepted and discarded entries")
-for (varname in c("author", "corporate", "publisher", "language", "publication_place")) {
+for (varname in c("author", "corporate", "language", "publication_place")) {
 
   # Accepted fields
   x <- as.character(df[[varname]])

@@ -154,9 +154,9 @@ par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, 
 
 ## Publisher 
 
-[Accepted publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.tab)
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
 
-[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.tab)
+[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_conversion.csv)
 
 We also have corporate info available ?
 
@@ -165,9 +165,9 @@ We also have corporate info available ?
 
 ## Authors
 
-[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.tab)
+[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
 
-[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.tab)
+[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
 
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
