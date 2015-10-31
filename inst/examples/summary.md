@@ -46,7 +46,7 @@ Compare gatherings and page counts.
 
 ## Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68819 documents (96%). There are 669 unique publication places.
+Top-20 publication places are shown together with the number of documents. This info is available for 68827 documents (96%). There are 680 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png) 
 
@@ -69,9 +69,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 ## Publisher 
 
-[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv)
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv) (Check that ok to discard these)
 
-[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_conversion.csv)
+[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv) (Check for formatting and synonymes)
 
 We also have corporate info available ?
 
