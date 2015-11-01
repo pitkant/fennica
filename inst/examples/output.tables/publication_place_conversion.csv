@@ -765,7 +765,7 @@ Ottawa	Ottawa	1
 Petrozavodsk''	petrozavodsk''	1
 Vyborg''	Viipuri	1
 Serdobol'	serdobol'	1
-Wiljandis	wiljandis	1
+Wiljandis	Viljandi	1
 Wien ;;Leipzig	Vienna	1
 Leibzig	Leibzig	1
 [Pesten]	pesten	1
@@ -785,7 +785,7 @@ Birmingham	Birmingham	1
 Petrograd''	Saint Petersburg	1
 S.-Peterburg''	Saint Petersburg	1
 Arhangelsk	arhangelsk	1
-Peterburg	peterburg	1
+Peterburg	Saint Petersburg	1
 Vjatka	vjatka	1
 Minsk	Minsk	1
 Vïden'	vïden'	1
@@ -870,7 +870,7 @@ Vitebergae	Wittenberg	1
 New York (NY)	New York NY	1
 Ely (MI)	ely mi	1
 St.Michel	st michel	1
-Pejteri	pejteri	1
+Pejteri	Saint Petersburg	1
 Gel'singfors' ;;S.-Peterburg'	Helsinki	1
 Viipuri ;;Mikkeli ;;Viipuri	Viipuri	1
 Oulu ;;Turku	Oulu	1
@@ -946,7 +946,7 @@ St. Peterborissa	Saint Petersburg	1
 Trukketum Hernösandesne	trukketum hernösandesne	1
 V' Sanktpeterburge	Saint Petersburg	1
 St.-Petersburg	Saint Petersburg	1
-Ja kolmanen kerran Turusa prändätty	ja kolmanen kerran turusa	1
+Ja kolmanen kerran Turusa prändätty	Turku	1
 Strengnäsis	Strängnäs	1
 Excuderunt Aboae	Turku	1
 Abae [sic]	Turku	1
@@ -1033,7 +1033,7 @@ Paimio	Paimio	1
 Villmanstrand	Lappeenranta	1
 Heinjoki	Heinäjoki	1
 Weida	weida	1
-Wiljandi	wiljandi	1
+Wiljandi	Viljandi	1
 Fitchburg. (Mass.)	Fitchburg MA	1
 Oulunkylä	Oulunkylä	1
 St. Petersbrg	Saint Petersburg	1
@@ -1252,7 +1252,7 @@ Rostochiae	Rostock	1
 Tryckt i Wästeråås	Västerås	1
 Gedruckt zu Alten Stetin	alten stetin	1
 [Västerås]	Västerås	1
-Tryckt vthi Wästeråås	printwästeråås	1
+Tryckt vthi Wästeråås	Västerås	1
 Strasburg	strasburg	1
 [Strassburg]	Strasbourg	1
 [Lvtetiae Parisorvm]	lvtetiae parisorvm	1
@@ -1266,7 +1266,7 @@ Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	stockholm aff georg hantsch
 Tryckt på Wisingzborg	wisingzborg	1
 Dorpati Livonrum	dorpati livonrum	1
 Jetzo auffs newe gedruckt zu Stade	jetzo auffs newe stade	1
-Tryckt uthi Dorpt	Tartu	1
+Tryckt uthi Dorpt	idorpt	1
 Verteutscht und gedruckt zu Riga	verteutscht und riga	1
 [Prändäty Turusa]	Turku	1
 [Wiburisa]	Viipuri	1
@@ -1327,7 +1327,7 @@ Tryckt j Stocholm	Stockholm	1
 [Strengnesiae]	Strängnäs	1
 Och i Vpsala	Uppsala	1
 I Vpsala	Uppsala	1
-Stockholmiae Sveonum	stockholmiae sveonum	1
+Stockholmiae Sveonum	Stockholm	1
 Prentetty Stockholmi sa]	Stockholm	1
 En tê Gryfisbaldía [Greifswald]	tê gryfisbaldía greifswald	1
 Enthlímmenon en Abóe	Turku	1
@@ -1450,7 +1450,7 @@ Stetini	stetini	1
 [Jena?]	Jena	1
 [Hamburgi]	Hamburg	1
 Dorpati Livonorvm	dorpati livonorvm	1
-Tryckt vthi Stockholm	printstockholm	1
+Tryckt vthi Stockholm	Stockholm	1
 Excudebat Holmiae	Stockholm	1
 Tryckt i Stocholm	Stockholm	1
 Stokholmi	Stockholm	1
@@ -1500,7 +1500,7 @@ Stralsund	stralsund	1
 Stralesundii	stralesundii	1
 Abo [!]	Turku	1
 Tryckt i Norkiöping	Norrköping	1
-Imprimè [sic] a Abo	imprabo	1
+Imprimè [sic] a Abo	imprimè a abo	1
 Stocklom	Stockholm	1
 Norköping	Norrköping	1
 Imprimé a Stockholm	Stockholm	1
@@ -1544,7 +1544,7 @@ Stockh. ja Turus.	stockh ja turus	1
 Turura [!]	turura !	1
 Stockhomisa	Stockholm	1
 Imprimé á Stockholm	á stockholm	1
-A Amsterdam et a Leipzig	amsterdam et a leipzig	1
+A Amsterdam et a Leipzig	Amsterdam	1
 A Amsteldam et a Leipzig	amsteldam et a leipzig	1
 Leipzig und Amsterdam	leipzig und amsterdam	1
 Deutschland [Stralsund]	deutschland stralsund	1
@@ -1555,7 +1555,7 @@ A Liege	Liège	1
 Regenspurg	regenspurg	1
 Franckfurth	Frankfurt	1
 [Prändätty Stockholmis]	Stockholm	1
-Ja toisen kerran Turusa prändätty	ja toisen kerran turusa	1
+Ja toisen kerran Turusa prändätty	Turku	1
 Ja Turusa prändätty	Turku	1
 Rewalisa prändätty	rewalisa	1
 Linköpingisä	Linnköping	1

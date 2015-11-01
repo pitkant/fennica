@@ -110,7 +110,7 @@ f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographic
 synonyms <- read.csv(f, sep = "\t")
 d <- harmonize_names(d, synonyms, mode = "recursive")$name
 print("Polish dimensions")
-tmp <- polish_dimensions(d, fill = TRUE)
+tmp <- polish_dimensions(d, fill = TRUE, verbose = TRUE)
 for (field in c("gatherings", "width", "height", "area", "obl")) {
   df[[field]] <- tmp[[field]]
 }

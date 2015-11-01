@@ -19,12 +19,12 @@ johan christopher frenckell	408
 frenckell	389
 johan winter	374
 suomen lähetysseura	279
-kongl. iet	276
 johan larsson wall	276
 petrus wald, acad. typogr	262
 peter hansson	250
 isak julin	250
 wilén	246
+kongl. iet	240
 senaten	232
 helios	230
 holm	228
@@ -50,7 +50,7 @@ lutherska evangeliföreningen	135
 suomen historiallinen seura	132
 universitet	125
 kuningallisesa suomalaisesa isä	122
-frenckellska bokiet	119
+frenckellska bokiet	118
 werner söderström	116
 kansa	113
 otto andersin	112
@@ -189,6 +189,7 @@ s. n	36
 och kongl. boktr. i stor-förstendömet finland, jacob merckell	36
 lillja :	36
 iohan winter, kongl. booktr	36
+ikongl. iet	36
 apud joh. wallium, a. t	36
 suomen maanviljelystaloudellinen koelaitos	35
 joh. kiämpe, r. ac. typ	35
@@ -557,6 +558,7 @@ joh. kiämpe reg. acad. typogr	12
 j. länkelä	12
 j. c. frenckellin kirjan-prändisä	12
 j. a. carlbohm	12
+idet kongl. bokiet, af f. phil. paulssen	12
 hissa	12
 helsingin kustannusosakeyhtiö	12
 helsingfors stads elektricitetsverk	12
@@ -601,7 +603,6 @@ lahden kaupunki	11
 lagerspetz	11
 kustannus oy. kirja	11
 koulutarpeiden keskusliike	11
-kongl. finska bokiet	11
 johannes vogelius, acad. typogr	11
 johan georg lange	11
 johan christ. frenckell	11
@@ -655,6 +656,7 @@ nuorsuomalaisen puolueen kanslia	10
 macmillan	10
 londicerin kirjan-prändisä	10
 kustannusliike minerva	10
+kongl. finska bokiet	10
 k. acad. boktr. j. c. frenckells enka	10
 johannes vogelius, academiae typogr	10
 johannes vogel, acad. typographus	10
@@ -681,7 +683,6 @@ finlandia	10
 eurén :	10
 ej i bokhandeln	10
 eero erkko	10
-det kongl. bokiet, af f. phil. paulssen	10
 cuningal. kirj. äj. henrich c. merckelin leskeldä	10
 blomfelt	10
 apud joh. edman, et reg. acad. typogr	10
@@ -725,7 +726,6 @@ literis höjerianis	9
 lankinen	9
 kustannus-oy kirja	9
 kustannus-o.y. helios	9
-kongl. finska bokiet, hos johan arvid carlbohm	9
 keski-suomen kirjapaino	9
 juridiska studentfakulteten :	9
 joh. winter, reg. typ	9
@@ -799,7 +799,7 @@ naz	8
 m. v. wuolukka	8
 kustannusliike kullervo	8
 kristillinen liikemiestoiminta	8
-kongl. fält-iet	8
+kongl. finska bokiet, hos johan arvid carlbohm	8
 keskinäinen vakuutuslaitos sampo	8
 karjalan kirjapaino	8
 kansantaloudellinen yhdistys	8
@@ -907,7 +907,6 @@ kustannusliike osmo	7
 kuning:sen acad. kirjan-äjän frenckellin lesken tykönä	7
 konstnärsgillet	7
 konstföreningen i åbo	7
-kongl. booktr. hoos sal. wankifs änckia	7
 kongl. acad. boktr. j. c. frenckell	7
 kirkollinen kirja- ja paperikauppa	7
 karjalan kp.-o.y	7
@@ -935,6 +934,9 @@ j. c. frenckell?	7
 isak julinin kustannusliike	7
 ioh. bapt. homanni	7
 internat. traktat- o. missionsföreningen	7
+ikongl. iet, hos directeuren pet. momma	7
+ikongl. fält-iet	7
+ikongl. booktr. hoos sal. wankifs änckia	7
 henric curio	7
 henric christofer merckell	7
 hembygdsforskningens vänner i lojo	7
@@ -1048,7 +1050,6 @@ kuningallinen suomalainen i	6
 kuning:sen acad. kirjan-äjän joh. christ. frenckellin lesken tykönä	6
 kumblinska iet	6
 kouluylihallitus	6
-kongl. iet, hos directeuren pet. momma	6
 kokoilija	6
 kirjapaino kipinä	6
 kejserliga senaten för finland	6
@@ -1270,6 +1271,7 @@ j. a. hahnsson	5
 itä-suomen karjanjalostusyhdistys	5
 iohan winter, kongl. bookprintare	5
 iohan winter kongl. booktr	5
+idet kongl. iet	5
 hos g. o. wasenius	5
 hoos sal. matt. syngmans enckia	5
 hoos ioh. wall	5
@@ -1286,7 +1288,6 @@ haeggström	5
 gustav fischer	5
 gröndahl :	5
 gösta nordberg	5
-gamla kongl. iet	5
 g. w. edlundin kustannus-oy	5
 g. w. edlund i distr	5
 g. o. vasenius	5
@@ -1558,6 +1559,7 @@ industrins centrallaboratorium	4
 industriidkarenes i finland ömsesidiga brandstodsförening	4
 ignatius meurerin culutuxell	4
 ignatio meurer	4
+iför detta grefingska iet	4
 hydrografiska byrån vid öfverstyrelsen för väg- och vattenbyggnaderna i finland	4
 hugo geber	4
 hos swederus	4
@@ -1568,7 +1570,7 @@ hoos iohan wall	4
 hoos i. g. eberdt	4
 hoos henrich keyser	4
 hoos chr. reusner	4
-henr. c. merckell, kongl. boktr. uthi stoor-furstendömet finland	4
+henr. c. merckell, kongl. boktr. istoor-furstendömet finland	4
 henr. c. merckell, kongl. boktr	4
 henkivakuutusyhtiö salama	4
 hemvännen	4
@@ -1600,7 +1602,6 @@ frantz phil. paulssen	4
 fr. ja p	4
 föreningen för bekämpandet av tuberkulosen	4
 föreningen ålands vänner	4
-för detta grefingska iet	4
 finska studentafdelningarnas etnografiska museum,	4
 finska statsjärnvägarne	4
 finska sjömansmissionen	4
@@ -1620,7 +1621,6 @@ directeurildä ja cuning:selda kirjan äjäldä, jacob merckellildä	4
 directeurildä ja cuning:da kirjan äjäldä, jacob merckellildä	4
 directeur. och kongl. boktr. i stor-förstendömet finland, jacob merckell	4
 directeur. ja cuningallis. kirjan äjäldä suuren ruhtinm. suomes, jacob merckellildä	4
-det kongl. iet	4
 daniel medelplan	4
 dahlberg	4
 cuning:sesa suomalaisesa prändisä	4
@@ -1666,7 +1666,7 @@ agricola kustannus-o.y	4
 agraarikomitea	4
 afvelsföreningen för ayrshireboskap	4
 aff petro hansonio. acad. typ	4
-aff johan winter, kongl. booktr. printstoorfurstendömet finland	4
+aff johan winter, kongl. booktr. istoorfurstendömet finland	4
 aff eskil matzson	4
 aff dawid kämpe	4
 abr. lundquist	4
@@ -1687,7 +1687,6 @@ yhdistys yleishyödyllisen rakennustoiminnan edistämiseksi	3
 yhdistyneet edistyspuolueet	3
 wirkki	3
 wilhelm braumüller	3
-wildiska iet	3
 wikberg	3
 wiipurin kaupunki	3
 westbeck	3
@@ -1746,7 +1745,6 @@ tilastokomitea	3
 tilastokeskus	3
 tidnings- och iaktiebolaget	3
 tiden	3
-thet kongl. iet, hos directeuren pet. momma	3
 theodor sederholms i	3
 th. tammelin	3
 terveydenhoito-yhdistys	3
@@ -1973,9 +1971,7 @@ kuning:sen acad. äjäldä j. c. frenckellildä	3
 kullervo	3
 konstflitföreningen	3
 kongl. landmäterie contoiret	3
-kongl. finska bokiet, hos joh. arvid carlbohm	3
 kongl. finska bokiet, hos joh. a. carlbohm	3
-kongl. bokiet	3
 kongl. academiae bokiet	3
 kongl. acad. boktr. eric flodström	3
 komitén för den inhemska industrins gynnande	3
@@ -2067,6 +2063,7 @@ j. a. lindblad	3
 j. a. cederberg	3
 izdatel'stvo putevoditelej 'russkìj bedeker''	3
 izd. 'kir'â'	3
+ithet kongl. iet, hos directeuren pet. momma	3
 iohann billingsley	3
 iohan wald, acad. bookprintiare	3
 ioh. kiaempe, reg. ac. typ	3
@@ -2081,6 +2078,10 @@ ignatius meurerin, waiwal ja culutuxel	3
 ignatius meurerin waiwal ja culutuxel	3
 ignatius meurerin waiwal ia culutuxel	3
 ignatius meurerildä	3
+idet kongl. iet, af f. phil. paulssen	3
+idet kongl. bokiet, af. f. phil. paulssen	3
+idet kongl. bokiet	3
+iberlingska bokiet	3
 i. rosqvist	3
 i. n. kušnerev' i k°	3
 i. f. k	3
@@ -2140,6 +2141,7 @@ gösta sundman	3
 giescke	3
 general läntmäterie contoiret	3
 gebethner i wolff	3
+gamla kongl. iet	3
 g.w. edlund	3
 g. w. wilén ja kumpp. kirjapaino	3
 g. w. wilén ja kumpp	3
@@ -2198,10 +2200,7 @@ directeurildä ja cuning:da kirjan-äjäldä suuresa-ruhtinan-maasa suomesa jaco
 directeurildä ja cuning:da kirjan-äjäldä suuren-ruhtinan-maasa suomesa, jacob merckellildä	3
 directeuren, kongl. acad. och stadsens boktr. i stor-förstendömet finnland, jacob merckell	3
 directeuren och kongl. boktr. i stor-förstendömet finnland, jacob merckell	3
-directeuren och kongl. bokprintaren uti stor-förstendömet finland, jacob merckell	3
-det kongl. iet, af f. phil. paulssen	3
-det kongl. bokiet, af. f. phil. paulssen	3
-det kongl. bokiet	3
+directeuren och kongl. bokprintaren istor-förstendömet finland, jacob merckell	3
 david nutt	3
 d. f. bonnier	3
 clouberg ja kumpp. (w. hoving)	3
@@ -2222,7 +2221,6 @@ breitkopf	3
 brahestads borgare- och handelsskola	3
 bohlin	3
 bey johann rudolph cröckers seel. wittwe	3
-berlingska bokiet	3
 bergroth	3
 bennett	3
 b. g. teubner	3
@@ -2307,6 +2305,7 @@ william heinemann	2
 wilho leikas	2
 wilhelm friedrich	2
 wilh. booberg	2
+wildiska iet	2
 wiipurin uusi kirjapaino- ja sanomalehti-osakeyhtiö	2
 wiipurin työväen sanomalehti- ja kirjapaino-osuuskunta	2
 wiipurin soutuklupi	2
@@ -2387,9 +2386,6 @@ uusi aika	2
 uurtaja	2
 uuno a. varis	2
 uudenkaupungin kirjapaino	2
-uti kongl. bokiet uplagdt, hos joh. henr. werner, directeur öfwer alla ien i riket	2
-uti det kongl. iet, hos joh. henr. werner, directeur öfwer alla ien i riket	2
-uti det kongl. bokiet, af f. phil. paulssen	2
 utgifwarens förlag	2
 utgifvare	2
 utgg	2
@@ -2455,7 +2451,6 @@ tidskriften lukutupa	2
 tidskriften hemma och ute	2
 tidn. f. mjölkhushålln	2
 thiesen	2
-thet kongl. iet	2
 theodor neovius	2
 the socialist publishing company	2
 the robert clarke company	2
@@ -2806,7 +2801,6 @@ nicolaus wankif, reg. typogr	2
 nicolaus mollinuxeld	2
 niclas wankijf, cuningalinen kirjanpainaja	2
 new yorkin suomal. vapaa seura	2
-nathanael goldenaus ij	2
 naema helsingius	2
 naantalin kaupunki	2
 n. öhrnberg'in välitysliike	2
@@ -2949,8 +2943,7 @@ konstföreningen i tammerfors	2
 kongliga landtmäteri contoiret	2
 kongl. svenska sjökarte kontoret	2
 kongl. iet hos henr. fougt	2
-kongl. finska bok-iet	2
-kongl. fält-iet hos directeuren peter sohm	2
+kongl. finska bokiet, hos joh. arvid carlbohm	2
 kongl. acad. boktr. j. c. frenckells encka	2
 kongl. acad. bokprintaren joh. c. frenckells enka	2
 kongl. acad. bokprintaren j. c. frenckells enka	2
@@ -3017,7 +3010,6 @@ k. f. hjelt	2
 k. è. gol'm'	2
 k. birkenfel'd'	2
 k. bergroth	2
-k. b. sal. niclas wankijffs ij	2
 jyväskylän v. p. k	2
 jyväskylän eläinsuojelusyhdistys	2
 juuse blom	2
@@ -3092,7 +3084,6 @@ joh. kämpe, reg. ac. typ	2
 joh. kämpe kongl. acad. boktr	2
 joh. georg lange	2
 joh. georg eberdt	2
-joh. g. langes boki	2
 joh. edman, et r. acad. typogr	2
 joh. christoph. frenckell, kongl. acad. boktr	2
 joh. christoph. frenckell et fil	2
@@ -3158,16 +3149,18 @@ j. a. salmisen kp	2
 izdatel'stvo o. n. popovoj	2
 izdanìe o. n. popovoj	2
 ivar willehad	2
+ithet kongl. iet	2
 isohiisi, jakaja	2
 iohann brendeken, kongl: acad. bokprintiare	2
 iohan winterildä, cuningal. äjäldä	2
-iohan winter, kongl. booktr. printstoorfurstendömet finland	2
+iohan winter, kongl. booktr. istoorfurstendömet finland	2
 iohan l. wall, acad. booktr	2
 iohan brendeken, acad. booktr	2
 ioh. baptista homanni	2
 io. wal	2
 industriföreningen	2
 index	2
+inathanael goldenaus ij	2
 imprimeb. johan. kiämpe reg. acad. typogr	2
 imprim. petrus hansonius acad. typ	2
 imprim. johannes winter, typogr. reg. in magno duc. finlandiae	2
@@ -3179,9 +3172,19 @@ im verlage des geogr. instituts	2
 im verlage der wittwe abrams vandenhoek	2
 ilmoitustoimisto hermes	2
 ilmajoen kunta	2
+ikongl. finska bok-iet	2
+ikongl. fält-iet hos directeuren peter sohm	2
+ikongl. bokiet uplagdt, hos joh. henr. werner, directeur öfwer alla ien i riket	2
+ikongl. bokiet	2
+ik. b. sal. niclas wankijffs ij	2
+ijoh. g. langes boki	2
 ignatius meurildä	2
 ignatius meurerin	2
 ignatius meurerilda	2
+igamla kongl. iet	2
+ifrenckellska bokiet	2
+iförr detta grefingska iet	2
+idet kongl. iet, hos joh. henr. werner, directeur öfwer alla ien i riket	2
 iacobus lucius	2
 i.j. granlundin kustannuksella	2
 i. j. ingberg	2
@@ -3241,7 +3244,7 @@ henr. c. merckellildä, cuning. maj. kirj. . suures ruht. maasa suomesa	2
 henr. c. merckellildä, cuning. kirj. äjäldä	2
 henr. c. merckellildä, cuning. kirj. . suuren ruhtinan maasa suomes	2
 henr. c. merckell, reg. typogr. duc. finl	2
-henr. c. merckell, kongl. boktr. uthi stor-furstendömet finland	2
+henr. c. merckell, kongl. boktr. istor-furstendömet finland	2
 henr. c. merckell, kongl. boktr. i stor-förstend. finland	2
 henr. c. merckell, cun. kirjan-äjä	2
 henr. c. merckelildä, cuningal. kirj. äjäldä	2
@@ -3370,7 +3373,6 @@ fratelli treves	2
 frans heinonen	2
 frans enok nyman	2
 fr. skoglund	2
-förr detta grefingska iet	2
 förlagsaktiebolaget otava	2
 föreningen u. v	2
 föreningen för kraft- och bränsle-ekonomi	2
@@ -3503,7 +3505,7 @@ directeurildä ja cuning:da kirjan äjäldä iacob merckellildä	2
 directeurildä ja cuning:da kirjan . suuren-ruhtinan-maasa suomesa, jacob merckellildä	2
 directeuri jacob merckelli-wainajan isä	2
 directeuren och kongl. fält-bokprintaren peter sohm	2
-directeuren och kongl. bokprintaren uti stor-förstendömet finl. jacob merckell	2
+directeuren och kongl. bokprintaren istor-förstendömet finl. jacob merckell	2
 directeuren johan edman, kongl. acad. boktr	2
 directeur. ja cuningallis. kirjan-äjäldä suuren-ruhtinanm. suomesa, jacob merckellildä	2
 directeur. ja cuningallis. kirjan-äjäldä suuren ruhtinanm. suomesa, jacob merckellildä	2
@@ -3684,7 +3686,7 @@ aff peder hanson, acad. typ	2
 aff oloff oloffson	2
 aff niclas wankijf, kongl: booktr	2
 aff johann georg eberdt	2
-aff johan winter, kongl. booktr. printstoorförstendömet finland	2
+aff johan winter, kongl. booktr. istoorförstendömet finland	2
 aff johan winter, kongl. booktr. i stoorförstendöme finland	2
 aff hindrich keyser	2
 aff hendrich curio	2
@@ -4232,27 +4234,6 @@ uuden-ajan toimitus	1
 uuden suomettaren oy	1
 uuden inkerin kustannusyhdistys	1
 utställningskommittén	1
-uti thet kongl. iet, hos joh. henr. werner, dircteur öfwer alla ien i riket	1
-uti thet kongl. bokiet, hos directeuren pet. momma	1
-uti thet kongl. bokiet uplagt, hos salig directeuren joh. henr. werners enkia	1
-uti sal. henrich c. merckels enckas boki	1
-uti kongl. landmäterie contoiret	1
-uti kongl. iet, hos directeuren pet. momma	1
-uti kongl. bokiet uplagdt, hos johan henr. werner, directeur öfwer alla bokien i riket	1
-uti kongl. bokiet uplagde, hos joh. henr. werner, directeur öfwer alla ien i riket	1
-uti kongl. bokiet hos joh. hinr. werner	1
-uti kongl. acad. bokhandeln	1
-uti joh. h. werners officin	1
-uti historiographi regni ii på des bekostnad hartwig gercken	1
-uti frenckellska iet	1
-uti frenckellska bokiet	1
-uti det kongl. iet uplagd, hos joh. henr. werner, directeur öfwer alla ien i riket	1
-uti det kongl. iet :	1
-uti det kongl. iet	1
-uti det kongl. bokiet, hos johan henrich werner, directeur öfwer alla bokien i riket	1
-uti det kongelige danske missions-collegii bogtrykkerie oplagt	1
-uti den sahl. herr biörkmans officin	1
-uthi sal. lars walls ij	1
 utgivarna	1
 utgivarens förlag	1
 utgifwarnes förlag	1
@@ -4289,8 +4270,8 @@ urheilijain kustannus-osakeyhtiö	1
 urban & schwarzenberg	1
 ur naturen	1
 uppsala universitet	1
-uplagt uti k. b. sal. niclas wankijfs ij, med dess egen bekostnad	1
 uplagt på direct lars salvii förlag	1
+uplagt ik. b. sal. niclas wankijfs ij, med dess egen bekostnad	1
 uplagdt på lars salvii kostnad	1
 uplagd af joh. laur. horrn, kongl. ant. arch. boktr	1
 upeneeka	1
@@ -4471,9 +4452,9 @@ trewendt & granier	1
 trävaru-aktiebolaget 'kemi'	1
 trädgårdsodlingens vänner	1
 trackt i kongl. iet hos henr. fougt	1
-tr. uti kongl. iet	1
 tr. o. tidn.-ab	1
 tr. j. wall	1
+tr. ikongl. iet	1
 tr. hos jo. wal	1
 tr. hos io. wal	1
 tr. hos h. fougt, r. af k. w. o. och k. bokprintare	1
@@ -4635,10 +4616,6 @@ thomas von wierings erben	1
 thomas georgin waiwal ia culutuxel ignatius meurerin tykenä	1
 thomas abbor, gymnasii typogr	1
 tho. newborough, at the golden-ball in st. paulʼs-church-yard: and r. parker under the royal-hange	1
-thet kongl. iet. hos directeuren pet. momma	1
-thet kongl. bokiet	1
-thet kongl. bok-iet, hos pet. momma	1
-thet kongl. bok-iet hos sal. directeurens, joh. henr. werners encka	1
 thersammanstades år 1752, af gabriel biörckegren, linköpings läns- och stichts-bokprintare	1
 théophile barrois	1
 theodor sederholmin kirjapaino	1
@@ -5473,15 +5450,12 @@ sällskaps-teater i mariehamn	1
 sällskapets pro fauna et flora fennica	1
 sällskapet för evangelisation på industriorter	1
 sällskap i åbo	1
-salig herr merckells officin	1
 salems sjömanskyrkas förlag	1
 sal. wankijfs enkia	1
 sal. mich. laurelii enckia	1
-sal. merckells officin	1
 sal. johan höjers encka	1
 sal. j. h. werners enkia	1
 sal. j. g. matthiae, kongl. antiquit. archivi bokprintarens enckia	1
-sal. herr merckells officin	1
 sal. h. c. merckells änckia	1
 sal. frantz philipp paulssens enkia	1
 sal. falcks änka	1
@@ -5492,11 +5466,6 @@ sal ! j. h. werners enkia	1
 sak julin	1
 sahlström	1
 sahlberg	1
-sahl. merckells bokie, af f. p. paulssen	1
-sahl. merckells bokie	1
-sahl. lars walls ij	1
-sahl. henr. c. merckell bokie	1
-sahl. h. c. merckells bokie	1
 sahl. billingsleys ij af j. e. balduin, f	1
 sahateollisuustyöväen liitto	1
 sahanomistajayhdistys	1
@@ -5698,8 +5667,6 @@ privata flickskolan i ekenäs	1
 privata barnbördshuset i jakobstad	1
 priroda i obŝestvo	1
 prior	1
-printthet kongl. iet. af o. h	1
-printsal. henrich keysers ij	1
 prints af eric flodström kongl. acad. boktr	1
 printijuwum chr. ludw. hjelt	1
 printhoos ignatium meurer	1
@@ -5727,7 +5694,7 @@ printe hos directeuren johan. a. carlbohm	1
 printe hos controlleuren c. g. cronland	1
 printe hos carl stolpe	1
 printe hos and. jac. nordström	1
-printa uti bibel-sällskapets boki	1
+printa ibibel-sällskapets boki	1
 print. hos. lars. salvius	1
 print. hos. kongl. acad. boktr. j. c. frenckells. enka	1
 print. hos. k. acad. boktr. j. c. frenckells. enka	1
@@ -6212,7 +6179,7 @@ oesterheld & co	1
 ock kongl. boktr. i stor-förstendömet finnland jacob merckell	1
 och vplagd med egen bekostnad, vthaf michaele laurelio, åhr	1
 och uplagt på egen bekostnad af lars wennberg	1
-och uplagd uti kongl. finska bokiet, hos joh. arv. carlbohm	1
+och uplagd ikongl. finska bokiet, hos joh. arv. carlbohm	1
 och tidnings ab i kristinestad	1
 och kongl. boktr. i storförstendömet finland, jacob merckell	1
 och kongl. boktr. i storförstend. finland jacob merckell	1
@@ -7159,67 +7126,41 @@ konstantin elgh	1
 konst- och konstindustriföreningens i björneborg	1
 königl. druckerei	1
 königl. buchdruckerei	1
-konglige amiralitets bokiet	1
 kongliga iet	1
 kongl. sjökarta kont	1
-kongl. privil. bokiet	1
 kongl. ordens-iet	1
-kongl. ordens bokiet	1
 kongl. may:ts antiq. archiv. boktr. joh. l. horrn	1
 kongl. landtmät. contoiret	1
 kongl. landmäteri kontoret	1
-kongl. iet, hos pet. momma	1
 kongl. iet, hos henrik fougt, på des förlag	1
 kongl. iet, hos henr. fougt	1
-kongl. iet, hos directeuren pet. momma = stockholmisa : cuningallises isä directeur. pet. momman tykönä	1
-kongl. iet, hos ... ppet. ! momma	1
-kongl. iet, hos ... pet. momma	1
 kongl. iet hos henr. fougt, stora nygatan, huset n:o 104	1
 kongl. iet hos henr. fougt, på des förlag	1
-kongl. finska iet, hos johan arvid carlbohm	1
 kongl. finska bokiet, på johan arv. carlbohms bekostnad	1
 kongl. finska bokiet, hos johan a. carlbohm, den 4 feb	1
 kongl. finska bokiet hos joh. arvid carlbohm	1
-kongl. booktrykeriet, hos sal. wankijfs änkia	1
-kongl. booktr. uti stor furstendömet finland henr. c. merckell	1
+kongl. fält-iet	1
+kongl. booktr. istor furstendömet finland henr. c. merckell	1
 kongl. booktr. hos sal. wankijfs änkia, och finnes jämwäl til en stor deel där til kiöps	1
-kongl. booktr. hos sal. wankijfs änckia	1
 kongl. booktr. hos sal. wankifs änckia	1
 kongl. booktr. hos sahl. wankifs enka	1
-kongl. booktr. hoos wankijfs änckia	1
-kongl. booktr. hoos sal. wankiffs änckia	1
-kongl. bookijet, hoos sal. wankijfs effterlefwerska	1
-kongl. bookijet, hoos sal. wankifs änckia	1
-kongl. bookiet, hos sal. wankijfs äuckia	1
-kongl. bookiet, hos sal. wankiffs änckia	1
-kongl. bookiet, hoos sal. wankijfs änckia	1
-kongl. bookiet, hoos sal. wankiffs änckia	1
-kongl. bookiet, hoos sahl. wankijfs änckia	1
 kongl. boktr. j. c. frenckells enka	1
 kongl. boktr. i stor-förstendömet finland, sal. henrich christopher merckells änckia	1
 kongl. boktr. i stor-förstend. finland, sal. henrich christother merckels enka	1
 kongl. boktr. i stor-förstend. finland, sal. henr. c. merckells enkia	1
 kongl. boktr. hos sal. wankijfs enkia	1
 kongl. boktr. hos sal. wankijfs enckia	1
-kongl. boktr. hos sal. wankifs enckia	1
-kongl. boktr. hos sal. wankifs änckia	1
-kongl. boktr. hoos sahl. wankijfs änckia, af joh: werner	1
-kongl. bokprintarens uti stor-förstendömet finland, sal. henr. c. merckells encka	1
+kongl. bokprintarens istor-förstendömet finland, sal. henr. c. merckells encka	1
 kongl. bokprintarens i stor-förstendömet finland, sal. henr. c. merckells encka	1
-kongl. bokijet, hoos sal. wankijfs effterlefwerska	1
-kongl. bokijet, hoos sal. wankijfs änckia	1
-kongl. bokij hoos sal. wankifz enckia	1
+kongl. bokiet	1
 kongl. antiqvitets archivi bokprintare, johann laur. horrn	1
 kongl. antiqvitaets archivi boktr. johann laur. horrn	1
-kongl. antiq. archiv. bokiet, hos sal. joh. l. horrns enkia, af carl johansson röpke	1
-kongl. antiq. archiv. bokiet, hos sal. joh. l. horrn	1
 kongl. antiq. arch. boktr.j. l. horrn	1
 kongl. antiq. arch. boktr. joh. laur. horrn	1
 kongl. antiq. arch. bokprintaren julius georg matthiae	1
 kongl. ammiralitetz och blekings provintz bokprintaren johann ludwig happenius	1
 kongl. ammiralitets och blekings provintz bokprintaren, joh. l. happenius	1
 kongl. academie bokiet	1
-kongl. academ. bokiet, hos johan kiämpe	1
 kongl. acad. boktr. johan wall	1
 kongl. acad. boktr. joh. kiämpe	1
 kongl. acad. boktr. joh. c. frenckells enka, på kongl. academiens bekostnad	1
@@ -7238,7 +7179,6 @@ kongl. acad. bokprintaren joh. christopher frenckell. för auctorens räkning	1
 kongl. acad. bokprintaren joh. christopher frenckell	1
 kongl. acad. bokprintaren j. c. frenckells encka	1
 kongl. acad. bokprintare johan christoph. frenckell	1
-kongl. acad. bokiet	1
 konekauppa aatra	1
 konduktööri erikson	1
 kommunalnämnden i helsinge	1
@@ -7539,9 +7479,7 @@ k. e. holms förlag	1
 k. e. holm :	1
 k. e. f. wesander nuor	1
 k. e: holm	1
-k. boktrykerijet, hos sal. wankijfs effterlefwerska	1
 k. bergbom	1
-k. b. sal. niclas wankijfs ij	1
 k. b. boströms förlag	1
 k. b. boströmin kirjapaino	1
 k. acad. kirjan-äjän j. c. frenckellin lesken tykönä	1
@@ -7784,11 +7722,11 @@ johan winterildä cun. kir	1
 johan winterildä cun: kirj	1
 johan winteri	1
 johan winter, winhiästi	1
-johan winter, kongl. booktr. printstoorförstendömet finland	1
-johan winter, kongl. booktr. printstoor-furstendömet finland	1
 johan winter, kongl. booktr. och finnes hoos honom til kiöps	1
+johan winter, kongl. booktr. istoorförstendömet finland	1
+johan winter, kongl. booktr. istoor-furstendömet finland	1
 johan winter, kongl. booktr. i stoor-förstendömet finland	1
-johan winter, kongl. bookprintareprintstoorförstendömet finland	1
+johan winter, kongl. bookprintare istoorförstendömet finland	1
 johan winter, kongl. bokt	1
 johan winter, kongl. bokprintiare	1
 johan winter, kongl. b	1
@@ -7829,7 +7767,6 @@ johan höjerin leski	1
 johan henrik werner?	1
 johan henric werner	1
 johan gustaf fonsell	1
-johan georg langes boki, år	1
 johan georg eberdildä	1
 johan fredrik holmström	1
 johan fr. edman, kongl. acad. boktr	1
@@ -7848,7 +7785,7 @@ johan christoph frenckell	1
 johan christofer frenckell i (leski)	1
 johan christo... frenckell	1
 johan christ. frenckells enka	1
-johan carlson winter, kongl. bookprintiareprintstoorförstendömet finland	1
+johan carlson winter, kongl. bookprintiare istoorförstendömet finland	1
 johan billingsley?	1
 johan billingsley	1
 johan bergdahl	1
@@ -7947,7 +7884,6 @@ joh. h. werner, kongl. boktr	1
 joh. gust. wikeström, jakaja	1
 joh. georg. lange	1
 joh. georg, eberdt	1
-joh. georg langes boki	1
 joh. georg eberdildä	1
 joh. g. eberdt	1
 joh. ernesti kallmeyeri	1
@@ -8229,6 +8165,7 @@ izdanìe a. s. suvorina	1
 izdanìe a. f. devrìena	1
 izdanïe 'věstnika vyborgskoj krěpostnoj artillerïi'	1
 izd. avtora	1
+iwildiska iet	1
 iwar hæggström	1
 ivstvs theodorvs svanström	1
 iversen	1
@@ -8237,6 +8174,14 @@ ivar haggström	1
 ivar haeggströmin kp	1
 iv. iverus	1
 itsenäinen kieltolakiwalitsijayhdistys	1
+ithet kongl. iet. hos directeuren pet. momma	1
+ithet kongl. iet. af o. h	1
+ithet kongl. iet, hos joh. henr. werner, dircteur öfwer alla ien i riket	1
+ithet kongl. bokiet, hos directeuren pet. momma	1
+ithet kongl. bokiet uplagt, hos salig directeuren joh. henr. werners enkia	1
+ithet kongl. bokiet	1
+ithet kongl. bok-iet, hos pet. momma	1
+ithet kongl. bok-iet hos sal. directeurens, joh. henr. werners encka	1
 itä-suomen kirjapaino	1
 itä-karjalan maanviljelysseura	1
 itä-karjalan hevosjalostusyhdistysten liitto	1
@@ -8248,11 +8193,22 @@ itä-hämeen hevosjalostusyhdistysten liitto	1
 istopher frenckell	1
 isojoen v. 1909 laulujuhlan toimikunta	1
 isojoen raittiusseura	1
+isalig herr merckells officin	1
+isal. merckells officin	1
+isal. lars walls ij	1
+isal. herr merckells officin	1
+isal. henrich keysers ij	1
+isal. henrich c. merckels enckas boki	1
 isak smeds	1
 isak nevasaari	1
 isak julinin kustannuskiike	1
 isak julin, jakaja	1
 isak ek	1
+isahl. merckells bokie, af f. p. paulssen	1
+isahl. merckells bokie	1
+isahl. lars walls ij	1
+isahl. henr. c. merckell bokie	1
+isahl. h. c. merckells bokie	1
 isaac marcus	1
 iosephus nummelin	1
 iohannis matthaei	1
@@ -8266,7 +8222,7 @@ iohann brendeken	1
 iohan. christopher merckell	1
 iohan winterildä, cuningal: kirjan äjäldä	1
 iohan winteri, kuning.nen booktr.ri suures ruhtinan maasa suomes	1
-iohan winter, kongl. booktr. printstoor-furstendömet finland	1
+iohan winter, kongl. booktr. istoor-furstendömet finland	1
 iohan winter, kongl. booktr. i stoor-furstendömet finland	1
 iohan winter, kongl. booktr. i stoor-förstendömet finland	1
 iohan winter, kongl. bookt	1
@@ -8378,10 +8334,54 @@ ilmari r. lindqvist, utg	1
 ilmari palmén jakaja	1
 ilmari kiianlinna	1
 ilmajoen kristillinen työväenyhdistys	1
+ikonglige amiralitets bokiet	1
+ikongl. privil. bokiet	1
+ikongl. ordens bokiet	1
+ikongl. landmäterie contoiret	1
+ikongl. iet, hos pet. momma	1
+ikongl. iet, hos directeuren pet. momma = stockholmisa : cuningallises isä directeur. pet. momman tykönä	1
+ikongl. iet, hos ... ppet. ! momma	1
+ikongl. iet, hos ... pet. momma	1
+ikongl. finska iet, hos johan arvid carlbohm	1
+ikongl. finska bokiet, hos johan arvid carlbohm	1
+ikongl. finska bokiet, hos joh. arvid carlbohm	1
+ikongl. finska bokiet	1
+ikongl. booktrykeriet, hos sal. wankijfs änkia	1
+ikongl. booktr. hos sal. wankijfs änckia	1
+ikongl. booktr. hoos wankijfs änckia	1
+ikongl. booktr. hoos sal. wankiffs änckia	1
+ikongl. bookijet, hoos sal. wankijfs effterlefwerska	1
+ikongl. bookijet, hoos sal. wankifs änckia	1
+ikongl. bookiet, hos sal. wankijfs äuckia	1
+ikongl. bookiet, hos sal. wankiffs änckia	1
+ikongl. bookiet, hoos sal. wankijfs änckia	1
+ikongl. bookiet, hoos sal. wankiffs änckia	1
+ikongl. bookiet, hoos sahl. wankijfs änckia	1
+ikongl. boktr. hos sal. wankifs enckia	1
+ikongl. boktr. hos sal. wankifs änckia	1
+ikongl. boktr. hoos sahl. wankijfs änckia, af joh: werner	1
+ikongl. bokijet, hoos sal. wankijfs effterlefwerska	1
+ikongl. bokijet, hoos sal. wankijfs änckia	1
+ikongl. bokij hoos sal. wankifz enckia	1
+ikongl. bokiet uplagdt, hos johan henr. werner, directeur öfwer alla bokien i riket	1
+ikongl. bokiet uplagde, hos joh. henr. werner, directeur öfwer alla ien i riket	1
+ikongl. bokiet hos joh. hinr. werner	1
+ikongl. antiq. archiv. bokiet, hos sal. joh. l. horrns enkia, af carl johansson röpke	1
+ikongl. antiq. archiv. bokiet, hos sal. joh. l. horrn	1
+ikongl. academ. bokiet, hos johan kiämpe	1
+ikongl. acad. bokiet	1
+ikongl. acad. bokhandeln	1
 ikaalisten kunta	1
+ik. boktrykerijet, hos sal. wankijfs effterlefwerska	1
+ik. b. sal. niclas wankijfs ij	1
+ijohan georg langes boki, år	1
+ijoh. h. werners officin	1
+ijoh. georg langes boki	1
 iisalmen ylivieskan rautatiekomitea	1
 iisalmen yhteiskoulu	1
 iisalmen eläinsuojelusyhdistys	1
+ihistoriographi regni ii på des bekostnad hartwig gercken	1
+iharbergs & hesselbergs i	1
 ignatius meurerin. waiwal ja culutuxel	1
 ignatius meurerin tykönä	1
 ignatius meurerin culucuxell	1
@@ -8390,7 +8390,17 @@ ignatio meurer, kongl. booktr	1
 ignatii meurer	1
 ignati` meurer	1
 ign. meur. tykönä	1
+ifrenckellska iet	1
+iförr detta grefingska iet, hos henr. fougt	1
 iduna	1
+idet kongl. may:tt priviligierade goldenaus ij	1
+idet kongl. iet uplagd, hos joh. henr. werner, directeur öfwer alla ien i riket	1
+idet kongl. iet hos directeuren pet. momma	1
+idet kongl. iet :	1
+idet kongl. bokiet, hos johan henrich werner, directeur öfwer alla bokien i riket	1
+idet kongl. academia bokiet	1
+idet kongelige danske missions-collegii bogtrykkerie oplagt	1
+iden sahl. herr biörkmans officin	1
 idän uutisten kirjapaino	1
 idän suomalaisen raittiusk. liitto	1
 idän suomalainen raittiuskansan liitto	1
@@ -8401,7 +8411,10 @@ ianssonianis	1
 iacobvs pistorivs	1
 iacobvs henricvs roos	1
 iacobi lucij	1
+iacad. carol. bokie	1
 iab. fylgia	1
+ia. holms booki	1
+ia. holms boktr	1
 i. n. kušnerev	1
 i. marcus boktr	1
 i. lindblad	1
@@ -8563,7 +8576,7 @@ hoos henrich christoph. merckell, kongl. bookprintiare	1
 hoos henr. christoph. merckell, kongl. booktr	1
 hoos henr. c. merckell. kongl. boktr. i storfurstendömet finland	1
 hoos henr. c. merckell. kongl. boktr	1
-hoos henr. c. merckell, kongl. booktr. uthi stor-furstendömet finland	1
+hoos henr. c. merckell, kongl. booktr. istor-furstendömet finland	1
 hoos henr. c. merckell, kongl. boktr. i storfurstendömet finland	1
 hoos henr. c. merckell, kongl. boktr. i storförstendömet finland	1
 hoos henr. c. merckell, kongl. boktr. i stor-furstendömet finnland	1
@@ -8727,7 +8740,7 @@ henr. christoph. merckell, kongl. boktr. i stor furstend. finland	1
 henr. christoph. merckell, kongl. bokprintiare	1
 henr. christoph merckelildä, cuningal. kirjan	1
 henr. christoph ! merckelild... cuningal. kirjan	1
-henr. christop. merckell kongl. boktr. uthi åbo	1
+henr. christop. merckell kongl. boktr. iåbo	1
 henr. christ. merckelildä, cuning. kirjan äjäldä	1
 henr. chr. merckellin, cuning:sen kirj. äj. tykönä	1
 henr. c. merckellin, cuningall. kirjan t. tykönä	1
@@ -8746,12 +8759,12 @@ henr. c. merckellildä cuning:da kirjan-:dä suri-ruhtinan maasa suomesa	1
 henr. c. merckell. typogr. reg	1
 henr. c. merckell. reg. typogr. duc. finl	1
 henr. c. merckell. reg. typogr	1
-henr. c. merckell. kongl. boktr. uthi stoor-furstendömet finland	1
+henr. c. merckell. kongl. boktr. istoor-furstendömet finland	1
 henr. c. merckell. kongl. bokprintiare	1
 henr. c. merckell. kongl. bokprintare i storfurstendömet finnland	1
 henr. c. merckell, reg. typogr. in magn. duc. finlandiae	1
 henr. c. merckell, kongl. botr. i stoor-furstendömet finland	1
-henr. c. merckell, kongl. booktr. uthi stoor-furstendömet finland	1
+henr. c. merckell, kongl. booktr. istoor-furstendömet finland	1
 henr. c. merckell, kongl. boktr. i storfurstendömet finnland	1
 henr. c. merckell, kongl. boktr. i storfurstendömet finland	1
 henr. c. merckell, kongl. boktr. i storfurstend. finland	1
@@ -8925,7 +8938,6 @@ harrison and sons	1
 harland	1
 harjavallan kunnallislautakunta	1
 haridus	1
-harbergs & hesselbergs i	1
 harberg och hesselberg	1
 harberg & hesselberg	1
 hantverks- och fabriksföreningen	1
@@ -9370,7 +9382,6 @@ försäkringsinspektören	1
 försäkringsab. kaleva	1
 förs	1
 förr detta grefinska iet	1
-förr detta grefingska iet, hos henr. fougt	1
 fornminnesföreningen	1
 fornminnesfören	1
 forlagt af v. pios boghandel	1
@@ -10058,7 +10069,7 @@ directeuri jacob merckelli-wainajan prändisä	1
 directeuren pet. momma	1
 directeuren on kongl. bokprintaren i stor-förstendömet finland, jacob merckell	1
 directeuren och kongl. fält-bokprintaren p. sohm	1
-directeuren och kongl. boktr. uti stor-förstendömet finland, jacob merckell	1
+directeuren och kongl. boktr. istor-förstendömet finland, jacob merckell	1
 directeuren och kongl. boktr. i storförstendömet finnland, jacob merckell	1
 directeuren och kongl. boktr. i stor-förstend. finnland, jacob merckell	1
 directeuren och kongl. bokt. i stor-förstendömet finland, jacob merckell	1
@@ -10099,10 +10110,7 @@ deutsche schriftstellergenossenschaft	1
 deutsche elementarschule	1
 deutsche bibliothek	1
 det nordiske forlag	1
-det kongl. may:tt priviligierade goldenaus ij	1
 det kongl. iet, hos directeuren pet. momma	1
-det kongl. iet hos directeuren pet. momma	1
-det kongl. academia bokiet	1
 dess officin	1
 der geographische verein de vérein in finland - société finlandaise de géographie	1
 der c. weigel-schneiderʼschen kunst- und buchhandlung von nürnberg	1
@@ -10783,7 +10791,7 @@ apud & haeredes joannis elsevirii, academiae typograph	1
 apuc johannem laurentii wallium, regiae academiae typogr	1
 apu-yhtiö	1
 ap. petr. wald	1
-ånyo uplagdt uti förr detta grefingska iet	1
+ånyo uplagdt iförr detta grefingska iet	1
 anundinis	1
 anundianis	1
 antti mikkola	1
@@ -11023,18 +11031,18 @@ aff niclas wankijff, kongl. bookprint	1
 aff johann winter, kongl. booktr	1
 aff johann kankel	1
 aff johann carlson winter	1
-aff johan winter, kongl. booktrykiareprintstoorförstendömet finland	1
-aff johan winter, kongl. booktr. printstoor-förstendömet finland	1
+aff johan winter, kongl. booktrykiare istoorförstendömet finland	1
+aff johan winter, kongl. booktr. istoor-förstendömet finland	1
 aff johan winter, kongl. booktr. i storfurstendömet finland	1
 aff johan winter, kongl. booktr. i stoorfurstendömet finland	1
 aff johan winter, kongl. booktr. i finland	1
-aff johan winter, kongl. bookt. printstoorfurstendömet finland	1
-aff johan winter, kongl. bookt. printstoor-furstendömet finland	1
-aff johan winter, kongl. bookt. printstoor furstendömet finland	1
+aff johan winter, kongl. bookt. istoorfurstendömet finland	1
+aff johan winter, kongl. bookt. istoor-furstendömet finland	1
+aff johan winter, kongl. bookt. istoor furstendömet finland	1
 aff johan winter, kongl. bookprintiare	1
-aff johan winter, kongl. bookprintareprintstoorförstendömet finland	1
-aff johan winter, kongl. bookprintare, printstoorförstendömet finland	1
 aff johan winter, kongl. bookprintare, och finnes hoos honom til kiöps	1
+aff johan winter, kongl. bookprintare, istoorförstendömet finland	1
+aff johan winter, kongl. bookprintare istoorförstendömet finland	1
 aff johan winter, kongl. bookprintare	1
 aff johan winter, kongl. boktr. i storförstendömet finland	1
 aff johan kankel	1
@@ -11045,7 +11053,7 @@ aff jochim fuess	1
 aff jacobo pistorio	1
 aff iohann vogel, acad. bookprintiare	1
 aff iohann georg eberdt	1
-aff iohan winter, kongl. booktr. printstoor-furstendömet finland	1
+aff iohan winter, kongl. booktr. istoor-furstendömet finland	1
 aff iohan winter, kongl. booktr. i stoorfurstendömet finland	1
 aff iohan winter, kongl. boktr	1
 aff iohan winter kongl. booktr	1
@@ -11119,7 +11127,6 @@ academiae apud waldianam	1
 acad. typogr	1
 acad. lit	1
 acad. in officinâ p.m. petri wald	1
-acad. carol. bokie	1
 acad. apuc petri waldz	1
 ac impensis joh. laurent. horrn, reg. ant. arch. typogr	1
 absoluta nykterhetsföreningen i ekenäs	1
@@ -11239,8 +11246,6 @@ a. janssen	1
 a. j. nordstöm	1
 a. j. frosterus	1
 a. i. nordström	1
-a. holms booki	1
-a. holms boktr	1
 a. hirchwald	1
 a. helenius förlag	1
 a. hartlebens verlag	1

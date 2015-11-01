@@ -46,7 +46,7 @@ Compare gatherings and page counts.
 
 ## Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68827 documents (96%). There are 646 unique publication places.
+Top-20 publication places are shown together with the number of documents. This info is available for 68827 documents (96%). There are 638 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png) 
 
