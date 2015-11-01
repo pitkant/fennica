@@ -216,7 +216,7 @@ Vpsaliae	Uppsala	9
 Witebergae	Wittenberg	9
 [Turku?]	Turku	9
 Linköping	Linköping	9
-I Åbo	printåbo	9
+I Åbo	Turku	9
 [Hämeenlinna]	Hämeenlinna	8
 St. Pétersbourg	Saint Petersburg	8
 S.-Peterburg	Saint Petersburg	8
@@ -236,7 +236,7 @@ Weimar	Weimar	7
 Salo	Salo	7
 Zürich	Zurich	7
 Copenhague	Copenhagen	7
-Tübingen	tübingen	7
+Tübingen	Tübingen	7
 Roma	Rome	7
 Astoria (Ore.)	astoria ore	7
 Mikkelissä	Mikkeli	7
@@ -251,7 +251,7 @@ Wiesbaden	Wiesbaden	7
 Eura	Eura	7
 A Amsterdam	Amsterdam	7
 [Nürnberg]	Nurnberg	7
-I Stockholm	printstockholm	7
+I Stockholm	Stockholm	7
 Impr. Aboae	Turku	7
 Upsalis	Uppsala	7
 [Rostochii]	Rostock	7
@@ -320,7 +320,7 @@ Gedruckt zu Abo	Turku	5
 Pernau	pernau	5
 [Stockholm?]	Stockholm	5
 Upsalae	Uppsala	5
-I Åpo	printåpo	5
+I Åpo	Turku	5
 Tryckt i Wasa	Vaasa	5
 Stockholm, Upsala och Åbo	stockholm upsala och åbo	5
 [Tammerfors]	Tampere	4
@@ -372,7 +372,7 @@ Strengnäs	Strängnäs	4
 Greifswald	Greifswald	4
 [Dorpati Livonorum]	dorpati livonorum	4
 [Stockholmiae]	Stockholm	4
-I Upsala	printupsala	4
+I Upsala	Uppsala	4
 [Präntätty Turusa]	Turku	4
 [Wiburgi]	Viipuri	4
 Göttingen	Göttingen	4
@@ -403,7 +403,7 @@ Waasassa	Vaasa	3
 Bruxelles	Brussels	3
 [Stockholm	Stockholm	3
 Chicago (Ill.)	Chicago	3
-Fitchburgissa (Mass.)	fitchburgissa mass	3
+Fitchburgissa (Mass.)	Fitchburg MA	3
 Mitau	mitau	3
 Helsinkai	Helsinki	3
 Dorpat	Dorp	3
@@ -452,7 +452,7 @@ Stokholmis	Stockholm	3
 [Hamburg]	Hampuri	3
 Stokholm	Stockholm	3
 [Göteborg]	Gothenburg	3
-Rigae Livonum	rigae livonum	3
+Rigae Livonum	Riga	3
 Marpurgi Cattorum	marpurgi cattorum	3
 Regiomonti Borvssiae	regiomonti borvssiae	3
 Strängnäs	Strängnäs	3
@@ -474,7 +474,7 @@ Tryckt i Dorpt	Tartu	3
 [Wiburgi?]	Viipuri	3
 [Tryckt j Stockholm]	Stockholm	3
 [Prentattu Stocholmis]	Stockholm	3
-Aboae Finnorum	aboae finnorum	3
+Aboae Finnorum	Turku	3
 Stocholmiae	Stockholm	3
 Turusa präntätty	Turku	3
 Gedruckt zu Stockholm	Stockholm	3
@@ -827,7 +827,7 @@ Brooklyn (N.Y)	New York NY	1
 New York, N.Y.	New York NY	1
 Port Arthur (Ontario)	port arthur ontario	1
 New York Mills	new york mills	1
-Port Arthur	port arthur	1
+Port Arthur	Porth Arthur ON	1
 Red Jacket (Mich.)	red jacket mich	1
 Liverpoolissa	Liverpool	1
 Lith i Åbo	printåbo	1
@@ -1141,7 +1141,7 @@ Superior, (Wis.)	superior wis	1
 Kokemäki	Kokemäki	1
 Nokia	Nokia	1
 Hämeelinna	Hämeenlinna	1
-Port Arth., (Ont. Can.)	port arth ont can	1
+Port Arth., (Ont. Can.)	Porth Arthur ON	1
 Harbor (OH)	harbor oh	1
 Superior (WI)	superior wi	1
 Ishpeming (MI)	ishpeming mi	1
@@ -1252,7 +1252,7 @@ Rostochiae	Rostock	1
 Tryckt i Wästeråås	Västerås	1
 Gedruckt zu Alten Stetin	alten stetin	1
 [Västerås]	Västerås	1
-Tryckt vthi Wästeråås	vthi wästeråås	1
+Tryckt vthi Wästeråås	printwästeråås	1
 Strasburg	strasburg	1
 [Strassburg]	Strasbourg	1
 [Lvtetiae Parisorvm]	lvtetiae parisorvm	1
@@ -1326,7 +1326,7 @@ Tryckt j Stocholm	Stockholm	1
 [Agnifitiae]	agnifitiae	1
 [Strengnesiae]	Strängnäs	1
 Och i Vpsala	Uppsala	1
-I Vpsala	printvpsala	1
+I Vpsala	Uppsala	1
 Stockholmiae Sveonum	stockholmiae sveonum	1
 Prentetty Stockholmi sa]	Stockholm	1
 En tê Gryfisbaldía [Greifswald]	tê gryfisbaldía greifswald	1
@@ -1353,7 +1353,7 @@ Tryckt i Stockholm på nytt	Stockholm	1
 Tryckt i then konungzlige hufwudstaden Stockholm	Stockholm	1
 [Tryckt j keyserligh frij Rijkzstad Lybeck]	Lybeck	1
 [Stokholmiae]	Stockholm	1
-Excusi Aboae Finnorum	aboae finnorum	1
+Excusi Aboae Finnorum	Turku	1
 t'Amsterdam	Amsterdam	1
 Francofvrti	Frankfurt	1
 [Halberstadtiae]	halberstadtiae	1
@@ -1391,7 +1391,7 @@ Tryckt i Arnstadt	Arnstadt	1
 [Painettu Stocholmisa]	Stockholm	1
 Präntätty Rigas	Riga	1
 Präntätty Riigas	Riga	1
-[I Åbo]	printåbo	1
+[I Åbo]	Turku	1
 Mutta nytt toisen kerran wastwdest, Stockholmin caupungis präntätty	Stockholm	1
 Trycht i Åbo	Turku	1
 Prentetty Stocholmin caupungis	Stockholm	1
@@ -1407,7 +1407,7 @@ Excusum primo Rostochii, nunc recusum Stockholmiae	primo rostochii nunc recusum 
 [Lubecae]	Lybeck	1
 Nu på nytt vplagdt och tryckt i Vpsala	printvpsala	1
 Vilnae	Vilna	1
-[I Wiborg]	printwiborg	1
+[I Wiborg]	Viipuri	1
 Gedrukkt Azu bo [sic]	gedrukkt azu bo	1
 Pränttäis Turusa	Turku	1
 Imprimebat Aboae	Turku	1
@@ -1420,7 +1420,7 @@ Abóa [Turku]	Turku	1
 Aff trycket vthgångit i Åbo	aff vthgångit i åbo	1
 Excusae [Aboae]	Turku	1
 Holmías	holmías	1
-I Strengnäs	printstrengnäs	1
+I Strengnäs	Strängnäs	1
 Gedruckt zu Dorpt	Tartu	1
 Zu Riga	Riga	1
 Ttyckt [sic] i Abo	Turku	1
@@ -1450,7 +1450,7 @@ Stetini	stetini	1
 [Jena?]	Jena	1
 [Hamburgi]	Hamburg	1
 Dorpati Livonorvm	dorpati livonorvm	1
-Tryckt vthi Stockholm	vthi stockholm	1
+Tryckt vthi Stockholm	printstockholm	1
 Excudebat Holmiae	Stockholm	1
 Tryckt i Stocholm	Stockholm	1
 Stokholmi	Stockholm	1

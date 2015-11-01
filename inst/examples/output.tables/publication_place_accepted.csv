@@ -1,15 +1,15 @@
 Name	Count
 Helsinki	26950
-Turku	13632
-Stockholm	3923
+Turku	13651
+Stockholm	3930
 Porvoo	3770
 Vaasa	3494
 Tampere	2469
 Kuopio	1569
 Hämeenlinna	1409
-Viipuri	1321
+Viipuri	1322
 Jyväskylä	1031
-Uppsala	741
+Uppsala	746
 Pori	709
 Oulu	652
 Saint Petersburg	615
@@ -26,7 +26,7 @@ Tammisaari	162
 Lahti	160
 Hamina	160
 Berlin	158
-Fitchburg MA	136
+Fitchburg MA	139
 Joensuu	127
 Copenhagen	125
 Tartu	109
@@ -49,10 +49,10 @@ Amsterdam	46
 stockholmisa ja turusa	42
 Lund	42
 Kajaani	42
+Riga	40
 Wittenberg	39
 Moscow	39
 Kemi	39
-Riga	37
 Oslo	36
 duluth minn	36
 calumet mich	35
@@ -63,9 +63,9 @@ Loviisa	29
 Budapest	27
 Raahe	26
 Skara	25
+Strängnäs	24
 Dorp	24
 Uusikaarlepyy	23
-Strängnäs	23
 München	22
 Kruunupyy	21
 Jena	21
@@ -89,7 +89,6 @@ hancock michigan	13
 Sairala	12
 ironwood mich	12
 Hampuri	12
-printåbo	11
 Pärnu	11
 Lybeck	11
 astoria ore	11
@@ -114,9 +113,8 @@ Zurich	7
 Worcester MA	7
 Wiesbaden	7
 Weimar	7
-tübingen	7
+Tübingen	7
 quincy mass	7
-printstockholm	7
 hernösand	7
 Giessen	7
 Firenze	7
@@ -138,7 +136,6 @@ Vilnius	5
 Tromsö	5
 Strasbourg	5
 stockholm upsala och åbo	5
-printåpo	5
 pernau	5
 Odense	5
 Nytorp	5
@@ -157,7 +154,6 @@ wasa nikolaistad	4
 Seinäjoki	4
 seattle wash	4
 Rovaniemi	4
-printupsala	4
 piotrogród	4
 Parainen	4
 Oxford	4
@@ -176,7 +172,6 @@ duluth mn	4
 cassel	4
 Basel	4
 anvers	4
-aboae finnorum	4
 Warsow	3
 stockholm och åbo	3
 stettin	3
@@ -185,9 +180,7 @@ scaris	3
 Satakunta	3
 Sääksmäki	3
 rock island ill	3
-rigae livonum	3
 regiomonti borvssiae	3
-printvpsala	3
 port arthur ontario	3
 port arthur ont can	3
 Parikkala	3
@@ -209,7 +202,6 @@ Hancock MI	3
 Hamburg	3
 gefle	3
 franckfurt am mäyn und leipzig	3
-fitchburgissa mass	3
 Espoo	3
 Cincinnati OH	3
 Brussels	3
@@ -237,7 +229,9 @@ sorau	2
 smithville minn	2
 Sipoo	2
 Saarijärvi	2
+printvpsala	2
 printaboae	2
+Porth Arthur ON	2
 Pihlava	2
 Philadelphia PA	2
 petrozavodsk'	2
@@ -328,8 +322,6 @@ wib	1
 weida	1
 watton mich	1
 wasasa t	1
-vthi wästeråås	1
-vthi stockholm	1
 vreta	1
 vlm	1
 vjatka	1
@@ -424,15 +416,14 @@ Rääkkylä	1
 quedlinburg	1
 purleigh	1
 prunkkala	1
-printwiborg	1
-printstrengnäs	1
+printwästeråås	1
+printstockholm	1
 printe j stockholm	1
+printåbo	1
 primo rostochii nunc recusum stockholmiae	1
 praze	1
 poznán	1
 portland or	1
-port arthur	1
-port arth ont can	1
 pori otto andersin	1
 pistoia	1
 Pirkkala	1
