@@ -1,6 +1,7 @@
 synonyme;name
 Aabenraa;Aabenraa
 Aalborg;Aalborg
+aalborg;Aalborg
 à amsterdam;Amsterdam
 A_ Amsterdam;Amsterdam
 Aarhus;Aarhus
@@ -124,7 +125,8 @@ Brussels;Brussels
 Brvnsbergae;Braniewo
 Brvnsvigae;Braniewo
 brvnsvigae;Brunnsvik
-b'' sanktpeterburge;̂Saint Petersburg
+b'' sanktpeterburgê;Saint Petersburg
+b'' sanktpeterburge;Saint Petersburg
 B'' Sanktpeterburge_;Saint Petersburg
 Budapest;Budapest
 buenos aires;Buenos Aires
@@ -1010,7 +1012,7 @@ turun kaupungisa;Turku
 Turun kaupungisa;Turku
 Turura sic;Turku
 turura;Turku
-Turura !;Turku
+Turura \!;Turku
 Turusa anomuxen jälkeen;Turku
 turusa johan winterildä cuning da boktr dä suures ruhtinan maasa suomes;Turku
 Turusa Johan Winterildä cuning da boktr dä suures ruhtinan maasa Suomes;Turku

@@ -133,6 +133,8 @@ saveRDS(df.orig, "df.orig.Rds")
 
 # ---------------------------------------------------------------
 
+if (!nrow(df.orig) == nrow(df)) {"Should match df and df.orig!"}
+
 print("Summarize accepted and discarded entries")
 for (varname in c("author", "corporate", "language", "publication_place")) {
 
