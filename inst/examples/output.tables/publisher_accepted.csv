@@ -10,7 +10,6 @@ g. w. edlund	901
 suomalaisen kirjallisuuden seura	775
 karisto	663
 Kansanvalistusseura	608
-förf	526
 c. a. londicer	486
 raittiuden ystävät	463
 yrjö weilin	437
@@ -22,7 +21,6 @@ suomen lähetysseura	279
 kongl. iet	276
 johan larsson wall	276
 petrus wald, acad. typogr	262
-författare	256
 joh. christoph. frenckell	252
 peter hansson	250
 isak julin	250
@@ -63,7 +61,7 @@ jo. wal	108
 g. w. wilén	108
 frenckelliorum	108
 teosofinen kirjakauppa	106
-inofficina frenckelliana	106
+officina frenckelliana	106
 valistus	105
 frenckellin kirjan-prändisä	103
 svenska folkskolans vänner	100
@@ -375,6 +373,7 @@ johan ch. frenckell	18
 jo. wall	18
 h. nurhonen	18
 h. fougt	18
+förf	18
 finska vetenskapsspcieteten	18
 edlundska bokhandeln i distr	18
 duncker & humblot	18
@@ -401,6 +400,7 @@ hoos niclas wankijff, kongl. booktr	17
 hagelstams bokhandel	17
 g. w. edlunds förlag	17
 frenckelliläinen kirjapaino :	17
+författare	17
 föreningen för arbetareskydd och socialförsäkring i finland	17
 finska historiska samfundet	17
 cuningallisesa suomalaisesa prändisä, joh. a. carlbohmilda	17
@@ -2761,6 +2761,7 @@ olan :	2
 öfverstyrelsen för skolväsendet	2
 öfverstyrelsen	2
 öflund & petterson	2
+officina frenckeliana	2
 och tidnings ab	2
 och kongl. boktr. i storfurstend. finland, jacob merckell	2
 och kongl. boktr. i storförstend. finland, jacob merckell	2
@@ -3165,11 +3166,8 @@ iohan l. wall, acad. booktr	2
 iohan brendeken, acad. booktr	2
 ioh. baptista homanni	2
 io. wal	2
-inofficina frenckeliana	2
 industriföreningen	2
 index	2
-inder vossischen buchhandlung	2
-inder jägerlischen buchhandlung	2
 impensis frenckellianis	2
 imeb. johan. kiämpe reg. acad. typogr	2
 im. petrus hansonius acad. typ	2
@@ -3510,6 +3508,8 @@ directeur. ja cuningallis. kirjan-äjäldä suuren-ruhtinanm. suomesa, jacob mer
 directeur. ja cuningallis. kirjan-äjäldä suuren ruhtinanm. suomesa, jacob merckellildä	2
 directeur. ja cuningallis. kirjan äjäldä suuren ruhtinanm. suomes jacob merckellildä	2
 diakonisshuset i helsingfors	2
+der vossischen buchhandlung	2
+der jägerlischen buchhandlung	2
 de rie royale	2
 de lʼimerie de cox, fils, & baylis, great queen street	2
 de blindas vänner	2
@@ -4077,6 +4077,7 @@ verneri westerdahl	1
 verneri varjoranta	1
 verner' sederstrem'	1
 verner humble	1
+verlegung martin hallervorden, buchhändlern zu köningsberg in preussen. bey johann andreä	1
 verlegts pierre mortier, buchhändler zu amsterdam	1
 verlegts johann christian dieterich	1
 verlegts gottfried kiesewetter	1
@@ -4353,9 +4354,12 @@ tytty h. lagerstedt	1
 tyrnävän seudun osuusmeijeri	1
 tyrjän nuorisoseura	1
 tyrckt i kongl. iet	1
+typographia frenckelliana	1
 typographéo johannis richelii, sen: typogr	1
+typograph. iohan. matthaei, sumptibus zachariae schureri	1
 typografernes förening i helsingfors	1
 typografernas förening i helsingfors	1
+typogr. reg	1
 typ. univ. joh. kiämpe	1
 typ. joh. laur. horrn, reg. ant. archiv. typogr	1
 typ. e. flodström, reg. acad. typog	1
@@ -6197,8 +6201,16 @@ oikeustoimikunta	1
 öfvers	1
 öfvermark understödsförening för förolyckade hästar, nötkreatur och svin	1
 öflund & pettersson, bok- och st	1
+offinica frenckelliana	1
+officinis librariis m. swederi	1
+officina typographica societatis biblicae	1
+officinâ typographicâ johannes vogelius, academiae typogr	1
+officina typographicâ johannes vogelius, academiae typogr	1
 officina petri wald ac. typ	1
 officina kiämpiana	1
+officina iohannis daubmanni, ime	1
+officina iohannis daubmanni	1
+officina barmeieriana	1
 officin regiae antiquitatis archivi typografi, joh. laur. horrn	1
 oesterheld & co	1
 ock kongl. boktr. i stor-förstendömet finnland jacob merckell	1
@@ -6897,6 +6909,7 @@ lääkintähallitus	1
 la revue du notariat	1
 la popular	1
 la plume	1
+la librairie stéréotype, chez h. nicolle, rue des petits-augustins, no. 15	1
 la españa moderna	1
 la españa editorial	1
 l'université impériale alexandre	1
@@ -7683,11 +7696,13 @@ johannem l. wallium, a. t	1
 johanne winter, typographo regio, in magno ducatu finlandiae	1
 johanne winter, typogr. regio. in magno ducatu finlandiae	1
 johanne winter, typogr. regio in finland	1
+johanne winter, typogr. regio	1
 johanne winter, typ. reg	1
 johanne winter, regio typographo	1
 johanne winter, reg. typographo in finland	1
 johanne waldio, reg. univers. abons. typogr	1
 johanne waldio, reg. univ. abons. typogr	1
+johanne waldio, reg. univ. abo. typographo	1
 johanne waldio, reg. acad. abonës. typogr	1
 johanne waldio, academ. typograph	1
 johanne waldh acad. typogr	1
@@ -7697,6 +7712,7 @@ johanne vogelio, academiae typographo	1
 johanne vogelio, acad. typogr	1
 johanne vogel, acad. typogr	1
 johanne pauli	1
+johanne laurentii wallio, univ. typogr	1
 johanne laur. wallio, regiae univ. ibid. typogr	1
 johanna cederwaller et son	1
 johanna cedervaller ja poika	1
@@ -7868,6 +7884,7 @@ joh. laur. horrn, reg. ant. arch. typogr	1
 joh. laur. horrn, kongl. antiquit. arch. boktr	1
 joh. laur. horrn, kongl. antiqui archiv. bokprintare	1
 joh. laur. horrn, kongl. antiqivit. archiv. boktr	1
+joh. l. wallio, reg. univ. typogr	1
 joh. l. horrn, reg. antiq. archiv. typographi	1
 joh. l. horrn, reg. antiq. arch. typogr	1
 joh. l. horrn, kongl. antiqv. archiv. boktr	1
@@ -8290,30 +8307,12 @@ io. wall	1
 io. kiaempe reg. acad. typogr	1
 io. iac. adlerii, ser. princ. & acad. typogr	1
 io. iac. adleri, seren. princ. & acad. typogr	1
-inverlegung martin hallervorden, buchhändlern zu köningsberg in preussen. bey johann andreä	1
-intypographia frenckelliana	1
-intypograph. iohan. matthaei, sumptibus zachariae schureri	1
-intypogr. reg	1
 internationella t. o. m.-föreningens förlagsexp	1
 internationella bibelstudiesällskapet	1
 institutet för unga flickor i borgå	1
 institut für innere und gerichtliche tiermedizin	1
 inpr. ! apud joh. wallium	1
-inoffinica frenckelliana	1
-inofficinis librariis m. swederi	1
-inofficina typographica societatis biblicae	1
-inofficinâ typographicâ johannes vogelius, academiae typogr	1
-inofficina typographicâ johannes vogelius, academiae typogr	1
-inofficina iohannis daubmanni, ime	1
-inofficina iohannis daubmanni	1
-inofficina barmeieriana	1
-inla librairie stéréotype, chez h. nicolle, rue des petits-augustins, no. 15	1
 inkerin talonpoika	1
-injohanne winter, typogr. regio	1
-injohanne waldio, reg. univ. abo. typographo	1
-injohanne laurentii wallio, univ. typogr	1
-injoh. l. wallio, reg. univ. typogr	1
-inerlegung martin hallervorden, buchhändlern zu köningsberg in preussen. bey johann andre	1
 industristyrelsen i finland	1
 industristyrelsen	1
 industristyrelse	1
@@ -8322,8 +8321,6 @@ industriskolan i åbo	1
 industriidkarnes i finland ömsesidiga brandförsäkringsbolag	1
 industriidkarenes ömsesidiga brandstodsförening	1
 industriidkarenas i finland ömsesidiga brandstodsförening	1
-inder c. weigel-schneiderʼschen kunst- und buchhandlung von nürnberg	1
-inder c. weigel-schneider'schen kunst- und buchhandlung von nürnberg	1
 in, by m. van hulkenroy, aan de markt	1
 in, bey iohann brendeken, königl: acad: buchdr	1
 in erlegung martin hallervorden, buchhändlern zu köningsberg in preussen. bey johann andre	1
@@ -9741,6 +9738,7 @@ ernst linder	1
 ernst hofman	1
 ernst bojesens kunstforlag	1
 èrlih'	1
+erlegung martin hallervorden, buchhändlern zu köningsberg in preussen. bey johann andre	1
 erland villehad gyllenbögel	1
 erio	1
 erik johan blom	1
@@ -10096,6 +10094,8 @@ det kongl. iet hos directeuren pet. momma	1
 det kongl. academia bokiet	1
 dess officin	1
 der geographische verein de vérein in finland - société finlandaise de géographie	1
+der c. weigel-schneiderʼschen kunst- und buchhandlung von nürnberg	1
+der c. weigel-schneider'schen kunst- und buchhandlung von nürnberg	1
 depôt imperial des cartes	1
 depicta â iohanne winter	1
 departament'' general'nago štaba voennago ministerstva	1
@@ -10761,7 +10761,7 @@ apud conradum wishoff	1
 apud christophorum reusnerum	1
 apud b. joh. höjer	1
 apud b. hansonii, acad. typogr	1
-apud autorem cum privilegio annorum viginti et apud petrum mariette via iacobaea sub signo spei	1
+apud autorem annorum viginti et apud petrum mariette via iacobaea sub signo spei	1
 apud anundi olai	1
 apud andream cloucquium	1
 apud andream biörckman, reg. univ. typogr	1
