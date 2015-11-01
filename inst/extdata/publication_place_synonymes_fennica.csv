@@ -13,6 +13,7 @@ Abae sic;Turku
 à berlin;Berlin
 a_ Berlin;Berlin
 aboae fennorum;Turku
+aboae finnorum;Turku
 aboae ime;Turku
 aboae impensis autoris;Turku
 Aboae impensis autoris;Turku
@@ -44,6 +45,7 @@ ala tornio;Alatornio
 Ala Tornio;Tornio
 Alfeld Leine;Alfend
 Almena WI;Almena WI
+Almena WI;almena wis
 Altdorf;Altdorf
 Alten Stetin;Altenstein
 Alten Stettin;Altenstein
@@ -190,6 +192,7 @@ Falun;Falun
 Firenze;Firenze
 Fitchburg MA;Fitchburg MA
 fitchburg mass;Fitchburg MA
+fitchburgissa mass;Fitchburg MA
 Folkhögskolan Breidablick;NA
 Forssa;Forssa
 Förut Stockholm och ö nyo uplagd i Åbo;Stockholm
@@ -343,6 +346,7 @@ inkerinmaalla;Inkerinmaa
 Ironwood MI;Ironwood MI
 I_safjördur;I_safjördur
 Ishpeming MI;Ishpeming MI
+Ishpeming MI;ishpeming mich
 Isokyrö;Isokyrö
 jaakkima;Jaakkima
 Jaakkima;Jaakkima
@@ -748,6 +752,8 @@ Pori;Pori
 Port Arth Ont Can;Porth Arthur ON
 Port Arthur ON;Porth Arthur ON
 Port Arthur Ont Can;Porth Arthur ON
+port arthur;Porth Arthur ON
+port arth ont can;Porth Arthur ON
 Portland OR;Portland OR
 Porvoo;Porvoo
 Pozna_n;Pozna_n
@@ -806,6 +812,7 @@ reykjavik;Reykjavik
 Reykjavi_k;Reykjavik
 Reykjavik;Reykjavik
 Rigae Livonum;Riga
+rigae livonum;Riga
 riga mietau;Riga
 Riga Mietau;Riga
 rigasa;Riga
@@ -998,6 +1005,7 @@ Tsingshi;Tsingshi
 Tu_bingen;Tübingen
 Tubingen;Tübingen
 tubingen;Tübingen
+tübingen;Tübingen
 Tukholma;Stockholm
 tukhulmissa;Stockholm
 Tukhulmissa;Stockholm
