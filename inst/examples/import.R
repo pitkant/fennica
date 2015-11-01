@@ -133,17 +133,21 @@ saveRDS(df.orig, "df.orig.Rds")
 
 # ---------------------------------------------------------------
 
+# Use df$original_row to match
 if (!nrow(df.orig) == nrow(df)) {"Should match df and df.orig!"}
+df.new <- df
+df.original <- df.orig[match(df.new$original_row, df.orig$original_row), ]
+
 
 print("Summarize accepted and discarded entries")
-for (varname in c("author", "corporate", "language", "publication_place")) {
+for (varname in c("author", "corporate", "language")) {
 
   # Accepted fields
   x <- as.character(df[[varname]])
   tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.csv", sep = "_"), sep = ""))  
 
   # Discarded fields
-  o <- as.character(df.orig[[varname]])
+  o <- as.character(df.original[[varname]])
   disc <- as.vector(na.omit(o[which(is.na(x))]))
   if (is.null(disc)) {disc <- NA}
   tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""))
@@ -153,10 +157,11 @@ for (varname in c("author", "corporate", "language", "publication_place")) {
 
 # Conversion summaries
 originals <- c(publisher = "publisher",
-	       pagecount = "physical_extent"
+	       pagecount = "physical_extent",
+	       publication_place = "publication_place"
 	       )
 for (nam in names(originals)) {
-  o <- as.character(df.orig[[originals[[nam]]]])
+  o <- as.character(df.original[[originals[[nam]]]])
   x <- as.character(df[[nam]])
   inds <- which(!is.na(x))
   tmp <- write_xtable(cbind(original = o[inds],
@@ -173,7 +178,7 @@ for (nam in names(originals)) {
 }
 # Discard summaries
 for (nam in names(originals)) {
-  o <- as.character(df.orig[[originals[[nam]]]])
+  o <- as.character(df.original[[originals[[nam]]]])
   x <- as.character(df[[nam]])
   inds <- which(is.na(x))
   tmp <- write_xtable(o[inds],
