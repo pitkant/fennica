@@ -1,7 +1,8 @@
 synonyme;name
+aabenraa;Aabenraa
 Aabenraa;Aabenraa
-Aalborg;Aalborg
 aalborg;Aalborg
+Aalborg;Aalborg
 à amsterdam;Amsterdam
 A_ Amsterdam;Amsterdam
 Aarhus;Aarhus
@@ -23,6 +24,7 @@ abóa turku;Turku
 aboâ turku;Turku
 Abo_a Turku;Turku
 Aboa_ Turku;Turku
+åbo och stockholm;Turku
 abo sic;Turku
 Abo sic;Turku
 Åbo sic;Turku
@@ -35,58 +37,86 @@ Abo !;Turku
 adoae po aboae;Turku
 Adoae po Aboae;Turku
 Af Åbo;Turku
+aff vthgångit i åbo;Turku
 Aff vthgöngit i Åbo;Turku
 åggelby;Åggelby
 Åggelby;Helsinki
 Ågggelby;Helsinki
 Agnifitiae;NA
+agnifitiae;NA
+akureyri;Akureyri
 Akureyri;Akureyri
 ala tornio;Alatornio
+Alatornio;Tornio
 Ala Tornio;Tornio
+alfeld leine;Alfend
 Alfeld Leine;Alfend
 Almena WI;Almena WI
 Almena WI;almena wis
+almena wis;Almena WI
 Altdorf;Altdorf
+alten stetin;Altenstein
 Alten Stetin;Altenstein
+alten stettin;Altenstein
 Alten Stettin;Altenstein
 amersfoort;Amersfoort
 Amersfoort;Amersfoort
 amstelaedami;Amsterdam
 Amstelaedami;Amsterdam
+amsteldam et a leipzig;Amsterdam
 Amsteldam et a Leipzig;Amsterdam
 amstelodami;Amsterdam
 Amstelodami;Amsterdam
 Amsterdam;Amsterdam
 Amsterdam et a Leipzig;Amsterdam
 Ancova;NA
+ancova;NA
 anttola;Anttola
 Anttola;Anttola
+anvers;Antwerpen
 Anvers;Antwerpen
 ånyo stockholm;Stockholm
-stocholm;Stockholm
-stockholmiae sveonum;Stockholm
 åpo;Turku
+arezzo;Arezzo
 Arezzo;Arezzo
+argentorati;Strasbourg
 Argentorati;Strasbourg
+arhangel'sk';Archangelsk
+arhangel'sk'';Archangelsk
+arhangelsk;Archangelsk
 Arhangel'sk';Archangelsk
 Arhangel'sk'';Archangelsk
 Arhangelsk;Archangelsk
+Århus;Århus
 Armollisimman käskyn jälken Rigasa;Riga
 arnstadt;Arnstadt
 Arnstadt;Arnstadt
+arosiae;Västerås
+ashtabula oh;Ashtabula OH
 Ashtabula OH;Ashtabula OH
+ashtabula ohio;Ashtabula OH
+askersundiae;Askersund
 Askersundiae;Askersund
+astoria or;Astoria OR
 Astoria OR;Astoria OR
+astoria ore;Astoria OR
+astoria oregon;Astoria OR
+athenis auräicis;Turku
+auctoritate regia privilegialis holmiae;Stockholm
 Auctoritate Regia Privilegialis Holmiae;Stockholm
 Augsburg;Augsburg
+augustae vindel augsburg;Augsburg
 Augustae Vindel Augsburg;Augsburg
 Barcelona;Barcelona
 Basel;Basel
-B borg;NA
+^B borg$;Pori
+^b borg$;Pori
+bennäs;Pännäinen
 Bennäs;Pännäinen
 Bergen;Bergen
 Berliini;Berlin
 berlin';Berlin
+Berlin;Berlin
 berlin' berlin;Berlin
 Berlin' Berlin;Berlin
 berlin charlottenburg;Berlin
@@ -97,6 +127,7 @@ berlin und stettin;Berlin
 Berlin und Stettin;Berlin
 Bern;Bern
 Berttula;NA
+berttula;NA
 bielefeld;Bielefeld
 Bielefeld;Bielefeld
 billnäs;Billnäs
@@ -108,6 +139,7 @@ Bonn;Bonn
 Borgosa;NA
 borgosa;Porvoo
 Boston MA;Boston MA
+Brahe;Raahe
 brahestad;Brahe
 Brahestad;Raahe
 brahestads;Brahe
@@ -115,91 +147,135 @@ Brahestads;Raahe
 brändö;Brändö
 Brändö;Brändö
 Braunschweig;Braunschweig
+bremae;Bremen
 Bremae;Bremen
+breslau;Breslau
 Breslau;Breslau
+bridgeport conn;Bridgeport CT
 Bridgeport CT;Bridgeport CT
 brisbane;Brisbane
 Brisbane;Brisbane
+bronx n y;New York NY
 Bronx NY;New York NY
+Brooklyn;New York NY
 brooklyn ny;Brooklyn
 brooklyn n y;New York NY
 Brooklyn NY;New York NY
+brünn;Brünn
 Bru_nn;Bru_nn
+Brunnsvik;Braniewo
 Brussels;Brussels
+brvnsbergae;Braniewo
 Brvnsbergae;Braniewo
 Brvnsvigae;Braniewo
 brvnsvigae;Brunnsvik
-b'' sanktpeterburgê;Saint Petersburg
 b'' sanktpeterburge;Saint Petersburg
+b'' sanktpeterburgê;Saint Petersburg
 B'' Sanktpeterburge_;Saint Petersburg
 Budapest;Budapest
 buenos aires;Buenos Aires
 Buenos Aires;Buenos Aires
+burgo sancti petri;Saint Petersburg
 Burgo Sancti Petri;Saint Petersburg
 b viipurin läänin maatalouskomisioni;Viipuri
 b Viipurin läänin maatalouskomisioni;Viipuri
 Calcutta;Calcutta
+calumet mi;Calumet MI
 Calumet MI;Calumet MI
 Calumet MI;calumet mich
+calumet mich;Calumet MI
 Cambridge;Cambridge
 carlstad;Carlstad
 Carlstad;Carlstad
+cassel;Cassel
 Cassel;Cassel
+Chicago;Chicago IL
 chicago il;Chicago
 Chicago IL;Chicago IL
 chicago ill;Chicago
 chigaco ill;Chicago
+chigago ill;Chicago IL
+chisholm minn;Chisholm MN
 Chisholm MN;Chisholm MN
 christianstad;Christianstad
 Christianstad;Copenhagen
 Cincinnati OH;Cincinnati OH
+clear creek utah;Clear Creek UT
 Clear Creek Utah;Clear Creek UT
 Cleveland OH;Cleveland OH
+Copenhagen;Copenhagen
 dantzig;Dantzig
 Dantzig;Dantzig
 der königlichen Heubtstadt Stockholm;
+dessau;Dessau
 Dessau;Dessau
+deutschland stralsund;Stralsund
 Deutschland Stralsund;Stralsund
+dieren;Dieren
 Dieren;Dieren
 dordrecht;Dordrecht
 Dordrecht;Dordrecht
+dorpati livonorum;Tartu
+dorpati livonorvm;Tartu
+dorpati livonrum;Tartu
+dorpati livonúm;Tartu
 Dorpati Livonu_m;Tartu
+dorpati livonvm;Tartu
+dorpato pernaviam translatae;Tartu
 Dorpato Pernaviam translatae;Tartu
 dorp;Dorp
 Dorp;Tartu
+dorpt i lieflandh;Tartu
 Dorpt i Lieflandh;Tartu
-Dorpt;Tartu
 dorpt;Tartu
+Dorpt;Tartu
+dörpt;Tartu
 Dörpt;Tartu
 Dresden;Dresden
-Duluth MN;Duluth MN
+duluth minn;Duluth MN
+duluth minnesota;Duluth MN
 Duluth MN;duluth minn
+duluth mn;Duluth MN
+Duluth MN;Duluth MN
 Edinburgh;Edinburgh
 Edita Wittebergae;Wittenberg
 elbingen;Elbingen
 Elbingen;Elbingen
+ely mi;Ely MI
 Ely MI;Ely MI
+ely minn;Ely MI
 Ely Minn;Ely MI
+enare;Inari
 Enare;Inari
 enthlímmenon en abóe;Turku
 Enthli_mmenon en Abo_e;Turku
+erffurt;Erfurt
 Erffurt;Erfurt
+erfurt;Erfurt
 Erfurt;Erfurt
+erlangen;Erlangen
 Erlangen;Erlangen
 Espoo;Espoo
 Eura;Eura
+eveleth minnesota;Eveleth MI
 Eveleth Minnesota;Eveleth MI
 Exeter;Exeter
 Falun;Falun
 Firenze;Firenze
+fitchburgissa mass;Fitchburg MA
+fitchburg ma;Fitchburg MA
 Fitchburg MA;Fitchburg MA
 fitchburg mass;Fitchburg MA
-fitchburgissa mass;Fitchburg MA
 Folkhögskolan Breidablick;NA
+folkhögskolan breidablick;NA
 Forssa;Forssa
+förut stockholm och å nyo uplagd i åbo;Stockholm
 Förut Stockholm och ö nyo uplagd i Åbo;Stockholm
+francfort et leipzig;Frankfurt
 Francfort et Leipzig;Leipzig
+franc fort leipzig;Frankfurt
 Franc fort Leipzig;Leipzig
+franckfurt am mäyn und leipzig;Frankfurt
 franckfurth;Frankfurt
 Franckfurth;Frankfurt
 francofurti;Frankfurt
@@ -211,31 +287,49 @@ Frankfurt a/M;Frankfurt
 frankfurt am main;Frankfurt
 Frankfurt am Main;Frankfurt
 Frankfurt;Frankfurt
+frankfurt und leipzig;Frankfurt
 Frankfurt und Leipzig;Frankfurt
+freiburg im breisgau;Freiburg im Breisgau
 Freiburg im Breisgau;Freiburg im Breisgau
+freiburg in baden;Freiburg im Breisgau
 Freiburg in Baden;Freiburg im Breisgau
+fridrihsgamn';Hamina
 Fridrihsgamn';Hamina
+fürth;Fürth
 Fu_rth;Fu_rth
 Gamburg';Gamburg
 gamburg';Hamburg
 Gedrukkt Azu bo sic;NA
+gedrukkt azu bo;NA
+gefle;Gefle
 Gefle;Gefle
 genève;Geneve
 Gene_ve;Gene_ve
+Geneve;Geneve
+gera;Gera
 Gera;Gera
 g gel'singfors';Helsinki
 G Gel'singfors';Helsinki
+giessae cattorum;Giessen
 Giessen;Giessen
 giöthebörisa ruotzin kielen eric stackbergildä mutta palkan edestä suomexi turusa;Turku
 Giöthebörisa ruotzin kielen Eric Stackbergildä Mutta palkan edestä suomexi Turusa;Turku
 godby åland;Godby
+Godby;Godby
 Göteborg;Gothenburg
+gotha;Gotha
 Gotha;Gotha
 götheborg;Gothenburg
+Gothenburg;Gothenburg
 Göttingen;Göttingen
+göttingen und gotha;Göttingen
 Göttingen und Gotha;Göttingen
+grand rapids mich;Grand Rapids MI
 Grand Rapids Mich;Grand Rapids MI
 Greifswald;Greifswald
+gryphisuualdiae;Greifswald
+gryphiswaldiae;Greifswald
+gütersloh;Gütersloh
 Gu_tersloh;Gu_tersloh
 haag;The Hague
 Haag;The Hague
@@ -243,44 +337,65 @@ haapajärvi;Haapajärvi
 Haapajärvi;Haapajärvi
 Haaparanta;Haaparanta
 Haarlem;Haarlem
+haderslev;Haderslev
 Haderslev;Haderslev
+hafniae;Copenhagen
 Hafniae;Copenhagen
+halberstadtiae;Halberstadt
 Halberstadtiae;Halberstadt
+hållas;Halle
+halle a d saale;Halle
 Halle a d Saale;Halle
+halle a s;Halle
+halle a/s;Halle
 Halle a S;Halle
 Halle a/S;Halle
 Halle;Halle
+Hamburg;Hamburg
 hamburgi;Hamburg
 hämeenkyrö;Hämeenkyrö
 Hämeenkyrö;Hämeenkyrö
 Hämeenlinna;Hämeenlinna
 Hamina;Hamina
 Hampuri;Hampuri
+Hancock;Hancock MI
 hancockissa mich;Hancock
+hancock mich;Hancock MI
+hancock michigan;Hancock MI
+hancock mi;Hancock MI
 Hancock MI;Hancock MI
 Hanko;Hanko
 Hankoniemi;Hanko
 hankoniemi;Hankoniemi
+hanna wyo;Hanna WY
 Hanna Wyo;Hanna WY
 Hannover;Hannover
+harbor;Harbor OH
 Harbor;Harbor OH
+harbor oh;Harbor OH
 Harbor OH;Harbor OH
 harjavallassa;Harjavalta
 Harjavallassa;Harjavalta
+Harjavalta;Harjavalta
+har'kov';Kharkiv
 Har'kov';Kharkiv
 Härnösand;Härnösand
 Haukilahti;Espoo
 haukilahti;Haukilahti
+hauniae;Haunia
 Hauniae;Haunia
 Heidelberg;Heidelberg
 heilbronn;Heilbronn
 Heilbronn;Heilbronn
+Heinäjoki;Heinäjoki
 heinävesi;Heinävesi
 Heinävesi;Heinävesi
 heinjoki;Heinäjoki
 Heinjoki;Heinjoki
 Heinola;Heinola
+helmaestadii;Helmstedt
 Helmaestadii;Helmstedt
+helmstadii;Helmstedt
 Helmstadii;Helmstedt
 helsingborg;Helsingborg
 Helsingborg;Helsingborg
@@ -298,6 +413,7 @@ Helsingissä Helsingfors;Helsinki
 helsingofrs;Helsinki
 Helsingofrs;Helsinki
 helsingör;Helsingör
+Helsingör;Helsingör
 Helsingör;Helsinki
 helsinki b frenckell;Helsinki
 Helsinki b Frenckell;Helsinki
@@ -310,24 +426,36 @@ helsinki otava;Helsinki
 Helsinki Otava;Helsinki
 helsinki simelius;Helsinki
 Helsinki Simelius;Helsinki
+hernösand;Härnösand
 hinnerjoki;Hinnerjoki
 Hinnerjoki;Hinnerjoki
 hirvensalmi;Hirvensalmi
 Hirvensalmi;Hirvensalmi
 Höllas;Halle
+holmiae recusa;Stockholm
 Holmiae recusa;Stockholm
+holmiae sueonum;Stockholm
 Holmiae Sueonum;Stockholm
+holmiae svecorum;Stockholm
 Holmiae Svecorum;Stockholm
+holmiae sveonum;Stockholm
 Holmiae Sveonum;Stockholm
+holmías;Stockholm
 Holmi_as;Stockholm
+holmis;Stockholm
 Holmis;Stockholm
+houghton mich;Houghton MI
 Houghton Mich;Houghton MI
+houghton mi;Houghton MI
 Houghton MI;Houghton MI
 Hull;Hull
 Huopalahti;Huopalahti
+hus;Hämeenlinna
 hvitträsk;Hvitträsk
 Hvitträsk;Hvitträsk
 Hyvinkää;Hyvinkää
+idorpt;Tartu
+i.e nae;NA
 Iisalmi;Iisalmi
 ikaalinen;Ikaalinen
 Ikaalinen;Ikaalinen
@@ -340,19 +468,29 @@ ime a stockholm
 ime á stockholm
 impilahti;Impilahti
 Impilahti;Impilahti
+imprimè a abo;Turku
 ingå;Inkoo
 Ingö;Inkoo
 Ingressu Aboae;Turku
+Inkerinmaa;Inkerinmaa
 Inkerinmaalla;Inkeri
 inkerinmaalla;Inkerinmaa
+Inkoo;Inkoo
+ironwood michigan;Ironwood MI
+ironwood mich;Ironwood MI
 Ironwood MI;Ironwood MI
 I_safjördur;I_safjördur
+ísafjördur;Ísafjördur
+ishpeming mich;Ishpeming MI
+ishpeming mi;Ishpeming MI
 Ishpeming MI;Ishpeming MI
 Ishpeming MI;ishpeming mich
 Isokyrö;Isokyrö
 jaakkima;Jaakkima
 Jaakkima;Jaakkima
+jääski;jääski
 Jääski;Jääski
+jacobson minn;Jacobson MI
 Jacobson Minn;Jacobson MI
 Ja kolmanen kerran Turusa;Turku
 jalasjärvi;Jalasjärvi
@@ -361,21 +499,28 @@ jämsä;Jämsä
 Jämsä;Jämsä
 janakkala;Janakkala
 Janakkala;Janakkala
-Ja toisen kerran Turusa;Turku
-ja turusa;Turku
-Ja Turusa;Turku
+Turusa;Turku
+turusa;Turku
+j cedervaller poikineen;Viipuri
 J Cedervaller poikineen;Viipuri
+jelgawâ;Jelgava
 Jelgawa_;Jelgava
 Jena;Jena
 Jetzo auffs newe Stade;NA
+jetzo auffs newe stade;Uusikaupunki
 Joensuu;Joensuu
 joensuussa;Joensuu
 Joensuussa;Joensuu
 Jönkiöping;Jönköping
+jönkiöping;Jönnköping
 Jönköping;Jönköping
 jönköping;Jönnköping
+Jönnköping;Jönnköping
+junecopiae;Uppsala
 Junecopiae;Uppsala
+junekopiae;Uppsala
 Junekopiae;Uppsala
+jurjew;Jurjew
 Jurjew;Jurjew
 juva;Juva
 Juva;Juva
@@ -392,6 +537,8 @@ Kajaani;Kajaani
 kajana;Kajaani
 Kajana;Kajaani
 Käkisalmi;Käkisalmi
+Kaleva;Kaleva MI
+kaleva mich;Kaleva MI
 Kaleva MI;Kaleva MI
 kalevassa mich;Kaleva
 Kaliningrad;Kaliningrad
@@ -406,6 +553,7 @@ Karhula;Karhula
 Karjaa;Karjaa
 karjalohja;Karjalohja
 Karjalohja;Karjalohja
+karkku;Karkku
 Karkku;Karkku
 Karlskrona;Karlskrona
 karlstad;Karlstad
@@ -419,7 +567,9 @@ kaukaa;Kaukaa
 Kaukaa;Kaukaa
 kausala;Kausala
 Kausala;Kausala
+kauvatsa;Kauvatsa
 Kauvatsa;Kauvatsa
+kazan';Kazan
 Kazan';Kazan
 keltto;Keltto
 Keltto;Keltto
@@ -433,7 +583,10 @@ keyserligh frij Rijkzstad Lybeck;Lybeck
 Kiel;Kiel
 kiiminki;Kiiminki
 Kiiminki;Kiiminki
+kirchhain;Kirchhain
 Kirchhain;Kirchhain
+Kirkkonummi;Kirkkonummi
+kirvu;Kirvu
 Kirvu;Kirvu
 kivennapa;Kivennapa
 Kivennapa;Kivennapa
@@ -446,9 +599,11 @@ Koivisto;Koivisto
 Kokemäki;Kokemäki
 Kokkola;Kokkola
 Köln;Köln
+kolozsvár;Cluj-Napoca
 Kolozsva_r;Cluj-Napoca
 Koningsberg;Koningsberg
 Kööpenhamina;Copenhagen
+köping;köping
 Köping;Köping
 korsholm;Korsholm
 Korsholm;Mustasaari
@@ -471,6 +626,7 @@ kurkijoki;Kurkijoki
 Kurkijoki;Kurkijoki
 kuusankoski;Kuusankoski
 Kuusankoski;Kuusankoski
+kvevlaks;Koivulahti
 Kvevlaks;Koivulahti
 kylmäkoski;Kylmäkoski
 Kylmäkoski;Kylmäkoski
@@ -480,6 +636,7 @@ kyrkslätt;Kirkkonummi
 Kyrkslätt;Kirkkonummi
 kyrö;Kyrö
 Kyrö;Kyrö
+la chapelle montligeon;La Chapelle-Montligeon
 La Chapelle Montligeon;La Chapelle-Montligeon
 lahdessa;Lahti
 Lahdessa;Lahti
@@ -499,26 +656,36 @@ Lapualla;Lapua
 Lausanne;Lausanne
 Leeuwarden;Leeuwarden
 leibzig;Leibzig
+Leibzig;Leibzig
 Leiden;Leiden
+leip;Leipzig
 leipsic;Leibzig
 Leipsic;Leipzig
 Leipzig;Leipzig
+leipzig und amsterdam;Leipzig
 Leipzig und Amsterdam;Leipzig
+leitmeritz;Litom“¿ice
+le mans;Le Mans
 Le Mans;Le Mans
 lepzig;Leibzig
+libau;Liepaja
 Libau;Liep_ja
 Liege;Liege
 Liège;Liège
 Linköpingisä;Linköping
 linköpingisä;Linnköping
 Linköping;Linköping
+Linnköping;Linköping
+lipsiae;Leipzig
 Lipsiae;Leipzig
 lisboa;Lisbon
 Lisboa;Lisbon
+Lisbon;Lisbon
 lith i åbo;Turk
 Lith i Åbo;Turku
 liverpoolissa;Liverpool
 Liverpoolissa;Liverpool
+Liverpool;Liverpool
 lohja;Lohja
 Lohja;Lohja
 lohtaja;Lohtaja
@@ -534,32 +701,46 @@ londini gothorum;London
 londini scanor;London
 londini scanorum;London
 london';London
+London;London
+lond scanorum;London
 Lontoo;London
 Loviisa;Loviisa
 Lubecae;Lu_beck
 lubecae;Lybeck
 Lu_beck;Lu_beck
 lübeck;Lybeck
+ludguni batavorum;Leiden
+lugd batavorum;Leiden
 Lugd Batavorum;Leiden
 luleå;Luleå
+Luleå;Luleå
 Luleö;Luleö
 lundini goth;London
 Lund;Lund
+lutetiae parisiorum;Paris
 Lutetiae Parisiorum;Paris
 Luulaja;Luleö
 luulaja;Luulaja
+Luulaja;Luulaja
+lvgd batav;Leiden
 Lvgd Batav;Leiden
+lvgdvni batavorvm;Leiden
+l'vìv;Lviv
 L'vi_v;Lviv
+lvtetiae parisorvm;Paris
 Lvtetiae Parisorvm;Paris
+Lybeck;Lybeck
 maaninka;Maaninka
 Maaninka;Maaninka
 Maarianhamina;Maarianhamina
 Maastricht;Maastricht
+macon;Macon
 Macon;Macon
 madrid;Madrid
 Madrid;Madrid
 maestricht;Maastricht
 Magdeburg;Magdeburg
+malm;Malmö
 Malm;Malmö
 malmö;Malmö
 Malmö;Malmö
@@ -568,6 +749,8 @@ Mänttä;Mänttä
 mäntyharju;Mäntyharju
 Mäntyharju;Mäntyharju
 Marburg;Marburg
+marpurgi cattorum;Marburg
+marpvrgi cattorvm;Marburg
 marttila;Marttila
 Marttila;Marttila
 meime a_ Åbo;Turku
@@ -579,26 +762,33 @@ meime Gryphisuualdiae;Greifswald
 meime Gryphiswaldiae;Greifswald
 meimeime_ a Abo;Turku
 meime Wisingsbvrgi;NA
+messina;Messina
 Messina;Messina
 Mikkeli;Mikkeli
 milano;Milano
 Milano;Milano
 Milwaukee WI;Milwaukee WI
+milwaukee wis;Milwaukee WI
+Minneapolis;Minneapolis MN
 minneapolis minn;Minneapolis
 minneapolis mn;Minneapolis
 Minneapolis MN;Minneapolis MN
 minsk;Minsk
 Minsk;Minsk
+mitau;Jelgava
 Mitau;Jelgava
+mitau und leipzig;Jelgava
 Mitau und Leipzig;Jelgava
 montpellier;Montpellier
 Montpellier;Montpellier
 montréal;Montreal
 Montre_al;Montre_al
+Montreal;Montreal
 moscoosa;Moscow
 Moscoosa;Moscow
 moscou;Moscow
 Moscou;Moscow
+Moscow;Moscow
 Moskova;Moscow
 moskva;Moscow
 Moskva;Moscow
@@ -606,6 +796,7 @@ mu helsinki;Helsinki
 Mu Helsinki;Helsinki
 münchen;München
 Mu_nchen;München
+München;München
 mustasaari;Mustasaari
 Mustasaari;Mustasaari
 mustiala;Mustiala
@@ -614,7 +805,9 @@ mutta nytt toisen kerran wastwdest stockholmin;Stockholm
 Mutta nytt toisen kerran wastwdest Stockholmin;Stockholm
 naantali;Naantali
 Naantali;Naantali
+nagy várad;Oradea
 Nagy Va_rad;Oradea
+nanaimo b c;Nanaimo BC
 Nanaimo BC;Nanaimo BC
 Napoli;Naples
 napoli;Napoli
@@ -623,18 +816,24 @@ Närpes;Närpiö
 närpiö;Närpiö
 Närpiö;Närpiö
 Narva;Narva
+neapel;Naples
 Neapel;Naples
 neuchatel;Neuchatel
 Neuchatel;Neuchatel
+neu ruppin;Neuruppin
 Neu Ruppin;Neuruppin
 New Haven Ma;New Haven Ma
+new york mills minn;New York Mills MN
+new york mills mn;New York Mills MN
 New York Mills MN;New York Mills MN
+new york mills;New York Mills MN
 New York NY;New York NY
 nizza;Nizza
 Nizza;Nizza
 Nokia;Nokia
 noormarkku;Noormarkku
 Noormarkku;Noormarkku
+nora;Nora
 Nora;Nora
 norimbergae;Nurnberg
 Norimbergae;Nürnberg
@@ -649,6 +848,7 @@ Nuremberg;Nürnberg
 nurmijärvi;Nurmijärvi
 Nurmijärvi;Nurmijärvi
 nürnberg;Nurnberg
+Nurnberg;Nurnberg
 Nu_rnberg;Nürnberg
 Nya Wasa;NA
 nya wasa;Vaasa
@@ -658,6 +858,8 @@ nyslott;Nyslott
 Nyslott;Savonlinna
 Nytorp;NA
 nytorp;Nytorp
+Nytorp;NA
+oahspe home letchworth;Letchworth
 Oahspe Home Letchworth;Letchworth
 Occidentalis Arhusae;Aarhus
 occidentalis arhusae;Århus
@@ -669,27 +871,34 @@ odense;Odense
 Odense;Odense
 odessa;Odessa
 Odessa;Odessa
+offenbach am main;Offenbach am Main
 Offenbach am Main;Offenbach am Main
+oniipa;Oniipa
 Oniipa;Oniipa
 Örebro;Örebro
 örebroosa;Örebro
 Örebroosa;Örebro
 orimattila;Orimattila
 Orimattila;Orimattila
+orisberg;Orisberg
 Orisberg;Orisberg
+orismala;Orismala
 Orismala;Orismala
 Orivesi;Orivesi
 Oslo;Oslo
+Östersund;Oslo
 östersund;Östersund
 Östersund;Östersund
 otavan asema;Otava
 Otavan asema;Otava
+Otava;Otava
 ottawa canada;Ottawa
 Ottawa Canada;Ottawa
 ottawa;Ottawa
 Ottawa;Ottawa
 oulainen;Oulainen
 Oulainen;Oulainen
+Oulunkylä;Helsinki
 oulunkylä;Oulunkylä
 Oulunkylä;Oulunkylä
 Oulu;Oulu
@@ -698,45 +907,54 @@ padova;Padova
 Padova;Padova
 paimio;Paimio
 Paimio;Paimio
-pani hin turusa;Turku
-Pani hin Turusa;Turku
+turusa;Turku
+Turusa;Turku
+på nytt medh egen bekostnadt vplagd och stockholm;Stockholm
 Parainen;Parainen
 Pargas;Parainen
 pargas;Pargas
 Parikkala;Parikkala
+paris chez le sr desnos rue au globe;Paris
 Paris chez le sr Desnos Rue au globe;Paris
 Parkano;Parkano
 Pärnu;Pärnu
-Paynettu Stockhol isa;Stockholm
+Stockhol isa;Stockholm
 Pejteri;NA
+pejteri;Saint Petersburg
 perho;Perho
 Perho;Perho
 perkjärvi;Perkjärvi
 Perkjärvi;Perkjärvi
+pernå;Pernaja
+pernau;Pernaja
 Pernau;Pernaja
 Pernö;Pernaja
 perno;Perno
 Perno;Turku
 Pest;Budapest
+pesten;Budapest
 Pesten;Budapest
 petäjävesi;Petäjävesi
 Petäjävesi;Petäjävesi
+peterburg;Saint Petersburg
 Peterburg;Saint Petersburg
 peterisa;Saint Petersburg
 Peterisa;Saint Petersburg
 petersburg;Saint Petersburg
 Petersburg;Saint Petersburg
+petropoli;Saint Petersburg
 Petropoli;Saint Petersburg
 Petrozavodsk';Petrozavodsk
 Petrozavodsk'';Petrozavodsk
+petrozavodsk';Saint Petersburg
+petrozavodsk'';Saint Petersburg
 Philadelphia PA;Philadelphia PA
 pieksämäki;Pieksämäki
 Pieksämäki;Pieksämäki
-peterburg;Saint Petersburg
-pejteri;Saint Petersburg
 Pietari;Saint Petersburg
 pietärissä;Saint Petersburg
 Pietärissä;Saint Petersburg
+pietarporissa;Saint Petersburg
 Pietarporissa;Saint Petersburg
 Pietarsaari;Pietarsaari
 pihlava;Pihlava
@@ -746,42 +964,48 @@ Piikkiö;Piikkiö
 piikkis;Piikkiö
 Piikkis;Piikkiö
 Piitem;NA
+piitem;NA
+pinjainen;Pinjainen
 Pinjainen;Pinjainen
+piotrogród;Saint Petersburg
 pirkkala;Pirkkala
 Pirkkala;Pirkkala
+Pirkkala;Tampere
+pistoia;Pistoia
 Pistoia;Pistoia
-p;NA
+^p$;NA
+pori otto andersin;Pori
 Pori Otto andersin;Pori
 Pori;Pori
+port arth ont can;Porth Arthur ON
 Port Arth Ont Can;Porth Arthur ON
 Port Arthur ON;Porth Arthur ON
+port arthur ontario;Porth Arthur ON
+port arthur ont can;Porth Arthur ON
 Port Arthur Ont Can;Porth Arthur ON
+port arthur ont;Porth Arthur ON
 port arthur;Porth Arthur ON
-port arth ont can;Porth Arthur ON
+Porth Arthur ON;Porth Arthur ON
+portland or;Portland OR
 Portland OR;Portland OR
 Porvoo;Porvoo
+poznán;Poznán
 Pozna_n;Pozna_n
+praze;Prague
 Praze;Prague
+primo rostochii nunc recusum stockholmiae;Stockholm
 primo Rostochii nunc recusum Stockholmiae;Stockholm
 primo upsaliae per eschillum matthiae a nunc recusum stockholmiae;Stockholm
 primo Upsaliae per Eschillum Matthiae a nunc recusum Stockholmiae;Stockholm
-printÅbo;Turku
-printe i Åbo;Turku
-printe i Stockholm;Stockholm
-printe i Upsala;Uppsala
-printe i Vpsala;Uppsala
-printe j Stockholm;Stockholm
-printi Vpsala;Uppsala
-printStockholm;Stockholm
-printStrengnäs;Strängnäs
-printUpsala;Uppsala
-printVpsala;Uppsala
-printWiborg;Viipuri
+prunkkala;Turku
 Prunkkala;Turku
+purleigh;Purleigh
 Purleigh;Purleigh
+quedlinburg;Quedlinburg
 Quedlinburg;Quedlinburg
 Quincy MA;Quincy MA
 Quincy MA;quincy mass
+quincy mass;Quincy MA
 Raahe;Raahe
 rääkkylä;Rääkkylä
 Rääkkylä;Rääkkylä
@@ -798,31 +1022,43 @@ rautio;Rautio
 Rautio;Rautio
 ravenna;Ravenna
 Ravenna;Ravenna
+räwelisä;Tallinn
 Räwelisä;Tallinn
 recusa aboae;Turku
 Recusa Aboae;Turku
+red jacket mich;Red Jacket MI
 Red Jacket Mich;Red Jacket MI
+red jacket mi;Red Jacket MI
 Red Jacket MI;Red Jacket MI
+red lodge mont;Red Lodge MT
 Red Lodge Mont;Red Lodge MT
 Regensburg;Regensburg
+regenspurg;Regensburg
 Regenspurg;Regensburg
+regiomonti borussorum;Köningsberg
 Regiomonti Borvssiae;Königsberg
+regiomonti borvssiae;Köningsberg
 reikjavik;Reykjavik
 Reikjavik;Reykjavik
 Revisa et recusa Aboae;Turku
+rewalisa;Tallinn
 Rewalisa;Tallinn
 reykjavík;Reykjavik
 reykjavik;Reykjavik
 Reykjavi_k;Reykjavik
 Reykjavik;Reykjavik
-Rigae Livonum;Riga
 rigae livonum;Riga
+Rigae Livonum;Riga
 riga mietau;Riga
 Riga Mietau;Riga
+Riga;Riga
 rigasa;Riga
 Riika;Riga
+rock island ill;Rock Island IL
 Rock Island IL;Rock Island IL
+rock springs wyo;Rock Springs WY
 Rock Springs Wyo;Rock Springs WY
+Rome;Rome
 Rooma;Rome
 Rostock;Rostock
 Rotterdam;Rotterdam
@@ -833,6 +1069,7 @@ saarijärvi;Saarijärvi
 Saarijärvi;Saarijärvi
 saint pétersbourg;Saint Petersburg
 Saint Pe_tersbourg;Saint Petersburg
+Saint Petersburg;Saint Petersburg
 Sairala;Sairala
 säkkijärvi;Säkkijärvi
 Säkkijärvi;Säkkijärvi
@@ -841,13 +1078,15 @@ Sakkola;Sakkola
 salmi;Salmi
 Salmi;Salmi
 Salo;Salo
+samma åhr;NA
 samma öhr;NA
-s a;NA
+^s a$;NA
+sandstone minn;Sandstone MI
 Sandstone Minn;Sandstone MI
-sanktpeterburg';Saint Petersburg
 sankt peterburg;Saint Petersburg
 sankt peterburg';Saint Petersburg
 sankt' peterburg';Saint Petersburg
+sanktpeterburg';Saint Petersburg
 sanktpeterburg'';Saint Petersburg
 Sarvlaks;Sarvilahti
 sarvlaks;Sarvlaks
@@ -857,22 +1096,29 @@ Sauvo;Sauvo
 Savonlinna;Savonlinna
 savonlinnassa;Savonlinna
 Savonlinnassa;Savonlinna
+scaris;Skara
 Scaris;Skara
+schwerin;Schwerin
 Schwerin;Schwerin
 Seattle WA;Seattle WA
+seattle wash;Seattle WA
 Seinäjoki;Seinäjoki
+serdobol';Sortavala
 Serdobol';Sortavala
 Siena;Siena
 simola;Simola
 Simola;Simola
 Sipoo;Sipoo
 Skara;Skara
+smithville minn;Smithville MN
 Smithville MN;Smithville MN
-s;NA
+^s$;NA
 socholm sic;Stockholm
 Socholm sic;Stockholm
+sorau;_ary
 Sorau;_ary
 Sortavala;Sortavala
+sotckholm !;Stockholm
 sotckholm;Stockholm
 Sotckholm !;Stockholm
 s peterburg' a è vineke;Saint Petersburg
@@ -882,30 +1128,45 @@ S Peterburg' B Gosudarstvennaa_ tipografi_a_;Saint Petersburg
 s peterburg' m merkušev;Saint Petersburg
 S Peterburg' M Merkus_ev;Saint Petersburg
 s peterburg;Saint Petersburg
-s peterburg'';Saint Petersburg
-s peterburg;Saint Petersburg
 s peterburg';Saint Petersburg
+s peterburg'';Saint Petersburg
 s petersburg;Saint Petersburg
 ståkhålm;Stockholm
 ståkkhålm;Stockholm
+stetini;Szczecin
 Stetini;Szczecin
+stettin;Szczecin
 Stettin;Szczecin
 St Louis Kaunti Minn;St Louis Kaunti MI
+st louis kaunti minn;St Louis MI
+s t michel;Mikkeli
+st michel;Mikkeli
 st mikkeli;Mikkeli
 st mikkelissä;Mikkeli
-Stocholm sic;Stockholm
-Stocholm !;Stockholm
+Stocholm;Stockholm
+stocholm;Stockholm
+stockh ja turus;Stockholm
 Stockh ja Turus;Stockholm
 stockhol isa;Stockholm
+stockholm åbo;Stockholm
 Stockholm Åbo;Stockholm
+stockholm aff georg hantsch kongl booktr;Stockholm
 Stockholm aff Georg Hantsch Kongl booktr;Stockholm
+stockholmiae sveonum;Stockholm
 Stockholmiae Sveonum;Stockholm
+stockholmisa ja turusa;Stockholm
+stockholmisa ja turvsa;Stockholm
 Stockholmisa ja Turvsa;Stockholm
+stockholm och åbo;Stockholm
+stockholm och upsala;Stockholm
 Stockholm pö nytt;Stockholm
 stockholm|Stockholm
 stockholm:Stockholm
 Stockholm;Stockholm
+stockholm upsala åbo;Stockholm
 Stockholm Upsala Åbo;Stockholm
+stockholm upsala och åbo;Stockholm
+stockholm upsala und åbo;Stockholm
 Stockholm Upsala und Åbo;Stockholm
 Stockhomin sic;Stockholm
 stockhomin;Stockholm
@@ -931,39 +1192,50 @@ st petersbourg;Saint Petersburg
 st petersbrg;Saint Petersburg
 st petersburgisa;Saint Petersburg
 St Petersburgisa;Saint Petersburg
-st petersburg;Saint Petersburg
 s t petersburg;Saint Petersburg
 st pétersburg;Saint Petersburg
+st petersburg;Saint Petersburg
 st petterburg;Saint Petersburg
 st pietarborissa;Saint Petersburg
 st pietarissa;Saint Petersburg
 St Pietarissa;Saint Petersburg
+stralesundii;Stralsund
 Stralesundii;Stralsund
+stralsund;Stralsund
 Stralsund;Stralsund
 Strängnäs;Strängnäs
 Strasbourg;Strasbourg
+strasburg;Strasbourg
 Strasburg;Strasbourg
+strengnensii;Strängnäs
 Strengnensii;Strängnäs
+strengnesii;Strängnäs
 Strengnesii;Strängnäs
 stukkolmis;Stockholm
 Stukkolmis;Stockholm
 Stuttgart;Stuttgart
+sudbury ontario;Sudbury ON
 Sudbury Ontario;Sudbury ON
 sundsvall;Sundsvall
 Sundsvall;Sundsvall
+suobaci;Greifswald
 Suobaci;Greifswald
+suobaci recusa;Greifswald
 Suobaci recusa;Greifswald
 suomen niemen turusa;Turku
 Suomen niemen Turusa;Turku
 Suomussalmi;Suomussalmi
 suonenjoki;Suonenjoki
 Suonenjoki;Suonenjoki
+superior wis;Superior WI
+superior wi;Superior WI
 Superior WI;Superior WI
+svartå;Mustio
 Svartö;Mustio
-synonyme;name
 taipalsaari;Taipalsaari
 Taipalsaari;Taipalsaari
 Tallinna;Tallinn
+Tallinn;Tallinn
 tammela;Tammela
 Tammela;Tammela
 Tammisaari;Tammisaari
@@ -973,8 +1245,10 @@ tʼamsterdam;Amsterdam
 t_Amsterdam;Amsterdam
 t'Amsterdam;Amsterdam
 Tartto;Tartu
+Tartu;Tartu
 tavastgus';Hämeenlinna
 Tavastgus';Hämeenlinna
+tê gryfisbaldía greifswald;Greifswald
 te_ Gryfisbaldi_a Greifswald;Greifswald
 te haarlem;Haarlem
 Terijoki;Terijoki
@@ -990,11 +1264,15 @@ the theater in oxford;Oxford
 the Theater in Oxford;Oxford
 T hus;Hämeenlinna
 tikkurila;Tikkurila
+Tikkurila;Tikkurila
 Tikkurila;Vantaa
+tockholmisa ja turusa;Stockholm
 Tockholmisa ja Turusa;Stockholm
 toholampi;Toholampi
 Toholampi;Toholampi
+tomsk;Tomsk
 Tomsk;Tomsk
+torgelow;Torgelow
 Torgelow;Torgelow
 Tornio;Tornio
 trieste;Trieste
@@ -1002,27 +1280,35 @@ Trieste;Trieste
 tromsö;Tromsö
 Tromsö;Tromsö
 tromsø;Tromsö
+Trondheim;Trondheim
 trondhjem;Trondheim
 Trondhjem;Trondhjem
 Trukketum Hernösandesne;Härnösand
+trukketum hernösandesne;HŠrnšsand
+tsingshi;Tsingshi
 Tsingshi;Tsingshi
-Tu_bingen;Tübingen
-Tubingen;Tübingen
-tubingen;Tübingen
 tübingen;Tübingen
+tubingen;Tübingen
+Tu_bingen;Tübingen
+Tübingen;Tübingen
+Tubingen;Tübingen
 Tukholma;Stockholm
 tukhulmissa;Stockholm
 Tukhulmissa;Stockholm
 tulkittu sures fangiuxes olles mutta stocholmisa;Stockholm
 Tulkittu sures fangiuxes olles mutta Stocholmisa;Stockholm
 Turenki;Turenki
+turku ja helsinki;Turku
 Turku ja Helsinki;Turku
+turku tai viipuri;Turku
 Turku tai Viipuri;Turku
 Turku;Turku
+turtle lake wis;Turtle Lake WI
 Turtle Lake Wis;Turtle Lake WI
 turun kaupungisa;Turku
 Turun kaupungisa;Turku
 Turura sic;Turku
+turura !;Turku
 turura;Turku
 Turura \!;Turku
 Turusa anomuxen jälkeen;Turku
@@ -1034,11 +1320,14 @@ Turusa pränd;Turku
 Tuusula;Tuusula
 tvrvsa;Turku
 Tvrvsa;Turku
+t waasasa;Vaasa
+tyrnaviae;Tyrnävä
 Tyrnaviae;Tyrnävä
 tyrvää;Tyrvää
 Tyrvää;Tyrvää
 ubsaliae;Uppsala
 Ubsaliae;Uppsala
+ugra;Ugra
 Ugra;Ugra
 Uppsala;Uppsala
 Upsaiae sic;Uppsala
@@ -1049,6 +1338,7 @@ upsalassa;Uppsala
 upsalas;Uppsala
 Upsalas;Uppsala
 upsala;Uppsala
+upsaliae et aboae;Uppsala
 Upsaliae et Aboae;Uppsala
 Upsaliae meime;Uppsala
 upsaliae;Uppsala
@@ -1062,20 +1352,24 @@ Upsalis;Uppsala
 upsal;Uppsala
 Upsal;Uppsala
 U_r'ev'';NA
+ûr'ev'';NA
 urjala;Urjala
 Urjala;Urjala
+u s a;USA
 U S A;USA
 Utrecht;Utrecht
 uudessakaupungissa;Uusikaupunki
 Uudessakaupungissa;Uusikaupunki
 Uusikaarlepyy;Uusikaarlepyy
 Uusikaupunki;Uusikaupunki
+uusikirkko;uusikirkko
 Uusikirkko;Uusikirkko
 Vaasa;Vaasa
 vainikkala;Vainikkala
 Vainikkala;Vainikkala
 valaam;Valamo
 Valaam;Valamo
+Valamo;Valamo
 valkjärvi;Valkjärvi
 Valkjärvi;Valkjärvi
 Vammala;Vammala
@@ -1084,39 +1378,55 @@ varšava;Warsow
 Varsova;Warsaw
 Varsovie;Warsaw
 varsovie;Warsow
+Västerås;Västerås
 Västerös;Västerös
 vbsaliae;Uppsala
 Vbsaliae;Uppsala
 venezia;Venice
 Venezia;Venice
+Venice;Venice
 venise;Venice
 Venise;Venice
 verona;Verona
 Verona;Verona
+ver rigae livonum;Riga
 ver Rigae Livonum;Riga
+verteutscht und riga;Riga
 Verteutscht und Riga;Riga
 viborgae;Viipuri
 Viborgae;Viipuri
+vicenza;Vicenza
 Vicenza;Vicenza
+vïden';Vienna
 Vi_den';Vienna
+Vienna;Vienna
 Viipuri;Viipuri
 viitasaari;Viitasaari
 Viitasaari;Viitasaari
+Viljandi;Viljandi
 vilnae;Vilna
 Vilna;Vilna
+Vilna;Vilnius
+Vilnius;Vilnius
+vind augsburg;Augsburg
 Vind Augsburg;Augsburg
+virginia minn;Virginia MN
 Virginia Minn;Virginia MN
 Virolahti;Virolahti
+vjatka;Vjatka
 Vjatka;Vjatka
+vlm;Ulm
 Vlm;Ulm
 vpsala;Uppsala
 vpsaliae;Uppsala
 Vpsaliae;Uppsala
+vreta;Vreta
 Vreta;Vreta
 v' sanktpeterburgě;Saint Petersburg
 v' sanktpeterburge;Saint Petersburg
 V' Sanktpeterburge_;Saint Petersburg
 V' Sanktpeterburge;Saint Petersburg
+v telči;Tel_
 V Telc_i;Tel_
 Vthi Åbo;Turku
 vthi Stockholm;Stockholm
@@ -1126,34 +1436,50 @@ vyborg';Viipuri
 vyborg'';Viipuri
 Vyborg';Viipuri
 Vyborg'';Viipuri
+wandsbek;Wandsbek
 Wandsbek;Wandsbek
+Warsaw;Warsaw
 Warschau;Warsaw
 warschau;Warsow
+Warsow;Warsaw
+wasa nikolaistad;Vaasa
+wasasa t;Vaasa
+watton mich;Watton MI
 Watton Mich;Watton MI
+weida;Weida
 Weida;Weida
+weimar verlage des industrie comptoirs;Weimar
 Weimar Verlage des Industrie Comptoirs;Weimar
 Weimar;Weimar
 Wib;NA
 wiborg;Viipuri
+wib;Viipuri
 Wien;Vienna
 Wiesbaden;Wiesbaden
+wijsingsborg;Visingsborg
 Wijsingsborg;Visingsborg
+wijsingzborg;Visingsborg
 Wijsingzborg;Visingsborg
-Wiljandis;Viljandi
-Wiljandi;Viljandi
 wiljandis;Viljandi
+Wiljandis;Viljandi
 wiljandi;Viljandi
+Wiljandi;Viljandi
 wilno;Vilnius
-Vilna;Vilnius
 Wilno;Wilno
+wisingsburgi;Visingsborg
 Wisingsburgi;Visingsborg
+wisingsbvrgi;Visingsborg
+wisingzborg;Visingsborg
 Wisingzborg;Visingsborg
+wismariae;Wismar
 Wismariae;Wismar
 wittebergae;Wittenberg
 Wittenberg;Wittenberg
 w krakowie;Krakow
 W Krakowie;Krakow
 Worcester MA;Worcester MA
+worchester ma;Worcester MA
+würzburg;Würzburg
 Wu_rzburg;Wu_rzburg
 ylimarkku;Ylimarkku
 Ylimarkku;Ylimarkku
@@ -1166,4 +1492,5 @@ ypäjä;Ypäjä
 Ypäjä;Ypäjä
 zürich;Zurich
 Zu_rich;Zu_rich
+Zurich;Zurich
 Zu Riga;Riga
