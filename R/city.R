@@ -10,6 +10,7 @@
 #' @keywords utilities
 correct_misspellings <- function(v,city) {
   synonyms <- read.csv(paste0("output.tables/city_",sanitize_name(city),".csv"),header=FALSE,encoding="UTF-8")
+  v <- harmonize_names(v, synonyms)
   synonyms <- unlist(synonyms[[2]])
   v[v %in% synonyms] <- city
   v

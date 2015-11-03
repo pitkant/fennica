@@ -78,6 +78,7 @@ print("Place names")
 # esimerkin kera myöhempää hyödyntämistä varten.
 # Polish publication places
 df$publication_place <- bibliographica::polish_place(df.orig$publication_place, remove.unknown = FALSE)
+
 # Recognize synonymes with string matching
 source("city_examples.R", encoding = "UTF-8") # later account for multiple places
 # Finally manual harmonization for the remaining place names

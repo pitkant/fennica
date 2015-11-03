@@ -14,7 +14,7 @@ collect_misspellings(city, variations, all)
 \item{all}{List of all non-assigned city names in the data}
 }
 \value{
-List of all non-assigned city names in the data
+List of all city name variations found from the data
 }
 \description{
 Use Levenshtein distance iteratively to find plausible misspellings
