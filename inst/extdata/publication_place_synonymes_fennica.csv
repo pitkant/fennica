@@ -40,7 +40,7 @@ Adoae po Aboae;Turku
 Åbo;Turku
 åbo;Turku
 Åbo;Turku
-åggelby;Åggelby
+åggelby;Helsinki
 Åggelby;Helsinki
 Ågggelby;Helsinki
 Agnifitiae;NA
@@ -900,9 +900,11 @@ Ottawa;Ottawa
 oulainen;Oulainen
 Oulainen;Oulainen
 Oulunkylä;Helsinki
-oulunkylä;Oulunkylä
-Oulunkylä;Oulunkylä
-Oulunkylä;Åggelby
+oulunkylä;Helsinki
+Oulunkylä;Helsinki
+Åggelby;Helsinki
+förut stockholm å nyo åbo;Turku
+åggelby;Helsinki
 Oulu;Oulu
 Oxford;Oxford
 padova;Padova
@@ -1082,7 +1084,6 @@ Salmi;Salmi
 Salo;Salo
 samma åhr;NA
 samma öhr;NA
-^s a$;NA
 sandstone minn;Sandstone MI
 Sandstone Minn;Sandstone MI
 sankt peterburg;Saint Petersburg
