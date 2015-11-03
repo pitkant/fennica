@@ -571,7 +571,7 @@ Oulu ;;[Turku]	Oulu	2
 Nyslott	Nyslott	2
 Karstula	Karstula	2
 Gryphiae	Greifswald	2
-Omtryckt i Åbo	Turku	2
+Omtryckt i Åbo	tryktåbo	2
 Strängnäsis	Strängnäs	2
 Kiiminki	Kiiminki	2
 Helsinki [s.n.]	Helsinki	2
@@ -637,7 +637,7 @@ Tryckt i Rostock	Rostock	2
 Wiburisa	Viipuri	2
 A Utrecht	Utrecht	2
 Wiburis	Viipuri	2
-Sorau	_ary	2
+Sorau	sorau	2
 [Wittenberg]	Wittenberg	2
 [Altdorf]	Altdorf	2
 Wittenberg	Wittenberg	2
@@ -671,11 +671,11 @@ Nyköping	Nyköping	2
 Junecopiae	Uppsala	2
 [Aboe]	Turku	2
 Petropoli	Saint Petersburg	2
-Åbo och Stockholm	Turku	2
-Stockholm och Upsala	Stockholm	2
+Åbo och Stockholm	åbo stockholm	2
+Stockholm och Upsala	stockholm upsala	2
 Te Utrecht	Utrecht	2
-Förut tryckt i Stockholm, och å nyo uplagd i Åbo	förut stockholm och å nyo åbo	2
-Omtryckt i Wasa	Vaasa	2
+Förut tryckt i Stockholm, och å nyo uplagd i Åbo	förut stockholm å nyo åbo	2
+Omtryckt i Wasa	tryktwasa	2
 Cassel	Cassel	2
 A Cassel	Cassel	2
 Aboae impressit	Turku	2
@@ -734,7 +734,6 @@ St. -Petersburg	Saint Petersburg	1
 W Krakowie	Krakow	1
 Porvoo :;Borgo	Porvoo	1
 Gel'zingfors'	Helsinki	1
-2. p.;Gel'singfors'	p	1
 S.-Peterburg' :;С.-Петербургъ	Saint Petersburg	1
 Sundsvall	Sundsvall	1
 Gel'singfors';Гельсингфорсъ	Helsinki	1
@@ -826,10 +825,9 @@ New York, N.Y.	New York NY	1
 Port Arthur (Ontario)	Porth Arthur ON	1
 New York Mills	New York Mills MN	1
 Port Arthur	Porth Arthur ON	1
-122 s.	s	1
 Red Jacket (Mich.)	Red Jacket MI	1
 Liverpoolissa	Liverpool	1
-Lith i Åbo	printåbo	1
+Lith i Åbo	Turku	1
 St. Pietarissa	Saint Petersburg	1
 Moscou	Moscow	1
 Leitmeritz	Litom“¿ice	1
@@ -905,7 +903,6 @@ Turun kaupungisa	Turku	1
 Helsinki ;;Tampere	Helsinki	1
 Helsinki :;Helsinki	Helsinki	1
 Jywäskylässä	Jyväskylä	1
-204 s.	s	1
 Helsingissä = Helsingfors	Helsinki	1
 Kuopio ;;Viipuri	Kuopio	1
 [Haaparanta]	Haaparanta	1
@@ -946,7 +943,7 @@ St. Peterborissa	Saint Petersburg	1
 Trukketum Hernösandesne	HŠrnšsand	1
 V' Sanktpeterburge	Saint Petersburg	1
 St.-Petersburg	Saint Petersburg	1
-Ja kolmanen kerran Turusa prändätty	kolmanen kerran turusa	1
+Ja kolmanen kerran Turusa prändätty	Turku	1
 Strengnäsis	Strängnäs	1
 Excuderunt Aboae	Turku	1
 Abae [sic]	Turku	1
@@ -1053,7 +1050,7 @@ Helsink	Helsinki	1
 Kirvu	Kirvu	1
 Helsingfors [s.n.]	Helsinki	1
 Rock Island (Ill.)	Rock Island IL	1
-V Telči	Tel_	1
+V Telči	v telči	1
 Würzburg	Würzburg	1
 Nagy-Várad	Oradea	1
 Kolozsvár	Cluj-Napoca	1
@@ -1233,7 +1230,7 @@ Londini	London	1
 Stockholme	Stockholm	1
 Pränädtty Stockholmisa	Stockholm	1
 Altdorfi	Altdorf	1
-och på mångas begäran ånyo uplagd i Åbo	och på mångas begäran ånyo åbo	1
+och på mångas begäran ånyo uplagd i Åbo	Turku	1
 A Copenhague	Copenhagen	1
 [Königsberg]	Koningsberg	1
 Riga & Mietau	Riga	1
@@ -1258,8 +1255,8 @@ Vpsala	Uppsala	1
 Gedruckt zu Elbingen	Elbingen	1
 Strengnensii	Strängnäs	1
 Jönkiöping	Jönnköping	1
-Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	Stockholm	1
-[In der königlichen Heubtstadt Stockholm gedruckt]	stockholm gedrucht	1
+Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	stockholm georg hantsch kongl booktr	1
+[In der königlichen Heubtstadt Stockholm gedruckt]	Stockholm	1
 [Wiburgiae?]	Viipuri	1
 Tryckt på Wisingzborg	Visingsborg	1
 Dorpati Livonrum	Tartu	1
@@ -1321,7 +1318,7 @@ Impressum Gryphiswaldiae	Greifswald	1
 [Lübeck]	Lybeck	1
 Tryckt j Stocholm	Stockholm	1
 [Strengnesiae]	Strängnäs	1
-Och i Vpsala	ivpsala	1
+Och i Vpsala	Uppsala	1
 I Vpsala	Uppsala	1
 Stockholmiae Sveonum	Stockholm	1
 Prentetty Stockholmi sa]	Stockholm	1
@@ -1337,7 +1334,7 @@ Stock[...]	Stockholm	1
 Präntäis Stockholmis	Stockholm	1
 Suobaci	Greifswald	1
 Tryckt i Strengnäss	Strängnäs	1
-Tryckt i Stockhom	stockhom	1
+Tryckt i Stockhom	Stockholm	1
 Präntättyt Turusa	Turku	1
 Aboae impensis autoris	Turku	1
 Stocholmis	Stockholm	1
@@ -1379,7 +1376,7 @@ Amsterodami	Amsterdam	1
 Edita Wittebergae	Wittenberg	1
 Gedrukt zu Vlm	Ulm	1
 Tryckt på Wijsingzborg	Visingsborg	1
-Tryckte j Stockholm	printe j stockholm	1
+Tryckte j Stockholm	Stockholm	1
 Präntätyd Stocholmisa	Stockholm	1
 Imprimebatur Wisingsbvrgi	Visingsborg	1
 Imprimebatur Gryphisuualdiae	Greifswald	1
@@ -1391,7 +1388,7 @@ Präntätty Riigas	Riga	1
 Mutta nytt toisen kerran wastwdest, Stockholmin caupungis präntätty	Stockholm	1
 Trycht i Åbo	Turku	1
 Prentetty Stocholmin caupungis	Stockholm	1
-Revisa [et] recusa Aboae	printaboae	1
+Revisa [et] recusa Aboae	Turku	1
 Prentat i Stockholm	Stockholm	1
 Turusa anomuxen jälkeen präntätyt	Turku	1
 Kjöpenhamn	Copenhagen	1
@@ -1408,7 +1405,7 @@ Pränttäis Turusa	Turku	1
 Imprimebat Aboae	Turku	1
 [Strängnäs]	Strängnäs	1
 [In Stockholm]	Stockholm	1
-Tryckti [sic] Vpsala	printvpsala	1
+Tryckti [sic] Vpsala	Uppsala	1
 Alten Stettin	Altenstein	1
 Tryck [sic] i Åbo	Turku	1
 Abóa [Turku]	Turku	1
@@ -1419,12 +1416,12 @@ I Strengnäs	Strängnäs	1
 Gedruckt zu Dorpt	Tartu	1
 Zu Riga	Riga	1
 Ttyckt [sic] i Abo	Turku	1
-[Tryckt i Stock]holm	stock holm	1
+[Tryckt i Stock]holm	Stockholm	1
 Gedrucht zu Abo	Turku	1
 Impressum Athenis Auräicis [sic]	Turku	1
 Erffurt	Erfurt	1
 Excussit [sic] Aboae	Turku	1
-Dorpt i Lieflandh	Tartu	1
+Dorpt i Lieflandh	dorpt lieflandh	1
 Tryckt i Wästerås	Västerås	1
 [En Barcelona]	Barcelona	1
 Tryckt i Reval	Tallinn	1
@@ -1445,7 +1442,7 @@ Stetini	Szczecin	1
 [Jena?]	Jena	1
 [Hamburgi]	Hamburg	1
 Dorpati Livonorvm	Tartu	1
-Tryckt vthi Stockholm	istockholm	1
+Tryckt vthi Stockholm	Stockholm	1
 Excudebat Holmiae	Stockholm	1
 Tryckt i Stocholm	Stockholm	1
 Stokholmi	Stockholm	1
@@ -1475,7 +1472,7 @@ Sotckholm [!]	Stockholm	1
 Sto[c]holm	Stockholm	1
 Sto[c]kholm	Stockholm	1
 Dantzig	Dantzig	1
-[Stóckholm]	stóckholm	1
+[Stóckholm]	Stockholm	1
 Ludguni Batavorum	Leiden	1
 Gothoburgi	Gothenburg	1
 [Londini Gothorum]	London	1
@@ -1496,7 +1493,7 @@ Stralesundii	Stralsund	1
 Abo [!]	Turku	1
 Tryckt i Norkiöping	Norrköping	1
 Imprimè [sic] a Abo	Turku	1
-Stocklom	stocklom	1
+Stocklom	Stockholm	1
 Norköping	Norrköping	1
 Imprimé a Stockholm	Stockholm	1
 Westeråhs	Västerås	1
@@ -1543,14 +1540,14 @@ A Amsterdam et a Leipzig	Amsterdam	1
 A Amsteldam et a Leipzig	Amsterdam	1
 Leipzig und Amsterdam	Leipzig	1
 Deutschland [Stralsund]	Stralsund	1
-Italia [i.e. Nizza]	Nizza	1
+Italia [i.e. Nizza]	italia e nizza	1
 Franc fort & Leipzig	Frankfurt	1
 A Francfort et Leipzig	Frankfurt	1
 A Liege	Liège	1
 Regenspurg	Regensburg	1
 Franckfurth	Frankfurt	1
 [Prändätty Stockholmis]	Stockholm	1
-Ja toisen kerran Turusa prändätty	toisen kerran turusa	1
+Ja toisen kerran Turusa prändätty	Turku	1
 Ja Turusa prändätty	Turku	1
 Rewalisa prändätty	Tallinn	1
 Linköpingisä	Linnköping	1

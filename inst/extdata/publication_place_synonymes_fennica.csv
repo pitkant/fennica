@@ -26,20 +26,20 @@ aboâ turku;Turku
 Abo_a Turku;Turku
 Aboa_ Turku;Turku
 åbo och stockholm;Turku
-abo sic;Turku
-Abo sic;Turku
-Åbo sic;Turku
+abo;Turku
+Abo;Turku
+Åbo;Turku
 abost;Turku
 Abost;Turku
 abo !;Turku
 Abo !;Turku
 åbo;Turku
-åco sic;Turku
+åco;Turku
 adoae po aboae;Turku
 Adoae po Aboae;Turku
-Af Åbo;Turku
-aff vthgångit i åbo;Turku
-Aff vthgöngit i Åbo;Turku
+Åbo;Turku
+åbo;Turku
+Åbo;Turku
 åggelby;Åggelby
 Åggelby;Helsinki
 Ågggelby;Helsinki
@@ -493,7 +493,6 @@ jääski;jääski
 Jääski;Jääski
 jacobson minn;Jacobson MI
 Jacobson Minn;Jacobson MI
-Ja kolmanen kerran Turusa;Turku
 jalasjärvi;Jalasjärvi
 Jalasjärvi;Jalasjärvi
 jämsä;Jämsä
@@ -721,6 +720,7 @@ Lund;Lund
 lutetiae parisiorum;Paris
 Lutetiae Parisiorum;Paris
 Luulaja;Luleö
+Luulaja;Luleå
 luulaja;Luulaja
 Luulaja;Luulaja
 lvgd batav;Leiden
@@ -902,6 +902,7 @@ Oulainen;Oulainen
 Oulunkylä;Helsinki
 oulunkylä;Oulunkylä
 Oulunkylä;Oulunkylä
+Oulunkylä;Åggelby
 Oulu;Oulu
 Oxford;Oxford
 padova;Padova
