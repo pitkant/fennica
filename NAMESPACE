@@ -2,7 +2,6 @@
 
 export(city_synonymes)
 export(collect_misspellings)
-export(correct_misspellings)
 export(counts_by_language)
 export(counts_by_town)
 export(counts_total)
