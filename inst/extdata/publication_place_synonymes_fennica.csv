@@ -1,10 +1,8 @@
 synonyme;name
-Helsinki;
-Porvoo;
-Porvoo; Borgo
-Helsingfors; Helsingfors
-Helsinki; Helsinki
-Helsingissä; Helsinki
+Porvoo;Borgo
+Helsingfors;Helsingfors
+Helsinki;Helsinki
+Helsingissä;Helsinki
 aabenraa;Aabenraa
 Aabenraa;Aabenraa
 aalborg;Aalborg
@@ -506,9 +504,9 @@ gel'singfors';Helsinki
 gel'singfrs';Helsinki
 gel'singfors'';Helsinki
 gel'zingfors';Helsinki
-Helsinki; Helsinki;Helsinki
-Helsingissä; Helsinki;Helsinki
-Helsingfors; Helsingfors;Helsinki
+Helsinki;Helsinki;Helsinki
+Helsingissä;Helsinki;Helsinki
+Helsingfors;Helsingfors;Helsinki
 hinnerjoki;Hinnerjoki
 Hinnerjoki;Hinnerjoki
 hirvensalmi;Hirvensalmi
@@ -1219,7 +1217,7 @@ porwoo;Porvoo
 borgo;Porvoo
 porwoossa;Porvoo
 porwossa;Porvoo
-Porvoo; Borgo;Porvoo
+Borgo;Porvoo
 Pozna_n;Pozna_n
 poznán;Poznán
 praze;Prague

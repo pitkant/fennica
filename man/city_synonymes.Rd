@@ -4,10 +4,14 @@
 \alias{city_synonymes}
 \title{city_synonymes}
 \usage{
-city_synonymes(unique_cities)
+city_synonymes(x, synonymes, verbose = TRUE)
 }
 \arguments{
-\item{unique_cities}{List of unique city names in the data}
+\item{x}{List of city names in the data}
+
+\item{synonymes}{Table of known city name variants with the columns "name" and "synonyme"}
+
+\item{verbose}{verbose}
 }
 \value{
 List of city name variants
@@ -19,7 +23,7 @@ Use Levenshtein distance iteratively to find plausible misspellings for specific
 \dontrun{all <- city_synonymes(c("Turku","Turkue", "Tampere", "Helsinki"}
 }
 \author{
-Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
+Leo Lahti and Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
 }
 \references{
 See citation("fennica")

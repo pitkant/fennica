@@ -78,19 +78,21 @@ print("Place names")
 # string-mätchäysfunktion voisit lisätä bibliographica-pakettiin
 # esimerkin kera myöhempää hyödyntämistä varten.
 # Polish publication places
-df$publication_place <- bibliographica::polish_place(df.orig$publication_place, remove.unknown = FALSE)
+df$publication_place <- polish_place(df.orig$publication_place, remove.unknown = TRUE)
 
 # Recognize synonymes with string matching
 # later account for multiple places
-# this step can be skipped 
-source("city_synonyme_list_update.R", encoding = "UTF-8") 
+# this step can be skipped after the synonyme list is fixed
+# TODO later integrate this better as standard part of matchings
+# instead of a separate step
+# source("city_synonyme_list_update.R", encoding = "UTF-8") 
 
+# Now combined with ESTC generic list. Think later how to split.
 # Finally manual harmonization for the remaining place names
-f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
-sn <- read.csv(f, sep = ";")
-pl <- sorvi::harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)
-df$publication_place <- pl$name
-# setdiff(names(sort(table(df$publication_place))), c(as.character(sn$synonyme), as.character(sn$name)))[1:20]
+#f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
+#sn <- read.csv(f, sep = ";")
+#df$publication_place <- sorvi::harmonize_names(df$publication_place, synonymes = sn, check.synonymes = FALSE)$name
+
 
 # Add publication country
 df$country <- get_country(df$publication_place)$country
@@ -102,8 +104,7 @@ print("Number of pages")
 x <- df.orig$physical_extent
 # x <- estc::harmonize_pages_specialcases(x)
 # Generic handling
-tmp <- polish_pages(x, verbose = TRUE)
-df$pagecount <- tmp$total.page
+df$pagecount <- polish_pages(x, verbose = TRUE)
 
 print("Document dimensions") 
 d <- df.orig$physical_dimension

@@ -1,4 +1,3 @@
-
 # List unique cities in the data
 unique_cities <- tau::fixEncoding(unique(df$publication_place),latin1=TRUE)
 

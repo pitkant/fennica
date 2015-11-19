@@ -1,7 +1,15 @@
-Tässä nähdäkseni kaikki mitä vielä tarvittaisiin fennica-paketin
-viimeistelyyn julkaisua ajatellen (myös aiempi meilini listattu mukaan
-tähän). Listaan nämä tässä tärkeysjärjestyksessä. Ollaan nyt
-aktiivisesti yhteyksissä että saadaan hommaa nopeasti eteenpäin.
+pagecount_discarded.csv -> Katsotaan MT kanssa
+publication_place_discarded.csv -> Check with MT
+publisher_discarded -> Check with MT (tekijä -> from author field ?)
+-> automatisoi write_xtable output jossa countit mukana
+
+Test:
+f <- system.file("extdata/PublicationPlaceSynonymes.csv", package = "bibliographica")
+synonymes <- read.csv(f, sep = ";", stringsAsFactors = FALSE)
+x <- c("Turku", "turkuae", "vaasa", "Tampere")
+li <- city_synonymes(x, synonymes, verbose = TRUE)
+
+-------------------------------------------
 
 Yhtenäistin kokeeksi fennican city.R/preprocess_placenames - funktion
 ja estc:n R/geo.R : harmonize_place - funktion ja siirsin
