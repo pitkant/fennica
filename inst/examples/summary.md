@@ -9,7 +9,7 @@ output: markdown_document
 
 ## Annotated documents
 
-Fraction of documents with entries for each annotation field.
+Fraction of documents with entries for each annotation field. For a full list of summaries for field contents, see [here](https://github.com/rOpenGov/fennica/tree/master/inst/examples/output.tables).
 
 
 
@@ -75,7 +75,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 We also have corporate info available ?
 
-[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.tab)
+[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
+
+[Discarded corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_discarded.csv)
 
 
 ## Authors
