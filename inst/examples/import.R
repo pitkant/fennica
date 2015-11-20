@@ -46,7 +46,7 @@ df$author <- gsub(" \\(NA-NA\\)", "", df$author)
 
 
 print("Publishers")
-df$publisher <- bibliographica::polish_publisher(df.orig$publisher)$name
+df$publisher <- bibliographica::polish_publisher(df.orig$publisher)
 
 print("Take corporate field as such for now")
 df$corporate <- df.orig$corporate
