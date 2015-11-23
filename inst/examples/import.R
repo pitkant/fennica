@@ -156,7 +156,7 @@ for (varname in c("author", "corporate", "language")) {
   o <- as.character(df.original[[varname]])
   disc <- as.vector(na.omit(o[which(is.na(x))]))
   if (is.null(disc)) {disc <- NA}
-  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""))
+  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""), count = TRUE)
 
 }
 
