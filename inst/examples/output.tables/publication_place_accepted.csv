@@ -7,7 +7,7 @@ Vaasa	3500
 Tampere	2471
 Kuopio	1569
 Hämeenlinna	1410
-Viipuri	1323
+Vyborg	1323
 Jyväskylä	1031
 Uppsala	753
 Pori	713
@@ -20,7 +20,7 @@ Hancock MI	217
 Tartu	215
 Leipzig	192
 Kotka	176
-New York NY	173
+New York NY	174
 London	169
 Paris	165
 Tammisaari	162
@@ -50,9 +50,9 @@ Riga	42
 Kajaani	42
 Duluth MN	42
 Wittenberg	39
+Moscow	39
 Kemi	39
 Oslo	37
-Moscow	37
 Calumet MI	37
 Heinola	33
 Raahe	31
@@ -96,10 +96,11 @@ Halle	11
 Norrköping	10
 New York Mills MN	10
 Laihia	10
+Isokyrö	10
 Forssa	10
 Augsburg	10
 Weimar	9
-Isokyrö	9
+Warsaw	9
 Heidelberg	9
 Göttingen	9
 Worcester MA	8
@@ -120,7 +121,7 @@ Pernaja	7
 Ishpeming MI	7
 Firenze	7
 Eura	7
-Varsova	6
+Vilnius	6
 Reykjavik	6
 Piikkiö	6
 Parainen	6
@@ -132,7 +133,6 @@ Haarlem	6
 Bonn	6
 Bergen	6
 Visingsborg	5
-Vilnius	5
 Tromsö	5
 Odense	5
 Nytorp	5
@@ -165,7 +165,6 @@ Espoo	4
 Cassel	4
 Basel	4
 Antwerpen	4
-Warsaw	3
 Stralsund	3
 Sääksmäki	3
 Rock Island IL	3
@@ -213,13 +212,11 @@ Petäjävesi	2
 Ottawa	2
 Offenbach am Main	2
 Nyköping	2
-Newport Rhode-Island	2
 New Haven MA	2
 Närpiö	2
 Naantali	2
 Mustiala	2
 Mustasaari	2
-Moskova	2
 Montreal	2
 Minneapolis MN	2
 Maastricht	2
@@ -271,7 +268,6 @@ Watton MI	1
 Vreta	1
 Vjatka	1
 Virginia MN	1
-Vilna	1
 Verona	1
 Vantaa	1
 Vammala	1
@@ -333,7 +329,6 @@ Padova	1
 Oulainen	1
 Otava	1
 Orismala	1
-Orisberg	1
 Orimattila	1
 Oradea	1
 Oniipa	1
@@ -362,9 +357,10 @@ Loimijoki	1
 Loimaa	1
 Lohtaja	1
 Liverpool	1
-Litom“¿ice	1
+Litoměřice	1
 Lisbon	1
 Liège	1
+Libau	1
 Letchworth	1
 Le Mans	1
 Lausanne	1
@@ -429,7 +425,6 @@ Carlstad	1
 Calcutta	1
 Buenos Aires	1
 Brunn	1
-Bronx NY	1
 Brisbane	1
 Bremen	1
 Brändö	1
@@ -445,4 +440,3 @@ Ancova	1
 Amersfoort	1
 Alfend	1
 Akureyri	1
-Agnifitiae	1
