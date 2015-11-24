@@ -92,6 +92,10 @@ We also have corporate info available ?
 
 [Discarded authors](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
 
+[Discarded author first names](output.tables/author_name_discarded_first.csv)
+
+[Discarded author last names](output.tables/author_name_discarded_last.csv)
+
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
 ![plot of chunk authors](figure/authors-1.png) 
