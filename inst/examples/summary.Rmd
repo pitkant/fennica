@@ -60,6 +60,7 @@ real.success[["published_from"]] <- success$published_from/original.nonNA$public
 real.success[["published_till"]] <- success$published_till/original.nonNA$publication_time
 real.success[["corporate"]] <- success$corporate/original.nonNA$corporate
 real.success[["publisher"]] <- success$publisher/original.nonNA$publisher
+real.success[["self_published"]] <- success$self_published/original.nonNA$publisher
 real.success[["pagecount"]] <- success$pagecount/original.nonNA$physical_extent
 real.success[["area"]] <- success$area/original.nonNA$physical_dimension
 real.success[["gatherings"]] <- success$gatherings/original.nonNA$physical_dimension
@@ -157,6 +158,12 @@ par(mar = c(5, 10, 3, 1)); barplot(log10(rev(tab[1:ntop])), horiz = T, las = 1, 
 [Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv) (Check that ok to discard these)
 
 [Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published accepted](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published raw fields](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_rawfields.csv) (Check that the self-publication is a correct classification for these docs)
+
+
 
 We also have corporate info available ?
 

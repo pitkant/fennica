@@ -44,9 +44,22 @@ df$author <- apply(df[, c("author_name", "author_birth", "author_death")], 1, fu
 df$author <- gsub("NA \\(NA-NA\\)", NA, df$author)
 df$author <- gsub(" \\(NA-NA\\)", "", df$author)
 
-
 print("Publishers")
 df$publisher <- bibliographica::polish_publisher(df.orig$publisher)
+
+print("Self-published docs where author is known but publisher not")
+inds <- which(tolower(df$publisher) == "author" & !is.na(df$author))
+if (length(inds)>0) {
+  df$publisher[inds] <- df$author[inds]
+}
+
+print("When author is unknown however mark it as self published")
+inds2 <- which(df$publisher %in% c("tuntematon", "unknown", "anonymous"))
+df$publisher[intersect(inds, inds2)] <- "Unknown author (self-published)"
+
+print("Add a separate self-published field")
+df$self_published <- as.logical((df$publisher %in% "Unknown author (self-published)") | (df$author == df$publisher))
+
 
 print("Take corporate field as such for now")
 df$corporate <- df.orig$corporate
@@ -86,8 +99,8 @@ df$publication_place <- polish_place(df.orig$publication_place, remove.unknown =
 # TODO later integrate this better as standard part of matchings
 # instead of a separate step
 # source("city_synonyme_list_update.R", encoding = "UTF-8") 
-
-# Now combined with ESTC generic list. Think later how to split.
+# Now this was combined with ESTC generic list to simplify
+# Think later how to split and generalize
 # Finally manual harmonization for the remaining place names
 #f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
 #sn <- read.csv(f, sep = ";")
@@ -136,63 +149,6 @@ df <- mutate(df, paper.consumption.km2 = width * height * pagecount/2 * (1/1e10)
 
 saveRDS(df, "df.Rds")
 saveRDS(df.orig, "df.orig.Rds")
-
-# ---------------------------------------------------------------
-
-# Use df$original_row to match
-if (!nrow(df.orig) == nrow(df)) {"Should match df and df.orig!"}
-df.new <- df
-df.original <- df.orig[match(df.new$original_row, df.orig$original_row), ]
-
-
-print("Summarize accepted and discarded entries")
-for (varname in c("author", "corporate", "language")) {
-
-  # Accepted fields
-  x <- as.character(df[[varname]])
-  tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.csv", sep = "_"), sep = ""))  
-
-  # Discarded fields
-  o <- as.character(df.original[[varname]])
-  disc <- as.vector(na.omit(o[which(is.na(x))]))
-  if (is.null(disc)) {disc <- NA}
-  tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""), count = TRUE)
-
-}
-
-
-# Conversion summaries
-originals <- c(publisher = "publisher",
-	       pagecount = "physical_extent",
-	       publication_place = "publication_place"
-	       )
-for (nam in names(originals)) {
-  o <- as.character(df.original[[originals[[nam]]]])
-  x <- as.character(df[[nam]])
-  inds <- which(!is.na(x))
-  tmp <- write_xtable(cbind(original = o[inds],
-      	 		    polished = x[inds]),
-    paste(output.folder, paste(nam, "conversion.csv", sep = "_"), sep = ""))
-
-}
-# Accept summaries
-for (nam in names(originals)) {
-  x <- as.character(df[[nam]])
-  tmp <- write_xtable(x,
-    paste(output.folder, paste(nam, "accepted.csv", sep = "_"), sep = ""))
-
-}
-# Discard summaries
-for (nam in names(originals)) {
-  o <- as.character(df.original[[originals[[nam]]]])
-  x <- as.character(df[[nam]])
-  inds <- which(is.na(x))
-  tmp <- write_xtable(o[inds],
-    paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""))
-
-}
-
-
 
 
 

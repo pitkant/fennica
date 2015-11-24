@@ -20,6 +20,11 @@ Percentage of non-NA entries among all documents in the preprocessed data (note 
 
 Fields of special interest: real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
+
+```
+## Error in real.success[["self_published"]] <- success$self_published/original.nonNA$publisher: replacement has length zero
+```
+
 ![plot of chunk missing2](figure/missing2-1.png) 
 
 ## Pagecounts
@@ -72,6 +77,12 @@ Top-20 publication places are shown together with the number of documents. This 
 [Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv) (Check that ok to discard these)
 
 [Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published accepted](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published raw fields](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_rawfields.csv) (Check that the self-publication is a correct classification for these docs)
+
+
 
 We also have corporate info available ?
 
