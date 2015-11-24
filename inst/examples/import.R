@@ -34,11 +34,11 @@ df <- dplyr::rename(df, author_death = till)
 
 print("Author names")
 tmp <- polish_author(df.orig$author_name)
-df$author_name <- tmp$full
+df$author_name <- tmp$names$full
 # Write invalid author names to file for a later check
 for (db in c("first", "last")) {
   fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
-  write.table(tmp$invalid[[db]], file = fnam, quote = FALSE, sep = "\t", row.names = FALSE)
+  tmp2 <- write_xtable(tmp$invalid[[db]], file = fnam, count = TRUE)
 }
 
 #df <- cbind(
