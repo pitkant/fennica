@@ -59,7 +59,7 @@ o2 <- as.character(df.original[["author_name"]])
 x <- df[["self_published"]]
 inds <- which(x) # List conversions for self-published docs
 tmp <- write_xtable(cbind(o1[inds], o2[inds]),
-  paste(output.folder, "self_published_rawfields.csv"))
+  paste(output.folder, "self_published_rawfields.csv", sep = ""))
 # Self published: summary of the final self-publisher names
 tmp <- write_xtable(df[inds, c("publisher")], paste(output.folder, "self_published_accepted.csv", sep = ""))
 

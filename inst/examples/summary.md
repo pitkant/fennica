@@ -20,11 +20,6 @@ Percentage of non-NA entries among all documents in the preprocessed data (note 
 
 Fields of special interest: real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
-
-```
-## Error in real.success[["self_published"]] <- success$self_published/original.nonNA$publisher: replacement has length zero
-```
-
 ![plot of chunk missing2](figure/missing2-1.png) 
 
 ## Pagecounts
@@ -93,9 +88,9 @@ We also have corporate info available ?
 
 ## Authors
 
-[Accepted author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
+[Accepted unique authors](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
 
-[Discarded author info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
+[Discarded authors](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
 
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 

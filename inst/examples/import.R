@@ -33,10 +33,18 @@ df <- dplyr::rename(df, author_birth = from)
 df <- dplyr::rename(df, author_death = till)
 
 print("Author names")
-df <- cbind(
-	df,
-	bibliographica::polish_name_of_author(df$author_name)
-)
+tmp <- polish_author(df.orig$author_name)
+df$author_name <- tmp$full
+# Write invalid author names to file for a later check
+for (db in c("first", "last")) {
+  fnam <- paste(output.folder, "author_name_discarded_", db, ".csv", sep = "")
+  write.table(tmp$invalid[[db]], file = fnam, quote = FALSE, sep = "\t", row.names = FALSE)
+}
+
+#df <- cbind(
+#	df,
+#	bibliographica::polish_name_of_author(df$author_name)
+#)
 
 print("Unique author IDs")
 # Unique author identifier by combining name, birth and death years
