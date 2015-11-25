@@ -120,14 +120,15 @@ x <- df.orig$physical_extent
 # Generic handling
 df$pagecount <- polish_pages(x, verbose = TRUE)
 
-print("Document dimensions") 
+print("Document dimensions")
+# TODO could this be harmonized with bibliographica polish_dimensions ?
 d <- df.orig$physical_dimension
 d <- gsub(",", ".", d) # 75,9 -> 75.9
 d <- gsub(":o.", "to", d) # 8:o. -> 8to
 d <- gsub(".o$", "to", d) # 8:o. -> 8to
 # In Finnish texts s. is used instead of p.		
 f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographica")
-synonyms <- read.csv(f, sep = "\t")
+synonyms <- read.csv(f, sep = ";")
 d <- harmonize_names(d, synonyms, mode = "recursive")$name
 print("Polish dimensions")
 tmp <- polish_dimensions(d, fill = TRUE, verbose = TRUE)

@@ -96,6 +96,9 @@ We also have corporate info available ?
 
 [Discarded author last names](output.tables/author_name_discarded_last.csv)
 
+[Authors missing life years](output.tables/authors_missing_lifeyears.csv)
+
+
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
 ![plot of chunk authors](figure/authors-1.png) 
