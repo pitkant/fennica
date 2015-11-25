@@ -182,6 +182,9 @@ We also have corporate info available ?
 
 [Discarded author last names](output.tables/author_name_discarded_last.csv)
 
+[Authors missing life years](output.tables/authors_missing_lifeyears.csv)
+
+
 Top-`r ntop` uniquely identified authors and number of documents for each (duplicate docs not checked yet).
 
 ```{r authors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
