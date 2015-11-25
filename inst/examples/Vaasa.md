@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Vaasassa 1764-1917"
 author: "Niko Ilomäki"
-date: "2015-11-24"
+date: "2015-11-25"
 output: markdown_document
 ---
 

@@ -42,17 +42,9 @@ for (db in c("first", "last")) {
 }
 #head(rev(sort(table(df.orig$author_name[is.na(df$author_name)]))))
 
-#df <- cbind(
-#	df,
-#	bibliographica::polish_name_of_author(df$author_name)
-#)
-
 print("Unique author IDs")
-# Unique author identifier by combining name, birth and death years
-df$author <- apply(df[, c("author_name", "author_birth", "author_death")], 1, function (x) {paste(x[[1]], " (", x[[2]], "-", x[[3]], ")", sep = "")})
-df$author <- gsub("NA \\(NA-NA\\)", NA, df$author)
-df$author <- gsub(" \\(NA-NA\\)", "", df$author)
-
+df$author <- author_unique(df, initialize.first = TRUE)
+ 
 print("Publishers")
 df$publisher <- bibliographica::polish_publisher(df.orig$publisher)
 
