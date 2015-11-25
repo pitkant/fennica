@@ -11,25 +11,27 @@
 #' @keywords utilities
 collect_misspellings <- function (city, variations, all) {
 
+  # Remove NAs if any		     
+  variations <- as.vector(na.omit(variations))
+  if (length(variations) == 0) {return(c())}
+
+  eff <- 1
+  while (eff > 0) {
+    eff <- 0
+    for (i in 1:length(all)) {
+      if(min(adist(all[i],variations)) == 1){
+        variations <- c(variations,as.character(all[i]))
 	eff <- 1
-	while (eff > 0) {
-		eff <- 0
-		for (i in 1:length(all)) {
-			if(is.na(all[i])) {
-				next
-			}
-			if(min(adist(all[i],variations)) == 1){
-				variations <- c(variations,as.character(all[i]))
-				eff <- 1
-			}
-		}
-	}
+      }
+    }
+  }
 	
-	#write.csv(variations, file=paste0("output.tables/city_",sanitize_name(city),".csv"), fileEncoding="UTF-8")
-	#for (x in variations){
-        # all <- all[which(all!=get("x"))]
-	#}
-	variations
+  #for (x in variations){
+  # all <- all[which(all!=get("x"))]
+  #}
+  
+  variations
+
 }
 
 

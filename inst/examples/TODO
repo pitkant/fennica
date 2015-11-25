@@ -1,12 +1,5 @@
-Test:
-f <- system.file("extdata/PublicationPlaceSynonymes.csv", package = "bibliographica")
-synonymes <- read.csv(f, sep = ";", stringsAsFactors = FALSE)
-x <- c("Turku", "turkuae", "vaasa", "Tampere")
-li <- city_synonymes(x, synonymes, verbose = TRUE)
-
--------------------------------------------
-
-self-publishing in time
+self-publishing in time. Huom julkaisjakentän eri kirjoitusasuja
+tekijänimille ei välttämättä osata yhdistää kirjoittajakentän kanssa
 
 -------------------------------
 

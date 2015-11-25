@@ -4,7 +4,7 @@
 \alias{city_synonymes}
 \title{city_synonymes}
 \usage{
-city_synonymes(x, synonymes, verbose = TRUE)
+city_synonymes(x, synonymes, verbose = TRUE, output = "data.frame")
 }
 \arguments{
 \item{x}{List of city names in the data}
@@ -12,15 +12,22 @@ city_synonymes(x, synonymes, verbose = TRUE)
 \item{synonymes}{Table of known city name variants with the columns "name" and "synonyme"}
 
 \item{verbose}{verbose}
+
+\item{output}{Output format of the synonyme table. A "list" or "data.frame"}
 }
 \value{
 List of city name variants
+
+A list with two elements: synonymes (all unique mappings) and ambiguous (non-ambiguous mappings)
 }
 \description{
-Use Levenshtein distance iteratively to find plausible misspellings for specific cities
+Use Levenshtein distance iteratively to find plausible misspellings for specific cities.
+}
+\details{
+This generates an augmented synonyme table including all variants indicated by the distance function. Final names with ambiguous mappings are removed and listed separately.
 }
 \examples{
-\dontrun{all <- city_synonymes(c("Turku","Turkue", "Tampere", "Helsinki"}
+\dontrun{all <- city_synonymes(c("Turku","Turkue", "Tampere", "Helsinki"), synonymes)}
 }
 \author{
 Leo Lahti and Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
