@@ -48,7 +48,8 @@ for (nam in names(originals)) {
   x <- as.character(df[[nam]])
   inds <- which(is.na(x))
   tmp <- write_xtable(o[inds],
-    paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""))
+    paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""),
+    count = TRUE)
 
 }
 
