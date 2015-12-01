@@ -1,12 +1,37 @@
 Joulukuuta varten:
 
-dokkarit vs. paprinkulutus vertailu ajassa koko aineistosta + sitten esim. top 5 paikat sama juttu (eli verrataan miten dokkarit vs. paperinkulutus näyttää).
+Dokkarit vs. paprinkulutus vertailu ajassa koko aineistosta + sitten
+esim. top 5 paikat sama juttu (eli verrataan miten dokkarit
+vs. paperinkulutus näyttää).
 
-uusien julkaisijoiden ilmentyminen kartalle esim. paperinkulutusvoluumi huomioiden.
+Uusien julkaisijoiden ilmentyminen kartalle
+esim. paperinkulutusvoluumi huomioiden.
 
-peruskuviot miten paperinkulutus suhtautuu dokumenttien määrään ja löydetäänkö täältä jotain tiettyjä ajankohtia jolloin on poikkeuksellista kasvua / laskua tms
+Peruskuviot miten paperinkulutus suhtautuu dokumenttien määrään ja
+löydetäänkö täältä jotain tiettyjä ajankohtia jolloin on
+poikkeuksellista kasvua / laskua tms
 
-tarkoituksena tutkia ilmiönä julkaisutoiminnan leviämistä ja kasvamista ajassa ja eri paikkakunnilla.
+Tarkoituksena tutkia ilmiönä julkaisutoiminnan leviämistä ja
+kasvamista ajassa ja eri paikkakunnilla.
+
+Mutta Suomen kohdalla siis kuvat koko kirjatuotannosta 1828 asti
+(dokumenttimäärät aikajanalla). Sen vertaaminen sitten
+paperinkulutukseen (sama kuin ESTCssä).
+
+Top-10 auktorien doc-count vs. paperinkulutus (taas sama kuin ESTC).
+
+Suomessa paikkakunnittain top-10 paikkaa paperinkulutus vs. dokumentit.
+
+Eli siis käytännössä tuota doc-count vs. paperinkulutus vertailua eri
+aspekteista.
+
+Auktorit, paikkakunnat ja kehitys niissä.
+
+Nyt kun ei saatu sitä julkaisijakenttää valmiiksi niin että sitä voisi
+käyttää, niin sitten ESTCssä tehdyt asiat Fennicaan
+soveltaen. Ajattelin että kuvien tuottaminen olisi nyt kevyempää kun
+voi ottaa kaiketi ESTCn kohdalta toteutetuista suoraan.
+
 
 ------------------
 
