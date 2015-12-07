@@ -1,0 +1,77 @@
+---
+title: "Paper Consumption in Finland, 1488-1828"
+author: "Niko Ilomäki"
+date: "December 7, 2015"
+output: markdown_document
+---
+
+```{r summaryinit, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(stringr)
+library(dplyr)
+library(ggplot2)
+library(bibliographica)
+library(fennica)
+library(sorvi)
+df <- readRDS("df.Rds")
+dfs <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
+  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  group_by(publication_year) %>%
+  summarise(titles = n(), paper = sum(paper.consumption.km2))
+authors <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
+  group_by(author_name) %>%
+  summarise(titles=n()) %>% arrange(desc(titles))
+top10 <- tail(head(authors,11),10)
+dfs10 <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
+  filter(author_name %in% c(top10$author_name)) %>%
+  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  group_by(publication_year) %>%
+  summarise(titles = n(), paper = sum(paper.consumption.km2))
+```
+
+```{r titles, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+p1 <- ggplot(dfs, aes(y = titles, x = publication_year))
+p1 <- p1 + geom_smooth(color = "black") + geom_point()
+p1 <- p1 + xlab("Publication Year") + ylab("Title Count") 
+p1 <- p1 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
+p1 <- p1 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
+p1 <- p1 + guides(fill = "none", alpha = "none")
+p1 <- p1 + ggtitle("Finnish publications 1488-1828: title count (all authors)")
+print(p1)
+```
+
+```{r paper, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8.2}
+p2 <- ggplot(dfs, aes(y = paper, x = publication_year))
+p2 <- p2 + geom_smooth(color = "black") + geom_point() +
+       xlab("Publication Year") +
+       ylab("Paper Consumption (km2)")
+       
+p2 <- p2 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
+p2 <- p2 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
+p2 <- p2 + guides(fill = "none", alpha = "none")
+p2 <- p2 + ggtitle("Finnish publications 1488-1828: paper consumption (all authors)")
+print(p2)
+```
+
+```{r titles10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+p1b <- ggplot(dfs10, aes(y = titles, x = publication_year))
+p1b <- p1b + geom_smooth(color = "black") + geom_point()
+p1b <- p1b + xlab("Publication Year") + ylab("Title Count") 
+p1b <- p1b + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
+p1b <- p1b + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
+p1b <- p1b + guides(fill = "none", alpha = "none")
+p1b <- p1b + ggtitle("Finnish publications 1488-1828: title count (top 10 authors)")
+print(p1b)
+```
+
+```{r paper10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8.2}
+p2b <- ggplot(dfs10, aes(y = paper, x = publication_year))
+p2b <- p2b + geom_smooth(color = "black") + geom_point() +
+       xlab("Publication Year") +
+       ylab("Paper Consumption (km2)")
+       
+p2b <- p2b + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
+p2b <- p2b + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
+p2b <- p2b + guides(fill = "none", alpha = "none")
+p2b <- p2b + ggtitle("Finnish publications 1488-1828: paper consumption (top 10 authors)")
+print(p2b)
+```
