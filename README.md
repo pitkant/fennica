@@ -10,6 +10,8 @@ The Fennica analyses are summarized in the following automatically generated fil
 
  * [Overall summary of the Fennica metadata](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md)
  * [Analyses on specific publication places and other topics](https://github.com/rOpenGov/fennica/tree/master/inst/examples) (see the .md files)
+ * [Helsinki Digital Humanities Day Dec 9, 2015](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md) 
+
 
 ### Reproducible analysis
 
