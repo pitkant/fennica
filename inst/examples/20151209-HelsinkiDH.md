@@ -10,8 +10,8 @@ This markdown document contains presentation material for [Digital History in Fi
 
 
 
-![plot of chunk 20150912-HDH-TurkuVSOthers](figure/20150912-HDH-TurkuVSOthers-1.png) ![plot of chunk 20150912-HDH-TurkuVSOthers](figure/20150912-HDH-TurkuVSOthers-2.png) 
+![plot of chunk 20151209-HDH-TurkuVSOthers](figure/20151209-HDH-TurkuVSOthers-1.png) ![plot of chunk 20151209-HDH-TurkuVSOthers](figure/20151209-HDH-TurkuVSOthers-2.png) 
 
 
 
-![plot of chunk 20150912-HDH-Author](figure/20150912-HDH-Author-1.png) ![plot of chunk 20150912-HDH-Author](figure/20150912-HDH-Author-2.png) 
+![plot of chunk 20151209-HDH-Author](figure/20151209-HDH-Author-1.png) ![plot of chunk 20151209-HDH-Author](figure/20151209-HDH-Author-2.png) 
