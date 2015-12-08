@@ -98,7 +98,7 @@ top_plot(dfo, "publication_place", 10) + ylab("Title count (n)") + ggtitle("Top 
 top_plot(dfo, "subject_topic", 10) + ylab("Title count (n)") + ggtitle("Top themes")
 ```
 
-```{r 20151209-HDH-topg, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
+```{r 20151209-HDH-topg, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=8}
 topg <- setdiff(names(rev(sort(table(dfo$gatherings))))[1:6], "NA")
 dfs <- dfo %>%
     filter(gatherings %in% topg & publication_year > 1650) %>%
