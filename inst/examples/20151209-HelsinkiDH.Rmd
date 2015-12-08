@@ -35,8 +35,8 @@ myplace <- "Turku"
 df$myplace <- rep(NA, nrow(df))
 df$myplace[df$publication_place == myplace] <- myplace
 df$myplace[!df$publication_place == myplace & df$country == "Finland"] <- "Finland"
-df$myplace[!df$publication_place == myplace & !df$country == "Finland"] <- "Foreign"
-df$myplace <- factor(df$myplace, levels = rev(c("Other", "Finland", "Turku")))
+df$myplace[!df$country == "Finland"] <- "Foreign"
+df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
 
 
 # Keep entries with known publication place and paper consumption
@@ -46,11 +46,6 @@ dfs <- df %>%
   filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
   group_by(publication_decade, myplace) %>%
   summarise(titles = n(), paper = sum(paper.consumption.km2))
-
-#p <- ggplot(dfs, aes(x = publication_decade, y = paper, color = myplace)) +
-#     geom_point() + geom_smooth() +
-#     ylim(0, max(dfs$paper)) +
-#     ggtitle("Turku vs. other publication places")
 
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity") +
@@ -65,5 +60,8 @@ p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order =
      scale_fill_manual(values = c("blue", "black", "darkgreen")) +
      xlab("Publication decade") + ylab("Title count (n)")
 print(p)
+
+#p + guides(fill = guide_legend(order = 1))
+
 ```
 
