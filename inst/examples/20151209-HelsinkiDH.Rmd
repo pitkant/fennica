@@ -71,7 +71,7 @@ print(p)
 
 
 
-```{r 20150912-HDH-Author, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=12}
+```{r 20150912-HDH-Author, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=6}
 p1 <- top_plot(dfo, "author", 10) + ggtitle(paste("Top authors (", min(na.omit(dfo$publication_year)), "-", max(na.omit(dfo$publication_year)), ")", sep = "")) + ylab("Title count (n)")
 print(p1)
 
