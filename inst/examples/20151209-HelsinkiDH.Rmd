@@ -1,0 +1,69 @@
+---
+title: "Paper Consumption in Finland, 1488-1828"
+author: "Niko Ilomäki"
+date: "December 7, 2015"
+output: markdown_document
+---
+
+```{r 20150912-HDH-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(stringr)
+library(dplyr)
+library(ggplot2)
+library(bibliographica)
+library(fennica)
+library(sorvi)
+
+# Nice theme
+theme_set(theme_bw(20))
+
+# Read data
+df <- readRDS("df.Rds")
+
+# Let us focus on years 1400-1828
+df <- df %>% filter(publication_year > 1400 & publication_year < 1829)
+
+# Add publication decade
+# TODO add already in the original preprocessed data matrix
+df$publication_decade <- 10*floor(df$publication_year/10)
+```
+
+
+```{r 20150912-HDH-TurkuVSOthers, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+
+# Add indicator field: Turku or Not Turku
+myplace <- "Turku"
+df$myplace <- rep(NA, nrow(df))
+df$myplace[df$publication_place == myplace] <- myplace
+df$myplace[!df$publication_place == myplace & df$country == "Finland"] <- "Finland"
+df$myplace[!df$publication_place == myplace & !df$country == "Finland"] <- "Foreign"
+df$myplace <- factor(df$myplace, levels = rev(c("Other", "Finland", "Turku")))
+
+
+# Keep entries with known publication place and paper consumption
+# Group by year/decade and Turku/Other
+dfs <- df %>%
+  #filter(publication_year >= 1600) %>%
+  filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  group_by(publication_decade, myplace) %>%
+  summarise(titles = n(), paper = sum(paper.consumption.km2))
+
+#p <- ggplot(dfs, aes(x = publication_decade, y = paper, color = myplace)) +
+#     geom_point() + geom_smooth() +
+#     ylim(0, max(dfs$paper)) +
+#     ggtitle("Turku vs. other publication places")
+
+p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
+     geom_bar(position = "stack", stat = "identity") +
+     ggtitle("Paper consumption") +
+     scale_fill_manual(values = c("blue", "black", "darkgreen")) +
+     xlab("Publication decade") + ylab("Paper (km2)")
+print(p)
+
+p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
+     geom_bar(position = "stack", stat = "identity") +
+     ggtitle("Title count") +
+     scale_fill_manual(values = c("blue", "black", "darkgreen")) +
+     xlab("Publication decade") + ylab("Title count (n)")
+print(p)
+```
+
