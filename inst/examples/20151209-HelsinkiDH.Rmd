@@ -73,9 +73,8 @@ print(p)
 
 ```{r 20150912-HDH-Author, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=12}
 p1 <- top_plot(dfo, "author", 10) + ggtitle(paste("Top authors (", min(na.omit(dfo$publication_year)), "-", max(na.omit(dfo$publication_year)), ")", sep = "")) + ylab("Title count (n)")
+print(p1)
 
 p2 <- top_plot(df, "author", 10) + ggtitle(paste("Top authors (", min(na.omit(df$publication_year)), "-", max(na.omit(df$publication_year)), ")", sep = "")) + ylab("Title count (n)")
-
-library(gridExtra)
-grid.arrange(p1, p2, nrow = 1)
+print(p2)
 ```
