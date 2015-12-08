@@ -15,3 +15,8 @@ This markdown document contains presentation material for [Digital History in Fi
 
 
 ![plot of chunk 20151209-HDH-Author](figure/20151209-HDH-Author-1.png) ![plot of chunk 20151209-HDH-Author](figure/20151209-HDH-Author-2.png) 
+
+
+![plot of chunk 20151209-HDH-topauthor](figure/20151209-HDH-topauthor-1.png) ![plot of chunk 20151209-HDH-topauthor](figure/20151209-HDH-topauthor-2.png) 
+
+
