@@ -93,6 +93,15 @@ tmp2 <- write_xtable(tab, paste(output.folder, "documentpages-estimated.csv", se
 tmp3 <- write_xtable(df.orig[which(is.na(df$pagecount)), ]$physical_extent, paste(output.folder, "documentpages-estimated-discarded.csv", sep = ""))
 #source("summarize.page.conversions.R")
 
-
+#print("Document dimensions") 
+d <- df.orig$physical_dimension
+d <- gsub(",", ".", d) # 75,9 -> 75.9
+d <- gsub(":o.", "to", d) # 8:o. -> 8to
+d <- gsub(".o$", "to", d) # 8:o. -> 8to
+# In Finnish texts s. is used instead of p.		
+f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographica")
+synonyms <- read.csv(f, sep = "\t")
+d <- harmonize_names(d, synonyms, mode = "recursive")$name
+tmp <- polish_dimensions(d, fill = TRUE)
 
 saveRDS(df, "df.Rds")
