@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2015-10-15"
+date: "2015-11-25"
 output: markdown_document
 ---
 
@@ -9,7 +9,21 @@ output: markdown_document
 
 
 ```
-## Error: data_frames can only contain 1d atomic vectors and lists
+## Error in eval(expr, envir, enclos): object 'family_name' not found
 ```
 
-![plot of chunk suvut](figure/suvut-1.png) 
+```
+## Error in eval(expr, envir, enclos): unknown column 'family_name'
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'members' not found
+```
+
+```
+## Error in split.default(X, group): first argument must be a vector
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'extra' not found
+```

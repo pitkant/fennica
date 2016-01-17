@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Suomessa 1640-1917"
 author: "Niko Ilomäki"
-date: "2015-10-15"
+date: "2015-11-25"
 output: markdown_document
 ---
 
@@ -9,11 +9,11 @@ output: markdown_document
 
 
 ```
-## Error: data_frames can only contain 1d atomic vectors and lists
+## Error in eval(expr, envir, enclos): object 'published_in' not found
 ```
 
 ```
-## Error: data_frames can only contain 1d atomic vectors and lists
+## Error in eval(expr, envir, enclos): unknown column 'published_in'
 ```
 
 ```

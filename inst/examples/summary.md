@@ -1,48 +1,121 @@
 ---
 title: "Summary"
-author: "Niko Ilomäki"
-date: "Tuesday, March 3, 2015"
+author: "Niko Ilomäki and Leo Lahti"
+date: "Tuesday, October 20, 2015"
 output: markdown_document
 ---
 
-# Summary of the preprocessed Fennica data
+# Fennica summary
 
 ## Annotated documents
 
-Fraction of documents with entries for each annotation field.
+Fraction of documents with entries for each annotation field. For a full list of summaries for field contents, see [here](https://github.com/rOpenGov/fennica/tree/master/inst/examples/output.tables).
 
 
-```
-## Error in if (inherits(X[[j]], "data.frame") && ncol(xj) > 1L) X[[j]] <- as.matrix(X[[j]]): missing value where TRUE/FALSE needed
-```
 
-```
-## Error in order(df2$missing): argument 1 is not a vector
-```
+Percentage of non-NA entries among all documents in the preprocessed data (note that in some cases a significant fraction of this information is missing already in the raw data)
 
-```
-## Error in eval(expr, envir, enclos): object 'field' not found
-```
+![plot of chunk missingb](figure/missingb-1.png) 
+
+
+Fields of special interest: real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+![plot of chunk missing2](figure/missing2-1.png) 
+
+## Pagecounts
+
+[Discarded page count data](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_discarded.csv)
+
+[Successfully converted page counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/pagecount_conversion.csv)
+
+Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+
+![plot of chunk summarysizecomp](figure/summarysizecomp-1.png) 
+
+Compare gatherings and page counts. 
+
+![plot of chunk summarypagecomp](figure/summarypagecomp-1.png) 
+
+## Publication time
+
+[Successfully converted publication times](output.tables/publication-time-accepted.csv)
+
+[Discarded publication times](output.tables/publication-time-discarded.csv)
+
+![plot of chunk publication_time](figure/publication_time-1.png) 
+
+## Publication places
+
+Top-20 publication places are shown together with the number of documents. This info is available for 68813 documents (96%). There are 442 unique publication places.
+
+![plot of chunk publication_place](figure/publication_place-1.png) 
+
+[Successfully converted publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_accepted.csv)
+
+[Discarded publication places](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_discarded.csv)
+
+[Publication places missing country information](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publication_place_missingcountry.csv)
+
+
+
+## Dimensions
+
+[Successfully converted dimension info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/accepted_dimensions.csv)
+
+[Discarded dimension info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/missing_dimensions.csv)
+
+[Discarded gatherings info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/missing_gatherings.csv)
+
+
+## Publisher 
+
+[Discarded publisher info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_discarded.csv) (Check that ok to discard these)
+
+[Converted publishers](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/publisher_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published accepted](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published raw fields](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_rawfields.csv) (Check that the self-publication is a correct classification for these docs)
+
+
+
+We also have corporate info available ?
+
+[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
+
+[Discarded corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_discarded.csv)
+
+
+## Authors
+
+[Accepted unique authors](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_accepted.csv)
+
+[Discarded authors](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/author_discarded.csv)
+
+[Discarded author first names](output.tables/author_name_discarded_first.csv)
+
+[Discarded author last names](output.tables/author_name_discarded_last.csv)
+
+[Authors missing life years](output.tables/authors_missing_lifeyears.csv)
+
+
+Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
+
+![plot of chunk authors](figure/authors-1.png) 
+
 
 ## Topics
 
 
 
 
-```
-## [1] "Complete subject topic counts in file: output.tables/subjecttopics.tab"
-```
+
+
+[Complete subject topic counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/subjecttopics.tab)
 
 Top-50 topics and number of documents for each. In total, there are 3533 unique topics and 20889 documents assigned to one or more topics (29).
 
 ![plot of chunk topics3](figure/topics3-1.png) 
-
-
-## Authors
-
-Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
-
-![plot of chunk authors](figure/authors-1.png) 
 
 
 ## Subject geographical places
@@ -54,23 +127,5 @@ Top-50 geographical places are shown together with the number of documents assig
 ![plot of chunk geo2](figure/geo2-1.png) 
 
 
-```
-## [1] "Complete counts in file: output.tables/geoplaces.csv"
-```
 
-
-
-## Publication 
-
-### Publication places
-
-Top-50 publication places are shown together with the number of documents. This info is available for 68832 documents (96%). There are 766 unique publication places.
-
-![plot of chunk publication_place](figure/publication_place-1.png) 
-
-	
-
-```
-## [1] "Complete counts in file: output.tables/publication_place.csv"
-```
-
+[Complete geoplace listing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)

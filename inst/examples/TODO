@@ -1,7 +1,54 @@
-Tässä nähdäkseni kaikki mitä vielä tarvittaisiin fennica-paketin
-viimeistelyyn julkaisua ajatellen (myös aiempi meilini listattu mukaan
-tähän). Listaan nämä tässä tärkeysjärjestyksessä. Ollaan nyt
-aktiivisesti yhteyksissä että saadaan hommaa nopeasti eteenpäin.
+Joulukuuta varten:
+
+Dokkarit vs. paprinkulutus vertailu ajassa koko aineistosta + sitten
+esim. top 5 paikat sama juttu (eli verrataan miten dokkarit
+vs. paperinkulutus näyttää).
+
+Uusien julkaisijoiden ilmentyminen kartalle
+esim. paperinkulutusvoluumi huomioiden.
+
+Peruskuviot miten paperinkulutus suhtautuu dokumenttien määrään ja
+löydetäänkö täältä jotain tiettyjä ajankohtia jolloin on
+poikkeuksellista kasvua / laskua tms
+
+Tarkoituksena tutkia ilmiönä julkaisutoiminnan leviämistä ja
+kasvamista ajassa ja eri paikkakunnilla.
+
+Mutta Suomen kohdalla siis kuvat koko kirjatuotannosta 1828 asti
+(dokumenttimäärät aikajanalla). Sen vertaaminen sitten
+paperinkulutukseen (sama kuin ESTCssä).
+
+Top-10 auktorien doc-count vs. paperinkulutus (taas sama kuin ESTC).
+
+Suomessa paikkakunnittain top-10 paikkaa paperinkulutus vs. dokumentit.
+
+Eli siis käytännössä tuota doc-count vs. paperinkulutus vertailua eri
+aspekteista.
+
+Auktorit, paikkakunnat ja kehitys niissä.
+
+Nyt kun ei saatu sitä julkaisijakenttää valmiiksi niin että sitä voisi
+käyttää, niin sitten ESTCssä tehdyt asiat Fennicaan
+soveltaen. Ajattelin että kuvien tuottaminen olisi nyt kevyempää kun
+voi ottaa kaiketi ESTCn kohdalta toteutetuista suoraan.
+
+--------------------
+
+Taitaa olla virheellinen pagecount?
+[1-3] 4-11 [12] s. (s. [12] tyhjä)
+-> Nyt: 23
+
+------------------
+
+Dimensiotiedoissa: kumpi näistä valitaan
+23 x 31.3 cm. plate 25 x 33.6 cm. 
+
+------------------
+
+self-publishing in time. Huom julkaisjakentän eri kirjoitusasuja
+tekijänimille ei välttämättä osata yhdistää kirjoittajakentän kanssa
+
+-------------------------------
 
 Yhtenäistin kokeeksi fennican city.R/preprocess_placenames - funktion
 ja estc:n R/geo.R : harmonize_place - funktion ja siirsin
@@ -10,14 +57,13 @@ että toimii. Voit tarkistella lisää ja parantaa.
 
 -------------------------------------------
 
-Vähintään tarvitaan:
 painopaikka: sort(table(df$publication_place)) & df$country
 vuodet (df$published_from / df$published_till lehdille; df$published_in kirjoille - mistä tulee -1917 lehtirangessa ?)
 painaja/kustantajakenttä: df$corporate
 physical_dimension (LL)
 physical_extent (LL)
 paperinkulutus (NVI ?)
-(mahdollisesti identtiset otsikkokentät vertailuun Kungligan kanssa)
+
 
  “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tämä hypoteesi me voidaan todentaa/tarkistaa/korjata kun mukana on paperinkulutus!
 
