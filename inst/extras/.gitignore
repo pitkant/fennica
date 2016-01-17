@@ -1,0 +1,5 @@
+*.Rout
+*.Rcheck
+*~
+*.tar.gz
+
