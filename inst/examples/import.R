@@ -32,6 +32,13 @@ df <- cbind(
 df <- dplyr::rename(df, author_birth = from)
 df <- dplyr::rename(df, author_death = till)
 
+print("Number of pages")
+# ESTC-specific handling -> Fennica-specific?
+x <- df.orig$physical_extent
+df$pagecount <- polish_physical_extent(x, verbose = TRUE)$pagecount
+
+
+
 print("Author names")
 tmp <- polish_author(df.orig$author_name, validate = FALSE)
 df$author_name <- tmp$names$full
@@ -112,13 +119,6 @@ df$publication_place <- polish_place(df.orig$publication_place, remove.unknown =
 df$country <- get_country(df$publication_place)$country
 # No country mapping
 tmp <- write_xtable(as.character(df$publication_place[is.na(df$country)]), filename = "output.tables/publication_place_missingcountry.csv")
-
-print("Number of pages")
-# ESTC-specific handling -> Fennica-specific?
-x <- df.orig$physical_extent
-# x <- estc::harmonize_pages_specialcases(x)
-# Generic handling
-df$pagecount <- polish_pages(x, verbose = TRUE)
 
 print("Document dimensions")
 # TODO could this be harmonized with bibliographica polish_dimensions ?

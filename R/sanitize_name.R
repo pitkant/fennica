@@ -13,7 +13,7 @@ sanitize_name <- function(x) {
   f <- system.file("extdata/specialchars.csv", package = "fennica")
   sn <- read.csv(f, sep = "\t")
 
-  x <- harmonize_names(x, sn)$name
+  x <- harmonize_names(x, sn, include.original = FALSE)
   x <- gsub(" ","",x)
 
   x

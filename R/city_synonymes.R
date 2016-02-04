@@ -15,6 +15,7 @@
 city_synonymes <- function (x, synonymes, verbose = TRUE, output = "data.frame") {
 
   # TODO make more generic version 
+  synonyme <- NULL
 
   # User lowercase for all variant searches
   xorig <- x
