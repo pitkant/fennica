@@ -56,8 +56,8 @@ real.success <- c()
 real.success[["publication_place"]] <- success$publication_place/original.nonNA$publication_place
 real.success[["country"]] <- success$country/original.nonNA$publication_place
 real.success[["publication_year"]] <- success$publication_year/original.nonNA$publication_time
-real.success[["publication_year_from"]] <- success$published_from/original.nonNA$publication_time
-real.success[["publication_year_till"]] <- success$published_till/original.nonNA$publication_time
+real.success[["publication_year_from"]] <- success$publication_year_from/original.nonNA$publication_time
+real.success[["publication_year_till"]] <- success$publication_year_till/original.nonNA$publication_time
 real.success[["corporate"]] <- success$corporate/original.nonNA$corporate
 real.success[["publisher"]] <- success$publisher/original.nonNA$publisher
 real.success[["self_published"]] <- success$self_published/original.nonNA$publisher

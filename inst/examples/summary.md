@@ -20,15 +20,6 @@ Percentage of non-NA entries among all documents in the preprocessed data (note 
 
 Fields of special interest: real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
-
-```
-## Error in real.success[["publication_year_from"]] <- success$published_from/original.nonNA$publication_time: replacement has length zero
-```
-
-```
-## Error in real.success[["publication_year_till"]] <- success$published_till/original.nonNA$publication_time: replacement has length zero
-```
-
 ![plot of chunk missing2](figure/missing2-1.png)
 
 ## Pagecounts
