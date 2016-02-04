@@ -22,67 +22,11 @@ Fields of special interest: real success percentage (proportion of successful co
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'author' not found
+## Error in real.success[["publication_year_from"]] <- success$published_from/original.nonNA$publication_time: replacement has length zero
 ```
 
 ```
-## Error in apply(dfs, 2, function(x) {: object 'dfs' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'success' not found
-```
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'ylim' values
+## Error in real.success[["publication_year_till"]] <- success$published_till/original.nonNA$publication_time: replacement has length zero
 ```
 
 ![plot of chunk missing2](figure/missing2-1.png)
@@ -95,87 +39,9 @@ Fields of special interest: real success percentage (proportion of successful co
 
 Compare gatherings and cm2 sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
-
-```
-## Error in eval(expr, envir, enclos): object 'area' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dfs' not found
-```
-
-```
-## Error in table(dfs): object 'dfs' not found
-```
-
-```
-## Error in names(dfm) <- c("gatherings", "area", "documents"): object 'dfm' not found
-```
-
-```
-## Error in order_gatherings(dfm$gatherings): object 'dfm' not found
-```
-
-```
-## Error in ggplot(dfm, aes(x = gatherings, y = area)): object 'dfm' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'documents' not found
-```
-
 ![plot of chunk summarysizecomp](figure/summarysizecomp-1.png)
 
 Compare gatherings and page counts. 
-
-
-```
-## Error in eval(expr, envir, enclos): object 'gatherings' not found
-```
-
-```
-## Error in gsub(" pages", "", dfs$pagecount): object 'dfs' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dfs' not found
-```
-
-```
-## Error in group_by_(.data, .dots = lazyeval::lazy_dots(...), add = add): object 'dfs' not found
-```
-
-```
-## Error in names(dfg) <- c("pages", "gatherings", "documents"): object 'dfg' not found
-```
-
-```
-## Error in order_gatherings(dfg$gatherings): object 'dfg' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'dfg' not found
-```
-
-```
-## Error in ggplot(dfg, aes(x = gatherings, y = pages)): object 'dfg' not found
-```
-
-```
-## Error in table(dfg$pages): object 'dfg' not found
-```
-
-```
-## Error in limits(c(...), "y"): object 'ylims' not found
-```
-
-```
-## Error in 0:n: NA/NaN argument
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'documents' not found
-```
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
 
@@ -185,10 +51,7 @@ Compare gatherings and page counts.
 
 [Discarded publication times](output.tables/publication-time-discarded.csv)
 
-
-```
-## Error in hist.default(df$publication_year, main = "Document frequencies over time"): 'x' must be numeric
-```
+![plot of chunk publication_time](figure/publication_time-1.png)
 
 ## Publication places
 
@@ -246,11 +109,6 @@ We also have corporate info available ?
 
 
 Top-50 uniquely identified authors and number of documents for each (duplicate docs not checked yet).
-
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
-```
 
 ![plot of chunk authors](figure/authors-1.png)
 

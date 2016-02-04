@@ -2,7 +2,6 @@
 if (!nrow(df.orig) == nrow(df.preprocessed)) {"Should match df and df.orig!"}
 df.original <- df.orig[match(df.preprocessed$original_row, df.orig$original_row), ]
 
-
 print("Summarize accepted and discarded entries")
 for (varname in c("author", "corporate", "note_granter")) {
 

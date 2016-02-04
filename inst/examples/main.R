@@ -6,8 +6,8 @@ dir.create(output.folder)
 
 source("init.R")
 source("import2.R")    # Data preprocessing
-
-df <- df.preprocessed
+df <- NULL
 source("enrich.R")
+saveRDS(df.preprocessed, "df.Rds")
 source("summarize.R") # Summary tables
 source("knit_all.R")  # Summary md docs
