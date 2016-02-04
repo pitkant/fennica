@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2015-11-25"
+date: "2016-02-04"
 output: markdown_document
 ---
 
@@ -27,3 +27,5 @@ output: markdown_document
 ```
 ## Error in eval(expr, envir, enclos): object 'extra' not found
 ```
+
+![plot of chunk suvut](figure/suvut-1.png)

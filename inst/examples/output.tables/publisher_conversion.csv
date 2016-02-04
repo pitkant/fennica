@@ -467,7 +467,7 @@ Olán	olán	13
 Länsisuomalais-osakunta	länsisuomalais osakunta	13
 Karjalan kirjakauppa- ja kustannusliike	karjalan kirjakauppa kustannusliike	13
 Terveydenhoitoyhdistys	terveydenhoitoyhdistys	13
-tryckte i Frenckellska boktryckeriet	frenckellska boktryckeriet	13
+tryckte i Frenckellska boktryckeriet	i frenckellska boktryckeriet	13
 W. Söderström	w söderström	13
 G. A. Ekholm	ekholm	13
 B. E. Martin	b e martin	13
@@ -1468,6 +1468,7 @@ Finska mosskulturföreningen	finska mosskulturföreningen	4
 Weilin &  Göös	Weilin & Göös	4
 Sortavalan kp.	sortavalan kp	4
 Fr. ja P.	fr p	4
+Författaren	NA, NA	4
 [hos Londicers änka]	londicers änka	4
 [tryckt hos Georg Wilhelm Londicer]	georg wilhelm londicer	4
 tryckt hos J. C. Frenckell & son.	c frenckell son	4
@@ -1828,7 +1829,7 @@ hos J. C. Frenckell & son	c frenckell son	3
 impressa apud Reg. Acad. typ. J. C. Frenckell	apud reg acad typ c frenckell	3
 [Wasenius]	wasenius	3
 impressa apud Imp. Acad. typ. J. C. Frenckell	apud imp acad typ c frenckell	3
-tryckte i Frenckellska tryckeriet	frenckellska tryckeriet	3
+tryckte i Frenckellska tryckeriet	i frenckellska tryckeriet	3
 Macmillan & Co	macmillan co	3
 Samson & Wallin	samson wallin	3
 Västfinska afdelningen	västfinska afdelningen	3
@@ -2239,7 +2240,7 @@ prändätty direct. ja cuning. kirj. pränttäjäldä, Jacob Merckellildä	cunin
 tryckt hos Petter Jöransson Nyström	petter jöransson nyström	3
 tryckt hos Peter Jör. Nyström	peter jör nyström	3
 [J. L. Horrn]	l horrn	3
-trykt i Kongl. tryckeriet	kongl tryckeriet	3
+trykt i Kongl. tryckeriet	i kongl tryckeriet	3
 A. Zetterberg	zetterberg	3
 tryckt i Kongl. finska boktryckeriet, hos Johan A. Carlbohm	kongl finska boktryckeriet johan carlbohm	3
 tryckt uti Kongl. tryckeriet, hos directeuren Pet. Momma	kongl tryckeriet directeuren pet momma	3
@@ -2650,7 +2651,7 @@ Ruben	ruben	2
 Putnam	putnam	2
 Fisher Unwin	fisher unwin	2
 Lindfors	lindfors	2
-J. J. Kloströms boktryckeri	j kloströms boktryckeri	2
+J. J. Kloströms boktryckeri	kloströms boktryckeri	2
 Cowie	cowie	2
 William Heinemann	william heinemann	2
 Göteborgs Handels-Tidnings Aktiebolag	göteborgs handels tidnings aktiebolag	2
@@ -2917,7 +2918,7 @@ typis Frenckllianis [sic]	frenckllianis	2
 [Wiipurin kaupunki]	wiipurin kaupunki	2
 K. O. Fontell	k o fontell	2
 Martha-yhdistys	martha yhdistys	2
-Författaren	Author	2
+Författaren	Self-published (unknown author)	2
 [Pedagogiska föreningen]	pedagogiska föreningen	2
 A. Öhrnberg	öhrnberg	2
 Telén ja K.	telén k	2
@@ -2927,7 +2928,6 @@ Finlands dövstumförbund	finlands dövstumförbund	2
 Finska Sparbanksföreningen	finska sparbanksföreningen	2
 Sjukhemmet i Borgå	sjukhemmet i borgå	2
 Johann André	johann andré	2
-Författaren	5683	2
 O. Wennberg ja K.	o wennberg k	2
 Wennberg ja K.	wennberg k	2
 P. Nicolay	p nicolay	2
@@ -3006,7 +3006,7 @@ O. Lindström'in kirjakauppa	o lindström'in kirjakauppa	2
 Suomen kustannusyhdistys	suomen kustannusyhdistys	2
 [Finska konstföreningen]	finska konstföreningen	2
 Hagelstam'in kirjakauppa	hagelstam'in kirjakauppa	2
-Författaren	2548	2
+Författaren	Fabritius, E (1842-1899)	2
 Ej i bokh.	ej i bokh	2
 L. W. Partanen	l w partanen	2
 Totuuden ystävän toimitus	totuuden ystävän toimitus	2
@@ -3711,7 +3711,7 @@ typis Johan. Edman, direct. et Reg. Acad. typogr.	johan edman reg acad typogr	2
 typis J. Edman, direct. et Reg. Ac. typogr.	edman reg ac typogr	2
 excud. Joh. Kiaempe, R. Ac. typ.	joh kiaempe r ac typ	2
 impressit direct. & typogr. reg. magn. duc. Finland, Jacob Merckell	typogr reg magn duc finland jacob merckell	2
-trykte i Frenckelska boktryckeriet	frenckelska boktryckeriet	2
+trykte i Frenckelska boktryckeriet	i frenckelska boktryckeriet	2
 impressa apud viduam Reg. Acad. typ. J. C. Frenckell.	apud reg acad typ c frenckell	2
 apud Joh. Edman, Direct. et Reg. Acad. typogr.	apud joh edman reg acad typogr	2
 typis Joh. Billingsley	joh billingsley	2
@@ -5379,7 +5379,7 @@ tryckt uti Kongl. Ordens boktryckeriet	kongl ordens boktryckeriet	1
 Åbo sjömans- och inre mission	åbo sjömans inre mission	1
 Verdandi	verdandi	1
 Palmblad &c C.	palmblad c c	1
-Författaren	11480	1
+Författaren	Wartiainen, A	1
 excudebat Zeipel et Palmblad	zeipel palmblad	1
 excudebat Stenhammar et Palmblad	stenhammar palmblad	1
 excudebat Zeipel et Palmblad Reg. Acad. typographi	zeipel palmblad reg acad typographi	1
@@ -5600,7 +5600,7 @@ Fratelli Bracali	fratelli bracali	1
 Librairie Guillaumin et Cie	librairie guillaumin cie	1
 Costenoble	costenoble	1
 G. V. Edlund	v edlund	1
-Författaren	11141	1
+Författaren	Vasenius, V	1
 Finsk Militär Tidskrifts förlag	finsk militär tidskrifts förlag	1
 Sandström	sandström	1
 Aftonposten	aftonposten	1
@@ -5649,7 +5649,7 @@ Unggren.	unggren	1
 Petterson	petterson	1
 Hilda Montell	hilda montell	1
 Svensson	svensson	1
-Författaren	9905	1
+Författaren	Smirnoff, A	1
 Mercators tr.	mercators tr	1
 Wasenius :;Frenckell	wasenius frenckell	1
 Suomalaisen kirjallisuuden seura :;Edlund	suomalaisen kirjallisuuden seura edlund	1
@@ -6169,7 +6169,7 @@ prändätty Kuning:sesa suomalaisesa präntisä, direktörin Johan A. Carlbohmin
 [präntätty Kuning:sesa suomalaisesa präntisä, direktörin Johan A. Carlbohmin tykönä]	kuning sesa suomalaisesa präntisä direktörin johan carlbohmin tykönä	1
 prändätty Joh. C. Frenckellin tygönä	joh c frenckellin tygönä	1
 [J.C. Frenckell]	c frenckell	1
-tryct i Kongl. tryckeriet	kongl tryckeriet	1
+tryct i Kongl. tryckeriet	i kongl tryckeriet	1
 [C. F. Marquard]	c f marquard	1
 tryckt i Kongl. Tryckeriet	kongl tryckeriet	1
 Hoving	hoving	1
@@ -6253,7 +6253,7 @@ Svenska gillet i Finland	svenska gillet i finland	1
 [Pedagogiska fören. i Finland]	pedagogiska fören i finland	1
 Borgå Museiföreningen	borgå museiföreningen	1
 Skandinaviska tandläkare föreningen	skandinaviska tandläkare föreningen	1
-Författaren	7621	1
+Författaren	Nordman, E A	1
 Söderström & Co	söderström co	1
 Finlands allmänna läkareförbund	finlands allmänna läkareförbund	1
 Ålands nykterhetsförbund	ålands nykterhetsförbund	1
@@ -6270,14 +6270,14 @@ Suomen terveydenhoito-yhdistys	suomen terveydenhoito yhdistys	1
 Utgifvaren :;Söderström, distr.	utgifvaren söderström distr	1
 Pyhimmän  hallitsevainen synoodi	pyhimmän hallitsevainen synoodi	1
 Eget förlag :;Söderström, distr.	eget förlag söderström distr	1
-Författaren	7451	1
+Författaren	Neovius, A	1
 Helin ja K.	helin k	1
 [Fredrikshamns stads svenska flickskola]	fredrikshamns stads svenska flickskola	1
 [Nikolaistads folkbibliotek]	nikolaistads folkbibliotek	1
-Författaren	7500	1
+Författaren	Nicolson, W	1
 Finska kreditgifvareföreningen	finska kreditgifvareföreningen	1
 Finska kreditsgifvareföreningen	finska kreditsgifvareföreningen	1
-Författaren	7458	1
+Författaren	Neovius, L (1850-1916)	1
 Lindebergin kirjakauppa	lindebergin kirjakauppa	1
 Waasan kp.-osakeyhtiö	waasan kp osakeyhtiö	1
 Finlands foxterrierklubben	finlands foxterrierklubben	1
@@ -6307,7 +6307,7 @@ Glouberg ja K.	glouberg k	1
 [Finska forstföreningen]	finska forstföreningen	1
 Styrelsen för Åbo stads historiska museum	styrelsen för åbo stads historiska museum	1
 Föreningen för Österbottens Historiska Museum	föreningen för österbottens historiska museum	1
-Författaren	7212	1
+Författaren	Modeen, H	1
 [Kejserliga senaten, justeringskommissionen]	kejserliga senaten justeringskommissionen	1
 Ekenäs missionsbokhandeln	ekenäs missionsbokhandeln	1
 Wantzel Hagelstam	wantzel hagelstam	1
@@ -6326,8 +6326,8 @@ Aura-lehden osakeyhtiö	aura lehden osakeyhtiö	1
 G. W. Edlundin kustannuksella	w edlundin kustannuksella	1
 F. W. Lönnbeck	f w lönnbeck	1
 [Söndagskolebladet]	söndagskolebladet	1
-Författaren	6589	1
-Författaren	6560	1
+Författaren	Lönnbeck, W	1
+Författaren	Löfström, T	1
 Kansakirjasto	kansakirjasto	1
 [Finsk farmaceutisk tidskrift]	finsk farmaceutisk tidskrift	1
 Åbo tidningin kp.	åbo tidningin kp	1
@@ -6343,11 +6343,10 @@ Kustannus ja kirjapaino-osakeyhtiö Sampo	kustannus kirjapaino osakeyhtiö sampo
 (A. Lilius)	lilius	1
 A. Kaustell	kaustell	1
 Raumo boktryckeri-aktiebolag	raumo boktryckeri aktiebolag	1
-Författaren	6621	1
 [Privata reallyceum i Fredrikshamn]	privata reallyceum i fredrikshamn	1
-Författaren	6579	1
-Författaren	6450	1
-Författaren	6435	1
+Författaren	Londen, O	1
+Författaren	Lindroos, K	1
+Författaren	Lindman, V (1861-1939)	1
 G. Svahn	svahn	1
 [C. Delén]	c delén	1
 de l'imprimerie de F. Drechsler	de l'imprimerie de f drechsler	1
@@ -6412,8 +6411,8 @@ in officina typographica Societatis Biblicae	officina typographica societatis bi
 typis Frenckelianis	frenckelianis	1
 ex officina Joh. Ch. Frenckell	ex officina joh ch frenckell	1
 G. A. Finne	finne	1
-Författaren	6422	1
-Författaren	6388	1
+Författaren	Lindholm, A J	1
+Författaren	Lindén, G	1
 Samson & Wallin, distr.	samson wallin distr	1
 [Svenska folkskolans vänners]	svenska folkskolans vänners	1
 Utgifvarne :;Waseniuska bokhandeln, distr.	utgifvarne waseniuska bokhandeln distr	1
@@ -6439,7 +6438,7 @@ Uudenkaupungin kp.-osakeyhtiö	uudenkaupungin kp osakeyhtiö	1
 Fredrikshamns folkbibliotek	fredrikshamns folkbibliotek	1
 Lindstedts antiqv. bokh.	lindstedts antiqv bokh	1
 Björneborgs folkbibliotek	björneborgs folkbibliotek	1
-Författaren	6178	1
+Författaren	Lemström, S (1838-1904)	1
 [Kronoborgs landtbruksinstitut]	kronoborgs landtbruksinstitut	1
 Wiborgs stad	wiborgs stad	1
 Handels- och fabriksföreningen i Wiborg	handels fabriksföreningen i wiborg	1
@@ -6461,12 +6460,12 @@ F. W. Nieminen	f w nieminen	1
 [Société de littérature suédois de Finlande]	société de littérature suédois de finlande	1
 Ev.-Luth. söndagsskolföreningen i Finland	ev luth söndagsskolföreningen i finland	1
 Arbetets vänner	arbetets vänner	1
-Författaren	6045	1
+Författaren	Laurén, W	1
 K. H. - J. F.	k h f	1
 M. Lankinen, jakaja	m lankinen jakaja	1
 Wentzel Hagelstam ja Uno Wasastjerna	wentzel hagelstam uno wasastjerna	1
 Jantusen paperikauppa, jakaja	jantusen paperikauppa jakaja	1
-Författaren	5844	1
+Författaren	Lagerblad, E (1845-1928)	1
 Åbo avdelning	åbo avdelning	1
 Uusi kp.-osakeyhtiö	uusi kp osakeyhtiö	1
 Nagu ungdomsförening	nagu ungdomsförening	1
@@ -6483,9 +6482,9 @@ P. Warén	p warén	1
 Teosofiska samfundet Finland	teosofiska samfundet finland	1
 Maria sjukhus i Helsingfors	maria sjukhus i helsingfors	1
 Kommunala Sjukhuset i Åbo	kommunala sjukhuset i åbo	1
-Författaren	5759	1
+Författaren	Kurtén, L	1
 [Helsingfors stads Epidemisjukhus]	helsingfors stads epidemisjukhus	1
-Författaren	5758	1
+Författaren	Kurtén, K	1
 Rauman kirjap.-osakeyhtiö	rauman kirjap osakeyhtiö	1
 Schlüterin kirjakauppa	schlüterin kirjakauppa	1
 Helsingin palvelijatar-yhdistys	helsingin palvelijatar yhdistys	1
@@ -6529,11 +6528,11 @@ Mikkelin sanomain kirjapaino	mikkelin sanomain kirjapaino	1
 Regnér	regnér	1
 Suomen maalarien liitto	suomen maalarien liitto	1
 Ulosantaja	ulosantaja	1
-Författaren	5504	1
+Författaren	Kolster, R	1
 [Savo-Karjalainen ylioppilasosakunta]	savo karjalainen ylioppilasosakunta	1
-[Författaren]	5509	1
+[Författaren]	Komppa, G	1
 Kotkan suomalainen sanomalehti-osakeyhtiö	kotkan suomalainen sanomalehti osakeyhtiö	1
-Författaren	5436	1
+Författaren	Klockars, J (1867-1932)	1
 V. M. von Born	v m von born	1
 Wiborgska afdelningen	wiborgska afdelningen	1
 Suomen Kansallisteatteri	suomen kansallisteatteri	1
@@ -6582,9 +6581,9 @@ Finska Tullpersonalföreningen	finska tullpersonalföreningen	1
 Jakob	jakob	1
 K. E: Holm	k e holm	1
 Finska Skeppsbefälsförbundet	finska skeppsbefälsförbundet	1
-Författaren	4881	1
+Författaren	Johansson, E (1867-1944)	1
 Finska förare- och eldareföreningen	finska förare eldareföreningen	1
-Författaren	4796	1
+Författaren	Jansson, E	1
 Finlands svenska ungdomsförbund	finlands svenska ungdomsförbund	1
 [Författarens förlag]	författarens förlag	1
 Metodist-episkopalkyrkan i Finland	metodist episkopalkyrkan i finland	1
@@ -6598,11 +6597,11 @@ Uno v. Knorringin lähetyslaitos	uno v knorringin lähetyslaitos	1
 Karl Hurtig	karl hurtig	1
 K. Lönnqvist	k lönnqvist	1
 Söderhjelm & Thesleff	söderhjelm thesleff	1
-[Författaren]	4435	1
+[Författaren]	Hougberg, E	1
 Suomen maamittariyhdistys	suomen maamittariyhdistys	1
 [Mustiala landtbruks- och mäjeriinstitut]	mustiala landtbruks mäjeriinstitut	1
-Författaren	4337	1
-[Författaren]	4337	1
+Författaren	Holmberg, M	1
+[Författaren]	Holmberg, M	1
 Aktiebolaget Finlandia	aktiebolaget finlandia	1
 FKK	fkk	1
 Suomen Kirkon sisälähetysseura	suomen kirkon sisälähetysseura	1
@@ -6654,12 +6653,12 @@ Matti Mikkonen	matti mikkonen	1
 C. H. Hirschberg	c h hirschberg	1
 K. Rantakari	k rantakari	1
 Bäckman'in kirjapaino	bäckman'in kirjapaino	1
-FÖrfattaren	3594	1
-Författaren	3591	1
+FÖrfattaren	Hagfors, K J	1
+Författaren	Hagfors, E	1
 F. O. Lampola	f o lampola	1
 [Geografisk föreningen]	geografisk föreningen	1
-Författaren	3929	1
-[författaren]	3929	1
+Författaren	Heikel, V (1842-1927)	1
+[författaren]	Heikel, V (1842-1927)	1
 Waseniuska bokh., distr.	waseniuska bokh distr	1
 Unionen :;Söderström, distr.	unionen söderström distr	1
 [Wasa evangeliska sällskap]	wasa evangeliska sällskap	1
@@ -6746,9 +6745,8 @@ Finska Sågvärksägarnes landtbruksdirektion	finska sågvärksägarnes landtbru
 [Wickström, distr.]	wickström distr	1
 Borgå missionsbokhandel	borgå missionsbokhandel	1
 T. F. R.	f r	1
-Författaren	2956	1
+Författaren	Frosterus, B	1
 'Vähäväkisten osuusliike'	'vähäväkisten osuusliike'	1
-Författaren	2196	1
 KS. kirjapaino	ks kirjapaino	1
 Kristliga föreningen av unga kvinnor i Sörnäs	kristliga föreningen av unga kvinnor i sörnäs	1
 Työväen Sanomalehti-osakeyhtiö	työväen sanomalehti osakeyhtiö	1
@@ -6848,7 +6846,7 @@ Työmiehen kustannus	työmiehen kustannus	1
 W. luhterilais-evank. nuorisoyhdistyksen lähetti J. T.	w luhterilais evank nuorisoyhdistyksen lähetti t	1
 [s.n.],;Matti Vuolukka & kumpp.	n matti vuolukka kumpp	1
 Paul Dettman	paul dettman	1
-Författaren	1783	1
+Författaren	Collan, V	1
 Fr. Bagge	fr bagge	1
 Jul. Gjellerup	jul gjellerup	1
 [Åbo teater]	åbo teater	1
@@ -7077,7 +7075,7 @@ I. Lindblad	lindblad	1
 P. Nikolay	p nikolay	1
 [Hästafvelsföreningen Nylands Hippos]	hästafvelsföreningen nylands hippos	1
 Georg Bondi	georg bondi	1
-Författaren	10912	1
+Författaren	Trygg, A	1
 J. Oksanen	oksanen	1
 R. Friese	r friese	1
 [Pohjois-Karjalan maanviljelysseura]	pohjois karjalan maanviljelysseura	1
@@ -7106,7 +7104,7 @@ Västra Nylands folkhögskola	västra nylands folkhögskola	1
 Osuuskunta Oma Apu	osuuskunta oma apu	1
 Sylvia-yhdistys	sylvia yhdistys	1
 Industriskolan i Åbo	industriskolan i åbo	1
-Författaren	11637	1
+Författaren	Westlin, F R	1
 Helsingin kustannus-oy	helsingin kustannus oy	1
 Lindstedts antikvar.	lindstedts antikvar	1
 Suomen nahanjalostustyöntekiäin liitto	suomen nahanjalostustyöntekiäin liitto	1
@@ -10481,7 +10479,7 @@ prändätty Londicerildä	londicerildä	1
 tryckt af Joh. Kiämpe kongl. Acad. boktr. den 27. Novemb.	joh kiämpe kongl acad boktr den novemb	1
 [Franz Philip Paulssen?]	franz philip paulssen	1
 udi det kongelige wäysenhuses bogtrykkerie, og paa dets forlag, trykt af Gerhard Giese Salikath	udi det kongelige wäysenhuses bogtrykkerie og paa dets forlag gerhard giese salikath	1
-printed for the author	10094	1
+printed for the author	Ståhlberg, G G	1
 uti historiographi regni tryckerii på des bekostnad tryckt af Hartwig Gercken	historiographi regni tryckerii des bekostnad hartwig gercken	1
 chez Pierre Brunel sur le Dam	chez pierre brunel sur le dam	1
 tryckt hos Johan Laur. Horrn, kongl. consist. och gymn. boktr.	johan laur horrn kongl consist gymn boktr	1
@@ -10538,7 +10536,7 @@ Acad. typogr.	acad typogr	1
 hos Ioh[an] Wall	iohan wall	1
 [Thomas von Wierings Erben]	thomas von wierings erben	1
 [Th. Wierings Erben]	th wierings erben	1
-efter anmodan tryckt i Frenckellska boktryckeriet	efter anmodan i frenckellska boktryckeriet	1
+efter anmodan tryckt i Frenckellska boktryckeriet	efter anmodan frenckellska boktryckeriet	1
 tryckt hos Henr. Fougt, riddare af Kongl. Wasa Orden och kongl. boktryckare	henr fougt riddare kongl wasa orden kongl boktryckare	1
 tr. hos H. Fougt, r. af K. W. O. och k. boktryckare	tr h fougt r k w o k boktryckare	1
 uti Frenckellska boktryckeriet	frenckellska boktryckeriet	1
@@ -11551,12 +11549,12 @@ Excusus apud Johannem Laurentii Wallium, Regiae Univ. ibid. typographum	apud joh
 exc. Johannes L. Wallius, A. t.	johannes l wallius t	1
 excusum apud Joh. L. Wallium, A. t.	apud joh l wallium t	1
 tryckt af Henrich Keyser, kongl. bokt.	henrich keyser kongl bokt	1
-tryckt aff I. G. Eberdt	eberdt	1
+tryckt aff I. G. Eberdt	i eberdt	1
 [Nils Wankijff]	nils wankijff	1
 literis Johannis Wilckii	literis johannis wilckii	1
 tryckt af Iohan Wald, Academiae booktr.	iohan wald academiae booktr	1
 Iohan Winter, cuning. booktr.	iohan winter cuning booktr	1
-aff I. Georg Eberdt	georg eberdt	1
+aff I. Georg Eberdt	i georg eberdt	1
 af Iohan Wald, Acad. booktryckiare	iohan wald acad booktryckiare	1
 af Iohan Wald, academ. booktr.	iohan wald academ booktr	1
 excusae â Johanne Waldio, Reg. Univ. Abo. typogr.	â johanne waldio reg univ abo typogr	1
@@ -12038,10 +12036,10 @@ tryckt i directeuren Joh. Henr. Werners tryckerij	directeuren joh henr werners t
 tryckt hos Joh. Laur. Horrn. Kongl. ant archiv. boktr.	joh laur horrn kongl ant archiv boktr	1
 tryckt hos Joh. Laur. Horrn, Kongl. antiqui archiv. boktryckare	joh laur horrn kongl antiqui archiv boktryckare	1
 på kammereraren I. S. Ekmansons förlag, och säljes i dess bokhandel på Norrbro	kammereraren i s ekmansons förlag säljes i dess bokhandel norrbro	1
-tryckt hos A. I. Nordström	nordström	1
+tryckt hos A. I. Nordström	i nordström	1
 [Kongliga tryckeriet]	kongliga tryckeriet	1
 tryckt hos Kongl. acad. boktr. Joh. C. Frenckells enka	kongl acad boktr joh c frenckells enka	1
-trykt i Frenckellska boktr.	frenckellska boktr	1
+trykt i Frenckellska boktr.	i frenckellska boktr	1
 präntättynä päälliseksi, Merckelildä mielisuosin	präntättynä päälliseksi merckelildä mielisuosin	1
 prändätty Cuningallisesa suomalaisesa prändisä Johan Arvid Carlbohmilda	cuningallisesa suomalaisesa prändisä johan arvid carlbohmilda	1
 prändätty directeurildä, ja cuning:da kirjan präntäjäldä, Jacob Merckellildä	directeurildä cuning da kirjan präntäjäldä jacob merckellildä	1
@@ -12614,7 +12612,7 @@ tryckt i magister Johan Christofer Frenckells boktryckerie	magister johan christ
 tryckt af Kongl. acad. boktr. i Åbo, Andr. Biörkman	kongl acad boktr i åbo andr biörkman	1
 gedruckt bey Johann Albrecht Barmeier	bey johann albrecht barmeier	1
 tryckt i Frenckellska tryckeriet, för auctors räkning	frenckellska tryckeriet för auctors räkning	1
-Tryckt i Åbo. Anyo tryckt i Stockholm, hos Anders Zetterberg	åbo anyo i stockholm anders zetterberg	1
+Tryckt i Åbo. Anyo tryckt i Stockholm, hos Anders Zetterberg	åbo anyo stockholm anders zetterberg	1
 tryckt hos Kumblins enka	kumblins enka	1
 tryckt hos Henr. Fougt	henr fougt	1
 tryckt hos direct. och Kongl. boktr. i stor förstendömet Finland, Jacob Merckell	kongl boktr i stor förstendömet finland jacob merckell	1
@@ -12737,7 +12735,7 @@ tryckt uti Joh. G. Langes boktryckeri	joh langes boktryckeri	1
 tryckt hos Johan Edman, Kongl. Acad. boktryckare	johan edman kongl acad boktryckare	1
 uplagt på direct Lars Salvii förlag	uplagt lars salvii förlag	1
 tryckt på Lars Salvii egen kostnad	lars salvii kostnad	1
-[tryckte i Kongl. finska boktryckeriet, hos Johan A. Carlbohm]	kongl finska boktryckeriet johan carlbohm	1
+[tryckte i Kongl. finska boktryckeriet, hos Johan A. Carlbohm]	i kongl finska boktryckeriet johan carlbohm	1
 tryckt hos directeuren Jacob Merckell	directeuren jacob merckell	1
 tryckt hos sal. Biörckegrens änka, år	sal biörckegrens änka år	1
 tryckt hos Joh. Christ. Frenckell, K. Acad. boktr.	joh christ frenckell k acad boktr	1
@@ -12936,7 +12934,7 @@ prändätty P. A. Brodinildä	p brodinildä	1
 prändätty Lars Kumlinilda	lars kumlinilda	1
 [Merckellin leski?]	merckellin leski	1
 tryckte hos Johan Christ. Frenckell	johan christ frenckell	1
-tryck i Frenckellska boktryckeriet	frenckellska boktryckeriet	1
+tryck i Frenckellska boktryckeriet	i frenckellska boktryckeriet	1
 prändätty Kuningallisen acad. kirjapräntäjän Johan Christopher Frenckellin lesken tykönä	kuningallisen acad kirjapräntäjän johan christopher frenckellin lesken tykönä	1
 tryckt hos Kgl. Acad. boktr. J. C. Frenckells enka, för auctorns räkning	kgl acad boktr c frenckells enka för auctorns räkning	1
 apud Conradum Wishoff	apud conradum wishoff	1
@@ -12999,7 +12997,7 @@ prändätty Kuningallisen acad. kirjan pränttäjän, J. C. Frenckellin lesken t
 prändätty Kuningallisesa suomalaisesa prändisä, Joh. A. Carlbohmin omalla kulutuxella	kuningallisesa suomalaisesa prändisä joh carlbohmin omalla kulutuxella	1
 prändätty Kuning:sen acad. kirjanpräntäjän J. C. Frenckellin lesken tykönä	kuning sen acad kirjanpräntäjän c frenckellin lesken tykönä	1
 tryckt i Kongl. tryckeriet hos Henr. Fougt, Stora Nygatan, huset n:o 104	kongl tryckeriet henr fougt stora nygatan huset n o	1
-[J. J. Köhlerin leski]	j köhlerin leski	1
+[J. J. Köhlerin leski]	köhlerin leski	1
 prändätty Cuningallisen academian präntisä	cuningallisen academian präntisä	1
 prändätty Johan Kiaempildä Kuningalisen acad. kirjan präntäjäldä	johan kiaempildä kuningalisen acad kirjan präntäjäldä	1
 å nyo uplagde hos Georg Wilhelm Londicer, Kongl. privil. boktryckare	å nyo uplagde georg wilhelm londicer kongl privil boktryckare	1

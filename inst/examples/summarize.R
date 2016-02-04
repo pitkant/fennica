@@ -3,8 +3,10 @@ if (!nrow(df.orig) == nrow(df)) {"Should match df and df.orig!"}
 df.new <- df
 df.original <- df.orig[match(df.new$original_row, df.orig$original_row), ]
 
+
+
 print("Summarize accepted and discarded entries")
-for (varname in c("author", "corporate", "language")) {
+for (varname in c("author", "corporate", "note_granter")) {
 
   # Accepted fields
   x <- as.character(df[[varname]])
@@ -22,7 +24,9 @@ for (varname in c("author", "corporate", "language")) {
 print("Conversion summaries")
 originals <- c(publisher = "publisher",
 	       pagecount = "physical_extent",
-	       publication_place = "publication_place"
+	       publication_place = "publication_place",
+	       country = "publication_place",
+	       publication_year = "publication_date"
 	       )
 for (nam in names(originals)) {
   o <- as.character(df.original[[originals[[nam]]]])
@@ -64,7 +68,20 @@ tmp <- write_xtable(cbind(o1[inds], o2[inds]),
 # Self published: summary of the final self-publisher names
 tmp <- write_xtable(df[inds, c("publisher")], paste(output.folder, "self_published_accepted.csv", sep = ""))
 
-
 # Authors with missing life years
 tab <- df %>% filter(!is.na(author_name) & (is.na(author_birth) | is.na(author_death))) %>% select(author_name, author_birth, author_death)
 tmp <- write_xtable(tab, file = paste(output.folder, "authors_missing_lifeyears.csv", sep = ""))
+
+# Undefined language
+tmp <- write_xtable(as.character(df.original$language[df$language.undetermined]), filename = "output.tables/language_unidentified.csv")
+
+# No country mapping
+# tmp <- write_xtable(as.character(df$publication_place[is.na(df$country)]), filename = "output.tables/publication_place_missingcountry.csv")
+
+# TODO conversion tables can be automatized
+tab <- cbind(original = df.original$physical_extent, df[, c("pagecount", "volnumber", "volcount")])
+tmp <- write_xtable(tab, filename = "output.tables/conversions_physical_extent.csv")
+
+tab <- cbind(original = df.original$physical_dimension, df[, c("gatherings.original", "width.original", "height.original", "obl.original", "gatherings", "width", "height", "obl", "area")])
+tmp <- write_xtable(tab, filename = "output.tables/conversions_physical_dimension.csv")
+

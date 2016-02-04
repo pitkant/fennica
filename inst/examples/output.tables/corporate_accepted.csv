@@ -39,8 +39,8 @@ Johan Höjers encka (kirjapaino, Uppsala, 1738-1751)	59
 Suomi (suuriruhtinaskunta).	54
 Fougt, Henrik I (kirjapaino, Tukholma, 1771-1782)	53
 Eberdt, Johan Georg (kirjapaino, Tukholma, 1672-1691)	50
-Wankijffin leski (kirjapaino, Tukholma, 1690-1705)	49
 Wankijff, Nils (kirjapaino, Tukholma, 1669-1690)	49
+Wankijffin leski (kirjapaino, Tukholma, 1690-1705)	49
 Peter Hanssons enckia (kirjapaino, Turku, 1679)	44
 S.n. (tuntematon kirjapaino, Tukholma)	40
 Reusner, Christopher (kirjapaino, Tukholma, 1610-1634)	39
@@ -87,8 +87,8 @@ Turun kaupungin historiallinen museo.	13
 Iversen, Martin Christoph (kirjapaino, Pietari, 1801-n. 1831)	13
 Wennberg och compagnie (kirjapaino, Tukholma, 1779-1781)	12
 Stenhammar och Palmblad (kirjapaino, Uppsala, 1810-1815)	12
-Savo-karjalainen osakunta(Helsingin yliopisto)	12
 S.n. (tuntematon kirjapaino, Pietari)	12
+Savo-karjalainen osakunta(Helsingin yliopisto)	12
 Pohjalainen osakunta(Helsingin yliopisto)	12
 Pauli, Johannes (kirjapaino, Uppsala, 1650-1661)	12
 Maanviljelyshallitus.	12
@@ -348,8 +348,8 @@ Svenska teaterföreningen i Finland.	2
 Svenska reallyceum i Helsingfors.	2
 Svenska kvinnoförbundet.	2
 Suomen vaatturityönantajain liitto.	2
-Suomen tiedeseura.	2
 Suomen tie- ja vesirakennustyöläisten liitto.	2
+Suomen tiedeseura.	2
 Suomen terveydenhoitoyhdistys.	2
 Suomen teosofinen seura.	2
 Suomen teollisuuslehti.	2
@@ -396,6 +396,11 @@ Sosialidemokraattinen naisliitto.	2
 Sortavalan evankelinen seura.;Suomen kirkon sisälähetysseura.	2
 Socialdemokratiska Partiet.	2
 Sociala Centralbyrån.	2
+S.n. (tuntematon kirjapaino, Wittenberg)	2
+S.n. (tuntematon kirjapaino, Strasbourg)	2
+S.n. (tuntematon kirjapaino, Pariisi)	2
+S.n. (tuntematon kirjapaino, Lontoo?)	2
+S.n. (tuntematon kirjapaino, Frankfurt tai Leipzig)	2
 Sjukhemmet i Borgå.	2
 Simon, Adolph (kirjapaino, Tallinna, 1654-1675)	2
 Siipikarjanhoidon ystävät.;Suomen siipikarjan- ja mehiläishoitoyhdistys.	2
@@ -408,11 +413,6 @@ Saksa.	2
 Sahl. Billingsleys tryckeri (kirjapaino, Tukholma, 1695-1700)	2
 Säätyjen kirjasto.	2
 Säästöpankkien tarkastaja.	2
-S.n. (tuntematon kirjapaino, Wittenberg)	2
-S.n. (tuntematon kirjapaino, Strasbourg)	2
-S.n. (tuntematon kirjapaino, Pariisi)	2
-S.n. (tuntematon kirjapaino, Lontoo?)	2
-S.n. (tuntematon kirjapaino, Frankfurt tai Leipzig)	2
 Ruotsi.;Frenckell, Johan Christopher I (kirjapaino, Turku, 1761-1779)	2
 Rothe, Johann Gottlieb (kirjapaino, Sorau, n. 1719-n. 1740)	2
 Ravesteyn, Johannes van I (kirjapaino, Amsterdam, 1646-1675)	2
@@ -467,8 +467,8 @@ Kommunalförvaltningen i Sibbo.	2
 Köhler, Jacob Johann (kirjapaino, Tallinna, 1737-1757)	2
 Kiskon kunta.	2
 Kirjaltajaliitto.	2
-Keyser, Henric III (kirjapaino, Tukholma, 1701-1707)	2
 Keyser, Henric II (kirjapaino, Uppsala, 1685-1695);Keyser, Henric III (kirjapaino, Uppsala, 1695-1701)	2
+Keyser, Henric III (kirjapaino, Tukholma, 1701-1707)	2
 Kemink, Dirk (kirjapaino, Utrecht, 1772-1798)	2
 Keisarillinen Suomen talousseura.	2
 Karisto (kustannusosakeyhtiö)	2
@@ -486,8 +486,8 @@ Henric Keysers änka (kirjapaino, Tukholma, 1663)	2
 Henckel, Martin (kirjapaino, Wittenberg, 1607-1613)	2
 Helsingin musiikkiyhdistys.	2
 Helsingin kaupungin kaasulaitos.	2
-Helsingfors' lycei konvent.	2
 Helsingfors trägårdsgille.	2
+Helsingfors' lycei konvent.	2
 Helsingfors frimärkssamlare förening.	2
 Hangon kaupunki.	2
 Hampe, Johann Friedrich (kirjapaino, Kassel, 1746-1753)	2
@@ -596,9 +596,9 @@ Vaasan kansallisseura.	1
 Vaasan itäisen vaalipiirin sosialidemokraattinen piiri.	1
 Uusmaalainen ylioppilasyhdistys.	1
 Uurtaja.	1
-Uudenmaanläänin sosialidemokraattinen vaalipiiri.	1
 Uudenmaan siipikarja- ja mehiläishoitoyhdistys.	1
 Uudenmaan läänin vaalipiirin sosialidemokraattinen piirijärjestö.	1
+Uudenmaanläänin sosialidemokraattinen vaalipiiri.	1
 Uudenmaan hevosjalostusliitto.	1
 Uudenmaan hevosjalostajainliitto.	1
 Uudenmaan hevosjalostajain liitto.	1
@@ -659,9 +659,10 @@ Tampereen kaupunkilähetys.	1
 Tampereen kauppaopisto.	1
 Tammisaari.	1
 Sylviayhdistys.	1
-Sylviaföreningen.	1
 Sylvia-yhdistys.	1
+Sylviaföreningen.	1
 Sydvestra Österbottens nykterhetsförbund.	1
+S. V. R. konepajojen työväenyhdistys.	1
 SVR Konepajoen työväenyhdistys.	1
 Svenstalande baptistförsamlingarna i Finland.	1
 Svenska studentföreningen.	1
@@ -689,7 +690,6 @@ Svenska folkpartiet i östra Helsingfors.	1
 Suur-Savon nuorisoseurojen keskusseura.	1
 Suur-Savon nuorisoseura.	1
 Suometar.	1
-Suomenkielisten teknikkojen seura.	1
 Suomen ylioppilaskunnan antikvaarilaitos.	1
 Suomen yleinen lääkäriliitto.	1
 Suomen voimistelunopettajaliitto.	1
@@ -774,6 +774,7 @@ Suomen kirkkohistoriallinen seura.	1
 Suomen kirjatyöntekijäin liitto.	1
 Suomen kirjanpainajayhdistys.	1
 Suomen kirjailijaliitto.;Otava, kustannusosakeyhtiö.	1
+Suomenkielisten teknikkojen seura.	1
 Suomen kettuterrieriyhdistys.	1
 Suomen kemistiseura.	1
 Suomen kelloseppäliitto.	1
@@ -783,8 +784,8 @@ Suomen kauppamatkustajayhdistys.	1
 Suomen kauppa-apulaisyhdistys.	1
 Suomen kaunokirjailijaliitto.	1
 Suomen kansallismuseo.	1
-Suomen kaakeli-, fajanssi- ja uunintekijäin liitto.	1
 Suomen kaakeli- ja uunintekijäin liitto.	1
+Suomen kaakeli-, fajanssi- ja uunintekijäin liitto.	1
 Suomen jalkinetyöntekijäin liitto.	1
 Suomen itsenäisyysyhdistys.	1
 Suomen huoneenhallitusseura.	1
@@ -799,12 +800,12 @@ Suomen asiain erityinen neuvottelukunta.;Venäjä.	1
 Suomen ammattijärjestö(1907-1929)	1
 Suomen aktiivinen vastustuspuolue.	1
 Suomen ajuriyhdistys.	1
+Suomalais-ugrilainen seura.	1
 Suomalaisten puolueiden vaaliliitto.	1
 Suomalaisten merimiesten ulkomaan satamissa sielunhoitoyhtiö.	1
+Suomalais-Luteerilainen kustannusliike.	1
 Suomalaisen puolueen kanslia.	1
 Suomalaisen kirjallisuuden seura.	1
-Suomalais-ugrilainen seura.	1
-Suomalais-Luteerilainen kustannusliike.	1
 Suomalainen raittius-ystävien yhdistys.	1
 Suomalainen normaalilysee.	1
 Suomalainen naisliitto.	1
@@ -817,6 +818,7 @@ Studentfylkingen.	1
 Studenternas Kristliga Förening.	1
 Stuchs, Lorenz (kirjapaino, Halberstadt, 1519-1523)	1
 Struck, Hieronymus Johann (kirjapaino, Greifswald, 1739-1759)	1
+S:t Katarina sv. församlings kyrkoskola i Petrograd.	1
 Steffenhagen, Johann Friedrich ja poika	1
 Starck, Daniel Benjamin (kirjapaino, Greifswald, 1682-1730)	1
 Städel, Josias (kirjapaino, Strasbourg, 1652-1700)	1
@@ -825,11 +827,25 @@ Sosialidemokratinen eduskuntaryhmä.	1
 Sortavalan suomalainen seura.	1
 Sortavalan reaalilyseon toverikunta.	1
 Sortavalan eläinsuojelusyhdistys.	1
+S.O.N.R.	1
 Sokeain ystävät.	1
 Söderhjelm & Thesleff(yhtiö)	1
 Societas pro fauna et flora Fennica.;Sällskapet pro fauna et flora Fennica.	1
 Socialdemokratiska partikommissionen	1
+S.n. (tuntematon kirjapaino, Varsova?)	1
+S.n. (tuntematon kirjapaino, Stralsund)	1
+S.n. (tuntematon kirjapaino, Nizza)	1
+S.n. (tuntematon kirjapaino, Moskova)	1
+S.n. (tuntematon kirjapaino, Lyypekki)	1
+S.n. (tuntematon kirjapaino, Leipzig)	1
+S.n. (tuntematon kirjapaino, Königsberg)	1
+S.n. (tuntematon kirjapaino, Jena?)	1
+S.n. (tuntematon kirjapaino, Hampuri?)	1
+S.n. (tuntematon kirjapaino, Edinburgh)	1
+S.n. (tuntematon kirjapaino, Berliini)	1
+S. M. Y. Jyväskylän haaraosasto.	1
 Småbrukarskolan i Östra Nyland.	1
+S.l.	1
 Skandinaviska välgörenhetsföreningen i St. Petersburg.	1
 Sjukhemmet i Helsingfors.	1
 Simelius, Johan	1
@@ -852,34 +868,18 @@ Satakunnan nuorisoseurain liitto.	1
 Satakunnan museo.	1
 Sångföreningen i Ekenäs.	1
 Sampsa.	1
-Sampo, keskinäinen vakuutusyhtiö.	1
 Sampo-seura.	1
+Sampo, keskinäinen vakuutusyhtiö.	1
 Sampo Goal Company(Hanna (Wyo.))	1
-Sällskapet för nyttiga kunskapers spridande.	1
 Sällskap i Åbo.	1
+Sällskapet för nyttiga kunskapers spridande.	1
 Salicath, Gerhard Giese (kirjapaino, Kööpenhamina, 1765-1781)	1
 Salamandr.	1
 Salama, henkivakuutusosakeyhtiö.	1
 Sairaalalääkäriyhdistys.	1
-Sachse, Johann (kirjapaino, Braunsberg, 1589-1593)	1
 Sachs, Moritz (kirjapaino, Rostock, 1622-1629)	1
+Sachse, Johann (kirjapaino, Braunsberg, 1589-1593)	1
 Saalicath, Johann Matthias (kirjapaino, Hampuri, 1724-1740)	1
-S.O.N.R.	1
-S.n. (tuntematon kirjapaino, Varsova?)	1
-S.n. (tuntematon kirjapaino, Stralsund)	1
-S.n. (tuntematon kirjapaino, Nizza)	1
-S.n. (tuntematon kirjapaino, Moskova)	1
-S.n. (tuntematon kirjapaino, Lyypekki)	1
-S.n. (tuntematon kirjapaino, Leipzig)	1
-S.n. (tuntematon kirjapaino, Königsberg)	1
-S.n. (tuntematon kirjapaino, Jena?)	1
-S.n. (tuntematon kirjapaino, Hampuri?)	1
-S.n. (tuntematon kirjapaino, Edinburgh)	1
-S.n. (tuntematon kirjapaino, Berliini)	1
-S.l.	1
-S. V. R. konepajojen työväenyhdistys.	1
-S. M. Y. Jyväskylän haaraosasto.	1
-S:t Katarina sv. församlings kyrkoskola i Petrograd.	1
 Russkoe okrainnoe obŝestvo.	1
 Ruskealan opettajayhdistys.	1
 Ruotsi.;Kämpe, Johan (kirjapaino, Turku, 1729-1753)	1
@@ -895,10 +895,10 @@ Rhete, David (kirjapaino, Stettin, 1624-1638)	1
 Reusner, Christopher (kirjapaino, Tallinna, 1634-1637)	1
 Reusner, Christopher	1
 Realskolan i Helsingfors.	1
+Real- och elementarskolan i Lovisa.;Elementarskolan i Lovisa.	1
 Reallyceum i Uleåborg.	1
 Realläroverket i Mariehamn.	1
 Realläroverket för gossar och flickor i Uleåborg.	1
-Real- och elementarskolan i Lovisa.;Elementarskolan i Lovisa.	1
 Rauman yhteislyseo.	1
 Rauman rautatie.	1
 Ratamestari- ja esimiesyhdistys.	1
@@ -929,17 +929,18 @@ Pluchart, Alexander (kirjapaino, Pietari, n. 1806-1827)	1
 Pirkkalan kunta.	1
 Philibert, Claude (kirjapaino, Kööpenhamina, 1757-n. 1775)	1
 Pfotenhauer, Paul Günther	1
+[Peter Hansson]	1
 Perttelin kunta.	1
-Perälän lukuyhdistys.	1
 Perä-Pohjolan maamiesseura.	1
+Perälän lukuyhdistys.	1
 Pellervo-seura.;Suomen osuuskauppojen keskusosuuskunta.	1
 Pellavanviljelyskomitea.	1
 Pehr Ulrik Florins stiftelse.	1
 Pedagogiska hushållsskolan i Helsingfors.	1
+P. A. Norstedt & söner (yhtiö, Tukholma)	1
 Palvelijatarliitto.	1
 Palmblad, Sebell & co. (kirjapaino, Uppsala, 1834-1836)	1
 Padasjoen kunta.	1
-P. A. Norstedt & söner (yhtiö, Tukholma)	1
 Oulun seudun opettajayhdistys.	1
 Oulun raittiuspiirin piiritoimikunta.	1
 Oulun piirin hevosjalostusliitto.	1
@@ -948,9 +949,9 @@ Oulun Kristillinen työväenyhdistys.	1
 Osuusliike Elanto.	1
 Osuuskunta Visa.	1
 Osuuskunta Oma Apu.	1
+Osuuskunta 'Kristillinen työkansa'.	1
 Osuuskunta Kehitys.	1
 Osuuskunta Ararat.	1
-Osuuskunta 'Kristillinen työkansa'.	1
 Östra Nylands folkskollärarekår.	1
 Östra Nylands folkhögskola.	1
 Orisbergs mejeriskola.	1
@@ -1020,8 +1021,8 @@ Maatalousseurojen neuvojain liitto.	1
 Maatalouskoulujen opettajayhdistys.	1
 Maarian kunta.	1
 Maanviljelysvirkamiehet.	1
-Maanviljelyslyseo.	1
 Maanviljelys-taloudellinen koelaitos.	1
+Maanviljelyslyseo.	1
 Maanviljelys- ja talousseurain sihteerit.	1
 Maanviljelijäin yleinen liitto.	1
 Maakansa.	1
@@ -1049,6 +1050,7 @@ Lehmann, Zacharias Witwe (kirjapaino, Wittenberg, 1603-1606)	1
 Laurelia, Brita Christina (kirjapaino, Karlskrona, 1766-1769)	1
 Laulunopettajayhdistys.	1
 Laukaan kunta.	1
+La Societo 'La Polusstelo'.	1
 Läse-sällskapet i Helsingfors (1819-1829);Låne-biblioteket i Helsingfors (1821-n. 1838);Läse-sällskapet i Helsingfors (1832-n. 1846);Låne-biblioteket i Helsingfors (1829-n. 1838);Lånebiblioteket i Helsingfors (1847-1850);Lånebiblioteket i Helsingfors (1856-1890);Låne-biblioteket i Helsingfors (1858-n. 1862)	1
 Lars Kumblins enka (kirjapaino, Tukholma, 1775-1779)	1
 Läröverket för gossar och flickor i Helsingfors.	1
@@ -1057,22 +1059,22 @@ Lappeen maamiesseura.	1
 Lapin maatalousseura.	1
 Läntisen Viipurin läänin maanviljelysseura.	1
 Läntisen Viipurin läänin hevosjalostusyhdistysten liitto.	1
-Länsisuomalaiset ylioppilaat.	1
 Länsi-Suomen karjanmyynti-osuuskunta.	1
+Länsisuomalaiset ylioppilaat.	1
+Lån- och läse-bibliotheket i Åbo.;Läse- och låne-bibliotheket i Åbo.;Lånebibliotheket i Åbo.;Lånbibliotheket i Åbo.;Turun sivistysseura.	1
 Landtdagsbiblioteket.	1
 Lånbiblioteket i Brahestad.;Lånebiblioteket i Kristinestad.;Kuopion kaupungin kansankirjasto.;Läsebibliotheket i Nyslott.;Savonlinnan vapaaehtoinen palokunta.;Svenska lånebiblioteket i Nystad.;Folkbiblioteket i Nystad.;Rauman lainakirjasto.;Lånebiblioteket i S:t Michel.;Pietarin suomalainen Pyhän Marian seurakunta.;Lånebiblioteket i Uleåborg.;Uudenkaupungin suomalainen lainakirjasto.;Vaasan luku-kirjasto.;Stadsbiblioteket i Vasa.	1
-Lån- och läse-bibliotheket i Åbo.;Läse- och låne-bibliotheket i Åbo.;Lånebibliotheket i Åbo.;Lånbibliotheket i Åbo.;Turun sivistysseura.	1
 Laihian nuorisoseura.	1
 Lahden seudun nuorisoseurojen liitto.	1
 Lahden puutarhaseura.;Suomalaisten puutarhaseurojen keskusliitto.;Tampereen puutarhaseura.;Viipurin puutarhaseura.	1
 Lägre hantvärksskolan.	1
 Lägre handtverksskolan i Helsingfors.	1
 Lääkintöhallitus.	1
-La Societo 'La Polusstelo'.	1
 Kvinnosaksförbund i Finland.	1
 Kvevlaks hembygdsförening.	1
 Kutoma- ja paperiteollisuus.	1
 Kurkijoen kunta.	1
+Kuopio svenska samskola.	1
 Kuopion suomalaisen yhteiskoulun toverikunta.	1
 Kuopion sos.-dem. nuorisopiirijärjestö.	1
 Kuopion maanviljelysseura.	1
@@ -1082,7 +1084,6 @@ Kuopion läänin läntisen vaalipiirin maalaisliitto.	1
 Kuopion läänin itäisen vaalipiirin sosialidemokraattinen piirijärjestö.	1
 Kuopion läänin itäinen vaalipiiri.	1
 Kuopion kaupunki.	1
-Kuopio svenska samskola.	1
 Kuninkaallinen Turun akatemia.;Kämpe, Johan (kirjapaino, Turku, 1729-1753)	1
 Kungliga Finska Hushållningssällskapet,;Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814)	1
 Kumblin, Lars (kirjapaino, Tukholma, 1772-1775)	1
@@ -1116,6 +1117,7 @@ Kiøbenhavnske Selskab af Lærdoms og Videnskabers Elskere.;Salicath, Gerhard Gi
 Kints, Everard (kirjapaino, Liège, 1732-1762)	1
 Kimito kommun.	1
 Kieltolakikomitea.	1
+K. F. Hushållningssällskapet.	1
 Keskusmetsäseura Tapio.;Keskusmetsälautakunta Tapio.;Metsäkeskus Tapio.;Metsätalouden kehittämiskeskus Tapio.	1
 Keski-Suomen hevosjalostusyhdistysten liitto.	1
 Keski-Savon kansanopiston toveriliitto.	1
@@ -1145,7 +1147,6 @@ Kalevalaseura.	1
 Käkisalmen kaupunki.	1
 Kajaanin kihlakunnan maanviljelysseura.	1
 Kajaanin hevosjalostusliitto.	1
-K. F. Hushållningssällskapet.	1
 Jyväskylän seminaarin kristillinen yhdistys.	1
 Jyväskylän pitäjä.	1
 Jyväskylän lyseon toverikunta.	1
@@ -1161,14 +1162,14 @@ Johan Christopher Frenckellin leski (kirjapaino, Turku, 1779-1785);Frenckell, Jo
 Joensuun vapaaehtoinen palokunta.	1
 Joensuun lyseon toverikunta.	1
 Joensuun Kalevaiset.	1
+J. C. Frenckells bokhandel.;Frenckell & sons bokhandel (Turku);Frenckell & sons bokhandel (Helsinki);Hinrichs'schen Buchhandlung.	1
+J. C. Frenckell ja poika (kirjapaino, Turku, 1814-1856);Frenckell, Johan Christofer(II ja III	1
 Jauch, Samuel (kirjapaino, Lyypekki, 1608-1627)	1
 Janakkalan kunta.	1
 Jämsän kansanopisto.	1
 Jagtföreningen i Wasa län.	1
 Jäger, Jacob (kirjapaino, Greifswald, 1634-1656)	1
 Jacob Johann Köhlers Witwe (kirjapaino, Tallinna, 1757-1769)	1
-J. C. Frenckells bokhandel.;Frenckell & sons bokhandel (Turku);Frenckell & sons bokhandel (Helsinki);Hinrichs'schen Buchhandlung.	1
-J. C. Frenckell ja poika (kirjapaino, Turku, 1814-1856);Frenckell, Johan Christofer(II ja III	1
 Itsenäinen kieltolakiwalitsijayhdistys.	1
 Itä-Suomen karjanjalostusyhdistys.	1
 Itä-Suomen hevosjalostusyhdistysten liitto.	1
@@ -1194,6 +1195,7 @@ Högre svenska handelsläroverket i Helsingfors.	1
 Hjeltska bokhandeln.;Lilljan kirjakauppa.;G. W. Wilénin kirjainkustannustoimisto.	1
 Hjelt, Christian Ludvig (kirjapaino, Turku, 1824-1849);Keisarillinen Turun akatemia.	1
 Hindmarsh, Robert (kirjapaino, Lontoo, 1785-1835)	1
+H:fors Typografförening.	1
 Hevoskasvatusyhdistys Uudenmaan Hippos.	1
 Hevosjalostusliittojen edustajisto.	1
 Hertz, Johann Georg (kirjapaino, Erfurt, 1664-1694)	1
@@ -1202,6 +1204,7 @@ Henric Christopher Merckellin leski (kirjapaino, Tukholma tai Turku)	1
 Henkivakuutusosakeyhtiö Salama.	1
 Hengellinen totuusliitto.	1
 Hembygdsföreningen i Åbo.	1
+Helsing, Olof Olofsson (kirjapaino, Västerås, 1621-1630)	1
 Helsingin yliopiston ylioppilaskunta.	1
 Helsingin yliopiston vapaa-ajattelijayhdistys Prometheus.	1
 Helsingin yliopiston kirjasto (1919-2006)	1
@@ -1217,8 +1220,8 @@ Helsingin kirjanpainajain yhdistys.;Suomen kirjaltajaliitto.	1
 Helsingin kirjanpainajain yhdistys.	1
 Helsingin kaupunki.;Helsingin kaupunginvaltuusto.	1
 Helsingin kaupunginvaltuuston työväenasiain lautakunta.	1
-Helsingin kaupunginkirjasto.	1
 Helsingin kaupungin sähkölaitos.	1
+Helsingin kaupunginkirjasto.	1
 Helsingin kaupungin historiallinen museo.	1
 Helsingin kasvatusopillinen ruuanlaittokoulu.	1
 Helsingin käsityö- ja teollisuusyhdistys.	1
@@ -1231,7 +1234,6 @@ Helsingfors festbestyrelse för Finlands deltagande i Pariser-utställningen.	1
 Helsingfors botaniska bytesförening.	1
 Helsinge svenska ungdomsföreningars centralförbund.	1
 Helsinge kommun.	1
-Helsing, Olof Olofsson (kirjapaino, Västerås, 1621-1630)	1
 Heinscheidt, Anton (kirjapaino, Frankfurt am Main, 1704-1744)	1
 Heinäveden kunta.	1
 Hasselrot, Erik (kirjapaino, Nyköping, 1767-1779)	1
@@ -1255,16 +1257,16 @@ Hampel, Nicolaus (kirjapaino, Giessen, 1605-1625)	1
 Hammarin, Johan Petter (kirjapaino, Nyköping, 1786-1792)	1
 Haminan lehti.	1
 Haminan kaupunginkirjasto.	1
+Hämeen sanomat (sanomalehti)	1
 Hämeenlinnan vapaaehtoinen palokunta.	1
 Hämeenlinnan matkailijayhdistys.	1
 Hämeenläänin pohjoisen vaalipiirin sosialidemokratinen piiritoimikunta.	1
 Hämeenläänin pohjoisen vaalipiirin sosialidemokraattinen piirijärjestö.	1
 Hämeenläänin pohjoinen vaalipiiri.	1
 Hämeenläänin eteläisen vaalipiirin sosialidemokraattinen piirijärjestö.	1
-Hämeen sanomat (sanomalehti)	1
 Hämäläis-osakunta (Helsingin yliopisto)	1
 Hälsovårdsnämnden i Övermark.	1
-H:fors Typografförening.	1
+G. W. Edlund (kustannusyhtiö);Frenckell & sons bokhandel (Helsinki);Sederholm & co bokhandel.;Öhmanska bokhandeln (Helsinki);Waseniuska bokhandeln.	1
 Gröndahl, A. W.	1
 Greflinger, Friedrich Conrad (kirjapaino, Hampuri, 1670?-1717)	1
 Götzke, Georg (kirjapaino, Stettin, 1622-1663)	1
@@ -1275,17 +1277,16 @@ Gollner, Johann (kirjapaino, Jena, 1670-1715)	1
 Gleditsch, Johann Friedrich I (kirjapaino, Leipzig, 1681-1715)	1
 Gesellschaft für Erdkunde.	1
 Georg Wilhelm Londicer och Björckegrens änka (kirjapaino, Linköping, 1793-1794)	1
-G. W. Edlund (kustannusyhtiö);Frenckell & sons bokhandel (Helsinki);Sederholm & co bokhandel.;Öhmanska bokhandeln (Helsinki);Waseniuska bokhandeln.	1
 Frys, Couchman and Collier (kirjapaino, Lontoo)	1
 Fröken Forsmans svenska flickskola i Helsingfors.	1
 Freyschmidt, Kaspar (kirjapaino, Jena, 1645-1660)	1
-Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814);Kärleken til nästan.	1
-Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814);J. C. Frenckells bokhandel.	1
-Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814);J. C. Frenckell ja poika (kirjapaino, Turku, 1814-1856)	1
+Frenckell & sons bokhandel (Helsinki);Frenckell & sons bokhandel (Turku);Hinrichs'schen Buchhandlung.	1
 Frenckell, Johan Christopher I (kirjapaino, Turku, 1761-1779);Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814)	1
 Frenckell, Johan Christopher I (kirjapaino, Turku, 1761-1779);Carlbohm, Arvid (kirjapaino, Tukholma, 1763-1769)	1
 Frenckell, Johan Christopher I (kirjapaino, Turku, 1761-1779);Auroraseura.	1
-Frenckell & sons bokhandel (Helsinki);Frenckell & sons bokhandel (Turku);Hinrichs'schen Buchhandlung.	1
+Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814);Kärleken til nästan.	1
+Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814);J. C. Frenckells bokhandel.	1
+Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814);J. C. Frenckell ja poika (kirjapaino, Turku, 1814-1856)	1
 Fredrikshamns stads svenska samskola.	1
 Fredriksbergin työväenyhdistys.	1
 Frecnkell, Johan Christofer	1
@@ -1300,8 +1301,8 @@ Finska Sparbanksföreningens Delegation.	1
 Finska grundlagskomitén.	1
 Finska frälsningsarmén.	1
 Finska fotografiska magasinet.	1
-Finnish-American Mining(yhtiö)	1
 Finnish Evangelical Lutheran Church of America.;Suomi Synod.	1
+Finnish-American Mining(yhtiö)	1
 Finlands Svenska Ungdomsförbunds Expedition.	1
 Finlands svenska ungdomsförbund.	1
 Finlands svenska scoutbrigad.	1
@@ -1316,8 +1317,8 @@ Finlands allmänna läkareförbund.	1
 Fincelius, Hiob Wilhelm (kirjapaino, Wittenberg, 1621-1666)	1
 Filosofinen tiedekunta.	1
 Fiedler, Gotthold Ludvig (kirjapaino, Jena, n. 1795-1800)	1
-Ferber, Augustin II (kirjapaino, Rostock, 1617-1631)	1
 Ferber, Augustin I (kirjapaino, Rostock, 1575-1602)	1
+Ferber, Augustin II (kirjapaino, Rostock, 1617-1631)	1
 Farmasiankandidaattiklubi.	1
 Fackklubben för elektroteknik.	1
 Evankelis-lutherilainen nuorukaisyhdistys.	1
@@ -1392,8 +1393,8 @@ Baptistsamfundets svenska konferens.	1
 Baltic-South Rangen ev. lut. seurakunta.	1
 Balhorn, Johann II (kirjapaino, Lyypekki, 1575-1604)	1
 Asikkalan kunta.	1
-Arbetets vänner.	1
 Arbetets vänner (yhdistys)	1
+Arbetets vänner.	1
 Arbetare- och nykterhetsorgan för Södra Finland.	1
 Anund Olofssons änka (kirjapaino, Tukholma, 1610-1612)	1
 Angelniemen kunta.	1
@@ -1403,8 +1404,8 @@ Ammattikasvatuskomitea.	1
 Amerikan suomalaisen kirjallisuuden seura.	1
 Amerikan suomalainen sosialistijärjestö.	1
 Amerikan suomalainen evankelis-lutherilainen kansalliskirkkokunta.	1
-Åländska studentgillet.	1
 Ålands nykterhetsförbund.	1
+Åländska studentgillet.	1
 Akateeminen kirjakauppa.	1
 Akademiska sångföreningen.	1
 Airisto segelsällskap.;Helsingfors gymnastikklubb.;Helsingfors roddklubb.;Helsingfors segelsällskap.;Helsingfors velocipedklubb.;Nyländska jaktklubben.;Wasa segelförening.;Wiborgs läns segelförening.;Ylioppilas-voimistelijat.;Åbo velocipedklubb.	1
@@ -1416,4 +1417,3 @@ Academica Societatis Jesu.	1
 Acad. Carol. boktryckerie (kirjapaino, Lund, 1727-1729)	1
 Åbo svenskspråkiga arbetarinstitut.	1
 Aakkosyhdistys.	1
-[Peter Hansson]	1
