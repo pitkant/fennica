@@ -1,15 +1,13 @@
 # Use df$original_row to match
-if (!nrow(df.orig) == nrow(df)) {"Should match df and df.orig!"}
-df.new <- df
-df.original <- df.orig[match(df.new$original_row, df.orig$original_row), ]
-
+if (!nrow(df.orig) == nrow(df.preprocessed)) {"Should match df and df.orig!"}
+df.original <- df.orig[match(df.preprocessed$original_row, df.orig$original_row), ]
 
 
 print("Summarize accepted and discarded entries")
 for (varname in c("author", "corporate", "note_granter")) {
 
   # Accepted fields
-  x <- as.character(df[[varname]])
+  x <- as.character(df.preprocessed[[varname]])
   tmp1 <- write_xtable(x, paste(output.folder, paste(varname, "accepted.csv", sep = "_"), sep = ""))  
 
   # Discarded fields
@@ -30,7 +28,7 @@ originals <- c(publisher = "publisher",
 	       )
 for (nam in names(originals)) {
   o <- as.character(df.original[[originals[[nam]]]])
-  x <- as.character(df[[nam]])
+  x <- as.character(df.preprocessed[[nam]])
   inds <- which(!is.na(x))
   tmp <- write_xtable(cbind(original = o[inds],
       	 		    polished = x[inds]),
@@ -40,7 +38,7 @@ for (nam in names(originals)) {
 
 print("Accept summaries")
 for (nam in names(originals)) {
-  x <- as.character(df[[nam]])
+  x <- as.character(df.preprocessed[[nam]])
   tmp <- write_xtable(x,
     paste(output.folder, paste(nam, "accepted.csv", sep = "_"), sep = ""))
 
@@ -49,7 +47,7 @@ for (nam in names(originals)) {
 print("Discard summaries")
 for (nam in names(originals)) {
   o <- as.character(df.original[[originals[[nam]]]])
-  x <- as.character(df[[nam]])
+  x <- as.character(df.preprocessed[[nam]])
   inds <- which(is.na(x))
   tmp <- write_xtable(o[inds],
     paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""),
@@ -61,27 +59,27 @@ print("Custom fields")
 # Self published: original raw publisher and author fields
 o1 <- as.character(df.original[[originals[["publisher"]]]])
 o2 <- as.character(df.original[["author_name"]])
-x <- df[["self_published"]]
+x <- df.preprocessed[["self_published"]]
 inds <- which(x) # List conversions for self-published docs
 tmp <- write_xtable(cbind(o1[inds], o2[inds]),
   paste(output.folder, "self_published_rawfields.csv", sep = ""))
 # Self published: summary of the final self-publisher names
-tmp <- write_xtable(df[inds, c("publisher")], paste(output.folder, "self_published_accepted.csv", sep = ""))
+tmp <- write_xtable(df.preprocessed[inds, c("publisher")], paste(output.folder, "self_published_accepted.csv", sep = ""))
 
 # Authors with missing life years
-tab <- df %>% filter(!is.na(author_name) & (is.na(author_birth) | is.na(author_death))) %>% select(author_name, author_birth, author_death)
+tab <- df.preprocessed %>% filter(!is.na(author_name) & (is.na(author_birth) | is.na(author_death))) %>% select(author_name, author_birth, author_death)
 tmp <- write_xtable(tab, file = paste(output.folder, "authors_missing_lifeyears.csv", sep = ""))
 
 # Undefined language
-tmp <- write_xtable(as.character(df.original$language[df$language.undetermined]), filename = "output.tables/language_unidentified.csv")
+tmp <- write_xtable(as.character(df.original$language[df.preprocessed$language.undetermined]), filename = "output.tables/language_unidentified.csv")
 
 # No country mapping
-# tmp <- write_xtable(as.character(df$publication_place[is.na(df$country)]), filename = "output.tables/publication_place_missingcountry.csv")
+# tmp <- write_xtable(as.character(df.preprocessed$publication_place[is.na(df.preprocessed$country)]), filename = "output.tables/publication_place_missingcountry.csv")
 
 # TODO conversion tables can be automatized
-tab <- cbind(original = df.original$physical_extent, df[, c("pagecount", "volnumber", "volcount")])
+tab <- cbind(original = df.original$physical_extent, df.preprocessed[, c("pagecount", "volnumber", "volcount")])
 tmp <- write_xtable(tab, filename = "output.tables/conversions_physical_extent.csv")
 
-tab <- cbind(original = df.original$physical_dimension, df[, c("gatherings.original", "width.original", "height.original", "obl.original", "gatherings", "width", "height", "obl", "area")])
+tab <- cbind(original = df.original$physical_dimension, df.preprocessed[, c("gatherings.original", "width.original", "height.original", "obl.original", "gatherings", "width", "height", "obl", "area")])
 tmp <- write_xtable(tab, filename = "output.tables/conversions_physical_dimension.csv")
 

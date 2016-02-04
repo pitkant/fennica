@@ -1,7 +1,7 @@
 ---
 title: "Summary"
-author: "Niko Ilomäki and Leo Lahti"
-date: "Tuesday, October 20, 2015"
+author: "Leo Lahti and Niko Ilomäki"
+date: "Feb 3, 2016"
 output: markdown_document
 ---
 
@@ -46,7 +46,7 @@ print(p)
 Fields of special interest: real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
 ```{r missing2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
-dfs <- df %>% select(author, publication_place, country, publication_year, published_from, published_till, corporate, area, pagecount, gatherings, width, height, paper.consumption.km2, publisher, self_published)
+dfs <- df %>% select(author, publication_place, country, publication_year, publication_year_from, publication_year_till, corporate, area, pagecount, gatherings, width, height, paper.consumption.km2, publisher, self_published)
 success <- as.data.frame(t(apply(dfs, 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
 original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publication_time, corporate, physical_extent, physical_dimension, publisher, author_name), 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
 
@@ -56,8 +56,8 @@ real.success <- c()
 real.success[["publication_place"]] <- success$publication_place/original.nonNA$publication_place
 real.success[["country"]] <- success$country/original.nonNA$publication_place
 real.success[["publication_year"]] <- success$publication_year/original.nonNA$publication_time
-real.success[["published_from"]] <- success$published_from/original.nonNA$publication_time
-real.success[["published_till"]] <- success$published_till/original.nonNA$publication_time
+real.success[["publication_year_from"]] <- success$published_from/original.nonNA$publication_time
+real.success[["publication_year_till"]] <- success$published_till/original.nonNA$publication_time
 real.success[["corporate"]] <- success$corporate/original.nonNA$corporate
 real.success[["publisher"]] <- success$publisher/original.nonNA$publisher
 real.success[["self_published"]] <- success$self_published/original.nonNA$publisher
