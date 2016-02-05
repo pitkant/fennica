@@ -23,6 +23,12 @@ df.preprocessed$publication_year <- df.preprocessed$publication_year_from
 print("Add publication country")
 df.preprocessed$country <- get_country(df.preprocessed$publication_place)$country
 
+print("Enrich geo info: Geocoordinates")
+load("geonames.RData")
+load("places.geonames.RData") # places.geonames
+geoc <- bibliographica::get_geocoordinates(df.preprocessed$publication_place, geonames, places.geonames)
+df.preprocessed <- cbind(df.preprocessed, geoc)
+
 print("Estimate missing dimension info")
 dim.orig <- df.preprocessed[, c("gatherings.original", "width.original", "height.original")]
 names(dim.orig) <- gsub("\\.original$", "", names(dim.orig))
