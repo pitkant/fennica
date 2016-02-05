@@ -123,7 +123,9 @@ print(p)
 [Discarded publication times](output.tables/publication-time-discarded.csv)
 
 ```{r publication_time, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-hist(df$publication_year, main = "Document frequencies over time")
+#hist(df$publication_year, main = "Document frequencies over time")
+dfs <- df %>% group_by(publication_year) %>% tally()
+ggplot(dfs, aes(x = publication_year, y = n)) + geom_point() + ggtitle("Document frequencies over time") + ylab("Title count") + xlab("Publication year")
 ```
 
 ## Publication places
