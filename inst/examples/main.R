@@ -4,9 +4,9 @@ dir.create(output.folder)
 
 # ----------------------------------------------
 
+
 source("init.R")
 source("import2.R")    # Data preprocessing
-df <- NULL
 source("enrich.R")
 saveRDS(df.preprocessed, "df.Rds")
 source("summarize.R") # Summary tables

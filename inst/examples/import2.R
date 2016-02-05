@@ -1,6 +1,5 @@
 print("Read raw data")
-df <- bibliographica::read_bibliographic_metadata("data/fennica.csv.gz")
-df.orig <- df
+df.orig <- bibliographica::read_bibliographic_metadata("data/fennica.csv.gz")
 
 print("Entry identifier to match back to the originals")
 df.preprocessed <- data.frame(original_row = df.orig$original_row)
@@ -50,7 +49,8 @@ for (field in update.fields) {
 
 }
 
-#saveRDS(df.preprocessed, "df.Rds")
+df.preprocessed0 <- df.preprocessed
+saveRDS(df.preprocessed0, "df0.Rds")
 saveRDS(df.orig, "df.orig.Rds")
 
 
