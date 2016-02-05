@@ -5,8 +5,13 @@ print("Entry identifier to match back to the originals")
 df.preprocessed <- data.frame(original_row = df.orig$original_row)
 
 print("List raw data fields to be preprocessed")
-update.fields <- names(df.orig) # Update all
-update.fields <- c("language", "author_date", "physical_extent", "author_name", "publisher", "corporate", "publication_time", "note_dissertation", "note_granter", "publication_place", "physical_dimension")
+# update.fields <- names(df.orig) # Update all
+
+#> setdiff(names(df.orig), update.fields)
+#skip.fields <- c("language2", "title_uniform", "title_remainder", "physical_details", "physical_accomppanied", "note_general", "note_year", "note_source", "note_510c", "uncontrolled", "successor", "holder") 
+
+update.fields <- c("language", "author_date", "physical_extent", "author_name", "publisher", "corporate", "publication_time", "note_dissertation", "note_granter", "publication_place", "physical_dimension",
+"title", "subject_topic", "subject_geography", "publication_frequency", "publication_interval")
 
 # -----------------------------------------------------------------------
 

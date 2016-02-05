@@ -1,6 +1,6 @@
 print("Read raw data")
-df <- bibliographica::read_bibliographic_metadata("data/fennica.csv.gz")
-df.orig <- df
+df.orig <- bibliographica::read_bibliographic_metadata("data/fennica.csv.gz")
+df <- df.orig
 
 print("Languages")
 df <- cbind(

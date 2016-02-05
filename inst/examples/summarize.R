@@ -2,8 +2,9 @@
 if (!nrow(df.orig) == nrow(df.preprocessed)) {"Should match df and df.orig!"}
 df.original <- df.orig[match(df.preprocessed$original_row, df.orig$original_row), ]
 
+
 print("Summarize accepted and discarded entries")
-for (varname in c("author", "corporate", "note_granter")) {
+for (varname in c("author", "corporate", "topic", "subject_geography", "note_granter", "publication_frequency")) {
 
   # Accepted fields
   x <- as.character(df.preprocessed[[varname]])
@@ -14,7 +15,6 @@ for (varname in c("author", "corporate", "note_granter")) {
   disc <- as.vector(na.omit(o[which(is.na(x))]))
   if (is.null(disc)) {disc <- NA}
   tmp2 <- write_xtable(disc, paste(output.folder, paste(varname, "discarded.csv", sep = "_"), sep = ""), count = TRUE)
-
 }
 
 
@@ -23,7 +23,7 @@ originals <- c(publisher = "publisher",
 	       pagecount = "physical_extent",
 	       publication_place = "publication_place",
 	       country = "publication_place",
-	       publication_year = "publication_date"
+	       publication_year = "publication_time"
 	       )
 for (nam in names(originals)) {
   o <- as.character(df.original[[originals[[nam]]]])
@@ -32,8 +32,9 @@ for (nam in names(originals)) {
   tmp <- write_xtable(cbind(original = o[inds],
       	 		    polished = x[inds]),
     paste(output.folder, paste(nam, "conversion.csv", sep = "_"), sep = ""))
-
 }
+
+
 
 print("Accept summaries")
 for (nam in names(originals)) {
@@ -43,6 +44,7 @@ for (nam in names(originals)) {
 
 }
 
+
 print("Discard summaries")
 for (nam in names(originals)) {
   o <- as.character(df.original[[originals[[nam]]]])
@@ -51,8 +53,8 @@ for (nam in names(originals)) {
   tmp <- write_xtable(o[inds],
     paste(output.folder, paste(nam, "discarded.csv", sep = "_"), sep = ""),
     count = TRUE)
-
 }
+
 
 print("Custom fields")
 # Self published: original raw publisher and author fields

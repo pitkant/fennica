@@ -13,6 +13,14 @@ Fraction of documents with entries for each annotation field. For a full list of
 
 
 
+Conversions from the original to preprocessed fields:
+
+
+```
+## Error in eval(expr, envir, enclos): could not find function "kable"
+```
+
+
 Percentage of non-NA entries among all documents in the preprocessed data (note that in some cases a significant fraction of this information is missing already in the raw data)
 
 ![plot of chunk missingb](figure/missingb-1.png)
@@ -113,12 +121,7 @@ Top-50 uniquely identified authors and number of documents for each (duplicate d
 
 [Complete subject topic counts](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/subjecttopics.tab)
 
-Top-50 topics and number of documents for each. In total, there are 0 unique topics and 0 documents assigned to one or more topics (NaN).
-
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
-```
+Top-50 topics and number of documents for each. In total, there are 3533 unique topics and 20889 documents assigned to one or more topics (29).
 
 ![plot of chunk topics3](figure/topics3-1.png)
 
@@ -127,12 +130,7 @@ Top-50 topics and number of documents for each. In total, there are 0 unique top
 
 
 
-Top-50 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 0 documents (NaN%). There are 0 unique geographical places.
-
-
-```
-## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
-```
+Top-50 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5838 documents (8%). There are 645 unique geographical places.
 
 ![plot of chunk geo2](figure/geo2-1.png)
 
