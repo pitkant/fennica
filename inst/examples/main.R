@@ -4,7 +4,6 @@ dir.create(output.folder)
 
 # ----------------------------------------------
 
-
 source("init.R")
 source("import2.R")    # Data preprocessing
 source("enrich.R")

@@ -8,4 +8,5 @@ library(fennica)
 library(dplyr)
 library(bibliographica)
 library(sorvi)
+library(knitr)
 
