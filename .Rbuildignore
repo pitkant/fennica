@@ -1,3 +1,6 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^.*\.RData$
+inst/extras/*
+*~
+
