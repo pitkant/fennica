@@ -16,8 +16,6 @@ update.fields <- c("language", "author_date", "physical_extent", "author_name", 
 # -----------------------------------------------------------------------
 
 # Finnish/Swedish specific fixes 
-df.orig$physical_dimension 
-df.orig$physical_dimension <- gsub(",", ".", df.orig$physical_dimension) # 75,9 -> 75.9
 # In Finnish texts s. is used instead of p.		
 f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographica")
 synonyms <- read.csv(f, sep = ";") 
