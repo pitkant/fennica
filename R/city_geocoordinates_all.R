@@ -12,9 +12,10 @@
 city_geocoordinates_all <- function (names, wait=1) {
 
     traverse <- function (name) {
-        gc <- city_geocoordinate(name)
-        print(paste("Queried:", name))
-        print(paste("Got:", gc$display_name, gc$lat, gc$lon))
+        query <- paste0("&city=",name)
+        gc <- gisfin::get_geocode(query, service="openstreetmap", raw_query=T)
+        print(paste("Query:", name))
+        print(paste("Got:", gc$lat, gc$lon))
 
         # wait here a bit to adhere to Nominatim usage policy
         Sys.sleep(wait)
