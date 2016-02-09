@@ -19,7 +19,7 @@ Retrieve geocoordinates for one city(/town/...) name from OSM Nominatim API. WIP
 Tweaked version of gisfin/geocode.R authored by Juuso Parkkinen.
 }
 \examples{
-TODO
+\dontrun{TODO}
 }
 \author{
 Aaro Salosensaari \email{aaro.salosensaari@helsinki.fi}

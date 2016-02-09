@@ -21,7 +21,7 @@ Retrieve geocoordinates for a list of cities from OSM Nominatim API. WIP
 TODO
 }
 \examples{
-TODO
+\dontrun{TODO}
 }
 \author{
 Aaro Salosensaari \email{aaro.salosensaari@helsinki.fi}

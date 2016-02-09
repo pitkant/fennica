@@ -6,7 +6,7 @@
 #' @details Tweaked version of gisfin/geocode.R authored by Juuso Parkkinen.
 #' @author Aaro Salosensaari \email{aaro.salosensaari@@helsinki.fi}
 #' @references See citation("fennica")
-#' @examples TODO
+#' @examples \dontrun{TODO}
 #' @keywords utilities
 city_geocoordinate <- function (name) {
     # NOTE. I'm heavily prototyping this (that's why it searches for just one name -> retuns one coordinate pair)

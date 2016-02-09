@@ -7,7 +7,7 @@
 #' @details TODO
 #' @author Aaro Salosensaari \email{aaro.salosensaari@@helsinki.fi}
 #' @references See citation("fennica")
-#' @examples TODO
+#' @examples \dontrun{TODO}
 #' @keywords utilities
 city_geocoordinates_all <- function (names, wait=1) {
 
