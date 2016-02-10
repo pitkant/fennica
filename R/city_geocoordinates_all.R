@@ -20,10 +20,11 @@ city_geocoordinates_all <- function (names, wait=1) {
         # wait here a bit to adhere to Nominatim usage policy
         Sys.sleep(wait)
 
-        data.frame(lat=gc$lat, lon=gc$lon)
+        c(gc$lat, gc$lon)
     }
 
-    df <- plyr::ldply(names, traverse)
+    m <- sapply(names, traverse)
+    df <- data.frame(lat=m[1,],lon=m[2,])
 
     return(df)
 }
