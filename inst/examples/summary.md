@@ -1,7 +1,7 @@
 ---
 title: "Summary"
 author: "Leo Lahti and Niko Ilomäki"
-date: "Feb 3, 2016"
+date: "Feb 24, 2016"
 output: markdown_document
 ---
 
@@ -191,3 +191,12 @@ Top-50 geographical places are shown together with the number of documents assig
 
 
 [Complete geoplace listing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)
+
+
+## Geocoordinates for publication places
+
+Altogether ``1.0205926`` places have missing geocoordinates:
+
+[Places with missing geocoordinates](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/missing_geocoordinates.csv)
+
+
