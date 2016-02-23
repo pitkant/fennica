@@ -67,6 +67,11 @@ tmp <- write_xtable(cbind(o1[inds], o2[inds]),
 # Self published: summary of the final self-publisher names
 tmp <- write_xtable(df.preprocessed[inds, c("publisher")], paste(output.folder, "self_published_accepted.csv", sep = ""))
 
+# Publication places missing geocoordinates
+tmp <- write_xtable(df.preprocessed[is.na(df.preprocessed$latitude) | is.na(df.preprocessed$longitude), "publication_place"], paste(output.folder, "missing_geocoordinates.csv", sep = ""), count = TRUE)
+
+
+
 # Authors with missing life years
 tab <- df.preprocessed %>% filter(!is.na(author_name) & (is.na(author_birth) | is.na(author_death))) %>% select(author_name, author_birth, author_death)
 tmp <- write_xtable(tab, file = paste(output.folder, "authors_missing_lifeyears.csv", sep = ""))
