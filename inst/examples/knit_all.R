@@ -5,3 +5,8 @@ knitr::knit("Turku.Rmd", encoding="UTF-8")
 knitr::knit("Vaasa.Rmd", encoding="UTF-8")
 knitr::knit("suvut.Rmd", encoding="UTF-8")
 knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
+
+# -----------------------------------------
+
+
+

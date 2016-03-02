@@ -52,4 +52,7 @@ df.preprocessed <- mutate(df.preprocessed, paper.consumption.km2 = width * heigh
 #sn <- read.csv(f, sep = ";")
 #df.preprocessed$publication_place <- sorvi::harmonize_names(df.preprocessed$publication_place, synonymes = sn, check.synonymes = FALSE)$name
 
+# publication_decade
+df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
+
 print("Enrich OK")
