@@ -58,17 +58,21 @@ p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = 
      xlab("Publication decade") + ylab("Paper (km2)")
 print(p)
 
-#jpeg("20160303-paper.jpeg", quality = 100, height = 300, width = 480)
 pdf("20160303-paper.pdf", width = 12, height = 9)
 print(p)
 dev.off()
+
+jpeg("20160303-paper.jpg", quality = 100, height = 480, width = 600)
+print(p)
+dev.off()
+
 
 p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
      ggtitle("Title count") +
      # scale_fill_manual(values = c("blue", "black", "darkgreen")) +
      scale_fill_grey() +
-     guides(fill = guide_legend(reverse = TRUE)) +      
+     guides(fill = guide_legend(reverse = TRUE, title = "")) +      
      xlab("Publication decade") + ylab("Title count (n)")
 print(p)
 
@@ -76,4 +80,7 @@ pdf("20160303-titles.pdf", width = 12, height = 9)
 print(p)
 dev.off()
 
+jpeg("20160303-titles.jpg", quality = 100, height = 480, width = 600)
+print(p)
+dev.off()
 ```
