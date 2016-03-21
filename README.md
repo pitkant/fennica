@@ -28,16 +28,17 @@ other R packages. The raw data is confidential and available only on a
 separate agreement, so we can only publish statistical summaries and
 the our own analysis source code here.
 
-
-### Acknowledgements
-
-Authors: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Hege Roivainen](hegroiva), [Mikko Tolonen](https://github.com/orgs/rOpenGov/people/tolonen). Part of [rOpenGov](http://ropengov.github.io/).
-
 The tools are under active, open development; the tools, analysis, and documentation are being constantly updated. You are welcome to:
   * [submit suggestions and bug reports](https://github.com/ropengov/fennica/issues)
   * [send a pull request](https://github.com/ropengov/fennica/) (we will acknowledge contributions)
   * join IRC at !ropengov@Freenode
   * [contact or follow us](http://ropengov.github.io/contribute/)
 
+
+### Acknowledgements
+
+Main developers: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](https://github.com/NVI/), [Hege Roivainen](hegroiva), [Mikko Tolonen](https://github.com/orgs/rOpenGov/people/tolonen). Part of [rOpenGov](http://ropengov.github.io/).  
+
+The project is funded 2016-2019 by Academy of Finland (grant 1293316 COMHIS) - Computational History and the Transformation of Public Discourse in Finland 1640–1910. This is a consortium between [University of Helsinki](http://www.helsinki.fi/modernlanguages/), University of Turku [Department of Cultural History](http://www.utu.fi/en/units/hum/units/culturalhistory/Pages/home.aspx) and [Department of Information Science](http://www.utu.fi/fi/yksikot/sci/yksikot/it/Sivut/home.aspx), and the [Finnish National Library](https://www.kansalliskirjasto.fi/fi/projektit/comhis-computational-history-and-the-transformation-of-public-discourse-in-finland-1640).
 
 
