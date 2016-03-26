@@ -8,7 +8,7 @@ original.datafile <- "data/fennica.csv.gz"
 # ----------------------------------------------
 
 source("init.R")
-source("import2.R")    # Data preprocessing
+source("import2.R") # Data preprocessing
 source("enrich.R")
 source("validation.R")
 saveRDS(df.preprocessed, "df.Rds")
