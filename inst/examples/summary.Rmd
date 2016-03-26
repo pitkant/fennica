@@ -2,7 +2,6 @@
 title: "Preprocessing summary"
 author: "Leo Lahti and Niko Ilomäki"
 date: "March 2, 2016"
-output: markdown_document
 ---
 
 # Fennica summary
@@ -21,6 +20,7 @@ ntop <- 20
 # Read the preprocessed data
 df <- readRDS("df.Rds")
 df.orig <- readRDS("df.orig.Rds")
+conversions <- readRDS("conversions.Rds")
 ```
 
 Conversions from the original to preprocessed fields:

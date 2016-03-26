@@ -21,6 +21,17 @@ This markdown document contains presentation material for [Digital History in Fi
 
 ![plot of chunk 20151209-HDH-topplace](figure/20151209-HDH-topplace-1.png)![plot of chunk 20151209-HDH-topplace](figure/20151209-HDH-topplace-2.png)
 
-![plot of chunk 20151209-HDH-toptopic](figure/20151209-HDH-toptopic-1.png)![plot of chunk 20151209-HDH-toptopic](figure/20151209-HDH-toptopic-2.png)
+
+```
+## Error in dfs$names: $ operator is invalid for atomic vectors
+```
+
+![plot of chunk 20151209-HDH-toptopic](figure/20151209-HDH-toptopic-1.png)
+
+```
+## Error in dfs$names: $ operator is invalid for atomic vectors
+```
+
+![plot of chunk 20151209-HDH-toptopic](figure/20151209-HDH-toptopic-2.png)
 
 ![plot of chunk 20151209-HDH-topg](figure/20151209-HDH-topg-1.png)

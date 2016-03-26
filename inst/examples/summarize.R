@@ -1,3 +1,12 @@
+library(bibliographica)
+library(dplyr)
+df.preprocessed <- readRDS("df.Rds")
+df.orig <- readRDS("df.orig.Rds")
+output.folder <- "output.tables/"
+dir.create(output.folder)
+
+# ------------------------------------------------
+
 # Use df$original_row to match
 if (!nrow(df.orig) == nrow(df.preprocessed)) {"Should match df and df.orig!"}
 df.original <- df.orig[match(df.preprocessed$original_row, df.orig$original_row), ]
@@ -63,7 +72,7 @@ o2 <- as.character(df.original[["author_name"]])
 x <- df.preprocessed[["self_published"]]
 inds <- which(x) # List conversions for self-published docs
 tmp <- write_xtable(cbind(o1[inds], o2[inds]),
-  paste(output.folder, "self_published_rawfields.csv", sep = ""))
+  filename = paste(output.folder, "self_published_rawfields.csv", sep = ""))
 # Self published: summary of the final self-publisher names
 tmp <- write_xtable(df.preprocessed[inds, c("publisher")], paste(output.folder, "self_published_accepted.csv", sep = ""))
 
