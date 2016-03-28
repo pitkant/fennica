@@ -2,5 +2,6 @@ summary_files/
 output.tables/*.csv
 data
 *.Rds
+*.RDs
 *.RData
 
