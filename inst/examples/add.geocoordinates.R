@@ -1,6 +1,8 @@
 # Places with missing geocoordinate
-missing.geoc <- as.character(unique(filter(geoc, is.na(latitude) | is.na(longitude))$publication_place))
+nainds <- is.na(df.preprocessed$latitude) | is.na(df.preprocessed$longitude)
+missing.geoc <- as.character(unique(df.preprocessed[nainds, "publication_place"]))
 
+# Get missing geocoordinates with gisfin package
 library(gisfin)
 gctmp <- NULL
 for (place in missing.geoc) {
@@ -9,16 +11,9 @@ for (place in missing.geoc) {
   if (class(a) == "try-error") {a <- list(lat = NA, lon = NA)}; 
   gctmp <- rbind(gctmp, c(lat = a$lat, lon = a$lon))
 }
-
 gctmp <- as.data.frame(gctmp)
 gctmp$publication_place <- missing.geoc
-nainds <- is.na(geoc$latitude) | is.na(geoc$longitude)
-geoc$latitude[nainds] <- gctmp$lat[match(geoc$publication_place[nainds], gctmp$publication_place)]
-geoc$longitude[nainds] <- gctmp$lon[match(geoc$publication_place[nainds], gctmp$publication_place)]
-save(geoc, file = "geoc.RData", compress = TRUE)
-geoc$publication_place <- NULL
 
-# Add the geocoordinates in the preprocessed data
-df.preprocessed <- cbind(df.preprocessed, geoc)
-
+df.preprocessed$latitude[nainds] <- gctmp$lat[match(df.preprocessed$publication_place[nainds], gctmp$publication_place)]
+df.preprocessed$longitude[nainds] <- gctmp$lon[match(df.preprocessed$publication_place[nainds], gctmp$publication_place)]
 

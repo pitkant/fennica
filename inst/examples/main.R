@@ -1,3 +1,5 @@
+library(bibliographica)
+
 # I/O definitions
 output.folder <- "output.tables/"
 
@@ -9,7 +11,8 @@ ignore.fields <- c("language2", "title_remainder", "physical_details", "physical
 
 # -------------------------------
 
-source(system.file("inst/extdata/init.R", package = "bibliographica"))
+reload.data <- TRUE
+source(system.file("extdata/init.R", package = "bibliographica"))
 
 # -------------------------------
 
@@ -23,16 +26,16 @@ df.orig$physical_dimension <- harmonize_names(df.orig$physical_dimension,
 
 # -------------------------------
 
-source(system.file("inst/extdata/preprocessing.R", package = "bibliographica"))
+source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 source("preprocessing.fennica.R") # Fennica-specific
 
 # -------------------------------
 
-source(system.file("inst/extdata/validation.R", package = "bibliographica"))
+source(system.file("extdata/validation.R", package = "bibliographica"))
 
 # -------------------------------
 
-source(system.file("inst/extdata/enrich.R", package = "bibliographica"))
+source(system.file("extdata/enrich.R", package = "bibliographica"))
 source("enrich.fennica.R") # Fennica-specific
 
 # -------------------------------
@@ -44,7 +47,6 @@ saveRDS(df.preprocessed, "df.Rds")
 
 # Summarize the data and discarded entries
 tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
-# source("summarize.R") # Summary tables - check if something missing from above
 
 # ---------------------------------
 
