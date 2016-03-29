@@ -6,7 +6,7 @@ missing.geoc <- as.character(unique(df.preprocessed[nainds, "publication_place"]
 # Get missing geocoordinates with gisfin package
 stop("Make gctmp")
 
-skip <- TRUE
+skip <- FALSE
 gctmp <- NULL
 if (!skip) {
   library(gisfin)
@@ -18,9 +18,9 @@ if (!skip) {
   }
   gctmp <- as.data.frame(gctmp)
   gctmp$publication_place <- missing.geoc
-  saveRDS(gctmp, file = "geoc_Finland.RDs")
+  saveRDS(gctmp, file = "geoc_Finland.Rds")
 } else {
-  gctmp <- readRDS("geoc_Finland.RData")
+  gctmp <- readRDS("geoc_Finland.Rds")
 }
 
 df.preprocessed$latitude[nainds] <- gctmp$lat[match(df.preprocessed$publication_place[nainds], gctmp$publication_place)]
