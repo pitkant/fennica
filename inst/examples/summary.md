@@ -11,6 +11,9 @@ date: "March 2, 2016"
 Fraction of documents with entries for each annotation field. For a full list of summaries for field contents, see [here](https://github.com/rOpenGov/fennica/tree/master/inst/examples/output.tables).
 
 
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 Conversions from the original to preprocessed fields:
 
@@ -53,7 +56,7 @@ Compare gatherings and page counts.
 
 ## Publication places
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68813 documents (96%). There are 441 unique publication places.
+Top-20 publication places are shown together with the number of documents. This info is available for 68829 documents (96%). There are 452 unique publication places.
 
 ![plot of chunk publication_place](figure/publication_place-1.png)
 
@@ -145,7 +148,7 @@ Top-50 geographical places are shown together with the number of documents assig
 
 ## Geocoordinates for publication places
 
-Altogether ``1.2639219`` places have missing geocoordinates:
+Altogether ``1.0289353`` places have missing geocoordinates:
 
 [Places with missing geocoordinates](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/missing_geocoordinates.csv)
 
