@@ -6,6 +6,9 @@ output.folder <- "output.tables/"
 # List preprocessed data files
 fs <- "data/fennica.csv.gz"
 
+# Cores for parallelization
+mc.cores <- 4
+
 # Remove selected fields
 ignore.fields <- c("language2", "title_remainder", "physical_details", "physical_accomppanied", "note_general", "note_year") # Fennica
 

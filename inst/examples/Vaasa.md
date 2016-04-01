@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Vaasassa 1764-1917"
 author: "Niko Ilomäki"
-date: "2016-03-31"
+date: "2016-04-01"
 output: markdown_document
 ---
 
@@ -30,7 +30,7 @@ output: markdown_document
 
 
 ```
-## Error in plot(final$published_in, final$n, cex = 1.8, pch = "|", cex.main = 5, : error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'final' not found
+## Error in plot(final$published_in, final$n, cex = 1.8, pch = "|", cex.main = 5, : object 'final' not found
 ```
 
 ```

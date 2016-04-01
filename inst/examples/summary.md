@@ -11,9 +11,6 @@ date: "March 2, 2016"
 Fraction of documents with entries for each annotation field. For a full list of summaries for field contents, see [here](https://github.com/rOpenGov/fennica/tree/master/inst/examples/output.tables).
 
 
-```
-## Error in gzfile(file, "rb"): cannot open the connection
-```
 
 Conversions from the original to preprocessed fields:
 
