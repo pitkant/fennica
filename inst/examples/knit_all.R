@@ -1,8 +1,13 @@
 library(bibliographica)
 library(dplyr)
+library(knitr)
+
 df.preprocessed <- readRDS("df.Rds")
 output.folder <- "output.tables/"
 dir.create(output.folder)
+
+author <- "Leo Lahti"
+sf <- generate_summaryfiles(author = author, output.folder = output.folder)
 
 knitr::knit("summary.Rmd", encoding="UTF-8")
 knitr::knit("Helsinki.Rmd", encoding="UTF-8")
