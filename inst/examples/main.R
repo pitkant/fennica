@@ -11,7 +11,7 @@ ignore.fields <- c("language2", "title_remainder", "physical_details", "physical
 
 # -------------------------------
 
-reload.data <- TRUE
+reload.data <- FALSE
 source(system.file("extdata/init.R", package = "bibliographica"))
 
 # -------------------------------
