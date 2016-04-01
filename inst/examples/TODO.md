@@ -1,40 +1,38 @@
 Pubplan
 ==========
 
-Ensimmäiseen Fennica artikkeliin alustavasti seuraavanlaisia kysymyksiä. Voidaan muokata kun lähdetään liikkeelle:
-
-
 ### Technical
 
 Taitaa olla virheellinen pagecount?
 [1-3] 4-11 [12] s. (s. [12] tyhjä)
 -> Nyt: 23
 
-
 Dimensiotiedoissa: kumpi näistä valitaan
 23 x 31.3 cm. plate 25 x 33.6 cm. 
 
-
-
+KK:lta saatu ~/proj/2014-Aatelouhinta/Sanastoja.doc - listaa
+tietokantoja joita voitaisiin käyttää ainakin suomalaisten
+paikannimien, henkilönimien ym. validointiin.
 
 ### Fennica tutkimuskysymykset
 
 Tärkein tehtävä tutkia pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan jotain selkeitä trendejä suomalaisesta tiedontuotannosta aikavälillä 1640-1828, pääfokus julkaisijat.
 
  
-
 ### Tutkittavia trendejä:
 
+ Yleiset trendit (näissä voidaan hyvin käyttää ESTC pohjia, samalla
+voidaan verrata näiltä osin Fennicaa ESTCn):
  
-Yleiset trendit (näissä voidaan hyvin käyttää ESTC pohjia, samalla voidaan verrata näiltä osin Fennicaa ESTCn):
+Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö
+ajankohtia jolloin on poikkeuksellista kasvua / laskua
+tms. Esim. top-10 julkaisupaikat.
 
- 
-Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankohtia jolloin on poikkeuksellista kasvua / laskua tms. Esim. top-10 julkaisupaikat.
 
+Kirjan kehitys mediana (paperinkulutus / dokumentti, miten yli 50
+sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain
+paikallisia eroja?)
 
-Kirjan kehitys mediana (paperinkulutus / dokumentti, miten yli 50 sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
-
- 
 
 ### Julkaisijatrendit:
 
