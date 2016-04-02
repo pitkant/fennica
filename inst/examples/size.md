@@ -25,7 +25,7 @@ output: markdown_document
 
 <!--[Discarded dimension info](https://raw.githubusercontent.com/rOpenGov/estc/master/inst/examples/output.tables/dimensions_discarded.csv)-->
 
-Document size (area) info in area is available for 37687 documents (52%). Estimates of document size (area) info in gatherings system are available for 71919 documents (100%). 
+Document size (area) info in area is available for 37328 documents (52%). Estimates of document size (area) info in gatherings system are available for 71248 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png)
 
@@ -56,32 +56,41 @@ Compare original gatherings and original heights where both are available. The p
 Multi-volume documents average page counts are given per volume.
 
 
-|doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol|mean.pages.multivol |median.pages.multivol | n.multivol| mean.pages.issue| median.pages.issue| n.issue|
-|:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|----------------:|------------------:|-------:|
-|1to           |             2.000000|                    2.0|           1|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|2long         |            80.666667|                    4.0|           4|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|2fo           |            13.004065|                    4.0|        3690|NA                  |NA                    |         NA|        20.232558|               23.0|     860|
-|4long         |            20.830097|                   21.0|         206|NA                  |NA                    |         NA|        22.349594|               21.0|     123|
-|4to           |                 -Inf|                   10.0|       15773|NA                  |NA                    |         NA|        18.260652|               17.0|    8379|
-|6to           |             9.655172|                    4.0|          29|NA                  |NA                    |         NA|        25.000000|               25.0|       1|
-|8long         |            19.141414|                    4.0|          99|NA                  |NA                    |         NA|        24.368421|               21.0|      19|
-|8vo           |                 -Inf|                    4.0|        7817|NA                  |NA                    |         NA|        23.245336|               21.0|    1072|
-|12long        |             2.571429|                    2.0|           7|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|12mo          |            29.642618|                    5.0|        3285|NA                  |NA                    |         NA|        20.543624|               20.0|     596|
-|16long        |                  NaN|                     NA|           1|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|16mo          |            29.400474|                   10.0|        1688|NA                  |NA                    |         NA|        14.325159|               10.0|    1101|
-|18mo          |            18.000000|                    9.5|           8|NA                  |NA                    |         NA|        10.800000|                9.5|       5|
-|20to          |            25.000000|                   25.0|           1|NA                  |NA                    |         NA|        25.000000|               25.0|       1|
-|24mo          |            13.500000|                   12.0|          12|NA                  |NA                    |         NA|        15.500000|               12.0|      10|
-|32mo          |            11.603448|                    6.0|          58|NA                  |NA                    |         NA|        26.909091|               27.0|      11|
-|64mo          |             8.000000|                    8.0|           8|NA                  |NA                    |         NA|         8.571429|                8.0|       7|
-|NA            |                 -Inf|                    8.0|       39232|NA                  |NA                    |         NA|        11.389223|                8.0|   27077|
-
-
+```
+## Error: incorrect length (0), expecting: 71248
+```
 
 ```
-## Error in eval(expr, envir, enclos): could not find function "grid.arrange"
+## Error: incorrect length (0), expecting: 71248
 ```
+
+```
+## Error: incorrect length (0), expecting: 71248
+```
+
+
+
+|doc.dimension |mean.pages.singlevol |median.pages.singlevol | n.singlevol| mean.pages.multivol| median.pages.multivol| n.multivol| mean.pages.issue| median.pages.issue| n.issue|
+|:-------------|:--------------------|:----------------------|-----------:|-------------------:|---------------------:|----------:|----------------:|------------------:|-------:|
+|1to           |NA                   |NA                     |          NA|            22.81696|                  23.0|        448|        22.716518|               23.0|     448|
+|2long         |NA                   |NA                     |          NA|           234.00000|                 234.0|          1|               NA|                 NA|      NA|
+|2fo           |NA                   |NA                     |          NA|            62.52644|                  22.0|        416|        17.339196|               14.0|     398|
+|4long         |NA                   |NA                     |          NA|            36.79747|                  27.0|         79|        23.305556|               21.0|      72|
+|4to           |NA                   |NA                     |          NA|            45.20100|                  19.0|       4403|        19.035652|               17.0|    5189|
+|6to           |NA                   |NA                     |          NA|            60.00000|                  71.0|          3|        25.000000|               25.0|       1|
+|8long         |NA                   |NA                     |          NA|            68.69565|                  41.0|         23|        24.368421|               21.0|      19|
+|8vo           |NA                   |NA                     |          NA|           102.27273|                  38.0|       1364|        23.245336|               21.0|    1072|
+|12mo          |NA                   |NA                     |          NA|           126.60030|                  31.0|        673|        20.543624|               20.0|     596|
+|16mo          |NA                   |NA                     |          NA|            85.87846|                  32.0|        469|        23.082418|               19.0|     364|
+|18mo          |NA                   |NA                     |          NA|            50.00000|                  50.0|          2|        16.000000|               16.0|       1|
+|20to          |NA                   |NA                     |          NA|            25.00000|                  25.0|          1|        25.000000|               25.0|       1|
+|24mo          |NA                   |NA                     |          NA|            20.75000|                  20.5|          4|        20.750000|               20.5|       4|
+|32mo          |NA                   |NA                     |          NA|            36.91667|                  31.0|         12|        26.909091|               27.0|      11|
+|NA            |NA                   |NA                     |          NA|           131.29749|                  38.0|       7859|        23.921235|               23.0|    5764|
+|64mo          |NA                   |NA                     |          NA|                  NA|                    NA|         NA|         8.666667|                8.0|       6|
+
+
+![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
 
 ## Average document dimensions 
@@ -98,7 +107,7 @@ Only cases with 2000 documents are listed here:
 
 |gatherings.original | mean.height| median.height| mean.width| median.width|    n|
 |:-------------------|-----------:|-------------:|----------:|------------:|----:|
-|4to                 |    21.94737|      21.94737|   21.00000|     21.00000|   19|
+|4to                 |    21.94737|      21.94737|    21.0000|      21.0000|   19|
 |8vo                 |    18.83333|      18.83333|        NaN|          NaN|   12|
-|NA                  |    27.87298|      27.87298|   25.61244|     25.61244| 5030|
+|NA                  |    27.62515|      27.62515|    25.2099|      25.2099| 4918|
 

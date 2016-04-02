@@ -1,14 +1,14 @@
 Name	Count
-Total count: 	n= 11277  ( 100 % non-NA values)
-Petraeus, Aeschillus Olai	229
+Total count: 	n= 11214  ( 100 % non-NA values)
+Petraeus, Aeschillus Olai	228
 Svenonius, Enevaldus Svenonis	211
 Gyldenstolpe, Michael Olai	201
 Kalm, Pehr	176
 Scarin, Algothus Asmundi	139
 Achrelius, Daniel Erici	130
 Thomas Ragvaldinpoika	 93
-Vasenius, Valfrid.	 87
-Setälä, E. N.	 83
+Vasenius, Valfrid.	 86
+Setälä, E. N.	 81
 Svebilius, Olaus Georgii	 76
 Bång, Petrus Erici	 74
 Leinberg, K. G.	 72
@@ -18,7 +18,7 @@ Päivänsalo, B. H.	 68
 Palmén, E. G.	 67
 Browallius, Johannes Magni	 65
 Björklund, Isaacus	 58
-Erkko, J. H.	 56
+Erkko, J. H.	 54
 Alander, Christiernus Caroli	 54
 Miltopaeus, Martinus Aeschilli	 52
 Alanus, Georgius Christophori	 51
@@ -33,14 +33,14 @@ Nycopensis, Nicolaus Laurentii	 43
 Clewberg, Carolus Abrahamus	 43
 Laurén, L. L.	 42
 Schybergson, M. G.	 41
-Hjelt, Edv.	 41
 Aina	 41
 Zilliacus, Konni	 40
 Thauvonius, Abrahamus Georgii	 40
 Tallqvist, Hj.	 40
 Schultén, Nathanael Gerhard af	 39
+Hjelt, Edv.	 39
 Hasselqvist, Andreas Benedicti	 38
-Sederholm, J. J.	 37
+Sederholm, J. J.	 36
 Rosenius, C. O.	 36
 Gyldén, C. W.	 36
 Sunila, J. E.	 34
@@ -53,12 +53,11 @@ Forsström, O. A.	 32
 Lindelöf, Uno.	 31
 Högman, K. J.	 31
 Hahnsson, Theodolinda	 31
-Frosterus, Benj.	 31
 Pijlman, Isaacus Erlandi	 30
-Waaranen, K. A.	 28
-Nordqvist, Osc.	 28
-Björnson, Björnstjerne.	 28
+Frosterus, Benj.	 30
+Waaranen, K. A.	 27
 Lindeqvist, K. O.	 27
+Björnson, Björnstjerne.	 27
 Bergius, Andreas Andreae	 27
 Ståhlberg, K. J.	 26
 Waltari, Toimi.	 25
@@ -66,6 +65,7 @@ Reijo-Waara, Konr.	 25
 Nagajev, A. I.	 25
 Schalin, Zachris.	 24
 Rosenqvist, V. T.	 24
+Nordqvist, Osc.	 24
 Ollinen, J. F.	 23
 Helsingius, Daniel Georgii	 23
 Härkönen, Iivo	 23
@@ -80,7 +80,6 @@ Forstén, T. K.	 21
 Cajander, A. K.	 21
 Voionmaa, Väinö	 20
 Kauppis-Heikki	 20
-Granfelt, A. A.	 20
 Eurén, G. E.	 20
 Elfving, Östen.	 20
 Aspelin, J. R.	 20
@@ -112,16 +111,15 @@ Koskenniemi, V. A.	 16
 Hildeen, Esaias Henrici	 16
 Hainari, O. A.	 16
 Grönhagen, K. B.	 16
+Granfelt, A. A.	 16
 Florinus, Henricus Matthiae	 16
 Rancken, J. Oskar I.	 15
 Kivirikko, K. E.	 15
 Frosterus, Johannes Abrahami	 15
-Europaeus, D. E. D.	 15
 Cajander, K. A.	 15
 Vuoritsalo, Nuutti.	 14
 Tuomas	 14
 Suonio.	 14
-Sucksdorff, Vilh.	 14
 Runa.	 14
 Löfman, O. W.	 14
 Kares, K. R.	 14
@@ -130,19 +128,18 @@ Dostojevski, F. M.	 14
 Colliander, O. I.	 14
 Yrjö-Koskinen, E. S.	 13
 Vennola, J. H.	 13
+Sucksdorff, Vilh.	 13
 Starbäck, C. Georg.	 13
 Savola, Alb.	 13
 Rantakari, K. N.	 13
-Neovius, E. R.	 13
 Louhivuori, O. W.	 13
 Lindén, K. E.	 13
 Krook, Jacobus Benedicti	 13
 Keinänen, S. A.	 13
-Homén, E. A.	 13
 Hästesko, F. A.	 13
 Granfelt, O. Hj.	 13
+Europaeus, D. E. D.	 13
 Ericus Erici Sorolainen	 13
-Brotherus, V. F.	 13
 Bergius, Petrus Andreae	 13
 Wallenius, Gabriel Andreae	 12
 Samuli S.	 12
@@ -156,7 +153,6 @@ Laurentius Petri Aboicus.	 12
 Korhos-Heikki.	 12
 Kilpi, Volter	 12
 K. H. T.	 12
-Kalke, Kosti	 12
 Jahnsson, Evald Ferdinand	 12
 Hannikainen, K. O. G.	 12
 Hagfors, K. J.	 12
@@ -164,44 +160,45 @@ Hagelstam, Wentzel.	 12
 Gripenberg, G. A.	 12
 E. L-n.	 12
 Carstenius, Henricus Henrici, vanh.	 12
+Brotherus, V. F.	 12
 Alanus, Abrahamus Claudii	 12
 A-ï-a.	 12
 Wallenius, Johannes Jeremiae	 11
 Ursin, Nicolaus Abrahamus	 11
 Thillot, Alfr.	 11
 Stretton, Hesba.	 11
-Schultén, M. W. af.	 11
 Sarcovius, Daniel Caroli	 11
 Pippingsköld, Josephus Gustavi	 11
 Leiviskä, Iivari.	 11
 Killinen, Kust.	 11
+Homén, E. A.	 11
 Hedengren, Edv.	 11
 Hallstén, Ilmi.	 11
 Granö, J. G.	 11
 Geijerstam, Gustaf af.	 11
 Fabritius, L. J.	 11
 Castrén, Zachris.	 11
-Wexionius, Olof Olofsson	 10
 Tres.	 10
 Stenij, Edv.	 10
-Schultén, Aug. af.	 10
+Schultén, M. W. af.	 10
 Sarlin, A. J.	 10
 Poukka, K. A.	 10
 O. K.	 10
+Neovius, E. R.	 10
 Mollerus, Arvidus Christiani	 10
 Mikszáth, Kálmán.	 10
 Lindforss, C. M.	 10
 Laurbecchius, Isaacus Petri	 10
-Karjalainen, K. F.	 10
+Kalke, Kosti	 10
 Hirvisalo, K. F.	 10
 Hannikainen, P. W.	 10
 Evald J.	 10
 Ekebom K. G.	 10
 Arenius, Olaus Magni	 10
-Appelqvist, Hj.	 10
 Alkio.	 10
 Wretlind, E. W.	  9
 Widenius, K. A.	  9
+Wexionius, Olof Olofsson	  9
 Wexionius, Olaus Olai	  9
 Viljanen, V. M. J.	  9
 Unonius, K. J. W.	  9
@@ -209,6 +206,7 @@ Szinnyei, József.	  9
 Stenroos, K. E.	  9
 Segerstedt, Albrekt Julius.	  9
 Schvindt, Fr. M.	  9
+Schultén, Aug. af.	  9
 Sarlin, K. K.	  9
 Rotilainen, Hijoppi.	  9
 Ponkala, E. W.	  9
@@ -243,6 +241,7 @@ Lithovius, Isaacus Michaelis	  8
 Krogerus, V. J. G.	  8
 Kolkkala, Väinö.	  8
 Klaveness, Thv.	  8
+Karjalainen, K. F.	  8
 Jalander, Y. W.	  8
 Hellström, F. E.	  8
 Colliander, Johannes Erlandi	  8
@@ -252,6 +251,7 @@ Blomqvist, T. J.	  8
 Björkenheim, Edv.	  8
 Aschelinus, Andreas Henrici	  8
 Arppe, N. J.	  8
+Appelqvist, Hj.	  8
 -a -g	  8
 Tunkelo, J. H.	  7
 Tudeer, L. O. Th.	  7
@@ -296,11 +296,9 @@ Ahola, Wilho.	  7
 Wallerius, Joh. Gottsch.	  6
 Vigelius, Sveno Laurentii	  6
 Veijon-Veikko.	  6
-Vartiainen, J. V.	  6
 Törn, Erlandus Erlandi	  6
 Tollesson, Pehr.	  6
 Tiitus.	  6
-Tigerstedt, A. F.	  6
 Tallqvist, T. W.	  6
 Suomalainen, E. W.	  6
 Siikaniemi, Alku.	  6
@@ -337,7 +335,6 @@ Heinricius, P. A.	  6
 Heinämaa, Siviä	  6
 Gestrinius, Ernestus Thomae	  6
 Gestrin, E. T.	  6
-Gartzius, Johan Mattsson	  6
 Garshin, Wsevolod.	  6
 Fransiska.	  6
 Fågel Blå.	  6
@@ -355,7 +352,9 @@ Widlund, Jacobus Andreae	  5
 Wanochius, Enevald Andersson	  5
 V. P-n.	  5
 Vlugt, W. van der.	  5
+Vartiainen, J. V.	  5
 Valbäck, F. J.	  5
+Tigerstedt, A. F.	  5
 Tallgren, O. J.	  5
 Taipale, A. E.	  5
 Stiernstråle, Johan Eriksson	  5
@@ -393,6 +392,7 @@ Heurlin, Paula af.	  5
 Helsingius, Naëma.	  5
 Hallenborg, J. F.	  5
 Haartman, M. von.	  5
+Gartzius, Johan Mattsson	  5
 Gadolin, A. W.	  5
 Emlekyl.	  5
 Daniel Henkikäsi, numero 3.	  5
@@ -461,7 +461,6 @@ Ottelin, A. K.	  4
 Österviking.	  4
 Nuormaa, Severi.	  4
 Monod, Th.	  4
-Mihailovski-Danilevski, A. I.	  4
 M. Gt.	  4
 Melartopaeus, Johannes Christierni	  4
 Mansikka, V. J.	  4
@@ -512,7 +511,6 @@ E. W.	  4
 Ervasti, A. W.	  4
 Erckmann, Émile.	  4
 Erasmus	  4
-Emilia.	  4
 Elo, Efr.	  4
 Elia	  4
 Ekström, F. W.	  4
@@ -606,7 +604,6 @@ Phaal, Andreo.	  3
 Petőfi, Sándor.	  3
 Pakarinen, Weikko.	  3
 Päiviö, Väinö.	  3
-Pacchalenius, Andreas Andreae	  3
 Otto Vilho.	  3
 Osmio, Uno.	  3
 Örnhielm, Claes Arvidsson	  3
@@ -624,6 +621,7 @@ Mustonen, J. A.	  3
 Müller, F. Max.	  3
 M. P.	  3
 Morbror Doktorn.	  3
+Mihailovski-Danilevski, A. I.	  3
 Markkula, Auli.	  3
 Marinero.	  3
 Mäki, Aaku.	  3
@@ -643,7 +641,6 @@ Lagus, F. H. B.	  3
 Läffler, L. Fr.	  3
 La Cour, Poul.	  3
 Lacmannus, Barthollus Johannis	  3
-Lachmann, J. J.	  3
 Kuusinen, Otto Wille	  3
 Kuusi.	  3
 Kurvinen, P. J. I.	  3
@@ -682,7 +679,6 @@ Henty, G. A.	  3
 Heikel, T. A.	  3
 Heikel, J. A.	  3
 Havulinna, J. W.	  3
-Hast, Hermannus Rudolphus	  3
 Hasselqwist, Andreas Andreae	  3
 Harmou, L. L.	  3
 Härjänsilmä, Anders Kreunpoika.	  3
@@ -709,6 +705,7 @@ Fabricius, Gustavus Christiani	  3
 Eukleides.	  3
 Enroth, Haquin.	  3
 En finne	  3
+Emilia.	  3
 Elster, Kristian Mandrup.	  3
 -el-el-	  3
 Ekblom, Heléna.	  3
@@ -938,7 +935,6 @@ Peldan, Isaacus	  2
 Pekka P.	  2
 Pekka K.	  2
 Peitzius, Martinus Gabrielis	  2
-Pedischeff.	  2
 Parvus.	  2
 Pärnänen, J. A.	  2
 Pansy.	  2
@@ -947,6 +943,7 @@ Pakkala, E. W.	  2
 Pakarinen, Weikko Otto.	  2
 Päiviö, Naëmi.	  2
 Paffraht, Gerdrut.	  2
+Pacchalenius, Andreas Andreae	  2
 Paavo-Kallio, Valfrid.	  2
 O. W. M.	  2
 Ouida.	  2
@@ -959,7 +956,6 @@ Oksanen, Väinö.	  2
 Öhman, C. A.	  2
 Oganovski, N. P.	  2
 Nykänen, Vietti	  2
--nw-	  2
 Nummelin, P. A.	  2
 Nummelin, C. H.	  2
 Nordström, J. E.	  2
@@ -1019,6 +1015,7 @@ Lannerus, Daniel Benedicti	  2
 Lakimies.	  2
 Låhrman, Bernhardus Gerhardi.	  2
 Laghe, Magnus Magni	  2
+Lachmann, J. J.	  2
 Labiche.	  2
 Kyösti.	  2
 Kyllijoki, J. F.	  2
@@ -1039,7 +1036,6 @@ Kokoschkin, Th.	  2
 Koito.	  2
 Knaapinen, M. A.	  2
 Klingstedt, F. W.	  2
-Kjerulf, Halfdan.	  2
 Kivinen, K. M.	  2
 Kivilinna, Väinö.	  2
 Kivikoski, J. F.	  2
@@ -1066,7 +1062,6 @@ Jukka L.	  2
 J. T-f.	  2
 J. T.	  2
 J. S. K.	  2
-J. R.	  2
 Joutsen, Jali.	  2
 Joukahainen, Vilkku	  2
 Jorma	  2
@@ -1123,6 +1118,7 @@ Heikel, Sofia Antoinette (Netta).	  2
 Heikel, S. M.	  2
 Heerdhielm, Henrik Henriksson	  2
 Haulivuori, Kaarlo Hemmo.	  2
+Hast, Hermannus Rudolphus	  2
 Hästesko, Alb.	  2
 Hasselblatt, I. W.	  2
 Haruzin, N. N.	  2
@@ -1260,7 +1256,6 @@ Aurén, P. W.	  2
 A. S.	  2
 Arvi K.	  2
 Arpiainen, Wilhelmiina	  2
-Arnoldson, Klas Pontus.	  2
 Arius	  2
 Arimo, Atri S.	  2
 Argelander, Fried. Wilh. Aug.	  2
@@ -1349,7 +1344,6 @@ Wilén, G. W.	  1
 Wikman, J. Edv.	  1
 Wikander, J. G.	  1
 Wijkman, Nicolaus Christopheri.	  1
-Wiitanen, Wihtori.	  1
 Wiitanen, P. R.	  1
 Wiedig, Wilh.	  1
 Wictorin, Wilh. Carol.	  1
@@ -1539,7 +1533,6 @@ Therman, Uno.	  1
 Thauvonius, Gabriel Jönsson	  1
 T. H.	  1
 Tettau, W. J. A. von.	  1
-Teslev	  1
 Tesche, Joachimus Johannis.	  1
 Terserus, Uno Johannis	  1
 Tepukka.	  1
@@ -1669,7 +1662,6 @@ Skorikov, N. P.	  1
 Sköldberg, P. B.	  1
 -s -k.	  1
 Sjöström, Wilho.	  1
-Sjöman, Hj.	  1
 Sjöblom, J. Ch.	  1
 Sjöberg, O. R.	  1
 Sjöberg, H. R. A.	  1
@@ -1724,7 +1716,6 @@ Sav'ojan Samppa.	  1
 Saukko.	  1
 Sasonof	  1
 Sarmatus	  1
-Sapir, Rickhard	  1
 Santeri M.	  1
 Sandeau, Léonard Sylvain Jules.	  1
 Sananpalvelija.	  1
@@ -1932,6 +1923,7 @@ Pelkonen, E. J.	  1
 Peldan, Israel Henrici	  1
 Pehkonen, F. A.	  1
 Pehkonen, E. Y.	  1
+Pedischeff.	  1
 P. E.	  1
 P. C. F. P. L.	  1
 Patomäki, K. A.	  1
@@ -2004,6 +1996,7 @@ Nyblom, C. R.	  1
 Nyblom, C. G.	  1
 Nybergh, Vihtori.	  1
 N. W.	  1
+-nw-	  1
 N - v - n.	  1
 Nuutinen, J. W.	  1
 Nurminen, K. J.	  1
@@ -2140,7 +2133,6 @@ Matareva.	  1
 Mary.	  1
 Marsh	  1
 Marschaniso, Matteran.	  1
-Marjanen, Väinö.	  1
 Maria Matthiaksentytär.	  1
 Mariaestadius, Isaacus.	  1
 Margarethe.	  1
@@ -2186,7 +2178,6 @@ Lucianus.	  1
 Lucianus	  1
 Lucas.	  1
 Lucander, Henricus Henrici.	  1
-L. S.	  1
 L. R. D.	  1
 Louise.	  1
 Louhivuori, Verneri	  1
@@ -2416,7 +2407,6 @@ Kaltschmied, Carol. Frider.	  1
 Kalm, Pehr.	  1
 Kalliala, K. J.	  1
 Kalle Marianpoika.	  1
-Kalle Antinpoika.	  1
 Kaliander, Sveno Johannis	  1
 Kaitila, Wilho.	  1
 Kaisla, E. A.	  1
@@ -2457,6 +2447,7 @@ Julin, Alb. Lindsay von.	  1
 Julenius, Samuel Zachariae	  1
 J. S. D.	  1
 J. R-mari.	  1
+J. R.	  1
 J. P. R.	  1
 J. P-n.	  1
 J. P. J.	  1
@@ -2566,7 +2557,6 @@ Huhti, J. A.	  1
 Hudjakov, I. A.	  1
 H. T.	  1
 H. S-n	  1
-H. S.	  1
 H. R. A.	  1
 Hougberg, K. J.	  1
 Hougberg, Isaacus	  1
@@ -2733,7 +2723,6 @@ Govinius, Zachris	  1
 Gösta Philip	  1
 Gornborg'.	  1
 Gordlevski, Wl.	  1
-Göös, Wilh.	  1
 Gombocz, Zoltán.	  1
 Goki.	  1
 Glöckner, D. G.	  1
@@ -2970,7 +2959,6 @@ D:r Judaeus.	  1
 Dreijer, K. G.	  1
 Don Anónimo.	  1
 D. K.	  1
-Djerf, O. E.	  1
 Dixi.	  1
 Descuret, J. B. F.	  1
 Desbeaux, Émile.	  1
@@ -3108,7 +3096,6 @@ Björklund, J. A.	  1
 Björklund, B. B.	  1
 Biur, Henricus Laurentii	  1
 Biörk, Israël	  1
-Biörckqvist, Anders Andin poika.	  1
 Bildstein, Carl Carlsson von	  1
 Bilang, J. J. von.	  1
 Biberg, Nicol. Freder.	  1
@@ -3162,6 +3149,7 @@ Aschaneus, Martinus Laurentii	  1
 Arvo K.	  1
 Arvily	  1
 Aronen, Väinö.	  1
+Arnoldson, Klas Pontus.	  1
 Arnerus, Laurentius Olai.	  1
 A. R-nen.	  1
 Arne C-m	  1

@@ -12,7 +12,7 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 71248 documents (99%). The publication years span 1-1955
+Publication year is available for 71248 documents (100%). The publication years span 1488-1919
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
@@ -25,7 +25,7 @@ Publication year is available for 71248 documents (99%). The publication years s
 
 [Title harmonization table](output.tables/title_conversion_nontrivial.csv)
 
-Top-20 titles are shown together with the number of documents. This info is available for 71916 documents (100%). There are 57062 unique titles.
+Top-20 titles are shown together with the number of documents. This info is available for 71245 documents (100%). There are 56603 unique titles.
 
 ![plot of chunk summarytitle](figure/summarytitle-1.png)
 
@@ -34,19 +34,6 @@ Top-20 titles are shown together with the number of documents. This info is avai
 Title count for the 20 unique languages. Some documents may have more than one language listed.
 
 [Unrecognized language entries](output.tables/language_unidentified.csv)  
-
-
-```
-## Error in function_list[[i]](value): could not find function "gather"
-```
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "key", value = character(0)): replacement has 0 rows, data has 434
-```
-
-```
-## Error in dfs$names: $ operator is invalid for atomic vectors
-```
 
 ![plot of chunk summarylang](figure/summarylang-1.png)
 

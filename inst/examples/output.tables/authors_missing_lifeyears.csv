@@ -1,6 +1,6 @@
 author_name	author_birth	author_death	Count
 Luther, Martti	NA	NA	268
-Tolstoi, Leo	NA	NA	109
+Tolstoi, Leo	NA	NA	108
 Doyle, Arthur Conan	NA	NA	 95
 Hjelt, August	NA	NA	 82
 Fant, Ericus Michael	NA	NA	 78
@@ -13,16 +13,16 @@ Munster, Johannes Bernhardi	1714	NA	 58
 Talvio, Maila	NA	NA	 57
 Wilskman, Ivar	NA	NA	 56
 Linnankoski, Johannes	NA	NA	 51
-Wegelius, Martin	NA	NA	 51
 Paul, Adolf	NA	NA	 50
-Ingersoll, Robert	NA	NA	 49
+Wegelius, Martin	NA	NA	 48
 Nervander, Emil	NA	NA	 47
 Maria	NA	NA	 45
 Snellman, G. R	NA	NA	 45
-Bergroth, Gustaf Elis	NA	NA	 44
+Bergroth, Gustaf Elis	NA	NA	 43
+Ingersoll, Robert	NA	NA	 42
 Buxhoevden, Friedrich Wilhelm Von	NA	NA	 41
-Nordenskiöld, Adolf Erik	NA	NA	 40
 Rein, Thiodolf	NA	NA	 40
+Nordenskiöld, Adolf Erik	NA	NA	 39
 Westermarck, Edvard	NA	NA	 39
 Uotinen, Mikko	NA	NA	 39
 Ryle, J. C	NA	NA	 38
@@ -31,17 +31,16 @@ Pauli, J	NA	NA	 37
 Gummerus, Jaakko	NA	NA	 37
 Westermarck, Helena	NA	NA	 36
 Dumas, Alexandre	NA	NA	 36
-Schmid, Johann Christoph Von	NA	NA	 34
 Meurman, Agathon	NA	NA	 34
-Hydén, Arvid	NA	NA	 34
 öhquist, Johannes	NA	NA	 34
 Hoffmann, Alexander Friedrich Franz	NA	NA	 34
+Schmid, Johann Christoph Von	NA	NA	 33
 Rosberg, Johan Evert	NA	NA	 33
+Hydén, Arvid	NA	NA	 33
 Wichmann, Yrjö	NA	NA	 33
 Wendt, Georg Von	NA	NA	 33
 Tigerstedt, Robert	NA	NA	 32
 Ignatius, K. E. F	NA	NA	 31
-Heikel, Ivar A	NA	NA	 31
 Halme, Kaarle	NA	NA	 31
 Bunyan, John	NA	NA	 30
 Ojala, Nestor	NA	NA	 30
@@ -50,18 +49,18 @@ Hjelt, Arthur	NA	NA	 30
 Kiljander, Robert	NA	NA	 30
 Hallstén, Onni	NA	NA	 30
 Nylander, Hannes	NA	NA	 30
-Lindelöf, L	NA	NA	 29
 Reuter, Jonatan	NA	NA	 29
 Nyström, Maria	NA	NA	 29
 Neovius, Adolf	NA	NA	 28
 Pipping, Hugo	NA	NA	 28
 Mechelin, L	NA	NA	 28
+Heikel, Ivar A	NA	NA	 28
 Werkko, Kaarle	NA	NA	 28
 Skovgaard-petersen, C	NA	NA	 28
 Trygg-helenius, Alli	NA	NA	 28
+Lindelöf, L	NA	NA	 27
 Heilala, Yrjö	NA	NA	 27
 Spurgeon, C. H	NA	NA	 27
-Aschan, Ossian	NA	NA	 27
 Strindberg, August	NA	NA	 27
 Sirén, Osvald	NA	NA	 27
 Lehtonen, Joel	NA	NA	 26
@@ -80,7 +79,6 @@ Nissinen, Alli	NA	NA	 25
 London, Jack	NA	NA	 25
 Hjelt, Vera	NA	NA	 24
 Tikkanen, J. J	NA	NA	 24
-Aspelin, Eliel	NA	NA	 24
 Boije, Rolf	NA	NA	 24
 Wichmann, V. K. E	NA	NA	 24
 Turgenev, Ivan	NA	NA	 24
@@ -90,9 +88,10 @@ Saxén, Ralf	NA	NA	 23
 Wahlberg, Ferdinand Von	NA	NA	 23
 Länkelä, Jaakko	NA	NA	 23
 Lagerborg, Rolf	NA	NA	 23
+Aspelin, Eliel	NA	NA	 23
 Heinricius, G	NA	NA	 23
 Gripenberg, Bertel	NA	NA	 23
-Sienkiewicz, Henryk	NA	NA	 23
+Aschan, Ossian	NA	NA	 23
 White, Ellen G	NA	NA	 23
 Gossner, Johannes	NA	NA	 23
 Swan, Anni	NA	NA	 23
@@ -110,13 +109,12 @@ Cederberg, A. R	NA	NA	 22
 Haapanen, Urho Viljo	NA	NA	 22
 Hacks, Alexander	1740	NA	 22
 Mellberg, E. J	NA	NA	 21
-Kihlman, Alfred Oswald	NA	NA	 21
 Erslev, Edouard	NA	NA	 21
+Sienkiewicz, Henryk	NA	NA	 21
 Lindelöf, Ernst	NA	NA	 21
 Verne, Jules	NA	NA	 21
 Danielson, Joh. Rich	NA	NA	 21
 Hermanson, Robert	NA	NA	 21
-Paasonen, Heikki	NA	NA	 21
 Sandelin, L. H	NA	NA	 21
 Johnsson, August Mikael	NA	NA	 21
 Caine, Hall	NA	NA	 21
@@ -127,6 +125,7 @@ Lilius, Axel	NA	NA	 20
 Roos, Magnus Friedrich	NA	NA	 20
 Mela, Aukusti Juhana	NA	NA	 20
 Funcke, Otto	NA	NA	 20
+Paasonen, Heikki	NA	NA	 20
 Blink, Carl	NA	NA	 20
 Nylander, John William	NA	NA	 20
 Häggman, Ossian	NA	NA	 20
@@ -134,37 +133,36 @@ Levander, K. M	NA	NA	 20
 Bonsdorff, Adolf Von	NA	NA	 20
 Lunde, Albert G	NA	NA	 20
 Schvindt, Theodor	NA	NA	 19
+Kihlman, Alfred Oswald	NA	NA	 19
 Cannelin, Knut	NA	NA	 19
-Mellin, Hj	NA	NA	 19
-Lönnbeck, Gustaf F	NA	NA	 19
 Scott, Walter	NA	NA	 19
 Smiles, Samuel	NA	NA	 19
-Sirelius, U. T	NA	NA	 19
 Karsten, T. E	NA	NA	 19
 Linné, Carl Von	NA	NA	 19
-Tallqvist, Knut	NA	NA	 18
-Sundell, A. F	NA	NA	 18
 Ibsen, Henrik	NA	NA	 18
+Lönnbeck, Gustaf F	NA	NA	 18
 Vest, Eliel	NA	NA	 18
 Krummacher, Friedrich Wilhelm	NA	NA	 18
 Fresenius, Johan Philipp	NA	NA	 18
-Twain, Mark	NA	NA	 18
 Zola, Émile	NA	NA	 18
 Roos, Mathilda	NA	NA	 18
+Sirelius, U. T	NA	NA	 18
 Gray, Alice	NA	NA	 18
 Jahnsson, Yrjö	NA	NA	 18
+Mellin, Hj	NA	NA	 18
 Alho, August	NA	NA	 18
 Ruotsalainen, Armas	NA	NA	 18
 Wecksell, Josef Julius	NA	NA	 17
 Key, Ellen	NA	NA	 17
 Hurtig, Karl	NA	NA	 17
-Enroth, Karolina	NA	NA	 17
 Westerback, Johan	NA	NA	 17
 Ojansuu, Heikki	NA	NA	 17
 Tegengren, Jacob	NA	NA	 17
+Tallqvist, Knut	NA	NA	 17
 Reuter, Enzio	NA	NA	 17
 Rosendal, Mauno	NA	NA	 17
 Spyri, Johanna	NA	NA	 17
+Twain, Mark	NA	NA	 17
 Sohlberg, Hedvig	NA	NA	 17
 Aarne, Antti	NA	NA	 17
 Collan, Anni	NA	NA	 17
@@ -180,7 +178,6 @@ Svensson, Joh	NA	NA	 16
 Hersleb, Peder	NA	NA	 16
 Relander, Konrad	NA	NA	 16
 Moody, D. L	NA	NA	 16
-Drummond, Henry	NA	NA	 16
 Procope, Hjalmar	NA	NA	 16
 Kipling, Rudyard	NA	NA	 16
 Tšehov, Anton	NA	NA	 16
@@ -193,6 +190,7 @@ Axelson, Väinö	NA	NA	 16
 Wilkuna, Kyösti	NA	NA	 16
 Lundén, Ossian	NA	NA	 16
 Palmgren, Rolf	NA	NA	 15
+Enroth, Karolina	NA	NA	 15
 Hausen, Reinhold	NA	NA	 15
 Ramsay, Anders	NA	NA	 15
 Lagus, Wilhelm	NA	NA	 15
@@ -200,12 +198,11 @@ Hornborg, Eirik	NA	NA	 15
 Bolin, Wilhelm	NA	NA	 15
 Talmage, T. De Witt	NA	NA	 15
 Torrey, R. A	NA	NA	 15
-Palander, Edvard Wilhelm	NA	NA	 15
 Cicero, Marcus Tullius	NA	NA	 15
 Thomasson, Pehr	NA	NA	 15
 Beskow, Nils	NA	NA	 15
+Sundell, A. F	NA	NA	 15
 Stenbäck, Josef	NA	NA	 15
-Donner, Arno	NA	NA	 15
 Salamnius, Mattias	1691	NA	 15
 Reuter, Fritz	NA	NA	 15
 Litzell, Karl Emil	NA	NA	 15
@@ -213,6 +210,7 @@ Goethe, Johann Wolfgang Von	NA	NA	 15
 Ervast, Karl	NA	NA	 15
 Melander, K. R	NA	NA	 15
 Vakaa, Gustaf Adolf	NA	NA	 15
+Drummond, Henry	NA	NA	 15
 Relander, O	NA	NA	 15
 Noponen, Alpo	NA	NA	 15
 Komppa, Gust	NA	NA	 15
@@ -224,15 +222,13 @@ Walakorpi, U. W	NA	NA	 15
 Alan, Henric Michelsson	NA	NA	 14
 Hultin, Arvid	NA	NA	 14
 Biaudet, Henry	NA	NA	 14
-Quirsfeld, Johann	NA	NA	 14
 Lönneström, K	NA	NA	 14
 Lagus, Ernst	NA	NA	 14
 Boldt, Robert	NA	NA	 14
+Palander, Edvard Wilhelm	NA	NA	 14
 Sandell, Lina	NA	NA	 14
 Thunberg, Carolus Petrus	NA	NA	 14
-Törngren, Adolf	NA	NA	 14
 Vollmar, Agnes	NA	NA	 14
-Karsten, Petter Adolf	NA	NA	 14
 Ekman, Oskar	NA	NA	 14
 Strukel, M	NA	NA	 14
 Rydberg, Viktor	NA	NA	 14
@@ -251,15 +247,13 @@ Onerva, L	NA	NA	 14
 Hernberg, Alarik	NA	NA	 14
 Serlachius, Julian	NA	NA	 14
 Ehrnrooth, Leo	NA	NA	 14
-Hultin, Tekla	NA	NA	 13
 Wiklund, K. B	NA	NA	 13
 Flodin, Karl	NA	NA	 13
-Paunu, U	NA	NA	 13
 Ruuth, Martti	NA	NA	 13
 Sundman, Gösta	NA	NA	 13
 Jotuni, Alfred	NA	NA	 13
-Levänen, S	NA	NA	 13
-Hällstén, K	NA	NA	 13
+Törngren, Adolf	NA	NA	 13
+Karsten, Petter Adolf	NA	NA	 13
 Tucker, Charlotte	NA	NA	 13
 Daudet, Alphonse	NA	NA	 13
 Pettinen, August	NA	NA	 13
@@ -279,13 +273,16 @@ Mattsson, Guss	NA	NA	 13
 Lehtimäki, Konrad	NA	NA	 13
 Backmann, Lars Henrik	1755	NA	 13
 De Lacy, Peter	NA	NA	 13
+Hultin, Tekla	NA	NA	 12
+Quirsfeld, Johann	NA	NA	 12
 Wesley, John	NA	NA	 12
 Krohn, Ilmari	NA	NA	 12
 France, Anatole	NA	NA	 12
 Uschakoff, I	NA	NA	 12
 Janson, Kristofer	NA	NA	 12
+Levänen, S	NA	NA	 12
+Hällstén, K	NA	NA	 12
 Wilcox, Thomas	NA	NA	 12
-Fagerlund, L. W	NA	NA	 12
 Tersteegen, Gerhard	NA	NA	 12
 Wrede, K. A	NA	NA	 12
 Pallin, Johan Rudolf	NA	NA	 12
@@ -307,6 +304,7 @@ Sucksdorff, Julia	NA	NA	 12
 Poppius, B	NA	NA	 12
 Calonius, Allan	NA	NA	 12
 Witting, Rolf	NA	NA	 12
+Paunu, U	NA	NA	 12
 Långfors, Arthur	NA	NA	 12
 Eerola, Eero	NA	NA	 12
 Aarnisalo, Otto	NA	NA	 12
@@ -325,7 +323,7 @@ Sievers, Richard	NA	NA	 11
 Ruin, Waldemar	NA	NA	 11
 Puškin, Aleksandr	NA	NA	 11
 Kolster, Rud	NA	NA	 11
-Bonsdorff, A	NA	NA	 11
+Fagerlund, L. W	NA	NA	 11
 Churberg, Waldemar	NA	NA	 11
 Paavo-kallio, Esa	NA	NA	 11
 Gogol, Nikolai	NA	NA	 11
@@ -364,13 +362,11 @@ Steiner, Rudolf	NA	NA	 10
 Helander, Antti Daniel	NA	NA	 10
 Fedotov, N	NA	NA	 10
 Stenberg, E. A	NA	NA	 10
-Sahlberg, John	NA	NA	 10
 Pipping, W	NA	NA	 10
-Petrelius, A	NA	NA	 10
-Norrlin, Johan Petter	NA	NA	 10
 Lindeqvist, Carl Johan	NA	NA	 10
 Lang, J. N	NA	NA	 10
 Granfelt, George Fredrik	NA	NA	 10
+Donner, Arno	NA	NA	 10
 Sivers, Henric Jacob	NA	NA	 10
 Möller, Johan	NA	NA	 10
 Hirvonen, Johan Wilhelm	NA	NA	 10
@@ -400,6 +396,7 @@ Berendts, Edward	NA	NA	  9
 Luther, Alex	NA	NA	  9
 Konow, Walter Von	NA	NA	  9
 Marx, Karl	NA	NA	  9
+Norrlin, Johan Petter	NA	NA	  9
 Lönnbeck, Waldemar	NA	NA	  9
 Warelius, Antero	NA	NA	  9
 Zschokke, Heinrich	NA	NA	  9
@@ -411,7 +408,6 @@ Cleve, Zacharias Joachim	NA	NA	  9
 Cooper, James Fenimore	NA	NA	  9
 Adami, Johan Samuel	NA	NA	  9
 Uhrström, Vilhelm	NA	NA	  9
-Alfvegrén, Georg Edvard	NA	NA	  9
 Wänttinen, Ernest	NA	NA	  9
 Murray, Andrew	NA	NA	  9
 Hammar, Kaarlo Aukusti	NA	NA	  9
@@ -442,7 +438,6 @@ Riverton, Stein	NA	NA	  9
 Baadsgaard, Anna	NA	NA	  9
 Barclay, Florence L	NA	NA	  9
 Flygare-carlén, Emilie	NA	NA	  9
-Homann, Johan Babtist	NA	NA	  9
 Reuter, Ossian	NA	NA	  8
 Klint, Gustaf Af	NA	NA	  8
 Gustafsson, C	NA	NA	  8
@@ -450,22 +445,18 @@ Hortling, Ivar	NA	NA	  8
 Lindeman, Berndt Adolf	NA	NA	  8
 Wesala, Kaarlo	NA	NA	  8
 Gadolin, G	NA	NA	  8
-Ilmonen, S	NA	NA	  8
 Dreijer, Tord	NA	NA	  8
 Kihlgren, Edit	NA	NA	  8
 Friis, Jens Andreas	NA	NA	  8
 Castrén, Gunnar	NA	NA	  8
-Holmberg, Carl Emil	NA	NA	  8
 Lille, Axel	NA	NA	  8
 Nyman, Severi	NA	NA	  8
 Lie, Bernt	NA	NA	  8
-Liebknecht, Wilhelm	NA	NA	  8
-Wiik, Fredrik Johan	NA	NA	  8
 Svanljung, John	NA	NA	  8
-Savander, Otto	NA	NA	  8
 Poppius, Alfred	NA	NA	  8
 Horatius Flaccus, Quintus	NA	NA	  8
 Grotenfelt, Arvi	NA	NA	  8
+Bonsdorff, A	NA	NA	  8
 Tammelander, Mathilda Emilia	NA	NA	  8
 Pontoppidan, Erik	NA	NA	  8
 Lewetzow, Cornelia	NA	NA	  8
@@ -489,16 +480,13 @@ Amicis, Edmondo De	NA	NA	  8
 Törnudd, Lilli	NA	NA	  8
 Serlachius, Allan	NA	NA	  8
 Schulman, Hugo	NA	NA	  8
-Kropotkin, Pjotr	NA	NA	  8
 Huhtala, Kyösti	NA	NA	  8
 Herkner, Heinrich	NA	NA	  8
 Frenssen, Gustav	NA	NA	  8
-Amirchanjanz, Abraham	NA	NA	  8
 Donner, Anders	NA	NA	  8
 öholm, Lars W	NA	NA	  8
 Berg, Henrik	NA	NA	  8
 Bang, Gustav	NA	NA	  8
-Lindgren, Bernh	NA	NA	  8
 Thors, Mårten	NA	NA	  8
 Söderhjelm, Torsten	NA	NA	  8
 Poirot, Jean	NA	NA	  8
@@ -518,11 +506,9 @@ Kaarne, Antti	NA	NA	  8
 Autere, Oskari	NA	NA	  8
 Atra, Kaarlo	NA	NA	  8
 Kivialho, K	NA	NA	  8
-Pritius, Johann Georg	NA	NA	  8
 Törner, Fabianus	NA	NA	  8
 Wång, Johannes Petri	1728	NA	  8
 Lönnbohm, Kasimir Agathon	NA	NA	  7
-Lundström, Anna	NA	NA	  7
 Topelius, Toini	NA	NA	  7
 Alcenius, Carolus Alexander	NA	NA	  7
 Reuter, C	NA	NA	  7
@@ -532,32 +518,35 @@ Appelgren, Hjalmar	NA	NA	  7
 Suvorov, P	NA	NA	  7
 Tainio, Taavi	NA	NA	  7
 Maupassant, Guy De	NA	NA	  7
-Röyhy, Sara	NA	NA	  7
+Ilmonen, S	NA	NA	  7
 Wuorinen, Johan	NA	NA	  7
 Borenius, Tancred	NA	NA	  7
 Stockmayer, Otto	NA	NA	  7
 Pälsi, Sakari	NA	NA	  7
 Lehén, Emil	NA	NA	  7
+Holmberg, Carl Emil	NA	NA	  7
 Rahikainen, Kaarlo Juho	NA	NA	  7
+Liebknecht, Wilhelm	NA	NA	  7
 Wright, V. Von	NA	NA	  7
 Weikkolin, Ida	NA	NA	  7
 Warneck, Gustav Adolf	NA	NA	  7
+Sahlberg, John	NA	NA	  7
 Ploetz, Carl	NA	NA	  7
 Vergilius Maro, Publius	NA	NA	  7
 Lange, Ina	NA	NA	  7
 Hjelt, Hjalmar	NA	NA	  7
 Varin, Charles Victor	NA	NA	  7
 Grotenfelt, Julius	NA	NA	  7
+Petrelius, A	NA	NA	  7
+Savander, Otto	NA	NA	  7
 Tawaststjerna, Werner	NA	NA	  7
 Marden, Orison Swett	NA	NA	  7
-Sonck, Emil	NA	NA	  7
 Smirnoff, Alexandra	NA	NA	  7
 Paleario, Antonio	NA	NA	  7
 Richter, F. E	NA	NA	  7
 Oppman, Romulus Magnus	NA	NA	  7
 Nohrborg, Anders	NA	NA	  7
 Saarelainen, K	NA	NA	  7
-Langlet, Mathilda	NA	NA	  7
 Kielland, Alexander Lange	NA	NA	  7
 Hall, Newman	NA	NA	  7
 Eneroth, Olof	NA	NA	  7
@@ -598,10 +587,12 @@ Gerstäcker, Friedrich	NA	NA	  7
 Janson, Ture	NA	NA	  7
 Jacobson, Efr	NA	NA	  7
 Invenius, Rosa	NA	NA	  7
+Amirchanjanz, Abraham	NA	NA	  7
 Wasastjerna, Torsten	NA	NA	  7
 Ramsay, Jully	NA	NA	  7
 Mott, John R	NA	NA	  7
 Herlin, Rafael	NA	NA	  7
+Lindgren, Bernh	NA	NA	  7
 Penn-lewis, Jessie	NA	NA	  7
 Wuolijoki, Sulo	NA	NA	  7
 Hearn, Lafcadio	NA	NA	  7
@@ -631,16 +622,16 @@ Savolainen, Kalle	NA	NA	  7
 Jansson, Uno	NA	NA	  7
 Hannula, J. R	NA	NA	  7
 Rahunen, Petter	NA	NA	  7
-Renner, Michael Michaelis	1692	NA	  7
+Pritius, Johann Georg	NA	NA	  7
 Escholin, Israel	1742	NA	  7
-Leutemann, Heinrich	NA	NA	  6
+Lundström, Anna	NA	NA	  6
 Franklin, Benjamin	NA	NA	  6
 Simelius, Aukusti	NA	NA	  6
 Becker, A. E	NA	NA	  6
-Ohrt, F	NA	NA	  6
 Klingspor, Mauritz	NA	NA	  6
 Stenroth, Otto	NA	NA	  6
 Björlin, Gustaf	NA	NA	  6
+Röyhy, Sara	NA	NA	  6
 Blatchford, Robert	NA	NA	  6
 Kronman, A	NA	NA	  6
 Carlsson, A. W	NA	NA	  6
@@ -656,10 +647,10 @@ Wallin, Johan Fredrik	NA	NA	  6
 Grönroos, Hjalmar	NA	NA	  6
 Boxström, A	NA	NA	  6
 Dragomirow, M	NA	NA	  6
-Clopatt, Arthur	NA	NA	  6
 Stanley, Henry M	NA	NA	  6
 Bang, Herman	NA	NA	  6
 Reiche, Friedrich	NA	NA	  6
+Sonck, Emil	NA	NA	  6
 Snellman, Walter J	NA	NA	  6
 Snellman, K	NA	NA	  6
 Leadbeater, C. W	NA	NA	  6
@@ -672,6 +663,7 @@ Sandman, Gustaf Zachris	NA	NA	  6
 Pietikäinen, Abraham	NA	NA	  6
 Lindqvist, Carl Adolf	NA	NA	  6
 Lindblad, Johan Michael	NA	NA	  6
+Langlet, Mathilda	NA	NA	  6
 Järvinen, Nestor	NA	NA	  6
 Hammerich, Frederik	NA	NA	  6
 Godenius, Daniel	NA	NA	  6
@@ -701,6 +693,7 @@ Bonar, Horatius	NA	NA	  6
 Bernstein, A	NA	NA	  6
 Ahlgren, J. E	NA	NA	  6
 Tuhkanen, O	NA	NA	  6
+Alfvegrén, Georg Edvard	NA	NA	  6
 Westerlund, Walmis	NA	NA	  6
 Walton, O. F	NA	NA	  6
 Schulman, Hjalmar	NA	NA	  6
@@ -776,7 +769,6 @@ Ladenburg, Max	NA	NA	  6
 öhrlund, Saimi	NA	NA	  6
 Hilty, C	NA	NA	  6
 Herczeg, Ferenc	NA	NA	  6
-Hahl, M	NA	NA	  6
 Aspelund, Axel	NA	NA	  6
 Roberts, Charles G. D	NA	NA	  6
 Collins, Mabel	NA	NA	  6
@@ -789,7 +781,9 @@ Peeters, Edward	NA	NA	  6
 Angervo, Willie	NA	NA	  6
 Scheller, Johann Gerhard	NA	NA	  6
 Nieroth, Carl	NA	NA	  6
+Renner, Michael Michaelis	1692	NA	  6
 Flachsenius, Olaus Johannis	NA	NA	  6
+Leutemann, Heinrich	NA	NA	  5
 Sjöström, Elin	NA	NA	  5
 Mill, John Stuart	NA	NA	  5
 Rusila, O	NA	NA	  5
@@ -797,6 +791,7 @@ Nielsen, A	NA	NA	  5
 Blomqvist, Axel	NA	NA	  5
 Takolander, Alfons	NA	NA	  5
 Suchtelen, Jan Peter Van	NA	NA	  5
+Ohrt, F	NA	NA	  5
 Nemirovitš-dantšenko, Vasili	NA	NA	  5
 Andersson, G. A	NA	NA	  5
 Sombart, Werner	NA	NA	  5
@@ -813,14 +808,12 @@ Wasastjerna, Oscar	NA	NA	  5
 Tegn'er, Elof	NA	NA	  5
 Zweigbergk, Per Anton Von	NA	NA	  5
 Garborg, Arne	NA	NA	  5
-Wahlroos, Achilles	NA	NA	  5
 Stockham, Alice B	NA	NA	  5
 Savolin, Emil J	NA	NA	  5
 Olander, O	NA	NA	  5
 Lindström, Karl	NA	NA	  5
 Lindholm, Karl H	NA	NA	  5
 Ikonen, Leander	NA	NA	  5
-Holsti, Hugo	NA	NA	  5
 Ullman, Uddo Lechard	NA	NA	  5
 Engström, Otto	NA	NA	  5
 Tacitus, Publius Cornelius	NA	NA	  5
@@ -828,8 +821,7 @@ Sturm, Christoph Christian	NA	NA	  5
 Borenius, Georg	NA	NA	  5
 Snell, Johann Peter Ludwig	1764	NA	  5
 Blomqvist, Anna	NA	NA	  5
-Asp, Georg	NA	NA	  5
-Wrede, Mathilda	NA	NA	  5
+Wiik, Fredrik Johan	NA	NA	  5
 Wichmann, Ossian	NA	NA	  5
 Roscoe, H. E	NA	NA	  5
 Retzius, Lorenz Christofer	NA	NA	  5
@@ -948,6 +940,7 @@ Okkonen, Onni	NA	NA	  5
 Pylkkänen, Hilma	NA	NA	  5
 Smidt, Gerhard	NA	NA	  5
 Mäkelin, Yrjö Esaias	NA	NA	  5
+Kropotkin, Pjotr	NA	NA	  5
 Nikander, Gabriel	NA	NA	  5
 Munsterhjelm, Ludvig	NA	NA	  5
 Muderspach, L	NA	NA	  5
@@ -961,6 +954,7 @@ Kytömaa, Kaarlo	NA	NA	  5
 Christianson, Edwin	NA	NA	  5
 Cederholm, Hanna	NA	NA	  5
 Viitanen, Frans	NA	NA	  5
+Hahl, M	NA	NA	  5
 George, Henry	NA	NA	  5
 Turunen, W	NA	NA	  5
 Mömmö, Viljo J	NA	NA	  5
@@ -975,7 +969,6 @@ Kojo, Viljo	NA	NA	  5
 Ivalo, Jenny	NA	NA	  5
 Ingman, Alfred Emil	NA	NA	  5
 Busch, Oscar	NA	NA	  5
-Delisle, Guillaume	NA	NA	  5
 Wit, Frederick De	NA	NA	  5
 L'ecluse, Jacques De	1744	NA	  5
 Lidner, Bengt	NA	NA	  5
@@ -1017,7 +1010,6 @@ Andersson, Gunnar	NA	NA	  4
 Duff, Mildred	NA	NA	  4
 Forsman, Aukusti Valdemar	NA	NA	  4
 Zidbäck, John	NA	NA	  4
-Witkovsky, B	NA	NA	  4
 Wiklund, C. L	NA	NA	  4
 Tuderus, Victor Edvard Ludvig	NA	NA	  4
 Tavaststjerna, Hilja	NA	NA	  4
@@ -1025,15 +1017,16 @@ Stålhandske, Gustaf	NA	NA	  4
 Reuter, Ernst	NA	NA	  4
 Molander, Harald	NA	NA	  4
 Oehlenschlaeger, Adam	NA	NA	  4
-Högman, August	NA	NA	  4
 Hurt, Jakob	NA	NA	  4
-Nyberg, A. G	NA	NA	  4
+Wahlroos, Achilles	NA	NA	  4
 Lodenius, Elias	NA	NA	  4
+Clopatt, Arthur	NA	NA	  4
 Booth, Catherine	NA	NA	  4
 Tegnér, Esaias	NA	NA	  4
 Erasmus	NA	NA	  4
 Svan, Carl Gustaf	NA	NA	  4
 Strömborg, J	NA	NA	  4
+Asp, Georg	NA	NA	  4
 Weckman, Wald	NA	NA	  4
 Christoph	NA	NA	  4
 Sallustius Crispus, Gaius	NA	NA	  4
@@ -1180,10 +1173,10 @@ Valmari, Johannes	NA	NA	  4
 Brander, Seb	NA	NA	  4
 Bonsdorff, Axel Von	NA	NA	  4
 Ewald, Carl	NA	NA	  4
-Boldt, Jean	NA	NA	  4
 Törnudd, Sigurd	NA	NA	  4
 Wendt, Ernst Von	NA	NA	  4
 Tschudi, Clara	NA	NA	  4
+Wrede, Mathilda	NA	NA	  4
 Rein, Edv	NA	NA	  4
 Tallgrén, H	NA	NA	  4
 Terhi, Kaarlo	NA	NA	  4
@@ -1230,7 +1223,6 @@ Lennart, Väinö	NA	NA	  4
 Eklund, Hjalmar	NA	NA	  4
 Le Feuvre, Amy	NA	NA	  4
 Laine, V. J	NA	NA	  4
-Hjelt-cajanus, Esther	NA	NA	  4
 Helo, Toivo	NA	NA	  4
 Winter, Lisabeth	NA	NA	  4
 Hautala, Janne	NA	NA	  4
@@ -1267,7 +1259,8 @@ Eschstruth, Nataly Von	NA	NA	  4
 Engberg, Anna	NA	NA	  4
 Cotter, Arthur	NA	NA	  4
 Zola, Emile	NA	NA	  4
-Bowen, Emanuel	NA	1767	  4
+Delisle, Guillaume	NA	NA	  4
+Homann, Johan Babtist	NA	NA	  4
 Lidenius, Petrus Svenonis	NA	NA	  4
 Kemner, Heinricus Martini	1638	NA	  4
 Klingstedt, Timoteus Von	NA	NA	  4
@@ -1305,7 +1298,6 @@ Nielsen, Zakarias	NA	NA	  3
 Malmström, Carl Gustaf	NA	NA	  3
 Lundblad, Johan Fredrik Af	NA	NA	  3
 Jernvall, Janne	NA	NA	  3
-Grönblad, Edward	NA	NA	  3
 Alfthan, Max	NA	NA	  3
 Baranovski, S	NA	NA	  3
 Bulgarin, Faddei	NA	NA	  3
@@ -1345,7 +1337,6 @@ Moskvitš, Grigori	NA	NA	  3
 Fries, B	NA	NA	  3
 Willkomm, Moritz	NA	NA	  3
 Luthström, Carl Johan	NA	NA	  3
-Lindberg, Felix	NA	NA	  3
 Riis, C. P	NA	NA	  3
 Ricker, A. W	NA	NA	  3
 Kügelgen, Charles De	NA	NA	  3
@@ -1368,14 +1359,14 @@ Marmier, Xavier	NA	NA	  3
 Campe, Joachim Heinrich	NA	NA	  3
 Svedelius, Wilhelm Erik	NA	NA	  3
 Wartiainen, August	NA	NA	  3
-Bunge, G. Von	NA	NA	  3
-Frey, Johan A	NA	NA	  3
 Schauman, A	NA	NA	  3
 Rostedt, R	NA	NA	  3
 Mickwitz, Gerda Von	NA	NA	  3
 öller, Karl Fredrik	NA	NA	  3
+Högman, August	NA	NA	  3
 Gratschoff, Louis	NA	NA	  3
-Duhem, P	NA	NA	  3
+Witkovsky, B	NA	NA	  3
+Nyberg, A. G	NA	NA	  3
 Sandberg, Hugo Richard	NA	NA	  3
 Rautanen, Martti	NA	NA	  3
 Golovin, Wladimir	NA	NA	  3
@@ -1550,7 +1541,6 @@ Levón, Kaarlo	NA	NA	  3
 Laitinen, Joh	NA	NA	  3
 Bremer, K. V	NA	NA	  3
 Konttinen, Juho	NA	NA	  3
-Kochs, E	NA	NA	  3
 Kingsley, Charles	NA	NA	  3
 Haydn, Joseph	NA	NA	  3
 Jungell, Felix	NA	NA	  3
@@ -1576,6 +1566,7 @@ Ahlqvist, Ellen	NA	NA	  3
 Beskow, Natanael	NA	NA	  3
 Allén, Carl	NA	NA	  3
 Palander, Hugo	NA	NA	  3
+Holsti, Hugo	NA	NA	  3
 ågren, Robert	NA	NA	  3
 Moberg, Nenne	NA	NA	  3
 Aaltio, Eetu	NA	NA	  3
@@ -1599,6 +1590,7 @@ Granholm, Onni	NA	NA	  3
 Hartwall, Gösta	NA	NA	  3
 Sundman, Karl F	NA	NA	  3
 Waismaa, Kaarlo	NA	NA	  3
+Boldt, Jean	NA	NA	  3
 Björkstén, Max	NA	NA	  3
 Ungewitter, Richard	NA	NA	  3
 Ullmann, V	NA	NA	  3
@@ -1694,6 +1686,7 @@ Ekelund, Ragnar	NA	NA	  3
 Hästesko, Elsa	NA	NA	  3
 Lafargue, Paul	NA	NA	  3
 Holsti, Rudolf	NA	NA	  3
+Hjelt-cajanus, Esther	NA	NA	  3
 Hirn, David Fredrik	NA	NA	  3
 Vallgren, Ville	NA	NA	  3
 Havo, Tuomas	NA	NA	  3
@@ -1708,7 +1701,6 @@ Frerking, W	NA	NA	  3
 Fischer-dückelmann, Anna	NA	NA	  3
 Feilitzen, Hjalmar Von	NA	NA	  3
 Törnwall, Bertel	NA	NA	  3
-Erastow, Georg	NA	NA	  3
 Sarvi, Otto	NA	NA	  3
 Marck, Mary	NA	NA	  3
 Tirranen, M	NA	NA	  3
@@ -1765,6 +1757,7 @@ Knudsen, Jakob	NA	NA	  3
 Järvi, Hanna	NA	NA	  3
 Hedberg, F. G	NA	NA	  3
 Hall, J. V	NA	NA	  3
+Bowen, Emanuel	NA	1767	  3
 Hahn, Nicolaus Petri	1732	NA	  3
 Antoninus, Marcus Aurelius	NA	NA	  3
 Mardell Widman, Jacob	1769	NA	  3
@@ -1795,7 +1788,6 @@ Alstrin, Ericus	NA	NA	  3
 Piranesi, Francesco	NA	NA	  3
 Mathesius, Matthias	NA	NA	  3
 Kepplerus, Justus	NA	NA	  3
-Lindsten, O	NA	NA	  3
 Zethrin, Michael	NA	NA	  3
 Backman, Johannes Arvidi	1710	NA	  3
 Beckman, Johannes Caroli	1745	NA	  3
@@ -1838,6 +1830,7 @@ Friccius, Pierre De	NA	NA	  2
 Ingerslev, A	NA	NA	  2
 Odhner, Clas Theodor	NA	NA	  2
 Mankell, Julius	NA	NA	  2
+Grönblad, Edward	NA	NA	  2
 Leinberg, Karl Gustav	NA	NA	  2
 Struve, F. G. V	NA	NA	  2
 Moberg, K. A	NA	NA	  2
@@ -1875,7 +1868,6 @@ Lehtonen, Matti	NA	NA	  2
 Koponen, Wilhelm	NA	NA	  2
 Relander, Felix	1839	NA	  2
 Juntunen, Ewa M	NA	NA	  2
-Leontjeff, V	NA	NA	  2
 Avellan, Niilo J	NA	NA	  2
 Eichorn	NA	NA	  2
 Forstén, Torsten	NA	NA	  2
@@ -1898,7 +1890,6 @@ Sylwan, Otto	NA	NA	  2
 Schweitzer, Ph	NA	NA	  2
 Robert, Auguste	NA	NA	  2
 Norlind, Tobias	NA	NA	  2
-Tähtinen, Alma Aleksandra	NA	NA	  2
 Schiller, Ernst	NA	NA	  2
 Dietrichson, Lorentz	NA	NA	  2
 Boner, E. G	NA	NA	  2
@@ -1969,9 +1960,6 @@ Regnér, Laur	NA	NA	  2
 Tammelin, Erik Johan	NA	NA	  2
 Sokolov, D	NA	NA	  2
 Snellman, Johan Ludvig	NA	NA	  2
-Nyberg, Bernt Axel	NA	NA	  2
-Rochat, L. L	NA	NA	  2
-Mannteuffel, P	NA	NA	  2
 Sjölin, Jaakko	NA	NA	  2
 Silfvenius, Karl Wilhelm	NA	NA	  2
 Severin	NA	NA	  2
@@ -2001,6 +1989,7 @@ Tóth, Edvard	NA	NA	  2
 Krohn, K	NA	NA	  2
 Tiselius, Daniel	NA	NA	  2
 Ehrström, Erik	NA	NA	  2
+Duhem, P	NA	NA	  2
 Westerholm, Karl Uno Alexander	NA	NA	  2
 Dahlström, Selim Gustaf	NA	NA	  2
 Carstens, C	NA	NA	  2
@@ -2156,6 +2145,7 @@ Hellwig, Bernhard	NA	NA	  2
 Haanpää, J	NA	NA	  2
 Godet, Frédéric	NA	NA	  2
 Lenhardtson, A	NA	NA	  2
+Frey, Johan A	NA	NA	  2
 Flammarion, Camille	NA	NA	  2
 Engelhardt, E. V	NA	NA	  2
 Pipping, Elna	NA	NA	  2
@@ -2170,6 +2160,7 @@ Baird, Robert	NA	NA	  2
 Ashworth, John	NA	NA	  2
 Davis, Richard Harding	NA	NA	  2
 Ottolengui, Rodrigues	NA	NA	  2
+Bunge, G. Von	NA	NA	  2
 Blomberg, Arthur Oliver	NA	NA	  2
 Björkenheim, Adolf Edvard	NA	NA	  2
 Bergbom, Axel	NA	NA	  2
@@ -2258,7 +2249,6 @@ Hjelt, Otto Jonatan	NA	NA	  2
 Habicht, Ludvig	NA	NA	  2
 Kurtén, Lennart	NA	NA	  2
 Helin, Edv	NA	NA	  2
-Krook, Max	NA	NA	  2
 Grundmann, J	NA	NA	  2
 Kemmler, Gottlob	NA	NA	  2
 Dammann, J	NA	NA	  2
@@ -2363,6 +2353,7 @@ Kuusa, Pietari	NA	NA	  2
 Kringen, Olav	NA	NA	  2
 Krag, Vilhelm	NA	NA	  2
 Kolde, Theodor	NA	NA	  2
+Kochs, E	NA	NA	  2
 Bergstedt, Karl	NA	NA	  2
 Kleist, Heinrich Von	NA	NA	  2
 Keller, Helen	NA	NA	  2
@@ -2453,7 +2444,6 @@ Wyckoff, Walter A	NA	NA	  2
 Savage, Richard Henry	NA	NA	  2
 Wuorela, Kyösti	NA	NA	  2
 Wolkenstein, Ljudmila	NA	NA	  2
-Wilshire, Gaylord	NA	NA	  2
 Salmelainen, Olli	NA	NA	  2
 Wikman, Otto	NA	NA	  2
 Wiener-braunsberg, Josef	NA	NA	  2
@@ -2643,7 +2633,6 @@ Leiner, J. H	NA	NA	  2
 Lorris, Jean	NA	NA	  2
 Sjöström, W	NA	NA	  2
 Ljung-dahl, Mathilda	NA	NA	  2
-Laurent, L	NA	NA	  2
 Lindborg, Karl Johan	NA	NA	  2
 Lindberg, Ernst	NA	NA	  2
 Fircks, Curt	NA	NA	  2
@@ -2692,7 +2681,6 @@ Hultman, Eric	NA	NA	  2
 Hornanlinna, Rikhard	NA	NA	  2
 Hopkins, Ellice	NA	NA	  2
 Wetterhoff, Fritz	NA	NA	  2
-Hoffman, Henrik	NA	NA	  2
 Vesterinen, Emil	NA	NA	  2
 Hocking, Joseph	NA	NA	  2
 Vesa, Seth	NA	NA	  2
@@ -2702,7 +2690,6 @@ Byman, L. L	NA	NA	  2
 Heymann, Robert	NA	NA	  2
 Burman, Paul	NA	NA	  2
 Hesse, Hermann	NA	NA	  2
-Herneshuhta, Matti	NA	NA	  2
 Sylvesteri, Taavetti	NA	NA	  2
 Buch, Hans	NA	NA	  2
 Brotherus, Valter A	NA	NA	  2
@@ -2735,6 +2722,7 @@ Fellman, Arno	NA	NA	  2
 Holme, Vivan	NA	NA	  2
 Uoti, Johannes	NA	NA	  2
 Hämäläinen, K	NA	NA	  2
+Erastow, Georg	NA	NA	  2
 Tuomikoski, Yrjö	NA	NA	  2
 Tulenheimo, Antti	NA	NA	  2
 Saraoja, Emil	NA	NA	  2
@@ -2771,7 +2759,6 @@ Alain-fournier, Henri	NA	NA	  2
 Hellevaara, E	NA	NA	  2
 Suomela, Klaus U	NA	NA	  2
 Blumenthal, O	NA	NA	  2
-Korhonen, V. V	NA	NA	  2
 Bittner, Anton	NA	NA	  2
 Alléen, Gunnar	NA	NA	  2
 Bettex, F	NA	NA	  2
@@ -2927,9 +2914,7 @@ Kallio, A	NA	NA	  2
 Lampinen, Niilo E	NA	NA	  2
 Cicero	NA	NA	  2
 Loppenove, M	NA	NA	  2
-Moll, Herman	NA	1732	  2
 Valk, Gerardo	NA	NA	  2
-Ortelius, Abraham	NA	NA	  2
 Van Keulen, Gerard	NA	NA	  2
 Apraksin, Fedor	NA	NA	  2
 Lithovius, Michael Michaelis	1756	NA	  2
@@ -3016,6 +3001,7 @@ Kiöhlman, Jacob	NA	NA	  2
 Hartman, Jonas	NA	NA	  2
 Hagert, Thure E	1771	NA	  2
 Dillborg, Jonas	NA	NA	  2
+Lindsten, O	NA	NA	  2
 Miltopaeus, Erich	NA	NA	  2
 Gråå, Martinus Martini	1758	NA	  2
 Schubarth, Tobias	NA	NA	  2
@@ -3190,7 +3176,6 @@ Ekström, Gustaf Adolf	1840	NA	  1
 Manner, J. V	NA	NA	  1
 Allen, Grant	NA	NA	  1
 Nordlund, A. O	NA	NA	  1
-Salo, Jaakko	NA	NA	  1
 Saastamoinen, E	NA	NA	  1
 Pippingsköld, F	NA	NA	  1
 Mänttä, J	NA	NA	  1
@@ -3203,8 +3188,6 @@ Jalonen, K. F	NA	NA	  1
 Hirvonen, Matti	NA	NA	  1
 Ekblom, Helena	NA	NA	  1
 Costley, W	NA	NA	  1
-Cutting, George	NA	NA	  1
-Branström, Isak	NA	NA	  1
 Blomberg, Ewert	NA	NA	  1
 Askeli, Henry	NA	NA	  1
 Marenholz-bülow, Bertha Von	NA	NA	  1
@@ -3250,7 +3233,6 @@ Suharo, Vladimir	NA	NA	  1
 Pavlovski, Vladimir	NA	NA	  1
 Lvovitš, V	NA	NA	  1
 Lezint, A	NA	NA	  1
-Kelp, G. G	NA	NA	  1
 Sonck, Lars	NA	NA	  1
 Melnitski, V	NA	NA	  1
 Kaulbars, N	NA	NA	  1
@@ -3301,9 +3283,7 @@ Bougeault, Alfred	NA	NA	  1
 Belfrage, Sixten	NA	NA	  1
 Beckman, Albert	NA	NA	  1
 Barna, Ferdinánd	NA	NA	  1
-Mügge, Theodor	NA	NA	  1
 Lindqvist, J	NA	NA	  1
-Šnejerson, I	NA	NA	  1
 Sakslin, T	NA	NA	  1
 Salingre, Axel	NA	NA	  1
 Schott, Hr	NA	NA	  1
@@ -3322,10 +3302,10 @@ Hugg, Karl	NA	NA	  1
 Wetterhoff, Friedrich	NA	NA	  1
 Krepliak, Jacob	NA	NA	  1
 Engelhardt, Moritz Von	NA	NA	  1
-Schilling, V	NA	NA	  1
 Lyzlov, Nikolai	NA	NA	  1
 Brooke, Arthur De Capell	NA	NA	  1
 Stella	NA	NA	  1
+Lindberg, Felix	NA	NA	  1
 Boschetti, Ambrogio	NA	NA	  1
 Bielenstein, A	NA	NA	  1
 Mörtengren, Hans	NA	NA	  1
@@ -3345,11 +3325,9 @@ Pöntinen, Jalmari	NA	NA	  1
 Peterson, C. F	NA	NA	  1
 St. John, Vincent	NA	NA	  1
 Richebourg, Emile	NA	NA	  1
-Päivärinta, P	NA	NA	  1
 Pirinen, Edward	NA	NA	  1
 Pesola, Richard	NA	NA	  1
 Mangold, H. W	NA	NA	  1
-Macfadden, Bernarr	NA	NA	  1
 Lepistö, A	NA	NA	  1
 Lambert, L. A	NA	NA	  1
 Kokkonen, M	NA	NA	  1
@@ -3518,10 +3496,6 @@ Wagner-groben, W	NA	NA	  1
 Tea	NA	NA	  1
 Theremin, F	NA	NA	  1
 Stackelberg, Magnus	NA	NA	  1
-Gustafsson, Axel	NA	NA	  1
-Johnson, Mik	NA	NA	  1
-Johnson, M	NA	NA	  1
-Schwarz, H. A	NA	NA	  1
 Almberg, E	NA	NA	  1
 Renvall, Lennart T	NA	NA	  1
 Pury, J. De	NA	NA	  1
@@ -3540,7 +3514,6 @@ Filon, Augustin	NA	NA	  1
 Nordman, G. A	NA	NA	  1
 Nikkanen, Julia	NA	NA	  1
 Minucius, Felix M	NA	NA	  1
-Lundström, C	NA	NA	  1
 Loenbom, Julia	NA	NA	  1
 Lind, E. A	NA	NA	  1
 Lilljegren, Axel Germund	NA	NA	  1
@@ -3582,7 +3555,6 @@ Eriksson, Johan	NA	NA	  1
 Ekman, A	NA	NA	  1
 Tetterman, A	NA	NA	  1
 Dock, F. W	NA	NA	  1
-Anger, K	NA	NA	  1
 Damberg, Joh	NA	NA	  1
 Cygnaeus, Walter	NA	NA	  1
 Pravdin, I	NA	NA	  1
@@ -3947,6 +3919,7 @@ Russell, W. Clark	NA	NA	  1
 Clemen, Carl Friedrich Wilhelm	NA	NA	  1
 Reinhold, Roine	NA	NA	  1
 Rogstad, Anna	NA	NA	  1
+Rochat, L. L	NA	NA	  1
 Rietschel, Georg	NA	NA	  1
 Cederborgh, Fredrik	NA	NA	  1
 Cederberg, Jakob	NA	NA	  1
@@ -3959,6 +3932,7 @@ Pfaler, Karl Hjalmar Von	NA	NA	  1
 Pearse, Mark Guy	NA	NA	  1
 Olsson, Karl Sixtus	NA	NA	  1
 Olivecrona, Samuel Rudolf Detlof Knut	NA	NA	  1
+Nyberg, Bernt Axel	NA	NA	  1
 Nuutinen, Aukusti	NA	NA	  1
 Nordensvan, Karl Magnus Otto	NA	NA	  1
 Niemeyer, Paul	NA	NA	  1
@@ -3970,6 +3944,7 @@ Meissner, Hermann	NA	NA	  1
 Meinander, Ludvig	NA	NA	  1
 Böttiger, Carl Wilhelm	NA	NA	  1
 Bässler, Ferdinand	NA	NA	  1
+Mannteuffel, P	NA	NA	  1
 Lyly, Julius Anshelm	NA	NA	  1
 Luthardt, Christian Ernst	NA	NA	  1
 Ljungman, Carl	NA	NA	  1
@@ -4244,7 +4219,6 @@ Sayce, Archibald Henry	NA	NA	  1
 Malm, E	NA	NA	  1
 Sacher-masoch, Leopold Von	NA	NA	  1
 Tuomi, Otto	NA	NA	  1
-Rytkönen, Enok	NA	NA	  1
 Roslöf, Karl Gustaf	NA	NA	  1
 Hunter, M. M	NA	NA	  1
 Rinta, Matti	NA	NA	  1
@@ -4302,7 +4276,6 @@ Helle, Juhana Augustinus	NA	NA	  1
 Helenius, Petter Otto	NA	NA	  1
 Kihlberg, Carl	NA	NA	  1
 Kurtén, Karl	NA	NA	  1
-Kuhn, Rosa	NA	NA	  1
 Göransson, Carl Jacob Agathon	NA	NA	  1
 Gummerus, Julius Immanuel	NA	NA	  1
 Grönstrand, S	NA	NA	  1
@@ -4833,6 +4806,7 @@ Wirth, Albrecht	NA	NA	  1
 Helsing, Herman	NA	NA	  1
 Helo, Johan	NA	NA	  1
 Livius, Titus	NA	NA	  1
+Wilshire, Gaylord	NA	NA	  1
 Williams, J. E. Hodder	NA	NA	  1
 Limnell, Axel R	NA	NA	  1
 Wille, B	NA	NA	  1
@@ -5035,6 +5009,7 @@ Vasiljev, N	NA	NA	  1
 Scott-elliot, W	NA	NA	  1
 Lindeblad, Ad	NA	NA	  1
 L., V	NA	NA	  1
+Leontjeff, V	NA	NA	  1
 Lee, Ada	NA	NA	  1
 Häggman, Signe	NA	NA	  1
 Gahmberg, Thyra	NA	NA	  1
@@ -5056,10 +5031,8 @@ Arne C-m	NA	NA	  1
 Granberg, Rich	NA	NA	  1
 Cederström, Emil	NA	NA	  1
 Castrén, J	NA	NA	  1
-Glöckner, G	NA	NA	  1
 Lindqvist, Rafael	NA	NA	  1
 Buxhoeveden, Otto Von	NA	NA	  1
-Busch, Wilhelm	NA	NA	  1
 Sellin, Ernst	NA	NA	  1
 Im	NA	NA	  1
 Sederholm, E	NA	NA	  1
@@ -5067,7 +5040,6 @@ Schöyen, Elisabeth	NA	NA	  1
 Keto, Edvard	NA	NA	  1
 Forstén, Mortimer	NA	NA	  1
 Svenske, Jerker	NA	NA	  1
-Suhonen, Sofia	NA	NA	  1
 Forsius, Valter	NA	NA	  1
 Sundell, I. G	NA	NA	  1
 Vilén, Agda	NA	NA	  1
@@ -5439,6 +5411,7 @@ Karlsson, Lars Erik	NA	NA	  1
 Lavonius, M	NA	NA	  1
 Lavonius, Herman	NA	NA	  1
 Lavisse, Ernest	NA	NA	  1
+Laurent, L	NA	NA	  1
 Laurent, K. A	NA	NA	  1
 Lindqvist, Bruno	NA	NA	  1
 Lindgren, Aug	NA	NA	  1
@@ -5724,7 +5697,6 @@ Gerbidon, Marcel	NA	NA	  1
 Geismear, Leo M	NA	NA	  1
 Storbjörk, J	NA	NA	  1
 Gebert, Ernst	NA	NA	  1
-Gardener, Helen H	NA	NA	  1
 Wilskman, A	NA	NA	  1
 Gallon, Tom	NA	NA	  1
 Gagbeur, Bernhard	NA	NA	  1
@@ -5750,6 +5722,7 @@ Havukka, Ukko	NA	NA	  1
 Pipping, Rolf	NA	NA	  1
 Unger, A. W	NA	NA	  1
 Tönniges, C	NA	NA	  1
+Tähtinen, Alma Aleksandra	NA	NA	  1
 Rodziewitch, Etienne	NA	NA	  1
 Eronen, Oliwer	NA	NA	  1
 Tuores, J	NA	NA	  1
@@ -6054,7 +6027,6 @@ Graae, Ingrid	NA	NA	  1
 Gottschalk, Axel	NA	NA	  1
 Escande, Gustave	NA	NA	  1
 Goff, Mr	NA	NA	  1
-Potti, Aini	NA	NA	  1
 Erikson, Isidor	NA	NA	  1
 Glasell Andersson, Anna	NA	NA	  1
 Post, R. V	NA	NA	  1
@@ -6242,6 +6214,7 @@ Koskenmaa, Erik Johan	NA	NA	  1
 Korpitie, Kusti	NA	NA	  1
 Laakso, Juho	NA	NA	  1
 Kytömäki, Juho	NA	NA	  1
+Korhonen, V. V	NA	NA	  1
 Kuokkanen, Eero K	NA	NA	  1
 Korhonen, Sauli	NA	NA	  1
 Kulvik, Bertel	NA	NA	  1
@@ -6773,13 +6746,13 @@ Warren, Fred. D	NA	NA	  1
 Salminen, Nestori	NA	NA	  1
 Pennanen, Anni M	NA	NA	  1
 Vail, Chas. H	NA	NA	  1
-Malinen, Anie	NA	NA	  1
 Wall, Annie	NA	NA	  1
 Kolehmainen, Otto	NA	NA	  1
 Järvinen, Impi	NA	NA	  1
 Jokela, Selma	NA	NA	  1
 Ipsen, Alfred	NA	NA	  1
 Sahlman, Joh	NA	NA	  1
+Herneshuhta, Matti	NA	NA	  1
 Hirvonen, Santeri	NA	NA	  1
 Xenophon	NA	NA	  1
 Ruusuvuori, Oiva	NA	NA	  1
@@ -6875,6 +6848,7 @@ Kiljander, L	NA	NA	  1
 Kemppainen, Eino	NA	NA	  1
 Järvinen, E	NA	NA	  1
 Härkönen, I	NA	NA	  1
+Hoffman, Henrik	NA	NA	  1
 Braun, W. V. Crusentolpe	NA	NA	  1
 Halme, K	NA	NA	  1
 Gibbon, P	NA	NA	  1
@@ -6885,7 +6859,6 @@ Dumas, A	NA	NA	  1
 Daumig, E	NA	NA	  1
 Crawford, F. Marion	NA	NA	  1
 Castelnuovo, E	NA	NA	  1
-Browning, Robert	NA	NA	  1
 Bremer, Frederika	NA	NA	  1
 Bodkin, Mc Donnel	NA	NA	  1
 Andersen	NA	NA	  1
@@ -6906,8 +6879,8 @@ Morel-fatio, L	NA	NA	  1
 Barrett, Frank	NA	NA	  1
 Asp, K	NA	NA	  1
 Mursu, Johan	NA	NA	  1
-Bowen, Thomas	NA	1790	  1
 Brion De La Tour, Louis	NA	NA	  1
+Moll, Herman	NA	1732	  1
 Kitchin, Thomas	NA	NA	  1
 Janvier, Jean	NA	NA	  1
 Cluverius, Phil	NA	NA	  1
@@ -6915,12 +6888,12 @@ Bowles, Carington	NA	NA	  1
 Hase, Johann Matthias	NA	NA	  1
 Chatelain, Henri	NA	NA	  1
 Danckerts, Justus	NA	NA	  1
-Sandrart, Jacob Von	NA	NA	  1
 Janssonius, Joannes	NA	NA	  1
 Merian, Matthäus	NA	NA	  1
 Quad, Matthias	NA	NA	  1
 Le Rouge, Georges-louis	NA	NA	  1
 Hondius, Henricus	NA	NA	  1
+Ortelius, Abraham	NA	NA	  1
 Probst, Michael Johann	NA	NA	  1
 Wraxall, Nathaniel William	NA	NA	  1
 Zatta, Antonio	NA	NA	  1
@@ -7065,7 +7038,6 @@ Ungius, Petrus Johannis	1655	NA	  1
 Sundelius, Anders Larsson	1730	NA	  1
 Ståhlbom, Johannes Johannis	1737	NA	  1
 Stigelius, Henricus Michaelis	1700	NA	  1
-Roborinus, Laurentius Nicolai	NA	NA	  1
 Ringius, Magnus Nicolai	NA	NA	  1
 Ravonius, Andreas	1719	NA	  1
 Rauthelius, Johannes Danielis	1704	NA	  1
@@ -7109,7 +7081,6 @@ Klausen, Michael Nicolai	NA	NA	  1
 Hellenius, Petrus Jonae	1657	NA	  1
 Fleming, Claes Hermansson	1616	NA	  1
 Severus, Sulpicius	NA	NA	  1
-Josephus, Flavius	NA	NA	  1
 Hemmingius, Nicolaus	1600	NA	  1
 Bock, Michael	NA	NA	  1
 Niurenius, Nicolaus Petri	NA	NA	  1
