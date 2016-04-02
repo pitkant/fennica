@@ -51,6 +51,6 @@ tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
 
 # ---------------------------------
 
-source("knit_all.R")  # Summary md docs
+source("analysis.R")  # Summary md docs
 
 
