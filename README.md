@@ -8,8 +8,8 @@ This is an algorithmic toolkit for [R](http://r-project.org), designed for trans
 
 The data is summarized in the following automatically generated files:
 
- * [Overall summary of the Fennica metadata](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md)
  * [Analysis overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md) 
+ * [Miscellaneous notes on Fennica preprocessing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md)
  * [Analyses on specific publication places and other topics](https://github.com/rOpenGov/fennica/tree/master/inst/examples) (see the .md files)
  * [Digital History in Finland seminar (University of Helsinki, Dec 9, 2015)](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md) 
 
