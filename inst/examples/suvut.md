@@ -17,15 +17,37 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'members' not found
+## Error in eval(expr, envir, enclos): object 'df2' not found
 ```
 
 ```
-## Error in split.default(X, group): first argument must be a vector
+## Error in reorder(df2$family_name, df2$members): object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'extra' not found
+## Error in ggplot(df2, aes(x = family_name, y = members)): object 'df2' not found
 ```
 
-![plot of chunk suvut](figure/suvut-1.png)
+```
+## Error in fortify(data): object 'df2' not found
+```
+
+```
+## Error in p + coord_flip(): non-numeric argument to binary operator
+```
+
+```
+## Error in p + ylab(""): non-numeric argument to binary operator
+```
+
+```
+## Error in p + xlab(""): non-numeric argument to binary operator
+```
+
+```
+## Error in p + ggtitle("Etunimiä per sukunimi"): non-numeric argument to binary operator
+```
+
+```
+## numeric(0)
+```

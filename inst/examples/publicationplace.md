@@ -15,7 +15,8 @@ output: markdown_document
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``0.97``% of the documents have missing geocoordinates.
+
 
 
 Top-20 publication places are shown together with the number of documents. This info is available for 68328 documents (96%). There are 444 unique publication places. Overall 99% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).

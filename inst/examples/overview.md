@@ -11,7 +11,7 @@ Date:
 
 
 ```
-## [1] "Sat Apr  2 18:06:36 2016"
+## [1] "Sat Apr  2 21:54:44 2016"
 ```
 
 
@@ -105,6 +105,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_year      |         0.0|         100.0|         71248|        350|
 |publication_decade    |         0.0|         100.0|         71248|         40|
 |author_pseudonyme     |         0.0|         100.0|         71248|          1|
+
+
+Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+![plot of chunk missing2](figure/missing2-1.png)
 
 
 ## Histograms of all entries for numeric variables
