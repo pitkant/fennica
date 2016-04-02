@@ -11,7 +11,7 @@ Date:
 
 
 ```
-## [1] "Sat Apr  2 10:00:51 2016"
+## [1] "Sat Apr  2 10:03:40 2016"
 ```
 
 
@@ -42,79 +42,78 @@ Documents with data (number and percentage) and number of unique entries for eac
 |field_name            | missing| available|     n| unique_entries|
 |:---------------------|-------:|---------:|-----:|--------------:|
 |volnumber             |   100.0|       0.0|     0|              1|
-|publication_frequency |   100.0|       0.0|     0|              1|
-|publication_interval  |   100.0|       0.0|     0|              1|
-|uncontrolled          |   100.0|       0.0|     0|              1|
-|successor             |   100.0|       0.0|     0|              1|
-|width.original        |    99.9|       0.1|    23|             12|
-|height.original       |    99.8|       0.2|    41|             15|
-|publication_year_till |    99.2|       0.8|   136|             69|
-|physical_accomppanied |    98.8|       1.2|   204|             43|
-|physical_details      |    98.4|       1.6|   256|             33|
-|language2             |    97.3|       2.7|   448|             24|
-|subject_geography     |    76.3|      23.7|  3899|            374|
-|note_year             |    75.3|      24.7|  4062|            217|
-|note_granter          |    75.3|      24.7|  4070|             28|
-|author_gender         |    71.9|      28.1|  4625|              3|
-|note_510c             |    69.2|      30.8|  5081|           4973|
-|self_published        |    67.6|      32.4|  5343|              3|
-|author                |    67.0|      33.0|  5439|           1547|
-|author_name           |    66.9|      33.1|  5453|           1544|
-|author_death          |    61.5|      38.5|  6339|            249|
-|author_birth          |    56.9|      43.1|  7100|            244|
-|note_source           |    45.5|      54.5|  8970|           3829|
-|title_uniform         |    42.0|      58.0|  9546|           7394|
-|title_remainder       |    42.0|      58.0|  9554|           9289|
-|holder                |    38.4|      61.6| 10145|             28|
-|note_general          |     7.4|      92.6| 15260|           8132|
-|subject_topic         |     3.3|      96.7| 15928|           2825|
-|corporate             |     1.6|      98.4| 16200|            417|
-|publisher             |     1.3|      98.7| 16249|           2816|
-|obl                   |     0.2|      99.8| 16431|              3|
-|dissertation          |     0.1|      99.9| 16449|              3|
-|synodal               |     0.1|      99.9| 16449|              2|
-|latitude              |     0.1|      99.9| 16462|             81|
-|longitude             |     0.1|      99.9| 16462|             81|
-|publication_year_from |     0.0|     100.0| 16466|            256|
-|language.finnish      |     0.0|     100.0| 16471|              2|
-|language.swedish      |     0.0|     100.0| 16471|              2|
-|language.latin        |     0.0|     100.0| 16471|              2|
-|language.german       |     0.0|     100.0| 16471|              2|
-|language.english      |     0.0|     100.0| 16471|              2|
-|language.french       |     0.0|     100.0| 16471|              2|
-|language.russian      |     0.0|     100.0| 16471|              2|
-|language.greek        |     0.0|     100.0| 16471|              2|
-|language.danish       |     0.0|     100.0| 16471|              2|
-|language.italian      |     0.0|     100.0| 16471|              2|
-|language.hebrew       |     0.0|     100.0| 16471|              2|
-|language.dutch        |     0.0|     100.0| 16471|              2|
-|language.spanish      |     0.0|     100.0| 16471|              2|
-|language.sami         |     0.0|     100.0| 16471|              2|
-|language.modern_greek |     0.0|     100.0| 16471|              2|
-|language.icelandic    |     0.0|     100.0| 16471|              1|
-|language.arabic       |     0.0|     100.0| 16471|              2|
-|language.portuguese   |     0.0|     100.0| 16471|              2|
-|language.finnougrian  |     0.0|     100.0| 16471|              1|
-|language.multiple     |     0.0|     100.0| 16471|              2|
-|language.undetermined |     0.0|     100.0| 16471|              2|
-|title                 |     0.0|     100.0| 16471|          13753|
-|pagecount             |     0.0|     100.0| 16471|            220|
-|volcount              |     0.0|     100.0| 16471|              1|
-|gatherings.original   |     0.0|     100.0| 16471|             14|
-|obl.original          |     0.0|     100.0| 16471|              2|
-|original_row          |     0.0|     100.0| 16471|          16471|
-|gatherings            |     0.0|     100.0| 16471|             14|
-|width                 |     0.0|     100.0| 16471|             26|
-|height                |     0.0|     100.0| 16471|             24|
-|area                  |     0.0|     100.0| 16471|             34|
-|publication_year      |     0.0|     100.0| 16471|            255|
-|publication_decade    |     0.0|     100.0| 16471|             31|
-|publication_place     |     0.0|     100.0| 16471|             83|
-|country               |     0.0|     100.0| 16471|             16|
-|paper.consumption.km2 |     0.0|     100.0| 16471|            504|
-|author_pseudonyme     |     0.0|     100.0| 16471|              1|
-|pagecount.orig        |     0.0|     100.0| 16471|            220|
-|myplace               |     0.0|     100.0| 16471|              3|
+|uncontrolled          |    99.8|       0.2|   111|             99|
+|successor             |    99.4|       0.6|   404|            396|
+|physical_accomppanied |    99.3|       0.7|   471|            171|
+|publication_frequency |    98.6|       1.4|  1001|             51|
+|width.original        |    97.2|       2.8|  2021|            307|
+|publication_interval  |    95.3|       4.7|  3349|           2228|
+|publication_year_till |    94.8|       5.2|  3709|            185|
+|height.original       |    93.0|       7.0|  5058|            350|
+|note_year             |    92.1|       7.9|  5661|            283|
+|subject_geography     |    91.9|       8.1|  5838|            779|
+|note_granter          |    91.9|       8.1|  5845|             98|
+|note_510c             |    90.8|       9.2|  6652|           6457|
+|physical_details      |    88.6|      11.4|  8218|            174|
+|language2             |    85.2|      14.8| 10627|             59|
+|note_source           |    83.7|      16.3| 11754|           5003|
+|title_uniform         |    83.0|      17.0| 12209|           8937|
+|author_death          |    75.4|      24.6| 17678|            364|
+|author_birth          |    74.1|      25.9| 18638|            347|
+|corporate             |    71.7|      28.3| 20324|           1419|
+|subject_topic         |    71.0|      29.0| 20889|           3533|
+|author_gender         |    66.7|      33.3| 23963|              3|
+|paper.consumption.km2 |    65.4|      34.6| 24880|           1271|
+|self_published        |    59.5|      40.5| 29142|              3|
+|title_remainder       |    57.0|      43.0| 30915|          25258|
+|obl                   |    54.6|      45.4| 32687|              3|
+|author                |    51.9|      48.1| 34562|           9076|
+|author_name           |    51.6|      48.4| 34825|           9175|
+|note_general          |    50.6|      49.4| 35537|          21672|
+|holder                |    49.5|      50.5| 36295|           2162|
+|width                 |    47.6|      52.4| 37687|            310|
+|height                |    47.6|      52.4| 37687|            351|
+|area                  |    47.6|      52.4| 37687|            816|
+|pagecount.orig        |    43.1|      56.9| 40928|            393|
+|publisher             |    17.7|      82.3| 59180|          10832|
+|country               |     4.3|      95.7| 68810|             34|
+|publication_place     |     4.3|      95.7| 68829|            452|
+|latitude              |     1.0|      99.0| 71179|            381|
+|longitude             |     1.0|      99.0| 71179|            381|
+|publication_year_from |     1.0|      99.0| 71227|            356|
+|publication_year      |     0.9|      99.1| 71248|            356|
+|publication_decade    |     0.9|      99.1| 71248|             46|
+|dissertation          |     0.0|     100.0| 71893|              3|
+|synodal               |     0.0|     100.0| 71893|              2|
+|title                 |     0.0|     100.0| 71916|          57062|
+|pagecount             |     0.0|     100.0| 71917|            394|
+|language.finnish      |     0.0|     100.0| 71919|              2|
+|language.swedish      |     0.0|     100.0| 71919|              2|
+|language.latin        |     0.0|     100.0| 71919|              2|
+|language.german       |     0.0|     100.0| 71919|              2|
+|language.english      |     0.0|     100.0| 71919|              2|
+|language.french       |     0.0|     100.0| 71919|              2|
+|language.russian      |     0.0|     100.0| 71919|              2|
+|language.greek        |     0.0|     100.0| 71919|              2|
+|language.danish       |     0.0|     100.0| 71919|              2|
+|language.italian      |     0.0|     100.0| 71919|              2|
+|language.hebrew       |     0.0|     100.0| 71919|              2|
+|language.dutch        |     0.0|     100.0| 71919|              2|
+|language.spanish      |     0.0|     100.0| 71919|              2|
+|language.sami         |     0.0|     100.0| 71919|              2|
+|language.modern_greek |     0.0|     100.0| 71919|              2|
+|language.icelandic    |     0.0|     100.0| 71919|              2|
+|language.arabic       |     0.0|     100.0| 71919|              2|
+|language.portuguese   |     0.0|     100.0| 71919|              2|
+|language.finnougrian  |     0.0|     100.0| 71919|              2|
+|language.multiple     |     0.0|     100.0| 71919|              2|
+|language.undetermined |     0.0|     100.0| 71919|              2|
+|volcount              |     0.0|     100.0| 71919|              1|
+|gatherings.original   |     0.0|     100.0| 71919|             18|
+|obl.original          |     0.0|     100.0| 71919|              2|
+|original_row          |     0.0|     100.0| 71919|          71919|
+|gatherings            |     0.0|     100.0| 71919|             18|
+|author_pseudonyme     |     0.0|     100.0| 71919|              1|
 
 
 ## Histograms of all entries for numeric variables
@@ -123,12 +122,7 @@ Documents with data (number and percentage) and number of unique entries for eac
 
 ## Histograms of the top entries for factor variables
 
-
-```
-## Error in dfs$names: $ operator is invalid for atomic vectors
-```
-
-<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
+<img src="figure/summary-bars-1.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-2.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-3.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-4.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-5.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-6.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-7.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-8.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-9.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-10.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-11.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-12.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-13.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-14.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-15.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-16.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-17.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-18.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-19.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-20.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-21.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-22.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-23.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" /><img src="figure/summary-bars-24.png" title="plot of chunk summary-bars" alt="plot of chunk summary-bars" width="200px" />
 
 
 

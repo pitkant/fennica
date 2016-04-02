@@ -18,18 +18,18 @@ output: markdown_document
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv)
 
 
-Top-50 publication places are shown together with the number of documents. This info is available for 16471 documents (100%). There are 83 unique publication places. Overall 99.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 68829 documents (96%). There are 452 unique publication places. Overall 99% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
 
-|name        |     n|   fraction|
-|:-----------|-----:|----------:|
-|Finland     | 12453| 75.6056099|
-|Sweden      |  3338| 20.2659219|
-|Estonia     |   228|  1.3842511|
-|Germany     |   186|  1.1292575|
-|Russia      |   148|  0.8985490|
-|Netherlands |    32|  0.1942809|
+|name    |     n|   fraction|
+|:-------|-----:|----------:|
+|Finland | 58326| 81.0995703|
+|Sweden  |  5102|  7.0940920|
+|Russia  |  2555|  3.5526078|
+|USA     |   868|  1.2069133|
+|Germany |   769|  1.0692585|
+|Estonia |   285|  0.3962791|

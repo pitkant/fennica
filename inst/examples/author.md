@@ -15,7 +15,7 @@ output: markdown_document
 
 [Conversions from original to final names](output.tables/author_conversion_nontrivial.csv)
 
-Top-50 uniquely identified authors and their productivity (title count). In total, there are 1547 unique authors and 5439 documents with unambiguous author information (33%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 9076 unique authors and 34562 documents with unambiguous author information (48%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -47,6 +47,11 @@ Title count versus paper consumption (all authors):
 ```
 
 Publication timeline for top authors
+
+
+```
+## Warning: Removed 2 rows containing missing values (position_stack).
+```
 
 ![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
 

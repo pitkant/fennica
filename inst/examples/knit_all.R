@@ -6,8 +6,7 @@ df.preprocessed <- readRDS("df.Rds")
 output.folder <- "output.tables/"
 dir.create(output.folder)
 
-sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti",
-      			    output.folder = output.folder, ntop = 20)
+sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder = output.folder, ntop = 20)
 
 knitr::knit("summary.Rmd", encoding="UTF-8")
 knitr::knit("Helsinki.Rmd", encoding="UTF-8")
