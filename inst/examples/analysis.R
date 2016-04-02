@@ -1,12 +1,13 @@
-library(bibliographica)
-library(dplyr)
-library(knitr)
+source("analysis.init.R")
 
-df.preprocessed <- readRDS("df.Rds")
-output.folder <- "output.tables/"
-dir.create(output.folder)
+# ---------------------------------------------------------
 
-sf <- generate_summaryfiles(df.preprocessed, author = "Leo Lahti", output.folder = output.folder, ntop = 20)
+# Summarize the data and discarded entries
+tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
+
+# ---------------------------------
+
+sf <- generate_summaryfiles(df.preprocessed, author = author, output.folder = output.folder, ntop = ntop)
 
 knitr::knit("summary.Rmd", encoding="UTF-8")
 knitr::knit("Helsinki.Rmd", encoding="UTF-8")

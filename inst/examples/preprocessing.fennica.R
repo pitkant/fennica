@@ -1,3 +1,7 @@
+# Vol number and count fields could not be extracted from physical_extent field in Fennica - remove
+df.preprocessed$volcount <- NULL
+df.preprocessed$volnumber <- NULL
+
 # Harmonize some publication place names manually
 place <- df.preprocessed$publication_place
 
