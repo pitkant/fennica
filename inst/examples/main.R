@@ -39,7 +39,6 @@ source(system.file("extdata/validation.R", package = "bibliographica"))
 # -------------------------------
 
 source(system.file("extdata/enrich.R", package = "bibliographica"))
-
 source("enrich.fennica.R") # Fennica-specific
 
 print("Saving updates on preprocessed data")
