@@ -5,15 +5,7 @@ date: "2016-04-02"
 output: markdown_document
 ---
 
-# Summary
-
-Date:
-
-
-```
-## [1] "Sat Apr  2 21:54:44 2016"
-```
-
+# Preprocessing summary
 
 ## Specific fields
 

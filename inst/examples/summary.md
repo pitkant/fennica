@@ -6,10 +6,6 @@ date: "March 2, 2016"
 
 # Fennica summary
 
-## Annotated documents
-
-Fraction of documents with entries for each annotation field. For a full list of summaries for field contents, see [here](https://github.com/rOpenGov/fennica/tree/master/inst/examples/output.tables).
-
 
 
 
