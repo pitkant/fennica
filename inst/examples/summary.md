@@ -7,6 +7,15 @@ date: "March 2, 2016"
 # Fennica summary
 
 
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
+
+
+Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+![plot of chunk missing2](figure/missing2-1.png)
+
 
 
 ## Publisher 

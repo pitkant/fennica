@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-02"
+date: "2016-04-04"
 output: markdown_document
 ---
 
@@ -98,10 +98,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_decade    |         0.0|         100.0|         71248|         40|
 |author_pseudonyme     |         0.0|         100.0|         71248|          1|
 
-
-Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
-
-![plot of chunk missing2](figure/missing2-1.png)
 
 
 ## Histograms of all entries for numeric variables
