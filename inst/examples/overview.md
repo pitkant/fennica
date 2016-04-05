@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-04"
+date: "2016-04-05"
 output: markdown_document
 ---
 
@@ -61,10 +61,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount             |        43.0|          57.0|         40579|        393|
 |pagecount.orig        |        43.0|          57.0|         40579|        393|
 |publisher             |        17.5|          82.5|         58766|      10772|
-|country               |         4.1|          95.9|         68309|         33|
-|publication_place     |         4.1|          95.9|         68328|        444|
-|latitude              |         1.0|          99.0|         70559|        377|
-|longitude             |         1.0|          99.0|         70559|        377|
+|country               |         4.3|          95.7|         68213|         34|
+|publication_place     |         4.1|          95.9|         68297|        430|
+|latitude              |         1.1|          98.9|         70490|        365|
+|longitude             |         1.1|          98.9|         70490|        365|
 |dissertation          |         0.0|         100.0|         71222|          3|
 |synodal               |         0.0|         100.0|         71222|          2|
 |publication_year_from |         0.0|         100.0|         71229|        351|

@@ -3,11 +3,11 @@ Helsinki	26786
 Turku	13649
 Stockholm	3977
 Porvoo	3746
-Vaasa	3494
+Vaasa	3493
 Tampere	2461
 Kuopio	1551
 Hämeenlinna	1407
-Vyborg	1217
+Vyborg	1216
 Jyväskylä	1031
 Uppsala	752
 Pori	713
@@ -18,7 +18,7 @@ Rauma	251
 Mikkeli	240
 Tartu	215
 Hancock MI	210
-Leipzig	191
+Leipzig	193
 Kotka	176
 New York	167
 London	165
@@ -35,12 +35,12 @@ Savonlinna	95
 Örebro	95
 Hanko	84
 Pietarsaari	76
-Maarianhamina	66
+Mariehamn	66
 Käkisalmi	62
 Uusikaupunki	58
 Rostock	56
 Lappeenranta	55
-Kristiinankaupunki	54
+Kristiinankaupunki	55
 Tallinn	51
 Lund	51
 Kaleva MI	50
@@ -48,9 +48,9 @@ Amsterdam	46
 Riga	42
 Kajaani	42
 Wittenberg	39
-Kemi	39
 Duluth MN	39
 Moscow	38
+Kemi	38
 Oslo	36
 Calumet MI	35
 Heinola	33
@@ -107,18 +107,18 @@ Terijoki	8
 Salo	8
 Rome	8
 Karlskrona	8
-Isokyrö	8
-Härnösand	8
 Haaparanta	8
 Giessen	8
 Augsburg	8
 Zurich	7
 Wiesbaden	7
-Tubingen	7
+Tübingen	7
 Strasbourg	7
 Quincy MA	7
 Pernaja	7
+Isokyrö	7
 Ishpeming MI	7
+Härnösand	7
 Firenze	7
 Eura	7
 Vilnius	6
@@ -126,17 +126,14 @@ Reykjavik	6
 Piikkiö	6
 Parainen	6
 Narva	6
-Kaliningrad	6
 Jelgava	6
 Ísafjördur	6
-i.e nae	6
 Haarlem	6
 Bonn	6
 Bergen	6
 Visingsborg	5
 Tromsö	5
 Odense	5
-Nytorp	5
 Milano	5
 Jönnköping	5
 Jämsä	5
@@ -219,7 +216,6 @@ Mustasaari	2
 Montreal	2
 Maastricht	2
 Luleå	2
-Leibzig	2
 Köping	2
 Koivisto	2
 Kirkkonummi	2
@@ -229,6 +225,7 @@ Karstula	2
 Karlstad	2
 Karkku	2
 Karhula	2
+Kaliningrad	2
 Jurjew	2
 Janakkala	2
 Jaakkima	2
@@ -241,7 +238,6 @@ Harbor OH	2
 Hannover	2
 Hämeenkyrö	2
 Geneve	2
-Furth	2
 Freiburg im Breisgau	2
 Erfurt	2
 Ely MI	2
@@ -250,7 +246,7 @@ Cologne	2
 Cleveland OH	2
 Chisholm MN	2
 Breslau	2
-Boston	2
+Boston MA	2
 Almena WI	2
 Aarhus	2
 Aalborg	2
@@ -258,7 +254,7 @@ Aabenraa	2
 York	1
 Ylivieska	1
 Ylimarkku	1
-Wurzburg	1
+Würzburg	1
 Wismar	1
 Weida	1
 v telči	1
@@ -290,7 +286,6 @@ Tammela	1
 Taipalsaari	1
 Suonenjoki	1
 Sundsvall	1
-St Louis Kaunti MI	1
 Simola	1
 Siena	1
 Schwerin	1
@@ -318,11 +313,9 @@ Poznan	1
 Portland OR	1
 Pistoia	1
 Pinjainen	1
-piitem	1
 Pieksämäki	1
 Perkjärvi	1
 Perho	1
-pejteri	1
 Pännäinen	1
 Paimio	1
 Padova	1
@@ -367,10 +360,10 @@ Lammi	1
 Laihiala	1
 La Chapelle-Montligeon	1
 Kyrö	1
+kymi	1
 Kylmäkoski	1
 Kuusankoski	1
 Kurkijoki	1
-Kristinehamn	1
 Korsnäs	1
 Kokemäki	1
 Koivulahti	1
@@ -400,17 +393,13 @@ Hull	1
 Houghton MI	1
 Hirvensalmi	1
 Hinnerjoki	1
-Helsingör	1
-Heinäjoki	1
 Heilbronn	1
 Harjavalta	1
 Hanna WY	1
 Halberstadt	1
 Haderslev	1
-Gutersloh	1
 Godby	1
 Gera	1
-folkhögskolan breidablick	1
 Exeter	1
 Erlangen	1
 Elbingen	1
@@ -424,7 +413,6 @@ cedervaller poikineen	1
 Carlstad	1
 Calcutta	1
 Buenos Aires	1
-Brunn	1
 Brisbane	1
 Bridgeport CT	1
 Bremen	1
@@ -432,13 +420,11 @@ Brändö	1
 Björkboda	1
 Birmingham	1
 Bielefeld	1
-berttula	1
 b borg	1
 Askersund	1
 Arnstadt	1
 Arezzo	1
 Anttola	1
-Ancova	1
 Amersfoort	1
 Alfend	1
 Akureyri	1
