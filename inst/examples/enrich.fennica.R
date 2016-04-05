@@ -32,6 +32,7 @@ df.preprocessed$longitude[nainds] <- gctmp$lon[match(df.preprocessed$publication
 # This was combined with ESTC generic list to simplify
 # TODO Think how to split and generalize
 # Finally manual harmonization for the remaining place names
+# Now all synonymes moved in ESTC
 #f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
 #sn <- read.csv(f, sep = ";")
 #df.preprocessed$publication_place <- sorvi::harmonize_names(df.preprocessed$publication_place, synonymes = sn, check.synonymes = FALSE)$name
