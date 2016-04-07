@@ -73,25 +73,14 @@ df.preprocessed$publication_year_till[inds] <- maxs
 # Finally, remove the publication_interval field
 df.preprocessed$publication_interval <- NULL
 
-# Subsequent correction to the publication year fields
+# Also update the publication year fields
 print("Publication times")
 # Use from field; if from year not available, then use till year
 df.preprocessed$publication_year <- df.preprocessed$publication_year_from
 inds <- which(is.na(df.preprocessed$publication_year))
 df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[inds]
-
 # publication_decade
 df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
-
-#rminds <- which((df.preprocessed$publication_year_from[inds] == interval$from) &
-#               (df.preprocessed$publication_year_till[inds] == interval$till))
-#rminds <- union(rminds, which(rowSums(is.na(interval)) == 2))
-#head(unique(cbind(from0 = df.preprocessed$publication_year_from[inds],#
-#		  till0 = df.preprocessed$publication_year_till[inds],#
-#		  interval)[-rminds,]),30)
-
-
-
 
 
 
