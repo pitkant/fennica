@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-06"
+date: "2016-04-08"
 output: markdown_document
 ---
 
@@ -9,19 +9,23 @@ output: markdown_document
 
 [Accepted publication countries](output.tables/country_accepted.csv)
 
-[Publication country not identified](output.tables/country_discarded.csv)
+[Publication country not identified](output.tables/publication_place_missingcountry.csv) (add to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
+
+[Accepted publication places](output.tables/publication_place_accepted.csv)
 
 [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
 
-[Discarded publication places](output.tables/publication_place_discarded.csv)
+[Ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv)
+
+[Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept)
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.08``% of the documents have missing geocoordinates.
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.1``% of the documents have missing geocoordinates.
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68314 documents (96%). There are 437 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 68319 documents (96%). There are 439 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -30,9 +34,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name    |     n|   fraction|
 |:-------|-----:|----------:|
-|Finland | 58073| 81.5082529|
+|Finland | 58072| 81.5068493|
 |Sweden  |  5072|  7.1187963|
 |Russia  |  2433|  3.4148327|
 |USA     |   809|  1.1354705|
-|Germany |   768|  1.0779250|
+|Germany |   761|  1.0681002|
 |Estonia |   285|  0.4000112|

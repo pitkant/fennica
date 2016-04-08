@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	n= 68314  ( 100 % non-NA values)
+Total count: 	n= 68319  ( 100 % non-NA values)
 Helsinki	26786
 Turku	13649
 Stockholm	 3977
@@ -9,7 +9,7 @@ Tampere	 2461
 Kuopio	 1551
 Hämeenlinna	 1407
 Vyborg	 1217
-Jyväskylä	 1031
+Jyväskylä	 1030
 Uppsala	  752
 Pori	  713
 Oulu	  652
@@ -18,7 +18,7 @@ Sortavala	  545
 Rauma	  251
 Mikkeli	  240
 Tartu	  215
-Hancock MI	  210
+Hancock Mi	  210
 Leipzig	  193
 Kotka	  176
 New York	  167
@@ -28,7 +28,7 @@ Lahti	  160
 Hamina	  160
 Berlin	  156
 Paris	  148
-Fitchburg MA	  133
+Fitchburg Ma	  133
 Copenhagen	  128
 Joensuu	  126
 Kokkola	  107
@@ -44,23 +44,23 @@ Lappeenranta	   55
 Kristiinankaupunki	   55
 Tallinn	   51
 Lund	   51
-Kaleva MI	   50
+Kaleva Mi	   50
 Amsterdam	   46
 Riga	   42
 Kajaani	   42
 Wittenberg	   39
-Duluth MN	   39
+Duluth Mn	   39
 Moscow	   38
 Kemi	   38
 Oslo	   36
-Calumet MI	   35
+Calumet Mi	   35
 Heinola	   33
 Lapua	   31
 Raahe	   30
 Gothenburg	   30
 Loviisa	   29
 Skara	   28
-Port Arthur ON	   28
+Port Arthur On	   28
 Budapest	   28
 Ashtabula OH	   28
 Strängnäs	   26
@@ -82,10 +82,10 @@ Turenki	   16
 Hyvinkää	   16
 Braunschweig	   16
 Hamburg	   15
-Superior WI	   14
+Superior Wi	   14
 Karjaa	   14
 Frankfurt	   14
-Ironwood MI	   13
+Ironwood Mi	   13
 Iisalmi	   13
 Sairala	   12
 Nurnberg	   12
@@ -95,14 +95,14 @@ Pärnu	   11
 Lybeck	   11
 Halle	   11
 Norrköping	   10
-New York Mills MN	   10
+New York Mills Mn	   10
 Laihia	   10
 Forssa	   10
 Weimar	    9
 Warsaw	    9
 Heidelberg	    9
 Göttingen	    9
-Worcester MA	    8
+Worcester Ma	    8
 Utrecht	    8
 Terijoki	    8
 Salo	    8
@@ -113,13 +113,13 @@ Härnösand	    8
 Haaparanta	    8
 Giessen	    8
 Augsburg	    8
-Zurich	    7
+Zürich	    7
 Wiesbaden	    7
 Tubingen	    7
 Strasbourg	    7
-Quincy MA	    7
+Quincy Ma	    7
 Pernaja	    7
-Ishpeming MI	    7
+Ishpeming Mi	    7
 Firenze	    7
 Eura	    7
 Vilnius	    6
@@ -127,6 +127,7 @@ Reykjavik	    6
 Piikkiö	    6
 Parainen	    6
 Narva	    6
+Koningsberg	    6
 Jelgava	    6
 Ísafjördur	    6
 Haarlem	    6
@@ -200,17 +201,17 @@ The Hague	    2
 Suomussalmi	    2
 Stockton	    2
 Sorau	    2
-Smithville MN	    2
+Smithville Mn	    2
 Sipoo	    2
 Saarijärvi	    2
 Regensburg	    2
-Red Jacket MI	    2
+Red Jacket Mi	    2
 Pihlava	    2
-Philadelphia	    2
+Philadelphia Pa	    2
 Petäjävesi	    2
 Ottawa	    2
 Nyköping	    2
-New Haven MA	    2
+New Haven Ma	    2
 Närpiö	    2
 Naantali	    2
 Mustiala	    2
@@ -219,7 +220,6 @@ Montreal	    2
 Maastricht	    2
 Luleå	    2
 Köping	    2
-Koningsberg	    2
 Koivisto	    2
 Kirkkonummi	    2
 Kiiminki	    2
@@ -243,26 +243,27 @@ Geneve	    2
 Furth	    2
 Freiburg im Breisgau	    2
 Erfurt	    2
-Ely MI	    2
+Ely Mi	    2
 Dessau	    2
 Cologne	    2
 Cleveland OH	    2
-Chisholm MN	    2
+Chisholm Mn	    2
 Breslau	    2
-Boston MA	    2
-Almena WI	    2
+Boston	    2
+Almena Wi	    2
 Aarhus	    2
 Aalborg	    2
 Aabenraa	    2
 York	    1
 Ylivieska	    1
 Ylimarkku	    1
+Wurzburg	    1
 Wismar	    1
 Weida	    1
-v telči	    1
+V telči	    1
 Vreta	    1
 Vjatka	    1
-Virginia MN	    1
+Virginia Mn	    1
 Verona	    1
 Vantaa	    1
 Vammala	    1
@@ -271,12 +272,12 @@ Valamo	    1
 Vainikkala	    1
 Uusikirkko	    1
 USA	    1
-ûrev	    1
+Ûrev	    1
 Ulm	    1
 Ugra	    1
 Tyrnävä	    1
 Tuusula	    1
-Turtle Lake WI	    1
+Turtle Lake Wi	    1
 Tsingshi	    1
 Trondheim	    1
 Torgelow	    1
@@ -288,17 +289,17 @@ Tammela	    1
 Taipalsaari	    1
 Suonenjoki	    1
 Sundsvall	    1
-St Louis Kaunti MI	    1
+St Louis Kaunti Mi	    1
 Simola	    1
 Siena	    1
 Schwerin	    1
 Sauvo	    1
 Sarvilahti	    1
-Sandstone MI	    1
+Sandstone Mi	    1
 Salmi	    1
 Sakkola	    1
 Säkkijärvi	    1
-s a	    1
+S a	    1
 Rotterdam	    1
 Rock Springs WY	    1
 Red Lodge MT	    1
@@ -338,8 +339,8 @@ Neuchatel	    1
 Nanaimo BC	    1
 Mustio	    1
 Montpellier	    1
-Minneapolis MN	    1
-Milwaukee WI	    1
+Minneapolis Mn	    1
+Milwaukee Wi	    1
 Messina	    1
 Marttila	    1
 Mäntyharju	    1
@@ -382,9 +383,10 @@ Kauhajoki	    1
 Kaprio	    1
 Kangasala	    1
 Kallislahti	    1
-jetzo auffs newe zu stade	    1
+Jyvaeskylaessae	    1
+Jetzo auffs newe zu stade	    1
 Jalasjärvi	    1
-Jacobson MI	    1
+Jacobson Mi	    1
 Jääski	    1
 Inkoo	    1
 Inkeri	    1
@@ -393,7 +395,7 @@ Impilahti	    1
 Imatra	    1
 Hvitträsk	    1
 Hull	    1
-Houghton MI	    1
+Houghton Mi	    1
 Hirvensalmi	    1
 Hinnerjoki	    1
 Helsingör	    1
@@ -415,19 +417,19 @@ Dieren	    1
 Dantzig	    1
 Cluj-Napoca	    1
 Clear Creek UT	    1
-cedervaller poikineen	    1
+Cedervaller poikineen	    1
 Carlstad	    1
 Calcutta	    1
 Buenos Aires	    1
 Brunn	    1
 Brisbane	    1
-Bridgeport CT	    1
+Bridgeport Ct	    1
 Bremen	    1
 Brändö	    1
 Björkboda	    1
 Birmingham	    1
 Bielefeld	    1
-b borg	    1
+B borg	    1
 Askersund	    1
 Arnstadt	    1
 Arezzo	    1
