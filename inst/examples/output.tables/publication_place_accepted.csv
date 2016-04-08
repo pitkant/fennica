@@ -1,22 +1,22 @@
 Name	Count
 Total count: 	n= 68318  ( 100 % non-NA values)
-Helsinki	26765
-Turku	13647
-Stockholm	 3934
+Helsinki	26785
+Turku	13649
+Stockholm	 3976
 Porvoo	 3746
 Vaasa	 3494
 Tampere	 2461
-Kuopio	 1549
-Hämeenlinna	 1394
-Vyborg	 1215
+Kuopio	 1551
+Hämeenlinna	 1407
+Vyborg	 1217
 Jyväskylä	 1031
-Uppsala	  750
+Uppsala	  751
 Pori	  714
-Oulu	  649
+Oulu	  652
 St Petersburg	  621
 Sortavala	  545
 Rauma	  251
-Mikkeli	  238
+Mikkeli	  240
 Tartu	  215
 Hancock Mi	  210
 Leipzig	  193
@@ -39,14 +39,13 @@ Pietarsaari	   76
 Mariehamn	   66
 Käkisalmi	   62
 Uusikaupunki	   58
-Rostock	   55
+Rostock	   56
 Lappeenranta	   55
 Kristiinankaupunki	   55
 Tallinn	   51
 Lund	   51
 Kaleva Mi	   50
-Amsterdam	   45
-Stockholmisa turusa	   42
+Amsterdam	   46
 Riga	   42
 Kajaani	   42
 Wittenberg	   39
@@ -58,12 +57,12 @@ Calumet Mi	   35
 Heinola	   33
 Lapua	   31
 Raahe	   30
+Gothenburg	   30
 Loviisa	   29
-Gothenburg	   29
 Skara	   28
 Port Arthur On	   28
 Budapest	   28
-Ashtabula OH	   28
+Ashtabula Oh	   28
 Strängnäs	   26
 Västerås	   25
 Astoria Or	   25
@@ -85,9 +84,9 @@ Braunschweig	   16
 Hamburg	   15
 Superior Wi	   14
 Karjaa	   14
+Frankfurt	   14
 Ironwood Mi	   13
 Iisalmi	   13
-Frankfurt	   13
 Sairala	   12
 Nurnberg	   12
 Leiden	   12
@@ -101,7 +100,6 @@ Laihia	   10
 Forssa	   10
 Weimar	    9
 Warsaw	    9
-Helsinki viipuri	    9
 Heidelberg	    9
 Göttingen	    9
 Worcester Ma	    8
@@ -112,7 +110,6 @@ Rome	    8
 Karlskrona	    8
 Isokyrö	    8
 Härnösand	    8
-Hämeenlinna tampere	    8
 Haaparanta	    8
 Giessen	    8
 Augsburg	    8
@@ -163,8 +160,6 @@ Kuortane	    4
 Kouvola	    4
 Kiel	    4
 Karjalohja	    4
-Helsinki jyväskylä	    4
-Hämeenlinna porvoo	    4
 Gotha	    4
 Cassel	    4
 Basel	    4
@@ -173,7 +168,6 @@ Stralsund	    3
 Sääksmäki	    3
 Rock Island IL	    3
 Parikkala	    3
-Oulu turku	    3
 Naples	    3
 Lohja	    3
 Leeuwarden	    3
@@ -186,7 +180,7 @@ Helmstedt	    3
 Haunia	    3
 Gefle	    3
 Espoo	    3
-Cincinnati OH	    3
+Cincinnati Oh	    3
 Brussels	    3
 Braniewo	    3
 Barcelona	    3
@@ -198,12 +192,10 @@ Wandsbek	    2
 Virolahti	    2
 Viljandi	    2
 Viitasaari	    2
-Viipuri mikkeli	    2
 Vicenza	    2
 Venice	    2
 Urjala	    2
 Tyrvää	    2
-Turku helsinki	    2
 Trieste	    2
 The Hague	    2
 Suomussalmi	    2
@@ -225,7 +217,6 @@ Naantali	    2
 Mustiala	    2
 Mustasaari	    2
 Montreal	    2
-Mikkeli viipuri	    2
 Maastricht	    2
 Luleå	    2
 Köping	    2
@@ -243,10 +234,9 @@ Jaakkima	    2
 Ilmajoki	    2
 Ikaalinen	    2
 Huopalahti	    2
-Helsinki kuopio	    2
 Helsingborg	    2
 Heinävesi	    2
-Harbor OH	    2
+Harbor Oh	    2
 Hannover	    2
 Hämeenkyrö	    2
 Geneve	    2
@@ -256,7 +246,7 @@ Erfurt	    2
 Ely Mi	    2
 Dessau	    2
 Cologne	    2
-Cleveland OH	    2
+Cleveland Oh	    2
 Chisholm Mn	    2
 Breslau	    2
 Boston (Ambiguous)	    2
@@ -284,7 +274,6 @@ Uusikirkko	    1
 USA	    1
 Ûrev	    1
 Upsaliae stockholmiae	    1
-Upsaliae aboae	    1
 Ulm	    1
 Ugra	    1
 Tyrnävä	    1
@@ -314,7 +303,6 @@ Sakkola	    1
 Säkkijärvi	    1
 S a	    1
 Rotterdam	    1
-Rostochii stockholmiae	    1
 Rock Springs WY	    1
 Red Lodge MT	    1
 Ravenna	    1
@@ -382,8 +370,6 @@ Kymi	    1
 Kylmäkoski	    1
 Kuusankoski	    1
 Kurkijoki	    1
-Kuopio viipuri	    1
-Kuopio sortavala	    1
 Korsnäs	    1
 Kokemäki	    1
 Koivulahti	    1
@@ -413,25 +399,17 @@ Hull	    1
 Houghton Mi	    1
 Hirvensalmi	    1
 Hinnerjoki	    1
-Helsinki tampere	    1
 Helsingör	    1
-Helsingissä helsinki	    1
-Helsingfors turku	    1
-Helsingfors leipzig	    1
-Helsingfors köpenhamn	    1
 Heinäjoki	    1
 Heilbronn	    1
 Harjavalta	    1
 Hanna WY	    1
-Hämennlinna jyväskylä	    1
 Halberstadt	    1
 Haderslev	    1
 Gutersloh	    1
-Götheborg åbo	    1
 Godby	    1
 Gera	    1
 Gelsingfors peterburg	    1
-Francfort leipzig	    1
 Exeter	    1
 Erlangen	    1
 Elbingen	    1
@@ -458,7 +436,6 @@ Arnstadt	    1
 Arezzo	    1
 Anttola	    1
 Ancova	    1
-Amsteldam leipzig	    1
 Amersfoort	    1
 Alfend	    1
 Akureyri	    1
