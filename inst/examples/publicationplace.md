@@ -21,11 +21,19 @@ output: markdown_document
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
+<<<<<<< HEAD
 [Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.24``% of the documents have missing geocoordinates.
 
 
 
 Top-20 publication places are shown together with the number of documents. This info is available for 68318 documents (96%). There are 465 unique publication places. Overall 98.8% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+=======
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.1``% of the documents have missing geocoordinates.
+
+
+
+Top-20 publication places are shown together with the number of documents. This info is available for 68319 documents (96%). There are 439 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+>>>>>>> bbf718ef01f68bbfd0ccf6238fd93ea9ee3f8003
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -34,9 +42,17 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name    |     n|   fraction|
 |:-------|-----:|----------:|
+<<<<<<< HEAD
 |Finland | 58027| 81.4436896|
 |Sweden  |  5026|  7.0542331|
 |Russia  |  2431|  3.4120256|
 |USA     |   808|  1.1340669|
 |Germany |   759|  1.0652931|
+=======
+|Finland | 58072| 81.5068493|
+|Sweden  |  5072|  7.1187963|
+|Russia  |  2433|  3.4148327|
+|USA     |   809|  1.1354705|
+|Germany |   761|  1.0681002|
+>>>>>>> bbf718ef01f68bbfd0ccf6238fd93ea9ee3f8003
 |Estonia |   285|  0.4000112|
