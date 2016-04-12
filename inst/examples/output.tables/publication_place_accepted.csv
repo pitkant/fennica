@@ -1,441 +1,439 @@
-Name	Count
-Total count: 	n= 68318  ( 100 % non-NA values)
-Helsinki	26785
-Turku	13649
-Stockholm	 3976
-Porvoo	 3746
-Vaasa	 3494
-Tampere	 2461
-Kuopio	 1551
-Hämeenlinna	 1407
-Vyborg	 1217
-Jyväskylä	 1031
-Uppsala	  751
-Pori	  714
-Oulu	  652
-St Petersburg	  621
-Sortavala	  545
-Rauma	  251
-Mikkeli	  240
-Tartu	  215
-Hancock Mi	  210
-Leipzig	  193
-Kotka	  176
-New York	  167
-London	  165
-Tammisaari	  162
-Lahti	  160
-Hamina	  160
-Berlin	  156
-Paris	  148
-Fitchburg Ma	  133
-Copenhagen	  128
-Joensuu	  126
-Kokkola	  107
-Savonlinna	   95
-Örebro	   95
-Hanko	   84
-Pietarsaari	   76
-Mariehamn	   66
-Käkisalmi	   62
-Uusikaupunki	   58
-Rostock	   56
-Lappeenranta	   55
-Kristiinankaupunki	   55
-Tallinn	   51
-Lund	   51
-Kaleva Mi	   50
-Amsterdam	   46
-Riga	   42
-Kajaani	   42
-Wittenberg	   39
-Duluth Mn	   39
-Moscow	   38
-Kemi	   38
-Oslo	   36
-Calumet Mi	   35
-Heinola	   33
-Lapua	   31
-Raahe	   30
-Gothenburg	   30
-Loviisa	   29
-Skara	   28
-Port Arthur On	   28
-Budapest	   28
-Ashtabula Oh	   28
-Strängnäs	   26
-Västerås	   25
-Astoria Or	   25
-Uusikaarlepyy	   23
-München	   22
-Vienna	   21
-Kruunupyy	   21
-Jena	   21
-Stuttgart	   20
-Parkano	   20
-Greifswald	   20
-Dresden	   20
-Linköping	   19
-Chicago IL	   19
-Kaskinen	   18
-Turenki	   16
-Hyvinkää	   16
-Braunschweig	   16
-Hamburg	   15
-Superior Wi	   14
-Karjaa	   14
-Frankfurt	   14
-Ironwood Mi	   13
-Iisalmi	   13
-Sairala	   12
-Nurnberg	   12
-Leiden	   12
-Tornio	   11
-Pärnu	   11
-Lybeck	   11
-Halle	   11
-Norrköping	   10
-New York Mills Mn	   10
-Laihia	   10
-Forssa	   10
-Weimar	    9
-Warsaw	    9
-Heidelberg	    9
-Göttingen	    9
-Worcester Ma	    8
-Utrecht	    8
-Terijoki	    8
-Salo	    8
-Rome	    8
-Karlskrona	    8
-Isokyrö	    8
-Härnösand	    8
-Haaparanta	    8
-Giessen	    8
-Augsburg	    8
-Zürich	    7
-Wiesbaden	    7
-Tubingen	    7
-Strasbourg	    7
-Quincy Ma	    7
-Pernaja	    7
-Ishpeming Mi	    7
-Firenze	    7
-Eura	    7
-Vilnius	    6
-Reykjavik	    6
-Piikkiö	    6
-Parainen	    6
-Narva	    6
-Koningsberg	    6
-Jelgava	    6
-Ísafjördur	    6
-Haarlem	    6
-Bonn	    6
-Bergen	    6
-Visingsborg	    5
-Tromsö	    5
-Odense	    5
-Nytorp	    5
-Milano	    5
-Jönnköping	    5
-Jämsä	    5
-Haapajärvi	    5
-Falun	    5
-Cambridge (Ambiguous)	    5
-Bern	    5
-Archangelsk	    5
-Szczecin	    4
-Seinäjoki	    4
-Seattle WA	    4
-Rovaniemi	    4
-Oxford	    4
-Orivesi	    4
-Odessa	    4
-Marburg	    4
-Malmö	    4
-Madrid	    4
-Laitila	    4
-Kuortane	    4
-Kouvola	    4
-Kiel	    4
-Karjalohja	    4
-Gotha	    4
-Cassel	    4
-Basel	    4
-Antwerp	    4
-Stralsund	    3
-Sääksmäki	    3
-Rock Island IL	    3
-Parikkala	    3
-Naples	    3
-Lohja	    3
-Leeuwarden	    3
-Krakow	    3
-Kharkiv	    3
-Kauvatsa	    3
-Kainuu	    3
-Juva	    3
-Helmstedt	    3
-Haunia	    3
-Gefle	    3
-Espoo	    3
-Cincinnati Oh	    3
-Brussels	    3
-Braniewo	    3
-Barcelona	    3
-Altenstein	    3
-Altdorf	    3
-Ypäjä	    2
-Ylistaro	    2
-Wandsbek	    2
-Virolahti	    2
-Viljandi	    2
-Viitasaari	    2
-Vicenza	    2
-Venice	    2
-Urjala	    2
-Tyrvää	    2
-Trieste	    2
-The Hague	    2
-Suomussalmi	    2
-Stockton	    2
-Sorau	    2
-Smithville Mn	    2
-Sipoo	    2
-Saarijärvi	    2
-Regensburg	    2
-Red Jacket Mi	    2
-Pihlava	    2
-Philadelphia Pa	    2
-Petäjävesi	    2
-Ottawa	    2
-Nyköping	    2
-New Haven Ma	    2
-Närpiö	    2
-Naantali	    2
-Mustiala	    2
-Mustasaari	    2
-Montreal	    2
-Maastricht	    2
-Luleå	    2
-Köping	    2
-Koivisto	    2
-Kirkkonummi	    2
-Kiiminki	    2
-Kazan	    2
-Karstula	    2
-Karlstad	    2
-Karkku	    2
-Karhula	    2
-Jurjew	    2
-Janakkala	    2
-Jaakkima	    2
-Ilmajoki	    2
-Ikaalinen	    2
-Huopalahti	    2
-Helsingborg	    2
-Heinävesi	    2
-Harbor Oh	    2
-Hannover	    2
-Hämeenkyrö	    2
-Geneve	    2
-Furth	    2
-Freiburg im Breisgau	    2
-Erfurt	    2
-Ely Mi	    2
-Dessau	    2
-Cologne	    2
-Cleveland Oh	    2
-Chisholm Mn	    2
-Breslau	    2
-Boston (Ambiguous)	    2
-Almena Wi	    2
-Aarhus	    2
-Aalborg	    2
-Aabenraa	    2
-York	    1
-Ylivieska	    1
-Ylimarkku	    1
-Wurzburg	    1
-Wismar	    1
-Weida	    1
-V telči	    1
-Vreta	    1
-Vjatka	    1
-Virginia Mn	    1
-Verona	    1
-Vantaa	    1
-Vammala	    1
-Valkjärvi	    1
-Valamo	    1
-Vainikkala	    1
-Uusikirkko	    1
-USA	    1
-Ûrev	    1
-Upsaliae stockholmiae	    1
-Ulm	    1
-Ugra	    1
-Tyrnävä	    1
-Tuusula	    1
-Turtle Lake Wi	    1
-Tsingshi	    1
-Trondheim	    1
-Torgelow	    1
-Tomsk	    1
-Toholampi	    1
-Tervonsalmi	    1
-Terni	    1
-Tammela	    1
-Taipalsaari	    1
-Suonenjoki	    1
-Sundsvall	    1
-Stockh turus	    1
-St Louis Kaunti Mi	    1
-Simola	    1
-Siena	    1
-Schwerin	    1
-Sauvo	    1
-Sarvilahti	    1
-Sandstone Mi	    1
-Salmi	    1
-Sakkola	    1
-Säkkijärvi	    1
-S a	    1
-Rotterdam	    1
-Rock Springs WY	    1
-Red Lodge MT	    1
-Ravenna	    1
-Rautio	    1
-Rautalampi	    1
-Rantasalmi	    1
-Raisio	    1
-Räisälä	    1
-Rääkkylä	    1
-Quedlinburg	    1
-Purleigh	    1
-Prague	    1
-Poznan	    1
-Portland Or	    1
-Pistoia	    1
-Pinjainen	    1
-Pieksämäki	    1
-Perkjärvi	    1
-Perho	    1
-Pännäinen	    1
-Paimio	    1
-Padova	    1
-Oulainen	    1
-Otava	    1
-Orismala	    1
-Orimattila	    1
-Oradea	    1
-Oniipa	    1
-Nurmijärvi	    1
-Nummela	    1
-Nora	    1
-Noormarkku	    1
-Nokia	    1
-Nizza	    1
-Neuchatel	    1
-Nanaimo BC	    1
-Mustio	    1
-Montpellier	    1
-Minneapolis Mn	    1
-Milwaukee Wi	    1
-Messina	    1
-Marttila	    1
-Mäntyharju	    1
-Mänttä	    1
-Magdeburg	    1
-Macon	    1
-Maaninka	    1
-Lviv	    1
-Loimijoki	    1
-Loimaa	    1
-Lohtaja	    1
-Liverpool	    1
-Litoměřice	    1
-Lisbon	    1
-Liepaja	    1
-Letchworth	    1
-Le Mans	    1
-Lausanne	    1
-Landskrona	    1
-Lammi	    1
-Laihiala	    1
-La Chapelle-Montligeon	    1
-Kyrö	    1
-Kymi	    1
-Kylmäkoski	    1
-Kuusankoski	    1
-Kurkijoki	    1
-Korsnäs	    1
-Kokemäki	    1
-Koivulahti	    1
-Kodisjoki	    1
-Kivennapa	    1
-Kirvu	    1
-Kirchhain	    1
-Kettuvaara	    1
-Keltto	    1
-Kausala	    1
-Kaukaa	    1
-Kauhajoki	    1
-Kaprio	    1
-Kangasala	    1
-Kallislahti	    1
-Jetzo auffs newe zu stade	    1
-Jalasjärvi	    1
-Jacobson Mi	    1
-Jääski	    1
-Inkoo	    1
-Inkeri	    1
-Inari	    1
-Impilahti	    1
-Imatra	    1
-Hvitträsk	    1
-Hull	    1
-Houghton Mi	    1
-Hirvensalmi	    1
-Hinnerjoki	    1
-Helsingör	    1
-Heinäjoki	    1
-Heilbronn	    1
-Harjavalta	    1
-Hanna WY	    1
-Halberstadt	    1
-Haderslev	    1
-Gutersloh	    1
-Godby	    1
-Gera	    1
-Gelsingfors peterburg	    1
-Exeter	    1
-Erlangen	    1
-Elbingen	    1
-Edinburgh	    1
-Dordrecht	    1
-Dieren	    1
-Dantzig	    1
-Cluj-Napoca	    1
-Clear Creek UT	    1
-Chicago york	    1
-Carlstad	    1
-Calcutta	    1
-Buenos Aires	    1
-Brunn	    1
-Brisbane	    1
-Bridgeport Ct	    1
-Bremen	    1
-Brändö	    1
-Björkboda	    1
-Birmingham	    1
-Bielefeld	    1
-Askersund	    1
-Arnstadt	    1
-Arezzo	    1
-Anttola	    1
-Ancova	    1
-Amersfoort	    1
-Alfend	    1
-Akureyri	    1
+publication_place	country	Count
+Total count: 	71248	
+Aabenraa	Denmark	    2
+Aalborg	Denmark	    2
+Aarhus	Denmark	    2
+Akureyri	Iceland	    1
+Alfend	NA	    1
+Almena Wi	USA	    2
+Altdorf	Germany	    3
+Altenstein	Germany	    3
+Amersfoort	Netherlands	    1
+Amsterdam	Netherlands	   46
+Ancova	Latvia	    1
+Anttola	Finland	    1
+Antwerp	Belgium	    4
+Archangelsk	Russia	    5
+Arezzo	Italy	    1
+Arnstadt	Germany	    1
+Ashtabula Oh	USA	   28
+Askersund	Sweden	    1
+Astoria Or	USA	   25
+Augsburg	Germany	    8
+Barcelona	Spain	    3
+Basel	Switzerland	    4
+Bergen	Norway	    6
+Berlin	Germany	  156
+Bern	Switzerland	    5
+Bielefeld	Germany	    1
+Birmingham	England	    1
+Björkboda	Finland	    1
+Bonn	Germany	    6
+Boston (Ambiguous)	Ambiguous	    2
+Brändö	Finland	    1
+Braniewo	Poland	    3
+Braunschweig	Germany	   16
+Bremen	Germany	    1
+Breslau	Poland	    2
+Bridgeport Ct	USA	    1
+Brisbane	Australia	    1
+Brunn	Germany	    1
+Brussels	Belgium	    3
+Budapest	Hungary	   28
+Buenos Aires	Argentina	    1
+Calcutta	India	    1
+Calumet Mi	USA	   35
+Cambridge (Ambiguous)	Ambiguous	    5
+Carlstad	Sweden	    1
+Cassel	France	    4
+Chicago IL	USA	   19
+Chicago york	NA	    1
+Chisholm Mn	USA	    2
+Cincinnati Oh	USA	    3
+Clear Creek UT	USA	    1
+Cleveland Oh	USA	    2
+Cluj-Napoca	Romania	    1
+Cologne	Germany	    2
+Copenhagen	Denmark	  128
+Dantzig	Poland	    1
+Dessau	Germany	    2
+Dieren	Netherlands	    1
+Dordrecht	Netherlands	    1
+Dresden	Germany	   20
+Duluth Mn	USA	   39
+Edinburgh	Scotland	    1
+Elbingen	Germany	    1
+Ely Mi	USA	    2
+Erfurt	Germany	    2
+Erlangen	Germany	    1
+Espoo	Finland	    3
+Eura	Finland	    7
+Exeter	England	    1
+Falun	Sweden	    5
+Firenze	Italy	    7
+Fitchburg Ma	USA	  133
+Forssa	Finland	   10
+Frankfurt	Germany	   14
+Freiburg im Breisgau	Germany	    2
+Furth	Germany	    2
+Gefle	Sweden	    3
+Gelsingfors peterburg	NA	    1
+Geneve	Switzerland	    2
+Gera	Germany	    1
+Giessen	Germany	    8
+Godby	Finland	    1
+Gotha	Germany	    4
+Gothenburg	Sweden	   30
+Göttingen	Germany	    9
+Greifswald	Germany	   20
+Gutersloh	Germany	    1
+Haapajärvi	Finland	    5
+Haaparanta	Finland	    8
+Haarlem	Netherlands	    6
+Haderslev	Denmark	    1
+Halberstadt	Germany	    1
+Halle	Germany	   11
+Hamburg	Germany	   15
+Hämeenkyrö	Finland	    2
+Hämeenlinna	Finland	 1407
+Hamina	Finland	  160
+Hancock Mi	USA	  210
+Hanko	Finland	   84
+Hanna WY	USA	    1
+Hannover	Germany	    2
+Harbor Oh	USA	    2
+Harjavalta	Finland	    1
+Härnösand	Sweden	    8
+Haunia	Finland	    3
+Heidelberg	Germany	    9
+Heilbronn	Germany	    1
+Heinäjoki	Finland	    1
+Heinävesi	Finland	    2
+Heinola	Finland	   33
+Helmstedt	Germany	    3
+Helsingborg	Sweden	    2
+Helsingör	Denmark	    1
+Helsinki	Finland	26785
+Hinnerjoki	Finland	    1
+Hirvensalmi	Finland	    1
+Houghton Mi	USA	    1
+Hull	England	    1
+Huopalahti	Finland	    2
+Hvitträsk	Finland	    1
+Hyvinkää	Finland	   16
+Iisalmi	Finland	   13
+Ikaalinen	Finland	    2
+Ilmajoki	Finland	    2
+Imatra	Finland	    1
+Impilahti	Finland	    1
+Inari	Finland	    1
+Inkeri	Russia	    1
+Inkoo	Finland	    1
+Ironwood Mi	USA	   13
+Ísafjördur	Iceland	    6
+Ishpeming Mi	USA	    7
+Isokyrö	Finland	    8
+Jaakkima	Finland	    2
+Jääski	Russia	    1
+Jacobson Mi	USA	    1
+Jalasjärvi	Finland	    1
+Jämsä	Finland	    5
+Janakkala	Finland	    2
+Jelgava	Latvia	    6
+Jena	Germany	   21
+Jetzo auffs newe zu stade	NA	    1
+Joensuu	Finland	  126
+Jönnköping	Sweden	    5
+Jurjew	Latvia	    2
+Juva	Finland	    3
+Jyväskylä	Finland	 1031
+Kainuu	Finland	    3
+Kajaani	Finland	   42
+Käkisalmi	Finland	   62
+Kaleva Mi	USA	   50
+Kallislahti	Finland	    1
+Kangasala	Finland	    1
+Kaprio	Finland	    1
+Karhula	Finland	    2
+Karjaa	Finland	   14
+Karjalohja	Finland	    4
+Karkku	Finland	    2
+Karlskrona	Sweden	    8
+Karlstad	Sweden	    2
+Karstula	Finland	    2
+Kaskinen	Finland	   18
+Kauhajoki	Finland	    1
+Kaukaa	Finland	    1
+Kausala	Finland	    1
+Kauvatsa	Finland	    3
+Kazan	Russia	    2
+Keltto	Finland	    1
+Kemi	Finland	   38
+Kettuvaara	Finland	    1
+Kharkiv	Ukraine	    3
+Kiel	Germany	    4
+Kiiminki	Finland	    2
+Kirchhain	Germany	    1
+Kirkkonummi	Finland	    2
+Kirvu	Finland	    1
+Kivennapa	Finland	    1
+Kodisjoki	Finland	    1
+Koivisto	Finland	    2
+Koivulahti	Finland	    1
+Kokemäki	Finland	    1
+Kokkola	Finland	  107
+Koningsberg	Germany	    6
+Köping	Sweden	    2
+Korsnäs	Finland	    1
+Kotka	Finland	  176
+Kouvola	Finland	    4
+Krakow	Poland	    3
+Kristiinankaupunki	Finland	   55
+Kruunupyy	Finland	   21
+Kuopio	Finland	 1551
+Kuortane	Finland	    4
+Kurkijoki	Finland	    1
+Kuusankoski	Finland	    1
+Kylmäkoski	Finland	    1
+Kymi	Finland	    1
+Kyrö	Finland	    1
+La Chapelle-Montligeon	France	    1
+Lahti	Finland	  160
+Laihia	Finland	   10
+Laihiala	Finland	    1
+Laitila	Finland	    4
+Lammi	Finland	    1
+Landskrona	Sweden	    1
+Lappeenranta	Finland	   55
+Lapua	Finland	   31
+Lausanne	Switzerland	    1
+Leeuwarden	Netherlands	    3
+Leiden	Netherlands	   12
+Leipzig	Germany	  193
+Le Mans	France	    1
+Letchworth	England	    1
+Liepaja	Latvia	    1
+Linköping	Sweden	   19
+Lisbon	Portugal	    1
+Litoměřice	Czech Republic	    1
+Liverpool	England	    1
+Lohja	Finland	    3
+Lohtaja	Finland	    1
+Loimaa	Finland	    1
+Loimijoki	Finland	    1
+London	England	  165
+Loviisa	Finland	   29
+Luleå	Sweden	    2
+Lund	Sweden	   51
+Lviv	Ukraine	    1
+Lybeck	Germany	   11
+Maaninka	Finland	    1
+Maastricht	Netherlands	    2
+Macon	France	    1
+Madrid	Spain	    4
+Magdeburg	Germany	    1
+Malmö	Sweden	    4
+Mänttä	Finland	    1
+Mäntyharju	Finland	    1
+Marburg	Germany	    4
+Mariehamn	Finland	   66
+Marttila	Finland	    1
+Messina	Finland	    1
+Mikkeli	Finland	  240
+Milano	Italy	    5
+Milwaukee Wi	USA	    1
+Minneapolis Mn	USA	    1
+Montpellier	France	    1
+Montreal	Canada	    2
+Moscow	Russia	   38
+München	Germany	   22
+Mustasaari	Finland	    2
+Mustiala	Finland	    2
+Mustio	Finland	    1
+Naantali	Finland	    2
+Nanaimo BC	Canada	    1
+Naples	Italy	    3
+Närpiö	Finland	    2
+Narva	Estonia	    6
+Neuchatel	Switzerland	    1
+New Haven Ma	USA	    2
+New York	USA	  167
+New York Mills Mn	USA	   10
+Nizza	Italy	    1
+Nokia	Finland	    1
+Noormarkku	Finland	    1
+Nora	Sweden	    1
+Norrköping	Sweden	   10
+Nummela	Finland	    1
+Nurmijärvi	Finland	    1
+Nurnberg	Germany	   12
+Nyköping	Sweden	    2
+Nytorp	Sweden	    5
+Odense	Denmark	    5
+Odessa	Ukraine	    4
+Oniipa	Namibia	    1
+Oradea	Romania	    1
+Örebro	Sweden	   95
+Orimattila	Finland	    1
+Orismala	Finland	    1
+Orivesi	Finland	    4
+Oslo	Norway	   36
+Otava	Finland	    1
+Ottawa	Canada	    2
+Oulainen	Finland	    1
+Oulu	Finland	  652
+Oxford	England	    4
+Padova	Italy	    1
+Paimio	Finland	    1
+Pännäinen	Finland	    1
+Parainen	Finland	    6
+Parikkala	Finland	    3
+Paris	France	  148
+Parkano	Finland	   20
+Pärnu	Estonia	   11
+Perho	Finland	    1
+Perkjärvi	Finland	    1
+Pernaja	Finland	    7
+Petäjävesi	Finland	    2
+Philadelphia Pa	USA	    2
+Pieksämäki	Finland	    1
+Pietarsaari	Finland	   76
+Pihlava	Finland	    2
+Piikkiö	Finland	    6
+Pinjainen	Finland	    1
+Pistoia	Finland	    1
+Pori	Finland	  714
+Port Arthur On	Canada	   28
+Portland Or	USA	    1
+Porvoo	Finland	 3746
+Poznan	Poland	    1
+Prague	Czech Republic	    1
+Purleigh	England	    1
+Quedlinburg	Germany	    1
+Quincy Ma	USA	    7
+Raahe	Finland	   30
+Rääkkylä	Finland	    1
+Räisälä	Finland	    1
+Raisio	Finland	    1
+Rantasalmi	Finland	    1
+Rauma	Finland	  251
+Rautalampi	Finland	    1
+Rautio	Finland	    1
+Ravenna	Italy	    1
+Red Jacket Mi	USA	    2
+Red Lodge MT	USA	    1
+Regensburg	Germany	    2
+Reykjavik	Iceland	    6
+Riga	Latvia	   42
+Rock Island IL	USA	    3
+Rock Springs WY	USA	    1
+Rome	Italy	    8
+Rostock	Germany	   56
+Rotterdam	Netherlands	    1
+Rovaniemi	Finland	    4
+Sääksmäki	Finland	    3
+Saarijärvi	Finland	    2
+Sairala	Finland	   12
+Säkkijärvi	Finland	    1
+Sakkola	Finland	    1
+Salmi	Finland	    1
+Salo	Finland	    8
+Sandstone Mi	USA	    1
+Sarvilahti	Finland	    1
+Sauvo	Finland	    1
+Savonlinna	Finland	   95
+Schwerin	Germany	    1
+Seattle WA	USA	    4
+Seinäjoki	Finland	    4
+Siena	Italy	    1
+Simola	Finland	    1
+Sipoo	Finland	    2
+Skara	Sweden	   28
+Smithville Mn	USA	    2
+Sorau	Poland	    2
+Sortavala	Russia	  545
+St Louis Kaunti Mi	USA	    1
+Stockholm	Sweden	 3977
+Stockton	England	    2
+St Petersburg	Russia	  621
+Stralsund	Germany	    3
+Strängnäs	Sweden	   26
+Strasbourg	France	    7
+Stuttgart	Germany	   20
+Sundsvall	Sweden	    1
+Suomussalmi	Finland	    2
+Suonenjoki	Finland	    1
+Superior Wi	USA	   14
+Szczecin	Poland	    4
+Taipalsaari	Finland	    1
+Tallinn	Estonia	   51
+Tammela	Finland	    1
+Tammisaari	Finland	  162
+Tampere	Finland	 2461
+Tartu	Estonia	  215
+Terijoki	Finland	    8
+Terni	Finland	    1
+Tervonsalmi	Finland	    1
+The Hague	Netherlands	    2
+Toholampi	Finland	    1
+Tomsk	Russia	    1
+Torgelow	Germany	    1
+Tornio	Finland	   11
+Trieste	Italy	    2
+Tromsö	Norway	    5
+Trondheim	Norway	    1
+Tsingshi	China	    1
+Tubingen	Germany	    7
+Turenki	Finland	   16
+Turku	Finland	13649
+Turtle Lake Wi	USA	    1
+Tuusula	Finland	    1
+Tyrnävä	Finland	    1
+Tyrvää	Finland	    2
+Ugra	Russia	    1
+Ulm	Germany	    1
+Uppsala	Sweden	  752
+Ûrev	NA	    1
+Urjala	Finland	    2
+USA	USA	    1
+Utrecht	Netherlands	    8
+Uusikaarlepyy	Finland	   23
+Uusikaupunki	Finland	   58
+Uusikirkko	Finland	    1
+Vaasa	Finland	 3494
+Vainikkala	Finland	    1
+Valamo	Finland	    1
+Valkjärvi	Finland	    1
+Vammala	Finland	    1
+Vantaa	Finland	    1
+Västerås	Sweden	   25
+Venice	Italy	    2
+Verona	Italy	    1
+Vicenza	Italy	    2
+Vienna	Austria	   21
+Viitasaari	Finland	    2
+Viljandi	Estonia	    2
+Vilnius	Lithuania	    6
+Virginia Mn	USA	    1
+Virolahti	Finland	    2
+Visingsborg	Sweden	    5
+Vjatka	Russia	    1
+Vreta	Sweden	    1
+V telči	NA	    1
+Vyborg	Russia	 1217
+Wandsbek	Germany	    2
+Warsaw	Poland	    9
+Weida	Germany	    1
+Weimar	Germany	    9
+Wiesbaden	Germany	    7
+Wismar	Germany	    1
+Wittenberg	Germany	   39
+Worcester Ma	USA	    8
+Wurzburg	Germany	    1
+Ylimarkku	Finland	    1
+Ylistaro	Finland	    2
+Ylivieska	Finland	    1
+York	Ambiguous	    1
+Ypäjä	Finland	    2
+Zürich	Germany	    7
+NA	NA	 2931

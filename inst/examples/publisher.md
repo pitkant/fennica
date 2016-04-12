@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-08"
+date: "2016-04-13"
 output: markdown_document
 ---
 
@@ -14,7 +14,7 @@ output: markdown_document
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 58766 documents (82%). There are 10809 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 58766 documents (82%). There are 10813 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher   | titles|     paper|
 |:-----------|------:|---------:|
-|c frenckell |   1343| 0.5596934|
-|otava       |   2175| 0.2490950|
-|söderström  |   1191| 0.1825769|
-|w londicer  |   1829| 0.8500616|
-|wsoy        |   2904| 0.1146431|
+|c frenckell |   1343| 0.1101502|
+|otava       |   2175| 0.3027068|
+|söderström  |   1191| 0.1424134|
+|w londicer  |   1829| 0.0003070|
+|wsoy        |   2904| 0.5670517|

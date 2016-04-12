@@ -1,21 +1,20 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-08"
+date: "2016-04-13"
 output: markdown_document
 ---
 
 ## Authors
 
-[Accepted author names](output.tables/author_accepted.csv)
+[Accepted author names](output.tables/author_accepted.csv) All OK? Link to synonyme file here as well. This is the final accepted author name, corresponding to all name variants listed in the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv)
 
-[Discarded author names](output.tables/author_discarded.csv)
+[Discarded author names](output.tables/author_discarded.csv) Check that the discarded names do not contain valid names or valid pseudonymes.
 
-[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv)
+[Author names classified as pseudonymes](output.tables/author_pseudonymes.csv) All OK ?
 
-[Conversions from original to final names](output.tables/author_conversion_nontrivial.csv)
 
-Top-20 uniquely identified authors and their productivity (title count). In total, there are 9044 unique authors and 34333 documents with unambiguous author information (49%).
+Top-20 uniquely identified authors and their productivity (title count). In total, there are 11297 unique authors and 43545 documents with unambiguous author information (64%).
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
@@ -25,9 +24,9 @@ Authors with ambiguous living year information - can we spot here
 cases where these are clearly known identical or distinct authors?
 Should also add living year information from supporting sources later.
 
-[Authors with missing life years](output.tables/authors_missing_lifeyears.csv)
+[Authors with missing life years](output.tables/authors_missing_lifeyears.csv) (Life year info can be augmented [here](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/author_info.csv))
 
-[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv)
+[Authors with ambiguous life years](output.tables/author_life_ambiguous.csv) Some of these might be synonymous and could be added to [author synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv) (the first term will be selected for the final data)
 
 
 ### Life span of uniquely identified top authors

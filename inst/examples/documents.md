@@ -1,14 +1,14 @@
 ---
 title: "Generic document summaries"
 author: "Leo Lahti"
-date: "2016-04-08"
+date: "2016-04-13"
 output: markdown_document
 ---
 
 
 ### Publication year
 
-[Publication year conversions](output.tables/publication_year_conversion_nontrivial.csv)
+[Publication year conversions](output.tables/publication_year_conversion.csv)
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
