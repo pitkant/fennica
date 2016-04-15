@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-13"
+date: "2016-04-15"
 output: markdown_document
 ---
 
@@ -18,11 +18,6 @@ output: markdown_document
 
 
 Top-20 uniquely identified authors and their productivity (title count). In total, there are 11962 unique authors and 45010 documents with unambiguous author information (63%).
-
-
-```
-## Error in dfs$names: $ operator is invalid for atomic vectors
-```
 
 <img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 

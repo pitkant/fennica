@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-13"
+date: "2016-04-15"
 output: markdown_document
 ---
 
@@ -17,15 +17,15 @@ output: markdown_document
 
 [Ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv)
 
-[Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept)
+[Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept; or add to [publication place stopwords](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_place.csv) to completely discard the term)
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.11``% of the documents have missing geocoordinates.
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.32``% of the documents have missing geocoordinates.
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68317 documents (96%). There are 437 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 68323 documents (96%). There are 443 unique publication places. Overall 98.7% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -34,9 +34,9 @@ Top-20 publication places are shown together with the number of documents. This 
 
 |name    |     n|   fraction|
 |:-------|-----:|----------:|
-|Finland | 58073| 81.5082529|
-|Sweden  |  5072|  7.1187963|
-|Russia  |  2433|  3.4148327|
+|Finland | 57921| 81.2949135|
+|Sweden  |  5071|  7.1173928|
+|Russia  |  2430|  3.4106221|
 |USA     |   808|  1.1340669|
-|Germany |   761|  1.0681002|
+|Germany |   767|  1.0765214|
 |Estonia |   285|  0.4000112|
