@@ -2,7 +2,7 @@
 % Please edit documentation in R/sanitize_name.R
 \name{sanitize_name}
 \alias{sanitize_name}
-\title{sanitize_name}
+\title{Sanitize name}
 \usage{
 sanitize_name(x)
 }

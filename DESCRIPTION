@@ -18,12 +18,11 @@ Depends:
     R (>= 3.1.3)
 Imports:
     dplyr,
-    sorvi,
+    bibliographica,
     gisfin
 Suggests:
     stringr,
     knitr,
-    rmarkdown,
-    bibliographica
+    rmarkdown
 LazyLoad: yes
 RoxygenNote: 5.0.1
