@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2016-04-18"
+date: "2016-04-23"
 output: markdown_document
 ---
 
@@ -32,22 +32,4 @@ output: markdown_document
 ## Error in fortify(data): object 'df2' not found
 ```
 
-```
-## Error in p + coord_flip(): non-numeric argument to binary operator
-```
-
-```
-## Error in p + ylab(""): non-numeric argument to binary operator
-```
-
-```
-## Error in p + xlab(""): non-numeric argument to binary operator
-```
-
-```
-## Error in p + ggtitle("Etunimiä per sukunimi"): non-numeric argument to binary operator
-```
-
-```
-## numeric(0)
-```
+![plot of chunk suvut](figure/suvut-1.png)

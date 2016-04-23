@@ -1,7 +1,7 @@
 ---
 title: "Generic document summaries"
 author: "Leo Lahti"
-date: "2016-04-18"
+date: "2016-04-23"
 output: markdown_document
 ---
 
@@ -31,16 +31,17 @@ Top-20 titles are shown together with the number of documents. This info is avai
 
 ## Language
 
+Statistics:
 
-Title count for the 41 unique languages. Some documents may have more than one language listed.
-
-[Accepted languages](output.tables/language_accepted.csv)
+ * 40 unique languages
+ * 4292 docs with multiple languages
+ * 599 docs (0.84%) with no recognized language 
+ 
+[Language conversions](output.tables/language_conversions.csv) Language codes as in [marc database](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv)
 
 [Discarded languages](output.tables/language_discarded.csv)
 
-[Language conversions](output.tables/language_conversion_nontrivial.csv)  
-
-[Unrecognized language entries](output.tables/language_unidentified.csv)  
+Title count per language:
 
 ![plot of chunk summarylang](figure/summarylang-1.png)
 
