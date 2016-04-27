@@ -16,7 +16,7 @@ output: markdown_document
   * [Generic document info](documents.md)
   * [Document sizes](size.md)
   * [Document topics](topic.md)
-
+  * [Languages](language.md)
 
 ## Field conversions
 
