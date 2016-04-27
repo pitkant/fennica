@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	71118	
+Total count: 	71248	
 fin	Finnish	32379
 swe	Swedish	23294
 lat	Latin	6562
@@ -14,6 +14,7 @@ lat;grc	Latin;Greek, Ancient (to 1453)	272
 swe;lat	Swedish;Latin	204
 swe;fin	Swedish;Finnish	193
 fin;ger	Finnish;German	135
+u	u	129
 dan	Danish	124
 lat;fre	Latin;French	104
 fin;rus	Finnish;Russian	99
@@ -39,7 +40,7 @@ dut	Dutch	26
 lat;swe;fin	Latin;Swedish;Finnish	26
 lat;fre;swe	Latin;French;Swedish	25
 lat;swe;fre	Latin;Swedish;French	25
-und	Undetermined	23
+und	NA	23
 swe;eng	Swedish;English	22
 lat;heb	Latin;Hebrew	22
 pol	Polish	18
@@ -161,6 +162,7 @@ f20091772;ger	f20091772;German	1
 swe;eng;fre	Swedish;English;French	1
 fiu;fre	Finno-Ugrian (Other);French	1
 swe;vot	Swedish;Votic	1
+sws;e	sws;e	1
 fre;lit	French;Lithuanian	1
 swe;fin;eng;rus	Swedish;Finnish;English;Russian	1
 ger;eng	German;English	1
