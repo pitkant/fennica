@@ -246,6 +246,7 @@ Tšehov, Anton	NA	NA	 16
 Hersleb, Peder	NA	NA	 16
 Stenbäck, Josef	NA	NA	 15
 Vakaa, Gustaf Adolf	NA	NA	 15
+Lagus, Wilhelm	NA	NA	 15
 Ramsay, Anders	NA	NA	 15
 Litzell, Karl Emil	NA	NA	 15
 Hausen, Reinhold	NA	NA	 15
@@ -283,7 +284,6 @@ Berg, Carl Oskar	NA	NA	 14
 Kiljander, Ludvig Gabriel	NA	NA	 14
 Rydberg, Viktor	NA	NA	 14
 Hultin, Arvid	NA	NA	 14
-Lagus, Wilhelm	NA	NA	 14
 Lagus, Ernst	NA	NA	 14
 Lassinen, Emil	NA	NA	 14
 Vuoritsalo, Nuutti	NA	NA	 14
@@ -312,7 +312,6 @@ Runa	NA	NA	 14
 Palomaa, Veikko	NA	NA	 14
 Strukel, M	NA	NA	 14
 Thunberg, Carolus Petrus	NA	NA	 14
-Ekerman, Petrus	1783	NA	 14
 Alan, Henric Michelsson	NA	NA	 14
 Wiklund, K. B	NA	NA	 13
 Sundman, Gösta	NA	NA	 13
@@ -1601,7 +1600,6 @@ Aisopos	NA	NA	  4
 Erasmus	NA	NA	  4
 Folkenius, Sveno Laurentii	1651	NA	  4
 Steenbergius, Ericus Michaelis	1722	NA	  4
-Arctopolitanus, Gabriel Gregorii	1682	NA	  4
 Lagus, Gabriel Josephi	1709	NA	  4
 Forsenius, Johannes Svenonis	1675	NA	  4
 Schroderus, Ericus Johannis	1647	NA	  4
@@ -1775,6 +1773,7 @@ Salokannel, Akseli	NA	NA	  3
 Saint-pierre, Bernardin De	NA	NA	  3
 Sahlberg, Kustaa	NA	NA	  3
 Reinius, B. M	NA	NA	  3
+Syrjästä Katsoja	NA	NA	  3
 Ponson Du Terrail, Pierre Alexis De	NA	NA	  3
 Nyblom, Helena	NA	NA	  3
 Friberg, Anna Julia Irene	NA	NA	  3
@@ -2635,7 +2634,7 @@ Hellwald, Friedrich Anton Heller Von	NA	NA	  2
 Hellman, Juho	NA	NA	  2
 Kurtén, Lennart	NA	NA	  2
 Kellner, L	NA	NA	  2
-Heikel, Sofia Antoinette  Netta	NA	NA	  2
+Heikel, Sofia Antoinette Netta	NA	NA	  2
 Ikonen, Karl Leander	NA	NA	  2
 Fristedt, Johan Conrad August	NA	NA	  2
 Colman, Julia	NA	NA	  2
@@ -3891,7 +3890,6 @@ Ganander, Henricus	1752	NA	  2
 Helsingius, Daniel Laurentii	1684	NA	  2
 Lucianus	NA	NA	  2
 Wallensteen, Johannes Petrus	NA	NA	  2
-Arctopolitanus, Gabriel Gregorii	1730	NA	  2
 Zieguerer, Christian	NA	NA	  2
 Ekmarck, A	NA	NA	  2
 Kepplerus, Alexander Alexandri	1738	NA	  2
@@ -3988,7 +3986,7 @@ Schenström, F	NA	NA	  1
 Reich, C	NA	NA	  1
 Pettersson, Alfred	NA	NA	  1
 Petrelli, Teodor Johannes	NA	NA	  1
-Renvall, Volmar  T	NA	NA	  1
+Renvall, Volmar T	NA	NA	  1
 Regnér, Per Bengtsson	NA	NA	  1
 Levinson, Andrei	NA	NA	  1
 Magnusson, Jan	NA	NA	  1
@@ -4473,7 +4471,7 @@ Lähteinen, F. K	NA	NA	  1
 Lundsten, J. R	NA	NA	  1
 Lindeman, Moritz Von	NA	NA	  1
 Lenz, E	NA	NA	  1
-A. L.,     -  	NA	NA	  1
+A. L., -	NA	NA	  1
 Berg, Maria	NA	NA	  1
 Bachmanis, Kristaps	NA	NA	  1
 Antell, G. W	NA	NA	  1
@@ -4503,7 +4501,6 @@ Eichwald, Eduard Von	NA	NA	  1
 Flahault, Ch	NA	NA	  1
 Forsstrand,carl	NA	NA	  1
 Jägerskiöld, C. L	NA	NA	  1
-Lagus,  Wilhelm	NA	NA	  1
 Horn, Gustaf	NA	NA	  1
 Aspelund, Elma	NA	NA	  1
 Ekstrand, Viktor	NA	NA	  1
@@ -5576,7 +5573,7 @@ Kaukosilmä	NA	NA	  1
 Grigorjeff, N. J	NA	NA	  1
 Gripenberg, Johan Ulrik Sebastian	NA	NA	  1
 Heikel, Henrik Johannes	NA	NA	  1
-Heikel, Fredrik Hjalmar  Jalmari	NA	NA	  1
+Heikel, Fredrik Hjalmar Jalmari	NA	NA	  1
 Brummer, Karl Emil Fabian	NA	NA	  1
 Goeldner, M	NA	NA	  1
 Margarethe	NA	NA	  1
@@ -5721,7 +5718,7 @@ Morris, William	NA	NA	  1
 Moody, William	NA	NA	  1
 Molin, Pelle	NA	NA	  1
 Millar, G. G	NA	NA	  1
-Tollstadius, Erik  Eerikki	NA	NA	  1
+Tollstadius, Erik Eerikki	NA	NA	  1
 Tietgen, Carl Frederik	NA	NA	  1
 Tiera, Akseli	NA	NA	  1
 Thorne, Eglanton	NA	NA	  1
@@ -5778,7 +5775,7 @@ Strauss, Emil	NA	NA	  1
 Gestrin, E. Th	NA	NA	  1
 Gerster, Carl	NA	NA	  1
 Gentelius, Walter	NA	NA	  1
-Stenwall, Hanna  Kiwi	NA	NA	  1
+Stenwall, Hanna Kiwi	NA	NA	  1
 Stenroth, A	NA	NA	  1
 Vuorimaa, Herman	NA	NA	  1
 Sandeau, Léonard Sylvain Jules	NA	NA	  1
@@ -5803,7 +5800,7 @@ Ringvall, August Ferdinand	NA	NA	  1
 Pii, Otto	NA	NA	  1
 Antti R	NA	NA	  1
 Rieger, Georg Conrad	NA	NA	  1
-Ridge, John James  Jaakko	NA	NA	  1
+Ridge, John James Jaakko	NA	NA	  1
 Richter, Frans Evert	NA	NA	  1
 Richter, E. F	NA	NA	  1
 Richter, Albert	NA	NA	  1
@@ -5839,7 +5836,7 @@ Pailleron, Edouard	NA	NA	  1
 Paananen, Wäinö	NA	NA	  1
 Päiviö, Juho Aukusti	NA	NA	  1
 Puukko, Anders Filemon	NA	NA	  1
-Krüger, Stephanus Johannes Paulus  Paul	NA	NA	  1
+Krüger, Stephanus Johannes Paulus Paul	NA	NA	  1
 Prel, Carl Du	NA	NA	  1
 Povlsen, Karl	NA	NA	  1
 Potiechin, Aleksei Antipovitsh	NA	NA	  1

@@ -14,7 +14,7 @@ lat;grc	Latin;Greek, Ancient (to 1453)	272
 swe;lat	Swedish;Latin	204
 swe;fin	Swedish;Finnish	193
 fin;ger	Finnish;German	135
-u	u	129
+u	NA	129
 dan	Danish	124
 lat;fre	Latin;French	104
 fin;rus	Finnish;Russian	99
@@ -153,16 +153,16 @@ fin;ger;eng	Finnish;German;English	1
 smi;sme	Sami;Northern Sami	1
 fre;eng	French;English	1
 smi;fin	Sami;Finnish	1
-rus;gr	Russian;gr	1
+rus;gr	Russian	1
 ger;eng;rus	German;English;Russian	1
 gem;lat	Germanic (Other);Latin	1
 swe;gem	Swedish;Germanic (Other)	1
 ger;fre;dan	German;French;Danish	1
-f20091772;ger	f20091772;German	1
+f20091772;ger	German	1
 swe;eng;fre	Swedish;English;French	1
 fiu;fre	Finno-Ugrian (Other);French	1
 swe;vot	Swedish;Votic	1
-sws;e	sws;e	1
+sws;e	NA	1
 fre;lit	French;Lithuanian	1
 swe;fin;eng;rus	Swedish;Finnish;English;Russian	1
 ger;eng	German;English	1

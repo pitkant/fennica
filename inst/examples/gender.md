@@ -14,18 +14,16 @@ output: markdown_document
 [Authors with missing gender](output.tables/gender_unknown.csv)
 
 
-<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="280px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="280px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="280px" />
+<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="280px" />
 
 
 
 Author gender distribution in the complete data:
 
 
-|author_gender |  docs| fraction|
-|:-------------|-----:|--------:|
-|female        |  2934|     4.12|
-|male          | 22801|    32.00|
-|NA            | 45513|    63.88|
+| author_gender|  docs| fraction|
+|-------------:|-----:|--------:|
+|            NA| 71248|      100|
 
 Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 
