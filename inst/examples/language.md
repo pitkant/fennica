@@ -10,8 +10,8 @@ output: markdown_document
 Statistics:
 
  * 40 unique languages
- * The language come sometimes in [combinations](output.tables/language_conversions.csv)
- * 4292 docs with multiple languages
+ * The languages may come in [combinations](output.tables/language_conversions.csv)
+ * 4292 docs (6.02%) with multiple languages
  * 599 docs (0.84%) with no recognized language 
  * [Discarded languages](output.tables/language_discarded.csv)
 
