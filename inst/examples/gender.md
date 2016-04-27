@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Leo Lahti"
-date: "2016-04-23"
+date: "2016-04-27"
 output: markdown_document
 ---
 
@@ -29,6 +29,11 @@ Author gender distribution in the complete data:
 
 Author gender distribution over time. Note that the name-gender mappings change over time. This has not been taken into account yet.
 
+
+
+```
+## Error in eval(expr, envir, enclos): could not find function "regression_plot"
+```
 
 ![plot of chunk summarygendertime](figure/summarygendertime-1.png)
 

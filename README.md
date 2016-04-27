@@ -42,4 +42,18 @@ Main developers: [Leo Lahti](https://github.com/antagomir/), [Niko Ilomaki](http
 
 The project is funded 2016-2019 by Academy of Finland (grant 293316 COMHIS) - [Computational History and the Transformation of Public Discourse in Finland 1640–1910](http://webfocus.aka.fi/ibi_apps/WFServlet?IBIF_ex=x_HakKuvaus&CLICKED_ON=&HAKNRO1=293316&UILANG=en&IBIAPP_app=aka_ext&TULOSTE=HTML). This is a consortium between [University of Helsinki](http://www.helsinki.fi/modernlanguages/), University of Turku [Department of Cultural History](http://www.utu.fi/en/units/hum/units/culturalhistory/Pages/home.aspx) and [Department of Information Science](http://www.utu.fi/fi/yksikot/sci/yksikot/it/Sivut/home.aspx), and the [Finnish National Library](https://www.kansalliskirjasto.fi/fi/projektit/comhis-computational-history-and-the-transformation-of-public-discourse-in-finland-1640).
 
+Special thanks to the Finnish open data community and the institutions for
+opening relevant data for this research, including:
+
+  * [Väestörekisterikeskus](http://vrk.fi/) Finnish first name-gender
+    mappings and demographic information
+
+  * [Maanmittauslaitos](http://mml.fi) Geographic information
+
+  * [Tilastokeskus](http://www.tilastokeskus.fi/) Demographic information
+
+  * [Open Street Map](https://www.openstreetmap.org) Geographic information
+  
+  * [Open Knowledge Finland ry.](http://fi.okfn.org/)
+
 
