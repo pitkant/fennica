@@ -29,7 +29,7 @@ Bielefeld	Germany	    1
 Birmingham	England	    1
 Björkboda	Finland	    1
 Bonn	Germany	    6
-Boston	Ambiguous	    2
+Boston	USA	    2
 Brändö	Finland	    1
 Braniewo	Poland	    3
 Braunschweig	Germany	   16
@@ -43,11 +43,10 @@ Budapest	Hungary	   28
 Buenos aires	Argentina	    1
 Calcutta	India	    1
 Calumet Mi	USA	   35
-Cambridge (Ambiguous)	Ambiguous	    5
+Cambridge	England	    5
 Carlstad	Sweden	    1
 Cassel	France	    4
 Chicago IL	USA	   19
-Chicago york	NA	    1
 Chisholm Mn	USA	    2
 Cincinnati Oh	USA	    3
 Clear Creek UT	USA	    1
@@ -140,7 +139,6 @@ Jämsä	Finland	    5
 Janakkala	Finland	    2
 Jelgava	Latvia	    6
 Jena	Germany	   27
-Jetzo auffs newe zu stade	NA	    1
 Joensuu	Finland	  126
 Jönnköping	Sweden	    5
 Jurjew	Latvia	    2
@@ -181,8 +179,7 @@ Koivisto	Finland	    2
 Koivulahti	Finland	    1
 Kokemäki	Finland	    1
 Kokkola	Finland	  107
-Königsberg	NA	    2
-Koningsberg	Germany	    4
+Koningsberg	Germany	    6
 Köping	Sweden	    2
 Korsnäs	Finland	    1
 Kotka	Finland	  176
@@ -207,10 +204,10 @@ Landskrona	Sweden	    1
 Lappeenranta	Finland	   55
 Lapua	Finland	   31
 Lausanne	Switzerland	    1
+Le mans	France	    1
 Leeuwarden	Netherlands	    3
 Leiden	Netherlands	   12
 Leipzig	Germany	  193
-Le mans	France	    1
 Letchworth	England	    1
 Liepaja	Latvia	    1
 Linköping	Sweden	   19
@@ -353,9 +350,9 @@ Smithville Mn	USA	    2
 Sorau	Poland	    2
 Sortavala	Russia	  545
 St Louis Kaunti Mi	USA	    1
+St Petersburg	Russia	  622
 Stockholm	Sweden	 3977
 Stockton	England	    2
-St Petersburg	Russia	  622
 Stralsund	Germany	    3
 Strängnäs	Sweden	   26
 Strasbourg	France	    7
@@ -393,7 +390,6 @@ Tyrvää	Finland	    2
 Ugra	Russia	    1
 Ulm	Germany	    1
 Uppsala	Sweden	  752
-Ûr ev	NA	    1
 Urjala	Finland	    2
 USA	USA	    1
 Utrecht	Netherlands	    8
@@ -419,7 +415,6 @@ Virolahti	Finland	    2
 Visingsborg	Sweden	    5
 Vjatka	Russia	    1
 Vreta	Sweden	    1
-V telči	NA	    1
 Vyborg	Russia	 1217
 Wandsbek	Germany	    2
 Warsaw	Poland	    9
@@ -433,7 +428,7 @@ Wurzburg	Germany	    1
 Ylimarkku	Finland	    1
 Ylistaro	Finland	    2
 Ylivieska	Finland	    1
-York (Ambiguous)	Ambiguous	    1
+York	England	    1
 Ypäjä	Finland	    2
 Zürich	Germany	    7
-NA	NA	 2925
+NA	NA	 2929

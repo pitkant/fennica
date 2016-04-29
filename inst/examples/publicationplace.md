@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-04-27"
+date: "2016-04-29"
 output: markdown_document
 ---
 
@@ -21,11 +21,11 @@ output: markdown_document
 
 [Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
 
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.1``% of the documents have missing geocoordinates.
+[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.08``% of the documents have missing geocoordinates.
 
 
 
-Top-20 publication places are shown together with the number of documents. This info is available for 68323 documents (96%). There are 437 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
+Top-20 publication places are shown together with the number of documents. This info is available for 68319 documents (96%). There are 432 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
 
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
@@ -37,6 +37,6 @@ Top-20 publication places are shown together with the number of documents. This 
 |Finland | 58073| 81.5082529|
 |Sweden  |  5072|  7.1187963|
 |Russia  |  2434|  3.4162362|
-|USA     |   808|  1.1340669|
-|Germany |   765|  1.0737143|
+|USA     |   810|  1.1368740|
+|Germany |   767|  1.0765214|
 |Estonia |   285|  0.4000112|

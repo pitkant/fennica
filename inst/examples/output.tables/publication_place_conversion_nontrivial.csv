@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	37591	
+Total count: 	37583	
 Helsingfors	Helsinki	11691
 Aboae	Turku	4870
 [Vasa]	Vaasa	2312
@@ -224,7 +224,6 @@ Lundae	Lund	5
 S:t Petersburg	St Petersburg	5
 Milano	Milan	5
 Raumalla	Rauma	5
-Cambridge	Cambridge (Ambiguous)	5
 Fitchburg, Massachusetts	Fitchburg Ma	5
 Quincy (Mass.)	Quincy Ma	5
 Calumet, (Mich.)	Calumet Mi	5
@@ -586,10 +585,8 @@ Helsingfors ;;Stockholm	Helsinki	1
 Stockholm ;;Helsingfors :;København	Stockholm	1
 Upsalassa	Uppsala	1
 Käkisalmi : [s.n.]	Käkisalmi	1
-Ûr'ev''	Ûr ev	1
 Jyväkylä	Jyväskylä	1
 [Kristinestad?] : [s.n.]	Kristiinankaupunki	1
-Chicago ;;New york	Chicago york	1
 Kyôpenhaminassa	Copenhagen	1
 Petrograd''	St Petersburg	1
 S.-Peterburg''	St Petersburg	1
@@ -603,6 +600,7 @@ S. Peterburg''	St Petersburg	1
 [Verona]	Verona	1
 [Erfurt]	Erfurt	1
 [Köpenhamn]	Copenhagen	1
+Königsberg	Koningsberg	1
 Halle a. S.	Halle	1
 Kjøbnehavn	Copenhagen	1
 Bergen :;Stockholm :;Kjøbenhavn	Bergen	1
@@ -931,7 +929,7 @@ Pränädtty Stockholmisa	Stockholm	1
 Altdorfi	Altdorf	1
 och på mångas begäran ånyo uplagd i Åbo	Turku	1
 A Copenhague	Copenhagen	1
-[Königsberg]	Königsberg	1
+[Königsberg]	Koningsberg	1
 Riga & Mietau	Riga	1
 Stocholm [!]	Stockholm	1
 Excusum Wiburgi	Vyborg	1
@@ -959,7 +957,6 @@ Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	Stockholm	1
 [Wiburgiae?]	Vyborg	1
 Tryckt på Wisingzborg	Visingsborg	1
 Dorpati Livonrum	Tartu	1
-Jetzo auffs newe gedruckt zu Stade	Jetzo auffs newe zu stade	1
 Tryckt uthi Dorpt	Tartu	1
 Verteutscht und gedruckt zu Riga	Riga	1
 [Prändäty Turusa]	Turku	1
@@ -1209,7 +1206,6 @@ Turasa [sic] prändätty	Turku	1
 [Prändättyt Waasasa]	Vaasa	1
 [Götheborg] :;[Samt nu för andras räkning i Åbo]	Gothenburg	1
 [Giöthebörisa [sic] ruotzin kielen prändätty Eric Stackbergildä. Mutta palkan edestä suomexi Turusa]	Turku	1
-York	York (Ambiguous)	1
 Stockholm, Upsala & Åbo	Stockholm	1
 Abo [sic]	Turku	1
 Räwelisä	Tallinn	1
