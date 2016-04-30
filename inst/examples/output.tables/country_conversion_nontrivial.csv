@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	68316	
+Total count: 	68299	
 Helsinki	Finland	13194
 Helsingfors	Finland	11691
 Aboae	Finland	4870
@@ -246,7 +246,6 @@ Isokyrö	Finland	7
 Astoria (Ore.)	USA	7
 Salo	Finland	7
 [Wiipuri]	Russia	7
-Lübeck	Germany	7
 Impr. Aboae	Finland	7
 [Rostochii]	Germany	7
 Upsalis	Sweden	7
@@ -276,7 +275,6 @@ Lincopiae	Sweden	6
 Tryckt j Stockholm	Sweden	6
 [Ubsaliae]	Sweden	6
 Stokholmiae	Sweden	6
-Ienae	Germany	6
 [Uppsala]	Sweden	6
 Westerås	Sweden	6
 A Amsterdam	Netherlands	6
@@ -714,7 +712,6 @@ Hvitträsk	Finland	1
 Kuusankoski	Finland	1
 [København]	Denmark	1
 Fridrihsgamn'	Finland	1
-S.-Peterburg' : M. Merkušev	Russia	1
 Petrozavodsk'	Russia	1
 S--Peterburg'	Russia	1
 St. -Petersburg	Russia	1
@@ -784,6 +781,7 @@ S. Peterburg''	Russia	1
 Haderslev	Denmark	1
 [Erfurt]	Germany	1
 [Köpenhamn]	Denmark	1
+Königsberg	Germany	1
 Halle a. S.	Germany	1
 Kjøbnehavn	Denmark	1
 Bergen :;Stockholm :;Kjøbenhavn	Norway	1
@@ -1213,6 +1211,7 @@ Pränädtty Stockholmisa	Sweden	1
 Altdorfi	Germany	1
 och på mångas begäran ånyo uplagd i Åbo	Finland	1
 A Copenhague	Denmark	1
+[Königsberg]	Germany	1
 Riga & Mietau	Latvia	1
 Stocholm [!]	Sweden	1
 Excusum Wiburgi	Russia	1
@@ -1294,14 +1293,12 @@ Tryckt i Linköping	Sweden	1
 Tryckt på Wijsingsborg	Sweden	1
 Wisingsburgi	Sweden	1
 Impressum Gryphiswaldiae	Germany	1
-[Lübeck]	Germany	1
 Tryckt j Stocholm	Sweden	1
 [Strengnesiae]	Sweden	1
 Och i Vpsala	Sweden	1
 I Vpsala	Sweden	1
 Stockholmiae Sveonum	Sweden	1
 Prentetty Stockholmi sa]	Sweden	1
-En tê Gryfisbaldía [Greifswald]	Germany	1
 Enthlímmenon en Abóe	Finland	1
 Holmiae recusa	Sweden	1
 Excusus Holmiae Svecorum	Sweden	1
@@ -1357,7 +1354,6 @@ Gedrukt zu Vlm	Germany	1
 Tryckt på Wijsingzborg	Sweden	1
 Tryckte j Stockholm	Sweden	1
 Präntätyd Stocholmisa	Sweden	1
-Imprimebatur Wisingsbvrgi	Sweden	1
 Imprimebatur Gryphisuualdiae	Germany	1
 Tryckt i Arnstadt	Germany	1
 [Painettu Stocholmisa]	Sweden	1
@@ -1391,14 +1387,12 @@ Tryck [sic] i Åbo	Finland	1
 Abóa [Turku]	Finland	1
 Aff trycket vthgångit i Åbo	Finland	1
 Excusae [Aboae]	Finland	1
-Holmías	Sweden	1
 I Strengnäs	Sweden	1
 Gedruckt zu Dorpt	Estonia	1
 Zu Riga	Latvia	1
 Ttyckt [sic] i Abo	Finland	1
 [Tryckt i Stock]holm	Sweden	1
 Gedrucht zu Abo	Finland	1
-Impressum Athenis Auräicis [sic]	Finland	1
 Erffurt	Germany	1
 Excussit [sic] Aboae	Finland	1
 Dorpt i Lieflandh	Estonia	1
@@ -1493,7 +1487,7 @@ Turasa [sic] prändätty	Finland	1
 [Prändättyt Waasasa]	Finland	1
 [Götheborg] :;[Samt nu för andras räkning i Åbo]	Sweden	1
 [Giöthebörisa [sic] ruotzin kielen prändätty Eric Stackbergildä. Mutta palkan edestä suomexi Turusa]	Finland	1
-York	Ambiguous	1
+York	England	1
 Stockholm, Upsala & Åbo	Sweden	1
 Abo [sic]	Finland	1
 Räwelisä	Estonia	1

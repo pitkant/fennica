@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	37591	
+Total count: 	37584	
 Helsingfors	Helsinki	11691
 Aboae	Turku	4870
 [Vasa]	Vaasa	2312
@@ -181,7 +181,7 @@ Zürich	Zürich	7
 Roma	Rome	7
 Astoria (Ore.)	Astoria Or	7
 [Wiipuri]	Vyborg	7
-Lübeck	Lybeck	7
+Lübeck	Lubeck	7
 Impr. Aboae	Turku	7
 [Rostochii]	Rostock	7
 Upsalis	Uppsala	7
@@ -209,7 +209,7 @@ Lincopiae	Linköping	6
 Tryckt j Stockholm	Stockholm	6
 [Ubsaliae]	Uppsala	6
 Stokholmiae	Stockholm	6
-Ienae	Jena	6
+Ienae	I.e nae	6
 [Uppsala]	Uppsala	6
 Westerås	Västerås	6
 A Amsterdam	Amsterdam	6
@@ -224,7 +224,6 @@ Lundae	Lund	5
 S:t Petersburg	St Petersburg	5
 Milano	Milan	5
 Raumalla	Rauma	5
-Cambridge	Cambridge (Ambiguous)	5
 Fitchburg, Massachusetts	Fitchburg Ma	5
 Quincy (Mass.)	Quincy Ma	5
 Calumet, (Mich.)	Calumet Mi	5
@@ -266,7 +265,7 @@ Helsingis	Helsinki	4
 Duluth (MN)	Duluth Mn	4
 Piotrogród	St Petersburg	4
 Norimbergae	Nürnberg	4
-[Nürnberg]	Nürnberg	4
+[Nürnberg]	Nurnberg	4
 [Augsburg]	Augsburg	4
 Upsalas	Uppsala	4
 [Wiburgi]	Vyborg	4
@@ -436,7 +435,7 @@ Pargas	Parainen	2
 Napoli	Naples	2
 Seattle (Wash.)	Seattle WA	2
 Cincinnati	Cincinnati Oh	2
-New Haven	New Haven Ma	2
+New Haven	New Haven Ct	2
 Kobenhavn	Copenhagen	2
 Chigago (Ill.)	Chicago IL	2
 [Fürth]	Furth	2
@@ -518,7 +517,7 @@ Petropoli	St Petersburg	2
 Åbo och Stockholm	Turku	2
 Förut tryckt i Stockholm, och å nyo uplagd i Åbo	Stockholm	2
 A Cassel	Cassel	2
-Nürnberg	Nürnberg	2
+Nürnberg	Nurnberg	2
 Londres	London	2
 Omtryckt i Wasa	Vaasa	2
 [Aboe]	Turku	2
@@ -547,7 +546,7 @@ Ely (Minn.)	Ely Mi	1
 [St. Petersbourg]	St Petersburg	1
 [København]	Copenhagen	1
 Fridrihsgamn'	Hamina	1
-S.-Peterburg' : M. Merkušev	St Petersburg	1
+S.-Peterburg' : M. Merkušev	S peterburg m merkusev	1
 Petrozavodsk'	St Petersburg	1
 S--Peterburg'	St Petersburg	1
 St. -Petersburg	St Petersburg	1
@@ -586,10 +585,9 @@ Helsingfors ;;Stockholm	Helsinki	1
 Stockholm ;;Helsingfors :;København	Stockholm	1
 Upsalassa	Uppsala	1
 Käkisalmi : [s.n.]	Käkisalmi	1
-Ûr'ev''	Ûr ev	1
+Ûr'ev''	Ur ev	1
 Jyväkylä	Jyväskylä	1
 [Kristinestad?] : [s.n.]	Kristiinankaupunki	1
-Chicago ;;New york	Chicago york	1
 Kyôpenhaminassa	Copenhagen	1
 Petrograd''	St Petersburg	1
 S.-Peterburg''	St Petersburg	1
@@ -603,6 +601,7 @@ S. Peterburg''	St Petersburg	1
 [Verona]	Verona	1
 [Erfurt]	Erfurt	1
 [Köpenhamn]	Copenhagen	1
+Königsberg	Koningsberg	1
 Halle a. S.	Halle	1
 Kjøbnehavn	Copenhagen	1
 Bergen :;Stockholm :;Kjøbenhavn	Bergen	1
@@ -931,7 +930,7 @@ Pränädtty Stockholmisa	Stockholm	1
 Altdorfi	Altdorf	1
 och på mångas begäran ånyo uplagd i Åbo	Turku	1
 A Copenhague	Copenhagen	1
-[Königsberg]	Königsberg	1
+[Königsberg]	Koningsberg	1
 Riga & Mietau	Riga	1
 Stocholm [!]	Stockholm	1
 Excusum Wiburgi	Vyborg	1
@@ -959,7 +958,6 @@ Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	Stockholm	1
 [Wiburgiae?]	Vyborg	1
 Tryckt på Wisingzborg	Visingsborg	1
 Dorpati Livonrum	Tartu	1
-Jetzo auffs newe gedruckt zu Stade	Jetzo auffs newe zu stade	1
 Tryckt uthi Dorpt	Tartu	1
 Verteutscht und gedruckt zu Riga	Riga	1
 [Prändäty Turusa]	Turku	1
@@ -1014,14 +1012,14 @@ Tryckt i Linköping	Linköping	1
 Tryckt på Wijsingsborg	Visingsborg	1
 Wisingsburgi	Visingsborg	1
 Impressum Gryphiswaldiae	Greifswald	1
-[Lübeck]	Lybeck	1
+[Lübeck]	Lubeck	1
 Tryckt j Stocholm	Stockholm	1
 [Strengnesiae]	Strängnäs	1
 Och i Vpsala	Uppsala	1
 I Vpsala	Uppsala	1
 Stockholmiae Sveonum	Stockholm	1
 Prentetty Stockholmi sa]	Stockholm	1
-En tê Gryfisbaldía [Greifswald]	Greifswald	1
+En tê Gryfisbaldía [Greifswald]	Tê gryfisbaldia greifswald	1
 Enthlímmenon en Abóe	Turku	1
 Holmiae recusa	Stockholm	1
 Excusus Holmiae Svecorum	Stockholm	1
@@ -1077,7 +1075,7 @@ Gedrukt zu Vlm	Ulm	1
 Tryckt på Wijsingzborg	Visingsborg	1
 Tryckte j Stockholm	Stockholm	1
 Präntätyd Stocholmisa	Stockholm	1
-Imprimebatur Wisingsbvrgi	Visingsborg	1
+Imprimebatur Wisingsbvrgi	Wisingsbvrgi	1
 Imprimebatur Gryphisuualdiae	Greifswald	1
 Tryckt i Arnstadt	Arnstadt	1
 [Painettu Stocholmisa]	Stockholm	1
@@ -1110,14 +1108,14 @@ Tryck [sic] i Åbo	Turku	1
 Abóa [Turku]	Turku	1
 Aff trycket vthgångit i Åbo	Turku	1
 Excusae [Aboae]	Turku	1
-Holmías	Stockholm	1
+Holmías	Holmias	1
 I Strengnäs	Strängnäs	1
 Gedruckt zu Dorpt	Tartu	1
 Zu Riga	Riga	1
 Ttyckt [sic] i Abo	Turku	1
 [Tryckt i Stock]holm	Stockholm	1
 Gedrucht zu Abo	Turku	1
-Impressum Athenis Auräicis [sic]	Turku	1
+Impressum Athenis Auräicis [sic]	Athenis auräicis	1
 Erffurt	Erfurt	1
 Excussit [sic] Aboae	Turku	1
 Dorpt i Lieflandh	Tartu	1
@@ -1209,7 +1207,6 @@ Turasa [sic] prändätty	Turku	1
 [Prändättyt Waasasa]	Vaasa	1
 [Götheborg] :;[Samt nu för andras räkning i Åbo]	Gothenburg	1
 [Giöthebörisa [sic] ruotzin kielen prändätty Eric Stackbergildä. Mutta palkan edestä suomexi Turusa]	Turku	1
-York	York (Ambiguous)	1
 Stockholm, Upsala & Åbo	Stockholm	1
 Abo [sic]	Turku	1
 Räwelisä	Tallinn	1
