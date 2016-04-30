@@ -1,11 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-<<<<<<< HEAD
 date: "2016-05-01"
-=======
-date: "2016-04-29"
->>>>>>> 73e33fcae99862a21f98acc669db1c21248a82e4
 output: markdown_document
 ---
 
