@@ -1,7 +1,11 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
+<<<<<<< HEAD
 date: "2016-05-01"
+=======
+date: "2016-04-29"
+>>>>>>> 73e33fcae99862a21f98acc669db1c21248a82e4
 output: markdown_document
 ---
 
@@ -66,10 +70,17 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author                            |        36.7|          63.3|         45086|      12002|
 |publisher                         |        17.5|          82.5|         58768|      10856|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
+<<<<<<< HEAD
 |country                           |         4.1|          95.9|         68299|         34|
 |publication_place                 |         4.1|          95.9|         68320|        441|
 |latitude                          |         1.1|          98.9|         70452|        365|
 |longitude                         |         1.1|          98.9|         70452|        365|
+=======
+|country                           |         4.1|          95.9|         68318|         33|
+|publication_place                 |         4.1|          95.9|         68319|        432|
+|latitude                          |         1.1|          98.9|         70477|        365|
+|longitude                         |         1.1|          98.9|         70477|        365|
+>>>>>>> 73e33fcae99862a21f98acc669db1c21248a82e4
 |language                          |         1.0|          99.0|         70519|        257|
 |dissertation                      |         0.0|         100.0|         71222|          3|
 |synodal                           |         0.0|         100.0|         71222|          2|
