@@ -121,7 +121,6 @@ Hull	England	    1
 Huopalahti	Finland	    2
 Hvitträsk	Finland	    1
 Hyvinkää	Finland	   16
-I.e nae	NA	    6
 Iisalmi	Finland	   13
 Ikaalinen	Finland	    2
 Ilmajoki	Finland	    2
@@ -141,7 +140,7 @@ Jalasjärvi	Finland	    1
 Jämsä	Finland	    5
 Janakkala	Finland	    2
 Jelgava	Latvia	    6
-Jena	Germany	   21
+Jena	Germany	   27
 Joensuu	Finland	  126
 Jönnköping	Sweden	    5
 Jurjew	Latvia	    2
@@ -223,11 +222,10 @@ Loimaa	Finland	    1
 Loimijoki	Finland	    1
 London	England	  165
 Loviisa	Finland	   29
-Lubeck	NA	    8
 Luleå	Sweden	    2
 Lund	Sweden	   51
 Lviv	Ukraine	    1
-Lybeck	Germany	    3
+Lybeck	Germany	   11
 Maaninka	Finland	    1
 Maastricht	Netherlands	    2
 Macon	France	    1
@@ -354,11 +352,10 @@ Skara	Sweden	   28
 Smithville Mn	USA	    2
 Sorau	Poland	    2
 Sortavala	Russia	  545
-S peterburg m merkusev	NA	    1
 St Louis Kaunti Mi	USA	    1
 Stockholm	Sweden	 3976
 Stockton	England	    2
-St Petersburg	Russia	  621
+St Petersburg	Russia	  622
 Stralsund	Germany	    3
 Strängnäs	Sweden	   26
 Strasbourg	France	    7
@@ -397,7 +394,6 @@ Tyrvää	Finland	    2
 Ugra	Russia	    1
 Ulm	Germany	    1
 Uppsala	Sweden	  752
-Ur ev	NA	    1
 Urjala	Finland	    2
 USA	USA	    1
 Utrecht	Netherlands	    8
@@ -420,7 +416,7 @@ Viljandi	Estonia	    2
 Vilnius	Lithuania	    6
 Virginia Mn	USA	    1
 Virolahti	Finland	    2
-Visingsborg	Sweden	    4
+Visingsborg	Sweden	    5
 Vjatka	Russia	    1
 Vreta	Sweden	    1
 Vyborg	Russia	 1217
@@ -429,7 +425,6 @@ Warsaw	Poland	    9
 Weida	Germany	    1
 Weimar	Germany	    9
 Wiesbaden	Germany	    7
-Wisingsbvrgi	NA	    1
 Wismar	Germany	    1
 Wittenberg	Germany	   39
 Worcester Ma	USA	    8
@@ -440,4 +435,4 @@ Ylivieska	Finland	    1
 York	England	    1
 Ypäjä	Finland	    2
 Zürich	Germany	    7
-NA	NA	 2928
+NA	NA	 2929

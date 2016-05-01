@@ -66,10 +66,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author                            |        36.7|          63.3|         45086|      12002|
 |publisher                         |        17.5|          82.5|         58768|      10856|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
-|country                           |         4.1|          95.9|         68299|         34|
-|publication_place                 |         4.1|          95.9|         68320|        441|
-|latitude                          |         1.1|          98.9|         70452|        365|
-|longitude                         |         1.1|          98.9|         70452|        365|
+|country                           |         4.1|          95.9|         68315|         34|
+|publication_place                 |         4.1|          95.9|         68319|        436|
+|latitude                          |         1.1|          98.9|         70468|        365|
+|longitude                         |         1.1|          98.9|         70468|        365|
 |language                          |         1.0|          99.0|         70519|        257|
 |dissertation                      |         0.0|         100.0|         71222|          3|
 |synodal                           |         0.0|         100.0|         71222|          2|

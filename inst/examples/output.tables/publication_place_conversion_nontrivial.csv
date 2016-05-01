@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	37584	
+Total count: 	37583	
 Helsingfors	Helsinki	11691
 Aboae	Turku	4870
 [Vasa]	Vaasa	2312
@@ -181,7 +181,7 @@ Zürich	Zürich	7
 Roma	Rome	7
 Astoria (Ore.)	Astoria Or	7
 [Wiipuri]	Vyborg	7
-Lübeck	Lubeck	7
+Lübeck	Lybeck	7
 Impr. Aboae	Turku	7
 [Rostochii]	Rostock	7
 Upsalis	Uppsala	7
@@ -209,7 +209,7 @@ Lincopiae	Linköping	6
 Tryckt j Stockholm	Stockholm	6
 [Ubsaliae]	Uppsala	6
 Stokholmiae	Stockholm	6
-Ienae	I.e nae	6
+Ienae	Jena	6
 [Uppsala]	Uppsala	6
 Westerås	Västerås	6
 A Amsterdam	Amsterdam	6
@@ -546,7 +546,7 @@ Ely (Minn.)	Ely Mi	1
 [St. Petersbourg]	St Petersburg	1
 [København]	Copenhagen	1
 Fridrihsgamn'	Hamina	1
-S.-Peterburg' : M. Merkušev	S peterburg m merkusev	1
+S.-Peterburg' : M. Merkušev	St Petersburg	1
 Petrozavodsk'	St Petersburg	1
 S--Peterburg'	St Petersburg	1
 St. -Petersburg	St Petersburg	1
@@ -585,7 +585,6 @@ Helsingfors ;;Stockholm	Helsinki	1
 Stockholm ;;Helsingfors :;København	Stockholm	1
 Upsalassa	Uppsala	1
 Käkisalmi : [s.n.]	Käkisalmi	1
-Ûr'ev''	Ur ev	1
 Jyväkylä	Jyväskylä	1
 [Kristinestad?] : [s.n.]	Kristiinankaupunki	1
 Kyôpenhaminassa	Copenhagen	1
@@ -1012,7 +1011,7 @@ Tryckt i Linköping	Linköping	1
 Tryckt på Wijsingsborg	Visingsborg	1
 Wisingsburgi	Visingsborg	1
 Impressum Gryphiswaldiae	Greifswald	1
-[Lübeck]	Lubeck	1
+[Lübeck]	Lybeck	1
 Tryckt j Stocholm	Stockholm	1
 [Strengnesiae]	Strängnäs	1
 Och i Vpsala	Uppsala	1
@@ -1075,7 +1074,7 @@ Gedrukt zu Vlm	Ulm	1
 Tryckt på Wijsingzborg	Visingsborg	1
 Tryckte j Stockholm	Stockholm	1
 Präntätyd Stocholmisa	Stockholm	1
-Imprimebatur Wisingsbvrgi	Wisingsbvrgi	1
+Imprimebatur Wisingsbvrgi	Visingsborg	1
 Imprimebatur Gryphisuualdiae	Greifswald	1
 Tryckt i Arnstadt	Arnstadt	1
 [Painettu Stocholmisa]	Stockholm	1
