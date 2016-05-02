@@ -3,7 +3,6 @@ Total count: 	71248
 Aabenraa	Denmark	    2
 Aalborg	Denmark	    2
 Aarhus	Denmark	    2
-Agnifitiae	Sweden	    1
 Akureyri	Iceland	    1
 Alfend	NA	    1
 Almena Wi	USA	    2
@@ -26,7 +25,6 @@ Basel	Switzerland	    4
 Bergen	Norway	    6
 Berlin	Germany	  156
 Bern	Switzerland	    5
-Berttula	NA	    1
 Bielefeld	Germany	    1
 Birmingham	England	    1
 Björkboda	Finland	    1
@@ -35,6 +33,7 @@ Boston Ma	USA	    2
 Brändö	Finland	    1
 Braniewo	Poland	    3
 Braunschweig	Germany	   16
+Breidablick	NA	    1
 Bremen	Germany	    1
 Breslau	Poland	    2
 Bridgeport Ct	USA	    1
@@ -48,9 +47,7 @@ Calumet Mi	USA	   35
 Cambridge	England	    5
 Carlstad	Sweden	    1
 Cassel	France	    4
-Cedervaller poikineen	NA	    1
 Chicago IL	USA	   19
-Chicago york	NA	    1
 Chisholm Mn	USA	    2
 Cincinnati Oh	USA	    3
 Clear Creek UT	USA	    1
@@ -75,7 +72,6 @@ Exeter	England	    1
 Falun	Sweden	    5
 Firenze	Italy	    7
 Fitchburg Ma	USA	  133
-Folkhögskolan breidablick	NA	    1
 Forssa	Finland	   10
 Frankfurt	Germany	   14
 Freiburg im Breisgau	Germany	    2
@@ -304,7 +300,6 @@ Pieksämäki	Finland	    1
 Pietarsaari	Finland	   76
 Pihlava	Finland	    2
 Piikkiö	Finland	    6
-Piitem	NA	    1
 Pinjainen	Finland	    1
 Pistoia	Finland	    1
 Pori	Finland	  714
@@ -398,7 +393,6 @@ Tyrvää	Finland	    2
 Ugra	Russia	    1
 Ulm	Germany	    1
 Uppsala	Sweden	  752
-Ur ev	NA	    1
 Urjala	Finland	    2
 USA	USA	    1
 Utrecht	Netherlands	    8
@@ -415,8 +409,7 @@ Västerås	Sweden	   25
 Venice	Italy	    2
 Verona	Italy	    1
 Vicenza	Italy	    2
-Viden	NA	    1
-Vienna	Austria	   20
+Vienna	Austria	   21
 Viitasaari	Finland	    2
 Viljandi	Estonia	    2
 Vilnius	Lithuania	    6
@@ -425,8 +418,7 @@ Virolahti	Finland	    2
 Visingsborg	Sweden	    5
 Vjatka	Russia	    1
 Vreta	Sweden	    1
-V telci	NA	    1
-Vyborg	Russia	 1217
+Vyborg	Russia	 1218
 Wandsbek	Germany	    2
 Warsaw	Poland	    9
 Weida	Germany	    1
@@ -442,4 +434,4 @@ Ylivieska	Finland	    1
 York	England	    1
 Ypäjä	Finland	    2
 Zürich	Germany	    7
-NA	NA	 2920
+NA	NA	 2926

@@ -64,12 +64,12 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |self_published                    |        46.6|          53.4|         38079|          3|
 |author_name                       |        36.7|          63.3|         45086|      11977|
 |author                            |        36.7|          63.3|         45086|      12002|
-|publisher                         |        17.5|          82.5|         58768|      10839|
+|publisher                         |        17.5|          82.5|         58768|      10837|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
-|country                           |         4.1|          95.9|         68318|         33|
-|publication_place                 |         4.1|          95.9|         68328|        443|
-|latitude                          |         1.1|          98.9|         70461|        365|
-|longitude                         |         1.1|          98.9|         70461|        365|
+|country                           |         4.1|          95.9|         68319|         33|
+|publication_place                 |         4.1|          95.9|         68322|        435|
+|latitude                          |         1.1|          98.9|         70469|        365|
+|longitude                         |         1.1|          98.9|         70469|        365|
 |language                          |         1.0|          99.0|         70519|        257|
 |dissertation                      |         0.0|         100.0|         71222|          3|
 |synodal                           |         0.0|         100.0|         71222|          2|

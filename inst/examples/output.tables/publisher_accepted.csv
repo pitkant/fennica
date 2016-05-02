@@ -97,8 +97,6 @@ acad typ c frenckell	   3
 acad typogr	   1
 acricola kustannus-oy	   1
 adam charles black	   1
-ad bergman	   1
-ad fr raam	   1
 administration åbo tryckeri tidningsaktiebolag	   1
 admiraltejskaâ kollegiâ	   1
 adolf allardt	   1
@@ -145,7 +143,7 @@ ahlaisten kunta	   3
 åhlen åkerlund	   8
 ahlgren	   2
 ahlqvist	   2
-aignar lajos bizománya	   1
+aignar lajos bizomanya	   1
 aikain vartija	  29
 aikain vartija förlags a-b	   1
 aikain vartija förlags b	   2
@@ -602,7 +600,7 @@ axel söderlund utg	   1
 axel stenforss	   1
 axel wilhelm sohlström	   1
 ayrshireföreningen i finland	   2
-az athenaeum irod es nyomdai r-t kiadása	   1
+az athenaeum irod es nyomdai r-t kiadasa	   1
 b a	   1
 backman	  20
 bäckman	   1
@@ -666,6 +664,7 @@ berg	   4
 bergbom	  21
 bergdahl	  18
 bergdahl wilen	   1
+bergman	   1
 bergroth	   4
 bergstrand	   1
 bergström	   6
@@ -1406,7 +1405,7 @@ diakonissanstalten i helsingfors	   1
 diakonissanstalten i wiborg	   1
 diakonissestiftelsen	   1
 diakonisshuset i helsingfors	   2
-dià tu petru ouàld peder eriksson wald ekeî typográfu	   1
+dià tu petru ouàld peder eriksson wald ekeî typografu	   1
 dictus literis henrici keysers	   1
 die finnische litteratur-gesellschaft	   1
 dieterich'sche verlagsbuchhandlung	   1
@@ -1729,7 +1728,7 @@ ekholm	  18
 eklund	   2
 ekonomiska samfundet i finland	   1
 eks rahwakirjanduse - toimekonna wäljaanne	   1
-ektypotheìs parà petro hannzonio tes akad bibliágrafo	   1
+ektypotheìs parà petro hannzonio tes akad bibliagrafo	   1
 e lagus i distr	   1
 eläinsuojelus	   1
 eläinsuojeluskonttori	   2
@@ -1777,7 +1776,7 @@ e m flodströmildä cuningal acad kirjanpräntäjäldä	   1
 e m flodström kongl acad boktryckare	   1
 e m flodström reg acad typogr	   5
 e m flodström reg acad typogr m d finl	   2
-emich gusztáv könyvnyomdája	   1
+emich gusztav könyvnyomdaja	   1
 emil alttius	   1
 emil barth	   2
 emil björkell	   1
@@ -2358,12 +2357,11 @@ f m föreningen	   1
 f morthorstes enke	   1
 föfr	   1
 f o lampola	   1
-f olan	   6
+f olan	   7
 f olàn	   2
-f olán	   1
 f olàn'in kirjakauppa	   7
-f olán'in kirjakauppa	   3
-f olánin kirjakauppa	   8
+f olan'in kirjakauppa	   3
+f olanin kirjakauppa	   8
 f olàn'in kirjakauppa jakaja	   2
 f olan's bokhandel	   1
 f olan's bokhandel bokbinderi	   1
@@ -2619,6 +2617,7 @@ f rose kongl acad boktryckare	   1
 frosterus	   1
 Frosterus, Benj	   1
 fr p	   4
+fr raam	   1
 fr skoglund	   2
 fr skoglund seelig cis förlagsfirma	   1
 fruntimmers bibelföreningen	   1
@@ -2730,9 +2729,9 @@ georg reimer	   1
 georg urban cons gymn boktr	   1
 georg wigand	   1
 georg wilhelm londicer	  90
-georg wilhelm londicer efter exemplar	   8
-georg wilhelm londicer efter exemplar från götheborg	   1
-georg wilhelm londicer efter exemplar ifrån stockholm	   1
+georg wilhelm londicer efter	   8
+georg wilhelm londicer efter från götheborg	   1
+georg wilhelm londicer efter ifrån stockholm	   1
 georg wilhelm londicerilä prändätyn exemplarin turusa	   1
 georg wilhelm londicerildä	  50
 georg wilhelm londicerildä exemplarin turusta	   2
@@ -2750,10 +2749,10 @@ georg wilhelm londicerildä prändätyn exemplarin turusta	   2
 georg wilhelm londicerildä turusa prändätyn exemplarin	   1
 georg wilhelm londicer kongl priv boktryckare	   2
 georg wilhelm londicer kongl privil boktryckare	   3
-georg wilhelm londicer k p boktryckare efter exemplar från calmar	   1
+georg wilhelm londicer k p boktryckare efter från calmar	   1
 georg wilhem londicerildä	   1
 georg wilh londicer	   2
-georg wilh londicer efter exemplar	   1
+georg wilh londicer efter	   1
 georg wilh londicerildä	  19
 georg wilh londicerildä kuningall priwil kirjanpräntäjäldä	   1
 georg wilh londicerildä kuning privil kirjanpräntäjäldä	   2
@@ -3715,8 +3714,8 @@ hörberg	   2
 hörlin	   1
 hornborg co	   2
 hörning	   2
-hornyánsky viktor kiadása	   2
-hornyánszky viktor kiadása	   3
+hornyansky viktor kiadasa	   2
+hornyanszky viktor kiadasa	   3
 Hougberg, Emil	   1
 h råbergh	   1
 hromolitografìâ p â ivanova	   1
@@ -3848,7 +3847,7 @@ ilmoittaja sanomalehden kustannusliikkeen kp	   1
 ilmoitustoimisto hermes	   2
 impensis frenckellianis	   2
 impensis johannis christophori frenckell	   1
-impensis johannis clarke ad insigne bibliorum sub excambio regali	   1
+impensis johannis clarke insigne bibliorum sub excambio regali	   1
 impensis joh laurent horrn reg ant arch typogr	   1
 impensis petri kraft graec litt lect	   1
 imperatorskaâ akademìâ nauk'	  13
@@ -4553,7 +4552,7 @@ johan wintterildä cuning kirjainpränt	   1
 johan witerildä cuningda booktrdä suures ruhtinan maasa suomes	   1
 joh bäck	   1
 joh benj blume bekostnad	   1
-joh benj blume efter begäran exemplar ifrån stockholm	   1
+joh benj blume efter begäran ifrån stockholm	   1
 joh bergdahl	   4
 joh bergdahl wilen	   1
 joh billingsley	   3
@@ -5234,8 +5233,8 @@ k höglund	   1
 k holm	   1
 k husmann	   1
 kiadja hornyanszky viktor	   1
-kiadja ráth mor	   2
-kiadja szent-istván-társulat	   1
+kiadja rath mor	   2
+kiadja szent-istvan-tarsulat	   1
 kiaempe	   1
 kiaempe reg typ	   2
 kiaempe r typ	   6
@@ -5336,7 +5335,7 @@ knižnyj magazin'' p kraseninnikova i komp	   1
 knižnyj magazin' stura	   1
 knižnyj sklad' b i gubinskago	   1
 knningalisesa suomalaisesa prändisä	   2
-knoll károly	   1
+knoll karoly	   1
 knut hallberg	   1
 koarle gottlund	   1
 kock- stuertskolans i åbo	   1
@@ -6444,7 +6443,7 @@ mag joh christ frenckell	   1
 mag joh christoph frenckell för auctorns räkning	   1
 magnus ericus alopaeus	   2
 magnus swederus kongl acad bokhandlare	   1
-magyar tudományos akademia	   1
+magyar tudomanyos akademia	   1
 maisonneuve	   2
 maitotalouden lehti	   1
 majlund	   8
@@ -7066,9 +7065,8 @@ oksanen	   2
 o kuosmanen	   2
 olai enaei	   1
 olai enaei reg arch antiq typogr	   1
-olan	  27
-olán	  13
-olánin kirjakauppa	   2
+olan	  40
+olanin kirjakauppa	   2
 olànin kirjapaino yhtiön kirjapaino jakaja	   1
 olan toivonen	   2
 olao enaeo	   1
@@ -9457,8 +9455,8 @@ tervolan kirkonkylän nuorisoseura	   1
 tervolan työv-yhd suvannon osasto	   1
 terwo	   1
 teschen	   1
-tetypomene apò ioánnu tu oualliu tes akademias typogr	   2
-tetypomenon apò ioánnu tu oualliu johan larsson wall tes basil akad typogr	   1
+tetypomene apò ioannu tu oualliu tes akademias typogr	   2
+tetypomenon apò ioannu tu oualliu johan larsson wall tes basil akad typogr	   1
 tetypomenos ap' ignatiu meureianu	   1
 teuvo pakkala	   1
 th abbor gymnasii booktryckiare	   1
@@ -9670,7 +9668,7 @@ toivo	   1
 toivo hiltunen	   1
 toivo ii	   1
 toivonen	  43
-toivonen olán	   1
+toivonen olan	   1
 toivon tähti	   3
 toivon tähti jakaja	   1
 toiwonen	   1
@@ -9899,11 +9897,11 @@ typografernes förening i helsingfors	   1
 typographaeo tobiae steinmanni	   1
 typographeo ianssoniano	   1
 typographeo johannis richelii sen typogr	   1
-typographia ad regiam academiam	   4
 typographia frenckelliana	   1
 typographiâ gutterwicianae	   1
 typographia johannis richelii	   1
 typographia joh billingsley	   1
+typographia regiam academiam	   4
 typographia stephani myliandri	   1
 typograph iohan matthaei sumptibus zachariae schureri	   1
 typog reg mag duc finland jacob merckell	   1
@@ -10234,7 +10232,7 @@ victor heyno	   2
 victor hoving	  42
 victor hoving ent clouberg kumpp	   1
 victoria government office	   2
-victoriano suárez	   1
+victoriano suarez	   1
 victor palme	   1
 victor pettersonin kirjapaino	   1
 victor pettersson	   3
@@ -10710,7 +10708,7 @@ w lillja kumpp	   3
 w lilljan kirjapainossa	   1
 w lindgren	   5
 w londicer	1829
-w londicer efter exemplar	   1
+w londicer efter	   1
 w londicerildä	  49
 w londicerildä kuning privil kirjanpräntäjäldä	   1
 w londicerin leski	   7
