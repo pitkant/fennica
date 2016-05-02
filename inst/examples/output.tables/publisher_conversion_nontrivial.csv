@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	31384	
+Total count: 	31394	
 [G. W. Londicer]	w londicer	1823
 [J. C. Frenckell]	c frenckell	1205
 typis Frenckellianis	frenckellianis	1178
@@ -107,7 +107,7 @@ tryckt hos direct. och kongl. boktr. i stor-förstendömet Finland, Jacob Mercke
 excudebat Petrus Hansonius Acad. typ.	petrus hansonius acad typ	30
 excusa â Petro Hansonio Acad. typogr.	â petro hansonio acad typogr	30
 Söderström & C:o	söderström co	29
-Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi morskago šlâhetnago kadetskago Korpusa	pecatan' pri admiraltejskoj kollegïi v' tipografïi morskago slâhetnago kadetskago korpusa	29
+Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi morskago šlâhetnago kadetskago Korpusa	pecatan' pri admiraltejskoj kollegii v' tipografii morskago slâhetnago kadetskago korpusa	29
 imprimebat Petrus Wald, Acad. typ.	petrus wald acad typ	29
 typis Edmannianis	edmannianis	29
 [Londicer]	londicer	29
@@ -2829,7 +2829,7 @@ Printed for Joseph Mawman ...	joseph mawman	1
 Voenno-Topografičeskago Upravleniâ General'nago Štaba	voenno-topograficeskago upravleniâ general'nago staba	1
 Ministerstvo torgovli i promyšlennosti	ministerstvo torgovli i promyslennosti	1
 V. Berezovskij	v berezovskij	1
-Gelʼsingforsskij otděl' Vserossïjskago soûza morâkov' torgovago flota	gelʼsingforsskij otděl' vserossïjskago souza morâkov' torgovago flota	1
+Gelʼsingforsskij otděl' Vserossïjskago soûza morâkov' torgovago flota	gelʼsingforsskij otděl' vserossijskago souza morâkov' torgovago flota	1
 tipo- i lit. F. Til'gmana	tipo- i lit f til'gmana	1
 tip. Akc. o-va	tip akc o-va	1
 [Svenska litteratursällskapet]	svenska litteratursällskapet	1
@@ -2847,6 +2847,7 @@ L. L. Lauren	l l lauren	1
 C. A. Leffler	c leffler	1
 K. Mattisen'	k mattisen'	1
 Tip. Imp. akad. nauk	tip akad nauk	1
+Imperatorskaâ AkademÏâ nauk	imperatorskaâ akademiâ nauk	1
 [General'nyj štab']	general'nyj stab'	1
 Tipografìâ Finsk. Literat. Obŝestva	tipografìâ finsk literat obŝestva	1
 Gidrografičeskij departament' Morskago Ministerstva	gidrograficeskij departament' morskago ministerstva	1
@@ -4601,12 +4602,13 @@ G. W. Edlund [jakaja]	w edlund jakaja	1
 Ruuki, utg.	ruuki utg	1
 Aug. Rietz	aug rietz	1
 [Suomen palloliitto]	suomen palloliitto	1
-Vyborgskïj komitet' Partïi socïalistov'-revolûcïonerov'	vyborgskïj komitet' partïi socïalistov'-revolucïonerov'	1
+Vyborgskïj komitet' Partïi socïalistov'-revolûcïonerov'	vyborgskij komitet' partii socialistov'-revolucionerov'	1
+Izdanïe 'Věstnika vyborgskoj krěpostnoj artillerïi'	izdanie 'věstnika vyborgskoj krěpostnoj artillerii'	1
 [Suomen muinaismuisto-yhdistys]	suomen muinaismuisto-yhdistys	1
 [Suomen metsästysyhdistys]	suomen metsästysyhdistys	1
 [Helsingfors musikförening och musikinstitut]	helsingfors musikförening musikinstitut	1
 [Suomen metalliteollisuuden harjoittajain liitto]	suomen metalliteollisuuden harjoittajain liitto	1
-[Izdanïe Literaturnago otděla Gel'singforskago Matrosskago Kluba]	izdanïe literaturnago otděla gel'singforskago matrosskago kluba	1
+[Izdanïe Literaturnago otděla Gel'singforskago Matrosskago Kluba]	izdanie literaturnago otděla gel'singforskago matrosskago kluba	1
 G. E. C. Gad i komm.	e c gad i komm	1
 N. Öhrnberg, distr.	n öhrnberg distr	1
 [Vasa handelsskola]	vasa handelsskola	1
@@ -4616,7 +4618,7 @@ Henry Paulin & C:ie	henry paulin cie	1
 [Liittohallinto]	liittohallinto	1
 [Suomen Kristillinen Työväenliitto]	suomen kristillinen työväenliitto	1
 A.-B. Ekmans förlagsexpedition	a-b ekmans förlagsexpedition	1
-[Redakcïâ žurnala 'Truženik' morâ']	redakcïâ žurnala 'truženik' morâ'	1
+[Redakcïâ žurnala 'Truženik' morâ']	redakciâ žurnala 'truženik' morâ'	1
 A. Helenius förlag	helenius förlag	1
 [Helsingfors Elektriska Belysnings Aktiebolag]	helsingfors elektriska belysnings aktiebolag	1
 [Sällskapet Pellervo]	sällskapet pellervo	1
@@ -4629,6 +4631,7 @@ The Electrician	electrician	1
 [Reinhold Hausen]	reinhold hausen	1
 Tuberkulosin vastustamisyhdistys :;Akateeminen kirjakauppa, jakaja	tuberkulosin vastustamisyhdistys akateeminen kirjakauppa jakaja	1
 Fröleen & C:o	fröleen co	1
+Tipografïja 'Zadruga'	tipografija 'zadruga'	1
 [Industristyrelse]	industristyrelse	1
 [Hälsovårdsnämnden i Övermark]	hälsovårdsnämnden i övermark	1
 Minerva, distr.]	minerva distr	1
@@ -4637,6 +4640,8 @@ Suomen kaakeli- ja uunintekijäin liitto	suomen kaakeli- uunintekijäin liitto	1
 [Jakobstads kommunala reglementen]	jakobstads kommunala reglementen	1
 [Finska Statsjärnvägarnes]	finska statsjärnvägarnes	1
 [Nordiska Kirurgiska Föreningen]	nordiska kirurgiska föreningen	1
+Izdanïe Individa	izdanie individa	1
+Izdanïe Gel'singforskago sověta	izdanie gel'singforskago sověta	1
 [Helsingfors stads folkskolor]	helsingfors stads folkskolor	1
 Sosialistin kp.-osuuskunta	sosialistin kp-osuuskunta	1
 Turun l. etel. vaalipiiritoimikunta	turun l etel vaalipiiritoimikunta	1
@@ -4644,9 +4649,10 @@ Turun l. etel. vaalipiiritoimikunta	turun l etel vaalipiiritoimikunta	1
 [Suomalainen työväenliitto]	suomalainen työväenliitto	1
 [Finska Ångfartygs Aktiebolaget]	finska ångfartygs aktiebolaget	1
 G. Reimer i komm.	reimer i komm	1
-Izdanïe V. V. Vasil'evoj	izdanïe v v vasil'evoj	1
+Izdanïe V. V. Vasil'evoj	izdanie v v vasil'evoj	1
 [Suomalaisen puolueen naisvaliokunta]	suomalaisen puolueen naisvaliokunta	1
-Izdanïe Respublikanskago Soûza oficerov', vračej i činovnikov' armïi i flota Sveaborgskago rajona	izdanïe respublikanskago souza oficerov' vracej i cinovnikov' armïi i flota sveaborgskago rajona	1
+Izdanïe Finlândskago ob^̌sestva turistov'	izdanie finlândskago ob^̌sestva turistov'	1
+Izdanïe Respublikanskago Soûza oficerov', vračej i činovnikov' armïi i flota Sveaborgskago rajona	izdanie respublikanskago souza oficerov' vracej i cinovnikov' armii i flota sveaborgskago rajona	1
 [Sociala Centralbyrån] :;Akademiska Bokhandeln, jakaja	sociala centralbyrån akademiska bokhandeln jakaja	1
 [Åbo stads svenskspråkiga folkskolor]	åbo stads svenskspråkiga folkskolor	1
 Trewendt & Granier	trewendt granier	1
@@ -4671,7 +4677,7 @@ N. F. Höjer	n f höjer	1
 G. E. Edlund	e edlund	1
 Merimieskoulu [jakaja]	merimieskoulu jakaja	1
 A. Haapanen	haapanen	1
-Partïâ soc.-revolûcïonerov'	partïâ soc-revolucïonerov'	1
+Partïâ soc.-revolûcïonerov'	partiâ soc-revolucionerov'	1
 Fr. Forsberg	fr forsberg	1
 F. G. Petersons bokhandel i distr	f petersons bokhandel i distr	1
 Uudenkirkon V.l. kunta	uudenkirkon vl kunta	1
@@ -4700,29 +4706,30 @@ Suomen sos.dem. nuorisoliiton toimikunta	suomen sosdem nuorisoliiton toimikunta	
 [K.-S. työväen sanomal.-kirjap.- ja -kauppa osuuskunta]	k-s työväen sanomal-kirjap- -kauppa osuuskunta	1
 [Hämeenlinnan lyseo]	hämeenlinnan lyseo	1
 [Fjäderfäskötselns Vänner]	fjäderfäskötselns vänner	1
-Partïâ socialistov' revolûcïonerov'	partïâ socialistov' revolucïonerov'	1
+Partïâ socialistov' revolûcïonerov'	partiâ socialistov' revolucionerov'	1
 H. Klingstén	h klingsten	1
 Strecker & Schröder	strecker schröder	1
 [Finlândskìj istoričeskìi musej]	finlândskìj istoriceskìi musej	1
 [Nacìonal'nyj muzej Finlândìi]	nacìonal'nyj muzej finlândìi	1
 Föfr.	föfr	1
-Izdanïe Hristïanskago kružka po izučenïû i izslědovanïû Svâŝ. Pisan	izdanïe hristïanskago kružka po izucenïu i izslědovanïu svâŝ pisan	1
+Izdanïe Hristïanskago kružka po izučenïû i izslědovanïû Svâŝ. Pisan	izdanie hristianskago kružka po izuceniu i izslědovaniu svâŝ pisan	1
 [Svenska Normallyceums i Helsingfors]	svenska normallyceums i helsingfors	1
 [Tervolan kirkonkylän nuorisoseura]	tervolan kirkonkylän nuorisoseura	1
-Gel'singforskoj gruppy R.S.-D.R. partïi	gel'singforskoj gruppy rs-dr partïi	1
+Gel'singforskoj gruppy R.S.-D.R. partïi	gel'singforskoj gruppy rs-dr partii	1
 Kristliga föreningen af unga kvinnor	kristliga föreningen unga kvinnor	1
+Vidannâ Gel'singfors'kogo ukraïns'kogo tva prosvïta	vidannâ gel'singfors'kogo ukrains'kogo tva prosvita	1
 [Tampereen kaupunginvaltuusto]	tampereen kaupunginvaltuusto	1
 [Svenska Förbundets verksamhet]	svenska förbundets verksamhet	1
 W. Karsten, distr.	w karsten distr	1
 Guðm. Gamalíelsson	guðm gamalielsson	1
-Izdanïe Gel'singfrsskoj gruppy socïal'-demokratičeskoj rabočej partïi	izdanïe gel'singfrsskoj gruppy socïal'-demokraticeskoj rabocej partïi	1
+Izdanïe Gel'singfrsskoj gruppy socïal'-demokratičeskoj rabočej partïi	izdanie gel'singfrsskoj gruppy social'-demokraticeskoj rabocej partii	1
 Åhlén &  Åkerlund	åhlen åkerlund	1
 The Pilgram Press	pilgram press	1
 K. F. Hellgren	k f hellgren	1
 Hugo Heller & Cie	hugo heller cie	1
 Akademiska bokhandeln, jakaja	akademiska bokhandeln jakaja	1
 E. Rytkönen	e rytkönen	1
-Izdanïe S. Sobčinskago i Plevkovskago kontora	izdanïe s sobcinskago i plevkovskago kontora	1
+Izdanïe S. Sobčinskago i Plevkovskago kontora	izdanie s sobcinskago i plevkovskago kontora	1
 Lampel R. Könyvkereskedése	lampel r könyvkereskedese	1
 [Sjöblom'in nahkateollisuus Osake-yhtiö]	sjöblom'in nahkateollisuus osake-yhtiö	1
 [SÖU]	söu	1
@@ -4736,7 +4743,7 @@ Mikkelin Työväen sanomalehti- ja kirjapaino-osuuskunta	mikkelin työväen sano
 F. Timber, distr.	f timber distr	1
 [Wiipurin koulunuorisoliitto]	wiipurin koulunuorisoliitto	1
 [Helios] :;[Waseniuska bokhandeln i distribution]	helios waseniuska bokhandeln i distribution	1
-Rossïjskaâ socïal' demokratičeskaâ  rabočaâ partïâ 'Edinstvo'	rossïjskaâ socïal' demokraticeskaâ rabocaâ partïâ 'edinstvo'	1
+Rossïjskaâ socïal' demokratičeskaâ  rabočaâ partïâ 'Edinstvo'	rossijskaâ social' demokraticeskaâ rabocaâ partiâ 'edinstvo'	1
 J. Simelii arfv. boktryckeri	simelii arfv boktryckeri	1
 [Finland Brandstodsförening]	finland brandstodsförening	1
 W. Strübig	w strubig	1
@@ -4747,11 +4754,12 @@ H. Appelberg	h appelberg	1
 L. M. Partanen	l m partanen	1
 [Samskola i S:t Michel]	samskola i st michel	1
 [Fångvårdsstyrelsen i Finland]	fångvårdsstyrelsen i finland	1
-Izdanïe Gel'singforsskoj gruppy Rossïjskoj socïal'-demokratičeskoj rabočej partïi	izdanïe gel'singforsskoj gruppy rossïjskoj socïal'-demokraticeskoj rabocej partïi	1
+Izdanïe Gel'singforsskoj gruppy Rossïjskoj socïal'-demokratičeskoj rabočej partïi	izdanie gel'singforsskoj gruppy rossijskoj social'-demokraticeskoj rabocej partii	1
 Otto Andersinin kp.	otto andersinin kp	1
 published for the University of London by John Murray	university london john murray	1
 W. Klinkhardt	w klinkhardt	1
 [Arbetets Vänner i Vasa]	arbetets vänner i vasa	1
+Izdanïe Sekcïi rasprostvanenïâ idej narodovlastïâ	izdanie sekcii rasprostvaneniâ idej narodovlastiâ	1
 Tekijä :;Frenckellin kirjakauppa, jakaja	frenckellin kirjakauppa jakaja	1
 O. Lönnrot	o lönnrot	1
 [Svenska Folkpartiets kretsstyrelse]	svenska folkpartiets kretsstyrelse	1
@@ -4760,15 +4768,16 @@ K. F. Puromies [jakaja]	k f puromies jakaja	1
 [Kamratgillet]	kamratgillet	1
 Puromiehen kp.	puromiehen kp	1
 Tipografija M. Korškova	tipografija m korskova	1
-Izdatel'stvo Petrogradskago komiteta Partïi socïalistov'-revolûcïonerob'	izdatel'stvo petrogradskago komiteta partïi socïalistov'-revolucïonerob'	1
-Tipografïâ M. Gorškova	tipografïâ m gorskova	1
+Izdatel'stvo Petrogradskago komiteta Partïi socïalistov'-revolûcïonerob'	izdatel'stvo petrogradskago komiteta partii socialistov'-revolucionerob'	1
+Tipografïâ M. Gorškova	tipografiâ m gorskova	1
 Oulun kirjapaino-, kirjansitomo- ja kirjakauppa-osakeyhtiö	oulun kirjapaino- kirjansitomo- kirjakauppa-osakeyhtiö	1
 Joh. Parcinski	joh parcinski	1
 Gebrüder Jänecke	gebruder jänecke	1
 Lahden, Tampereen ja Viipurin puutarhaseurat	lahden tampereen viipurin puutarhaseurat	1
 [Finska Svinafvelsförening]	finska svinafvelsförening	1
-Sekcïâ rasprositr. idej narodovlastïâ pri Ispolnitel'n. komitetè	sekcïâ rasprositr idej narodovlastïâ pri ispolnitel'n komitetè	1
+Sekcïâ rasprositr. idej narodovlastïâ pri Ispolnitel'n. komitetè	sekciâ rasprositr idej narodovlastiâ pri ispolnitel'n komitetè	1
 [Finska Stats Järnvägarnas Verkstäders arbetarförening]	finska stats järnvägarnas verkstäders arbetarförening	1
+Tipografïâ Imperatorskago finlândskago senata	tipografiâ imperatorskago finlândskago senata	1
 [Finska Sparbanksdelegationen]	finska sparbanksdelegationen	1
 [Ångfartygs Aktiebolaget Bore]	ångfartygs aktiebolaget bore	1
 [Turistföreningens i Finland Åbofilial]	turistföreningens i finland åbofilial	1
@@ -4777,7 +4786,7 @@ Sekcïâ rasprositr. idej narodovlastïâ pri Ispolnitel'n. komitetè	sekci
 [Tidning för musik]	tidning för musik	1
 [Finska Seglareförbund]	finska seglareförbund	1
 O.y. Kirja-Aitta [jakaja]	oy kirja-aitta jakaja	1
-Akc. obŝ. gagnesskïj knižnyj magazin'	akc obŝ gagnesskïj knižnyj magazin'	1
+Akc. obŝ. gagnesskïj knižnyj magazin'	akc obŝ gagnesskij knižnyj magazin'	1
 [Finska Revisorsföreningens lagförslag]	finska revisorsföreningens lagförslag	1
 Turun kirjapaino- ja sanomalehti	turun kirjapaino- sanomalehti	1
 [Karjalan sivistysseura]	karjalan sivistysseura	1
@@ -6161,6 +6170,7 @@ tryckt på Direct. Lars Salvii Förlag	lars salvii förlag	1
 [Kongliga landtmäteri contoiret]	kongliga landtmäteri contoiret	1
 [Gornyj učiliŝe]	gornyj uciliŝe	1
 [Akademìâ Nauk']	akademìâ nauk'	1
+Admiraltejskaâ Kollegïâ	admiraltejskaâ kollegiâ	1
 [Robert de Vaugondy] :;[Ches Boudet Ingenieur du Roi]	robert de vaugondy ches boudet ingenieur du roi	1
 tryckt [af] Joh. Kämpe	joh kämpe	1
 prändätty directeurildä ja kuning:da kirjan-präntäjäldä suuren-ruhtinan-maasa Suomesa, Jacob Mercellildä	directeurildä kuningda kirjan-präntäjäldä suuren-ruhtinan-maasa suomesa jacob mercellildä	1
