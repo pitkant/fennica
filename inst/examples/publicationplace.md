@@ -7,26 +7,17 @@ output: markdown_document
 
 ### Publication places
 
-[Accepted publication countries](output.tables/country_accepted.csv)
+ * 434 [unique accepted publication places](output.tables/publication_place_accepted.csv)
+ * Publication place is identified for 68321 documents (96%). 
+ * Publication country is identified for 68319 documents (96%). [List of places with unknown publication country](output.tables/publication_place_missingcountry.csv) (add to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
+ * We have 33 [unique accepted publication countries](output.tables/country_accepted.csv)
+ * 98.9% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.09``% of the documents have missing geocoordinates.
+ * [Non-trivial conversions from the original to final place names](output.tables/publication_place_conversion_nontrivial.csv)
+ * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
+ * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (the default country is listed first)
+ * [Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept; or add to [publication place stopwords](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_place.csv) to completely discard the term)
 
-[Publication country not identified](output.tables/publication_place_missingcountry.csv) (add to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
-
-[Accepted publication places](output.tables/publication_place_accepted.csv)
-
-[Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
-
-[Ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv)
-
-[Discarded publication places](output.tables/publication_place_discarded.csv) (add to [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) to accept; or add to [publication place stopwords](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_place.csv) to completely discard the term)
-
-[Publication place conversions](output.tables/publication_place_conversion_nontrivial.csv)
-
-[Places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.09``% of the documents have missing geocoordinates.
-
-
-
-Top-20 publication places are shown together with the number of documents. This info is available for 68322 documents (96%). There are 435 unique publication places. Overall 98.9% of the places could be matched to geographic coordinates (from the [Geonames](http://download.geonames.org/export/dump/) database).
-
+Top-20 publication places are shown together with the number of documents.
 
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 

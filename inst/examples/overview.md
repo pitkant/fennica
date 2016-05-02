@@ -67,9 +67,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publisher                         |        17.5|          82.5|         58768|      10837|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
 |country                           |         4.1|          95.9|         68319|         33|
-|publication_place                 |         4.1|          95.9|         68322|        435|
-|latitude                          |         1.1|          98.9|         70469|        365|
-|longitude                         |         1.1|          98.9|         70469|        365|
+|publication_place                 |         4.1|          95.9|         68321|        434|
+|latitude                          |         1.1|          98.9|         70470|        365|
+|longitude                         |         1.1|          98.9|         70470|        365|
 |language                          |         1.0|          99.0|         70519|        257|
 |dissertation                      |         0.0|         100.0|         71222|          3|
 |synodal                           |         0.0|         100.0|         71222|          2|
