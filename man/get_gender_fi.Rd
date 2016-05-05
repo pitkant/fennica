@@ -24,11 +24,11 @@ Information from the Finnish Population register. All
 first names for living Finnish citizens that live in Finland and
 abroad. Only names with frequency n>10 are included.
  Source: avoindata.fi service and Vaestorekisterikeskus (VRK).
- URL: https://www.avoindata.fi/data/fi/dataset/none
+ \url{https://www.avoindata.fi/data/fi/dataset/none}
  Version: 3/2016
  Data license CC-BY 4.0
-The data was downloaded with this function as sorvi::get_gender_table_fi()
-and integrated in the sorvi package. The frequencies of male/female names
+The data was downloaded with this function as fennica::get_gender_fi()
+and integrated in the fennica package. The frequencies of male/female names
 are added after the download as some names occur for both genders.
 }
 \examples{
@@ -38,7 +38,7 @@ tab <- get_gender_fi()
 Leo Lahti \email{leo.lahti@iki.fi}
 }
 \references{
-See cite("sorvi")
+See cite("fennica")
 }
 \keyword{data}
 
