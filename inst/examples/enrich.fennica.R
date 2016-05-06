@@ -82,5 +82,19 @@ df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[
 # publication_decade
 df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
 
+# ------------------------------------------------------
+
+# For author names, use primarily the Finnish names database
+# hence use it to replace the genders assigned earlier by bibliographica
+first.names <- pick_firstname(df.preprocessed$author_name, format = "last, first")
+first.finnish <- get_gender_fi()[, c("name", "gender")]
+g <- get_gender(first.names, first.finnish)
+inds <- which(!is.na(g))
+# Replace the earlier gender mappings with the finnish ones where available
+df.preprocessed$author_gender[inds] <- g[inds]
+
+# -------------------------------------------------------
+
+
 
 

@@ -3,6 +3,10 @@ Pubplan
 
 ### Technical
 
+Lisää Mikon Gender-mäpit vielä.
+
+Tarkista että gender-mäppäykset menee oikein. 
+
 Taitaa olla virheellinen pagecount?
 [1-3] 4-11 [12] s. (s. [12] tyhjä)
 -> Nyt: 23
@@ -13,6 +17,7 @@ Dimensiotiedoissa: kumpi näistä valitaan
 KK:lta saatu ~/proj/2014-Aatelouhinta/Sanastoja.doc - listaa
 tietokantoja joita voitaisiin käyttää ainakin suomalaisten
 paikannimien, henkilönimien ym. validointiin.
+
 
 ### Fennica tutkimuskysymykset
 
