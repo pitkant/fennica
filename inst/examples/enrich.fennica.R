@@ -87,6 +87,7 @@ df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10)
 # For author names, use primarily the Finnish names database
 # hence use it to replace the genders assigned earlier by bibliographica
 first.names <- pick_firstname(df.preprocessed$author_name, format = "last, first")
+library(fennica)
 first.finnish <- get_gender_fi()[, c("name", "gender")]
 g <- get_gender(first.names, first.finnish)
 inds <- which(!is.na(g))
