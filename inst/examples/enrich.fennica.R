@@ -84,17 +84,33 @@ df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10)
 
 # ------------------------------------------------------
 
+message("Custom gender information for Fennica")
+
 # For author names, use primarily the Finnish names database
 # hence use it to replace the genders assigned earlier by bibliographica
-first.names <- pick_firstname(df.preprocessed$author_name, format = "last, first")
 library(fennica)
-first.finnish <- get_gender_fi()[, c("name", "gender")]
-g <- get_gender(first.names, first.finnish)
-inds <- which(!is.na(g))
-# Replace the earlier gender mappings with the finnish ones where available
-df.preprocessed$author_gender[inds] <- g[inds]
+firstname <- pick_firstname(df.preprocessed$author, format = "last, first")
 
-# -------------------------------------------------------
+# Let us Finnish gender mappings override others
+gender.fi <- get_gender_fi()[, c("name", "gender")] # Finnish
+genderfi <- get_gender(firstname, gender.fi)
+inds <- which(!is.na(genderfi))
+df.preprocessed$author_gender[inds] <- genderfi[inds]
+
+# Let us Fennica custom gender mappings override others
+gender.custom <- read_synonymes("custom_gender_fennica.csv", sep = "\t", from = "name", to = "gender", mode = "table")
+gendercustom <- get_gender(firstname, gender.custom)
+inds <- which(!is.na(gendercustom))
+df.preprocessed$author_gender[inds] <- gendercustom[inds]
+
+# ----------------------------------------------------------------
+ 
+
+
+
+
+
+
 
 
 
