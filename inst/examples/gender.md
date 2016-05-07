@@ -13,13 +13,13 @@ output: markdown_document
 
 [Authors with missing gender](output.tables/gender_unknown.csv)
 
-[Discarded gender](author_gender_discarded.csv)
+[Discarded gender](output.tables/author_gender_discarded.csv)
 
-[Accepted gender](author_gender_accepted.csv)
+[Accepted gender](output.tables/author_gender_accepted.csv)
 
-[Conversions](author_gender_conversion_nontrivial.csv)
+[Conversions](output.tables/author_gender_conversion_nontrivial.csv)
 
-<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="250px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="250px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="250px" /><img src="figure/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="250px" />
+<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" /><img src="figure/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" />
 
 
 Author gender distribution in the complete data:
