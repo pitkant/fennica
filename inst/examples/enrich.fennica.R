@@ -89,7 +89,7 @@ message("Custom gender information for Fennica")
 # For author names, use primarily the Finnish names database
 # hence use it to replace the genders assigned earlier by bibliographica
 library(fennica)
-firstname <- pick_firstname(df.preprocessed$author, format = "last, first")
+firstname <- pick_firstname(df.preprocessed$author_name, format = "last, first")
 
 # Let us Finnish gender mappings override others
 gender.fi <- get_gender_fi()[, c("name", "gender")] # Finnish

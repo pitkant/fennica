@@ -47,9 +47,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |note_510c                         |        90.7|           9.3|          6645|       6450|
 |note_source                       |        83.6|          16.4|         11710|       4972|
 |title_uniform                     |        82.9|          17.1|         12182|       8915|
-|author_death                      |        75.3|          24.7|         17568|        363|
+|author_death                      |        75.3|          24.7|         17569|        363|
 |author_date                       |        74.1|          25.9|         18432|       2508|
-|author_birth                      |        74.0|          26.0|         18496|        342|
+|author_birth                      |        74.0|          26.0|         18497|        342|
 |corporate                         |        71.5|          28.5|         20281|       1406|
 |subject_topic                     |        70.9|          29.1|         20766|       3513|
 |pagecount.orig                    |        68.0|          32.0|         22800|        792|
@@ -61,9 +61,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                            |        47.6|          52.4|         37328|        336|
 |area                              |        47.6|          52.4|         37328|        766|
 |physical_dimension                |        47.3|          52.7|         37577|       1101|
-|self_published                    |        46.6|          53.4|         38079|          3|
-|author_name                       |        36.7|          63.3|         45086|      11977|
-|author                            |        36.7|          63.3|         45086|      12002|
+|self_published                    |        46.6|          53.4|         38080|          3|
+|author_name                       |        36.7|          63.3|         45082|      11975|
+|author                            |        36.7|          63.3|         45082|      12000|
 |publisher                         |        17.5|          82.5|         58768|      10837|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
 |country                           |         4.1|          95.9|         68320|         33|
