@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 7507 unique male authors
+ * 8362 unique male authors
  
- * 877 unique female authors
+ * 906 unique female authors
  
- * 31700 documents (44.5%) with a male author
+ * 34023 documents (47.8%) with a male author
  
- * 2853 documents (4%) with a female author
+ * 2995 documents (4.2%) with a female author
  
- * 36695 documents (51.5%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 34230 documents (48%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -36,10 +36,10 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|ambiguous |          1057|         1.48|
-|female    |          2853|         4.00|
-|male      |         31700|        44.49|
-|NA        |         35638|        50.02|
+|ambiguous |          2251|         3.16|
+|female    |          2995|         4.20|
+|male      |         34023|        47.75|
+|NA        |         31979|        44.88|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 
@@ -52,16 +52,16 @@ Author gender distribution over time. Note that the name-gender mappings change 
 
 The name-gender mappings are collected from multiple sources:
 
+ * [genderdata] Data sets from the genderdata R package. 
+ * [English first names](http://www.ssa.gov/oact/babynames/limits.html) as implemented in the babynames R package. For each year from 1880 to 2013, the number of children of each sex given each name. All names with more than 5 uses are given.  The name-gender mappings from different years are combined for this analysis
+ 
  * [Multilingual database](http://www.lexique.org/public/prenoms.php} (Prenoms.txt) 
  * [French first names](http://www.excel-downloads.com/forum/86934-liste-des-prenoms.htmlhttp://http://www.excel-downloads.com/forum/86934-liste-des-prenoms.html)
  * [German first names](http://www.albertmartin.de/vornamen/)
- * [English first names] as implemented in the babynames R package. For each year from 1880 to 2013, the number of children of each sex given each name. All names with more than 5 uses are given: \url{http://www.ssa.gov/oact/babynames/limits.html}).
+ * [Finnish population register](https://www.avoindata.fi/data/fi/dataset/none) (Vaestorekisterikeskus; VRK). First names for living Finnish citizens that live in Finland and abroad in 2016. Only names with frequency n>10 are included. Source: avoindata.fi service and Vaestorekisterikeskus (VRK). Version: 3/2016. Data license CC-BY 4.0.
+ * Pseudonyme Provided by the authors of the bibliographica R package.
 
-
-
-
-#'     \item{Finnish}{Vaestorekisterikeskus VRK (see fennica::get_gender_fi) for details.}
-#'     \item{Custom, Pseudonyme}{Provided by the authors of the bibliographica R package.}
-#'     \item{genderdata}{Data sets from the genderdata R packages.}
+ * [Custom name-gender mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/firstnames/custom_gender.csv) constructed manually by the authors of this R package
+ * [Custom author information](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/author_info.csv) constructed manually by the authors of this R package 
 
 
