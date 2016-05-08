@@ -7,19 +7,29 @@ output: markdown_document
 
 ### Gender
 
-[Female authors](output.tables/gender_female.csv)
+ * 7507 unique male authors
+ 
+ * 877 unique female authors
+ 
+ * 31700 documents (44.5) with a male author
+ 
+ * 2853 documents (4) with a female author
+ 
+ * 36695 documents (1.5) with [unresolved gender](output.tables/author_gender_discarded.csv)
 
-[Male authors](output.tables/gender_male.csv)
+ * [First names identified as female](output.tables/gender_female.csv) 
 
-[Authors with missing gender](output.tables/gender_unknown.csv)
+ * [First names identified as male](output.tables/gender_male.csv)
 
-[Discarded gender](output.tables/author_gender_discarded.csv)
+ * [First names with ambiguous gender](output.tables/gender_ambiguous.csv) (both male and female listed in the gender mapping tables)
 
-[Accepted gender](output.tables/author_gender_accepted.csv)
+ * [First names with unknown gender](output.tables/gender_unknown.csv) (no gender mapping info available)
 
-[Conversions](output.tables/author_gender_conversion_nontrivial.csv)
 
-<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" /><img src="figure/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="200px" />
+
+ * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
+
+<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" />
 
 
 Author gender distribution in the complete data:
@@ -27,10 +37,10 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|ambiguous |           760|         1.07|
-|female    |          3034|         4.26|
-|male      |         31252|        43.86|
-|NA        |         36202|        50.81|
+|ambiguous |          1057|         1.48|
+|female    |          2853|         4.00|
+|male      |         31700|        44.49|
+|NA        |         35638|        50.02|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 

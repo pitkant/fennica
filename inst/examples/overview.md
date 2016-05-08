@@ -54,7 +54,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic                     |        70.9|          29.1|         20766|       3513|
 |pagecount.orig                    |        68.0|          32.0|         22800|        792|
 |obl                               |        54.5|          45.5|         32440|          3|
-|author_gender                     |        50.8|          49.2|         35046|          4|
+|author_gender                     |        50.0|          50.0|         35610|          4|
 |holder                            |        49.4|          50.6|         36083|       2136|
 |paper.consumption.km2             |        47.6|          52.4|         37320|       2653|
 |width                             |        47.6|          52.4|         37328|        296|
