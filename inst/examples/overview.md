@@ -61,7 +61,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |area                              |        47.6|          52.4|         37328|        766|
 |physical_dimension                |        47.3|          52.7|         37577|       1101|
 |self_published                    |        46.6|          53.4|         38080|          3|
-|author_gender                     |        44.9|          55.1|         39269|          4|
+|author_gender                     |        46.3|          53.7|         38252|          4|
 |author_name                       |        36.7|          63.3|         45082|      11975|
 |author                            |        36.7|          63.3|         45082|      12000|
 |publisher                         |        17.5|          82.5|         58768|      10837|

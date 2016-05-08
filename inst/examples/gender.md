@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 8362 unique male authors
+ * 8348 unique male authors
  
  * 906 unique female authors
  
- * 34023 documents (47.8%) with a male author
+ * 33978 documents (47.7%) with a male author
  
- * 2995 documents (4.2%) with a female author
+ * 2997 documents (4.2%) with a female author
  
- * 34230 documents (48%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 34273 documents (48.1%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -48,10 +48,10 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|ambiguous |          2251|         3.16|
-|female    |          2995|         4.20|
-|male      |         34023|        47.75|
-|NA        |         31979|        44.88|
+|ambiguous |          1277|         1.79|
+|female    |          2997|         4.21|
+|male      |         33978|        47.69|
+|NA        |         32996|        46.31|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 
@@ -62,7 +62,7 @@ Author gender distribution over time. Note that the name-gender mappings change 
 
 ### Data sources
 
-The name-gender mappings are collected from the following sources:
+The [name-gender mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/gendermap.csv) were collected from the following sources using [this script](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/data.gender.R):
 
   * U.S. Social Security Administration baby name data as implemented in the babynames and gender R packages. For each year from 1880 to 2013, the number of children of each sex given each name. All names with more than 5 uses are given.  
   * The U.S. Census data in the Integrated Public Use Microdata Series as implemented in the genderdata R package  

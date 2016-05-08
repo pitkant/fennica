@@ -1,6 +1,6 @@
 author	author_gender	Count
 Total count: 	71235	
-- -	ambiguous	    1
+- -	NA	    1
 Aadolf Fredrik	male	    3
 Aagaard, Gustav	male	    4
 Aakjær, Jeppe	male	    1
@@ -24,7 +24,7 @@ Aanrud, Hans	male	    4
 A A-pinen	NA	    1
 Aapo S	male	    4
 Aarne, Antti	male	   17
-Aarne, NA (1857-1913)	ambiguous	    5
+Aarne, NA (1857-1913)	NA	    5
 Aarnio, Aarre	male	    2
 Aarnio, B	NA	    7
 Aarnisalo, Otto	male	   12
@@ -92,7 +92,7 @@ A-d M	NA	    1
 -a-e-i	NA	    1
 Aeimelaeus, Carolus Nicolai (1734-1760)	male	    1
 Aeimelaeus, Johannes (1718-1805)	male	    2
-Aeimelaeus, Nicolaus (1753-1817)	ambiguous	    2
+Aeimelaeus, Nicolaus (1753-1817)	NA	    2
 Aejmelaeus, Carolus Fridericus (1761-1831)	male	    1
 Aejmelaeus, Johannes (1763-1829)	male	    1
 Aejmelaeus, Niilo	male	    1
@@ -105,7 +105,7 @@ Afzelius, Fredrik Georg	male	    2
 Afzelius, J A	male	    1
 Afzelius, Petrus	male	    3
 A G å	NA	    1
-Agander, Nicolaus Georgius (1761-1792)	ambiguous	    4
+Agander, Nicolaus Georgius (1761-1792)	male	    4
 Agardh, Carolus A	male	    1
 Agathon, Paul	male	    1
 Agerius, Aulus	male	    1
@@ -155,7 +155,7 @@ Ahlström, Bertel	male	    1
 Ahlström, J V	male	    1
 Ahlstubbe, Johannes (1765-1807)	male	    1
 åhman, Johannes (1744-1831)	male	    1
-åhman, Nicolaus (1707-1790)	ambiguous	    1
+åhman, Nicolaus (1707-1790)	NA	    1
 Ahmavaara, Arvi	male	    1
 Ahnger, Charles Emile	male	    3
 Ahnger, Minna	female	    1
@@ -167,7 +167,7 @@ Ahonen, A A	male	    1
 Ahonen, Antti	male	    1
 Ahonius, Karl Severin	male	    2
 Aho, Pekka (1864-1945)	male	    3
-Ahrenberg, Jac (1847-1914)	ambiguous	   55
+Ahrenberg, Jac (1847-1914)	NA	   55
 åhrén, Emil	male	    2
 ährenström, D A	male	    2
 Ahrens, W	NA	    1
@@ -184,12 +184,12 @@ Ailio, Julius	male	   23
 Ailio, V Pasi	male	    2
 Ailio, W Pasi	male	    1
 äimä, F	NA	    7
-Aimard, Gustave	ambiguous	    1
+Aimard, Gustave	NA	    1
 Aimonen, Anton (1857-1927)	male	    8
-Aina, NA (1856-1928)	ambiguous	   41
+Aina, NA (1856-1928)	NA	   41
 Ainio	NA	    1
-Aira	ambiguous	    2
-Airaksinen, Joh	ambiguous	    1
+Aira	NA	    2
+Airaksinen, Joh	NA	    1
 Airas, Kaarlo	male	    1
 Airas, Väinö	male	    1
 Airila, Eero	male	    1
@@ -200,7 +200,7 @@ Aiskhylos	NA	    1
 Aisopos	NA	    4
 A K C F	NA	    1
 Aken, Franz Joachim Von	male	    1
-åkerberg, Nicolaus Laurentii (1705-1785)	ambiguous	    1
+åkerberg, Nicolaus Laurentii (1705-1785)	NA	    1
 åkerblom, J F	male	    7
 åkerblom, K V	NA	    2
 åkerblom, Rudolf	male	    3
@@ -219,7 +219,7 @@ Akiander, M	male	    1
 Akiander, Matthias (1802-1871)	male	   11
 Akinen	NA	    1
 Akkanen, Ville (1894-1974)	male	    2
-A L, -	ambiguous	    1
+A L, -	NA	    1
 Alain-fournier, Henri	male	    2
 Ala-kulju, Eveliina	female	    1
 Ala, NA (1866-1950)	ambiguous	    1
@@ -252,7 +252,7 @@ Albrecht, Uno	male	    1
 Alcawainen	NA	    1
 Alcenius	male	    1
 Alcenius, Carolus Alexander	male	    7
-Alcenius, Josephus Joachimus (1798-1853)	ambiguous	    2
+Alcenius, Josephus Joachimus (1798-1853)	NA	    2
 Alcenius, Otto (1838-1913)	male	    6
 Alceste	male	    2
 Alcinius, Abraham	male	    1
@@ -355,7 +355,7 @@ Aminoff, G	NA	    1
 Aminoff, Germundus Fridericus (1796-1876)	NA	    1
 Aminoff, Gregori Adolfson	male	    1
 Aminoff, Ivar	male	    1
-Aminoff, Iwan T	ambiguous	    1
+Aminoff, Iwan T	NA	    1
 Aminoff, Johan Fredric (1756-1842)	male	    1
 Aminoff, Johan Fredrik (1847-1892)	male	    1
 Aminoff, K G	NA	    1
@@ -376,7 +376,7 @@ A***, NA (1849-1935)	NA	    4
 Anakreon	NA	    1
 Anander, Abrahamus Andreae (1673-1732)	NA	    2
 Anckaerus, Henricus Martini (1723-NA)	ambiguous	    1
-Anckarstierna, Derk	ambiguous	    1
+Anckarstierna, Derk	NA	    1
 Anckarsvärd, Michael (1742-1838)	male	    1
 Andelin, Alex	male	    1
 Andelin, Anders	male	    2
@@ -384,7 +384,7 @@ Andelin, Väinö (1878-1942)	male	    3
 Andelin, Werner (1869-1954)	male	    5
 Andersen	ambiguous	    1
 Andersen, H C	NA	   22
-Anders Erichsson	ambiguous	    1
+Anders Erichsson	NA	    1
 Andersin, Emil	male	    2
 Andersin, Ernst Fr	male	    2
 Andersin, Hanna	female	   13
@@ -415,7 +415,7 @@ Andrejev, Leonid	male	   13
 Andrejev, N	NA	    1
 Andrejev, N P	NA	    1
 Andrejew, Leonid	male	    1
-Andrell, Gustavus	ambiguous	    1
+Andrell, Gustavus	NA	    1
 Andresen, Albert	male	    1
 Andresen, Kjeld Nicolai Gotthard	male	    1
 Andrews, Jane	female	    2
@@ -501,8 +501,8 @@ Ari, Emerik	male	    1
 Arima, Onni W	male	    1
 Arimo, Atri S	male	    2
 Aristoteles	male	    1
-Arius, NA (1860-1889)	ambiguous	    1
-Arius, NA (1862-1948)	ambiguous	    1
+Arius, NA (1860-1889)	NA	    1
+Arius, NA (1862-1948)	NA	    1
 Armfeldt, Carl Gustaf	male	    1
 Armfelt, Augusta	female	    1
 Armfelt, August Filip	male	    1
@@ -513,13 +513,13 @@ Armfelt, Magnus Wilhelm (1725-1795)	male	    1
 Arminen, K V	NA	    5
 Arndt, E M	male	    1
 Arndt, Johann (1555-1621)	male	   44
-Arne C-m	ambiguous	    1
+Arne C-m	NA	    1
 Arnell, Jonas Laurentii (1642-1707)	male	    1
 A R-nen	NA	    1
 Arnerus, Laurentius Olai	male	    1
 Arnoldson, Klas Pontus	male	    1
 Aro, J E	male	   21
-Arokallio, Gust	male	    1
+Arokallio, Gust	NA	    1
 Aro, K K	NA	    2
 Arola, Aaro A	male	    1
 Arola, Taavi	male	    6
@@ -606,7 +606,7 @@ Atkinson, W W	NA	    1
 A T-n	NA	    1
 Atra, Kaarlo	male	    8
 Atteridge, H	NA	    1
-Audouard, Olympe	ambiguous	    1
+Audouard, Olympe	NA	    1
 Audoux, Marguerite	female	    1
 Auer, Axel	male	    3
 Auerbach, Berthold	male	    4
@@ -621,8 +621,8 @@ Aulanko, Heino	male	    3
 Aunio, Aksel	male	    1
 Aura, Jalo	male	    1
 Aura, Juho	male	    1
-Aura, NA (1837-1923)	ambiguous	    6
-Aura, NA (1882-1954)	ambiguous	    1
+Aura, NA (1837-1923)	NA	    6
+Aura, NA (1882-1954)	NA	    1
 Aure, Aksel	male	    1
 Aurén, P W (1826-1896)	NA	    2
 Auricola, Magnus Josephi (1680-1723)	male	    2
@@ -716,7 +716,7 @@ Ballantyne, R M	male	    1
 Balthasar, Jakob Heinrich Von (1690-1763)	male	    1
 Baltzer, Eduard	male	    3
 Balzac, Honoré De	female	    9
-Bambamius, Hartwig	ambiguous	    1
+Bambamius, Hartwig	NA	    1
 Bán, Aladár	NA	    3
 Banck, Jacobus	male	    1
 Bange, Andreas Andreae (1719-NA)	male	    2
@@ -768,7 +768,7 @@ Bässler, Ferdinand	male	    1
 Bastholm, Christian	male	    1
 Bastin, J	male	    1
 Baudewin, Johann (1641-1699)	male	    3
-Bauditz, Sophus	ambiguous	    2
+Bauditz, Sophus	NA	    2
 Bauernfeld, Eduard Von	male	    1
 Bauer, Otto	male	    1
 Bauer, Th	ambiguous	    2
@@ -814,7 +814,7 @@ Behse, Emil	male	    1
 Békés, Aladar	female	    1
 Bêlevits̆, Vladimir	male	    1
 Belfrage, Sixten	male	    1
-Bélitz, Gustavus Adolphus (1774-1830)	ambiguous	    1
+Bélitz, Gustavus Adolphus (1774-1830)	male	    1
 Bell	ambiguous	    1
 Bellamy, Edward	male	    5
 Bell, J J	male	    1
@@ -846,7 +846,7 @@ Berczik, Arpad Von	ambiguous	    1
 Berendts, Edward	male	    9
 Berendts, E N	NA	    1
 Berezin, N	NA	    2
-Berg, Alfr	male	   11
+Berg, Alfr	ambiguous	   11
 Berg, Andreas Andreae	male	    1
 Berg, B O	NA	    1
 Bergbom, Axel	male	    2
@@ -942,7 +942,7 @@ Berndtson, Fredrik (1820-1881)	male	   19
 Berner, A	male	    1
 Berner, Aksel (1843-1892)	male	    1
 Berner, Axel Abrahamus (1780-1823)	male	    1
-Bernerus, Gustavus Johannis (1716-NA)	ambiguous	    1
+Bernerus, Gustavus Johannis (1716-NA)	male	    1
 Bernières-louvigny, Jean De	ambiguous	    5
 Bernstein, A	male	    6
 Bernstein, Eduard	male	    6
@@ -1014,7 +1014,7 @@ Björkenheim, Carl Gustaf	male	    2
 Björkenheim, Edv	ambiguous	    8
 Björkenheim, Edv A	male	    2
 Björkenheim, Gösta	male	    1
-Björkenheim, Raf	ambiguous	    1
+Björkenheim, Raf	NA	    1
 Björk, Jacobus Johannes	male	    1
 Björklund, B B	NA	    1
 Björklund, Christianus (1727-NA)	NA	    4
@@ -1066,7 +1066,7 @@ Blauchmeister, F	NA	    1
 Blavatsky, Helena Petrovna	female	    6
 Bleuler-waser, Hedvig	female	    1
 Blicher-clausen, J	male	   10
-Blicher, Steen Steensen	male	    2
+Blicher, Steen Steensen	NA	    2
 Blidberg, Nicolaus Petri (1710-1772)	male	    4
 Bligh, Stanley	male	    1
 Blink, Carl	male	   20
@@ -1141,7 +1141,7 @@ Bogdanoff, A	male	    2
 Bögelund, P J	male	    1
 Böggild, Bernhard	male	    2
 Bögh, Erik	male	    3
-Bohkius, Franciscus	ambiguous	    1
+Bohkius, Franciscus	NA	    1
 Bohlin, B	NA	    2
 Bohlin, Karl	male	    1
 Böhme, August Gottlieb (1719-1797)	male	    1
@@ -1157,7 +1157,7 @@ Boije, O A	male	    2
 Boije, Rolf	male	   24
 Boisen, Peter Outzen	male	    1
 Boisgelin, Louis De	ambiguous	    2
-Boisgobey, Fortuné Du	male	    1
+Boisgobey, Fortuné Du	NA	    1
 Boisman, A W (1851-1922)	male	    7
 Böismann, Petrus Henricus (1745-1831)	male	    1
 Bojer, Johan	male	    4
@@ -1271,7 +1271,7 @@ Botčkovski, G	NA	    1
 Botškovski, Gn	ambiguous	    1
 Böttiger, Carl Wilhelm	male	    1
 Bottomley, H Holford	male	    2
-Boucherett, Jersy	ambiguous	    2
+Boucherett, Jersy	NA	    2
 Bouchot, Jean	male	    2
 Boucht, K	NA	    1
 Bougeault, Alfred	male	    1
@@ -1282,7 +1282,7 @@ Bousset, W	NA	    1
 Boutauld, Michel	male	    1
 Bouveng, Nils	male	    1
 Bowen, Emanuel (NA-1767)	male	    3
-Bowles, Carington	ambiguous	    1
+Bowles, Carington	NA	    1
 Boxström, A	male	    6
 Boxström, Adolf Anders	male	    3
 Boxström, B	NA	    4
@@ -1290,7 +1290,7 @@ Boyd, Robert	male	    1
 Braby, Maud Churton	female	    1
 Bracke, Wilhelm	male	    2
 Braddon, M E	male	    2
-Brady, Cheyne	ambiguous	    1
+Brady, Cheyne	NA	    1
 Brahe, Eric	male	    1
 Brahelén, Johan (1713-1745)	male	    7
 Brahelen, Johan (1713-1745)	male	    1
@@ -1307,7 +1307,7 @@ Brander, Harald	male	    1
 Brander, Helena	female	    1
 Brander, Jacobus Olaus (1714-1784)	male	    1
 Brander, K A	male	    1
-Brander, Nicolaus Gustavus (1763-1841)	ambiguous	    1
+Brander, Nicolaus Gustavus (1763-1841)	NA	    1
 Brander, Oskar	male	    1
 Branders, Anders Adrian	male	    1
 Brander, Seb	ambiguous	    4
@@ -1391,7 +1391,7 @@ Bring, Sven	male	    1
 Bring, Sven Libert	male	    3
 Brion De La Tour, Louis	male	    1
 Brobergen, Henrik Georg Von (1669-1708)	male	    3
-Brobergh, Gustavus Erici	ambiguous	    1
+Brobergh, Gustavus Erici	NA	    1
 Broberg, K T	NA	    1
 Brockes, Ferdinand	male	    1
 Brocman, Nils Reinhold	male	    1
@@ -1400,7 +1400,7 @@ Broder Abel	ambiguous	    1
 Broder Jönis	male	    2
 Brodinus, Johannes Petri (1619-1680)	male	    1
 Brodinus, Olavus (1737-NA)	male	    1
-Brodzenius, Gustavus Martini (1679-1710)	ambiguous	    1
+Brodzenius, Gustavus Martini (1679-1710)	NA	    1
 Brofeldt, A	male	    3
 Brofeldt, H G Th	ambiguous	    1
 Brofeldt, Kaarlo	male	    2
@@ -1413,7 +1413,7 @@ Brommius, Petrus Laurentii (1672-NA)	male	    1
 Bröms, Ingemund (1669-1722)	female	    2
 Brontë, Charlotte	female	    1
 Brooke, Arthur De Capell	ambiguous	    1
-Brooks, Phillips	ambiguous	    2
+Brooks, Phillips	NA	    2
 Broom	male	    4
 Broterus, Johannes Sigfridi (1676-NA)	male	    1
 Brotherus, A H	male	    1
@@ -1426,7 +1426,7 @@ Brotherus, V F	NA	   12
 Browallius, Johannes (1739-1793)	male	    3
 Browallius, Johannes Magni (1707-1755)	male	   66
 Browder, Earl	male	    1
-Brown, Archibald	ambiguous	    1
+Brown, Archibald	NA	    1
 Brown, Buster	male	    1
 Brown, H D	NA	    1
 Brown, William Thurston	male	    1
@@ -1465,7 +1465,7 @@ Brusila, A H	male	    1
 Bruun, Albert	male	    3
 Bruun, Constantinus (1790-1876)	male	    1
 Bruun, Laurids	ambiguous	    1
-Bruun, Nicolaus Christophori	ambiguous	    1
+Bruun, Nicolaus Christophori	NA	    1
 Bruyn-ouboter, Ernst De	ambiguous	    1
 Bruzelius, Sigfridus Svenonis (1653-NA)	NA	    1
 B S:n	NA	    1
@@ -1493,14 +1493,14 @@ Bulwer-lytton, Edward	male	    4
 Bunge, G Von	ambiguous	    2
 Bünger, E	NA	    1
 Buno, Johannes (1617-1697)	male	    1
-Buntline, Ned	ambiguous	    1
+Buntline, Ned	NA	    1
 Bunyan, John	male	   30
 Bure, Anders (1571-1646)	male	    1
 Burghausen, C V (1811-1844)	NA	    1
 Burja, Abel (1752-1816)	male	    2
 Burjam, A W	male	    1
 Burjam, F	NA	    1
-Burman, Ab	ambiguous	    1
+Burman, Ab	NA	    1
 Burman, Abrahamus (1765-1814)	NA	    1
 Burman, Fale	ambiguous	    1
 Burman, Johan Jakob (1771-1824)	male	    3
@@ -1508,7 +1508,7 @@ Burman, Magdalena	female	    1
 Burman, Olof Abrahamsson (1709-1759)	male	    9
 Burman, Paul	male	    2
 Burnett, Frances Hodgson	female	    6
-Bursman, Nicolaus (1732-NA)	ambiguous	    1
+Bursman, Nicolaus (1732-NA)	NA	    1
 Bursmann, Johannes	male	    1
 Burt, William	male	    1
 Burwinkel, O	NA	    1
@@ -1528,7 +1528,7 @@ Buxhoeveden, Otto Von	male	    1
 Byman, L L	NA	    2
 Byman, Walter	male	    7
 Byström, Thomas	male	    1
-Caine, Hall	ambiguous	   21
+Caine, Hall	NA	   21
 Caîrenius, Laurentius (1753-1804)	male	    1
 Cajander, A K	male	   21
 Cajander, Eino (1882-1928)	male	    5
@@ -1559,22 +1559,22 @@ Calamnius, Ilmari	male	    9
 Calamnius, Johan Viktor (1838-1891)	male	    9
 Calamnius, Petrus Josephi (1713-1770)	male	    1
 Calamnius, Rurik	male	    2
-Calani, Aristide	ambiguous	    1
-Callenius, Stephanus N (1698-NA)	ambiguous	    1
+Calani, Aristide	NA	    1
+Callenius, Stephanus N (1698-NA)	NA	    1
 Caloander, Joachimus Bartholdi (1695-NA)	female	    1
 Calonius, Allan	male	   12
 Calonius, F L	NA	    1
 Calonius, Matthias (1737-1817)	male	   19
 Cameen, Carolus	male	    1
 Cameen, Svenonus (1658-1708)	NA	    1
-Cammarano, Salvadore	ambiguous	    2
+Cammarano, Salvadore	NA	    2
 Campanula	NA	    1
 Campe, Joachim Heinrich	male	    3
 Candolin, Einar	male	    2
 Cankar, Ivan	male	    1
 Cannelin, Gustaf (1815-1885)	male	    6
 Cannelin, Knut	male	   19
-Cannelin, Thom	ambiguous	    1
+Cannelin, Thom	NA	    1
 Cannelin, Thomas	male	    1
 Cannelin, Tuomas Alexander	male	    1
 Cantacuzène-altieri, Olga	female	    1
@@ -1583,11 +1583,11 @@ Canth, Minna (1844-1897)	female	   57
 Capendu, Ernest	male	    2
 Carducci, Giosuè	NA	    1
 Carelius, Andreas Josephi	male	    1
-Carelius, Canutus Martini	ambiguous	    1
+Carelius, Canutus Martini	NA	    1
 Carelius, Carl Friderich	male	    1
 Carelius, Nicolaus Magni (1570-1632)	ambiguous	    1
 Carelius, Olof	male	    1
-Carenius, Ephraim (1739-1802)	ambiguous	    1
+Carenius, Ephraim (1739-1802)	NA	    1
 Carger, Hilda	female	    2
 Carlander, Johannes Henrici (1688-NA)	male	    1
 Carlander, Johannes Laurentii (1680-NA)	male	    2
@@ -1691,7 +1691,7 @@ Cederström, G C U	NA	    3
 Celander, G M	male	    6
 Celsius, Anders (1701-1744)	male	    2
 Celsius, Johan Mag	male	    1
-Celsius, Nicolaus	ambiguous	    2
+Celsius, Nicolaus	NA	    2
 Celsius, Olavus (1716-1794)	male	    7
 Centerwall, Otto	male	    2
 Centnerszwer, M	male	    1
@@ -1703,7 +1703,7 @@ Chambers, Robert W	male	    1
 Chamisso, Adelbert Von	ambiguous	    2
 Channing, William Ellery	male	    1
 Chapelle, Albert De La	ambiguous	    1
-Charisius, Joh Ehrenfried	ambiguous	    1
+Charisius, Joh Ehrenfried	male	    1
 Charles, Elizabeth	female	    5
 Charpentier, Axel (1865-1949)	male	    8
 Chase, C F	NA	    1
@@ -1731,9 +1731,9 @@ Christiernin, Petrus Nicolaus	male	    1
 Christiernsson, Nils	male	    2
 Christierson, C G Von	ambiguous	    1
 Christmas, Walter	male	    3
-Christoph	ambiguous	    4
+Christoph	NA	    4
 Christoph, F	NA	    3
-Chronander, Gustavus (1734-1801)	ambiguous	    2
+Chronander, Gustavus (1734-1801)	NA	    2
 Chronander, Jacob Pettersson (NA-1694)	male	    5
 Churberg, Waldemar	male	   11
 Churchill, Winston S	male	    1
@@ -1747,7 +1747,7 @@ Chydenius, K U	NA	    2
 Chydenius, Samuel Jacobi (1727-1757)	male	    6
 Chytraeus, Henrik	male	    1
 Chytraeus, Nathanael (1598-NA)	male	    4
-Cicero	ambiguous	    2
+Cicero	NA	    2
 Cicero, Marcus Tullius	male	   15
 C J A U	NA	    1
 Claesson, Jean	male	    1
@@ -1782,7 +1782,7 @@ Clopatt, Arthur Rudolf	male	    1
 Cluverius, Phil	ambiguous	    1
 Cnattingius, Anders Jacob	male	    2
 Cneiff, Johan David	male	    1
-Cobb, Sylvanus	ambiguous	    2
+Cobb, Sylvanus	NA	    2
 Cocchi, Igino	ambiguous	    1
 Cohn, Lassar	ambiguous	    1
 Collan, Adèle De	female	    1
@@ -1826,7 +1826,7 @@ Collodi, Carlo	male	    2
 Colman, Julia	female	    2
 Colomb, Jeanne	female	    1
 Colrus, Fred Joh	male	    1
-Colwin, Jac	ambiguous	    1
+Colwin, Jac	NA	    1
 Comenius, Jan Amos (1592-1671)	male	    7
 Comfort, Will Levington	male	    1
 Comparetti, Domenico	male	    3
@@ -1844,14 +1844,14 @@ Cook, George Cram	male	    1
 Cook, Thomas	male	    3
 Coolidge, Susan	female	    3
 Cooper, Edward H	male	    1
-Cooper, Irving S	ambiguous	    1
+Cooper, Irving S	NA	    1
 Cooper, James Fenimore	male	    9
 Coppée, François	NA	    3
 Corander, Aksel Gabriel (1827-1877)	male	    3
 Corander, Henrik Konstantin (1814-1878)	male	    3
 Corander, Klas (1822-1872)	male	    3
 Cörberus, Johannes (1587-1639)	male	    2
-Cörberus, Josephus	ambiguous	    1
+Cörberus, Josephus	NA	    1
 Cordier, Mathurin	male	    1
 Corelli, Maria	female	    1
 Corelli, Marie	female	    3
@@ -1888,7 +1888,7 @@ Cronhiort, Hans Henning (1688-1727)	male	    1
 Cronholm, Viking	male	    2
 Cronstedt, Gabriel	male	    5
 C-r-t-r	NA	    1
-Crucelius, Nicolaus (1717-NA)	ambiguous	    1
+Crucelius, Nicolaus (1717-NA)	NA	    1
 Crusell, Nicolaus Henr	ambiguous	    1
 Cruus, Johan Jespersson (1644-NA)	male	    2
 Csepreghy, Ferencz	NA	    1
@@ -1910,7 +1910,7 @@ Cygnaeus, Uno (1810-1888)	male	    3
 Cygnaeus, Walter	male	    1
 Cygnæus, Walter	male	    1
 Cygnaeus, Zacharias (1733-1809)	male	    2
-Czerny, Ad	ambiguous	    1
+Czerny, Ad	NA	    1
 Daa, Ludvig Kr	male	    1
 Dagny	ambiguous	    1
 Dag, Ragnar	male	    1
@@ -1925,10 +1925,10 @@ Dahlberg, Ragnar	male	    3
 Dahlberg, T J	male	    1
 Dahlbo, Johan	male	    1
 Dahl, Christopher	male	    3
-Dahleen, Abrah	ambiguous	    1
+Dahleen, Abrah	NA	    1
 Dahl, Fredrik August	male	    1
 Dahl, G	NA	    1
-Dahlgren, Alta	ambiguous	    1
+Dahlgren, Alta	NA	    1
 Dahlgren, Jonas (1717-1772)	male	    1
 Dahl, Gustav	male	    1
 Dahlheim, Ivar	male	    1
@@ -1939,7 +1939,7 @@ Dahl, K G	NA	    1
 Dahlman, Ericus Zachariae (1713-NA)	male	    1
 Dahlman, Laurentius	male	    1
 Dahlman, Sveno	male	    1
-Dahlman, Sveno Jonae (1717-NA)	ambiguous	    1
+Dahlman, Sveno Jonae (1717-NA)	male	    1
 Dahlström, Selim Gustaf	male	    2
 Dahlström, Svante	male	    5
 Dahl, Zacharias Michaelis (1709-1753)	male	   10
@@ -1952,13 +1952,13 @@ Dalenius, Andreas Johannis	male	    1
 Dale-snedeker, Caroline	female	    1
 Dalin, Olof	male	    3
 Dalkvist, O	NA	    1
-Dal, Nicolaus	ambiguous	    1
+Dal, Nicolaus	NA	    1
 Damaschke, Adolf	male	    1
-Damberg, Joh	ambiguous	    1
+Damberg, Joh	NA	    1
 Dammann, J	male	    2
 Danckerts, Justus	male	    1
 Daniel Henkikäsi, Numero	NA	    5
-Danielson, Joh Rich	ambiguous	   21
+Danielson, Joh Rich	NA	   21
 Danielson, J R	male	    1
 Danielson-kalmari, J R	male	   17
 Danielsson, Axel (1890-1969)	male	    3
@@ -1970,15 +1970,15 @@ Dannholm, Fredrik Oskar (1847-1930)	male	   10
 Dannholm, Johannes	male	    1
 Dannholm, Oskar (1847-1930)	male	   16
 D'annunzio, Gabriele	female	    3
-Dante Alighieri	ambiguous	    4
+Dante Alighieri	NA	    4
 Danvers, Milton	male	    1
 Da Ponte, Lorenzo	male	    1
-Darelli, Isaak Af	male	    1
+Darelli, Isaak Af	ambiguous	    1
 Darley, Henry	male	    1
 Darrow, Clarence S	male	    3
-Dartois, Achille	ambiguous	    2
+Dartois, Achille	NA	    2
 Darwin, Charles (1809-1882)	male	    2
-Daudet, Alphonse	ambiguous	   13
+Daudet, Alphonse	NA	   13
 Dau, Michael (1710-NA)	male	    2
 Daumig, E	NA	    1
 Däumig, Ernst	male	    2
@@ -2068,10 +2068,10 @@ Dodel, A	male	    3
 Dohna-schlodien, Nikolaus Zu	male	    3
 Dolman, D H	NA	    2
 Dolmannus, Johannes	male	    1
-Domander, Gustavus	ambiguous	    1
+Domander, Gustavus	NA	    1
 Don Anónimo	ambiguous	    1
 Donatus, Aelius	NA	    3
-Donizetti, Gaetano	ambiguous	    1
+Donizetti, Gaetano	NA	    1
 Donner, Anders	male	    8
 Donner, Arno	male	   10
 Donner, Harry	male	    1
@@ -2088,7 +2088,7 @@ Dörpfeld, Friedrich Wilhelm	male	    1
 Dörries, B	NA	    1
 Dostojevski, F M	male	   14
 Doyle, Arthur Conan	male	   95
-Draba Verna, NA (1850-1919)	ambiguous	    3
+Draba Verna, NA (1850-1919)	NA	    3
 Drachmann, Holger	male	    5
 Dragomirow, M	male	    6
 Drake, Emma F Angell	female	    3
@@ -2130,7 +2130,7 @@ Durchman, Lahja Hyvä	female	    1
 Durchman, Väinö Kauno	male	    1
 Durckman, N	NA	    1
 Durham, W H	NA	    1
-Durham, Wm H	ambiguous	    1
+Durham, Wm H	NA	    1
 Durietz, Carl Jakob	male	    1
 Durkheim, É	NA	    1
 Dusaeus, Hermannus	male	    1
@@ -2139,10 +2139,10 @@ Dwyer, Th Augustine	male	    1
 Dybdahl, Peter	male	    3
 Dych, Haraldus Johannis (1711-NA)	male	    1
 Dyer, Helene A	ambiguous	    1
-Džanšijev, Gr	male	    1
+Džanšijev, Gr	ambiguous	    1
 E***	NA	    2
 E A-g, NA (1852-1929)	NA	    1
-E Ag, NA (1852-1929)	ambiguous	    2
+E Ag, NA (1852-1929)	NA	    2
 Eastman, Ch A	male	    1
 Ebelius, Caspar	male	    1
 Ebers, Georg	male	    7
@@ -2171,7 +2171,7 @@ Edlund, Erik Oskar	male	    2
 Edlund, G W (1829-1907)	NA	    2
 Edman, Alfred	male	    1
 Edman, Johannes Adamus (1783-1857)	male	    7
-Edvin	ambiguous	    2
+Edvin	NA	    2
 Eeden, Frederik Van	male	    1
 Eekku	NA	    3
 Eenquist, Abrahamus (1755-1791)	NA	    1
@@ -2183,7 +2183,7 @@ Eerola, Eero	male	   12
 Eesti, Esa	male	    1
 Eetu Lohipoika	male	    2
 Eetu T	male	    2
-Ee Vuu Vessu	male	    1
+Ee Vuu Vessu	ambiguous	    1
 E F M-n	NA	    1
 Egge, Peter	male	    3
 Eggertz, C G	NA	    1
@@ -2329,7 +2329,7 @@ Elmgren, Aug	ambiguous	    1
 Elmgren, Rob	male	    8
 Elmgren, Sven Gabriel (1817-1897)	male	   14
 E L-n	NA	   12
-Elna	ambiguous	    2
+Elna	NA	    2
 Elo, Eemil	male	    1
 Elo, Efr	male	    4
 Elonen, Kosti	male	    1
@@ -2347,11 +2347,11 @@ Emerson, Ralph Waldo	male	    1
 Emilia	female	    3
 Emlekyl	NA	    5
 Emma, NA (1851-1931)	ambiguous	    1
-Emmi, NA (1848-NA)	ambiguous	    1
+Emmi, NA (1848-NA)	NA	    1
 Emporagrius, Ericus Gabrielis (1606-1674)	male	    7
 E-, NA (3-NA)	NA	    2
 Enaeus, Andreas Nicolai (1694-NA)	male	    2
-En Andelsvärksamhetsvän	male	    1
+En Andelsvärksamhetsvän	NA	    1
 Enault, Louis	male	    1
 Enberg, L M	male	    2
 Enckell, A	male	    1
@@ -2368,12 +2368,12 @@ Enebergh, Salomon Laurentii (1667-NA)	male	    2
 Eneberg, Karl Fredrik (1841-1876)	male	    7
 Enehjelm, A Af	male	    1
 Enelund, Michael (1760-1795)	male	    1
-En Erfaren Hönsskötare	male	    2
+En Erfaren Hönsskötare	NA	    2
 Eneroth, Olof	male	    7
-En Fennoman	male	    1
+En Fennoman	NA	    1
 En Finne, NA (1820-1912)	ambiguous	    3
 En Finsk Flicka	ambiguous	    1
-En Folkhögskoleman	male	    1
+En Folkhögskoleman	NA	    1
 En Gammal F D Medlem	male	    1
 Engberg, Anna	female	    4
 Engdahl, John	male	    1
@@ -2388,7 +2388,7 @@ Engelhardt, E V	NA	    2
 Engelhardt, Moritz Von	male	    1
 Engelqvist, Oskar	male	    4
 Engels, Friedrich	male	    4
-En Gemensam Vän	male	    1
+En Gemensam Vän	NA	    1
 Engeström, Fredrik Von	male	    6
 Engeström, Johan Fredrik Mattias Von	male	    2
 Engineer	NA	    1
@@ -2399,18 +2399,18 @@ Engström, Julius (1863-1942)	male	   10
 Engström, Otto	male	    5
 Enholm, Jacobus Eliae (1631-1697)	male	    1
 Enholm, Johan Eliasson	male	    1
-En Jurist	male	    2
+En Jurist	NA	    2
 Enkvist, Armas	male	    2
 Enkvist, Ludvig	male	    1
-En Landsman	male	    1
-En Lärarinna	male	    2
-En Lärärinna	male	    1
+En Landsman	NA	    1
+En Lärarinna	NA	    2
+En Lärärinna	NA	    1
 Ennes, B A	male	    2
 Ennu	NA	    1
 Eno Adam	ambiguous	    2
-En Ordets Tjenare	male	    1
-En österbottning, NA (1867-1932)	male	    1
-En Pedagog	male	    1
+En Ordets Tjenare	NA	    1
+En österbottning, NA (1867-1932)	NA	    1
+En Pedagog	NA	    1
 Enqvist, G	NA	    4
 Enroth, G Hj	male	    1
 Enroth, Haquin	male	    3
@@ -2420,8 +2420,8 @@ Ensio	male	    2
 Ensio, Armas	male	    1
 Ensiö, Armas	male	    1
 Enström, Gustaf	male	    1
-En Turist	male	    1
-En Vän, NA (1873-1956)	male	    1
+En Turist	NA	    1
+En Vän, NA (1873-1956)	NA	    1
 Eränen, Kustaa Oskari	male	    2
 Eränen, Yrjö	male	    1
 Eräs Lasten Ystävä, NA (1849-1923)	female	    1
@@ -2469,7 +2469,7 @@ Ervast, Pekka (1875-1934)	male	   41
 Erwast, Karl	male	    3
 Esa	ambiguous	    1
 Esbergius, Johannes	male	    4
-Escande, Gustave	ambiguous	    1
+Escande, Gustave	NA	    1
 Escard, F	NA	    1
 Escholin, Israel (1742-NA)	male	    7
 Eschstruth, Nataly Von	female	    4
@@ -2516,7 +2516,7 @@ Europæus, Anders Theodor	male	    2
 Europaeus, D E D (1820-1884)	NA	   13
 Europaeus, Jacobus Wilhelmus (1755-NA)	male	    1
 Eutropius	male	    2
-Evald J	ambiguous	   10
+Evald J	NA	   10
 Everard, Georg	male	    6
 Ewald, Carl	male	    4
 Ewald, Karl	male	    1
@@ -2530,7 +2530,7 @@ Fabre, Ferdinand	male	    1
 Fabre, J H	male	    1
 Fabricius, Adam Kristoffer	male	    2
 Fabricius, Aeschillus Svenonis (1625-1692)	NA	    1
-Fabricius, Gustavus Christiani (1702-1752)	ambiguous	    3
+Fabricius, Gustavus Christiani (1702-1752)	female	    3
 Fabrinus, Sveno Trottonis	male	    1
 Fabritius, Aug (1844-1915)	ambiguous	    3
 Fabritius, E J	male	    2
@@ -2579,7 +2579,7 @@ Faraday, Mikael	male	    1
 Farjeon, B L	NA	    1
 Färling, F J	male	    4
 Färling, Fredrik Ignatius	male	    4
-Farnol, Jeffery	ambiguous	    2
+Farnol, Jeffery	NA	    2
 Farquhar, Barbara H	female	    4
 Farrar, Frederick William	male	    5
 Fatalisti	NA	    1
@@ -2588,7 +2588,7 @@ Fattbuur, Henricus Martini (1647-NA)	ambiguous	    1
 Fattbuur, Martinus Henrici (1665-NA)	male	    2
 Fattenborg, Johannes (1769-1849)	male	   24
 Faulkner, T A	male	    1
-Faust, NA (1879-1918)	ambiguous	    2
+Faust, NA (1879-1918)	NA	    2
 Favén, Anders Emil	male	    2
 Favorin, Edvard	male	    2
 Favorin, Hanna (1845-1919)	female	   16
@@ -2617,7 +2617,7 @@ Ferruggia, Gemma	female	    1
 Ferry, Gabriel	male	    2
 Fersen, Axel	male	    1
 Feuerbach, Ludwig	male	    5
-Feuillet, Octave	ambiguous	    5
+Feuillet, Octave	NA	    5
 Féwal, Paul	male	    1
 F H H B	NA	    1
 Fibiger, A	male	    1
@@ -2673,8 +2673,8 @@ Flachsenius, Johannes Petrus Johannis (1732-NA)	male	    5
 Flachsenius, Olaus Johannis	male	    6
 Flahault, Ch	ambiguous	    1
 Flammarion, Camille	female	    2
-Flaubert, Gustave	ambiguous	    4
-Flavia	ambiguous	    2
+Flaubert, Gustave	NA	    4
+Flavia	NA	    2
 Fleege, Axel August	male	    1
 Fleege, Eric	male	    1
 Fleege, Ericus Henrici (1677-1745)	male	    1
@@ -2685,7 +2685,7 @@ Fleming, Henrik Eriksson (1644-1675)	male	    1
 Fleming, Herman (1734-1789)	male	    1
 Fleming, Herman Hermansson (1654-1718)	male	    3
 Fleming, Lars Claesson (1678-1702)	male	    1
-Flemming, Gust	male	    1
+Flemming, Gust	NA	    1
 Flick, L F	NA	    1
 Fliesberg, Carl	male	    2
 Flinck, J A	male	    1
@@ -2697,7 +2697,7 @@ Floderus, Johannes	male	    5
 Floderus, Manfred Mustafa	male	    1
 Flodin, Karl	male	   13
 Flodman, Anders	male	    1
-Flojerus, Nicolaus (1717-NA)	ambiguous	    2
+Flojerus, Nicolaus (1717-NA)	NA	    2
 Floks	NA	    1
 Floman, Joannes Henricus	ambiguous	    1
 Floman, Johannes (1769-1820)	male	    1
@@ -2732,7 +2732,7 @@ Folkernius, Laurentius Johannis (1618-1674)	male	    1
 Fonseen, Fried Joh	ambiguous	    1
 Fonselius, Isaacus	NA	    1
 Fonselius, Johannes (1741-NA)	male	    2
-Fontelius, Nicolaus Gregorii (1692-NA)	ambiguous	    1
+Fontelius, Nicolaus Gregorii (1692-NA)	NA	    1
 Fontell, Abram (1690-1748)	male	    1
 Fontell, A G	male	    3
 Fontell, Fredricus (1763-1827)	NA	    1
@@ -2740,7 +2740,7 @@ Fontell, I W	NA	    2
 Fontell, Johan Wilhelm	male	    2
 Fontenelle, Bernard Le Bovier De	ambiguous	    1
 Forbus, Henricus Henrici (1674-1737)	ambiguous	    3
-Forchhammer, Joh	ambiguous	    1
+Forchhammer, Joh	NA	    1
 Fordeell, Magnus	male	    1
 Forel, Auguste	ambiguous	    3
 Forell, Erik	male	    1
@@ -2842,11 +2842,11 @@ Fortell, Frans Isaac	male	    1
 Forthelius, Johannes Canuti	male	    1
 Fortmann, H	NA	    1
 Fort, Paul	male	    1
-Forzelius, Nicolaus Laurentii (1646-1709)	ambiguous	    1
+Forzelius, Nicolaus Laurentii (1646-1709)	NA	    1
 Fosse, K	NA	    1
 Fougel, Börje (1715-1799)	male	    1
 Fouqué, Friedrich De La Motte	ambiguous	    1
-Fournier, Alfr	male	    2
+Fournier, Alfr	ambiguous	    2
 Foy, Mathilda	female	    3
 Fraae, Ingrid	female	    1
 Framsynt	NA	    1
@@ -2859,7 +2859,7 @@ Franckenhielm, Johannes Zacharias	male	    1
 Franc-nohain	NA	    1
 Frank, Johan Peter	male	    1
 Franklin, Benjamin	male	    6
-Fransiska	ambiguous	    6
+Fransiska	NA	    6
 Franson, Fredrik	male	    1
 Franssila, K A	male	    1
 Fränti, Aleksanteri	male	    4
@@ -2903,7 +2903,7 @@ Friberg, Anna Julia Irene	female	    3
 Friberg, Jonas Martinus (1709-1768)	male	    1
 Friberg, Maikki	female	    9
 Friccius, Pierre De	ambiguous	    2
-Frich, øvre Richter	ambiguous	    1
+Frich, øvre Richter	NA	    1
 Fricke, L W	NA	    1
 Fridelinus, Nicolaus Magni (1668-1738)	ambiguous	    1
 Fried, Alfred H	male	    1
@@ -2952,7 +2952,7 @@ Frosterus, Carolus Jacobus (1774-1854)	male	    2
 Frosterus, Eric Johan (1776-1826)	male	    2
 Frosterus, Erik (1713-1788)	male	    2
 Frosterus, G	NA	    1
-Frosterus, Gustave	ambiguous	    1
+Frosterus, Gustave	NA	    1
 Frosterus, Henrik	male	    2
 Frosterus, Jacobus Abrahami (1711-1794)	male	    1
 Frosterus, Jacobus Erici	male	    1
@@ -2964,7 +2964,7 @@ Frosterus, Robert Valentin (1795-1884)	male	    3
 Frosterus-såltin, Alexandra (1837-1916)	female	    1
 Frosterus-segerstråle, Hanna	female	   22
 Frosterus, Sigurd	male	    6
-Frychius, Swen	ambiguous	    1
+Frychius, Swen	NA	    1
 Frykholm, Johan Ludvig	male	    1
 Fryxell, Anders	male	    4
 F-s, V	NA	    1
@@ -3006,7 +3006,7 @@ Gadolin, Axel	male	    1
 Gadolin, Carl Axel Johan (1898-1972)	male	    1
 Gadolin, G	NA	    8
 Gadolin, Gustaf (1769-1843)	male	    1
-Gadolin, Gustavus (1769-1843)	ambiguous	   30
+Gadolin, Gustavus (1769-1843)	NA	   30
 Gadolin, Jacobus (1719-1802)	male	   49
 Gadolin, Jacobus Algotus (1797-1848)	male	    1
 Gadolin, Johan (1760-1852)	male	   83
@@ -3030,7 +3030,7 @@ Gallenga, Antonio	male	    1
 Gallenius, Andreas Svenonis	male	    1
 Gallenius, Zacharias (1763-1826)	male	    1
 Gallen-kallela, Akseli	male	    2
-Gallius, Stephanus (1647-NA)	ambiguous	    2
+Gallius, Stephanus (1647-NA)	NA	    2
 Gall, James	male	    1
 Gallon, Tom	male	    1
 Galsworthy, John	male	    2
@@ -3041,7 +3041,7 @@ Gamophilus	NA	    1
 Gamtšenko, S	NA	    2
 Ganander, Christfrid (1741-1790)	NA	   17
 Ganander, Henricus (1752-NA)	ambiguous	    2
-Gånge Rolf	ambiguous	    7
+Gånge Rolf	NA	    7
 Gånge, Rolf	male	    1
 Ganivet, Angel	female	    2
 Garborg, Arne	male	    5
@@ -3055,7 +3055,7 @@ Gartz, W	NA	    1
 Garvice, Charles	male	    1
 Garwolius, Jacobus Matthiae (1671-1734)	male	    2
 Gasparin, Valérie De	female	    1
-Gastineau, Octave	ambiguous	    1
+Gastineau, Octave	NA	    1
 Gauffin, A	male	    2
 Gauffin, Arthur	male	    2
 Gaupp, Otto	male	    1
@@ -3064,7 +3064,7 @@ Gautier, Théophile	NA	    1
 Gavelin, Jacobus Michaelis (1683-1750)	male	    2
 Gavelius, Petrus Eliae (1686-1728)	male	    2
 G Ch Th	ambiguous	    1
-Gea	ambiguous	    2
+Gea	NA	    2
 Gebauer, Anders Ludvig	male	    1
 Gebert, Ernst	male	    1
 Gebhard, H	NA	    1
@@ -3079,7 +3079,7 @@ Geier, Martinus (1614-1680)	male	    2
 Geijerstam, Gustaf Af	male	   11
 Geijerstam, Karl Af	male	    2
 Geikel, G K	NA	    1
-Geikie, Archibald	ambiguous	    2
+Geikie, Archibald	NA	    2
 Geismear, Leo M	male	    1
 Geissler, Moritz	male	    2
 Geitel, M (1864-1953)	male	    1
@@ -3125,14 +3125,14 @@ Gessner, Salomon	male	    1
 Gestrin, Emil Teodor (1831-1895)	male	    9
 Gestrin, E T	NA	    6
 Gestrin, E Th	ambiguous	    1
-Gestrinius, Ernestus Thomae (1663-1739)	ambiguous	    6
+Gestrinius, Ernestus Thomae (1663-1739)	NA	    6
 Gestrinius, Martinus Erici (1594-1648)	male	    3
 Gestrin, Magn	ambiguous	    1
-Gestrin, Nicolaus (1768-1814)	ambiguous	    1
+Gestrin, Nicolaus (1768-1814)	NA	    1
 Géte, A E	male	    1
 Getz, B	NA	    2
 Géza, Gardonyi	NA	    1
-Gezelius, Georgius Martini (1735-1789)	ambiguous	    5
+Gezelius, Georgius Martini (1735-1789)	male	    5
 Gezelius, J	male	    1
 Gezelius, Johan	male	    1
 Gezelius, Johannes (1615-1690)	male	  166
@@ -3191,7 +3191,7 @@ Goeding, Andreas (1657-1729)	male	    1
 Goeldner, M	male	    1
 Goeteeris, A	male	    1
 Goethe, Johann Wolfgang Von	male	   15
-Goff, Mr	male	    1
+Goff, Mr	NA	    1
 Gogol, Nikolai	male	   11
 Göhre, P	NA	    3
 Goki	NA	    1
@@ -3216,7 +3216,7 @@ Göös, Karl Gustaf (1837-1917)	male	    1
 Göös, Karl Hjalmar	male	    1
 Göransson, Carl Jacob Agathon	male	    1
 Gordlevski, Wl	male	    1
-Gordon, Ph	male	    1
+Gordon, Ph	ambiguous	    1
 Gorki, Maksim (1868-1936)	male	   25
 Görlitz, Carl	male	    2
 Gornborg'	NA	    1
@@ -3224,7 +3224,7 @@ Görner, C A	male	    3
 Gosse, Edmund	male	    1
 Gossner, J	male	    1
 Gossner, Johannes	male	   23
-Gösta Philip, NA (1830-1880)	ambiguous	    1
+Gösta Philip, NA (1830-1880)	NA	    1
 Gottberg, Gunnar	male	    5
 Gotthelf, Jeremias	male	    1
 Gottlund, Carl Axel (1796-1875)	male	   36
@@ -3249,7 +3249,7 @@ Grahn, Johannes Christ	male	    1
 Granath, Wilhelm	male	    3
 Granberg, E A	male	    1
 Granberg, Per Adolf	male	    4
-Granberg, Rich	ambiguous	    1
+Granberg, Rich	NA	    1
 Granberg, Selma	female	    2
 Granberg, Wald	male	    1
 Granberg, Wilhelmus Petri (1694-NA)	male	    1
@@ -3302,7 +3302,7 @@ Gray, Helen	female	    1
 Grebst, W A:son	NA	    1
 Greek, Benjamin Christiernsson	male	    1
 Greek, Simon Caroli (1691-NA)	male	    1
-Green	ambiguous	    1
+Green	NA	    1
 Green, A K	male	    1
 Green, C H S	NA	    1
 Green, K A	male	    2
@@ -3408,7 +3408,7 @@ Grünewald, Theodor	male	    1
 Grunnerus, Johannes (1715-1787)	male	    1
 Gruuf, Daniel (1631-1684)	male	    1
 Grytzell, Josef	male	    1
-G St	ambiguous	    1
+G St	NA	    1
 Gudseus, Fabian Jacobi (1707-NA)	male	    2
 Guevara, Antonius De	ambiguous	    1
 Guinness, H Grattan	male	    1
@@ -3426,12 +3426,12 @@ Gummerus, Julius Immanuel	male	    1
 Gummerus, Kaarlo	male	    3
 Gummerus, K J (1840-1898)	male	   22
 Gumpert, Thekla Von	ambiguous	    4
-Gumplowicz, Ladislaus	ambiguous	    1
+Gumplowicz, Ladislaus	NA	    1
 Gunnaerus, Michaël Samuelis (1704-NA)	NA	    1
 Gunnarsson, Gunnar	male	    1
 Gunnelinus, Johannes Andreae (1717-NA)	male	    1
 Gunter, A C	male	    3
-Gunter, Archibald Clavering	ambiguous	    5
+Gunter, Archibald Clavering	NA	    5
 Günterfeldt, Carolus	male	    1
 Gurland, R	NA	    1
 Gurre, V	NA	    1
@@ -3539,7 +3539,7 @@ Hagelstam, Jarl (1860-1935)	male	   10
 Hagelstam, Magnus	male	    1
 Hagelstam, Wentzel	male	   12
 Hagel'strem, V A	male	    1
-Hager, Achatius Nicolaus	ambiguous	    1
+Hager, Achatius Nicolaus	male	    1
 Häger, Miina	female	    6
 Hagerstein, Johannes Magnus (1727-1779)	male	    1
 Hagert, Daniel Gabrielis (1666-1712)	male	    6
@@ -3551,7 +3551,7 @@ Hagfors, Ernst Arthur	male	    1
 Hagfors, Ernst August	male	    1
 Hagfors, Johan Fridolf	male	    2
 Hagfors, K J	male	   12
-Haggard, H Rider	ambiguous	    5
+Haggard, H Rider	NA	    5
 Hägg, Carolus (1753-1829)	male	    1
 Häggegreen, Sveno Andreae (1680-NA)	male	    1
 Hägg, Erik	male	    1
@@ -3675,7 +3675,7 @@ Hammarén, Antti	male	    1
 Hammarén, J E	male	    1
 Hammarhelff, Andreas Adam Georgii (1625-1670)	male	    1
 Hammar, Kaarlo Aukusti	male	    9
-Hammar, Nicolaus Matthiae (1690-NA)	ambiguous	    1
+Hammar, Nicolaus Matthiae (1690-NA)	NA	    1
 Hammar, Rauha	female	    2
 Hammarsköld, L	NA	    1
 Hammarsten, Fr	ambiguous	    3
@@ -3686,7 +3686,7 @@ Hammer, Wildrich	NA	    1
 Hamnerin, Nils	male	   12
 Hamnström, Erik	male	    1
 Hamsun, Knut	male	    7
-Hancock, Irving	ambiguous	    2
+Hancock, Irving	NA	    2
 Händel, Georg Friedrich	male	    2
 Handmann, Rudolf	male	    1
 Hanell, Casper Christofer (1746-1806)	male	    5
@@ -3780,7 +3780,7 @@ Hasenmüller, Joachim	male	    1
 Hassel, Antti Fredrik	male	    3
 Hasselblatt, Emil (1874-1954)	male	    1
 Hasselblatt, I W	NA	    2
-Hasselbom, Nicolaus (1690-1764)	ambiguous	   40
+Hasselbom, Nicolaus (1690-1764)	NA	   40
 Hasselgreen, Elias Petri	male	    2
 Hasselgreen, Henricus Petri (1635-1676)	male	    1
 Hassel, Henricus (1700-1776)	ambiguous	    2
@@ -3794,7 +3794,7 @@ Hästesko, Elsa	female	    3
 Hästesko, F A	male	   13
 Hästesko, Kristina	female	    1
 Hast, Herman H	male	    1
-Hast, Hermannus Rudolphus (1756-1821)	ambiguous	    2
+Hast, Hermannus Rudolphus (1756-1821)	male	    2
 Hasti, Anton	male	    1
 Hastig, Johannes	male	    3
 Hastings, H L	NA	    2
@@ -3803,11 +3803,11 @@ Hauch, Gunnar	male	    1
 Hauff, Wilhelm	male	    5
 Haukanpää, Kaarlo	male	    1
 Haulivuori, Kaarlo Hemmo	male	    2
-Hauptmann, Gerhart	ambiguous	    1
+Hauptmann, Gerhart	NA	    1
 Hausen, C	NA	    1
 Hausen, Hans	male	    8
 Hausen, Reinhold	male	   15
-Hauser, Aloys	ambiguous	    1
+Hauser, Aloys	NA	    1
 Haushofer, Max	male	    1
 Hauswolff, Adelaide Von	female	    1
 Hautala, Antti	male	    1
@@ -3851,7 +3851,7 @@ Hedborg, Lydia	female	    1
 Hedeen, Adolphus Ericus (1751-1784)	male	    1
 Hedeen, Andreas	male	    1
 Hedeen, Lars Johan (1744-1770)	male	    2
-Hedeen, Nicolaus (1709-1778)	ambiguous	    1
+Hedeen, Nicolaus (1709-1778)	NA	    1
 Hedengran, Petter	male	    1
 Hedengren, Edv	ambiguous	   11
 Hedengren, J	male	    2
@@ -4018,7 +4018,7 @@ Helsing, Herman	male	    1
 Helsingius, Daniel Georgii (1717-1774)	male	   23
 Helsingius, Daniel Laurentii (1684-NA)	male	    2
 Helsingius, G A	male	    2
-Helsingius, Georgius Marci (1662-1741)	ambiguous	    4
+Helsingius, Georgius Marci (1662-1741)	male	    4
 Helsingius, Gustaf Adolf	male	   22
 Helsingius, Gustaf Fredrik (1815-1886)	male	    4
 Helsingius, Marcus Georgii (1678-NA)	male	    1
@@ -4033,7 +4033,7 @@ Heman, G A	male	    7
 Hemgren, Karl	male	    2
 Hemmer, Helga	female	    3
 Hemmer, Jarl	male	    3
-Hemmingius, Nicolaus (1600-NA)	ambiguous	    1
+Hemmingius, Nicolaus (1600-NA)	NA	    1
 Hemmo, Kaarlo	male	   10
 Hemyng, Bracebridge	NA	    1
 Hendell, Lauri	male	    1
@@ -4067,8 +4067,8 @@ Herlin, Karl (1839-1913)	male	    1
 Herlin, Rafael	male	    7
 Herlin, U R	NA	    1
 Herlinus, Petrus Gabrielis (1652-1710)	male	    1
-Herman	ambiguous	    1
-Herman J-n	ambiguous	    2
+Herman	NA	    1
+Herman J-n	NA	    2
 Herman, Miina	female	    1
 Hermann, August	male	    1
 Hermann, K A	male	    1
@@ -4080,7 +4080,7 @@ Hermelin, Joseph	male	    1
 Hermelin, Olaus (1658-1712)	male	    1
 Hermelin, S G	NA	    9
 Hermigius, Gabriel Sigfridi (1674-NA)	male	    1
-Hermione	ambiguous	    1
+Hermione	NA	    1
 Hermogen	NA	    2
 Hernberg, A	male	    1
 Hernberg, Alarik	male	   14
@@ -4196,7 +4196,7 @@ Hirn, Karl E	male	    7
 Hirn, T (1874-1951)	NA	    4
 Hirn, Yrjö	male	   16
 Hirsch, D	NA	    1
-Hirsch, Joh L	ambiguous	    1
+Hirsch, Joh L	NA	    1
 Hirschlaff, Leo	male	    1
 Hirschmann, Nikolaj	male	    1
 Hirsjärvi, Lauri	male	    1
@@ -4232,7 +4232,7 @@ Hjelt, Christian Ludvig (1786-1849)	male	    1
 Hjelt, E	NA	    1
 Hjelt, Edv (1855-1921)	ambiguous	   39
 Hjelt, Hjalmar	male	    7
-Hjelt, Nicolaus (1739-1808)	ambiguous	    1
+Hjelt, Nicolaus (1739-1808)	NA	    1
 Hjelt, O	NA	    1
 Hjelt, Oskar Immanuel	male	    2
 Hjelt, Otto	male	    2
@@ -4245,7 +4245,7 @@ Hjelt, Yolanda	female	    4
 Hjerpe, H H	NA	    1
 Hjerta, Fredrich Larsson	male	    3
 Hj G	male	    1
-H & J -nen	male	    1
+H & J -nen	NA	    1
 Hjort, J	male	    1
 H K-nen	NA	    1
 H Lbg	NA	    1
@@ -4348,7 +4348,7 @@ Holsti, H ö L	NA	    1
 Holsti, Hugo	male	    3
 Holsti, östen	male	    1
 Holsti, Rudolf	male	    3
-Holsti, Rudolphus Israël (1815-1852)	ambiguous	    1
+Holsti, Rudolphus Israël (1815-1852)	NA	    1
 Holstius, Israel (1728-1808)	male	    1
 Holstius, Johannes (1777-1804)	male	    1
 Holt, Emily Sarah	female	    1
@@ -4377,13 +4377,13 @@ Honkavaara, O	NA	    1
 Hoof, Jacob Otto	male	    4
 Hooker, Joseph Dalton	male	    1
 Höök, Nils Nilsson (1693-NA)	male	    1
-Höök, Swen (1712-NA)	ambiguous	    1
+Höök, Swen (1712-NA)	NA	    1
 Hope, Anthony	male	    3
 Hopf, A	male	    1
 Höpken, Anders Johan Von (1712-1789)	male	    4
 Höpken, D N Von	ambiguous	    1
 Hopkins, Cyril G	male	    1
-Hopkins, Ellice	ambiguous	    2
+Hopkins, Ellice	NA	    2
 Hoppe, Hugo	male	    1
 Hopper, James	male	    1
 Hoppius, Henricus Claudii (1660-1737)	ambiguous	    1
@@ -4448,11 +4448,11 @@ Howitt, Margaret	female	    2
 Howitz, Frants Johannes August Carl	male	    2
 Hoyle, E	NA	    1
 H S-n, NA (1879-1932)	NA	    1
-Hubbard, Elbert	ambiguous	    1
-Hubbart, Elbert	ambiguous	    1
+Hubbard, Elbert	NA	    1
+Hubbart, Elbert	NA	    1
 Huber, B F	NA	    1
 Hübner, Johannes	male	    3
-Huch, Ricarda	ambiguous	    2
+Huch, Ricarda	NA	    2
 Hudjakov, I A	male	    1
 Hugg, Karl	male	    1
 Hughes, Robert Edgar	male	    1
@@ -4484,7 +4484,7 @@ Humbla, Gudmund Eriksson	male	    1
 Humble, Gustaf Adolph (1674-1741)	male	    2
 Humble, Verner	male	    9
 Hume, David	male	    1
-Hume, Fergus	ambiguous	    3
+Hume, Fergus	NA	    3
 Hummelin, Juho Werner	male	    2
 Humu, Martti (1852-1915)	male	    7
 Hunfalvy, Pál	NA	    4
@@ -4556,7 +4556,7 @@ Idman-idestam, Gustaf	male	    1
 Idman, Karl Gustaf	male	    1
 Idman, K G	NA	    1
 Idman, N B	NA	    1
-Idman, Nicolaus Danielis (1680-1750)	ambiguous	    1
+Idman, Nicolaus Danielis (1680-1750)	female	    1
 Idman, Nicolaus Nicolai (1716-1790)	male	    3
 Igelström, A V	male	    1
 I G H S	NA	    2
@@ -4691,11 +4691,11 @@ Jacobshagen, C	NA	    1
 Jacobson, Efr	male	    7
 Jacobsson, Santeri	male	    1
 Jacobs, W W	NA	    5
-Jacobus Martini	ambiguous	    3
+Jacobus Martini	NA	    3
 Jadwige, Terese	female	    1
 Jænisch, Alexander	male	    1
-Jaenisch, Christianus Rudolphus (1771-1852)	ambiguous	    1
-Jaenisch, Nicolaus (1767-1848)	ambiguous	    1
+Jaenisch, Christianus Rudolphus (1771-1852)	NA	    1
+Jaenisch, Nicolaus (1767-1848)	NA	    1
 Jägerhorn, Henrik Johansson (1642-1691)	male	    1
 Jägerroos, B H	NA	    3
 Jägerschiöld, Carl Johan (1740-1814)	male	    1
@@ -4770,7 +4770,7 @@ Järnefelt, Heikki	male	    2
 Järnefelt, John	male	    2
 Järnefelt, Kasper Waldemar	male	    1
 Järnefelt-palmgren, Maikki	female	    2
-Järnström, Edw	male	    1
+Järnström, Edw	NA	    1
 Jaroslavlev, I Ju	ambiguous	    1
 Järvelä, G	NA	    1
 Järvelä, Iivari	male	    1
@@ -4813,8 +4813,8 @@ Jelt, Avg	female	    1
 Jensen, Gustav	male	    1
 Jensen, Hermann	male	    1
 Jensen, Johannes V	male	    2
-Jepsen, Mads	ambiguous	    1
-Jeremias Petri	ambiguous	    1
+Jepsen, Mads	NA	    1
+Jeremias Petri	NA	    1
 Jernström, Ludvig Amatus (1847-1904)	male	    1
 Jernvall, Janne	male	    3
 Jernvall, Matthias	male	    1
@@ -4858,7 +4858,7 @@ Johansson, Svenning	male	    1
 Johansson, Walter (1884-1936)	male	    1
 Johansson, Wilhelm	male	    1
 John, Anders	male	    1
-John Söderholm	ambiguous	    1
+John Söderholm	NA	    1
 Johnson, Johannes	male	    1
 Johnsson, A	male	    1
 Johnsson, August Mikael	male	   21
@@ -4871,7 +4871,7 @@ Johnsson, Oskari	male	    4
 Johnstone, Arthur Edward	male	    1
 Johnston, Mary	female	    1
 Jókai, Mór	NA	   21
-Joka Tuleva Oli	ambiguous	    1
+Joka Tuleva Oli	male	    1
 Jokela, Selma	female	    1
 Jokimäki, Sam	male	    1
 Jokinen, E	NA	    1
@@ -4884,7 +4884,7 @@ Jonas, Emil	male	    1
 Jönsson, N	NA	    2
 Jörgensen, Arne (1883-1941)	male	    2
 Jörgensen, Johannes	male	    2
-Jorma	ambiguous	    2
+Jorma	NA	    2
 Jorma, Atso	male	    1
 Josefsson, Adolf	male	    1
 Joseph Hannuksenpoika	ambiguous	    1
@@ -4916,7 +4916,7 @@ Julin, Johan (1752-1820)	male	    4
 Julin, Johannes Heinricus (1700-1762)	male	    1
 Julinus, Andreas Andreae (1669-NA)	male	    1
 Julinus, Petrus Ericus Andreae	male	    1
-Julius	ambiguous	    1
+Julius	NA	    1
 Juliusburger, Otto	male	    1
 Junbäck, Theodorus (1673-1739)	ambiguous	    1
 Juncker, E	NA	    1
@@ -4951,7 +4951,7 @@ Jusselius, Simon (1783-1835)	male	    1
 Jussila, Aino	female	    1
 Jussila, John	male	    1
 Jussila, Juho	male	    7
-Jussi, NA (1861-1921)	ambiguous	    1
+Jussi, NA (1861-1921)	NA	    1
 Justander, Ericus Johannis (1623-1678)	male	    9
 Justander, Johannes Erici	male	    1
 Justander, Johannes Gustavus (1764-1833)	male	    1
@@ -4975,7 +4975,7 @@ Juvelius, Ericus (1718-1791)	male	    6
 Juvelius, J W	male	    9
 Juvelius, Valter H	male	    1
 J W O H	NA	    1
-Jyrkänne, Herm	male	    2
+Jyrkänne, Herm	ambiguous	    2
 Jyrki	male	    1
 Jyske, Jalmari	male	    2
 K-a	NA	    1
@@ -5142,7 +5142,7 @@ Karlsson, K J	male	    4
 Karlsson, Lars Erik	male	    1
 Karmin, Otto	male	    1
 Kärnä, Walter	male	    1
-Karola	ambiguous	    2
+Karola	NA	    2
 Karolus	male	    1
 Karpio, Vihtori (1885-1964)	male	    5
 Karpoff, A G	male	    1
@@ -5179,7 +5179,7 @@ Katila, E (1872-1945)	NA	    1
 Katila, E (1884-1959)	NA	    1
 Kattelus, Juhani	male	    2
 Kauffmann, Hermann	male	    1
-Kauffman, Reginald Wright	ambiguous	    1
+Kauffman, Reginald Wright	male	    1
 Kauhanen, Walfrid	male	    1
 Kauko	male	    1
 Kaukola, Artur (1863-1914)	male	    1
@@ -5230,7 +5230,7 @@ Kelly, Howard A	male	    1
 Kemiläinen, J A	male	    1
 Kemiläinen, Lauri (1886-1946)	male	    1
 Kemmler, Gottlob	male	    2
-Kemner, Heinricus Martini (1638-NA)	ambiguous	    4
+Kemner, Heinricus Martini (1638-NA)	NA	    4
 Kempe, Andreas Axelii	male	    1
 Kempe, Axelius Andreae (1623-1682)	male	   60
 Kempe, Laurentius Andreae (1669-NA)	male	    2
@@ -5361,7 +5361,7 @@ Kivinen, Pentti	male	    1
 Kivirikko, K E	NA	   15
 Kivisalo, Otto	male	    1
 Kivisalo, Väinö (1882-1953)	male	    1
-Kivistö, Gust	male	    1
+Kivistö, Gust	NA	    1
 Kivistö, Jaakko (1871-1906)	male	    2
 Kjaer, Nils	male	    2
 Kjäldström, Lars Oskar	male	    1
@@ -5402,14 +5402,14 @@ Knorring, Agatha Elisabeth Von	female	    1
 Knorring, Agathe V	female	    1
 Knorring, E	NA	    1
 Knorring, Frans Peter Von (1792-1875)	male	    2
-Knös, Gustavus	ambiguous	    2
+Knös, Gustavus	NA	    2
 Knös, Olavus Andreae	male	    1
 Knös, Thekla	female	    1
 Knudsen-hjortö, Knud	male	    1
 Knudsen, Jakob	male	    3
 Knutsson, Karl	male	    1
 Knuutila, H J	male	    1
-Koch, Gust	male	    1
+Koch, Gust	NA	    1
 Koch, Martin	male	    3
 Koch, Richert Gerhard Halfred Von	male	    1
 Kochs, E	NA	    2
@@ -5430,12 +5430,12 @@ Kohonen, Selma	female	    1
 Kohut, Adolph	ambiguous	    1
 Koistinen, Olli (1877-1943)	male	    2
 Koito	NA	    2
-Koivistoinen, Joh	ambiguous	    4
+Koivistoinen, Joh	NA	    4
 Koivistoinen, Juho	male	    3
 Koivumaa, Kalervo K	male	    1
 Koivunen, Kustaa	male	    1
 Koivuranta, Janne	male	    1
-Kojonen, Rope	ambiguous	    7
+Kojonen, Rope	NA	    7
 Kojo, Viljo	male	    5
 Kokkinen, Severin	male	    1
 Kokkola, A J	male	    1
@@ -5445,7 +5445,7 @@ Kokkonen, M	male	    1
 Kokko, Simo	male	    1
 Kokoschkin, Th	ambiguous	    2
 Kolanen, Jaakko	male	    1
-Kolckenius, Josephus Gustavi (1712-NA)	ambiguous	    1
+Kolckenius, Josephus Gustavi (1712-NA)	male	    1
 Kolde, Theodor	male	    2
 Kolehmainen, Eero	male	    1
 Kolehmainen, L P	NA	    1
@@ -5465,7 +5465,7 @@ Kolu, Martti	male	    1
 Kol Van	ambiguous	    1
 Komonen, Antti	male	    1
 Komonen, Pekka (1866-1946)	male	    2
-Komppa, Gust	male	   15
+Komppa, Gust	NA	   15
 Komstadius, Petrus Jonae (1708-NA)	male	    1
 Komulainen, Antti Vihtori (1870-1937)	male	    7
 König, Ewald A	male	    1
@@ -5533,7 +5533,7 @@ Korpitie, Kusti	male	    1
 Kors, Henrich Johansson (1707-NA)	ambiguous	    1
 Korsström, Herman	male	    2
 Kortesuo, Katri	female	    3
-Korven Juha	ambiguous	    1
+Korven Juha	NA	    1
 Korvenkontio, V A	male	    1
 Korvenkoski, Viktor	male	    1
 Korvenoja, Aku (1891-1962)	male	    1
@@ -5577,7 +5577,7 @@ Kotzebue, August Von	male	    6
 Kouta, Aarni (1884-1924)	male	    6
 Koutaniemi, Risto	male	    1
 Kovalevsky, Sonja	female	    1
-Kovanko, K Je	ambiguous	    1
+Kovanko, K Je	NA	    1
 Kovero, Ilmari	male	   15
 Kovero, Karl Adolf	male	    5
 Kovero, Martti	male	    1
@@ -5651,7 +5651,7 @@ Krook, Edvard	male	    1
 Krook, Jacobus Benedicti (1717-1768)	male	   13
 Krook, Johannes (1778-NA)	male	    1
 Krook, Jonas Benedicti (1725-1763)	male	    1
-Krook, Nicolaus Benjamini (1711-NA)	ambiguous	    1
+Krook, Nicolaus Benjamini (1711-NA)	male	    1
 Kröpelin, Carl Larsson (1641-NA)	male	    2
 Kropotkin, Pjotr	male	    5
 Krotkov, A	male	    1
@@ -5684,12 +5684,12 @@ Kuitunen, Elis	female	    1
 Kuivalainen, P	NA	    1
 Kujala, Juho (1878-1919)	male	    4
 Kujala, Viljo (1891-1977)	male	    1
-Kujola, Joh	ambiguous	    2
+Kujola, Joh	NA	    2
 Kukkonen, Albert	male	    1
 Kukkonen, Mikko (1842-1894)	male	    1
 Kulkuri	NA	    1
 Kullervo	male	    5
-Kullman, Nicolaus	ambiguous	    1
+Kullman, Nicolaus	NA	    1
 Kulo, K L	NA	    1
 Kulvik, Bertel	male	    1
 Kumlin, Aarne	male	    1
@@ -5747,7 +5747,7 @@ Kuusisto, A W	male	    6
 Kuuskoski, Valma Maria	female	    2
 Kuylenstierna-wenster, Elisabeth	female	    2
 Kuyper, Abraham	male	    1
-Kvist, Joh	ambiguous	    3
+Kvist, Joh	NA	    3
 Kyander, Andreas Georgii (1692-NA)	male	    2
 Kyander, Georgius Andreae (1659-NA)	male	    2
 Kyhlberg, Hjalmar	male	    1
@@ -5774,7 +5774,7 @@ La Cour, Poul	male	    3
 Lactantius, Lucius Caecilius Firmianus (300-NA)	male	    1
 Lademacher, Henricus	ambiguous	    1
 Ladenburg, Max	male	    6
-Ladoff, Isador	ambiguous	    1
+Ladoff, Isador	NA	    1
 Laechlin, Matthias Matthiae	male	    1
 Laengman, Matthias Erici (1728-1785)	male	    1
 Laestadius, Lars Levi (1800-1861)	male	   25
@@ -5783,7 +5783,7 @@ Lafargue, Paul	male	    3
 Lafarque, Paul	male	    1
 Lafcadio, Hearn	ambiguous	    1
 Läffler, L Fr	ambiguous	    3
-Lagberg, Nicolaus Ebbori (1703-NA)	ambiguous	    1
+Lagberg, Nicolaus Ebbori (1703-NA)	NA	    1
 Lagerblad, Elis (1845-1928)	female	   59
 Lagerborg, Robert	male	    2
 Lagerborg, Rolf	male	   23
@@ -5818,7 +5818,7 @@ Lagus, Hugo	male	    7
 Lagus, Johannes Gabriel	male	    1
 Lagus, Jonas (1798-1857)	male	    8
 Lagus, Lars Reinhold	male	    5
-Lagus, Nicolaus (1764-1816)	ambiguous	    1
+Lagus, Nicolaus (1764-1816)	NA	    1
 Lagus, Wilhelm	male	   15
 Lagus, Wilhelmus Gabriel (1786-1859)	male	   10
 Lähde, Juhana Vihtori	male	    1
@@ -5848,7 +5848,7 @@ Laitinen, Antero Vilho	male	    2
 Laitinen, Artturi	male	    1
 Laitinen, Henrik (1832-1882)	male	    1
 Laitinen, J	male	    2
-Laitinen, Joh	ambiguous	    3
+Laitinen, Joh	NA	    3
 Laitinen, Johannes (1869-NA)	male	    2
 Laitinen, Lauri	male	    1
 Laitinen, Taav	NA	    7
@@ -5876,7 +5876,7 @@ Lanaeus, J	male	    1
 Landau, E	NA	    1
 Landberg, Johan	male	    1
 Landell, Erik	male	    4
-Landén, Ab	ambiguous	    1
+Landén, Ab	NA	    1
 Landenberger, Albert	male	    1
 Landgren, Atte	male	    1
 Landgren, C J	male	    1
@@ -5890,7 +5890,7 @@ Landtman, Johannes Petrus (1728-1796)	male	    1
 Lange, Bengt	male	    1
 Lange, Ina	female	    7
 Lange, Karl	male	    2
-Lange, Nicolaus	ambiguous	    1
+Lange, Nicolaus	NA	    1
 Langenscheidt, Paul	male	    1
 Langenskiöld, Fabian	male	    1
 Langenskiöld, G	NA	    1
@@ -5928,7 +5928,7 @@ Lappalainen, Otto	male	    1
 Lappala, R	NA	    1
 Lappala, Risto	male	    1
 Lappi, A F	male	    1
-Lärarinnor Vid Skolan	ambiguous	    1
+Lärarinnor Vid Skolan	NA	    1
 Larin-kyösti	NA	   47
 Larson, Fritz	male	    1
 Larson, O J	male	    1
@@ -5942,7 +5942,7 @@ La Sizeranne, Robert De	ambiguous	    1
 Laskovski, F F	NA	    1
 Lassalle, Ferdinand	male	    2
 Lassen, Helene	female	    1
-Lassi	ambiguous	    1
+Lassi	NA	    1
 Lassila, D	NA	    2
 Lassila, David	male	    4
 Lassila, Eero	male	    1
@@ -5986,10 +5986,10 @@ Laurén, L L (1824-1884)	NA	   42
 Laurén, Ludvig (1860-1909)	male	    1
 Laurén, Per åke	male	    3
 Laurén, Rafaël	NA	    5
-Laurentius Nicolai, NA (1675-NA)	ambiguous	    1
-Laurentius Paulinus Gothus, NA (1565-1646)	ambiguous	    1
-Laurentius Petri Aboicus	ambiguous	   12
-Laurentius Stephani, NA (1669-NA)	ambiguous	    1
+Laurentius Nicolai, NA (1675-NA)	NA	    1
+Laurentius Paulinus Gothus, NA (1565-1646)	male	    1
+Laurentius Petri Aboicus	NA	   12
+Laurentius Stephani, NA (1669-NA)	NA	    1
 Laurent, K A	male	    1
 Laurent, L	NA	    1
 Laurén, Walter	male	    5
@@ -6016,7 +6016,7 @@ Lavonius, W A	male	   12
 Lavrentjeva, S I	NA	    1
 Lavrentjev, G	NA	    1
 Lavrentjev, K V	NA	    1
-Lawrence, Abbot	ambiguous	    2
+Lawrence, Abbot	NA	    2
 Lawson, Alfred William	male	    1
 Lawson, Thomas W	male	    2
 Laxenius, Jacobus Martini (1687-NA)	male	    1
@@ -6031,11 +6031,11 @@ Lebell, Fridericus (1752-1819)	NA	    1
 Lebell, Michaël (1714-1786)	NA	    1
 Leblanc, Maurice	male	    6
 Le Blond, Aubrey Mrs	ambiguous	    1
-Le Bon, Gustave	ambiguous	    2
+Le Bon, Gustave	NA	    2
 Le Braz, Anatole	male	    1
 Lebrecht, Aegydius	NA	    3
 Lechander, Lars Abrahamsson (1719-NA)	male	    1
-Lechander, Nicolaus Johannis (1656-1726)	ambiguous	    1
+Lechander, Nicolaus Johannis (1656-1726)	male	    1
 Leche, Johannes (1704-1764)	male	    5
 Leche, W	NA	    1
 Leche, Wilhelm	male	    2
@@ -6125,7 +6125,7 @@ Lemström, G	NA	    5
 Lemström, Henricus (1739-1771)	ambiguous	   10
 Lemström, Selim (1838-1904)	male	   16
 Lenaeus, Johannes Canuti (1573-1669)	male	    1
-Lenau, Nicolaus	ambiguous	    1
+Lenau, Nicolaus	NA	    1
 Lenhardtson, A	male	    2
 Lenk, Margareta	female	    1
 Lennaeus, Sveno (1769-1824)	male	    1
@@ -6162,14 +6162,14 @@ Leroy, M:me Ferdinand	male	    1
 Le Sage, Alain René	male	    1
 Lesch, Thure	male	    1
 Le Seur, Paul	male	    4
-Lessing, Gotthold Ephraim	ambiguous	    1
+Lessing, Gotthold Ephraim	male	    1
 Lesueur, Daniel	male	    1
-Lethalensis, Josephus Laurentii (1672-NA)	ambiguous	    1
+Lethalensis, Josephus Laurentii (1672-NA)	NA	    1
 Letonmäki, Lauri (1886-1935)	male	    1
 Leuchovius, Benedictus P (1583-1623)	male	    2
 Leuschner, W	NA	    1
 Leutemann, Heinrich	male	    5
-Leutz, Ferd	ambiguous	    3
+Leutz, Ferd	NA	    3
 Leuven, A	male	    1
 Le Vaillant, Francois	male	    1
 Levälahti, K E	NA	    2
@@ -6186,7 +6186,7 @@ Levertin, Oscar	male	    2
 Levesque, Pierre-charles (1736-1812)	NA	    1
 Levesque, Pierre Charles (1736-1812)	male	    1
 Levetzow, Cornelia	female	    1
-Levin, Meyer	ambiguous	    1
+Levin, Meyer	NA	    1
 Levinsohn, Isak	male	    1
 Levinson, Andrei	male	    1
 Levón, Edvard Eliel	male	    2
@@ -6222,7 +6222,7 @@ Lieto Kullervo	male	    1
 Lieto, NA (1857-1936)	NA	    3
 Lietzen, Nils Arvidsson (1691-NA)	male	    3
 Liewendal, Frans Oskar (1818-1890)	male	    1
-Lignell, Nicolaus (1744-1817)	ambiguous	    1
+Lignell, Nicolaus (1744-1817)	NA	    1
 Liikemies	NA	    1
 Liimatainen, A	male	    1
 Liinamaa, Hilja (1876-1935)	female	    5
@@ -6266,7 +6266,7 @@ Lille, Axel	male	    8
 Lille, Bengt	male	    1
 Lille, Bengt Olof (1807-1875)	male	    2
 Lille, Werner Olympius	male	    3
-Lilliegreen, Ephraim Axelsson (1668-1729)	ambiguous	    1
+Lilliegreen, Ephraim Axelsson (1668-1729)	NA	    1
 Lilliegreen, Simon Axelsson (1666-1736)	male	    1
 Lilliegren, Axel Germund (1712-1809)	male	    1
 Lillienstedt, Johan (1655-1732)	male	   21
@@ -6277,7 +6277,7 @@ Lillqvist, Otto	male	   11
 Limacius, Andreas Johannis (1610-NA)	male	    1
 Limaeus, Johannes Erlandi (1644-1723)	male	    1
 Limatius, Aron (1710-1770)	male	    1
-Limatius, Nicolaus (1664-1705)	ambiguous	    1
+Limatius, Nicolaus (1664-1705)	NA	    1
 Limingius, Laurentius Laurentii	male	    1
 Limnell, Axel R	male	    1
 Linck, E	NA	    1
@@ -6319,7 +6319,7 @@ Lind, E A	male	    1
 Lindebäck, Jacob (1765-1820)	male	    2
 Lindeberg, J W	male	    3
 Lindeberg, Knut Mauritz	male	    1
-Lindeblad, Ad	ambiguous	    1
+Lindeblad, Ad	NA	    1
 Lindecrantz, Nils Nilsson (1648-1692)	male	    1
 Lindedahl, Vindician	male	    1
 Linde, J P	male	    1
@@ -6374,7 +6374,7 @@ Lindgren, Robert Wilhelm	male	    1
 Lind, Gustaf	male	    3
 Lindh, Adam	male	    4
 Lindh, E A	male	    1
-Lindh, Mag	ambiguous	    1
+Lindh, Mag	NA	    1
 Lindh, O	NA	    1
 Lindholm, Alfred Rikhard	male	    1
 Lindholm, Artur J	male	    1
@@ -6452,7 +6452,7 @@ Linsén, Gabriel (1838-1914)	male	    3
 Linsén, Johan Gabriel (1785-1848)	male	   55
 Linsén, K F	NA	    1
 Lipajev, I V	NA	    1
-Lippich Elek	ambiguous	    1
+Lippich Elek	NA	    1
 Lipponen, Akseli	male	    1
 Liprandi, A P	male	    1
 Lipschütz, Alexander	male	    1
@@ -6484,7 +6484,7 @@ Ljungberg, Ellen	female	    1
 Ljungberg, Emmi (1848-NA)	female	    5
 Ljungberg, Emmy	female	    1
 Ljungberg, Eva (1850-1919)	female	   14
-Ljungbergius, Nicolaus Svenonis (1703-NA)	ambiguous	    1
+Ljungbergius, Nicolaus Svenonis (1703-NA)	NA	    1
 Ljung-dahl, Mathilda	female	    2
 Ljunggren, Carl Johan	male	    1
 Ljunggren, Gustaf	male	    1
@@ -6540,13 +6540,13 @@ Loimaranta, Yrjö	male	    3
 Lojander, Hugo	male	    2
 Lojander, Konstantin Ludvig	male	    1
 Löken, Olaug Marie	female	    1
-Lombroso, Cesare	ambiguous	    1
+Lombroso, Cesare	NA	    1
 Lönberg, Johannes	male	    1
 Lönborg, Sven	male	    1
 Londen, Lilly	female	    2
 Londen, M	male	    1
 Londen, Oskar	male	    1
-London	NA	    1
+London	ambiguous	    1
 London, Jack	male	   25
 Lönegren, Ernst	male	    2
 Longfellow, Henry Wadsworth	male	    1
@@ -6586,7 +6586,7 @@ Louekari, F A	male	    1
 Louhelainen, O A	male	    1
 Louhivuori, O W	NA	   13
 Louhivuori, Verneri (1886-1980)	male	    1
-Louise	ambiguous	    1
+Louise	NA	    1
 Lounasmaa, Viktor	male	    1
 Lövegren, Elis	female	    3
 Loveson, Karl	male	    1
@@ -6601,7 +6601,7 @@ Lubin, R P Augustin (1624-1695)	male	    1
 Lübke, Wilhelm	male	    4
 Lucander, Ericus (1740-1827)	male	    1
 Lucander, Henricus Henrici	ambiguous	    1
-Lucas	ambiguous	    1
+Lucas	NA	    1
 Lucas, Richard	male	    4
 Lucianus	NA	    2
 Luckmanow, Nadeshda Andrejevna	female	    1
@@ -6727,8 +6727,8 @@ Määttälä, Evert	male	    2
 Macaulay, Thomas Babington	male	    2
 Macdonald, Alexander	male	    1
 Macduff, J R	male	   13
-Macé, Gustave	ambiguous	    1
-Mac Fadden, Bernarr	ambiguous	    1
+Macé, Gustave	NA	    1
+Mac Fadden, Bernarr	NA	    1
 Mac Grath, Harold	male	    1
 Macgregor, C H C	NA	    2
 Macgregor, G H C	NA	    1
@@ -6791,7 +6791,7 @@ Malinen, Vilho	male	    1
 Malin, V (1863-1937)	NA	    8
 Malishevskij, J J	male	    1
 Malkki, Aleksanteri	male	    2
-Malle	ambiguous	    1
+Malle	NA	    1
 Mallet Du Pan, Jacques (1749-1800)	male	    2
 Mallet, Ethel M	ambiguous	    1
 Mallet, Freder	ambiguous	    1
@@ -6814,7 +6814,7 @@ Malmi, Kaarle V	male	    1
 Malmio, Bruno	male	    2
 Malmivaara, Väinö	male	    1
 Malmivaara, Wilhelmi	male	    6
-Malm, Nicolaus Henrici (1686-1759)	ambiguous	    1
+Malm, Nicolaus Henrici (1686-1759)	NA	    1
 Malm, Pekka	male	    2
 Malm, Richard	male	    1
 Malmsten, Jacob	male	    2
@@ -6872,11 +6872,11 @@ Marchand, René	NA	    1
 March, Daniel	male	    1
 Marchmont, Arthur W	male	    1
 Marck, Mary	female	    3
-Marcus	ambiguous	    1
+Marcus	NA	    1
 Marcuse, Julian	male	    3
 Marcy, Mary E	female	    1
 Mardell Widman, Jacob (1769-NA)	male	    3
-Marden, Orison Swett	ambiguous	    7
+Marden, Orison Swett	NA	    7
 Marenholz-bülow, Bertha Von	female	    1
 Margarethe	female	    1
 Maria	ambiguous	   45
@@ -6884,7 +6884,7 @@ Mariaestadius, Isaacus	NA	    1
 Maria Matthiaksentytär	ambiguous	    1
 Marinero	NA	    3
 Mariupolsky, L	NA	    1
-Marja S, NA (1875-1924)	ambiguous	    2
+Marja S, NA (1875-1924)	NA	    2
 Markelin-svensson, Jenny	female	    4
 Markham, Florence A	ambiguous	    1
 Markkanen, Aaro	male	    1
@@ -6939,11 +6939,11 @@ Matthiesen, H I F C	NA	    1
 Mattila, J H	male	    1
 Mattila, V	NA	    1
 Mattila, V H	NA	    1
-Mattis	ambiguous	    1
+Mattis	NA	    1
 Mattsson, Aug	ambiguous	    1
 Mattsson, G	NA	    1
 Mattsson, G E	NA	    1
-Mattsson, Guss	ambiguous	   13
+Mattsson, Guss	NA	   13
 Mattsson, M	male	    2
 Mauclair, Camille	female	    1
 Mau, Edvard	male	    3
@@ -7114,7 +7114,7 @@ Mickwitz, R	NA	    2
 Micrander, Julius (1640-1702)	male	    1
 Middleton, R	NA	    1
 Mielikäinen, E	NA	    1
-Mielke, Hellmuth	ambiguous	    1
+Mielke, Hellmuth	NA	    1
 Miesmaa, J W	male	    2
 Miettinen, E	NA	    3
 Miettinen, Herman	male	    1
@@ -7125,7 +7125,7 @@ Mihailovski-danilevski, A I	male	    3
 Mihailowa, E	NA	    2
 Miikki, M	male	    1
 Miikkulainen, Aune	female	    3
-Mikael, NA (1877-1918)	ambiguous	    1
+Mikael, NA (1877-1918)	NA	    1
 Mikander, Hjalmar Johan	male	    1
 Mikkola, Antti	male	    1
 Mikkola, J J	male	   10
@@ -7147,7 +7147,7 @@ Miller, J R	male	   12
 Mill, John Stuart	male	    5
 Millot, Charles	male	    1
 Mills, Walter Thomas	male	    2
-Milner, Thos	ambiguous	    1
+Milner, Thos	NA	    1
 Miltopaeus, Eric (1718-1784)	male	    1
 Miltopaeus, Erich	male	    2
 Miltopaeus, Martinus Aeschilli (1631-1679)	male	   52
@@ -7167,7 +7167,7 @@ Moberg	NA	    1
 Moberg, Adolf (1813-1895)	male	    2
 Moberg, J	male	    1
 Moberg, K A	male	    2
-Moberg, K Ad	ambiguous	    2
+Moberg, K Ad	NA	    2
 Moberg, Nenne	female	    3
 Moberg, Olaus (1633-1705)	male	    1
 Modeen, A E	male	    1
@@ -7175,8 +7175,8 @@ Modeen, Alexander Edvard (1817-1899)	male	   17
 Modeen, Hjalmar	male	    2
 Modeliin, Alexander Mårtensson (1670-1754)	male	    1
 Moderus, Bergerus Johannis	male	    1
-Moffett, Cleveland	ambiguous	    1
-Mohrberg, Ericus Er	male	    1
+Moffett, Cleveland	NA	    1
+Mohrberg, Ericus Er	ambiguous	    1
 Mohr, O E	NA	    1
 Moilanen, Kaapro	male	    2
 Moinaux, Jules	male	    3
@@ -7187,7 +7187,7 @@ Molenes, Emile De	ambiguous	    1
 Molière	NA	    7
 Moliis-mellberg, G	NA	    1
 Molin, Charlotta	female	    2
-Molin, Gustavus Nicolaus (1779-1824)	ambiguous	    1
+Molin, Gustavus Nicolaus (1779-1824)	NA	    1
 Molin, Lars Larsson	male	    1
 Molin, Laurentius	male	    1
 Molin, Pelle	male	    1
@@ -7209,8 +7209,8 @@ Möller, William	male	    1
 Moll, Herman (NA-1732)	male	    1
 Mollin, Alfred Von	male	    1
 Mollin, Jonas (1734-NA)	male	    2
-Mollin, Josephus (1756-1810)	ambiguous	    2
-Molloy, Fitzgerald	ambiguous	    1
+Mollin, Josephus (1756-1810)	NA	    2
+Molloy, Fitzgerald	NA	    1
 Molnár, Ferenc	male	    1
 Mölsé, Wilhelm	male	    1
 Moltesen, Eva	female	    4
@@ -7221,7 +7221,7 @@ Monhaupt, F N	NA	    1
 Monisti	NA	    1
 Monod	NA	    1
 Monod, A	male	    1
-Monod, Adolphe	ambiguous	    2
+Monod, Adolphe	NA	    2
 Monod, Th	ambiguous	    4
 Montanus, Mathias	male	    1
 Monteen, Eric O	male	    1
@@ -7230,7 +7230,7 @@ Montell, R	NA	    1
 Montell, Wilhelm	male	    1
 Montépin, Xavier Aymon De	ambiguous	    4
 Montgomery, Florence	female	    1
-Montgomery, Gust	male	    1
+Montgomery, Gust	NA	    1
 Montgomery, Gustaf	male	    2
 Montgomery, Robert (1834-1898)	male	    7
 Montin, Isaacus	NA	    1
@@ -7241,7 +7241,7 @@ Montonen, Arvid	male	    2
 Moody, D L	NA	   16
 Moody, William	male	    1
 Moore, Thomas	male	    1
-Moraeus, Christophorus Jonae	ambiguous	    1
+Moraeus, Christophorus Jonae	male	    1
 Morane, Pierre	male	    1
 Moravski, S P	NA	    1
 Morawsky, S P	NA	    1
@@ -7280,13 +7280,13 @@ Mozelius, Fredric	male	    1
 Mozelius, Johannes	male	    1
 M P-ri	NA	    1
 M-r	NA	    1
-Mr C	male	    1
+Mr C	NA	    1
 Mrs Alexander	ambiguous	    1
 Mrs Kilburn	ambiguous	    1
 Mrs Webb	ambiguous	    1
 M S Gh	male	    1
 M Th L	ambiguous	    1
-Mücke, Hellmuth V	ambiguous	    2
+Mücke, Hellmuth V	NA	    2
 Muderspach, L	NA	    5
 Mühe, Ernst	male	    1
 Mühlau, Helene Von	female	    1
@@ -7340,10 +7340,10 @@ Murto, J A	male	    2
 Musikka	NA	    1
 Musikka, Väinö	male	    5
 Musset, Alfred De	ambiguous	    2
-Mustakallio, Joh (1846-1915)	ambiguous	    1
+Mustakallio, Joh (1846-1915)	NA	    1
 Mustakallio, Johannes J	male	    1
 Mustakallio, Jooseppi (1857-1923)	male	   22
-Mustamaa, Eia	female	    1
+Mustamaa, Eia	ambiguous	    1
 Mustaparta, Johan	male	    1
 Mustonen, Folke	male	    1
 Mustonen, G V	NA	    1
@@ -7365,7 +7365,7 @@ Myosotis Palustris	NA	    2
 Myrberg, Otto Ferdinand	male	    1
 Myrberg, P J	male	    3
 Myréen, Daniel (1782-1831)	male	    7
-Myréen, Osw	NA	    1
+Myréen, Osw	male	    1
 Myricius, Ericus Christophori (1679-NA)	male	    1
 Myrsky, Eino	male	    1
 Myšlaevski, A Z	male	    2
@@ -7376,7 +7376,7 @@ Naezenius, Esaias Gregorii (1707-NA)	male	    1
 Nagajev, A I	male	   25
 N -aini-	NA	    1
 Nakari, Anton	male	    1
-Nakari, Kr	NA	    1
+Nakari, Kr	male	    1
 Nalimov, Vasilij	male	    1
 Nandelstadt, Bertha Von	female	    1
 Nansen, Fridtjof	male	    3
@@ -7394,9 +7394,9 @@ Nauckhoff, Xx	NA	    1
 Naumann, Friedrich	male	    4
 Näver, Jussi	male	    1
 -nd-	NA	    2
-Nea, NA (1871-1942)	ambiguous	    1
+Nea, NA (1871-1942)	NA	    1
 Neander, August	male	    1
-Needran, Andrews	ambiguous	    1
+Needran, Andrews	NA	    1
 Neelman, Johannes (1670-1708)	male	    2
 Neiglick, Hjalmar (1860-1889)	male	    4
 Neikter, Jacobus Fredricus	male	    2
@@ -7405,7 +7405,7 @@ Nelson, Axel	male	    1
 Nelson, Karoliina	female	    1
 Nelson, O	NA	    1
 Nemirovitš-dantšenko, Vasili	male	    5
-Nemo	ambiguous	    9
+Nemo	NA	    9
 Nenonen, Wilfred	male	    2
 Nenye, Eemi	male	    1
 Neostadius, Johan	male	    1
@@ -7436,8 +7436,8 @@ Nesselius, Israel Johannes (1667-1739)	male	   12
 Nesselnkönig, Berenardus	NA	    1
 Nessuno	NA	    1
 Nestler, Albert	male	    2
-Nestor, NA (1856-1920)	ambiguous	    1
-Nestor T-r	ambiguous	    3
+Nestor, NA (1856-1920)	NA	    1
+Nestor T-r	NA	    3
 Neubert, C F E	NA	    1
 Neuhaus, Johannes	male	    1
 Neuman, Jacob (1701-1768)	male	    4
@@ -7630,7 +7630,7 @@ Norrlin, Johan Petter	male	    9
 Norrmark, Adam	male	    2
 Norrmén, P H	NA	    1
 Nortamo, Hj (1860-1931)	male	    5
-North, Brownlow	ambiguous	    3
+North, Brownlow	NA	    3
 Novorusskij, M	male	    1
 Noyos, William H	male	    1
 -ns-, NA (1865-1930)	NA	    1
@@ -7658,7 +7658,7 @@ Nurminen, K J	male	    1
 Nuupala, Frans	male	    4
 Nuutinen, Aukusti	male	    1
 Nuutinen, J W	male	    1
-N - V - N	ambiguous	    1
+N - V - N	NA	    1
 -nw-	NA	    1
 Nyberg, A G	male	    3
 Nyberg, Arvid	male	    1
@@ -7692,7 +7692,7 @@ Nycopensis, Andreas Laurentii (1688-NA)	male	    3
 Nycopensis, Joachimus Nicolai (1671-NA)	male	    1
 Nycopensis, Johannes Carolus (1740-1764)	male	    1
 Nycopensis, Martinus Olai (1596-1657)	male	    1
-Nycopensis, Nicolaus Laurentii (1664-NA)	ambiguous	   43
+Nycopensis, Nicolaus Laurentii (1664-NA)	NA	   43
 Nygreen, Johan (1711-NA)	male	    1
 Nygren, A J	male	    6
 Nyholm, Abel (1845-NA)	male	    2
@@ -7776,7 +7776,7 @@ Ohorn, Anton	male	    2
 Ohrt, F	NA	    5
 öhrwall, Hjalmar	male	    1
 Oittinen, Kalle	male	    1
-Oiva	ambiguous	    1
+Oiva	NA	    1
 Ojajärvi, K W	NA	    1
 Ojala, Herman	male	   11
 Ojala, N	NA	    1
@@ -7799,7 +7799,7 @@ Okulov, Sergei	male	    1
 Olander, K M	male	    2
 Olander, O	NA	    5
 Olander, Otto Wilhelm	male	    1
-Olaus Petri	ambiguous	    3
+Olaus Petri	male	    3
 Olenev, I V	NA	    1
 Oliphant	male	    1
 Oliphant, W Elwin	male	    1
@@ -7833,12 +7833,12 @@ Onerva, L	NA	   14
 Ongelin, Hanna (1848-1893)	female	    9
 Onkel Adam	ambiguous	    5
 Onkel Tommi	ambiguous	    1
-Onni	ambiguous	    1
+Onni	NA	    1
 Onola, Onni	male	    2
 Opartisk	NA	    1
 Opettaja	NA	    1
-Oppenheim, E Phillips	ambiguous	    2
-Oppenheim, Phillips E	ambiguous	    1
+Oppenheim, E Phillips	NA	    2
+Oppenheim, Phillips E	NA	    1
 Oppenheim, W	NA	    1
 Oppman, Romulus Magnus	male	    7
 Optimist, NA (1849-1937)	NA	    1
@@ -7887,7 +7887,7 @@ Osterwald, Wilhelm	male	    1
 östring, Peter	male	    1
 Ostroumov, I	NA	    1
 Ostroumov, Stefan	male	    1
-Ostroumow, St	ambiguous	    1
+Ostroumow, St	NA	    1
 Ostrovski, A N	male	    1
 Ostwald, Wilhelm	male	    4
 Oterdahl, Jeanna	female	    1
@@ -8029,7 +8029,7 @@ Panoff, V I	NA	    1
 Pansy	female	    2
 Pantsar, Henrik	male	    1
 Panzer, G	NA	    1
-Paparregopulos, Demetrios	ambiguous	    1
+Paparregopulos, Demetrios	NA	    1
 Papke, Christianus Caroli (1718-1761)	ambiguous	    3
 Paraskena, Nikitina	female	    1
 Parikka, Matti	male	    1
@@ -8054,7 +8054,7 @@ Partanen, A J	male	    1
 Partanen, Helena	female	    1
 Partanen, L W	NA	    8
 Parthenio	female	    1
-Parus Ater, NA (1844-1936)	ambiguous	   18
+Parus Ater, NA (1844-1936)	NA	   18
 Parviainen, Johan Walter	male	    3
 Parviainen, Walter	male	    1
 Parvus	NA	    2
@@ -8152,10 +8152,10 @@ Pérez Galdós, Benito	male	    1
 Perfall, A Von	male	    1
 Pergament, M	male	    1
 Pergaud, Louis	male	    1
-Peringer, Gustavus	ambiguous	    1
+Peringer, Gustavus	NA	    1
 Perkins-gilman, Charlotte	female	    1
 Perl, Henry	male	    1
-Pernerus, Nicolaus (1711-1743)	ambiguous	    1
+Pernerus, Nicolaus (1711-1743)	NA	    1
 Peróff, Iv	male	    1
 Pero, Paavo	male	    2
 Perron, Paul	male	    1
@@ -8182,7 +8182,7 @@ Peterson, Carl Fr	male	    1
 Peterson, C F	NA	    1
 Peterson, C M	male	    1
 Peterson, Folke	male	    1
-Pethrus, Lewi	ambiguous	    2
+Pethrus, Lewi	NA	    2
 Petőfi, Sándor	NA	    3
 Petraeus, Aeschillus Olai (1593-1657)	male	  228
 Petraeus, Andreas Aeschilli (1630-1694)	male	    7
@@ -8197,7 +8197,7 @@ Petrelius, Albert	male	    2
 Petrelius, Johan Teodor	male	    1
 Petrelli, Teodor Johannes	male	    1
 Petrell, Kaarle Viktor	male	    1
-Petriin, Nicolaus (1739-NA)	ambiguous	    1
+Petriin, Nicolaus (1739-NA)	NA	    1
 Petroff, Grigorii Spiridonovitsh	male	    1
 Petrovskij, Sergej	male	    1
 Petrus Johannis Gothus, NA (1616-NA)	male	    1
@@ -8240,7 +8240,7 @@ Pierson, A T	male	    2
 Pietari I	male	    1
 Pietikäinen, Abraham	male	    6
 Pietilä, Antti J (1878-1932)	male	   26
-Pietiläinen, Joh Ev	ambiguous	    6
+Pietiläinen, Joh Ev	NA	    6
 Pietilä, Väinö (1888-1917)	male	    1
 Piha, Waldemar	male	    1
 Pihkala, Lauri	male	    6
@@ -8282,12 +8282,12 @@ Pipping, Elna	female	    2
 Pipping, Fredrik Wilhelm (1783-1868)	male	   40
 Pipping, Hugo	male	   28
 Pipping, Joseph	male	    1
-Pipping, Josephus (1710-1788)	ambiguous	    2
+Pipping, Josephus (1710-1788)	NA	    2
 Pipping, Nils	male	    1
 Pipping, Rolf	male	    1
 Pippingsköld, F	NA	    1
 Pippingsköld, J (1825-1892)	male	    5
-Pippingsköld, Josephus Gustavi (1760-1815)	ambiguous	   11
+Pippingsköld, Josephus Gustavi (1760-1815)	male	   11
 Pipping, W	NA	   10
 Pira, G	NA	    3
 Piranesi, Francesco	male	    3
@@ -8314,7 +8314,7 @@ Platet, Auguste	ambiguous	    1
 Plathan, Arthur	male	    2
 Platinus, Erlandus Petri (1671-1698)	male	    1
 Platinus, Petrus Svenonis (1635-1689)	male	    1
-Plato	ambiguous	    1
+Plato	NA	    1
 Platon	male	    4
 Platou, Ludvig Stoud	male	    4
 Plehanov, Georgi	male	    1
@@ -8322,7 +8322,7 @@ Pletsch, Oskar	male	    6
 Plockhorst, B	NA	    2
 Ploetz, Carl	male	    7
 Ploompuu, J	male	    1
-Plüschow, Gunther	ambiguous	    1
+Plüschow, Gunther	NA	    1
 Plym-forshell, J	male	    1
 Pobyedonostseff, K P	NA	    1
 Podolinus, Johannes Olai (1640-NA)	male	    1
@@ -8407,7 +8407,7 @@ Post, R V	NA	    1
 Post, Wicken Von	ambiguous	    1
 Potapénko, I	NA	    1
 Potapenko, Ignatij Nikolaevič	NA	    1
-Potapenko, Ignati Nikolajevitš	NA	    5
+Potapenko, Ignati Nikolajevitš	male	    5
 Potiechin, Aleksei Antipovitsh	male	    1
 Pötsi, A	male	    1
 Pottier, Eugène	NA	    1
@@ -8425,7 +8425,7 @@ Prætorius, Stefanus	male	    2
 Praktikus	NA	    1
 Prants, Hindrik	male	    2
 Prätorius, Stefan	male	    9
-Pratt, Ambrose	ambiguous	    1
+Pratt, Ambrose	NA	    1
 Pravdin, I	NA	    1
 Preczang, Ernst	male	    4
 Prel, Carl Du	male	    1
@@ -8544,10 +8544,10 @@ Racowitza, Helene Von	female	    1
 Radloff, Fredrik Wilhelm (1765-1838)	male	    7
 Radziwill	NA	    1
 Rae, Edward	male	    2
-Raekallio, Joh	ambiguous	    1
+Raekallio, Joh	NA	    1
 Raevuori, Vihtori	male	    1
 Raevuori, Yrjö	male	    1
-Raguel, Franciscus (1605-NA)	ambiguous	    4
+Raguel, Franciscus (1605-NA)	NA	    4
 Rahikainen, Kaarlo Juho	male	    7
 Rahkonen, A (1841-1877)	male	    4
 Rahkonen, Juho	male	    6
@@ -8588,7 +8588,7 @@ Ramsay, Anders	male	   15
 Ramsay, August	male	   69
 Ramsay, Carl Gustaf	male	    1
 Ramsay, Henrik	male	    3
-Ramsay, Jully	ambiguous	    7
+Ramsay, Jully	NA	    7
 Ramsay, Wilhelm (1865-1928)	male	   35
 Ramstedt, G J	male	   16
 Ramus, Jonas	male	    3
@@ -8674,9 +8674,9 @@ Reftelius, Petrus Johannis (1613-1688)	male	    3
 Regnard, Jean-francois (1655-1709)	male	    1
 Regnard, J F	male	    1
 Regnér, Gustaf	male	    1
-Regnér, Laur	ambiguous	    2
+Regnér, Laur	NA	    2
 Regnér, Per Bengtsson	male	    1
-Reguly, Antal	ambiguous	    2
+Reguly, Antal	NA	    2
 Rehbinder, Berendt Otto (1784-NA)	male	    2
 Rehbinder, Berndt Otto	male	    1
 Rehbinder, Joh Adam (1733-1809)	male	    1
@@ -8710,7 +8710,7 @@ Reinius, B M	male	    3
 Reinius, Israel Matthiae (1699-1771)	male	    1
 Rein, Johan Edvard	male	    1
 Rein, Karl Aleksander	male	    2
-Reinke, Joh	ambiguous	    3
+Reinke, Joh	NA	    3
 Reino, Kaimas Oskari	male	    1
 Reino, O	NA	    1
 Rein, Th	ambiguous	    1
@@ -8807,7 +8807,7 @@ Richter, F E	NA	    7
 Richter, Frans Evert	male	    1
 Richter, Theodor Friedrich Max	male	    1
 Ricker, A W	male	    3
-Riddell, Newton N	ambiguous	    2
+Riddell, Newton N	NA	    2
 Riddercrantz, Joakim Jostsson (1650-1724)	male	    2
 Riddermarck, Andreas (1651-1707)	male	    1
 Ridge, John James Jaakko	male	    1
@@ -8836,7 +8836,7 @@ Ringius, Magnus Nicolai	male	    1
 Ringius, Petrus Johannis (1712-NA)	male	    2
 Ringvall, August Ferdinand	male	    1
 Rinman, Carl (1763-1826)	male	    2
-Rinman, Joh	ambiguous	    1
+Rinman, Joh	NA	    1
 Rinman, Karl	male	    1
 Rinne, Juhani (1872-1950)	male	    8
 Rinta, Matti	male	    1
@@ -8861,7 +8861,7 @@ Ritz, C	NA	    1
 Ritz, Carolus Conradus (1758-1803)	male	    1
 Rivelius, Lars Larsson (1693-NA)	male	    1
 Rivelius, Laurentius Johannis (1623-1687)	male	    1
-Riverton, Stein	ambiguous	    9
+Riverton, Stein	NA	    9
 Rjestsoff, N A	male	    3
 R-m-n	NA	    1
 -r -n	NA	    1
@@ -8982,7 +8982,7 @@ Rosenqvist, V T	NA	   24
 Rosenstein, Nils Von	male	    1
 Rosenthal	male	    3
 Rosenthal, Moritz	male	    1
-Rosén Von Rosenstein, Nicolaus	ambiguous	    3
+Rosén Von Rosenstein, Nicolaus	NA	    3
 Roshkow, N	NA	    1
 Rosinus, Richardus Richardi (1623-1676)	NA	    1
 Rösiö, P J	male	    3
@@ -9017,7 +9017,7 @@ Rothovius, Johannes Arvidi (1693-1772)	male	    1
 Rothsten, F W	NA	    2
 Rotilainen, Hijoppi	NA	    9
 Rotkirch, Wentzel Friedrich	male	    1
-Rouget De L'isle	female	    1
+Rouget De L'isle	ambiguous	    1
 Rousseau, Jean-jacques	NA	    4
 Roussel, S	NA	    1
 Rousset, Jean (1686-1762)	male	    1
@@ -9036,12 +9036,12 @@ Ruda, Ericus Andreae (1673-1733)	male	    1
 Rudbeck, E (1830-1867)	NA	    1
 Rudbeckius, Johannes (1581-1646)	male	    6
 Rudbeckius, Johannes (1623-1667)	male	    2
-Rudbeckius, Nicolaus Johannis (1622-1676)	ambiguous	    1
+Rudbeckius, Nicolaus Johannis (1622-1676)	male	    1
 Rudbeck, Johan Olof (1711-1790)	male	    1
 Rudbeck, Olof (1660-1740)	male	    3
 Rudeen, Torsten (1661-1729)	male	   80
 Rudelbach	NA	    1
-Rudell, Mund	ambiguous	    1
+Rudell, Mund	NA	    1
 Rudenschöld, Magdalena Charlotta	female	    1
 Rudenschöld, Torsten	male	    1
 Rudenschöld, Ulrik (1704-1765)	male	    1
@@ -9061,7 +9061,7 @@ Rühs, Friedrich (1779-1820)	male	   10
 Ruin, Waldemar	male	   11
 Rumjantseff, A	male	    1
 Rümker, K Von	ambiguous	    1
-Runa	ambiguous	   14
+Runa	NA	   14
 Rundle, Elisabeth	female	    1
 Rundt, Joel	male	    3
 Runeberg, Birger	male	    1
@@ -9160,7 +9160,7 @@ Sacklinius, Henricus Stephani (1638-1681)	ambiguous	    1
 Sacklinius, Laurentius Henrici (1676-1750)	male	    1
 Sadelin, Petrus Ulricus Ferdinandus (1788-1858)	male	    4
 Sadeniemi, Yrjö	male	    1
-Sadolin, Frode	ambiguous	    2
+Sadolin, Frode	NA	    2
 Saehls, Johan Johansson (1666-1707)	male	    1
 Saelan, Thiodolf	male	    4
 Säf, Mathias (1732-1776)	male	    1
@@ -9174,7 +9174,7 @@ Sahlberg, Kustaa	male	    3
 Sahlberg, Reinhold Ferdinand (1811-1874)	male	    1
 Sahlertz, Ivan	male	    2
 Sahlgren, Jöran	male	    1
-Sahlman, Joh	ambiguous	    1
+Sahlman, Joh	NA	    1
 Sahlman, Johan	male	    1
 Sahlstén, Anna (1875-1939)	female	    4
 Sahlstén, P A	male	    8
@@ -9228,7 +9228,7 @@ Salminen, Väinö	male	   11
 Salminen, Viktor	male	    9
 Salmi, Otto	male	    1
 Salmi, Viktor	male	    1
-Salo	ambiguous	    1
+Salo	NA	    1
 Salo, A	male	    1
 Salo, Aukusti	male	    4
 Salokaarto, Erkki	male	    1
@@ -9242,7 +9242,7 @@ Salomaa, Aliina	female	    4
 Salomaa, J E	male	    1
 Salomon Matthiae	male	    1
 Salomon, Otto	male	    1
-Salomon Petri, NA (1610-1681)	ambiguous	    1
+Salomon Petri, NA (1610-1681)	male	    1
 Salonen, B F	NA	    4
 Salonen, Erkki	male	    1
 Salonen, Frans	male	    1
@@ -9349,7 +9349,7 @@ Sasonof	NA	    1
 Sasonoff, N	NA	    2
 Saukko	NA	    1
 Saukko, Anni Anna Katarina	female	    1
-Saukkonen, Alfr	male	    2
+Saukkonen, Alfr	ambiguous	    2
 Sauli, J O	male	    7
 Sauramo, Lauri (1875-1919)	male	    6
 Sauramo, Matti	male	    1
@@ -9379,7 +9379,7 @@ Savolin, M	male	    1
 Savonen, Severi	male	    3
 Savonius, Michael Johannis	male	   11
 Sawela, Herman	male	    8
-Sawon Lassi, NA (1822-1872)	ambiguous	    2
+Sawon Lassi, NA (1822-1872)	NA	    2
 Saxbäck, Gustaf Adolf (1805-1877)	male	    1
 Saxberg, Johannes (1727-NA)	male	    1
 Saxén, Bruno	male	    1
@@ -9451,7 +9451,7 @@ Schildt, Wolmar Onni	male	    1
 Schilinski, A A	male	    1
 Schiller, Ernst	male	    2
 Schiller, Friedrich Von	male	   22
-Schilling, Gustavus Christophori (1640-1682)	ambiguous	    1
+Schilling, Gustavus Christophori (1640-1682)	NA	    1
 Schilling, Olof	male	    1
 Schinmeier, Johann Christopher	male	    1
 Schippel, Max	male	    2
@@ -9481,7 +9481,7 @@ Schneller, Ludvig	male	    3
 Schnitzler, Arthur	male	    4
 Schnitzler, J -h	male	    1
 Schödler, Friedrich	male	    1
-Schogster, Gustavus (1769-1829)	ambiguous	    1
+Schogster, Gustavus (1769-1829)	NA	    1
 Scholander, F W	NA	    1
 Schöldström, Birger	male	    2
 Schonaeus, Cornelius (1611-NA)	male	    5
@@ -9516,9 +9516,9 @@ Schröder, Ludvig	male	    1
 Schroderus, Ericus Johannis (1647-NA)	male	    4
 Schroeder-hallakorpi, I A	male	    2
 Schröer, Gustav	male	    1
-Schröterus, Ernestus Fridericus (1621-1699)	ambiguous	    1
+Schröterus, Ernestus Fridericus (1621-1699)	NA	    1
 Schrowe, Uno Von (1853-1886)	male	    3
-Schrutz, Demetrius	ambiguous	    1
+Schrutz, Demetrius	NA	    1
 Schubarth, Tobias	male	    2
 Schübeler, F C	NA	    2
 Schubert, Friedrich Wilhelm Von	male	    3
@@ -9567,10 +9567,10 @@ Schwartze, Theodor	male	    1
 Schwartzkoppen, Clotilde Von	ambiguous	    1
 Schwartz, Marie Sophie	female	    4
 Schwarz, A	male	    1
-Schweitzer, Ph	male	    2
+Schweitzer, Ph	ambiguous	    2
 Schwering, Axel Von	male	    1
 Schwertschkoff, Vlad	male	    1
-Schwindt, Blenda	ambiguous	    1
+Schwindt, Blenda	NA	    1
 Schybergson, Carl Magnus	male	    3
 Schybergson, Emil (1856-1920)	male	   20
 Schybergson, Ernst	male	    2
@@ -9643,7 +9643,7 @@ Seppälä, Maiju	female	    5
 Seppälä, Teofilus	male	    2
 Seppä, Toivo	male	    1
 Seppelin, Juho	male	    1
-Septimus, NA (1879-1946)	ambiguous	    1
+Septimus, NA (1879-1946)	NA	    1
 Serafimovitš, Aleksandr	male	    1
 Serao, Matilde	female	    8
 Serenius, Bengt	male	    3
@@ -9678,7 +9678,7 @@ Setula, Jaakko	male	    1
 Set Volmari	male	    3
 Seume, J G	male	    1
 Seutter, Matthaeus (1678-1756)	male	    4
-Severin	ambiguous	    2
+Severin	NA	    2
 Severus, Sulpicius	NA	    1
 Sevon, J F	male	    3
 Sewell, Anna	female	    2
@@ -9701,17 +9701,17 @@ Sidbeckius, Johannes Johannis (1731-NA)	male	    1
 Sidenbladh, Elis	female	    1
 Side, Otto	male	    2
 Siebe, Josephine	female	    1
-Sieber, Jos	ambiguous	    1
+Sieber, Jos	NA	    1
 Siegberg, Artur (1862-1948)	male	    6
 Siener, Josef	male	    1
 Sienkiewicz, Henryk	male	   21
 Siersted, Theodor	male	    1
 Sievers, Richard	male	   11
 Sigfridus Georgii	female	    1
-Sigfridus Petri	ambiguous	    1
+Sigfridus Petri	NA	    1
 Siggonius, Laurentius (1694-NA)	male	    2
 Sigismundi, Adolphus Fridericus	male	    1
-Sigurd	ambiguous	    6
+Sigurd	NA	    6
 Sigurdsson, A	male	    3
 Sihvonen, Fabian	male	    2
 Siikaniemi, Alku	male	    6
@@ -9765,7 +9765,7 @@ Simons, A M	male	    5
 Simons, G A	male	    1
 Simonyi, Sigmund	male	    1
 Simpson, A B	male	    4
-Sinclair, Upton	ambiguous	    8
+Sinclair, Upton	NA	    8
 Sininen, L (1875-1919)	NA	    1
 Sinisalo, Sulo	male	    1
 Sinius, Andreas	male	    1
@@ -9946,7 +9946,7 @@ Sohlman, K E	NA	    1
 Sohlman, K V	NA	    2
 Sohlman, S A	male	    4
 Sohlström, Axel W	male	    1
-Sohm, Rudolph	ambiguous	    5
+Sohm, Rudolph	NA	    5
 Soikkeli, Kaarle	male	   10
 Soini, Lauri (1875-1919)	male	   17
 Soininen, Lauri (1875-1919)	male	    3
@@ -10018,7 +10018,7 @@ Spegel, Haquinus M	male	    1
 Spektator, NA (1829-1903)	NA	    1
 Spencer, Herbert	male	    2
 Spener, Philipp Jakob	male	    2
-Spensenius, Albertus Erici (1717-NA)	ambiguous	    3
+Spensenius, Albertus Erici (1717-NA)	NA	    3
 Sperling, A	male	    1
 Sperling, J	male	    1
 Sphinx	male	    3
@@ -10079,7 +10079,7 @@ Stålhammar, Carl Leonard	male	    1
 Stålhandske, Gustaf	male	    4
 Stålhansk, Johan Hansson (1620-1680)	male	    1
 Stalker, James	male	    3
-Stall, Sylvanus	ambiguous	    6
+Stall, Sylvanus	NA	    6
 Stammen	NA	    1
 Stanjukovitsh, K	NA	    1
 Stanley, Henry M	male	    6
@@ -10101,22 +10101,22 @@ Stecksenius, Israel Danielis	male	    1
 Steele	ambiguous	    1
 Steenberg, Andr Sch	ambiguous	    3
 Steenbergius, Ericus Michaelis (1722-NA)	male	    4
-Steenholm, Joh	ambiguous	    1
+Steenholm, Joh	NA	    1
 Steen, Magnus Magni (1660-1697)	male	    8
 Steenman, Gregorius Georgii (1700-1746)	male	    3
 Steffen	male	    1
 Steffen, Gustaf F	male	    1
-Steger, V St	ambiguous	    3
+Steger, V St	NA	    3
 Steinberger, G	NA	    3
 Stein, Ernst	male	    1
 Steiner, Rudolf	male	   10
 Steinheil, Fabian (1762-1831)	male	    4
 Steinhofer, Friedrich Christoph	male	    2
-Stein-mejer, Joh B	ambiguous	    1
+Stein-mejer, Joh B	NA	    1
 Steinmetz, Alfred	male	    3
 Steinmeyer, J B	male	    1
 Steinsvik, Marta	female	    1
-Stella	ambiguous	    1
+Stella	NA	    1
 Stemann, Johannes	male	    2
 Stenbäck, Carolus Fredericus (1760-1834)	male	    1
 Stenbäck, Elise (1841-1928)	female	    8
@@ -10151,7 +10151,7 @@ Stenius, Carl Evert	male	    3
 Stenius, Carolus (1742-1810)	male	    2
 Stenius, E	NA	    2
 Stenius, Einar	male	    2
-Stenius, Isaacus Martini (1636-1702)	ambiguous	    1
+Stenius, Isaacus Martini (1636-1702)	NA	    1
 Stenius, Jacobus Jacobi (1732-1809)	male	    1
 Stenius, Jacobus Martini (1704-1766)	male	    1
 Stenius, Karl Mortimer	male	    1
@@ -10168,7 +10168,7 @@ Stenroth, Otto	male	    6
 Stenroth, Paul Osvald	male	    1
 Stenvik, F	NA	    1
 Stenwall, Hanna Kiwi	female	    1
-Stephanius, Stephanus Johannis (1650-NA)	ambiguous	    2
+Stephanius, Stephanus Johannis (1650-NA)	male	    2
 Stephens, Margaret	female	    1
 Sterenius, Henricus (1729-NA)	ambiguous	    1
 Sterenius, Johan Jacob (1781-NA)	male	    1
@@ -10180,7 +10180,7 @@ Steuchius, Elavus	NA	    1
 Steuchius, Johannes (1676-1742)	male	    3
 Steveni, William Barnes	male	    2
 Stevens, Frank	male	    1
-Stevenson, Burton E	ambiguous	    2
+Stevenson, Burton E	NA	    2
 Stevenson, Robert Louis	male	   11
 Stewart, Balfour	male	    1
 Stieler, Adolf	male	    2
@@ -10193,7 +10193,7 @@ Stiernstråle, Johan Eriksson (1607-1686)	male	    5
 Stigelius, Arvidus Germundi	NA	    1
 Stigelius, Henricus Michaelis (1700-NA)	ambiguous	    1
 Stigell, Elli	female	    1
-Stigell, Rich V	ambiguous	    2
+Stigell, Rich V	NA	    2
 Stigzelius, Edvard	male	    1
 Stigzelius, Laurentius Matthiae (1598-1676)	male	    1
 Stinde, Julius Ernst Wilhelm	male	    3
@@ -10206,7 +10206,7 @@ Stjernvall-walleen, Emil	male	    1
 St John, Vincent	male	    1
 St-julien Ch	ambiguous	    1
 -st-, NA (1909-NA)	NA	    1
-Stobaeus, Nicolaus	ambiguous	    1
+Stobaeus, Nicolaus	NA	    1
 Stöckel, H F	NA	    1
 Stockenström, Eric Von	male	    1
 Stockfleth, Nils Vibe	male	    2
@@ -10395,7 +10395,7 @@ Svedelius, Wilhelm Erik	male	    3
 Svederus, Matthias (1650-1721)	male	   13
 Svenander, Isaacus Johannis (1663-NA)	male	    2
 Svendsen, Conrad	male	    1
-Sven I österlid	ambiguous	    2
+Sven I österlid	NA	    2
 Svenonius, Enevaldus Svenonis (1617-1688)	NA	  211
 Svenonius, Laurentius	male	    1
 Svenske, Jerker	male	    1
@@ -10403,7 +10403,7 @@ Svenson, A	male	    1
 Svensson, Axel B	male	    1
 Svensson, C g	NA	    1
 Svensson, Emil	male	    1
-Svensson, Joh	ambiguous	   16
+Svensson, Joh	NA	   16
 Svensson, Sigurd	male	    1
 Sverdrup, Otto	male	    1
 Sverdsjö, Gustav (1773-1813)	male	    1
@@ -10456,7 +10456,7 @@ Tähtilä, R	NA	    1
 Tähtinen, Alma Aleksandra	female	    1
 Tähystäjä	NA	    1
 Taimi	female	    1
-Taine, Hippolyte	ambiguous	    1
+Taine, Hippolyte	NA	    1
 Tainio, Taavi	male	    7
 Taipale, A E	male	    5
 Taipale, Lauri (1889-1946)	male	    1
@@ -10490,7 +10490,7 @@ Tallqvist, Knut	male	   17
 Tallqvist, Th	ambiguous	    2
 Tallqvist, T W	NA	    6
 Talma, Eino	male	    1
-Talmage	ambiguous	    2
+Talmage	NA	    2
 Talmage De Witt, T	NA	    1
 Talmage, T De Witt	female	   15
 Tålpo, A	male	    1
@@ -10506,7 +10506,7 @@ Tammelin, Erik Johan	male	    2
 Tammelin, Henric Larsson (1702-1771)	male	    1
 Tammelin, Henricus Laurentii	ambiguous	    1
 Tammelin, Jacob (1718-1775)	male	    1
-Tammelin, Nicolaus Laurentii (1741-NA)	ambiguous	    7
+Tammelin, Nicolaus Laurentii (1741-NA)	NA	    7
 Tammelinus, Gabriel Laurentii (1641-1695)	male	    3
 Tammelinus, Laurentius Gabrielis (1669-1733)	male	   49
 Tammelinus, Matthias Isaaci (1722-NA)	male	    1
@@ -10579,7 +10579,7 @@ Tayler, Charles B	male	    1
 Taylor, Bayard	male	    2
 Taylor, Frederick Winslow	male	    1
 Taylor, Geraldine	female	    1
-Tea	ambiguous	    1
+Tea	NA	    1
 Techtonius, Carolus	male	    1
 Teekkari, Teemu	male	    1
 Teemu	male	    1
@@ -10649,7 +10649,7 @@ Thauvonius, Gabriel Jönsson (1686-1748)	male	    1
 Thauvón, Johan Fredrik (1828-1918)	male	    1
 Thayer, W M	male	    1
 Thebelius, J	male	    1
-Theobaldt, Etty	ambiguous	    2
+Theobaldt, Etty	NA	    2
 Theophilander	NA	    2
 Theremin, F	NA	    1
 Therman, Einar	male	    2
@@ -10664,16 +10664,16 @@ Thesleff, Rolf	male	    3
 Theslöf, Gösta (1872-1939)	male	    1
 Theuriet, André	NA	    2
 Thieme, August	male	    3
-Thieme, Friedr	male	    2
+Thieme, Friedr	ambiguous	    2
 Thiersch, Heinrich Wilhelm Josias	male	    1
 Thilda	female	    1
 Thilen, Casparus	NA	    1
-Thillot, Alfr	male	   11
+Thillot, Alfr	ambiguous	   11
 Thingwall, Johan Ingemarson (1667-1702)	male	    1
 Thomas, Antoine Léonard	male	    1
 Thomas, Brandon	male	    2
 Thomas, Louis	male	    1
-Thomas Ragvaldinpoika, NA (1724-1804)	ambiguous	   94
+Thomas Ragvaldinpoika, NA (1724-1804)	NA	   94
 Thomasson, Pehr	male	   15
 Thomée, Gustaf	male	    1
 Thompson, Carl D	male	    1
@@ -10683,7 +10683,7 @@ Thomson, M Pearson	male	    1
 Thomson, William (1746-1817)	male	    1
 Thomsson, Pehr	male	    1
 Thonberg, E N	NA	    1
-Thora	ambiguous	    1
+Thora	NA	    1
 Thoresen, Anna Magdalene	female	    2
 Thorild, Thomas	male	    1
 Thorinus, Jonas Andreae (1690-NA)	male	    1
@@ -10691,7 +10691,7 @@ Thorne, E	NA	    1
 Thorne, Eglanton	NA	    1
 Thornton, J P	male	    2
 Thoroddsen, Thorvald	male	    1
-Thorp, Fielden	ambiguous	    1
+Thorp, Fielden	NA	    1
 Thors, Mårten	male	    8
 Thorwöste, Johannes Johannis (1680-1750)	male	    8
 Thrige, S B	NA	    1
@@ -10703,7 +10703,7 @@ Thuronius, Andreas Thuronis (1632-1665)	male	   46
 Thuronius, Henricus (1676-NA)	ambiguous	    1
 Thuronius, Johannes Thuronis (1701-NA)	male	    3
 Thurston, Katherine Cecil	ambiguous	    1
-Thyra	ambiguous	    1
+Thyra	NA	    1
 Thyrén, J	male	    1
 Tiander, Karl (1873-1938)	male	   12
 Tiburtius	ambiguous	    1
@@ -10780,7 +10780,7 @@ Tolonen, Tahwo	NA	    1
 Tolpo, Andreas Johannis	male	    1
 Tolpo, Johan	male	    4
 Tolpo, Martinus Johannes (1768-1830)	male	    1
-Tolpo, Nicolaus	ambiguous	    1
+Tolpo, Nicolaus	NA	    1
 Tolpo, Nicolaus Magnus (1770-1853)	male	    7
 Tolpo, Nicolaus Simonis (1698-1757)	ambiguous	    1
 Tolpo, Simon Johannis (1652-1711)	male	   72
@@ -10871,9 +10871,9 @@ Trast, V K	NA	    2
 Traub, Theodor	male	    1
 Travers-borgström, Arthur	male	    2
 Travers Evered Poole, Eva	female	    1
-Travers, Rosalind	ambiguous	    1
-Tre Herrar	ambiguous	    1
-Tre Landtmän	ambiguous	    2
+Travers, Rosalind	NA	    1
+Tre Herrar	NA	    1
+Tre Landtmän	NA	    2
 Treller, Franz	male	    1
 Trencknern, Joh Heinrich	male	    1
 Trendies, Otto	male	    2
@@ -10923,7 +10923,7 @@ Tulenheimo, Antti	male	    2
 Tulenheimo, Martti	male	    1
 Tulindberg, Erik (1728-1793)	male	    1
 Tulindberg, Otto Ulricus (1804-1837)	male	    2
-Tunander, Nicolaus Jonae (1625-1679)	ambiguous	   15
+Tunander, Nicolaus Jonae (1625-1679)	NA	   15
 Tuneld, Eric (1709-1788)	male	    3
 Tunkelo, E A (1870-1953)	male	    3
 Tunkelo, J H	male	    7
@@ -10972,7 +10972,7 @@ Uggla, Claes Claesson (1670-1727)	male	    2
 Uggla, G A	male	    2
 Uggla, John (1870-1954)	male	    1
 Uhlander, Matthias	male	    1
-Uhlbeck, Josephus Matthiae (1697-NA)	ambiguous	    1
+Uhlbeck, Josephus Matthiae (1697-NA)	NA	    1
 Uhl, Gustav	male	    1
 Uhlhorn, Gerhard	male	    1
 Uhrlander, Tobias Tobiae	male	    1
@@ -11017,8 +11017,8 @@ Urban, Woldemar	male	    1
 Urila	female	    1
 Urkio, Kustaa	male	    1
 Urquhart, John	male	    2
-Ursin, Nicolaus Abrahamus (1785-1851)	ambiguous	   11
-Ursin, N R Af (1854-1936)	male	   18
+Ursin, Nicolaus Abrahamus (1785-1851)	NA	   11
+Ursin, N R Af (1854-1936)	ambiguous	   18
 Ursinus, Jacobus Johannes (1733-1797)	male	    2
 Ursyn-pruszynski, Von	ambiguous	    1
 Uschakoff, I	NA	   12
@@ -11063,7 +11063,7 @@ Valerius, Johan David (1776-1852)	male	    2
 Välisalmi, Heikki (1886-1947)	male	    1
 Valiszevsky, K	NA	    1
 Valkama, Hannes	male	    1
-Valk, Gerardo	ambiguous	    2
+Valk, Gerardo	NA	    2
 Valkola, Väinö	male	    2
 Valkonen, Robert	male	    1
 Valle, Anna	female	    1
@@ -11143,7 +11143,7 @@ Vesanen, Vihtori	male	    1
 Vesa, Seth	male	    2
 Veste, Georg Von Der	male	    2
 Vest, Eliel	male	   18
-Vesten, Tyr	ambiguous	    2
+Vesten, Tyr	NA	    2
 Vesterdahl, Verneri	male	    2
 Vesterinen, Emil	male	    2
 Vestermarck, R	NA	    1
@@ -11200,7 +11200,7 @@ Virtanen, Väinö V	male	    1
 Virvatuli, Annikki (1884-NA)	female	    1
 Virvonen, Arvo	male	    1
 Vitkala, Eva M	ambiguous	    1
-Viva	ambiguous	    1
+Viva	NA	    1
 Vivekananda, Swami	NA	    2
 Vizin, D Von	ambiguous	    1
 V Konow, Agnes	female	    1
@@ -11284,7 +11284,7 @@ Wagner-groben, W	NA	    1
 Wägner, Sven	male	    2
 Wagnsson, Gustaf	male	    1
 Wahlbeck, Edit	female	    2
-Wahlberg, Arth	ambiguous	    2
+Wahlberg, Arth	NA	    2
 Wahlberg, Carl Gust	male	    1
 Wahlberg, C F	NA	    1
 Wahlberg, Ferdinand Von	male	   23
@@ -11362,17 +11362,17 @@ Wallensteen, Johannes Petrus	male	    2
 Wallenstierna, Gustaf (1715-1747)	male	    1
 Wallenström, Carolus Samuel (1759-1830)	male	    1
 Wallerius, Haraldus Johannis (1646-1716)	male	    1
-Wallerius, Joh Gottsch	ambiguous	    6
-Wallerius, Nicolaus	ambiguous	    1
+Wallerius, Joh Gottsch	NA	    6
+Wallerius, Nicolaus	NA	    1
 Wallgren, Axel	male	    2
-Wallin, Emy	ambiguous	    1
+Wallin, Emy	NA	    1
 Wallin, Georg August (1811-1852)	male	    5
 Wallinheimo, Bruno	male	    1
 Wallinheimo, J W	male	    4
 Wallin, J O	male	    3
 Wallin, Johan Fredrik	male	    6
 Wallin, Johannes	male	    1
-Wallin, Josephus	ambiguous	    1
+Wallin, Josephus	NA	    1
 Wallin, J W	male	    1
 Wallin, Karl	male	    1
 Wallin, Olai (1832-1896)	male	   20
@@ -11513,7 +11513,7 @@ Weikkolin, Ida	female	    7
 Weilin, Ebba	female	    1
 Weilin, Yrjö (1875-1930)	male	    2
 Weimer, Hermann	male	    1
-Weir, Mariposa	ambiguous	    1
+Weir, Mariposa	NA	    1
 Weisell, J	male	    1
 Weiss, Johannes	male	    2
 Weissman Von Weissenstein, Adam Gustaf	male	    1
@@ -11539,7 +11539,7 @@ Weman, Carolus Gustavus (1740-1803)	male	    8
 Wendelius, Johannes Johannis (1719-NA)	male	    4
 Wendelius, Lars (1710-1770)	male	    3
 Wendell, Alarik	male	    2
-Wendland, Joh	ambiguous	    1
+Wendland, Joh	NA	    1
 Wendt, Ernst Von	male	    4
 Wendt, Fredrik Willehard Von (1843-1891)	male	    1
 Wendt, Georg Von	male	   33
@@ -11579,8 +11579,8 @@ Wessman, F	NA	    2
 Wessman, Helena	female	    1
 Wessman, Johan Jacob (1752-1817)	male	    1
 Wessmann	NA	    1
-Wessmann, Nicolaus	ambiguous	    1
-Wessu, Ee Vuu	male	    1
+Wessmann, Nicolaus	NA	    1
+Wessu, Ee Vuu	ambiguous	    1
 Westcott, Edward Noyes	male	    1
 Westén, Mandi	female	    1
 Westerback, Johan	male	   17
@@ -11672,7 +11672,7 @@ Wide, Anders	male	    2
 Widéen, A	male	    1
 Wide, Joannes (1768-1805)	ambiguous	    1
 Widekindi, Johannes (1620-1678)	male	    1
-Widenius, Ephraim (1750-1798)	ambiguous	    1
+Widenius, Ephraim (1750-1798)	NA	    1
 Widenius, K A	male	    9
 Wide, Widar	male	    1
 Widgren, H	NA	    1
@@ -11695,7 +11695,7 @@ Wiitanen, P R	NA	    1
 Wijkar, Andreas (1687-1748)	male	    1
 Wijkar, Jacobus (1753-NA)	male	    4
 Wijkberg, Maurus	male	    1
-Wijkman, Nicolaus Christopheri	ambiguous	    1
+Wijkman, Nicolaus Christopheri	NA	    1
 Wikander, C W	NA	    2
 Wikander, J G	male	    1
 Wik, Isak Erik	male	    1
@@ -11739,7 +11739,7 @@ Wilhelmi, Alexander Victor	male	    5
 Wilhelmiina	female	    3
 Wilhelmiina A	female	    5
 Wilhelmiina A:n	female	    1
-Wilhelmina	ambiguous	    1
+Wilhelmina	NA	    1
 Wilhelmsson, John	male	    3
 Wilh M	ambiguous	    1
 Wiljakainen, A	male	    1
@@ -11771,7 +11771,7 @@ Willkomm, Moritz	male	    3
 Willman-eloranta, Elviira	female	    1
 Willman, Elviira	female	    1
 Wilma	ambiguous	    2
-Wilshire, Gaylord	ambiguous	    1
+Wilshire, Gaylord	NA	    1
 Wilskman, A	male	    1
 Wilskman, Atle	male	   11
 Wilskman, Ivar	male	   56
@@ -11779,7 +11779,7 @@ Wilskman, K	NA	    1
 Wilson-carmichael, Amy	female	    1
 Wilson, J A	male	    1
 Wilson, William Rae	ambiguous	    2
-Wilson, Woodrow	ambiguous	    1
+Wilson, Woodrow	NA	    1
 Wimmer, Richard	male	    1
 Winberg, Viktor	male	    1
 Windahl, Eric Adolf (1761-1803)	male	    1
@@ -11789,7 +11789,7 @@ Winge, Hans Petter (1770-1836)	male	    2
 Winge, Harald	male	    1
 Winge, J M	male	    2
 Wingius, Paulus	male	    1
-Winiarski, Bohdan	ambiguous	    1
+Winiarski, Bohdan	NA	    1
 Winkler, Heinrich	male	    1
 Winkler, P Von	ambiguous	    1
 Winning, August	male	    2
@@ -11846,7 +11846,7 @@ Wivolin, C G	NA	    1
 Wivolin, Karl Gustaf (1822-1883)	male	    4
 W K-n	NA	    1
 Wladimirow, W	NA	    1
-Wm Ry	ambiguous	    1
+Wm Ry	NA	    1
 Wodehouse, E A	male	    5
 Woikoski, T P	NA	    1
 Woitto E	male	    1
@@ -11876,7 +11876,7 @@ Wrangel, Ewert	male	    1
 Wraxall, Nathaniel William	male	    1
 Wrede, Carolus Casparus	male	    1
 Wrede, Henrik Otto	male	    2
-Wrede, Hindric Joh	ambiguous	    2
+Wrede, Hindric Joh	male	    2
 Wrede, K A	male	   12
 Wrede, Mathilda	female	    4
 Wrede, Otto	male	    1
@@ -11962,13 +11962,13 @@ Zidén, Jacob (1754-1801)	male	    6
 Ziegler, Carl Von	male	    1
 Ziegler, Clara	female	    1
 Ziegler, J	male	    1
-Ziegler, Theobald	ambiguous	    1
+Ziegler, Theobald	NA	    1
 Zieguerer, Christian	male	    2
 Ziethe, W	NA	    1
 Zilliacus, Allan	male	    2
 Zilliacus, Emil	male	    6
 Zilliacus, G R W	NA	    1
-Zilliacus, Konni (1855-1924)	ambiguous	   40
+Zilliacus, Konni (1855-1924)	NA	   40
 Zilliacus, Victor	male	   11
 Zilliacus, W	NA	    2
 Zilliacus, Wilhelm	male	    1
