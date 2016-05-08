@@ -47,3 +47,21 @@ Author gender distribution over time. Note that the name-gender mappings change 
 ![plot of chunk summarygendertime](figure/summarygendertime-1.png)
 
 
+
+### Data sources
+
+The name-gender mappings are collected from multiple sources:
+
+ * [Multilingual database](http://www.lexique.org/public/prenoms.php} (Prenoms.txt) 
+ * [French first names](http://www.excel-downloads.com/forum/86934-liste-des-prenoms.htmlhttp://http://www.excel-downloads.com/forum/86934-liste-des-prenoms.html)
+ * [German first names](http://www.albertmartin.de/vornamen/)
+ * [English first names] as implemented in the babynames R package. For each year from 1880 to 2013, the number of children of each sex given each name. All names with more than 5 uses are given: \url{http://www.ssa.gov/oact/babynames/limits.html}).
+
+
+
+
+#'     \item{Finnish}{Vaestorekisterikeskus VRK (see fennica::get_gender_fi) for details.}
+#'     \item{Custom, Pseudonyme}{Provided by the authors of the bibliographica R package.}
+#'     \item{genderdata}{Data sets from the genderdata R packages.}
+
+
