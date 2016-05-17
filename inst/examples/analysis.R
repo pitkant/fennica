@@ -36,8 +36,8 @@ knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 library(git2r)
 repo <- repository("../../")
 #config(repo, user.name="antagomir", user.email="leo.lahti@iki.fi")
-add(repo, "figure/*.png")
-commit(repo, "Rmd update")
+add(repo, "figure/*.png", force = TRUE)
+# commit(repo, "Rmd update")
 # push(repo) # does not work ?
 system("git push")
 
