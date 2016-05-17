@@ -3,6 +3,10 @@ Pubplan
 
 ### Technical
 
+Filtteröi "publication_frequency" ja "publication_interval"
+perusteella sarjajulkaisut pois (ei -NAt) nämä on lehtiä ja niitä
+käsitellään myöhemmin
+
 Lisää Mikon Gender-mäpit vielä.
 
 Tarkista että gender-mäppäykset menee oikein. 

@@ -52,19 +52,19 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_birth                      |        74.0|          26.0|         18497|        342|
 |corporate                         |        71.5|          28.5|         20281|       1406|
 |subject_topic                     |        70.9|          29.1|         20766|       3513|
-|pagecount.orig                    |        68.0|          32.0|         22800|        792|
 |obl                               |        54.5|          45.5|         32440|          3|
 |holder                            |        49.4|          50.6|         36083|       2136|
-|paper.consumption.km2             |        47.6|          52.4|         37320|       2653|
 |width                             |        47.6|          52.4|         37328|        296|
 |height                            |        47.6|          52.4|         37328|        336|
 |area                              |        47.6|          52.4|         37328|        766|
+|paper.consumption.km2             |        47.6|          52.4|         37328|       4198|
 |physical_dimension                |        47.3|          52.7|         37577|       1101|
 |self_published                    |        46.6|          53.4|         38080|          3|
 |author_gender                     |        46.3|          53.7|         38252|          4|
 |author_name                       |        36.7|          63.3|         45082|      11975|
 |author                            |        36.7|          63.3|         45082|      12000|
 |publisher                         |        17.5|          82.5|         58768|      10837|
+|pagecount.orig                    |         6.9|          93.1|         66347|        963|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
 |country                           |         4.1|          95.9|         68320|         33|
 |publication_place                 |         4.1|          95.9|         68321|        433|
@@ -74,7 +74,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |dissertation                      |         0.0|         100.0|         71222|          3|
 |synodal                           |         0.0|         100.0|         71222|          2|
 |publication_year_from             |         0.0|         100.0|         71229|        351|
-|pagecount                         |         0.0|         100.0|         71240|        794|
 |title                             |         0.0|         100.0|         71245|      56603|
 |publication_time                  |         0.0|         100.0|         71248|       3217|
 |language.Swedish                  |         0.0|         100.0|         71248|          2|
@@ -118,6 +117,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         71248|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         71248|          1|
 |language.Multiple languages       |         0.0|         100.0|         71248|          2|
+|pagecount                         |         0.0|         100.0|         71248|        962|
 |gatherings.original               |         0.0|         100.0|         71248|         18|
 |obl.original                      |         0.0|         100.0|         71248|          2|
 |original_row                      |         0.0|         100.0|         71248|      71248|

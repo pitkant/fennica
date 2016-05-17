@@ -8,7 +8,7 @@ NA	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	33671
 fol.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	  772
 20 cm.	NA	NA	 20.0	FALSE	NA	 13.0	 20.0	NA	  260.00	  358
 19 cm.	NA	NA	 19.0	FALSE	NA	 13.0	 19.0	NA	  247.00	  357
-1:o.	1to	NA	NA	FALSE	1to	 60.0	 90.0	 0	 5400.00	  341
+1:o.	1to	NA	NA	FALSE	1to	 60.0	 90.0	 0	 5400.00	  354
 22 cm.	NA	NA	 22.0	FALSE	NA	 15.0	 22.0	NA	  330.00	  338
 23 cm.	NA	NA	 23.0	FALSE	NA	 18.0	 23.0	NA	  414.00	  335
 24 cm.	NA	NA	 24.0	FALSE	NA	 19.0	 24.0	NA	  456.00	  226
@@ -62,9 +62,7 @@ poikittais-1:o [-1/2:o?].	NA	NA	NA	 TRUE	NA	NA	NA	NA	NA	   28
 8 x 14 cm	NA	  8.0	 14.0	FALSE	NA	  8.0	 14.0	NA	  112.00	   20
 14 cm.	NA	NA	 14.0	FALSE	NA	 11.0	 14.0	NA	  154.00	   20
 [12:o].	12mo	NA	NA	FALSE	12mo	 12.5	 19.0	 0	  237.50	   19
-1:o.	1to	NA	NA	FALSE	2fo	 60.0	 90.0	 0	 5400.00	   18
 13 x 21 cm.	NA	 13.0	 21.0	FALSE	NA	 13.0	 21.0	NA	  273.00	   17
-[1:o].	1to	NA	NA	FALSE	2fo	 60.0	 90.0	 0	 5400.00	   16
 13 cm.	NA	NA	 13.0	FALSE	NA	 10.0	 13.0	NA	  130.00	   15
 10 x 18 cm	NA	 10.0	 18.0	FALSE	NA	 10.0	 18.0	NA	  180.00	   14
 12 x 20 cm.	NA	 12.0	 20.0	FALSE	NA	 12.0	 20.0	NA	  240.00	   14
@@ -73,10 +71,12 @@ tvär 4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	   14
 8 x 13 cm	NA	  8.0	 13.0	FALSE	NA	  8.0	 13.0	NA	  104.00	   13
 10 x 15 cm	NA	 10.0	 15.0	FALSE	NA	 10.0	 15.0	NA	  150.00	   13
 10 x 15 cm.	NA	 10.0	 15.0	FALSE	NA	 10.0	 15.0	NA	  150.00	   13
+[1:o].	1to	NA	NA	FALSE	2fo	 60.0	 90.0	 0	 5400.00	   13
 13 x 19 cm.	NA	 13.0	 19.0	FALSE	NA	 13.0	 19.0	NA	  247.00	   12
 11 x 15 cm.	NA	 11.0	 15.0	FALSE	NA	 11.0	 15.0	NA	  165.00	   12
 tvär 8:o.	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	   12
 24:o.	24mo	NA	NA	FALSE	24mo	  8.5	 12.5	 0	  106.25	   12
+[1:o].	1to	NA	NA	FALSE	1to	 60.0	 90.0	 0	 5400.00	   12
 tvär fol.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	   11
 stor 4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	   11
 poikittais-2:o.	2fo	NA	NA	 TRUE	2fo	 45.0	 30.0	 1	 1350.00	   11
@@ -89,7 +89,6 @@ kuv.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	   10
 10 x 17 cm.	NA	 10.0	 17.0	FALSE	NA	 10.0	 17.0	NA	  170.00	    9
 22 x 29 cm.	NA	 22.0	 29.0	FALSE	NA	 22.0	 29.0	NA	  638.00	    9
 7 x 13 cm	NA	  7.0	 13.0	FALSE	NA	  7.0	 13.0	NA	   91.00	    9
-[1:o].	1to	NA	NA	FALSE	1to	 60.0	 90.0	 0	 5400.00	    9
 poikittais-8:o.	8vo	NA	NA	 TRUE	8vo	 19.0	 13.0	 1	  247.00	    9
 8 x 16 cm	NA	  8.0	 16.0	FALSE	NA	  8.0	 16.0	NA	  128.00	    8
 11 x 17 cm	NA	 11.0	 17.0	FALSE	NA	 11.0	 17.0	NA	  187.00	    8
@@ -135,6 +134,7 @@ pitkä 12:o.	12mo	NA	NA	FALSE	12mo	 12.5	 19.0	 0	  237.50	    6
 11 cm.	NA	NA	 11.0	FALSE	NA	  8.0	 11.0	NA	   88.00	    5
 aflång 8:o.	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	    5
 14 x 19 cm.	NA	 14.0	 19.0	FALSE	NA	 14.0	 19.0	NA	  266.00	    5
+1:o.	1to	NA	NA	FALSE	2fo	 60.0	 90.0	 0	 5400.00	    5
 1/2:o.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	    5
 9 x 13 cm	NA	  9.0	 13.0	FALSE	NA	  9.0	 13.0	NA	  117.00	    4
 19 x 29 cm.	NA	 19.0	 29.0	FALSE	NA	 19.0	 29.0	NA	  551.00	    4
@@ -287,6 +287,7 @@ Koko vaihtelee.	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	    2
 77 x 58,5 cm.	NA	 58.5	 77.0	FALSE	NA	 58.5	 77.0	NA	 4504.50	    2
 58,5 x 77 cm.	NA	 58.5	 77.0	FALSE	NA	 58.5	 77.0	NA	 4504.50	    2
 60 cm.	NA	NA	 60.0	FALSE	NA	 36.0	 60.0	NA	 2160.00	    2
+1:o?.	1to	NA	NA	FALSE	1to	 60.0	 90.0	 0	 5400.00	    2
 2:o +	2long	NA	NA	FALSE	2long	 30.0	 53.0	 0	 1590.00	    2
 lyhyt 12:o.	12mo	NA	NA	FALSE	12mo	 12.5	 19.0	 0	  237.50	    2
 [pitkä 12:o].	12mo	NA	NA	FALSE	12mo	 12.5	 19.0	 0	  237.50	    2
@@ -1076,7 +1077,6 @@ lehti n. 63 x 51 cm.	NA	 51.0	 63.0	FALSE	NA	 51.0	 63.0	NA	 3213.00	    1
 45,5 x 44 cm, lehti 47,5 x 47 cm.	NA	 44.0	 45.5	FALSE	NA	 44.0	 45.5	NA	 2002.00	    1
 24,8 x 19 cm, lehti 30 x 22,5 cm.	NA	 19.0	 24.8	FALSE	NA	 19.0	 24.8	NA	  471.20	    1
 8:o?.	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	    1
-1:o?.	1to	NA	NA	FALSE	1to	 60.0	 90.0	 0	 5400.00	    1
 2:o (4:o?)	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	    1
 s. [28] tyhjä ;;4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	    1
 s. [32] tyhjä ;;4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	    1
@@ -1084,7 +1084,6 @@ s. [32] tyhjä ;;4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	    1
 12:o?.	12mo	NA	NA	FALSE	12mo	 12.5	 19.0	 0	  237.50	    1
 [poikittais-2:o].	2fo	NA	NA	 TRUE	2fo	 45.0	 30.0	 1	 1350.00	    1
 4:o+	4long	NA	NA	FALSE	4long	 27.0	 35.0	 0	  945.00	    1
-1:o?.	1to	NA	NA	FALSE	2fo	 60.0	 90.0	 0	 5400.00	    1
 [poikittais-1:o].	1to	NA	NA	 TRUE	2fo	 90.0	 60.0	 1	 5400.00	    1
 [32:o].	32mo	NA	NA	FALSE	32mo	  7.0	 12.0	 0	   84.00	    1
 [8:o] +	8long	NA	NA	FALSE	8long	 13.0	 22.0	 0	  286.00	    1
