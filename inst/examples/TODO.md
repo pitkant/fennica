@@ -18,6 +18,18 @@ KK:lta saatu ~/proj/2014-Aatelouhinta/Sanastoja.doc - listaa
 tietokantoja joita voitaisiin käyttää ainakin suomalaisten
 paikannimien, henkilönimien ym. validointiin.
 
+Volcount laskennat Fennicaan
+1  2 osaa (429 s. useina numerointijaksoina, [23] kuvalehteä, [1] karttalehti ; 498
+2                       2 osaa (346 s, 29 kuvapiirrosta, 109 s. ; 20 kuvapiirrosta)
+3                                                               2 osaa (96, 110 s.)
+4                                                              2 osaa (139, 244 s.)
+5                                                                   2 osaa (213 s.)
+6                                                              2 osaa (135, 120 s.)
+7                                                        4 osaa (32, 32, 32, 32 s.)
+8                                                                2 osaa (92, 78 s.)
+9                                                                    2 osaa (88 s.)
+10                                                                  2 osaa (229 s.)
+
 
 ### Fennica tutkimuskysymykset
 
