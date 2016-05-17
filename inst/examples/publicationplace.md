@@ -28,10 +28,10 @@ Top-20 publication places are shown together with the number of documents.
 
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
-|Finland |         58074|   81.5096564|
-|Sweden  |          5072|    7.1187963|
-|Russia  |          2435|    3.4176398|
-|USA     |           810|    1.1368740|
-|Germany |           767|    1.0765214|
-|Estonia |           285|    0.4000112|
+|Finland |         58074|         81.5|
+|Sweden  |          5072|          7.1|
+|Russia  |          2435|          3.4|
+|USA     |           810|          1.1|
+|Germany |           767|          1.1|
+|Estonia |           285|          0.4|
 

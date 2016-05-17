@@ -23,8 +23,8 @@ Marklin,;Vallinkoski,;Pipping	  23
 Elmgren I	  22
 Lidén	  22
 Ei Melander	  19
-Elmgren I s. 127	  19
 Elmgren II	  19
+Elmgren I s. 127	  19
 Marklin II	  18
 Lidén,;SKB,;Vallinkoski	  17
 Stiernman,;Melander	  16
@@ -70,10 +70,10 @@ SKB,;Vallinkoski	   6
 Bygdén	   5
 Collijn III,;Melander,;SKB	   5
 Collijn IV p. 1065	   5
-Elmgren I s. 123	   5
-Elmgren I s. 124	   5
 Elmgren II s. 18	   5
 Elmgren II s. 21	   5
+Elmgren I s. 123	   5
+Elmgren I s. 124	   5
 Leinberg,;Lidén	   5
 Lidén,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   5
 Marklin I,;Marklin II,;Vallinkoski	   5
@@ -89,14 +89,14 @@ Collijn IV p. 311	   4
 Collijn IV p. 314	   4
 Collijn IV p. 610	   4
 Collijn IV,;Vallinkoski	   4
-Elmgren I s. 133	   4
-Elmgren I s. 136	   4
 Elmgren II s. 11	   4
 Elmgren II s. 12	   4
 Elmgren II s. 14	   4
 Elmgren II s. 27	   4
 Elmgren II s. 30	   4
 Elmgren II s. 9	   4
+Elmgren I s. 133	   4
+Elmgren I s. 136	   4
 Estlander	   4
 Kallio s. 118	   4
 Lidén II,;Leinberg	   4
@@ -119,6 +119,7 @@ Bygdén I:938	   3
 Bygdén II	   3
 Collijn II	   3
 Collijn III,;Melander	   3
+Collijn IV;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   3
 Collijn IV p. 151	   3
 Collijn IV p. 153-154	   3
 Collijn IV p. 167	   3
@@ -129,13 +130,12 @@ Collijn IV p. 451	   3
 Collijn IV p. 763	   3
 Collijn IV p. 837	   3
 Collijn IV,;Stiernman,;Vallinkoski	   3
-Collijn IV;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   3
-Elmgren I s. 130	   3
-Elmgren I s. 134	   3
 Elmgren II s. 17	   3
 Elmgren II s. 22	   3
 Elmgren II s. 28	   3
 Elmgren II s. 4	   3
+Elmgren I s. 130	   3
+Elmgren I s. 134	   3
 Finlands botaniska litteratur till och med år 1900 / Th. Saelan	   3
 Leinberg 193	   3
 Liden	   3
@@ -155,11 +155,12 @@ Vallinkoski,;SKB	   3
 Bring 1961 s. 101	   2
 Bring 1961 s. 151	   2
 Bring 1961 s. 64	   2
-Bygdén I,;Collijn IV,;SKB	   2
 Bygdén I:130	   2
-Bygdén II s. 226	   2
+Bygdén I,;Collijn IV,;SKB	   2
 Bygdén II:33	   2
 Bygdén II:740	   2
+Bygdén II s. 226	   2
+Collijn IV,;Leinberg Or.,;Sainio,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   2
 Collijn IV p. 1063	   2
 Collijn IV p. 1064-1065	   2
 Collijn IV p. 150	   2
@@ -186,22 +187,21 @@ Collijn IV p. 882	   2
 Collijn IV p. 929	   2
 Collijn IV p. 988	   2
 Collijn IV p. 996	   2
-Collijn IV,;Leinberg Or.,;Sainio,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   2
 Collijn IV,;Suomen almanakan juhlakirja,;SKB	   2
 Collijn IV,;Suomen almanakan juhlakirja,;Suomen kansallisbibliografia 1488-1700	   2
 Collijn IV;Suomen kansallisbibliografia 1488-1700	   2
 Ei Pipping	   2
+Elmgren II s. 10	   2
+Elmgren II s. 16	   2
+Elmgren II s. 24	   2
+Elmgren II s. 29	   2
+Elmgren II s. 6	   2
 Elmgren I p. 127	   2
 Elmgren I s. 125	   2
 Elmgren I s. 128	   2
 Elmgren I s. 135	   2
 Elmgren I s. 137	   2
 Elmgren I s. 88	   2
-Elmgren II s. 10	   2
-Elmgren II s. 16	   2
-Elmgren II s. 24	   2
-Elmgren II s. 29	   2
-Elmgren II s. 6	   2
 Hultin I,;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   2
 Katalog öfver den svenska litteraturen i Finland 1896-1900 / H. Bergroth	   2
 Lagus 12	   2
@@ -212,17 +212,17 @@ Lidén,;Suomen kansallisbibliografia 1488-1700,;Vallinkoski	   2
 Lidèn,;Vallinkoski	   2
 Marklin 33	   2
 Marklin,;Leinberg,;Pipping	   2
+Melander.	   2
 Melander 1546	   2
 Melander 1759	   2
 Melander 1786	   2
 Melander 1808	   2
 Melander 341	   2
 Melander 500	   2
+Melander,;Stiernman	   2
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713	   2
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Stiernman;Suomen kansallisbibliografia 1488-1700	   2
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   2
-Melander,;Stiernman	   2
-Melander.	   2
 Ofärdsårens politiska litteratur / Ernst Estlander	   2
 Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   2
 Pipping 1147. - Rämä 1147-1148	   2
@@ -238,8 +238,8 @@ Pipping 1882. - 1882-1886	   2
 Pipping 1912. - Rämä 1912	   2
 Pipping 357 a) d. - Rämä 357 a) d	   2
 Pipping 357 bb. - Rämä 357 bb	   2
-Pipping 357 c) x. - Rämä 357 c) x	   2
 Pipping 357 cc. - Rämä 357 cc	   2
+Pipping 357 c) x. - Rämä 357 c) x	   2
 Pipping 622. - Rämä 620-622 b	   2
 Pipping 676 a. - Rämä 676 a-678 a	   2
 Pipping 733. - Rämä 732-733	   2
@@ -267,12 +267,10 @@ Suomalainen kirjallisuus 1911-1915 / Simo Pakarinen	   2
 Suomalaiset ja inkeriläiset ylioppilaat Tarton ja Tarton-Pärnun yliopistossa v. 1632-1710 / A. R. Cederberg	   2
 Suomen aikakauslehdistön bibliografia 1782-1955 / Kurikka & Takkala	   2
 Suomen kirjailijat 1809-1916	   2
-... Si quid in rebus humanis lacrimis & planctu prosequi decet, ... Serenissimus ille atque potentissimus princeps ac Dominus Carolus XI. ... Amor suorum atque deliciae, felicitas & gaudium integrum! ipse, inquam, proh fata! fatali falce dejectus jacet. ... Ubi crastina luce vir plurimum reverendus & clarissimus, Dn. Laurentius Molin, S. theol. licent. & prof. publ. ... vir celeberrimus, Dn. Michael Dau, eloq. utriusque prof., tertia vero die, quae erit Saturni, vir celeberrimus, Dn. Daniel Sarcovius, log. & metaph. prof. ord. ... hic ligata oratione, ... praeter hos vero vir juvenis pereximius atquq doctiss. Dn. Arvidus Mollerus, regiae in hac urbe scholae rector designatus, & nobiliss. juvenis, Henricus Johannes Freytag, nobilis Livonus, ... Dab. Dorpati, d. XXIV. Novemb. anno reparatae salutis, M. DC. XCVII. Gabriel Skragge, Orient. & Gr. ling. prof. h. tp. rect. acad.;Leinberg Or.,;Melander	   1
-[Pipping 604 f:1]	   1
 Alopaeus, Magnus Jacob. Borgå gymnasii historia. IV,;Vallinkoski	   1
+Bibliographie der lappischen Litteratur / J. Qvigstad und K. B. Wiklund,;Collijn IV	   1
 Bibliogr.: Lidén 28	   1
 Bibliogr.: Qvigstad F. 3.??	   1
-Bibliographie der lappischen Litteratur / J. Qvigstad und K. B. Wiklund,;Collijn IV	   1
 Bibliotheca Danica	   1
 Bring 1958 104:2	   1
 Bring 1958 107:4	   1
@@ -337,14 +335,10 @@ Bring 1961 s. 63	   1
 Bring 1961 s. 65	   1
 Bring 1961 s. 88	   1
 Bring 1961 s. 90	   1
-Bring I 417:4. Ks. myös 417:1-3	   1
 Bring I:279. - Vallinkoski II	   1
+Bring I 417:4. Ks. myös 417:1-3	   1
 Bring II 703:4. - Vallinkoski II	   1
-Bygd@en I p. 298. - Collijn IV p. 337	   1
-Bygdén I p. 88. - Vrt. Bring 1958 121	   1
-Bygdén I, p. 131	   1
-Bygdén I, p. 476	   1
-Bygdén I;Collijn IV;Hultin 1904	   1
+Bygdén,;Collijn IV	   1
 Bygdén I:131	   1
 Bygdén I:131. - Bring II s. 106	   1
 Bygdén I:179. - Bring 1961 s. 133	   1
@@ -360,16 +354,13 @@ Bygdén I:601	   1
 Bygdén I:61	   1
 Bygdén I:845. - Elmgren II s. 4	   1
 Bygdén I:867	   1
-Bygdén II p. 839	   1
-Bygdén II,;Bring 1958	   1
-Bygdén II,;Elmgren I	   1
-Bygdén II,;Pipping,;Rämä	   1
-Bygdén II: 396. - Collijn IV p. 547	   1
+Bygdén I;Collijn IV;Hultin 1904	   1
 Bygdén II:176	   1
 Bygdén II:177	   1
 Bygdén II:2	   1
 Bygdén II:209	   1
 Bygdén II:225	   1
+Bygdén II: 396. - Collijn IV p. 547	   1
 Bygdén II:405-406	   1
 Bygdén II:459. - Collijn IV p. 937. - SKB 3965	   1
 Bygdén II:476	   1
@@ -380,27 +371,41 @@ Bygdén II:583	   1
 Bygdèn II:604	   1
 Bygdèn II:636	   1
 Bygdén II:738	   1
-Bygdén,;Collijn IV	   1
+Bygdén II,;Bring 1958	   1
+Bygdén II,;Elmgren I	   1
+Bygdén II p. 839	   1
+Bygdén II,;Pipping,;Rämä	   1
+Bygdén I, p. 131	   1
+Bygd@en I p. 298. - Collijn IV p. 337	   1
+Bygdén I, p. 476	   1
+Bygdén I p. 88. - Vrt. Bring 1958 121	   1
 Bygdén;Vallinkoski II	   1
-Bygdn I p. 829. - Collijn IV p. 519	   1
 Bygdn II p. 877. - Collijn IV p. 271, 647. - SAJ s. 305. - SKB 2715	   1
+Bygdn I p. 829. - Collijn IV p. 519	   1
 Catalogue général des livres imprimés de la Bibliothèque nationale. Auteurs. Tome CI,;Suomen kansallisbibliografia 1488-1700	   1
 Cederberg 1939, s. 90	   1
-Collijn I,;Manuale seu exequiale Aboense 1522. - Helsinki, 1980	   1
-Collijn I;ISTC Incunabula Short Title Catalogue;Gesamtkatalog der Wiegendrucke	   1
-Collijn II s. 442. - Rämä 14/15. Lisä. - SKB 1068	   1
-Collijn II,;Kilpi,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
-Collijn II,;Lempiäinen 1988,;SKB	   1
-Collijn II,;Melander	   1
 Collijn III s. 117-118	   1
-Collijn III s. 12. - Melander 21	   1
 Collijn III s. 120	   1
+Collijn III s. 12. - Melander 21	   1
 Collijn III s. 16. - Rämä 16/17. Lisä	   1
 Collijn III s. 246-247. - Melander 34	   1
 Collijn III s. 250	   1
 Collijn III s. 250-252. - Melander 33	   1
 Collijn III s. 274. - Melander 35	   1
 Collijn III s. 53. Melander 27. - SKB 1042	   1
+Collijn II,;Kilpi,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
+Collijn II,;Lempiäinen 1988,;SKB	   1
+Collijn II,;Melander	   1
+Collijn II s. 442. - Rämä 14/15. Lisä. - SKB 1068	   1
+Collijn I;ISTC Incunabula Short Title Catalogue;Gesamtkatalog der Wiegendrucke	   1
+Collijn I,;Manuale seu exequiale Aboense 1522. - Helsinki, 1980	   1
+Collijn IV,;Leinberg	   1
+Collijn IV,;Leinberg, K. G. Orationes academicae Fennorum extra patriam habitae,;Sainio, Matti A. Dissertationen und Orationen der Universität Dorpat 1632-1656,;Suomen kansallisbibliografia 1488-1700	   1
+Collijn IV,;Leinberg Or.,;Sainio,;SKB	   1
+Collijn IV,;Leinberg,;Sainio,;SKB,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
+Collijn IV;Lempiäinen 1988	   1
+Collijn IV,;Melander,;Scarin, Algothus. Wirmoensis in Finlandia territorii memorabilia	   1
+Collijn IV;Öfversigt af Finlands litteratur ifrån år 1542 till 1770 / Sven Gabriel Elmgren;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV p. 1	   1
 Collijn IV p. 1031-1032	   1
 Collijn IV p. 1031-32	   1
@@ -424,15 +429,14 @@ Collijn IV p. 168	   1
 Collijn IV p. 182	   1
 Collijn IV p. 189	   1
 Collijn IV p. 195	   1
-Collijn IV p. 2. - Rämä 33/34. Lisä. - SKB 3	   1
 Collijn IV p. 21	   1
 Collijn IV p. 21. - SKB 307	   1
 Collijn IV p. 22	   1
-Collijn IV p. 22-23	   1
 Collijn IV p. 220-221	   1
-Collijn IV p. 23. - SKB 322	   1
+Collijn IV p. 22-23	   1
 Collijn IV p. 234. - Suomen kansallisbibliografia 1488-1700, 1017	   1
 Collijn IV p. 237-238 589 37	   1
+Collijn IV p. 23. - SKB 322	   1
 Collijn IV p. 262. - SAJ s. 305. - SKB 1118	   1
 Collijn IV p. 263-264	   1
 Collijn IV p. 263. - SAJ s. 307. - SKB 1198	   1
@@ -448,15 +452,12 @@ Collijn IV p. 271. - SAJ s. 303-304. - SKB 1305	   1
 Collijn IV p. 271. - SAJ s. 303. - SKB 1304	   1
 Collijn IV p. 271. - SAJ s. 304. - SKB 1306	   1
 Collijn IV p. 273-274	   1
-Collijn IV p. 3-4. - SKB 128	   1
-Collijn IV p. 3. - SKB 105	   1
-Collijn IV p. 3. - SKB 134	   1
-Collijn IV p. 3. - SKB 137	   1
-Collijn IV p. 3. - SKB 99	   1
+Collijn IV p. 2. - Rämä 33/34. Lisä. - SKB 3	   1
 Collijn IV p. 313-314	   1
 Collijn IV p. 315-316	   1
 Collijn IV p. 315. - SKB 1465	   1
 Collijn IV p. 338. - SKB 1648	   1
+Collijn IV p. 3-4. - SKB 128	   1
 Collijn IV p. 362	   1
 Collijn IV p. 363-364	   1
 Collijn IV p. 363. - SKB 1853	   1
@@ -466,6 +467,10 @@ Collijn IV p. 371	   1
 Collijn IV p. 373-374. - SKB 1903	   1
 Collijn IV p. 389	   1
 Collijn IV p. 398	   1
+Collijn IV p. 3. - SKB 105	   1
+Collijn IV p. 3. - SKB 134	   1
+Collijn IV p. 3. - SKB 137	   1
+Collijn IV p. 3. - SKB 99	   1
 Collijn IV p. 432	   1
 Collijn IV p. 442-443	   1
 Collijn IV p. 443	   1
@@ -477,11 +482,11 @@ Collijn IV p. 460	   1
 Collijn IV p. 471	   1
 Collijn IV p. 475	   1
 Collijn IV p. 477	   1
-Collijn IV p. 49. - Rämä [131 h:1]	   1
-Collijn IV p. 49. - Rämä [131 h:2]	   1
 Collijn IV p. 497-498	   1
 Collijn IV p. 497. - SKB 2273	   1
 Collijn IV p. 498	   1
+Collijn IV p. 49. - Rämä [131 h:1]	   1
+Collijn IV p. 49. - Rämä [131 h:2]	   1
 Collijn IV p. 504-505	   1
 Collijn IV p. 519. - SAJ s. 307-308. - SKB 2393	   1
 Collijn IV p. 522. - SAJ s. 307. - SKB 2420	   1
@@ -519,8 +524,8 @@ Collijn IV p. 886-887	   1
 Collijn IV p. 897-98	   1
 Collijn IV p. 9	   1
 Collijn IV p. 902-903	   1
-Collijn IV p. 91, 612	   1
 Collijn IV p. 912. - SAJ s. 308. - SKB 3722	   1
+Collijn IV p. 91, 612	   1
 Collijn IV p. 917	   1
 Collijn IV p. 917-918	   1
 Collijn IV p. 919	   1
@@ -534,23 +539,16 @@ Collijn IV p. 955-956	   1
 Collijn IV p. 984. - SAJ s. 308. - SKB 4245	   1
 Collijn IV p. 996. - SKB 4276	   1
 Collijn IV p. 996. - SKB 4277	   1
-Collijn IV,;Leinberg	   1
-Collijn IV,;Leinberg Or.,;Sainio,;SKB	   1
-Collijn IV,;Leinberg, K. G. Orationes academicae Fennorum extra patriam habitae,;Sainio, Matti A. Dissertationen und Orationen der Universität Dorpat 1632-1656,;Suomen kansallisbibliografia 1488-1700	   1
-Collijn IV,;Leinberg,;Sainio,;SKB,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
-Collijn IV,;Melander,;Scarin, Algothus. Wirmoensis in Finlandia territorii memorabilia	   1
 Collijn IV,;Pipping,;Rämä	   1
 Collijn IV,;Pipping,;Rämä,;SKB	   1
 Collijn IV,;Sainio	   1
 Collijn IV,;SKB,;Stiernman,;Vallinkoski	   1
 Collijn IV,;SKB,;Vallinkoski	   1
+Collijn IV;Stiernman;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV,;Stiernman,;Vallinkoski,;SKB	   1
 Collijn IV,;Stiernman,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
-Collijn IV,;Vallinkoski,;SKB	   1
-Collijn IV;Lempiäinen 1988	   1
-Collijn IV;Öfversigt af Finlands litteratur ifrån år 1542 till 1770 / Sven Gabriel Elmgren;Suomen kansallisbibliografia 1488-1700	   1
-Collijn IV;Stiernman;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV;Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén	   1
+Collijn IV,;Vallinkoski,;SKB	   1
 Collijn,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Collin IV p. 726. - Melander 111(2)	   1
 Collinjn IV sp. 328-329. - Ei Melander	   1
@@ -560,26 +558,14 @@ Ei Leinberg.	   1
 Ei Lidén?	   1
 Ei Melanderin bibliografiassa	   1
 Ei Pipping - Ei Rämä	   1
+Ei Pipping. - Ei Rämä	   1
 Ei Pipping - Rämä 1559	   1
+Ei Pipping. - Rämä 1559	   1
 Ei Pipping - Rämä 568-570	   1
 Ei Pipping - Rämä 604 n-607[:2]	   1
-Ei Pipping. - Ei Rämä	   1
-Ei Pipping. - Rämä 1559	   1
-Elmgren I s. 123:1741	   1
-Elmgren I s. 124. - Bygdén I:870	   1
-Elmgren I s. 124. - Bygdén II:93	   1
-Elmgren I s. 126	   1
-Elmgren I s. 129	   1
-Elmgren I s. 13. - Bring 1958 852:2	   1
-Elmgren I s. 13. - Bring 1958: 835	   1
-Elmgren I s. 130. - Bygdén II:610	   1
-Elmgren I s. 132	   1
-Elmgren I s. 135. - Bring 1958 309:1	   1
-Elmgren I s. 137:1724	   1
-Elmgren I s. 82	   1
-Elmgren I ss. 122, 137	   1
+Elmgren,;Collijn IV,;SKB	   1
 Elmgren I,;Bring 1961	   1
-Elmgren I,;Pipping	   1
+Elmgren II,;Hjelt	   1
 Elmgren II s. 17. - Vallinkoski II	   1
 Elmgren II s. 19	   1
 Elmgren II s. 20	   1
@@ -588,9 +574,21 @@ Elmgren II s. 24. - Vallinkoski II	   1
 Elmgren II s. 26	   1
 Elmgren II s. 28. - Bring II 32:2 s. 175 (kumpi?)	   1
 Elmgren II s. 31	   1
-Elmgren II,;Hjelt	   1
+Elmgren I,;Pipping	   1
+Elmgren I s. 123:1741	   1
+Elmgren I s. 124. - Bygdén I:870	   1
+Elmgren I s. 124. - Bygdén II:93	   1
+Elmgren I s. 126	   1
+Elmgren I s. 129	   1
+Elmgren I s. 130. - Bygdén II:610	   1
+Elmgren I s. 132	   1
+Elmgren I s. 135. - Bring 1958 309:1	   1
+Elmgren I s. 137:1724	   1
+Elmgren I s. 13. - Bring 1958: 835	   1
+Elmgren I s. 13. - Bring 1958 852:2	   1
+Elmgren I s. 82	   1
+Elmgren I ss. 122, 137	   1
 Elmgren, Sven Gabriel. Öfversigt af Finlands litteratur ifrån år 1542 till 1770	   1
-Elmgren,;Collijn IV,;SKB	   1
 Finlands botaniska litteratur till och med år 1900 / af Th. Saelan	   1
 Forfatterlexikon omfattende Danmark, Norge og Island tindtil 1814 / H. Ehrencron-Müller. Bd. VII. 1929	   1
 Göran Magnus Sprengtporten : XII / K. K. Tigerstedt	   1
@@ -645,37 +643,25 @@ Leinberg 50	   1
 Leinberg 55	   1
 Leinberg 6	   1
 Leinberg 72 [b]	   1
-Leinberg Or.	   1
-Leinberg Or. 46. - Collijn IV p. 919	   1
-Leinberg Or.,;Collijn IV	   1
-Leinberg Or.,;Collijn IV,;NUC Pre-1956 imprints	   1
-Leinberg Orat.,;Melander,;SKB	   1
 Leinberg,;Collijn III	   1
+Leinberg;Collijn III	   1
 Leinberg,;Collijn IV	   1
 Leinberg,;Lidén,;Pipping,;Rämä	   1
 Leinberg,;Melander	   1
+Leinberg Or.	   1
+Leinberg Or. 46. - Collijn IV p. 919	   1
+Leinberg Orat.,;Melander,;SKB	   1
+Leinberg Or.,;Collijn IV	   1
+Leinberg Or.,;Collijn IV,;NUC Pre-1956 imprints	   1
 Leinberg,;Sainio	   1
 Leinberg,;SKB	   1
-Leinberg;Collijn III	   1
-Lidé,;Vallinkoski	   1
-Lidén ?. - Leinberg 109	   1
-Lidén ?9. - Leinberg 101	   1
-Lidén 1. - Leinberg 118 [b]	   1
-Lidén 1. - Leinberg 48	   1
-Lidén 1. - Leinberg 70	   1
-Lidén 1. - Leinberg 72	   1
-Lidén 1. - Leinberg 74 & 79	   1
-Lidén 1. - Leinberg 96 [c]	   1
-Lidén 1. - Vallinkoski 787;Ylioppilasmatrikkeli 1640-1852	   1
 Liden 10	   1
-Lidén 10. - Leinberg 53	   1
-Lidén 10. - Leinberg 80	   1
 Lidén 100. - Leinberg 89 [b]	   1
 Lidén 101. - Leinberg 44	   1
 Lidén 102	   1
+Lidén 10. - Leinberg 53	   1
+Lidén 10. - Leinberg 80	   1
 Liden 11	   1
-Lidén 11. - Leinberg 74	   1
-Lidén 11. - Leinberg 92	   1
 Lidén 110. - Vallinkoski 1974	   1
 Lidén 111. - Vallinkoski 1975	   1
 Lidén 112	   1
@@ -685,49 +671,56 @@ Lidén 116. - Leinberg 99	   1
 Liden 117. - Marklin 117. - Vallinkoski 4382	   1
 Lidén 119. - Leinberg 66	   1
 Liden 119. - Vallinkoski 4384	   1
+Lidén 11. - Leinberg 74	   1
+Lidén 11. - Leinberg 92	   1
+Lidén 120. - Leinberg 67	   1
+Liden 120. - Vallinkoski 4385	   1
+Lidén 121. - Leinberg 67 [b]	   1
 Lidén 12. - Leinberg 59	   1
 Lidén 12. - Leinberg 77 [b]	   1
 Lidén 12. - Leinberg 93	   1
 Lidén 12. - Vallinkoski 1876	   1
-Lidén 120. - Leinberg 67	   1
-Liden 120. - Vallinkoski 4385	   1
-Lidén 121. - Leinberg 67 [b]	   1
-Lidén 13. - Leinberg 49	   1
 Lidén 131. - Leinberg 110	   1
 Lidén 137. - Leinberg 113	   1
+Lidén 13. - Leinberg 49	   1
 Liden 14	   1
 Lidén 140. - Leinberg 114	   1
 Lidén 140. - Vallinkoski 2004	   1
 Liden 15	   1
+Lidén 154. - Leinberg 117	   1
 Lidén 15. - Leinberg 111	   1
 Lidén 15. - Leinberg 95	   1
-Lidén 154. - Leinberg 117	   1
 Liden 16	   1
 Lidén 165. - Leinberg 65	   1
 Liden 17	   1
-Lidèn 17. - Marklin 17. - Vallinkoski 17. - SKB 47	   1
 Lidén 173. - Leinberg 119	   1
 Lidén 175. - Leinberg 119 [b]	   1
 Lidén 178. - Leinberg 80 [b]	   1
+Lidèn 17. - Marklin 17. - Vallinkoski 17. - SKB 47	   1
 Liden 18	   1
-Lidén 18. - Marklin 18. - Vallinkoski 941	   1
-Lidèn 18. - Vallinkoski 18. - SKB 48	   1
-Lidén 18. - Vallinkoski 1882	   1
 Lidén 180. - Leinberg 55	   1
 Lidén 182. - Leinberg 124	   1
 Lidén 182. - Leinberg 56	   1
 Lidén 186. - Leinberg 125	   1
+Lidén 18. - Marklin 18. - Vallinkoski 941	   1
+Lidén 18. - Vallinkoski 1882	   1
+Lidèn 18. - Vallinkoski 18. - SKB 48	   1
 Liden 19	   1
 Lidén 19. - Marklin 19. - Vallinkoski 942	   1
+Lidén 1. - Leinberg 118 [b]	   1
+Lidén 1. - Leinberg 48	   1
+Lidén 1. - Leinberg 70	   1
+Lidén 1. - Leinberg 72	   1
+Lidén 1. - Leinberg 74 & 79	   1
+Lidén 1. - Leinberg 96 [c]	   1
+Lidén 1. - Vallinkoski 787;Ylioppilasmatrikkeli 1640-1852	   1
 Liden 2	   1
-Lidén 2. - Leinberg 63 [b]	   1
-Lidén 2. - Leinberg 91	   1
 Liden 20	   1
 Lidén 209. - Leinberg 149 [b]	   1
 Lidén 21. - Leinberg 110 [b]	   1
 Liden 22	   1
-Lidén 22. - Marklin 22. - Vallinkoski 945	   1
 Lidén 226. - Leinberg 94	   1
+Lidén 22. - Marklin 22. - Vallinkoski 945	   1
 Liden 23	   1
 Liden 24	   1
 Lidén 24. - Leinberg 121	   1
@@ -741,34 +734,33 @@ Lidén 278. - Leinberg 99 [b]	   1
 Lidén 28	   1
 Lidén 28. - Marklin 28. - Vallinkoski 951	   1
 Lidén 29	   1
+Lidén 297. - Leinberg 104	   1
 Lidén 29. - Leinberg 107 [b]	   1
 Lidén 29. - Leinberg 76	   1
 Lidén 29. - Leinberg 76 [b]	   1
 Lidén 29. - Marklin 29. - Vallinkoski 952	   1
-Lidén 297. - Leinberg 104	   1
-Lidén 3. - Leinberg 71	   1
+Lidén 2. - Leinberg 63 [b]	   1
+Lidén 2. - Leinberg 91	   1
 Lidén 30	   1
 Lidén 31	   1
-Lidén 31;Vallinkoski 2412	   1
+Lidén 311. - Leinberg 107	   1
 Lidén 31. - Leinberg 47	   1
 Lidén 31. - Marklin 31. - Vallinkoski 954	   1
-Lidén 311. - Leinberg 107	   1
+Lidén 31;Vallinkoski 2412	   1
 Lidén 32	   1
-Lidén 33. - Leinberg 96 [b]	   1
 Lidén 335. - Leinberg 104 [b]	   1
 Lidén 337. - Leinberg 103 [b]	   1
-Lidén 34;Vallinkoski 1090	   1
+Lidén 33. - Leinberg 96 [b]	   1
 Lidén 34. - Leinberg 102	   1
 Lidén 34. - Leinberg 70 [b]	   1
+Lidén 34;Vallinkoski 1090	   1
 Lidén 35	   1
 Lidén 35. - Vallinkoski 3704	   1
 Lidén 36	   1
 Lidén 37	   1
 Lidén 37. - Leinberg 120	   1
+Lidén 3. - Leinberg 71	   1
 Liden 4	   1
-Lidén 4. - Leinberg 48 [b]	   1
-Lidén 4. - Leinberg 77	   1
-Lidén 4. - Vallinkoski 1060	   1
 Lidén 42. - Leinberg 42	   1
 Lidén 43. - Leinberg 57 [b]	   1
 Lidén 43. - Vallinkoski 1907	   1
@@ -779,21 +771,23 @@ Lidén 48	   1
 Lidén 48. - Leinberg 43	   1
 Lidén 49	   1
 Lidén 49. - Vallinkoski 1597	   1
+Lidén 4. - Leinberg 48 [b]	   1
+Lidén 4. - Leinberg 77	   1
+Lidén 4. - Vallinkoski 1060	   1
 Lidén 5	   1
-Lidén 5. - Leinberg 81	   1
 Lidén 50	   1
 Lidén 50. - Vallinkoski 1598;Ylioppilasmatrikkeli 1640-1852	   1
 Lidén 52	   1
 Lidén 55. - Leinberg 106	   1
 Lidén 57. - Leinberg 68 [b]	   1
 Lidén 58. - Leinberg 60	   1
+Lidén 5. - Leinberg 81	   1
 Liden 6	   1
+Lidén 62. - Leinberg 123	   1
 Lidén 6. - Leinberg 103	   1
 Lidén 6. - Leinberg 50	   1
 Lidén 6. - Leinberg 87	   1
 Liden 6. - Vallinkoski 1839	   1
-Lidén 62. - Leinberg 123	   1
-Lidèn 7. - Vallinkoski 7. - SKB 37	   1
 Lidén 71. - Leinberg 46 [b]	   1
 Lidén 71. - Vallinkoski 4388	   1
 Liden 72. - Vallinkoski 4389	   1
@@ -804,8 +798,7 @@ Liden 75. - Vallinkoski 4392	   1
 Lidén 76. - Leinberg 68	   1
 Liden 77. - Vallinkoski 4394	   1
 Liden 78. - Vallinkoski 4395	   1
-Lidén 8. - Leinberg 105	   1
-Lidèn 8. - Marklin 8. - Vallinkoski 8. - SKB 38	   1
+Lidèn 7. - Vallinkoski 7. - SKB 37	   1
 Lidén 80. - Leinberg 65 [b]	   1
 Lidén 80. - Vallinkoski 1944	   1
 Liden 80. - Vallinkoski 4397	   1
@@ -816,24 +809,36 @@ Lidén 85. - Leinberg 98	   1
 Liden 87. - Vallinkoski 4404	   1
 Liden 88. - Vallinkoski 4405	   1
 Liden 89. - Vallinkoski 4406	   1
+Lidén 8. - Leinberg 105	   1
+Lidèn 8. - Marklin 8. - Vallinkoski 8. - SKB 38	   1
 Liden 9	   1
-Lidèn 9. - Marklin 9. - Vallinkoski 9. - SKB 39	   1
 Liden 90. - Vallinkoski 4407	   1
 Lidén 92. - Vallinkoski 1956	   1
+Lidén ?9. - Leinberg 101	   1
+Lidèn 9. - Marklin 9. - Vallinkoski 9. - SKB 39	   1
+Lidén II	   1
+Lidén III,;Collijn IV	   1
+Lidén III,;Collijn IV,;Vallinkoski	   1
+Lidén I,;Leinberg,;Suomen kansallisbibliografia 1488-1700	   1
+Lidén I,;Melanderin lisä Leinbergiin s. 371	   1
+Lidén I, s. 195	   1
 Lidén I s. 201. - Leinberg 27	   1
 Lidén I s. 25, 27	   1
 Lidén I s. 282, 284. - Leinberg 19	   1
 Lidén I s. 294-295	   1
 Lidén I s. 294, 296. - Leinberg 32	   1
 Lidén I s. 294, 298	   1
+Lidèn I, s. 300	   1
 Lidén I s. 304-305. - Leinberg 10	   1
 Lidén I s. 330-331	   1
 Lidén I s. 330-331. - Leinberg 33	   1
 Lidén I s. 338, 341. - Leinberg 14	   1
+Lidèn I, s. 352	   1
 Lidén I s. 359, 361. - Leinberg 28	   1
 Lidén I s. 359, 362. - Leinberg 30	   1
 Lidén I s. 365, 369. - Leinberg 35	   1
 Lidén I s. 371. - Leinberg 10	   1
+Lidèn I, s. 381	   1
 Lidén I s. 399, 401. - Leinberg 5	   1
 Lidén I s. 407, 409. - Leinberg 23	   1
 Lidén I s. 407, 410	   1
@@ -849,43 +854,35 @@ Lidén I s. 484, 491. - Leinberg 24	   1
 Lidén I s. 80-81. - Leinberg 11	   1
 Lidén I s. 83, 85. - Leinberg 25	   1
 Lidén I s. 83, 86. - Leinberg 29	   1
-Lidén I, s. 195	   1
-Lidèn I, s. 300	   1
-Lidèn I, s. 352	   1
-Lidèn I, s. 381	   1
-Lidén I,;Leinberg,;Suomen kansallisbibliografia 1488-1700	   1
-Lidén I,;Melanderin lisä Leinbergiin s. 371	   1
 Lidén I,;Suomen kansallisbibliografia 1488-1700	   1
 Lidén I;Suomen kansallisbibliografia 1488-1700	   1
-Lidén II	   1
-Lidén III,;Collijn IV	   1
-Lidén III,;Collijn IV,;Vallinkoski	   1
-Lidén Orat.,;Collijn III,;Melander,;SKB	   1
-Lidén Orat.,;Melander	   1
+Lidén,.;Leinberg	   1
+Lidén;Leinberg	   1
+Lidén ?. - Leinberg 109	   1
+Lidén;Marklin;Vallinkoski	   1
+Lidén. Marklin. - Vallinkoski 51. - SKB 120	   1
 Lidèn,;Marklin,;Vallinkoski,;SKB	   1
 Lidén,;Marklin,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
+Lidén Orat.,;Collijn III,;Melander,;SKB	   1
+Lidén Orat.,;Melander	   1
 Lidén,;Pipping	   1
+Lidén;Pipping,;Rämä,;Vallinkoski	   1
 Lidén,;SKB,;Stiernman,;Vallinkoski	   1
 Liden,;SKB,;Vallinkoski	   1
 Lidén,;Stiernman,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
 lidén,;Vallinkoski	   1
+Lidén.;Vallinkoski	   1
 Lidén,;Vallinkoski 2696	   1
 Lidén,;Vallinkoski,;Rämä	   1
 Lidén,;Vallinkoski,;Rämä, Irja. Lisäyksiä Fredrik Wilhelm Pippingin bibliografiaan Luettelo suomeksi präntätyistä kirjoista	   1
 Lidén,;Vallinkoski,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Lidén,;Vallinkoski,;Ylioppilasmatrikkeli 1640-1852	   1
-Lidén,.;Leinberg	   1
-Lidén;Leinberg	   1
-Lidén;Marklin;Vallinkoski	   1
-Lidén;Pipping,;Rämä,;Vallinkoski	   1
-Lidén. Marklin. - Vallinkoski 51. - SKB 120	   1
-Lidén.;Vallinkoski	   1
-Lidn . - Marklin. - Vallinkoski 930	   1
+Lidé,;Vallinkoski	   1
 Lidn 104. - Marklin 104. - Vallinkoski 3773	   1
 Lidn 119. - Marklin 119. - Vallinkoski 3788	   1
-Lidn 12. - Marklin 12. - Vallinkoski 743	   1
 Lidn 120. - Marklin 120. - Vallinkoski 3789	   1
 Lidn 127. - Marklin 127. - Vallinkoski 3797	   1
+Lidn 12. - Marklin 12. - Vallinkoski 743	   1
 Lidn 133. - Marklin 133. - Vallinkoski 3803	   1
 Lidn 146. - Marklin 146. - Vallinkoski 3816	   1
 Lidn 15. - Vallinkoski 3684	   1
@@ -904,10 +901,10 @@ Lidn 27. - Marklin 27. - Vallinkoski 711	   1
 Lidn 28. - Marklin 28. - Vallinkoski 3697	   1
 Lidn 28. - Marklin 28. - Vallinkoski 712	   1
 Lidn 28. - Vallinkoski 2042	   1
+Lidn 29. Marklin 29. - Vallinkoski 4218	   1
 Lidn 29. - Marklin 29. - Vallinkoski 713	   1
 Lidn 29. - Vallinkoski 2043	   1
 Lidn 29. - Vallinkoski 4033	   1
-Lidn 29. Marklin 29. - Vallinkoski 4218	   1
 Lidn 30. - Marklin 30. - Vallinkoski 3699	   1
 Lidn 32. - Marklin 32. - Vallinkoski 955	   1
 Lidn 32. - Vallinkoski 4036	   1
@@ -955,19 +952,20 @@ Lidn 59. - Marklin 59. - Vallinkoski 4248	   1
 Lidn 62. - Marklin 62. - Vallinkoski 4251	   1
 Lidn 62. - Vallinkoski 3731	   1
 Lidn 64. - Vallinkoski 3733	   1
-Lidn 7. - Vallinkoski 738	   1
 Lidn 71. - Marklin 71. - Vallinkoski 3740	   1
 Lidn 73. - Marklin 73. - Vallinkoski 3742	   1
 Lidn 75. - Marklin 75. - Vallinkoski 3744	   1
 Lidn 76. - Marklin 76. - Vallinkoski 3745	   1
 Lidn 79. - Marklin 79. - Vallinkoski 3748	   1
+Lidn 7. - Vallinkoski 738	   1
 Lidn 82. - Marklin 82. - Vallinkoski 3751	   1
 Lidn 88. - Marklin 88. - Vallinkoski 3757	   1
-Lidn 9. - Vallinkoski 740	   1
 Lidn 92. - Marklin 92. - Vallinkoski 3761	   1
 Lidn 93. - Marklin 93. - Vallinkoski 3762	   1
+Lidn 9. - Vallinkoski 740	   1
 Lidn. - Marklin. - Vallinkoski 2059	   1
 Lidn. - Marklin. - Vallinkoski 4450a	   1
+Lidn . - Marklin. - Vallinkoski 930	   1
 Lidn. - Marklin. - Vallinkoski 931	   1
 Lidn. - Marklin. - Vallinkoski 932	   1
 Lidn. - Marklin. - Vallinkoski 934	   1
@@ -977,10 +975,6 @@ Lidn. - Marklin. - Vallinkoski 938	   1
 Markin 17	   1
 Markin,;Vallinkoski	   1
 Marklin 1	   1
-Marklin 1. - Leinberg 133 [c]	   1
-Marklin 1. - Leinberg 154	   1
-Marklin 1. - Vallinkoski 4437	   1
-Marklin 10. - Leinberg 151 [b]	   1
 Marklin 100	   1
 Marklin 101	   1
 Marklin 102	   1
@@ -992,6 +986,7 @@ Marklin 107	   1
 Marklin 108	   1
 Marklin 10b. - Vallinkoski 2747	   1
 Marklin 10d. - Vallinkoski 2748	   1
+Marklin 10. - Leinberg 151 [b]	   1
 Marklin 110	   1
 Marklin 111	   1
 Marklin 112	   1
@@ -1015,13 +1010,13 @@ Marklin 11u. - Vallinkoski 2593	   1
 Marklin 11v. - Vallinkoski 2594	   1
 Marklin 11x. - Vallinkoski 2595	   1
 Marklin 11y. - Vallinkoski 2596	   1
-Marklin 12 . - Leinberg 135	   1
-Marklin 12. - Vallinkoski 897	   1
 Marklin 121	   1
 Märklin 122. - Leinberg 151	   1
 Marklin 123	   1
 Marklin 123. - Vallinkoski 1534	   1
 Märklin 125. - Leinberg 152	   1
+Marklin 12 . - Leinberg 135	   1
+Marklin 12. - Vallinkoski 897	   1
 Marklin 13 b. - Vallinkoski 1857	   1
 Märklin 13. - Leinberg 139 & 140	   1
 Marklin 14	   1
@@ -1033,14 +1028,13 @@ Marklin 15	   1
 Marklin 16	   1
 Marklin 16. - Leinberg 131	   1
 Marklin 17-?. - Leinberg 150	   1
-Marklin 18. - Leinberg 133 [b]	   1
 Marklin 181. - Vallinkoski 434	   1
 Marklin 18b. - Vallinkoski 3961	   1
+Marklin 18. - Leinberg 133 [b]	   1
 Marklin 19b. - Vallinkoski 4023	   1
-Marklin 2. - Leinberg 133 [d]	   1
-Marklin 2. - Leinberg 155	   1
-Marklin 2. - Vallinkoski 1832	   1
-Marklin 2. - Vallinkoski 2142	   1
+Marklin 1. - Leinberg 133 [c]	   1
+Marklin 1. - Leinberg 154	   1
+Marklin 1. - Vallinkoski 4437	   1
 Marklin 21	   1
 Marklin 21b. - Vallinkoski 3965	   1
 Marklin 22	   1
@@ -1050,7 +1044,6 @@ Marklin 25	   1
 Marklin 27	   1
 Marklin 27. - Vallinkoski 1186	   1
 Märklin 28. - Leinberg 137	   1
-Marklin 29. - Leinberg 157	   1
 Marklin 291. - Vallinkoski 2053	   1
 Marklin 29b. - Vallinkoski 2044	   1
 Marklin 29c. - Vallinkoski 2045	   1
@@ -1060,11 +1053,13 @@ Marklin 29f. - Vallinkoski 2048	   1
 Marklin 29g. - Vallinkoski 2049	   1
 Marklin 29h. - Vallinkoski 2050	   1
 Marklin 29i. - Vallinkoski 2051	   1
+Marklin 29. - Leinberg 157	   1
 Marklin 29m. - Vallinkoski 2054	   1
 Marklin 2b. - Vallinkoski 4189	   1
-Marklin 3. - Leinberg 133 e	   1
-Märklin 3. - Leinberg 134	   1
-Marklin 3. - Leinberg 152 [b]	   1
+Marklin 2. - Leinberg 133 [d]	   1
+Marklin 2. - Leinberg 155	   1
+Marklin 2. - Vallinkoski 1832	   1
+Marklin 2. - Vallinkoski 2142	   1
 Marklin 30	   1
 Marklin 30b. - Vallinkoski 2056	   1
 Marklin 31	   1
@@ -1079,7 +1074,9 @@ Marklin 39	   1
 Marklin 39. - Vallinkoski 2598	   1
 Marklin 3b. - Vallinkoski 2015	   1
 Marklin 3b. - Vallinkoski 2150	   1
-Marklin 4. - Leinberg 159	   1
+Marklin 3. - Leinberg 133 e	   1
+Märklin 3. - Leinberg 134	   1
+Marklin 3. - Leinberg 152 [b]	   1
 Marklin 41 b. - Vallinkoski 52. - SKB 121	   1
 Marklin 41 c. - Vallinkoski 47. - SKB 116	   1
 Marklin 41 d. - Vallinkoski 48. - SKB 117	   1
@@ -1092,17 +1089,18 @@ Marklin 44 f. - Vallinkoski 63. - SKB 89	   1
 Marklin 44 g. - Vallinkoski 64. - SKB 90	   1
 Marklin 45	   1
 Marklin 46	   1
+Marklin 47b. - Vallinkoski 2367	   1
 Marklin 47. - Leinberg 136	   1
 Marklin 47. - Leinberg 136 [b]	   1
-Marklin 47b. - Vallinkoski 2367	   1
 Marklin 49	   1
-Marklin 49. - Vallinkoski 2061	   1
 Marklin 49c. - Vallinkoski 2368	   1
-Marklin 5. - Leinberg 160	   1
-Marklin 5. - Lidén 113. - Leinberg 133	   1
+Marklin 49. - Vallinkoski 2061	   1
+Marklin 4. - Leinberg 159	   1
 Marklin 50. - Vallinkoski 2062	   1
 Marklin 53. - Leinberg 136	   1
 Marklin 5b. - Vallinkoski 2151	   1
+Marklin 5. - Leinberg 160	   1
+Marklin 5. - Lidén 113. - Leinberg 133	   1
 Marklin 65. - Leinberg	   1
 Marklin 66. - Leinberg 144	   1
 Marklin 7. - Leinberg 142	   1
@@ -1124,10 +1122,10 @@ Marklin 98	   1
 Marklin 99	   1
 Märklin 99. - Leinberg 137 [b]	   1
 Marklin II:5;Vallinkoski	   1
-Marklin suppl.,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
 Marklin, suppl.,;Vallinkoski	   1
-Marklin,;Vallinkoski,;Fagerlund, L. W. Medicinens studium vid Åbo universitet	   1
+Marklin suppl.,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
 Marklin;Vallinkoski 4106.	   1
+Marklin,;Vallinkoski,;Fagerlund, L. W. Medicinens studium vid Åbo universitet	   1
 Melander 10	   1
 Melander 100	   1
 Melander 1001	   1
@@ -1198,11 +1196,11 @@ Melander 1106	   1
 Melander 1107	   1
 Melander 1109	   1
 Melander 111	   1
-Melander 111(3)	   1
 Melander 1110	   1
 Melander 1111	   1
 Melander 1112	   1
 Melander 1113	   1
+Melander 111(3)	   1
 Melander 1115	   1
 Melander 1117	   1
 Melander 1119	   1
@@ -1217,13 +1215,13 @@ Melander 1134	   1
 Melander 1135	   1
 Melander 1136	   1
 Melander 1137	   1
-Melander 114. - SKB 1940	   1
 Melander 1142. - SKB 143	   1
 Melander 1143	   1
 Melander 1144	   1
 Melander 1145	   1
 Melander 1146	   1
 Melander 1148	   1
+Melander 114. - SKB 1940	   1
 Melander 1151	   1
 Melander 1152	   1
 Melander 1153	   1
@@ -1232,11 +1230,11 @@ Melander 1155	   1
 Melander 1156	   1
 Melander 1157. - SKB 103	   1
 Melander 1158	   1
-Melander 116(2)	   1
 Melander 1160	   1
 Melander 1161	   1
-Melander 1163. - SKB 97	   1
+Melander 116(2)	   1
 Melander 1163(2)	   1
+Melander 1163. - SKB 97	   1
 Melander 1164. - Rämä 277/278. Lisä	   1
 Melander 1166	   1
 Melander 1167	   1
@@ -1262,7 +1260,6 @@ Melander 1193	   1
 Melander 1194	   1
 Melander 1195	   1
 Melander 1196	   1
-Melander 12. - SKB 1920	   1
 Melander 1201	   1
 Melander 1202	   1
 Melander 1204	   1
@@ -1293,7 +1290,6 @@ Melander 1239	   1
 Melander 1246	   1
 Melander 1247	   1
 Melander 1248	   1
-Melander 125. - SKB 15	   1
 Melander 1251	   1
 Melander 1252	   1
 Melander 1253	   1
@@ -1303,6 +1299,7 @@ Melander 1256	   1
 Melander 1257	   1
 Melander 1258	   1
 Melander 1259(2)	   1
+Melander 125. - SKB 15	   1
 Melander 1261	   1
 Melander 1262. - SKB 81	   1
 Melander 1265	   1
@@ -1337,7 +1334,7 @@ Melander 1295	   1
 Melander 1297	   1
 Melander 1298	   1
 Melander 1299	   1
-Melander 13. - SKB 3479	   1
+Melander 12. - SKB 1920	   1
 Melander 1300	   1
 Melander 1301	   1
 Melander 1304	   1
@@ -1381,8 +1378,8 @@ Melander 1355	   1
 Melander 1357	   1
 Melander 1358	   1
 Melander 1359	   1
-Melander 136(2)	   1
 Melander 1360	   1
+Melander 136(2)	   1
 Melander 1363	   1
 Melander 1365	   1
 Melander 1366	   1
@@ -1405,12 +1402,12 @@ Melander 1385	   1
 Melander 1386	   1
 Melander 1387	   1
 Melander 1388	   1
-Melander 139. - SKB 2387	   1
 Melander 1390	   1
 Melander 1391	   1
 Melander 1394a	   1
 Melander 1395	   1
-Melander 140. - SKB 3222	   1
+Melander 139. - SKB 2387	   1
+Melander 13. - SKB 3479	   1
 Melander 1400	   1
 Melander 1401	   1
 Melander 1402	   1
@@ -1418,6 +1415,7 @@ Melander 1403	   1
 Melander 1407	   1
 Melander 1408	   1
 Melander 1409	   1
+Melander 140. - SKB 3222	   1
 Melander 1410	   1
 Melander 1411	   1
 Melander 1412	   1
@@ -1425,26 +1423,26 @@ Melander 1413	   1
 Melander 1414	   1
 Melander 1415. - SKB 147	   1
 Melander 1419	   1
-Melander 142 a	   1
 Melander 1422	   1
 Melander 1424	   1
 Melander 1425	   1
 Melander 1426(2)	   1
 Melander 1428	   1
 Melander 1429	   1
+Melander 142 a	   1
 Melander 1430	   1
 Melander 1431	   1
 Melander 1432	   1
 Melander 1434a	   1
 Melander 1435	   1
 Melander 1436	   1
-Melander 144 a. - SKB 2389	   1
 Melander 1442	   1
 Melander 1444	   1
 Melander 1445	   1
 Melander 1446	   1
 Melander 1447	   1
 Melander 1448	   1
+Melander 144 a. - SKB 2389	   1
 Melander 1450	   1
 Melander 1452. - SKB 25	   1
 Melander 1453	   1
@@ -1475,22 +1473,20 @@ Melander 1480	   1
 Melander 1481	   1
 Melander 1481(2)	   1
 Melander 1482	   1
-Melander 1482(3)	   1
 Melander 1482²	   1
+Melander 1482(3)	   1
 Melander 1486	   1
 Melander 1487	   1
 Melander 1488	   1
 Melander 1489	   1
-Melander 149. - SKB 3219	   1
 Melander 1491	   1
 Melander 1492	   1
 Melander 1494	   1
 Melander 1495	   1
 Melander 1496	   1
 Melander 1497	   1
+Melander 149. - SKB 3219	   1
 Melander 15	   1
-Melander 15(2)	   1
-Melander 150. - SKB 2219	   1
 Melander 1500	   1
 Melander 1501	   1
 Melander 1503	   1
@@ -1500,14 +1496,16 @@ Melander 1506	   1
 Melander 1507	   1
 Melander 1508	   1
 Melander 1509	   1
-Melander 151(2)	   1
+Melander 150. - SKB 2219	   1
 Melander 1511	   1
+Melander 151(2)	   1
 Melander 1513	   1
 Melander 1514	   1
 Melander 1515	   1
 Melander 1517	   1
 Melander 1518	   1
 Melander 1519	   1
+Melander 15(2)	   1
 Melander 1520	   1
 Melander 1521	   1
 Melander 1523. - Rämä 318/319. Lisä	   1
@@ -1627,20 +1625,20 @@ Melander 1696	   1
 Melander 1697	   1
 Melander 1698	   1
 Melander 1699	   1
-Melander 170(2)	   1
 Melander 1700	   1
 Melander 1700(2)	   1
 Melander 1701	   1
 Melander 1701(2)	   1
+Melander 170(2)	   1
 Melander 1704	   1
 Melander 1705	   1
 Melander 1709	   1
-Melander 171(2). - SKB 3227	   1
 Melander 1710	   1
 Melander 1711	   1
 Melander 1711 d	   1
 Melander 1711 e	   1
 Melander 1712	   1
+Melander 171(2). - SKB 3227	   1
 Melander 1713	   1
 Melander 1714	   1
 Melander 1715	   1
@@ -1667,7 +1665,6 @@ Melander 1743	   1
 Melander 1744	   1
 Melander 1746	   1
 Melander 1748	   1
-Melander 175. - SKB 145	   1
 Melander 1750	   1
 Melander 1751	   1
 Melander 1753	   1
@@ -1675,6 +1672,7 @@ Melander 1753 (2)	   1
 Melander 1755	   1
 Melander 1756	   1
 Melander 1757	   1
+Melander 175. - SKB 145	   1
 Melander 1760	   1
 Melander 1761	   1
 Melander 1763	   1
@@ -1697,12 +1695,12 @@ Melander 1793	   1
 Melander 1794	   1
 Melander 1798	   1
 Melander 1799	   1
-Melander 180. - SKB 2388	   1
 Melander 1800	   1
 Melander 1801	   1
 Melander 1805	   1
 Melander 1806	   1
 Melander 1809	   1
+Melander 180. - SKB 2388	   1
 Melander 1810	   1
 Melander 1812	   1
 Melander 1813	   1
@@ -1743,7 +1741,6 @@ Melander 1866	   1
 Melander 1867	   1
 Melander 1868	   1
 Melander 1869	   1
-Melander 187 a, 187 b. - SKB 3669	   1
 Melander 1872	   1
 Melander 1873	   1
 Melander 1874	   1
@@ -1751,6 +1748,7 @@ Melander 1875	   1
 Melander 1877	   1
 Melander 1878	   1
 Melander 1879	   1
+Melander 187 a, 187 b. - SKB 3669	   1
 Melander 1880	   1
 Melander 1881	   1
 Melander 1882	   1
@@ -1796,7 +1794,6 @@ Melander 1934	   1
 Melander 1935	   1
 Melander 1936	   1
 Melander 1939	   1
-Melander 194. - SKB 2862	   1
 Melander 1940	   1
 Melander 1941	   1
 Melander 1942	   1
@@ -1804,19 +1801,20 @@ Melander 1944	   1
 Melander 1946	   1
 Melander 1947	   1
 Melander 1948	   1
+Melander 194. - SKB 2862	   1
 Melander 1950	   1
 Melander 1951	   1
 Melander 1952	   1
 Melander 1953	   1
 Melander 1954	   1
 Melander 1955	   1
-Melander 196. - SKB 786	   1
 Melander 1960	   1
 Melander 1961	   1
 Melander 1962	   1
 Melander 1966	   1
 Melander 1967	   1
 Melander 1968	   1
+Melander 196. - SKB 786	   1
 Melander 197	   1
 Melander 1971	   1
 Melander 1972	   1
@@ -1865,9 +1863,9 @@ Melander 2022	   1
 Melander 2023	   1
 Melander 2027	   1
 Melander 203	   1
-Melander 203(2)	   1
 Melander 2031	   1
 Melander 2031 (2)	   1
+Melander 203(2)	   1
 Melander 2036	   1
 Melander 2037	   1
 Melander 2038	   1
@@ -1894,7 +1892,6 @@ Melander 2076	   1
 Melander 2077	   1
 Melander 2078	   1
 Melander 2079	   1
-Melander 208. - SKB 697	   1
 Melander 2081	   1
 Melander 2082	   1
 Melander 2083	   1
@@ -1903,6 +1900,7 @@ Melander 2085	   1
 Melander 2086	   1
 Melander 2088	   1
 Melander 2089	   1
+Melander 208. - SKB 697	   1
 Melander 2090	   1
 Melander 2093	   1
 Melander 2094	   1
@@ -1914,7 +1912,6 @@ Melander 2101	   1
 Melander 2102	   1
 Melander 2106	   1
 Melander 2107	   1
-Melander 211. - SKB 803	   1
 Melander 2111	   1
 Melander 2112	   1
 Melander 2113	   1
@@ -1924,6 +1921,7 @@ Melander 2116	   1
 Melander 2117	   1
 Melander 2118	   1
 Melander 2119	   1
+Melander 211. - SKB 803	   1
 Melander 2120	   1
 Melander 2122	   1
 Melander 2124	   1
@@ -1931,18 +1929,18 @@ Melander 2126	   1
 Melander 2127	   1
 Melander 2128	   1
 Melander 2129	   1
-Melander 213. - SKB 1025	   1
 Melander 2132	   1
 Melander 2135	   1
 Melander 2136	   1
 Melander 2137	   1
 Melander 2139	   1
-Melander 214 b	   1
-Melander 214(2)	   1
+Melander 213. - SKB 1025	   1
 Melander 2140	   1
 Melander 2141	   1
 Melander 2142	   1
+Melander 214(2)	   1
 Melander 2143	   1
+Melander 214 b	   1
 Melander 215. - SKB 2496	   1
 Melander 216. - SKB 262	   1
 Melander 217. - SKB 3306	   1
@@ -2058,7 +2056,6 @@ Melander 435. - Rämä 99/100. Lisä	   1
 Melander 436. - Rämä 100/101. Lisä	   1
 Melander 437	   1
 Melander 438	   1
-Melander 44. - SKB 1325	   1
 Melander 440. - SKB 20	   1
 Melander 441	   1
 Melander 442	   1
@@ -2069,6 +2066,7 @@ Melander 446	   1
 Melander 447	   1
 Melander 448	   1
 Melander 449(2)	   1
+Melander 44. - SKB 1325	   1
 Melander 450	   1
 Melander 451	   1
 Melander 452	   1
@@ -2128,20 +2126,20 @@ Melander 543	   1
 Melander 545. - Rämä 146/147. Lisä	   1
 Melander 546	   1
 Melander 547	   1
-Melander 55 a. - SKB 3143	   1
-Melander 55 b. - SKB 3144	   1
 Melander 550	   1
 Melander 552	   1
 Melander 554	   1
 Melander 558	   1
 Melander 559	   1
+Melander 55 a. - SKB 3143	   1
+Melander 55 b. - SKB 3144	   1
 Melander 561	   1
 Melander 562	   1
 Melander 566	   1
 Melander 567	   1
-Melander 57. - SKB 3145	   1
 Melander 576	   1
 Melander 577	   1
+Melander 57. - SKB 3145	   1
 Melander 581	   1
 Melander 584	   1
 Melander 592	   1
@@ -2149,22 +2147,20 @@ Melander 593	   1
 Melander 595	   1
 Melander 596(2)	   1
 Melander 599	   1
-Melander 6. - SKB 828	   1
 Melander 601	   1
 Melander 604	   1
 Melander 607	   1
 Melander 608	   1
-Melander 61. - SKB 3383	   1
 Melander 611	   1
 Melander 614	   1
 Melander 616	   1
 Melander 617	   1
 Melander 618	   1
 Melander 619	   1
-Melander 62. - SKB 1311	   1
+Melander 61. - SKB 3383	   1
 Melander 620	   1
 Melander 622	   1
-Melander 63. - SKB 1009	   1
+Melander 62. - SKB 1311	   1
 Melander 630	   1
 Melander 632	   1
 Melander 633	   1
@@ -2174,6 +2170,7 @@ Melander 636	   1
 Melander 637	   1
 Melander 638	   1
 Melander 639	   1
+Melander 63. - SKB 1009	   1
 Melander 641	   1
 Melander 645	   1
 Melander 652	   1
@@ -2211,7 +2208,7 @@ Melander 695	   1
 Melander 696	   1
 Melander 698	   1
 Melander 699	   1
-Melander 70. - SKB 1007	   1
+Melander 6. - SKB 828	   1
 Melander 702	   1
 Melander 703	   1
 Melander 705	   1
@@ -2219,6 +2216,7 @@ Melander 706	   1
 Melander 707	   1
 Melander 708a ja 708b	   1
 Melander 709	   1
+Melander 70. - SKB 1007	   1
 Melander 711	   1
 Melander 713	   1
 Melander 714	   1
@@ -2232,11 +2230,11 @@ Melander 725	   1
 Melander 727	   1
 Melander 728	   1
 Melander 729	   1
-Melander 73 a ja 73 b. - SKB 2062	   1
 Melander 731	   1
 Melander 733	   1
 Melander 735	   1
 Melander 738	   1
+Melander 73 a ja 73 b. - SKB 2062	   1
 Melander 74	   1
 Melander 740	   1
 Melander 741	   1
@@ -2253,12 +2251,12 @@ Melander 755	   1
 Melander 756	   1
 Melander 758	   1
 Melander 759	   1
-Melander 76. - SKB 1011	   1
 Melander 763	   1
 Melander 764	   1
 Melander 765. - Rämä 197/198. Lisä: 2	   1
 Melander 766	   1
 Melander 767. - SKB 2	   1
+Melander 76. - SKB 1011	   1
 Melander 770	   1
 Melander 773	   1
 Melander 774	   1
@@ -2272,7 +2270,6 @@ Melander 787	   1
 Melander 787(2)	   1
 Melander 788	   1
 Melander 789	   1
-Melander 79 b	   1
 Melander 790	   1
 Melander 793	   1
 Melander 794	   1
@@ -2281,7 +2278,7 @@ Melander 797	   1
 Melander 798	   1
 Melander 799	   1
 Melander 79a	   1
-Melander 8(1)	   1
+Melander 79 b	   1
 Melander 800	   1
 Melander 801	   1
 Melander 802	   1
@@ -2294,6 +2291,7 @@ Melander 807	   1
 Melander 808	   1
 Melander 809	   1
 Melander 81	   1
+Melander 8(1)	   1
 Melander 810	   1
 Melander 813	   1
 Melander 814	   1
@@ -2321,8 +2319,8 @@ Melander 842	   1
 Melander 843	   1
 Melander 848(2)	   1
 Melander 849	   1
-Melander 85, 107 ja 109(2)	   1
 Melander 850	   1
+Melander 85, 107 ja 109(2)	   1
 Melander 851. - SKB 72	   1
 Melander 852	   1
 Melander 853	   1
@@ -2387,10 +2385,10 @@ Melander 944	   1
 Melander 946	   1
 Melander 947	   1
 Melander 948	   1
-Melander 95. - SKB 2379	   1
 Melander 950. - SKB 80	   1
 Melander 951	   1
 Melander 953	   1
+Melander 95. - SKB 2379	   1
 Melander 960	   1
 Melander 961	   1
 Melander 962	   1
@@ -2414,22 +2412,19 @@ Melander 994	   1
 Melander 996	   1
 Melander 997	   1
 Melander 999	   1
-Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Holmberg, Eric. Program utgivna vid Åbo akademi,;Suomen kansallisbibliografia 1488-1700	   1
-Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Melander,;Program utgivna vid Åbo akademi / Eric Holmberg,;Suomen kansallisbibliografia 1488-1700	   1
-Melander,;Rämä,;SKB	   1
 Melander,;Rämä.	   1
+Melander,;Rämä,;SKB	   1
 Melander,;SKB 11	   1
 Melander,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Melander,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
+Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Holmberg, Eric. Program utgivna vid Åbo akademi,;Suomen kansallisbibliografia 1488-1700	   1
+Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Meyer 666	   1
 Ofärdsårens politiska litteratur : (ur 'Kagalens' arkiv II) / Ernst Estlander	   1
 Öfversigt af Finlands litteratur ifrån år 1542 till 1770 / Sven Gabriel Elmgren	   1
 Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
 Pipp. 1961. - Rämä 1954-1961	   1
-Pipping - Rämä	   1
-Pipping [1603 a(2)]. - Rämä 1599-1620	   1
-Pipping 100. - Rämä 100	   1
 Pipping 1000. - Rämä 1000-1020	   1
 Pipping 1001. - Rämä 1000-1020	   1
 Pipping 1002. - Rämä 1000-1020	   1
@@ -2440,7 +2435,7 @@ Pipping 1006. - Rämä 1000-1020	   1
 Pipping 1007. - Rämä 1000-1020	   1
 Pipping 1008. - Rämä 1000-1020	   1
 Pipping 1009. - Rämä 1000-1020	   1
-Pipping 101. - Hultin I s. 157. - Rämä 101. - SKB 2707	   1
+Pipping 100. - Rämä 100	   1
 Pipping 1010. - Rämä 1000-1020	   1
 Pipping 1011. - Rämä 1000-1020	   1
 Pipping 1012. - Rämä 1000-1020	   1
@@ -2450,7 +2445,7 @@ Pipping 1015. - Rämä 1000-1020	   1
 Pipping 1016. - Rämä 1000-1020	   1
 Pipping 1017. - Rämä 1000-1020	   1
 Pipping 1019. - Rämä 1000-1020	   1
-Pipping 102. - Rämä 102-103	   1
+Pipping 101. - Hultin I s. 157. - Rämä 101. - SKB 2707	   1
 Pipping 1020. - Rämä 1000-1020	   1
 Pipping 1021 a. - Rämä 1021 a-1022	   1
 Pipping 1023. - Rämä 1023-1025 a	   1
@@ -2460,6 +2455,7 @@ Pipping 1026 a. - Rämä 1026 a	   1
 Pipping 1026 b. - Rämä 1026 b 950 HYK	   1
 Pipping 1026. - Rämä 1026	   1
 Pipping 1027. - Rämä 1027-1028	   1
+Pipping 102. - Rämä 102-103	   1
 Pipping 1030. - SAJ s. 322. - Rämä 1030	   1
 Pipping 1031. - Rämä 1031-1035	   1
 Pipping 1032. - Rämä 1031-1035	   1
@@ -2480,7 +2476,6 @@ Pipping 1046. - Rämä 1045-1053	   1
 Pipping 1047. - Rämä 1045-1053	   1
 Pipping 1048. - SAJ s. 322. - Rämä 1045-1053	   1
 Pipping 1049. - Rämä 1045-1053	   1
-Pipping 105. - Rämä 105	   1
 Pipping 1050. - Rämä 1045-1053	   1
 Pipping 1051. - Rämä 1045-1053	   1
 Pipping 1052. - Rämä 1045-1053	   1
@@ -2489,7 +2484,7 @@ Pipping 1054. - Rämä 1054-1058	   1
 Pipping 1056. - Rämä 1054-1058	   1
 Pipping 1058 e. - Rämä 1054-1058	   1
 Pipping 1059. - Rämä 1059	   1
-Pipping 106. - Rämä 106-109	   1
+Pipping 105. - Rämä 105	   1
 Pipping 1060. - Rämä 1060	   1
 Pipping 1061. - Rämä 1061	   1
 Pipping 1062. - Rämä 1062-1066	   1
@@ -2514,6 +2509,7 @@ Pipping 1068 d. - Rämä 1068 d-d2	   1
 Pipping 1068 e. - Rämä 1068 e	   1
 Pipping 1068. - Rämä 1068-1068 b	   1
 Pipping 1069. - SAJ s. 322. - Rämä 1069-1070	   1
+Pipping 106. - Rämä 106-109	   1
 Pipping 1070. - Rämä 1069-1070	   1
 Pipping 1071. - Rämä 1071-1078	   1
 Pipping 1072. - Rämä 1071-1078	   1
@@ -2523,7 +2519,6 @@ Pipping 1075. - Rämä 1071-1078	   1
 Pipping 1077. - Rämä 1071-1078	   1
 Pipping 1078. - Rämä 1071-1078	   1
 Pipping 1079. - Rämä 1079	   1
-Pipping 108. - Rämä 106-109	   1
 Pipping 1080. - Rämä 1080-1084	   1
 Pipping 1081. - Rämä 1080-1084	   1
 Pipping 1083. - Rämä 1080-1084	   1
@@ -2535,7 +2530,7 @@ Pipping 1085. - Rämä 1085	   1
 Pipping 1086. - Rämä 1086-1092	   1
 Pipping 1087. - Rämä 1086-1092	   1
 Pipping 1088. - Rämä 1086-1092	   1
-Pipping 109. - Rämä 106-109	   1
+Pipping 108. - Rämä 106-109	   1
 Pipping 1090. - Rämä 1086-1092	   1
 Pipping 1091. - Rämä 1086-1092	   1
 Pipping 1092. - Rämä 1086-1092	   1
@@ -2543,7 +2538,7 @@ Pipping 1094. - Rämä 1093-1100	   1
 Pipping 1095. - Rämä 1093-1100	   1
 Pipping 1096. - Rämä 1093-1100	   1
 Pipping 1099. - Rämä 1093-1100	   1
-Pipping 110. - Rämä 110-112. - Collijn IV p. 764	   1
+Pipping 109. - Rämä 106-109	   1
 Pipping 1100. - Rämä 1093-1100	   1
 Pipping 1102. - Rämä 1101-1109	   1
 Pipping 1103. - Rämä 1101-1109	   1
@@ -2553,7 +2548,7 @@ Pipping 1106. - Rämä 1101-1109	   1
 Pipping 1107. - Rämä 1101-1109	   1
 Pipping 1108. - Rämä 1101-1109	   1
 Pipping 1109. - Rämä 1101-1109	   1
-Pipping 111. - Rämä 110-112	   1
+Pipping 110. - Rämä 110-112. - Collijn IV p. 764	   1
 Pipping 1110. - Rämä 1110	   1
 Pipping 1111. - Rämä 1111-1117	   1
 Pipping 1112. - Rämä 1111-1117	   1
@@ -2565,7 +2560,7 @@ Pipping 1117. - Rämä 1111-1117	   1
 Pipping 1118 a. - Rämä 1118 a-1120	   1
 Pipping 1118 b. - Rämä 1118 a-1120	   1
 Pipping 1118. - Rämä 1118	   1
-Pipping 112. - Rämä 110-112	   1
+Pipping 111. - Rämä 110-112	   1
 Pipping 1120. - Rämä 1118 a-1120	   1
 Pipping 1121. - Rämä 1121	   1
 Pipping 1123. - Rämä 1123-1131	   1
@@ -2575,7 +2570,7 @@ Pipping 1126. - Rämä 1126-1131	   1
 Pipping 1127. - Rämä 1123-1131	   1
 Pipping 1128. - Rämä 1123-1131	   1
 Pipping 1129. - Rämä 1123-1131	   1
-Pipping 113. - Rämä 113	   1
+Pipping 112. - Rämä 110-112	   1
 Pipping 1130. - Rämä 1123-1131	   1
 Pipping 1131. - Rämä 1123-1131	   1
 Pipping 1132. - Rämä 1132	   1
@@ -2586,7 +2581,7 @@ Pipping 1136. - Rämä 1133-1144	   1
 Pipping 1137. - Rämä 1133-1144	   1
 Pipping 1138. - Rämä 1133-1144	   1
 Pipping 1139. - Rämä 1133-1144	   1
-Pipping 114. - Rämä 114	   1
+Pipping 113. - Rämä 113	   1
 Pipping 1140. - Rämä 1133-1144	   1
 Pipping 1141. - Rämä 1133-1144	   1
 Pipping 1142. - Rämä 1133-1144	   1
@@ -2609,34 +2604,34 @@ Pipping 1148 k. - Rämä 1148 k-l	   1
 Pipping 1148 l. - Rämä 1148 l	   1
 Pipping 1148. - Rämä 1147-1148	   1
 Pipping 1149. - Rämä 1149	   1
-Pipping 115. - Rämä 115-117	   1
+Pipping 114. - Rämä 114	   1
 Pipping 1152. - Rämä 1151-1155	   1
 Pipping 1153. - Rämä 1151-1155	   1
 Pipping 1154. - Rämä 1151-1155	   1
 Pipping 1157. - Rämä 1157-1168	   1
 Pipping 1158. - Rämä 1157-1168	   1
 Pipping 1159. - Rämä 1157-1168	   1
-Pipping 116. - Rämä 115-117	   1
+Pipping 115. - Rämä 115-117	   1
 Pipping 1161. - Rämä 1157-1168	   1
 Pipping 1162 a. - Rämä 1157-1168	   1
 Pipping 1163. - Rämä 1157-1168	   1
 Pipping 1164. - Rämä 1157-1168	   1
 Pipping 1165. - Rämä 1157-1168	   1
 Pipping 1166. - Rämä 1157-1168	   1
-Pipping 117. - Rämä 115-117	   1
+Pipping 116. - Rämä 115-117	   1
 Pipping 1172. - Rämä 1171-1188	   1
 Pipping 1173. - Rämä 1171-1188	   1
 Pipping 1174. - Rämä 1171-1188	   1
 Pipping 1175. - Rämä 1171-1188	   1
 Pipping 1178. - Rämä 1171-1188	   1
 Pipping 1179. - Rämä 1171-1188	   1
+Pipping 117. - Rämä 115-117	   1
 Pipping 1180. - Rämä 1171-1188	   1
 Pipping 1181. - Rämä 1171-1188	   1
 Pipping 1182. - Rämä 1171-1188	   1
 Pipping 1183. - Rämä 1171-1188	   1
 Pipping 1187. - Rämä 1171-1188	   1
 Pipping 1188. - Rämä 1171-1188	   1
-Pipping 119. - Rämä 119-123	   1
 Pipping 1190. - Rämä 1190-1191 a	   1
 Pipping 1191 a. - Rämä 1190-1192 a	   1
 Pipping 1191. - Rämä 1190-1192 a	   1
@@ -2649,8 +2644,7 @@ Pipping 1195. - Rämä 1195-1195 a	   1
 Pipping 1197. - Rämä 1196-1197	   1
 Pipping 1198 a. - Rämä 1198 a	   1
 Pipping 1198. - Rämä 1198	   1
-Pipping 12. - Rämä 12	   1
-Pipping 120. - Rämä 119-123	   1
+Pipping 119. - Rämä 119-123	   1
 Pipping 1200. - Bygdèn II:636. - Rämä 1200	   1
 Pipping 1201. - Rämä 1201	   1
 Pipping 1202. - Rämä 1202	   1
@@ -2659,8 +2653,7 @@ Pipping 1207. - Rämä 1206-1209	   1
 Pipping 1208. - Rämä 1206-1209	   1
 Pipping 1209 a. - Rämä 1209 a	   1
 Pipping 1209. - Rämä 1206-1209	   1
-Pipping 121 a. - Rämä 119-123	   1
-Pipping 121. - Rämä 119-123	   1
+Pipping 120. - Rämä 119-123	   1
 Pipping 1210. - Rämä 1210	   1
 Pipping 1211. - Rämä 1211	   1
 Pipping 1213. - Rämä 1213	   1
@@ -2670,7 +2663,8 @@ Pipping 1215. - SAJ s. 323. - Rämä 1215	   1
 Pipping 1216. - Rämä 1216-1220 a	   1
 Pipping 1217. - Rämä 1216-1220 a	   1
 Pipping 1218. - Rämä 1216-1220 a	   1
-Pipping 122. - Rämä 119-123	   1
+Pipping 121 a. - Rämä 119-123	   1
+Pipping 121. - Rämä 119-123	   1
 Pipping 1221. - Rämä 1221-1235	   1
 Pipping 1222. - Rämä 1221-1235	   1
 Pipping 1223. - Rämä 1221-1235	   1
@@ -2680,7 +2674,7 @@ Pipping 1226. - Rämä 1221-1235	   1
 Pipping 1227. - Rämä 1221-1235	   1
 Pipping 1228. - Rämä 1221-1235	   1
 Pipping 1229. - Rämä 1221-1235	   1
-Pipping 123. - Rämä 119-123	   1
+Pipping 122. - Rämä 119-123	   1
 Pipping 1230. - Rämä 1221-1235	   1
 Pipping 1231. - Rämä 1221-1235	   1
 Pipping 1232. - Rämä 1221-1235	   1
@@ -2691,7 +2685,7 @@ Pipping 1236. - Rämä 1236-1237	   1
 Pipping 1237. - Rämä 1236-1237	   1
 Pipping 1238. - Rämä 1238	   1
 Pipping 1239. - Rämä 1239-1241	   1
-Pipping 124. - Melander 491a, 491b. - Rämä 124, [124:1]	   1
+Pipping 123. - Rämä 119-123	   1
 Pipping 1241. - Rämä 1239-1241	   1
 Pipping 1242. - Hjelt s. 426. - Rämä 1242	   1
 Pipping 1243. - Rämä 1243-1245 h	   1
@@ -2702,6 +2696,7 @@ Pipping 1248 b. - Rämä 1248 b	   1
 Pipping 1248. - Rämä 1248	   1
 Pipping 1249 a. - Rämä 1249 a	   1
 Pipping 1249. - Rämä 1249	   1
+Pipping 124. - Melander 491a, 491b. - Rämä 124, [124:1]	   1
 Pipping 1250. - Rämä 1250	   1
 Pipping 1251. - SAJ s. 323. - Rämä 1251	   1
 Pipping 1252. - Rämä 1252	   1
@@ -2711,7 +2706,6 @@ Pipping 1256. - Rämä 1253-1271	   1
 Pipping 1257. - Rämä 1253-1271	   1
 Pipping 1258. - Rämä 1253-1271	   1
 Pipping 1259 a. - Rämä 1253-1571	   1
-Pipping 126. - Rämä 125 a-128	   1
 Pipping 1260. - Rämä 1253-1271	   1
 Pipping 1262. - Rämä 1253-1271	   1
 Pipping 1263. - Rämä 1253-1271	   1
@@ -2721,7 +2715,7 @@ Pipping 1268. - Rämä 1253-1271	   1
 Pipping 1269 a. - Rämä 1253-1271	   1
 Pipping 1269 b. - Rämä 1253-1271	   1
 Pipping 1269. - Rämä 1253-1271	   1
-Pipping 127. - Rämä 125 a-128	   1
+Pipping 126. - Rämä 125 a-128	   1
 Pipping 1270. - Rämä 1253-1271	   1
 Pipping 1271. - Rämä 1253-1271	   1
 Pipping 1272. - Rämä 1272	   1
@@ -2736,7 +2730,7 @@ Pipping 1276 f. - Rämä 1276 a-g	   1
 Pipping 1276 g. - Rämä 1276 a-g	   1
 Pipping 1278. - Rämä 1278-1288	   1
 Pipping 1279. - Rämä 1278-1288	   1
-Pipping 128. - Rämä 125 a-128	   1
+Pipping 127. - Rämä 125 a-128	   1
 Pipping 1280. - SAJ s. 324. - Rämä 1278-1288	   1
 Pipping 1281. - Rämä 1278-1288	   1
 Pipping 1282. - Rämä 1278-1288	   1
@@ -2745,7 +2739,7 @@ Pipping 1284. - Rämä 1278-1288	   1
 Pipping 1287. - Rämä 1278-1288	   1
 Pipping 1288. - Rämä 1278-1288	   1
 Pipping 1289. - Vallinkoski 352. - Rämä 1289	   1
-Pipping 129. - Rämä 129	   1
+Pipping 128. - Rämä 125 a-128	   1
 Pipping 1290. - Rämä 1290-1295	   1
 Pipping 1291. - Rämä 1290-1295	   1
 Pipping 1292. - Rämä 1290-1295	   1
@@ -2758,7 +2752,8 @@ Pipping 1296. - Rämä 1296-1300	   1
 Pipping 1297. - Rämä 1296-1300	   1
 Pipping 1298. - Rämä 1296-1300	   1
 Pipping 1299. - Rämä 1296-1300	   1
-Pipping 130. - Rämä 130-131	   1
+Pipping 129. - Rämä 129	   1
+Pipping 12. - Rämä 12	   1
 Pipping 1300 a. - Rämä 1300 a	   1
 Pipping 1300 b. - Rämä 1300 b-c	   1
 Pipping 1300 c. - Rämä 1300 b-c	   1
@@ -2773,11 +2768,7 @@ Pipping 1305. - Rämä 1301-1305	   1
 Pipping 1306. - Rämä 1306-1308	   1
 Pipping 1307. - Rämä 1306-1308	   1
 Pipping 1308. - Rämä 1306-1308	   1
-Pipping 131 f. - Collijn IV p. 49. - Rämä 131 f	   1
-Pipping 131 g. - Rämä 131 g-h	   1
-Pipping 131 h. - Rämä 131 g-h	   1
-Pipping 131 i. - Collijn IV p. 49. - Rämä 131 i	   1
-Pipping 131. - Collijn IV p. 49. - Rämä 131	   1
+Pipping 130. - Rämä 130-131	   1
 Pipping 1310. - Rämä 1310-1316 a	   1
 Pipping 1311. - Rämä 1310-1316 a	   1
 Pipping 1312. - Rämä 1310-1316 a	   1
@@ -2789,10 +2780,11 @@ Pipping 1316 b. - Rämä 1316 b	   1
 Pipping 1316. - Rämä 1310-1316 a	   1
 Pipping 1318. - SAJ s. 324. - Rämä 1317-1325	   1
 Pipping 1319. - Rämä 1317-1325	   1
-Pipping 132 a. - Rämä 132 a	   1
-Pipping 132 b. - Rämä 132 b	   1
-Pipping 132 c. - Rämä 132 c	   1
-Pipping 132. - Rämä 132	   1
+Pipping 131. - Collijn IV p. 49. - Rämä 131	   1
+Pipping 131 f. - Collijn IV p. 49. - Rämä 131 f	   1
+Pipping 131 g. - Rämä 131 g-h	   1
+Pipping 131 h. - Rämä 131 g-h	   1
+Pipping 131 i. - Collijn IV p. 49. - Rämä 131 i	   1
 Pipping 1320. - Rämä 1317-1325	   1
 Pipping 1321. - Rämä 1317-1325	   1
 Pipping 1323. - Rämä 1317-1325	   1
@@ -2800,14 +2792,30 @@ Pipping 1324. - Rämä 1317-1325	   1
 Pipping 1325. - Rämä 1317-1325	   1
 Pipping 1328. - Rämä 1328-1330	   1
 Pipping 1329. - Rämä 1328-1330	   1
-Pipping 133 ∫;Rämä 133 ∫	   1
+Pipping 132 a. - Rämä 132 a	   1
+Pipping 132 b. - Rämä 132 b	   1
+Pipping 132 c. - Rämä 132 c	   1
+Pipping 132. - Rämä 132	   1
+Pipping 1330. - Rämä 1328-1330	   1
+Pipping 1331 a. - Rämä 1331 -1331 a	   1
+Pipping 1331 c. - Rämä 1331 b-c	   1
+Pipping 1331 d. - Rämä 1331 d-e	   1
+Pipping 1331 d. - Rämä (toim.) 1331 d-e	   1
+Pipping 1331 e. - Rämä 1331 d-e	   1
+Pipping. 1331 g. - Rämä 1331 g	   1
+Pipping 1331. - Rämä 1331-1331 a	   1
+Pipping 1333. - SAJ s. 324. - Rämä 1332-1333	   1
+Pipping 1335. - Rämä 1335-1337	   1
+Pipping 1336. - Rämä 1335-1337	   1
+Pipping 1337. - Rämä 1335-1337	   1
+Pipping 1339. - Rämä 1339-1348	   1
+Pipping 133 a2 (s. 731). - Rämä 133 a2	   1
+Pipping 133 aa. - Rämä 133 aa	   1
 Pipping 133 a. - Rämä 133 a	   1
 Pipping 133 å. - Rämä 133 å	   1
 Pipping 133 ä. - Rämä 133 ä	   1
-Pipping 133 a2 (s. 731). - Rämä 133 a2	   1
-Pipping 133 aa. - Rämä 133 aa	   1
-Pipping 133 b. - Rämä 133 b	   1
 Pipping 133 b2. - Rämä 133 b2	   1
+Pipping 133 b. - Rämä 133 b	   1
 Pipping 133 c. - Rämä 133 c	   1
 Pipping 133 d. - Rämä 133 d	   1
 Pipping 133 e. - Rämä 133 e	   1
@@ -2822,6 +2830,8 @@ Pipping 133 n. - Rämä 133 n-o	   1
 Pipping 133 o. - Rämä 133 n-o	   1
 Pipping 133 ö. - Rämä 133 ö	   1
 Pipping 133 p. - Rämä 133 p-r	   1
+Pipping 133 ∫;Rämä 133 ∫	   1
+Pipping 133. - Rämä 133	   1
 Pipping 133 r. - Rämä 133 p-r	   1
 Pipping 133 t. - Rämä 133 t-w	   1
 Pipping 133 u. - Rämä 133 t-w	   1
@@ -2829,20 +2839,6 @@ Pipping 133 v. - Rämä 133 t-w	   1
 Pipping 133 w. - Rämä 133 t-w	   1
 Pipping 133 y. - Rämä 133 y	   1
 Pipping 133 z. - Rämä 133 z	   1
-Pipping 133. - Rämä 133	   1
-Pipping 1330. - Rämä 1328-1330	   1
-Pipping 1331 a. - Rämä 1331 -1331 a	   1
-Pipping 1331 c. - Rämä 1331 b-c	   1
-Pipping 1331 d. - Rämä (toim.) 1331 d-e	   1
-Pipping 1331 d. - Rämä 1331 d-e	   1
-Pipping 1331 e. - Rämä 1331 d-e	   1
-Pipping 1331. - Rämä 1331-1331 a	   1
-Pipping 1333. - SAJ s. 324. - Rämä 1332-1333	   1
-Pipping 1335. - Rämä 1335-1337	   1
-Pipping 1336. - Rämä 1335-1337	   1
-Pipping 1337. - Rämä 1335-1337	   1
-Pipping 1339. - Rämä 1339-1348	   1
-Pipping 134. - Rämä 134	   1
 Pipping 1340. - Rämä 1339-1348	   1
 Pipping 1341. - Rämä 1339-1348	   1
 Pipping 1342. - Rämä 1339-1348	   1
@@ -2852,7 +2848,7 @@ Pipping 1346. - Rämä 1339-1348	   1
 Pipping 1347. - Hjelt s. 426. - Rämä 1339-1348	   1
 Pipping 1348. - Rämä 1339-1348	   1
 Pipping 1349 a. - Rämä 1349-1349 a	   1
-Pipping 135. - Rämä 134-142	   1
+Pipping 134. - Rämä 134	   1
 Pipping 1350 a. - Rämä 1350-1350 c	   1
 Pipping 1350 b. - Rämä 1350-1350 c	   1
 Pipping 1350 c. - Rämä 1350-1350 c	   1
@@ -2866,7 +2862,7 @@ Pipping 1356. - Rämä 1353-1356	   1
 Pipping 1357. - Rämä 1357	   1
 Pipping 1358. - Rämä 1358-1370	   1
 Pipping 1359. - Rämä 1358-1370	   1
-Pipping 136. - Rämä 134-142	   1
+Pipping 135. - Rämä 134-142	   1
 Pipping 1360. - Rämä 1358-1370	   1
 Pipping 1361. - Rämä 1358-1370	   1
 Pipping 1364. - Rämä 1358-1370	   1
@@ -2875,7 +2871,7 @@ Pipping 1366. - Rämä 1358-1370	   1
 Pipping 1367. - Rämä 1358-1370	   1
 Pipping 1368. - Rämä 1358-1370	   1
 Pipping 1369. - SAJ s. 324. - Rämä 1358-1370	   1
-Pipping 137. - Collijn IV p. 150-151. - Rämä 137. - SKB 822	   1
+Pipping 136. - Rämä 134-142	   1
 Pipping 1370. - Rämä 1358-1370	   1
 Pipping 1371 a. - Rämä 1371 a-1375	   1
 Pipping 1372. - Rämä 1371 a-1375	   1
@@ -2885,7 +2881,7 @@ Pipping 1375. - Rämä 1371 a-1375. - Hultin s. 174	   1
 Pipping 1376. - Rämä 1376	   1
 Pipping 1377. - Kaarna & Winter 917. - Rämä 1377-1389	   1
 Pipping 1378. - Kaarna & Winter 917. - Rämä 1377-1389	   1
-Pipping 138. - Rämä 134-142	   1
+Pipping 137. - Collijn IV p. 150-151. - Rämä 137. - SKB 822	   1
 Pipping 1380. - Rämä 1377-1389	   1
 Pipping 1381. - Rämä 1377-1389	   1
 Pipping 1382. - Rämä 1377-1389	   1
@@ -2898,7 +2894,7 @@ Pipping 1388. - Rämä 1377-1389	   1
 Pipping 1389 a. - Rämä 1389 a	   1
 Pipping 1389 b. - Rämä 1389 b-1391	   1
 Pipping 1389. - Rämä 1377-1389	   1
-Pipping 139. - Rämä 134-142	   1
+Pipping 138. - Rämä 134-142	   1
 Pipping 1390. - Rämä 1389 b-1391	   1
 Pipping 1391. - Rämä 1389 b-1391	   1
 Pipping 1392 a. - Rämä 1392 a	   1
@@ -2908,7 +2904,7 @@ Pipping 1395. - Rämä 1394-1405	   1
 Pipping 1397. - Rämä 1394-1405	   1
 Pipping 1398. - Rämä 1994-1405	   1
 Pipping 1399. - Rämä 1394-1405	   1
-Pipping 140. - Rämä 134-142	   1
+Pipping 139. - Rämä 134-142	   1
 Pipping 1400. - Rämä 1394-1405	   1
 Pipping 1401. - Rämä 1394-1405	   1
 Pipping 1402. - SAJ s. 324. - Rämä 1394-1405	   1
@@ -2922,7 +2918,7 @@ Pipping 1407. - Rämä 1407	   1
 Pipping 1408. - Rämä 1408	   1
 Pipping 1409 a. - Rämä 1409	   1
 Pipping 1409. - Rämä 1409	   1
-Pipping 141. - Melander 517. - Rämä 135-142	   1
+Pipping 140. - Rämä 134-142	   1
 Pipping 1410 a. - Rämä 1410 a	   1
 Pipping 1410 c. - Rämä 1410 c	   1
 Pipping 1411. - Rämä 1411-1416 a	   1
@@ -2934,6 +2930,7 @@ Pipping 1416 a. - Rämä 1411-1416 a	   1
 Pipping 1416. - Rämä 1411-1416 a	   1
 Pipping 1418. - Rämä 1418-1425	   1
 Pipping 1419. - 1418-1425	   1
+Pipping 141. - Melander 517. - Rämä 135-142	   1
 Pipping 1420. - Rämä 1418-1425	   1
 Pipping 1421 b. - Rämä 1418-1425	   1
 Pipping 1422. - Rämä 1418-1425	   1
@@ -2965,7 +2962,6 @@ Pipping 1437 a. - Rämä 1436-1437	   1
 Pipping 1437. - Rämä (toim.) 1436-1437	   1
 Pipping 1438. - Rämä 1438-1448	   1
 Pipping 1439. - Rämä 1438-1448	   1
-Pipping 144. - Melander 536. - Rämä 144	   1
 Pipping 1440. - Rämä 1438-1448	   1
 Pipping 1441. - Rämä 1438-1448	   1
 Pipping 1443. - Rämä 1438-1448	   1
@@ -2974,7 +2970,7 @@ Pipping 1445.- Rämä 1438-1448	   1
 Pipping 1446. - Rämä 1438-1448	   1
 Pipping 1447. - 1438-1448	   1
 Pipping 1448. - Rämä 1438-1448	   1
-Pipping 145. - Rämä 145	   1
+Pipping 144. - Melander 536. - Rämä 144	   1
 Pipping 1450. - Rämä 1450-1453	   1
 Pipping 1451. - SAJ s. 325. - Rämä 1450-1453	   1
 Pipping 1452. - Rämä 1450-1453	   1
@@ -2984,7 +2980,7 @@ Pipping 1458. - Rämä 1456-1459 b	   1
 Pipping 1459 a. - Rämä 1456-1459 b	   1
 Pipping 1459 b. - Rämä 1456-1459 b	   1
 Pipping 1459. - Rämä 1456-1459 b	   1
-Pipping 146. - Rämä 146	   1
+Pipping 145. - Rämä 145	   1
 Pipping 1460 a. - Rämä 1460 a-1461	   1
 Pipping 1460 b. - Rämä 1460 a-1461	   1
 Pipping 1460 c. - Rämä 1460 a-1461	   1
@@ -2994,7 +2990,7 @@ Pipping 1466. - SAJ s. 325. - Rämä 1463-1469	   1
 Pipping 1467. - Rämä 1463-1469	   1
 Pipping 1468. - Rämä 1463-1469	   1
 Pipping 1469. - Rämä 1463-1469	   1
-Pipping 147. - Rämä 147-148	   1
+Pipping 146. - Rämä 146	   1
 Pipping 1470. - Rämä 1470	   1
 Pipping 1471. - Rämä 1471	   1
 Pipping 1472. - Rämä 1472	   1
@@ -3005,7 +3001,7 @@ Pipping 1477. - Rämä 1475-1480	   1
 Pipping 1479 a. - Rämä 1475-1480	   1
 Pipping 1479 b. - Rämä 1475-1480	   1
 Pipping 1479. - Rämä 1475-1480	   1
-Pipping 148. - Rämä 147-148	   1
+Pipping 147. - Rämä 147-148	   1
 Pipping 1480. - Rämä 1475-1480	   1
 Pipping 1482. - 1481-1488	   1
 Pipping 1483. - Rämä 1481-1488	   1
@@ -3015,7 +3011,7 @@ Pipping 1488 a. - Rämä 1488 a-b	   1
 Pipping 1488 b. - Rämä 1488 a-b	   1
 Pipping 1488. - Rämä 1481-1488	   1
 Pipping 1489. - Rämä 1489	   1
-Pipping 149. - Collijn IV p. 474. - Rämä 149	   1
+Pipping 148. - Rämä 147-148	   1
 Pipping 1491. - Rämä 1491-1492 b	   1
 Pipping 1492 a. - Rämä 1491-1492 b	   1
 Pipping 1492 d. - Rämä 1492 d-i	   1
@@ -3027,8 +3023,7 @@ Pipping 1494. - Rämä 1494	   1
 Pipping 1496. - Rämä 1495-1499	   1
 Pipping 1498. - Rämä 1495-1499	   1
 Pipping 1499. - Rämä 1495-1499	   1
-Pipping 15. - Vasenius s. 174. - Kilpi 14. - Collijn III s. 3-5. - Rämä 15. - SKB 1115	   1
-Pipping 150 ja s. 730. - Rämä [15 b], 150	   1
+Pipping 149. - Collijn IV p. 474. - Rämä 149	   1
 Pipping 1501. - SAJ s. 325. - Rämä 1500-1503	   1
 Pipping 1502. - Rämä 1500-1503	   1
 Pipping 1503 a. - Rämä 1503 a-1506	   1
@@ -3037,7 +3032,7 @@ Pipping 1503. - Rämä 1500-1503	   1
 Pipping 1504. - Rämä 1503 a-1506	   1
 Pipping 1508. - Rämä 1508-1514	   1
 Pipping 1509. - 1508-1514	   1
-Pipping 151. - Rämä 151	   1
+Pipping 150 ja s. 730. - Rämä [15 b], 150	   1
 Pipping 1510. - Rämä 1508-1514	   1
 Pipping 1511. - 1508-1514	   1
 Pipping 1512. - Rämä 1508-1514	   1
@@ -3050,6 +3045,7 @@ Pipping 1518 c. - Rämä 1518 c-e	   1
 Pipping 1518 e. - Rämä 1518 c-e	   1
 Pipping 1518 g. - Rämä 1518 f-h	   1
 Pipping 1519. - Rämä 1519	   1
+Pipping 151. - Rämä 151	   1
 Pipping 1520 a. - Rämä 1520 a-1521 a	   1
 Pipping 1520 b. - Rämä 1520 a-1521 a	   1
 Pipping 1521 a. - Rämä 1520 a-1521 a	   1
@@ -3064,7 +3060,6 @@ Pipping 1525. - 1523 a-1528	   1
 Pipping 1526. - SAJ s. 325. - Rämä 1523 a-1528	   1
 Pipping 1527. - Rämä 1523 a-1528	   1
 Pipping 1529. - Rämä 1529-1530	   1
-Pipping 153. - Collijn IV p. 704. - Rämä 153	   1
 Pipping 1530. - Rämä 1529-1530	   1
 Pipping 1531 a. - Rämä 1531-1532 b	   1
 Pipping 1531. - Rämä 1531-1532 b	   1
@@ -3074,7 +3069,7 @@ Pipping 1534. - Rämä 1534	   1
 Pipping 1535. - SAJ s. 326. - Rämä 1535-1537	   1
 Pipping 1536. - Rämä 1535-1537	   1
 Pipping 1537. - Rämä 1535-1537	   1
-Pipping 154. - Rämä 154-155	   1
+Pipping 153. - Collijn IV p. 704. - Rämä 153	   1
 Pipping 1540 a. - Rämä 1540-1540 a	   1
 Pipping 1540 c. - Rämä 1540 c	   1
 Pipping 1540 h. - Ei Rämä	   1
@@ -3094,7 +3089,7 @@ Pipping 1546. - Rämä 1545-1548	   1
 Pipping 1547. - Rämä 1545-1548	   1
 Pipping 1548. - Rämä 1545-1548	   1
 Pipping 1549. - Rämä 1549-1553	   1
-Pipping 155. - Rämä 154-155	   1
+Pipping 154. - Rämä 154-155	   1
 Pipping 1550. - Rämä 1549-1553	   1
 Pipping 1551. - Rämä 1549-1553	   1
 Pipping 1552. - SAJ s. 326. - Rämä 1549-1553	   1
@@ -3115,7 +3110,7 @@ Pipping 1558 e. - Rämä 1558 c-f	   1
 Pipping 1558 f. - Rämä 1558 c-f	   1
 Pipping 1559 a. - Rämä 1559 a-1561	   1
 Pipping 1559. - Rämä 1559	   1
-Pipping 156. - Rämä 156	   1
+Pipping 155. - Rämä 154-155	   1
 Pipping 1560. - Rämä 1559 a-1561	   1
 Pipping 1561. - Rämä 1559 a-1561	   1
 Pipping 1562. - Rämä 1562	   1
@@ -3125,6 +3120,7 @@ Pipping 1563 c. - Rämä 1563 b-1566	   1
 Pipping 1563. - Rämä 1563	   1
 Pipping 1564. - Rämä 1563 b-1566	   1
 Pipping 1568. - Rämä 1568	   1
+Pipping 156. - Rämä 156	   1
 Pipping 1570. - SAJ s. 326. - Rämä 1570-1574	   1
 Pipping 1571. - Rämä 1570-1574	   1
 Pipping 1572. - Rämä 1570-1574	   1
@@ -3135,7 +3131,6 @@ Pipping 1576. - Rämä 1576	   1
 Pipping 1577. - Rämä 1577	   1
 Pipping 1578. - Rämä 1577-1578	   1
 Pipping 1579. - Rämä 1579	   1
-Pipping 158. - Collijn IV p. 135. - Rämä 158. - SKB 2689	   1
 Pipping 1580. - Rämä 1580	   1
 Pipping 1581 a. - Rämä 1581-1583	   1
 Pipping 1581 b. - Rämä 1581-1583	   1
@@ -3145,40 +3140,41 @@ Pipping 1583. - Rämä 1581-1583	   1
 Pipping 1586. - SAJ s. 326. - Rämä 1585-1590	   1
 Pipping 1588. - Rämä 1588-1590	   1
 Pipping 1589. - Rämä 1585-1590	   1
-Pipping 159 a. - Rämä 159 a	   1
-Pipping 159 c. - Rämä 159 c	   1
-Pipping 159 e;Rämä	   1
-Pipping 159 f. - Rämä 159 f	   1
-Pipping 159. - Rämä 159	   1
+Pipping 158. - Collijn IV p. 135. - Rämä 158. - SKB 2689	   1
 Pipping 1590. - Rämä 1585-1590	   1
 Pipping 1591 a. - Rämä 1591 a	   1
 Pipping 1591. - Rämä 1591	   1
 Pipping 1592. - Rämä 1592	   1
-Pipping 1594 b. - Rämä 1594 a-b	   1
 Pipping 1594-1594 a. - Rämä 1594-1594 a-b	   1
+Pipping 1594 b. - Rämä 1594 a-b	   1
 Pipping 1595. - Rämä 1595-1596	   1
 Pipping 1596. - Rämä 1595-1596	   1
 Pipping 1598 a. - Rämä 1598 a	   1
 Pipping 1598. - Rämä 1598	   1
 Pipping 1599. - Rämä 1599-1620	   1
-Pipping 16. - Vasenius s. 120. - Kilpi 15. - Collijn III s. 5-6. - Rämä 16	   1
-Pipping 160 b. - Rämä 160 b-c	   1
-Pipping 160 c. - Rämä 160 b-c	   1
-Pipping 160 d. - Rämä 160 d	   1
-Pipping 160 e. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 35	   1
-Pipping 160. - Rämä 160	   1
+Pipping 159 a. - Rämä 159 a	   1
+Pipping 159 c. - Rämä 159 c	   1
+Pipping 159 e;Rämä	   1
+Pipping 159 f. - Rämä 159 f	   1
+Pipping 159. - Rämä 159	   1
+Pipping 15. - Vasenius s. 174. - Kilpi 14. - Collijn III s. 3-5. - Rämä 15. - SKB 1115	   1
 Pipping 1600. - Rämä 1599-1620	   1
 Pipping 1601. - Rämä 1599-1620	   1
 Pipping 1602 a. - Rämä 1599-1620	   1
-Pipping 1603. - Rämä (toim.) 1599-1620	   1
+Pipping [1603 a(2)]. - Rämä 1599-1620	   1
 Pipping 1603. - Rämä 1599-1620	   1
+Pipping 1603. - Rämä (toim.) 1599-1620	   1
 Pipping 1604. - Rämä 1599-1620	   1
 Pipping 1605. - Rämä 1599-1620	   1
 Pipping 1606. - Rämä 1599-1620	   1
 Pipping 1607. - Rämä 1599-1620	   1
 Pipping 1608. - Rämä 1599-1620	   1
 Pipping 1609. - Rämä 1599-1620	   1
-Pipping 161. - Rämä 161-163	   1
+Pipping 160 b. - Rämä 160 b-c	   1
+Pipping 160 c. - Rämä 160 b-c	   1
+Pipping 160 d. - Rämä 160 d	   1
+Pipping 160 e. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 35	   1
+Pipping 160. - Rämä 160	   1
 Pipping 1610. - Rämä 1599-1620	   1
 Pipping 1611. - Rämä 1599-1620	   1
 Pipping 1613. - Rämä 1599-1620	   1
@@ -3187,7 +3183,7 @@ Pipping 1615. - Rämä 1599-1620	   1
 Pipping 1617. - SAJ s. 326. - Rämä 1599-1620	   1
 Pipping 1618. - Rämä 1599-1620	   1
 Pipping 1619. - Rämä 1599-1620	   1
-Pipping 162. - Rämä 161-163	   1
+Pipping 161. - Rämä 161-163	   1
 Pipping 1623 a. - Rämä 1623 a	   1
 Pipping 1623 b. - Rämä 1623 b-d	   1
 Pipping 1623. - Rämä 1623. - Hultin s. 183	   1
@@ -3197,6 +3193,7 @@ Pipping 1626 b. - Rämä 1626-1640 a	   1
 Pipping 1626 c. - Rämä 1626-1640 a	   1
 Pipping 1626. - Rämä 1626-1640 a	   1
 Pipping 1629. - Rämä 1626-1640 a	   1
+Pipping 162. - Rämä 161-163	   1
 Pipping 1630. - Rämä 1626-1640 a	   1
 Pipping 1631. - Rämä 1626-1640 a	   1
 Pipping 1632. - Rämä 1626-1640 a	   1
@@ -3226,9 +3223,6 @@ Pipping 1648 b. - Rämä 1645-1648 b	   1
 Pipping 1648 d. - Rämä 1648 d	   1
 Pipping 1648. - Rämä 1645-1648 b	   1
 Pipping 1649. - Rämä 1649-1656	   1
-Pipping 165 a. - Rämä 165 a	   1
-Pipping 165 c. - Rämä 165 c	   1
-Pipping 165. - Rämä 165	   1
 Pipping 1650. - Rämä 1649-1656	   1
 Pipping 1651. - Rämä 1649-1656	   1
 Pipping 1652. - Rämä 1649-1656	   1
@@ -3243,7 +3237,9 @@ Pipping 1657. - Rämä 1657	   1
 Pipping 1658 a. - Rämä 1658 a-b	   1
 Pipping 1658 b. - Rämä 1658 a-b	   1
 Pipping 1658. - Rämä 1658	   1
-Pipping 166. - Rämä 166-171	   1
+Pipping 165 a. - Rämä 165 a	   1
+Pipping 165 c. - Rämä 165 c	   1
+Pipping 165. - Rämä 165	   1
 Pipping 1660. - Rämä 1660-1661 a	   1
 Pipping 1661 a. - Rämä 1660-1661 a	   1
 Pipping 1661. - Rämä 1660-1661 a	   1
@@ -3260,7 +3256,7 @@ Pipping 1666. - Rämä 1664 b-1670	   1
 Pipping 1667. - Rämä 1664 b-1670	   1
 Pipping 1668. - Rämä 1664 b-1670	   1
 Pipping 1669. - Rämä 1664 b-1670	   1
-Pipping 167. - Rämä 166-171	   1
+Pipping 166. - Rämä 166-171	   1
 Pipping 1670. - Rämä 1664 b-1670	   1
 Pipping 1671. - Rämä 1671	   1
 Pipping 1672. - Rämä 1672-1673	   1
@@ -3270,7 +3266,7 @@ Pipping 1676. - Rämä 1676-1680	   1
 Pipping 1677. - Rämä 1676-1680	   1
 Pipping 1678. - Rämä 1676-1680	   1
 Pipping 1679. - Rämä 1676-1680	   1
-Pipping 168. - Rämä 166-171	   1
+Pipping 167. - Rämä 166-171	   1
 Pipping 1680. - Rämä 1676-1680	   1
 Pipping 1681 a. - Rämä 1681-1681 c	   1
 Pipping 1681 b. - Rämä 1681-1681 c	   1
@@ -3289,16 +3285,15 @@ Pipping 1686 a. - Rämä 1685-1694	   1
 Pipping 1686. - Rämä 1685-1694	   1
 Pipping 1688. - Rämä 1685-1694	   1
 Pipping 1689. - Rämä 1685-1694	   1
-Pipping 169 a. - Rämä 166-171	   1
-Pipping 169. - Rämä 166-171	   1
+Pipping 168. - Rämä 166-171	   1
 Pipping 1690. - SAJ s. 327. - Rämä 1685-1694	   1
 Pipping 1692. - Rämä 1685-1694	   1
 Pipping 1695. - Rämä 1695	   1
 Pipping 1697. - SAJ s. 327. - Rämä 1697-1700	   1
 Pipping 1698. - Rämä 1697-1700	   1
-Pipping 17 a. - Kilpi 26. - Collijn IV p. 702. - Rämä 17 a	   1
-Pipping 17. - Vasenius s. 28. - Kilpi 16. - Rämä 17	   1
-Pipping 170. - Rämä 166-171	   1
+Pipping 169 a. - Rämä 166-171	   1
+Pipping 169. - Rämä 166-171	   1
+Pipping 16. - Vasenius s. 120. - Kilpi 15. - Collijn III s. 5-6. - Rämä 16	   1
 Pipping 1700. - Rämä 1697-1700	   1
 Pipping 1701. - Rämä 1701	   1
 Pipping 1702 a. - Rämä 1702 a	   1
@@ -3311,7 +3306,7 @@ Pipping 1705. - Rämä 1705-1706	   1
 Pipping 1707. - Rämä 1707-1712	   1
 Pipping 1708. - Rämä 1707-1712. - Bring 758:5 (ruotsink.)	   1
 Pipping 1709. - Rämä 1707-1712. - Bring 1958 758:4 (ruotsink.)	   1
-Pipping 171. - Rämä 166-171	   1
+Pipping 170. - Rämä 166-171	   1
 Pipping 1710. - Rämä 1707-1712. - Bring 758:6 (ruotsink.)	   1
 Pipping 1711. - Rämä 1707-1712	   1
 Pipping 1712. - Rämä 1707-1712	   1
@@ -3324,6 +3319,7 @@ Pipping 1717 d. - Rämä 1717 d	   1
 Pipping 1717. - Rämä 1717	   1
 Pipping 1718. - Rämä 1718	   1
 Pipping 1719 a. - Rämä 1719 a-1725	   1
+Pipping 171. - Rämä 166-171	   1
 Pipping 1720. - Rämä 1719 a- 1725	   1
 Pipping 1721. - Rämä 1719 a-1725	   1
 Pipping 1722. - SAJ s. 327. - Rämä 1719 a-1725	   1
@@ -3342,7 +3338,6 @@ Pipping 1730. - Rämä 1728-1733 a	   1
 Pipping 1731. - Rämä 1728-1733 a	   1
 Pipping 1732. - Rämä 1728-1733 a	   1
 Pipping 1733 c. - Rämä 1733 b-d	   1
-Pipping 174. - Rämä 172-174	   1
 Pipping 1740. - SAJ s. 328. - Rämä 1734-1740	   1
 Pipping 1741. - Rämä 1741	   1
 Pipping 1742. - Rämä 1742	   1
@@ -3350,7 +3345,7 @@ Pipping 1745	   1
 Pipping 1746. - Rämä 1746	   1
 Pipping 1748. - Rämä 1748-1750	   1
 Pipping 1749. - SAJ s. 328. - Rämä 1748-1750	   1
-Pipping 175. - Collijn IV p. 549. - Rämä 175	   1
+Pipping 174. - Rämä 172-174	   1
 Pipping 1750. - Rämä 1748-1750	   1
 Pipping 1751. - Rämä 1751	   1
 Pipping 1752. - Rämä 1752	   1
@@ -3360,6 +3355,7 @@ Pipping 1755. - Rämä 1755-1758	   1
 Pipping 1756. - Rämä 1755-1758	   1
 Pipping 1757. - Rämä 1755-1758	   1
 Pipping 1758. - SAJ s. 328. - Rämä 1755-1758	   1
+Pipping 175. - Collijn IV p. 549. - Rämä 175	   1
 Pipping 1760. - Rämä 1760-1761	   1
 Pipping 1761. - Rämä 1760-1761	   1
 Pipping 1762. - Rämä 1762	   1
@@ -3369,17 +3365,16 @@ Pipping 1765. - Rämä 1765	   1
 Pipping 1766. - Rämä 1766	   1
 Pipping 1767. - Hjelt s. 151. - Rämä (toim.) 1767	   1
 Pipping 1769 b. - Rämä 1769 a-b	   1
-Pipping 177. - Rämä 177	   1
 Pipping 1773 a. - Rämä 1771-1786 a	   1
 Pipping 1773. - Rämä 1771-1786 a	   1
 Pipping 1774. - Rämä 1771-1786 a	   1
 Pipping 1775. - Rämä 1771-1786 a	   1
 Pipping 1776. - Rämä 1771-1786 a	   1
 Pipping 1777. - Rämä 1771-1786 a	   1
-Pipping 1778. - Rämä (toim.) 1778-1779	   1
 Pipping 1778. - Rämä 1788-1789	   1
+Pipping 1778. - Rämä (toim.) 1778-1779	   1
 Pipping 1779. - Rämä 1793-1799	   1
-Pipping 178. - Rämä 178	   1
+Pipping 177. - Rämä 177	   1
 Pipping 1780. - Rämä 1771-1786 a	   1
 Pipping 1781. - Rämä 1771-17886 a	   1
 Pipping 1782. - Rämä 1771-1786 a	   1
@@ -3388,7 +3383,7 @@ Pipping 1786 a. - Rämä 1771-1786 a	   1
 Pipping 1786. - Rämä 1771-1786 a	   1
 Pipping 1788. - Rämä 1788-1789	   1
 Pipping 1789. - Rämä 1788-1789	   1
-Pipping 179. - Rämä 179-180	   1
+Pipping 178. - Rämä 178	   1
 Pipping 1790. - Rämä 1790	   1
 Pipping 1793. - Rämä 1793-1799	   1
 Pipping 1794. - Rämä 1793-1799	   1
@@ -3396,9 +3391,9 @@ Pipping 1795. - Rämä 1793-1799	   1
 Pipping 1796. - SAJ s. 329. - Rämä 1793-1799	   1
 Pipping 1797. - Rämä 1793-1799	   1
 Pipping 1799. - Rämä 1793-1799	   1
-Pipping 18. - Collijn III s. 97-98. - Melander 29. - Rämä 18. - SKB 3385	   1
-Pipping 180 a. - Rämä 180 a	   1
-Pipping 180. - Rämä 179-180	   1
+Pipping 179. - Rämä 179-180	   1
+Pipping 17 a. - Kilpi 26. - Collijn IV p. 702. - Rämä 17 a	   1
+Pipping 17. - Vasenius s. 28. - Kilpi 16. - Rämä 17	   1
 Pipping 1800 a. - Rämä 1800 a	   1
 Pipping 1800 b. - Rämä 1800 b	   1
 Pipping 1800. - Rämä 1800	   1
@@ -3407,7 +3402,8 @@ Pipping 1801. - Rämä 1801	   1
 Pipping 1807. - Rämä 1807	   1
 Pipping 1808. - Rämä 1808	   1
 Pipping 1809. - Rämä 1809	   1
-Pipping 181. - Rämä 181-182	   1
+Pipping 180 a. - Rämä 180 a	   1
+Pipping 180. - Rämä 179-180	   1
 Pipping 1810. - Rämä 1810	   1
 Pipping 1811. - Rämä 1811-1812	   1
 Pipping 1812. - Rämä 1811-1812	   1
@@ -3417,14 +3413,14 @@ Pipping 1816. - SAJ s. 328. - Rämä 1814-1816	   1
 Pipping 1817. - Rämä 1817-1820	   1
 Pipping 1818. - Rämä 1817-1820	   1
 Pipping 1819. - Rämä 1817-1820	   1
-Pipping 182. - Rämä 181-182	   1
+Pipping 181. - Rämä 181-182	   1
 Pipping 1821	   1
 Pipping 1822. - Rämä 1822-1825	   1
 Pipping 1824. - Rämä 1822-1825	   1
 Pipping 1825. - Rämä 1822-1825	   1
 Pipping 1828. - SAJ s. 329. - Rämä 1828-1830	   1
 Pipping 1829. - Rämä 1828-1830	   1
-Pipping 183. - Rämä 183	   1
+Pipping 182. - Rämä 181-182	   1
 Pipping 1830. - Rämä 1828-1830	   1
 Pipping 1831. - Rämä 1831	   1
 Pipping 1833. - Rämä 1832-1845	   1
@@ -3433,7 +3429,7 @@ Pipping 1835. - Rämä 1832-1845	   1
 Pipping 1836. - Rämä 1832-1845	   1
 Pipping 1837. - Rämä 1832-1845	   1
 Pipping 1839. - Rämä 1832-1845	   1
-Pipping 184. - Rämä 184	   1
+Pipping 183. - Rämä 183	   1
 Pipping 1840. - Rämä 1832-1845	   1
 Pipping 1841. - Rämä 1832-1845	   1
 Pipping 1842. - SAJ s. 329. - Rämä 1832-1845	   1
@@ -3443,33 +3439,33 @@ Pipping 1845. - Vasenius s. 23. - Rämä 1832-1845	   1
 Pipping 1847. - Rämä 1847-1851	   1
 Pipping 1848. - Rämä 1847-1851	   1
 Pipping 1849. - Rämä 1847-1851	   1
-Pipping 185. - Rämä 185	   1
+Pipping 184. - Rämä 184	   1
 Pipping 1850. - Rämä 1847-1851	   1
 Pipping 1851. - Rämä 1847-1851	   1
 Pipping 1853. - Rämä 1853	   1
 Pipping 1858. - Rämä 1858	   1
 Pipping 1859. - Rämä 1847-1851	   1
 Pipping 1859. - Rämä 1859	   1
-Pipping 186. - Rämä 186-191	   1
+Pipping 185. - Rämä 185	   1
 Pipping 1862. - Rämä 1862	   1
 Pipping 1864. - Rämä 1864-1865	   1
 Pipping 1867. - SAJ s. 329. - Rämä 1866-1870	   1
 Pipping 1868. - Rämä 1866-1870	   1
-Pipping 187. - Rämä 186-191	   1
+Pipping 186. - Rämä 186-191	   1
 Pipping 1870. - Rämä 1866-1870	   1
 Pipping 1871. - Rämä 1871-1872	   1
 Pipping 1872. - Rämä 1871-1872	   1
 Pipping 1873. - Rämä 1873	   1
 Pipping 1875. - Rämä 1875	   1
 Pipping 1879. - Rämä 1879-1881	   1
-Pipping 188. - Rämä 186-191	   1
+Pipping 187. - Rämä 186-191	   1
 Pipping 1880. - Rämä 1879-1881	   1
 Pipping 1881. - Rämä 1879-1881	   1
 Pipping 1884. - Rämä 1882-1886	   1
 Pipping 1885. - Rämä 1882-1886	   1
 Pipping 1887 a. - Rämä 1887 a	   1
 Pipping 1888. - Rämä 1888	   1
-Pipping 189. - Rämä 186-191	   1
+Pipping 188. - Rämä 186-191	   1
 Pipping 1890. - Rämä 1890-1893	   1
 Pipping 1892. - Rämä 1890-1893	   1
 Pipping 1893	   1
@@ -3477,12 +3473,12 @@ Pipping 1894. - Rämä 1894-1895	   1
 Pipping 1895. - Rämä 1894-1895	   1
 Pipping 1898. - Rämä 1897-1906	   1
 Pipping 1899. - Rämä 1897-1906	   1
-Pipping 19. - Collijn III s. 149. - Rämä 19	   1
-Pipping 190. - Rämä 186-191	   1
+Pipping 189. - Rämä 186-191	   1
+Pipping 18. - Collijn III s. 97-98. - Melander 29. - Rämä 18. - SKB 3385	   1
 Pipping 1901. - Rämä 1897-1906	   1
 Pipping 1906. - Rämä 1897-1906	   1
 Pipping 1909. - Rämä 1908-1911	   1
-Pipping 191. - Rämä 186-191	   1
+Pipping 190. - Rämä 186-191	   1
 Pipping 1910. - Rämä 1908-1911	   1
 Pipping 1911. - Rämä 1908-1911	   1
 Pipping 1914. - Rämä 1914	   1
@@ -3490,45 +3486,46 @@ Pipping 1915. - Vallinkoski II	   1
 Pipping 1916. - Rämä 1915-1917	   1
 Pipping 1917. - Vallinkoski II	   1
 Pipping 1918	   1
-Pipping 192. - Rämä 192-193	   1
+Pipping 191. - Rämä 186-191	   1
 Pipping 1922. - Rämä 1922	   1
-Pipping 1923. - Rämä [1923:1]	   1
 Pipping 1923a (s. 745). - Rämä 1923	   1
-Pipping 193. - Rämä 192-193	   1
+Pipping 1923. - Rämä [1923:1]	   1
+Pipping 192. - Rämä 192-193	   1
 Pipping 1930. - Rämä 1930	   1
 Pipping 1931 a. - Rämä 1931 a.	   1
 Pipping 1931. - Rämä 1931	   1
 Pipping 1932. - Rämä 1932	   1
 Pipping 1936. - Rämä 1936-1937	   1
-Pipping 194 a. - Collijn IV p. 265-266. - Rämä 194 a. - SKB 1257	   1
-Pipping 194 b. - Collijn IV p. 266. - Rämä 194 b	   1
-Pipping 194. - Collijn IV p. 265-266. - Rämä 194	   1
+Pipping 193. - Rämä 192-193	   1
 Pipping 1944. - SAJ s. 330. - Rämä 143-1947	   1
 Pipping 1946. - Rämä 1943-1947	   1
 Pipping 1947. - Rämä 1943-1947	   1
 Pipping 1948. - Rämä 1948	   1
 Pipping 1949. - Rämä 1949	   1
-Pipping 195. - Rämä 195-197	   1
+Pipping 194 a. - Collijn IV p. 265-266. - Rämä 194 a. - SKB 1257	   1
+Pipping 194 b. - Collijn IV p. 266. - Rämä 194 b	   1
+Pipping 194. - Collijn IV p. 265-266. - Rämä 194	   1
 Pipping 1950. - Rämä 1950-1951	   1
 Pipping 1951. - Rämä 1951	   1
 Pipping 1953. - Rämä 1953	   1
 Pipping 1954, - Vallinkoski II	   1
 Pipping 1956. - Rämä 1954-1961	   1
-Pipping 196. - Rämä 195-197	   1
+Pipping 195. - Rämä 195-197	   1
 Pipping 1960. - Rämä 1954-1961	   1
 Pipping 1962. - Vasenius s. 88. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 238-239	   1
 Pipping 1963. - Rämä 1963	   1
-Pipping 197. - Rämä 195-197	   1
+Pipping 196. - Rämä 195-197	   1
 Pipping 1974	   1
 Pipping 1975	   1
 Pipping 1978	   1
+Pipping 197. - Rämä 195-197	   1
 Pipping 198. - Rämä 198	   1
-Pipping 199. - Rämä 199	   1
 Pipping 1990	   1
 Pipping 1992	   1
 Pipping 1995	   1
 Pipping 1997	   1
-Pipping 20. - Rämä 20	   1
+Pipping 199. - Rämä 199	   1
+Pipping 19. - Collijn III s. 149. - Rämä 19	   1
 Pipping 200. - Rämä 200-201	   1
 Pipping 201. - Melander 734. - Rämä 200-201	   1
 Pipping 202 e. - Rämä d-f	   1
@@ -3536,8 +3533,8 @@ Pipping 202 f. - Rämä 202 d-f	   1
 Pipping 203. - Rämä 203-208	   1
 Pipping 205. - Rämä 203-208	   1
 Pipping 206. - Rämä 203-208	   1
-Pipping 207. - Rämä 203-208	   1
 Pipping 2075	   1
+Pipping 207. - Rämä 203-208	   1
 Pipping 208. - Rämä 203-208	   1
 Pipping 209 2. - Rämä [388.]. - SKB 1871	   1
 Pipping 209 a. - Collijn IV p. 306. - Rämä 209 a. - SKB 1383	   1
@@ -3546,6 +3543,7 @@ Pipping 209 d. - Rämä 209 d	   1
 Pipping 209 e. - Rämä 209 e	   1
 Pipping 209 f. - Rämä 209 f	   1
 Pipping 209 g. - Rämä 209 g	   1
+Pipping 20. - Rämä 20	   1
 Pipping 210. - Rämä 210	   1
 Pipping 211. - Rämä 211	   1
 Pipping 212. - Rämä 212	   1
@@ -3555,7 +3553,6 @@ Pipping 216. - Rämä 216-221 a	   1
 Pipping 217. - Rämä 216-221 a	   1
 Pipping 218. - Rämä 216-221 a	   1
 Pipping 219. - Rämä 216-221 a	   1
-Pipping 22. - Kilpi 24. - Collijn IV p. 473. - Rämä 22	   1
 Pipping 220. - Rämä 216-221 a	   1
 Pipping 221 a. - Rämä 216-221 a	   1
 Pipping 221 b. - Rämä 221 b	   1
@@ -3568,6 +3565,7 @@ Pipping 225. - Rämä 224-233	   1
 Pipping 226. - Rämä 224-233	   1
 Pipping 228. - Rämä 224-233	   1
 Pipping 229. - Collijn IV p. 929. - Rämä 229	   1
+Pipping 22. - Kilpi 24. - Collijn IV p. 473. - Rämä 22	   1
 Pipping 230. - Collijn IV p. 133. - Rämä 224-233	   1
 Pipping 232. - Rämä 232	   1
 Pipping 233. - Hultin I s. 38. - Rämä 233. - SKB 891	   1
@@ -3578,9 +3576,9 @@ Pipping 237. - Rämä 237	   1
 Pipping 238 a. - Elmgren I s. 102. - Rämä 238-242	   1
 Pipping 238. - Rämä 238-242	   1
 Pipping 239. - Rämä 238-242	   1
-Pipping 240. - Rämä 238-242	   1
 Pipping 2403 a	   1
 Pipping 2403 b, 3045	   1
+Pipping 240. - Rämä 238-242	   1
 Pipping 241. - Rämä 238-242. - Suomen kansallisbibliografia 1488-1700, 515	   1
 Pipping 242. - Rämä 238-242	   1
 Pipping 243. - Collijn IV sp. 576-577. - Rämä 243	   1
@@ -3598,29 +3596,25 @@ Pipping 256. - Rämä 256	   1
 Pipping 257. - Hultin I s. 38. - Rämä 257. - SKB 892	   1
 Pipping 258. - Rämä 258. - SKB 2710	   1
 Pipping 259. - Rämä 259. - SKB 2708	   1
-Pipping 26. - Collijn IV p. 146. - Rämä 26	   1
 Pipping 261 a. - Rämä 261 a	   1
 Pipping 261. - Hultin I s. 144. - Rämä 261-262. - SKB 2691	   1
 Pipping 262. - Rämä 261-262	   1
 Pipping 264. - Collijn IV p. 317-318. - Rämä 264-266. - SKB 1504	   1
 Pipping 265. - Collijn IV p. 317-318. - Rämä 264-266. - SKB 1505	   1
 Pipping 266. - Rämä 264-266	   1
+Pipping 2693 a. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 197	   1
 Pipping 269 a. - Collijn IV p. 546. - Rämä 269 a	   1
 Pipping 269 b. - Collijn IV p. 546. - Rämä 269 b	   1
 Pipping 269. - Collijn IV p. 546. - Rämä 269	   1
-Pipping 2693 a. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 197	   1
-Pipping 27 a. - Collijn IV sp. 375. - Rämä 27 a	   1
-Pipping 27. - Collijn IV p. 375. - Rämä 27	   1
+Pipping 26. - Collijn IV p. 146. - Rämä 26	   1
 Pipping 270. - Rämä 270-271	   1
-Pipping 272 a?. - Rämä 272 a?	   1
 Pipping 2725 b	   1
+Pipping 272 a?. - Rämä 272 a?	   1
 Pipping 275. - Rämä 275	   1
 Pipping 277. - Rämä 276-277	   1
 Pipping 278. - Rämä 278	   1
-Pipping 28 a. - Collijn IV p. 248. - Rämä 28 a	   1
-Pipping 28 b. - Collijn IV p. 248-249. - Rämä 28 b	   1
-Pipping 28 c. - Rämä 28 c	   1
-Pipping 28. - Collijn IV p. 248. - Rämä 28	   1
+Pipping 27 a. - Collijn IV sp. 375. - Rämä 27 a	   1
+Pipping 27. - Collijn IV p. 375. - Rämä 27	   1
 Pipping 280. - Rämä 280-281	   1
 Pipping 282. - Hultin I s. 158. - Rämä 282. - SKB 2709	   1
 Pipping 283. - Rämä 283-285	   1
@@ -3633,9 +3627,12 @@ Pipping 288 g. - Rämä 288 g	   1
 Pipping 288 h. - Rämä 288 h	   1
 Pipping 288 i. - Rämä 288 i	   1
 Pipping 288, Pipping 288 a. - Rämä 288, Rämä 288 a	   1
-Pipping 289. - Hultin I s. 161. - Rämä 289. - SKB 2774	   1
 Pipping 2894. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 72	   1
-Pipping 29. - Collijn IV p. 702. - Rämä 29	   1
+Pipping 289. - Hultin I s. 161. - Rämä 289. - SKB 2774	   1
+Pipping 28 a. - Collijn IV p. 248. - Rämä 28 a	   1
+Pipping 28 b. - Collijn IV p. 248-249. - Rämä 28 b	   1
+Pipping 28. - Collijn IV p. 248. - Rämä 28	   1
+Pipping 28 c. - Rämä 28 c	   1
 Pipping 290. - Rämä 289-290	   1
 Pipping 291. - Rämä 291	   1
 Pipping 292. - Rämä 292	   1
@@ -3645,6 +3642,7 @@ Pipping 296. - Rämä 295-298	   1
 Pipping 297. - Rämä 295-298	   1
 Pipping 298. - Rämä 295-298	   1
 Pipping 299. - Rämä 299	   1
+Pipping 29. - Collijn IV p. 702. - Rämä 29	   1
 Pipping 301. - Rämä 301	   1
 Pipping 302. - Rämä 302-303 a	   1
 Pipping 303. - Collijn IV p. 187. - Rämä 303	   1
@@ -3657,12 +3655,11 @@ Pipping 313 a. - Melander 1362 b. - Rämä 313 a	   1
 Pipping 313. - Melander 1362a. - Rämä 313	   1
 Pipping 314. - Rämä 314	   1
 Pipping 316. - Rämä 316-318	   1
-Pipping 317. - Rämä 316-318	   1
 Pipping 3175	   1
 Pipping 3175. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 72	   1
+Pipping 317. - Rämä 316-318	   1
 Pipping 318. - Rämä 316-318	   1
 Pipping 319. - Hultin I s. 23. - Rämä 319. - SKB 845	   1
-Pipping 32. - Rämä 32	   1
 Pipping 321. - Rämä 321	   1
 Pipping 322 a, Pipping 421. - Rämä 322 a, Rämä 421-423	   1
 Pipping 323. - Rämä 323	   1
@@ -3671,7 +3668,7 @@ Pipping 324. - Rämä 324	   1
 Pipping 325. - Collijn IV p. 318. - Rämä 325	   1
 Pipping 326. - Rämä 325-326	   1
 Pipping 327. - Collijn IV p. 136. - Rämä 327	   1
-Pipping 33. - Collijn IV p. 546. - Rämä 33	   1
+Pipping 32. - Rämä 32	   1
 Pipping 332. - Rämä 332	   1
 Pipping 333. - Melander 1593. - Rämä 333	   1
 Pipping 334. - Rämä 334	   1
@@ -3680,16 +3677,7 @@ Pipping 336 a. - Hultin I s. 16. - Rämä 336 a-338. - SKB 333	   1
 Pipping 336. - Hultin I s. 16. - Rämä 336	   1
 Pipping 337. - Rämä 336 a-338	   1
 Pipping 338. - Rämä 336 a-338	   1
-Pipping 34 a. - Collijn IV p. 238. - Rämä 34 a	   1
-Pipping 34 b. - Rämä 34 b	   1
-Pipping 34 d. - Collijn IV p. 238. - Rämä 34 d	   1
-Pipping 34 e. - Rämä 34 e	   1
-Pipping 34 f. - Rämä 34 f	   1
-Pipping 34 g, 118. - Collijn IV p. 575. - Rämä 34 g, 118	   1
-Pipping 34 h. - Rämä 34 h	   1
-Pipping 34 i. - Collijn IV p. 238-239. - Rämä 34 i	   1
-Pipping 34 k. - Collijn IV p. 238-239. - Rämä 34 k	   1
-Pipping 34. - Collijn IV p. 238. - Rämä 34	   1
+Pipping 33. - Collijn IV p. 546. - Rämä 33	   1
 Pipping 340. - Rämä 339-340	   1
 Pipping 341. - Rämä 341-342	   1
 Pipping 342. - Rämä 341-342	   1
@@ -3702,7 +3690,16 @@ Pipping 345. - Rämä 344-345	   1
 Pipping 346. - Rämä 346	   1
 Pipping 347. - Rämä 347	   1
 Pipping 348. - Melander 1734	   1
-Pipping 35. - Collijn IV p. 473-474. - Rämä 35	   1
+Pipping 34 a. - Collijn IV p. 238. - Rämä 34 a	   1
+Pipping 34 b. - Rämä 34 b	   1
+Pipping 34. - Collijn IV p. 238. - Rämä 34	   1
+Pipping 34 d. - Collijn IV p. 238. - Rämä 34 d	   1
+Pipping 34 e. - Rämä 34 e	   1
+Pipping 34 f. - Rämä 34 f	   1
+Pipping 34 g, 118. - Collijn IV p. 575. - Rämä 34 g, 118	   1
+Pipping 34 h. - Rämä 34 h	   1
+Pipping 34 i. - Collijn IV p. 238-239. - Rämä 34 i	   1
+Pipping 34 k. - Collijn IV p. 238-239. - Rämä 34 k	   1
 Pipping 350. - Rämä 350	   1
 Pipping 351. - Rämä 351	   1
 Pipping 352. - Rämä 352-352	   1
@@ -3714,19 +3711,16 @@ Pipping 356 a. - Rämä 356 a	   1
 Pipping 356 b. - Rämä 356 b-c	   1
 Pipping 356 c. - Rämä 356 b-c	   1
 Pipping 356. - Rämä 356	   1
-Pipping 357 [s]. - Rämä 357 [s]-t	   1
-Pipping 357 å. - Rämä 357 å	   1
-Pipping 357 a. - Rämä 357-357 b	   1
+Pipping 357 aa. - Rämä 357 aa	   1
 Pipping 357 a) b. - Rämä 357 a) b	   1
 Pipping 357 a) c. - Rämä 357 a) c	   1
 Pipping 357 a) d. - Ks. myös Pipping 1437 b. - Rämä 357 a) d	   1
+Pipping 357 a. - Rämä 357-357 b	   1
 Pipping 357 a). - Rämä 357 a)	   1
-Pipping 357 aa. - Rämä 357 aa	   1
-Pipping 357 b. - Rämä 357-357 b	   1
+Pipping 357 å. - Rämä 357 å	   1
 Pipping 357 b) a	   1
+Pipping 357 b. - Rämä 357-357 b	   1
 Pipping 357 b). - Rämä 357 b)	   1
-Pipping 357 c. - Rämä 357 c	   1
-Pipping 357 c) [s]. - Rämä 357 c) r-[s]	   1
 Pipping 357 c) a. - Rämä 357 c) a	   1
 Pipping 357 c) å. - Rämä 357 c) z-ä	   1
 Pipping 357 c) ä. - Rämä 357 c) z-ä	   1
@@ -3745,7 +3739,10 @@ Pipping 357 c) n. - Rämä 357 c) n	   1
 Pipping 357 c) o. - Rämä 357 c) o	   1
 Pipping 357 c) p. - Rämä 357 c) p-q	   1
 Pipping 357 c) q. - Rämä 357 c) p-q	   1
+Pipping 357 c. - Rämä 357 c	   1
+Pipping 357 c). - Rämä 357 c)	   1
 Pipping 357 c) r. - Rämä 357 c) r-[s]	   1
+Pipping 357 c) [s]. - Rämä 357 c) r-[s]	   1
 Pipping 357 c) s. - Rämä 357 c) s	   1
 Pipping 357 c) t. - Rämä 357 c) t	   1
 Pipping 357 c) u. - Rämä 357 c) u	   1
@@ -3753,13 +3750,14 @@ Pipping 357 c) v. - Rämä 357 c) v-w	   1
 Pipping 357 c) w. - Rämä 357 c) v-w	   1
 Pipping 357 c) y. - Rämä 357 c) y	   1
 Pipping 357 c) z. - Rämä 357 c) z-ä	   1
-Pipping 357 c). - Rämä 357 c)	   1
-Pipping 357 d. - Rämä 357 d	   1
 Pipping 357 d) a. - Rämä 357 d) a-c	   1
+Pipping 357 d. - Rämä 357 d	   1
 Pipping 357 d). - Rämä 357 d) a-c	   1
 Pipping 357 e) a. - Rämä 357 e) a	   1
 Pipping 357 e). - Rämä 357 e	   1
 Pipping 357 ö. - Rämä 357 ö	   1
+Pipping 357. - Rämä 357-357 b	   1
+Pipping 357 [s]. - Rämä 357 [s]-t	   1
 Pipping 357 s. - Rämä 357 [s]-t	   1
 Pipping 357 t. - Rämä 357 [s]-t	   1
 Pipping 357 v. - Rämä 357 v	   1
@@ -3767,7 +3765,6 @@ Pipping 357 w. - Rämä 357 w	   1
 Pipping 357 x. - Rämä 357 x	   1
 Pipping 357 y. - Rämä 357 y	   1
 Pipping 357 z. - Rämä 357 z	   1
-Pipping 357. - Rämä 357-357 b	   1
 Pipping 358 a. - Rämä 358 a	   1
 Pipping 358 b. - Rämä 358 b	   1
 Pipping 358 c. - Rämä 358 c	   1
@@ -3779,8 +3776,7 @@ Pipping 358 k. - Rämä 358 f-l	   1
 Pipping 358 l. - Rämä 358 f-l	   1
 Pipping 358. - Rämä 358	   1
 Pipping 359 (mahd. sama kuin Pipping 4060). - Rämä 359 ja 4060	   1
-Pipping 36 a. - Collijn IV p. 842. - Rämä 36 a	   1
-Pipping 36. - Rämä 36	   1
+Pipping 35. - Collijn IV p. 473-474. - Rämä 35	   1
 Pipping 362	   1
 Pipping 363 a. - Melander 1732 b. - Rämä 363 a	   1
 Pipping 363. - Melander 1732 b. - Rämä 363	   1
@@ -3788,9 +3784,10 @@ Pipping 364. - Rämä 364	   1
 Pipping 366. - Rämä 366	   1
 Pipping 367. - Rämä 367	   1
 Pipping 368. - Rämä 368	   1
-Pipping 369. - Rämä 369-370	   1
 Pipping 3695 g. - Rämä 3965 f-g	   1
-Pipping 37. - Collijn IV p. 781. - Rämä 37	   1
+Pipping 369. - Rämä 369-370	   1
+Pipping 36 a. - Collijn IV p. 842. - Rämä 36 a	   1
+Pipping 36. - Rämä 36	   1
 Pipping 371 d. - Rämä 371 c-f	   1
 Pipping 371 e. - Rämä 371 c-f	   1
 Pipping 371 f. - Rämä 371 c-f	   1
@@ -3804,8 +3801,7 @@ Pipping 375. - 373-375	   1
 Pipping 376. - Rämä 376	   1
 Pipping 377. - Rämä 377	   1
 Pipping 379 = Pipping 378. - Rämä 379	   1
-Pipping 38 a. - Hultin I s. 62. - Collijn IV p. 399. - Rämä 38 a. - 1934	   1
-Pipping 38. - Hultin I s. 61. - Collijn IV p. 399. - Rämä 38. - SKB 1933	   1
+Pipping 37. - Collijn IV p. 781. - Rämä 37	   1
 Pipping 380. - SAJ s. 309. - Rämä 380	   1
 Pipping 381. - Rämä 381	   1
 Pipping 382. - Rämä 382-384	   1
@@ -3816,24 +3812,25 @@ Pipping 387. - Rämä 387	   1
 Pipping 388 a. - Rämä a	   1
 Pipping 388 b. - Rämä 388 b	   1
 Pipping 388 c. - Rämä 388 c	   1
+Pipping 388: e. - Rämä [388 e: 0]	   1
 Pipping 388 f. - Rämä 388 f	   1
 Pipping 388 g. - Rämä 388 g	   1
-Pipping 388: e. - Rämä [388 e: 0]	   1
 Pipping 388. - Rämä 388	   1
 Pipping 389. - Rämä 389	   1
+Pipping 38 a. - Hultin I s. 62. - Collijn IV p. 399. - Rämä 38 a. - 1934	   1
+Pipping 38. - Hultin I s. 61. - Collijn IV p. 399. - Rämä 38. - SKB 1933	   1
 Pipping 390. - Rämä 390	   1
 Pipping 391. - Rämä 391	   1
 Pipping 392. - Rämä 392-393	   1
 Pipping 393. - Rämä 392-393	   1
 Pipping 394. - Rämä 394-395	   1
-Pipping 395. - Rämä 394-395	   1
 Pipping 3951. - Hultin I s. 17. - Rämä 3951. - SKB 4268	   1
 Pipping 3955. - Rämä 3955	   1
 Pipping 3956 a. - Rämä 3956 a-c	   1
 Pipping 3956 b. - Rämä 3956 a-b	   1
 Pipping 3956. - Rämä 3956	   1
 Pipping 3959	   1
-Pipping 396. - SAJ s. 309. - Rämä 396	   1
+Pipping 395. - Rämä 394-395	   1
 Pipping 3964 c. - Rämä 3964 c-d	   1
 Pipping 3964 d. - Rämä 3964 c-d	   1
 Pipping 3964 f. - Rämä 3964 f	   1
@@ -3853,24 +3850,26 @@ Pipping 3966 c. - Rämä 3966 c	   1
 Pipping 3966 d. - Rämä 3966 d	   1
 Pipping 3966. - Rämä 3966-3966 b	   1
 Pipping 3969. - Rämä 3968-3969	   1
-Pipping 397. - Rämä 397	   1
+Pipping 396. - SAJ s. 309. - Rämä 396	   1
 Pipping 3971. - Rämä 3970 a-3971	   1
 Pipping 3975	   1
 Pipping 3976. - Rämä 3976	   1
+Pipping 397. - Rämä 397	   1
 Pipping 398. - Rämä 398	   1
 Pipping 399. - SAJ s. 309-310. - Rämä 399	   1
-Pipping 400. - Rämä 400	   1
 Pipping 4009	   1
+Pipping 400. - Rämä 400	   1
 Pipping 401. - Rämä 401-402	   1
-Pipping 402. - Rämä 401-402	   1
 Pipping 4023. - Rämä 4023	   1
 Pipping 4025. - Rämä 4025	   1
+Pipping 402. - Rämä 401-402	   1
 Pipping 4034 a	   1
 Pipping 404. - Rämä 404	   1
-Pipping 405. - Rämä 405	   1
+Pipping. 4058. - Rämä 4058	   1
 Pipping 4059, mahdollisesti sama kuin Pipping 249. - Rämä 4059 ja 249	   1
-Pipping 406. - SAJ s. 310. - Rämä 406	   1
+Pipping 405. - Rämä 405	   1
 Pipping 4063. - Hultin I s. 30. - Rämä 4063. - SKB 887	   1
+Pipping 406. - SAJ s. 310. - Rämä 406	   1
 Pipping 409. - Rämä 409	   1
 Pipping 410. - Rämä 410	   1
 Pipping 411. - Rämä 411-412	   1
@@ -3880,12 +3879,10 @@ Pipping 414. - Rämä 414-415	   1
 Pipping 415. - Rämä 414-415	   1
 Pipping 418. - Rämä 416-419	   1
 Pipping 419. - Rämä 416-419	   1
-Pipping 42 c. - Rämä 42 c	   1
-Pipping 42. - Kilpi 57. - Collijn IV sp. 70. - Rämä 42	   1
 Pipping 420. - Rämä 420	   1
 Pipping 421, Pipping 322 a, Pipping 104, Pipping 255, Pipping 308, Pipping 469. - Rämä 421, Rämä 322 a, Rämä 104, Rämä 255, Rämä 308, Rämä 469	   1
-Pipping 422. - Rämä 421-423	   1
 Pipping 422(2). - Rämä 421-423	   1
+Pipping 422. - Rämä 421-423	   1
 Pipping 423. - Rämä 421-423	   1
 Pipping 424. - Rämä 424	   1
 Pipping 425. - Rämä 425-426	   1
@@ -3893,13 +3890,13 @@ Pipping 426. - Rämä 425-426	   1
 Pipping 427. - SAJ s. 310. - Rämä 427	   1
 Pipping 428. - Rämä 428	   1
 Pipping 429. - Rämä 428-430	   1
-Pipping 43. - Collijn IV p. 431-432. - Rämä 43	   1
-Pipping 43. - Collijn IV p. 740. - Rämä 43	   1
+Pipping 42 c. - Rämä 42 c	   1
+Pipping 42. - Kilpi 57. - Collijn IV sp. 70. - Rämä 42	   1
 Pipping 430. - Rämä 428-430	   1
 Pipping 431. - Rämä 431-433	   1
 Pipping 434. - Rämä 434	   1
-Pipping 44 a. - Rämä 44 a	   1
-Pipping 44. - Rämä 44	   1
+Pipping 43. - Collijn IV p. 431-432. - Rämä 43	   1
+Pipping 43. - Collijn IV p. 740. - Rämä 43	   1
 Pipping 441. - Rämä 441	   1
 Pipping 445. - Rämä 445	   1
 Pipping 447 c. - Rämä 447 c	   1
@@ -3920,18 +3917,20 @@ Pipping 447 v. - Rämä 447 v	   1
 Pipping 447 w. - Rämä 447 w	   1
 Pipping 447 y. - Rämä 447 y	   1
 Pipping 449 a. - Rämä 449-449 a	   1
+Pipping 44 a. - Rämä 44 a	   1
+Pipping 44. - Rämä 44	   1
 Pipping 452. - Rämä 452-453	   1
 Pipping 453. - Rämä 452-453	   1
 Pipping 457. - Rämä 456-462	   1
 Pipping 458. - Rämä 456-462	   1
 Pipping 459. - Rämä 456-462	   1
-Pipping 46. - Rämä 46	   1
 Pipping 460. - 456-462	   1
 Pipping 461. - Rämä 456-462	   1
 Pipping 462. - Rämä 456-462	   1
 Pipping 464. - Rämä 464-465	   1
 Pipping 465. - Rämä 464-465	   1
 Pipping 468. - Rämä 468	   1
+Pipping 46. - Rämä 46	   1
 Pipping 470 a. - Rämä 470-470 a	   1
 Pipping 470. - Rämä 470-470 a	   1
 Pipping 471. - Rämä 471	   1
@@ -3940,7 +3939,6 @@ Pipping 474, Pipping 500. - Rämä 474, Rämä 500	   1
 Pipping 477. - Rämä 477-478	   1
 Pipping 478. - Rämä 477-478	   1
 Pipping 479. - SAJ s. 314. - Rämä 479	   1
-Pipping 48. - Collijn IV p. 705. - Rämä 48	   1
 Pipping 480. - Rämä 480-488	   1
 Pipping 481. - Rämä 480-488	   1
 Pipping 483. - Rämä 480-488	   1
@@ -3950,15 +3948,14 @@ Pipping 486. - Rämä 480-488	   1
 Pipping 487. - Rämä 487	   1
 Pipping 488. - Rämä 480-488	   1
 Pipping 489. - SAJ s. 314. - Rämä 489	   1
-Pipping 49. - Collijn IV p. 704-705. - Rämä 49	   1
+Pipping 48. - Collijn IV p. 705. - Rämä 48	   1
 Pipping 490. - Rämä 490-491	   1
 Pipping 491. - Rämä 490-491	   1
 Pipping 492, Pipping 1205. - Rämä 492, Rämä 1205	   1
 Pipping 493. - Rämä 493	   1
 Pipping 496. - Lidén 5. - Leinberg 57. - Rämä 496	   1
 Pipping 498. - Rämä 495-499	   1
-Pipping 5 b. - Rämä 5 b	   1
-Pipping 5 e. - Rämä 5 d-e	   1
+Pipping 49. - Collijn IV p. 704-705. - Rämä 49	   1
 Pipping 502. - Rämä 502-506	   1
 Pipping 503. - Rämä 502-506	   1
 Pipping 504. - Rämä 502-506	   1
@@ -3971,9 +3968,6 @@ Pipping 507 e. - Rämä 507 e-f	   1
 Pipping 507 f. - Rämä 507 e-f	   1
 Pipping 507. - Rämä 507-507 a	   1
 Pipping 509. - Rämä 509-512	   1
-Pipping 51 a. - Rämä 51 a	   1
-Pipping 51 b. - Collijn IV p. 979-980. - Rämä 51 b	   1
-Pipping 51. - Collijn IV p. 979-980. - Rämä 51	   1
 Pipping 510. - Rämä 509-512	   1
 Pipping 511. - Rämä 509-512	   1
 Pipping 512. - Rämä 509-512	   1
@@ -3984,20 +3978,23 @@ Pipping 517. - Rämä 517	   1
 Pipping 518 (2). - Rämä 518 (2)	   1
 Pipping 518. - Rämä 518	   1
 Pipping 519. - Rämä 519	   1
-Pipping 52. - Rämä 52	   1
+Pipping 51 a. - Rämä 51 a	   1
+Pipping 51 b. - Collijn IV p. 979-980. - Rämä 51 b	   1
+Pipping 51. - Collijn IV p. 979-980. - Rämä 51	   1
 Pipping 522. - Rämä 521-526	   1
 Pipping 523. - Rämä 521-526	   1
 Pipping 524. - Rämä 521-526	   1
 Pipping 526. - Rämä 521-526	   1
 Pipping 527. - Rämä 527	   1
 Pipping 529. - Rämä 529	   1
-Pipping 53. - Collijn IV p. 781. - Rämä 53	   1
+Pipping 52. - Rämä 52	   1
 Pipping 532. - Rämä 531-535	   1
 Pipping 535. - Rämä 531-535	   1
 Pipping 536. - Rämä 536	   1
 Pipping 537 ja Pipping 537 a. - Rämä 537-537 a	   1
 Pipping 539 b. - Rämä 539 a-b	   1
 Pipping 539 c. - Rämä 539 c	   1
+Pipping 53. - Collijn IV p. 781. - Rämä 53	   1
 Pipping 540 c. - Rämä 540 a-c	   1
 Pipping 541 a. - Rämä 541-541 a	   1
 Pipping 541 d. - Rämä 541 d-e	   1
@@ -4017,7 +4014,6 @@ Pipping 555. - Rämä 552-557	   1
 Pipping 556. - Rämä 552-557	   1
 Pipping 557. - Rämä 552-557	   1
 Pipping 559. - Rämä 559	   1
-Pipping 56. - Hultin I s. 64. - Rämä 56. - SKB 2012	   1
 Pipping 560 a. - Rämä 560 a	   1
 Pipping 562 b. - Rämä 562 b	   1
 Pipping 562 c. - Rämä 562 c	   1
@@ -4034,7 +4030,6 @@ Pipping 565 h. - Rämä 565 g-m	   1
 Pipping 565 i. - Rämä 565 g-m	   1
 Pipping 565 m. - Rämä 565 g-m	   1
 Pipping 565. - Rämä 565-565 e	   1
-Pipping 566 [s]. - Rämä 566 r-t	   1
 Pipping 566 a. - Rämä 566 a-i	   1
 Pipping 566 b. - Rämä 566 a-i	   1
 Pipping 566 c. - Rämä 566 a-i	   1
@@ -4047,10 +4042,11 @@ Pipping 566 i. - Rämä 566 a-i	   1
 Pipping 566 k. - Rämä 566 k-l	   1
 Pipping 566 l. - Rämä 566 k-l	   1
 Pipping 566 m. - Rämä 566 m-n	   1
-Pipping 566 r. - Rämä 566 r-t	   1
 Pipping 566. - Rämä 566	   1
+Pipping 566 r. - Rämä 566 r-t	   1
+Pipping 566 [s]. - Rämä 566 r-t	   1
 Pipping 569. - SAJ s. 316. - Rämä 568-570	   1
-Pipping 57. - Collijn IV p. 474. - Rämä 57	   1
+Pipping 56. - Hultin I s. 64. - Rämä 56. - SKB 2012	   1
 Pipping 570. - Rämä 568-570	   1
 Pipping 571. - Rämä 571	   1
 Pipping 573. - Rämä 572-574	   1
@@ -4074,7 +4070,7 @@ Pipping 578 o. - Rämä 578 o	   1
 Pipping 578 p. - Rämä 578 p	   1
 Pipping 578 u. - Ei Rämä	   1
 Pipping 579 c. - Rämä 579-580	   1
-Pipping 58. - Rämä 58-59	   1
+Pipping 57. - Collijn IV p. 474. - Rämä 57	   1
 Pipping 580 a. - Rämä 580 a	   1
 Pipping 581 a. - Rämä 581 a	   1
 Pipping 581 b. - Rämä 581 b	   1
@@ -4099,7 +4095,7 @@ Pipping 585. - SAJ s. 316. - Rämä 545-590	   1
 Pipping 586. - Rämä 585-590	   1
 Pipping 587. - Rämä 585-590	   1
 Pipping 588. - Rämä 585-590	   1
-Pipping 59. - Rämä 58-59	   1
+Pipping 58. - Rämä 58-59	   1
 Pipping 590. - Rämä 585-590	   1
 Pipping 591. - Rämä 591-594 b	   1
 Pipping 592. - Rämä 591-594 b	   1
@@ -4115,13 +4111,16 @@ Pipping 595. - Rämä 595	   1
 Pipping 596. - SAJ s. 316. - Rämä 596	   1
 Pipping 597. - Rämä 597	   1
 Pipping 599. - Rämä 598-604 b	   1
-Pipping 60. - Rämä 60	   1
+Pipping 59. - Rämä 58-59	   1
+Pipping 5 b. - Rämä 5 b	   1
+Pipping 5 e. - Rämä 5 d-e	   1
 Pipping 600. - Rämä 598-604 b	   1
 Pipping 601. - Rämä 598-604 b	   1
 Pipping 602. - Rämä 598-604 b	   1
 Pipping 604 c. - Rämä 604 c-d	   1
 Pipping 604 d. - Rämä 604 c-d	   1
 Pipping 604 e. - Rämä 604 e-f	   1
+[Pipping 604 f:1]	   1
 Pipping 604 f. - Rämä 604 e-f	   1
 Pipping 604 g. - Rämä 604 g-h	   1
 Pipping 604 h. - Rämä 604 g-h	   1
@@ -4140,7 +4139,7 @@ Pipping 607. - Rämä 604 n-607	   1
 Pipping 609 b. - Rämä 609 b	   1
 Pipping 609 e. - Rämä 609 e	   1
 Pipping 609 h. - Rämä 609 h	   1
-Pipping 61. - Rämä 61-64	   1
+Pipping 60. - Rämä 60	   1
 Pipping 610 a. - Rämä 610 a-612	   1
 Pipping 610. - Rämä 610	   1
 Pipping 611. - SAJ s. 316. - Rämä 610 a-612	   1
@@ -4153,7 +4152,7 @@ Pipping 618. - Rämä 618	   1
 Pipping 619 a. - Rämä 619 a	   1
 Pipping 619 b. - Rämä 619 b	   1
 Pipping 619. - Rämä 619	   1
-Pipping 62. - Collijn IV p. 698. - Rämä 61-64	   1
+Pipping 61. - Rämä 61-64	   1
 Pipping 620 a. - Rämä 620-622 b	   1
 Pipping 620. - Rämä 620-622 b	   1
 Pipping 622 a. - Rämä 620-622 b	   1
@@ -4166,7 +4165,7 @@ Pipping 625. - Rämä 623-638	   1
 Pipping 627. - Rämä 623-638	   1
 Pipping 628. - Rämä 623-638	   1
 Pipping 629. - SAJ s. 317. - Rämä 623-638	   1
-Pipping 63. - Collijn IV p. 704. - Rämä 63	   1
+Pipping 62. - Collijn IV p. 698. - Rämä 61-64	   1
 Pipping 630 a. - Rämä 623-638	   1
 Pipping 630. - Rämä 623-638	   1
 Pipping 631. - Rämä 623-638	   1
@@ -4176,6 +4175,7 @@ Pipping 635. - Rämä 623-638	   1
 Pipping 636. - Rämä 623-638	   1
 Pipping 637. - Rämä 623-638	   1
 Pipping 638. - Rämä 623-638	   1
+Pipping 63. - Collijn IV p. 704. - Rämä 63	   1
 Pipping 640. - Rämä 640-646	   1
 Pipping 641. - Rämä 640-646	   1
 Pipping 642. - Rämä 640-646	   1
@@ -4186,7 +4186,6 @@ Pipping 646. - Rämä 640-646	   1
 Pipping 647. - Rämä 647	   1
 Pipping 648. - Rämä 648	   1
 Pipping 649. - Rämä 649-651	   1
-Pipping 65. - Melander 277. - SKB 2042	   1
 Pipping 650. - Rämä 649-651	   1
 Pipping 651. - Rämä 649-651	   1
 Pipping 654 a. - Rämä 654 a	   1
@@ -4199,7 +4198,7 @@ Pipping 656. - Rämä 656-663	   1
 Pipping 657. - SAJ s. 317-8. - Rämä 656-663	   1
 Pipping 658. - Rämä 656-663	   1
 Pipping 659. - Rämä 656-663	   1
-Pipping 66. - Melander 271. - Rämä 66. - SKB 3668	   1
+Pipping 65. - Melander 277. - SKB 2042	   1
 Pipping 660. - Rämä 656-663	   1
 Pipping 662. - Rämä 656-663	   1
 Pipping 663. - Rämä 656-663	   1
@@ -4209,7 +4208,7 @@ Pipping 666. - Rämä 666	   1
 Pipping 667. - Rämä 667	   1
 Pipping 668. - Rämä 668	   1
 Pipping 669. - Rämä 669-676	   1
-Pipping 67. - Collijn IV p. 187. - Rämä 67	   1
+Pipping 66. - Melander 271. - Rämä 66. - SKB 3668	   1
 Pipping 670. - Rämä 669-676	   1
 Pipping 671. - Rämä 669-676	   1
 Pipping 672. - Rämä 669-676	   1
@@ -4223,7 +4222,7 @@ Pipping 678 e. - Rämä 678 e	   1
 Pipping 678 f. - Rämä 678 f-g	   1
 Pipping 678. - Rämä 676 a-678 a	   1
 Pipping 679. - SAJ s. 318. - Rämä 679	   1
-Pipping 68. - Rämä 68	   1
+Pipping 67. - Collijn IV p. 187. - Rämä 67	   1
 Pipping 680. - Rämä 680-681	   1
 Pipping 681. - Rämä 680-681	   1
 Pipping 683 a. - Rämä 682-685	   1
@@ -4249,7 +4248,7 @@ Pipping 686. - SAJ s. 318. - Rämä 686	   1
 Pipping 687. - Rämä 687-690	   1
 Pipping 688. - Rämä 687-690	   1
 Pipping 689. - Rämä 687-690	   1
-Pipping 69. - Melander 283. - SKB 2036	   1
+Pipping 68. - Rämä 68	   1
 Pipping 690. - Rämä 687-690	   1
 Pipping 691. - Rämä 691-693	   1
 Pipping 692. - Rämä 691-693	   1
@@ -4263,7 +4262,7 @@ Pipping 696. - SAJ s. 318. - Rämä 696-699	   1
 Pipping 697. - Rämä 696-699	   1
 Pipping 698. - Rämä 696-699	   1
 Pipping 699. - Rämä 696-699	   1
-Pipping 70. - Rämä 70	   1
+Pipping 69. - Melander 283. - SKB 2036	   1
 Pipping 700. - Rämä 700-703	   1
 Pipping 701. - Rämä 700-703	   1
 Pipping 702. - Rämä 700-703	   1
@@ -4285,6 +4284,7 @@ Pipping 709 m. - Rämä m-o	   1
 Pipping 709 n. - Rämä 709 m-o	   1
 Pipping 709 o. - Rämä 709 m-o	   1
 Pipping 709. - Rämä 709	   1
+Pipping 70. - Rämä 70	   1
 Pipping 710 = Pipping 1122. (Ks. myös Pipping s. 736). - Rämä 710 ja Rämä 1122	   1
 Pipping 711 b. - Rämä 711 a-b	   1
 Pipping 711 c. - Rämä 711 c	   1
@@ -4299,7 +4299,6 @@ Pipping 716. - Rämä 713-730	   1
 Pipping 717. - Rämä 713-730	   1
 Pipping 718. - Rämä 713-730	   1
 Pipping 719. - Rämä 713-730	   1
-Pipping 72. - Melander 240. - Rämä 72. - SKB 3138	   1
 Pipping 720. - Rämä 713-730	   1
 Pipping 721. - Rämä 713-730	   1
 Pipping 722. - Rämä 713-730	   1
@@ -4310,12 +4309,12 @@ Pipping 726. - Rämä 713-730	   1
 Pipping 727. - Rämä 713-730	   1
 Pipping 728. - Rämä 713-730	   1
 Pipping 729. - Rämä 713-730	   1
+Pipping 72. - Melander 240. - Rämä 72. - SKB 3138	   1
 Pipping 734. - SAJ s. 319. - Rämä 734	   1
 Pipping 735. - Rämä 735	   1
 Pipping 736. - Rämä 736	   1
 Pipping 738. - Rämä 738-760	   1
 Pipping 739. - Rämä 738-760	   1
-Pipping 74. - Collijn IV p. 756. - Rämä 74	   1
 Pipping 740. - Rämä 730-760	   1
 Pipping 741. - Rämä 738-760	   1
 Pipping 742. - Rämä 738-760	   1
@@ -4325,7 +4324,7 @@ Pipping 745. - Rämä 738-760	   1
 Pipping 747. - Rämä 738-760	   1
 Pipping 748. - Rämä 738-760	   1
 Pipping 749. - Rämä 738-760	   1
-Pipping 75. - Rämä 75	   1
+Pipping 74. - Collijn IV p. 756. - Rämä 74	   1
 Pipping 750. - SAJ s. 319. - Rämä 738-760	   1
 Pipping 752. - Rämä 738-760	   1
 Pipping 754. - Rämä 738-760	   1
@@ -4334,7 +4333,7 @@ Pipping 756. - Rämä 738-760	   1
 Pipping 757. - Rämä 738-760	   1
 Pipping 758. - Rämä 738-760	   1
 Pipping 759. - Rämä 738-760	   1
-Pipping 76. - Rämä 76-81	   1
+Pipping 75. - Rämä 75	   1
 Pipping 761. - Rämä 761	   1
 Pipping 762 a. - Rämä 762-762 c	   1
 Pipping 762 e. - Rämä 762 e	   1
@@ -4343,7 +4342,7 @@ Pipping 763. - Rämä 763-768 a	   1
 Pipping 766. - Rämä 763-768 a	   1
 Pipping 768 a. - Rämä 763-768 a	   1
 Pipping 768. - Rämä 763-768 a	   1
-Pipping 77. - Rämä 77	   1
+Pipping 76. - Rämä 76-81	   1
 Pipping 771. - SAJ s. 319. - Rämä 771-775	   1
 Pipping 773. - Rämä 771-775	   1
 Pipping 775. - Rämä 771-775	   1
@@ -4351,7 +4350,7 @@ Pipping 776. - Rämä 776	   1
 Pipping 777. - Rämä 777	   1
 Pipping 778. - Rämä 778-782	   1
 Pipping 779. - Rämä 778-782	   1
-Pipping 78. - Rämä 76-81	   1
+Pipping 77. - Rämä 77	   1
 Pipping 780. - Rämä 778-782	   1
 Pipping 781. - Rämä 778-782	   1
 Pipping 783 c. - Rämä 783 b-784	   1
@@ -4360,7 +4359,7 @@ Pipping 785. - Rämä 785	   1
 Pipping 786. - Rämä 786-796	   1
 Pipping 787. - Rämä 786-796	   1
 Pipping 788. - Rämä 786-796	   1
-Pipping 79. - Collijn IV p. 135. - Rämä 76-81	   1
+Pipping 78. - Rämä 76-81	   1
 Pipping 790. - Rämä 786-796	   1
 Pipping 791. - Rämä 786-796	   1
 Pipping 792. - Rämä 786-796	   1
@@ -4371,20 +4370,17 @@ Pipping 795. - Rämä 786-796	   1
 Pipping 797. - Rämä 797	   1
 Pipping 798. - Rämä 798-799	   1
 Pipping 799 c. - Rämä 799 b-c	   1
-Pipping 8 a. - Collijn IV p. 389. - Rämä 8 a. - SKB 167	   1
-Pipping 8 b. - Collijn IV p. 389. - Rämä 8 b	   1
-Pipping 8 c. - Collijn IV p. 389. - Rämä 8 c. - SKB 2806	   1
-Pipping 80. - Rämä 76-81	   1
+Pipping 79. - Collijn IV p. 135. - Rämä 76-81	   1
 Pipping 800. - SAJ s. 320. - Rämä 800	   1
-Pipping 802. - Rämä 802	   1
 Pipping 802(2) (ks. Pipping s. 737). - Rämä 802(2)	   1
+Pipping 802. - Rämä 802	   1
 Pipping 803. - Rämä 803-806	   1
 Pipping 804. - Rämä 803-806	   1
 Pipping 805. - Rämä 803-806	   1
 Pipping 806. - Rämä 803-806	   1
 Pipping 807. - Rämä 807	   1
 Pipping 808. - Rämä 808-811	   1
-Pipping 81. - Rämä 76-81	   1
+Pipping 80. - Rämä 76-81	   1
 Pipping 810. - Rämä 808-811	   1
 Pipping 811. - Rämä 808-811	   1
 Pipping 812. - Rämä 812	   1
@@ -4395,7 +4391,7 @@ Pipping 816. - Rämä 813-824	   1
 Pipping 817. - Rämä 813-824	   1
 Pipping 818. - Rämä 813-824	   1
 Pipping 819. - Rämä 813-824	   1
-Pipping 82. - Rämä 82	   1
+Pipping 81. - Rämä 76-81	   1
 Pipping 820. - Rämä 813-824	   1
 Pipping 821. - Rämä 813-824	   1
 Pipping 822. - Rämä 813-824	   1
@@ -4405,7 +4401,7 @@ Pipping 826. - SAJ s. 320. - Rämä 825 a-828	   1
 Pipping 827. - Rämä 825 a-828	   1
 Pipping 828. - Rämä 825 a-828	   1
 Pipping 829.  - Rämä 829	   1
-Pipping 83. - Rämä 83	   1
+Pipping 82. - Rämä 82	   1
 Pipping 831. - Rämä 830-847	   1
 Pipping 833. - Rämä 830-847	   1
 Pipping 834. - Rämä 830-847	   1
@@ -4414,13 +4410,14 @@ Pipping 836. - Rämä 830-847	   1
 Pipping 837. - Rämä 830-847	   1
 Pipping 838. - Rämä 830-847	   1
 Pipping 839. - Rämä 830-847	   1
-Pipping 84. - Rämä 84	   1
+Pipping 83. - Rämä 83	   1
 Pipping 840. - SAJ s. 320. - Rämä 830-847	   1
 Pipping 841. - Rämä 830-847	   1
 Pipping 842. - Rämä 803-847	   1
 Pipping 843. - Rämä 830-847	   1
 Pipping 847. - Rämä 830-847	   1
 Pipping 849. - Rämä 849-861	   1
+Pipping 84. - Rämä 84	   1
 Pipping 850. - Rämä 849-861	   1
 Pipping 851. - Rämä 849-861	   1
 Pipping 852. - Rämä 849-861	   1
@@ -4431,7 +4428,6 @@ Pipping 856. - Rämä 849-861	   1
 Pipping 857. - Rämä 849-861	   1
 Pipping 858. - Rämä 849-861	   1
 Pipping 859. - Rämä 849-861	   1
-Pipping 86. - Collijn IV p. 135. - Rämä 86-88. - SKB 2688	   1
 Pipping 860. - Rämä 849-861	   1
 Pipping 862. - Rämä 862-863	   1
 Pipping 863. - Rämä 862-863	   1
@@ -4440,7 +4436,7 @@ Pipping 866	   1
 Pipping 867. - Rämä 867	   1
 Pipping 868. - SAJ s. 320. - Rämä 868-869	   1
 Pipping 869. - Rämä 868-869	   1
-Pipping 87. - Collijn IV p. 704. - Rämä 87	   1
+Pipping 86. - Collijn IV p. 135. - Rämä 86-88. - SKB 2688	   1
 Pipping 870. - Rämä 870	   1
 Pipping 871. - Rämä 871	   1
 Pipping 872. - Rämä 872	   1
@@ -4451,7 +4447,7 @@ Pipping 876. - Rämä 873-876	   1
 Pipping 877. - Rämä 877	   1
 Pipping 878. - Rämä 878-879	   1
 Pipping 879. - Rämä 878-879	   1
-Pipping 88. - Rämä 86-88	   1
+Pipping 87. - Collijn IV p. 704. - Rämä 87	   1
 Pipping 881. - Rämä 881-896	   1
 Pipping 882. - Rämä 881-896	   1
 Pipping 883. - Rämä 881-896	   1
@@ -4461,7 +4457,7 @@ Pipping 886. - Rämä 881-896	   1
 Pipping 887. - Rämä 881-896	   1
 Pipping 888. - Rämä 881-896	   1
 Pipping 889. - Rämä 881-896	   1
-Pipping 89. - Rämä 89-90	   1
+Pipping 88. - Rämä 86-88	   1
 Pipping 890. - Rämä 881-896	   1
 Pipping 891. - Rämä 881-896	   1
 Pipping 892. - Rämä 881-896	   1
@@ -4472,8 +4468,10 @@ Pipping 896. - Rämä 881-896	   1
 Pipping 897. - Rämä 897-905	   1
 Pipping 898. - Rämä 897-905	   1
 Pipping 899. - Rämä 897-905	   1
-Pipping 9 a, 27 b, 27 c, 34 b, 34 c, 34 d, 71. - Collijn IV sp. 76, 575. - Rämä 9 a, 27 b, 27 c, 34 b, 34 c, 34 d, 71	   1
-Pipping 90. - Rämä 89-90	   1
+Pipping 89. - Rämä 89-90	   1
+Pipping 8 a. - Collijn IV p. 389. - Rämä 8 a. - SKB 167	   1
+Pipping 8 b. - Collijn IV p. 389. - Rämä 8 b	   1
+Pipping 8 c. - Collijn IV p. 389. - Rämä 8 c. - SKB 2806	   1
 Pipping 900. - Rämä 897-905	   1
 Pipping 901. - Rämä 897-905	   1
 Pipping 902. - Rämä 897-905	   1
@@ -4485,6 +4483,7 @@ Pipping 907 a. - Rämä 906 a-907 a	   1
 Pipping 907. - Rämä 906 a-907 a	   1
 Pipping 908. - Rämä 908	   1
 Pipping 909. - Rämä 909-910 a	   1
+Pipping 90. - Rämä 89-90	   1
 Pipping 910 a. - Rämä 909-910 a	   1
 Pipping 910. - Rämä 909-910 a	   1
 Pipping 912. - Rämä 912-932	   1
@@ -4495,8 +4494,6 @@ Pipping 916. - Rämä 912-932	   1
 Pipping 917. - Rämä 912-932	   1
 Pipping 918. - Rämä 912-932	   1
 Pipping 919. - Rämä 912-932	   1
-Pipping 92 b. - Rämä 91-92 b	   1
-Pipping 92. - Rämä 91-92 b	   1
 Pipping 920. - Rämä 912-932	   1
 Pipping 921. - Rämä 912-932	   1
 Pipping 922. - Rämä 912-932	   1
@@ -4505,11 +4502,8 @@ Pipping 924. - Rämä 912-924	   1
 Pipping 926. - Rämä 912-932	   1
 Pipping 928. - Rämä 912-932	   1
 Pipping 929. - Rämä 912-932	   1
-Pipping 93 a. - Collijn IV p. 705. - Rämä 93 a	   1
-Pipping 93 b. - Collijn IV p. 705. - Rämä 93 b	   1
-Pipping 93 c. - Collijn IV p. 705. - Rämä 93 c	   1
-Pipping 93 d. - Rämä 93 d	   1
-Pipping 93. - Collijn IV p. 705. - Rämä 93	   1
+Pipping 92 b. - Rämä 91-92 b	   1
+Pipping 92. - Rämä 91-92 b	   1
 Pipping 930. - Rämä 912-932	   1
 Pipping 931. - Rämä 912-932	   1
 Pipping 933 a. - Rämä 933 a	   1
@@ -4522,7 +4516,11 @@ Pipping 936. - Rämä 936	   1
 Pipping 937. - SAJ s. 321. - Rämä 936 c-941	   1
 Pipping 938. - Rämä 936 c-941	   1
 Pipping 939. - Rämä 936 c-941	   1
-Pipping 94. - Collijn IV p. 575. - Rämä 94	   1
+Pipping 93 a. - Collijn IV p. 705. - Rämä 93 a	   1
+Pipping 93 b. - Collijn IV p. 705. - Rämä 93 b	   1
+Pipping 93 c. - Collijn IV p. 705. - Rämä 93 c	   1
+Pipping 93. - Collijn IV p. 705. - Rämä 93	   1
+Pipping 93 d. - Rämä 93 d	   1
 Pipping 941. - Rämä 936 c-941	   1
 Pipping 943. - Rämä 943-947	   1
 Pipping 944. - Rämä 943-947	   1
@@ -4530,6 +4528,7 @@ Pipping 945. - Rämä 943-947	   1
 Pipping 946. - Rämä 943-947	   1
 Pipping 947. - Rämä 943-947	   1
 Pipping 948. - Rämä 948	   1
+Pipping 94. - Collijn IV p. 575. - Rämä 94	   1
 Pipping 950. - SAJ s. 321. - Rämä 949-956	   1
 Pipping 951. - Rämä 949-956	   1
 Pipping 952. - Rämä 949-956	   1
@@ -4539,7 +4538,6 @@ Pipping 955. - Rämä 949-956	   1
 Pipping 957 c.	   1
 Pipping 958. - SAJ s. 321. - Rämä 958-964	   1
 Pipping 959. - Rämä 958-964	   1
-Pipping 96. - Rämä 95-99	   1
 Pipping 960. - Rämä 958-964	   1
 Pipping 961. - Rämä 958-964	   1
 Pipping 962. - Rämä 958-964	   1
@@ -4548,14 +4546,14 @@ Pipping 964. - Rämä 958-964	   1
 Pipping 967. - Rämä 967-972	   1
 Pipping 968. - Rämä 967-972	   1
 Pipping 969. - Rämä 967-972	   1
-Pipping 97. - Collijn IV p. 2. - Rämä 97. - Vasenius s. 72. - SKB 5	   1
+Pipping 96. - Rämä 95-99	   1
 Pipping 970. - Rämä 967-972	   1
 Pipping 973. - Rämä 973-973 a	   1
 Pipping 975. - SAJ s. 321. - Rämä 974-975	   1
 Pipping 977. - Rämä 977-981	   1
 Pipping 978. - Rämä 977-981	   1
 Pipping 979. - Rämä 977-981	   1
-Pipping 98. - Rämä 95-99	   1
+Pipping 97. - Collijn IV p. 2. - Rämä 97. - Vasenius s. 72. - SKB 5	   1
 Pipping 980. - Rämä 977-981	   1
 Pipping 981. - Rämä 977-981	   1
 Pipping 982 a. - Rämä 982 a	   1
@@ -4567,7 +4565,7 @@ Pipping 986 b. - Rämä 986-986 b	   1
 Pipping 987. - Rämä 987-989	   1
 Pipping 988. - Rämä 987-989	   1
 Pipping 989. - SAJ s. 321-322. - Rämä 987-989	   1
-Pipping 99. - Collijn IV p. 135-136. - Rämä 95-99	   1
+Pipping 98. - Rämä 95-99	   1
 Pipping 990. - Rämä 990-993	   1
 Pipping 991. - Rämä 990-993	   1
 Pipping 992. - Rämä 990-993	   1
@@ -4578,59 +4576,75 @@ Pipping 996. - Rämä 994-998	   1
 Pipping 997. - Rämä 994-998	   1
 Pipping 998. - Rämä 994-998	   1
 Pipping 999. - Rämä 999	   1
-Pipping s. 732. - Melander 1708. - Rämä 340(2)	   1
-Pipping s. 732. - Rämä [324 b]	   1
-Pipping s. 735. - Rämä 566 n(2)	   1
-Pipping s. 736. - Rämä [712 a:1]	   1
-Pipping s. 737. - Rämä [936:1]	   1
-Pipping s. 737. - Rämä 933(2)	   1
-Pipping u. - Rämä 357 u	   1
+Pipping 99. - Collijn IV p. 135-136. - Rämä 95-99	   1
+Pipping 9 a, 27 b, 27 c, 34 b, 34 c, 34 d, 71. - Collijn IV sp. 76, 575. - Rämä 9 a, 27 b, 27 c, 34 b, 34 c, 34 d, 71	   1
 Pipping,;Bygdén I,;Elmgren I,;Rämä	   1
 Pipping,;Bygdén II,;Rämä	   1
 Pipping,;Bygdén II,;Rukoilevaisten kirjoja / Osmo Tiililä	   1
 Pipping,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Pipping,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700,;Virittäjä 1968	   1
+Pipping;Collijn IV;Rämä;Suomen kansallisbibliografia 1488-1700	   1
 Pipping,;Elmgren II,;Rämä	   1
+Pipping;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   1
 Pipping,;Hultin I,;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   1
-Pipping,;Hultin I,;Kirjallinen kuukauslehti. 1868 : 7	   1
 Pipping,;Hultin III	   1
+Pipping,;Hultin I,;Kirjallinen kuukauslehti. 1868 : 7	   1
 Pipping,;Lidén,;Vallinkoski	   1
 Pipping,;Melander,;Rämä,;Vasenius,;SKB	   1
+Pipping - Rämä	   1
 Pipping,;Rämä 472	   1
 Pipping,;Rämä,;Bring 1958	   1
+Pipping;Rämä;Collijn IV;Kilpi;Suomen kansallisbibliografia 1488-1700	   1
 Pipping,;Rämä,;Gabriel Nikander. Myr- och sjömalmsmältning i äldre tider, julkaisussa Historisk tidskrift för Finland ; 1928	   1
 Pipping,;Rämä,;Pipping,. - Rämä 561	   1
+Pipping;Rämä;Rukoilevaisten kirjoja / Osmo Tiililä	   1
 Pipping,;Rämä,;Rukoilevaisten kirjoja / Osmo Tiililä, 1961	   1
 Pipping,;Rämä,;Rukoilevaisten kirjoja / Osmo Tiililä,;Bygdén II	   1
 Pipping,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Pipping,;Rämä,;Tiililä, Osmo. Rukoilevaisten kirjoja	   1
 Pipping,;Rämä,;Vallinkoski II	   1
 Pipping,;Rukoilevaisten kirjoja / Osmo Tiililä	   1
+Pipping;Rukoilevaisten kirjoja / Osmo Tiililä	   1
+Pipping s. 732. - Melander 1708. - Rämä 340(2)	   1
+Pipping s. 732. - Rämä [324 b]	   1
+Pipping s. 735. - Rämä 566 n(2)	   1
+Pipping s. 736. - Rämä [712 a:1]	   1
+Pipping s. 737. - Rämä 933(2)	   1
+Pipping s. 737. - Rämä [936:1]	   1
 Pipping,;Suomalainen Raamattumme / A. F. Puukko	   1
+Pipping u. - Rämä 357 u	   1
 Pipping,;Vallinkoski	   1
 Pipping,;Vasenius;Kilpi,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
-Pipping;Collijn IV;Rämä;Suomen kansallisbibliografia 1488-1700	   1
-Pipping;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   1
-Pipping;Rämä;Collijn IV;Kilpi;Suomen kansallisbibliografia 1488-1700	   1
-Pipping;Rämä;Rukoilevaisten kirjoja / Osmo Tiililä	   1
-Pipping;Rukoilevaisten kirjoja / Osmo Tiililä	   1
-Pipping. 1331 g. - Rämä 1331 g	   1
-Pipping. 4058. - Rämä 4058	   1
-Priv.: A. Carlbohm;Pipping 1177. - Rämä 1171-1188	   1
 Priv.: A. Carlbohm. - Arkit: ):(4;Pipping 1160. - Rämä 1157-1168	   1
+Priv.: A. Carlbohm;Pipping 1177. - Rämä 1171-1188	   1
 Qvigstad	   1
 Qwinligit tankespel för åren 1746 och 1747 / Hedwig Charlotta Nordenflycht	   1
 Rämä [1058:1]	   1
+Rämä 1070/1071	   1
+Rämä 1079/1080. Lisä	   1
+Rämä 1092/1093. Lisä: 1	   1
+Rämä 1092/1093. Lisä: 2	   1
+Rämä 113:1/114. Lisä	   1
+Rämä 114/115. Lisä	   1
 Rämä [1148 f:1]	   1
 Rämä [1148 g:1]	   1
 Rämä [1168:1]	   1
+Rämä 1188/1189. Lisä	   1
+Rämä 1189/1190. Lisä	   1
+Rämä 1212/1213. Lisä	   1
 Rämä [1295:1]	   1
 Rämä [1300:1]	   1
+Rämä 1305/1306. Lisä	   1
+Rämä 1309/1310. Lisä	   1
 Rämä [1316 a:1]	   1
 Rämä [1316 b:1]	   1
 Rämä [1316 b:2]	   1
+Rämä 1330/1331	   1
+Rämä [133:1]	   1
+Rämä [1331 h:2]	   1
 Rämä [133 a:1]	   1
 Rämä [133 å:1]	   1
+Rämä. [133 ä:1]	   1
 Rämä [133 å:2]	   1
 Rämä [133 ä:2]	   1
 Rämä [133 ä:3]	   1
@@ -4642,8 +4656,6 @@ Rämä [133 ö:2]	   1
 Rämä [133 w:1]	   1
 Rämä [133 w:2]	   1
 Rämä [133 x:1]	   1
-Rämä [133:1]	   1
-Rämä [1331 h:2]	   1
 Rämä [142:1.]	   1
 Rämä [1434 a]	   1
 Rämä [1434 b]	   1
@@ -4651,6 +4663,7 @@ Rämä [1434 e]	   1
 Rämä [1488:1]	   1
 Rämä [1503:1]	   1
 Rämä [1518 b:2]	   1
+Rämä 1594 b/1595	   1
 Rämä [1671]	   1
 Rämä [1675 a]	   1
 Rämä [1684 d:1]	   1
@@ -4658,39 +4671,66 @@ Rämä [1702 d:1]	   1
 Rämä [1717 b:1]	   1
 Rämä [1725:1]. - Hultin s. 101	   1
 Rämä [1733 a:1]	   1
+Rämä 1744/1745. Lisä	   1
+Rämä 1764 [a]	   1
+Rämä 1789/1790. Lisä	   1
+Rämä 1790/1791. Lisä	   1
+Rämä 1790/1791. Lisä: 2	   1
+Rämä 1887 a/1888. Lisä	   1
 Rämä [1912:1]. - Vallinkoski II	   1
 Rämä [209 b:1]	   1
 Rämä [27 a:1]	   1
 Rämä [288 a]	   1
+Rämä 291/292. Lisä	   1
+Rämä 338/339. Lisä	   1
 Rämä [342:1]	   1
+Rämä 35/36. Lisä	   1
+Rämä 357 c) i	   1
+Rämä 357 c) k	   1
 Rämä [357 c) w:1]	   1
+Rämä 357 c:y	   1
 Rämä [372:1]	   1
 Rämä [388 b:1]	   1
-Rämä [388 e:]2	   1
 Rämä [388 e:1]	   1
 Rämä [388 e:1/e:2]	   1
+Rämä [388 e:]2	   1
 Rämä [3964 f:2]	   1
-Rämä [3965 c:1]	   1
 Rämä [3965:2], [3965:3]	   1
-Rämä [447 t:1]	   1
-Rämä [447 u:1]	   1
+Rämä [3965 c:1]	   1
+Rämä 435/436. Lisä	   1
 Rämä [447:1]	   1
 Rämä [447:2]	   1
 Rämä [447:3]	   1
+Rämä 447 [r:1]	   1
+Rämä [447 t:1]	   1
+Rämä [447 u:1]	   1
 Rämä [478:1]	   1
+Rämä 517/518 Lisä	   1
 Rämä [519:1]	   1
 Rämä [529:1]	   1
 Rämä [541 a:1]	   1
+Rämä 543/544. Lisä	   1
 Rämä [565 e:1]	   1
 Rämä [566 n:1]. - Ei Hultin	   1
 Rämä [575.]	   1
 Rämä [581 f:1]	   1
 Rämä [594 b:1]	   1
+Rämä 594 g2?	   1
+Rämä 59/60. Lisä: 1	   1
 Rämä [604 b:1]	   1
 Rämä [604 h:1]	   1
+Rämä 60/61. Lisä	   1
 Rämä [622 b:1]	   1
+Rämä 651/652. Lisä: 1	   1
+Rämä 651/652. Lisä: 2	   1
+Rämä 655/656. Lisä	   1
+Rämä 663/664. Lisä	   1
 Rämä [666:1]	   1
+Rämä 667/668. Lisä	   1
+Rämä 668/669. Lisä: 1	   1
+Rämä 690/691. Lisä: 2	   1
 Rämä [695 e:1]	   1
+Rämä 703/704	   1
 Rämä [709 d:1]	   1
 Rämä [709 d:2]	   1
 Rämä [709 f:1]	   1
@@ -4702,50 +4742,10 @@ Rämä [709 i:1]	   1
 Rämä [709 i:2]	   1
 Rämä [709 l:1]	   1
 Rämä [712 a:2]	   1
-Rämä [933 b]	   1
-Rämä 1070/1071	   1
-Rämä 1079/1080. Lisä	   1
-Rämä 1092/1093. Lisä: 1	   1
-Rämä 1092/1093. Lisä: 2	   1
-Rämä 113:1/114. Lisä	   1
-Rämä 114/115. Lisä	   1
-Rämä 1188/1189. Lisä	   1
-Rämä 1189/1190. Lisä	   1
-Rämä 1212/1213. Lisä	   1
-Rämä 1305/1306. Lisä	   1
-Rämä 1309/1310. Lisä	   1
-Rämä 1330/1331	   1
-Rämä 1594 b/1595	   1
-Rämä 1744/1745. Lisä	   1
-Rämä 1764 [a]	   1
-Rämä 1789/1790. Lisä	   1
-Rämä 1790/1791. Lisä	   1
-Rämä 1790/1791. Lisä: 2	   1
-Rämä 1887 a/1888. Lisä	   1
-Rämä 291/292. Lisä	   1
-Rämä 338/339. Lisä	   1
-Rämä 35/36. Lisä	   1
-Rämä 357 c:y	   1
-Rämä 357 c) i	   1
-Rämä 357 c) k	   1
-Rämä 435/436. Lisä	   1
-Rämä 447 [r:1]	   1
-Rämä 517/518 Lisä	   1
-Rämä 543/544. Lisä	   1
-Rämä 59/60. Lisä: 1	   1
-Rämä 594 g2?	   1
-Rämä 60/61. Lisä	   1
-Rämä 651/652. Lisä: 1	   1
-Rämä 651/652. Lisä: 2	   1
-Rämä 655/656. Lisä	   1
-Rämä 663/664. Lisä	   1
-Rämä 667/668. Lisä	   1
-Rämä 668/669. Lisä: 1	   1
-Rämä 690/691. Lisä: 2	   1
-Rämä 703/704	   1
 Rämä 730/731. Lisä	   1
 Rämä 775/776. Lisä	   1
 Rämä 933(2)/934. Lisä	   1
+Rämä [933 b]	   1
 Rämä 981/982. Lisä	   1
 Rämä 984 a. - Rämä 983-984 a	   1
 Rämä 989/990. Lisä	   1
@@ -4754,11 +4754,10 @@ Rämä,;Hultin I	   1
 Rämä,;Kirjapainotaito Suomessa. 2 / Carl-Rudolf Gardberg	   1
 Rämä,;SKB	   1
 Rämä,;Suomen kansallisbibliografia 1488-1700	   1
-Rämä. [133 ä:1]	   1
 Recke-Napiersky 4, s. 494	   1
 Rein,;Warmholtz	   1
-Sainio s. 76	   1
 Sainio,;Jaanson, E.-L. Tartu ülikooli trükikoda 1632-1710	   1
+Sainio s. 76	   1
 Sainio,;SKB	   1
 Sainio,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
 SAJ s. 292. - SKB 2136	   1
@@ -4770,6 +4769,7 @@ SAJ s. 330	   1
 Salanimet ja nimimerkit / Maija Hirvonen	   1
 Samtida skrifter rörande Sveriges förhållanden till fremmande magter,;Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén	   1
 Schefferus, Svedia literata s. 319. - Pipping 143. - Rämä 143	   1
+... Si quid in rebus humanis lacrimis & planctu prosequi decet, ... Serenissimus ille atque potentissimus princeps ac Dominus Carolus XI. ... Amor suorum atque deliciae, felicitas & gaudium integrum! ipse, inquam, proh fata! fatali falce dejectus jacet. ... Ubi crastina luce vir plurimum reverendus & clarissimus, Dn. Laurentius Molin, S. theol. licent. & prof. publ. ... vir celeberrimus, Dn. Michael Dau, eloq. utriusque prof., tertia vero die, quae erit Saturni, vir celeberrimus, Dn. Daniel Sarcovius, log. & metaph. prof. ord. ... hic ligata oratione, ... praeter hos vero vir juvenis pereximius atquq doctiss. Dn. Arvidus Mollerus, regiae in hac urbe scholae rector designatus, & nobiliss. juvenis, Henricus Johannes Freytag, nobilis Livonus, ... Dab. Dorpati, d. XXIV. Novemb. anno reparatae salutis, M. DC. XCVII. Gabriel Skragge, Orient. & Gr. ling. prof. h. tp. rect. acad.;Leinberg Or.,;Melander	   1
 SKB	   1
 SKB 142	   1
 SKB 155	   1
@@ -4786,7 +4786,18 @@ SKB,;Rämä,;SKB	   1
 Specimen historiae litterariae Fennicae / Petrus Joh. Alopaeus	   1
 Stienrman s. 100-101. - Melander 967	   1
 Stierman s. 69, 74, 98. - Pipping 176. - Collijn IV sp. 1022. - Rämä 176	   1
+Stiernman,;Collijn IV;Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman;Collijn IV;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman,;Lidén III,;Collijn IV,;Vallinkoski,;SKB	   1
+Stiernman,;Melander,;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman;Melander;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman,;Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman p. 30;Pipping 64;Collijn IV column 338-339;Rämä 61-64	   1
+Stiernman;Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman,;Pipping,;Melander,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman,;Pipping,;Rämä,;SKB	   1
+Stiernman,;Pipping,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman s. 100. - Melander 1159	   1
 Stiernman s. 103-104? - Melander 1190	   1
 Stiernman s. 103-104. - Melander 908	   1
@@ -4847,9 +4858,9 @@ Stiernman s. 64:4. - Collijn IV p. 618	   1
 Stiernman s. 64. - Melander 476	   1
 Stiernman s. 64. - Melander 580	   1
 Stiernman s. 64. - Pipping 107. - Melander 480. - Rämä 106-109	   1
-Stiernman s. 65, n:o 2. - Pipping 202 i. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 32.	   1
 Stiernman s. 65. - Collijn IV p. 911. - SKB 3721	   1
 Stiernman s. 65. - Melander 1042	   1
+Stiernman s. 65, n:o 2. - Pipping 202 i. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 32.	   1
 Stiernman s. 66, 68. - Melander 495	   1
 Stiernman s. 69, 71. - Melander 494	   1
 Stiernman s. 69, 72. - Collijn IV p. 312. - SKB 943	   1
@@ -4880,12 +4891,12 @@ Stiernman s. 76:121. - Collijn IV p. 311	   1
 Stiernman s. 76. - Collijn IV p. 183	   1
 Stiernman s. 76. - Pipping 131 d. - Rämä 131 a-e	   1
 Stiernman s. 76. - Pipping 131 e. - Rämä 131 a-e	   1
+Stiernman s. 77:126. - Pipping 249. - Rämä 249	   1
 Stiernman s. 77, 80. - Melander 1092	   1
 Stiernman s. 77, 80. - Melander 1268	   1
 Stiernman s. 77, 80. - Melander 572	   1
 Stiernman s. 77, 80. - Melander 912	   1
 Stiernman s. 77, 80. - Melander 928	   1
-Stiernman s. 77:126. - Pipping 249. - Rämä 249	   1
 Stiernman s. 83. - Collijn IV p. 110. - SKB 683	   1
 Stiernman s. 83. - Melander 661	   1
 Stiernman s. 84, 87. - Melander 1087a	   1
@@ -4924,18 +4935,7 @@ Stiernman s. 98. - Pipping 272. - Rämä 272	   1
 Stiernman s. 98. - Pipping 300. - Rämä 300	   1
 Stiernman s. 99. - Melander 623	   1
 Stiernman s. 99. - Melander 704	   1
-Stiernman,;Collijn IV;Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman,;Lidén III,;Collijn IV,;Vallinkoski,;SKB	   1
-Stiernman,;Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman,;Melander,;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman,;Pipping,;Melander,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman,;Pipping,;Rämä,;SKB	   1
-Stiernman,;Pipping,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman,;Vallinkoski	   1
-Stiernman;Collijn IV;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman;Melander;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   1
-Stiernman;Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
 Suomalainen kirjallisuus 1544-1877	   1
 Suomalainen kirjallisuus 1886-1891 / Valfrid Vasenius	   1
 Suomen almanakan juhlakirja	   1
@@ -4956,11 +4956,11 @@ Vallinkoski 198	   1
 Vallinkoski 440	   1
 Vallinkoski 53. - SKB 122	   1
 Vallinkoski 54. - SKB 123	   1
+Vallinkoski,;Henrici Gabrielis Porthan Opera omnia. 5	   1
 Vallinkoski II. - Bygdén I s. 33	   1
 Vallinkoski II. - Bygden I s. 68	   1
 Vallinkoski II. - Elmgren II s. 22	   1
 Vallinkoski II.;Pipping,;Rämä	   1
-Vallinkoski,;Henrici Gabrielis Porthan Opera omnia. 5	   1
 Vallinkoski,;Lidén	   1
 Vrt. Bring 1958 121	   1
 Vrt. Bring 1958 307	   1
