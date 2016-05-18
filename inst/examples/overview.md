@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-17"
+date: "2016-05-18"
 output: markdown_document
 ---
 
@@ -57,14 +57,14 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                             |        47.6|          52.4|         37328|        296|
 |height                            |        47.6|          52.4|         37328|        336|
 |area                              |        47.6|          52.4|         37328|        766|
-|paper.consumption.km2             |        47.6|          52.4|         37328|       4198|
+|paper.consumption.km2             |        47.6|          52.4|         37328|       4304|
 |physical_dimension                |        47.3|          52.7|         37577|       1101|
 |self_published                    |        46.6|          53.4|         38080|          3|
 |author_gender                     |        46.3|          53.7|         38252|          4|
 |author_name                       |        36.7|          63.3|         45082|      11975|
 |author                            |        36.7|          63.3|         45082|      12000|
 |publisher                         |        17.5|          82.5|         58768|      10837|
-|pagecount.orig                    |         6.9|          93.1|         66347|        963|
+|pagecount.orig                    |         6.9|          93.1|         66347|        995|
 |physical_extent                   |         5.7|          94.3|         67211|      15183|
 |country                           |         4.1|          95.9|         68320|         33|
 |publication_place                 |         4.1|          95.9|         68321|        433|
@@ -72,9 +72,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |longitude                         |         1.1|          98.9|         70471|        365|
 |language                          |         1.0|          99.0|         70519|        257|
 |dissertation                      |         0.0|         100.0|         71222|          3|
-|synodal                           |         0.0|         100.0|         71222|          2|
 |publication_year_from             |         0.0|         100.0|         71229|        351|
 |title                             |         0.0|         100.0|         71245|      56603|
+|synodal                           |         0.0|         100.0|         71247|          3|
 |publication_time                  |         0.0|         100.0|         71248|       3217|
 |language.Swedish                  |         0.0|         100.0|         71248|          2|
 |language.Finnish                  |         0.0|         100.0|         71248|          2|
@@ -117,7 +117,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         71248|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         71248|          1|
 |language.Multiple languages       |         0.0|         100.0|         71248|          2|
-|pagecount                         |         0.0|         100.0|         71248|        962|
+|pagecount                         |         0.0|         100.0|         71248|        994|
 |gatherings.original               |         0.0|         100.0|         71248|         18|
 |obl.original                      |         0.0|         100.0|         71248|          2|
 |original_row                      |         0.0|         100.0|         71248|      71248|

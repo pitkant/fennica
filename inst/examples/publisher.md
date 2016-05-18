@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-17"
+date: "2016-05-18"
 output: markdown_document
 ---
 
@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher   | titles|     paper|
 |:-----------|------:|---------:|
-|c frenckell |   1339| 0.2770546|
-|otava       |   2175| 1.1512567|
-|söderström  |   1191| 0.5036550|
-|w londicer  |   1829|      -Inf|
-|wsoy        |   2905| 1.0398908|
+|c frenckell |   1339| 0.2822880|
+|otava       |   2175| 1.1545281|
+|söderström  |   1191| 0.5441068|
+|w londicer  |   1829| 0.1073462|
+|wsoy        |   2905| 1.1185256|
