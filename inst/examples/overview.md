@@ -55,13 +55,21 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                             |        47.6|          52.4|         37328|        296|
 |height                            |        47.6|          52.4|         37328|        336|
 |area                              |        47.6|          52.4|         37328|        766|
+<<<<<<< HEAD
 |paper.consumption.km2             |        47.6|          52.4|         37328|       4298|
+=======
+|paper.consumption.km2             |        47.6|          52.4|         37328|       4304|
+>>>>>>> c179d3850ae7a7199f9ccaa0f4125ba828cef6d5
 |self_published                    |        46.6|          53.4|         38080|          3|
 |author_gender                     |        46.3|          53.7|         38252|          4|
 |author_name                       |        36.7|          63.3|         45082|      11975|
 |author                            |        36.7|          63.3|         45082|      12000|
 |publisher                         |        17.5|          82.5|         58768|      10837|
+<<<<<<< HEAD
 |pagecount.orig                    |         6.9|          93.1|         66348|        995|
+=======
+|pagecount.orig                    |         6.9|          93.1|         66347|        995|
+>>>>>>> c179d3850ae7a7199f9ccaa0f4125ba828cef6d5
 |country                           |         4.1|          95.9|         68320|         33|
 |publication_place                 |         4.1|          95.9|         68321|        433|
 |latitude                          |         1.1|          98.9|         70471|        365|

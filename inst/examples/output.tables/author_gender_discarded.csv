@@ -184,6 +184,7 @@ sue, eugène	  7
 suvorov, p	  7
 tammelin, nicolaus laurentii (1741-na)	  7
 wagner-groben, c	  7
+-n, (1857-1936)	  6
 aura, (1837-1923)	  6
 ehrnrooth, adelaïde	  6
 fågel blå,	  6
@@ -200,7 +201,6 @@ kaitila, i v	  6
 kivekäs, k f	  6
 larsson, l	  6
 leadbeater, c w	  6
--n, (1857-1936)	  6
 nevanlinna, e	  6
 pietiläinen, joh ev	  6
 porthan, sigfridus sigfridi (1741-1798)	  6
@@ -292,9 +292,9 @@ kario,	  4
 kemner, heinricus martini (1638-na)	  4
 kilpi, s	  4
 koivistoinen, joh	  4
+l s-n,	  4
 laulajapoika, (1878-1919)	  4
 lrn, (1824-1884)	  4
-l s-n,	  4
 mac intosh, c h	  4
 nietschmann, h	  4
 österviking,	  4
@@ -319,6 +319,9 @@ weitbrecht, g	  4
 wiklund, c l	  4
 wilkman, w w	  4
 zetterman, g l	  4
+-el-el-,	  3
+-ijo-,	  3
+-s,	  3
 abrahamus abrahami ikalensis, (1675-na)	  3
 achté, l n	  3
 ahtela, h (1881-1968)	  3
@@ -347,7 +350,6 @@ eekku,	  3
 ekblom, heléna	  3
 ekman, r w (1808-1873)	  3
 ekström, n	  3
--el-el-,	  3
 eukleides,	  3
 fabritius, h	  3
 falander, isaacus erici (1693-na)	  3
@@ -368,7 +370,6 @@ helle, l t	  3
 henry, rené	  3
 hoppu, k w	  3
 hume, fergus	  3
--ijo-,	  3
 iliodor,	  3
 ingman, w	  3
 itikka,	  3
@@ -414,7 +415,6 @@ reinke, joh	  3
 riis, c p	  3
 rosén von rosenstein, nicolaus	  3
 rostedt, r	  3
--s,	  3
 saarinen, e k	  3
 sallinen, k	  3
 salonen, k e	  3
@@ -447,11 +447,19 @@ wilén, h	  3
 witkovsky, b	  3
 woldstedt, l	  3
 yrjö a k,	  3
+-gf-, (1849-1937)	  2
+-l-b-s,	  2
+-nd-,	  2
+-r-r, (1847-1893)	  2
+-r-t,	  2
+-u,	  2
+a h-i,	  2
+a l-m,	  2
+a w:nen,	  2
 a-a, (1858-1937)	  2
 åberg, e	  2
 aeimelaeus, nicolaus (1753-1817)	  2
 agricola, christianus christierni (1669-na)	  2
-a h-i,	  2
 aira,	  2
 åkerblom, k v	  2
 alatalo, o e	  2
@@ -459,14 +467,12 @@ alava, v	  2
 alcenius, josephus joachimus (1798-1853)	  2
 aliquis	  2
 alkman, k g	  2
-a l-m,	  2
 anander, abrahamus andreae (1673-1732)	  2
 appelgren, t g	  2
 aro, k k	  2
 arvekari, b	  2
 asmussen, g	  2
 aurén, p w (1826-1896)	  2
-a w:nen,	  2
 baden-powell, r s s	  2
 baranoffski, s i	  2
 barrière, théodore	  2
@@ -510,9 +516,9 @@ dietrichson, l	  2
 dolman, d h	  2
 duhem, p	  2
 dumrath, o h	  2
-e***,	  2
-e-, (3-na)	  2
 e ag, (1852-1929)	  2
+e-, (3-na)	  2
+e***,	  2
 edlund, g w (1829-1907)	  2
 edvin,	  2
 eichorn,	  2
@@ -520,26 +526,25 @@ ekblom, c h	  2
 elna,	  2
 emeleus, e v	  2
 en erfaren hönsskötare,	  2
-engelhardt, e v	  2
 en jurist,	  2
 en lärarinna,	  2
+engelhardt, e v	  2
 eurén, i	  2
+f e j l,	  2
 farnol, jeffery	  2
 faust, (1879-1918)	  2
-f e j l,	  2
 fennander, o w	  2
 flavia,	  2
 flojerus, nicolaus (1717-na)	  2
 fontell, i w	  2
 fuldha, henningus henningi (1726-na)	  2
+g i-n,	  2
 gallius, stephanus (1647-na)	  2
 gamtšenko, s	  2
 gárdonyi, géza	  2
 gea,	  2
 geikie, archibald	  2
 getz, b	  2
--gf-, (1849-1937)	  2
-g i-n,	  2
 godet, frédéric	  2
 göös, k	  2
 granström, e	  2
@@ -548,6 +553,9 @@ gripenberg, catri	  2
 gröhn, h g	  2
 grönmark, g e	  2
 grundtvig, n f s	  2
+h h-nen,	  2
+h i-s,	  2
+h n	  2
 haimila, e	  2
 hallio, f	  2
 hämäläinen, k	  2
@@ -568,12 +576,9 @@ herman j-n,	  2
 hermogen,	  2
 herzog, s	  2
 hetsch, g f	  2
-h h-nen,	  2
 hill, headon	  2
 hirvensalo, l o	  2
-h i-s,	  2
 hisinger, f l	  2
-h n	  2
 hoffren, p	  2
 holm, o f	  2
 homeros,	  2
@@ -584,11 +589,11 @@ huvineuvos,	  2
 i g h s,	  2
 il-o,	  2
 inkala,	  2
+j t-f,	  2
 jacobsen, e	  2
 jauhiainen, f k	  2
 jönsson, n	  2
 jorma,	  2
-j t-f,	  2
 juslenius, abrahamus (1719-na)	  2
 kahva, k e (1869-1909)	  2
 kallén, i v	  2
@@ -611,13 +616,13 @@ kuhne, l	  2
 kühnle, k	  2
 kujola, joh	  2
 kyösti,	  2
+l-r-l,	  2
 labiche,	  2
 lakimies,	  2
 langenskjöld, k	  2
 lapatossun juttujen laatija,	  2
 lassila, d	  2
 lawrence, abbot	  2
--l-b-s,	  2
 le bon, gustave	  2
 lehto, f e	  2
 lemberg, naëma	  2
@@ -629,11 +634,11 @@ lindsten, o	  2
 lindström, g	  2
 lindström, g i	  2
 lördags-pelle,	  2
-l-r-l,	  2
 lubin, eilhardus (1565-1621)	  2
 lucianus,	  2
 lundahl, l	  2
 lungsotist,	  2
+m h-nn,	  2
 macgregor, c h c	  2
 manuel, eugène	  2
 marja s, (1875-1924)	  2
@@ -644,7 +649,6 @@ mereshkovski, d	  2
 merikari, e	  2
 messaroš, p i	  2
 meurman, otto-i	  2
-m h-nn,	  2
 michoud, léon	  2
 mickwitz, r	  2
 mihailowa, e	  2
@@ -655,7 +659,6 @@ mücke, hellmuth v	  2
 mukana ollut, (1864-1935)	  2
 myosotis palustris,	  2
 naryschkin, d	  2
--nd-,	  2
 nordberg, isaacus (1755-1797)	  2
 nummelin, c h	  2
 nykänen, vietti (1884-1951)	  2
@@ -691,8 +694,6 @@ rosch,	  2
 rosenberg, g	  2
 rothsten, f w	  2
 routanen, b l	  2
--r-r, (1847-1893)	  2
--r-t,	  2
 rudin, w	  2
 ruta, žalia	  2
 sadolin, frode	  2
@@ -746,9 +747,9 @@ tudeer, o e (1850-1930)	  2
 tuhkanen, t g	  2
 tukydides,	  2
 tuomioja, w w	  2
--u,	  2
 uddgren, h e	  2
 upari, raikke	  2
+v ö, (1830-1907)	  2
 vagabond,	  2
 vakuutusmies,	  2
 valk, gerardo	  2
@@ -758,7 +759,6 @@ veistola, e	  2
 vesten, tyr	  2
 viitanen, f o	  2
 vivekananda, swami	  2
-v ö, (1830-1907)	  2
 w-a a-n,	  2
 wadström, v	  2
 wahlberg, arth	  2
@@ -775,23 +775,54 @@ wuolle, b	  2
 zamenhof, l l	  2
 zilliacus, w	  2
 - -,	  1
+-a-e-i,	  1
+-ei-,	  1
+-el-el,	  1
+-ho -ro,	  1
+-i -i, (1858-1934)	  1
+-i,	  1
+-ii-,	  1
+-im,	  1
+-lma,	  1
+-n-n,	  1
+-ns-, (1865-1930)	  1
+-nw-,	  1
+-r -n,	  1
+-r, (1700-na)	  1
+-s -k,	  1
+-s-s,	  1
+-st-, (1909-na)	  1
+-teini, (1851-1911)	  1
+***talia,	  1
+**tarina,	  1
+a -der,	  1
+å ä ö,	  1
+a a-pinen,	  1
+a c d b,	  1
+a e w-o,	  1
+a g å,	  1
+a g k-n,	  1
+a h:s h-a,	  1
+a k c f,	  1
+a l, -	  1
+a m r s d r,	  1
+a m-aa,	  1
+a n n m,	  1
+a r-nen,	  1
+a s-t,	  1
+a s:s,	  1
+a t-n,	  1
+a v f-n,	  1
+a-d m,	  1
+a-e v k,	  1
+a-nen,	  1
 aaltonen, v w	  1
 aaltoranta, v f	  1
 ääni joukosta,	  1
 äänioikeutta kaipaawa,	  1
-å ä ö,	  1
-a a-pinen,	  1
 abhedaananda, svaami	  1
-a c d b,	  1
-a -der,	  1
 adlercreutz, g	  1
-a-d m,	  1
--a-e-i,	  1
 aereboe, h s	  1
-a-e v k,	  1
-a e w-o,	  1
-a g å,	  1
-a g k-n,	  1
 agnoostos,	  1
 ahlborn, c	  1
 ahlholm, isaacus (1799-1856)	  1
@@ -799,19 +830,16 @@ ahlstedt, k k	  1
 åhman, nicolaus (1707-1790)	  1
 ahrens, w	  1
 åhrman, christiernus	  1
-a h:s h-a,	  1
 aimard, gustave	  1
 ainio,	  1
 airaksinen, joh	  1
 airo,	  1
 aiskhylos,	  1
-a k c f,	  1
 åkerberg, nicolaus laurentii (1705-1785)	  1
 åkerhielm, k o	  1
 åkesson, å p	  1
 åkesson, e	  1
 akinen,	  1
-a l, -	  1
 alanus,	  1
 alardus, lampertus	  1
 albrecht, k	  1
@@ -820,16 +848,14 @@ alcock, d	  1
 alftan, haraldus (1733-na)	  1
 ålgren, b	  1
 allinson, t r	  1
-almberg, e	  1
 alm, e	  1
-almgreen, abrahamus	  1
 alm, l	  1
-a m-aa,	  1
+almberg, e	  1
+almgreen, abrahamus	  1
 aminoff, g	  1
 aminoff, germundus fridericus (1796-1876)	  1
 aminoff, iwan t	  1
 aminoff, k g	  1
-a m r s d r,	  1
 anakreon,	  1
 anckarstierna, derk	  1
 anders erichsson,	  1
@@ -838,8 +864,6 @@ andersson, g n	  1
 andrejev, n	  1
 andrejev, n p	  1
 andrell, gustavus	  1
-a-nen,	  1
-a n n m,	  1
 anstey, f	  1
 antell, g w	  1
 anticthon, (1778-na)	  1
@@ -850,17 +874,13 @@ ari, e	  1
 arius, (1860-1889)	  1
 arius, (1862-1948)	  1
 arne c-m,	  1
-a r-nen,	  1
 arokallio, gust	  1
 arvily, (1884-1960)	  1
 aseeton maamies,	  1
-aspelin, h	  1
 asp, k	  1
-a s:s,	  1
+aspelin, h	  1
 assessorskan h-e,	  1
-a s-t,	  1
 atkinson, w w	  1
-a t-n,	  1
 atteridge, h	  1
 audouard, olympe	  1
 aura, (1882-1954)	  1
@@ -870,14 +890,15 @@ autio, n	  1
 avellan, kaarola	  1
 avellan, michaël (1771-1855)	  1
 avertshenko, arkadij	  1
-a v f-n,	  1
+b g:t,	  1
+b s:n,	  1
 backman, c	  1
 baedeker,	  1
 bagghufvud, xx	  1
 bahr, l	  1
 bambamius, hartwig	  1
-baranowskij, s	  1
 bar, l v	  1
+baranowskij, s	  1
 barna, ferdinánd	  1
 barnekov, c	  1
 barnum, p t	  1
@@ -901,7 +922,6 @@ bersezio, v	  1
 bersier, eugène	  1
 bertran, l	  1
 bezkrovni, f	  1
-b g:t,	  1
 biörk, israël	  1
 birchenstädt, h	  1
 bishop, t b	  1
@@ -911,8 +931,8 @@ björkman, p	  1
 björling, e	  1
 blauchmeister, f	  1
 bloch, móricz	  1
-blomberg, k g	  1
 blom, l	  1
+blomberg, k g	  1
 blomstedt, o	  1
 blumenthal, e l	  1
 bobrovski, p o	  1
@@ -947,8 +967,8 @@ breitfuss, l	  1
 bremer, c g	  1
 breshko-breshkovskij, n n	  1
 brilliantov, v	  1
-brobergh, gustavus erici	  1
 broberg, k t	  1
+brobergh, gustavus erici	  1
 broda, w r	  1
 brodzenius, gustavus martini (1679-1710)	  1
 bromander, c v	  1
@@ -959,7 +979,6 @@ bruden,	  1
 brunell, svenonus	  1
 bruun, nicolaus christophori	  1
 bruzelius, sigfridus svenonis (1653-na)	  1
-b s:n,	  1
 budde, s	  1
 buharov, d n	  1
 bulder, diedericus henrici	  1
@@ -972,6 +991,9 @@ burman, abrahamus (1765-1814)	  1
 bursman, nicolaus (1732-na)	  1
 burwinkel, o	  1
 büttner,	  1
+c h p l,	  1
+c j a u,	  1
+c-r-t-r,	  1
 calani, aristide	  1
 callenius, stephanus n (1698-na)	  1
 calonius, f l	  1
@@ -989,13 +1011,11 @@ ceder, r	  1
 cederschiöld, g	  1
 chase, c f	  1
 châteillon, sébastien	  1
-c h p l,	  1
 christianus matthiae, (1655-na)	  1
 christie, h	  1
 chydenius, k	  1
-c j a u,	  1
-clausen, c c	  1
 claus, w	  1
+clausen, c c	  1
 clericus, l	  1
 cleve, joachimus (1681-1729)	  1
 cleve, p t	  1
@@ -1007,27 +1027,27 @@ cörberus, josephus	  1
 corell, v f	  1
 costley, w	  1
 cramer, w	  1
-c-r-t-r,	  1
 crucelius, nicolaus (1717-na)	  1
 csepreghy, ferencz	  1
 curtil, andré	  1
 czerny, ad	  1
-dahleen, abrah	  1
+d:r judaeus,	  1
+d'ennery,	  1
 dahl, g	  1
-dahlgren, alta	  1
 dahl, k g	  1
-dalkvist, o	  1
+dahleen, abrah	  1
+dahlgren, alta	  1
 dal, nicolaus	  1
+dalkvist, o	  1
 damberg, joh	  1
 daniels, w h	  1
 danilewski, g p	  1
 daumig, e	  1
+de witt talmag, t	  1
 delarochette, l (1731-1802)	  1
 denisov, v i	  1
-d'ennery,	  1
 desbeaux, émile	  1
 descartes, rené	  1
-de witt talmag, t	  1
 dickson, w k l	  1
 dikštein, s	  1
 dinesen, w	  1
@@ -1039,7 +1059,6 @@ donizetti, gaetano	  1
 doroschevitsch, v	  1
 dörries, b	  1
 dreijer, k g	  1
-d:r judaeus,	  1
 duffey, e b	  1
 duncker, d	  1
 durckman, n	  1
@@ -1047,46 +1066,44 @@ durham, w h	  1
 durham, wm h	  1
 durkheim, é	  1
 e a-g, (1852-1929)	  1
+e e-r,	  1
+e f m-n,	  1
 e-d,	  1
+e-m,	  1
 edberg, n	  1
 edlund, e o	  1
 eenquist, abrahamus (1755-1791)	  1
-e e-r,	  1
 eerola, e	  1
-e f m-n,	  1
 eggertz, c g	  1
 ehrenborg, richardus gjedde (1655-1700)	  1
 ehrman, e w	  1
--ei-,	  1
 einiö, k	  1
 eivaro,	  1
 eive,	  1
 ekblom,	  1
 ekström, e	  1
--el-el,	  1
 elenius, o	  1
 elfving, k o	  1
 elfving, ö	  1
 eliot, c n e	  1
 ell, c	  1
 elving, h	  1
-e-m,	  1
 emmi, (1848-na)	  1
 en andelsvärksamhetsvän,	  1
 en fennoman,	  1
 en folkhögskoleman,	  1
-engelberg, g	  1
 en gemensam vän,	  1
-engineer,	  1
-engman, e	  1
 en landsman,	  1
 en lärärinna,	  1
-ennu,	  1
 en ordets tjenare,	  1
 en österbottning, (1867-1932)	  1
 en pedagog,	  1
 en turist,	  1
 en vän, (1873-1956)	  1
+engelberg, g	  1
+engineer,	  1
+engman, e	  1
+ennu,	  1
 eräs osatoveri, (1875-1919)	  1
 eräs osuustoiminnan ystävä,	  1
 erastow, g	  1
@@ -1101,17 +1118,19 @@ europaeus, abrahamus fridericus (1766-1837)	  1
 ewans, t h	  1
 ewsew,	  1
 f a:b,	  1
+f h h b,	  1
+f m-g,	  1
+f-s, v	  1
 fabricius, aeschillus svenonis (1625-1692)	  1
 fågelvän,	  1
 falander, abrahamus (1723-1757)	  1
 falck, i	  1
-falkenegg,	  1
 falk, w v	  1
+falkenegg,	  1
 farjeon, b l	  1
 fatalisti,	  1
 fellman, christiernus (1704-1763)	  1
 feoktistov, v e	  1
-f h h b,	  1
 finney, c g	  1
 firsov, v e	  1
 fischer-ohmann, g	  1
@@ -1122,7 +1141,6 @@ flick, l f	  1
 floks,	  1
 florelius, s	  1
 fluvianus,	  1
-f m-g,	  1
 fonselius, isaacus	  1
 fontelius, nicolaus gregorii (1692-na)	  1
 fontell, fredricus (1763-1827)	  1
@@ -1137,9 +1155,9 @@ fortmann, h	  1
 forzelius, nicolaus laurentii (1646-1709)	  1
 fosse, k	  1
 framsynt,	  1
+franc-nohain,	  1
 francé, r h	  1
 francke, h	  1
-franc-nohain,	  1
 frederiksen, h c	  1
 frich, øvre richter	  1
 fricke, l w	  1
@@ -1149,9 +1167,10 @@ fromentin, eugène	  1
 frosterus, g	  1
 frosterus, gustave	  1
 frychius, swen	  1
-f-s, v	  1
-g, (1770-na)	  1
 g a å,	  1
+g lbk,	  1
+g st,	  1
+g, (1770-na)	  1
 gaboriau, e	  1
 gabrialdo,	  1
 gadelius, b	  1
@@ -1177,7 +1196,6 @@ gilbert, w s	  1
 gladstone, w e	  1
 glässer, l	  1
 glaubrecht, o	  1
-g lbk,	  1
 glinka, f n	  1
 glöckner, d g	  1
 goff, mr	  1
@@ -1204,7 +1222,6 @@ grönstrand, s	  1
 grönvall, f	  1
 grönvall, r	  1
 grotenfelt, n b	  1
-g st,	  1
 gummerus, h e	  1
 gumplowicz, ladislaus	  1
 gunnaerus, michaël samuelis (1704-na)	  1
@@ -1218,6 +1235,13 @@ gustafsson, k w	  1
 gutmayer, f	  1
 gyarmathi, sámuel	  1
 gyllenbögel, e v	  1
+h & j -nen,	  1
+h a-nen,	  1
+h c s e n,	  1
+h k-nen,	  1
+h lbg,	  1
+h o s-n,	  1
+h s-n, (1879-1932)	  1
 haataja, e	  1
 haataja, k	  1
 haataja, v	  1
@@ -1233,7 +1257,6 @@ hämeen-hinttu,	  1
 hammar, nicolaus matthiae (1690-na)	  1
 hammarsköld, l	  1
 hammer, wildrich	  1
-h a-nen,	  1
 harbitz, n	  1
 harjunen, s d	  1
 härkönen, i	  1
@@ -1246,7 +1269,6 @@ hauptmann, gerhart	  1
 hausen, c	  1
 hauser, aloys	  1
 hawthorne, n	  1
-h c s e n,	  1
 hedberg, fridericus (1748-1791)	  1
 hedeen, nicolaus (1709-1778)	  1
 heiden, f	  1
@@ -1295,9 +1317,6 @@ hjelt, e	  1
 hjelt, nicolaus (1739-1808)	  1
 hjelt, o	  1
 hjerpe, h h	  1
-h & j -nen,	  1
-h k-nen,	  1
-h lbg,	  1
 hoffman, h	  1
 hoffmann, c	  1
 hoffner, c	  1
@@ -1310,18 +1329,15 @@ holsti, rudolphus israël (1815-1852)	  1
 homén, b	  1
 homo sapiens, (1874-1935)	  1
 honigh, c	  1
-honkala, k f	  1
 honka, u	  1
+honkala, k f	  1
 honkavaara, o	  1
 höök, swen (1712-na)	  1
 hornstedt, c f	  1
--ho -ro,	  1
 horton, r f	  1
-h o s-n,	  1
 hougberg, isaacus (1722-1782)	  1
 howard, h	  1
 hoyle, e	  1
-h s-n, (1879-1932)	  1
 hubbard, elbert	  1
 hubbart, elbert	  1
 huber, b f	  1
@@ -1331,11 +1347,9 @@ hülphers, w	  1
 hunfalvy, páltól	  1
 huusmann, k	  1
 hypönniemi,	  1
--i,	  1
+i r-nen,	  1
 idman, k g	  1
 idman, n b	  1
--ii-,	  1
--i -i, (1858-1934)	  1
 iivari, järvelä	  1
 ikäläinen, e	  1
 iki-tursas,	  1
@@ -1343,12 +1357,17 @@ ikonen, i	  1
 iku-turso, (1875-1919)	  1
 ilmoni, t o	  1
 ilvessalo, l	  1
--im,	  1
 ingman, sigfridus (1709-1769)	  1
 iodko, o s	  1
-i r-nen,	  1
 isokuortti, i	  1
 itkonen, t i	  1
+j a-nen,	  1
+j g v g,	  1
+j j gabrielinpoika,	  1
+j k-la, (1878-1919)	  1
+j p-n,	  1
+j r-mari,	  1
+j w o h,	  1
 jääskeläinen, k	  1
 jacobshagen, c	  1
 jaenisch, christianus rudolphus (1771-1852)	  1
@@ -1356,15 +1375,14 @@ jaenisch, nicolaus (1767-1848)	  1
 jägerskiöld, c l	  1
 jahnsson, e f	  1
 jalonen, k f	  1
-j a-nen,	  1
 janzon, g	  1
 järnström, edw	  1
 järvelä, g	  1
 järveläinen, o	  1
+järvi, w	  1
 järvinen, d	  1
 järvinen, e	  1
 järvinen, k v	  1
-järvi, w	  1
 järwinen, n	  1
 jaspis, n s	  1
 jauhiainen, k r	  1
@@ -1374,24 +1392,23 @@ jepsen, mads	  1
 jeremias petri,	  1
 jevropeus, d p	  1
 jevstifejev, n p	  1
-j g v g,	  1
 jheringius, joachimus	  1
-j j gabrielinpoika,	  1
-j k-la, (1878-1919)	  1
 john söderholm,	  1
 jokinen, e	  1
 jokinen, hofrat t e	  1
 joutseno, g	  1
-j p-n,	  1
-j r-mari,	  1
 julius,	  1
 juncker, e	  1
 juslén, b	  1
 jussi, (1861-1921)	  1
 juutilainen, w	  1
-j w o h,	  1
-k-a,	  1
 k a a -m,	  1
+k e	  1
+k k	  1
+k-a,	  1
+k-oh-o,	  1
+k, c v	  1
+k:la, k	  1
 kabakoff,	  1
 kadenius, f w	  1
 kåhlman, w	  1
@@ -1416,8 +1433,6 @@ kaukosilmä,	  1
 kaukovalta, k v	  1
 kaulbars, n	  1
 kauppi, i	  1
-k, c v	  1
-k e	  1
 kellgren, h (1822-1856)	  1
 kellner, o	  1
 kihl, k w	  1
@@ -1425,20 +1440,17 @@ kiitollinen vierailija,	  1
 kiljander, l	  1
 kilkka, k w	  1
 killinen, k	  1
-kingelin, abrahamus (1755-1808)	  1
 king, v i	  1
+kingelin, abrahamus (1755-1808)	  1
 kinos, k v	  1
 kivekäs, f e	  1
 kivistö, gust	  1
 kjellman, f r	  1
-k k	  1
-k:la, k	  1
 klingström, o	  1
 kljutshevskij, v	  1
 knorring, e	  1
 koch, gust	  1
 kock, n	  1
-k-oh-o,	  1
 kolehmainen, l p	  1
 konrad, s	  1
 korhonen, v v	  1
@@ -1469,6 +1481,8 @@ kurvinen, p	  1
 kustaanpoika,	  1
 kutorga, s	  1
 kynä,	  1
+l w p:nen,	  1
+l-n, (1824-1884)	  1
 la cour, l f	  1
 ladoff, isador	  1
 lagberg, nicolaus ebbori (1703-na)	  1
@@ -1480,9 +1494,9 @@ laicus,	  1
 lampenius, k w	  1
 landau, e	  1
 landén, ab	  1
+lång, g	  1
 lange, nicolaus	  1
 langenskiöld, g	  1
-lång, g	  1
 läntinen, v l	  1
 lappala, r	  1
 lärarinnor vid skolan,	  1
@@ -1490,13 +1504,14 @@ laskovski, f f	  1
 lassi,	  1
 latinki,	  1
 laurencin,	  1
+laurent, l	  1
 laurentius nicolai, (1675-na)	  1
 laurentius stephani, (1669-na)	  1
-laurent, l	  1
 laurio, e (1880-1931)	  1
-lavrentjeva, s i	  1
 lavrentjev, g	  1
 lavrentjev, k v	  1
+lavrentjeva, s i	  1
+le rouge, georges-louis	  1
 lebell, fridericus (1752-1819)	  1
 lebell, michaël (1714-1786)	  1
 leche, w	  1
@@ -1512,7 +1527,6 @@ lenormant, françois	  1
 lenz, e	  1
 leontjeff, v	  1
 leontjev, p i	  1
-le rouge, georges-louis	  1
 lethalensis, josephus laurentii (1672-na)	  1
 leuschner, w	  1
 levander, h	  1
@@ -1521,8 +1535,8 @@ levin, meyer	  1
 lignell, nicolaus (1744-1817)	  1
 liikemies,	  1
 likgiltigt hvem,	  1
-lilius, f o	  1
 lilius-thillots,	  1
+lilius, f o	  1
 liljeblom, e	  1
 liljequist, n	  1
 liljeroth, g	  1
@@ -1552,8 +1566,6 @@ lippich elek,	  1
 lissagaray, prosper-olivier	  1
 litvinov, i s	  1
 ljungbergius, nicolaus svenonis (1703-na)	  1
--lma,	  1
-l-n, (1824-1884)	  1
 löffler,	  1
 logrén, abrahamus	  1
 lombroso, cesare	  1
@@ -1570,16 +1582,22 @@ lütken, c f	  1
 lutsenko, e i	  1
 luutnantti bilze,	  1
 lvovitš, v	  1
-l w p:nen,	  1
 lyth, p g	  1
 lyžin, n p	  1
+m a p:nen,	  1
+m b-n,	  1
+m f b s,	  1
+m k-a,	  1
+m p-ri,	  1
+m-n,	  1
+m-r,	  1
 maanpakolainen,	  1
 määttälä, e	  1
-macé, gustave	  1
 mac fadden, bernarr	  1
 mac gregor, g h c	  1
-macgregor, g h c	  1
 mac kunnie, p	  1
+macé, gustave	  1
+macgregor, g h c	  1
 mäkelä, h o	  1
 mäkelä, v	  1
 mäklin, h	  1
@@ -1595,7 +1613,6 @@ mangold, h w	  1
 mannermaa, k h	  1
 mannteuffel, p	  1
 manteuffel, kreivi	  1
-m a p:nen,	  1
 marchand, rené	  1
 marcus,	  1
 mariaestadius, isaacus	  1
@@ -1614,15 +1631,14 @@ mattis,	  1
 mattsson, g	  1
 mattsson, g e	  1
 may, k	  1
-m b-n,	  1
 mead, g r s	  1
 mead, mathaeus	  1
-medborgare,	  1
 medborgare i östra karelen,	  1
+medborgare,	  1
 medin, o	  1
 meibom, i	  1
-melartin, e g	  1
 melart, xx	  1
+melartin, e g	  1
 mellin, abrahamus (1772-1818)	  1
 melnitski, v	  1
 melville, w	  1
@@ -1634,7 +1650,6 @@ merian, matthäus	  1
 messel, p	  1
 meyer, k f	  1
 meyer, xx	  1
-m f b s,	  1
 middleton, r	  1
 mielikäinen, e	  1
 mielke, hellmuth	  1
@@ -1647,8 +1662,6 @@ milner, thos	  1
 minut,	  1
 miödh, abrahamus (1708-1786)	  1
 miödh, abrahamus (1744-1810)	  1
-m k-a,	  1
-m-n,	  1
 moberg,	  1
 moffett, cleveland	  1
 mohr, o e	  1
@@ -1672,8 +1685,6 @@ morgan, r c	  1
 morozov, p	  1
 morrice, f l h	  1
 mosander, k g e	  1
-m p-ri,	  1
-m-r,	  1
 mr c,	  1
 mukanaollut,	  1
 multamäki, s e	  1
@@ -1685,7 +1696,9 @@ musikka,	  1
 mustakallio, joh (1846-1915)	  1
 mustonen, g v	  1
 mz mxn,	  1
+n - v - n,	  1
 n -aini-,	  1
+n:o,	  1
 nauckhoff, xx	  1
 nea, (1871-1942)	  1
 needran, andrews	  1
@@ -1703,16 +1716,11 @@ nirutaka,	  1
 nisonen, h	  1
 nivalainen, d	  1
 nizar, g	  1
--n-n,	  1
-n:o,	  1
 nordhoff, c	  1
 norrgren, l	  1
 norris, w e	  1
 norrlander, r	  1
 norrmén, p h	  1
--ns-, (1865-1930)	  1
-n - v - n,	  1
--nw-,	  1
 nyberg, b	  1
 nyberg, claës (1799-1883)	  1
 nyblom, c g	  1
@@ -1720,6 +1728,7 @@ nyblom, c r	  1
 nylin, e o	  1
 nyman, h	  1
 nystén, e r	  1
+o l-m,	  1
 oahspe,	  1
 öberg, l u f	  1
 obstfelder, siegbjörn	  1
@@ -1728,13 +1737,12 @@ oguse,	  1
 oiva,	  1
 ojajärvi, k w	  1
 ojala, n	  1
+oksa, v	  1
 oksala, k	  1
 oksala, o	  1
 oksanen, v i	  1
 oksanen, w:m	  1
-oksa, v	  1
 olenev, i v	  1
-o l-m,	  1
 olofsson, o eneroth	  1
 olsson, o	  1
 olsson, p	  1
@@ -1759,10 +1767,11 @@ ostroumov, i	  1
 ostroumow, st	  1
 owen, r d	  1
 oxenden, r	  1
+p a h w,	  1
+p c f p l,	  1
 paavonen, t w	  1
 pacius j e,	  1
 pahlman, w	  1
-p a h w,	  1
 palander, abrahamus fredricus (1757-1819)	  1
 palander, e w	  1
 palander, w f (1857-1889)	  1
@@ -1774,12 +1783,11 @@ paparregopulos, demetrios	  1
 parmanen, w	  1
 passirinta,	  1
 pathfinder,	  1
-p c f p l,	  1
 peck, g w	  1
 pedischeff,	  1
 peiboi, v	  1
-pellikka, konstu	  1
 pell, jovard	  1
+pellikka, konstu	  1
 perander, abrahamus	  1
 perander, h g (1818-1883)	  1
 peringer, gustavus	  1
@@ -1837,15 +1845,16 @@ puttila, t	  1
 puzyrevski, p	  1
 pylkkänen, n p	  1
 qvist, e	  1
--r, (1700-na)	  1
+r h-n,	  1
+r-m-n,	  1
 radziwill,	  1
 raekallio, joh	  1
 raitakari, v	  1
 rajalenius, barthollus thomae (1704-na)	  1
 rakhmetov,	  1
 ramatsharaka,	  1
-rantala, t	  1
 ranta, o w	  1
+rantala, t	  1
 raquette, g	  1
 rasch,	  1
 rautanen, v	  1
@@ -1865,15 +1874,12 @@ renkonen, w o	  1
 renvald, v h	  1
 retvih, n p	  1
 revilliod, r	  1
-r h-n,	  1
 richebourg, émile	  1
 richter, e f	  1
 riegels, v	  1
 rinman, joh	  1
 rist, p f	  1
 ritz, c	  1
-r-m-n,	  1
--r -n,	  1
 robertson, f w	  1
 rochat, l l	  1
 roehrig, f l o	  1
@@ -1898,6 +1904,10 @@ runolinna, k w	  1
 rutanen, e g	  1
 rutanen, e k	  1
 ryynänen, s	  1
+s f c m,	  1
+s j:nen,	  1
+s r j-n,	  1
+s-oj-i,	  1
 saastamoinen, e	  1
 sabina, k	  1
 sacklinius, fridericus (1756-1830)	  1
@@ -1959,25 +1969,22 @@ sergejevski, n d	  1
 seton-karr, h w	  1
 severus, sulpicius	  1
 sextius,	  1
-s f c m,	  1
 sieber, jos	  1
 sigfridus petri,	  1
 siitoin, k	  1
+sil-vara,	  1
 silberstein-rixdorf, r	  1
 šilovski, p	  1
-sil-vara,	  1
 simonnot, e	  1
 sininen, l (1875-1919)	  1
 šipov, n n	  1
 sirelius, i	  1
 sirkka, o v	  1
 sivén, v o	  1
-s j:nen,	  1
 sjöberg, o r	  1
 sjölund, k	  1
 sjöstedt, l	  1
 sjöström, e	  1
--s -k,	  1
 sköldberg, p b	  1
 skorikov, n p	  1
 smedberg, f	  1
@@ -1993,7 +2000,6 @@ söderholm, o	  1
 sohlman, b	  1
 sohlman, k e	  1
 soini, s	  1
-s-oj-i,	  1
 solowjeff, w	  1
 sormunen, p	  1
 sorsen, o h	  1
@@ -2001,9 +2007,6 @@ sorthan, s	  1
 spangenberg, wolfhart (1635-na)	  1
 spektator, (1829-1903)	  1
 špilevskaja, n	  1
-s r j-n,	  1
--s-s,	  1
--st-, (1909-na)	  1
 stadigt, v e e	  1
 stadsbo,	  1
 stammen,	  1
@@ -2046,8 +2049,8 @@ suomela j, (1827-1884)	  1
 suomen pappi,	  1
 suominen, k w	  1
 suonivaara, k v	  1
-suštšinski, p p	  1
 suŝtŝinski, p p	  1
+suštšinski, p p	  1
 svartz, xx	  1
 svensson, c g	  1
 swederus, g	  1
@@ -2060,7 +2063,6 @@ tähtilä, r	  1
 tähystäjä,	  1
 taine, hippolyte	  1
 takajama, s	  1
-***talia,	  1
 tallimäki, e	  1
 talmage de witt, t	  1
 tammerfors-bo,	  1
@@ -2068,7 +2070,6 @@ tammiputtonen, v (1864-1944)	  1
 tammivuori, e g	  1
 tanner, h	  1
 tanskanen, e	  1
-**tarina,	  1
 taris, étienne	  1
 tarkiainen, v	  1
 tarmo, f l	  1
@@ -2077,7 +2078,6 @@ tavaststjerna, h	  1
 tea,	  1
 teet, ivarus ivari (1638-1682)	  1
 tegengren, k v	  1
--teini, (1851-1911)	  1
 tepponen, h	  1
 tepukka,	  1
 terho, k	  1
@@ -2167,6 +2167,12 @@ vuolle, b	  1
 vuorela, k	  1
 vuori, e	  1
 vuoristo, p s	  1
+w a-r,	  1
+w k-n,	  1
+w p-r,	  1
+w w-ma,	  1
+w-r s-m,	  1
+w:s,	  1
 wäänänen, hendrikki	  1
 wagener, c	  1
 wagner-groben, w	  1
@@ -2186,7 +2192,6 @@ walta, f	  1
 walter, e f w	  1
 walther, c f w	  1
 walve, o	  1
-w a-r,	  1
 warto, k	  1
 wasastjerna, e	  1
 wästling, p	  1
@@ -2226,16 +2231,11 @@ winqvist, p o	  1
 wirtanen, k	  1
 witte, friedrich-carl	  1
 wivolin, c g	  1
-w k-n,	  1
 wladimirow, w	  1
 wm ry,	  1
 woikoski, t p	  1
 woloboeff, n i	  1
-w p-r,	  1
-w-r s-m,	  1
-w:s,	  1
 würtz, f	  1
-w w-ma,	  1
 x,	  1
 yksi heistä,	  1
 zacheus, c	  1

@@ -195,8 +195,8 @@ yksityiskirjastot;luettelot	  12
 eksegetiikka;heprean kieli;latinan kieli	  11
 etsintäkuulutukset;Lapua	  11
 hautajaiset;arkkiveisut;kuolema	  11
-historiankirjoitus	  11
 historia;vanha aika	  11
+historiankirjoitus	  11
 järjestöt;jäsenluettelot	  11
 katselmus	  11
 kaupungit;kartat	  11
@@ -468,8 +468,8 @@ hautajaiset;ruumissaarnat;kuninkaalliset	   4
 hengelliset laulut;virret	   4
 heprean kieli;raamatunhistoria	   4
 historia;asiakirjat	   4
-historialliset kartat;Suomen sota;kartat	   4
 historia;talous;maantiede	   4
+historialliset kartat;Suomen sota;kartat	   4
 järjestöt;kilpapyöräily;pyöräily	   4
 kalastus;oikeudet	   4
 kalastus;oikeudet;vuokraus	   4
@@ -484,8 +484,8 @@ kirjallisuus;ruotsin kieli	   4
 kirjapainot;luettelot	   4
 kirjastot;luettelot;Vaasa	   4
 kirkko;juhlamenot;Turku	   4
-kirkkokuri	   4
 kirkko;papisto	   4
+kirkkokuri	   4
 kirkollisvero	   4
 kotirauha	   4
 koululaitos	   4
@@ -579,8 +579,8 @@ armeijat	   3
 arvoitukset	   3
 arvonimet	   3
 asemakaavoitus;maanomistus;kaupungit;kartat	   3
-avioliitto;alaikäiset	   3
 avioliitto-oikeus	   3
+avioliitto;alaikäiset	   3
 eläimet;eläinkokeet;eläinrääkkäys;eläinsuojelu	   3
 eläimet;eläinsuojelu;eläinsuojeluyhdistykset;järjestötoiminta	   3
 eläimet;eläinsuojelu;kotieläimet	   3
@@ -599,8 +599,8 @@ filosofia;tähtitiede	   3
 fysiologia;uni	   3
 geometria	   3
 hakuteokset	   3
-hallintoalueet;kartat	   3
 hallinto;valtiofilosofia	   3
+hallintoalueet;kartat	   3
 hallitsijat;valtiofilosofia	   3
 hamppu;viljely	   3
 hartauskirjat;virret;rukous	   3
@@ -610,8 +610,8 @@ henkilöhistoria;aateli	   3
 heprean kieli;kreikan kieli	   3
 heprean kieli;suomen kieli	   3
 historia;diplomatia	   3
-historiantutkimus;menetelmät	   3
 historia;politiikka	   3
+historiantutkimus;menetelmät	   3
 hovioikeudet;presidentit;Turku	   3
 hovioikeudet;rakennukset	   3
 hovioikeudet;toiminta;Turku	   3
@@ -668,8 +668,8 @@ numismatiikka;historia	   3
 numismatiikka;kokoelmat	   3
 oikeudenkäynti;asianosaiset	   3
 oikeudenkäynti;todistajat	   3
-oikeuslaitos	   3
 oikeus;yhteiskuntafilosofia	   3
+oikeuslaitos	   3
 opiskelu	   3
 opiskelu;filosofia;suomalaiset	   3
 opiskelu;kielet	   3
@@ -697,8 +697,8 @@ raamatunhistoria;dogmatiikka	   3
 raha;vastineet;lunastus	   3
 rauha	   3
 rauhanaate;rauhanjärjestöt;rauhantyö	   3
-rautatiet;rautatieasemat;sillat;sillanrakennus;kartat	   3
 rauta;valmistus	   3
+rautatiet;rautatieasemat;sillat;sillanrakennus;kartat	   3
 rikokset;Mustasaari	   3
 rikokset;Närpiö	   3
 rikokset;rangaistukset	   3
@@ -791,9 +791,9 @@ asemakaavoitus;kaupungit;opaskartat;kartat	   2
 asetukset;sota	   2
 asiakirjat;paperi;väärinkäyttö	   2
 autot;kuvastot;moottoriajoneuvot;tieliikenne;automerkit;Ford (automerkki)	   2
+avioliitto-oikeus;naisasialiikkeet;naisen asema;naiset;omaisuudensuoja	   2
 avioliitto;naisasialiikkeet;naisen asema;naiset	   2
 avioliitto;naisasialiikkeet;naisen asema;naiset;oikeudet	   2
-avioliitto-oikeus;naisasialiikkeet;naisen asema;naiset;omaisuudensuoja	   2
 aviorikokset;kirkkokuri	   2
 dogmatiikka;pietismi	   2
 ehtoollinen	   2
@@ -862,11 +862,11 @@ heprean kieli;juutalaiset;kirjallisuus;historia	   2
 heprean kieli;kielioppi	   2
 historia;historianfilosofia	   2
 historia;käyttö	   2
+historia;matrikkelit	   2
+historia;valtionhallinto	   2
 historialliset kartat;kartografia	   2
 historialliset kartat;merikartat	   2
-historia;matrikkelit	   2
 historiantutkimus	   2
-historia;valtionhallinto	   2
 huutokauppa;Hämeenlinna	   2
 huutokauppa;perintötilat;Kuortane	   2
 huutokauppa;perintötilat;Lapua	   2
@@ -917,6 +917,7 @@ kirjallisuus;poetiikka	   2
 kirjallisuus;retoriikka	   2
 kirjat;huutokauppa	   2
 kirjat;nuottijulkaisut;yksityiskirjastot;huutokauppa	   2
+kirkko;virat	   2
 kirkkohistoria;dogmatiikka	   2
 kirkkohistoria;moraali	   2
 kirkkohistoria;ortodoksinen kirkko	   2
@@ -924,7 +925,6 @@ kirkkohistoria;piispat	   2
 kirkkohistoria;roomalaiskatolinen kirkko	   2
 kirkkokäsikirjat;kirkolliset toimitukset;sakramentit	   2
 kirkkomusiikki	   2
-kirkko;virat	   2
 kirkollisvero;hiippakunnat;Turku;Porvoo	   2
 kirkon hallinto;vaalit	   2
 kirkon työntekijät	   2
@@ -1069,9 +1069,9 @@ pormestarit;Vaasa	   2
 porvaristo;etuoikeudet;talonpoikaissääty;valtiopäivät	   2
 Porvoon valtiopäivät	   2
 Porvoon valtiopäivät;valtiopäivät;Porvoo	   2
+posti;maksut	   2
 postiliikenne;kartat	   2
 postimaksut	   2
-posti;maksut	   2
 psykologia;eläintiede	   2
 puutarhat;puusto	   2
 raha;vientirajoitukset	   2
@@ -1153,9 +1153,9 @@ siviiliväestö;isoviha	   2
 siviiliväestö;kyyditys;korvaukset	   2
 sodat;akatemiat;juhlamenot;Turku	   2
 sodat;arvopaperit;lunastus	   2
+sota;taistelut	   2
 sotaharjoitukset;kartat	   2
 sotaoikeus	   2
-sota;taistelut	   2
 sotatoimet	   2
 sotilaat;rikokset	   2
 sotilaskoulutus	   2
@@ -1205,9 +1205,9 @@ uudisrakentaminen	   2
 vaatteet;varusteet	   2
 valat;ruotuarmeijat;varamiehet	   2
 valat;valtiopäivämiehet	   2
+valtio-oppi;politiikka	   2
 valtiontalous;lahjoitukset	   2
 valtionvelka;velkakirjat;lunastus	   2
-valtio-oppi;politiikka	   2
 valtiopäivät;kuninkaalliset	   2
 valtiopäivät;pappissääty;etuoikeudet	   2
 valuuttakurssit	   2
@@ -1233,10 +1233,10 @@ viinat;myynti;ohjeet	   2
 viinat;tuonti	   2
 viinat;valmistevero	   2
 vilja;kauppa	   2
-viljalainat;katovuodet	   2
 vilja;myynti	   2
 vilja;tuonti;tullit	   2
 vilja;vientirajoitukset	   2
+viljalainat;katovuodet	   2
 virkamiehet;paikallishallinto	   2
 virkamiehet;velvollisuudet	   2
 virkatalot;riita-asiat	   2
@@ -1344,6 +1344,8 @@ autiotilat;katselmus	   1
 avioero	   1
 avioero;uskonnolliset vähemmistöt	   1
 avioero;uskonnonvapaus	   1
+avioliitto-oikeus;naisasialiikkeet;naisen asema;naiset	   1
+avioliitto-oikeus;naisasialiikkeet;naisen asema;naiset;omaisuudensuoja;perusoikeudet	   1
 avioliitto;asiakirjat;paperi	   1
 avioliitto;elämäntaito;parisuhde;tavat	   1
 avioliitto;elämäntaito;rakkaus	   1
@@ -1351,8 +1353,6 @@ avioliitto;elämäntaito;seurustelu;tavat	   1
 avioliitto;lainsäädäntö;lait;naisasialiikkeet;naisen asema;naiset	   1
 avioliitto;naisasialiikkeet;naisen asema;naiset;tasa-arvo;vihkiminen	   1
 avioliitto;naisasialiikkeet;naisen asema;naiset;vihkiminen;tasa-arvo	   1
-avioliitto-oikeus;naisasialiikkeet;naisen asema;naiset	   1
-avioliitto-oikeus;naisasialiikkeet;naisen asema;naiset;omaisuudensuoja;perusoikeudet	   1
 avioliitto;rajoitukset	   1
 avioliitto;riita-asiat	   1
 avioliitto;sisarukset	   1
@@ -1555,9 +1555,9 @@ hakukartat;kartat	   1
 hakukartat;maastokartat;kartat	   1
 hakuteokset;filosofia	   1
 hakuteokset;sanakirjat	   1
+hallinto;kansalaisvelvollisuudet;valtiofilosofia	   1
 hallintoalueet;järvet;kartat	   1
 hallintoelimet;palkkiot	   1
-hallinto;kansalaisvelvollisuudet;valtiofilosofia	   1
 hallitsijat;arviointi	   1
 hallitusmuodot;antiikki;historia	   1
 hallitusmuodot;lait;täytäntöönpano	   1
@@ -1601,6 +1601,18 @@ historia;henkilöhistoria	   1
 historia;kartat;Pohjoismaat	   1
 historia;keskiaika	   1
 historia;kielitiede;polemiikki	   1
+historia;muuttoliike	   1
+historia;nuijasota	   1
+historia;opetus	   1
+historia;opiskelu	   1
+historia;talous	   1
+historia;talous;maantiede;paikallishistoriat	   1
+historia;vanha aika;latinan kieli;oppikirjat	   1
+historia;vanha aika;moraali	   1
+historia;vanha aika;oppikirjat	   1
+historia;vanha aika;uskonto	   1
+historia;Venäjä	   1
+historia;viikingit	   1
 historialliset kartat;asemakaavoitus;kartat	   1
 historialliset kartat;asemakaavoitus;kaupungit;rautatiet;kartat	   1
 historialliset kartat;hallintoalueet;kartat	   1
@@ -1613,19 +1625,7 @@ historialliset kartat;saaristot;kartat	   1
 historialliset kartat;sodat;hattujen sota	   1
 historialliset kartat;tiekartat;kartat	   1
 historialliset kartat;tiekartat;vesistöt;kartat	   1
-historia;muuttoliike	   1
 historiankirjoitus;antiikki	   1
-historia;nuijasota	   1
-historia;opetus	   1
-historia;opiskelu	   1
-historia;talous	   1
-historia;talous;maantiede;paikallishistoriat	   1
-historia;vanha aika;latinan kieli;oppikirjat	   1
-historia;vanha aika;moraali	   1
-historia;vanha aika;oppikirjat	   1
-historia;vanha aika;uskonto	   1
-historia;Venäjä	   1
-historia;viikingit	   1
 holhous	   1
 hovioikeudet;asessorit;Turku	   1
 hovioikeudet;asessorit;Turku;yliopistot;juhlamenot	   1
@@ -1745,11 +1745,11 @@ käärmeet;yöperhoset	   1
 kaivostoiminta;Kristiinankaupunki	   1
 kaivostoiminta;maatilat;ositus;metsämaa	   1
 kaivostoiminta;maksut;ulosotto	   1
-kalastusalueet;kalastus;kartat	   1
 kalastus;merialueet	   1
 kalastus;oikeudet;valaanpyynti	   1
 kalastus;oikeudet;vuokraus;Ulvila	   1
 kalastus;välineet	   1
+kalastusalueet;kalastus;kartat	   1
 kalat	   1
 kalenterit	   1
 kalenterit;almanakat	   1
@@ -1769,8 +1769,8 @@ kansainväliset suhteet;valtiofilosofia	   1
 kansakoulu;koulut;kartat	   1
 kansalaiset;velvollisuudet	   1
 kansalaisvelvollisuudet;kansalaiset;etuoikeudet	   1
-kansallisuusaate	   1
 kansallisuus;kieli	   1
+kansallisuusaate	   1
 kansallisuuskysymykset;historia	   1
 kansanopetus;sotilaat	   1
 kansanopistot	   1
@@ -1794,9 +1794,9 @@ kartanot	   1
 kartastot	   1
 kartat;Suomen sota	   1
 kartellit	   1
+käsityö;naisasiajärjestöt;naisasialiikkeet;naisen asema;naiset	   1
 käsityöläiset;Turku;kirjansidonta	   1
 käsityöläiset;veronhuojennukset;Hämeenlinna;tehtailijat	   1
-käsityö;naisasiajärjestöt;naisasialiikkeet;naisen asema;naiset	   1
 kaskiviljely	   1
 kaskiviljely;kulotus	   1
 kaskiviljely;sato	   1
@@ -1813,9 +1813,11 @@ kasvinviljely;maustekasvit	   1
 kasvisto;eläimistö	   1
 kasvisto;putkilokasvit	   1
 kasvit	   1
-kasvitaudit	   1
 kasvit;fysiologia	   1
 kasvit;fysiologia;lisääntyminen;anatomia	   1
+kasvit;käyttö	   1
+kasvit;leviäminen	   1
+kasvitaudit	   1
 kasvitiede;asparagus	   1
 kasvitiede;eläintiede	   1
 kasvitiede;hedelmäpuut;hoito	   1
@@ -1823,8 +1825,6 @@ kasvitiede;hyötykasvit;hoito	   1
 kasvitiede;järviruoko;kaislat	   1
 kasvitiede;lääketiede	   1
 kasvitiede;vehkat	   1
-kasvit;käyttö	   1
-kasvit;leviäminen	   1
 kätilöt	   1
 kätilöt;terveydenhuolto	   1
 katolisuus;kulttuuriantropologia	   1
@@ -1873,9 +1873,9 @@ keisarit;yliopistot;juhlamenot;Turku	   1
 kelttiläiset kielet;historia;gootit;kieli;skyyttalaiset	   1
 kemia;fysiikka	   1
 kemia;metallit	   1
-kemianteollisuus	   1
 kemia;suola	   1
 kemia;tutkimus;yliopistot;laitokset;Turku	   1
+kemianteollisuus	   1
 kerjäläiset;köyhäinhoito	   1
 kerjäläiset;Vaasa	   1
 kesannointi	   1
@@ -1919,6 +1919,10 @@ kirjat;kartat;nuottijulkaisut;yksityiskirjastot;huutokauppa	   1
 kirjat;yksityiskirjastot;taideteokset;kartat;huutokauppa	   1
 kirjeenvaihto	   1
 kirjoittaminen;oppikirjat	   1
+kirkko-oikeus	   1
+kirkko;logiikka	   1
+kirkko;naisasialiikkeet;naisen asema;naiset	   1
+kirkko;retoriikka	   1
 kirkkoherrat	   1
 kirkkoherrat;korvaukset;Ulvila	   1
 kirkkohistoria;historia;uskonpuhdistus	   1
@@ -1928,15 +1932,11 @@ kirkkohistoria;vanha aika	   1
 kirkkokäsikirjat;virsikirjat	   1
 kirkkokuri;lait	   1
 kirkkolait;uudistukset;kirkkokuri	   1
-kirkko;logiikka	   1
-kirkko;naisasialiikkeet;naisen asema;naiset	   1
-kirkko-oikeus	   1
 kirkkorakennukset;avustukset;Kajaani;koulut;julkiset rakennukset	   1
 kirkkorakennukset;avustukset;Porvoo	   1
 kirkkorakennukset;koristelu	   1
 kirkkorakennukset;korjaus;Turku	   1
 kirkkorakennukset;kustannukset	   1
-kirkko;retoriikka	   1
 kirkolliskokoukset	   1
 kirkollisvero;riita-asiat	   1
 kirkon hallinto	   1
@@ -2144,7 +2144,6 @@ latinan kieli;kielioppi;ruotsin kieli	   1
 latinan kieli;kirjallisuus	   1
 latinan kieli;kreikan kieli;heprean kieli	   1
 latinan kieli;kreikan kieli;ruotsin kieli;saksan kieli;suomen kieli	   1
-latinankielinen kirjallisuus	   1
 latinan kieli;opetus	   1
 latinan kieli;opiskelu	   1
 latinan kieli;oppikirjat;kreikan kieli	   1
@@ -2152,6 +2151,7 @@ latinan kieli;oppikirjat;sitaatit	   1
 latinan kieli;retoriikka	   1
 latinan kieli;ruotsin kieli	   1
 latinan kieli;ruotsin kieli;saksan kieli;suomen kieli	   1
+latinankielinen kirjallisuus	   1
 lautamiehet;erivapaus	   1
 lautamiehet;esteellisyys	   1
 legendat;mytologia;Pohjoismaat	   1
@@ -2449,16 +2449,16 @@ oikeus;kasvatus	   1
 oikeus;kirjallisuus	   1
 oikeus;kirkko	   1
 oikeus;koulut;juhlamenot;Viipuri	   1
-oikeuslaitos;henkilöstö;palkat	   1
 oikeus;maatalous	   1
 oikeus;omistusoikeus	   1
-oikeustapaukset;Pietarsaari	   1
-oikeustapaukset;tuomiot;valitukset	   1
 oikeus;tavat	   1
 oikeus;uskonto	   1
 oikeus;velat	   1
 oikeus;verotus	   1
 oikeus;yhteiskunta	   1
+oikeuslaitos;henkilöstö;palkat	   1
+oikeustapaukset;Pietarsaari	   1
+oikeustapaukset;tuomiot;valitukset	   1
 oligarkia;historia	   1
 olut;valmistus	   1
 ontologia	   1
@@ -2612,11 +2612,11 @@ Porvoon valtiopäivät;valtiovierailut	   1
 posliini;valmistus	   1
 posliini;valmistus;oikeudet	   1
 posti;Laukaa	   1
-postinkantajat;virkavirheet;rangaistukset	   1
 posti;ohjeet	   1
 posti;postiliikenne;kartat	   1
 posti;rikokset	   1
 posti;sensuuri	   1
+postinkantajat;virkavirheet;rangaistukset	   1
 postitoimipaikat;Kangasala	   1
 postitoimipaikat;Naantali	   1
 postitoimipaikat;Tammisaari	   1
@@ -2653,20 +2653,20 @@ raamatunhistoria;juutalaiset;historia	   1
 raamatunhistoria;kirkkohistoria;biblisk historia;kyrkohistoria	   1
 raatimiehet	   1
 raha;historia	   1
+raha;maksuvälineet	   1
+raha;petos;rangaistukset	   1
+raha;rahalaitokset	   1
+raha;rahat;väärennökset;ilmianto;palkkiot	   1
+raha;talletukset	   1
+raha;väärennökset;rangaistukset	   1
+raha;vastineet;varkaus	   1
 rahalaitokset;avustuskassat;armeijat	   1
 rahalaitokset;kustannukset	   1
 rahalaitokset;oikeudet	   1
 rahalaitokset;sakko	   1
 rahalaitokset;Turku	   1
 rahalaitokset;valtiontalous	   1
-raha;maksuvälineet	   1
-raha;petos;rangaistukset	   1
-raha;rahalaitokset	   1
-raha;rahat;väärennökset;ilmianto;palkkiot	   1
-raha;talletukset	   1
 rahat;lainsäädäntö	   1
-raha;väärennökset;rangaistukset	   1
-raha;vastineet;varkaus	   1
 raitioliikenne;joukkoliikenne;paikallisliikenne;kartat	   1
 raittiuskasvatus;virret	   1
 rajat;historia	   1
@@ -2706,12 +2706,12 @@ rauhansopimukset;Värälän rauha;itsenäisyys	   1
 rauhansopimukset;Värälän rauha;yliopistot;juhlamenot;toivotukset;nimipäivät	   1
 rauhansopimukset;Värälän rauha;yliopistot;juhlamenot;Turku	   1
 rauhansopimukset;yliopistot;osakunnat;juhlamenot	   1
+rauta;valmistus;aluna	   1
+rauta;vienti	   1
 rautaruukit;työläiset	   1
 rautatiet;kartat	   1
 rautatiet;rautatieasemat;sillat;joet;kartat	   1
 rautatiet;rautatieliikenne;kansakoulu;koulut;kartat	   1
-rauta;valmistus;aluna	   1
-rauta;vienti	   1
 ravitsemusterapia	   1
 reduktio	   1
 rekrytointi;katselmus	   1
@@ -2783,8 +2783,8 @@ rikokset;Varkaus (kaupunki)	   1
 rikokset;Vehmaa	   1
 rikokset;Vöyri	   1
 rikokset;Vöyri;Teerijärvi	   1
-rippikoulu	   1
 rippi;ortodoksinen kirkko;sakramentit	   1
+rippikoulu	   1
 ritarikunnat;arvonimet	   1
 rokot;rutto	   1
 rokotteet;tartuntataudit;ehkäisy	   1
@@ -2792,9 +2792,9 @@ roomalaiskatolinen kirkko	   1
 Roskilden rauha;sodat	   1
 rukoukset;kiitokset	   1
 rukoukset;sota	   1
+rukous;virret	   1
 rukouspäivät;kirkkokuri	   1
 rukouspäivät;rauhansopimukset	   1
-rukous;virret	   1
 ruoansulatuselimet	   1
 ruoppaus	   1
 ruotsin kieli	   1
@@ -2976,10 +2976,11 @@ sota;arkkiveisut	   1
 sota;hallinto	   1
 sota;hevonen;eläimet;pahoinpitely	   1
 sota;joukko-osastot	   1
+sota;rekrytointi	   1
+sota;voitot	   1
 sotalaivasto;sotahistoria;meritaistelut	   1
 sotaoikeus;tuomiot	   1
 sotapäälliköt	   1
-sota;rekrytointi	   1
 sotarelaatiot	   1
 sotarelaatiot;suuri Pohjan sota	   1
 sotaretket;Kustaa III:n sota	   1
@@ -2989,7 +2990,6 @@ sotavahingot;korvaukset	   1
 sotaväki;aateli	   1
 sotaväki;armahdus	   1
 sotavangit;palkat	   1
-sota;voitot	   1
 sotilaat;kyyditys	   1
 sotilaat;palkkaus	   1
 sotilaat;vaatteet;sotilaspuvut	   1
@@ -3017,19 +3017,19 @@ sukeltajat;haaksirikot	   1
 sukeltajat;palkkiot;haaksirikot	   1
 sukupolvet	   1
 sunnuntai;rangaistukset	   1
+suomalais-ugrilaiset kansat;asutushistoria;kartat	   1
 suomalaiset;alkuperä	   1
 suomalaiset;alkuperä;uskonto;elinkeinot;hallitsijat;piispat;historia	   1
 suomalaiset;historia	   1
 suomalaiset;historia;historiankirjoitus	   1
 suomalaiset;maantiede	   1
 suomalaiset;saamelaiset	   1
-suomalais-ugrilaiset kansat;asutushistoria;kartat	   1
 suomalaisuus;kansat;historia	   1
 suomalaisuus;ominaisuudet;saamelaiset;mielikuvat;suomalaiset;uskomukset	   1
 suomen kieli;kielioppi;vertaileva kielitiede;kielet	   1
 suomen kieli;oppikirjat;ruotsin kieli	   1
-suomenruotsalainen kirjallisuus;kertomarunot	   1
 Suomen sota;puheet	   1
+suomenruotsalainen kirjallisuus;kertomarunot	   1
 Suomi;Suomi;Suomi;Suomi	   1
 suostuntavero;Mustasaari	   1
 suostuntavero;valtiopäivät	   1
@@ -3062,8 +3062,6 @@ takaajat;velkasuhteet;virkamiehet;korvaukset	   1
 talonpojat;velvollisuudet	   1
 talous;ateismi	   1
 talous;eksegetiikka	   1
-taloushistoria	   1
-taloushistoria;kansantalous	   1
 talous;historia;maantiede	   1
 talous;hylkeet	   1
 talous;itsevaltius	   1
@@ -3072,12 +3070,14 @@ talous;kehittäminen	   1
 talous;maantiede	   1
 talous;meteorologia	   1
 talous;moraali	   1
-talouspolitiikka	   1
 talous;psykologia	   1
 talous;sodat	   1
-taloustieteet;papisto	   1
 talous;vilja	   1
 talous;vuoret;hyötykäyttö	   1
+taloushistoria	   1
+taloushistoria;kansantalous	   1
+talouspolitiikka	   1
+taloustieteet;papisto	   1
 tapakasvatus;nuoret	   1
 tapulikaupungit	   1
 tartuntataudit;ehkäisy;elintarvikehygienia;liha;vienti	   1
@@ -3102,10 +3102,10 @@ teollisuus;yksinoikeudet	   1
 teologia;geologia	   1
 teologia;opiskelu	   1
 teräs;valmistus	   1
+terva;myynti	   1
 tervakauppa	   1
 tervakauppa;petos	   1
 tervakauppa;petos;rangaistukset	   1
-terva;myynti	   1
 tervanpoltto	   1
 tervanpoltto;hakkuut	   1
 tervanpoltto;metsänhoito	   1
@@ -3193,10 +3193,10 @@ tuomiokunnat	   1
 tuomiot;ulosmittaus;kruununvoudit;velvollisuudet	   1
 tuomiot;varkaat	   1
 tuonti;rajoitukset	   1
-tuontirajoitukset;salakuljetus	   1
-tuontirajoitukset;ylellisyystavarat	   1
 tuonti;tullivalvonta	   1
 tuonti;vientirajoitukset;salakuljetus	   1
+tuontirajoitukset;salakuljetus	   1
+tuontirajoitukset;ylellisyystavarat	   1
 tupakka	   1
 tupakka;kasvatus	   1
 tupakka;kauppa	   1
@@ -3239,11 +3239,11 @@ upseerit;virkavirheet;verotulot;väärinkäyttö	   1
 upseerit;ylennykset	   1
 uskonnonvapaus;harhaoppisuus;tuomiot;kirkkokuri	   1
 uskonnonvapaus;perusoikeudet;Porvoon valtiopäivät;valtiopäivät;Porvoo	   1
-uskontohistoria	   1
-uskontokasvatus	   1
 uskonto;kasvatus	   1
 uskonto;suomalaiset;historia;alkuperä	   1
 uskonto;valtio	   1
+uskontohistoria	   1
+uskontokasvatus	   1
 Uudenkaupungin rauha	   1
 Uudenkaupungin rauha;kansainväliset suhteet	   1
 uudisasukkaat	   1
@@ -3279,6 +3279,9 @@ valmistevero	   1
 valmistevero;kaupungit	   1
 valtakunnankanslerit	   1
 valtaneuvokset	   1
+valtio-oikeus	   1
+valtio;oikeus	   1
+valtio;uskonto	   1
 valtiofilosofia;yhteiskuntajärjestelmät;antiikki	   1
 valtionhallinto;hallitsijat;testamentti	   1
 valtionmetsät;metsätalous;kartat	   1
@@ -3290,8 +3293,6 @@ valtiontalous;raha;viinanpoltto;laitteet;myynti	   1
 valtiontalous;salakuljetus	   1
 valtionvelka	   1
 valtionvelka;velkakirjat;korko	   1
-valtio-oikeus	   1
-valtio;oikeus	   1
 valtiopäivämiehet;turvallisuus	   1
 valtiopäivämiehet;valinta;Helsinki	   1
 valtiopäivämiehet;valinta;Vaasa	   1
@@ -3309,7 +3310,6 @@ valtiopäivät;sisäpolitiikka	   1
 valtiopäivät;talonpoikaissääty	   1
 valtiopäivät;valitukset;herastuomarit;toiminta;rajoitukset	   1
 valtiot;itämaat;maantiede	   1
-valtio;uskonto	   1
 vanginvartijat;virkavirheet;rangaistukset;vankeinhoito	   1
 vanheneminen	   1
 vankeinhoito;katovuodet	   1
@@ -3378,10 +3378,10 @@ vesistöt;kartat	   1
 vesistöt;sisävedet;järvet;kartat;kartastot	   1
 vesiväylät;puhdistus	   1
 vienti	   1
+vienti;tullit	   1
 vientirajoitukset	   1
 vientirajoitukset;eläimet;elintarvikkeet	   1
 vientirajoitukset;eläimet;tuonti;tullit	   1
-vienti;tullit	   1
 vihkiminen;kirkko	   1
 viinanpoltto;järjestyshäiriöt	   1
 viinanpoltto;Kitee	   1
@@ -3418,11 +3418,6 @@ vilja;hinnat;katovuodet	   1
 vilja;hinnat;kruununmakasiinit;ostot	   1
 vilja;hinnat;viinanpoltto;oikeudet;vuokraus	   1
 vilja;kuljetus	   1
-viljalainat;köyhäinapu;katovuodet	   1
-viljalainat;kruununmakasiinit;kruununpolttimot	   1
-viljalainat;kruununpolttimot;Uusikaarlepyy	   1
-viljalainat;Turun ja Porin lääni	   1
-viljalainat;Vaasa	   1
 vilja;myynti;petos	   1
 vilja;ostot	   1
 vilja;ostot;rajoitukset	   1
@@ -3432,6 +3427,11 @@ vilja;tuonti;elintarvikkeet	   1
 vilja;tuonti;tullit;hevonen;eläimet;pellava;hamppu	   1
 vilja;vienti	   1
 vilja;vientirajoitukset;elintarvikkeet	   1
+viljalainat;köyhäinapu;katovuodet	   1
+viljalainat;kruununmakasiinit;kruununpolttimot	   1
+viljalainat;kruununpolttimot;Uusikaarlepyy	   1
+viljalainat;Turun ja Porin lääni	   1
+viljalainat;Vaasa	   1
 villa;ostot;köyhäinhoito;Vaasa;kehräämöt	   1
 villa;valmistus	   1
 virallisjulkaisut;levitys	   1
@@ -3464,14 +3464,14 @@ virsikirjat;virret	   1
 viskaalit;korvaukset	   1
 yhdistys- ja vakuuskirja;perustuslait	   1
 yhdistys- ja vakuuskirja;valat	   1
+yhteiskunta;kirkko	   1
+yhteiskunta;perusoikeudet	   1
 yhteiskuntafilosofia;historia	   1
 yhteiskuntafilosofia;kansat;ominaisuudet	   1
 yhteiskuntafilosofia;kirkko	   1
 yhteiskuntafilosofia;kirkon työntekijät	   1
 yhteiskuntafilosofia;sodat	   1
 yhteiskuntafilosofia;yliopistot;koululaitos	   1
-yhteiskunta;kirkko	   1
-yhteiskunta;perusoikeudet	   1
 yhteismaa	   1
 yhteismetsät	   1
 yksityisoikeus	   1
