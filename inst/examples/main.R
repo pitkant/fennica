@@ -26,13 +26,13 @@ source(system.file("extdata/init.R", package = "bibliographica"))
 # In Finnish texts s. is used instead of p.		
 f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographica")
 synonyms <- read.csv(f, sep = ";") 
-
-df.orig$physical_dimension <- harmonize_names(df.orig$physical_dimension,
+df.orig$physical_dimension <- map(df.orig$physical_dimension,
 					synonyms, mode = "recursive")
 
 # -------------------------------
 
 source(system.file("extdata/preprocessing.R", package = "bibliographica"))
+
 source("preprocessing.fennica.R") # Fennica-specific
 
 # -------------------------------

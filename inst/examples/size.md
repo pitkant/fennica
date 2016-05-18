@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 4901 documents and updated (changed) for 0 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 4900 documents and updated (changed) for 0 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -71,14 +71,14 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|----------------:|------------------:|-------:|
 |1to           |                 1.97|                    2.0|         473|NA                  |NA                    |         NA|               NA|                 NA|      NA|
 |2long         |                95.25|                   99.5|           4|NA                  |NA                    |         NA|            47.00|               47.0|       1|
-|2fo           |                11.95|                    4.0|        3205|NA                  |NA                    |         NA|            19.42|               16.0|     402|
+|2fo           |                11.99|                    4.0|        3205|NA                  |NA                    |         NA|            19.49|               16.5|     404|
 |4long         |                69.30|                   28.0|         206|NA                  |NA                    |         NA|            23.41|               19.0|     148|
-|4to           |                36.53|                   12.0|       15657|NA                  |NA                    |         NA|            20.23|               18.0|    7519|
+|4to           |                36.54|                   12.0|       15657|NA                  |NA                    |         NA|            20.23|               18.0|    7518|
 |6to           |                99.97|                   64.0|          29|NA                  |NA                    |         NA|            20.92|               13.0|      12|
 |8long         |               214.76|                  112.0|          99|NA                  |NA                    |         NA|            24.80|               24.0|      15|
-|8vo           |               104.35|                   53.0|        7774|NA                  |NA                    |         NA|            24.47|               24.0|    2951|
+|8vo           |               104.37|                   53.0|        7774|NA                  |NA                    |         NA|            24.46|               24.0|    2951|
 |12long        |               388.29|                  244.0|           7|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|12mo          |               112.88|                   68.0|        3234|NA                  |NA                    |         NA|            29.77|               28.0|    1293|
+|12mo          |               112.94|                   68.0|        3234|NA                  |NA                    |         NA|            29.77|               28.0|    1293|
 |16long        |               159.00|                  159.0|           1|NA                  |NA                    |         NA|               NA|                 NA|      NA|
 |16mo          |               106.47|                   48.0|        1665|NA                  |NA                    |         NA|            30.59|               32.0|     817|
 |18mo          |               244.88|                  199.0|           8|NA                  |NA                    |         NA|            44.00|               44.0|       1|
@@ -86,7 +86,7 @@ Multi-volume documents average page counts are given per volume.
 |24mo          |               300.00|                  178.0|          12|NA                  |NA                    |         NA|            32.00|               32.0|       1|
 |32mo          |               227.89|                   94.0|          57|NA                  |NA                    |         NA|            24.17|               23.5|      12|
 |64mo          |                91.50|                  112.0|           8|NA                  |NA                    |         NA|            24.00|               24.0|       1|
-|NA            |               109.85|                   61.0|       38808|NA                  |NA                    |         NA|            24.85|               23.0|   14217|
+|NA            |               109.86|                   61.0|       38808|NA                  |NA                    |         NA|            24.85|               23.0|   14218|
 
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
