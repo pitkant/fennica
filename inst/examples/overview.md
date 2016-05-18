@@ -43,12 +43,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height.original                   |        93.1|           6.9|          4949|        335|
 |subject_geography                 |        91.9|           8.1|          5771|        764|
 |note_granter                      |        91.8|           8.2|          5843|         98|
-|note_dissertation                 |        91.0|           9.0|          6415|          5|
 |note_510c                         |        90.7|           9.3|          6645|       6450|
 |note_source                       |        83.6|          16.4|         11710|       4972|
 |title_uniform                     |        82.9|          17.1|         12182|       8915|
 |author_death                      |        75.3|          24.7|         17569|        363|
-|author_date                       |        74.1|          25.9|         18432|       2508|
 |author_birth                      |        74.0|          26.0|         18497|        342|
 |corporate                         |        71.5|          28.5|         20281|       1406|
 |subject_topic                     |        70.9|          29.1|         20766|       3513|
@@ -58,14 +56,12 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                            |        47.6|          52.4|         37328|        336|
 |area                              |        47.6|          52.4|         37328|        766|
 |paper.consumption.km2             |        47.6|          52.4|         37328|       4304|
-|physical_dimension                |        47.3|          52.7|         37577|       1101|
 |self_published                    |        46.6|          53.4|         38080|          3|
 |author_gender                     |        46.3|          53.7|         38252|          4|
 |author_name                       |        36.7|          63.3|         45082|      11975|
 |author                            |        36.7|          63.3|         45082|      12000|
 |publisher                         |        17.5|          82.5|         58768|      10837|
 |pagecount.orig                    |         6.9|          93.1|         66347|        995|
-|physical_extent                   |         5.7|          94.3|         67211|      15183|
 |country                           |         4.1|          95.9|         68320|         33|
 |publication_place                 |         4.1|          95.9|         68321|        433|
 |latitude                          |         1.1|          98.9|         70471|        365|
@@ -75,7 +71,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_year_from             |         0.0|         100.0|         71229|        351|
 |title                             |         0.0|         100.0|         71245|      56603|
 |synodal                           |         0.0|         100.0|         71247|          3|
-|publication_time                  |         0.0|         100.0|         71248|       3217|
 |language.Swedish                  |         0.0|         100.0|         71248|          2|
 |language.Finnish                  |         0.0|         100.0|         71248|          2|
 |language.Latin                    |         0.0|         100.0|         71248|          2|
