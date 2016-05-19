@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-05-18"
+date: "2016-05-19"
 output: markdown_document
 ---
 
@@ -12,7 +12,7 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 71248 documents (100%). The publication years span 1488-1919.
+Publication year is available for 68027 documents (100%). The publication years span 1488-1917.
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 

@@ -1,85 +1,78 @@
 Name	Count
-enevaldus svenonis	211
+enevaldus svenonis	192
 algothus asmundi	139
 isaacus	70
 nicolaus	70
-jac	56
-nicolaus laurentii	52
-joh	40
-konni	40
-gustavus	38
-sigfridus aronus	33
+jac	52
+nicolaus laurentii	48
+joh	39
+konni	39
+gustavus	35
+sigfridus aronus	32
 isaacus erlandi	30
 björnstjerne	27
 émile	26
-hall	21
-joh rich	21
-mór	21
-gust	20
+mór	20
 abrahamus	19
-irmari	18
+hall	19
+joh rich	19
+gust	18
 christfrid	17
-nicolaus jonae	15
-eugène	14
+irmari	16
 alphonse	13
-guss	13
+eugène	13
 józsef	13
 abrahamus claudii	12
-rafaël	12
-fridericus	11
-nicolaus abrahamus	11
+guss	12
+nicolaus jonae	12
+fridericus	10
 gustave	10
-kálmán	10
+rafaël	10
 rené	10
-hijoppi	9
-isaacus michaelis	9
 israël	9
-stein	9
 fabianus	8
+isaacus michaelis	8
+kálmán	8
+nicolaus abrahamus	8
+stein	8
 sylvanus	8
 upton	8
 erlandus erlandi	7
 françois	7
+hijoppi	7
 jully	7
 lafcadio	7
 naëma	7
-orison swett	7
 rope	7
 taav	7
 wsevolod	7
 adelaïde	6
-christianus	6
 ernestus thomae	6
-jean-jacques	6
 joh ev	6
 joh gottsch	6
 josephus	6
 michaël	6
 octave	6
-osv	6
+orison swett	6
 sigfridus sigfridi	6
 walmis	6
 xx	6
 archibald clavering	5
+christianus	5
 franciscus	5
 h rider	5
+jean-jacques	5
 numero	5
 rudolph	5
-uunio	5
 ain'elisabet	4
 evg	4
-filaret	4
 frédéric	4
 fridericus samuelis	4
 heinricus martini	4
 isaacus erici	4
 jeja	4
 jöns	4
-pál	4
 stanisław	4
-aegydius	3
-aelius	3
-aladár	3
 albertus erici	3
 andré	3
 archibald	3
@@ -88,19 +81,19 @@ christiernus	3
 édouard	3
 ferd	3
 fergus	3
-gigge	3
+filaret	3
 haraldus	3
-heléna	3
 joachimus	3
 juudas	3
 kolomán	3
 léonie	3
-louis-antoine	3
 murenius'	3
 onoto	3
+osv	3
 sándor	3
 søren	3
 treumund	3
+uunio	3
 väikkö	3
 w:m	3
 ab	2
@@ -109,7 +102,9 @@ abrahamus andreae	2
 achille	2
 ad	2
 adolphe	2
-aleko	2
+aegydius	2
+aelius	2
+aladár	2
 antal	2
 anundus christophori	2
 arth	2
@@ -128,10 +123,12 @@ ephraim	2
 etty	2
 ewgenij	2
 frode	2
+gaylord	2
 gerardo	2
 géza	2
-haqvinus erlandi	2
+gigge	2
 headon	2
+heléna	2
 hellmuth v	2
 henningus henningi	2
 irving	2
@@ -139,33 +136,27 @@ ivarus udalricus	2
 jeffery	2
 jersy	2
 joh:s	2
-josephus joachimus	2
-laur	2
 léon	2
 lewi	2
+louis-antoine	2
 naëmi	2
 newton n	2
 ossip	2
 otto-i	2
 phillips	2
-rabindranath	2
 raiju	2
 raikke	2
 réginald	2
 ricarda	2
 rich v	2
-rietrik	2
 salvadore	2
 sophus	2
 steen steensen	2
-stephanus	2
 svenonus	2
 swami	2
 swen	2
-théodore	2
 tyr	2
 tyykö	2
-vietti	2
 žalia	2
 abrah	1
 abrahamus abrahami	1
@@ -175,10 +166,12 @@ abrahamus henrici	1
 adèle	1
 aeschillus svenonis	1
 å g	1
+aleko	1
 aloys	1
 alta	1
 ambrose	1
 andrews	1
+anie	1
 å p	1
 aristide	1
 arkadij	1
@@ -224,6 +217,7 @@ ferencz	1
 fielden	1
 fitzgerald	1
 f kølpin	1
+flavius	1
 fortuné du	1
 fredricus	1
 fridericus reginaldus	1
@@ -231,18 +225,16 @@ friedebert	1
 friedrich-carl	1
 gaetano	1
 gardonyi	1
-gaylord	1
 georges-louis	1
 gerhart	1
-germundus fridericus	1
 giosuè	1
 gudda	1
 gunther	1
 gustavus christophori	1
 gustavus erici	1
 gustavus martini	1
-gustavus nicolaus	1
 hanssu	1
+haqvinus erlandi	1
 hartwig	1
 hellmuth	1
 hendrikki	1
@@ -264,7 +256,6 @@ joh b	1
 joh l	1
 jos	1
 jósef	1
-josephus laurentii	1
 josephus matthiae	1
 jovard	1
 kaarola	1
@@ -274,6 +265,7 @@ kreivi	1
 ladislaus	1
 lampertus	1
 l annæus	1
+laur	1
 louis-lucien	1
 mads	1
 mag	1
@@ -291,7 +283,6 @@ neiti	1
 nicolaus christopheri	1
 nicolaus christophori	1
 nicolaus ebbori	1
-nicolaus gregorii	1
 nicolaus gustavus	1
 nicolaus henrici	1
 nicolaus matthiae	1
@@ -299,33 +290,36 @@ nicolaus svenonis	1
 o eneroth	1
 olympe	1
 øvre richter	1
-páltól	1
+pál	1
 paul-eric	1
 pavali	1
 phillips e	1
 pierre-charles	1
 prosper-olivier	1
+rabindranath	1
 raf	1
 rich	1
 richardus gjedde	1
 richardus richardi	1
+rietrik	1
 rosalind	1
-rudolphus israël	1
-sámuel	1
 sébastien	1
 siegbjörn	1
 sigfridus	1
 sigfridus svenonis	1
 st	1
+stephanus	1
 stephanus n	1
 sulpicius	1
 svaami	1
 tahwo	1
 theobald	1
+théodore	1
 théophile	1
 thom	1
 thos	1
 traiano	1
+vietti	1
 villadtz	1
 w a:son	1
 wildrich	1
