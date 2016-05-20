@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-19"
+date: "2016-05-20"
 output: markdown_document
 ---
 
@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher                                     | titles|     paper|
 |:---------------------------------------------|------:|---------:|
-|bey michaele laurelio                         |   2364| 0.5988873|
-|directeuri jacob merckellin wainajan präntisä |   8535| 4.2503251|
+|bey michaele laurelio                         |   2364| 0.5990478|
+|directeuri jacob merckellin wainajan präntisä |   8535| 4.2535709|
 |joh köhleri gymnasii typogr                   |   1821| 0.1066370|
-|suomalainen puolue                            |   2035| 1.1379724|
-|tapaturmavakuutusoy louhi                     |   2800| 1.0623107|
+|suomalainen puolue                            |   2035| 1.1480715|
+|tapaturmavakuutusoy louhi                     |   2800| 1.0490321|

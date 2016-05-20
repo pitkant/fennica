@@ -6,7 +6,7 @@ NA	  61	NA	1	1758
 [8] s.	   8	NA	1	1550
 8 s.	   8	NA	1	1117
 [2] s.	   2	NA	1	1112
-NA	  53	NA	1	1098
+NA	  54	NA	1	1098
 32 s.	  32	NA	1	 933
 24 s.	  24	NA	1	 810
 15 s.	  15	NA	1	 673
@@ -188,7 +188,7 @@ NA	  18	NA	1	 426
 139 s.	 139	NA	1	  43
 131 s.	 131	NA	1	  42
 159 s.	 159	NA	1	  41
-[?] s.	  53	NA	1	  41
+[?] s.	  54	NA	1	  41
 [2], [1] 2-16 s.	  18	NA	1	  41
 167 s.	 167	NA	1	  40
 151 s.	 151	NA	1	  40
@@ -1009,7 +1009,7 @@ VIII, 87 s.	  95	NA	1	   4
 6 lehteä.	  12	NA	1	   4
 [2], 160 s.	 162	NA	1	   4
 138, [1] s.	 139	NA	1	   4
-10 s., 1 pl.	  10	NA	1	   4
+10 s., 1 pl.	  12	NA	1	   4
 [8], 304 s.	 312	NA	1	   4
 104, [2] s.	 106	NA	1	   4
 317 s.	 317	NA	1	   4
@@ -1022,7 +1022,7 @@ VIII, 87 s.	  95	NA	1	   4
 99, [3] s.	 102	NA	1	   4
 [4], 184 s.	 188	NA	1	   4
 [8], 147 s.	 155	NA	1	   4
-15 s., 1 pl.	  15	NA	1	   4
+15 s., 1 pl.	  17	NA	1	   4
 [4], 125 s.	 129	NA	1	   4
 491 s.	 491	NA	1	   4
 [4], 59 s.	  63	NA	1	   4
@@ -1297,9 +1297,9 @@ VIII, 152 s.	 160	NA	1	   3
 [2], 101 s.	 103	NA	1	   3
 [6], 122 s.	 128	NA	1	   3
 [4], 261 s.	 265	NA	1	   3
-93 s., 2 pl.	  93	NA	1	   3
+93 s., 2 pl.	  97	NA	1	   3
 [3], 107 s.	 110	NA	1	   3
-28 s., 1 pl.	  28	NA	1	   3
+28 s., 1 pl.	  30	NA	1	   3
 [2], 161 s.	 163	NA	1	   3
 [4], 144 s.	 148	NA	1	   3
 IV, 124 s.	 128	NA	1	   3
@@ -1311,7 +1311,7 @@ IV, 124 s.	 128	NA	1	   3
 [6], 107 s.	 113	NA	1	   3
 43, [2] s.	  45	NA	1	   3
 [4], 232 s.	 236	NA	1	   3
-24 s., 1 pl.	  24	NA	1	   3
+24 s., 1 pl.	  26	NA	1	   3
 XII s.	  12	NA	1	   3
 X, 187 s.	 197	NA	1	   3
 [2], 100 s.	 102	NA	1	   3
@@ -1438,10 +1438,10 @@ S. 1-24.	  24	NA	1	   3
 [4], 134 s.	 138	NA	1	   3
 5, [1] s.	   6	NA	1	   3
 42, [2] s.	  44	NA	1	   3
-[4], 70 s., 1 pl.	  74	NA	1	   3
+[4], 70 s., 1 pl.	  76	NA	1	   3
 [8], 99 s.	 107	NA	1	   3
 275, [1] s.	 276	NA	1	   3
-16 s., 1 pl.	  16	NA	1	   3
+16 s., 1 pl.	  18	NA	1	   3
 [2], 75 s.	  77	NA	1	   3
 VIII, 120 s.	 128	NA	1	   3
 [8], 266 s.	 274	NA	1	   3
@@ -1708,7 +1708,7 @@ VI, 85 s.	  91	NA	1	   2
 [211] s.	 211	NA	1	   2
 [142] s.	 142	NA	1	   2
 [203] s.	 203	NA	1	   2
-7 s., 20 pl.	   7	NA	1	   2
+7 s., 20 pl.	  47	NA	1	   2
 [387] s.	 387	NA	1	   2
 [340] s.	 340	NA	1	   2
 [183] s.	 183	NA	1	   2
@@ -1845,7 +1845,7 @@ S. 156-221.	  66	NA	1	   2
 582 s.	 582	NA	1	   2
 VIII, 67 s.	  75	NA	1	   2
 VI, 126 s.	 132	NA	1	   2
-1 l.	   2	NA	1	   2
+1 l.	  61	NA	1	   2
 [7], 164 s.	 171	NA	1	   2
 VI, 80 s.	  86	NA	1	   2
 748 s.	 748	NA	1	   2
@@ -1881,7 +1881,7 @@ III, 37 s.	  40	NA	1	   2
 792 s.	 792	NA	1	   2
 [6], 146 s.	 152	NA	1	   2
 402 s.	 402	NA	1	   2
-[6], XV, [1], 149 s., kuval.	 173	NA	1	   2
+[6], XV, [1], 149 s., kuval.	 175	NA	1	   2
 VIII, 262 s., karttaliite	 270	NA	1	   2
 [4], 186 s., 7 karttaa	 204	NA	1	   2
 XIV, 315 s.	 329	NA	1	   2
@@ -1926,7 +1926,7 @@ X, 143 s.	 153	NA	1	   2
 [3], 80 s.	  83	NA	1	   2
 433 s.	 433	NA	1	   2
 VIII, 176 s.	 184	NA	1	   2
-1 bl.	   2	NA	1	   2
+1 bl.	  61	NA	1	   2
 VII, 283 s.	 290	NA	1	   2
 28 s., 1 kuval.	  30	NA	1	   2
 [8 kuval.]	  18	NA	1	   2
@@ -2007,10 +2007,10 @@ VIII, 142 s.	 150	NA	1	   2
 [2], 70 s.	  72	NA	1	   2
 [8], 143 s.	 151	NA	1	   2
 [4], 53 s.	  57	NA	1	   2
-34 s., 1 pl.	  34	NA	1	   2
+34 s., 1 pl.	  36	NA	1	   2
 VIII, 315 s.	 323	NA	1	   2
 [6], 185 s.	 191	NA	1	   2
-10 s., 10 pl.	  10	NA	1	   2
+10 s., 10 pl.	  30	NA	1	   2
 168, [2] s.	 170	NA	1	   2
 XII, 170 s.	 182	NA	1	   2
 [2], 172 s.	 174	NA	1	   2
@@ -2059,7 +2059,7 @@ XI, 260 s.	 271	NA	1	   2
 461 s.	 461	NA	1	   2
 5  s.	   5	NA	1	   2
 S. 81-160.	  80	NA	1	   2
-45 s., 1 pl.	  45	NA	1	   2
+45 s., 1 pl.	  47	NA	1	   2
 [6], 230 s.	 236	NA	1	   2
 144, [1] s.	 145	NA	1	   2
 30 s., kartta	  30	NA	1	   2
@@ -2144,7 +2144,7 @@ S. 1-16	  16	NA	1	   2
 61 s., 1 tab.	  61	NA	1	   2
 [79] s.	  79	NA	1	   2
 [6], 139 s.	 145	NA	1	   2
-11 s., 1 pl.	  11	NA	1	   2
+11 s., 1 pl.	  13	NA	1	   2
 IX, 186 s.	 195	NA	1	   2
 [4], 300 s.	 304	NA	1	   2
 [6], 117 s.	 123	NA	1	   2
@@ -2213,7 +2213,7 @@ S. 49-96.	  48	NA	1	   2
 [8], 282 s.	 290	NA	1	   2
 35 s., 1 kuvaliite, 1 karttaliite	  37	NA	1	   2
 35 s., karttaliite	  35	NA	1	   2
-47 s., 1 pl.	  47	NA	1	   2
+47 s., 1 pl.	  49	NA	1	   2
 21 s., karttaliite	  21	NA	1	   2
 VIII, 224 s.	 232	NA	1	   2
 543 s.	 543	NA	1	   2
@@ -2234,10 +2234,10 @@ XXVI s.	  26	NA	1	   2
 VIII, 242 s.	 250	NA	1	   2
 [8], 115 s.	 123	NA	1	   2
 [8], 196, 137 s.	 204	NA	1	   2
-261, [3] s., 8 pl.	 264	NA	1	   2
+261, [3] s., 8 pl.	 280	NA	1	   2
 [2], 362 s.	 364	NA	1	   2
 XXXIX, 265, [2] s., 7 kuvaliitettä, 1 karttaliite	 322	NA	1	   2
-18 s., 9 pl.	  18	NA	1	   2
+18 s., 9 pl.	  36	NA	1	   2
 XIV, 848, V s.	 862	NA	1	   2
 IV, 112 s.	 116	NA	1	   2
 [8], 73 s.	  81	NA	1	   2
@@ -2326,7 +2326,7 @@ VI, 148 s.	 154	NA	1	   2
 [6], 192 s.	 198	NA	1	   2
 21 s., 1 kuvaliite	  21	NA	1	   2
 29 s., taululiite	  29	NA	1	   2
-24 s., 4 pl.	  24	NA	1	   2
+24 s., 4 pl.	  32	NA	1	   2
 25 s., 1 kuvaliite	  25	NA	1	   2
 XLII, 338 s.	 380	NA	1	   2
 [11 s.].	  11	NA	1	   2
@@ -2343,7 +2343,7 @@ XVI, 327 s.	 343	NA	1	   2
 128 s., 2 kuvaliitettä	 132	NA	1	   2
 141, [2] s.	 143	NA	1	   2
 VIII, 259 s.	 267	NA	1	   2
-[4] s., 35 pl.	   4	NA	1	   2
+[4] s., 35 pl.	  74	NA	1	   2
 159, [3] s.	 162	NA	1	   2
 [4], 88, [1] s.	  93	NA	1	   2
 [2], 94, [1] s., [1] kuval.	  99	NA	1	   2
@@ -2354,7 +2354,7 @@ IV, 209, [1] s.	 214	NA	1	   2
 [6], 149 s.	 155	NA	1	   2
 103, [3] s.	 106	NA	1	   2
 VII, 27 s.	  34	NA	1	   2
-62 s., 1 pl.	  62	NA	1	   2
+62 s., 1 pl.	  64	NA	1	   2
 VIII, 124 s.	 132	NA	1	   2
 [4], 155, [1] s.	 160	NA	1	   2
 VI, 137 s.	 143	NA	1	   2
@@ -2373,7 +2373,7 @@ VIII, 167 s.	 175	NA	1	   2
 S. 17-32.	  16	NA	1	   2
 [7 s.].	   7	NA	1	   2
 IV, 266 s.	 270	NA	1	   2
-66 s., 4 pl.	  66	NA	1	   2
+66 s., 4 pl.	  74	NA	1	   2
 228, [3] s.	 231	NA	1	   2
 398 s.	 398	NA	1	   2
 [4], 166 s.	 170	NA	1	   2
@@ -2382,7 +2382,7 @@ IV, 266 s.	 270	NA	1	   2
 VI, 198 s.	 204	NA	1	   2
 [6], 152 s.	 158	NA	1	   2
 [2], 109, [2] s.	 113	NA	1	   2
-17 s., 1 pl.	  17	NA	1	   2
+17 s., 1 pl.	  19	NA	1	   2
 176, [1] s.	 177	NA	1	   2
 317, [1] s.	 318	NA	1	   2
 [2], VIII, 615, [1] s.	 626	NA	1	   2
@@ -2564,7 +2564,6 @@ VIII, 255 s.	 263	NA	1	   2
 [6], 42 s.	  48	NA	1	   2
 VII, 171 s.	 178	NA	1	   2
 [51] s.	  51	NA	1	   2
-24 l.	  48	NA	1	   2
 628 s.	 628	NA	1	   2
 379 s.	 379	NA	1	   2
 203, [1] s.	 204	NA	1	   2
@@ -2715,7 +2714,7 @@ S. [65-80]	  16	NA	1	   2
 [4], [1] 2-27 [28] s.	  59	NA	1	   2
 [4], [1] 2-51 [52] s.	 107	NA	1	   2
 [8], [1] 2-30 [31-32] s.	  41	NA	1	   2
-A8 B4. [24] s.	  53	NA	1	   2
+A8 B4. [24] s.	  54	NA	1	   2
 [4] s. 2:o.	  61	NA	1	   2
 [1-3] 4-46 [47-48] s. (s. [48] tyhjä)	  48	NA	1	   2
 [1-3] 4-27 [28] s. (s. [28] tyhjä)	  28	NA	1	   2
@@ -3402,7 +3401,7 @@ XI, 124 s.	 135	NA	1	   1
 414, [1] s.	 415	NA	1	   1
 VII, 128 s.	 135	NA	1	   1
 XXVII, 58 s.	  85	NA	1	   1
-34 osaa	  53	NA	1	   1
+34 osaa	  54	NA	1	   1
 3 osaa (254, 292, 343 s.)	 343	NA	1	   1
 [5] s, s. 108-205	 210	NA	1	   1
 102 s. +	 102	NA	1	   1
@@ -3560,7 +3559,7 @@ III, 84 s.	  87	NA	1	   1
 5 nid. [60 s.].	  60	NA	1	   1
 VIII, 296 s.	 304	NA	1	   1
 14 nid.	  61	NA	1	   1
-[161] s. useina jaksoina	  53	NA	1	   1
+[161] s. useina jaksoina	  54	NA	1	   1
 20 nid. [325 s.].	 325	NA	1	   1
 XI, 368 s.	 379	NA	1	   1
 [IX] s., s. 103-197	 206	NA	1	   1
@@ -3701,7 +3700,7 @@ S. [440]-451	  12	NA	1	   1
 [26] s., [6] kuvalehteä	  38	NA	1	   1
 S. [96]-102	   7	NA	1	   1
 [8], 22 s. (7 taitettuina)	   8	NA	1	   1
-24 pl.	   4	NA	1	   1
+24 pl.	  48	NA	1	   1
 32 s. , 56 kuvalehteä	 144	NA	1	   1
 [21] kuvalehteä	  42	NA	1	   1
 [3] lehteä, [6] s., 38 s., [12] kuvalehteä	  74	NA	1	   1
@@ -3983,7 +3982,7 @@ LXXXVIII, 136 s.	 224	NA	1	   1
 [8] s. (s. [8] tyhjät	  18	NA	1	   1
 [1] 2-10 [11-12] s. (s. [11] tyhjä)	  24	NA	1	   1
 [12] s. (s. [12] tyhjä	  12	NA	1	   1
-[8] s. (s. [2] ja [8] tyhjät)	  53	NA	1	   1
+[8] s. (s. [2] ja [8] tyhjät)	  54	NA	1	   1
 S. 446-475	  30	NA	1	   1
 [i-v] vj-x, [1] 2-264 s.	 275	NA	1	   1
 [1-3] 4-92 s. (s. [2] tyhjä)	  92	NA	1	   1
@@ -4078,15 +4077,15 @@ S. 433-666.	 234	NA	1	   1
 [IX], 163 s.	 172	NA	1	   1
 [XVIII], 148 s.	 166	NA	1	   1
 117, [XIX] s.	 136	NA	1	   1
-79 s., 2 pl.	  79	NA	1	   1
+79 s., 2 pl.	  83	NA	1	   1
 35, 36 s.	  36	NA	1	   1
 [XVIII], 137 s.	 155	NA	1	   1
 [XXIX], 128 s.	 157	NA	1	   1
 [XXIX], 120 s.	 149	NA	1	   1
 [II], 77 s.	  79	NA	1	   1
 [XIX], 439, 411, [XXX] s.	 469	NA	1	   1
-72 s., 35 pl.	  72	NA	1	   1
-[?] s., 6 pl.	   4	NA	1	   1
+72 s., 35 pl.	 142	NA	1	   1
+[?] s., 6 pl.	  12	NA	1	   1
 25 s., 30 väggpl.	  25	NA	1	   1
 25 s., 14 väggpl.	  25	NA	1	   1
 25 s., 12 väggpl.	  25	NA	1	   1
@@ -4132,7 +4131,7 @@ S. 191-267.	  77	NA	1	   1
 S. 115-254.	 140	NA	1	   1
 8, XXXIII, 668 [i.e. 672] s., [2] lehteä	 717	NA	1	   1
 31, [XLIX] s.	  80	NA	1	   1
-52 s., 2 pl.	  52	NA	1	   1
+52 s., 2 pl.	  56	NA	1	   1
 45 s., 3 pl	  51	NA	1	   1
 54 s., 8 pl., 2 kartor	  58	NA	1	   1
 [IV], 192 s.	 196	NA	1	   1
@@ -4151,7 +4150,7 @@ S. 115-254.	 140	NA	1	   1
 5, 936, 29 s.	 936	NA	1	   1
 [VIII], 134 s.	 142	NA	1	   1
 [VII], 135 s.	 142	NA	1	   1
-34 s., 26 pl.	  34	NA	1	   1
+34 s., 26 pl.	  86	NA	1	   1
 453 s.	 453	NA	1	   1
 90, 42 s.	  90	NA	1	   1
 119, 120 s.	 120	NA	1	   1
@@ -4159,7 +4158,7 @@ S. 115-254.	 140	NA	1	   1
 36, 32, 74 s.	  74	NA	1	   1
 156, 66 s.	 156	NA	1	   1
 [IV], 88 s.	  92	NA	1	   1
-40 s., 6 pl.	  40	NA	1	   1
+40 s., 6 pl.	  52	NA	1	   1
 18 s., tabb.	  18	NA	1	   1
 [6], 195, [XLVIII] s.	 249	NA	1	   1
 S. 145-207.	  63	NA	1	   1
@@ -4255,7 +4254,7 @@ XII s., 50 afbild.	  12	NA	1	   1
 2 osaa ([2], VI, 573; [2], 493, [6] s.)	1082	NA	1	   1
 494 s., Psaltarin kanssa 619 s.	 494	NA	1	   1
 1-2 vihko (60 s.)	  60	NA	1	   1
-117 ja lisäys 39 s.	  53	NA	1	   1
+117 ja lisäys 39 s.	  54	NA	1	   1
 42, 28 s.	  42	NA	1	   1
 12 s., 1 kuval., och musikbilaga	  12	NA	1	   1
 [IX], 165 s.	 174	NA	1	   1
@@ -4305,8 +4304,8 @@ XI, 359 s., [1] karttalehti	 370	NA	1	   1
 13, 172 s.	 172	NA	1	   1
 [2], iv, iv, 70 s., 8 kuval.	  92	NA	1	   1
 VII, 287 s.	 294	NA	1	   1
-18 s., 2 pl.	  18	NA	1	   1
-141 s., 5 pl.	 141	NA	1	   1
+18 s., 2 pl.	  22	NA	1	   1
+141 s., 5 pl.	 151	NA	1	   1
 III, 171 s.	 174	NA	1	   1
 viii, 335 s.	 343	NA	1	   1
 62, [24] s.	  86	NA	1	   1
@@ -4352,7 +4351,7 @@ xxxi, 446 s. [5] kuvalehteä, [2] karttalehteä taitettuna	  31	NA	1	   1
 [12], IV, 481, [1] s., [14] kuvalehteä	 526	NA	1	   1
 VI, 198 s., [1] karttelehti taitettuna : kuv., kartt.	 204	NA	1	   1
 [2], IV, 197 s., [25] kuvalehteä, [1] kuvalehti taitettuna, [3] karttalehteä taitettuna	 253	NA	1	   1
-146 s. : kartt.	  53	NA	1	   1
+146 s. : kartt.	  54	NA	1	   1
 [4], [2] s.	   6	NA	1	   1
 S. 3-32.	  30	NA	1	   1
 S. 71-92, [2] kuvalehteä	  26	NA	1	   1
@@ -4389,7 +4388,7 @@ X, 136 s.	 146	NA	1	   1
 3 osaa ( XXII, 636, XXXII, 607, XXXI, 377 s. )	 668	NA	1	   1
 [6], 102 s.	 108	NA	1	   1
 585 s.	 585	NA	1	   1
-1851: 26 n:roa à 16 s. - 1852 : samoin. - 1853: 26 n:roa à 8 s.	  53	NA	1	   1
+1851: 26 n:roa à 16 s. - 1852 : samoin. - 1853: 26 n:roa à 8 s.	  54	NA	1	   1
 91 s	  91	NA	1	   1
 [n. 30 s.].	  61	NA	1	   1
 120, 43 s.	 120	NA	1	   1
@@ -4406,12 +4405,12 @@ S. 251-257.	   7	NA	1	   1
 S. 81-84.	   4	NA	1	   1
 XVI, IV, 140 s.	 156	NA	1	   1
 40 s., [6] kuvalehteä	  52	NA	1	   1
-48 s., 3 pl.	  48	NA	1	   1
+48 s., 3 pl.	  54	NA	1	   1
 [219] s.	 219	NA	1	   1
 66, 31 s.	  66	NA	1	   1
 901 s.	 901	NA	1	   1
 675 s.	 675	NA	1	   1
-55 s., 5 pl.	  55	NA	1	   1
+55 s., 5 pl.	  65	NA	1	   1
 23, 72 s.	  72	NA	1	   1
 67 s., [16] kuvalehteä	  99	NA	1	   1
 XII, 216 s.	 228	NA	1	   1
@@ -4440,7 +4439,7 @@ S. 217-246.	  30	NA	1	   1
 [186] s.	 186	NA	1	   1
 [509] s.	 509	NA	1	   1
 [633] s.	 633	NA	1	   1
-90 s., 6 pl.	  90	NA	1	   1
+90 s., 6 pl.	 102	NA	1	   1
 [634] s.	 634	NA	1	   1
 [41] s., 1 tab.	  41	NA	1	   1
 [584] s., annonser.	 584	NA	1	   1
@@ -4466,13 +4465,13 @@ XVIII s.	  18	NA	1	   1
 [761] s., 1 karta	 761	NA	1	   1
 11 s., 1 karta	  11	NA	1	   1
 42 s., 1 pl. och 1 karta	  42	NA	1	   1
-18 s., 1 pl.	  18	NA	1	   1
+18 s., 1 pl.	  20	NA	1	   1
 S. 217-224.	   8	NA	1	   1
 40 s., 2 lehteä	  44	NA	1	   1
 [405] s.	 405	NA	1	   1
 S. 1-4, 161-335.	 335	NA	1	   1
 [250] s.	 250	NA	1	   1
-7 s., 19 pl.	   7	NA	1	   1
+7 s., 19 pl.	  45	NA	1	   1
 3 osaa (49, [1]; 44, [1]; 45, [2] s.)	 142	NA	1	   1
 VII, 112, [2] s., [1] karttalehti (taitettuna)	 121	NA	1	   1
 S. 395-682, I-VIII.	 296	NA	1	   1
@@ -4496,12 +4495,12 @@ S. 1-144.	 144	NA	1	   1
 [41] s.	  41	NA	1	   1
 [53] s.	  53	NA	1	   1
 [113] s.	 113	NA	1	   1
-[283] s., 20 pl.	 283	NA	1	   1
+[283] s., 20 pl.	 323	NA	1	   1
 [331] s.	 331	NA	1	   1
-322 s., 15 pl.	 322	NA	1	   1
-72 s., 4 pl.	  72	NA	1	   1
-109 s., 2 pl.	 109	NA	1	   1
-64 s., pl.	  64	NA	1	   1
+322 s., 15 pl.	 352	NA	1	   1
+72 s., 4 pl.	  80	NA	1	   1
+109 s., 2 pl.	 113	NA	1	   1
+64 s., pl.	  68	NA	1	   1
 [249] s., 2 tab.	 249	NA	1	   1
 [624] s.	 624	NA	1	   1
 [706] s.	 706	NA	1	   1
@@ -4515,9 +4514,9 @@ S. 1-144.	 144	NA	1	   1
 [59] s., 1 karta	  59	NA	1	   1
 86, XII s.	  98	NA	1	   1
 S. 41-46.	   6	NA	1	   1
-116 s., 1 pl.	 116	NA	1	   1
+116 s., 1 pl.	 118	NA	1	   1
 [2], XLVII s.	  49	NA	1	   1
-[279] s., 1 pl.	 279	NA	1	   1
+[279] s., 1 pl.	 281	NA	1	   1
 IV, 280 s.	 284	NA	1	   1
 [198] s.	 198	NA	1	   1
 [290] s.	 290	NA	1	   1
@@ -4533,16 +4532,16 @@ IV, 280 s.	 284	NA	1	   1
 [1], 46 s., [2] kuvalehteä	  51	NA	1	   1
 127, [7] s.	 134	NA	1	   1
 S. 193-206.	  14	NA	1	   1
-32 spalter, 1 pl.	  18	NA	1	   1
-[218] s., 2 pl.	 218	NA	1	   1
+32 spalter, 1 pl.	   2	NA	1	   1
+[218] s., 2 pl.	 222	NA	1	   1
 389, [9] s.	 398	NA	1	   1
-[26] s., 1 pl.	  26	NA	1	   1
+[26] s., 1 pl.	  28	NA	1	   1
 713 s.	 713	NA	1	   1
 [75] s.	  75	NA	1	   1
 2 osaa (336, 914 s.)	 914	NA	1	   1
 49 s., 8 kuvaa ja kartta	  49	NA	1	   1
 23 s., 6 kuval.	  35	NA	1	   1
-[126] s., 4 pl.	 126	NA	1	   1
+[126] s., 4 pl.	 134	NA	1	   1
 [127] s.	 127	NA	1	   1
 [326] s.	 326	NA	1	   1
 [332] s.	 332	NA	1	   1
@@ -4582,7 +4581,7 @@ VIII, 344 s.	 352	NA	1	   1
 XII, 228 s.	 240	NA	1	   1
 18 s., 2 kartor	  22	NA	1	   1
 19 s., 2 kartor	  23	NA	1	   1
-IV, 255 s., 16 pl.	 259	NA	1	   1
+IV, 255 s., 16 pl.	 291	NA	1	   1
 123 s +	 123	NA	1	   1
 2 osaa (274 s.)	 274	NA	1	   1
 VII, 95 s.	 102	NA	1	   1
@@ -4699,7 +4698,7 @@ S. 34-51.	  18	NA	1	   1
 S. 143-302	 160	NA	1	   1
 S. 81-142	  62	NA	1	   1
 S. 1-80	  80	NA	1	   1
-71 s . ja kartta	  53	NA	1	   1
+71 s . ja kartta	  54	NA	1	   1
 106 s., 99 kuvaa, kartta	 304	NA	1	   1
 56 s., kuva, kartta	  56	NA	1	   1
 242 s., 2 kuval.	 246	NA	1	   1
@@ -4731,8 +4730,8 @@ XIV, 474 s.	 488	NA	1	   1
 561 s.	 561	NA	1	   1
 575 s.	 575	NA	1	   1
 [4], 31; [4], 21 s.	  60	NA	1	   1
-46 s ja taulu	  53	NA	1	   1
-30 s. ja kuva	  53	NA	1	   1
+46 s ja taulu	  54	NA	1	   1
+30 s. ja kuva	  54	NA	1	   1
 716 s.	 716	NA	1	   1
 135, [3] s.	 138	NA	1	   1
 [8], 123, [3] s.	 134	NA	1	   1
@@ -5030,7 +5029,7 @@ S. 1-48.	  48	NA	1	   1
 960 s.	 960	NA	1	   1
 820 s.	 820	NA	1	   1
 170 s., 17 kuval.	 204	NA	1	   1
-247 s., kuval.	 249	NA	1	   1
+247 s., kuval.	 251	NA	1	   1
 86 s., 2 lehteä karttoja	  86	NA	1	   1
 96 s., [3] karttas.	 102	NA	1	   1
 1000 s.	1000	NA	1	   1
@@ -5071,7 +5070,7 @@ S. 253-462.	 210	NA	1	   1
 S. 1-252.	 252	NA	1	   1
 559 s.	 559	NA	1	   1
 522 s.	 522	NA	1	   1
-173 s., kuval.	 175	NA	1	   1
+173 s., kuval.	 177	NA	1	   1
 24, 20, 19, 16 s.	  24	NA	1	   1
 8 s., 20 kuval.	  48	NA	1	   1
 11 kuvas.	  18	NA	1	   1
@@ -5089,7 +5088,7 @@ S. 1-100, 6 kuval.	 112	NA	1	   1
 12 taulua	  24	NA	1	   1
 VII, 315, [3] s.	 325	NA	1	   1
 4 s., 9 kuval.	  22	NA	1	   1
-188 s., kuval.	 190	NA	1	   1
+188 s., kuval.	 192	NA	1	   1
 29 s., 2 kuval.	  33	NA	1	   1
 74 s., 12 kuval.	  98	NA	1	   1
 200 s., 27 kuval.	 254	NA	1	   1
@@ -5100,7 +5099,7 @@ XVI, 112, [4] s., [1] karttalehti (taitettuna)	 132	NA	1	   1
 165 s., muotokuva	 165	NA	1	   1
 558 s.	 558	NA	1	   1
 58 s., 2 kahden s. kuval.	  58	NA	1	   1
-52 s., kuval.	  54	NA	1	   1
+52 s., kuval.	  56	NA	1	   1
 200 s., 2 kuval.	 204	NA	1	   1
 599 s. +	 599	NA	1	   1
 85 s., muotokuva	  85	NA	1	   1
@@ -5108,16 +5107,16 @@ XVI, 112, [4] s., [1] karttalehti (taitettuna)	 132	NA	1	   1
 551 s.	 551	NA	1	   1
 90 s. +	  90	NA	1	   1
 S. 193-224.	  32	NA	1	   1
-XII, 128 s., kuval.	 142	NA	1	   1
+XII, 128 s., kuval.	 144	NA	1	   1
 91 s., muotokuva	  91	NA	1	   1
 89, [3] s.	  92	NA	1	   1
-92 s., kuval.	  94	NA	1	   1
+92 s., kuval.	  96	NA	1	   1
 42 s., kartta	  42	NA	1	   1
 14 s., kuva	  14	NA	1	   1
 140 s., 2 kuval.	 144	NA	1	   1
 S. 1-288, tekijän kuva	 288	NA	1	   1
 52 s., 1 kartta	  54	NA	1	   1
-48 s., kuval.	  50	NA	1	   1
+48 s., kuval.	  52	NA	1	   1
 19 s., 9 kuvaa	  37	NA	1	   1
 S. 321-614.	 294	NA	1	   1
 [8], 552, [XXX+LVII-CVI] s., [4] kuvalehteä, [9] sukutaulua taitettuna, [8] karttalehteä, [1] taitekarttalehti	 568	NA	1	   1
@@ -5127,13 +5126,13 @@ S. 321-614.	 294	NA	1	   1
 212, [5] s., [66] kuval.	 349	NA	1	   1
 194 s., 6 lehteä kuvia	 194	NA	1	   1
 785 s.	 785	NA	1	   1
-98 s., kuval.	 100	NA	1	   1
+98 s., kuval.	 102	NA	1	   1
 41 s., taulu ja kartta	  41	NA	1	   1
 911 s.	 911	NA	1	   1
 S. 1-516, 4 s.	 516	NA	1	   1
 676 s.	 676	NA	1	   1
-106 s., kuval.	 108	NA	1	   1
-158 s., kuval.	 160	NA	1	   1
+106 s., kuval.	 110	NA	1	   1
+158 s., kuval.	 162	NA	1	   1
 110, [4] s.	 114	NA	1	   1
 323, [1] s.	 324	NA	1	   1
 1176 s.	1176	NA	1	   1
@@ -5154,11 +5153,11 @@ XXVIII s.	  28	NA	1	   1
 371 s., 2 taulua.	 375	NA	1	   1
 14 kuvas.	  18	NA	1	   1
 S. 70-109	  40	NA	1	   1
-142 s., kuval.	 144	NA	1	   1
+142 s., kuval.	 146	NA	1	   1
 204 s., 4 lehteä karttoja	 204	NA	1	   1
 113 s., 7 kuval.	 127	NA	1	   1
-114 s., kuval.	 116	NA	1	   1
-75 s., kuval.	  77	NA	1	   1
+114 s., kuval.	 118	NA	1	   1
+75 s., kuval.	  79	NA	1	   1
 550 s., kartta	 550	NA	1	   1
 545 s.	 545	NA	1	   1
 S. 463-799.	 337	NA	1	   1
@@ -5187,7 +5186,7 @@ V, 72 s.	  77	NA	1	   1
 104 s., 3 kuval.	 110	NA	1	   1
 44 s., 5 kuval., 1 lehti nuotteja	  44	NA	1	   1
 642 s.	 642	NA	1	   1
-502 s., kuval.	 504	NA	1	   1
+502 s., kuval.	 506	NA	1	   1
 S. 1-96.	  96	NA	1	   1
 265 s., 1 taulu.	 265	NA	1	   1
 738 s., 143 kuval.	1024	NA	1	   1
@@ -5390,7 +5389,7 @@ III, 174 s.	 177	NA	1	   1
 23 s., taulu	  23	NA	1	   1
 [6], 114, [20] s.	 140	NA	1	   1
 XVI, 660 s., 32 kuval.	 740	NA	1	   1
-[2], 9 l.	  20	NA	1	   1
+[2], 9 l.	   2	NA	1	   1
 162 s., 4 kuvalehteä	 170	NA	1	   1
 XXVI, 276 s.	 302	NA	1	   1
 ? s.	  61	NA	1	   1
@@ -5858,13 +5857,14 @@ XVII, 295 s.	 312	NA	1	   1
 XI, 128 s.	 139	NA	1	   1
 [4], 208 s., 2 taulukkol.	 212	NA	1	   1
 237 s., muotokuva	 237	NA	1	   1
-14 s., kuval.	  16	NA	1	   1
+14 s., kuval.	  18	NA	1	   1
 X, 241 s.	 251	NA	1	   1
 22 s., kuva	  22	NA	1	   1
 63 s., 2 kuvaa	  67	NA	1	   1
 [4], 221 s.	 225	NA	1	   1
 IX, 215   s.	 224	NA	1	   1
 8 s., 1 kuval.	  10	NA	1	   1
+24 l.	  18	NA	1	   1
 246 s., 7 kuvalehteä	 260	NA	1	   1
 VIII, 366 s.	 374	NA	1	   1
 [8], 178 s.	 186	NA	1	   1
@@ -5875,7 +5875,7 @@ VIII, 366 s.	 374	NA	1	   1
 [12] kuvalehteä taitettuina	  24	NA	1	   1
 [4], 450, LXXX s.	 534	NA	1	   1
 [8], 218, 3 s.	 226	NA	1	   1
-S. I-CL.	   1	NA	1	   1
+S. I-CL.	 150	NA	1	   1
 IV, 43 s.	  47	NA	1	   1
 S. 147-160.	  14	NA	1	   1
 S. 124-146.	  23	NA	1	   1
@@ -6198,9 +6198,9 @@ XII, 200 s.	 212	NA	1	   1
 S. 72-96.	  25	NA	1	   1
 S. 25-72.	  48	NA	1	   1
 [6], 257 s., 4 kuval.	 271	NA	1	   1
-155 s., kuval.	 157	NA	1	   1
+155 s., kuval.	 159	NA	1	   1
 [8], 202 s., taulul.	 210	NA	1	   1
-20 s., kuval.	  22	NA	1	   1
+20 s., kuval.	  24	NA	1	   1
 [4], 77, [2] s.	  83	NA	1	   1
 138, [1]	 139	NA	1	   1
 XXXII, 151 s., kuva	 183	NA	1	   1
@@ -6504,7 +6504,7 @@ V, 48 s.	  53	NA	1	   1
 IX, 111 s.	 120	NA	1	   1
 355 s., muotokuva	 355	NA	1	   1
 [2], 661 s.	 663	NA	1	   1
-4, 30 s., 6 pl.	  30	NA	1	   1
+4, 30 s., 6 pl.	  42	NA	1	   1
 8, 79 s.	  79	NA	1	   1
 8, 78 s.	  78	NA	1	   1
 206, II s.	 208	NA	1	   1
@@ -6611,8 +6611,8 @@ VII, 169 s.	 176	NA	1	   1
 99  s.	  99	NA	1	   1
 8, 248 s.	 248	NA	1	   1
 [4], 438, 14 s.	 442	NA	1	   1
-[4], 18, [1] s., kuval.	  25	NA	1	   1
-[4], 26, [1] s., kuval.	  33	NA	1	   1
+[4], 18, [1] s., kuval.	  27	NA	1	   1
+[4], 26, [1] s., kuval.	  35	NA	1	   1
 [2], V, 88 s.	  95	NA	1	   1
 [5], VIII, 272 s., muotokuva	 285	NA	1	   1
 224, [2], X, [1] s.	 237	NA	1	   1
@@ -6651,7 +6651,7 @@ XX, 252 s.	 272	NA	1	   1
 [2] s., s. 655-790	 792	NA	1	   1
 [2] s., s. 419-652	 654	NA	1	   1
 [2] s., s. 207-415	 417	NA	1	   1
-[4], 203 s., kuval.	 209	NA	1	   1
+[4], 203 s., kuval.	 211	NA	1	   1
 [8], 239 s.	 247	NA	1	   1
 XII, 204 s., kuva	 216	NA	1	   1
 196 s., 2 muotokuvaa	 196	NA	1	   1
@@ -6759,8 +6759,8 @@ VIII, 272 s.	 280	NA	1	   1
 VIII, 222, [2] s.	 232	NA	1	   1
 [2], 192 s., kuva	 194	NA	1	   1
 22, X, 167, [1] s.	 178	NA	1	   1
-[4], 223 s., kuval.	 229	NA	1	   1
-[4], 156 s., 8 pl.	 160	NA	1	   1
+[4], 223 s., kuval.	 231	NA	1	   1
+[4], 156 s., 8 pl.	 176	NA	1	   1
 [4], 305, XVII s., 1 illustr.	 326	NA	1	   1
 S. 153-320	 168	NA	1	   1
 S. 91-152	  62	NA	1	   1
@@ -6781,7 +6781,7 @@ X, 173 s.	 183	NA	1	   1
 [4], 161, [1] s., 9 kuval.	 184	NA	1	   1
 127, [5] s., 1 porträtt	 132	NA	1	   1
 [6], 330 s.	 336	NA	1	   1
-[3], 196 s., 10 pl.	 199	NA	1	   1
+[3], 196 s., 10 pl.	 219	NA	1	   1
 [289] s.	 289	NA	1	   1
 V, 194 s.	 199	NA	1	   1
 94, 16 s.	  94	NA	1	   1
@@ -6804,7 +6804,7 @@ VIII, 223, [239] s.	 470	NA	1	   1
 VIII, 287 s.	 295	NA	1	   1
 Vi, 152 s.	 158	NA	1	   1
 149, XXXIV, 60 s.	 183	NA	1	   1
-[4], 164 s., kuval.	 170	NA	1	   1
+[4], 164 s., kuval.	 172	NA	1	   1
 [8], 256 s., 12 kuvaa ja kartta	 264	NA	1	   1
 20 s., 2 kartta-luonnosta	  24	NA	1	   1
 18 s., 3 kuvaliitettä	  24	NA	1	   1
@@ -6812,7 +6812,7 @@ Vi, 152 s.	 158	NA	1	   1
 [6], 113 s., 3 kuval.	 125	NA	1	   1
 XIV, 95 s.	 109	NA	1	   1
 [2], 220 s., 11 karttaa	 244	NA	1	   1
-[7], 151 s., 1 pl.	 158	NA	1	   1
+[7], 151 s., 1 pl.	 160	NA	1	   1
 VIII, 133 s., 14 kuval.	 169	NA	1	   1
 [2], V, 205 s., 18 tabb.	 212	NA	1	   1
 [2], IV, 215 s.	 221	NA	1	   1
@@ -6835,13 +6835,13 @@ VIII, 670 s.	 678	NA	1	   1
 VII, 89 s.	  96	NA	1	   1
 [870] s.	 870	NA	1	   1
 752 s.	 752	NA	1	   1
-[2], 31 s., 1 pl.	  33	NA	1	   1
+[2], 31 s., 1 pl.	  35	NA	1	   1
 VII, 94 s.	 101	NA	1	   1
 [2], 152 s., 1 karta	 154	NA	1	   1
 156, [4] s., 1 karta	 160	NA	1	   1
 43 pl., [3], 54, [2] s.	  59	NA	1	   1
 V, 119 s.	 124	NA	1	   1
-[2], 18, [1] s., 3 pl.	  21	NA	1	   1
+[2], 18, [1] s., 3 pl.	  27	NA	1	   1
 S. 451-920.	 470	NA	1	   1
 X, 137 s.	 147	NA	1	   1
 VI, 449 s.	 455	NA	1	   1
@@ -6865,7 +6865,7 @@ VI, 259 s., 3 pl., 1 karta	 265	NA	1	   1
 [2], II, 201 s., 1 porträtt	 205	NA	1	   1
 1 tabell.	   4	NA	1	   1
 VI, 126 s., 1 muotokuva, 24 kuval.	 180	NA	1	   1
-79 s., 4 pl.	  79	NA	1	   1
+79 s., 4 pl.	  87	NA	1	   1
 XVIII, 260 s.	 278	NA	1	   1
 [4], 634, XI s.	 649	NA	1	   1
 [4], 524, XI s.	 539	NA	1	   1
@@ -6891,7 +6891,7 @@ VIII, V, 196 s.	 204	NA	1	   1
 [6], VIII, 586 s.	 600	NA	1	   1
 [6], 309 s.	 315	NA	1	   1
 127 s., muotokuva	 127	NA	1	   1
-[4], 155 s., 6 pl.	 159	NA	1	   1
+[4], 155 s., 6 pl.	 171	NA	1	   1
 [7], IV, 446 s.	 457	NA	1	   1
 [4], 72  s.	  76	NA	1	   1
 [4], 136 s., 2 kuval.	 144	NA	1	   1
@@ -6921,14 +6921,14 @@ VI, 71 s.	  77	NA	1	   1
 XXIV, 663 s.	 687	NA	1	   1
 51, [3] s., [2] kuvalehteä	  58	NA	1	   1
 66, [3] s., [3] kuvalehteä	  75	NA	1	   1
-33 s., 1 pl.	  33	NA	1	   1
-S. 289-303, 1 pl.	  15	NA	1	   1
+33 s., 1 pl.	  35	NA	1	   1
+S. 289-303, 1 pl.	  17	NA	1	   1
 [35] s., 3 kuval.	  41	NA	1	   1
 XV, 171 s.	 186	NA	1	   1
 [2], 46, [2], LVII s.	 107	NA	1	   1
 XXX s., s. 1319-1650	1680	NA	1	   1
-86 s., 1 pl.	  86	NA	1	   1
-[2], III, [2], 195 s., 2 pl.	 202	NA	1	   1
+86 s., 1 pl.	  88	NA	1	   1
+[2], III, [2], 195 s., 2 pl.	 206	NA	1	   1
 [2], 114, 22 s.	 116	NA	1	   1
 [3], 64 s.	  67	NA	1	   1
 [2], VI, 121, LX s.	 183	NA	1	   1
@@ -6979,7 +6979,7 @@ VII, 239 s.	 246	NA	1	   1
 [3], 266 s.	 269	NA	1	   1
 XXXV, 281 s.	 316	NA	1	   1
 106, 96, XII s.	 118	NA	1	   1
-213 s., 65 pl.	 213	NA	1	   1
+213 s., 65 pl.	 343	NA	1	   1
 46 s., 1 muotokuva	  46	NA	1	   1
 [2], 66 s., 7 kuval.	  82	NA	1	   1
 III, 145 s.	 148	NA	1	   1
@@ -7043,7 +7043,7 @@ Sid. 33-61.	  61	NA	1	   1
 XV, 574 s.	 589	NA	1	   1
 VI, 142 s.	 148	NA	1	   1
 [4], 211 s.	 215	NA	1	   1
-[5], 170 s., 1 pl.	 175	NA	1	   1
+[5], 170 s., 1 pl.	 177	NA	1	   1
 [2], VII, 36 s.	  45	NA	1	   1
 39 s., 1 tab., 1 kartplansch.	  39	NA	1	   1
 59 s., 11 kuvaliitettä	  81	NA	1	   1
@@ -7052,7 +7052,7 @@ IV, 266 s., 4 kuvaliitettä, 15 taulukkoliitettä	 278	NA	1	   1
 [2 s.], s. 315-657.	 657	NA	1	   1
 [2], 158, [2] s.	 162	NA	1	   1
 VII s., s. 9-89.	  96	NA	1	   1
-[2], XVI, 379 s., 1 pl.	 397	NA	1	   1
+[2], XVI, 379 s., 1 pl.	 399	NA	1	   1
 VI, 222 s., 1 taulukkoliite	 228	NA	1	   1
 [4], 142, [2] s.	 148	NA	1	   1
 VII, 79, XXV s.	 104	NA	1	   1
@@ -7063,7 +7063,7 @@ XX, [2], 256 s.	 278	NA	1	   1
 [2], 30 s., 1 färgpl.	  32	NA	1	   1
 VI, 188 s., [1] kuvalehti	 194	NA	1	   1
 VII, 372 s.	 379	NA	1	   1
-XI, 356 s., 16 pl.	 367	NA	1	   1
+XI, 356 s., 16 pl.	 399	NA	1	   1
 V, 105 s.	 110	NA	1	   1
 VIII, 326 s.	 334	NA	1	   1
 [2], 261, VII s.	 270	NA	1	   1
@@ -7071,7 +7071,7 @@ VIII, 326 s.	 334	NA	1	   1
 [2], VI, 251 s., 1 tab.	 259	NA	1	   1
 [Väggtafla, med illustrationer]	  61	NA	1	   1
 [4], 759, [4] s.	 767	NA	1	   1
-[2], 52 s., 2 pl.	  54	NA	1	   1
+[2], 52 s., 2 pl.	  58	NA	1	   1
 26 s., 6 kuvalehteä	  38	NA	1	   1
 87 s., taululiite	  87	NA	1	   1
 150   s.	 150	NA	1	   1
@@ -7083,7 +7083,7 @@ IV, 170 s.	 174	NA	1	   1
 [6], 485 s.	 491	NA	1	   1
 [6], 294 s.	 300	NA	1	   1
 XIX, 186 s.	 205	NA	1	   1
-[4], 44 s., 1 pl.	  48	NA	1	   1
+[4], 44 s., 1 pl.	  50	NA	1	   1
 [16], 326 s.	 342	NA	1	   1
 [8], 600, [2] s.	 610	NA	1	   1
 [2], 97 s., 5 tabb.	  99	NA	1	   1
@@ -7097,7 +7097,7 @@ IX, 359, [1] s.	 369	NA	1	   1
 IV, [4], 22 s.	  30	NA	1	   1
 [36], 70 s.	 106	NA	1	   1
 [8], 86 s.	  94	NA	1	   1
-[2], 56 s., 8 pl.	  58	NA	1	   1
+[2], 56 s., 8 pl.	  74	NA	1	   1
 10 vyer	  61	NA	1	   1
 [4], 76, [2] s.	  82	NA	1	   1
 38  s.	  38	NA	1	   1
@@ -7110,20 +7110,20 @@ IV s., s. 5-195.	 199	NA	1	   1
 34  s.	  34	NA	1	   1
 42  s.	  42	NA	1	   1
 11, 163, XIV s.	 177	NA	1	   1
-[4], 111, XXIV, [2] s., 3 pl.	 141	NA	1	   1
+[4], 111, XXIV, [2] s., 3 pl.	 147	NA	1	   1
 VII, [313] s., 13 pl., 4 tabb., 4 kartor	 328	NA	1	   1
 [6], 212 s.	 218	NA	1	   1
 [6], 148 s.	 154	NA	1	   1
 [6], 151, [2] s.	 159	NA	1	   1
 147, [1] s., kartta	 148	NA	1	   1
-II, 20 s., 1 pl.	  22	NA	1	   1
+II, 20 s., 1 pl.	  24	NA	1	   1
 [2], V, 954 s.	 961	NA	1	   1
-[4], 31 s., 2 pl.	  35	NA	1	   1
+[4], 31 s., 2 pl.	  39	NA	1	   1
 2, LVII s.	  59	NA	1	   1
-21, [23], LXI s., 2 pl.	 105	NA	1	   1
+21, [23], LXI s., 2 pl.	 109	NA	1	   1
 [2], 39, [44] s.	  85	NA	1	   1
 [6], 59, [1], 71 s., LXXVIII graafillista taululiitettä	  78	NA	1	   1
-78 s., 7 pl.	  78	NA	1	   1
+78 s., 7 pl.	  92	NA	1	   1
 12 kuvaliitettä	  24	NA	1	   1
 [2], 248 s.	 250	NA	1	   1
 237, [2] s.	 239	NA	1	   1
@@ -7154,7 +7154,7 @@ IV, 453, [1] s.	 458	NA	1	   1
 32 s., 1 taulukkoliite, 2 karttaliitettä	  36	NA	1	   1
 111, [4] s.	 115	NA	1	   1
 XI, 380 s.	 391	NA	1	   1
-22 s., 1 pl.	  22	NA	1	   1
+22 s., 1 pl.	  24	NA	1	   1
 36, 65 s.	  65	NA	1	   1
 299, [3] s.	 302	NA	1	   1
 VII, 33 s.	  40	NA	1	   1
@@ -7169,12 +7169,12 @@ VII, 33 s.	  40	NA	1	   1
 242 s., 8 pl., 8 kartor	 258	NA	1	   1
 27 s., tabb.	  27	NA	1	   1
 show 1 s., 8 tabb.	  61	NA	1	   1
-189 s., 2 tabb., 1 pl.	 189	NA	1	   1
+189 s., 2 tabb., 1 pl.	 191	NA	1	   1
 IV, [2], 131 s.	 137	NA	1	   1
 [4], 620, [2] s.	 626	NA	1	   1
 V, 205, [3] s.	 213	NA	1	   1
 [2], VI, 257, 43 s.	 265	NA	1	   1
-[7], 273, LXXXVIII s., 5 pl.	 368	NA	1	   1
+[7], 273, LXXXVIII s., 5 pl.	 378	NA	1	   1
 24 s., 1 ill.	  24	NA	1	   1
 [2], 82, [2] s.	  86	NA	1	   1
 XV, 501, [3] s.	 519	NA	1	   1
@@ -7187,18 +7187,18 @@ V, 250 s.	 255	NA	1	   1
 IV, 381, [1] s., [8] kuvalehteä	 402	NA	1	   1
 [4], 86, [32] s., 13 kuvalehteä	 148	NA	1	   1
 [4], 106 s., 2 tabb.	 110	NA	1	   1
-[4], 68, [4] s., 2 pl.	  76	NA	1	   1
+[4], 68, [4] s., 2 pl.	  80	NA	1	   1
 XI, 122 s.	 133	NA	1	   1
 III, 240 s.	 243	NA	1	   1
 [2], IV, 392 s.	 398	NA	1	   1
 [5], 174, XIV, [3] s.	 196	NA	1	   1
 [2], 449, V s.	 456	NA	1	   1
-[2], 100 s., 1 karta, 1 pl.	 102	NA	1	   1
+[2], 100 s., 1 karta, 1 pl.	 104	NA	1	   1
 [3], 100 s., 10 porträtt, 3 tabb.	 103	NA	1	   1
 X, 268 s.	 278	NA	1	   1
 81, 176, [3] s.	 179	NA	1	   1
 [4], 264 s., mallar	 268	NA	1	   1
-[2], 50 s., 1 pl.	  52	NA	1	   1
+[2], 50 s., 1 pl.	  54	NA	1	   1
 [6], 519 s.	 525	NA	1	   1
 [6], LVI, 924 s.	 986	NA	1	   1
 [261] s.	 261	NA	1	   1
@@ -7212,9 +7212,9 @@ XXVI, [2], 119 s.	 147	NA	1	   1
 [6], 80, VII s.	  93	NA	1	   1
 25, 8 s.	  25	NA	1	   1
 132 [po. 133] s.	  61	NA	1	   1
-VIII, 190 s., 1 pl.	 198	NA	1	   1
-[7], 104 s., 2 pl.	 111	NA	1	   1
-40 s., XXII pl.	  40	NA	1	   1
+VIII, 190 s., 1 pl.	 200	NA	1	   1
+[7], 104 s., 2 pl.	 115	NA	1	   1
+40 s., XXII pl.	  84	NA	1	   1
 17, CVII s., 2 kartor	 128	NA	1	   1
 XV, 186 s., kuvalehti	 201	NA	1	   1
 [4], 126, [1] s.	 131	NA	1	   1
@@ -7224,9 +7224,9 @@ VII, [1], 203 s.	 211	NA	1	   1
 XV, [348] s.	 363	NA	1	   1
 [4], 279, 318 s.	 322	NA	1	   1
 120, [1] s., 4 kuvaa	 129	NA	1	   1
-[4], 48, LX s., 5 pl.	 112	NA	1	   1
+[4], 48, LX s., 5 pl.	 122	NA	1	   1
 [4], 370 s.	 374	NA	1	   1
-8 s., 1 pl.	   8	NA	1	   1
+8 s., 1 pl.	  10	NA	1	   1
 129, [2] s.	 131	NA	1	   1
 [5], III, [1], 41, [1] s., XXII kuvalehteä	  95	NA	1	   1
 S. 193-411, [2 s.], muotokuva	 219	NA	1	   1
@@ -7293,15 +7293,15 @@ IV, 32 s.	  36	NA	1	   1
 42 [i.e. 46] s.	  46	NA	1	   1
 19, 31  s.	  31	NA	1	   1
 88, LXVIII s.	 156	NA	1	   1
-8 s., 16 pl.	   8	NA	1	   1
+8 s., 16 pl.	  40	NA	1	   1
 S. 125-231, VII s.	 114	NA	1	   1
 VI, 380 s.	 386	NA	1	   1
 X s.	  10	NA	1	   1
 [6], 291, [4] s., 11 pl., 10 kartor o. diagram	 301	NA	1	   1
-[2], V, 443 s., 5 pl.	 450	NA	1	   1
+[2], V, 443 s., 5 pl.	 460	NA	1	   1
 VII, 247 s.	 254	NA	1	   1
 45 s., 1 portr.	  45	NA	1	   1
-[2], 51 s., 11 pl.	  53	NA	1	   1
+[2], 51 s., 11 pl.	  75	NA	1	   1
 57 s., 1 karta	  57	NA	1	   1
 [4], 140, 15, [2] s.	 146	NA	1	   1
 [5], 112 s.	 117	NA	1	   1
@@ -7328,7 +7328,7 @@ S. 719-745.	  27	NA	1	   1
 196 s., 4 kuvaliitettä	 204	NA	1	   1
 [4], 249 s.	 253	NA	1	   1
 24 s., 2. pl.	  24	NA	1	   1
-3 pl.	  61	NA	1	   1
+3 pl.	   6	NA	1	   1
 [170] s.	 170	NA	1	   1
 [2], 111 s., 2 pl., 1 karta	 113	NA	1	   1
 [2], 63 s., 1 karta	  65	NA	1	   1
@@ -7359,7 +7359,7 @@ S. 607-626, muotokuva	  20	NA	1	   1
 VIII, 92 s., 2 kuvelehteä	 100	NA	1	   1
 122 s., 1 kuval.	 124	NA	1	   1
 XI, 331 s.	 342	NA	1	   1
-[3], 137 s., 14 pl.	 140	NA	1	   1
+[3], 137 s., 14 pl.	 168	NA	1	   1
 [6], 466 s., 10 kuval., 1 kartta	 474	NA	1	   1
 97 s., 7 kuval., 2 karttal.	 101	NA	1	   1
 648 s.	 648	NA	1	   1
@@ -7387,7 +7387,7 @@ XVIII, 392 s.	 410	NA	1	   1
 6 nid. ([144] s.)	 144	NA	1	   1
 [3], 154 s.	 157	NA	1	   1
 797 s., [2] karttalehteä (taitettuna)	 797	NA	1	   1
-[4], 196 s., 1 pl.	 200	NA	1	   1
+[4], 196 s., 1 pl.	 202	NA	1	   1
 [12], CXXXIV, 366 s., 1 muotokuva, 1 kartta	 514	NA	1	   1
 VIII, 472 s., 1 portr.	 480	NA	1	   1
 CXIV, 439 s.	 553	NA	1	   1
@@ -7396,7 +7396,7 @@ CXIV, 439 s.	 553	NA	1	   1
 LII, 400 s., 1 kuval.	 454	NA	1	   1
 [2], 15, [2] s., [1] kuval.	  21	NA	1	   1
 [10], CCLXXXVIII, 233 s.	 531	NA	1	   1
-[4], 74 s., 2 pl.	  78	NA	1	   1
+[4], 74 s., 2 pl.	  82	NA	1	   1
 [4] s., s. 281-588	 592	NA	1	   1
 XLII, [2], 280 s.	 324	NA	1	   1
 [6], 443 s., 9 kuval.	 467	NA	1	   1
@@ -7404,9 +7404,9 @@ XLII, [2], 280 s.	 324	NA	1	   1
 520 s., 2 pl. och 1 stamtafla	 520	NA	1	   1
 Sp. 161-1600.	1600	NA	1	   1
 [4], XII, 228, III s.	 244	NA	1	   1
-44 s., 2 pl.	  44	NA	1	   1
+44 s., 2 pl.	  48	NA	1	   1
 33 s., 1 pl., 1 höjdkarta	  33	NA	1	   1
-41 s., 1 pl.	  41	NA	1	   1
+41 s., 1 pl.	  43	NA	1	   1
 [4], V, 153 s., 1 kartta, 1 muotokuva	 164	NA	1	   1
 [4], XII, 450, XCII s.	 546	NA	1	   1
 [6], IV, 276 s., 1 muotokuva	 286	NA	1	   1
@@ -7429,21 +7429,21 @@ VIII, 198 s., 15 kuval.	 236	NA	1	   1
 378, 7 s., 38 pl., 3 kartor	 384	NA	1	   1
 [4], 295 s., 1 kuval., 1 musiikkiliite	 299	NA	1	   1
 21, 12, 15, [6] s.	  27	NA	1	   1
-[4], 133 s., 1 pl.	 137	NA	1	   1
-[6], [479] s., 84 ill., 14 pl.	 485	NA	1	   1
+[4], 133 s., 1 pl.	 139	NA	1	   1
+[6], [479] s., 84 ill., 14 pl.	 513	NA	1	   1
 VII, 109 s.	 116	NA	1	   1
-[2], VI, 151 s., 1 karta, 5 pl.	 159	NA	1	   1
+[2], VI, 151 s., 1 karta, 5 pl.	 169	NA	1	   1
 47 s., 1 pl., 2 kartor	  51	NA	1	   1
 [3], 28 s., 1 karta	  31	NA	1	   1
 [497] s.	 497	NA	1	   1
 [3], 17 s., 1 karta	  20	NA	1	   1
-[4], 210 s., 4 pl.	 214	NA	1	   1
+[4], 210 s., 4 pl.	 222	NA	1	   1
 [5], 254, [3] s., 5 pl., 2 kartor	 266	NA	1	   1
 160 s., 1 kartta	 162	NA	1	   1
-[2], III, [2], 197 s., 2 pl.	 204	NA	1	   1
+[2], III, [2], 197 s., 2 pl.	 208	NA	1	   1
 [2], 64 s., 1 pl., 1 karta	  66	NA	1	   1
-[4], 210, [4] s., 4 pl.	 218	NA	1	   1
-38 s., 2 pl.	  38	NA	1	   1
+[4], 210, [4] s., 4 pl.	 226	NA	1	   1
+38 s., 2 pl.	  42	NA	1	   1
 84 s., 1 karta	  84	NA	1	   1
 VIII, 228, XIV, [3] s., 5 kartor	 255	NA	1	   1
 XI, 437, LII, [4] s., 10 kartor	 513	NA	1	   1
@@ -7456,7 +7456,7 @@ XVI, 268, XIII s., 2 kartor	 288	NA	1	   1
 XI, 285 s.	 296	NA	1	   1
 20 s., 1 karta	  20	NA	1	   1
 [3], 155 s., 1 karta	 158	NA	1	   1
-40 pl.	   4	NA	1	   1
+40 pl.	  80	NA	1	   1
 VIII, 297 s.	 305	NA	1	   1
 15 s., 2 taulukkoa	  15	NA	1	   1
 14 s., 2 taulukkoa	  14	NA	1	   1
@@ -7478,14 +7478,14 @@ XIII, 286 s.	 299	NA	1	   1
 VI, 48, 227, IV s.	 233	NA	1	   1
 [2], 65 s., 1 pl., 1 karta	  67	NA	1	   1
 22 s., 1 karta	  22	NA	1	   1
-17 s., 1 karta, 1 pl.	  17	NA	1	   1
+17 s., 1 karta, 1 pl.	  19	NA	1	   1
 8, 82 s.	  82	NA	1	   1
-[4], II, 144 s., 1 pl.	 150	NA	1	   1
-[2], 276 s., 18 pl.	 278	NA	1	   1
+[4], II, 144 s., 1 pl.	 152	NA	1	   1
+[2], 276 s., 18 pl.	 314	NA	1	   1
 52, II s., 1 karta	  54	NA	1	   1
 63, [3] s., 7 pl., 1 karta	  66	NA	1	   1
 [4], 298 s.	 302	NA	1	   1
-16 pl.	  61	NA	1	   1
+16 pl.	  32	NA	1	   1
 485 s.	 485	NA	1	   1
 [5], 279 s.	 284	NA	1	   1
 [5], 144 s.	 149	NA	1	   1
@@ -7494,10 +7494,10 @@ VII, 166 s.	 173	NA	1	   1
 189 s., 2 karttalehteä	 189	NA	1	   1
 IV, 16 s.	  20	NA	1	   1
 [3], 191 s.	 194	NA	1	   1
-[279] s., 19 pl.	 279	NA	1	   1
+[279] s., 19 pl.	 317	NA	1	   1
 [2], IX, 257 s.	 268	NA	1	   1
 [2], VI, [267] s.	 275	NA	1	   1
-36 s., 27 pl.	  36	NA	1	   1
+36 s., 27 pl.	  90	NA	1	   1
 [2], XII, 430 s.	 444	NA	1	   1
 XV, 507 s., 23 portr.	 522	NA	1	   1
 VIII, 456 s., 14 portr.	 464	NA	1	   1
@@ -7514,7 +7514,7 @@ IV, 194 s.	 198	NA	1	   1
 63  s.	  63	NA	1	   1
 [2], 587 s.	 589	NA	1	   1
 487, 126, [1] s.	 488	NA	1	   1
-III, 120 s., 2 pl.	 123	NA	1	   1
+III, 120 s., 2 pl.	 127	NA	1	   1
 [2 s.], s. 157-273, [1] s.	 274	NA	1	   1
 [2], VI, 212 s., 15 pl., 1 tab.	 220	NA	1	   1
 [S. 81-157].	 157	NA	1	   1
@@ -7535,7 +7535,7 @@ VII, 909 s.	 916	NA	1	   1
 [2], 113, [2], 150 s.	 154	NA	1	   1
 [4], 64, X s.	  78	NA	1	   1
 [2], 955, XVII s.	 974	NA	1	   1
-41 s., 2 pl.	  41	NA	1	   1
+41 s., 2 pl.	  45	NA	1	   1
 III, 133, [1] s.	 137	NA	1	   1
 VIII, 592 s.	 600	NA	1	   1
 216, [2] s., 2 liitekuvaa	 218	NA	1	   1
@@ -7544,8 +7544,8 @@ VI, 372, [1] s.	 379	NA	1	   1
 68, IV s.	  72	NA	1	   1
 247 s., kartta ja 15 kuvalehteä	 247	NA	1	   1
 [2], 165 s.	 167	NA	1	   1
-80 pl.	   4	NA	1	   1
-31, CLXXIII s., 20 pl.	 204	NA	1	   1
+80 pl.	 160	NA	1	   1
+31, CLXXIII s., 20 pl.	 244	NA	1	   1
 XV, [2], 151, 60 s.	 168	NA	1	   1
 [286] s.	 286	NA	1	   1
 [4], 308 s.	 312	NA	1	   1
@@ -7555,18 +7555,18 @@ XV, [2], 151, 60 s.	 168	NA	1	   1
 5 nid. ([130] s.)	 130	NA	1	   1
 [6], 618 s.	 624	NA	1	   1
 [4], 758 s.	 762	NA	1	   1
-[4], 164 s., 7 pl.	 168	NA	1	   1
+[4], 164 s., 7 pl.	 182	NA	1	   1
 [4], VI, 149 s.	 159	NA	1	   1
-171 s., 3 pl.	 171	NA	1	   1
+171 s., 3 pl.	 177	NA	1	   1
 XIX, 344 s.	 363	NA	1	   1
-12 s., 32 dubbelkartblad, [440] s., 10 pl.	 452	NA	1	   1
-XII s., 32 dubbelkartblad, [6], [479] s., 14 pl.	 497	NA	1	   1
-[4], VIII, 159 s., 5 pl.	 171	NA	1	   1
+12 s., 32 dubbelkartblad, [440] s., 10 pl.	 472	NA	1	   1
+XII s., 32 dubbelkartblad, [6], [479] s., 14 pl.	 525	NA	1	   1
+[4], VIII, 159 s., 5 pl.	 181	NA	1	   1
 [2], 37 s., 1 porträtt.	  39	NA	1	   1
 [7], 584, [4] s., 1 porträtt.	 595	NA	1	   1
-[4], VI, 189 s., 12 pl.	 199	NA	1	   1
+[4], VI, 189 s., 12 pl.	 223	NA	1	   1
 65, II s.	  67	NA	1	   1
-[5], 186 s., 3 pl.	 191	NA	1	   1
+[5], 186 s., 3 pl.	 197	NA	1	   1
 [2], 204, [2] s., 2 kuvaliitettä	 212	NA	1	   1
 [4], 221, [3] s.	 228	NA	1	   1
 IV, 124 s., 4 kuvalehteä	 136	NA	1	   1
@@ -7585,20 +7585,20 @@ S. 111-274, 1 tab., 1 karta	 164	NA	1	   1
 S. 73-110.	  38	NA	1	   1
 S. 305-320.	  16	NA	1	   1
 [3] s., s. 1-258.	 261	NA	1	   1
-11 pl., med text	  53	NA	1	   1
+11 pl., med text	  54	NA	1	   1
 S. 171-188.	  18	NA	1	   1
 IV, 218 s.	 222	NA	1	   1
 [6] s., pl. 1-14	  20	NA	1	   1
 [6], 220 s.	 226	NA	1	   1
-47 s., 4 pl.	  47	NA	1	   1
+47 s., 4 pl.	  55	NA	1	   1
 X, 538 s.	 548	NA	1	   1
 VIII, 366 s., 12 pl., 6 kartor	 386	NA	1	   1
 XVI, 112 s., 23 tabb., [2] s.	 130	NA	1	   1
 [2], IV, 275 s.	 281	NA	1	   1
-54 s., 4 pl.	  54	NA	1	   1
+54 s., 4 pl.	  62	NA	1	   1
 [4], 219 s., 6 kartor	 235	NA	1	   1
 [4], 40 s., 1 plankarta	  44	NA	1	   1
-272 s., 10 pl.	 272	NA	1	   1
+272 s., 10 pl.	 292	NA	1	   1
 [2], IX, 128, 134 s.	 145	NA	1	   1
 [4], IV, 321 s.	 329	NA	1	   1
 [4], 183 s., 2 portr.	 187	NA	1	   1
@@ -7635,26 +7635,26 @@ VII, 278 s.	 285	NA	1	   1
 183, CV s., [1] taul. (taitettuna), [1] kartt. (taitettuna)	 288	NA	1	   1
 110 s., 10 pl., 1 musikbilaga	 110	NA	1	   1
 [2], 109 s.	 111	NA	1	   1
-[10], 146 s., 8 pl.	 156	NA	1	   1
+[10], 146 s., 8 pl.	 172	NA	1	   1
 78  s.	  78	NA	1	   1
 [8], 218, [3] s.	 229	NA	1	   1
 [4], 192, [2] s., 2 kuvaliitettä	 202	NA	1	   1
 [3], 118, [2] s.	 123	NA	1	   1
 [6], 189 s.	 195	NA	1	   1
 [8], 286 s., XXV kuvalehteä, 2 karttaliitettä	 348	NA	1	   1
-[2], 103 s., 6 pl.	 105	NA	1	   1
+[2], 103 s., 6 pl.	 117	NA	1	   1
 XVIII, 410 s.	 428	NA	1	   1
-4 s., 5 pl.	   4	NA	1	   1
+4 s., 5 pl.	  14	NA	1	   1
 6, 6 s.	   6	NA	1	   1
-[2], IV, 395, [128] s., 64 pl.	 529	NA	1	   1
+[2], IV, 395, [128] s., 64 pl.	 657	NA	1	   1
 VI s., s. 7-96.	 102	NA	1	   1
 79 s., 1 porträtt	  79	NA	1	   1
 [3], V, [1], 180 s., kuvalehti	 189	NA	1	   1
-[4], 131 s., 1 pl.	 135	NA	1	   1
+[4], 131 s., 1 pl.	 137	NA	1	   1
 XVI, 366 s.	 382	NA	1	   1
-66 s., 2 pl.	  66	NA	1	   1
+66 s., 2 pl.	  70	NA	1	   1
 [4], 349 s.	 353	NA	1	   1
-[2], 24 s., 1 pl.	  26	NA	1	   1
+[2], 24 s., 1 pl.	  28	NA	1	   1
 [4], 661 s.	 665	NA	1	   1
 33, LV s.	  88	NA	1	   1
 77 s., 1 taulukkoliite	  77	NA	1	   1
@@ -7664,29 +7664,29 @@ XVI, 390 s.	 406	NA	1	   1
 100, 19 s.	 100	NA	1	   1
 XIII, [3], 181 s.	 197	NA	1	   1
 IX, 117 s.	 126	NA	1	   1
-[4], 75 s., 2 pl.	  79	NA	1	   1
+[4], 75 s., 2 pl.	  83	NA	1	   1
 [6], 83, [105] s.	 194	NA	1	   1
-[6], 88 s., 10 pl.	  94	NA	1	   1
-[4], 34, XL s., 5 pl.	  78	NA	1	   1
-[2], 97 s., 3 pl.	  99	NA	1	   1
-[2], 75 s., 7 pl.	  77	NA	1	   1
+[6], 88 s., 10 pl.	 114	NA	1	   1
+[4], 34, XL s., 5 pl.	  88	NA	1	   1
+[2], 97 s., 3 pl.	 105	NA	1	   1
+[2], 75 s., 7 pl.	  91	NA	1	   1
 29 s., 1 porträtt	  29	NA	1	   1
-[7], 110, LXX s., 9 pl.	 187	NA	1	   1
-148 s., 10 pl.	 148	NA	1	   1
-392 s., 10 pl.	 392	NA	1	   1
-IV, 55 s., 1 pl.	  59	NA	1	   1
+[7], 110, LXX s., 9 pl.	 205	NA	1	   1
+148 s., 10 pl.	 168	NA	1	   1
+392 s., 10 pl.	 412	NA	1	   1
+IV, 55 s., 1 pl.	  61	NA	1	   1
 32 s., 1 karta	  32	NA	1	   1
-179 s., 6 pl.	 179	NA	1	   1
+179 s., 6 pl.	 191	NA	1	   1
 18 s., 1 porträtt	  18	NA	1	   1
 [2], IV, 209 s.	 215	NA	1	   1
 [4], 80     s.	  84	NA	1	   1
-[2], XVI, 578, [6] s., 6 pl.	 602	NA	1	   1
+[2], XVI, 578, [6] s., 6 pl.	 614	NA	1	   1
 [2], X, 370 s.	 382	NA	1	   1
-[4], 183 s., 3 pl.	 187	NA	1	   1
+[4], 183 s., 3 pl.	 193	NA	1	   1
 [4], 538, VIII, IV s.	 550	NA	1	   1
 VI, 227 s.	 233	NA	1	   1
-29 s., 6 pl.	  29	NA	1	   1
-[2], 58 s., 1 pl.	  60	NA	1	   1
+29 s., 6 pl.	  41	NA	1	   1
+[2], 58 s., 1 pl.	  62	NA	1	   1
 28 liitelehteä	  56	NA	1	   1
 [2], 155, IV s.	 161	NA	1	   1
 26, 6 s.	  26	NA	1	   1
@@ -7702,95 +7702,95 @@ VIII, 91 s.	  99	NA	1	   1
 [8], 458 s., 22 port.	 466	NA	1	   1
 S. 247-330, 2 kuvalehteä	  88	NA	1	   1
 230, [2] s.	 232	NA	1	   1
-VIII, 136 s., 2 pl.	 144	NA	1	   1
+VIII, 136 s., 2 pl.	 148	NA	1	   1
 67, [2] s.	  69	NA	1	   1
 IV, 259 s., 3 pl., 1 karta	 263	NA	1	   1
-[2], 102 s., 1 pl.	 104	NA	1	   1
+[2], 102 s., 1 pl.	 106	NA	1	   1
 [2], IV, 202 s.	 208	NA	1	   1
 IV, 237 s.	 241	NA	1	   1
 307 s., 1 karta	 307	NA	1	   1
 [6], 147 s.	 153	NA	1	   1
-44 s., 1 tab., 3 pl.	  44	NA	1	   1
+44 s., 1 tab., 3 pl.	  50	NA	1	   1
 X, [2], 260 s.	 272	NA	1	   1
-73 s., 6 pl.	  73	NA	1	   1
-72 s., 1 tab., 1 karta, 1 pl.	  72	NA	1	   1
+73 s., 6 pl.	  85	NA	1	   1
+72 s., 1 tab., 1 karta, 1 pl.	  74	NA	1	   1
 415 s.	 415	NA	1	   1
-[4], 208, XXIII s., 6 pl.	 235	NA	1	   1
+[4], 208, XXIII s., 6 pl.	 247	NA	1	   1
 XVI, 397 s.	 413	NA	1	   1
 VIII, 209 s., 1 karta	 217	NA	1	   1
 XXXII, 528, 178, 131 s.	 560	NA	1	   1
 XL, 1045 s.	1085	NA	1	   1
 205 s., [1] karttalehti taitettuna	 205	NA	1	   1
-9 s., 2 pl.	   9	NA	1	   1
+9 s., 2 pl.	  13	NA	1	   1
 116 s., 2 kartor	 120	NA	1	   1
 VII, 151 s., 7 kuvalehteä	 172	NA	1	   1
-1 s., 1 pl.	   1	NA	1	   1
-15 s., 2 pl.	  15	NA	1	   1
+1 s., 1 pl.	   3	NA	1	   1
+15 s., 2 pl.	  19	NA	1	   1
 [12], 341, [1] s., 5 kuvaliitettä	 364	NA	1	   1
 7 nid. ([557] s.)	 557	NA	1	   1
 5 nid. ([447] s.)	 447	NA	1	   1
-[6], 124 s., 1 pl.	 130	NA	1	   1
-32 s., 2 pl.	  32	NA	1	   1
+[6], 124 s., 1 pl.	 132	NA	1	   1
+32 s., 2 pl.	  36	NA	1	   1
 78 s., 1 karta	  78	NA	1	   1
-[2], 33 s., 1 pl.	  35	NA	1	   1
+[2], 33 s., 1 pl.	  37	NA	1	   1
 XIII, 400 s.	 413	NA	1	   1
 XXIV, 363 s., [4] karttas., [11] kuvas.	 395	NA	1	   1
-[121] s., [11] pl.	 121	NA	1	   1
+[121] s., [11] pl.	 143	NA	1	   1
 [4], 118, [1] s.	 123	NA	1	   1
 [4], 167, [1] s.	 172	NA	1	   1
 VIII, II, [2] s., 1728 palstaa, 12 kuvalehteä ja 5 karttaliitettä	  10	NA	1	   1
-1 pl.	   4	NA	1	   1
+1 pl.	   2	NA	1	   1
 VIII, III, [1] s., 1728 palstaa, 15 kuvalehteä, 2 autografeja ja 8 karttaliitettä	  39	NA	1	   1
 [4], 62 s., taululiite	  66	NA	1	   1
 IV, 323, [5] s.	 332	NA	1	   1
 72 s., 2 pl., 1 stamtafla	  72	NA	1	   1
-XXX, [2], 162, [2], 230 s., 3 pl.	 264	NA	1	   1
+XXX, [2], 162, [2], 230 s., 3 pl.	 270	NA	1	   1
 [6], 503 s.	 509	NA	1	   1
 XL, 166 s., 1 portr.	 206	NA	1	   1
 [2], 85 s.	  87	NA	1	   1
 [4], 88 s., 1 portr.	  92	NA	1	   1
 297 s., 1 portr.	 297	NA	1	   1
 VIII, 117 s.	 125	NA	1	   1
-[2], 964 s., 1 pl.	 966	NA	1	   1
+[2], 964 s., 1 pl.	 968	NA	1	   1
 [6], 421 s., 1 karta	 427	NA	1	   1
 [417] s.	 417	NA	1	   1
 VIII, VI, 212 s.	 220	NA	1	   1
 XXIV, 320 s.	 344	NA	1	   1
 17, 17 s.	  17	NA	1	   1
 [4], 283 s.	 287	NA	1	   1
-[4] s., s. 241-292, 4 pl.	 296	NA	1	   1
-[4] s., s. 161-240, 4 pl.	 244	NA	1	   1
-[4] s., s. 81-160, 3 pl.	 164	NA	1	   1
-[4], 80 s., 3 pl.	  84	NA	1	   1
-[4] s., s. 241-322, 2 pl.	 326	NA	1	   1
-[4] s., s. 161-240, 3 pl.	 244	NA	1	   1
-[4] s., s. 81-160, 2 pl.	 164	NA	1	   1
-[4], 80 s., 4 pl.	  84	NA	1	   1
-[2], 200 s., 6 pl.	 202	NA	1	   1
+[4] s., s. 241-292, 4 pl.	 304	NA	1	   1
+[4] s., s. 161-240, 4 pl.	 252	NA	1	   1
+[4] s., s. 81-160, 3 pl.	 170	NA	1	   1
+[4], 80 s., 3 pl.	  90	NA	1	   1
+[4] s., s. 241-322, 2 pl.	 330	NA	1	   1
+[4] s., s. 161-240, 3 pl.	 250	NA	1	   1
+[4] s., s. 81-160, 2 pl.	 168	NA	1	   1
+[4], 80 s., 4 pl.	  92	NA	1	   1
+[2], 200 s., 6 pl.	 214	NA	1	   1
 [12], 419 s., 1 portr., 1 karta	 431	NA	1	   1
 122, VI s.	 128	NA	1	   1
 286, [2] s.	 288	NA	1	   1
 IV, 223 s., 1 portr.	 227	NA	1	   1
 71 s., kuvaliite	  71	NA	1	   1
 [4], 282, [2] s.	 288	NA	1	   1
-26 s., 1 portr., 1 pl.	  26	NA	1	   1
+26 s., 1 portr., 1 pl.	  28	NA	1	   1
 [2], 72 s.	  74	NA	1	   1
-46 s., 4 pl.	  46	NA	1	   1
-VIII, 194 s., 6 pl.	 202	NA	1	   1
+46 s., 4 pl.	  54	NA	1	   1
+VIII, 194 s., 6 pl.	 214	NA	1	   1
 [8], 232 s., [79] kuvalehteä	 398	NA	1	   1
 [4], 334, XIII s.	 351	NA	1	   1
-10 s., 8 pl.	  10	NA	1	   1
+10 s., 8 pl.	  26	NA	1	   1
 39 s., 1 karta	  39	NA	1	   1
 [4], 172 s., 10 portr.	 176	NA	1	   1
-VIII, 607 s., 1 pl.	 615	NA	1	   1
+VIII, 607 s., 1 pl.	 617	NA	1	   1
 XX, 229 s.	 249	NA	1	   1
-199 s., 54 pl.	 199	NA	1	   1
-144 s., 38 pl.	 144	NA	1	   1
+199 s., 54 pl.	 307	NA	1	   1
+144 s., 38 pl.	 220	NA	1	   1
 VIII, 481 s.	 489	NA	1	   1
 XII, 461 s.	 473	NA	1	   1
-263 s., 24 pl.	 263	NA	1	   1
+263 s., 24 pl.	 311	NA	1	   1
 XII, 103 s.	 115	NA	1	   1
-75 s., 1 pl.	  75	NA	1	   1
+75 s., 1 pl.	  77	NA	1	   1
 1, 1 s.	   1	NA	1	   1
 XXIV s.	  24	NA	1	   1
 [2], VI, 52 s.	  60	NA	1	   1
@@ -7801,7 +7801,7 @@ VI, 369 s.	 375	NA	1	   1
 XII, 750 s.	 762	NA	1	   1
 4 uppfordrade blad.	  61	NA	1	   1
 99 s., 4 karttaliitettä	 107	NA	1	   1
-[2], IV, 60 s., 1 pl.	  66	NA	1	   1
+[2], IV, 60 s., 1 pl.	  68	NA	1	   1
 XVI, 434 s.	 450	NA	1	   1
 220 s.     +	 220	NA	1	   1
 196, II s. +	 198	NA	1	   1
@@ -7820,12 +7820,12 @@ X, [2], 83 s., 4 pl., 3 tabb.	  95	NA	1	   1
 IV + 200 s.	 204	NA	1	   1
 316, [4] s.	 320	NA	1	   1
 132, [8] s., [1] karttalehti taitettuna	 140	NA	1	   1
-[4], VI, 106 s., 2 pl.	 116	NA	1	   1
+[4], VI, 106 s., 2 pl.	 120	NA	1	   1
 563, [3] s.	 566	NA	1	   1
 656, [4] s.	 660	NA	1	   1
 [6], 342 s., 1 port.	 348	NA	1	   1
 XVI, 436 s.	 452	NA	1	   1
-43 s., 3 pl.	  43	NA	1	   1
+43 s., 3 pl.	  49	NA	1	   1
 IV, [2], 269 s.	 275	NA	1	   1
 Sid. 101-200.	 200	NA	1	   1
 [2], V, 124 s.	 131	NA	1	   1
@@ -7836,8 +7836,8 @@ XII, 243 s.	 255	NA	1	   1
 251, [6] s.	 257	NA	1	   1
 [2], IV, 216 s.	 222	NA	1	   1
 XXIX, 250 s.	 279	NA	1	   1
-152 s., 4 pl.	 152	NA	1	   1
-[2], 163 s., 8 pl.	 165	NA	1	   1
+152 s., 4 pl.	 160	NA	1	   1
+[2], 163 s., 8 pl.	 181	NA	1	   1
 48 s., 1 portr.	  48	NA	1	   1
 [4], VII, 362 s.	 373	NA	1	   1
 17 s., 1 portr.	  17	NA	1	   1
@@ -7857,7 +7857,7 @@ X, 67 s.	  77	NA	1	   1
 10, 11 s.	  11	NA	1	   1
 XX, 444 s.	 464	NA	1	   1
 [6], 47 s.	  53	NA	1	   1
-27 s., 10 pl.	  27	NA	1	   1
+27 s., 10 pl.	  47	NA	1	   1
 20, VII s.	  27	NA	1	   1
 [8], 164 s.	 172	NA	1	   1
 [6], 164 s.	 170	NA	1	   1
@@ -7875,7 +7875,7 @@ CXV s.	 115	NA	1	   1
 [2], 175, [2] s.	 179	NA	1	   1
 Sid. 129-273, [1] s., 1 kuvaliite	 274	NA	1	   1
 [6], 112 s., 3 taulukkoa	 118	NA	1	   1
-IV, 136 s., 2 pl.	 140	NA	1	   1
+IV, 136 s., 2 pl.	 144	NA	1	   1
 7, [4], 732 s., [5] kuvalehteä, [2] karttalehteä	 746	NA	1	   1
 67      s.	  67	NA	1	   1
 XVI, 135 s.	 151	NA	1	   1
@@ -7883,9 +7883,9 @@ XVI, 135 s.	 151	NA	1	   1
 214 s., 1 portr.	 214	NA	1	   1
 [4], 58  s.	  62	NA	1	   1
 [4], 251 s.	 255	NA	1	   1
-89 s., 1 pl.	  89	NA	1	   1
+89 s., 1 pl.	  91	NA	1	   1
 [4], 61 s.	  65	NA	1	   1
-527 s., 10 pl.	 527	NA	1	   1
+527 s., 10 pl.	 547	NA	1	   1
 [6], 283 s., 1 portr.	 289	NA	1	   1
 3, 3 s.	   3	NA	1	   1
 [2], XXXII, 514 s., 12 pl., 1 portr.	 548	NA	1	   1
@@ -7899,7 +7899,7 @@ VI, 321 s.	 327	NA	1	   1
 [6], 290 s.	 296	NA	1	   1
 XII, 706 s.	 718	NA	1	   1
 169, [1] s., kuvaliite	 170	NA	1	   1
-130, [4] s., 2 pl.	 134	NA	1	   1
+130, [4] s., 2 pl.	 138	NA	1	   1
 [4], 88 s., 3 kuvaliitettä	  98	NA	1	   1
 IV, 95, [1] s., [2] kuvalehteä	 104	NA	1	   1
 [2], 370, [3] s.	 375	NA	1	   1
@@ -7909,7 +7909,7 @@ XI, 146 s. +	 157	NA	1	   1
 [2], 663 s., 5 kuvalehteä	 675	NA	1	   1
 [2], II, 550 s.	 554	NA	1	   1
 [2], VI, [4], LVIII, 502 s., 1 portr.	 566	NA	1	   1
-[20] s., 3 pl.	  20	NA	1	   1
+[20] s., 3 pl.	  26	NA	1	   1
 501 s.	 501	NA	1	   1
 XII, 70 s., 1 portr.	  82	NA	1	   1
 905 s.	 905	NA	1	   1
@@ -7934,13 +7934,13 @@ VI, 71, [1] s.	  78	NA	1	   1
 [2], II, 113 s., 1 tab.	 117	NA	1	   1
 37, 39 s.	  39	NA	1	   1
 [8], 238 s., 2 kuval.	 250	NA	1	   1
-[4] s., 3 pl.	   4	NA	1	   1
-[2], 57 s., 8 pl.	  59	NA	1	   1
+[4] s., 3 pl.	  10	NA	1	   1
+[2], 57 s., 8 pl.	  75	NA	1	   1
 X, 135, [1] s.	 146	NA	1	   1
 [6], XII, 497 s.	 515	NA	1	   1
-VIII, 204 s., 2 pl.	 212	NA	1	   1
-75 s., 13 pl.	  75	NA	1	   1
-[8], VI, 195 s., 1 pl.	 209	NA	1	   1
+VIII, 204 s., 2 pl.	 216	NA	1	   1
+75 s., 13 pl.	 101	NA	1	   1
+[8], VI, 195 s., 1 pl.	 211	NA	1	   1
 XIV, 274 s., 5 pl., 2 port.	 288	NA	1	   1
 [4], 125, 8, 13, [2] s., 18 kuvaliitettä, 1 taulukkoliite	 167	NA	1	   1
 [8], 67 s.	  75	NA	1	   1
@@ -7958,9 +7958,9 @@ X, 79 s., 1 tab.	  89	NA	1	   1
 XXXIV, 17 s., 3 graf. taflor	  51	NA	1	   1
 [12], 100 s.	 112	NA	1	   1
 31, 31 s.	  31	NA	1	   1
-18 s., 3 pl.	  18	NA	1	   1
+18 s., 3 pl.	  24	NA	1	   1
 V, 149, [1] s.	 155	NA	1	   1
-124 s., 6 pl.	 124	NA	1	   1
+124 s., 6 pl.	 136	NA	1	   1
 X, 312 s.	 322	NA	1	   1
 VIII, 338 s.	 346	NA	1	   1
 [6], 283 s.	 289	NA	1	   1
@@ -7968,13 +7968,13 @@ VIII, 338 s.	 346	NA	1	   1
 [6], 44 s., karttaliite	  50	NA	1	   1
 [6], 79 s.	  85	NA	1	   1
 [6], 249 s.	 255	NA	1	   1
-[6], 154, 80 s., 5 pl.	 160	NA	1	   1
-[2], 248 s., 2 pl.	 250	NA	1	   1
+[6], 154, 80 s., 5 pl.	 170	NA	1	   1
+[2], 248 s., 2 pl.	 254	NA	1	   1
 [65 s.].	  65	NA	1	   1
 S. III-VI, [4], 232 s.	 240	NA	1	   1
 7 nid. (312 s.)	 312	NA	1	   1
 S. 569-576.	   8	NA	1	   1
-S. 527-568, 1 pl.	  42	NA	1	   1
+S. 527-568, 1 pl.	  44	NA	1	   1
 S. 443-526.	  84	NA	1	   1
 S. 397-442.	  46	NA	1	   1
 S. 343-395.	  53	NA	1	   1
@@ -7985,7 +7985,7 @@ S. 1-73.	  73	NA	1	   1
 X, 371 s.	 381	NA	1	   1
 [2], IV, [2], CXXXVII, [4], 329 s.	 474	NA	1	   1
 2 nid. (8, 8 s.)	   8	NA	1	   1
-[6], VI, 108 s., 1 pl.	 120	NA	1	   1
+[6], VI, 108 s., 1 pl.	 122	NA	1	   1
 63 s., 1 karta	  63	NA	1	   1
 114 s., 5 taulukkoliitettä, 2 diagrammia	 114	NA	1	   1
 X, 63 s.	  73	NA	1	   1
@@ -8019,7 +8019,7 @@ VII, [1], 88 s.	  96	NA	1	   1
 VI, 398 s., 1 karta	 404	NA	1	   1
 [4], VIII, 77 s.	  89	NA	1	   1
 VII, 547 s.	 554	NA	1	   1
-64 s., 1 pl.	  64	NA	1	   1
+64 s., 1 pl.	  66	NA	1	   1
 VIII, 126 s.	 134	NA	1	   1
 XI, 603, [1] s., 12 kuvalehteä ja 5 karttaliitettä	 615	NA	1	   1
 118      s.	 118	NA	1	   1
@@ -8027,17 +8027,17 @@ XI, 603, [1] s., 12 kuvalehteä ja 5 karttaliitettä	 615	NA	1	   1
 130 s., 2 kuval.	 134	NA	1	   1
 XVI, 240 s.	 256	NA	1	   1
 [2], 224 s., 1 kuval.	 228	NA	1	   1
-25 s., 8 pl.	  25	NA	1	   1
+25 s., 8 pl.	  41	NA	1	   1
 IV s., s. 253-404.	 408	NA	1	   1
 X, 252 s.	 262	NA	1	   1
 [8], 95, [1] s.	 104	NA	1	   1
 [1], 51 s., 2 kuval.	  56	NA	1	   1
 69, [1] s., 1 taulukkoliite	  70	NA	1	   1
 [8], 167 s., karttaliite	 175	NA	1	   1
-[4], 130 s., 1 pl.	 134	NA	1	   1
+[4], 130 s., 1 pl.	 136	NA	1	   1
 XXXII, 422, [2], 638 s.	 672	NA	1	   1
 26 s., 1 karttaliite	  28	NA	1	   1
-85 s., 1 pl.	  85	NA	1	   1
+85 s., 1 pl.	  87	NA	1	   1
 [3], 52 s.	  55	NA	1	   1
 [8], 422 s.	 430	NA	1	   1
 20 s., 2 tabb.	  20	NA	1	   1
@@ -8055,7 +8055,7 @@ VI, 141 s.	 147	NA	1	   1
 XIV, 160 s.	 174	NA	1	   1
 [8], 130 s.	 138	NA	1	   1
 184 s., kuvalehti	 184	NA	1	   1
-8 s., 9 pl.	   8	NA	1	   1
+8 s., 9 pl.	  26	NA	1	   1
 16 s., 1 tab., 1 karta	  16	NA	1	   1
 VI, 178 s.	 184	NA	1	   1
 VI, 218 s.	 224	NA	1	   1
@@ -8090,9 +8090,9 @@ S. 99-109 , 1 taulukko	  11	NA	1	   1
 XII, 158 s., 8 kuval.	 186	NA	1	   1
 [2] s., s. 155-198.	 200	NA	1	   1
 IV, [2], 48 s.	  54	NA	1	   1
-149 s., 5 pl.	 149	NA	1	   1
+149 s., 5 pl.	 159	NA	1	   1
 73 s., 1 portr.	  73	NA	1	   1
-[10], 241 s., 1 pl.	 251	NA	1	   1
+[10], 241 s., 1 pl.	 253	NA	1	   1
 377 s., [1] karttalehti (taitettuna)	 377	NA	1	   1
 [10], 98 s., 1 kartta	 110	NA	1	   1
 301, [1] s.	 302	NA	1	   1
@@ -8107,11 +8107,11 @@ S. 53-93.	  41	NA	1	   1
 S. 381-584, 4 s.	 584	NA	1	   1
 11 blad planscher	  18	NA	1	   1
 [2], II, 112 s., 1 tab.	 116	NA	1	   1
-VIII, 133 s., 2 pl.	 141	NA	1	   1
+VIII, 133 s., 2 pl.	 145	NA	1	   1
 218, VII s.	 225	NA	1	   1
-[4], 51 s., 2 pl.	  55	NA	1	   1
+[4], 51 s., 2 pl.	  59	NA	1	   1
 [4], 122, [3] s.	 129	NA	1	   1
-100 s., 3 pl.	 100	NA	1	   1
+100 s., 3 pl.	 106	NA	1	   1
 32 s., 2 kartor	  36	NA	1	   1
 [4], 104, [3] s.	 111	NA	1	   1
 [4], 103, [3] s.	 110	NA	1	   1
@@ -8124,22 +8124,22 @@ VI, 211 s.	 217	NA	1	   1
 [8], 106 s.	 114	NA	1	   1
 [6], 101, [2] s.	 109	NA	1	   1
 153 s., 1 karta	 153	NA	1	   1
-[6], 128 s., 1 pl.	 134	NA	1	   1
+[6], 128 s., 1 pl.	 136	NA	1	   1
 S. 95-131.	  37	NA	1	   1
 S. 1-52.	  52	NA	1	   1
 23, XI s.	  34	NA	1	   1
 [4], 137 s., 1 kuval.	 143	NA	1	   1
 [2], 38 s.  +	  40	NA	1	   1
 [8], 499, 7 s.	 507	NA	1	   1
-73 s., 2 pl.	  73	NA	1	   1
-XIV, 428 s., 1 pl.	 442	NA	1	   1
+73 s., 2 pl.	  77	NA	1	   1
+XIV, 428 s., 1 pl.	 444	NA	1	   1
 [2], IV, 92 s.	  98	NA	1	   1
 148, [1] s., 28 kuvaa	 205	NA	1	   1
 4 s., 1 diagram.	   4	NA	1	   1
 352, [10] s.	 362	NA	1	   1
 [4], 380 s.	 384	NA	1	   1
 XII, 132 s.	 144	NA	1	   1
-52 s., 3 pl.	  52	NA	1	   1
+52 s., 3 pl.	  58	NA	1	   1
 [2], 299, [1] s., 200 kuvaa, 23 kuvaliitettä.	 748	NA	1	   1
 VIII, 165 s.	 173	NA	1	   1
 [4], 296 s.	 300	NA	1	   1
@@ -8151,7 +8151,7 @@ VIII, 111 s.	 119	NA	1	   1
 [6], 182 s., 4 karttal.	 196	NA	1	   1
 23 s., 7 taulukkoliitettä	  23	NA	1	   1
 64  s.	  64	NA	1	   1
-17 s., 2 pl.	  17	NA	1	   1
+17 s., 2 pl.	  21	NA	1	   1
 VI s., s. 7-180.	 186	NA	1	   1
 [2], IV, 55 s.	  61	NA	1	   1
 307, [2] s.	 309	NA	1	   1
@@ -8163,34 +8163,34 @@ XVI, 155 s.	 171	NA	1	   1
 34, XLII s.	  76	NA	1	   1
 II, 64, XV s.	  79	NA	1	   1
 [4], IV, 359 s.	 367	NA	1	   1
-23 s., 2 pl.	  23	NA	1	   1
+23 s., 2 pl.	  27	NA	1	   1
 [2], IV, 326 s.	 332	NA	1	   1
 180, 80 s.	 180	NA	1	   1
 [2], IV, 330 s.	 336	NA	1	   1
 [4], 162 s., 1 portr.	 166	NA	1	   1
-XII, 179 s., 3 pl.	 191	NA	1	   1
+XII, 179 s., 3 pl.	 197	NA	1	   1
 XII, 85 s.	  97	NA	1	   1
 [2], 59 s., 6 taululiitettä, 22 kuvalehteä	 105	NA	1	   1
 62, 31 s.	  62	NA	1	   1
 81 s., 2 pl., 4 kartor	  89	NA	1	   1
 66, 24 s.	  66	NA	1	   1
-57 s., 2 pl.	  57	NA	1	   1
+57 s., 2 pl.	  61	NA	1	   1
 [4], 224 [po. 245], [2] s.	   6	NA	1	   1
 7, 76 s.	  76	NA	1	   1
 4  s.	   4	NA	1	   1
 [2], III, 252 s., karttalehti	 257	NA	1	   1
 40, 40 s.	  40	NA	1	   1
 [4], 252 s., karttalehti	 256	NA	1	   1
-VIII, 201 s., 1 pl.	 209	NA	1	   1
+VIII, 201 s., 1 pl.	 211	NA	1	   1
 [741] s.	 741	NA	1	   1
 [4], 121, [2] s., 5 kuvalehteä	 137	NA	1	   1
 VIII, 113 s.	 121	NA	1	   1
 109, [6] s.	 115	NA	1	   1
-50 s., 1 pl.	  50	NA	1	   1
+50 s., 1 pl.	  52	NA	1	   1
 XVI, 79 s.	  95	NA	1	   1
-75 s., 2 pl.	  75	NA	1	   1
+75 s., 2 pl.	  79	NA	1	   1
 [8], 117 s., 83 kuvaa	 291	NA	1	   1
-[2], VI, 102 s., 2 pl.	 110	NA	1	   1
+[2], VI, 102 s., 2 pl.	 114	NA	1	   1
 160, 14 s., 2 karttalehteä	 160	NA	1	   1
 189, 14 s.	 189	NA	1	   1
 [4], 174, 14 s., 2 karttalehteä	 178	NA	1	   1
@@ -8199,8 +8199,8 @@ XVI, 79 s.	  95	NA	1	   1
 VI, [2], 88 s.	  96	NA	1	   1
 Sp. 1601-2614.	2614	NA	1	   1
 4, 4 s.	   4	NA	1	   1
-[8] s., 20 pl.	   8	NA	1	   1
-[16] s., 20 pl.	  16	NA	1	   1
+[8] s., 20 pl.	  48	NA	1	   1
+[16] s., 20 pl.	  56	NA	1	   1
 172, [3] s.	 175	NA	1	   1
 Ss. 489-684 (a-o)	  61	NA	1	   1
 Ss. 399-488.	 488	NA	1	   1
@@ -8249,7 +8249,7 @@ X, 411 s.	 421	NA	1	   1
 [4], 112 s., 1 portr.	 116	NA	1	   1
 127 s., 1 portr.	 127	NA	1	   1
 [4], 159 s., 1 karta	 163	NA	1	   1
-XIV, 336 s., 1 pl.	 350	NA	1	   1
+XIV, 336 s., 1 pl.	 352	NA	1	   1
 XVI, 356, XXI s.	 377	NA	1	   1
 87 s., 1 portr.	  87	NA	1	   1
 [6], 73 s., 20 kuvalehteä ja karttaliite	  79	NA	1	   1
@@ -8259,7 +8259,7 @@ XVI, 356, XXI s.	 377	NA	1	   1
 [4], III, 395, [3] s.	 405	NA	1	   1
 XII, 183 s.	 195	NA	1	   1
 72 s., 4 pl., 1 karta	  72	NA	1	   1
-58 s., 2 pl.	  58	NA	1	   1
+58 s., 2 pl.	  62	NA	1	   1
 18 s., 1 karta	  18	NA	1	   1
 [5], 296 s.	 301	NA	1	   1
 21, 21 s.	  21	NA	1	   1
@@ -8269,7 +8269,7 @@ VIII, 77 s.	  85	NA	1	   1
 29 s., 6 kartor	  41	NA	1	   1
 108 s., 5 kartor	 118	NA	1	   1
 [4], 337 s.	 341	NA	1	   1
-37 s., 1 pl.	  37	NA	1	   1
+37 s., 1 pl.	  39	NA	1	   1
 [2], VIII, 315 s.	 325	NA	1	   1
 59 s., 2 kartor	  63	NA	1	   1
 XL, 48 s., 1 tab.	  88	NA	1	   1
@@ -8283,7 +8283,7 @@ VI, 168 s., 8 pl., 1 karta	 174	NA	1	   1
 31 s., 4 kuval.	  39	NA	1	   1
 7 s., 1 karta	   7	NA	1	   1
 VI, 233 s.	 239	NA	1	   1
-[2], 93 s., 13 pl.	  95	NA	1	   1
+[2], 93 s., 13 pl.	 121	NA	1	   1
 S. 193-196, IV	   8	NA	1	   1
 IV, [1], 131 s.	 136	NA	1	   1
 [2], XIV, 90 s.	 106	NA	1	   1
@@ -8302,7 +8302,7 @@ IV, 207, [1] s.	 212	NA	1	   1
 IV, 202 s.	 206	NA	1	   1
 [4], 95, [3], 39, [1] s.	 103	NA	1	   1
 155, VII s.	 162	NA	1	   1
-[4], 74 s., 1 pl.	  78	NA	1	   1
+[4], 74 s., 1 pl.	  80	NA	1	   1
 31 s., kuvalehti	  31	NA	1	   1
 31 s., 2 pl., 1 karta	  31	NA	1	   1
 Sid. 698-750, 1 karttaliite	 752	NA	1	   1
@@ -8333,9 +8333,9 @@ XXIV, 100 s.	 124	NA	1	   1
 73, [4] s.	  77	NA	1	   1
 72 s., kuvalehti	  72	NA	1	   1
 CVIII, 358 s.	 466	NA	1	   1
-[2], 46 s., 4 pl.	  48	NA	1	   1
+[2], 46 s., 4 pl.	  56	NA	1	   1
 XVI, 351 s.	 367	NA	1	   1
-78 s., 1 pl.	  78	NA	1	   1
+78 s., 1 pl.	  80	NA	1	   1
 S. 51-68.	  18	NA	1	   1
 [2 s.], s. 51-68 s.	  68	NA	1	   1
 86, [4] s., [4] kuvalehteä, [3] karttalehteä (taitettuna)	  98	NA	1	   1
@@ -8355,12 +8355,12 @@ XII, 194 s.	 206	NA	1	   1
 [6], 191, [4] s., [89] kuval., 1 kartta	 203	NA	1	   1
 [2], VIII, 292 s.	 302	NA	1	   1
 15 s., kuvaliite	  15	NA	1	   1
-[4], 135 s., 4 pl.	 139	NA	1	   1
-[4], 208 s., 3 pl.	 212	NA	1	   1
-[2], 258 s., 1 pl.	 260	NA	1	   1
+[4], 135 s., 4 pl.	 147	NA	1	   1
+[4], 208 s., 3 pl.	 218	NA	1	   1
+[2], 258 s., 1 pl.	 262	NA	1	   1
 VIII, 167 s., 1 portr.	 175	NA	1	   1
 8 blad.	  16	NA	1	   1
-22 s., 13 pl.	  22	NA	1	   1
+22 s., 13 pl.	  48	NA	1	   1
 [2], II, 81 s.	  85	NA	1	   1
 29 s., 1 kartta	  31	NA	1	   1
 [8], 103 s. 1 portr.	   8	NA	1	   1
@@ -8371,7 +8371,7 @@ IV, 123 s.	 127	NA	1	   1
 [4], 50, [1] s.	  55	NA	1	   1
 132, XX, [3] s., 16 kuvaliitettä, 1 taulukkoliite	 187	NA	1	   1
 [6], 318 s.	 324	NA	1	   1
-[6], 69 s., 4 pl.	  75	NA	1	   1
+[6], 69 s., 4 pl.	  83	NA	1	   1
 XXIV, 286 s., 1 portr.	 310	NA	1	   1
 71, [1] s., taululiite	  72	NA	1	   1
 XIV, s. 387-652, [1] kartt.	 666	NA	1	   1
@@ -8450,9 +8450,9 @@ XVIII, [2], 218 s.	 238	NA	1	   1
 64 s. ; 24 cm.	  64	NA	1	   1
 XIX, [1], 356 s.	 376	NA	1	   1
 60 blad	 120	NA	1	   1
-[2], 93 s., 2 pl.	  95	NA	1	   1
+[2], 93 s., 2 pl.	  99	NA	1	   1
 [6] s., s. 241-384.	 390	NA	1	   1
-243 s., 22 pl.	 243	NA	1	   1
+243 s., 22 pl.	 287	NA	1	   1
 XIV, 263 s.	 277	NA	1	   1
 [6], 84 s.	  90	NA	1	   1
 21 s., karttalehti	  21	NA	1	   1
@@ -8461,7 +8461,7 @@ XIV, 263 s.	 277	NA	1	   1
 XL, [2], 213, [1] s.	 256	NA	1	   1
 [6], 65 s., 8 kuval.	  87	NA	1	   1
 S. 58-71.	  14	NA	1	   1
-XVI, 56 s., 8 pl.	  72	NA	1	   1
+XVI, 56 s., 8 pl.	  88	NA	1	   1
 IV, [2], 108 s.	 114	NA	1	   1
 VIII, 191 s.	 199	NA	1	   1
 V, 74 s.	  79	NA	1	   1
@@ -8479,13 +8479,13 @@ VII s., s. 259-459	 466	NA	1	   1
 V, 83 s.	  88	NA	1	   1
 254, 6 s.	 254	NA	1	   1
 224, VIII s.	 232	NA	1	   1
-VIII, 164 s., 5 pl.	 172	NA	1	   1
-XV, 245, [1] s., 8 pl.	 261	NA	1	   1
+VIII, 164 s., 5 pl.	 182	NA	1	   1
+XV, 245, [1] s., 8 pl.	 277	NA	1	   1
 19 blad.	  38	NA	1	   1
 [6], VIII, 400 s.	 414	NA	1	   1
 [2], 32 s., 1 portr.	  34	NA	1	   1
-26 pl.	   4	NA	1	   1
-17 pl.	   4	NA	1	   1
+26 pl.	  52	NA	1	   1
+17 pl.	  34	NA	1	   1
 [6], 116, [1] s.	 123	NA	1	   1
 XII, 117 s.	 129	NA	1	   1
 XLVI, 1163 s.	1209	NA	1	   1
@@ -8500,13 +8500,13 @@ VI, [2], 632 s.	 640	NA	1	   1
 XIV, 214, 116, 48 s., 1 tab.	 228	NA	1	   1
 VIII, 180 s.	 188	NA	1	   1
 [2], 319 s.	 321	NA	1	   1
-VIII, 378 s., 16 pl.	 386	NA	1	   1
-[6], IV, 300, 220 s., 12 pl.	 310	NA	1	   1
+VIII, 378 s., 16 pl.	 418	NA	1	   1
+[6], IV, 300, 220 s., 12 pl.	 334	NA	1	   1
 XV, 644, [2] s.	 661	NA	1	   1
 Sid. 269-402.	 402	NA	1	   1
 4, [8], 735-1229 s., [6] kuvalehteä, [2] karttalehteä, [2] taitekarttalehteä	1249	NA	1	   1
 Sid. 169-267, [2] s.	 269	NA	1	   1
-[6], 604 s, illustr., 1 portr., 2 pl.	 610	NA	1	   1
+[6], 604 s, illustr., 1 portr., 2 pl.	 614	NA	1	   1
 430, [2] s.	 432	NA	1	   1
 Sid. 953-1074.	1074	NA	1	   1
 [2], XII, 79 s.	  93	NA	1	   1
@@ -8522,7 +8522,7 @@ VIII, 214 s.	 222	NA	1	   1
 [8], 185, [4] s.	 197	NA	1	   1
 VI, 175, [2], 320 s., 2 kuvalehteä	 332	NA	1	   1
 [7], 432 s.	 439	NA	1	   1
-5 pl.	   4	NA	1	   1
+5 pl.	  10	NA	1	   1
 164 s. +	 164	NA	1	   1
 50 s., 2 kuvas., 5 kuval. (taitettuina)	  50	NA	1	   1
 XV, 852      s.	 867	NA	1	   1
@@ -8536,24 +8536,24 @@ XII, 422 s.	 434	NA	1	   1
 34, 13 s.	  34	NA	1	   1
 39, [2] s.	  41	NA	1	   1
 [3], 272 s.	 275	NA	1	   1
-[2], 320 s., 9 pl.	 322	NA	1	   1
+[2], 320 s., 9 pl.	 340	NA	1	   1
 VIII, 190 s., karttaliite	 198	NA	1	   1
 18 blad	  36	NA	1	   1
 VII, 208 s., 6 taulua	 227	NA	1	   1
 [2], IV, 79 s.	  85	NA	1	   1
 [9], 110, [2], 165 s.	 176	NA	1	   1
-[4], IV, 300, 220 s., 12 pl.	 308	NA	1	   1
-81 s., 2 pl.	  81	NA	1	   1
+[4], IV, 300, 220 s., 12 pl.	 332	NA	1	   1
+81 s., 2 pl.	  85	NA	1	   1
 156, [2] s.	 158	NA	1	   1
 [2], 210 s.	 212	NA	1	   1
 [2], VIII, 125 s.	 135	NA	1	   1
-[2], 69 s., 2 pl.	  71	NA	1	   1
+[2], 69 s., 2 pl.	  75	NA	1	   1
 XIV, 768 s.	 782	NA	1	   1
 [4], 180, [1] s.	 185	NA	1	   1
 S. 31-47.	  17	NA	1	   1
-93 s., 6 pl.	  93	NA	1	   1
+93 s., 6 pl.	 105	NA	1	   1
 V, [3], 231, [1] s.	 240	NA	1	   1
-696, CCLXXII s., 4 pl.	 968	NA	1	   1
+696, CCLXXII s., 4 pl.	 976	NA	1	   1
 75, 35, 49, 31, 45 s.	  75	NA	1	   1
 III, 157 s.	 160	NA	1	   1
 XVI, 764 s., 14 kuvalehteä ja 4 karttaa	 780	NA	1	   1
@@ -8561,14 +8561,14 @@ XVI, 764 s., 14 kuvalehteä ja 4 karttaa	 780	NA	1	   1
 [4], 205, [2] s., 13 kuvalehteä	 237	NA	1	   1
 VIII, 351-757 s.	 415	NA	1	   1
 VII, 349 s.	 356	NA	1	   1
-212 s., 3 pl.	 212	NA	1	   1
+212 s., 3 pl.	 218	NA	1	   1
 [4], 310 s.	 314	NA	1	   1
 [2], 237 s.	 239	NA	1	   1
 57, [6] s.	  63	NA	1	   1
-[4], 226 s., 5 pl.	 230	NA	1	   1
-151 s., 2 pl.	 151	NA	1	   1
+[4], 226 s., 5 pl.	 240	NA	1	   1
+151 s., 2 pl.	 155	NA	1	   1
 XXXII, 309 s.	 341	NA	1	   1
-[4], 56 s., 1 pl.	  60	NA	1	   1
+[4], 56 s., 1 pl.	  62	NA	1	   1
 75, [7], 4, [1] s.	  83	NA	1	   1
 [8], 325 s.	 333	NA	1	   1
 136 s., 1 portr.	 136	NA	1	   1
@@ -8582,12 +8582,12 @@ XXIV, 623 s.	 647	NA	1	   1
 S. 46-66.	  21	NA	1	   1
 58, 44, 32 s.	  58	NA	1	   1
 [8], 350, [2], XII s.	 372	NA	1	   1
-26 s., 6 pl.	  26	NA	1	   1
+26 s., 6 pl.	  38	NA	1	   1
 264, [2] s., 1 karta	 266	NA	1	   1
 1 kartblad.	   2	NA	1	   1
 92 s., 1 karta	  92	NA	1	   1
 XIV s., s. 15-90, 1 karta	 104	NA	1	   1
-74, [1] s., 5 pl.	  75	NA	1	   1
+74, [1] s., 5 pl.	  85	NA	1	   1
 XXIV, 173 s.	 197	NA	1	   1
 50, [2] s., 1 plankarta	  52	NA	1	   1
 XVI, 51, XXII s.	  73	NA	1	   1
@@ -8600,28 +8600,28 @@ V, 223 s.	 228	NA	1	   1
 120 s., karttaliite	 120	NA	1	   1
 [4], 90, [1] s.	  95	NA	1	   1
 [4], 538 s.	 542	NA	1	   1
-IV, 478, [2] s., 1 pl.	 484	NA	1	   1
+IV, 478, [2] s., 1 pl.	 486	NA	1	   1
 124 s., 10 pl., 4 kartor	 132	NA	1	   1
 [4], 233, [2] s.	 239	NA	1	   1
-39 s., 2 pl.	  39	NA	1	   1
+39 s., 2 pl.	  43	NA	1	   1
 110 s., 2 kuvaliitettä	 114	NA	1	   1
 [12], 105, 15 s.	 117	NA	1	   1
 [4],, 194 s., 8 pl., 1 karta	 198	NA	1	   1
 IV, [2], 249 s.	 255	NA	1	   1
-[6], 122, [1] s., 2 pl.	 129	NA	1	   1
+[6], 122, [1] s., 2 pl.	 133	NA	1	   1
 [2], 65, [1] s.	  68	NA	1	   1
-[6], 91, [4] s., 2 pl.	 101	NA	1	   1
+[6], 91, [4] s., 2 pl.	 105	NA	1	   1
 [32 s.].	  32	NA	1	   1
-502 s., 16 pl.	 502	NA	1	   1
+502 s., 16 pl.	 534	NA	1	   1
 168, [1] s.	 169	NA	1	   1
 V, 85 s.	  90	NA	1	   1
 206, XXVIII s., [2] kuvalehteä, [7] kuvalehteä (taitettuna), [1] karttal.	 254	NA	1	   1
 XII, 237, [1] s.	 250	NA	1	   1
 197 s., [2] kuvalehteä, [7] kuvalehteä (taitettuna), [1] karttal.	 217	NA	1	   1
 XII, 265 s., 1 tab.	 277	NA	1	   1
-[8], 284 s., 1 pl.	 292	NA	1	   1
-[10], 359 s., 1 pl.	 369	NA	1	   1
-[4], 99, [2] s., 3 pl.	 105	NA	1	   1
+[8], 284 s., 1 pl.	 294	NA	1	   1
+[10], 359 s., 1 pl.	 371	NA	1	   1
+[4], 99, [2] s., 3 pl.	 111	NA	1	   1
 46 S.	  46	NA	1	   1
 63 S.	  63	NA	1	   1
 134 s., annonser, 2 pl., 1 karta	 134	NA	1	   1
@@ -8640,12 +8640,12 @@ X, 287 s.	 297	NA	1	   1
 [4], II, 199 s.	 205	NA	1	   1
 S. 1-224.	 224	NA	1	   1
 2 nid. (44, 52, 3 s.)	  52	NA	1	   1
-107 s., 1 pl.	 107	NA	1	   1
+107 s., 1 pl.	 109	NA	1	   1
 [4], 172  s.	 176	NA	1	   1
 [2], 293 s.	 295	NA	1	   1
-[6], 357, [4] s., 1 pl.	 367	NA	1	   1
+[6], 357, [4] s., 1 pl.	 369	NA	1	   1
 [8], 391, [12] s.	 411	NA	1	   1
-[2], VI, 220, [2] s., 1 pl.	 230	NA	1	   1
+[2], VI, 220, [2] s., 1 pl.	 232	NA	1	   1
 313, [1] s.	 314	NA	1	   1
 263, [2] s.	 265	NA	1	   1
 31, [1] s., 4 taulukkoliitettä	  32	NA	1	   1
@@ -8653,7 +8653,7 @@ S. 1-224.	 224	NA	1	   1
 174, [2] s.	 176	NA	1	   1
 VII, 98 s., 98 kuvaa	 301	NA	1	   1
 VIII, 163 s.	 171	NA	1	   1
-96 s., 5 pl.	  96	NA	1	   1
+96 s., 5 pl.	 106	NA	1	   1
 IV, 134 s., 26 kuvaa	 190	NA	1	   1
 [4], 380, [6] s.	 390	NA	1	   1
 [6], 296, [3] s.	 305	NA	1	   1
@@ -8661,13 +8661,13 @@ V, 546, [2] s., [6] karttalehteä (taitettuina)	 553	NA	1	   1
 16, [4] s.	  20	NA	1	   1
 VI, 68 s.	  74	NA	1	   1
 VII, 179 s.	 186	NA	1	   1
-103 s., 1 pl.	 103	NA	1	   1
+103 s., 1 pl.	 105	NA	1	   1
 [2] s., s. 103-218.	 220	NA	1	   1
 438, [4] s., [7] karttalehteä (taitettuina)	 442	NA	1	   1
 508, [1] s., [1] kuvalehti, [1] karttalehti (taitettuna)	 509	NA	1	   1
 XVIII, 496 s.	 514	NA	1	   1
 [4], 141, [1] s., 5 tabellbilagor	 146	NA	1	   1
-[4], 66, [1] s., 7 pl.	  71	NA	1	   1
+[4], 66, [1] s., 7 pl.	  85	NA	1	   1
 [4], 232, [2] s.	 238	NA	1	   1
 [2] s., s. 173-290.	 292	NA	1	   1
 [4], 239 s.	 243	NA	1	   1
@@ -8685,7 +8685,7 @@ S. 3-10.	   8	NA	1	   1
 89, [6] s.	  95	NA	1	   1
 [4], 222 s., 6 kartor	 238	NA	1	   1
 X, 315 s.	 325	NA	1	   1
-[4], 131 s., 2 pl.	 135	NA	1	   1
+[4], 131 s., 2 pl.	 139	NA	1	   1
 181, VI s.	 187	NA	1	   1
 85 s., annonser	  85	NA	1	   1
 [163] s.	 163	NA	1	   1
@@ -8719,15 +8719,15 @@ XIV, [2], 192, [2], 522, [2], 276 s.	 542	NA	1	   1
 40, [1] s.	  41	NA	1	   1
 Sid. 193-384.	 384	NA	1	   1
 XXXI, [1], 141 s.	 173	NA	1	   1
-VII, [2], 198, [2], 224, [2], 394, [2] s., 2 pl.	 409	NA	1	   1
-XI, [2], 346, 188, [2], 488 s., 18 pl.	 503	NA	1	   1
+VII, [2], 198, [2], 224, [2], 394, [2] s., 2 pl.	 413	NA	1	   1
+XI, [2], 346, 188, [2], 488 s., 18 pl.	 539	NA	1	   1
 [2], 185, [3] s.	 190	NA	1	   1
 187, [4] s.	 191	NA	1	   1
 [4], VI, 154 s.	 164	NA	1	   1
-[4] s., sid. 575-782, 1 pl.	 786	NA	1	   1
+[4] s., sid. 575-782, 1 pl.	 788	NA	1	   1
 [2] s. + sid. 49-145, [1] s.	 146	NA	1	   1
 38, [2] s., 8 kuvaa	  56	NA	1	   1
-IX, [2], 124, [2], 232, [2], 228, [2], 85 s., 1 pl.	 249	NA	1	   1
+IX, [2], 124, [2], 232, [2], 228, [2], 85 s., 1 pl.	 251	NA	1	   1
 Sid. 45-104	 104	NA	1	   1
 VIII, 237, [2], CXXXI, [1] s.	 371	NA	1	   1
 [2], 21, 11, 5, [1] s.	  24	NA	1	   1
@@ -8766,7 +8766,7 @@ Sid. 21-28.	  28	NA	1	   1
 [1], 20 s.	  21	NA	1	   1
 [4], 455 s.	 459	NA	1	   1
 X, 518 s., karttaliite	 528	NA	1	   1
-[4], 118 s., 2 pl.	 122	NA	1	   1
+[4], 118 s., 2 pl.	 126	NA	1	   1
 [4], [8], 15, 13, [1], 16, 15, [1], 15, [1], 15, [1], 7, [1], 15, [1], 14, [1], 8, 23, [1] s.	  43	NA	1	   1
 XXXI, 751 s.	 782	NA	1	   1
 25, 23 s.	  25	NA	1	   1
@@ -8774,9 +8774,9 @@ XXXI, 751 s.	 782	NA	1	   1
 III, 252, [5] s., [4] kuvas.	 260	NA	1	   1
 XII, 399 s.	 411	NA	1	   1
 [4], 90 s., 1 tab.	  94	NA	1	   1
-[2], 496 s., 1 pl.	 498	NA	1	   1
+[2], 496 s., 1 pl.	 500	NA	1	   1
 VI, 108, [2] s.	 116	NA	1	   1
-IV, 233 s., 1 pl.	 237	NA	1	   1
+IV, 233 s., 1 pl.	 239	NA	1	   1
 VI, 100 s.	 106	NA	1	   1
 [15], 382 s.	 397	NA	1	   1
 IV, 276 s. +	 280	NA	1	   1
@@ -8798,35 +8798,35 @@ S. 203-310.	 108	NA	1	   1
 120 s., 2 kuvaliitetä	 120	NA	1	   1
 [12], 272 s., 17 kuvalehteä	 318	NA	1	   1
 134 s., 5 kuvaliitettä	 144	NA	1	   1
-[4], 46, [1] s., 26 pl.	  51	NA	1	   1
+[4], 46, [1] s., 26 pl.	 103	NA	1	   1
 [43], 36, [2] s.	  81	NA	1	   1
-[2] s., 22 pl.	   2	NA	1	   1
+[2] s., 22 pl.	  46	NA	1	   1
 10 s., 1 karta	  10	NA	1	   1
-119 s., 3 pl.	 119	NA	1	   1
+119 s., 3 pl.	 125	NA	1	   1
 vi, 101 s.	 107	NA	1	   1
 [4], 348 s.	 352	NA	1	   1
 131 s., 4 kuvaliitettä	 139	NA	1	   1
-148, [1] s., 1 pl.	 149	NA	1	   1
+148, [1] s., 1 pl.	 151	NA	1	   1
 [4], 84, [2] s.	  90	NA	1	   1
 S. 1-96	  96	NA	1	   1
 46 s., 2 tabb.	  46	NA	1	   1
-[8], 99 s., 1 pl.	 107	NA	1	   1
-[4], 94 s., 1 pl.	  98	NA	1	   1
-[4], 95 s., 2 pl.	  99	NA	1	   1
-16 s., 2 pl.	  16	NA	1	   1
-[4], 71 s., 2 pl.	  75	NA	1	   1
-[4], 75 s., 1 pl.	  79	NA	1	   1
-[6], 101 s., 2 pl.	 107	NA	1	   1
-[6], 104 s., 2 pl.	 110	NA	1	   1
+[8], 99 s., 1 pl.	 109	NA	1	   1
+[4], 94 s., 1 pl.	 100	NA	1	   1
+[4], 95 s., 2 pl.	 103	NA	1	   1
+16 s., 2 pl.	  20	NA	1	   1
+[4], 71 s., 2 pl.	  79	NA	1	   1
+[4], 75 s., 1 pl.	  81	NA	1	   1
+[6], 101 s., 2 pl.	 111	NA	1	   1
+[6], 104 s., 2 pl.	 114	NA	1	   1
 [2], III, [1], 162 s.	 168	NA	1	   1
 82 s., 4 karttaliitettä	  90	NA	1	   1
 91 s., 5 karttaliitettä	 101	NA	1	   1
 IV, 44 s.	  48	NA	1	   1
 [4], 16 s., 4 pl., 103 tabb., 1 karta	  20	NA	1	   1
-[4], 101 s., 1 pl.	 105	NA	1	   1
-134 s., 4 pl.	 134	NA	1	   1
-[6], 80 s., 2 pl.	  86	NA	1	   1
-[6], 90 s., 2 pl.	  96	NA	1	   1
+[4], 101 s., 1 pl.	 107	NA	1	   1
+134 s., 4 pl.	 142	NA	1	   1
+[6], 80 s., 2 pl.	  90	NA	1	   1
+[6], 90 s., 2 pl.	 100	NA	1	   1
 VII, 81 s.	  88	NA	1	   1
 [3], 239 s.	 242	NA	1	   1
 [833] s.	 833	NA	1	   1
@@ -8836,17 +8836,17 @@ VIII, 316 s., 46 kuvaa	 416	NA	1	   1
 XIII, 85 s., 1 kuvaliite	  98	NA	1	   1
 [871] s.	 871	NA	1	   1
 VII, 436 s.	 443	NA	1	   1
-[4], 54 s., 2 pl.	  58	NA	1	   1
+[4], 54 s., 2 pl.	  62	NA	1	   1
 IV, 384 s.	 388	NA	1	   1
 [1040] s.	1040	NA	1	   1
-XI, 667 s., 12 pl.	 678	NA	1	   1
+XI, 667 s., 12 pl.	 702	NA	1	   1
 VII, 380 s.	 387	NA	1	   1
 VI, 332 s.	 338	NA	1	   1
 [2], XIII, 32 s., 120 kuvasivua	 287	NA	1	   1
 XII, 676 s.	 688	NA	1	   1
 32 s., 7 pl., 8 lokalplaner	  32	NA	1	   1
 [8], 181, [1] s., 1 karta	 190	NA	1	   1
-X, 92 s., 2 pl.	 102	NA	1	   1
+X, 92 s., 2 pl.	 106	NA	1	   1
 X, 246 s., 18 kartta- ja taulukkoliitettä	 292	NA	1	   1
 XXXI, 271 s.	 302	NA	1	   1
 [4], 45, [2], 144 s., 2 karttaliitettä	 154	NA	1	   1
@@ -8875,13 +8875,13 @@ XXXIII, 540 s.	 573	NA	1	   1
 [2], 27  s.	  29	NA	1	   1
 XI, [1], 134, 373  s.	 385	NA	1	   1
 VIII, 72, [2], 145 s.	 155	NA	1	   1
-[8], 169, [1] s., 1 pl.	 178	NA	1	   1
+[8], 169, [1] s., 1 pl.	 180	NA	1	   1
 VIII, [2], 562 s.	 572	NA	1	   1
 160, 114 s.	 160	NA	1	   1
 [8], 192, VII s.	 207	NA	1	   1
 [8], 343 s.	 351	NA	1	   1
 XXII, 428 s.	 450	NA	1	   1
-[4], 397 s., 2 pl.	 401	NA	1	   1
+[4], 397 s., 2 pl.	 405	NA	1	   1
 [2], 49, [7] s., 2 pl., 4 tabb.	  58	NA	1	   1
 XI, 527 s.	 538	NA	1	   1
 [6], 163, [4] s., 1 tab.	 173	NA	1	   1
@@ -8890,43 +8890,43 @@ XIV, [1], 236 s.	 251	NA	1	   1
 181, [1] s., 2 kuvaliitettä	 186	NA	1	   1
 11, 148, 16 s.	 148	NA	1	   1
 XIII, [1], 398 s.	 412	NA	1	   1
-78 s., 3 pl.	  78	NA	1	   1
+78 s., 3 pl.	  84	NA	1	   1
 95, VII s.	 102	NA	1	   1
 32 s., annonser.	  32	NA	1	   1
-XI, 239 s., 23 pl.	 250	NA	1	   1
-[6], 38 s., 41 pl.	  44	NA	1	   1
-[6], 54 s., 43 pl.	  60	NA	1	   1
+XI, 239 s., 23 pl.	 296	NA	1	   1
+[6], 38 s., 41 pl.	 126	NA	1	   1
+[6], 54 s., 43 pl.	 146	NA	1	   1
 [2], III, 137 s.	 142	NA	1	   1
 XVIII, 517 s.	 535	NA	1	   1
 [6], 168, III s.	 177	NA	1	   1
 IV, 180, [1] s.	 185	NA	1	   1
 XVI, 330 s.	 346	NA	1	   1
-XVI, 437 s., 3 pl.	 453	NA	1	   1
+XVI, 437 s., 3 pl.	 459	NA	1	   1
 [2] s. sp. 313-624	 624	NA	1	   1
 [4], 312 sp.	 316	NA	1	   1
-XIV, 324 s., 5 pl.	 338	NA	1	   1
+XIV, 324 s., 5 pl.	 348	NA	1	   1
 VIII, 368, [1] s.	 377	NA	1	   1
-80 s., 6 pl.	  80	NA	1	   1
-54 s., 3 pl.	  54	NA	1	   1
+80 s., 6 pl.	  92	NA	1	   1
+54 s., 3 pl.	  60	NA	1	   1
 3   s.	   3	NA	1	   1
 VI, 76, 55 s.	  82	NA	1	   1
 400 s., liitekuva	 400	NA	1	   1
-[12], LIX, 280 s., 52 pl.	 351	NA	1	   1
+[12], LIX, 280 s., 52 pl.	 455	NA	1	   1
 VIII, 470 s.	 478	NA	1	   1
-VIII, 159 s., 56 pl.	 167	NA	1	   1
+VIII, 159 s., 56 pl.	 279	NA	1	   1
 59, [2] s.	  61	NA	1	   1
-108 s., 26 pl.	 108	NA	1	   1
-VIII, 130, [1] s., 2 pl.	 139	NA	1	   1
+108 s., 26 pl.	 160	NA	1	   1
+VIII, 130, [1] s., 2 pl.	 143	NA	1	   1
 15, [8] s.	  23	NA	1	   1
-[8], 244 s., 55 pl.	 252	NA	1	   1
-XII, 213 s., 1 pl.	 225	NA	1	   1
-[10], 242 s., 9 pl.	 252	NA	1	   1
-111 s., 48 pl.	 111	NA	1	   1
+[8], 244 s., 55 pl.	 362	NA	1	   1
+XII, 213 s., 1 pl.	 227	NA	1	   1
+[10], 242 s., 9 pl.	 270	NA	1	   1
+111 s., 48 pl.	 207	NA	1	   1
 [6], XXX, 580 s.	 616	NA	1	   1
 [6], 12 s.	  18	NA	1	   1
 [6], 151, [3] s., kuvalehti	 160	NA	1	   1
-VII, 161 s., 36 pl.	 168	NA	1	   1
-VIII, [573], [1] s., 10 pl.	 582	NA	1	   1
+VII, 161 s., 36 pl.	 240	NA	1	   1
+VIII, [573], [1] s., 10 pl.	 602	NA	1	   1
 XII, 360 s.	 372	NA	1	   1
 [2], III, 286 s.	 291	NA	1	   1
 [8], 127 s.	 135	NA	1	   1
@@ -8952,16 +8952,16 @@ VII, 581 s.	 588	NA	1	   1
 404 s., 5 kuvaliitettä	 414	NA	1	   1
 XXI, 137 s., 2 kuval.	 162	NA	1	   1
 X, 444 s., 12 kuvaliitettä, 5 karttaliitettä	 488	NA	1	   1
-[342] s., 8 pl.	 342	NA	1	   1
-[10], 291 s., 6 pl.	 301	NA	1	   1
+[342] s., 8 pl.	 358	NA	1	   1
+[10], 291 s., 6 pl.	 313	NA	1	   1
 [7], 355 s.	 362	NA	1	   1
-182, [2] s., 2 pl.	 184	NA	1	   1
-IX, 229, [1] s., 8 pl.	 239	NA	1	   1
+182, [2] s., 2 pl.	 188	NA	1	   1
+IX, 229, [1] s., 8 pl.	 255	NA	1	   1
 156, [1]  s.	 157	NA	1	   1
-XI, 645 s., 8 pl.	 656	NA	1	   1
-XIII, 281 s., 6 pl.	 294	NA	1	   1
+XI, 645 s., 8 pl.	 672	NA	1	   1
+XIII, 281 s., 6 pl.	 306	NA	1	   1
 [6], 326, [1] s.	 333	NA	1	   1
-120 s., 1 pl.	 120	NA	1	   1
+120 s., 1 pl.	 122	NA	1	   1
 [4], 341 s.	 345	NA	1	   1
 [4], 580 s.	 584	NA	1	   1
 [4], 396 s., 1 karta, 1 tab.	 400	NA	1	   1
@@ -9002,11 +9002,11 @@ VI, [2], 196 s.	 204	NA	1	   1
 [4], 65, 110, 7, 73, 7, 3 s.	 114	NA	1	   1
 [6], 267, [2] s., 27 kuvaa	 329	NA	1	   1
 4, 4, 4, 4, 8, 8, 4, 4, 7, 4, 4 s.	   8	NA	1	   1
-26 s., 5 pl.	  26	NA	1	   1
-[8], 375 s., 12 pl.	 383	NA	1	   1
-[8], 376 s., 4 pl.	 384	NA	1	   1
+26 s., 5 pl.	  36	NA	1	   1
+[8], 375 s., 12 pl.	 407	NA	1	   1
+[8], 376 s., 4 pl.	 392	NA	1	   1
 [2], II, [1], 97 s.	 102	NA	1	   1
-[4], 349 s., 1 pl.	 353	NA	1	   1
+[4], 349 s., 1 pl.	 355	NA	1	   1
 [4], 110, [2] s.	 116	NA	1	   1
 [4], 191 s., 1 plankarta, 1 karta	 195	NA	1	   1
 VI, 117 s.	 123	NA	1	   1
@@ -9019,18 +9019,18 @@ VI, 263 s., 32 tekstiin piirrettyä kuvaa	 269	NA	1	   1
 523, [4] s.	 527	NA	1	   1
 XXXII, 514 s.	 546	NA	1	   1
 88,      [1] s.	  89	NA	1	   1
-[8], 96 s., 6 pl.	 104	NA	1	   1
-[2], 107 s., 4 pl.	 109	NA	1	   1
-[2], 121 s., 4 pl.	 123	NA	1	   1
+[8], 96 s., 6 pl.	 116	NA	1	   1
+[2], 107 s., 4 pl.	 117	NA	1	   1
+[2], 121 s., 4 pl.	 131	NA	1	   1
 IV, 254 s., annonser	 258	NA	1	   1
-[2], 103 s., 4 pl.	 105	NA	1	   1
+[2], 103 s., 4 pl.	 113	NA	1	   1
 [6], 325, IX s., 17 pl., 4 tabb.	 340	NA	1	   1
-68 s., 2 pl.	  68	NA	1	   1
-[4], 237 s., 6 pl.	 241	NA	1	   1
+68 s., 2 pl.	  72	NA	1	   1
+[4], 237 s., 6 pl.	 253	NA	1	   1
 [6], 281, IX s., 17 pl., 4 tabb.	 296	NA	1	   1
 [4], 138, [1] s.	 143	NA	1	   1
 [20], 160, 14 s.	 180	NA	1	   1
-26, 26, 29 s., 53 pl.	  29	NA	1	   1
+26, 26, 29 s., 53 pl.	 135	NA	1	   1
 [8], 337 s.	 345	NA	1	   1
 202, [1] s.	 203	NA	1	   1
 74 s., 10 kuvaa	  94	NA	1	   1
@@ -9044,7 +9044,7 @@ VII, 447, [6] s., [2] kuvalehteä, [4] karttalehteä, [1] taitekarttalehti	 464	
 [8], 293 s.	 301	NA	1	   1
 47, 31 s.	  47	NA	1	   1
 [2], 127 s., 1 karta	 129	NA	1	   1
-[6], 151, [1] s., 2 pl.	 158	NA	1	   1
+[6], 151, [1] s., 2 pl.	 162	NA	1	   1
 [8], 877, [1] s., 8 kuvalehteä ja karttaliite	 886	NA	1	   1
 [10], 869 s., 8 kuvalehteä, 10 karttaliitettä	 915	NA	1	   1
 [4], 154, [4] s.	 162	NA	1	   1
@@ -9063,7 +9063,7 @@ XX, 99 s., 1 kuval.	 121	NA	1	   1
 V, [2], 478 s., [2] karttalehteä	 485	NA	1	   1
 [4], 54, [6] s.	  64	NA	1	   1
 12 blad.	  24	NA	1	   1
-[4], 64 s., 1 pl.	  68	NA	1	   1
+[4], 64 s., 1 pl.	  70	NA	1	   1
 [2], 177, [2] s.	 181	NA	1	   1
 [2], V, 509 s., 14 kuvalehteä, 14 värillistä taulua	 544	NA	1	   1
 [8], 226 s., 139 kuvaa	 512	NA	1	   1
@@ -9071,7 +9071,7 @@ V, [2], 478 s., [2] karttalehteä	 485	NA	1	   1
 [5], 212, [6] s., 97 tekstikuvaa, 2 kuvalehteä	 227	NA	1	   1
 112 s., 56 kuvaa, kuvalehti	 224	NA	1	   1
 [4], V, 180, [1] s.	 190	NA	1	   1
-[6], 355, [1] s., 2 pl.	 362	NA	1	   1
+[6], 355, [1] s., 2 pl.	 366	NA	1	   1
 XV, 234 s.	 249	NA	1	   1
 [6], 163 s., 10 kartor	 189	NA	1	   1
 X, 424 s., 159 tekstikuvaa	 434	NA	1	   1
@@ -9081,7 +9081,7 @@ XXV, 76 s.	 101	NA	1	   1
 [10], 261 s.	 271	NA	1	   1
 10, 10 s., 1 karta	  10	NA	1	   1
 IV s., s. 161-236.	 240	NA	1	   1
-IV, 60 s., 1 pl.	  64	NA	1	   1
+IV, 60 s., 1 pl.	  66	NA	1	   1
 152, 52 s.	 152	NA	1	   1
 8 s., karta å omslaget	   8	NA	1	   1
 [2], 41, [1] s.	  44	NA	1	   1
@@ -9094,7 +9094,7 @@ XI, 200 s.	 211	NA	1	   1
 X, 294, [1] s., 41 kuvaa	 387	NA	1	   1
 37 s., 1 tab.	  37	NA	1	   1
 VI, [2], 126 s.	 134	NA	1	   1
-207 s., 1 pl.	 207	NA	1	   1
+207 s., 1 pl.	 209	NA	1	   1
 [4], 250, [2] s.	 256	NA	1	   1
 [8], 219 s.	 227	NA	1	   1
 [6], 72 tekstilehteä, 72 kuvalehteä	 150	NA	1	   1
@@ -9119,9 +9119,9 @@ VI, 45 s.	  51	NA	1	   1
 XIII, 735 s.	 748	NA	1	   1
 XVI, 308 s., [7] karttas., [2] taitekarttalehteä	 338	NA	1	   1
 VIII, 206, [1] s.	 215	NA	1	   1
-S. 529-735, 2 pl.	 207	NA	1	   1
+S. 529-735, 2 pl.	 211	NA	1	   1
 VIII, 353-752 s.	 408	NA	1	   1
-[4], 40 s., 3 pl.	  44	NA	1	   1
+[4], 40 s., 3 pl.	  50	NA	1	   1
 [2], 67, [8] s.	  77	NA	1	   1
 [4], CXV, 72, 95, [1] s.	 215	NA	1	   1
 [4], 270 s.	 274	NA	1	   1
@@ -9142,7 +9142,7 @@ S. 56-72.	  17	NA	1	   1
 100 s., 1 karta, 1 plankarta	 100	NA	1	   1
 XXVI, 492 s.	 518	NA	1	   1
 7, [3] s.	  10	NA	1	   1
-XXXIV, 281 s., 1 pl.	 315	NA	1	   1
+XXXIV, 281 s., 1 pl.	 317	NA	1	   1
 [10], XLI, 349 s.	 400	NA	1	   1
 VIII, 107, [1] s.	 116	NA	1	   1
 S. 145-163.	  19	NA	1	   1
@@ -9157,7 +9157,7 @@ XIII, 510 s.	 523	NA	1	   1
 VIII, 300 s.	 308	NA	1	   1
 [8], 449 s.	 457	NA	1	   1
 154 s., karttalehti	 154	NA	1	   1
-[2], 19, [1] s., 16 pl.	  22	NA	1	   1
+[2], 19, [1] s., 16 pl.	  54	NA	1	   1
 137, [3] s.	 140	NA	1	   1
 VI s., s. 248-589, XXIV-LIV, [1] kuvalehti, [3] karttalehteä (taitettuna)	 643	NA	1	   1
 XVII, 359 s.	 376	NA	1	   1
@@ -9277,9 +9277,9 @@ VI, 217, [1] s.	 224	NA	1	   1
 V, [1], 140 s.	 146	NA	1	   1
 16, VII s.	  23	NA	1	   1
 [8], 147 s., [1] karttalehti (taitettuna)	 155	NA	1	   1
-[4], 208 s., 1 pl.	 212	NA	1	   1
+[4], 208 s., 1 pl.	 214	NA	1	   1
 [6], 233 s.	 239	NA	1	   1
-225 s., 3 pl.	 225	NA	1	   1
+225 s., 3 pl.	 231	NA	1	   1
 62  s.	  62	NA	1	   1
 [4], 109, [2] s.	 115	NA	1	   1
 XXXVI, 127, [7] s.	 170	NA	1	   1
@@ -9308,7 +9308,7 @@ III, 406 s.	 409	NA	1	   1
 [2], 81, XV, [1] s.	  99	NA	1	   1
 X, 53 s.	  63	NA	1	   1
 [8], 298 s.	 306	NA	1	   1
-114 s., 3 pl.	 114	NA	1	   1
+114 s., 3 pl.	 120	NA	1	   1
 XI, 290 s., [2] kuvalehteä	 305	NA	1	   1
 [4], 170, [4] s.	 178	NA	1	   1
 [4], 281, [1] s.	 286	NA	1	   1
@@ -9324,21 +9324,21 @@ X, 63, [2] s.	  75	NA	1	   1
 VI, 120 s.	 126	NA	1	   1
 71, [13] s.	  84	NA	1	   1
 XXXII, 167, [1] s., 1 karttaliite	 202	NA	1	   1
-46 s., 1 pl.	  46	NA	1	   1
-[4], 164, [3] s., 1 pl.	 171	NA	1	   1
-[4], 147 s., 3 pl.	 151	NA	1	   1
+46 s., 1 pl.	  48	NA	1	   1
+[4], 164, [3] s., 1 pl.	 173	NA	1	   1
+[4], 147 s., 3 pl.	 157	NA	1	   1
 67 s., annonser	  67	NA	1	   1
 63 s., annonser	  63	NA	1	   1
 256, XI s.	 267	NA	1	   1
 VII, 216 s.	 223	NA	1	   1
 60, [2] s.	  62	NA	1	   1
-112 s., 4 pl.	 112	NA	1	   1
+112 s., 4 pl.	 120	NA	1	   1
 V, 172, [1] s.	 178	NA	1	   1
 V, [1], 186 s.	 192	NA	1	   1
 VI, 356 s.	 362	NA	1	   1
-79 s., 1 pl.	  79	NA	1	   1
+79 s., 1 pl.	  81	NA	1	   1
 [6], IX, 474, 137 s.	 489	NA	1	   1
-[2], 266, [2], XXIII s., 10 pl.	 293	NA	1	   1
+[2], 266, [2], XXIII s., 10 pl.	 313	NA	1	   1
 XXVII, 710, 168 s.	 737	NA	1	   1
 XL, 736, 88 s., 1 karta	 776	NA	1	   1
 [2] s., s. 251-751, X s.	 763	NA	1	   1
@@ -9354,12 +9354,12 @@ IV, 140, [1] s.	 145	NA	1	   1
 [2], 42, [2] s.	  46	NA	1	   1
 [4], 236      s.	 240	NA	1	   1
 [4], 145, [1] s.	 150	NA	1	   1
-197 s., 1 pl.	 197	NA	1	   1
+197 s., 1 pl.	 199	NA	1	   1
 31, 29, 31 s.	  31	NA	1	   1
-9 s., 1 pl.	   9	NA	1	   1
+9 s., 1 pl.	  11	NA	1	   1
 [4], 211 s., 5 kuvaliitettä, 1 karttaliite	 227	NA	1	   1
 [4], 18, 33 s.	  37	NA	1	   1
-[2], 7 s., 12 pl.	   9	NA	1	   1
+[2], 7 s., 12 pl.	  33	NA	1	   1
 157, [2] s., 10 kuvaliitettä, 2 karttaliitettä	 183	NA	1	   1
 [8], 135 s.	 143	NA	1	   1
 X, 66, [2], 763, [1] s., karttalehti	 776	NA	1	   1
@@ -9375,7 +9375,7 @@ X, 650 s.	 660	NA	1	   1
 11, [1] s., 2 kuvaliitettä	  16	NA	1	   1
 S. 549-557.	   9	NA	1	   1
 S. 505-548.	  44	NA	1	   1
-S. 479-504, 2 pl.	  26	NA	1	   1
+S. 479-504, 2 pl.	  30	NA	1	   1
 [6], 208 s., 20 kuvaliitettä, 3 karttaliitettä, 1 taulukkoliite	 260	NA	1	   1
 S. 375-478.	 104	NA	1	   1
 29 s., 2 taulukkoliitettä	  29	NA	1	   1
@@ -9392,10 +9392,10 @@ S. 363-396, 1 tab.	  34	NA	1	   1
 S. 319-362.	  44	NA	1	   1
 S. 235-318.	  84	NA	1	   1
 S. 54-233.	 180	NA	1	   1
-[4], 57  s., 7 pl.	  61	NA	1	   1
+[4], 57  s., 7 pl.	  75	NA	1	   1
 S. 1-50.	  50	NA	1	   1
 [2], 279 s.	 281	NA	1	   1
-[6], 104 s., 5 pl.	 110	NA	1	   1
+[6], 104 s., 5 pl.	 120	NA	1	   1
 91 s., 1 tab.	  91	NA	1	   1
 58, [1] s., 2 tabb.	  59	NA	1	   1
 47, [1] s., 3 tabb.	  48	NA	1	   1
@@ -9406,7 +9406,7 @@ S. 1-50.	  50	NA	1	   1
 IX, 37 s.	  46	NA	1	   1
 LXXXIX, [2], 118 s.	 209	NA	1	   1
 [100], XIV s.	 114	NA	1	   1
-[319] s., 1 pl.	 319	NA	1	   1
+[319] s., 1 pl.	 321	NA	1	   1
 XVIII, 251, [1] s.	 270	NA	1	   1
 [6], LXIV, 209 s.	 279	NA	1	   1
 Sid. 1-22.	  22	NA	1	   1
@@ -9416,7 +9416,7 @@ Sid. 71-82.	  82	NA	1	   1
 [4], s. 57-66, [6 s.].	  76	NA	1	   1
 Sid. 45-69.	  69	NA	1	   1
 Sid. 31-44.	  44	NA	1	   1
-[8], 423, [7] s., 1 pl.	 438	NA	1	   1
+[8], 423, [7] s., 1 pl.	 440	NA	1	   1
 Sid. 1-29.	  29	NA	1	   1
 [4], 121, [2] s.	 127	NA	1	   1
 34, [5] s.	  39	NA	1	   1
@@ -9425,7 +9425,7 @@ Sid. 1-29.	  29	NA	1	   1
 61 s., 1 pl., annonser	  61	NA	1	   1
 22 s., 4 tabb.	  22	NA	1	   1
 [4], CXLVII, 210, [2] s.	 363	NA	1	   1
-34 s., 10 pl.	  34	NA	1	   1
+34 s., 10 pl.	  54	NA	1	   1
 XV, 66 s.	  81	NA	1	   1
 V, [3], 279 s.	 287	NA	1	   1
 81 s., 32 liites.	  81	NA	1	   1
@@ -9440,19 +9440,19 @@ VI, 328 s.	 334	NA	1	   1
 [4], 80, [1] s.	  85	NA	1	   1
 [4], 448 s.	 452	NA	1	   1
 [4], 432 s.	 436	NA	1	   1
-45, [1] s., 8 pl.	  46	NA	1	   1
+45, [1] s., 8 pl.	  62	NA	1	   1
 [3], 252 s.	 255	NA	1	   1
-[4], 54, [1] s., 1 faksimile, 2 pl.	  59	NA	1	   1
+[4], 54, [1] s., 1 faksimile, 2 pl.	  63	NA	1	   1
 [6], 196 s.	 202	NA	1	   1
-238, [1] s., 1 pl.	 239	NA	1	   1
+238, [1] s., 1 pl.	 241	NA	1	   1
 [4], 153, [1] s.	 158	NA	1	   1
 [4], 319 s.	 323	NA	1	   1
 XVIII, 401 s.	 419	NA	1	   1
-XVI, 318 s., 32 pl.	 334	NA	1	   1
-XIV, [2], 340 s., 2 pl.	 356	NA	1	   1
+XVI, 318 s., 32 pl.	 398	NA	1	   1
+XIV, [2], 340 s., 2 pl.	 360	NA	1	   1
 IV, 68 s.	  72	NA	1	   1
 28            s.	  28	NA	1	   1
-90 s., 1 pl.	  90	NA	1	   1
+90 s., 1 pl.	  92	NA	1	   1
 [13 s.]	  13	NA	1	   1
 53 s., 1 plan., 1 karta	  53	NA	1	   1
 21 s., 8 kuvalehteä	  37	NA	1	   1
@@ -9466,7 +9466,7 @@ XI, [1], 247 s.	 259	NA	1	   1
 VII, [1], 181 s., 1 karttaliite	 191	NA	1	   1
 19 s., 8 kuvalehteä	  35	NA	1	   1
 [7], 652, [1] s.	 660	NA	1	   1
-191 s., 1 pl.	 191	NA	1	   1
+191 s., 1 pl.	 193	NA	1	   1
 21, [9] s.	  30	NA	1	   1
 11, 8, 3 s.	  11	NA	1	   1
 36 s., annonser.	  36	NA	1	   1
@@ -9503,7 +9503,7 @@ V, 835 s., 47 pl., 1 karta	 840	NA	1	   1
 [2], V, [753], [2] s., 2 kuvaliitettä, 1 karttaliite	 768	NA	1	   1
 [2], IV, 341 s.	 347	NA	1	   1
 [2], IV, 342 s.	 348	NA	1	   1
-IV, 62 s., 1 pl.	  66	NA	1	   1
+IV, 62 s., 1 pl.	  68	NA	1	   1
 XXIV, 191, [1] s., s. XXV-XLIV, 2 pl., 1 karta	 236	NA	1	   1
 12, 52 s., annonser	  52	NA	1	   1
 [2], XII, 154 s., 1 karttaliite	 170	NA	1	   1
@@ -9530,8 +9530,8 @@ S. 1-10.	  10	NA	1	   1
 [8], 126 s.	 134	NA	1	   1
 IV, 163 s.	 167	NA	1	   1
 [6], LIV, 390 s.	 450	NA	1	   1
-[8], 234 s., 6 pl.	 242	NA	1	   1
-[4], 189 s., 7 pl.	 193	NA	1	   1
+[8], 234 s., 6 pl.	 254	NA	1	   1
+[4], 189 s., 7 pl.	 207	NA	1	   1
 [6], 207 s.	 213	NA	1	   1
 [10], 443 s.	 453	NA	1	   1
 [2], 235 s.	 237	NA	1	   1
@@ -9542,7 +9542,7 @@ V, 141 s.	 146	NA	1	   1
 [435] s.	 435	NA	1	   1
 [317] s.	 317	NA	1	   1
 94, [2] s., 4 karttaliitettä	 104	NA	1	   1
-144 s., 1 pl.	 144	NA	1	   1
+144 s., 1 pl.	 146	NA	1	   1
 [6], 721 s., karttaliite	 727	NA	1	   1
 [6], 710 s., 4 karttaliitettä	 724	NA	1	   1
 16, [8] s.	  24	NA	1	   1
@@ -9584,7 +9584,7 @@ X, 714 s., 10 kuvalehteä	 744	NA	1	   1
 120, [1] s., 1 diagr.	 121	NA	1	   1
 11, 373, [1] s.	 374	NA	1	   1
 [2], 140, [1] s.	 143	NA	1	   1
-VIII, 237 s., 1 pl.	 245	NA	1	   1
+VIII, 237 s., 1 pl.	 247	NA	1	   1
 56 s., 6 graafillista taululiitettä	  56	NA	1	   1
 38 s., 6 graafillista taululiitettä	  38	NA	1	   1
 [6], 150 s.	 156	NA	1	   1
@@ -9614,7 +9614,7 @@ S. 94-115.	  22	NA	1	   1
 S. 121-152.	  32	NA	1	   1
 58 s., 17 taulukkoliitettä, 11 diagrammia	  58	NA	1	   1
 10 s., 2 kuvaliitettä	  14	NA	1	   1
-XLV, [2], 279 s., 2 pl.	 326	NA	1	   1
+XLV, [2], 279 s., 2 pl.	 330	NA	1	   1
 [2], 599 s.	 601	NA	1	   1
 [4], 242 s.	 246	NA	1	   1
 VIII, 631 s.	 639	NA	1	   1
@@ -9676,15 +9676,15 @@ V, 740 s., 35 kuvaliitettä ja karttaliite	 745	NA	1	   1
 70 s., 5 bilagor.	  70	NA	1	   1
 [6], 239, [1] s., 9 taululiitettä.	 246	NA	1	   1
 40, XLVII s.	  87	NA	1	   1
-IV, 130 s., 1 pl.	 134	NA	1	   1
+IV, 130 s., 1 pl.	 136	NA	1	   1
 [2], 241 s.	 243	NA	1	   1
-60 s., 1 pl.	  60	NA	1	   1
+60 s., 1 pl.	  62	NA	1	   1
 83, [4] s., 8 kuvalehteä	 103	NA	1	   1
 124 s., 3 tabb., 2 diagr., 1 konstruktionsritning, 1 karta	 124	NA	1	   1
-53 s., 1 pl.	  53	NA	1	   1
-73 s., 1 pl.	  73	NA	1	   1
-71 s., 1 pl.	  71	NA	1	   1
-69 s., 7 pl.	  69	NA	1	   1
+53 s., 1 pl.	  55	NA	1	   1
+73 s., 1 pl.	  75	NA	1	   1
+71 s., 1 pl.	  73	NA	1	   1
+69 s., 7 pl.	  83	NA	1	   1
 24, XI s.	  35	NA	1	   1
 36, XXV s.	  61	NA	1	   1
 40, [3] s.	  43	NA	1	   1
@@ -9696,12 +9696,12 @@ XI, [1], 608 s.	 620	NA	1	   1
 [4], 238, [2] s.	 244	NA	1	   1
 XI, 289, [2] s.	 302	NA	1	   1
 209, [1] s., 1 karta	 210	NA	1	   1
-[4], 280, [2] s., XXXII pl.	 286	NA	1	   1
+[4], 280, [2] s., XXXII pl.	 350	NA	1	   1
 V, 38, [1] s.	  44	NA	1	   1
 XVI, 471 s., [2] kuvalehteä, [1] karttalehti	 491	NA	1	   1
 192, III s.	 195	NA	1	   1
 [2], 128 s., 4 karttalehteä	 130	NA	1	   1
-56 s., 1 pl.	  56	NA	1	   1
+56 s., 1 pl.	  58	NA	1	   1
 [4], 170, [5] s., 4 karttaliitettä	 187	NA	1	   1
 III, 382, [2] s.	 387	NA	1	   1
 47 s., 1 kuvaliite	  47	NA	1	   1
@@ -9711,7 +9711,7 @@ LXXI, 46 s.	 117	NA	1	   1
 [8], 290 s.	 298	NA	1	   1
 12, [1] s., taululiite	  13	NA	1	   1
 S. 27-56, [1] s.	  31	NA	1	   1
-12 s., 1 pl.	  12	NA	1	   1
+12 s., 1 pl.	  14	NA	1	   1
 V, [2], 224 s.	 231	NA	1	   1
 [6], 81, [2] s.	  89	NA	1	   1
 [4], 140, [2] s.	 146	NA	1	   1
@@ -9721,7 +9721,7 @@ V, [2], 224 s.	 231	NA	1	   1
 22, 15 s.	  22	NA	1	   1
 50 s., 2 kuvalehteä	  54	NA	1	   1
 55, [1], LXXXVI s.	 142	NA	1	   1
-238 s., 4 pl.	 238	NA	1	   1
+238 s., 4 pl.	 246	NA	1	   1
 164, 2 s.	 164	NA	1	   1
 60, 10 s.	  60	NA	1	   1
 178, [2] s.	 180	NA	1	   1
@@ -9735,10 +9735,10 @@ XI, 243 s.	 254	NA	1	   1
 XIV, [2], 235 s.	 251	NA	1	   1
 36 s., 1 kuvaliite	  36	NA	1	   1
 [28 s.]	  28	NA	1	   1
-[29] s., 4 pl.	  29	NA	1	   1
-[92] s., 8 pl.	  92	NA	1	   1
+[29] s., 4 pl.	  37	NA	1	   1
+[92] s., 8 pl.	 108	NA	1	   1
 203, [5] s., [6] kuvalehteä	 220	NA	1	   1
-[20] s., 2 pl.	  20	NA	1	   1
+[20] s., 2 pl.	  24	NA	1	   1
 184, CV, [10] s., [8] kuvalehteä	 315	NA	1	   1
 46, [6] s.	  52	NA	1	   1
 [4], 165, 37, [1] s.	 170	NA	1	   1
@@ -9757,24 +9757,24 @@ XIV, 232 s., 2 kartor	 250	NA	1	   1
 216, [II]  s.	 218	NA	1	   1
 [4], 390, [1] s.	 395	NA	1	   1
 [4], 255 s.	 259	NA	1	   1
-VIII, 304 s., 1 pl.	 312	NA	1	   1
+VIII, 304 s., 1 pl.	 314	NA	1	   1
 [2], IV, 219 s.	 225	NA	1	   1
 [2], X, [4], 325 s., 8 karttaliitettä, 23 diagrammia	 357	NA	1	   1
 260, [4], IV s.	 268	NA	1	   1
 [4], 250, [3] s.	 257	NA	1	   1
 V, 217 s.	 222	NA	1	   1
-III, 190 s., 1 pl.	 193	NA	1	   1
+III, 190 s., 1 pl.	 195	NA	1	   1
 26 s., 20 kuvas.	  26	NA	1	   1
 V, [3], 95 s.	 103	NA	1	   1
 [4], V, [2], 445 s.	 456	NA	1	   1
 XXV, 114 s.	 139	NA	1	   1
-31 s., 13 pl.	  31	NA	1	   1
+31 s., 13 pl.	  57	NA	1	   1
 189 s., 3 kuvaliitettä	 195	NA	1	   1
-36 s., 7 pl.	  36	NA	1	   1
+36 s., 7 pl.	  50	NA	1	   1
 VI, 337 s.	 343	NA	1	   1
 VIII, 339 s.	 347	NA	1	   1
 VIII, 170 s.	 178	NA	1	   1
-[18] s., 34 pl.	  18	NA	1	   1
+[18] s., 34 pl.	  86	NA	1	   1
 104 s., 1 kuvaliite	 104	NA	1	   1
 V, 93, [1] s.	  99	NA	1	   1
 [2], 42, [3] s.	  47	NA	1	   1
@@ -9784,9 +9784,9 @@ V, 93, [1] s.	  99	NA	1	   1
 155 s., 22 kuvaa	 199	NA	1	   1
 623 s., 448 s.	 623	NA	1	   1
 462, [2] s.	 464	NA	1	   1
-VIII, 156, [4] s., 14 pl.	 168	NA	1	   1
+VIII, 156, [4] s., 14 pl.	 196	NA	1	   1
 XVI, 354 s.	 370	NA	1	   1
-XXIV, 367 s., 5 pl.	 391	NA	1	   1
+XXIV, 367 s., 5 pl.	 401	NA	1	   1
 VI, 76 s.	  82	NA	1	   1
 [2], 63, IV s.	  69	NA	1	   1
 [2], 58, VI s.	  66	NA	1	   1
@@ -9804,15 +9804,15 @@ VIII, 482 s.	 490	NA	1	   1
 [2], 283, [1], 45 s.	 286	NA	1	   1
 IV, 53, [1] s.	  58	NA	1	   1
 21, [1] s., 86 kuvaliitettä	 194	NA	1	   1
-XV, 173, [1] s., 1 pl.	 189	NA	1	   1
-[6], 120 s., 1 biblad (2 s.), 3 pl.	 126	NA	1	   1
+XV, 173, [1] s., 1 pl.	 191	NA	1	   1
+[6], 120 s., 1 biblad (2 s.), 3 pl.	 132	NA	1	   1
 [2], 80, XV, [1] s.	  98	NA	1	   1
 344, XIII s.	 357	NA	1	   1
-IV, 70 s., 4 pl.	  74	NA	1	   1
+IV, 70 s., 4 pl.	  82	NA	1	   1
 XV, 265 s.	 280	NA	1	   1
-S. 255-345, 2 pl.	  91	NA	1	   1
+S. 255-345, 2 pl.	  95	NA	1	   1
 VI, [2], 379, [1] s.	 388	NA	1	   1
-194 s., 4 pl.	 194	NA	1	   1
+194 s., 4 pl.	 202	NA	1	   1
 [4], 8, 8, 8 s.	  12	NA	1	   1
 VII, 132 s.	 139	NA	1	   1
 324, [3] s.	 327	NA	1	   1
@@ -9856,7 +9856,7 @@ V, 317 s.	 322	NA	1	   1
 [3], 255 s.	 258	NA	1	   1
 XII, 164 s.	 176	NA	1	   1
 [2], V, 327, XII s.	 341	NA	1	   1
-16, [4] s., 3 pl.	  20	NA	1	   1
+16, [4] s., 3 pl.	  26	NA	1	   1
 166 s., karttaliite	 166	NA	1	   1
 87 s., 4 taulukkoliitettä	  87	NA	1	   1
 VIII, 335 s.	 343	NA	1	   1
@@ -9866,7 +9866,7 @@ VI, 152, [11] s.	 169	NA	1	   1
 [4], 226, [2] s., 12 kuvalehteä	 256	NA	1	   1
 [2], 324, [2] s.	 328	NA	1	   1
 46 s., 8 kuvalehteä	  62	NA	1	   1
-VIII, 443 s., 5 pl.	 451	NA	1	   1
+VIII, 443 s., 5 pl.	 461	NA	1	   1
 [2], 270, [2] s.	 274	NA	1	   1
 S. 105-192.	  88	NA	1	   1
 S. 1-104.	 104	NA	1	   1
@@ -10015,7 +10015,7 @@ IX, 69, [1], 2, 2, 2, 2 s., 3 kuvaliitettä, 1 taulukkoliite	  85	NA	1	   1
 82, [1] s., 5 kuvalehteä	  93	NA	1	   1
 133 s., 18 kuvalehteä	 169	NA	1	   1
 56 kuvalehteä	 112	NA	1	   1
-100, [1] s., 2 pl.	 101	NA	1	   1
+100, [1] s., 2 pl.	 105	NA	1	   1
 V, 152 s.	 157	NA	1	   1
 3, 15 s.	  15	NA	1	   1
 [4], 125, [1] s.	 130	NA	1	   1
@@ -10084,9 +10084,9 @@ VIII, 155 s.	 163	NA	1	   1
 [8], V, [1], 739 s.	 753	NA	1	   1
 [2], V, [1], 462 s.	 470	NA	1	   1
 431, [7] s.	 438	NA	1	   1
-[4] s., s. 393-744, 1 pl.	 748	NA	1	   1
+[4] s., s. 393-744, 1 pl.	 750	NA	1	   1
 48, 24 s.	  48	NA	1	   1
-[2], XLIX, [1] s., s. 1-398, 1 pl.	 450	NA	1	   1
+[2], XLIX, [1] s., s. 1-398, 1 pl.	 452	NA	1	   1
 IX, 223 s.	 232	NA	1	   1
 [2], IV, 156 s.	 162	NA	1	   1
 24 s., 8 kuvaliitettä	  40	NA	1	   1
@@ -10096,8 +10096,8 @@ IX, 223 s.	 232	NA	1	   1
 37 s., taululiite.	  37	NA	1	   1
 [4], 134 s., 56 kuvalehteä	 250	NA	1	   1
 [4], VII, 437 s.	 448	NA	1	   1
-45, [2] s., 16 pl.	  47	NA	1	   1
-[6], 93 s., 12 pl.	  99	NA	1	   1
+45, [2] s., 16 pl.	  79	NA	1	   1
+[6], 93 s., 12 pl.	 123	NA	1	   1
 11 nid. ([374] s.)	 374	NA	1	   1
 252, [2] s., 25 kuvaa	 304	NA	1	   1
 73 s., karttaliite	  73	NA	1	   1
@@ -10119,9 +10119,9 @@ VII, 235 s.	 242	NA	1	   1
 123, [4] s.	 127	NA	1	   1
 S. 385-472.	  88	NA	1	   1
 [3], 144, X s.	 157	NA	1	   1
-Sid. 881-1179, [1], 39, [1] s., 6 pl.	1181	NA	1	   1
+Sid. 881-1179, [1], 39, [1] s., 6 pl.	1193	NA	1	   1
 [6], 224 s., 4 karttaliitettä	 238	NA	1	   1
-[2] s., sid. 497-880, 1 pl.	 882	NA	1	   1
+[2] s., sid. 497-880, 1 pl.	 884	NA	1	   1
 9, 4 s.	   9	NA	1	   1
 33, [2] s.	  35	NA	1	   1
 [4], 320 s., 201 kuvaa	 726	NA	1	   1
@@ -10129,8 +10129,8 @@ Sid. 881-1179, [1], 39, [1] s., 6 pl.	1181	NA	1	   1
 80, [1] s., 1 kuvaliite	  81	NA	1	   1
 77, [1] s., kartta	  78	NA	1	   1
 [2], 216 s., 6 karttaliitettä	 230	NA	1	   1
-140 s., 8 pl.	 140	NA	1	   1
-103 s., 5 pl.	 103	NA	1	   1
+140 s., 8 pl.	 156	NA	1	   1
+103 s., 5 pl.	 113	NA	1	   1
 VIII, 119, [1] s.	 128	NA	1	   1
 124, IV s.	 128	NA	1	   1
 [2], II, 80 s.	  84	NA	1	   1
@@ -10180,7 +10180,7 @@ V, 126 s.	 131	NA	1	   1
 23 s., [9] ilmoitussivua	  23	NA	1	   1
 [2], 230 s.	 232	NA	1	   1
 180 s., 32 kuvaa	 244	NA	1	   1
-120, [1] s., 10 pl.	 121	NA	1	   1
+120, [1] s., 10 pl.	 141	NA	1	   1
 52, [4] s.	  56	NA	1	   1
 V, 283 s., [1] kuvalehti, [3] karttalehteä (taitettuna)	 288	NA	1	   1
 250 s., 2 tab.	 250	NA	1	   1
@@ -10191,7 +10191,7 @@ V, 283 s., [1] kuvalehti, [3] karttalehteä (taitettuna)	 288	NA	1	   1
 [8], 198, 7, [2] s.	 208	NA	1	   1
 VIII, 399 s.	 407	NA	1	   1
 [2], 99 s., 7 kuvaliitettä, 2 taulukkoa	 115	NA	1	   1
-[2], 33, [1] s., 1 pl.	  36	NA	1	   1
+[2], 33, [1] s., 1 pl.	  38	NA	1	   1
 VIII, 76 s.	  84	NA	1	   1
 [4], III, 7 s., 55 karttaliitettä	 124	NA	1	   1
 [8] s., 1 kuvaliite	   8	NA	1	   1
@@ -10272,7 +10272,7 @@ VIII, 100 s., kuvaliite	 108	NA	1	   1
 [4], 341, [2] s., kuvalehti	 347	NA	1	   1
 [6], 109, 164 s.	 170	NA	1	   1
 VIII, 279 s., kuvaliite	 287	NA	1	   1
-79, [1] s., 1 pl.	  80	NA	1	   1
+79, [1] s., 1 pl.	  82	NA	1	   1
 [4], VII, 363 s.	 374	NA	1	   1
 [4], 328 s.	 332	NA	1	   1
 IV, 154 s.	 158	NA	1	   1
@@ -10289,7 +10289,7 @@ VII, [1], 175 s.	 183	NA	1	   1
 VII, [1], 176 s., karttalehti	 184	NA	1	   1
 VIII, 259 s., karttalehti	 267	NA	1	   1
 91 s., [94] ilmoittuss.	  91	NA	1	   1
-X, 218, [1] s., 15 pl.	 229	NA	1	   1
+X, 218, [1] s., 15 pl.	 259	NA	1	   1
 [8], 405, [2] s.	 415	NA	1	   1
 815 s.	 815	NA	1	   1
 [2], 1168 s.	1170	NA	1	   1
@@ -10340,7 +10340,7 @@ XIX, [1], 245 s.	 265	NA	1	   1
 XIX, 205, [1] s., kuvalehti	 225	NA	1	   1
 47 s., kuvalehti	  47	NA	1	   1
 148, [3] s.	 151	NA	1	   1
-XVIII, [2], 235 s., 115 pl.	 255	NA	1	   1
+XVIII, [2], 235 s., 115 pl.	 485	NA	1	   1
 XII, 214 s.	 226	NA	1	   1
 [2], XV, [3], 139, [2] s.	 161	NA	1	   1
 [6] s., 220 pl., [9] s.	  15	NA	1	   1
@@ -10349,7 +10349,7 @@ X, [2], 285 s.	 297	NA	1	   1
 [2], 166 s.	 168	NA	1	   1
 [2], 48, [1] s.	  51	NA	1	   1
 [44 s.] s.	  44	NA	1	   1
-XXIV, [2], 292 s., 87 pl.	 318	NA	1	   1
+XXIV, [2], 292 s., 87 pl.	 492	NA	1	   1
 11, [7] s.	  18	NA	1	   1
 [8], 222 s.	 230	NA	1	   1
 LXXI, 44 s.	 115	NA	1	   1
@@ -10394,9 +10394,9 @@ S. 11-20.	  10	NA	1	   1
 IV, 27 s.	  31	NA	1	   1
 [2 s.], 12 kuvalehteä	  24	NA	1	   1
 20, [2] s., 86 kuvalehteä	 194	NA	1	   1
-[4], 69, [3] s., 5 pl.	  76	NA	1	   1
+[4], 69, [3] s., 5 pl.	  86	NA	1	   1
 32, LIV, [1] s.	  87	NA	1	   1
-59 s., 1 pl.	  59	NA	1	   1
+59 s., 1 pl.	  61	NA	1	   1
 [4], 519 s.	 523	NA	1	   1
 VII, 310 s.	 317	NA	1	   1
 VIII s. , s. 9-80.	  88	NA	1	   1
@@ -10448,7 +10448,7 @@ S. 31-44.	  14	NA	1	   1
 S. 1-29.	  29	NA	1	   1
 [4], 100, [1] s.	 105	NA	1	   1
 [4], 158, [2] s.	 164	NA	1	   1
-11, [1] s., 2 pl.	  12	NA	1	   1
+11, [1] s., 2 pl.	  16	NA	1	   1
 [2], 118, [2] s.	 122	NA	1	   1
 XV, 242, 164 s.	 257	NA	1	   1
 [2] s., s. 421-592	 594	NA	1	   1
@@ -10517,7 +10517,7 @@ VII, 229 s.	 236	NA	1	   1
 [2], 9 s., s. 10, 10a-10ö, 11, 11a-11ö, 12, 12a-12ö, 13-83, 84, 84a-84f, 85-94, 94a-94v, 96-108, 108a-108l, 109-196, A-M (7 s.), A-M, I-LXXIX, 10, [1] s., kuvalehti	 278	NA	1	   1
 [16], 9 s.	  25	NA	1	   1
 299 s., 3 kuvaliitettä	 305	NA	1	   1
-[4], 184 s., 1 pl.	 188	NA	1	   1
+[4], 184 s., 1 pl.	 190	NA	1	   1
 [4], 244 s., 32 kuvalehteä	 312	NA	1	   1
 26 s., [1] karttalehti (taitettuna)	  26	NA	1	   1
 IX, 257 s.	 266	NA	1	   1
@@ -10683,8 +10683,8 @@ XXIV, 339 s.	 363	NA	1	   1
 280 s., 18 kuval., 1 karttal.	 282	NA	1	   1
 160, 16 s., 2 karttalehteä	 160	NA	1	   1
 [4], 187 s., 2 karttalehteä	 191	NA	1	   1
-11 s., 3 pl.	  11	NA	1	   1
-8 s., 3 pl.	   8	NA	1	   1
+11 s., 3 pl.	  17	NA	1	   1
+8 s., 3 pl.	  14	NA	1	   1
 IV, [6], 114 s.	 124	NA	1	   1
 VIII, 161 s., 100 kuvaa	 369	NA	1	   1
 [4], 364 s., XVI s., s. 365-633.	 653	NA	1	   1
@@ -10705,7 +10705,7 @@ IV, 163, [1] s., 1 kuvaliite	 168	NA	1	   1
 53, [1] s., 2 kuvalehteä	  58	NA	1	   1
 XIV, 554 s., [4] kuval.	 576	NA	1	   1
 [4], 220 s., 1 karta	 224	NA	1	   1
-LXXX, 120, [4] s., 4 pl.	 204	NA	1	   1
+LXXX, 120, [4] s., 4 pl.	 212	NA	1	   1
 347, [2] s.	 349	NA	1	   1
 66, [11] s., 1 kartblad	  79	NA	1	   1
 VII, [1], 444 s.	 452	NA	1	   1
@@ -10759,7 +10759,7 @@ VI, 135 s., 2 karttalehteä	 141	NA	1	   1
 VIII, 198 s., 3 karttalehteä	 206	NA	1	   1
 43 s., 1 kuvaliite	  43	NA	1	   1
 151 s., 1 kuvaliite	 151	NA	1	   1
-V, [1], 182 s., 1 pl.	 188	NA	1	   1
+V, [1], 182 s., 1 pl.	 190	NA	1	   1
 [2], 156, [4] s.	 162	NA	1	   1
 VI, [2], 195 s.	 203	NA	1	   1
 25 s., 5 taululehteä.	  25	NA	1	   1
@@ -10769,9 +10769,9 @@ VI, [2], 195 s.	 203	NA	1	   1
 S. 49-64	  16	NA	1	   1
 15, [1], CLIII, [3] s.	 172	NA	1	   1
 X, 251 s.	 261	NA	1	   1
-250 s., 8 pl.	 250	NA	1	   1
-240 s., 16 pl.	 240	NA	1	   1
-[8], 183, [1] s., 10 pl.	 192	NA	1	   1
+250 s., 8 pl.	 266	NA	1	   1
+240 s., 16 pl.	 272	NA	1	   1
+[8], 183, [1] s., 10 pl.	 212	NA	1	   1
 [2] s., sid. 322-333.	 335	NA	1	   1
 XVIII, 244, 164 s., VIII taululiitettä	 262	NA	1	   1
 XVI, 256, 127, 98 s.	 272	NA	1	   1
@@ -10810,7 +10810,7 @@ IV, 198 s.	 202	NA	1	   1
 [4], 97, [1] s.	 102	NA	1	   1
 [4], 134, [2] s.	 140	NA	1	   1
 [4], 114, [3] s.	 121	NA	1	   1
-[8], 101 s., 3 pl.	 109	NA	1	   1
+[8], 101 s., 3 pl.	 115	NA	1	   1
 [2], 408 s.	 410	NA	1	   1
 VII, 158, [1] s.	 166	NA	1	   1
 136 s., [1].	 137	NA	1	   1
@@ -10844,7 +10844,7 @@ IV, 287 s., 6 kuvaliitettä	 303	NA	1	   1
 [6], 96 s., 6 kuvalehteä	 114	NA	1	   1
 [2], 86, III s.	  91	NA	1	   1
 [8], 168 s.	 176	NA	1	   1
-IX, [1], 159 s., 15 pl.	 169	NA	1	   1
+IX, [1], 159 s., 15 pl.	 199	NA	1	   1
 [4 s.], s. 323-748, [2 s.], 20 kuvalehteä, 1 karttalehti	 788	NA	1	   1
 VII, 322, [1] s., 20 kuvalehteä ja 1 karttalehti	 330	NA	1	   1
 S. 53-56.	   4	NA	1	   1
@@ -10865,7 +10865,7 @@ X, [2], 225 s.	 237	NA	1	   1
 55 s., 2 karttaliitettä	  59	NA	1	   1
 VIII, 350 s.	 358	NA	1	   1
 [4], 336 s.	 340	NA	1	   1
-XV, [1], 272 s., 1 pl.	 288	NA	1	   1
+XV, [1], 272 s., 1 pl.	 290	NA	1	   1
 18, [44] s., [43] pl. VII s.	  62	NA	1	   1
 [4], 522 s.	 526	NA	1	   1
 [1 s.], mallilehdet 255-300	  18	NA	1	   1
@@ -10875,7 +10875,7 @@ XV, [1], 272 s., 1 pl.	 288	NA	1	   1
 [1 s.], 63 mallilehteä	 126	NA	1	   1
 [4], 204, 2 s., kuvalehti	 208	NA	1	   1
 [2], 106 s., 7 kuvalehteä	 122	NA	1	   1
-[4], 180 s., 2 pl.	 184	NA	1	   1
+[4], 180 s., 2 pl.	 188	NA	1	   1
 167 s., kuvalehti	 167	NA	1	   1
 VI, 29, [3], 34 s.	  43	NA	1	   1
 [4], 94, 29, [5] s.	 103	NA	1	   1
@@ -10888,28 +10888,28 @@ S. 64-77.	  14	NA	1	   1
 [44], [2] s.	  46	NA	1	   1
 VI, 138, [1] s.	 145	NA	1	   1
 79, [1] s., 3 kuvaliitettä	  86	NA	1	   1
-37 s., 9 pl.	  37	NA	1	   1
+37 s., 9 pl.	  55	NA	1	   1
 70 s., 5 kuvaliitettä, 1 karttaliite, 2 taulukkoa	  82	NA	1	   1
 72 s., 3 kuvaliitettä, 1 karttaliitettä	  80	NA	1	   1
 347 [1] s.	  61	NA	1	   1
 124, [1] s., 10 karttaliitettä	 145	NA	1	   1
 26, [1] s., 3 kuvaliitettä, 1 taulukko	  33	NA	1	   1
 [8], 500 s., 3 karttaliitettä	 514	NA	1	   1
-25 s., [4] pl.	  25	NA	1	   1
+25 s., [4] pl.	  33	NA	1	   1
 [4], 142 [1] s.	   4	NA	1	   1
 510, [1] s.	 511	NA	1	   1
 VI, 263, [1] s.	 270	NA	1	   1
 [6], 106 s., 8 kuvalehteä	 128	NA	1	   1
-8 s., 8 pl.	   8	NA	1	   1
+8 s., 8 pl.	  24	NA	1	   1
 64 s., 4 kuvalehteä	  72	NA	1	   1
-13 s., 1 pl.	  13	NA	1	   1
+13 s., 1 pl.	  15	NA	1	   1
 193, [1] s., 15 kuvaliitettä, 1 karttaliite, 3 taulukkoa	 226	NA	1	   1
 563 s.	 563	NA	1	   1
 52, [2] s., 1 karttaliite	  56	NA	1	   1
 224 s., 3 kuvaliitettä, 1 karttaliite	 232	NA	1	   1
 201 s., 3 kuvaliitettä, 2 karttaa, 4 taulukkoa	 211	NA	1	   1
 59, [1] s., 2 kuvaliitettä	  64	NA	1	   1
-63 s., 3 pl.	  63	NA	1	   1
+63 s., 3 pl.	  69	NA	1	   1
 S. 113-146.	  34	NA	1	   1
 64, [6] s., 3 kuvaliitettä	  76	NA	1	   1
 63, [1] s., 2 kuvalehteä	  68	NA	1	   1
@@ -10926,7 +10926,7 @@ IV, [1], 85 s.	  90	NA	1	   1
 16 s., 3 kuvaliitettä	  22	NA	1	   1
 XIII, [5], 528 s., 12 tab.	 546	NA	1	   1
 36 s., 2 taulukkoa	  36	NA	1	   1
-IV, [364] s., [7] pl.	 368	NA	1	   1
+IV, [364] s., [7] pl.	 382	NA	1	   1
 53 s., 12 kuvaliitettä	  77	NA	1	   1
 46, [1] s., 2 kuvaliitettä	  51	NA	1	   1
 242 s., 2 taululiitettä	 242	NA	1	   1
@@ -10953,7 +10953,7 @@ IV, 72, [1] s.	  77	NA	1	   1
 S. 200-231, [3] s.	  35	NA	1	   1
 138, [1] s., 1 karttaliite	 141	NA	1	   1
 [6], 165 s., 10 karttaliitettä	 191	NA	1	   1
-67 s., 1 pl.	  67	NA	1	   1
+67 s., 1 pl.	  69	NA	1	   1
 58 s., 1 karttaliite	  60	NA	1	   1
 150 s., 1 karttaliite	 152	NA	1	   1
 27 s., 1 kuvaliite	  27	NA	1	   1
@@ -10965,9 +10965,9 @@ S. 64-102.	  39	NA	1	   1
 27, [1] s., 3 kuvaliitettä	  34	NA	1	   1
 7, [2] s.	   9	NA	1	   1
 31, [2] s.	  33	NA	1	   1
-78, [1] s., 7 pl.	  79	NA	1	   1
+78, [1] s., 7 pl.	  93	NA	1	   1
 132 s., 9 tabeller	 132	NA	1	   1
-48 s., 1 pl.	  48	NA	1	   1
+48 s., 1 pl.	  50	NA	1	   1
 50 s., 4 kuvaliitettä, 1 karttaliite	  60	NA	1	   1
 40, 153 s.	 153	NA	1	   1
 11 s., 1 kuvaliite	  11	NA	1	   1
@@ -11009,7 +11009,7 @@ VIII, 230 s., karttalehti	 238	NA	1	   1
 VIII, s. 225-373, [1 s.].	 382	NA	1	   1
 VIII, s. 125-226.	 234	NA	1	   1
 [8], 373, [1] s.	 382	NA	1	   1
-178, [1] s., 8 pl.	 179	NA	1	   1
+178, [1] s., 8 pl.	 195	NA	1	   1
 XIV, 167 s.	 181	NA	1	   1
 [4], 236, VI s.	 246	NA	1	   1
 S. 241-577, [2 s.].	 339	NA	1	   1
@@ -11018,7 +11018,7 @@ XII, 110 s.	 122	NA	1	   1
 24 s., kuvalehti	  24	NA	1	   1
 VIII, 240 s., karttaliite	 248	NA	1	   1
 XVIII, 179, [5] s.	 202	NA	1	   1
-38, [1] s., 1 pl.	  39	NA	1	   1
+38, [1] s., 1 pl.	  41	NA	1	   1
 359, VII s.	 366	NA	1	   1
 [4], 22 s., 4 bilagor	  26	NA	1	   1
 XXXI s.	  31	NA	1	   1
@@ -11069,14 +11069,14 @@ XX, 401 s.	 421	NA	1	   1
 131 s., karttaliite	 131	NA	1	   1
 180 s., 10 kuvalehteä	 200	NA	1	   1
 [6], 277, [5] s.	 288	NA	1	   1
-[6], 272 s., 1 pl.	 278	NA	1	   1
+[6], 272 s., 1 pl.	 280	NA	1	   1
 VI, 207 s.	 213	NA	1	   1
 184 s., 2 karttalehteä	 184	NA	1	   1
 182 s., 2 karttalehteä	 182	NA	1	   1
 121, [2] s.	 123	NA	1	   1
 [52 s.], 4 kuvalehteä	   8	NA	1	   1
 VII, [1], 316 s.	 324	NA	1	   1
-[126], XXII s., 3 pl.	 148	NA	1	   1
+[126], XXII s., 3 pl.	 154	NA	1	   1
 XXX, 519, [3] s.	 552	NA	1	   1
 [2], IV, [2], 122 s.	 130	NA	1	   1
 [4], 21 s.	  25	NA	1	   1
@@ -11101,16 +11101,16 @@ XVIII, 629, [1] s.	 648	NA	1	   1
 [2], 26, [1] s., kuvalehti	  29	NA	1	   1
 [2], 244 s., 2 kuvalehteä	 250	NA	1	   1
 XIV, [2], 188 s.	 204	NA	1	   1
-103 s., 8 pl.	 103	NA	1	   1
+103 s., 8 pl.	 119	NA	1	   1
 [8], 91, [1] s.	 100	NA	1	   1
-28, [1] s., 4 pl.	  29	NA	1	   1
+28, [1] s., 4 pl.	  37	NA	1	   1
 Sid. 77-151.	 151	NA	1	   1
 XII, 131, [1] s., 11 kuvalehteä	 166	NA	1	   1
 88 s., 1 pl., 1 notbilaga	  88	NA	1	   1
 XIII, [1], 499 s.	 513	NA	1	   1
 15 s., 1 bilaga.	  15	NA	1	   1
-93, [1] s., 21 pl.	  94	NA	1	   1
-[10], 132 s., 1 pl.	 142	NA	1	   1
+93, [1] s., 21 pl.	 136	NA	1	   1
+[10], 132 s., 1 pl.	 144	NA	1	   1
 S. 925-964.	  40	NA	1	   1
 S. 1880-1897.	  18	NA	1	   1
 42 s., [12 s., pl.]	  54	NA	1	   1
@@ -11129,13 +11129,13 @@ VI, 214 s., 2 tilastollista taululiitettä ja 5 kuvalehteä	 220	NA	1	   1
 VIII, 115 s.	 123	NA	1	   1
 VIII, 114 s., muotokuva	 122	NA	1	   1
 132 s., 3 diagr.	 132	NA	1	   1
-[4] s., 50 pl.	   4	NA	1	   1
+[4] s., 50 pl.	 104	NA	1	   1
 VII, 172 s.	 179	NA	1	   1
 [4], 134 s., 3 karttaliitettä	 144	NA	1	   1
 XII, 168 s.	 180	NA	1	   1
 [2], 218 s.	 220	NA	1	   1
 [4], II, 68, [1] s. +	  75	NA	1	   1
-VII, [1], 256 s., 14 pl.	 264	NA	1	   1
+VII, [1], 256 s., 14 pl.	 292	NA	1	   1
 93, 50 s. +	  93	NA	1	   1
 [2], 16, [1] s.	  19	NA	1	   1
 [118 s.]	 118	NA	1	   1
@@ -11203,20 +11203,20 @@ VI, 215, [1] s.	 222	NA	1	   1
 [2], VII, 176 s.	 185	NA	1	   1
 [6], 27, 39 s.	  45	NA	1	   1
 XIV, 124 s.	 138	NA	1	   1
-IV, 148 s., 8 pl.	 152	NA	1	   1
+IV, 148 s., 8 pl.	 168	NA	1	   1
 [4], 152 s., 1 karta	 156	NA	1	   1
 V, 421, [1] s.	 427	NA	1	   1
 S. 55-63.	   9	NA	1	   1
 V, 120 s.	 125	NA	1	   1
 12 mallilehteä	  24	NA	1	   1
 S. 90-93.	   4	NA	1	   1
-3 s., 1 pl.	   3	NA	1	   1
+3 s., 1 pl.	   5	NA	1	   1
 12 s., 12 kuvalehteä	  36	NA	1	   1
 VI, [2], 331 s.	 339	NA	1	   1
 164, [2] s.	 166	NA	1	   1
 [8], 21 s.	  29	NA	1	   1
 48 kuvalehteä ja 2 karttalehteä	  61	NA	1	   1
-[8], 443 s., 3 pl.	 451	NA	1	   1
+[8], 443 s., 3 pl.	 457	NA	1	   1
 [1], 28, 28 s.	  29	NA	1	   1
 [24 s.]	  24	NA	1	   1
 62 s. +	  62	NA	1	   1
@@ -11226,15 +11226,15 @@ VI, [2], 331 s.	 339	NA	1	   1
 V, 159 s.	 164	NA	1	   1
 VIII, 123 s.	 131	NA	1	   1
 16 s., 2 diagram.	  16	NA	1	   1
-63 s., 1 pl.	  63	NA	1	   1
+63 s., 1 pl.	  65	NA	1	   1
 [4], 206, 12 s., 2 tab.	 210	NA	1	   1
 372, 234 s.	 372	NA	1	   1
 63 s., muotokuva	  63	NA	1	   1
 162, [1] s.	 163	NA	1	   1
 [4 s.], s. 125-301.	 301	NA	1	   1
 XI, [1 s.], s. 1-124.	 135	NA	1	   1
-74 s., 2 pl.	  74	NA	1	   1
-117 s., 64 pl.	 117	NA	1	   1
+74 s., 2 pl.	  78	NA	1	   1
+117 s., 64 pl.	 245	NA	1	   1
 [4], 43 s., 3 kartor	  53	NA	1	   1
 46 s., taululiite	  46	NA	1	   1
 S. 21-78, 3 kuvalehteä	  64	NA	1	   1
@@ -11250,7 +11250,7 @@ S. 241-257.	  17	NA	1	   1
 90, XXII, [4] s.	 116	NA	1	   1
 91 s., 7 s.	  91	NA	1	   1
 S. 301-304.	   4	NA	1	   1
-25 s., 6 pl.	  25	NA	1	   1
+25 s., 6 pl.	  37	NA	1	   1
 [2], 153, [1] s.	 156	NA	1	   1
 105 s., 2 taululiitettä	 105	NA	1	   1
 103, [1] s., muotokuva	 104	NA	1	   1
@@ -11299,20 +11299,20 @@ VIII, 734, [1] s., 14 kuva- ja 4 karttaliitettä	 743	NA	1	   1
 202, [13] s.	 215	NA	1	   1
 [2], VIII, 299, 25, 89, [1] s., 2 taululiitettä	 310	NA	1	   1
 [8], 253 s.	 261	NA	1	   1
-[4], 224 s., 4 pl.	 228	NA	1	   1
-[4], 139 s., 1 pl.	 143	NA	1	   1
-[4], 177 s., 2 pl.	 181	NA	1	   1
+[4], 224 s., 4 pl.	 236	NA	1	   1
+[4], 139 s., 1 pl.	 145	NA	1	   1
+[4], 177 s., 2 pl.	 185	NA	1	   1
 XX, [2], 547 s., 9 pl., 1 karta	 569	NA	1	   1
 VII, [1], 429, [3] s., 6 tab., 4 kartblad.	 448	NA	1	   1
 260 s., 1 karta	 260	NA	1	   1
 [4], 120 s., 3 pl., 1 diagram.	 124	NA	1	   1
-37 s., 3 pl.	  37	NA	1	   1
-83, [2] s., 1 pl.	  85	NA	1	   1
+37 s., 3 pl.	  43	NA	1	   1
+83, [2] s., 1 pl.	  87	NA	1	   1
 [4], XXIX, [3], 363 s.	 399	NA	1	   1
 [2], 37, 22 s., taululiite	  39	NA	1	   1
 VIII, 40 s., 31 kuvalehteä	 110	NA	1	   1
 38 s., 4 kuvalehteä ja karttaliite	  38	NA	1	   1
-25, [1] s., 2 pl.	  26	NA	1	   1
+25, [1] s., 2 pl.	  30	NA	1	   1
 [4], 346 s.	 350	NA	1	   1
 XI, [1], 633 s.	 645	NA	1	   1
 [8], 633, [1] s., 18 tabeller, 1 karta	 642	NA	1	   1
@@ -11329,7 +11329,7 @@ S. 77-88.	  12	NA	1	   1
 [4], 86, [1] s.	  91	NA	1	   1
 214 s., kuvalehti	 214	NA	1	   1
 105 s., 8 kartor	 121	NA	1	   1
-[6], 142 s., 1 pl.	 148	NA	1	   1
+[6], 142 s., 1 pl.	 150	NA	1	   1
 [4], 72, IX, [2], 95, [2] s.	 112	NA	1	   1
 [6], 373 s.	 379	NA	1	   1
 118 s., kuvaliite	 118	NA	1	   1
@@ -11383,7 +11383,7 @@ VIII, 270 s.	 278	NA	1	   1
 [8], III, 245 s.	 256	NA	1	   1
 XX, 574, [1] s.	 595	NA	1	   1
 111, [1] s., 14 kuvalehteä	 140	NA	1	   1
-VI, [4], 306 s., kuval.	 318	NA	1	   1
+VI, [4], 306 s., kuval.	 320	NA	1	   1
 [4], 148, [1] s.	 153	NA	1	   1
 [4], 166  s.	 170	NA	1	   1
 21 cm.	  21	NA	1	   1
@@ -11414,7 +11414,7 @@ XI, 1144 s.	1155	NA	1	   1
 [14], 292 s., 12 kuval.	 330	NA	1	   1
 46 s., 3 kuval.	  52	NA	1	   1
 212, [3] s.	 215	NA	1	   1
-[2], 61 s., kuval.	  65	NA	1	   1
+[2], 61 s., kuval.	  67	NA	1	   1
 126, 224 s.	 224	NA	1	   1
 67, [8] s., 2 liitettä.	  75	NA	1	   1
 120, 6 s., 4 taulu-, 1 kuva- ja karttaliite	 120	NA	1	   1
@@ -11432,7 +11432,7 @@ X, 186 s.	 196	NA	1	   1
 70 s., 2 karttaliitettä.	  74	NA	1	   1
 88, 44 s.	  88	NA	1	   1
 518, [3] s.	 521	NA	1	   1
-320 s., kuval.	 322	NA	1	   1
+320 s., kuval.	 324	NA	1	   1
 VI, [2], 186, [2] s., kartta	 196	NA	1	   1
 [6], 253 s.	 259	NA	1	   1
 148, [2] s.	 150	NA	1	   1
@@ -11460,7 +11460,7 @@ VIII, 872, [2] s.	 882	NA	1	   1
 138, [6] s.	 144	NA	1	   1
 276, [3] s., 2 kuval.	 283	NA	1	   1
 [8], 151, [1] s.	 160	NA	1	   1
-80 s., kuval.	  82	NA	1	   1
+80 s., kuval.	  84	NA	1	   1
 74, [15] s.	  89	NA	1	   1
 24 s., 3 kuval.	  30	NA	1	   1
 384 s., taululiite	 384	NA	1	   1
@@ -11474,7 +11474,7 @@ S. 69-132, taululiite	  64	NA	1	   1
 [8], 317 s., muotokuva	 325	NA	1	   1
 [4], 958 s.	 962	NA	1	   1
 16 s., 8 kuvalehteä	  32	NA	1	   1
-103, [1] s., kuval.	 106	NA	1	   1
+103, [1] s., kuval.	 108	NA	1	   1
 115, [2] s.	 117	NA	1	   1
 203, [2] s.	 205	NA	1	   1
 S. 213-242.	  30	NA	1	   1
@@ -11510,7 +11510,7 @@ XVI, 536 s.	 552	NA	1	   1
 55, [1], XXIII s.	  79	NA	1	   1
 15, 15 s., 20 malliliitettä	  55	NA	1	   1
 16, 16 s., 26 malliliitettä	  68	NA	1	   1
-17 l.	  34	NA	1	   1
+17 l.	  61	NA	1	   1
 7, [4] s.	  11	NA	1	   1
 20 s., 10 liitettä.	  20	NA	1	   1
 XVII, 447 s.	 464	NA	1	   1
@@ -11573,7 +11573,7 @@ S. 61-76.	  16	NA	1	   1
 12 mallil.	  24	NA	1	   1
 136 s., kuva- ja karttaliite	 136	NA	1	   1
 331, 85, [4] s., [1] kuval.	 337	NA	1	   1
-10 s., kuval.	  12	NA	1	   1
+10 s., kuval.	  14	NA	1	   1
 523 s.	 523	NA	1	   1
 [4], 240, 228 s.	 244	NA	1	   1
 VIII, 479 s.	 487	NA	1	   1
@@ -11677,7 +11677,7 @@ S. 3-11.	   9	NA	1	   1
 108 s., muotokuva.	 108	NA	1	   1
 [2], IV, 197 s.	 203	NA	1	   1
 VIII, 416 s.	 424	NA	1	   1
-2 l.	   4	NA	1	   1
+2 l.	  61	NA	1	   1
 223, 123 s.	 223	NA	1	   1
 VII, 656 s.	 663	NA	1	   1
 VII, 110, [2] s.	 119	NA	1	   1
@@ -11719,10 +11719,10 @@ S. 476-516	  41	NA	1	   1
 8 s., liitelehti.	   8	NA	1	   1
 192 s., 2 malliliitettä.	 196	NA	1	   1
 [8], 270 s.	 278	NA	1	   1
-57, [1] s., kuval.	  60	NA	1	   1
+57, [1] s., kuval.	  62	NA	1	   1
 16 s., muotokuva.	  16	NA	1	   1
 542 s., 20 kuvalehteä	 582	NA	1	   1
-72 s., kuval.	  74	NA	1	   1
+72 s., kuval.	  76	NA	1	   1
 VIII, 281 s., [7] kuvalehteä, [6] karttalehteä (taitettuna)	 303	NA	1	   1
 IV, 158, [1] s., 6 kuval.	 175	NA	1	   1
 S. 369-631, [1].	 264	NA	1	   1
@@ -11752,7 +11752,7 @@ XIII, 137, XIV, 142 s.	 156	NA	1	   1
 XII, 292 s.	 304	NA	1	   1
 XXVI, [2], 567, [1] s.	 596	NA	1	   1
 12 s., 3 kuvalehteä	  18	NA	1	   1
-142, [1], 4 s., kuval.	 145	NA	1	   1
+142, [1], 4 s., kuval.	 147	NA	1	   1
 50, [3] s.	  53	NA	1	   1
 32, [2] s., 6 kuval.	  46	NA	1	   1
 224, [3] s., muotokuva	 227	NA	1	   1
@@ -11802,7 +11802,7 @@ VIII, 194 s., 2 karttaliitettä	 206	NA	1	   1
 [4], 426 s., muotokuva.	 430	NA	1	   1
 85 s., muotokuva.	  85	NA	1	   1
 XIII, 509 s.	 522	NA	1	   1
-[24], 99 l.	 222	NA	1	   1
+[24], 99 l.	  24	NA	1	   1
 [4], 22, 111 s.	 115	NA	1	   1
 [2], 98, [1] s.	 101	NA	1	   1
 335, [1] s.	 336	NA	1	   1
@@ -11815,7 +11815,7 @@ VI, 324 s.	 330	NA	1	   1
 8 mallil.	  16	NA	1	   1
 191 s., [1] kuvalehti	 191	NA	1	   1
 [4], 38, [1] s.	  43	NA	1	   1
-16 l.	  32	NA	1	   1
+16 l.	  61	NA	1	   1
 [2], 86, 86, [2] s. +	  90	NA	1	   1
 [4], 54, [1] s.	  59	NA	1	   1
 [6], 41 s., 6 kuval.	  59	NA	1	   1
@@ -12148,7 +12148,7 @@ VII, 1006, [1]  s., nuottiliite.	1014	NA	1	   1
 284, [1] s.	 285	NA	1	   1
 XIV, 437, [3] s. +	 454	NA	1	   1
 216 s., 3 karttal.	 222	NA	1	   1
-319 s., kuval.	 321	NA	1	   1
+319 s., kuval.	 323	NA	1	   1
 VIII, 276 s.	 284	NA	1	   1
 VIII, 333 s.	 341	NA	1	   1
 VII, 425 s., 8 kuval.	 448	NA	1	   1
@@ -12266,7 +12266,7 @@ IX, [2], 207 s.	 218	NA	1	   1
 [1], 125 s.	 126	NA	1	   1
 s. 165-215.	  51	NA	1	   1
 X, [2], 237 s.	 249	NA	1	   1
-[8], 271 s., 5 pl.	 279	NA	1	   1
+[8], 271 s., 5 pl.	 289	NA	1	   1
 24, [8] s.	  32	NA	1	   1
 [174] s., [87] kuvalehteä	 348	NA	1	   1
 [82] s., [90] kuvalehteä	 262	NA	1	   1
@@ -12296,6 +12296,7 @@ VIII, 32, [4], 44, 12, 20 s., [13] kuvalehteä	  82	NA	1	   1
 438 s., ja 49 kuval.	 438	NA	1	   1
 387, [1] s.	 388	NA	1	   1
 36, [3] s.	  39	NA	1	   1
+24 l.	   4	NA	1	   1
 [2] s., ss. 329-342.	 344	NA	1	   1
 [4] s., s. 295-430.	 434	NA	1	   1
 [2], 900 s., 302, [1] s.	 903	NA	1	   1
@@ -12493,7 +12494,7 @@ viii, 184 s.	 192	NA	1	   1
 s. 7-19 [20]	  20	NA	1	   1
 [6-?] s.	   6	NA	1	   1
 [20] s. (s. [2] ja [20] tyhjät)	  18	NA	1	   1
-[8] s. (s. [2] ja [8] tyhjät	  53	NA	1	   1
+[8] s. (s. [2] ja [8] tyhjät	  54	NA	1	   1
 [3-?] s.	   3	NA	1	   1
 [i-iii] iv-xv [xvi], [1] 2-370 s.	 387	NA	1	   1
 [12], [1] 2-379 [380] s.	 771	NA	1	   1
@@ -12533,8 +12534,8 @@ s. 7-19 [20]	  20	NA	1	   1
 [40] s; s. [40] tyhjä	  40	NA	1	   1
 [72] lehteä	 144	NA	1	   1
 2[-?] s.	   2	NA	1	   1
-4 l.	   8	NA	1	   1
-6 l.	  12	NA	1	   1
+4 l.	  54	NA	1	   1
+6 l.	  18	NA	1	   1
 S. [259]-308	  50	NA	1	   1
 32, [2] s.	  34	NA	1	   1
 [12], 336 s.	 348	NA	1	   1
@@ -12768,7 +12769,7 @@ S. [4], 1-32 [33-36]	  40	NA	1	   1
 [2], 1-37 8 [po. 38] [39-40] s. (s. [2] tyhjä)	  42	NA	1	   1
 [16]	  16	NA	1	   1
 [12], 858, [18] s.	 888	NA	1	   1
-[312] l.	 624	NA	1	   1
+[312] l.	  68	NA	1	   1
 [15 arkkia].	  30	NA	1	   1
 [?] s.	  48	NA	1	   1
 [?] s.	  94	NA	1	   1
@@ -12887,7 +12888,7 @@ Kollaatio avoin	  18	NA	1	   1
 [16], 216, [8], [354] s.	 594	NA	1	   1
 [4], 1-181 [183-188] s. (useita sivunumerointivirheitä)	 192	NA	1	   1
 [5], 1-181 [182-187] l.	 192	NA	1	   1
-[4], I-CXLIII, [5] l.	 157	NA	1	   1
+[4], I-CXLIII, [5] l.	 147	NA	1	   1
 [8], 1-214 [po. 216] [217-224] l.	 232	NA	1	   1
 [8], I-LXXXVI [-XCII?] l.	  94	NA	1	   1
 [4], [1] 2-27 [28] s. (s. [28] tyhjä)	  87	NA	1	   1
@@ -13026,12 +13027,12 @@ S. [2], 33-48	  18	NA	1	   1
 [8], 1-199 [200] s.	 208	NA	1	   1
 140 lehteä	 280	NA	1	   1
 [4], [1] 2-735 [736-752] s. (s. [2], [752] tyhjät)	1511	NA	1	   1
-[3], [1] 2-312 398 [po. 313] 314-385 l.	 715	NA	1	   1
+[3], [1] 2-312 398 [po. 313] 314-385 l.	 765	NA	1	   1
 [16], [1] 2-197 108 [po. 198] 199-200 s.	 415	NA	1	   1
 [100], 1135, [29], 308 s.	1264	NA	1	   1
 [24], 1-345, [1], 346-716 [717] l. (useita lehtinumerointivirheitä)	 370	NA	1	   1
 [5], 1-35 lehteä	   5	NA	1	   1
-[1], [1] 2-135 [136] l.	 272	NA	1	   1
+[1], [1] 2-135 [136] l.	 322	NA	1	   1
 [9], 1 3-12 [po. 2-11] 12-91 112-130 [po. 92-111] lehteä	   9	NA	1	   1
 [10], CCCL, [1] lehteä	 362	NA	1	   1
 36[-?] lehteä	  18	NA	1	   1
@@ -13111,7 +13112,7 @@ S. [97-128]	  32	NA	1	   1
 40 lehteä	  80	NA	1	   1
 90 lehteä	 180	NA	1	   1
 169 lehteä	 338	NA	1	   1
-171[-?] lehteä	  53	NA	1	   1
+171[-?] lehteä	  54	NA	1	   1
 [16], 1-420 [421-424] s.	 440	NA	1	   1
 [16], [1-3] 4-257 [258-352] s.	 368	NA	1	   1
 [?-]9-16[-?] s.	  16	NA	1	   1
@@ -13192,10 +13193,10 @@ S. [?], [49-96], [?]	  48	NA	1	   1
 [8], 1-30 s.	  38	NA	1	   1
 [26], 1-598 [599-606] s.	 632	NA	1	   1
 [?-] 8[-?] s.	   8	NA	1	   1
-528 s. (s. 2 tyhjä)	  53	NA	1	   1
+528 s. (s. 2 tyhjä)	  54	NA	1	   1
 [1-3] 4-145 [146-148] s.	 148	NA	1	   1
 [1-3] 4-62 [63-64] s.	  64	NA	1	   1
-[176] s. (s. [2] ja [176] tyhjät)	  53	NA	1	   1
+[176] s. (s. [2] ja [176] tyhjät)	  54	NA	1	   1
 [76] s. (s. [2] tyhjä)	  76	NA	1	   1
 76[-?] s.	  76	NA	1	   1
 [72] s. (s. [2] ja [72] tyhjät)	  68	NA	1	   1
@@ -13364,7 +13365,7 @@ S. [?], [81-104], [?]	  24	NA	1	   1
 [10], [1] 2-127 [128-132] s. (s. [2] ja [132] tyhjät)	 277	NA	1	   1
 [200] s.	 200	NA	1	   1
 [?-] 5-94 [-?] s.	  94	NA	1	   1
-[64] s. (s. [2] ja [6] tyhjät)	  53	NA	1	   1
+[64] s. (s. [2] ja [6] tyhjät)	  54	NA	1	   1
 [4], 564, [12] s.	 580	NA	1	   1
 [1-9] 10-95 66 [po. 96] s.	  96	NA	1	   1
 [51], 1-9 9 [po. 10] 9-385 [po. 11-386] [386-387] s.	 438	NA	1	   1
@@ -13383,8 +13384,8 @@ S. [?], [81-104], [?]	  24	NA	1	   1
 [2], 1-286 [287-288] s.	 290	NA	1	   1
 [248] s. (s. [248] tyhjä)	 248	NA	1	   1
 [252] s.	 252	NA	1	   1
-[200] s. (s. [2] ja [16] tyhjät)	  53	NA	1	   1
-[248] s. (s. [2], [246] tyhjät)	  53	NA	1	   1
+[200] s. (s. [2] ja [16] tyhjät)	  54	NA	1	   1
+[248] s. (s. [2], [246] tyhjät)	  54	NA	1	   1
 [64] s. (s. [4] tyhjä)	  64	NA	1	   1
 [1-3] 4-30 21 [po. 31] [32] s. (s. [32] tyhjä)	  31	NA	1	   1
 [8], 144, [6] s.	 158	NA	1	   1
@@ -13585,7 +13586,7 @@ S. [?], [127-142 po. 97-112?]	 142	NA	1	   1
 [?], ?, [?], 516 s.	 516	NA	1	   1
 30 a	  68	NA	1	   1
 [18], 504, [12], 542 s.	 572	NA	1	   1
-67 3/4 arkkia	  53	NA	1	   1
+67 3/4 arkkia	  54	NA	1	   1
 [18], 504, [12], 538 s.	 568	NA	1	   1
 [24], 408, 216, [12] s.	 444	NA	1	   1
 [16], 504, [12], 538 s.	 566	NA	1	   1
@@ -13598,7 +13599,7 @@ S. [?], [127-142 po. 97-112?]	 142	NA	1	   1
 [24], [?], 432, [12] s.	 468	NA	1	   1
 [24], [1] 2-432, [1] 2-464, [16] s.	 506	NA	1	   1
 [40 a.]	  68	NA	1	   1
-[?] l.	  61	NA	1	   1
+[?] l.	  50	NA	1	   1
 [34], [1] 2-577, [578-592], [1] 2-332 s.	 628	NA	1	   1
 [24], [1] 2-552, [1] 2-490, [491-504] s.	 578	NA	1	   1
 [4], [1] 2-573 [574-588], [1] 2-332 s.	 594	NA	1	   1
@@ -13706,10 +13707,10 @@ S. [2], 21-32	  14	NA	1	   1
 [1-5] 6-24 [25-26] s.	  26	NA	1	   1
 S. [8], [45] 46-84	  92	NA	1	   1
 VIII s.	   8	NA	1	   1
-):(4. [8] s.	  53	NA	1	   1
+):(4. [8] s.	  54	NA	1	   1
 [1-7] 8-46 [47-48] s.	  48	NA	1	   1
 1 arkkimerkitön lehti, A8 B6. 15 lehteä, s. [2], [1] 2-28	   2	NA	1	   1
-)(4. [8] s.	  53	NA	1	   1
+)(4. [8] s.	  54	NA	1	   1
 A-D8 E6. 38 lehteä, s. [1-3] 4-75 [76]	  76	NA	1	   1
 )(4. [8] s.	  18	NA	1	   1
 [49 s.	  49	NA	1	   1
@@ -13781,7 +13782,7 @@ S. 7-26.	  20	NA	1	   1
 [1-3] 4-146 [147-148] s.	 148	NA	1	   1
 [1-7] 8-32, [I-III] IV-CXXVI, [2], [1-2] 3-219 [220] s.	 222	NA	1	   1
 [1-7] 8-19 [20], [I-III] IV-XXXIV, [2], [1] 2-164 s.	 218	NA	1	   1
-[1-5] 6-15 [16] s., XLIII kuval.	  16	NA	1	   1
+[1-5] 6-15 [16] s., XLIII kuval.	 102	NA	1	   1
 [1] 2-16[-?] s.	  17	NA	1	   1
 [38], [1] 2-280 s.	 318	NA	1	   1
 [2], [1]-250, [251-274] s.	 276	NA	1	   1
