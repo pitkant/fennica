@@ -1,4 +1,9 @@
 author_name	author_birth	author_death
+A	1693	1750
+A	1700	NA
+A	1850	1919
+A	1863	1942
+A	NA	NA
 Alanus, Henricus Henrici	1700	1787
 Alanus, Henricus Henrici	1743	1810
 Arctopolitanus, Gabriel Gregorii	1640	1689
@@ -15,6 +20,12 @@ Borgström, Johannes	1723	1785
 Borgström, Johannes	1766	1828
 Brofeldt, Pekka	1858	1943
 Brofeldt, Pekka	1869	1949
+E	1700	NA
+E	1713	1772
+E	1818	1898
+E	1846	1937
+E	1869	1945
+E	NA	NA
 Ekerman, Petrus	1692	1761
 Ekerman, Petrus	1783	1761
 Falander, Jacobus Erici	1658	1720
@@ -23,6 +34,13 @@ Faltin, Richard	1802	1884
 Faltin, Richard	1848	1939
 Frosterus, Ericus Johannes	1760	1819
 Frosterus, Ericus Johannes	1797	1848
+G	1662	1741
+G	1700	NA
+G	1810	1877
+G	1872	1955
+G	1878	1926
+G	1878	NA
+G	NA	NA
 Gezelius, Johannes	1615	1690
 Gezelius, Johannes	1647	1718
 Gezelius, Johannes	1711	1772
@@ -31,16 +49,33 @@ Gripenberg, G A	1864	1936
 Gripenberg, G A	NA	NA
 Hougberg, Sven Abraham	1710	1770
 Hougberg, Sven Abraham	1740	1827
+I	1600	NA
+I	1700	1757
+I	1863	1948
+I	1875	1954
+I	NA	NA
+J	1636	1708
+J	1659	1735
+J	1700	NA
+J	1709	1788
+J	1734	1804
+J	NA	NA
 Katila, E	1735	1807
 Katila, E	1861	1932
 Koskimies, Kaarlo	1863	1937
 Koskimies, Kaarlo	1883	1946
+L	1700	1868
+L	1821	1868
+L	NA	1868
 Miödh, Abrahamus	1708	1786
 Miödh, Abrahamus	1744	1810
 Munselius, Ericus	1712	1751
 Munselius, Ericus	1743	1802
 Nordenskiöld, Carl Fredrik	1702	1779
 Nordenskiöld, Carl Fredrik	1756	1828
+P	1817	1898
+P	1876	1945
+P	NA	NA
 Palander, Gabriel	1730	1800
 Palander, Gabriel	1776	1821
 Poppius, Henricus Abrahami	1649	1730
@@ -53,12 +88,27 @@ Rudbeckius, Johannes	1598	1676
 Rudbeckius, Johannes	1623	1667
 Santeri	1855	1931
 Santeri	1881	1919
+Santeri	NA	NA
 Schultén, Nathanael Gerhard Af	1750	1825
 Schultén, Nathanael Gerhard Af	1794	1846
 Serlachius, Johannes Johannis	1625	1697
 Serlachius, Johannes Johannis	1705	1757
+T	1700	NA
+T	1811	1893
+T	1822	1883
+T	NA	NA
 Terserus, Johannes Elai	1600	1653
 Terserus, Johannes Elai	1605	1678
+V	1792	1878
+V	1810	1888
+V	1811	1893
+V	1864	1925
+V	1867	1927
+V	NA	NA
+W	1700	NA
+W	1860	1924
+W	1867	1914
+W	NA	NA
 Wegelius, Jacobus Henrici	1748	1778
 Wegelius, Jacobus Henrici	1768	1804
 Winter, Gabriel	1716	1775

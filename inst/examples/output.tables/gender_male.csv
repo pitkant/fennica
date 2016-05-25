@@ -1,31 +1,32 @@
 Name	Count
-Johannes	1026
+Johannes	1030
 Johan Ludvig	434
 Zacharias	347
+A	338
 Johan	332
 Martti	321
-A	318
-August	310
+August	311
 Henrik	239
 Henrik Gabriel	225
 Aeschillus Olai	222
 Väinö	216
-J	208
+J	215
 Pehr	206
 Robert	203
 Gustaf	200
+Karl	199
 K A	198
-Karl	198
 Juhani	194
 Yrjö	191
 Arvid	190
 Emil	190
+Otto	189
 Michael Olai	186
-Otto	186
 Jaakko	181
-Kaarlo	167
+Kaarlo	171
+John	159
 Pehr Adrian	159
-John	158
+M	158
 Matti	156
 Petrus Olai	156
 Arthur	154
@@ -33,39 +34,39 @@ Carl	154
 Wilhelm	154
 Eino	153
 Abraham	152
-M	148
 Axel	147
+Petrus	147
 Georg	146
-Petrus	146
 Jacob	145
+Thomas	141
 Julius	140
 Leo	140
 Carolus	134
-Gösta	132
+Gösta	133
 Gabriel	131
 Adolf	130
 Hannes	129
 Pietari	129
 Daniel Erici	128
+Jacobus	128
 Ernst	127
-Jacobus	125
+Anders	121
 Max	121
-Anders	120
 Heikki	120
 Carl Fredrik	118
 K J	118
 Fredrik	117
+Herman	114
 Torsten	114
-Herman	112
 Lauri	109
 J E	106
-Andreas	100
+Andreas	102
 Juho	100
 Andreas Jacobi	98
 Hjalmar	97
+Kaarle	96
 William	96
 Arthur Conan	95
-Kaarle	95
 Ossian	95
 Werner	95
 Hugo	94
@@ -108,17 +109,18 @@ Petrus Laurentii	74
 Erik	73
 Oskar	73
 Simon Johannis	72
+Elias	70
 Jalmari	70
 Onni	70
-Elias	69
+Mikko	69
 David Johannis	68
 Andreas Andreae	67
-Mikko	67
 Alfred	65
 Fredrik Gabriel	65
 Anton	64
 J W	63
 Gunnar	62
+Kustaa	62
 Vihtori	62
 Bernhard	61
 Einar	61
@@ -129,6 +131,7 @@ Toivo	60
 Axelius Andreae	59
 A W	58
 Charles	58
+Ericus	58
 Gustav	58
 Gustavus Gabriel	58
 Johannes Bernhardi	58
@@ -139,18 +142,17 @@ G A	56
 A J	55
 Eliel	55
 Isaacus Hermanni	54
+Kalle	54
 Yrjö Sakari	54
 Gustaf Adolf	53
 Vilho	53
 Albert	52
-Kalle	52
 Knut	52
 Friedrich	51
 Laurentius Olavi	51
 Richard	51
 Johannes Henricus	50
 R A	50
-Thomas	50
 Laurentius Gabrielis	49
 Samuel	49
 Aleksis	48
@@ -163,7 +165,8 @@ Henry	47
 Andreas Thuronis	46
 Heinrich	46
 Johannes Fredericus	46
-Ericus	45
+Laurentius	46
+Nestor	46
 Fredrik Wilhelm	44
 Friedrich Wilhelm Von	44
 Johan Gabriel	44
@@ -172,7 +175,6 @@ Victor	44
 Carolus Abrahamus	43
 Isak	43
 J C	43
-Nestor	43
 Peter	43
 Thiodolf	43
 Waldemar	43
@@ -215,6 +217,7 @@ Agathon	33
 David	33
 Edward	33
 Johann Christoph Von	33
+Salomon	33
 Teuvo	33
 Akseli	32
 Allan	32
@@ -228,9 +231,7 @@ Georg Von	31
 Hans	31
 J V	31
 Lars	31
-Laurentius	31
 Martinus Johannes	31
-Salomon	31
 Bruno	30
 I A	30
 Ivar A	30
@@ -279,6 +280,7 @@ Ferdinand Von	24
 Johan Fredrik	24
 Johan Wilhelm	24
 O J	24
+Sven	24
 Adolf Von	23
 Daniel Georgii	23
 Edvin Efraim	23
@@ -300,12 +302,11 @@ Christian	22
 Gustaf Henrik	22
 Iivo	22
 Karl Emil	22
-Kustaa	22
 Mauno	22
 Olli	22
-Sven	22
 Urho Viljo	22
 Alarik	21
+Arne	21
 August Mikael	21
 A V	21
 Ericus Johannis	21
@@ -316,10 +317,10 @@ James	21
 J N	21
 Johannes Fridericus	21
 Louis	21
+Olaus	21
 östen	21
 Veikko	21
 Ahasverus Andreae	20
-Arne	20
 Artur	20
 Aukusti Juhana	20
 Friedrich Von	20
@@ -361,9 +362,9 @@ Johan Philipp	18
 John William	18
 Lauri Kristian	18
 Leonid	18
-Olaus	18
 Petrus Johannis	18
 P J	18
+Sakari	18
 Selim	18
 Solmu	18
 Taavi	18
@@ -414,6 +415,7 @@ Carl Oskar	14
 Jakob Wilhelm	14
 Johannes Henrici	14
 Johann Wolfgang Von	14
+Joseph	14
 J Oskar I	14
 Karl F	14
 Kössi	14
@@ -440,7 +442,6 @@ Gustaf Oskar	13
 Jaakko Haniel	13
 Jacobus Benedicti	13
 Johannes Abrahami	13
-Joseph	13
 Juho Rudolf	13
 Kaapro	13
 Karl Gustaf	13
@@ -458,6 +459,7 @@ Antonio	12
 Aron Gustaf	12
 Atle	12
 Birger	12
+Cornelius	12
 Erik Georg Waldemar Napoleon	12
 Fabian	12
 Filip	12
@@ -477,7 +479,6 @@ Lars Henrik	12
 Olaus Olai	12
 Petrus Adolphus Von	12
 Rob	12
-Sakari	12
 Samuel Laurentii	12
 Severin	12
 Stefan	12
@@ -519,6 +520,7 @@ Aku	10
 Bernh	10
 Bernt	10
 Christianus Johannis	10
+Eetu	10
 Efr	10
 Fredrik Oskar	10
 George Fredrik	10
@@ -574,12 +576,14 @@ Olof Abrahamsson	9
 Olof Olofsson	9
 Petrus Magni	9
 Petrus Petri	9
+Simon	9
 Toimi	9
 Tuomas	9
 Viktor Magnus Von	9
 V M J	9
 Wäinö	9
 Yrjö J E	9
+Aadolf	8
 Aaro	8
 Albrekt Julius	8
 Aleksanteri	8
@@ -592,7 +596,6 @@ Björn	8
 Christian August	8
 C J	8
 David Gustavi	8
-Eetu	8
 Eino I	8
 Emerik	8
 Ernst V	8
@@ -624,7 +627,6 @@ Pjotr	8
 Publius	8
 Quintus	8
 Sergei	8
-Simon	8
 Sveno Laurentii	8
 Thv	8
 Verneri	8
@@ -754,6 +756,7 @@ Nicolaus Magnus	6
 Niilo E	6
 Olaf	6
 Olaus Johannis	6
+Onkel	6
 Pentti	6
 Peter Christen	6
 Peter Jonsson	6
@@ -773,7 +776,6 @@ Wilhelmi	6
 William Vindician	6
 Willie	6
 Wolmar	6
-Aadolf	5
 Abel	5
 Abrahamus Johannes	5
 åke	5
@@ -802,7 +804,6 @@ Carl Martin	5
 Carolus Nicolai	5
 Casper Christofer	5
 Christoph Christian	5
-Cornelius	5
 David Konstantin	5
 Dikken	5
 Elias Isaksson	5
@@ -831,6 +832,7 @@ Jalo	5
 Jan Peter Van	5
 Jean Frédéric	5
 Jens Andreas	5
+Jeremias	5
 Johan Eriksson	5
 Johan Kristian	5
 Johan Michael	5
@@ -917,6 +919,7 @@ Carolus Magnus	4
 Christoph	4
 Christopher	4
 Daniel Andreae	4
+Dante	4
 David Ericus	4
 Edmond	4
 Edward Daniel	4
@@ -952,7 +955,6 @@ Jacob Otto	4
 Jacob Pettersson	4
 Jacobus Zachariae	4
 Jakob Vilhelm	4
-Jeremias	4
 Jeremias Jeremiae	4
 Jerome K	4
 Joachim	4
@@ -1048,6 +1050,7 @@ Axelius Adolphus	3
 Bartholdus Johannis	3
 Barthollus Johannis	3
 B M	3
+Broder	3
 Carl Adolf Af	3
 Carl Evert	3
 Carl Michael	3
@@ -1172,6 +1175,7 @@ Karl Heinrich Von	3
 Kasper	3
 Kauko	3
 K Axel	3
+Kr	3
 Kristian Mandrup	3
 Lars Christersson	3
 Lasse	3
@@ -1232,6 +1236,7 @@ Salu	3
 Samuel Georgii	3
 Samuli Wilho	3
 Sebastian	3
+Set	3
 Seved	3
 Simon Caroli	3
 S J	3
@@ -1667,6 +1672,7 @@ Ulrik	2
 Uno Henrik Berndt	2
 Valter B	2
 Valter W	2
+Vidar	2
 Viki	2
 Viking	2
 Vilkku	2
@@ -1845,6 +1851,7 @@ Berndt	1
 Berndt Otto	1
 Bernhard Agathon	1
 Bernhard Von	1
+Bero	1
 Bertil Albert	1
 Bertil Von	1
 Birgerus Olai	1
@@ -1975,6 +1982,7 @@ Didier	1
 Didrik Persson	1
 D J	1
 Dmitri	1
+Don	1
 E Alexander	1
 Earl	1
 E A Von	1
@@ -2110,6 +2118,7 @@ Gabriel Jonae	1
 Gabriel Michaelsson	1
 Gabriel Sigfridi	1
 Gabriel Timotheus	1
+Gammal	1
 Garibaldi	1
 Georg Bogislaus	1
 Georg Carl Von	1
@@ -2295,6 +2304,7 @@ J Alfr	1
 Jalmar	1
 James B	1
 James Francis Edward	1
+Jannu	1
 Janssen	1
 J B F	1
 J Ch	1
@@ -2411,6 +2421,7 @@ John Horne	1
 John James Jaakko	1
 John Russel	1
 John T	1
+Joka	1
 Jonas Leonhardi	1
 Jonas Martinus	1
 Jonas Pauli	1
@@ -2491,6 +2502,7 @@ Kauno Edvard	1
 K Eliel	1
 Kenjiro	1
 K F J	1
+Kiven	1
 Kjeld Nicolai Gotthard	1
 K J L	1
 K J M	1
@@ -2504,7 +2516,6 @@ Knut Samuel	1
 Knut Victor	1
 Konstantin Ferdinand	1
 Konstantin Ludvig	1
-Kr	1
 Kristaps	1
 Kristian	1
 Kristian Frederik Vilhelm	1
@@ -2589,6 +2600,7 @@ Matthias Knutsson	1
 Matthias Matthiae	1
 Matts	1
 Matts Mattsson	1
+Maunu	1
 Mauri	1
 Maurits	1
 Maurus	1
@@ -2711,6 +2723,7 @@ Petrus Zachariae	1
 Petter Georg	1
 Petter Otto	1
 Philipp Friedrich Wilhelm	1
+Philippus	1
 Phineas Taylor	1
 Pierre Charles	1
 Pierre Paul	1
@@ -2744,6 +2757,7 @@ Ruben	1
 Rudolf Hans	1
 Rudolf Von	1
 Rufus V	1
+Sahan	1
 Sakarias	1
 Sampo	1
 Samppa	1
@@ -2848,7 +2862,6 @@ Victor Hugo	1
 Victor L	1
 Victor Leonhard	1
 Victor Von	1
-Vidar	1
 Viggo	1
 Viktor E	1
 Viktor Mih	1

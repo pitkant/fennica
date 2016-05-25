@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Leo Lahti"
-date: "2016-05-20"
+date: "2016-05-26"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ output: markdown_document
   * [Publication year info](publicationyear.md)
   * [Titles](title.md)  
   * [Document sizes](size.md)
-  * [Document topics](topic.md)
+  * [Document and subject topics](topic.md)
   * [Languages](language.md)
 
 ## Field conversions
@@ -45,8 +45,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |note_510c                         |        90.6|           9.4|          6365|       6189|
 |note_source                       |        83.4|          16.6|         11309|       4857|
 |title_uniform                     |        83.2|          16.8|         11451|       8495|
-|author_death                      |        75.8|          24.2|         16482|        363|
-|author_birth                      |        74.3|          25.7|         17504|        346|
+|author_death                      |        75.6|          24.4|         16610|        363|
+|author_birth                      |        74.0|          26.0|         17657|        346|
+|first_edition                     |        73.8|          26.2|         17797|          3|
 |corporate                         |        71.5|          28.5|         19408|       1373|
 |subject_topic                     |        70.9|          29.1|         19819|       3395|
 |obl                               |        54.2|          45.8|         31133|          3|
@@ -54,15 +55,15 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                             |        47.5|          52.5|         35686|        282|
 |height                            |        47.5|          52.5|         35686|        315|
 |area                              |        47.5|          52.5|         35686|        697|
-|paper.consumption.km2             |        47.5|          52.5|         35686|       4127|
-|author_gender                     |        46.5|          53.5|         36402|          4|
+|paper.consumption.km2             |        47.5|          52.5|         35686|       4126|
+|author_gender                     |        46.3|          53.7|         36528|          4|
 |publication_year_till             |        38.7|          61.3|         41732|        199|
-|self_published                    |        37.7|          62.3|         42371|          3|
-|author_name                       |        36.9|          63.1|         42913|      11612|
-|author                            |        36.9|          63.1|         42913|      11644|
+|self_published                    |        37.1|          62.9|         42795|          3|
+|author_name                       |        36.3|          63.7|         43337|      11607|
+|author                            |        36.3|          63.7|         43337|      11679|
 |country                           |        15.7|          84.3|         57361|         34|
 |publication_place                 |        15.7|          84.3|         57362|        436|
-|pagecount.orig                    |         6.8|          93.2|         63403|        988|
+|pagecount.orig                    |         6.8|          93.2|         63408|        985|
 |latitude                          |         3.5|          96.5|         65617|        365|
 |longitude                         |         3.5|          96.5|         65617|        365|
 |publisher                         |         1.6|          98.4|         66938|      10538|
@@ -112,13 +113,13 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         68027|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         68027|          1|
 |language.Multiple languages       |         0.0|         100.0|         68027|          2|
-|pagecount                         |         0.0|         100.0|         68027|        987|
+|pagecount                         |         0.0|         100.0|         68027|        984|
 |gatherings.original               |         0.0|         100.0|         68027|         18|
 |obl.original                      |         0.0|         100.0|         68027|          2|
 |original_row                      |         0.0|         100.0|         68027|      68027|
+|author_pseudonyme                 |         0.0|         100.0|         68027|          2|
 |publication_year                  |         0.0|         100.0|         68027|        349|
 |publication_decade                |         0.0|         100.0|         68027|         40|
-|author_pseudonyme                 |         0.0|         100.0|         68027|          2|
 |gatherings                        |         0.0|         100.0|         68027|         18|
 |volcount                          |         0.0|         100.0|         68027|          1|
 
