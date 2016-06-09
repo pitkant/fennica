@@ -1,17 +1,17 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Leo Lahti"
-date: "2016-05-18"
+date: "2016-05-26"
 output: markdown_document
 ---
 
 ### Publication places
 
- * 433 [publication places](output.tables/publication_place_accepted.csv)
- * 33 [publication countries](output.tables/country_accepted.csv) 
- * Publication place is identified for 68321 documents (96%). 
- * Publication country is identified for 68320 documents (96%).
- * 98.9% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.09``% of the documents have missing geocoordinates.
+ * 436 [publication places](output.tables/publication_place_accepted.csv)
+ * 34 [publication countries](output.tables/country_accepted.csv) 
+ * Publication place is identified for 57362 documents (84%). 
+ * Publication country is identified for 57361 documents (84%).
+ * 96.5% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``3.54``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first)
@@ -28,10 +28,10 @@ Top-20 publication places are shown together with the number of documents.
 
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
-|Finland |         58074|         81.5|
-|Sweden  |          5072|          7.1|
-|Russia  |          2435|          3.4|
-|USA     |           810|          1.1|
-|Germany |           767|          1.1|
-|Estonia |           285|          0.4|
+|Finland |         42172|         62.0|
+|Sweden  |          4983|          7.3|
+|Latvia  |          3040|          4.5|
+|Italy   |          2266|          3.3|
+|Estonia |          1088|          1.6|
+|Germany |           950|          1.4|
 

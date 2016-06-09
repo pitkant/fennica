@@ -1,66 +1,664 @@
 Name	Count
-Total count: 	11488
-[s.n.]	8734
-Tekijä	1545
-Förf.	 508
-Författare	 234
-[Tekijä]	 134
-[tekijä]	  42
-Utgifvaren	  41
-Utg.	  37
-s.n.	  27
-[ s. n. ]	  24
-[s.n]	  19
-[Förf.]	  18
-tekijä	  16
-[Författare]	   9
-[författare]	   8
-[s.l.]	   8
-[s.a.]	   6
-[s. n.]	   5
-Handelstryckeriet	   5
-författare	   4
-Utgivaren	   4
-[S.n.]	   3
-Fram	   3
-s.n.]	   3
-Utgivare	   3
-[ S. n. ]	   2
-[S.l.]	   2
-[s.n.] :;s.n.	   2
-[Utg.]	   2
-[Utgivare]	   2
-A. O.	   2
-Index	   2
-Utgg.	   2
-Utgifvare	   2
-[ s. n.]	   1
-[S. n.]	   1
-[s.n.[	   1
-[s.n.] en	   1
-[s.n.].	   1
-[S.n]	   1
-[s.n].	   1
-[T. S.]	   1
-[utgivare]	   1
-A	   1
-A. B. Varias boktryckeri	   1
-A. K.	   1
-aff Georg Hantsch, kongl: booktr.	   1
-Förbundet	   1
-FÖrfattare	   1
-Förs.	   1
-Handelstr.	   1
-Handelstryckeriet, distr.	   1
-Kirjapaino	   1
-Nu.	   1
-s. n.	   1
-s. n.]	   1
-s.l.	   1
-s.l.]	   1
-sn	   1
-Utgifv.	   1
-Utgifvarena	   1
-Utgifvarna	   1
-Utgifvarne	   1
-Utgivarna	   1
+Total count: 	1089
+[C. W. Gyldén]	27
+Naisasialiitto Unioni	26
+[C. G. Clouberg]	23
+G. E. Euren	19
+Sylviayhdistys	16
+Öhman	15
+Kurikka	13
+Konkordia-liitto	12
+Kewät-yhtiö	11
+Helsingin Soutuklubi	10
+Pečatano v' Glavnom' Gidrografičeskom' Upravlenìi Morskogo Ministerstva	10
+Gos. tip	 9
+Hämeenlinnan Eläinsuojelusseura	 9
+Helsingin Eläinsuojeluyhdistys	 9
+Suomen Pyöräilyliitto	 9
+Viipurin Eläinsuojelusyhdistys	 9
+Tampereen Eläinsuojelusyhdistys	 8
+[K. G. Ekebom]	 7
+Matkailutoimisto Finlandia	 7
+Pečatano v' Gl. Gidrograf. Upravlenìi Morskogo Ministerstva	 7
+Eläintenystävät	 6
+[G. Klint]	 6
+Glavnoe Gidrografičeskoe Upravlenie	 6
+Helsingfors Velocipedklubb	 6
+J. Länkeläs förlag	 6
+Kalenteri	 6
+[Oulun läänin talouden seura]	 6
+Turun Eläinsuojelusyhdistys	 6
+Liewendal's lith. tryckeri	 5
+Nordiska Samfundet	 5
+[Öfverstyrelsen för landtmäteriet]	 5
+Russo-Française	 5
+Vaasan Elänsuojelusyhdistys	 5
+[Åbo avdelnings förlag]	 4
+Constance Ullner :;V. Lindman	 4
+Ebering	 4
+exc. Joh. Kaempe, R. Ac. typ.	 4
+Gidrografičeskij Departament' Morskago Ministerstva	 4
+Itä-Savon Eläinsuojelusyhdistys	 4
+Lamm	 4
+Morskoe ministerstvo	 4
+Okružnyj štab'	 4
+Suomalainen Naisliitto	 4
+Volmar Lindman :;Constance Ullner	 4
+Albert Bonniers förlag	 3
+D. F. Bonnier	 3
+Gos. tip.	 3
+I. N. Kušnerev' i K°	 3
+Kainuun Eläinsuojelusyhdistys	 3
+Knigoizdatel'stvo A. È. Vineke	 3
+Mariayhdistys	 3
+Militärlitteraturföreningens förlag	 3
+Raision Pitäjän, Naantalin Kaupungin sekä Naantalin Maaseurakunnan Eläinsuojelusyhtiö	 3
+Rauman Eläinsuojelus-Yhdistys	 3
+Satakunnan Eläinsuojelusyhdistys	 3
+Suomen Naisten Kansallisliitto	 3
+Theodor Sederholms tryckeri	 3
+tip. Imp. Akad. nauk	 3
+Valtionrautateiden Eläinsuojelusyhdistys	 3
+Wahlström & C.	 3
+Weilin & Göösʼin Osakeyhtiön kirjapainossa ja kustantama	 3
+A. Bonnier	 2
+A. Manninen ja Fr. Ahlqwist	 2
+[Carolus Eneberg]	 2
+[Carolus Fr. Eneberg]	 2
+Cederholm	 2
+chez Charles Delén	 2
+C. W. Edlunds förlag	 2
+De lʼImprimerie de Cox, Fils, & Baylis, Great Queen Street	 2
+Djurskyddsföreningen i Borgå	 2
+Edward Arnold	 2
+Eläinsuojelustoimisto	 2
+Ernest Leroux	 2
+F. Bohn	 2
+Finska skogsvårdföreningen Tapio	 2
+Frenkell	 2
+Fruntimmersförening	 2
+[G. E. Euren]	 2
+Glavnoe Gidrografičeskoe Upravlenìe Morskogo Ministerstva	 2
+Gos. tipografiâ	 2
+Gosudarstvennaâ tipografiâ	 2
+Haminan Eläinsuojelusyhdistys	 2
+I.J. Granlundin kustannuksella	 2
+im verlage des Geogr. Instituts	 2
+Isohiisi, jakaja	 2
+izd. 'Kir'â'	 2
+J. Simelii arfvingars boktryckeriaktiebolag	 2
+J. Simeliuksen perillisten kirjapaino-osakeyhtiö	 2
+Kartografičeskoe zavedenìe A. Il'ina	 2
+K. Birkenfel'd'	 2
+Keski-Suomen Eläinsuojelusyhdistys	 2
+Kongl. Svenska sjökarte kontoret	 2
+[Kuninkaallinen Preussin jääkäripataljoona 27]	 2
+Lammin Eläinsuojelus-Yhdistys	 2
+Lionel Booth	 2
+Lith. F. Tilgmann	 2
+Maisonneuve	 2
+Manuzio	 2
+N. M. Lindhs boktryckeri	 2
+Nordiska kvinnosaksföreningars Samorganisation	 2
+Oulun Polkupyörä-Yhdistys	 2
+Outlook Company	 2
+[Pečatano v' Glavnom' Gidrografičeskom' Upravlenìi Morskogo Ministerstva]	 2
+Porin Eläinsuojelus-yhteys	 2
+Porin Polkupyörä Klubi	 2
+Pravoslavnoe missionerskoe obŝestvo	 2
+printed for T. Cadell and W. Davies Strand London, by R. Watts Crown Court, Temple Bar	 2
+[P. Scharenberg]	 2
+Salon Eläinsuojelusyhdistys	 2
+Societo Esperantista en Kotka	 2
+S.-Peterb. akad. nauk'	 2
+[Suomen kirkkohistoriallisen seura]	 2
+tip. Èkspedicìi zagotovlenìâ gos. bumag	 2
+tip. i hromolit. A. Tranšelâ	 2
+tip. t-va 'Obŝestvennaâ pol'za'	 2
+tryckt hos P. Sohm	 2
+Turisttrafikförbundet	 2
+Turun Eläinten Ystävät	 2
+Û.N. Èrlih'	 2
+Verkehrsbureau Norden	 2
+Verner Sëderstrem'	 2
+[Vestfinska afdelningen]	 2
+Wahlström & Låström	 2
+Wiipurin Soutuklupi	 2
+Zacharias Hæggström	 2
+A. A. Bäckström	 1
+Åbo Velociped Klubb	 1
+[A. Cederwaller]	 1
+A. Chevalier-Marescq	 1
+[Adolphvs Edvardvs Arppe]	 1
+A. F. Devrìena	 1
+A. Hartlebens Verlag	 1
+Akademiska bokförlaget	 1
+Akcìonernoe obŝestvo F. Til'gmana	 1
+Aktiebolaget F. Tilgmann	 1
+Ålands Tidnings-Tryckeri	 1
+Alcan	 1
+[Alexander Ferdinand Borenius]	 1
+[Alexander Ferdin. Borenius]	 1
+[Alexander Fredricus Laurell]	 1
+Alli Trygg-Helenius	 1
+Almqvist & Wiksells boktryckeri :;[Lundequistska bokhandeln (i distribution)]	 1
+[Amerikan S.S. järjestö]	 1
+Amerikan suomalaisten lasten ja nuorison kirjallisuuden kustannusliike	 1
+[And. Herm. Georg. Carger]	 1
+Anna Gros, distr.	 1
+Antisosialistiliitto	 1
+[Antonius Alfthan]	 1
+Antron Strauss	 1
+Arne Cederholm	 1
+Arwi Hällfors	 1
+A. S. pyhäkouluyhdistys	 1
+A. S. Suvorin'	 1
+August Buschʼi kirjastus	 1
+August Busch'i Kirjastus	 1
+[August Julius Linsén]	 1
+A. Val'ter', Â. Rapa i ko. ;;Akademiska bokhandeln	 1
+A. W. Gröndahl & A. C. Öhman, förläggare	 1
+[Axelius Gvilielmus Lilienstrand]	 1
+Bahn & Waendel	 1
+[Baltic-South Rangen ev. lut. seurakunta]	 1
+Beckman	 1
+[Bernhardus Wilhelmus Brunou]	 1
+bij Steenbergen van Goor	 1
+Blanco Lunos	 1
+Blom & Ekroth	 1
+Board of Improvement	 1
+[Broderus Carolus Julius Witting]	 1
+Buchhandlung des Waisenhauses	 1
+C. A. Dybwad	 1
+C. A. Leffler	 1
+[Carl Adolf Öhrnberg]	 1
+[Carl Axel Gottlund]	 1
+Carl Fr. Skough	 1
+[Carl Gustaf von Essen]	 1
+[Carl Reinhold Lindberg]	 1
+Carl Schneiner	 1
+[Carolus Andreas Zitting]	 1
+[Carolus Backman]	 1
+[Carolus E. Ekelund]	 1
+[Carolus Forssman]	 1
+[Cederwallerin leski ja poika]	 1
+Čertežnaâ Gosudarstvennago Admiraltejskago Departamenta	 1
+Chevalier-Maresqo	 1
+C. H. Hirschberg & C:o	 1
+Child Evangelism Fellowship	 1
+C. H. Nummelin	 1
+Christ. Frenckell	 1
+[Christ. Vict. Leon. Segercrantz]	 1
+Chromo-Lith hos F. Tengström	 1
+Clifford Sifton	 1
+Club des Nationalistes	 1
+[C. M. Thimgren]	 1
+Cooperative tipografica Manuzio	 1
+Costianderin Lahjoitusrahasto	 1
+Dalman	 1
+Daniel Eevonen	 1
+de lʼimprimerie de F. Drechsler	 1
+de l'imprimerie de N. Gretsch	 1
+de lʼimprimerie de P. P. A. Pluchart, Petite-Morskoї, No 120	 1
+Depôt imperial des cartes	 1
+Djurskyddsföreningen i Ekenäs	 1
+Djurskyddsföreningen i Hangö	 1
+Djurskyddsföreningen i Jakobstad	 1
+Djurskyddsföreningen i Kristinestad	 1
+Djurskyddsföreningen i Lovisa	 1
+Djurvännerna i Hangö	 1
+Dr. Joseph Lister & Co.	 1
+Drug' naroda	 1
+[Duluth, South Shore & Atlantic Railway Co.]	 1
+D. van Nostrand	 1
+Edlund, kustantaja	 1
+Èduard Prac	 1
+[Eduardus Sevon]	 1
+Eemeli Salminen	 1
+E. Gerbek	 1
+Ehrlich	 1
+E. I. Fesenko	 1
+E.K.S. rahwakirjanduse - toimekonna wäljaanne	 1
+Eläinsuojelusyhdistys Iitin, Jaalan ja Artjärwen Pitäjissä	 1
+[Eliel Saarinen]	 1
+Elméns och Granbergs tryckeri	 1
+Elméns och Granbergs Tryckeri	 1
+Emäntäliitto	 1
+Emil Ebering	 1
+Emil Felber	 1
+Emil Lyytikäinen	 1
+Èrlih'	 1
+E. W. Björklund & kumppanit	 1
+Ewerlöf	 1
+E. Westrell	 1
+ex officina C. L. Hjelt	 1
+Expeditionen för Finlands annonskalender	 1
+Fågelföreningen Svalan	 1
+Fahlcrantz & Co	 1
+F.A. Westbeckin kustannuksella	 1
+F.A. Westbeckin  kustannuksella	 1
+Ferd. Dümmler	 1
+F.H.Morin	 1
+Finlândskaâ gazeta	 1
+Finlândskoe èksportnoe obŝestvo	 1
+Finnish newspaper co.	 1
+[Finska aktiva motståndspartiet]	 1
+Finska Simförbundet	 1
+[Finska studentafdelningarnas etnografiska museum],;Finska Litteratur-sällskapets tr.	 1
+Finska telegramsbyråns annonsafdelning	 1
+Fischer	 1
+F. L. Blomqvist	 1
+Förlags aktiebolaget för inhemskt arbete	 1
+forlagt af L. Veeken, trykt hos T. E. Raugel, og faaes tilkjøbs i Pilestraedet No. 111	 1
+[Forststyrelsens]	 1
+[Forstyrelse]	 1
+[Frenckellin ja pojan kirjakauppa]	 1
+Frenckell & sons bokhandeln	 1
+[Frid. Wilh. Aug. Argelander]	 1
+F. Tilgmannʼin kustannuksella	 1
+F. Tilgmanns förlag	 1
+F. W. Jalander	 1
+G. A. Grinevskij	 1
+[G. A. Kajanus]	 1
+[G. Alfthan]	 1
+Gamlakarleby Velociped Klubb	 1
+Gelʼsingforsskij otděl' Vserossïjskago soûza morâkov' torgovago flota	 1
+[General'nyj štab']	 1
+Geografičeskij departament	 1
+German-American Literary Defense Committee	 1
+Giard et Brière	 1
+Gidrografičeskij departament' Morskago Ministerstva	 1
+G. J. Göschen'sche Verlagshandlung	 1
+[Glavnoe Gidrografičeskoe Upravlenìe Morskogo Ministerstva]	 1
+Glavnoe upravlenìe locmanskago i maâčnago vědomstva Finlândìi	 1
+G. L. Söderström,;G. L. Söderström'in kirjapainossa)	 1
+G. Reimer	 1
+Gugo Štejnic = Hugo Steinitz	 1
+Gustaf Bergman	 1
+Gustaf Ilwan	 1
+Gust. Bergroth	 1
+[Gust. Leonhardus Stenbäck]	 1
+G. V. Èdlund'	 1
+G. W. Edlundʼin kustannuksella	 1
+G. W. Edlunds förlagsaktiebolags förlag	 1
+G. W. Enlund	 1
+G. W. Wilén & Co	 1
+Håkan Ohlssons boktryckeri	 1
+[Haridus]	 1
+Harrison and sons	 1
+Heikki Lehmus	 1
+Heinolan Eläinsuojelus-Yhdistys	 1
+[Helios] :;[Waseniuska bokhandeln i distribution]	 1
+[Helsingfors' lycei konvent]	 1
+Helsingin Eestiläinen Hyväntekeväisyys Yhdistys	 1
+Helsingin Naisjärjestöt	 1
+Helsingin Polkupyöräseura	 1
+Helwing	 1
+[H. Em. Aspelin] :;Lennart Holmberg, distr.	 1
+Henri Charles-Lavauzelle	 1
+[Henricus Wegelius]	 1
+Henry Koller	 1
+Heurlin	 1
+H. F. Parlin	 1
+H. G. Gröhn, kirja- ja paperikauppa	 1
+H. G. Nordström	 1
+H. Lamirault	 1
+H. Laupp	 1
+hos Strinnholm och Häggström	 1
+Hromolitografìâ P. Â. Ivanova	 1
+H. T. Bärlundin kirjakauppa	 1
+Hugo Winter	 1
+Humanité nouvelle	 1
+Husmoderförbundet	 1
+I. Herzog	 1
+Iisalmen Eläinsuojelusyhdistys	 1
+I. I. Vallenìus	 1
+I. Ladyschnikow Verlag	 1
+Imperatorskaâ AkademÏâ nauk	 1
+Imprimerie de Thiele	 1
+im Verlage des Geograph: Instituts	 1
+in der Vossischen Buchhandlung	 1
+In der Vossischen Buchhandlung	 1
+[Iosephus Nummelin]	 1
+Isak Ek	 1
+Itsenäinen kieltolakiwalitsijayhdistys	 1
+Izdanìe A. S. Suvorina	 1
+[Jacobus Johannes Amnell]	 1
+Jak. Juteini	 1
+Jämsän Eläinsuojelus-Yhtiö	 1
+[J. A. Palmén]	 1
+[Järnvägskomitén]	 1
+J. C. Frenckel	 1
+J. C. Frenckell & sons förlag	 1
+J. Christ. Frenckell ja poika	 1
+J. E. Ahlqvist	 1
+J.F. Granlund	 1
+J. F. Törmä	 1
+J. G. Cotta	 1
+[J. Hjort]	 1
+J. L. Boehm	 1
+J. Lundberg	 1
+J. N. Nyren	 1
+Joensuun Eläinsuojelusyhdistys	 1
+Joensuun V. P. K.	 1
+Joh. A. Inberg	 1
+[Johan Esaias Waaranen]	 1
+[Johannes Edvardus Öhman]	 1
+[Johannes Ericus Hongelin]	 1
+[Johannes Witikka]	 1
+Joh. Christ. Frenckell	 1
+John M. Johnson	 1
+[J. Ph. Palmén]	 1
+Juhannustulen toimitus	 1
+Jules Renouard, Libraire	 1
+[Julutställningskalenderns expedition, G. H. Lindblad]	 1
+Justus Perthes ; Helsingfors :;Wasenius & Co [jakaja]	 1
+J. W. Lillja & Co förlag	 1
+J. W. Lilljan kirjapainossa	 1
+J. W. Nesslers boktryckeri	 1
+Jyväskylän Naisseura	 1
+K. A. H.	 1
+K. A. Hermann	 1
+Käkisalmen Eläinsuojelus-Yhdistys	 1
+[Kalevan Naiset]	 1
+Kampen	 1
+Kamraten	 1
+Karlstedts bokhandel, distr.	 1
+Kartografičeskoe zavedenìe F. Zlotnikov' i L. Volk'	 1
+Kaskö Djurskyddsförening	 1
+K. B. Boströms förlag	 1
+[K. E. Holms förlag]	 1
+Kemin Rauhanyhdistys	 1
+Kemin uudessa Kirjapainossa	 1
+Keski-Karjalan Hewoisystäwäin Seura	 1
+Keski-Suomen Polkupyörä-Yhdistys	 1
+K. F. Kiwekäs	 1
+[K. Husmann]	 1
+Kirchbaum	 1
+Kivipaino yhtiö	 1
+K. Mattisen'	 1
+Knigoizdatel'stvo A. E. Vineke	 1
+Knižnyj sklad' B. I. Gubinskago	 1
+Koiviston Eläinsuojelusyhdistys	 1
+[kokoaja]	 1
+[Koleso]	 1
+Komissìâ po zavědyvanìû kapitalom' im. gr. S. A. Stroganova	 1
+Kongl. landmäteri kontoret	 1
+[Kotikielen seura]	 1
+Kotkan Eläinsuojelusseura	 1
+Kotkan Eläinsuojelusyhdistys	 1
+[Kristian Gustaf Sucksdorff]	 1
+Kristliga föreningen för unga kvinnor	 1
+Kullaan kunta	 1
+Kuopion Eläinsuojelusyhdistys	 1
+Kuopion Polkupyöräseura	 1
+Kustannusliike Kansanvalta	 1
+Kustantamo Salama	 1
+Kuvallinen aikakauslehti Lukutupa	 1
+K. Werkko	 1
+K. W. Luukkonen	 1
+Lahden kauppalan Eläinsuojelus Yhdistys	 1
+Lahden kirjapaino- ja sanomalehti-o.-y.	 1
+Lahden Polkupyörä-Yhdistys	 1
+Lähetysyhdistys	 1
+Landins bokhandel	 1
+[Länsisuomalainen ylioppilas-osakunta]	 1
+Lappeenrannan ja Lapveden Eläinsuojelus- ja Hevosystäväin Yhdistys	 1
+Lappeenrannan Kaupungin ja Lappeen Pitäjän Eläinsuojelus- ja Hevosystäväin Yhdistys	 1
+Larose	 1
+[Lars Stenbäck]	 1
+[Laur. Leonh. Lindelöf]	 1
+Leffler och Sebell	 1
+Leon Dekroz'	 1
+L'Humanité Nouvelle	 1
+Libraire de la cour d'Appel et de l'ordre des avocats	 1
+Lilius i Gercberg'	 1
+Lilkus' i Gercberg'	 1
+lith. Åbo stentryckeri aktiebolaget	 1
+Lith. F. Liewendal	 1
+Lith.hos F. Liewendal	 1
+Litografìâ È. Arigol'da	 1
+Litografìâ F. Livendal'	 1
+litteris J. C. Frenckell & fil.	 1
+L. L. Lauren	 1
+Lorenzo Sonzogno	 1
+[Magnus Ericus Alopaeus]	 1
+[Magyar Tudományos Akadémia]	 1
+Mäkisen tehdasliike-osakeyhtiö	 1
+Mäntän Naisyhdistys	 1
+Matti Lehtosen kirjapaino ja kustannusliike	 1
+[Merikarttalaitos]	 1
+Minervan kirjakauppa	 1
+Ministerstvo torgovli i promyšlennosti	 1
+Mirnyj trud'	 1
+M. Lyytinen	 1
+Möller	 1
+Mustasaari Djurskyddsförening	 1
+Myllymäki & Martell	 1
+Naisyhdistys Päivännousu	 1
+Närpes Understödsförening för Förolyckade Hästar och Nötkreatur	 1
+N. A. Zilliacus' tryckeri	 1
+[Nicolaus Andreas Gadolin]	 1
+Noormarkun Eläinsuojelusyhdistys	 1
+Nordblad, distr.	 1
+Nordin & Josephson, i distribution	 1
+[Nordiska annonsbyrån]	 1
+Nordiska annonsbyrån	 1
+Nordströmska Boktryckeriet	 1
+N. R. af Ursin	 1
+Nu.	 1
+Nummelan Eläinsuojelusyhdistys	 1
+Nyländska studentafdelningen	 1
+Öfvermark Understödsförening för Förolyckade Hästar, Nötkreatur och Svin	 1
+Öhmannin kirjakauppa	 1
+Öhmanska bokhandeln	 1
+Olewiku	 1
+[Oloneckoe otdělenìe Karel'skago bratstva]	 1
+Orimattilan Naisyhdistys	 1
+Oskari Lahti	 1
+[Österbottniska studentlånefonden]	 1
+[Oulun läänin talouden-seura]	 1
+Oulun Naisyhdistys	 1
+Oulun Rauhanyhdistys	 1
+Oulun seudun opettajayhdistys	 1
+på Alb. Bonniers förlag	 1
+på C. R. Hööks förlag	 1
+P. A. Huldbergs bokhandel	 1
+Painettu A. P. Huldbergin tykönä	 1
+Palmblad, Sebell & C.	 1
+P. A. Norstedt	 1
+på Wasenius' & Comp. förlag	 1
+[Pečatano v' Gl. Gidrograf. Upravlenìi Morskogo Ministerstva]	 1
+Perthes & Besser	 1
+Plon [etc.]	 1
+Plon-Nourrit	 1
+Ploompuu	 1
+P.M.F. Lundberg	 1
+P. M. Lindhs förlag	 1
+[Pohjalainen valtuuskunta]	 1
+[Pohjalainen ylioppilaslainarahasto]	 1
+Porin lyseon toverikunta	 1
+Porin Naisstipenti-Seura	 1
+P. P. Sojkin	 1
+präntätty Christ. Ludv. Hjeltin tykönä	 1
+präntetty P. M. F. Lundbergin kirjapainossa	 1
+prentijuwum Chr. Ludw. Hjelt	 1
+Printed for Joseph Mawman ...	 1
+printed for R. Phillips ... by T. Giilet, Salisbury-square	 1
+Priroda i obŝestvo	 1
+Propilei	 1
+Przeglądu Narodowego	 1
+published for the University of London by John Murray	 1
+[Pyörä]	 1
+[Raittiusseura Vesi n:o 22]	 1
+Rantasalmen Eläinsuojelusyhdistys	 1
+R. Boll	 1
+redaktionen för Biet	 1
+red. žurn. 'Znanie'	 1
+[Reinhold Ferdinand Sahlberg]	 1
+[R. Montgomery]	 1
+Rovaniemen Eläinsuojelusyhdistys	 1
+Royal anthropological institute of Great Britain and Ireland	 1
+Russo-Franҁaise	 1
+Salmonsen	 1
+Sampo Goal Company	 1
+[Samuel Henric Nordström]	 1
+[Sara Röyhy]	 1
+Savonlinnan ajurien ao.	 1
+Secreteriat der Gesellschaft	 1
+Seinäjoen Eläinsuojelusyhdistys	 1
+Siemenroth	 1
+Sil'berberg'	 1
+Simelii arfvingar	 1
+Simeliuksen perilliset :;Schauman	 1
+Sjökarteverket	 1
+S. kirjallisuuden seura	 1
+Sklad Głowny w Księgarni Spółki Wydawniczej Polskiej	 1
+[S.K.R.V.]	 1
+S.M. Heikel	 1
+Smith, Elder & Co.	 1
+[s.n.],;A. Manninen ja Fr. Ahlqvist.	 1
+[s.n.],;J. C. Frenckellin ja pojan luona)	 1
+[s.n.],;J. Karstenin tykönä	 1
+Socialist publishing co.	 1
+Société Belge de librairie	 1
+Société Nouvelle	 1
+S.-Peterburg'	 1
+Stationery Office	 1
+Stentr. hos G. O. Wasenius	 1
+Stock	 1
+Stoličnaâ skoropečatnâ S. H. Zolotuhina	 1
+Sundsvalls tidning	 1
+[Suomalainen sosialisti-järjestö]	 1
+Suomalais-Evankelis-Lutherilainen Pyhäkoulu-Yhdistys	 1
+Suomalais-Lutherilainen Kustannusliike	 1
+Suomal. Sosialistinen Kustannusthtiö	 1
+[Suomen Biblia-Seura]	 1
+Suomen Biblia-Seura	 1
+Suomen Eläinsuojelutoimisto	 1
+[Suomen ewank. seura]	 1
+Suomen ewank. seura	 1
+Suomen höyrylaiva osakeyhtiö	 1
+Suomen Höyrylaiva Oy	 1
+Suomen kirjavarasto	 1
+[Suomen kotiseutuliitto]	 1
+Suomen lähetys seura	 1
+Suomen sos.dem. nuorisoliiton toimikunta	 1
+Suomen Yhdistetty Eläinsuojelus	 1
+Suomen Yhtyneitten Eläinsuojelusyhdistysten Keskusliitto	 1
+Suom.-luteerilainen kustannusliike	 1
+Suomussalmen Eläinsuojelusyhdistys	 1
+Suonenjoen Eläinsuojelusyhdistys	 1
+Svenska Allmänna Kvinnoföreningen	 1
+Svenska andelsförl.	 1
+Svenska Konkordia Förbundet	 1
+Svenska Kvinnoförbundet	 1
+[Svenska litteratursällskapet]	 1
+Sydän-Suomen sanomalehtiosakeyhtiö	 1
+S. ylioppilaskunnan antikvaarilaitos	 1
+Sỳnodal'naâ Tipografìâ	 1
+Tammelan Eläinsuojelus Seura	 1
+Tampereen Polkupyöräilijä-Liitto	 1
+Tampereen sokeain yhdistys	 1
+Tampereen Työläisnaisten Äänioikeusrahasto	 1
+Tampereen VPK	 1
+Ta-tsien-lu	 1
+The Finnish Press Co.	 1
+The Finnish Publishing Co.	 1
+The Michigan Home Colony Company	 1
+[Theodor Schvindt]	 1
+Tidnings- och Tryckeri-aktiebolaget	 1
+Tidnings- & tryckeri	 1
+tip. Akad. nauk	 1
+tip. Akc. o-va	 1
+tip. Aleksandra Semena	 1
+tip. 'Art. žurn.'	 1
+Tip. Golovina	 1
+tip. I.I. Glazunova	 1
+Tip. Imp. akad. nauk	 1
+Tip. Imp. Akad. nauk	 1
+tip. M.M. Stasûleviča	 1
+tip. Mor. m-va	 1
+Tipografià̂ Â. Ìonsona	 1
+Tipografìâ Âkova Treâ	 1
+Tipografìâ Finsk. Literat. Obŝestva	 1
+Tipografìâ G. Lissnera i D. Sobko	 1
+Tipografìâ Il'marinen'	 1
+Tipografiâ Imperatorskago Senata	 1
+tipografiâ Imperatorskoj Akademìj nauk'	 1
+Tipografìâ Karl' Gol'mstrem''	 1
+Tipografìâ M. M. Stasûleviča	 1
+Tipografiâ N. A. Cil'âkusa	 1
+Tipografia N.A. Lebedeva	 1
+Tipografìâ štaba vojsk' gvardìi	 1
+Tipografìâ Suvorova	 1
+Tipografiâ Û. N. Èrlih'	 1
+tipo- i lit. F. Til'gmana	 1
+tipo-lit. 'Ènergiâ'	 1
+tipo-lit. M. P. Frolovoj	 1
+Tip. P. P. Sojkina	 1
+tip. Rûmina i komp.	 1
+[tip. Skačkova]	 1
+Tip. T-va p. f. 'Èlektro-Tip. N. Â. Stojkovoj'	 1
+Tip. V. Demakova	 1
+Toiwonen	 1
+tryckt hos Carl Deleen, R. W. O.	 1
+tryckt hos directeuren Joh. A. Carlbohm	 1
+tryckt hos Nils Magnus Lindh, 1807. På eget förlag	 1
+tryckt hos P. A. Norstedt & Söner	 1
+tryckt hos P. G. Berg	 1
+Turun läänin etel. vaalipiirin sos. dem.	 1
+Turun suomalainen kirjapaino- ja sanomalehti	 1
+Turun suomalainen kirjapaino ja sanomalehti-osakeyhtiö (Uuden Auran kirjapaino)	 1
+t-vo I. D. Sytina	 1
+Työkansa	 1
+U Krašeninnikova i K.	 1
+Union pour la vérité	 1
+Universal'naâ biblìoteka	 1
+University Press	 1
+Utgifwarens förlag	 1
+Uudenkaupungin Eläinsuojelusyhdistys	 1
+Vaasan asianajotoimisto	 1
+Vakuutusosakeyhtiö Kaleva	 1
+Valaamskij monastyr	 1
+Van Holkema & Warendorf	 1
+[Varsinais-Suomen suomenmielisten ylioppilaitten yhdistys]	 1
+Vaseniuska Bokhandeln i Distribution	 1
+V. Berezovskij	 1
+V. Berezovskìj	 1
+Ventzel Hagelstam förlag	 1
+Verlage des Industrie-Comptoirs	 1
+Verlagsanstalt F. Bruckmann	 1
+Verlag von M. Poppelauer	 1
+Viipurin pitäjän Talikkalan Eläinsuojelusyhdistys	 1
+Viipurin Suomalainen Polkupyöräseura	 1
+Voenno-Topografičeskago Upravleniâ General'nago Štaba	 1
+[Voenno-Topografičeskoe Depo]	 1
+Voenno-Topografičeskoe Depo	 1
+Voen. tip	 1
+Voimistelu- ja urheiluseura Jousi	 1
+Von Veit	 1
+Waasan asianajotoimisto	 1
+Waasan läänin Sylvia yhdistys	 1
+[Waasan reaalilyseon toverikunta]	 1
+Waasan realilyseon toverikunta	 1
+Wahlström	 1
+Wahlström & Låstbom	 1
+Wasa Kanotklubb	 1
+Wasa Velocipedklubb	 1
+Wasenius & Komp.	 1
+Weilin & Göösʼin kirjapainossa	 1
+Wentzel Hagelstam, Uno Wasastjerna	 1
+Werner Söderström osakeyhtiö	 1
+W. Faden	 1
+W. Graeff	 1
+Wheeler & Wilson Manufacturing Co.	 1
+Wheeler & Wilson Mfg. Co.	 1
+Wiborgs roddklubb och Wiborg läns segelförening	 1
+Wiipurin Nuorten Miesten Kristillinen Yhdistys	 1
+William Mäki	 1
+William Wood & Co.	 1
+[W. Lavonius]	 1
+W. Wm. Granlund	 1
+Yleinen sanomalehtitoimisto	 1
+Yleisvenäläinen kansallisklubi	 1
