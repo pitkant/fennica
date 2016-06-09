@@ -35,6 +35,29 @@ Volcount laskennat Fennicaan
 10                                                                  2 osaa (229 s.)
 
 
+### Krakow
+
+Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen
+yliopistojärjestelmän kaupunkeihin. Lukumäärävertailut aikajanalla ja
+ne akateemisten julkaisujen blokkaaminenhan ei pitäisi olla kovinkaan
+hankalaa. Tämä saattaisi hyvin riittää siitä Kungligan
+käytöstä. Samalla sitten jotain vertailukohtia CERListä tai sitten
+ehkä ESTCstä pitää ottaa Fennicalle että pystytään suhteuttamaan mistä
+puhutaan.
+
+Julkaisijoihin keskittyvä analyysi Fennican osalta olisi tärkein. Eli
+miten uusia julkaisijoita tulee julkaisijakenttään Suomessa ja miten
+niitä sitten myös katoaa. Samaten vertailua suurimpien julkaisijoiden
+kesken pitää tehdä. Paperinkulutus voi osoittautua erittäin hyväksi
+työvälineeksi erityisesti kun tiedetään, että toiset isot julkaisijat
+julkaisivat esim. jotain asetuskokoelmia yksittäin ja toiset taas
+ryppäinä. Eli siis julkaisijoiden sisällä erottelua eri tyyppisten
+julkaisujen suhteen pitää myös tehdä. Lisäksi kiinnostaa mitä voidaan
+sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä löydetäänkö sieltä
+mitään mielenkiintoisia kehityskulkuja ylipäänsä vai pelkästään
+toteamus, että suomalainen tiedontuotanto oli hyvin vähäistä
+tarkastellulla ajanjaksolla.
+
 ### Fennica tutkimuskysymykset
 
 Tärkein tehtävä tutkia pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan jotain selkeitä trendejä suomalaisesta tiedontuotannosta aikavälillä 1640-1828, pääfokus julkaisijat.
