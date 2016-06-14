@@ -11,6 +11,9 @@ fs <- "data/fennica.csv.gz"
 # Cores for parallelization
 mc.cores <- 4
 
+# Limit to Finnish/Swedish name-gender mappings for Fennica
+gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv", package = "bibliographica")
+
 # Remove selected fields
 ignore.fields <- c("language2", "title_remainder", "physical_details", "physical_accomppanied", "note_general", "note_year") # Fennica
 
