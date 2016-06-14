@@ -1,7 +1,7 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2016-05-26"
+date: "2016-06-14"
 output: markdown_document
 ---
 
@@ -9,8 +9,8 @@ output: markdown_document
 
  * 40 unique languages
  * The languages may come in [combinations](output.tables/language_conversions.csv)
- * 4101 docs (6.03%) with multiple languages
- * 692 docs (1.02%) with no recognized language 
+ * 4289 docs (6.02%) with multiple languages
+ * 729 docs (1.02%) with no recognized language 
  * [Discarded languages](output.tables/language_discarded.csv)
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv).

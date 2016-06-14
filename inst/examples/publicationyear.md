@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-05-26"
+date: "2016-06-14"
 output: markdown_document
 ---
 
@@ -12,13 +12,13 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 68027 documents (100%). The publication years span 1488-1917.
+Publication year is available for 71248 documents (100%). The publication years span 1488-1919.
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
 ### Publication frequency
 
-Publication frequency is available for 973 documents (1%). 
+Publication frequency is available for 997 documents (1%). 
 
 [Publication frequency accepted](output.tables/publication_frequency_discarded.csv)
 
@@ -49,7 +49,7 @@ information is readily available in MARC.
 
 In this data we have 2
 unique documents with an identical title and author. Out of these,
-5769
+6075
 have multiple occurrences, sometimes with different publication years.
 Where multiple publication years are seen, the earliest occurrence is
 suggested as the first edition.
