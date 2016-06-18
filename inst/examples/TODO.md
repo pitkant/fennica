@@ -58,6 +58,8 @@ mitään mielenkiintoisia kehityskulkuja ylipäänsä vai pelkästään
 toteamus, että suomalainen tiedontuotanto oli hyvin vähäistä
 tarkastellulla ajanjaksolla.
 
+H:lle suunnitelmaa, että keskittyy erityisesti kaikkiin väitöskirja-kategorian alla liikkuviin yliopistotuotoksiin. Tätä kautta päästään hyvin kiinni Turku, Upsala, Lund, Tarto yms. vertailuihin. Siitä sitten kuljetaan kohti Turun suhdetta muuhun Suomeen ja katso kääntyy erityisesti julkaisijoihin (samaten toki myös noiden yliopistokaupunkien osalla, jossa myös tehdään sitten vertailua akateeminen vs. hallinnollinen vs. muu julkaisutoiminta). Pyritään tekemään analyysi erityisesti siitä mitä julkaisukentällä tapahtuu eri paikoissa kun uusia julkaisijoita tulee kartalle (meneekö esim. jossain toisessa yliopistossa tuotanto suhteessa alas kun matkan varrella tulee uusia yliopistoja vai ei) jne.
+
 ### Fennica tutkimuskysymykset
 
 Tärkein tehtävä tutkia pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan jotain selkeitä trendejä suomalaisesta tiedontuotannosta aikavälillä 1640-1828, pääfokus julkaisijat.
