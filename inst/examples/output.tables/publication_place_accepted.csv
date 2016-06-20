@@ -1,5 +1,5 @@
 publication_place	country	Count
-Total count: 	71248	
+Total count: 	67899	
 Aabenraa	Denmark	    2
 Aalborg	Denmark	    2
 Aarhus	Denmark	    2
@@ -23,7 +23,7 @@ Augsburg	Germany	    8
 Barcelona	Spain	    3
 Basel	Switzerland	    4
 Bergen	Norway	    6
-Berlin	Germany	  156
+Berlin	Germany	  155
 Bern	Switzerland	    5
 Bielefeld	Germany	    1
 Birmingham	England	    1
@@ -39,10 +39,10 @@ Bridgeport Ct	USA	    1
 Brisbane	Australia	    1
 Brunn	Germany	    1
 Brussels	Belgium	    3
-Budapest	Hungary	   28
+Budapest	Hungary	   27
 Buenos aires	Argentina	    1
 Calcutta	India	    1
-Calumet Mi	USA	   35
+Calumet Mi	USA	   34
 Cambridge	England	    5
 Carlstad	Sweden	    1
 Cassel	France	    4
@@ -50,7 +50,7 @@ Chicago IL	USA	   19
 Chisholm Mn	USA	    2
 Cincinnati Oh	USA	    3
 Clear Creek UT	USA	    1
-Cleveland Oh	USA	    2
+Cleveland Oh	USA	    1
 Cluj-Napoca	Romania	    1
 Cologne	Germany	    2
 Copenhagen	Denmark	  128
@@ -59,19 +59,18 @@ Dessau	Germany	    2
 Dieren	Netherlands	    1
 Dordrecht	Netherlands	    1
 Dresden	Germany	   20
-Duluth Mn	USA	   39
+Duluth Mn	USA	   33
 Edinburgh	Scotland	    1
 Elbingen	Germany	    1
-Ely Mi	USA	    2
+Ely Mi	USA	    1
 Erfurt	Germany	    2
-Erlangen	Germany	    1
 Espoo	Finland	    3
 Eura	Finland	    7
 Exeter	England	    1
 Falun	Sweden	    5
 Firenze	Italy	    7
-Fitchburg Ma	USA	  133
-Forssa	Finland	   10
+Fitchburg Ma	USA	  127
+Forssa	Finland	    7
 Franckfurt leipzig	NA	    3
 Frankfurt	Germany	   11
 Freiburg im Breisgau	Germany	    2
@@ -87,17 +86,16 @@ Göttingen	Germany	    9
 Greifswald	Germany	   20
 Gutersloh	Germany	    1
 Haapajärvi	Finland	    5
-Haaparanta	Finland	    8
+Haaparanta	Finland	    3
 Haarlem	Netherlands	    6
 Haderslev	Denmark	    1
 Halberstadt	Germany	    1
 Halle	Germany	   11
 Hamburg	Germany	   15
-Hämeenkyrö	Finland	    2
-Hämeenlinna	Finland	 1407
-Hamina	Finland	  160
-Hancock Mi	USA	  210
-Hanko	Finland	   85
+Hämeenlinna	Finland	 1363
+Hamina	Finland	  138
+Hancock Mi	USA	  183
+Hanko	Finland	   65
 Hanna WY	USA	    1
 Hannover	Germany	    2
 Harbor Oh	USA	    2
@@ -108,46 +106,44 @@ Heidelberg	Germany	    9
 Heilbronn	Germany	    1
 Heinäjoki	Finland	    1
 Heinävesi	Finland	    2
-Heinola	Finland	   33
+Heinola	Finland	   21
 Helmstedt	Germany	    3
 Helsingborg	Sweden	    2
 Helsingör	Denmark	    1
-Helsinki	Finland	26785
+Helsinki	Finland	25243
 Hinnerjoki	Finland	    1
 Hirvensalmi	Finland	    1
 Houghton Mi	USA	    1
 Hull	England	    1
 Huopalahti	Finland	    2
 Hvitträsk	Finland	    1
-Hyvinkää	Finland	   16
-Iisalmi	Finland	   13
-Ikaalinen	Finland	    2
+Hyvinkää	Finland	   15
+Iisalmi	Finland	   12
 Ilmajoki	Finland	    2
 Imatra	Finland	    1
 Impilahti	Finland	    1
 Inari	Finland	    1
-Inkeri	Russia	    1
 Inkoo	Finland	    1
-Ironwood Mi	USA	   13
+Ironwood Mi	USA	   11
 Ísafjördur	Iceland	    6
 Ishpeming Mi	USA	    7
-Isokyrö	Finland	    8
-Jaakkima	Finland	    2
+Isokyrö	Finland	    7
+Jaakkima	Finland	    1
 Jääski	Russia	    1
 Jacobson Mi	USA	    1
 Jalasjärvi	Finland	    1
 Jämsä	Finland	    5
-Janakkala	Finland	    2
+Janakkala	Finland	    1
 Jelgava	Latvia	    6
 Jena	Germany	   27
-Joensuu	Finland	  126
+Joensuu	Finland	  106
 Jönnköping	Sweden	    5
 Jurjew	Latvia	    2
 Juva	Finland	    3
-Jyväskylä	Finland	 1031
+Jyväskylä	Finland	  971
 Kainuu	Finland	    3
-Kajaani	Finland	   42
-Käkisalmi	Finland	   62
+Kajaani	Finland	   35
+Käkisalmi	Finland	   49
 Kaleva Mi	USA	   50
 Kallislahti	Finland	    1
 Kangasala	Finland	    1
@@ -155,18 +151,17 @@ Kaprio	Finland	    1
 Karhula	Finland	    2
 Karjaa	Finland	   14
 Karjalohja	Finland	    4
-Karkku	Finland	    2
+Karkku	Finland	    1
 Karlskrona	Sweden	    8
 Karlstad	Sweden	    2
 Karstula	Finland	    2
-Kaskinen	Finland	   18
+Kaskinen	Finland	   16
 Kauhajoki	Finland	    1
 Kaukaa	Finland	    1
 Kausala	Finland	    1
-Kauvatsa	Finland	    3
+Kauvatsa	Finland	    2
 Kazan	Russia	    2
-Keltto	Finland	    1
-Kemi	Finland	   38
+Kemi	Finland	   27
 Kettuvaara	Finland	    1
 Kharkiv	Ukraine	    3
 Kiel	Germany	    4
@@ -179,31 +174,29 @@ Kodisjoki	Finland	    1
 Koivisto	Finland	    2
 Koivulahti	Finland	    1
 Kokemäki	Finland	    1
-Kokkola	Finland	  107
+Kokkola	Finland	   90
 Koningsberg	Germany	    6
 Köping	Sweden	    2
 Korsnäs	Finland	    1
-Kotka	Finland	  176
+Kotka	Finland	  143
 Kouvola	Finland	    4
 Krakow	Poland	    3
-Kristiinankaupunki	Finland	   55
-Kruunupyy	Finland	   21
-Kuopio	Finland	 1551
+Kristiinankaupunki	Finland	   44
+Kruunupyy	Finland	   20
+Kuopio	Finland	 1475
 Kuortane	Finland	    4
 Kurkijoki	Finland	    1
-Kuusankoski	Finland	    1
 Kylmäkoski	Finland	    1
-Kymi	Finland	    1
 Kyrö	Finland	    1
 La Chapelle-Montligeon	France	    1
-Lahti	Finland	  160
-Laihia	Finland	   10
+Lahti	Finland	  133
+Laihia	Finland	    9
 Laihiala	Finland	    1
 Laitila	Finland	    4
 Lammi	Finland	    1
 Landskrona	Sweden	    1
-Lappeenranta	Finland	   55
-Lapua	Finland	   31
+Lappeenranta	Finland	   40
+Lapua	Finland	   30
 Lausanne	Switzerland	    1
 Le mans	France	    1
 Leeuwarden	Netherlands	    3
@@ -219,10 +212,10 @@ Lohja	Finland	    3
 Lohtaja	Finland	    1
 Loimaa	Finland	    1
 Loimijoki	Finland	    1
-London	England	  165
-Loviisa	Finland	   29
+London	England	  162
+Loviisa	Finland	   26
 Luleå	Sweden	    2
-Lund	Sweden	   51
+Lund	Sweden	   50
 Lviv	Ukraine	    1
 Lybeck	Germany	   11
 Maaninka	Finland	    1
@@ -234,13 +227,12 @@ Malmö	Sweden	    4
 Mänttä	Finland	    1
 Mäntyharju	Finland	    1
 Marburg	Germany	    4
-Mariehamn	Finland	   66
+Mariehamn	Finland	   54
 Marttila	Finland	    1
 Messina	Finland	    1
-Mikkeli	Finland	  240
+Mikkeli	Finland	  200
 Milan	Italy	    5
 Milwaukee Wi	USA	    1
-Minneapolis Mn	USA	    1
 Montpellier	France	    1
 Montreal	Canada	    2
 Moscow	Russia	   38
@@ -249,14 +241,13 @@ Mustasaari	Finland	    2
 Mustiala	Finland	    2
 Mustio	Finland	    1
 Naantali	Finland	    2
-Nanaimo BC	Canada	    1
 Naples	Italy	    3
-Närpiö	Finland	    2
+Närpiö	Finland	    1
 Narva	Estonia	    6
 Neuchatel	Switzerland	    1
 New Haven Ct	USA	    2
-New York	USA	  167
-New York Mills Mn	USA	   10
+New York	USA	  157
+New York Mills Mn	USA	    9
 Nizza	Italy	    1
 Nokia	Finland	    1
 Noormarkku	Finland	    1
@@ -276,18 +267,17 @@ Oradea	Romania	    1
 Orimattila	Finland	    1
 Orismala	Finland	    1
 Orivesi	Finland	    4
-Oslo	Norway	   36
+Oslo	Norway	   33
 Otava	Finland	    1
 Ottawa	Canada	    2
 Oulainen	Finland	    1
-Oulu	Finland	  652
+Oulu	Finland	  578
 Oxford	England	    4
 Padova	Italy	    1
 Paimio	Finland	    1
 Pännäinen	Finland	    1
-Parainen	Finland	    6
-Parikkala	Finland	    3
-Paris	France	  148
+Parainen	Finland	    5
+Paris	France	  146
 Parkano	Finland	   20
 Pärnu	Estonia	   11
 Perho	Finland	    1
@@ -296,26 +286,25 @@ Pernaja	Finland	    7
 Petäjävesi	Finland	    2
 Philadelphia Pa	USA	    2
 Pieksämäki	Finland	    1
-Pietarsaari	Finland	   76
+Pietarsaari	Finland	   62
 Pihlava	Finland	    2
 Piikkiö	Finland	    6
 Pinjainen	Finland	    1
 Pistoia	Finland	    1
-Pori	Finland	  714
-Port Arthur On	Canada	   28
+Pori	Finland	  646
+Port Arthur On	Canada	   22
 Portland Or	USA	    1
-Porvoo	Finland	 3746
+Porvoo	Finland	 3685
 Poznan	Poland	    1
 Prague	Czech Republic	    1
 Purleigh	England	    1
 Quedlinburg	Germany	    1
-Quincy Ma	USA	    7
-Raahe	Finland	   30
+Quincy Ma	USA	    6
+Raahe	Finland	   24
 Rääkkylä	Finland	    1
-Räisälä	Finland	    1
 Raisio	Finland	    1
 Rantasalmi	Finland	    1
-Rauma	Finland	  251
+Rauma	Finland	  236
 Rautalampi	Finland	    1
 Rautio	Finland	    1
 Ravenna	Italy	    1
@@ -325,35 +314,30 @@ Regensburg	Germany	    2
 Reykjavik	Iceland	    6
 Riga	Latvia	   42
 Rock Island IL	USA	    3
-Rock Springs WY	USA	    1
 Rome	Italy	    8
 Rostock	Germany	   56
 Rotterdam	Netherlands	    1
-Rovaniemi	Finland	    4
+Rovaniemi	Finland	    1
 Sääksmäki	Finland	    3
 Saarijärvi	Finland	    2
 Sairala	Finland	   12
-Säkkijärvi	Finland	    1
 Sakkola	Finland	    1
-Salmi	Finland	    1
-Salo	Finland	    8
-Sandstone Mi	USA	    1
+Salo	Finland	    7
 Sarvilahti	Finland	    1
 Sauvo	Finland	    1
-Savonlinna	Finland	   95
+Savonlinna	Finland	   80
 Schwerin	Germany	    1
 Seattle WA	USA	    4
-Seinäjoki	Finland	    4
+Seinäjoki	Finland	    3
 Siena	Italy	    1
 Simola	Finland	    1
-Sipoo	Finland	    2
 Skara	Sweden	   28
 Smithville Mn	USA	    2
 Sorau	Poland	    2
-Sortavala	Russia	  545
+Sortavala	Russia	  519
 St Louis Kaunti Mi	USA	    1
-St Petersburg	Russia	  622
-Stockholm	Sweden	 3977
+St Petersburg	Russia	  608
+Stockholm	Sweden	 3955
 Stockton	England	    2
 Stralsund	Germany	    3
 Strängnäs	Sweden	   26
@@ -362,29 +346,29 @@ Stuttgart	Germany	   20
 Sundsvall	Sweden	    1
 Suomussalmi	Finland	    2
 Suonenjoki	Finland	    1
-Superior Wi	USA	   14
+Superior Wi	USA	   13
 Szczecin	Poland	    4
 Taipalsaari	Finland	    1
-Tallinn	Estonia	   51
+Tallinn	Estonia	   50
 Tammela	Finland	    1
-Tammisaari	Finland	  162
-Tampere	Finland	 2461
-Tartu	Estonia	  215
-Terijoki	Finland	    8
+Tammisaari	Finland	  146
+Tampere	Finland	 2233
+Tartu	Estonia	  214
+Terijoki	Finland	    7
 Terni	Finland	    1
 Tervonsalmi	Finland	    1
 The Hague	Netherlands	    2
 Toholampi	Finland	    1
 Tomsk	Russia	    1
 Torgelow	Germany	    1
-Tornio	Finland	   11
+Tornio	Finland	    9
 Trieste	Italy	    2
-Tromsö	Norway	    5
+Tromsö	Norway	    4
 Trondheim	Norway	    1
 Tsingshi	China	    1
 Tubingen	Germany	    7
 Turenki	Finland	   16
-Turku	Finland	13649
+Turku	Finland	13418
 Turtle Lake Wi	USA	    1
 Tuusula	Finland	    1
 Tyrnävä	Finland	    1
@@ -392,18 +376,14 @@ Tyrvää	Finland	    2
 Ugra	Russia	    1
 Ulm	Germany	    1
 Uppsala	Sweden	  752
-Urjala	Finland	    2
+Urjala	Finland	    1
 USA	USA	    1
 Utrecht	Netherlands	    8
-Uusikaarlepyy	Finland	   23
-Uusikaupunki	Finland	   58
-Uusikirkko	Finland	    1
-Vaasa	Finland	 3494
-Vainikkala	Finland	    1
+Uusikaarlepyy	Finland	   20
+Uusikaupunki	Finland	   45
+Vaasa	Finland	 3393
 Valamo	Finland	    1
 Valkjärvi	Finland	    1
-Vammala	Finland	    1
-Vantaa	Finland	    1
 Västerås	Sweden	   25
 Venice	Italy	    2
 Verona	Italy	    1
@@ -417,7 +397,7 @@ Virolahti	Finland	    2
 Visingsborg	Sweden	    5
 Vjatka	Russia	    1
 Vreta	Sweden	    1
-Vyborg	Russia	 1218
+Vyborg	Russia	 1104
 Wandsbek	Germany	    2
 Warsaw	Poland	    9
 Weida	Germany	    1
@@ -428,9 +408,9 @@ Wittenberg	Germany	   39
 Worcester Ma	USA	    8
 Wurzburg	Germany	    1
 Ylimarkku	Finland	    1
-Ylistaro	Finland	    2
+Ylistaro	Finland	    1
 Ylivieska	Finland	    1
 York	England	    1
 Ypäjä	Finland	    2
 Zürich	Germany	    7
-NA	NA	 2927
+NA	NA	 2718

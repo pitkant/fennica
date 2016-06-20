@@ -1,5 +1,5 @@
 Name	Count
-Total count: 	20766
+Total count: 	20755
 hautajaiset	1528
 häät	1087
 etsintäkuulutukset	1072
@@ -407,7 +407,6 @@ luonnonvarat;talous	   5
 maanpuolustus	   5
 maastamuutto	   5
 maastokartat;pitäjät;kartat	   5
-matkaoppaat	   5
 merikartat;haaksirikot;kartat	   5
 moraali;raittius	   5
 pakkohuutokauppa;perintötilat;Kuortane	   5
@@ -445,7 +444,6 @@ viinat;myynti	   5
 viinat;myynti;rajoitukset	   5
 vilja;hinnat	   5
 yliopistot;tutkintotodistukset	   5
-aikakauslehdet	   4
 akatemiat;juhlamenot	   4
 arkkiveisut	   4
 arkkiveisut;joulu;virret	   4
@@ -623,7 +621,6 @@ kahvi	   3
 kalastus;helmet	   3
 kansankertomukset	   3
 kansanlaulut;suomenruotsalaiset	   3
-käsikirjat	   3
 kauppa	   3
 kaupungit;kiinteistöt;tontit;asemakaavoitus;opaskartat;kartat	   3
 kinkerit	   3
@@ -771,6 +768,7 @@ yliopistot;juhlamenot;Turku;rakennukset	   3
 yliopistot;juhlamenot;Turku;uskonpuhdistus	   3
 yliopistot;opettajat;Turku	   3
 yliopistot;osakunnat;historia	   3
+aikakauslehdet	   2
 akatemiat	   2
 alioikeudet;tuomiot;sakko	   2
 alioikeudet;tuomiot;valitukset	   2
@@ -999,6 +997,7 @@ markkinat;Kristiinankaupunki	   2
 matematiikka;tähtitiede	   2
 matkailukartat;rautatiet;kartat	   2
 matkailukartat;saaristot;kartat	   2
+matkaoppaat	   2
 matkaoppaat;pyöräily;pyöräilyreitit	   2
 merenkulkijat;erivapaus;värväys	   2
 merimiehet;rangaistukset	   2
@@ -1363,7 +1362,6 @@ aviorikokset;rangaistukset;uskonnolliset vähemmistöt	   1
 avustuskassat;armeijat	   1
 avustuskassat;armeijat;eläkekassat;yliopistot;avustukset	   1
 avustuskassat;lesket;orvot	   1
-bibliografiat	   1
 bibliografiat;tieteellinen julkaisutoiminta;oppihistoria;tiedemiehet	   1
 bibliografiat;tieteellinen julkaisutoiminta;oppihistoria;yliopistot;historia;tiedemiehet;väitöskirjat;promootiot	   1
 Carlbohm, Johan Arvid;palovakuutus	   1
@@ -1717,7 +1715,6 @@ järjestyshäiriöt;kirkkorakennukset;kirkkokuri;juopumus	   1
 järjestyshäiriöt;krouvit;kylät	   1
 järjestyshäiriöt;rangaistukset;juopumus	   1
 järjestyshäiriöt;saaristot	   1
-jäsenluettelot;toimihenkilöt;osakunnat;yliopistot	   1
 jätehuolto	   1
 jesuiitat;juhlamenot	   1
 jesuiitat;opiskelu	   1
@@ -2308,7 +2305,6 @@ matkailu;majoitus;matkailureitit	   1
 matkailu;matkaoppaat;matkailureitit	   1
 matkailu;Turun tuomiokirkko	   1
 matkaoppaat;tiekartat	   1
-matrikkelit	   1
 matrikkelit;jäsenistö;osakunnat;yliopistot	   1
 matrikkelit;osakunnat;yliopistot	   1
 melonta;urheiluseurat	   1

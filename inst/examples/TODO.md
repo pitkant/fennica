@@ -6,11 +6,6 @@ TODO
 Gatherings timeline, title count, täällä näyttää aika hurjalta tuo 4to määrä
 https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure/papercompbyformat-1.png
 
-Filtteröi "publication_frequency" ja "publication_interval"
-perusteella sarjajulkaisut pois (ei -NAt) nämä on lehtiä ja niitä
-käsitellään myöhemmin
-
-
 
 ### Krakow
 
@@ -39,12 +34,11 @@ Riksdag Gävle 26 januari 1792 24 februari 1792
 --> tapahtuuko Gävlessä selvää nousua julkaisemisessa.
 
 
-Greifswald myös mukaan yliopistoanalyysiin. osana Ruotsin valtakuntaa.
+Greifswald mukaan yliopistoanalyysiin. osana Ruotsin valtakuntaa.
 
 Lisäksi kieli, milloin alkaa erityisesti tulemaan ruotsinkielellä
-väitöksiä eri paikoissa on mielenkiintoinen kysymys. Eli tuleeko
-jostain yliopistosta erityisesti ruotsinkielistä materiaalia
-1700-luvulla.
+väitöksiä eri paikoissa on mielenkiintoinen kysymys. tuleeko jostain
+yliopistosta erityisesti ruotsinkielistä materiaalia 1700-luvulla.
 
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.

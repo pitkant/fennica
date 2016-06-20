@@ -3,15 +3,14 @@ original	pagecount	volnumber	volcount	Count
 [1] s.	   1	NA	1	1702
 16 s.	  16	NA	1	1687
 [8] s.	   8	NA	1	1610
-NA	  61	NA	1	1530
 [2] s.	   2	NA	1	1211
 8 s.	   8	NA	1	1146
 32 s.	  32	NA	1	 959
-NA	  54	NA	1	 922
 24 s.	  24	NA	1	 844
 1 kartta	   2	NA	1	 728
 15 s.	  15	NA	1	 681
 [16] s.	  16	NA	1	 678
+NA	  61	NA	1	 665
 12 s.	  12	NA	1	 648
 4 s.	   4	NA	1	 601
 [3] s.	   3	NA	1	 530
@@ -20,7 +19,6 @@ NA	  54	NA	1	 922
 14 s.	  14	NA	1	 465
 31 s.	  31	NA	1	 449
 1 lehti (verso tyhjä)	   2	NA	1	 443
-NA	  18	NA	1	 433
 40 s.	  40	NA	1	 417
 23 s.	  23	NA	1	 402
 36 s.	  36	NA	1	 400
@@ -28,17 +26,14 @@ NA	  18	NA	1	 433
 [?] s.	  18	NA	1	 382
 7 s.	   7	NA	1	 365
 22 s.	  22	NA	1	 356
-NA	  16	NA	1	 346
 30 s.	  30	NA	1	 343
 10 s.	  10	NA	1	 318
-NA	  23	NA	1	 312
 28 s.	  28	NA	1	 307
 11 s.	  11	NA	1	 303
 18 s.	  18	NA	1	 295
 1 lehti	   2	NA	1	 293
 [12] s.	  12	NA	1	 285
 19 s.	  19	NA	1	 280
-NA	   4	NA	1	 259
 39 s.	  39	NA	1	 253
 29 s.	  29	NA	1	 244
 96 s.	  96	NA	1	 237
@@ -46,7 +41,7 @@ NA	   4	NA	1	 259
 47 s.	  47	NA	1	 229
 27 s.	  27	NA	1	 225
 35 s.	  35	NA	1	 224
-26 s.	  26	NA	1	 223
+26 s.	  26	NA	1	 222
 21 s.	  21	NA	1	 221
 52 s.	  52	NA	1	 219
 80 s.	  80	NA	1	 219
@@ -57,7 +52,6 @@ NA	   4	NA	1	 259
 38 s.	  38	NA	1	 203
 44 s.	  44	NA	1	 198
 46 s.	  46	NA	1	 197
-NA	  24	NA	1	 193
 6 s.	   6	NA	1	 189
 72 s.	  72	NA	1	 186
 [6] s.	   6	NA	1	 183
@@ -194,6 +188,7 @@ NA	  24	NA	1	 193
 139 s.	 139	NA	1	  43
 [?] s.	  54	NA	1	  43
 [2], 14 s.	  16	NA	1	  43
+NA	  54	NA	1	  42
 97 s.	  97	NA	1	  42
 216 s.	 216	NA	1	  42
 [22] s.	  22	NA	1	  42
@@ -291,7 +286,6 @@ NA	  24	NA	1	 193
 239 s.	 239	NA	1	  24
 227 s.	 227	NA	1	  24
 [?] s.	   4	NA	1	  24
-NA	  68	NA	1	  24
 254 s.	 254	NA	1	  23
 194 s.	 194	NA	1	  23
 240 s.	 240	NA	1	  23
@@ -419,7 +413,6 @@ NA	  68	NA	1	  24
 356 s.	 356	NA	1	  13
 290 s.	 290	NA	1	  13
 51, [1] s.	  52	NA	1	  13
-NA	  48	NA	1	  13
 235 s.	 235	NA	1	  13
 281 s.	 281	NA	1	  13
 312 s.	 312	NA	1	  13
@@ -626,7 +619,6 @@ Kollaatio avoin	  68	NA	1	  13
 370 s.	 370	NA	1	   8
 [4], 103 s.	 107	NA	1	   8
 106, [1] s.	 107	NA	1	   8
-4:o.	  61	NA	1	   8
 [4], 60 s.	  64	NA	1	   8
 69, [1] s.	  70	NA	1	   8
 10 lehteä	  20	NA	1	   8
@@ -701,12 +693,12 @@ Kollaatio avoin	  68	NA	1	  13
 [4], 86 s.	  90	NA	1	   7
 376 s.	 376	NA	1	   7
 386 s.	 386	NA	1	   7
-8:o.	  61	NA	1	   7
 [4], 104 s.	 108	NA	1	   7
 5 lehteä	  10	NA	1	   7
 [?] lehteä	   4	NA	1	   7
 [4] s. (s. [4] tyhjä) ; 4:o.	   4	NA	1	   7
 [66] s.	  66	NA	1	   7
+NA	  68	NA	1	   7
 [34], 577, [15], 332 s.	 626	NA	1	   7
 [8-?] s.	   8	NA	1	   7
 [19] s.	  19	NA	1	   7
@@ -959,6 +951,7 @@ VIII, 162 s.	 170	NA	1	   5
 S. 1-128.	 128	NA	1	   5
 [4], 170 s.	 174	NA	1	   5
 427 s.	 427	NA	1	   5
+NA	  18	NA	1	   5
 [50] s.	  50	NA	1	   5
 [1-3] 4-15 [16] s. (s. [16] tyhjä)	  16	NA	1	   5
 [6], 66 s.	  72	NA	1	   5
@@ -1174,9 +1167,8 @@ S. 1-192.	 192	NA	1	   4
 113, [2] s.	 115	NA	1	   4
 227, [1] s.	 228	NA	1	   4
 158, [2] s.	 160	NA	1	   4
-NA	  28	NA	1	   4
-8:o.	  23	NA	1	   4
 1 lehti; verso tyhjä	   2	NA	1	   4
+NA	   4	NA	1	   4
 [2], 111 s.	 113	NA	1	   4
 [2], 77 s.	  79	NA	1	   4
 11 lehteä	  22	NA	1	   4
@@ -2679,7 +2671,6 @@ VII, 171 s.	 178	NA	1	   2
 [51] s.	  51	NA	1	   2
 628 s.	 628	NA	1	   2
 388 s.	 388	NA	1	   2
-fol.	  23	NA	1	   2
 [10], 31, [1] s.	  42	NA	1	   2
 [4], 37, [3] s.	  44	NA	1	   2
 [10], 18 s.	  28	NA	1	   2
@@ -3214,7 +3205,6 @@ viii, 245 s., [1] karttalehti (taitettuna)	 255	NA	1	   1
 244, 88 s., 6 lehteä (taitettuina), [1] karttalehti (taitettuna)	 258	NA	1	   1
 235, 65, [9] s.	 244	NA	1	   1
 VIII, 425, [3] s.	 436	NA	1	   1
-27 cm.	  27	NA	1	   1
 152, [3] s., [1] karttalehti (taitettuna)	 157	NA	1	   1
 99-122 s.	  24	NA	1	   1
 73-98 s.	  26	NA	1	   1
@@ -3728,7 +3718,6 @@ X, 214, [1] s.	 225	NA	1	   1
 VI, 194, [2] s.	 202	NA	1	   1
 XV, 314, [7] s.	 336	NA	1	   1
 27, [1] ; 40 ; 74 ; 28 s.	 170	NA	1	   1
-25 cm.	  25	NA	1	   1
 S. 41-96, 96 s.	  96	NA	1	   1
 VIII, 439, [1] s.	 448	NA	1	   1
 173 s. +	 173	NA	1	   1
@@ -5472,7 +5461,6 @@ S. 1-291.	 291	NA	1	   1
 36 s., taulu.	  36	NA	1	   1
 [4], 390 s.	 394	NA	1	   1
 672 s., kartta	 672	NA	1	   1
-34 cm.	  34	NA	1	   1
 1086 s. useina jaksoina, [1] kuvalehti	   2	NA	1	   1
 27 s., 6 lehteä kaavoja.	  27	NA	1	   1
 [2], IV, 106, [1] s.	 113	NA	1	   1
@@ -5993,7 +5981,6 @@ S. 1-816.	 816	NA	1	   1
 211, LIX s., [1] karttalehti (taitettuna)	 272	NA	1	   1
 VIII, 102 s., 1 karttal.	 112	NA	1	   1
 IX, 115 s.	 124	NA	1	   1
-/listredo.	  61	NA	1	   1
 183 s., 21 kuval.	 225	NA	1	   1
 [4], 72 s., 2 kuval.	  80	NA	1	   1
 VI, 149, XXVI s.	 175	NA	1	   1
@@ -6633,7 +6620,6 @@ IV, 127 s.	 131	NA	1	   1
 [4], III, 140 s.	 147	NA	1	   1
 [6], 122, [1] s.	 129	NA	1	   1
 [2], 131 s., 4 kuvalehteä	 141	NA	1	   1
-30 cm.	  30	NA	1	   1
 [3], 304 s.	 307	NA	1	   1
 [4], 205, [2] s.	 211	NA	1	   1
 105, 69 s.	 105	NA	1	   1
@@ -6812,7 +6798,6 @@ IX, 553 s.	 562	NA	1	   1
 VIII, 181 s.	 189	NA	1	   1
 XV, [1], 711, [1] s.	 728	NA	1	   1
 [3], 76 s.	  79	NA	1	   1
-723 s.	 723	NA	1	   1
 115 s., 4 kuvalehteä	 123	NA	1	   1
 IV, 60 s., 1 kuvaliite	  64	NA	1	   1
 VIII, 415 s.	 423	NA	1	   1
@@ -6822,7 +6807,6 @@ XXV, 227 s.	 252	NA	1	   1
 V, 274, III, [13] s.	 292	NA	1	   1
 52 s., kuva	  52	NA	1	   1
 [2] s., 23 kuvalehteä	  48	NA	1	   1
-4c 4:o.	  61	NA	1	   1
 78, [2] s., 4 taulua värinäytteitä.	  80	NA	1	   1
 [6], 66 s., kartta	  72	NA	1	   1
 IV, 400 s.	 404	NA	1	   1
@@ -8143,7 +8127,6 @@ IV + 200 s.	 204	NA	1	   1
 563, [3] s.	 566	NA	1	   1
 656, [4] s.	 660	NA	1	   1
 [6], 342 s., 1 port.	 348	NA	1	   1
-fol.	  61	NA	1	   1
 [2] s. + sid. 201-273, [1] s.	 274	NA	1	   1
 XVI, 436 s.	 452	NA	1	   1
 43 s., 3 pl.	  49	NA	1	   1
@@ -11916,7 +11899,6 @@ VI, [4], 306 s., kuval.	 320	NA	1	   1
 [4], 148, [1] s.	 153	NA	1	   1
 [4], 166  s.	 170	NA	1	   1
 [4], 78, [2], 52 s.	  84	NA	1	   1
-21 cm.	  21	NA	1	   1
 56, [6] s.	  62	NA	1	   1
 XI, 104 s.	 115	NA	1	   1
 [2], IV, [2], 204 s.	 212	NA	1	   1
@@ -12023,7 +12005,6 @@ VIII, 872, [2] s.	 882	NA	1	   1
 42 s., taululiite	  42	NA	1	   1
 IV, 76 s., 3 kuvalehteä, taulu- ja karttaliite	  86	NA	1	   1
 S. 69-132, taululiite	  64	NA	1	   1
-29 cm.	  29	NA	1	   1
 [4], LIV, 327 s.	 385	NA	1	   1
 [8], 317 s., muotokuva	 325	NA	1	   1
 [4], 958 s.	 962	NA	1	   1
@@ -12856,7 +12837,6 @@ VIII, 292 s.	 300	NA	1	   1
 61 s., 5 karttaliitettä	  71	NA	1	   1
 93 s., liite.	  93	NA	1	   1
 [4], IV, 59 s., 3 karttaliitettä	  73	NA	1	   1
-NA	  94	NA	1	   1
 XVI, [2], 666, 170, [1], 99, [3], VIII s.	 688	NA	1	   1
 V, 272, [9] s.	 286	NA	1	   1
 S. 9-33.	  25	NA	1	   1
@@ -12936,9 +12916,6 @@ X, 338 s.	 348	NA	1	   1
 583 s.	 583	NA	1	   1
 439 s., [2] karttalehteä taitettuna	 443	NA	1	   1
 70 irtokuval. salkussa	  18	NA	1	   1
-28 cm.	  28	NA	1	   1
-4:o.	  23	NA	1	   1
-22 cm.	  22	NA	1	   1
 [2], 63, [3] s.	  68	NA	1	   1
 [4] s., s. [25]-33, [1] s.	  38	NA	1	   1
 [2], 370 [po. 371], [1] s., [1] kuvalehti	 376	NA	1	   1

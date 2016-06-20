@@ -7,11 +7,11 @@ output: markdown_document
 
 ### Publication places
 
- * 434 [publication places](output.tables/publication_place_accepted.csv)
+ * 414 [publication places](output.tables/publication_place_accepted.csv)
  * 33 [publication countries](output.tables/country_accepted.csv) 
- * Publication place is identified for 68321 documents (96%). 
- * Publication country is identified for 68317 documents (96%).
- * 98.9% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.09``% of the documents have missing geocoordinates.
+ * Publication place is identified for 65181 documents (96%). 
+ * Publication country is identified for 65177 documents (96%).
+ * 99% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.04``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first)
@@ -28,10 +28,10 @@ Top-20 publication places are shown together with the number of documents.
 
 |Country |Documents (n) | Fraction (%)|NA |         NA|
 |:-------|:-------------|------------:|:--|----------:|
-|Finland |A             |        58074|A  | 81.5096564|
-|Sweden  |B             |         5072|B  |  7.1187963|
-|Russia  |C             |         2435|C  |  3.4176398|
-|USA     |D             |          810|D  |  1.1368740|
-|Germany |E             |          764|E  |  1.0723108|
-|Estonia |F             |          285|F  |  0.4000112|
+|Finland |A             |        55193|A  | 81.2869114|
+|Sweden  |B             |         5049|B  |  7.4360447|
+|Russia  |C             |         2280|C  |  3.3579287|
+|Germany |D             |          762|D  |  1.1222551|
+|USA     |E             |          750|E  |  1.1045818|
+|Estonia |F             |          283|F  |  0.4167955|
 

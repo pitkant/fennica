@@ -39,7 +39,12 @@ df.preprocessed$longitude[nainds] <- gctmp$lon[match(df.preprocessed$publication
 
 # ----------------------------------------------------------------------
 
-## HERE WE COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS !!!
+## COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS !!!
+
+
+# Recognize issues: those that have publication interval or frequency defined
+df.preprocessed$issue <- !is.na(df.preprocessed$publication_interval) | !is.na(df.preprocessed$publication_frequency)
+
 
 # Publication interval
 inds <- which(!is.na(df.preprocessed$publication_interval))

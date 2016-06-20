@@ -8,8 +8,8 @@ output: markdown_document
 
 ### Titles
 
- * 56603 [unique titles](output.tables/title_accepted.csv)
- * 71245 documents (100%) have a title
+ * 53823 [unique titles](output.tables/title_accepted.csv)
+ * 67896 documents (100%) have a title
  * [Discarded titles](output.tables/title_discarded.csv)
  <!--* [Title harmonization table](output.tables/title_conversion_nontrivial.csv)-->
 

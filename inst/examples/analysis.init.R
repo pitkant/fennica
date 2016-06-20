@@ -26,5 +26,13 @@ df0 <- readRDS(datafile)
 df.orig <- readRDS(datafile.orig)
 
 # Year limits
-df <- filter(df0, publication_year >=  min(timespan) & publication_year <= max(timespan))
+df <- filter(df0,
+        publication_year >=  min(timespan) & publication_year <= max(timespan))
+
+# Remove issues for now
+df <- filter(df, !issue)
+
+# Store
 df.preprocessed <- df.preprocessed.orig <- df
+
+
