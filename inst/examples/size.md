@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 4892 documents and updated (changed) for 0 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 4858 documents and updated (changed) for 0 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -71,22 +71,22 @@ Multi-volume documents average page counts are given per volume.
 |:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|----------------:|------------------:|-------:|
 |1to           |                 1.97|                    2.0|         473|NA                  |NA                    |         NA|               NA|                 NA|      NA|
 |2long         |                95.25|                   99.5|           4|NA                  |NA                    |         NA|            47.00|               47.0|       1|
-|2fo           |                13.45|                    4.0|        3205|NA                  |NA                    |         NA|            17.98|               16.0|     755|
+|2fo           |                13.63|                    4.0|        3205|NA                  |NA                    |         NA|            17.94|               16.0|     753|
 |4long         |                69.50|                   28.0|         206|NA                  |NA                    |         NA|            23.41|               19.0|     148|
-|4to           |                36.33|                   12.0|       15657|NA                  |NA                    |         NA|            20.26|               18.0|    7545|
+|4to           |                36.38|                   12.0|       15657|NA                  |NA                    |         NA|            20.26|               18.0|    7544|
 |6to           |                99.97|                   64.0|          29|NA                  |NA                    |         NA|            20.92|               13.0|      12|
 |8long         |               210.27|                  112.0|          99|NA                  |NA                    |         NA|            24.80|               24.0|      15|
-|8vo           |               103.40|                   54.0|        7774|NA                  |NA                    |         NA|            24.53|               24.0|    3137|
+|8vo           |               103.95|                   54.0|        7774|NA                  |NA                    |         NA|            24.53|               24.0|    3137|
 |12long        |               388.14|                  244.0|           7|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|12mo          |               112.47|                   68.0|        3234|NA                  |NA                    |         NA|            29.77|               28.0|    1296|
+|12mo          |               112.57|                   68.0|        3234|NA                  |NA                    |         NA|            29.79|               28.0|    1296|
 |16long        |               159.00|                  159.0|           1|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|16mo          |               106.47|                   48.0|        1665|NA                  |NA                    |         NA|            30.59|               32.0|     817|
+|16mo          |               106.48|                   48.0|        1665|NA                  |NA                    |         NA|            30.59|               32.0|     817|
 |18mo          |               244.88|                  199.0|           8|NA                  |NA                    |         NA|            44.00|               44.0|       1|
 |20to          |               209.00|                  209.0|           1|NA                  |NA                    |         NA|               NA|                 NA|      NA|
-|24mo          |               300.00|                  178.0|          12|NA                  |NA                    |         NA|            32.00|               32.0|       1|
+|24mo          |               302.00|                  184.0|          12|NA                  |NA                    |         NA|            32.00|               32.0|       1|
 |32mo          |               227.89|                   94.0|          57|NA                  |NA                    |         NA|            24.17|               23.5|      12|
 |64mo          |                91.50|                  112.0|           8|NA                  |NA                    |         NA|            24.00|               24.0|       1|
-|NA            |               109.68|                   61.0|       38808|NA                  |NA                    |         NA|            24.83|               23.0|   14529|
+|NA            |               109.38|                   61.0|       38808|NA                  |NA                    |         NA|            24.81|               23.0|   14562|
 
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)

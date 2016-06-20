@@ -1,50 +1,42 @@
-Pubplan
+TODO
 ==========
 
 ### Technical
+
+Gatherings timeline, title count, täällä näyttää aika hurjalta tuo 4to määrä
+https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure/papercompbyformat-1.png
 
 Filtteröi "publication_frequency" ja "publication_interval"
 perusteella sarjajulkaisut pois (ei -NAt) nämä on lehtiä ja niitä
 käsitellään myöhemmin
 
-Lisää Mikon Gender-mäpit. Tarkista että gender-mäppäykset menee oikein. 
-
-KK:lta saatu ~/proj/2014-Aatelouhinta/Sanastoja.doc - tietokantoja
-joita voitaisiin käyttää suomalaisten paikannimien, henkilönimien
-ym. validointiin.
 
 
 ### Krakow
 
-Painovapaus, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)? Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
+Kielistä: https://github.com/rOpenGov/fennica/blob/master/inst/examples/language.md Näissä pitää erityisesti analysoida niitä väitöskirjoja sekä niissä tapahtuvia muutoksia.
 
+Subject topics: voisi yrittää myös tehdä jotain pientä analyysia. Ainakin niihin yliopisto-väitöskirjoihin liittyen.
+
+Painovapaus, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)? Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
 
 Miten Valtiopäivät vaikuttaa yleisesti julkaisemiseen? Näkyykö Vapauden ajan valtiopäivät tässä erityisesti 1719 eteenpäin? Voidaanko löytää julkaisupiikkejä sen mukaan milloin on valtiopäivät? Oletus on, että pitäisi näkyä selvästi. Myös, tuleeko uusia kustantajia kenttään?
 
-
 Tarkasteltavia valtiopäiviä erityisesti:
-
 
 Riksdag Stockholm 20 januari 1719 1 juni 1719
 
-
 Riksdag Stockholm 14 maj 1734 14 december 1734
-
 
 Riksdag Stockholm 21 februari 1765 21 oktober 1766
 
-
 Riksdag Norrköping & Stockholm 22 april 1769 5 februari 1770
-
 
 Riksdag Stockholm 19 juni 1771 12 september 1772
 
-
 Riksdag Gävle 26 januari 1792 24 februari 1792
 
---> Tässä voisi katsoa että tapahtuuko Gävlessä selvää nousua julkaisemisessa.
-
-
+--> tapahtuuko Gävlessä selvää nousua julkaisemisessa.
 
 
 Greifswald myös mukaan yliopistoanalyysiin. osana Ruotsin valtakuntaa.
@@ -168,9 +160,20 @@ Self-publishing in time. Huom julkaisjakentän eri kirjoitusasuja; tekijänimill
 
 
 
-### Muuta
+### Technical, less urgent
 
-data/Fennica/lehtien_levikki.zip suomalaisiin sanomalehtiin liittyvää metadataa ja oleellisesti myös tietoa levikistä. Hankkeen puitteissa meidän tulee yhdistää nämä osaksi Fennicaa. Tämä ehdottoman tärkeää. Toisaalta, analyysi saattaisi olla järkevää aloittaa tutkimalla sanomalehtiaineistoa itsenäisesti. Olisiko mahdollista viedä nämä r-ympäristöön?
+Lisää Mikon Gender-mäpit. Tarkista että gender-mäppäykset menee oikein. 
+
+KK:lta saatu ~/proj/2014-Aatelouhinta/Sanastoja.doc - tietokantoja
+joita voitaisiin käyttää suomalaisten paikannimien, henkilönimien
+ym. validointiin.
+
+data/Fennica/lehtien_levikki.zip suomalaisiin sanomalehtiin liittyvää
+metadataa ja oleellisesti myös tietoa levikistä. Hankkeen puitteissa
+meidän tulee yhdistää nämä osaksi Fennicaa. Ehdottoman
+tärkeää. Toisaalta, analyysi saattaisi olla järkevää aloittaa
+tutkimalla sanomalehtiaineistoa itsenäisesti. Olisiko mahdollista
+viedä nämä r-ympäristöön?
 
 
 

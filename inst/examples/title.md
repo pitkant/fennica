@@ -11,7 +11,7 @@ output: markdown_document
  * 56603 [unique titles](output.tables/title_accepted.csv)
  * 71245 documents (100%) have a title
  * [Discarded titles](output.tables/title_discarded.csv)
- * [Title harmonization table](output.tables/title_conversion_nontrivial.csv)
+ <!--* [Title harmonization table](output.tables/title_conversion_nontrivial.csv)-->
 
 Top-20 titles are shown together with the number of documents.
 

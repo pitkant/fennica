@@ -34,7 +34,7 @@ Title count versus paper consumption (top publishers):
 |publisher   | titles|     paper|
 |:-----------|------:|---------:|
 |c frenckell |   1339| 0.2879009|
-|otava       |   2175| 1.1606901|
-|söderström  |   1191| 0.5468030|
+|otava       |   2175| 1.1612567|
+|söderström  |   1191| 0.5479075|
 |w londicer  |   1829| 0.1073462|
-|wsoy        |   2905| 1.1070376|
+|wsoy        |   2905| 1.1080712|
