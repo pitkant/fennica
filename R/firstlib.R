@@ -1,6 +1,6 @@
 #' @import dplyr
+#' @importFrom stats na.omit
 #' @importFrom utils adist
-#' @importFrom utils na.omit
 #' @importFrom utils read.csv
 
 globalVariables(c("published_in","publication_place"))

@@ -125,12 +125,6 @@ Riksdag Gävle 26 januari 1792 24 februari 1792
 
 
 
-### Muita Fennica tutkimuskysymyksiä
-
-Self-publishing in time. Huom julkaisjakentän eri kirjoitusasuja;
-tekijänimille ei välttämättä osata yhdistää kirjoittajakentän kanssa
-
-
 ### HR tasks
 
 Tekee yliopistopuolta Fennica-Kungliga. Samalla voisi tehdä Fennicaa
@@ -199,10 +193,15 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
 
+### Muita Fennica tutkimuskysymyksiä
+
+Self-publishing in time. Huom julkaisjakentän eri kirjoitusasuja;
+tekijänimille ei välttämättä osata yhdistää kirjoittajakentän kanssa
+
 
 ### Technical, less urgent
 
-Lisää Mikon Gender-mäpit. Tarkista että gender-mäppäykset menee oikein. 
+Gender-mäppien viimeistely. After Krakow.
 
 KK:lta saatu ~/proj/2014-Aatelouhinta/Sanastoja.doc - tietokantoja
 joita voitaisiin käyttää suomalaisten paikannimien, henkilönimien
