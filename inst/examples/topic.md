@@ -20,7 +20,7 @@ Top-20 subject topics and number of documents for each.
 
 ### Publication topic
 
-We also have the publication_topic field.
+We also have the publication_topic field. The links are invalid if the lists are empty.
 
 
 

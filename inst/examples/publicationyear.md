@@ -18,7 +18,7 @@ Publication year is available for 67899 documents (100%). The publication years 
 
 ### Publication frequency
 
-Publication frequency is available for 0 documents (0%). 
+Publication frequency is available for 0 documents (0%). The links are invalid if the lists are empty.
 
 [Publication frequency accepted](output.tables/publication_frequency_discarded.csv)
 
@@ -47,7 +47,7 @@ are multiple instances from the same earliest year, they are all
 marked as potential first editions. Later need to check if this
 information is readily available in MARC.
 
-In this data we have 2
+In this data we have 55544
 unique documents with an identical title and author. Out of these,
 5820
 have multiple occurrences, sometimes with different publication years.

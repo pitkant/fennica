@@ -8,6 +8,14 @@ TODO
 - Publisher analysis (HR)
 
 
+### Technical (urgent)
+
+Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä?
+
+Gatheringsit puuttuu puolelle dokkareista. Miksi ?
+
+
+
 ### General trends 
 
 Marjasta varten alustavia vertailuja Kungligasta suhteessa
