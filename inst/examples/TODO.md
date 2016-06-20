@@ -99,6 +99,8 @@ Turku: 1640
 
 Lund: 1666
 
+Greifwald: 1456 (Ruotsin systeemissä 1600-1815)
+
 Kungligasta kaipailtaisiin varmaan yleiset kuviot kaikki, sillä
 mielellä että voidaan verrata Fennicaan. Onhan Fennicasta nämä jo
 kunnossa? Siis yleiskatsaukset (top-auktorit yms.)  joista yleiset
