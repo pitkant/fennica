@@ -37,6 +37,37 @@ Volcount laskennat Fennicaan
 
 ### Krakow
 
+Painovapaus, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)? Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
+
+
+Miten Valtiopäivät vaikuttaa yleisesti julkaisemiseen? Näkyykö Vapauden ajan valtiopäivät tässä erityisesti 1719 eteenpäin? Voidaanko löytää julkaisupiikkejä sen mukaan milloin on valtiopäivät? Oletus on, että pitäisi näkyä selvästi. Myös, tuleeko uusia kustantajia kenttään?
+
+
+Tarkasteltavia valtiopäiviä erityisesti:
+
+
+Riksdag Stockholm 20 januari 1719 1 juni 1719
+
+
+Riksdag Stockholm 14 maj 1734 14 december 1734
+
+
+Riksdag Stockholm 21 februari 1765 21 oktober 1766
+
+
+Riksdag Norrköping & Stockholm 22 april 1769 5 februari 1770
+
+
+Riksdag Stockholm 19 juni 1771 12 september 1772
+
+
+Riksdag Gävle 26 januari 1792 24 februari 1792
+
+--> Tässä voisi katsoa että tapahtuuko Gävlessä selvää nousua julkaisemisessa.
+
+
+
+
 Greifswald myös mukaan yliopistoanalyysiin. osana Ruotsin valtakuntaa.
 
 Lisäksi kieli, milloin alkaa erityisesti tulemaan ruotsinkielellä
