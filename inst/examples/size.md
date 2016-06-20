@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Leo Lahti"
-date: "2016-06-15"
+date: "2016-06-20"
 output: markdown_document
 ---
 
@@ -76,7 +76,7 @@ Multi-volume documents average page counts are given per volume.
 |4to           |                36.33|                   12.0|       15657|NA                  |NA                    |         NA|            20.26|               18.0|    7545|
 |6to           |                99.97|                   64.0|          29|NA                  |NA                    |         NA|            20.92|               13.0|      12|
 |8long         |               210.27|                  112.0|          99|NA                  |NA                    |         NA|            24.80|               24.0|      15|
-|8vo           |               103.40|                   54.0|        7774|NA                  |NA                    |         NA|            24.53|               24.0|    3136|
+|8vo           |               103.40|                   54.0|        7774|NA                  |NA                    |         NA|            24.53|               24.0|    3137|
 |12long        |               388.14|                  244.0|           7|NA                  |NA                    |         NA|               NA|                 NA|      NA|
 |12mo          |               112.47|                   68.0|        3234|NA                  |NA                    |         NA|            29.77|               28.0|    1296|
 |16long        |               159.00|                  159.0|           1|NA                  |NA                    |         NA|               NA|                 NA|      NA|
