@@ -37,6 +37,63 @@ Volcount laskennat Fennicaan
 
 ### Krakow
 
+Greifswald myös mukaan yliopistoanalyysiin. osana Ruotsin valtakuntaa.
+
+Lisäksi kieli, milloin alkaa erityisesti tulemaan ruotsinkielellä
+väitöksiä eri paikoissa on mielenkiintoinen kysymys. Eli tuleeko
+jostain yliopistosta erityisesti ruotsinkielistä materiaalia
+1700-luvulla.
+
+Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
+(väitöskirja) käsittelee Turun yliopiston asemaa.
+
+H tekee yliopistopuolta Fennica-Kungliga. Samalla voisi tehdä Fennicaa
+yleisesti. Eli keskittyä julkaisijoihin ja uusien julkaisijoiden
+analyysiin.
+
+Yleinen tilasto "väitöskirjaksi" merkityistä teoksista (aikajana,
+julkaisupaikka) olisi hyvä Kungligan osalta. Tämä toimii lähtökohtana
+että nähdään sisällöstä jotain: milloin niitä väitöskirja-luokiteltuja
+teoksia Kungligassa on merkitty julkaistuiksi sekä missä. Tämän
+vertaaminen Fennican pohjalta samaan eli "väitöskirjaksi" täggättyihin
+on tärkeää.
+
+Yliopistojen ilmestyminen ruotsinvaltakunnassahan on:
+
+Uppsala: 1477
+
+Tartu / Dorpat / Tarto (eikös paikkakunnittain synonyymit toimi jo?): 1633
+
+Turku: 1640
+
+Lund: 1666
+
+Kungligasta kaipailtaisiin varmaan yleiset kuviot kaikki, sillä
+mielellä että voidaan verrata Fennicaan. Onhan Fennicasta nämä jo
+kunnossa? Siis yleiskatsaukset (top-auktorit yms.)  joista yleiset
+tilastot. Sitten niihin voisi toki ajaa noita samoja analyysejä joita
+tehty mm. ESTCn eri vaiheissa (esim. Liber?) niin näkee myös niistä
+vähän viitteitä eri suuntiin jos toteuttaminen ei ole mahdotonta
+(siellähän on analyysejä esim. muualla kuin Englannissa julkaistut
+aineistot jne. sama voisi hyvin kohdistua Kungligaan (muu kuin Ruotsi)
+ja Fennicaan (muu kuin Suomi).
+
+Sen jälkeen kun meillä on näitä yleisiä ja aikaisemmin tehtyjä
+analyysejä, niin ruvetaan sen jälkeen sitten miettimään mitä erityistä
+tarvitaan Fennican ja Kungigan osalta (paitsi sitten nimenomaan tämä
+uutena tuleva yliopisto-tarkastelu ja julkaisijakentän tarkastelu)
+
+Myös, jos mahdollista, niin erityisesti Marjasta varten voisi ottaa
+joitain alustavia näkymiä Kungligasta suhteessa Fennicaan
+mahdollisimman pian. Eli ihan perusjulkaisumäärien tilastointeja
+yleisesti ja paikkakunnittain. Turku vertailut näissä Upsalaan,
+Lundiin, Tukholmaan yms. kesken olisi hyvä. Lisäksi sitten niistä
+yliopistojulkaisuista olisi hyvä saada mahd. pian yleiset
+tilastolliset näkymät ja voidaan niiden avulla sitten arvioida onko
+joku mahdollisesti pahastikin vielä pielessä esim. väitöskirjoiksi
+Kungligan osalta luokiteltavissa aineistoissa. Eli jotain materiaalia
+jota vasten peilataan niitä historiallisia kysymyksiä.
+
 Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen
 yliopistojärjestelmän kaupunkeihin. Lukumäärävertailut aikajanalla ja
 ne akateemisten julkaisujen blokkaaminenhan ei pitäisi olla kovinkaan
