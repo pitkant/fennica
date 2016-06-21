@@ -10,7 +10,6 @@ TODO
 
 ### Technical (urgent)
 
-Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
 
 Gatheringsit puuttuu puolelle dokkareista. Miksi ?
 
@@ -23,12 +22,7 @@ MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä h
 Onko näissä tapauksissa tosiaan että jätetään kokonaan nuo jälkimääreet pois sivucounteista? VÄhän hankalaa muitten sääntöjen kanssa yhdistää mutta voin yrittää.
 MT: totta kai mukaan jos mahdollista. Nyt koodi ei laskenut niitä mukaan ja ajattelin että jos pakko niin jätetään pois, jos taas esim. tuon ensimmäisen saa laskemaan = 137, niin tosi hyvä.
 
-#  expect_equal(polish_physical_extent("121 s., 6 kartor och 2 tab.")$pagecount, 121)
-#  expect_equal(polish_physical_extent("11 s., 1 karta")$pagecount, 11)  MT: 13
-#  expect_equal(polish_physical_extent("12 s., 1 kuval., och musikbilaga")$pagecount, 12) MT: 16
-#  expect_equal(polish_physical_extent("17 s., [33] kuvas., [8] kuvalehteä taitettuna")$pagecount, 33) MT: 49
-#  expect_equal(polish_physical_extent("[2] s., s. 65-82, IV kuvalehteä")$pagecount, 28) MT: 36
-#  expect_equal(polish_physical_extent("[4], 87 s., 8 karttalehteä")$pagecount, 91) MT: 107
+
 
 
 Mitä meinaat että ei mukaan ? Eli että pagecount jätetään tuntemattomaksi ?
@@ -45,6 +39,9 @@ Onko tässä tosiaan oikea vastaus 2 ?
 MT: ei ole. Sori jos on jäänyt listalle.
 
 #  expect_equal(polish_physical_extent("58 s. & omsl.")$pagecount, 2)  MT: 60
+
+
+Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
 
 
 Authors: (F + K) top-100 putsaus ja yhdistely. Siitä kannattaa
