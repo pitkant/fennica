@@ -60,11 +60,14 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
-Aatehistoria ja digitaalisten  aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)). Citing with URL `r citep("http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet")`
+Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen &
+Lahti (2015) - add to
+bib](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)).
 
 Embed citations from bib files with `r citep(bib[["lahti14natcomm"]])`.
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). Citing with DOI: `r citep("10.18352/lq.10112")`
+We have prepared open data analytical ecosystem for in-depth analysis
+of such data collections `r citep("10.18352/lq.10112")`.
 
 
 
@@ -357,6 +360,8 @@ Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, 
 
 Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
+The package utilizes tools from a number of other R extensions,
+including dplyr `r citep(citation("dplyr"))`, ggplot2 `r citep(citation("ggplot2"))`, stats `r citep(citation("stats"))`, tidyr `r citep(citation("tidyr"))`.
 
 
 
@@ -384,10 +389,8 @@ Supported by Academy of Finland (grant 293316).
 bibliography(sorting = 'ynt')
 ```
 
-### Dependencies
 
-The package utilizes tools from a number of other R extensions,
-including dplyr `r citep(citation("dplyr"))`, ggplot2 `r citep(citation("ggplot2"))`, stats `r citep(citation("stats"))`, tidyr `r citep(citation("tidyr"))`.
+
 
 
 

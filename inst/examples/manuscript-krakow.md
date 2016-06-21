@@ -11,11 +11,11 @@ Introduction
 
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja) käsittelee Turun yliopiston asemaa.
 
-Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)). Citing with URL (, 2015)
+Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen & Lahti (2015) - add to bib](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)).
 
 Embed citations from bib files with (Lahti, Salojarvi, Salonen, et al., 2014).
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). Citing with DOI: (Lahti, Ilomäki, and Tolonen, 2015)
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
 Results
 -------
@@ -151,6 +151,8 @@ Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, 
 
 Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
+The package utilizes tools from a number of other R extensions, including dplyr (Wickham and Francois, 2015), ggplot2 (Wickham, 2009), stats (R Core Team, 2016), tidyr (Wickham, 2016).
+
 ### Acknowledgements
 
 Supported by Academy of Finland (grant 293316).
@@ -160,14 +162,14 @@ References
 
 ### References
 
-\[1\] L. Lahti, J. Salojarvi, A. Salonen, et al. "Tipping elements in the human intestinal ecosystem". In: *Nature Communications* 5 (Jul. 2014), p. 4344. DOI: 10.1038/ncomms5344.
+\[1\] H. Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2009. ISBN: 978-0-387-98140-6. &lt;URL: <http://ggplot2.org>&gt;.
 
-\[2\] \_Aatehistoria ja digitaalisten aineistojen mahdollisuudet | Ennen ja nyt\_. <URL:
-http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/>. 2015. <URL:
-http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/>.
+\[2\] L. Lahti, J. Salojarvi, A. Salonen, et al. "Tipping elements in the human intestinal ecosystem". In: *Nature Communications* 5 (Jul. 2014), p. 4344. DOI: 10.1038/ncomms5344.
 
 \[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
 
-### Dependencies
+\[4\] H. Wickham and R. Francois. *dplyr: A Grammar of Data Manipulation*. R package version 0.4.3. 2015. &lt;URL: <https://CRAN.R-project.org/package=dplyr>&gt;.
 
-The package utilizes tools from a number of other R extensions, including dplyr (Wickham and Francois, 2015), ggplot2 (Wickham, 2009), stats (R Core Team, 2016), tidyr (Wickham, 2016).
+\[5\] R Core Team. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing. Vienna, Austria, 2016. <URL: https://www.R-project.org/>.
+
+\[6\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.4.1. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
