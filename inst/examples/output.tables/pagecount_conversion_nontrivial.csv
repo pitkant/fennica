@@ -8,7 +8,7 @@ Total count: 	20249
 8vo	[8] s.	8	 573
 4to	[3] s.	3	 496
 4to	[16] s.	16	 475
-4to	[?] s.	18	 352
+4to	[?] s.	10	 352
 1to	1 lehti (verso tyhjä)	2	 313
 4to	[12] s.	12	 246
 4to	[20] s.	20	 189
@@ -76,7 +76,7 @@ NA	[?] s.	61	  64
 4to	[1-2] 3-8 s.	8	  22
 8vo	[40] s.	40	  21
 4to	[1-3] 4-8 s.	8	  21
-2fo	[?] s.	18	  20
+1to	[?] s.	2	  20
 4to	[1-2] 3-16 s.	16	  20
 4to	10 s.	10	  20
 4to	[2], 20 s.	22	  20
@@ -211,7 +211,7 @@ NA	[?] lehteä	4	   6
 8vo	[46] s.	46	   6
 8vo	[26] s.	26	   6
 8vo	[4-?] s.	4	   6
-4to	[8] s. (s. [2] ja [8] tyhjät)	18	   6
+4to	[8] s. (s. [2] ja [8] tyhjät)	10	   6
 4to	[8-?] s.	8	   6
 4to	[36] s. (s. [36] tyhjä)	36	   6
 4to	[16] s. (s. [16] tyhjä)	16	   6
@@ -409,7 +409,7 @@ NA	1 lehti	2	   3
 1to	[1] lehti (verso tyhjä?)	2	   3
 4to	[24] s. (s. [24] tyhjä)	24	   3
 2fo	[2-?] s.	2	   3
-4to	[4] s. (s. [2] ja [4] tyhjät)	18	   3
+4to	[4] s. (s. [2] ja [4] tyhjät)	10	   3
 4to	[4], 84 s.	88	   3
 4to	[42] s.	42	   3
 12mo	[26], 540, [12], 468 s.	578	   3
@@ -529,7 +529,7 @@ NA	34 s.	34	   2
 12mo	442, [2] s.	444	   2
 8vo	122 s.	122	   2
 8vo	140 s.	140	   2
-4to	1 nid.	18	   2
+4to	1 nid.	10	   2
 8vo	[2], [1] 2-16 s.	18	   2
 8vo	[2] s., s. 81-96	98	   2
 8vo	[2] s., s. 65-80	82	   2
@@ -619,7 +619,7 @@ NA	1 kartta kahdessa osassa	2	   2
 8vo	[54] s.	54	   2
 2fo	[14] s.	14	   2
 4to	[36] s. (s. [2] tyhjä)	36	   2
-4to	[20] s. (s. [2] ja [20] tyhjät)	18	   2
+4to	[20] s. (s. [2] ja [20] tyhjät)	10	   2
 2fo	[28] s. (s. [28] tyhjä)	28	   2
 8vo	[104] s.	104	   2
 24mo	Kollaatio avoin	184	   2
@@ -1011,7 +1011,7 @@ NA	S. 271-408, [10] s.	148	   1
 4to	[2], iv, [14], 555, [1] p., [16] leaves of plates	608	   1
 4to	[26], 763, [1] p., [26] leaves of plates	842	   1
 8vo	[2], 72 p.	74	   1
-8vo	2 vol. ([8], 303, [1] p. ; [6], 266 p.)	576	   1
+8vo	2 vol. ([8], 303, [1] p. ; [6], 266 p.)	584	   1
 8vo	140 p., [1] leaf of plates	142	   1
 8vo	[8], 224 p.	232	   1
 2long	61 p., LX leaves of plates	181	   1
@@ -1032,11 +1032,11 @@ NA	S. 271-408, [10] s.	148	   1
 8vo	[4], 39 p., [1] leaf of plates	45	   1
 8vo	[8], 556 p.	564	   1
 4to	xi, [1], 480, [4] p., [11] leaves of plates (1 folded)	518	   1
-8vo	4 vol. (xvi, 296 p., [2] leaves of plates ; x, 256 p., [4] leaves of plates ; viii, 202 p., [3] leaves of plates ; vi, 227 p., [2] leaves of plates)	1027	   1
+8vo	4 vol. (xvi, 296 p., [2] leaves of plates ; x, 256 p., [4] leaves of plates ; viii, 202 p., [3] leaves of plates ; vi, 227 p., [2] leaves of plates)	1043	   1
 4to	7 p., [1] p., [16] leaves of plates (some col.), 12 p., [1] leaf of plates	47	   1
-8vo	3 vol. (XLIV, 320 p. ; xiv, 429 p. ; vi, 382 p.)	1151	   1
+8vo	3 vol. (XLIV, 320 p. ; xiv, 429 p. ; vi, 382 p.)	1195	   1
 8vo	IV, 520 p., [3] leaves of plates	530	   1
-4to	2 vol. (xxiv, 396 p., [8] leaves of plates ; viii, 380 p., [9] leaves of plates, some col.)	818	   1
+4to	2 vol. (xxiv, 396 p., [8] leaves of plates ; viii, 380 p., [9] leaves of plates, some col.)	842	   1
 4to	28, [1] s.	29	   1
 NA	367 s., [5] kuvalehteä	377	   1
 NA	263 s., [6] kuvalehteä	275	   1
@@ -1069,7 +1069,7 @@ NA	106, 129 s.	129	   1
 4to	106 s.	106	   1
 8vo	6, [1] s.	7	   1
 8vo	12, [1] s.	13	   1
-NA	Sect. 1-3, Suppl. (262, 179, 102, 117 s.)	179	   1
+NA	Sect. 1-3, Suppl. (262, 179, 102, 117 s.)	262	   1
 8vo	591 s.	591	   1
 8long	27 s.	27	   1
 8long	53 s.	53	   1
@@ -1126,7 +1126,7 @@ NA	763 s.	763	   1
 NA	462 s.	462	   1
 NA	702 s.	702	   1
 4to	[1-3] 4-18 [19-20]	20	   1
-4to	[8] s. (s. [8] tyhjät	18	   1
+4to	[8] s. (s. [8] tyhjät	10	   1
 4to	[1] lehti.	2	   1
 4to	[1] 2-10 [11-12] s. (s. [11] tyhjä)	24	   1
 4to	[12] s. (s. [12] tyhjä	12	   1
@@ -1721,7 +1721,7 @@ NA	[16] s.	16	   1
 4to	[6], [43-]67, [1] p.	32	   1
 4to	[8], 41, [3] p., [1] leaf of plates	54	   1
 8vo	[16], 67, [1] p.	84	   1
-8vo	2 vol. (xv, [1], 471, [1] p. ; xii, 475, [1] p.)	961	   1
+8vo	2 vol. (xv, [1], 471, [1] p. ; xii, 475, [1] p.)	976	   1
 8vo	[2], [1], 2-90 s.	92	   1
 4to	[8], [54-]73, [2] p.	30	   1
 4to	[8], 53, [3] p.	64	   1
@@ -1741,7 +1741,7 @@ NA	[16] s.	16	   1
 12mo	[8], 335, [1] p.	344	   1
 4to	[4], 20 p.	24	   1
 8vo	107 p.	107	   1
-8vo	xxiv, [4], 68 p., [1] folded leaf of plates	96	   1
+8vo	xxiv, [4], 68 p., [1] folded leaf of plates	98	   1
 8vo	vii, [1], 232 p., [10] folded leaves of plates	260	   1
 12mo	xxiv, [4], 216 p., [10] folded leaves of plates	264	   1
 8vo	xxiv, [4], 184 p., [10] folded leaves of plates	232	   1
@@ -1822,7 +1822,7 @@ NA	[?:o]	61	   1
 4to	[4] s. (s. [2] tyhjä	4	   1
 4to	[10] s. (s. [2] tyhjä)	10	   1
 4to	[8?] s.	8	   1
-4to	[8] s. (s. [2] ja [8] tyhjät	18	   1
+4to	[8] s. (s. [2] ja [8] tyhjät	10	   1
 4to	s. 7-19 [20]	20	   1
 4to	[6-?] s.	6	   1
 8vo	[2-?] s.	2	   1
@@ -1864,13 +1864,13 @@ NA	[?:o]	61	   1
 4to	[2] s. (verso tyhjä)	2	   1
 4to	[8] s. (s. [2], [7-8] tyhjät	8	   1
 NA	1 lehti.	2	   1
-4to	[12] s. (s. [2] ja [12] tyhjät)	18	   1
+4to	[12] s. (s. [2] ja [12] tyhjät)	10	   1
 4to	[1-3] 4-143 [144] s (s. [144] tyhjä)	144	   1
 4to	[40] s; s. [40] tyhjä	40	   1
 4to	2[-?] s.	2	   1
 8vo	4 l.	54	   1
 2fo	[62] s.	62	   1
-4to	6 l.	18	   1
+4to	6 l.	10	   1
 8long	[16] s.	16	   1
 4to	S. [259]-308	50	   1
 4to	32, [2] s.	34	   1
@@ -1906,7 +1906,7 @@ NA	[68] s. +	68	   1
 8vo	[16], 1-64 [65-196] s.	212	   1
 4to	[14?] s.	14	   1
 8vo	[1-2] 3-179 140 [po. 180] [181-182] s. (s. [2] ja [182] tyhjät)	182	   1
-4to	[20] s. (s. [2] ja [4] tyhjät)	18	   1
+4to	[20] s. (s. [2] ja [4] tyhjät)	10	   1
 NA	[24] s.	24	   1
 4to	[12], 262 [po. 264], [40] s.	316	   1
 4to	[8], [1] 2-59 [60] s.	127	   1
@@ -1931,7 +1931,7 @@ NA	[24] s.	24	   1
 8vo	47, [3] s.	50	   1
 4to	[1-3] 4-6 s. (s. [2] tyhjä)	6	   1
 4to	[4] s., s. 113-231, [1] s.	236	   1
-4to	1[-?] lehteä	18	   1
+4to	1[-?] lehteä	10	   1
 4to	[5] lehteä	10	   1
 4to	[6] lehteä	12	   1
 4to	[18] lehteä	36	   1
@@ -2176,7 +2176,7 @@ NA	[52] s.	52	   1
 4to	[8], 1-17 [18-20] s.	28	   1
 8vo	[6], 45-94 s.	56	   1
 8vo	[6], [1] 2-50 s.	56	   1
-4to	1[16] s.	18	   1
+4to	1[16] s.	10	   1
 8vo	[8], [1] 2-32 [33-40] s.	49	   1
 8vo	[2], 1-37 8 [po. 38] [39-40] s. (s. [2] tyhjä)	42	   1
 4to	[16]	16	   1
@@ -2298,7 +2298,7 @@ NA	[15 arkkia].	30	   1
 8vo	[8], 29, [3] s.	40	   1
 8vo	[112] s.	112	   1
 4to	[2], 1-16 s.	18	   1
-4to	[16] s. (s. [2] ja [16] tyhjät)	18	   1
+4to	[16] s. (s. [2] ja [16] tyhjät)	10	   1
 8vo	[2], [1] 2-11 [12] s.	25	   1
 8vo	[2] s., s. 291-320, [2] s.	324	   1
 8vo	S. [2], 129-160	34	   1
@@ -2318,7 +2318,7 @@ NA	[15 arkkia].	30	   1
 8vo	[1] lehti	2	   1
 12mo	[4], [24], 1-286, [279], 1-105, [116 tai 122]	593	   1
 12mo	[20], 1011, [9] s.	1040	   1
-4to	Kollaatio avoin	18	   1
+4to	Kollaatio avoin	10	   1
 4to	[16], [1] 2-248 [249-608] s.	625	   1
 8vo	[4], [12], [1] 2-1148 [1149-1160]	1177	   1
 4to	[16], 216, [8], [354] s.	594	   1
@@ -2495,13 +2495,13 @@ NA	[15 arkkia].	30	   1
 8vo	[3], [1] 2-312 398 [po. 313] 314-385 l.	388	   1
 8vo	[16], [1] 2-197 108 [po. 198] 199-200 s.	216	   1
 4to	[100], 1135, [29], 308 s.	1264	   1
-2fo	[24], 1-345, [1], 346-716 [717] l. (useita lehtinumerointivirheitä)	370	   1
+2fo	[24], 1-345, [1], 346-716 [717] l. (useita lehtinumerointivirheitä)	742	   1
 4to	[5], 1-35 lehteä	5	   1
 4to	[1], [1] 2-135 [136] l.	322	   1
 4to	[9], 1 3-12 [po. 2-11] 12-91 112-130 [po. 92-111] lehteä	9	   1
 4to	[10], CCCL, [1] lehteä	362	   1
-4to	36[-?] lehteä	18	   1
-4to	2[-?] lehteä	18	   1
+4to	36[-?] lehteä	10	   1
+4to	2[-?] lehteä	10	   1
 4to	50 lehteä	100	   1
 16mo	[16] s.	16	   1
 12mo	[2], 1-80 s. (s. [2] tyhjä)	82	   1
@@ -2578,7 +2578,7 @@ NA	[15 arkkia].	30	   1
 4to	[348] s.	348	   1
 4to	14 lehteä	28	   1
 4to	20 lehteä	40	   1
-4to	53 [54?] lehteä	18	   1
+4to	53 [54?] lehteä	10	   1
 8vo	[16], [1] 2-189 160 [po. 190] [191-192] s. (s. [192] tyhjä)	401	   1
 4to	22 lehteä	44	   1
 8vo	16, 16, 10, 12 [16?], 4 [8?] lehteä	16	   1
@@ -2698,7 +2698,7 @@ NA	[15 arkkia].	30	   1
 8vo	[46] s. (s. [2] tyhjä)	46	   1
 8vo	[70] s.	70	   1
 8vo	[12] s. (s. [12] tyhjä)	12	   1
-4to	[34] s. (s. [2] ja [34] tyhjät)	18	   1
+4to	[34] s. (s. [2] ja [34] tyhjät)	10	   1
 8vo	[152] s.	152	   1
 4to	[8], 1-30 s.	38	   1
 8vo	[26], 1-598 [599-606] s.	632	   1
@@ -3070,7 +3070,7 @@ NA	[15 arkkia].	30	   1
 4long	[2], [1] 2-70 [71-88] s. (s. [88] tyhjä)	179	   1
 4to	72, [56] s.	128	   1
 4to	[1-2] 3-41 [42-44] s.	44	   1
-4to	[22] s. (s. [2] js [22] tyhjät)	18	   1
+4to	[22] s. (s. [2] js [22] tyhjät)	10	   1
 4to	[74] s.	74	   1
 4to	[1-2] 3-31 [32] s.	32	   1
 4to	[1-3] 4-44 s.	44	   1
@@ -3094,7 +3094,7 @@ NA	[15 arkkia].	30	   1
 1to	[1] lehti ;;Versopuoli tyhjä.	2	   1
 4to	[2], [1] 2-29 [30-32] s.	35	   1
 4to	[94] s.	94	   1
-2fo	[4] s. (s. [2] ja [4] tyhjät)	18	   1
+1to	[4] s. (s. [2] ja [4] tyhjät)	2	   1
 2fo	[8], [1] 2-216 s.	224	   1
 1to	[2] s.	2	   1
 4to	122, [6] s.	128	   1
@@ -3127,7 +3127,7 @@ NA	[15 arkkia].	30	   1
 4to	[38] s. (s. [2] tyhjä)	38	   1
 4to	[56] s. (s. [56] tyhjä)	56	   1
 4to	[2], 1-27 [28] s. (s. [2] tyhjä)	30	   1
-4to	[28] s. (s. [2] ja [28] tyhjät)	18	   1
+4to	[28] s. (s. [2] ja [28] tyhjät)	10	   1
 2fo	[8], 1-39 [40] s. (s. [2] ja [40] tyhjät)	48	   1
 4to	[3], 22 (+1) s.	3	   1
 8vo	[1-3] 4-27 [28] s. (s. [28] tyhjä)	28	   1
@@ -3143,7 +3143,7 @@ NA	[15 arkkia].	30	   1
 2fo	[2], [1] 2-56 s.	58	   1
 2fo	[26] s. (s. [2] tyhjä)	26	   1
 4to	[1-3] 4-24 [25-28] s.	28	   1
-2fo	1 arkintunnukseton lehti (verso tyhjä)	18	   1
+1to	1 arkintunnukseton lehti (verso tyhjä)	2	   1
 2fo	[30] s. (s. [2] tyhjä)	30	   1
 4to	[1-3] 4-35 [36-40] s. (s. [40] tyhjä)	40	   1
 4to	[1-3] 4-23 [24-28] s.	28	   1
@@ -3370,21 +3370,21 @@ NA	[2], [1] 2-16.	18	   1
 8vo	VIII s.	8	   1
 8vo	):(4. [8] s.	54	   1
 4to	[1-7] 8-46 [47-48] s.	48	   1
-8vo	1 arkkimerkitön lehti, A8 B6. 15 lehteä, s. [2], [1] 2-28	35	   1
+8vo	1 arkkimerkitön lehti, A8 B6. 15 lehteä, s. [2], [1] 2-28	37	   1
 8vo	)(4. [8] s.	54	   1
 8vo	A-D8 E6. 38 lehteä, s. [1-3] 4-75 [76]	76	   1
 4to	[4]	4	   1
 8vo	[1-5] 6-64 s.	64	   1
-4to	)(4. [8] s.	18	   1
+4to	)(4. [8] s.	10	   1
 2fo	[49 s.	49	   1
 4to	A-B4. [16] s.	16	   1
-4to	)(4 2)(2. [12] s.	18	   1
+4to	)(4 2)(2. [12] s.	10	   1
 2fo	[(] s.	4	   1
 2fo	[4]	4	   1
-4to	A-C4. 12 numeroimatonta lehteä	18	   1
+4to	A-C4. 12 numeroimatonta lehteä	10	   1
 4to	S. [129]-130 [po. 140]	12	   1
 2fo	2 (alakkain asetettavaa) lehteä (versot tyhjät)	4	   1
-2fo	2 (alakkain asetettavaa) lehteä (versot tyhjät)	18	   1
+1to	2 (alakkain asetettavaa) lehteä (versot tyhjät)	2	   1
 4to	[2], [1] 2-44 [45-60] s.	63	   1
 4to	[2], [1] 7 [po. 2] 3-6 2 [po. 7] 8-35 [36] s.	8	   1
 8vo	[1-3] 4-46 [47-48] s. (s. [48] tyhjä)	48	   1

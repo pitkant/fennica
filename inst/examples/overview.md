@@ -57,19 +57,19 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |holder                            |        40.6|          59.4|         12071|         44|
 |corporate                         |         8.7|          91.3|         18544|        468|
 |publisher                         |         7.4|          92.6|         18800|       3250|
-|country                           |         5.9|          94.1|         19113|         20|
-|publication_place                 |         5.9|          94.1|         19116|        103|
+|publication_place                 |         5.9|          94.1|         19116|        102|
+|country                           |         5.9|          94.1|         19116|         20|
 |subject_topic                     |         5.0|          95.0|         19297|       3111|
-|pagecount.orig                    |         3.2|          96.8|         19661|        565|
+|pagecount.orig                    |         3.2|          96.8|         19661|        566|
 |obl                               |         2.7|          97.3|         19757|          3|
 |width                             |         1.4|          98.6|         20019|        139|
 |height                            |         1.4|          98.6|         20019|        142|
 |area                              |         1.4|          98.6|         20019|        217|
-|paper.consumption.km2             |         1.4|          98.6|         20019|       1264|
+|paper.consumption.km2             |         1.4|          98.6|         20019|       1262|
 |language                          |         0.2|          99.8|         20259|        143|
-|latitude                          |         0.1|          99.9|         20277|         97|
-|longitude                         |         0.1|          99.9|         20277|         97|
 |dissertation                      |         0.1|          99.9|         20280|          3|
+|latitude                          |         0.1|          99.9|         20280|         97|
+|longitude                         |         0.1|          99.9|         20280|         97|
 |publication_year_from             |         0.0|         100.0|         20300|        261|
 |synodal                           |         0.0|         100.0|         20304|          3|
 |language.Swedish                  |         0.0|         100.0|         20305|          2|
@@ -114,7 +114,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Germanic (Other)         |         0.0|         100.0|         20305|          1|
 |language.Multiple languages       |         0.0|         100.0|         20305|          2|
 |title                             |         0.0|         100.0|         20305|      16914|
-|pagecount                         |         0.0|         100.0|         20305|        564|
+|pagecount                         |         0.0|         100.0|         20305|        565|
 |gatherings.original               |         0.0|         100.0|         20305|         14|
 |obl.original                      |         0.0|         100.0|         20305|          2|
 |original_row                      |         0.0|         100.0|         20305|      20305|
@@ -123,6 +123,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_decade                |         0.0|         100.0|         20305|         31|
 |gatherings                        |         0.0|         100.0|         20305|         14|
 |volcount                          |         0.0|         100.0|         20305|          1|
+|singlevol                         |         0.0|         100.0|         20305|          2|
+|multivol                          |         0.0|         100.0|         20305|          1|
 |issue                             |         0.0|         100.0|         20305|          1|
 
 

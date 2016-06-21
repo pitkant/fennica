@@ -10,7 +10,6 @@ TODO
 
 ### Technical (urgent)
 
-
 Gatheringsit puuttuu puolelle dokkareista. Miksi ?
 
 - topic: https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md tää kai OK
@@ -18,28 +17,6 @@ MT: joo, testaillaan myös vähän saadaanko meidän aikaväliltä näistä mit�
 
 - kieli: https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md kai OK
 MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä hyvä myös.
-
-Onko näissä tapauksissa tosiaan että jätetään kokonaan nuo jälkimääreet pois sivucounteista? VÄhän hankalaa muitten sääntöjen kanssa yhdistää mutta voin yrittää.
-MT: totta kai mukaan jos mahdollista. Nyt koodi ei laskenut niitä mukaan ja ajattelin että jos pakko niin jätetään pois, jos taas esim. tuon ensimmäisen saa laskemaan = 137, niin tosi hyvä.
-
-
-
-
-Mitä meinaat että ei mukaan ? Eli että pagecount jätetään tuntemattomaksi ?
-
-MT: meinasin että ei laskettaisi näille että sivumäärä on 2. Eli hyväksyttyihin sivuihin ei mukaan. Pitäisi mennä arvion mukaan, ei määritetyn page conversionin kautta.
-
-#  expect_equal(polish_physical_extent("5 vol. i 6     2          4 = EI MUKAAN
-#  expect_equal(polish_physical_extent("6 vol. i 7     2          4 = EI MUKAAN
-#  expect_equal(polish_physical_extent("5 delar 2          3 = EI MUKAAN
-
-
-Onko tässä tosiaan oikea vastaus 2 ?
-
-MT: ei ole. Sori jos on jäänyt listalle.
-
-#  expect_equal(polish_physical_extent("58 s. & omsl.")$pagecount, 2)  MT: 60
-
 
 Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
 
