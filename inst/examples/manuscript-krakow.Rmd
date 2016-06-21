@@ -1,9 +1,55 @@
 ---
 title: "Digital History in Finland, 1488-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "June 22, 2016"
-output: markdown_document
+date: "`r Sys.Date()`"
+bibliography: 
+- bibliography.bib
+- references.bib
+output: 
+  md_document:
+    variant: markdown_github
 ---
+<!--
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{microbiome tutorial}
+  %\usepackage[utf8]{inputenc}
+-->
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Handle citations
+require(knitcitations)
+cleanbib()
+#options("citation_format" = "pandoc")
+bib <- read.bibtex("bibliography.bib")
+#opts_chunk$set(fig.width=4, fig.height=3, par=TRUE, out.width='2in', fig.pos='H')
+#knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/", dev="CairoPNG")
+knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/")
+```
+
+```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(stringr)
+library(dplyr)
+library(ggplot2)
+library(bibliographica)
+library(fennica)
+library(sorvi)
+
+# Nice theme
+theme_set(theme_bw(26))
+
+# Define time span
+min.year = 1470
+max.year = 1828
+
+# Read data
+fen <- readRDS("df.Rds")
+kun <- readRDS("../../../kungliga/antagomir/df.Rds")
+
+fen <- fen %>% filter(publication_year >= min.year & publication_year <= max.year)
+kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.year)
+```
+
+
 
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
@@ -13,9 +59,13 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
-Aatehistoria ja digitaalisten  aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/))
+Aatehistoria ja digitaalisten  aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)). Citing with URL `r citep("http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet")`
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)).
+
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). Citing with DOI: `r citep("10.18352/lq.10112")`
+
+
+
 
 ## Results
 
@@ -241,32 +291,6 @@ that there is time to do.
  * [Kungliga TODO](https://github.com/rOpenGov/kungliga/blob/master/antagomir/TODO.md)
 
 
-```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
-library(stringr)
-library(dplyr)
-library(ggplot2)
-library(bibliographica)
-library(fennica)
-library(sorvi)
-
-# Nice theme
-theme_set(theme_bw(26))
-
-# Figure path
-opts_chunk$set(fig.path = "figure_201606_Krakow/")
-
-# Define time span
-min.year = 1470
-max.year = 1828
-
-# Read data
-fen <- readRDS("df.Rds")
-kun <- readRDS("../../../kungliga/antagomir/df.Rds")
-
-fen <- fen %>% filter(publication_year >= min.year & publication_year <= max.year)
-kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.year)
-```
-
 
 ```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
 df <- fen %>% 
@@ -341,4 +365,27 @@ Supported by Academy of Finland (grant 293316).
 
 
 ## References
+
+### References
+
+```{r, echo=FALSE, message=FALSE}
+#Embed citations from bib files with `r citep(bib[["lahti14natcomm"]])`. Or with @lahti14natcomm
+#You can embed citations, for example: `r citep(bib[["lahti14natcomm"]])`
+#You can embed citations, for example2: @lahti14natcomm
+#Cite with DOI: `r citep("10.1890/11-0011.1")`
+#Cite URL `r citep("http://knowledgeblog.org/greycite")`
+#For automated markdown citations, check [this](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html), [this](https://github.com/cboettig/knitcitations), and [this](http://www.carlboettiger.info/2012/03/24/citations-in-markdown-using-knitr.html). 
+#write.bibtex(file="references.bib")
+```
+
+```{r, echo=FALSE, message=FALSE, results='asis'}
+bibliography()
+```
+
+### Dependencies
+
+The package utilizes tools from a number of other R extensions,
+including dplyr `r citep(citation("dplyr"))`, ggplot2 `r citep(citation("ggplot2"))`, stats `r citep(citation("stats"))`, tidyr `r citep(citation("tidyr"))`.
+
+
 
