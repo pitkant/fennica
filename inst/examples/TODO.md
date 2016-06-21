@@ -15,7 +15,7 @@ MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä h
 
 Single/MultiVol/Issue erottelut tulee ESTn nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
 
-gender: ainoastaan putsattu top-20 female mukaan. (F + K)
+gender: putsattu top-20 female mukaan. (F + K)
 
 
 ### General trends 
@@ -23,11 +23,8 @@ gender: ainoastaan putsattu top-20 female mukaan. (F + K)
 Alustavia vertailuja Kungligasta suhteessa Fennicaan.
 
 - perusjulkaisumäärien tilastointeja yleisesti ja paikkakunnittain
-- Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. kesken.
-- yliopistojulkaisuista mahd. pian yleiset tilastolliset näkymät ja
-  voidaan sitten arvioida onko joku mahdollisesti pahastikin vielä
-  pielessä esim. väitöskirjoiksi Kungligan osalta luokiteltavissa
-  aineistoissa.
+- Turku vertailut Upsalaan, Lundiin, Tukholmaan yms.
+
 
 Yleiset trendit (ESTC pohjilta ja vertaa siihen).
 
@@ -36,11 +33,8 @@ Yleiset trendit (ESTC pohjilta ja vertaa siihen).
 - Fennica pois lukien Suomi
 - Kungliga pois lukien Ruotsi
 - ESTC Suomessa / Ruotsissa
-
-topic:
-https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md
-testaillaan saadaanko meidän aikaväliltä näistä mitään irti (1470-1830
-tai 1640-1830).
+- topic: https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md
+  saadaanko mitään irti (1470-1830 tai 1640-1830).
 
 
 ### Book as media: development over time
@@ -148,6 +142,11 @@ Riksdag Gävle 26 januari 1792 24 februari 1792
 Tekee yliopistopuolta Fennica-Kungliga. Samalla voisi tehdä Fennicaa
 yleisesti. Eli keskittyä julkaisijoihin ja uusien julkaisijoiden
 analyysiin.
+
+- yliopistojulkaisuista mahd. pian yleiset tilastolliset näkymät ja
+  voidaan sitten arvioida onko joku mahdollisesti pahastikin vielä
+  pielessä esim. väitöskirjoiksi Kungligan osalta luokiteltavissa
+  aineistoissa.
 
 Subject topics: pientä analyysia. Ainakin yliopisto-väitöskirjoihin liittyen.
 

@@ -30,7 +30,14 @@ Top-20 publication places are shown together with the number of documents.
 ## Error in .check_names_df(x, j): undefined columns: country
 ```
 
-```
-## Error in head(pubc): object 'pubc' not found
-```
+
+
+|Country               | Documents (n)| Fraction (%)|  NA| NA|
+|:---------------------|-------------:|------------:|---:|--:|
+|parts                 |     0.0000000|    100.00000|   0|  1|
+|publication_frequency |     0.0000000|    100.00000|   0|  1|
+|uncontrolled          |     0.0000000|    100.00000|   0|  1|
+|successor             |     0.0000000|    100.00000|   0|  1|
+|volnumber             |     0.0000000|    100.00000|   0|  1|
+|publication_year_till |     0.9455799|     99.05442| 192| 98|
 

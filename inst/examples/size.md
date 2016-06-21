@@ -62,57 +62,28 @@ Compare original gatherings and original heights where both are available. The p
 
 ![plot of chunk papercompbyformat](figure/papercompbyformat-1.png)
 
-## Average page counts 
+<!--
+
+## Average page counts (only works in CERL now)
 
 Multi-volume documents average page counts are given per volume.
 
 
-```
-## Error in eval(expr, envir, enclos): could not find function "mean_pagecounts_multivol"
-```
+|doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol|mean.pages.multivol |median.pages.multivol | n.multivol|mean.pages.issue |median.pages.issue | n.issue|
+|:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|:----------------|:------------------|-------:|
+|2fo           |                 8.62|                    4.0|        2212|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|4long         |                55.27|                   26.0|         181|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|4to           |                23.24|                    8.0|       12660|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|8long         |               225.51|                  122.0|          71|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|8vo           |                83.02|                   34.0|        3436|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|12long        |               583.25|                  666.5|           4|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|12mo          |               200.53|                  100.0|         498|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|16mo          |                47.16|                   48.0|         183|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|24mo          |               453.50|                  340.5|           4|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|32mo          |               254.50|                  254.5|           2|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|64mo          |               117.33|                  128.0|           6|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|NA            |                48.36|                    5.5|         548|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 
-```
-## Error in eval(expr, envir, enclos): could not find function "mean_pagecounts_univol"
-```
-
-```
-## Error in eval(expr, envir, enclos): could not find function "mean_pagecounts_issue"
-```
-
-```
-## Error in full_join(mean.pagecounts.univol, mean.pagecounts.multivol, by = "doc.dimension"): object 'mean.pagecounts.univol' not found
-```
-
-```
-## Error in levels(mean.pagecounts.univol$doc.dimension): object 'mean.pagecounts.univol' not found
-```
-
-
-
-|doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol|mean.pages.multivol |median.pages.multivol | n.multivol|mean.pages.issue.x |median.pages.issue.x | n.issue.x|mean.pages.issue.y |median.pages.issue.y | n.issue.y|
-|:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|:------------------|:--------------------|---------:|:------------------|:--------------------|---------:|
-|2fo           |                 8.62|                    4.0|        2212|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|4long         |                55.27|                   26.0|         181|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|4to           |                23.24|                    8.0|       12660|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|8long         |               225.51|                  122.0|          71|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|8vo           |                83.02|                   34.0|        3436|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|12long        |               583.25|                  666.5|           4|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|12mo          |               200.53|                  100.0|         498|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|16mo          |                47.16|                   48.0|         183|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|24mo          |               453.50|                  340.5|           4|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|32mo          |               254.50|                  254.5|           2|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|64mo          |               117.33|                  128.0|           6|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-|NA            |                48.36|                    5.5|         548|NA                  |NA                    |         NA|NA                 |NA                   |        NA|NA                 |NA                   |        NA|
-
-
-
-```
-## Error in .check_names_df(x, j): undefined columns: median.pages.issue
-```
-
-```
-## Error in .check_names_df(x, j): undefined columns: mean.pages.issue
-```
 
 ![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
 
@@ -132,3 +103,4 @@ Only the most frequently occurring gatherings are listed here:
 |gatherings.original |mean.width |median.width |mean.height |median.height |  n|
 |:-------------------|:----------|:------------|:-----------|:-------------|--:|
 
+-->
