@@ -13,8 +13,6 @@ TODO
 - kieli: https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md kai OK
 MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä hyvä myös.
 
-Single/MultiVol/Issue erottelut tulee ESTn nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
-
 gender: putsattu top-20 female mukaan. (F + K)
 
 
@@ -24,7 +22,6 @@ Alustavia vertailuja Kungligasta suhteessa Fennicaan.
 
 - perusjulkaisumäärien tilastointeja yleisesti ja paikkakunnittain
 - Turku vertailut Upsalaan, Lundiin, Tukholmaan yms.
-
 
 Yleiset trendit (ESTC pohjilta ja vertaa siihen).
 
@@ -221,6 +218,9 @@ Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään
 1600-luvun aikana.
 
 ### Technical, less urgent
+
+Single/MultiVol/Issue erottelut tulee ESTn nojalla mutta
+kesken. Pitäiskö tehdä erikseen Fennicalle ym vai ei
 
 yksi haara sekä Kungligaa että Fennicaa jossa on koko data (joka tulee
 siis 1900-luvun puolelle), mutta sitten Krakovaa varten olisi toinen

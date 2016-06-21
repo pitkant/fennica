@@ -60,7 +60,9 @@ Compare original gatherings and original heights where both are available. The p
 
 ### Gatherings timelines
 
-![plot of chunk papercompbyformat](figure/papercompbyformat-1.png)
+<img src="figure/papercompbyformat-1.png" title="plot of chunk papercompbyformat" alt="plot of chunk papercompbyformat" width="430px" /><img src="figure/papercompbyformat-2.png" title="plot of chunk papercompbyformat" alt="plot of chunk papercompbyformat" width="430px" />
+
+
 
 <!--
 
