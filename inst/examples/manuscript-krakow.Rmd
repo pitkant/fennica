@@ -20,6 +20,7 @@ output:
 require(knitcitations)
 cleanbib()
 #options("citation_format" = "pandoc")
+cite_options(hyperlink = TRUE, max.names = 3)
 bib <- read.bibtex("bibliography.bib")
 #opts_chunk$set(fig.width=4, fig.height=3, par=TRUE, out.width='2in', fig.pos='H')
 #knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/", dev="CairoPNG")
@@ -61,6 +62,7 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 
 Aatehistoria ja digitaalisten  aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)). Citing with URL `r citep("http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet")`
 
+Embed citations from bib files with `r citep(bib[["lahti14natcomm"]])`.
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). Citing with DOI: `r citep("10.18352/lq.10112")`
 
@@ -379,7 +381,7 @@ Supported by Academy of Finland (grant 293316).
 ```
 
 ```{r, echo=FALSE, message=FALSE, results='asis'}
-bibliography()
+bibliography(sorting = 'ynt')
 ```
 
 ### Dependencies

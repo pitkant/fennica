@@ -13,6 +13,8 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)). Citing with URL (, 2015)
 
+Embed citations from bib files with (Lahti, Salojarvi, Salonen, et al., 2014).
+
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). Citing with DOI: (Lahti, Ilomäki, and Tolonen, 2015)
 
 Results
@@ -158,11 +160,13 @@ References
 
 ### References
 
-\[1\] \_Aatehistoria ja digitaalisten aineistojen mahdollisuudet | Ennen ja nyt\_. <URL:
+\[1\] L. Lahti, J. Salojarvi, A. Salonen, et al. "Tipping elements in the human intestinal ecosystem". In: *Nature Communications* 5 (Jul. 2014), p. 4344. DOI: 10.1038/ncomms5344.
+
+\[2\] \_Aatehistoria ja digitaalisten aineistojen mahdollisuudet | Ennen ja nyt\_. <URL:
 http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/>. 2015. <URL:
 http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/>.
 
-\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
+\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
 
 ### Dependencies
 
