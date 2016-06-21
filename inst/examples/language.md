@@ -23,15 +23,12 @@ Title count per language (including multi-language documents):
 ### Top languages
 
 
-```
-## Error in `[.data.frame`(x, , field): undefined columns selected
-```
-
-```
-## Error in `colnames<-`(`*tmp*`, value = c("Language", "Documents (n)", : attempt to set 'colnames' on an object with less than two dimensions
-```
-
-```
-## Error in head(pubc): object 'pubc' not found
-```
+|Language           | Documents (n)| Fraction (%)|
+|:------------------|-------------:|------------:|
+|Swedish            |          9587|         43.6|
+|Latin              |          6511|         29.6|
+|Finnish            |          3191|         14.5|
+|Multiple languages |          1795|          8.2|
+|German             |           348|          1.6|
+|French             |           306|          1.4|
 
