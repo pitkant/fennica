@@ -10,10 +10,7 @@ TODO
 
 ### Technical (urgent)
 
-- kieli: https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md kai OK
-MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä hyvä myös.
-
-gender: putsattu top-20 female mukaan. (F + K)
+Gender: putsattu top-20 female mukaan. (F + K)
 
 
 ### General trends 
