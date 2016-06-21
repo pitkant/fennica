@@ -10,38 +10,17 @@ TODO
 
 ### Technical (urgent)
 
-Gatheringsit puuttuu puolelle dokkareista. Miksi ?
-
-- topic: https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md tää kai OK
-MT: joo, testaillaan myös vähän saadaanko meidän aikaväliltä näistä mitään irti (1470-1830 tai 1640-1830).
-
 - kieli: https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md kai OK
 MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä hyvä myös.
 
-Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
+Single/MultiVol/Issue erottelut tulee ESTn nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
 
-
-Authors: (F + K) top-100 putsaus ja yhdistely. Siitä kannattaa
-kuitenkin jotain sanoa. Rajataan näissä kaikissa analyyseissä nyt
-ajanjaksoksi 1470-1830. Turussa julkaiseminen alkaa vasta
-1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta
-ennen sitä. Yksi tarkasteltava kohde voisi olla miten Turun yliopiston
-perustaminen näyttäisi vaikuttavan ruotsalaiseen julkaisukenttään
-1600-luvun aikana.
-
-- gender: ainoastaan putsattu top-20 female mukaan. (F + K)
-
-yksi haara sekä Kungligaa että Fennicaa jossa on koko data (joka tulee
-siis 1900-luvun puolelle), mutta sitten Krakovaa varten olisi toinen
-missä takarajavuosi on 1828. Eli analyysit loppuvat siihen (takaraja
-voi olla selvyyden vuoksi myös 1830).
-
+gender: ainoastaan putsattu top-20 female mukaan. (F + K)
 
 
 ### General trends 
 
-Marjasta varten alustavia vertailuja Kungligasta suhteessa
-Fennicaan.
+Alustavia vertailuja Kungligasta suhteessa Fennicaan.
 
 - perusjulkaisumäärien tilastointeja yleisesti ja paikkakunnittain
 - Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. kesken.
@@ -57,6 +36,11 @@ Yleiset trendit (ESTC pohjilta ja vertaa siihen).
 - Fennica pois lukien Suomi
 - Kungliga pois lukien Ruotsi
 - ESTC Suomessa / Ruotsissa
+
+topic:
+https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md
+testaillaan saadaanko meidän aikaväliltä näistä mitään irti (1470-1830
+tai 1640-1830).
 
 
 ### Book as media: development over time
@@ -232,8 +216,17 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 Self-publishing in time. Huom julkaisjakentän eri kirjoitusasuja;
 tekijänimille ei välttämättä osata yhdistää kirjoittajakentän kanssa
 
+Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan
+kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten
+Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään
+1600-luvun aikana.
 
 ### Technical, less urgent
+
+yksi haara sekä Kungligaa että Fennicaa jossa on koko data (joka tulee
+siis 1900-luvun puolelle), mutta sitten Krakovaa varten olisi toinen
+missä takarajavuosi on 1828. Eli analyysit loppuvat siihen (takaraja
+voi olla selvyyden vuoksi myös 1830).
 
 Gender-mäppien viimeistely. After Krakow.
 

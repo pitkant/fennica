@@ -19,3 +19,19 @@ Title count per language (including multi-language documents):
 
 ![plot of chunk summarylang](figure/summarylang-1.png)
 
+
+### Top languages
+
+
+```
+## Error in `[.data.frame`(x, , field): undefined columns selected
+```
+
+```
+## Error in `colnames<-`(`*tmp*`, value = c("Language", "Documents (n)", : attempt to set 'colnames' on an object with less than two dimensions
+```
+
+```
+## Error in head(pubc): object 'pubc' not found
+```
+

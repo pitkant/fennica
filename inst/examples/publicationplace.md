@@ -23,15 +23,14 @@ Top-20 publication places are shown together with the number of documents.
 <img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
-### Top publication countries
+### Top publication countries	
 
 
-|Country     | Documents (n)| Fraction (%)|
-|:-----------|-------------:|------------:|
-|Finland     |         14341|         70.6|
-|Sweden      |          3809|         18.8|
-|Estonia     |           256|          1.3|
-|Germany     |           255|          1.3|
-|Russia      |           228|          1.1|
-|Netherlands |            68|          0.3|
+```
+## Error in .check_names_df(x, j): undefined columns: country
+```
+
+```
+## Error in head(pubc): object 'pubc' not found
+```
 
