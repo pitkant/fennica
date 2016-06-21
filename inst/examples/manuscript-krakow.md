@@ -5,7 +5,7 @@ date: "June 22, 2016"
 output: markdown_document
 ---
 
-Digital History in Finland, 1488-1828
+Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
 ## Introduction
@@ -13,7 +13,9 @@ Digital History in Finland, 1488-1828
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
+Aatehistoria ja digitaalisten  aineistojen mahdollisuudet ([Tolonen & Lahti (2015)](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/))
 
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)).
 
 ## Results
 
@@ -249,18 +251,33 @@ that there is time to do.
 ## Conclusions
 
 
+
+
 ## Materials and Methods
 
- * Library catalogues (Fennica & Kungliga)
- * Material also from the funding application
- * Open data analytical ecosystem
- * Github links
- * Explanation
+Library catalogues contain rich metadata on...
+
+Here we analyse Fennica & Kungliga.. 
+
+Further draft text in the funding application..?
+
+
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)).
+
+In summary, the data analytical ecosystem does ..
+
+Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables..
+
+Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
+
+
+
 
 
 ### Acknowledgements
 
 Supported by Academy of Finland (grant 293316).
+
 
 ## References
 
