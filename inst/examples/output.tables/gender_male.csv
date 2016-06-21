@@ -180,9 +180,9 @@ Georg Magnus	8
 Henric	8
 Isaacus Michaelis	8
 Johan Fredric	8
-Johannes Petrus	8
-Johann Jakob	8
 Johan Philipp	8
+Johann Jakob	8
+Johannes Petrus	8
 Jonas Andreae	8
 Laurentius Johannis	8
 Nicolaus Petri	8
@@ -202,10 +202,10 @@ Gabriel Johannis	7
 Henric Jacob	7
 Jacobus Andreae	7
 Johan Hansson	7
+Johan Svensson	7
+Johann Georg	7
 Johannes Adamus	7
 Johannes Andreae	7
-Johann Georg	7
-Johan Svensson	7
 Marcus Tullius	7
 Nathanael	7
 Nicolas	7
@@ -228,12 +228,12 @@ Jacobus Johannes	6
 Jan Amos	6
 Johan Ludvig	6
 Johan Mattsson	6
+Johan Petersson	6
+Johann Gerhard	6
 Johannes Arvidi	6
 Johannes Caroli	6
 Johannes Matthiae	6
 Johannes Nicolai	6
-Johann Gerhard	6
-Johan Petersson	6
 John	6
 Matthew	6
 Olaus Johannis	6
@@ -258,6 +258,7 @@ Henricus Johannes	5
 Herman	5
 Isaac	5
 Johan Eriksson	5
+Johann Gottfried Carl Christian	5
 Johannes Gabriel	5
 Johannes Gustavus	5
 Johannes Jonae	5
@@ -265,7 +266,6 @@ Johannes Magnus	5
 Johannes Martini	5
 Johannes Olai	5
 Johannes Petrus Johannis	5
-Johann Gottfried Carl Christian	5
 Jonas Magni	5
 Jöran Wilhelm	5
 Justus	5
@@ -315,11 +315,11 @@ Johan Babtist	4
 Johan David	4
 Johan Jacob	4
 Johan Johansson	4
+Johan Samuel	4
 Johann August	4
+Johann Friedrich	4
 Johannes Christierni	4
 Johannes Simonis	4
-Johann Friedrich	4
-Johan Samuel	4
 Jonas Benedicti	4
 Jonas Svenonis	4
 Lasse	4
@@ -383,9 +383,9 @@ Henrik Georg Von	3
 Herman Emanuel	3
 Herman Hermansson	3
 Isaacus Jacobi	3
+J E	3
 Jacobus Abrahami	3
 Jacobus Nicolai	3
-J E	3
 Joachimus	3
 Johan August	3
 Johannes Bartholdi	3
@@ -433,6 +433,7 @@ Axel Magnus Von	2
 Benedictus Jacobus	2
 Berendt Otto	2
 Birger Johan	2
+C J	2
 Carl A	2
 Carl Axel Hugo	2
 Carl Conradsson	2
@@ -449,7 +450,6 @@ Casparus	2
 Christer	2
 Christianus Christierni	2
 Christiernus	2
-C J	2
 Claes Claesson	2
 Curt Friedrich Von	2
 Daniel Benedicti	2
@@ -464,8 +464,8 @@ Elavus	2
 Elias Andersson	2
 Elias Petri	2
 Eric Andersson	2
-Erich Johansson	2
 Eric Johan	2
+Erich Johansson	2
 Ericus Henrici	2
 Ericus Jacobi	2
 Erik Julius	2
@@ -512,6 +512,7 @@ Jean	2
 Jean-jacques	2
 Jeremias	2
 Joakim Jostsson	2
+Joh Georg	2
 Johan Adam	2
 Johan Albrecht	2
 Johan Fredrik Af	2
@@ -520,6 +521,8 @@ Johan Gustafsson	2
 Johan Henriksson	2
 Johan Jespersson	2
 Johan Martin	2
+Johan Theophilus	2
+Johann Matthias Christoph	2
 Johannes Alexander	2
 Johannes Benedictus	2
 Johannes Canuti	2
@@ -529,9 +532,6 @@ Johannes Ericus	2
 Johannes Fredricus	2
 Johannes Gregorii	2
 Johannes Sunonis	2
-Johann Matthias Christoph	2
-Johan Theophilus	2
-Joh Georg	2
 Jonas Laurentii	2
 Jonas Petri	2
 Jonas Simonis	2
@@ -597,16 +597,19 @@ Tobias	2
 Wilhelm Reinhold	2
 Wilhelmus Wilhelmi	2
 A A	1
+A C	1
+A E	1
+A H	1
+A S	1
 Aaron Nicolai	1
 Abraham Abrahamsson	1
+Abraham Wilhelm	1
 Abrahamus Abrahami	1
 Abrahamus Fredricus	1
 Abrahamus Fridericus	1
 Abrahamus Henrici	1
 Abrahamus Wilhelmus	1
-Abraham Wilhelm	1
 Abram	1
-A C	1
 Adam Adamsson	1
 Adam Johan	1
 Adam Ludwig	1
@@ -617,9 +620,7 @@ Adolf Robert	1
 Adolph Johan	1
 Adolphus Fridericus	1
 Adolphus Magnus	1
-A E	1
 Aeschillus Svenonis	1
-A H	1
 Alarik	1
 Alexander Fridericus	1
 Alexander Mårtensson	1
@@ -657,12 +658,11 @@ Arvid	1
 Arvid Johansson	1
 Arvidus Germundi	1
 Arwid	1
-A S	1
 August Filip	1
 August Gottlieb	1
-Augustus	1
 August Von	1
 August Wilhelm	1
+Augustus	1
 Axel Abrahamus	1
 Axel Germund	1
 Axelius Josias	1
@@ -677,6 +677,7 @@ Berenardus	1
 Birgerus Olai	1
 Börje	1
 Brynolf	1
+C J H	1
 Canutus Jacobi	1
 Carl Abraham	1
 Carl Andreas	1
@@ -725,13 +726,12 @@ Christian Dawid	1
 Christian Gotthilf	1
 Christian L	1
 Christian Ludvig	1
+Christian Von	1
 Christianus Ehrenfr	1
 Christianus Rudolphus	1
-Christian Von	1
 Christiernus E	1
 Christophorus Claudii	1
 Christophorus J	1
-C J H	1
 Claes Fredric	1
 Claes Hermansson	1
 Claes Wilhelm	1
@@ -760,17 +760,19 @@ Elias Andreae	1
 Elias Erici	1
 Elias Jacobsson	1
 Elias Johannis	1
-Emmanuel	1
 Em Mart Luth	1
+Emmanuel	1
 Engelbrekt	1
 Erasmus	1
 Eric Adolf	1
 Eric Af	1
 Eric Gustafsson	1
-Erich Erichsson	1
 Eric Ludolph	1
 Eric O	1
 Eric P	1
+Eric Von	1
+Eric Wilhelm	1
+Erich Erichsson	1
 Ericus Antoni	1
 Ericus Christophori	1
 Ericus Claudii	1
@@ -778,8 +780,6 @@ Ericus Jacobus	1
 Ericus Nicolai	1
 Ericus Pauli	1
 Ericus Thomae	1
-Eric Von	1
-Eric Wilhelm	1
 Erik Gustaf	1
 Erik Johansson	1
 Erlandus Petri	1
@@ -795,9 +795,9 @@ Francois	1
 Francois Louis	1
 Frans Isaac	1
 Franz Joachim Von	1
+Fred Joh	1
 Freder	1
 Fredericus Ferdinand	1
-Fred Joh	1
 Fredricus	1
 Fredrik Adolf	1
 Fridericus Reginaldus	1
@@ -805,6 +805,7 @@ Fridericus Wilhelmus	1
 Fried	1
 Friedrich Eberhard Von	1
 Friedrich Von	1
+G M	1
 Gabriel Christierni	1
 Gabriel Didriksson	1
 Gabriel Henrici	1
@@ -818,16 +819,15 @@ Gabriel Timotheus	1
 Georg Bogislaus	1
 Georg Carl Von	1
 Georg Caspar	1
-George G	1
 Georg Ernst	1
-Georges-louis	1
 Georg Frans	1
 Georg Freder	1
 Georg Fredrik	1
 Georg Henriksson	1
 Georg Wilhelm	1
+George G	1
+Georges-louis	1
 Gerhard Anton Von	1
-G M	1
 Göran	1
 Göran Haraldsson	1
 Gottfried	1
@@ -866,8 +866,8 @@ Henningus Paulus	1
 Henr	1
 Henri	1
 Henric Christopher	1
-Henrick	1
 Henric Larsson	1
+Henrick	1
 Henricus Adrian	1
 Henricus Claudii	1
 Henricus Esaiae	1
@@ -895,6 +895,14 @@ Israel Henrici	1
 Israel Matthiae	1
 Ivarus Ivari	1
 J A	1
+J B	1
+J G	1
+J H	1
+J J	1
+J J Von	1
+J L	1
+J R	1
+J U	1
 Jacob F	1
 Jacob Henric Af	1
 Jacob Herman	1
@@ -903,6 +911,7 @@ Jacob Johan	1
 Jacob Johansson	1
 Jacob Pontus	1
 Jacob Reinhold	1
+Jacob Wilhelm	1
 Jacobus Algotus	1
 Jacobus Andreas	1
 Jacobus Arndt	1
@@ -917,21 +926,14 @@ Jacobus Olaus	1
 Jacobus Samuelis	1
 Jacobus Svenonis	1
 Jacobus Wilhelmus	1
-Jacob Wilhelm	1
 Jakob Heinrich Von	1
 Jakob J	1
 Jakob Olofsson	1
 Jan Peter Van	1
-J B	1
 Jean Baptiste Bourguignon	1
 Jens Kragh	1
 Jeremias Johannis	1
 Jevdokim	1
-J G	1
-J H	1
-J J	1
-J J Von	1
-J L	1
 Joachim Adolf	1
 Joachim Joachimsson Von	1
 Joachimus Andreas	1
@@ -940,6 +942,7 @@ Joachimus Nicolai	1
 Joachimus Von	1
 Joannes Henricus	1
 Joh Adam	1
+Joh Heinrich	1
 Johan Albrekt	1
 Johan Andersson	1
 Johan Andreas	1
@@ -960,9 +963,20 @@ Johan Knutsson	1
 Johan L	1
 Johan Lorentz	1
 Johan Mag	1
+Johan Nilsson	1
+Johan Olof	1
+Johan Petter	1
+Johan Pettersson	1
+Johan Von	1
+Johan Wilhelm	1
+Johan Wilhelmsson	1
 Johann Carl	1
 Johann Christ	1
 Johann Elias	1
+Johann Georg Von	1
+Johann Jacob	1
+Johann Matthias	1
+Johann Peter Ludwig	1
 Johannes Adolphus	1
 Johannes Andreas	1
 Johannes Carolus	1
@@ -984,18 +998,6 @@ Johannes O	1
 Johannes Sigfridi	1
 Johannes Tobiae	1
 Johannes Zacharias	1
-Johann Georg Von	1
-Johan Nilsson	1
-Johann Jacob	1
-Johann Matthias	1
-Johann Peter Ludwig	1
-Johan Olof	1
-Johan Petter	1
-Johan Pettersson	1
-Johan Von	1
-Johan Wilhelm	1
-Johan Wilhelmsson	1
-Joh Heinrich	1
 John Horne	1
 Jonas Leonhardi	1
 Jonas Martinus	1
@@ -1003,8 +1005,6 @@ Jonas Pauli	1
 Jonas Petersson	1
 Joona	1
 Jöran Jacob Magnus	1
-J R	1
-J U	1
 Justinus Henriksson Von	1
 Justus Erici	1
 Kaarle	1
@@ -1035,6 +1035,8 @@ Lucius Caecilius Firmianus	1
 Ludvig	1
 Ludwig Heinrich Von	1
 Ludwig Melchior	1
+M Henr	1
+M Von	1
 Mag	1
 Magn	1
 Magnus Bergeri	1
@@ -1065,7 +1067,6 @@ Matthias Knutsson	1
 Matthias Matthiae	1
 Matts Mattsson	1
 Melchior	1
-M Henr	1
 Michael Gustavi	1
 Michael Henriksson	1
 Michael Johann	1
@@ -1076,7 +1077,6 @@ Michael Simonis	1
 Michel	1
 Moritz Von	1
 Mund	1
-M Von	1
 Nathan Benedicti	1
 Nathaniel William	1
 Nic	1
@@ -1091,8 +1091,8 @@ Nils Michaelsson	1
 Nils Petrus Andersson	1
 Nils Reinhold	1
 Nils Von	1
-Odert Johan	1
 O J	1
+Odert Johan	1
 Ol	1
 Olaus Nicolai	1
 Olaus Petri	1
@@ -1123,9 +1123,10 @@ Petrus Simonis	1
 Petrus Zachariae	1
 Petter Georg	1
 Philipp	1
-Pierre-charles	1
 Pierre Charles	1
+Pierre-charles	1
 Pietari	1
+R P Augustin	1
 Rasmus	1
 Reinhold	1
 Reinhold Johan	1
@@ -1135,7 +1136,6 @@ Richardus Richardi	1
 Rickard Abr	1
 Robert Johansson	1
 Roland	1
-R P Augustin	1
 Samuel Christophori	1
 Samuel Erici	1
 Samuel Henriksson	1
