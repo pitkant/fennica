@@ -10,11 +10,12 @@ library(knitr)
 # ---------------------------------
 
 # Set global parameters
-timespan <- c(1400, 1920)
+#timespan <- c(1400, 1920)
+timespan <- c(1470, 1828)
 datafile <- "df.Rds"
 datafile.orig <- "df.raw.Rds"
 ntop <- 20
-author <- "Leo Lahti"
+author <- "Lahti, Marjanen, Roivainen, Tolonen"
 output.folder <- "output.tables/"
 
 # ---------------------------------
@@ -34,5 +35,4 @@ df <- filter(df, !issue)
 
 # Store
 df.preprocessed <- df.preprocessed.orig <- df
-
 

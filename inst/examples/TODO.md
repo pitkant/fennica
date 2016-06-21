@@ -10,9 +10,57 @@ TODO
 
 ### Technical (urgent)
 
-Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä?
+Single/MultiVol/Issue erottelut tulee ESTC:n nojalla mutta kesken. Miten vaikuttaa Fennican analyyseissä? (F + K)
 
 Gatheringsit puuttuu puolelle dokkareista. Miksi ?
+
+- topic: https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md tää kai OK
+MT: joo, testaillaan myös vähän saadaanko meidän aikaväliltä näistä mitään irti (1470-1830 tai 1640-1830).
+
+- kieli: https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md kai OK
+MT: kielet prosenttiosuuksina niin kuin on esim. Fennicassa voisi olla tässä hyvä myös.
+
+Onko näissä tapauksissa tosiaan että jätetään kokonaan nuo jälkimääreet pois sivucounteista? VÄhän hankalaa muitten sääntöjen kanssa yhdistää mutta voin yrittää.
+MT: totta kai mukaan jos mahdollista. Nyt koodi ei laskenut niitä mukaan ja ajattelin että jos pakko niin jätetään pois, jos taas esim. tuon ensimmäisen saa laskemaan = 137, niin tosi hyvä.
+
+#  expect_equal(polish_physical_extent("121 s., 6 kartor och 2 tab.")$pagecount, 121)
+#  expect_equal(polish_physical_extent("11 s., 1 karta")$pagecount, 11)  MT: 13
+#  expect_equal(polish_physical_extent("12 s., 1 kuval., och musikbilaga")$pagecount, 12) MT: 16
+#  expect_equal(polish_physical_extent("17 s., [33] kuvas., [8] kuvalehteä taitettuna")$pagecount, 33) MT: 49
+#  expect_equal(polish_physical_extent("[2] s., s. 65-82, IV kuvalehteä")$pagecount, 28) MT: 36
+#  expect_equal(polish_physical_extent("[4], 87 s., 8 karttalehteä")$pagecount, 91) MT: 107
+
+
+Mitä meinaat että ei mukaan ? Eli että pagecount jätetään tuntemattomaksi ?
+
+MT: meinasin että ei laskettaisi näille että sivumäärä on 2. Eli hyväksyttyihin sivuihin ei mukaan. Pitäisi mennä arvion mukaan, ei määritetyn page conversionin kautta.
+
+#  expect_equal(polish_physical_extent("5 vol. i 6     2          4 = EI MUKAAN
+#  expect_equal(polish_physical_extent("6 vol. i 7     2          4 = EI MUKAAN
+#  expect_equal(polish_physical_extent("5 delar 2          3 = EI MUKAAN
+
+
+Onko tässä tosiaan oikea vastaus 2 ?
+
+MT: ei ole. Sori jos on jäänyt listalle.
+
+#  expect_equal(polish_physical_extent("58 s. & omsl.")$pagecount, 2)  MT: 60
+
+
+Authors: (F + K) top-100 putsaus ja yhdistely. Siitä kannattaa
+kuitenkin jotain sanoa. Rajataan näissä kaikissa analyyseissä nyt
+ajanjaksoksi 1470-1830. Turussa julkaiseminen alkaa vasta
+1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta
+ennen sitä. Yksi tarkasteltava kohde voisi olla miten Turun yliopiston
+perustaminen näyttäisi vaikuttavan ruotsalaiseen julkaisukenttään
+1600-luvun aikana.
+
+- gender: ainoastaan putsattu top-20 female mukaan. (F + K)
+
+yksi haara sekä Kungligaa että Fennicaa jossa on koko data (joka tulee
+siis 1900-luvun puolelle), mutta sitten Krakovaa varten olisi toinen
+missä takarajavuosi on 1828. Eli analyysit loppuvat siihen (takaraja
+voi olla selvyyden vuoksi myös 1830).
 
 
 
@@ -49,6 +97,10 @@ paikallisia eroja?)
 
 
 ### Publisher analysis
+
+toiveissa että pystyttäisiin puhumaan julkaisijatoiminnan kehityksestä
+ikään kuin luonnollisena kehityksenä - eli yhteys luonnonilmiöiden
+kehitykseen säilyisi.
 
 Tärkein tehtävä tutkia pystytäänkö julkaisemiseen liittyvästä
 Fennica-datasta erottelemaan selkeitä trendejä suomalaisesta

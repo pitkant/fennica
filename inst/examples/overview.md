@@ -1,6 +1,6 @@
 ---
 title: "Preprocessing overview"
-author: "Leo Lahti"
+author: "Lahti, Marjanen, Roivainen, Tolonen"
 date: "2016-06-21"
 output: markdown_document
 ---
@@ -34,96 +34,96 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                        | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------------------|-----------:|-------------:|-------------:|----------:|
+|parts                             |       100.0|           0.0|             0|          1|
 |publication_frequency             |       100.0|           0.0|             0|          1|
+|uncontrolled                      |       100.0|           0.0|             0|          1|
+|successor                         |       100.0|           0.0|             0|          1|
 |volnumber                         |       100.0|           0.0|             0|          1|
-|uncontrolled                      |       100.0|           0.0|             3|          4|
-|successor                         |       100.0|           0.0|            14|         15|
-|parts                             |        99.9|           0.1|            44|          8|
-|publication_year_till             |        98.6|           1.4|           981|        167|
-|width.original                    |        97.1|           2.9|          1950|        293|
-|height.original                   |        93.4|           6.6|          4514|        335|
-|subject_geography                 |        91.5|           8.5|          5770|        764|
-|note_granter                      |        91.4|           8.6|          5843|         98|
-|note_510c                         |        90.2|           9.8|          6641|       6446|
-|note_source                       |        82.8|          17.2|         11706|       4970|
-|title_uniform                     |        82.1|          17.9|         12182|       8915|
-|author_death                      |        73.9|          26.1|         17722|        363|
-|first_edition                     |        73.1|          26.9|         18255|          3|
-|author_birth                      |        72.5|          27.5|         18650|        346|
-|corporate                         |        72.1|          27.9|         18933|        645|
-|subject_topic                     |        69.4|          30.6|         20755|       3509|
-|obl                               |        55.4|          44.6|         30303|          3|
-|width                             |        48.8|          51.2|         34756|        296|
-|height                            |        48.8|          51.2|         34756|        336|
-|area                              |        48.8|          51.2|         34756|        760|
-|paper.consumption.km2             |        48.8|          51.2|         34756|       4289|
-|holder                            |        47.3|          52.7|         35749|       2096|
-|author_gender                     |        44.1|          55.9|         37969|          4|
-|self_published                    |        43.4|          56.6|         38413|          3|
-|author_name                       |        33.0|          67.0|         45513|      11970|
-|author                            |        33.0|          67.0|         45513|      12034|
-|publisher                         |        16.9|          83.1|         56444|       9814|
-|country                           |         4.0|          96.0|         65177|         33|
-|publication_place                 |         4.0|          96.0|         65181|        414|
-|pagecount.orig                    |         2.2|          97.8|         66380|        998|
-|language                          |         1.1|          98.9|         67175|        254|
-|latitude                          |         1.0|          99.0|         67191|        351|
-|longitude                         |         1.0|          99.0|         67191|        351|
-|dissertation                      |         0.0|         100.0|         67873|          3|
-|publication_year_from             |         0.0|         100.0|         67880|        350|
-|title                             |         0.0|         100.0|         67896|      53823|
-|synodal                           |         0.0|         100.0|         67898|          3|
-|language.Swedish                  |         0.0|         100.0|         67899|          2|
-|language.Finnish                  |         0.0|         100.0|         67899|          2|
-|language.Latin                    |         0.0|         100.0|         67899|          2|
-|language.English                  |         0.0|         100.0|         67899|          2|
-|language.French                   |         0.0|         100.0|         67899|          2|
-|language.German                   |         0.0|         100.0|         67899|          2|
-|language.Hebrew                   |         0.0|         100.0|         67899|          2|
-|language.Greek, Ancient (to 1453) |         0.0|         100.0|         67899|          1|
-|language.Arabic                   |         0.0|         100.0|         67899|          2|
-|language.Italian                  |         0.0|         100.0|         67899|          2|
-|language.Danish                   |         0.0|         100.0|         67899|          2|
-|language.Sami                     |         0.0|         100.0|         67899|          2|
-|language.Dutch                    |         0.0|         100.0|         67899|          2|
-|language.Syriac, Modern           |         0.0|         100.0|         67899|          2|
-|language.Spanish                  |         0.0|         100.0|         67899|          2|
-|language.Lule Sami                |         0.0|         100.0|         67899|          2|
-|language.Portuguese               |         0.0|         100.0|         67899|          2|
-|language.Russian                  |         0.0|         100.0|         67899|          2|
-|language.Northern Sami            |         0.0|         100.0|         67899|          2|
-|language.Greek, Modern (1453-)    |         0.0|         100.0|         67899|          1|
-|language.Estonian                 |         0.0|         100.0|         67899|          2|
-|language.Esperanto                |         0.0|         100.0|         67899|          2|
-|language.Norwegian                |         0.0|         100.0|         67899|          2|
-|language.Polish                   |         0.0|         100.0|         67899|          2|
-|language.Finno-Ugrian (Other)     |         0.0|         100.0|         67899|          1|
-|language.Undetermined             |         0.0|         100.0|         67899|          2|
-|language.Lithuanian               |         0.0|         100.0|         67899|          2|
-|language.Hungarian                |         0.0|         100.0|         67899|          2|
-|language.Tibetan                  |         0.0|         100.0|         67899|          2|
-|language.Czech                    |         0.0|         100.0|         67899|          2|
-|language.Afroasiatic (Other)      |         0.0|         100.0|         67899|          1|
-|language.Latvian                  |         0.0|         100.0|         67899|          2|
-|language.Icelandic                |         0.0|         100.0|         67899|          2|
-|language.Ukrainian                |         0.0|         100.0|         67899|          2|
-|language.Karelian                 |         0.0|         100.0|         67899|          2|
-|language.Church Slavic            |         0.0|         100.0|         67899|          2|
-|language.Erzya                    |         0.0|         100.0|         67899|          2|
-|language.Yiddish                  |         0.0|         100.0|         67899|          2|
-|language.Votic                    |         0.0|         100.0|         67899|          2|
-|language.Germanic (Other)         |         0.0|         100.0|         67899|          1|
-|language.Multiple languages       |         0.0|         100.0|         67899|          2|
-|pagecount                         |         0.0|         100.0|         67899|        997|
-|gatherings.original               |         0.0|         100.0|         67899|         18|
-|obl.original                      |         0.0|         100.0|         67899|          2|
-|original_row                      |         0.0|         100.0|         67899|      67899|
-|author_pseudonyme                 |         0.0|         100.0|         67899|          2|
-|publication_year                  |         0.0|         100.0|         67899|        349|
-|publication_decade                |         0.0|         100.0|         67899|         40|
-|gatherings                        |         0.0|         100.0|         67899|         18|
-|volcount                          |         0.0|         100.0|         67899|          1|
-|issue                             |         0.0|         100.0|         67899|          1|
+|publication_year_till             |        99.1|           0.9|           192|         98|
+|width.original                    |        98.9|           1.1|           222|        131|
+|height.original                   |        98.7|           1.3|           263|        137|
+|first_edition                     |        78.9|          21.1|          4279|          3|
+|subject_geography                 |        76.3|          23.7|          4818|        470|
+|note_granter                      |        73.3|          26.7|          5427|         31|
+|note_510c                         |        68.0|          32.0|          6502|       6353|
+|author_death                      |        58.9|          41.1|          8348|        262|
+|author_birth                      |        54.6|          45.4|          9221|        254|
+|author_gender                     |        50.5|          49.5|         10043|          4|
+|self_published                    |        48.8|          51.2|         10397|          3|
+|author_name                       |        45.6|          54.4|         11047|       2645|
+|author                            |        45.6|          54.4|         11047|       2676|
+|title_uniform                     |        44.3|          55.7|         11302|       8298|
+|note_source                       |        43.1|          56.9|         11554|       4930|
+|holder                            |        40.6|          59.4|         12071|         44|
+|corporate                         |         8.7|          91.3|         18544|        468|
+|publisher                         |         7.4|          92.6|         18800|       3250|
+|country                           |         5.9|          94.1|         19113|         20|
+|publication_place                 |         5.9|          94.1|         19116|        103|
+|subject_topic                     |         5.0|          95.0|         19297|       3111|
+|pagecount.orig                    |         3.2|          96.8|         19661|        565|
+|obl                               |         2.7|          97.3|         19757|          3|
+|width                             |         1.4|          98.6|         20019|        139|
+|height                            |         1.4|          98.6|         20019|        142|
+|area                              |         1.4|          98.6|         20019|        217|
+|paper.consumption.km2             |         1.4|          98.6|         20019|       1264|
+|language                          |         0.2|          99.8|         20259|        143|
+|latitude                          |         0.1|          99.9|         20277|         97|
+|longitude                         |         0.1|          99.9|         20277|         97|
+|dissertation                      |         0.1|          99.9|         20280|          3|
+|publication_year_from             |         0.0|         100.0|         20300|        261|
+|synodal                           |         0.0|         100.0|         20304|          3|
+|language.Swedish                  |         0.0|         100.0|         20305|          2|
+|language.Finnish                  |         0.0|         100.0|         20305|          2|
+|language.Latin                    |         0.0|         100.0|         20305|          2|
+|language.English                  |         0.0|         100.0|         20305|          2|
+|language.French                   |         0.0|         100.0|         20305|          2|
+|language.German                   |         0.0|         100.0|         20305|          2|
+|language.Hebrew                   |         0.0|         100.0|         20305|          2|
+|language.Greek, Ancient (to 1453) |         0.0|         100.0|         20305|          1|
+|language.Arabic                   |         0.0|         100.0|         20305|          2|
+|language.Italian                  |         0.0|         100.0|         20305|          2|
+|language.Danish                   |         0.0|         100.0|         20305|          2|
+|language.Sami                     |         0.0|         100.0|         20305|          2|
+|language.Dutch                    |         0.0|         100.0|         20305|          2|
+|language.Syriac, Modern           |         0.0|         100.0|         20305|          2|
+|language.Spanish                  |         0.0|         100.0|         20305|          2|
+|language.Lule Sami                |         0.0|         100.0|         20305|          2|
+|language.Portuguese               |         0.0|         100.0|         20305|          2|
+|language.Russian                  |         0.0|         100.0|         20305|          2|
+|language.Northern Sami            |         0.0|         100.0|         20305|          2|
+|language.Greek, Modern (1453-)    |         0.0|         100.0|         20305|          1|
+|language.Estonian                 |         0.0|         100.0|         20305|          1|
+|language.Esperanto                |         0.0|         100.0|         20305|          1|
+|language.Norwegian                |         0.0|         100.0|         20305|          1|
+|language.Polish                   |         0.0|         100.0|         20305|          1|
+|language.Finno-Ugrian (Other)     |         0.0|         100.0|         20305|          1|
+|language.Undetermined             |         0.0|         100.0|         20305|          1|
+|language.Lithuanian               |         0.0|         100.0|         20305|          1|
+|language.Hungarian                |         0.0|         100.0|         20305|          1|
+|language.Tibetan                  |         0.0|         100.0|         20305|          1|
+|language.Czech                    |         0.0|         100.0|         20305|          1|
+|language.Afroasiatic (Other)      |         0.0|         100.0|         20305|          1|
+|language.Latvian                  |         0.0|         100.0|         20305|          1|
+|language.Icelandic                |         0.0|         100.0|         20305|          1|
+|language.Ukrainian                |         0.0|         100.0|         20305|          1|
+|language.Karelian                 |         0.0|         100.0|         20305|          2|
+|language.Church Slavic            |         0.0|         100.0|         20305|          1|
+|language.Erzya                    |         0.0|         100.0|         20305|          1|
+|language.Yiddish                  |         0.0|         100.0|         20305|          1|
+|language.Votic                    |         0.0|         100.0|         20305|          1|
+|language.Germanic (Other)         |         0.0|         100.0|         20305|          1|
+|language.Multiple languages       |         0.0|         100.0|         20305|          2|
+|title                             |         0.0|         100.0|         20305|      16914|
+|pagecount                         |         0.0|         100.0|         20305|        564|
+|gatherings.original               |         0.0|         100.0|         20305|         14|
+|obl.original                      |         0.0|         100.0|         20305|          2|
+|original_row                      |         0.0|         100.0|         20305|      20305|
+|author_pseudonyme                 |         0.0|         100.0|         20305|          2|
+|publication_year                  |         0.0|         100.0|         20305|        260|
+|publication_decade                |         0.0|         100.0|         20305|         31|
+|gatherings                        |         0.0|         100.0|         20305|         14|
+|volcount                          |         0.0|         100.0|         20305|          1|
+|issue                             |         0.0|         100.0|         20305|          1|
 
 
 

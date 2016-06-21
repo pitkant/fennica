@@ -1,1205 +1,673 @@
 original	polished	Count
-Total count: 	36239	
-Helsingfors	Helsinki	10969
-Aboae	Turku	 4870
-[Vasa]	Vaasa	 2312
-[Åbo]	Turku	 2088
-Åbo	Turku	 2065
-[Aboae]	Turku	 1305
-Turusa	Turku	  854
-Stockholmisa	Stockholm	  715
-[Helsinki]	Helsinki	  531
-Viipuri	Vyborg	  506
-Borgå	Porvoo	  492
-Helsingissä	Helsinki	  458
-[Helsingfors]	Helsinki	  391
-Upsaliae	Uppsala	  364
-Tryckt i Åbo	Turku	  295
-[Stockholm]	Stockholm	  241
-S.-Peterburg'	St Petersburg	  221
-[Turku]	Turku	  220
-[Wasa]	Vaasa	  181
-Holmiae	Stockholm	  177
-Vasa	Vaasa	  176
-Helsingforsiae	Helsinki	  173
-Wasasa	Vaasa	  164
-Wiipuri	Vyborg	  162
-Hancock (Mich.)	Hancock Mi	  145
-Gel'singfors'	Helsinki	  135
-Tammerfors	Tampere	  128
-Wiborg	Vyborg	  128
-Ekenäs	Tammisaari	  126
-Upsala	Uppsala	  122
-Porvoossa	Porvoo	  119
-Wasa	Vaasa	  119
-Fitchburg (Mass.)	Fitchburg Ma	  104
-Tryckt i Stockholm	Stockholm	   78
-[Viipuri]	Vyborg	   76
-Nikolaistad	Vaasa	   72
-Dorpati Livonorum	Tartu	   70
-Turusa prändätty	Turku	   67
-Björneborg	Pori	   62
-Viborg	Vyborg	   61
-Stokholmisa	Stockholm	   61
-Dorpati	Tartu	   60
-[Vaasa]	Vaasa	   57
-[S.-Peterburg']	St Petersburg	   55
-St. Petersburg	St Petersburg	   55
-Tukholma	Stockholm	   53
-Stockholmis	Stockholm	   53
-Kjøbenhavn	Copenhagen	   52
-Tavastehus	Hämeenlinna	   49
-Jakobstad	Pietarsaari	   49
-[Oulu]	Oulu	   49
-Kaleva (Mich.)	Kaleva Mi	   49
-Tryckt i Upsala	Uppsala	   46
-Sanktpeterburg'	St Petersburg	   45
-Gamlakarleby	Kokkola	   44
-Tampereella	Tampere	   43
-Brooklyn (N.Y.)	New York	   43
-Hämeenlinnassa	Hämeenlinna	   42
-[Tampere]	Tampere	   41
-Hangö	Hanko	   40
-Pietari	St Petersburg	   40
-[Upsaliae]	Uppsala	   40
-Wiipurissa	Vyborg	   39
-Stockholmisa ja Turusa	Stockholm	   39
-[Sanktpeterburg']	St Petersburg	   37
-[Tukholma]	Stockholm	   37
-Prändätty Turusa	Turku	   37
-Uleåborg	Oulu	   35
-Fredrikshamn	Hamina	   33
-[Aboae?]	Turku	   33
-[Turusa]	Turku	   33
-Turussa	Turku	   31
-Moskva	Moscow	   31
-[Stockholmisa]	Stockholm	   31
-Ubsaliae	Uppsala	   28
-Tryckt i Abo	Turku	   28
-Rostochii	Rostock	   28
-København	Copenhagen	   27
-Vyborg'	Vyborg	   26
-Petrograd'	St Petersburg	   26
-Jyväskylässä	Jyväskylä	   25
-Calumet (Mich.)	Calumet Mi	   25
-Kristiania	Oslo	   25
-[Holmiae]	Stockholm	   25
-Nikolainkaupunki	Vaasa	   24
-Waasa	Vaasa	   24
-Kristinestad	Kristiinankaupunki	   23
-Duluth (Minn.)	Duluth Mn	   23
-Präntätty Turusa	Turku	   23
-Hki	Helsinki	   22
-Lovisa	Loviisa	   21
-[Helsingforsiae]	Helsinki	   20
-Kronoby	Kruunupyy	   20
-Sordavala	Sortavala	   20
-München	München	   20
-[Jyväskylä]	Jyväskylä	   20
-[Kuopio]	Kuopio	   20
-Abo	Turku	   20
-Stockholmiae	Stockholm	   20
-Excusa Aboae	Turku	   19
-A Paris	Paris	   19
-Nykarleby	Uusikaarlepyy	   18
-Kristiina	Kristiinankaupunki	   18
-[Amsterdam]	Amsterdam	   18
-Präntätty Stockholmis	Stockholm	   18
-[Wasasa]	Vaasa	   18
-Wien	Vienna	   17
-Port Arthur (Ont.)	Port Arthur On	   17
-Wiburgi	Vyborg	   17
-Brooklyn (N. Y.)	New York	   16
-Wittebergae	Wittenberg	   16
-Abogiae	Turku	   16
-[Sortavala]	Sortavala	   15
-Brooklyn, (N. Y.)	New York	   15
-[Dorpat]	Tartu	   15
-Reval	Tallinn	   15
-Revaliae	Tallinn	   15
-[Raahe]	Raahe	   14
-[Porvoo]	Porvoo	   14
-Ashtabula (Ohio)	Ashtabula Oh	   14
-Chicago	Chicago IL	   13
-S:t Michel	Mikkeli	   13
-Oulussa	Oulu	   13
-Kaskö	Kaskinen	   13
-Karis	Karjaa	   13
-Brooklyn, (N.Y.)	New York	   13
-Hancock, Mich.	Hancock Mi	   13
-Hancock, (Mich.)	Hancock Mi	   13
-[Dorpati]	Tartu	   13
-[Upsala]	Uppsala	   13
-Götheborg	Gothenburg	   13
-Turengi	Turenki	   12
-Dorpt	Tartu	   12
-Kuopiossa	Kuopio	   11
-Astoria (Or.)	Astoria Or	   11
-Tryckt i Vpsala	Uppsala	   11
-[Tryckt i Stockholm]	Stockholm	   11
-Tryckt i Wiborg	Vyborg	   11
-[Åbo?]	Turku	   11
-[Borgå]	Porvoo	   10
-Fitchburg, (Mass.)	Fitchburg Ma	   10
-Superior (Wis.)	Superior Wi	   10
-[Viborg]	Vyborg	   10
-Pernaviae	Pärnu	   10
-Turuusa	Turku	   10
-Helsinki ;;Viipuri	Helsinki	    9
-Brooklyn	New York	    9
-[Berlin]	Berlin	    9
-Ironwood (Mich.)	Ironwood Mi	    9
-[London]	London	    9
-Witebergae	Wittenberg	    9
-I Åbo	Turku	    9
-Vpsaliae	Uppsala	    9
-Hämeenlinna ;;Tampere	Hämeenlinna	    8
-S.-Peterburg	St Petersburg	    8
-Viipurissa	Vyborg	    8
-St. Pétersbourg	St Petersburg	    8
-New York (N.Y.)	New York	    8
-Ashtabula, (Ohio)	Ashtabula Oh	    8
-[Leipzig]	Leipzig	    8
-Prändäty Turusa	Turku	    8
-Rostochi	Rostock	    8
-Trykkt i Åbo	Turku	    8
-[Wiborg]	Vyborg	    8
-Kjöbenhavn	Copenhagen	    8
-[Turku?]	Turku	    8
-Pest	Budapest	    7
-Copenhague	Copenhagen	    7
-Göteborg	Gothenburg	    7
-Tübingen	Tubingen	    7
-Mikkelissä	Mikkeli	    7
-Nystad	Uusikaupunki	    7
-Zürich	Zürich	    7
-Roma	Rome	    7
-[Hämeenlinna]	Hämeenlinna	    7
-Astoria (Ore.)	Astoria Or	    7
-Tukholmassa	Stockholm	    7
-Lübeck	Lybeck	    7
-Impr. Aboae	Turku	    7
-[Rostochii]	Rostock	    7
-Upsalis	Uppsala	    7
-Gryphiswaldiae	Greifswald	    7
-Arosiae	Västerås	    7
-Wiburg	Vyborg	    7
-Stokkholmisa	Stockholm	    7
-I Stockholm	Stockholm	    7
-Hernösand	Härnösand	    6
-Warszawa	Warsaw	    6
-[Jyväskylässä]	Jyväskylä	    6
-Ísafjördur	Ísafjördur	    6
-[Wiipuri]	Vyborg	    6
-Sortawala	Sortavala	    6
-Porissa	Pori	    6
-[Waasa]	Vaasa	    6
-St.-Pétersbourg	St Petersburg	    6
-Raumo	Rauma	    6
-Ishpeming (Mich.)	Ishpeming Mi	    6
-[Helsingissä]	Helsinki	    6
-Worcester (Mass.)	Worcester Ma	    6
-Brooklyn, N.Y.	New York	    6
-[Dorpat?]	Tartu	    6
-Lincopiae	Linköping	    6
-Tryckt j Stockholm	Stockholm	    6
-[Ubsaliae]	Uppsala	    6
-Stokholmiae	Stockholm	    6
-Ienae	Jena	    6
-[Uppsala]	Uppsala	    6
-Westerås	Västerås	    6
-A Amsterdam	Amsterdam	    6
-Wilno	Vilnius	    5
-Christiania	Oslo	    5
-Sortavola	Sortavala	    5
-Nikolainkaupungissa	Vaasa	    5
-Sortavalassa	Sortavala	    5
-Lundae	Lund	    5
-S:t Petersburg	St Petersburg	    5
-Milano	Milan	    5
-Raumalla	Rauma	    5
-Calumet, (Mich.)	Calumet Mi	    5
-New York Mills (Minn.)	New York Mills Mn	    5
-Rigae	Riga	    5
-Lvgdvni Batavorvm	Leiden	    5
-Gedruckt zu Abo	Turku	    5
-[Stockholm?]	Stockholm	    5
-Upsalae	Uppsala	    5
-I Åpo	Turku	    5
-Pernau	Pernaja	    5
-[Lund]	Lund	    5
-Impressa Aboae	Turku	    5
-Wästerås	Västerås	    5
-[Tryckt i Åbo]	Turku	    5
-[Stockholmis]	Stockholm	    5
-Stockholm, Upsala och Åbo	Stockholm	    5
-Tryckt i Wasa	Vaasa	    5
-S.-Peterburg' : A. È. Vineke	St Petersburg	    4
-St-Pétersbourg	St Petersburg	    4
-[Budapest]	Budapest	    4
-Tallinnas	Tallinn	    4
-Tromsø	Tromsö	    4
-Stockholm :;Helsingfors	Stockholm	    4
-Sanktpeterburg''	St Petersburg	    4
-Tartus	Tartu	    4
-[Nytorp]	Nytorp	    4
-[Gel'singfors']	Helsinki	    4
-Hämeenlinna ;;Porvoo	Hämeenlinna	    4
-[Tryckt i Wasa]	Vaasa	    4
-Porwoo	Porvoo	    4
-[Tammerfors]	Tampere	    4
-Lahtis	Lahti	    4
-Köpenhamn	Copenhagen	    4
-[Hancock (Mich.)]	Hancock Mi	    4
-Petrograd	St Petersburg	    4
-Helsingis	Helsinki	    4
-Duluth (MN)	Duluth Mn	    4
-Quincy (Mass.)	Quincy Ma	    4
-Piotrogród	St Petersburg	    4
-Norimbergae	Nürnberg	    4
-[Nürnberg]	Nurnberg	    4
-[Augsburg]	Augsburg	    4
-Upsalas	Uppsala	    4
-[Wiburgi]	Vyborg	    4
-[Dorpati Livonorum]	Tartu	    4
-[Stockholmiae]	Stockholm	    4
-[Präntätty Turusa]	Turku	    4
-Upsaliae impressum	Uppsala	    4
-Strengnäs	Strängnäs	    4
-Jönköping	Jönnköping	    4
-I Upsala	Uppsala	    4
-Te Haarlem	Haarlem	    4
-Fahlun	Falun	    4
-Scarae	Skara	    4
-[St. Petersburg]	St Petersburg	    4
-Turusa, prändätty	Turku	    4
-[Stokholmisa]	Stockholm	    4
-Stockholmissa	Stockholm	    4
-Satakunta	Pori	    3
-Berliini	Berlin	    3
-Kööpenhamina	Copenhagen	    3
-[Petrograd']	St Petersburg	    3
-S. Peterburg'	St Petersburg	    3
-Sankt-Peterburg'	St Petersburg	    3
-Helsingforsiæ	Helsinki	    3
-[New York]	New York	    3
-Dorpat	Tartu	    3
-Oulusa	Oulu	    3
-Arhangel'sk'	Archangelsk	    3
-Borgo	Porvoo	    3
-Har'kov'	Kharkiv	    3
-Berlin'	Berlin	    3
-Gelsingfors	Helsinki	    3
-Vaasassa	Vaasa	    3
-[Pori]	Pori	    3
-Mitau	Jelgava	    3
-Bruxelles	Brussels	    3
-Piikkis	Piikkiö	    3
-Anvers	Antwerp	    3
-Stettin	Szczecin	    3
-Gelsingfors'	Helsinki	    3
-Gel'singfors	Helsinki	    3
-Helsigfors	Helsinki	    3
-Köbenhavn	Copenhagen	    3
-Helsinkai	Helsinki	    3
-Malm	Malmö	    3
-[Käkisalmi]	Käkisalmi	    3
-Tallinna	Tallinn	    3
-Hfors	Helsinki	    3
-Astoria (Ore)	Astoria Or	    3
-[Savonlinna]	Savonlinna	    3
-Brooklyn (NY)	New York	    3
-Fitchburg, Mass.	Fitchburg Ma	    3
-Hancock	Hancock Mi	    3
-Pietarissa	St Petersburg	    3
-Fitchburgissa (Mass.)	Fitchburg Ma	    3
-[Duluth (Minn.)]	Duluth Mn	    3
-[Moskva]	Moscow	    3
-[Tartto ]	Tartu	    3
-Kiøbenhavn	Copenhagen	    3
-Petersburg	St Petersburg	    3
-[Stockholm	Stockholm	    3
-Regiomonti Borvssiae	Koningsberg	    3
-Strassburg	Strasbourg	    3
-Marpurgi Cattorum	Marburg	    3
-[Wittebergae]	Wittenberg	    3
-[Präntätty Stockholmis]	Stockholm	    3
-[Wiburgi?]	Vyborg	    3
-Aboae Finnorum	Turku	    3
-Amstelodami	Amsterdam	    3
-Stockholmis präntätty	Stockholm	    3
-Tryckte i Åbo	Turku	    3
-[Prentattu Stocholmis]	Stockholm	    3
-[Tryckt j Stockholm]	Stockholm	    3
-[Rostochiae]	Rostock	    3
-Stregnesiae	Strängnäs	    3
-Tryckt i Dorpt	Tartu	    3
-[Riga]	Riga	    3
-Rigae Livonum	Riga	    3
-Tryckt i Strengnäs	Strängnäs	    3
-Gedruckt zu Stockholm	Stockholm	    3
-Gedruckt zu Riga	Riga	    3
-[Revaliae]	Tallinn	    3
-Stokholmis	Stockholm	    3
-Stokholm	Stockholm	    3
-Jenae	Jena	    3
-Londini Gothorum	Lund	    3
-Upsaliae impressa	Uppsala	    3
-[Reval]	Tallinn	    3
-A Stockholm	Stockholm	    3
-[Göteborg]	Gothenburg	    3
-Trykt i Upsala	Uppsala	    3
-Stocholmiae	Stockholm	    3
-Turusa präntätty	Turku	    3
-Carlscrona	Karlskrona	    3
-Hauniae	Haunia	    3
-Wasae	Vaasa	    3
-Prändätty Wasasa	Vaasa	    3
-Narvae	Narva	    3
-Scaris	Skara	    3
-Prändätyt Turusa	Turku	    3
-[Turusa prändätty]	Turku	    3
-Kiobenhavn	Copenhagen	    3
-[Tukholma?]	Stockholm	    3
-Lugduni Batavorum	Leiden	    3
-[Hamburg]	Hamburg	    3
-[Stockholmisa ja Turusa]	Stockholm	    3
-Exc. Aboae	Turku	    3
-Stockholm och Åbo	Stockholm	    3
-(Wasa), Nikolaistad	Vaasa	    2
-[Londres]	London	    2
-Weimar : Verlage des Industrie-Comptoirs	Weimar	    2
-[Sankt-Peterburg']	St Petersburg	    2
-S.Peterburg'	St Petersburg	    2
-Carlskrona	Karlskrona	    2
-Gel'singfors''	Helsinki	    2
-B'' Sanktpeterburgê	St Petersburg	    2
-Kazan'	Kazan	    2
-Philadelphia	Philadelphia Pa	    2
-Berlin-Charlottenburg	Berlin	    2
-Helsingfors :;Stockholm	Helsinki	    2
-Kjobenhavn	Copenhagen	    2
-Ashtabula	Ashtabula Oh	    2
-Montréal	Montreal	    2
-Jelgawâ	Jelgava	    2
-St. Peterbourg	St Petersburg	    2
-Boston	Boston Ma	    2
-[Hållas]	Halle	    2
-Wasa (Nikolaistad)	Vaasa	    2
-V' Sanktpeterburgě	St Petersburg	    2
-Chicago (Ill.)	Chicago IL	    2
-Moskau	Moscow	    2
-Halle a.d. Saale	Halle	    2
-Helsingissä ;;Theodor Sederholm	Helsinki	    2
-[Porissa]	Pori	    2
-Helsinki ;;Jyväskylä	Helsinki	    2
-Oulu ;;[Turku]	Oulu	    2
-Porvoo ;;Helsinki	Porvoo	    2
-Pietärissä	St Petersburg	    2
-Helsingforsisa	Helsinki	    2
-St. Mikkelissä	Mikkeli	    2
-Tukhulmissa	Stockholm	    2
-Helsinkissä	Helsinki	    2
-Helsinki ;;Kuopio	Helsinki	    2
-Lapualla	Lapua	    2
-[Rauma]	Rauma	    2
-Kyrkslätt	Kirkkonummi	    2
-Omtryckt i Åbo	Turku	    2
-Nyslott	Savonlinna	    2
-Peterisa	St Petersburg	    2
-Strängnäsis	Strängnäs	    2
-Helsinki [s.n.]	Helsinki	    2
-Mu Helsinki	Helsinki	    2
-Joensuussa	Joensuu	    2
-[Mikkeli]	Mikkeli	    2
-[Nikolaistad]	Vaasa	    2
-Esbo	Espoo	    2
-Willmanstrand	Lappeenranta	    2
-[München]	München	    2
-Genève	Geneve	    2
-Helsingfos	Helsinki	    2
-Pargas	Parainen	    2
-Napoli	Naples	    2
-Seattle (Wash.)	Seattle WA	    2
-Brahestad	Raahe	    2
-Cincinnati	Cincinnati Oh	    2
-New Haven	New Haven Ct	    2
-Kobenhavn	Copenhagen	    2
-Chigago (Ill.)	Chicago IL	    2
-Kotkassa	Kotka	    2
-[Fürth]	Furth	    2
-Jacobstad	Pietarsaari	    2
-Lojo	Lohja	    2
-Lahdessa	Lahti	    2
-Helsinki :;[Helsinki]	Helsinki	    2
-[Brooklyn (N.Y.)]	New York	    2
-Chisholm (Minn.)	Chisholm Mn	    2
-[Helsinki ]	Helsinki	    2
-Almena (Wis.)	Almena Wi	    2
-Hancock (MI)	Hancock Mi	    2
-[Helsinki] :;Jyväskylä	Helsinki	    2
-Ashtabula, OH	Ashtabula Oh	    2
-[Duluth, Minn.]	Duluth Mn	    2
-Calumet, Mich.	Calumet Mi	    2
-Ironwood, Mich.	Ironwood Mi	    2
-Smithville (Minn.)	Smithville Mn	    2
-Fitchburg	Fitchburg Ma	    2
-Augustae Vindel. [Augsburg]	Augsburg	    2
-[Amsterodami]	Amsterdam	    2
-[Wien]	Vienna	    2
-[Nuremberg]	Nürnberg	    2
-[Paris]	Paris	    2
-Amstelaedami	Amsterdam	    2
-A Amsteldam	Amsterdam	    2
-St. Pietarborissa	St Petersburg	    2
-Revelis	Tallinn	    2
-A Utrecht	Utrecht	    2
-Aboa	Turku	    2
-[Tryckt i Vpsala]	Uppsala	    2
-Stuckholmis	Stockholm	    2
-[Altdorf]	Altdorf	    2
-[Wittenberg]	Wittenberg	    2
-Tryckt i Rostock	Rostock	    2
-[En Abóa]	Turku	    2
-At the Theater in Oxford	Oxford	    2
-Franckfurt am Mäyn und Leipzig	Franckfurt leipzig	    2
-[Viipuri?]	Vyborg	    2
-Tryckt och vplagdt i Stockholm	Stockholm	    2
-Rijasa	Riga	    2
-Präntätyt Turusa	Turku	    2
-[Präntätty Stockholmin caupungis]	Stockholm	    2
-Lvgd. Batav.	Leiden	    2
-På nytt medh egen bekostnadt vplagd och tryckt i Stockholm	Stockholm	    2
-Gissae	Giessen	    2
-Wittenbergae	Wittenberg	    2
-Excusus Aboae	Turku	    2
-Lipsiae	Leipzig	    2
-[Narva]	Narva	    2
-[Dorpt]	Tartu	    2
-Brvnsbergae	Braniewo	    2
-Helmaestadii	Helmstedt	    2
-Trycht i Vpsala	Uppsala	    2
-Abodiae	Turku	    2
-Vitembergae	Wittenberg	    2
-Wiburis	Vyborg	    2
-Dörpt	Tartu	    2
-Wiburisa	Vyborg	    2
-Stokkholmisa [sic]	Stockholm	    2
-[Pietari]	St Petersburg	    2
-Goettingae	Göttingen	    2
-Gottingae	Göttingen	    2
-Gryphiae	Greifswald	    2
-Stuckhulmisa	Stockholm	    2
-Strengnesiae	Strängnäs	    2
-Junecopiae	Uppsala	    2
-[Abo]	Turku	    2
-A St. Petersbourg	St Petersburg	    2
-[Vaasa?]	Vaasa	    2
-Stockholm och Upsala	Stockholm	    2
-Te Utrecht	Utrecht	    2
-Petropoli	St Petersburg	    2
-[Holmiae?]	Stockholm	    2
-Åbo och Stockholm	Turku	    2
-Förut tryckt i Stockholm, och å nyo uplagd i Åbo	Stockholm	    2
-A Cassel	Cassel	    2
-Nürnberg	Nurnberg	    2
-Londres	London	    2
-Omtryckt i Wasa	Vaasa	    2
-[Aboe]	Turku	    2
-Aboae impressit	Turku	    2
-Excusum Aboae	Turku	    2
-Helsingissä :;Yhden kristityn vaellus autuahan ijankaikkisuuteen, joka moninaisilla kauneilla kuvauksilla eteenasettaa katuvaisen ja Jumalaa etsiväisen sielun tilan.	Helsinki	    1
-Regiomonti Borussorum	Koningsberg	    1
-Pirkkala	Tampere	    1
-Riga :;Helsingfors	Riga	    1
-[Petrograd]	St Petersburg	    1
-[Petrozavodsk']	St Petersburg	    1
-Porwoossa	Porvoo	    1
-Abost	Turku	    1
-[Ekenäs]	Tammisaari	    1
-[Brünn]	Brunn	    1
-[Valaam]	Valamo	    1
-Berlin' = Berlin	Berlin	    1
-Lepzig	Leipzig	    1
-[Upsalassa]	Uppsala	    1
-Ely (Minn.)	Ely Mi	    1
-[St. Petersbourg]	St Petersburg	    1
-[København]	Copenhagen	    1
-Haparanda	Haaparanta	    1
-Fridrihsgamn'	Hamina	    1
-S.-Peterburg' : M. Merkušev	St Petersburg	    1
-Petrozavodsk'	St Petersburg	    1
-S--Peterburg'	St Petersburg	    1
-St. -Petersburg	St Petersburg	    1
-[Vyborg']	Vyborg	    1
-[Tavastgus']	Hämeenlinna	    1
-W Krakowie	Krakow	    1
-Porvoo :;Borgo	Porvoo	    1
-Gel'zingfors'	Helsinki	    1
-2. p.;Gel'singfors'	Helsinki	    1
-S.-Peterburg' :;С.-Петербургъ	St Petersburg	    1
-Gel'singfors';Гельсингфорсъ	Helsinki	    1
-Savonlinnassa	Savonlinna	    1
-[Helsinki	Helsinki	    1
-S.-Petersburg	St Petersburg	    1
-St-Pétersburg	St Petersburg	    1
-St-Petersburg	St Petersburg	    1
-Paris ; Limoges	Paris	    1
-St. Petersbourg	St Petersburg	    1
-[Ypäjä]	Ypäjä	    1
-Å̊bo	Turku	    1
-[Seattle (Wash.)]	Seattle WA	    1
-St. Louis Kaunti (Minn.)	St Louis Kaunti Mi	    1
-Bridgeport (Conn.)	Bridgeport Ct	    1
-Milwaukee (Wis)	Milwaukee Wi	    1
-Red Lodge (Mont.)	Red Lodge MT	    1
-[New York (N.Y.)]	New York	    1
-Hanna (Wyo.)	Hanna WY	    1
-Petrozavodsk''	St Petersburg	    1
-Vyborg''	Vyborg	    1
-Serdobol'	Sortavala	    1
-Wiljandis	Viljandi	    1
-Wien ;;Leipzig	Vienna	    1
-Leibzig	Leipzig	    1
-[Pesten]	Budapest	    1
-Helsingfors ;;Stockholm	Helsinki	    1
-Stockholm ;;Helsingfors :;København	Stockholm	    1
-Upsalassa	Uppsala	    1
-Kyôpenhaminassa	Copenhagen	    1
-Petrograd''	St Petersburg	    1
-S.-Peterburg''	St Petersburg	    1
-Arhangelsk	Archangelsk	    1
-Peterburg	St Petersburg	    1
-Vïden'	Vienna	    1
-Arhangel'sk''	Archangelsk	    1
-S. Peterburg''	St Petersburg	    1
-[Ravenna]	Ravenna	    1
-[Vicenza]	Vicenza	    1
-[Verona]	Verona	    1
-[Erfurt]	Erfurt	    1
-[Köpenhamn]	Copenhagen	    1
-Königsberg	Koningsberg	    1
-Halle a. S.	Halle	    1
-Kjøbnehavn	Copenhagen	    1
-Bergen :;Stockholm :;Kjøbenhavn	Bergen	    1
-Stockholm :;København :;Kristiania	Stockholm	    1
-[Kööpenhamina]	Copenhagen	    1
-Helsingfors :;Leipzig	Helsinki	    1
-Virginia (Minn.)	Virginia Mn	    1
-Loviza	Loviisa	    1
-Helsingforso	Helsinki	    1
-Leipzig :;Pesth	Leipzig	    1
-[Karlstad]	Karlstad	    1
-Hancockissa (Mich.)	Hancock Mi	    1
-Mitau und Leipzig	Jelgava	    1
-Wyburg	Vyborg	    1
-Stockholm :;[Helsingfors]	Stockholm	    1
-Helsingfors :;Köpenhamn	Helsinki	    1
-G. Gel'singfors'	Helsinki	    1
-[Brändö]	Brändö	    1
-Brooklyn (N.Y)	New York	    1
-[Turtle Lake, Wis.]	Turtle Lake Wi	    1
-New York, N.Y.	New York	    1
-Port Arthur (Ontario)	Port Arthur On	    1
-New York Mills	New York Mills Mn	    1
-Port Arthur	Port Arthur On	    1
-Red Jacket (Mich.)	Red Jacket Mi	    1
-Liverpoolissa	Liverpool	    1
-Lith i Åbo	Turku	    1
-St. Pietarissa	St Petersburg	    1
-Moscou	Moscow	    1
-Leitmeritz	Litoměřice	    1
-Saint-Pétersbourg	St Petersburg	    1
-Upsal	Uppsala	    1
-Poznán	Poznan	    1
-Cincinati	Cincinnati Oh	    1
-Te Dordrecht	Dordrecht	    1
-Christianstad	Copenhagen	    1
-Ne York	New York	    1
-Berlin und Stettin	Berlin	    1
-[Hfors]	Helsinki	    1
-[Wiipurissa]	Vyborg	    1
-St. Petterburg	St Petersburg	    1
-Nya Wasa	Vaasa	    1
-Te Amersfoort	Amersfoort	    1
-Porwossa	Porvoo	    1
-Stckholm	Stockholm	    1
-Askersundiae	Askersund	    1
-Rock Island, Ill.	Rock Island IL	    1
-Varsovie	Warsaw	    1
-Jyvæskylæssæ	Jyväskylä	    1
-Tryckt i Hernösand	Härnösand	    1
-[A Stockholm]	Stockholm	    1
-Ja Turusa	Turku	    1
-A Londres	London	    1
-Wastudesta prändätty Turusa	Turku	    1
-Leipsic	Leipzig	    1
-Vitebergae	Wittenberg	    1
-St.Michel	Mikkeli	    1
-Pejteri	St Petersburg	    1
-Gel'singfors' ;;S.-Peterburg'	St Petersburg	    1
-Viipuri ;;Mikkeli ;;Viipuri	Vyborg	    1
-Oulu ;;Turku	Oulu	    1
-Mikkeli ;;Viipuri	Mikkeli	    1
-Annettu Wiipurissa	Vyborg	    1
-St. Mikkeli ;;Viipuri	Mikkeli	    1
-Hämennlinna ;;Jyväskylä	Hämeenlinna	    1
-Helsinki ;;Pietarborissa	Helsinki	    1
-Varšava	Warsaw	    1
-[Sankt'-Peterburg']	St Petersburg	    1
-[Sankt-Peterburg]	St Petersburg	    1
-Turku ;;Helsinki	Turku	    1
-Gamburg' ;;Bazel' r ;;London' ;;Gel'singfors'	Hamburg	    1
-Gamburg' ;;Bazel' r                              ;;London' ;;Vašington' ;;Gel'singfors'	Hamburg	    1
-Porvoo ;;Viipuri	Porvoo	    1
-L'vìv	Lviv	    1
-S.-Peterburg' B Gosudarstvennaâ tipografìâ	St Petersburg	    1
-London'	London	    1
-Stokgol'm'	Stockholm	    1
-Helsinki  Simelius	Helsinki	    1
-Kuopio ;;Sortavala	Kuopio	    1
-Sawonlinna	Savonlinna	    1
-Helsingfors ;;Turku	Helsinki	    1
-Pietäri	St Petersburg	    1
-Turun kaupungisa	Turku	    1
-Helsinki ;;Tampere	Helsinki	    1
-Helsinki :;Helsinki	Helsinki	    1
-Jywäskylässä	Jyväskylä	    1
-Helsingissä = Helsingfors	Helsinki	    1
-Kuopio ;;Viipuri	Kuopio	    1
-[Haaparanta]	Haaparanta	    1
-J. Cedervaller poikineen	Vyborg	    1
-Jyväskylän kaupunnissa	Jyväskylä	    1
-Helsinki 4b Frenckell	Helsinki	    1
-Luulaja	Luleå	    1
-Viipuri ;;St. Mikkeli ;;Viipuri	Vyborg	    1
-Borgosa	Porvoo	    1
-Waasassa	Vaasa	    1
-Pietarporissa	St Petersburg	    1
-Kuopio linnas	Kuopio	    1
-Helsinki Frenckell	Helsinki	    1
-Jyvaeskylae	Jyväskylä	    1
-Helsinki K.E. Holm	Helsinki	    1
-Uusikaarlebyy	Uusikaarlepyy	    1
-Hankoniemi	Hanko	    1
-Kiliae	Kiel	    1
-Helsingi linnas	Helsinki	    1
-[Helsingissä] :;Helsinki	Helsinki	    1
-[Sankt Peterburg]	St Petersburg	    1
-[Kuopiossa]	Kuopio	    1
-Helsingin kaupungisa	Helsinki	    1
-[Joensuu]	Joensuu	    1
-[Hyvinkää]	Hyvinkää	    1
-[Korsholm]	Mustasaari	    1
-Turku ja Helsinki	Turku	    1
-Helsingisä	Helsinki	    1
-Imprimé à Åbo	Turku	    1
-Helsingfros	Helsinki	    1
-Helsinki Otava	Helsinki	    1
-Jywäskylä	Jyväskylä	    1
-A St. Pétersbourg	St Petersburg	    1
-Peterisa prändätty	St Petersburg	    1
-[St. Petersburg?]	St Petersburg	    1
-[Örebro]	Örebro	    1
-St. Peterborissa	St Petersburg	    1
-Trukketum Hernösandesne	Härnösand	    1
-V' Sanktpeterburge	St Petersburg	    1
-St.-Petersburg	St Petersburg	    1
-Ja kolmanen kerran Turusa prändätty	Turku	    1
-Strengnäsis	Strängnäs	    1
-Excuderunt Aboae	Turku	    1
-Abae [sic]	Turku	    1
-Haminassa	Hamina	    1
-Perno	Turku	    1
-Björbeborg	Pori	    1
-Hancockissa, Mich.	Hancock Mi	    1
-Pori Otto Andersin	Pori	    1
-[Uusikaupunki]	Uusikaupunki	    1
-Otavan asema	Otava	    1
-Helsingofrs	Helsinki	    1
-Krisstiania	Oslo	    1
-[Pernå]	Pernaja	    1
-T:hus	Hämeenlinna	    1
-Harbor	Harbor Oh	    1
-Gütersloh	Gutersloh	    1
-Svartå	Mustio	    1
-Ingå	Inkoo	    1
-[Björneborg]	Pori	    1
-Halle a/S	Halle	    1
-Östersund	Oslo	    1
-Godby, Åland	Godby	    1
-Sarvlaks	Sarvilahti	    1
-Prunkkala	Turku	    1
-B:borg	Pori	    1
-Frankfurt am Main	Frankfurt	    1
-Pernå	Pernaja	    1
-[Paris	Paris	    1
-Berlin-Grunewald	Berlin	    1
-[Helsingfors	Helsinki	    1
-Reykjavík	Reykjavik	    1
-Gel'singfrs'	Helsinki	    1
-[Kyrö]	Kyrö	    1
-Kvevlaks	Koivulahti	    1
-Borgå̊	Porvoo	    1
-Ekenäs [s.n.]	Tammisaari	    1
-Villmanstrand	Lappeenranta	    1
-Heinjoki	Heinäjoki	    1
-Wiljandi	Viljandi	    1
-Fitchburg. (Mass.)	Fitchburg Ma	    1
-Oulunkylä	Helsinki	    1
-St. Petersbrg	St Petersburg	    1
-Enare	Inari	    1
-Reikjavik	Reykjavik	    1
-[Mariehamn]	Mariehamn	    1
-[Kristinestad]	Kristiinankaupunki	    1
-Alfeld (Leine)	Alfend	    1
-Rock Island, (Ill.)	Rock Island IL	    1
-[Gamlakarleby]	Kokkola	    1
-Frankfurt a/M	Frankfurt	    1
-New York (N. Y.)	New York	    1
-Helsink	Helsinki	    1
-Helsingfors [s.n.]	Helsinki	    1
-Rock Island (Ill.)	Rock Island IL	    1
-Würzburg	Wurzburg	    1
-Nagy-Várad	Oradea	    1
-Kolozsvár	Cluj-Napoca	    1
-Haag	The Hague	    1
-Køpenhavn	Copenhagen	    1
-Billnäs	Karjaa	    1
-[Nyslott]	Savonlinna	    1
-[Ilmajoki]	Ilmajoki	    1
-Helsignfors	Helsinki	    1
-Praze	Prague	    1
-Kajana	Kajaani	    1
-[Libau]	Liepaja	    1
-Helsingfors :;[Helsingfors]	Helsinki	    1
-Åggelby	Helsinki	    1
-[Fitchburg (Mass.)]	Fitchburg Ma	    1
-Calumet	Calumet Mi	    1
-[Chicago]	Chicago IL	    1
-[Jacobson (Minn.)]	Jacobson Mi	    1
-Trondhjem	Trondheim	    1
-[Quincy (Mass.)]	Quincy Ma	    1
-Vibourg	Vyborg	    1
-Neapel	Naples	    1
-[Lovisa]	Loviisa	    1
-[Jakobstad]	Pietarsaari	    1
-Kristinehamn	Kristiinankaupunki	    1
-[Pieksämäki]	Pieksämäki	    1
-Haukilahti	Espoo	    1
-Lontoo	London	    1
-Harjavallassa	Harjavalta	    1
-Ottawa, Canada	Ottawa	    1
-Bennäs	Pännäinen	    1
-Portland (Or.)	Portland Or	    1
-La Haye	The Hague	    1
-Hämeeenlinna	Hämeenlinna	    1
-New York (Mills.)	New York Mills Mn	    1
-[Pietarissa]	St Petersburg	    1
-Rooma	Rome	    1
-Clear Creek (Utah)	Clear Creek UT	    1
-Oahspe Home Letchworth	Letchworth	    1
-Kalevassa (Mich.)	Kaleva Mi	    1
-Brooklynissa (N.Y.)	New York	    1
-Hämennlinnassa	Hämeenlinna	    1
-[Hangö]	Hanko	    1
-[Kotka]	Kotka	    1
-Fichtburg (Mass.)	Fitchburg Ma	    1
-[Salo]	Salo	    1
-Bronx (N. Y.)	New York	    1
-Superior (Wis)	Superior Wi	    1
-Brooklyn [N.Y.]	New York	    1
-Superior, (Wis.)	Superior Wi	    1
-Hämeelinna	Hämeenlinna	    1
-Port Arth., (Ont. Can.)	Port Arthur On	    1
-Harbor (OH)	Harbor Oh	    1
-Superior (WI)	Superior Wi	    1
-Port Arthur, Ontario	Port Arthur On	    1
-Ishpeming (MI)	Ishpeming Mi	    1
-Houghton (MI)	Houghton Mi	    1
-Red Jacket (MI)	Red Jacket Mi	    1
-Ashtabula (OH)	Ashtabula Oh	    1
-Fitchburg (MA)	Fitchburg Ma	    1
-Worchester (MA)	Worcester Ma	    1
-New York Mills, MN	New York Mills Mn	    1
-Worcester (MA)	Worcester Ma	    1
-Chicago (IL)	Chicago IL	    1
-Hancock, MI	Hancock Mi	    1
-Calumet (MI)	Calumet Mi	    1
-New York Mills (MN)	New York Mills Mn	    1
-Astoria (Oregon)	Astoria Or	    1
-[Astoria, Ore.]	Astoria Or	    1
-Quincy, Mass.	Quincy Ma	    1
-Astoria	Astoria Or	    1
-[U.S.A.]	USA	    1
-Ashtabula, Ohio	Ashtabula Oh	    1
-Köln	Cologne	    1
-Astoria, (Oregon)	Astoria Or	    1
-Fichtburg, Mass.	Fitchburg Ma	    1
-Seattle, (Wash.)	Seattle WA	    1
-Cleveland	Cleveland Oh	    1
-Ala-Tornio	Tornio	    1
-Duluth, Minn.	Duluth Mn	    1
-Freiburg in Baden	Freiburg im Breisgau	    1
-[St.-Pétersbourg]	St Petersburg	    1
-Port Arthur, Ont.	Port Arthur On	    1
-Made and sold by George Willdey at the corner house in Ludgate street next S:t. Pauls Church London	London	    1
-A Paris chez le sr. Desnos. Rue St. Jacques au globe, 1766.	Paris	    1
-A Venise	Venice	    1
-[Amstelodami]	Amsterdam	    1
-[Frankfurt]	Frankfurt	    1
-[Cologne]	Cologne	    1
-À Amsterdam	Amsterdam	    1
-Lutetiae Parisiorum	Paris	    1
-[Anvers]	Antwerp	    1
-Brvnsvigae	Braniewo	    1
-Tryct i Åbo	Turku	    1
-[Franckfurt am Mäyn und Leipzig]	Franckfurt leipzig	    1
-[A Paris]	Paris	    1
-Frankfurt und Leipzig	Frankfurt	    1
-Venezia	Venice	    1
-[Basel]	Basel	    1
-Tryckt Dorpati Livonúm	Tartu	    1
-tʼAmsterdam	Amsterdam	    1
-Francofurti	Frankfurt	    1
-Stregnesij	Strängnäs	    1
-A Maestricht	Maastricht	    1
-a Maestricht	Maastricht	    1
-Tryckt i Götheborg	Gothenburg	    1
-Wib.	Vyborg	    1
-Präntätty Stockholmisa	Stockholm	    1
-[Wasasa.]	Vaasa	    1
-Prändätty Suomen niemen Turusa	Turku	    1
-Stuckhulmis	Stockholm	    1
-Stockh.	Stockholm	    1
-[Turusa?]	Turku	    1
-Prändätty Stockholmisa	Stockholm	    1
-Pränt. Turusa	Turku	    1
-Präntätty Moscoosa	Moscow	    1
-[Örebroosa]	Örebro	    1
-Tryckt i Carlscrona	Karlskrona	    1
-[Stocholm]	Stockholm	    1
-Tryckte i Vpsala	Uppsala	    1
-Tryckte i Stockholm	Stockholm	    1
-Londini	London	    1
-[Holmis]	Stockholm	    1
-Stockholme	Stockholm	    1
-Pränädtty Stockholmisa	Stockholm	    1
-Altdorfi	Altdorf	    1
-och på mångas begäran ånyo uplagd i Åbo	Turku	    1
-A Copenhague	Copenhagen	    1
-[Königsberg]	Koningsberg	    1
-Riga & Mietau	Riga	    1
-Stocholm [!]	Stockholm	    1
-Excusum Wiburgi	Vyborg	    1
-Lisboa	Lisbon	    1
-[Wasasa	Vaasa	    1
-Stukhulmisa	Stockholm	    1
-Greiffswald	Greifswald	    1
-Amsteldam	Amsterdam	    1
-[Norrköping]	Norrköping	    1
-[Götheborg]	Gothenburg	    1
-Rostochiae	Rostock	    1
-Tryckt i Wästeråås	Västerås	    1
-Gedruckt zu Alten Stetin	Altenstein	    1
-[Västerås]	Västerås	    1
-Tryckt vthi Wästeråås	Västerås	    1
-Strasburg	Strasbourg	    1
-[Strassburg]	Strasbourg	    1
-[Lvtetiae Parisorvm]	Paris	    1
-Vpsala	Uppsala	    1
-Gedruckt zu Elbingen	Elbingen	    1
-Strengnensii	Strängnäs	    1
-Jönkiöping	Jönnköping	    1
-Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	Stockholm	    1
-[In der königlichen Heubtstadt Stockholm gedruckt]	Stockholm	    1
-[Wiburgiae?]	Vyborg	    1
-Tryckt på Wisingzborg	Visingsborg	    1
-Dorpati Livonrum	Tartu	    1
-Tryckt uthi Dorpt	Tartu	    1
-Verteutscht und gedruckt zu Riga	Riga	    1
-[Prändäty Turusa]	Turku	    1
-[Wiburisa]	Vyborg	    1
-[Prändätty Turusa]	Turku	    1
-Prendäty Turusa	Turku	    1
-Tryckt j Åbo	Turku	    1
-Armollisimman käskyn jälken präntätty Rigasa	Riga	    1
-Prändätty Turusa, Johan Winterildä cuning.da boktr:dä suures ruhtinan maasa Suomes	Turku	    1
-Prändätty Turusa, Johan Winterildä kuning.da boktr.dä suures ruhtinan maasa Suomes	Turku	    1
-Tvrvsa	Turku	    1
-Turus	Turku	    1
-[Hafniae]	Copenhagen	    1
-Giessae Cattorum	Giessen	    1
-Lond. Scanorum	Lund	    1
-Tryck j Sthocholm	Stockholm	    1
-Magdaeburgi	Magdeburg	    1
-[Upsala	Uppsala	    1
-à Berlin	Berlin	    1
-St. Petersborg	St Petersburg	    1
-Ingressu Aboae	Turku	    1
-[Wiburgae]	Vyborg	    1
-[Viborgae]	Vyborg	    1
-Tryckt uti Westerås	Västerås	    1
-Impressus Aboae	Turku	    1
-Recusa Aboae	Turku	    1
-Aboáe	Turku	    1
-[Impressum Aboae]	Turku	    1
-[Holmiae v. editum]	Stockholm	    1
-[Giessae]	Giessen	    1
-[Pernaviae]	Pärnu	    1
-Dorpati Livonvm	Tartu	    1
-Vbsaliae	Uppsala	    1
-Londini Scanor.	Lund	    1
-Londini Scanorum	Lund	    1
-Argentorati	Strasbourg	    1
-Londini Goth	Lund	    1
-Marpvrgi Cattorvm	Marburg	    1
-[Strengnesii]	Strängnäs	    1
-Tryckt i Linköping	Linköping	    1
-[Rigasa]	Riga	    1
-[Holmiae Sveonum]	Stockholm	    1
-[Präntätty Stockhomin [sic]]	Stockholm	    1
-[Präntätty Stockhomin]	Stockholm	    1
-[Präntätty Stocholmisa]	Stockholm	    1
-[Gothoburgae]	Gothenburg	    1
-[Stockholmis pränt.]	Stockholm	    1
-[Turusa pränd.]	Turku	    1
-[Stockh.]	Stockholm	    1
-[Tulkittu sures fangiuxes olles, mutta painettu Stocholmisa]	Stockholm	    1
-[Alten Stettin]	Altenstein	    1
-Tryckt på Wijsingsborg	Visingsborg	    1
-Wisingsburgi	Visingsborg	    1
-Impressum Gryphiswaldiae	Greifswald	    1
-[Lübeck]	Lybeck	    1
-Tryckt j Stocholm	Stockholm	    1
-[Strengnesiae]	Strängnäs	    1
-Och i Vpsala	Uppsala	    1
-I Vpsala	Uppsala	    1
-Stockholmiae Sveonum	Stockholm	    1
-Prentetty Stockholmi sa]	Stockholm	    1
-En tê Gryfisbaldía [Greifswald]	Greifswald	    1
-Enthlímmenon en Abóe	Turku	    1
-Holmiae recusa	Stockholm	    1
-Excusus Holmiae Svecorum	Stockholm	    1
-Rostochij	Rostock	    1
-Dorpato Pernaviam translatae	Tartu	    1
-Aboae Fennorum	Turku	    1
-[Turku tai Viipuri]	Turku	    1
-Stock[...]	Stockholm	    1
-Präntäis Stockholmis	Stockholm	    1
-Suobaci	Greifswald	    1
-Tryckt i Strengnäss	Strängnäs	    1
-Tryckt i Stockhom	Stockholm	    1
-Präntättyt Turusa	Turku	    1
-Aboae impensis autoris	Turku	    1
-Stocholmis	Stockholm	    1
-[Präntettu Stocholmis]	Stockholm	    1
-[Prentättu Stocholmis]	Stockholm	    1
-Prentattu Stockholmis	Stockholm	    1
-Tryckt i Socholm [sic]	Stockholm	    1
-Tryckt i Stockholm på nytt	Stockholm	    1
-Tryckt i then konungzlige hufwudstaden Stockholm	Stockholm	    1
-[Tryckt j keyserligh frij Rijkzstad Lybeck]	Lybeck	    1
-[Stokholmiae]	Stockholm	    1
-Excusi Aboae Finnorum	Turku	    1
-t'Amsterdam	Amsterdam	    1
-Francofvrti	Frankfurt	    1
-[Halberstadtiae]	Halberstadt	    1
-Präntäty Turusa	Turku	    1
-[Prentattu Stocholmisa]	Stockholm	    1
-Prentätty Stocholmis	Stockholm	    1
-Holmiae Sueonum	Stockholm	    1
-Lubecae	Lybeck	    1
-Adoae [po. Aboae]	Turku	    1
-Wjburgi	Vyborg	    1
-Suobaci recusa	Greifswald	    1
-Pani präntihin Turusa	Turku	    1
-Tryckt i Wiborgh	Vyborg	    1
-[Prentat i Vpsala]	Uppsala	    1
-Stukkolmis	Stockholm	    1
-Vthi Åbo	Turku	    1
-[Präntätty Stockholman caupungis]	Stockholm	    1
-Stockhulmisa	Stockholm	    1
-Stockholmin caupungis präntätty	Stockholm	    1
-[Paynettu Stockhol[...]isa	Stockholm	    1
-Et Aboae	Turku	    1
-Et Aboa	Turku	    1
-Excudit Aboae	Turku	    1
-Typis ver Rigae Livonum	Riga	    1
-Amsterodami	Amsterdam	    1
-[Warschau?]	Warsaw	    1
-Edita Wittebergae	Wittenberg	    1
-Gedrukt zu Vlm	Ulm	    1
-Tryckt på Wijsingzborg	Visingsborg	    1
-Tryckte j Stockholm	Stockholm	    1
-Präntätyd Stocholmisa	Stockholm	    1
-Imprimebatur Wisingsbvrgi	Visingsborg	    1
-Imprimebatur Gryphisuualdiae	Greifswald	    1
-Tryckt i Arnstadt	Arnstadt	    1
-[Painettu Stocholmisa]	Stockholm	    1
-Präntätty Rigas	Riga	    1
-Präntätty Riigas	Riga	    1
-[I Åbo]	Turku	    1
-Mutta nytt toisen kerran wastwdest, Stockholmin caupungis präntätty	Stockholm	    1
-Trycht i Åbo	Turku	    1
-Prentetty Stocholmin caupungis	Stockholm	    1
-Revisa [et] recusa Aboae	Turku	    1
-Prentat i Stockholm	Stockholm	    1
-Turusa anomuxen jälkeen präntätyt	Turku	    1
-Kjöpenhamn	Copenhagen	    1
-[London?]	London	    1
-Gryphiswaldi	Greifswald	    1
-Excusum primo Rostochii, nunc recusum Stockholmiae	Rostock	    1
-[Witebergae]	Wittenberg	    1
-[Lubecae]	Lybeck	    1
-Nu på nytt vplagdt och tryckt i Vpsala	Uppsala	    1
-Vilnae	Vilnius	    1
-[I Wiborg]	Vyborg	    1
-Gedrukkt Azu bo [sic]	Turku	    1
-Pränttäis Turusa	Turku	    1
-Imprimebat Aboae	Turku	    1
-[Strängnäs]	Strängnäs	    1
-[In Stockholm]	Stockholm	    1
-Tryckti [sic] Vpsala	Uppsala	    1
-Alten Stettin	Altenstein	    1
-Tryck [sic] i Åbo	Turku	    1
-Abóa [Turku]	Turku	    1
-Aff trycket vthgångit i Åbo	Turku	    1
-Excusae [Aboae]	Turku	    1
-Holmías	Stockholm	    1
-I Strengnäs	Strängnäs	    1
-Gedruckt zu Dorpt	Tartu	    1
-Zu Riga	Riga	    1
-Ttyckt [sic] i Abo	Turku	    1
-[Tryckt i Stock]holm	Stockholm	    1
-Gedrucht zu Abo	Turku	    1
-Impressum Athenis Auräicis [sic]	Turku	    1
-Erffurt	Erfurt	    1
-Excussit [sic] Aboae	Turku	    1
-Dorpt i Lieflandh	Tartu	    1
-Tryckt i Wästerås	Västerås	    1
-[En Barcelona]	Barcelona	    1
-Tryckt i Reval	Tallinn	    1
-Trykt i Stokholm	Stockholm	    1
-[Trykt i Ståkhålm]	Stockholm	    1
-Ståkkhålm	Stockholm	    1
-Helmstadii	Helmstedt	    1
-[Gothenburg]	Gothenburg	    1
-[Tryckt i Wiborg]	Vyborg	    1
-[Tryckt uti Lund]	Lund	    1
-[Lundini Goth.]	Lund	    1
-Trykkt i Abo	Turku	    1
-[Wiburgiae]	Vyborg	    1
-[Bremae]	Bremen	    1
-Excusum primo Upsaliae per Eschillum Matthiae a. 1631. nunc recusum Stockholmiae	Uppsala	    1
-Stetini	Szczecin	    1
-[Jena?]	Jena	    1
-[Hamburgi]	Hamburg	    1
-Dorpati Livonorvm	Tartu	    1
-Tryckt vthi Stockholm	Stockholm	    1
-Excudebat Holmiae	Stockholm	    1
-Tryckt i Stocholm	Stockholm	    1
-Stokholmi	Stockholm	    1
-Lugd. Batavorum	Leiden	    1
-Tryckt i Wijbor	Vyborg	    1
-Occidentalis Arhusae	Aarhus	    1
-Excusae Aboae	Turku	    1
-En Aboâ [Turku]	Turku	    1
-Wästeråhs	Västerås	    1
-Tryckt i Riga	Riga	    1
-Gedruckt zu Reval	Tallinn	    1
-Upsaiae [sic]	Uppsala	    1
-Wismariae	Wismar	    1
-Tryckt i Wijborg	Vyborg	    1
-[Auctoritate Regia Privilegialis Holmiae]	Stockholm	    1
-[Viburgiae]	Vyborg	    1
-Wiborgh	Vyborg	    1
-Exposita Aboae	Turku	    1
-A Abo	Turku	    1
-Wasasa, prändätty	Vaasa	    1
-Tockholmisa ja Turusa	Turku	    1
-Stockholmisa ja Turvsa	Stockholm	    1
-[Rigasa prändätty]	Riga	    1
-Stockholmis[s]a	Stockholm	    1
-Ånyo tryckt i Stockholm	Stockholm	    1
-Sotckholm [!]	Stockholm	    1
-Sto[c]holm	Stockholm	    1
-Sto[c]kholm	Stockholm	    1
-[Stóckholm]	Stockholm	    1
-Ludguni Batavorum	Leiden	    1
-Gothoburgi	Gothenburg	    1
-[Londini Gothorum]	Lund	    1
-Upsalie impressum	Uppsala	    1
-[Upsalie]	Uppsala	    1
-Upsalie impressa	Uppsala	    1
-[Kobenhavn]	Copenhagen	    1
-[Upsaliae	Uppsala	    1
-[Vasa?]	Vaasa	    1
-[Carlscrona]	Karlskrona	    1
-Tryckte i Upsala	Uppsala	    1
-Stokcholm	Stockholm	    1
-Carls-crona	Karlskrona	    1
-Strengnes	Strängnäs	    1
-Åco [sic]	Turku	    1
-Stralesundii	Stralsund	    1
-Abo [!]	Turku	    1
-Tryckt i Norkiöping	Norrköping	    1
-Imprimè [sic] a Abo	Turku	    1
-Stocklom	Stockholm	    1
-Norköping	Norrköping	    1
-Imprimé a Stockholm	Stockholm	    1
-Westeråhs	Västerås	    1
-Junekopiae	Uppsala	    1
-[Upsala?]	Uppsala	    1
-Upsal.	Uppsala	    1
-Af tryckt i Åbo	Turku	    1
-[Wiborg?]	Vyborg	    1
-Stocholm [sic]	Stockholm	    1
-Stockohlm [sic]	Stockholm	    1
-Linkiöping	Linköping	    1
-Skarae	Skara	    1
-St. Peterborisa	St Petersburg	    1
-Wasasa prändättyt	Vaasa	    1
-Turasa [sic] prändätty	Turku	    1
-[Turusa, prändäty]	Turku	    1
-[Prändättyt Waasasa]	Vaasa	    1
-[Götheborg] :;[Samt nu för andras räkning i Åbo]	Gothenburg	    1
-[Giöthebörisa [sic] ruotzin kielen prändätty Eric Stackbergildä. Mutta palkan edestä suomexi Turusa]	Turku	    1
-Stockholm, Upsala & Åbo	Stockholm	    1
-Abo [sic]	Turku	    1
-Räwelisä	Tallinn	    1
-Stockholmjsa	Stockholm	    1
-Göttingen und Gotha	Göttingen	    1
-Tryckt i Stockholm & Åbo	Stockholm	    1
-Prändätty Stockholmis	Stockholm	    1
-[Linköping]	Linköping	    1
-Stockholm, Upsala und Åbo	Stockholm	    1
-Tyrnaviae	Tyrnävä	    1
-Hafniae	Copenhagen	    1
-A Strasbourg	Strasbourg	    1
-Upsaliae et Aboae	Uppsala	    1
-St. Petarborisa	St Petersburg	    1
-St. Petersburgisa	St Petersburg	    1
-Rewelis	Tallinn	    1
-Stockholmisa prändätty	Stockholm	    1
-Stockh. ja Turus.	Stockholm	    1
-Turura [!]	Turku	    1
-Stockhomisa	Stockholm	    1
-Imprimé á Stockholm	Stockholm	    1
-A Amsterdam et a Leipzig	Amsterdam	    1
-A Amsteldam et a Leipzig	Amsterdam	    1
-Leipzig und Amsterdam	Leipzig	    1
-Deutschland [Stralsund]	Stralsund	    1
-Italia [i.e. Nizza]	Nizza	    1
-Franc fort & Leipzig	Frankfurt	    1
-A Francfort et Leipzig	Frankfurt	    1
-Regenspurg	Regensburg	    1
-Franckfurth	Frankfurt	    1
-[Prändätty Stockholmis]	Stockholm	    1
-Ja toisen kerran Turusa prändätty	Turku	    1
-Ja Turusa prändätty	Turku	    1
-Rewalisa prändätty	Tallinn	    1
-Linköpingisä	Linköping	    1
-Wiiburisa	Vyborg	    1
-Åboae	Turku	    1
-Åbae [!]	Turku	    1
+Total count: 	17656	
+Aboae	Turku	4868
+[Vasa]	Vaasa	2309
+[Åbo]	Turku	2053
+Åbo	Turku	1429
+[Aboae]	Turku	1305
+Turusa	Turku	 848
+Stockholmisa	Stockholm	 714
+Upsaliae	Uppsala	 360
+Tryckt i Åbo	Turku	 295
+[Stockholm]	Stockholm	 224
+[Turku]	Turku	 180
+[Wasa]	Vaasa	 179
+Holmiae	Stockholm	 177
+Wasasa	Vaasa	 164
+Upsala	Uppsala	 102
+Wasa	Vaasa	  79
+Tryckt i Stockholm	Stockholm	  78
+Dorpati Livonorum	Tartu	  70
+Turusa prändätty	Turku	  67
+Stokholmisa	Stockholm	  61
+Dorpati	Tartu	  60
+[Vaasa]	Vaasa	  53
+Stockholmis	Stockholm	  53
+Tryckt i Upsala	Uppsala	  46
+[Upsaliae]	Uppsala	  39
+Stockholmisa ja Turusa	Stockholm	  39
+Prändätty Turusa	Turku	  37
+[Viipuri]	Vyborg	  35
+[Tukholma]	Stockholm	  35
+[Sanktpeterburg']	St Petersburg	  34
+[Aboae?]	Turku	  33
+[Turusa]	Turku	  33
+[Stockholmisa]	Stockholm	  31
+Ubsaliae	Uppsala	  28
+Tryckt i Abo	Turku	  28
+Rostochii	Rostock	  28
+St. Petersburg	St Petersburg	  26
+[Holmiae]	Stockholm	  25
+Präntätty Turusa	Turku	  23
+Stockholmiae	Stockholm	  20
+Excusa Aboae	Turku	  19
+Präntätty Stockholmis	Stockholm	  18
+A Paris	Paris	  18
+[Wasasa]	Vaasa	  18
+[Amsterdam]	Amsterdam	  17
+Wiburgi	Vyborg	  17
+Abo	Turku	  17
+Wittebergae	Wittenberg	  16
+Abogiae	Turku	  16
+[Dorpat]	Tartu	  15
+Revaliae	Tallinn	  15
+Reval	Tallinn	  14
+[Dorpati]	Tartu	  13
+[Upsala]	Uppsala	  13
+Dorpt	Tartu	  12
+Tryckt i Vpsala	Uppsala	  11
+[Tryckt i Stockholm]	Stockholm	  11
+Wiborg	Vyborg	  11
+Tryckt i Wiborg	Vyborg	  11
+[Åbo?]	Turku	  11
+Pernaviae	Pärnu	  10
+Turuusa	Turku	  10
+Witebergae	Wittenberg	   9
+I Åbo	Turku	   9
+Vpsaliae	Uppsala	   9
+Götheborg	Gothenburg	   9
+Prändäty Turusa	Turku	   8
+Rostochi	Rostock	   8
+Trykkt i Åbo	Turku	   8
+[Turku?]	Turku	   8
+Impr. Aboae	Turku	   7
+[Rostochii]	Rostock	   7
+Upsalis	Uppsala	   7
+Gryphiswaldiae	Greifswald	   7
+Arosiae	Västerås	   7
+Stokkholmisa	Stockholm	   7
+I Stockholm	Stockholm	   7
+[London]	London	   6
+[Helsingfors]	Helsinki	   6
+Helsingfors	Helsinki	   6
+[Dorpat?]	Tartu	   6
+Lincopiae	Linköping	   6
+Tryckt j Stockholm	Stockholm	   6
+[Ubsaliae]	Uppsala	   6
+Stokholmiae	Stockholm	   6
+[Viborg]	Vyborg	   6
+Ienae	Jena	   6
+Westerås	Västerås	   6
+A Amsterdam	Amsterdam	   6
+Wiburg	Vyborg	   6
+Lundae	Lund	   5
+Rigae	Riga	   5
+Lvgdvni Batavorvm	Leiden	   5
+Gedruckt zu Abo	Turku	   5
+[Stockholm?]	Stockholm	   5
+Tukholma	Stockholm	   5
+Upsalae	Uppsala	   5
+I Åpo	Turku	   5
+Pernau	Pernaja	   5
+Impressa Aboae	Turku	   5
+Wästerås	Västerås	   5
+[Tryckt i Åbo]	Turku	   5
+[Stockholmis]	Stockholm	   5
+Stockholm, Upsala och Åbo	Stockholm	   5
+Tryckt i Wasa	Vaasa	   5
+St. Pétersbourg	St Petersburg	   4
+[Nytorp]	Nytorp	   4
+[Tryckt i Wasa]	Vaasa	   4
+Norimbergae	Nürnberg	   4
+[Nürnberg]	Nurnberg	   4
+[Augsburg]	Augsburg	   4
+Upsalas	Uppsala	   4
+[Wiburgi]	Vyborg	   4
+[Dorpati Livonorum]	Tartu	   4
+[Stockholmiae]	Stockholm	   4
+[Präntätty Turusa]	Turku	   4
+Upsaliae impressum	Uppsala	   4
+Strengnäs	Strängnäs	   4
+[Uppsala]	Uppsala	   4
+I Upsala	Uppsala	   4
+Te Haarlem	Haarlem	   4
+Scarae	Skara	   4
+Turusa, prändätty	Turku	   4
+[Stokholmisa]	Stockholm	   4
+Stockholmissa	Stockholm	   4
+Helsingforsiae	Helsinki	   3
+[Tartto ]	Tartu	   3
+Kiøbenhavn	Copenhagen	   3
+Petersburg	St Petersburg	   3
+Regiomonti Borvssiae	Koningsberg	   3
+Marpurgi Cattorum	Marburg	   3
+[Wittebergae]	Wittenberg	   3
+[Präntätty Stockholmis]	Stockholm	   3
+[Wiburgi?]	Vyborg	   3
+Aboae Finnorum	Turku	   3
+Amstelodami	Amsterdam	   3
+Stockholmis präntätty	Stockholm	   3
+Tryckte i Åbo	Turku	   3
+[Prentattu Stocholmis]	Stockholm	   3
+[Tryckt j Stockholm]	Stockholm	   3
+[Rostochiae]	Rostock	   3
+Stregnesiae	Strängnäs	   3
+Tryckt i Dorpt	Tartu	   3
+Rigae Livonum	Riga	   3
+Tryckt i Strengnäs	Strängnäs	   3
+Gedruckt zu Stockholm	Stockholm	   3
+Gedruckt zu Riga	Riga	   3
+[Revaliae]	Tallinn	   3
+Stokholmis	Stockholm	   3
+Stokholm	Stockholm	   3
+Jenae	Jena	   3
+Londini Gothorum	Lund	   3
+Upsaliae impressa	Uppsala	   3
+[Reval]	Tallinn	   3
+A Stockholm	Stockholm	   3
+Jönköping	Jönnköping	   3
+[Wiborg]	Vyborg	   3
+[Göteborg]	Gothenburg	   3
+Trykt i Upsala	Uppsala	   3
+Stocholmiae	Stockholm	   3
+Turusa präntätty	Turku	   3
+Carlscrona	Karlskrona	   3
+Hauniae	Haunia	   3
+Wasae	Vaasa	   3
+Prändätty Wasasa	Vaasa	   3
+Fahlun	Falun	   3
+Narvae	Narva	   3
+Scaris	Skara	   3
+Prändätyt Turusa	Turku	   3
+[Turusa prändätty]	Turku	   3
+Kiobenhavn	Copenhagen	   3
+[Tukholma?]	Stockholm	   3
+Lugduni Batavorum	Leiden	   3
+[Hamburg]	Hamburg	   3
+[Stockholmisa ja Turusa]	Stockholm	   3
+Exc. Aboae	Turku	   3
+Stockholm och Åbo	Stockholm	   3
+[Londres]	London	   2
+Weimar : Verlage des Industrie-Comptoirs	Weimar	   2
+Kjøbenhavn	Copenhagen	   2
+B'' Sanktpeterburgê	St Petersburg	   2
+[Hållas]	Halle	   2
+Sanktpeterburg'	St Petersburg	   2
+Tukhulmissa	Stockholm	   2
+Viipuri	Vyborg	   2
+Omtryckt i Åbo	Turku	   2
+St.-Pétersbourg	St Petersburg	   2
+Mitau	Jelgava	   2
+Peterisa	St Petersburg	   2
+Strängnäsis	Strängnäs	   2
+Augustae Vindel. [Augsburg]	Augsburg	   2
+[Amsterodami]	Amsterdam	   2
+[Nuremberg]	Nürnberg	   2
+Amstelaedami	Amsterdam	   2
+A Amsteldam	Amsterdam	   2
+Revelis	Tallinn	   2
+A Utrecht	Utrecht	   2
+[Stockholm	Stockholm	   2
+[Tryckt i Vpsala]	Uppsala	   2
+Stuckholmis	Stockholm	   2
+[Altdorf]	Altdorf	   2
+[Wittenberg]	Wittenberg	   2
+Tryckt i Rostock	Rostock	   2
+[En Abóa]	Turku	   2
+At the Theater in Oxford	Oxford	   2
+Franckfurt am Mäyn und Leipzig	Franckfurt leipzig	   2
+[Viipuri?]	Vyborg	   2
+Tryckt och vplagdt i Stockholm	Stockholm	   2
+Rijasa	Riga	   2
+Präntätyt Turusa	Turku	   2
+[Präntätty Stockholmin caupungis]	Stockholm	   2
+Lvgd. Batav.	Leiden	   2
+På nytt medh egen bekostnadt vplagd och tryckt i Stockholm	Stockholm	   2
+Gissae	Giessen	   2
+Wittenbergae	Wittenberg	   2
+Excusus Aboae	Turku	   2
+Lipsiae	Leipzig	   2
+[Riga]	Riga	   2
+[Dorpt]	Tartu	   2
+Brvnsbergae	Braniewo	   2
+Helmaestadii	Helmstedt	   2
+Trycht i Vpsala	Uppsala	   2
+Abodiae	Turku	   2
+Vitembergae	Wittenberg	   2
+Wiburis	Vyborg	   2
+Dörpt	Tartu	   2
+Wiburisa	Vyborg	   2
+Stokkholmisa [sic]	Stockholm	   2
+Vasa	Vaasa	   2
+Goettingae	Göttingen	   2
+Gottingae	Göttingen	   2
+Gryphiae	Greifswald	   2
+Stuckhulmisa	Stockholm	   2
+Strengnesiae	Strängnäs	   2
+Junecopiae	Uppsala	   2
+[Lund]	Lund	   2
+[Abo]	Turku	   2
+A St. Petersbourg	St Petersburg	   2
+[Vaasa?]	Vaasa	   2
+Stockholm och Upsala	Stockholm	   2
+Te Utrecht	Utrecht	   2
+Petropoli	St Petersburg	   2
+[Holmiae?]	Stockholm	   2
+Åbo och Stockholm	Turku	   2
+[St. Petersburg]	St Petersburg	   2
+Förut tryckt i Stockholm, och å nyo uplagd i Åbo	Stockholm	   2
+A Cassel	Cassel	   2
+Nürnberg	Nurnberg	   2
+Omtryckt i Wasa	Vaasa	   2
+[Aboe]	Turku	   2
+Aboae impressit	Turku	   2
+Excusum Aboae	Turku	   2
+Regiomonti Borussorum	Koningsberg	   1
+St. Peterbourg	St Petersburg	   1
+Abost	Turku	   1
+[Upsalassa]	Uppsala	   1
+[St. Petersbourg]	St Petersburg	   1
+Wien	Vienna	   1
+Vyborg'	Vyborg	   1
+[Helsinki]	Helsinki	   1
+Upsalassa	Uppsala	   1
+Königsberg	Koningsberg	   1
+Mikkelissä	Mikkeli	   1
+Wiipurissa	Vyborg	   1
+St. Pietarissa	St Petersburg	   1
+Te Dordrecht	Dordrecht	   1
+Copenhague	Copenhagen	   1
+Berlin und Stettin	Berlin	   1
+St. Petterburg	St Petersburg	   1
+Tryckt i Hernösand	Härnösand	   1
+[A Stockholm]	Stockholm	   1
+Ja Turusa	Turku	   1
+A Londres	London	   1
+Kobenhavn	Copenhagen	   1
+Wastudesta prändätty Turusa	Turku	   1
+Leipsic	Leipzig	   1
+Vitebergae	Wittenberg	   1
+Pejteri	St Petersburg	   1
+Annettu Wiipurissa	Vyborg	   1
+V' Sanktpeterburgě	St Petersburg	   1
+[Sankt-Peterburg]	St Petersburg	   1
+Turku ;;Helsinki	Turku	   1
+S.-Peterburg'	St Petersburg	   1
+Kiliae	Kiel	   1
+Helsingin kaupungisa	Helsinki	   1
+Imprimé à Åbo	Turku	   1
+A St. Pétersbourg	St Petersburg	   1
+Peterisa prändätty	St Petersburg	   1
+[St. Petersburg?]	St Petersburg	   1
+[Örebro]	Örebro	   1
+St. Peterborissa	St Petersburg	   1
+Trukketum Hernösandesne	Härnösand	   1
+V' Sanktpeterburge	St Petersburg	   1
+St.-Petersburg	St Petersburg	   1
+Ja kolmanen kerran Turusa prändätty	Turku	   1
+Strengnäsis	Strängnäs	   1
+Excuderunt Aboae	Turku	   1
+Abae [sic]	Turku	   1
+Made and sold by George Willdey at the corner house in Ludgate street next S:t. Pauls Church London	London	   1
+A Paris chez le sr. Desnos. Rue St. Jacques au globe, 1766.	Paris	   1
+A Venise	Venice	   1
+[Amstelodami]	Amsterdam	   1
+[Wien]	Vienna	   1
+[Frankfurt]	Frankfurt	   1
+[Cologne]	Cologne	   1
+À Amsterdam	Amsterdam	   1
+Lutetiae Parisiorum	Paris	   1
+[Anvers]	Antwerp	   1
+Brvnsvigae	Braniewo	   1
+Tryct i Åbo	Turku	   1
+[Franckfurt am Mäyn und Leipzig]	Franckfurt leipzig	   1
+[A Paris]	Paris	   1
+Frankfurt und Leipzig	Frankfurt	   1
+Venezia	Venice	   1
+[Basel]	Basel	   1
+Tryckt Dorpati Livonúm	Tartu	   1
+tʼAmsterdam	Amsterdam	   1
+Francofurti	Frankfurt	   1
+[Leipzig]	Leipzig	   1
+Stregnesij	Strängnäs	   1
+A Maestricht	Maastricht	   1
+[S.-Peterburg']	St Petersburg	   1
+[Moskva]	Moscow	   1
+[Paris]	Paris	   1
+a Maestricht	Maastricht	   1
+Tryckt i Götheborg	Gothenburg	   1
+Lübeck	Lybeck	   1
+Wib.	Vyborg	   1
+Präntätty Stockholmisa	Stockholm	   1
+[Wasasa.]	Vaasa	   1
+Prändätty Suomen niemen Turusa	Turku	   1
+Stuckhulmis	Stockholm	   1
+St. Pietarborissa	St Petersburg	   1
+Stockh.	Stockholm	   1
+[Turusa?]	Turku	   1
+Prändätty Stockholmisa	Stockholm	   1
+Pränt. Turusa	Turku	   1
+Präntätty Moscoosa	Moscow	   1
+[Örebroosa]	Örebro	   1
+Tryckt i Carlscrona	Karlskrona	   1
+[Stocholm]	Stockholm	   1
+Tryckte i Vpsala	Uppsala	   1
+Tryckte i Stockholm	Stockholm	   1
+Londini	London	   1
+[Holmis]	Stockholm	   1
+Stockholme	Stockholm	   1
+Pränädtty Stockholmisa	Stockholm	   1
+Aboa	Turku	   1
+Altdorfi	Altdorf	   1
+och på mångas begäran ånyo uplagd i Åbo	Turku	   1
+A Copenhague	Copenhagen	   1
+[Königsberg]	Koningsberg	   1
+Riga & Mietau	Riga	   1
+Stocholm [!]	Stockholm	   1
+Excusum Wiburgi	Vyborg	   1
+Lisboa	Lisbon	   1
+[Wasasa	Vaasa	   1
+Stukhulmisa	Stockholm	   1
+Greiffswald	Greifswald	   1
+Amsteldam	Amsterdam	   1
+[Norrköping]	Norrköping	   1
+[Götheborg]	Gothenburg	   1
+Rostochiae	Rostock	   1
+Tryckt i Wästeråås	Västerås	   1
+Gedruckt zu Alten Stetin	Altenstein	   1
+[Västerås]	Västerås	   1
+Tryckt vthi Wästeråås	Västerås	   1
+Strasburg	Strasbourg	   1
+[Strassburg]	Strasbourg	   1
+[Lvtetiae Parisorvm]	Paris	   1
+Vpsala	Uppsala	   1
+Gedruckt zu Elbingen	Elbingen	   1
+Strengnensii	Strängnäs	   1
+Jönkiöping	Jönnköping	   1
+Tryckt i Stockholm aff Georg Hantsch, Kongl: booktr.	Stockholm	   1
+[In der königlichen Heubtstadt Stockholm gedruckt]	Stockholm	   1
+[Wiburgiae?]	Vyborg	   1
+Tryckt på Wisingzborg	Visingsborg	   1
+Dorpati Livonrum	Tartu	   1
+Tryckt uthi Dorpt	Tartu	   1
+Verteutscht und gedruckt zu Riga	Riga	   1
+[Prändäty Turusa]	Turku	   1
+[Wiburisa]	Vyborg	   1
+[Prändätty Turusa]	Turku	   1
+Prendäty Turusa	Turku	   1
+Tryckt j Åbo	Turku	   1
+Armollisimman käskyn jälken präntätty Rigasa	Riga	   1
+Prändätty Turusa, Johan Winterildä cuning.da boktr:dä suures ruhtinan maasa Suomes	Turku	   1
+Prändätty Turusa, Johan Winterildä kuning.da boktr.dä suures ruhtinan maasa Suomes	Turku	   1
+Tvrvsa	Turku	   1
+Turus	Turku	   1
+[Hafniae]	Copenhagen	   1
+Giessae Cattorum	Giessen	   1
+Lond. Scanorum	Lund	   1
+Tryck j Sthocholm	Stockholm	   1
+Strassburg	Strasbourg	   1
+Magdaeburgi	Magdeburg	   1
+[Upsala	Uppsala	   1
+à Berlin	Berlin	   1
+St. Petersborg	St Petersburg	   1
+Ingressu Aboae	Turku	   1
+[Wiburgae]	Vyborg	   1
+[Viborgae]	Vyborg	   1
+Tryckt uti Westerås	Västerås	   1
+Impressus Aboae	Turku	   1
+Recusa Aboae	Turku	   1
+Aboáe	Turku	   1
+[Impressum Aboae]	Turku	   1
+[Holmiae v. editum]	Stockholm	   1
+[Giessae]	Giessen	   1
+[Pernaviae]	Pärnu	   1
+Dorpati Livonvm	Tartu	   1
+Vbsaliae	Uppsala	   1
+Londini Scanor.	Lund	   1
+Londini Scanorum	Lund	   1
+Argentorati	Strasbourg	   1
+Londini Goth	Lund	   1
+Marpvrgi Cattorvm	Marburg	   1
+[Strengnesii]	Strängnäs	   1
+Tryckt i Linköping	Linköping	   1
+[Rigasa]	Riga	   1
+[Holmiae Sveonum]	Stockholm	   1
+[Präntätty Stockhomin [sic]]	Stockholm	   1
+[Präntätty Stockhomin]	Stockholm	   1
+[Präntätty Stocholmisa]	Stockholm	   1
+[Gothoburgae]	Gothenburg	   1
+[Stockholmis pränt.]	Stockholm	   1
+[Turusa pränd.]	Turku	   1
+[Stockh.]	Stockholm	   1
+[Tulkittu sures fangiuxes olles, mutta painettu Stocholmisa]	Stockholm	   1
+[Alten Stettin]	Altenstein	   1
+Tryckt på Wijsingsborg	Visingsborg	   1
+Wisingsburgi	Visingsborg	   1
+Impressum Gryphiswaldiae	Greifswald	   1
+[Lübeck]	Lybeck	   1
+Tryckt j Stocholm	Stockholm	   1
+[Strengnesiae]	Strängnäs	   1
+Och i Vpsala	Uppsala	   1
+I Vpsala	Uppsala	   1
+Stockholmiae Sveonum	Stockholm	   1
+Prentetty Stockholmi sa]	Stockholm	   1
+En tê Gryfisbaldía [Greifswald]	Greifswald	   1
+Enthlímmenon en Abóe	Turku	   1
+Holmiae recusa	Stockholm	   1
+Excusus Holmiae Svecorum	Stockholm	   1
+Rostochij	Rostock	   1
+Dorpato Pernaviam translatae	Tartu	   1
+Aboae Fennorum	Turku	   1
+[Turku tai Viipuri]	Turku	   1
+Stock[...]	Stockholm	   1
+Präntäis Stockholmis	Stockholm	   1
+Suobaci	Greifswald	   1
+Tryckt i Strengnäss	Strängnäs	   1
+Tryckt i Stockhom	Stockholm	   1
+Präntättyt Turusa	Turku	   1
+Aboae impensis autoris	Turku	   1
+Stocholmis	Stockholm	   1
+[Präntettu Stocholmis]	Stockholm	   1
+[Prentättu Stocholmis]	Stockholm	   1
+Prentattu Stockholmis	Stockholm	   1
+Tryckt i Socholm [sic]	Stockholm	   1
+Tryckt i Stockholm på nytt	Stockholm	   1
+Tryckt i then konungzlige hufwudstaden Stockholm	Stockholm	   1
+[Tryckt j keyserligh frij Rijkzstad Lybeck]	Lybeck	   1
+[Stokholmiae]	Stockholm	   1
+Excusi Aboae Finnorum	Turku	   1
+t'Amsterdam	Amsterdam	   1
+Francofvrti	Frankfurt	   1
+[Halberstadtiae]	Halberstadt	   1
+Präntäty Turusa	Turku	   1
+[Prentattu Stocholmisa]	Stockholm	   1
+Prentätty Stocholmis	Stockholm	   1
+Holmiae Sueonum	Stockholm	   1
+Lubecae	Lybeck	   1
+Adoae [po. Aboae]	Turku	   1
+Wjburgi	Vyborg	   1
+Suobaci recusa	Greifswald	   1
+Pani präntihin Turusa	Turku	   1
+Tryckt i Wiborgh	Vyborg	   1
+[Prentat i Vpsala]	Uppsala	   1
+Stukkolmis	Stockholm	   1
+Vthi Åbo	Turku	   1
+[Präntätty Stockholman caupungis]	Stockholm	   1
+Stockhulmisa	Stockholm	   1
+Stockholmin caupungis präntätty	Stockholm	   1
+[Paynettu Stockhol[...]isa	Stockholm	   1
+Et Aboae	Turku	   1
+Et Aboa	Turku	   1
+Excudit Aboae	Turku	   1
+Typis ver Rigae Livonum	Riga	   1
+Amsterodami	Amsterdam	   1
+[Warschau?]	Warsaw	   1
+Edita Wittebergae	Wittenberg	   1
+Gedrukt zu Vlm	Ulm	   1
+Tryckt på Wijsingzborg	Visingsborg	   1
+Tryckte j Stockholm	Stockholm	   1
+Präntätyd Stocholmisa	Stockholm	   1
+Imprimebatur Wisingsbvrgi	Visingsborg	   1
+Imprimebatur Gryphisuualdiae	Greifswald	   1
+Tryckt i Arnstadt	Arnstadt	   1
+[Painettu Stocholmisa]	Stockholm	   1
+Präntätty Rigas	Riga	   1
+Präntätty Riigas	Riga	   1
+[I Åbo]	Turku	   1
+Mutta nytt toisen kerran wastwdest, Stockholmin caupungis präntätty	Stockholm	   1
+Trycht i Åbo	Turku	   1
+Prentetty Stocholmin caupungis	Stockholm	   1
+Revisa [et] recusa Aboae	Turku	   1
+Prentat i Stockholm	Stockholm	   1
+Turusa anomuxen jälkeen präntätyt	Turku	   1
+Kjöpenhamn	Copenhagen	   1
+[London?]	London	   1
+Gryphiswaldi	Greifswald	   1
+Excusum primo Rostochii, nunc recusum Stockholmiae	Rostock	   1
+[Witebergae]	Wittenberg	   1
+[Lubecae]	Lybeck	   1
+Nu på nytt vplagdt och tryckt i Vpsala	Uppsala	   1
+Vilnae	Vilnius	   1
+[I Wiborg]	Vyborg	   1
+Gedrukkt Azu bo [sic]	Turku	   1
+Pränttäis Turusa	Turku	   1
+Imprimebat Aboae	Turku	   1
+[Strängnäs]	Strängnäs	   1
+[In Stockholm]	Stockholm	   1
+Tryckti [sic] Vpsala	Uppsala	   1
+Alten Stettin	Altenstein	   1
+Tryck [sic] i Åbo	Turku	   1
+Abóa [Turku]	Turku	   1
+Aff trycket vthgångit i Åbo	Turku	   1
+Excusae [Aboae]	Turku	   1
+Holmías	Stockholm	   1
+I Strengnäs	Strängnäs	   1
+Gedruckt zu Dorpt	Tartu	   1
+Zu Riga	Riga	   1
+Ttyckt [sic] i Abo	Turku	   1
+[Tryckt i Stock]holm	Stockholm	   1
+Gedrucht zu Abo	Turku	   1
+Impressum Athenis Auräicis [sic]	Turku	   1
+Erffurt	Erfurt	   1
+Excussit [sic] Aboae	Turku	   1
+Dorpt i Lieflandh	Tartu	   1
+Tryckt i Wästerås	Västerås	   1
+[En Barcelona]	Barcelona	   1
+Tryckt i Reval	Tallinn	   1
+Trykt i Stokholm	Stockholm	   1
+[Trykt i Ståkhålm]	Stockholm	   1
+Ståkkhålm	Stockholm	   1
+Helmstadii	Helmstedt	   1
+[Gothenburg]	Gothenburg	   1
+[Tryckt i Wiborg]	Vyborg	   1
+[Tryckt uti Lund]	Lund	   1
+[Narva]	Narva	   1
+[Lundini Goth.]	Lund	   1
+Trykkt i Abo	Turku	   1
+[Wiburgiae]	Vyborg	   1
+[Bremae]	Bremen	   1
+Excusum primo Upsaliae per Eschillum Matthiae a. 1631. nunc recusum Stockholmiae	Uppsala	   1
+Stetini	Szczecin	   1
+[Jena?]	Jena	   1
+[Hamburgi]	Hamburg	   1
+Dorpati Livonorvm	Tartu	   1
+Tryckt vthi Stockholm	Stockholm	   1
+Excudebat Holmiae	Stockholm	   1
+Tryckt i Stocholm	Stockholm	   1
+Stokholmi	Stockholm	   1
+Lugd. Batavorum	Leiden	   1
+Tryckt i Wijbor	Vyborg	   1
+Occidentalis Arhusae	Aarhus	   1
+Excusae Aboae	Turku	   1
+En Aboâ [Turku]	Turku	   1
+Wästeråhs	Västerås	   1
+Tryckt i Riga	Riga	   1
+Gedruckt zu Reval	Tallinn	   1
+Upsaiae [sic]	Uppsala	   1
+Wismariae	Wismar	   1
+Tryckt i Wijborg	Vyborg	   1
+[Auctoritate Regia Privilegialis Holmiae]	Stockholm	   1
+[Viburgiae]	Vyborg	   1
+Wiborgh	Vyborg	   1
+Exposita Aboae	Turku	   1
+A Abo	Turku	   1
+Wasasa, prändätty	Vaasa	   1
+Tockholmisa ja Turusa	Turku	   1
+Stockholmisa ja Turvsa	Stockholm	   1
+[Rigasa prändätty]	Riga	   1
+[Pietari]	St Petersburg	   1
+Stockholmis[s]a	Stockholm	   1
+Ånyo tryckt i Stockholm	Stockholm	   1
+Sotckholm [!]	Stockholm	   1
+Sto[c]holm	Stockholm	   1
+Sto[c]kholm	Stockholm	   1
+[Stóckholm]	Stockholm	   1
+Ludguni Batavorum	Leiden	   1
+Gothoburgi	Gothenburg	   1
+[Londini Gothorum]	Lund	   1
+Upsalie impressum	Uppsala	   1
+[Upsalie]	Uppsala	   1
+Upsalie impressa	Uppsala	   1
+[Kobenhavn]	Copenhagen	   1
+[Upsaliae	Uppsala	   1
+[Vasa?]	Vaasa	   1
+[Carlscrona]	Karlskrona	   1
+Tryckte i Upsala	Uppsala	   1
+Stokcholm	Stockholm	   1
+Carls-crona	Karlskrona	   1
+Strengnes	Strängnäs	   1
+Åco [sic]	Turku	   1
+Stralesundii	Stralsund	   1
+Abo [!]	Turku	   1
+Tryckt i Norkiöping	Norrköping	   1
+Imprimè [sic] a Abo	Turku	   1
+Stocklom	Stockholm	   1
+Norköping	Norrköping	   1
+Imprimé a Stockholm	Stockholm	   1
+Westeråhs	Västerås	   1
+Junekopiae	Uppsala	   1
+[Upsala?]	Uppsala	   1
+Upsal.	Uppsala	   1
+Af tryckt i Åbo	Turku	   1
+[Wiborg?]	Vyborg	   1
+Stocholm [sic]	Stockholm	   1
+Stockohlm [sic]	Stockholm	   1
+Linkiöping	Linköping	   1
+Skarae	Skara	   1
+St. Peterborisa	St Petersburg	   1
+Wasasa prändättyt	Vaasa	   1
+Turasa [sic] prändätty	Turku	   1
+[Turusa, prändäty]	Turku	   1
+[Prändättyt Waasasa]	Vaasa	   1
+[Götheborg] :;[Samt nu för andras räkning i Åbo]	Gothenburg	   1
+[Giöthebörisa [sic] ruotzin kielen prändätty Eric Stackbergildä. Mutta palkan edestä suomexi Turusa]	Turku	   1
+Stockholm, Upsala & Åbo	Stockholm	   1
+Abo [sic]	Turku	   1
+Räwelisä	Tallinn	   1
+Stockholmjsa	Stockholm	   1
+Göttingen und Gotha	Göttingen	   1
+Tryckt i Stockholm & Åbo	Stockholm	   1
+Prändätty Stockholmis	Stockholm	   1
+[Linköping]	Linköping	   1
+Stockholm, Upsala und Åbo	Stockholm	   1
+Tyrnaviae	Tyrnävä	   1
+Hafniae	Copenhagen	   1
+A Strasbourg	Strasbourg	   1
+Upsaliae et Aboae	Uppsala	   1
+St. Petarborisa	St Petersburg	   1
+St. Petersburgisa	St Petersburg	   1
+Rewelis	Tallinn	   1
+Stockholmisa prändätty	Stockholm	   1
+Stockh. ja Turus.	Stockholm	   1
+Turura [!]	Turku	   1
+Stockhomisa	Stockholm	   1
+Imprimé á Stockholm	Stockholm	   1
+A Amsterdam et a Leipzig	Amsterdam	   1
+A Amsteldam et a Leipzig	Amsterdam	   1
+Leipzig und Amsterdam	Leipzig	   1
+Kjöbenhavn	Copenhagen	   1
+Deutschland [Stralsund]	Stralsund	   1
+Italia [i.e. Nizza]	Nizza	   1
+Londres	London	   1
+Franc fort & Leipzig	Frankfurt	   1
+A Francfort et Leipzig	Frankfurt	   1
+Regenspurg	Regensburg	   1
+Franckfurth	Frankfurt	   1
+[Prändätty Stockholmis]	Stockholm	   1
+Ja toisen kerran Turusa prändätty	Turku	   1
+Ja Turusa prändätty	Turku	   1
+Rewalisa prändätty	Tallinn	   1
+Linköpingisä	Linköping	   1
+Wiiburisa	Vyborg	   1
+Åboae	Turku	   1
+Åbae [!]	Turku	   1
