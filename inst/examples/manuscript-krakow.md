@@ -15,9 +15,9 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015a) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015b). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -66,6 +66,10 @@ Riksdag Stockholm 19 juni 1771 12 september 1772
 Riksdag Gävle 26 januari 1792 24 februari 1792
 
 --&gt; tapahtuuko Gävlessä selvää nousua julkaisemisessa.
+
+The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..)..
+
+![](figure_201606_Krakow/valtiopaivat-1.png)
 
 ### Book as media: development over time
 
@@ -241,12 +245,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.14    stringr_1.0.0        
-    ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
-    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
-    ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
-    ## [13] sorvi_0.7.46          tibble_1.0            dplyr_0.4.3          
-    ## [16] bibliographica_0.2.21 devtools_1.11.1      
+    ##  [1] git2r_0.15.0          knitcitations_1.0.7   rmarkdown_0.9.6.14   
+    ##  [4] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
+    ##  [7] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
+    ## [10] tidyr_0.4.1           fennica_0.1.42        ggplot2_2.1.0        
+    ## [13] magrittr_1.5          sorvi_0.7.46          tibble_1.0           
+    ## [16] dplyr_0.4.3           bibliographica_0.2.21 devtools_1.11.1      
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
