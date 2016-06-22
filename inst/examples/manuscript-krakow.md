@@ -22,24 +22,24 @@ You can cite with the DOI (the citation info will then be collected automaticall
 Results
 -------
 
-### General trends
+### General trends: Fennica vs. Kungliga
 
-Relevant summaries can be moved here and polished. Which figures at least ?
-
-General trends (top authors etc):
+Relevant summaries can be moved here and polished. Which figures at least ? Just let me know and I will add.
 
 -   [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
 -   [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
 
-### Fennica vs. Kungliga
+Alustavia vertailuja
 
-Alustavia vertailuja Kungligasta suhteessa Fennicaan.
-
+-   Julkaisumäärien tilastointeja yleisesti ja paikkakunnittain
 -   Fennica pois lukien Suomi ?
 -   Kungliga pois lukien Ruotsi ?
--   Julkaisumäärien tilastointeja yleisesti ja paikkakunnittain
 
 Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
+
+Title count per decade:
+
+![](figure_201606_Krakow/publishingovertime-1.png)
 
 The top publication places ranked by the title count
 
@@ -72,6 +72,8 @@ Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankoh
 Kirjan kehitys mediana (paperinkulutus / dokumentti, miten yli 50 sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
 
 Kirjakokojen kehityksiä pitää analysoida myöhemmin tarkkaan. mielenkiintoista Kungligan osalta erityisesti että foliot (1to ja 2to) puuttuvat melkein kokonaan joka on eri kuvio kuin ESTC, lisäksi sitten 4to ja 8vo voimakas nousu 1700-luvulla on mielenkiintoista.
+
+<img src="figure_201606_Krakow/papercompbyformat-1.png" width="430px" /><img src="figure_201606_Krakow/papercompbyformat-2.png" width="430px" /><img src="figure_201606_Krakow/papercompbyformat-3.png" width="430px" /><img src="figure_201606_Krakow/papercompbyformat-4.png" width="430px" />
 
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing.
 
@@ -148,7 +150,7 @@ Conclusions
 Materials and Methods
 ---------------------
 
-Library catalogues contain rich metadata on...
+Library catalogs contain rich metadata on...
 
 Here we analyse Fennica & Kungliga..
 
