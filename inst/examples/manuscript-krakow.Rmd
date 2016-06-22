@@ -393,7 +393,7 @@ library(sorvi)
 dfs <- df0 %>% group_by(publication_decade) %>%
          summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
 p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_decade)) +
-       geom_point() + geom_smooth(col = "black") +
+       geom_point() + geom_smooth(method = "loess", size = 1, color = "black") +
        xlab("Publication year") + ylab("Paper per document") +
        ggtitle("Average paper consumption per document")
 print(p)
