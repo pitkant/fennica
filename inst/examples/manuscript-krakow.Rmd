@@ -86,10 +86,9 @@ Relevant summaries can be moved here and polished. Which figures at least ? Just
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
 
-Julkaisumäärien tilastointeja yleisesti:
+Overall development in publishing activity:
 
-
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10, out.width="430px"}
 df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
 df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
@@ -98,12 +97,9 @@ p <- ggplot(df2, aes(x = publication_decade, y = n)) +
      geom_point(aes(shape = catalog), size = 3) +     
      #ylab("Paper consumption (km2)")
      ylab("Title count (n)") + xlab("Publication year") +  
-     ggtitle("Publishing activity")
+     ggtitle("Overall publishing activity")
 print(p)
 ```
-
-
-Julkaisumäärien tilastointeja paikkakunnittain:
 
 
 The top publication places ranked by the title count
@@ -132,16 +128,16 @@ grid.arrange(pf, pk, nrow = 1)
 ```
 
 
-Comparing printing activity in Turku, Uppsala, Lund, and
+Comparison of printing activity in Turku, Uppsala, Lund, and
 Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta
 ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim
 miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen
-julkaisukenttään 1600-luvun aikana.
+julkaisukenttään 1600-luvun aikana. I can provide percentages instead
+of counts, or paper consumption estimates (not reliable yet, though),
+barplots, selected time spans, selected places etc.. just let me know
+what is needed.
 
-I can here provide percentages, barplots, selected time spans,
-selected places etc.. just let me know what is needed.
-
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=8, fig.height=6, fig.show="hold", out.width="430px"}
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
                summarise(n = n()) %>%
@@ -373,8 +369,48 @@ for (catal in unique(df0$catalog)) {
   p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
   print(p)
 }
-
 ```
+
+
+```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+df <- fen %>% 
+      filter(!is.na(country)) %>%
+      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
+
+# Add indicator field: Turku or Not Turku
+myplace <- "Turku"
+
+df$myplace <- rep(NA, nrow(df))
+df$myplace[df$publication_place == myplace] <- myplace
+df$myplace[!df$publication_place == myplace & df$country == "Finland"] <- "Finland"
+df$myplace[!df$country == "Finland" & !df$publication_place == myplace] <- "Foreign"
+df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
+
+# Keep entries with known publication place and paper consumption
+# Group by year/decade and Turku/Other
+dfs <- df %>% group_by(publication_decade, myplace) %>%
+  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
+     geom_bar(position = "stack", stat = "identity", color = "black") +
+     ggtitle("Paper consumption") +
+     #scale_fill_manual(values = c("blue", "black", "darkgreen")) +
+     scale_fill_grey() +
+     guides(fill = guide_legend(reverse = TRUE, title = "")) + 
+     xlab("Publication decade") + ylab("Paper (km2)")
+print(p)
+
+
+p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
+     geom_bar(position = "stack", stat = "identity", color = "black") +
+     ggtitle("Title count") +
+     # scale_fill_manual(values = c("blue", "black", "darkgreen")) +
+     scale_fill_grey() +
+     guides(fill = guide_legend(reverse = TRUE, title = "")) +      
+     xlab("Publication decade") + ylab("Title count (n)")
+print(p)
+```
+
 
 
 ### Publisher analysis (HR)
@@ -521,45 +557,6 @@ that there is time to do.
  * [Kungliga TODO](https://github.com/rOpenGov/kungliga/blob/master/antagomir/TODO.md)
 
 
-
-```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
-df <- fen %>% 
-      filter(!is.na(country)) %>%
-      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
-
-# Add indicator field: Turku or Not Turku
-myplace <- "Turku"
-
-df$myplace <- rep(NA, nrow(df))
-df$myplace[df$publication_place == myplace] <- myplace
-df$myplace[!df$publication_place == myplace & df$country == "Finland"] <- "Finland"
-df$myplace[!df$country == "Finland" & !df$publication_place == myplace] <- "Foreign"
-df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
-
-# Keep entries with known publication place and paper consumption
-# Group by year/decade and Turku/Other
-dfs <- df %>% group_by(publication_decade, myplace) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
-     geom_bar(position = "stack", stat = "identity", color = "black") +
-     ggtitle("Paper consumption") +
-     #scale_fill_manual(values = c("blue", "black", "darkgreen")) +
-     scale_fill_grey() +
-     guides(fill = guide_legend(reverse = TRUE, title = "")) + 
-     xlab("Publication decade") + ylab("Paper (km2)")
-print(p)
-
-
-p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
-     geom_bar(position = "stack", stat = "identity", color = "black") +
-     ggtitle("Title count") +
-     # scale_fill_manual(values = c("blue", "black", "darkgreen")) +
-     scale_fill_grey() +
-     guides(fill = guide_legend(reverse = TRUE, title = "")) +      
-     xlab("Publication decade") + ylab("Title count (n)")
-print(p)
-```
 
 
 

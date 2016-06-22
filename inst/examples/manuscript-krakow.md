@@ -15,9 +15,9 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015a) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015b). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -31,19 +31,15 @@ Relevant summaries can be moved here and polished. Which figures at least ? Just
 -   [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
 -   [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
 
-Julkaisumäärien tilastointeja yleisesti:
+Overall development in publishing activity:
 
-![](figure_201606_Krakow/publishingovertime-1.png)
-
-Julkaisumäärien tilastointeja paikkakunnittain:
+<img src="figure_201606_Krakow/publishingovertime-1.png" width="430px" />
 
 The top publication places ranked by the title count
 
 ![](figure_201606_Krakow/LIBER-topplace-1.png)
 
-Comparing printing activity in Turku, Uppsala, Lund, and Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
-
-I can here provide percentages, barplots, selected time spans, selected places etc.. just let me know what is needed.
+Comparison of printing activity in Turku, Uppsala, Lund, and Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana. I can provide percentages instead of counts, or paper consumption estimates (not reliable yet, though), barplots, selected time spans, selected places etc.. just let me know what is needed.
 
 <img src="figure_201606_Krakow/publishingactivitycomparisons-1.png" width="430px" /><img src="figure_201606_Krakow/publishingactivitycomparisons-2.png" width="430px" />
 
@@ -86,6 +82,8 @@ Kirjakokojen kehityksiä pitää analysoida myöhemmin tarkkaan. mielenkiintoist
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing.
 
 <img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
+
+![](figure_201606_Krakow/201606krakow-turkuvsother-1.png)![](figure_201606_Krakow/201606krakow-turkuvsother-2.png)
 
 ### Publisher analysis (HR)
 
@@ -152,8 +150,6 @@ Further todo points. Let us move in this manuscript only those points that there
 
 -   [Fennica TODO](https://github.com/rOpenGov/fennica/blob/master/inst/examples/TODO.md)
 -   [Kungliga TODO](https://github.com/rOpenGov/kungliga/blob/master/antagomir/TODO.md)
-
-![](figure_201606_Krakow/201606krakow-turkuvsother-1.png)![](figure_201606_Krakow/201606krakow-turkuvsother-2.png)
 
 Conclusions
 -----------
@@ -250,12 +246,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] git2r_0.15.0          knitcitations_1.0.7   rmarkdown_0.9.6.14   
-    ##  [4] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
-    ##  [7] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
-    ## [10] tidyr_0.4.1           fennica_0.1.42        ggplot2_2.1.0        
-    ## [13] magrittr_1.5          sorvi_0.7.46          tibble_1.0           
-    ## [16] dplyr_0.4.3           bibliographica_0.2.21 devtools_1.11.1      
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.14    stringr_1.0.0        
+    ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
+    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
+    ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
+    ## [13] sorvi_0.7.46          tibble_1.0            dplyr_0.4.3          
+    ## [16] bibliographica_0.2.21 devtools_1.11.1      
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   

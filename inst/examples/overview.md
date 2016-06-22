@@ -57,8 +57,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |holder                            |        40.6|          59.4|         12071|         44|
 |corporate                         |         8.7|          91.3|         18544|        468|
 |publisher                         |         7.4|          92.6|         18800|       3250|
-|publication_place                 |         5.9|          94.1|         19116|        102|
-|country                           |         5.9|          94.1|         19116|         20|
+|country                           |         5.9|          94.1|         19113|         20|
+|publication_place                 |         5.9|          94.1|         19116|        104|
 |subject_topic                     |         5.0|          95.0|         19297|       3111|
 |pagecount.orig                    |         3.2|          96.8|         19661|        566|
 |obl                               |         2.7|          97.3|         19757|          3|
