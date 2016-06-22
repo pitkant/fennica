@@ -651,7 +651,7 @@ Further draft text in the funding application..?
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata `r nrow(fenraw)` and `r nrow(kunraw)` documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval `r min(df0$publication_year)`-`r max(df0$publication_year)`, yielding a subset of `r nrow(subset(df0, catalog == "Fennica"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(fenraw), 1)`) and `r nrow(subset(df0, catalog == "Kungliga"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(fenraw), 1)`) documents for Fennica and Kungliga, respectively.
+The raw data contains metadata `r nrow(fenraw)` and `r nrow(kunraw)` documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval `r min(df0$publication_year)`-`r max(df0$publication_year)`, yielding a subset of `r nrow(subset(df0, catalog == "Fennica"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(fenraw), 1)`%) and `r nrow(subset(df0, catalog == "Kungliga"))` (`r round(100*nrow(subset(df0, catalog == "Kunliga"))/nrow(kunraw), 1)`%) documents for Fennica and Kungliga, respectively.
 
 
 
