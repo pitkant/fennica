@@ -60,13 +60,10 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
-Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen &
-Lahti (2015) - add to
-bib](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)).
+Aatehistoria ja digitaalisten aineistojen mahdollisuudet `r citep(bib[["Tolonen15EnnenNyt"]])` 
 
 We have prepared open data analytical ecosystem for in-depth analysis
 of such data collections `r citep("10.18352/lq.10112")`.
-
 
 You can also add citations by adding new references to the [bib
 file](bibliography.bib) and then citing in this text with
