@@ -491,6 +491,7 @@ grid.arrange(pf, pk, nrow = 1)
 Gatherings vs. pagecounts per country (Fennica)
 
 ```{r LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+selected.countries = c("Finland", "Sweden")
 dfs <- fen %>% select(pagecount, gatherings, country) %>% filter(country %in% selected.countries) %>% group_by(pagecount, gatherings, country) %>% tally()
 p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
      geom_point() + facet_grid(country ~ .) + scale_x_log10()
