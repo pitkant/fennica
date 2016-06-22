@@ -1,0 +1,246 @@
+---
+title: "LIBER Analyses with Fennica"
+author: "Leo Lahti"
+date: "23/06/2016"
+output: markdown_document
+---
+
+## LIBER Analyses
+
+```{r summaryinit, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+library(stringr)
+library(bibliographica)
+library(dplyr)
+library(rmarkdown)
+library(knitr)
+library(ggplot2)
+opts_chunk$set(cache=FALSE, fig.path = "figure_20151023_LIBER/")
+library(ggthemes)
+
+# Nice theme
+theme_set(theme_bw(26))
+
+# Define time span
+min.year = 1470
+max.year = 1828
+
+# Read data
+fen <- readRDS("df.Rds")
+kun <- readRDS("../../../kungliga/antagomir/df.Rds")
+
+# Select the subset to analyze
+fen <- fen %>% filter(publication_year >= min.year & publication_year <= max.year)
+kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.year)
+
+# Define the data to check
+df = df.preprocessed = fen
+```
+
+This document repeats the ESTC analysis from [Lahti, Ilomaki, Tolonen (2015); Liber Quarterly 25(2), pp.87–116](http://doi.org/10.18352/lq.10112) for other data sets.
+
+
+## Who wrote history ?
+
+### The life spans of the top authors based on the title count
+
+```{r LIBER-2, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=7.5}
+theme_set(theme_bw(20))
+df = df.preprocessed
+dfs = subset(df, author_name %in% names(top(df, "author_name", 20)))
+dfa <- dfs[, c("author_name", "author", "author_birth", "author_death")]
+dfa <- dfa[!duplicated(dfa), ]
+dfa <- arrange(dfa, author_birth)
+# Order authors by birth year
+dfa$author_name <- factor(dfa$author_name, levels = unique(dfa$author_name))
+dfa$index <- sample(factor(1:nrow(dfa)))
+dfa$fill <- rep("black", nrow(dfa))
+
+p <- ggplot(dfa)
+p <- p + geom_segment(aes(y = author_name, yend = author_name, x = author_birth, xend = author_death, color = fill), size = 2) 
+p <- p + theme(axis.text.y = element_text(size = 14))
+p <- p + xlab("Author life span (year)") + ylab("")
+p <- p + guides(color = FALSE)
+p <- p + scale_color_manual(values = c("darkgray", "black"))
+p <- p + ggtitle("Top author life span")
+print(p)
+```
+
+
+
+
+### The most active known female authors based on the title count
+
+The gender is inferred automatically from the first names
+
+```{r LIBER-5, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
+theme_set(theme_bw(20))
+dfs <- df.preprocessed %>% filter(author_gender == "female")
+p <- top_plot(dfs, "author", ntop = 20)
+p <- p + scale_fill_manual(values = "black")
+p <- p + guides(fill = "none")
+p <- p + ylab("Title count")
+p <- p + ggtitle("Top female authors")
+p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 22), title = element_text(size = 22))
+print(p)	 
+```
+
+
+## Where was history published ?
+
+### The top publication places ranked by the title count
+
+```{r LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=6}
+theme_set(theme_bw(30))
+dfs <- df.preprocessed
+p <- top_plot(dfs, "publication_place", ntop = 20)
+p <- p + scale_fill_manual(values = "black")
+p <- p + guides(fill = "none")
+p <- p + ylab("Title count (Log10 scale)")
+p <- p + scale_y_log10()
+p <- p + ggtitle("Top publication places")
+print(p)	 
+```
+
+
+
+### Title count and overall paper consumption in the top publication locations
+
+The current country of origin is indicated. Finland is highlighted.
+
+```{r LIBER-8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
+df <- df.preprocessed
+theme_set(theme_bw(20))
+top <- names(rev(sort(table(df$publication_place))))[1:50]
+dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_place) %>% summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
+dfs$country <- get_country(dfs$publication_place)
+dfs$finland <- dfs$country == "Finland"
+p <- ggplot(dfs, aes(x = titles, y = paper))
+p <- p + geom_text(aes(label = publication_place, color = finland), size = 5)
+p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
+p <- p + scale_color_manual(values = c("darkgray", "black"))
+p <- p + guides(color = "none")
+p <- p + scale_x_log10() + scale_y_log10() 
+p <- p + ggtitle("Title count versus paper (places)")
+print(p)	 
+```
+
+
+
+### Title count and paper consumption in Finland and Sweden
+
+```{r 20150611paris-places4, message=FALSE, fig.height=5, fig.width=10, echo=FALSE}
+theme_set(theme_bw(20))
+selected.countries = c("Finland", "Sweden")
+df2 <- df.preprocessed %>%
+    filter(!is.na(country)) %>%
+    group_by(country) %>%
+    summarize(paper = sum(paper.consumption.km2, na.rm = TRUE),
+	      docs = n()) %>%
+    arrange(desc(docs)) %>%
+    filter(country %in% selected.countries)
+
+p1 <- ggplot(df2, aes(x = country, y = docs)) + geom_bar(stat = "identity") + ggtitle("Title count") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Documents") + xlab("")
+p2 <- ggplot(df2, aes(x = country, y = paper)) + geom_bar(stat = "identity") + ggtitle("Paper consumption") + theme(axis.text.x = element_text(angle = 45, hjust = 1)) + ylab("Paper (km2)") + xlab("")
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 1)
+```        
+
+
+Estimated gatherings per country:
+
+```{r LIBER-docsizecomp1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfs <- df %>% select(gatherings, country) %>% group_by(gatherings, country) %>% tally() %>% filter(country %in% selected.countries)
+p <- ggplot(dfs, aes(x = gatherings, y = country, size = n)) +
+     geom_point()
+print(p)
+```
+
+Estimated pagecounts per country:
+
+```{r LIBER-docsizecomp2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+dfs <- df %>% select(pagecount, country) %>% filter(country %in% selected.countries)
+p <- ggplot(dfs, aes(x = pagecount)) +
+     geom_histogram() + facet_grid(country ~ .) + scale_x_log10()
+print(p)
+```
+
+Gatherings vs. pagecounts per country
+
+```{r LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+dfs <- df %>% select(pagecount, gatherings, country) %>% filter(country %in% selected.countries) %>% group_by(pagecount, gatherings, country) %>% tally()
+p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
+     geom_point() + facet_grid(country ~ .) + scale_x_log10()
+print(p)
+```
+
+## How does publishing change ?
+
+### Average paper consumption per document 
+
+```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
+theme_set(theme_bw(25))
+library(sorvi)
+df = df.preprocessed
+dfs <- df %>% group_by(publication_year) %>%
+         summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
+p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
+       geom_line() + geom_point() +
+       xlab("Publication Year") + ylab("Paper per document")
+p <- p + ggtitle("Average paper consumption per document")
+print(p)
+```
+
+
+### Paper consumption in books (balls) versus pamphlets (triangles)
+
+Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages.
+
+```{r LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+df2 <- df
+df2$document.type <- rep(NA, nrow(df2))
+df2$document.type[df2$pagecount > 32] <- "book"
+df2$document.type[df2$pagecount <= 32] <- "pamphlet"
+df2 <- df2[which(!is.na(df2$document.type)),]
+df2$document.type <- factor(df2$document.type)
+df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+p <- p + geom_point(aes(shape = document.type), size = 5)
+p <- p + geom_smooth(method = "loess", color = "black")
+p <- p + ggtitle("Paper consumption per document type")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption (km2)")
+p <- p + scale_color_manual(values=c("black", "darkgray"))
+p <- p + guides(shape = "none")
+p <- p + ggtitle("Books versus pamphlets: paper consumption")
+print(p)
+```
+
+
+### Paper consumption for different document formats over time
+
+Each point represents a decade. Loess smoothing.
+
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6}
+df2 <- df %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+p <- p + geom_point(size = 4)
+p <- p + geom_smooth(method = "loess", size = 1, color = "black")
+p <- p + ggtitle("Paper consumption in time by gatherings")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption (km2)")
+p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
+p <- p + ggtitle("Paper consumption for different document formats")
+print(p)
+```
+
+
+
+## Session info
+
+This document was created with the following versions:
+
+```{r sessioninfo, message=FALSE, warning=FALSE}
+sessionInfo()
+```
+
