@@ -45,7 +45,7 @@ Comparison of printing activity in Turku, Uppsala, Lund, and Stockholm. Turussa 
 
 **Valtiopäivät**
 
-Miten Valtiopäivät vaikuttaa julkaisemiseen? Näkyykö Vapauden ajan valtiopäivät tässä 1719 eteenpäin? Voidaanko löytää julkaisupiikkejä sen mukaan milloin on valtiopäivät? Oletus on, että pitäisi näkyä selvästi. Myös, tuleeko uusia kustantajia kenttään?
+Riksdagar are in some cases associated with publishing peaks (see Figure ...). See "Vapauden ajan valtiopäivät" from 1719 onwards ?
 
 Erityisesti:
 
@@ -73,9 +73,17 @@ The publishing of historical works in .. on a timeline highlighting the eras of 
 
 Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankohtia jolloin on poikkeuksellista kasvua / laskua tms. Esim. top-10 julkaisupaikat.
 
-Kirjan kehitys mediana (paperinkulutus / dokumentti, miten yli 50 sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
+Kirjan kehitys mediana (miten yli 50 sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
 
-Kirjakokojen kehityksiä pitää analysoida myöhemmin tarkkaan. mielenkiintoista Kungligan osalta erityisesti että foliot (1to ja 2to) puuttuvat melkein kokonaan joka on eri kuvio kuin ESTC, lisäksi sitten 4to ja 8vo voimakas nousu 1700-luvulla on mielenkiintoista.
+Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
+
+![](figure_201606_Krakow/LIBER-12-1.png)
+
+Average paper consumption per document over time:
+
+![](figure_201606_Krakow/LIBER-11-1.png)
+
+The development of book formats over time. Folios (1to ja 2to) are largely missing (in contrast to ESTC). Moreover, the quarto (4to) and octavo (8vo) increase rapidly in 1700s.
 
 <img src="figure_201606_Krakow/papercompbyformat-1.png" width="430px" /><img src="figure_201606_Krakow/papercompbyformat-2.png" width="430px" /><img src="figure_201606_Krakow/papercompbyformat-3.png" width="430px" /><img src="figure_201606_Krakow/papercompbyformat-4.png" width="430px" />
 
@@ -87,9 +95,7 @@ Paper consumption for different document formats over time. Each point represent
 
 ### Publisher analysis (HR)
 
-toiveissa että pystyttäisiin puhumaan julkaisijatoiminnan kehityksestä ikään kuin luonnollisena kehityksenä - eli yhteys luonnonilmiöiden kehitykseen säilyisi.
-
-Tärkein tehtävä tutkia pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus julkaisijat.
+Pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus julkaisijat.
 
 Miten uusia julkaisijoita tulee julkaisijakenttään Suomessa ja katoaa. Pääpaino erityisesti sillä kun julkaisijakartalle tulee uusia toimijoita! Toimijoita voisi myös yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Vertailua suurimpien julkaisijoiden kesken.
 
@@ -102,6 +108,8 @@ Lisäksi kiinnostaa mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipään
 Julkaisijoista tehtävä verkostoanalyysi on sitten toinen keskeinen tavoite. Löydetään keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia).
 
 Turku vs. muu Suomi (sillä kytköksellä että kun Kungliga aineisto tulee mukaan analyysiin, niin Turku osana ruotsalaista yliopistojärjestelmää (ml. Tarto) muuttuu tärkeäksi). Eli Turun erityistapaus analysoidaan tarkkaan, kuinka paljon yliopistoon liittyvää julkaisutoimintaa, kuinka paljon julkaisijoita, miten julkaisijoiden verkosto muodostuu Turussa; miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku painotalo huomattavasti enemmän kuin toiset), tarkoituksena yleisten historiallisten trendien löytäminen.
+
+Puhutaan julkaisijatoiminnan kehityksestä ikään kuin luonnollisena kehityksenä - eli yhteys luonnonilmiöiden kehitykseen säilyisi.
 
 ### University analysis (HR)
 
@@ -137,9 +145,9 @@ Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen yliopistojärj
 
 Painovapaus, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)? Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
 
-### Other points
+### Other points if the time allows
 
-Lets think these if there is time.
+TODO HR Ja tuleeko uusia kustantajia kenttään valtiopäivien myötä ?
 
 -   Fennica pois lukien Suomi ?
 -   Kungliga pois lukien Ruotsi ?
@@ -209,17 +217,9 @@ Gatherings vs. pagecounts per country (Fennica)
 
 ![](figure_201606_Krakow/LIBER-docsizecomp3-1.png)
 
-Average paper consumption per document
-
-![](figure_201606_Krakow/LIBER-11-1.png)
-
 Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
 
 ![](figure_201606_Krakow/LIBER-8-1.png)
-
-Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
-
-![](figure_201606_Krakow/LIBER-12-1.png)
 
 Session info
 ------------

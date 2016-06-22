@@ -168,10 +168,9 @@ for (catal in unique(df2$catalog)) {
 
 **Valtiopäivät**
 
-Miten Valtiopäivät vaikuttaa julkaisemiseen? Näkyykö Vapauden ajan
-valtiopäivät tässä 1719 eteenpäin? Voidaanko löytää julkaisupiikkejä
-sen mukaan milloin on valtiopäivät? Oletus on, että pitäisi näkyä
-selvästi. Myös, tuleeko uusia kustantajia kenttään?
+Riksdagar are in some cases associated with publishing peaks (see
+Figure ...). See "Vapauden ajan valtiopäivät" from 1719 onwards ?
+
 
 Erityisesti:
 
@@ -329,15 +328,54 @@ Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö
 ajankohtia jolloin on poikkeuksellista kasvua / laskua
 tms. Esim. top-10 julkaisupaikat.
 
-Kirjan kehitys mediana (paperinkulutus / dokumentti, miten yli 50
-sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain
-paikallisia eroja?)
+Kirjan kehitys mediana (miten yli 50 sivuiset dokumentit yleistyvät
+ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
 
-Kirjakokojen kehityksiä pitää analysoida myöhemmin
-tarkkaan. mielenkiintoista Kungligan osalta erityisesti että foliot
-(1to ja 2to) puuttuvat melkein kokonaan joka on eri kuvio kuin ESTC,
-lisäksi sitten 4to ja 8vo voimakas nousu 1700-luvulla on
-mielenkiintoista.
+Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 50 pages. Pamphlets are anything less or equal than 50 pages. Fennica data
+
+```{r LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+df2 <- fen
+pagelimit = 50
+df2$document.type <- rep(NA, nrow(df2))
+df2$document.type[df2$pagecount > pagelimit] <- "book"
+df2$document.type[df2$pagecount <= pagelimit] <- "pamphlet"
+df2 <- df2[which(!is.na(df2$document.type)),]
+df2$document.type <- factor(df2$document.type)
+df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+p <- p + geom_point(aes(shape = document.type), size = 5)
+p <- p + geom_smooth(method = "loess", color = "black")
+p <- p + ggtitle("Paper consumption per document type")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption (km2)")
+p <- p + scale_color_manual(values=c("black", "darkgray"))
+p <- p + guides(shape = "none")
+p <- p + ggtitle("Books versus pamphlets: paper consumption")
+print(p)
+```
+
+
+Average paper consumption per document over time:
+
+```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
+theme_set(theme_bw(25))
+library(sorvi)
+df = df0
+dfs <- df %>% group_by(publication_year) %>%
+         summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
+p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
+       geom_line() + geom_point() +
+       xlab("Publication Year") + ylab("Paper per document")
+p <- p + ggtitle("Average paper consumption per document")
+print(p)
+```
+
+
+
+
+The development of book formats over time. Folios (1to ja 2to) are
+largely missing (in contrast to ESTC). Moreover, the quarto (4to) and
+octavo (8vo) increase rapidly in 1700s.
 
 
 ```{r papercompbyformat, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
@@ -415,13 +453,9 @@ print(p)
 
 ### Publisher analysis (HR)
 
-toiveissa että pystyttäisiin puhumaan julkaisijatoiminnan kehityksestä
-ikään kuin luonnollisena kehityksenä - eli yhteys luonnonilmiöiden
-kehitykseen säilyisi.
-
-Tärkein tehtävä tutkia pystytäänkö julkaisemiseen liittyvästä
-Fennica-datasta erottelemaan selkeitä trendejä suomalaisesta
-tiedontuotannosta 1640-1828, pääfokus julkaisijat.
+Pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan
+selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus
+julkaisijat.
 
 Miten uusia julkaisijoita tulee julkaisijakenttään Suomessa ja
 katoaa. Pääpaino erityisesti sillä kun julkaisijakartalle tulee uusia
@@ -473,6 +507,10 @@ Turussa voitaisiin luokitella (julkaiseeko joku paperinkulutukseltaan
 vain pieniä dokumentteja, julkaiseeko joku painotalo huomattavasti
 enemmän kuin toiset), tarkoituksena yleisten historiallisten trendien
 löytäminen.
+
+Puhutaan julkaisijatoiminnan kehityksestä ikään kuin luonnollisena
+kehityksenä - eli yhteys luonnonilmiöiden kehitykseen säilyisi.
+
 
 
 ### University analysis (HR)
@@ -539,10 +577,9 @@ ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)?
 Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
 
 
+### Other points if the time allows
 
-### Other points
-
-Lets think these if there is time.
+TODO HR Ja tuleeko uusia kustantajia kenttään valtiopäivien myötä ? 
 
  * Fennica pois lukien Suomi ?
  * Kungliga pois lukien Ruotsi ?
@@ -555,6 +592,8 @@ that there is time to do.
 
  * [Fennica TODO](https://github.com/rOpenGov/fennica/blob/master/inst/examples/TODO.md)
  * [Kungliga TODO](https://github.com/rOpenGov/kungliga/blob/master/antagomir/TODO.md)
+
+
 
 
 
@@ -661,20 +700,7 @@ print(p)
 ```
 
 
-Average paper consumption per document 
 
-```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
-theme_set(theme_bw(25))
-library(sorvi)
-df = df0
-dfs <- df %>% group_by(publication_year) %>%
-         summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
-p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
-       geom_line() + geom_point() +
-       xlab("Publication Year") + ylab("Paper per document")
-p <- p + ggtitle("Average paper consumption per document")
-print(p)
-```
 
 
 Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
@@ -698,27 +724,7 @@ print(p)
 
 
 
-Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
 
-```{r LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
-df2 <- fen
-df2$document.type <- rep(NA, nrow(df2))
-df2$document.type[df2$pagecount > 32] <- "book"
-df2$document.type[df2$pagecount <= 32] <- "pamphlet"
-df2 <- df2[which(!is.na(df2$document.type)),]
-df2$document.type <- factor(df2$document.type)
-df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
-p <- p + geom_point(aes(shape = document.type), size = 5)
-p <- p + geom_smooth(method = "loess", color = "black")
-p <- p + ggtitle("Paper consumption per document type")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
-p <- p + scale_color_manual(values=c("black", "darkgray"))
-p <- p + guides(shape = "none")
-p <- p + ggtitle("Books versus pamphlets: paper consumption")
-print(p)
-```
 
 
 ## Session info
