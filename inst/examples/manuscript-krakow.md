@@ -71,9 +71,11 @@ The publishing of historical works in .. on a timeline highlighting the eras of 
 
 ### Book as media: development over time
 
-TODO Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankohtia jolloin on poikkeuksellista kasvua / laskua tms. Esim. top-10 julkaisupaikat.
+Paper consumption per document in the top publication places. Note that paper consumption estimates have still problems so take this with reservations. Are there time periods with remarkable changes in paper consumption per document (meaning that small or large volumes suddenly become more frequent) ?
 
-How over 50 page documents are spreading in time. Paper consumption in books (over 50 pages; balls) versus other documents (less or equal than 50 pages; triangles). TODO: voidaanko tässä nähdä paikallisia eroja ?
+<img src="figure_201606_Krakow/bookmedia2-1.png" width="430px" /><img src="figure_201606_Krakow/bookmedia2-2.png" width="430px" />
+
+Overview on how over 50 page documents spread in time. Paper consumption in books (over 50 pages; balls) versus other documents (less or equal than 50 pages; triangles). TODO: voidaanko tässä nähdä paikallisia eroja ?
 
 <img src="figure_201606_Krakow/bookmedia1-1.png" width="430px" /><img src="figure_201606_Krakow/bookmedia1-2.png" width="430px" />
 
@@ -210,14 +212,6 @@ Miscellaneous ideas to consider
 The most active known female authors based on the title count:
 
 <img src="figure_201606_Krakow/201606krakow-fennica-topfemale-1.png" width="850px" />
-
-Gatherings vs. pagecounts per country (Fennica)
-
-![](figure_201606_Krakow/LIBER-docsizecomp3-1.png)
-
-Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
-
-![](figure_201606_Krakow/LIBER-8-1.png)
 
 Session info
 ------------
