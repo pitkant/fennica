@@ -48,6 +48,8 @@ kun <- readRDS("../../../kungliga/antagomir/df.Rds")
 
 fen <- fen %>% filter(publication_year >= min.year & publication_year <= max.year)
 kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.year)
+df0 = bind_rows(fen, kun)
+df0$catalogue = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 ```
 
 
@@ -111,7 +113,6 @@ aikana.
 The most active known female authors based on the title count:
 
 ```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
-
 theme_set(theme_bw(20))
 dfs <- fen %>% filter(author_gender == "female")
 p <- top_plot(dfs, "author", ntop = 20)
@@ -163,73 +164,6 @@ grid.arrange(pf, pk, nrow = 1)
 ```
 
 
-Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
-
-```{r LIBER-8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
-df <- fen
-theme_set(theme_bw(20))
-top <- names(rev(sort(table(df$publication_place))))[1:50]
-dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_place) %>% summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
-dfs$country <- get_country(dfs$publication_place)
-dfs$finland <- dfs$country == "Finland"
-p <- ggplot(dfs, aes(x = titles, y = paper))
-p <- p + geom_text(aes(label = publication_place, color = finland), size = 5)
-p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
-p <- p + scale_color_manual(values = c("darkgray", "black"))
-p <- p + guides(color = "none")
-p <- p + scale_x_log10() + scale_y_log10() 
-p <- p + ggtitle("Title count versus paper (places)")
-print(p)	 
-```
-
-
-Gatherings vs. pagecounts per country (Fennica)
-
-```{r LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-dfs <- fen %>% select(pagecount, gatherings, country) %>% filter(country %in% selected.countries) %>% group_by(pagecount, gatherings, country) %>% tally()
-p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
-     geom_point() + facet_grid(country ~ .) + scale_x_log10()
-print(p)
-```
-
-Average paper consumption per document 
-
-```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
-theme_set(theme_bw(25))
-library(sorvi)
-df = df.preprocessed
-dfs <- df %>% group_by(publication_year) %>%
-         summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
-p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
-       geom_line() + geom_point() +
-       xlab("Publication Year") + ylab("Paper per document")
-p <- p + ggtitle("Average paper consumption per document")
-print(p)
-```
-
-
-
-Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
-
-```{r LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
-df2 <- fen
-df2$document.type <- rep(NA, nrow(df2))
-df2$document.type[df2$pagecount > 32] <- "book"
-df2$document.type[df2$pagecount <= 32] <- "pamphlet"
-df2 <- df2[which(!is.na(df2$document.type)),]
-df2$document.type <- factor(df2$document.type)
-df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
-p <- p + geom_point(aes(shape = document.type), size = 5)
-p <- p + geom_smooth(method = "loess", color = "black")
-p <- p + ggtitle("Paper consumption per document type")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
-p <- p + scale_color_manual(values=c("black", "darkgray"))
-p <- p + guides(shape = "none")
-p <- p + ggtitle("Books versus pamphlets: paper consumption")
-print(p)
-```
 
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. Fennica.
 
@@ -527,6 +461,76 @@ Supported by Academy of Finland (grant 293316).
 bibliography(sorting = 'ynt')
 ```
 
+## Miscellaneous figures to consider
+
+Gatherings vs. pagecounts per country (Fennica)
+
+```{r LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+dfs <- fen %>% select(pagecount, gatherings, country) %>% filter(country %in% selected.countries) %>% group_by(pagecount, gatherings, country) %>% tally()
+p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
+     geom_point() + facet_grid(country ~ .) + scale_x_log10()
+print(p)
+```
+
+
+Average paper consumption per document 
+
+```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
+theme_set(theme_bw(25))
+library(sorvi)
+df = df0
+dfs <- df %>% group_by(publication_year) %>%
+         summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
+p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
+       geom_line() + geom_point() +
+       xlab("Publication Year") + ylab("Paper per document")
+p <- p + ggtitle("Average paper consumption per document")
+print(p)
+```
+
+
+Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
+
+```{r LIBER-8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
+df <- fen
+theme_set(theme_bw(20))
+top <- names(rev(sort(table(df$publication_place))))[1:50]
+dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_place) %>% summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
+dfs$country <- get_country(dfs$publication_place)
+dfs$finland <- dfs$country == "Finland"
+p <- ggplot(dfs, aes(x = titles, y = paper))
+p <- p + geom_text(aes(label = publication_place, color = finland), size = 5)
+p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
+p <- p + scale_color_manual(values = c("darkgray", "black"))
+p <- p + guides(color = "none")
+p <- p + scale_x_log10() + scale_y_log10() 
+p <- p + ggtitle("Title count versus paper (places)")
+print(p)	 
+```
+
+
+
+Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
+
+```{r LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+df2 <- fen
+df2$document.type <- rep(NA, nrow(df2))
+df2$document.type[df2$pagecount > 32] <- "book"
+df2$document.type[df2$pagecount <= 32] <- "pamphlet"
+df2 <- df2[which(!is.na(df2$document.type)),]
+df2$document.type <- factor(df2$document.type)
+df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+p <- p + geom_point(aes(shape = document.type), size = 5)
+p <- p + geom_smooth(method = "loess", color = "black")
+p <- p + ggtitle("Paper consumption per document type")
+p <- p + xlab("Year")
+p <- p + ylab("Paper consumption (km2)")
+p <- p + scale_color_manual(values=c("black", "darkgray"))
+p <- p + guides(shape = "none")
+p <- p + ggtitle("Books versus pamphlets: paper consumption")
+print(p)
+```
 
 
 ## Session info

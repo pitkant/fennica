@@ -51,22 +51,6 @@ The top publication places ranked by the title count
 
 ![](figure_201606_Krakow/LIBER-topplace-1.png)
 
-Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
-
-![](figure_201606_Krakow/LIBER-8-1.png)
-
-Gatherings vs. pagecounts per country (Fennica)
-
-![](figure_201606_Krakow/LIBER-docsizecomp3-1.png)
-
-Average paper consumption per document
-
-![](figure_201606_Krakow/LIBER-11-1.png)
-
-Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
-
-![](figure_201606_Krakow/LIBER-12-1.png)
-
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. Fennica.
 
 ![](figure_201606_Krakow/LIBER-13-1.png)
@@ -208,6 +192,25 @@ References
 \[6\] R Core Team. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing. Vienna, Austria, 2016. <URL: https://www.R-project.org/>.
 
 \[7\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.4.1. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
+
+Miscellaneous figures to consider
+---------------------------------
+
+Gatherings vs. pagecounts per country (Fennica)
+
+![](figure_201606_Krakow/LIBER-docsizecomp3-1.png)
+
+Average paper consumption per document
+
+![](figure_201606_Krakow/LIBER-11-1.png)
+
+Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
+
+![](figure_201606_Krakow/LIBER-8-1.png)
+
+Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
+
+![](figure_201606_Krakow/LIBER-12-1.png)
 
 Session info
 ------------
