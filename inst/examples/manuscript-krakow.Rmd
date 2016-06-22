@@ -86,31 +86,24 @@ Relevant summaries can be moved here and polished. Which figures at least ? Just
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
 
-Alustavia vertailuja
+Julkaisumäärien tilastointeja yleisesti:
 
- * Julkaisumäärien tilastointeja yleisesti ja paikkakunnittain
- * Fennica pois lukien Suomi ?
- * Kungliga pois lukien Ruotsi ?
-
-
-Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. Turussa
-julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu
-ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston
-perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun
-aikana.
-
-
-Paper consumption per decade:
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
-df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper.consumption.km2, na.rm = TRUE))
-p <- ggplot(df2, aes(x = publication_decade, y = paper)) +
-     geom_bar(stat = "identity") + #scale_y_log10() +
-     facet_grid(catalog ~ .) +
-     ggtitle("Paper consumption timeline")
+df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
+p <- ggplot(df2, aes(x = publication_decade, y = n)) +
+     #geom_bar(stat = "identity") + #scale_y_log10() +
+     geom_line(aes(linetype = catalog)) +
+     geom_point(aes(shape = catalog), size = 3) +     
+     #ylab("Paper consumption (km2)")
+     ylab("Title count (n)") + xlab("Publication year") +  
+     ggtitle("Publishing activity")
 print(p)
 ```
 
+
+Julkaisumäärien tilastointeja paikkakunnittain:
 
 
 The top publication places ranked by the title count
@@ -139,6 +132,42 @@ grid.arrange(pf, pk, nrow = 1)
 ```
 
 
+Comparing printing activity in Turku, Uppsala, Lund, and
+Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta
+ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim
+miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen
+julkaisukenttään 1600-luvun aikana.
+
+I can here provide percentages, barplots, selected time spans,
+selected places etc.. just let me know what is needed.
+
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
+df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
+               summarise(n = n()) %>%
+               #summarise(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%	       
+	       filter(publication_place %in% selected.places) # %>%
+	       #filter(publication_decade >= 1600)
+df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
+df2$publication_place = droplevels(factor(df2$publication_place))
+df3 = spread(df2, publication_decade, n, fill = 0)
+df2 = melt(df3)
+colnames(df2) = c("publication_place", "catalog", "publication_decade", "n")
+df2$publication_decade = as.numeric(as.character(df2$publication_decade))
+df2$n = as.numeric(as.character(df2$n))
+for (catal in unique(df2$catalog)) {
+
+  p <- ggplot(subset(df2, catalog == catal), aes(x = publication_decade, y = n)) +
+     geom_line(aes(linetype = publication_place)) +
+     geom_point(aes(shape = publication_place), size = 3) +
+     #scale_y_log10() +
+     #facet_wrap(catalog ~ .) + 
+     ylab("Title count (n)") + xlab("Publication year") +  
+     ggtitle(catal)
+  print(p)
+
+}
+```
 
 
 **Valtiopäivät**
@@ -478,6 +507,9 @@ Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
 ### Other points
 
 Lets think these if there is time.
+
+ * Fennica pois lukien Suomi ?
+ * Kungliga pois lukien Ruotsi ?
 
 [Topic](https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md)
 saadaanko mitään irti (1470-1830 tai 1640-1830).

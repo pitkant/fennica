@@ -31,21 +31,21 @@ Relevant summaries can be moved here and polished. Which figures at least ? Just
 -   [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
 -   [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
 
-Alustavia vertailuja
-
--   Julkaisumäärien tilastointeja yleisesti ja paikkakunnittain
--   Fennica pois lukien Suomi ?
--   Kungliga pois lukien Ruotsi ?
-
-Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
-
-Paper consumption per decade:
+Julkaisumäärien tilastointeja yleisesti:
 
 ![](figure_201606_Krakow/publishingovertime-1.png)
+
+Julkaisumäärien tilastointeja paikkakunnittain:
 
 The top publication places ranked by the title count
 
 ![](figure_201606_Krakow/LIBER-topplace-1.png)
+
+Comparing printing activity in Turku, Uppsala, Lund, and Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
+
+I can here provide percentages, barplots, selected time spans, selected places etc.. just let me know what is needed.
+
+<img src="figure_201606_Krakow/publishingactivitycomparisons-1.png" width="430px" /><img src="figure_201606_Krakow/publishingactivitycomparisons-2.png" width="430px" />
 
 **Valtiopäivät**
 
@@ -142,6 +142,9 @@ Painovapaus, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi ja m
 ### Other points
 
 Lets think these if there is time.
+
+-   Fennica pois lukien Suomi ?
+-   Kungliga pois lukien Ruotsi ?
 
 [Topic](https://github.com/rOpenGov/kungliga/blob/master/antagomir/topic.md) saadaanko mitään irti (1470-1830 tai 1640-1830).
 
