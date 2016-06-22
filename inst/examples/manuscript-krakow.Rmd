@@ -387,7 +387,7 @@ for (catal in unique(df0$catalog)) {
 
 Average paper consumption per document over time:
 
-```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9, out.width="430px"}
+```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=8, out.width="600px"}
 theme_set(theme_bw(25))
 library(sorvi)
 dfs <- df0 %>% group_by(publication_decade) %>%

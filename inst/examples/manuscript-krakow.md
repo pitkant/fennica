@@ -81,7 +81,7 @@ Overview on how over 50 page documents spread in time. Paper consumption in book
 
 Average paper consumption per document over time:
 
-<img src="figure_201606_Krakow/LIBER-11-1.png" width="430px" />
+<img src="figure_201606_Krakow/LIBER-11-1.png" width="600px" />
 
 The development of book formats over time. Folios (1to ja 2to) are largely missing (in contrast to ESTC). Moreover, the quarto (4to) and octavo (8vo) increase rapidly in 1700s.
 
