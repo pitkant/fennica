@@ -177,10 +177,10 @@ for (catal in unique(df2$catalog)) {
 Riksdagar are in some cases associated with publishing peaks (see
 Figure ...). See "Vapauden ajan valtiopäivät" from 1719 onwards ?
 
-
 In particular: Riksdag Stockholm 20 januari 1719 1 juni 1719; Stockholm 14 maj 1734 14 december 1734; Stockholm 21 februari 1765 21 oktober 1766; Norrköping & Stockholm 22 april 1769 5 februari 1770; Stockholm 19 juni 1771 12 september 1772; Gävle 26 januari 1792 24 februari 1792.
 
 The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..).. 
+
 
 ```{r riksdar1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
 for (catal in as.character(unique(df0$catalog))) {
