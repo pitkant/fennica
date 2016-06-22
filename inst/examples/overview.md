@@ -60,12 +60,12 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_place                 |         5.9|          94.1|         19116|        102|
 |country                           |         5.9|          94.1|         19116|         20|
 |subject_topic                     |         5.0|          95.0|         19297|       3111|
-|pagecount.orig                    |         3.2|          96.8|         19661|        566|
+|pagecount.orig                    |         3.2|          96.8|         19657|        562|
 |obl                               |         2.7|          97.3|         19757|          3|
 |width                             |         1.4|          98.6|         20019|        139|
 |height                            |         1.4|          98.6|         20019|        142|
 |area                              |         1.4|          98.6|         20019|        217|
-|paper.consumption.km2             |         1.4|          98.6|         20019|       1262|
+|paper.consumption.km2             |         1.4|          98.6|         20019|       1258|
 |language                          |         0.2|          99.8|         20259|        143|
 |dissertation                      |         0.1|          99.9|         20280|          3|
 |latitude                          |         0.1|          99.9|         20280|         97|
@@ -114,7 +114,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Germanic (Other)         |         0.0|         100.0|         20305|          1|
 |language.Multiple languages       |         0.0|         100.0|         20305|          2|
 |title                             |         0.0|         100.0|         20305|      16914|
-|pagecount                         |         0.0|         100.0|         20305|        565|
+|pagecount                         |         0.0|         100.0|         20305|        561|
 |gatherings.original               |         0.0|         100.0|         20305|         14|
 |obl.original                      |         0.0|         100.0|         20305|          2|
 |original_row                      |         0.0|         100.0|         20305|      20305|

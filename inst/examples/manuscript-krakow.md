@@ -39,7 +39,7 @@ Alustavia vertailuja
 
 Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
 
-Title count per decade:
+Paper consumption per decade:
 
 ![](figure_201606_Krakow/publishingovertime-1.png)
 

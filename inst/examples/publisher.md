@@ -36,5 +36,5 @@ Title count versus paper consumption (top publishers):
 |c frenckell    |   1324| 0.2700568|
 |c londicer     |    485| 0.0763086|
 |frenckellianis |   1188| 1.6496831|
-|johan winter   |    402| 0.1199196|
+|johan winter   |    402| 0.1207347|
 |w londicer     |   1829| 0.0960118|

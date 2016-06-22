@@ -100,13 +100,14 @@ perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun
 aikana.
 
 
-Title count per decade:
+Paper consumption per decade:
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
-df2 <- df0 %>% group_by(publication_decade, catalog) 
-p <- ggplot(df2, aes(publication_decade)) +
-     geom_bar() + scale_y_log10() + facet_grid(catalog ~ .) +
-     ggtitle("Title count timeline")
+df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper.consumption.km2, na.rm = TRUE))
+p <- ggplot(df2, aes(x = publication_decade, y = paper)) +
+     geom_bar(stat = "identity") + #scale_y_log10() +
+     facet_grid(catalog ~ .) +
+     ggtitle("Paper consumption timeline")
 print(p)
 ```
 
