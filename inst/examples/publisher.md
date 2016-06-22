@@ -14,7 +14,7 @@ output: markdown_document
 
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 18800 documents (93%). There are 10897 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 18496 documents (91%). There are 10634 unique publisher names (some may be synonymes, though).
 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -33,8 +33,8 @@ Title count versus paper consumption (top publishers):
 
 |publisher      | titles|     paper|
 |:--------------|------:|---------:|
-|c frenckell    |   1324| 0.2700568|
+|c frenckell    |   1342| 0.2767492|
 |c londicer     |    485| 0.0763086|
-|frenckellianis |   1188| 1.6496831|
-|johan winter   |    402| 0.1199196|
+|frenckellianis |   1190| 1.6508771|
+|johan winter   |    413| 0.1324363|
 |w londicer     |   1829| 0.0960118|
