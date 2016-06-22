@@ -290,7 +290,7 @@ p <- p + scale_x_continuous(breaks=seq(minyear, maxyear, 20))
 p <- p + ggtitle("Publishing activity")
 p <- p + ylab("Documents / Year")
 p <- p + xlab("Year")
-p <- p + ggtitle(paste("Riksdagar - titlecount in", myplace, sep = ""))
+p <- p + ggtitle(paste("Riksdagar - titlecount in ", myplace, sep = ""))
 print(p)
 
 ```
