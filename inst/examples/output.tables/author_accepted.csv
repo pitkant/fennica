@@ -1,11 +1,14 @@
 author	author_gender	Count
+-n,  (1857-1936)	NA	   1
+-r,  (1700-NA)	NA	   1
+-s-s, 	NA	   1
 A, 	NA	  20
 A,  (1693-1750)	NA	   1
 A,  (1700-NA)	NA	   6
+A:b, F	NA	   1
 Aadolf, Kustaa	male	   7
 åberg, Gabriel Erici (1727-1756)	male	   1
 åberg, Laurentius	male	   1
-A:b, F	NA	   1
 Aboicus, Laurentius	male	  11
 Abrahamson, Werner Hans Frederik	male	   1
 Acander, Petrus Nicolai (1682-NA)	male	   1
@@ -52,9 +55,9 @@ Aken, Franz Joachim Von	male	   1
 åkerman, Jacobus (1770-1829)	male	   3
 åkerman, Rickard Abr	male	   1
 åkerman, Wilhelmus (1770-1849)	male	   1
-Alander, Christiernus Caroli (1660-1704)	male	  54
 Alán, Eric (1745-1792)	male	   1
 Alan, Henric Michelsson	male	  13
+Alander, Christiernus Caroli (1660-1704)	male	  54
 Alanus, Abrahamus Claudii (1720-NA)	male	  12
 Alanus, Carolus Georgii (1680-NA)	male	   1
 Alanus, Carolus Nicolai (1717-NA)	male	   3
@@ -76,8 +79,8 @@ Aleksanteri, 	male	   3
 Alftan, Haraldus (1733-NA)	male	   1
 Alftan, Johannes Israelis (1692-1755)	male	   1
 Alfwing, Per Johan (1739-1810)	male	   1
-Almgreen, Abrahamus	male	   1
 Alm, Magnus Caroli (1660-1708)	male	   5
+Almgreen, Abrahamus	male	   1
 Alopaeus, Arvidus Magni (1651-1722)	male	   5
 Alopaeus, Johannes Magni (1713-NA)	male	   1
 Alopaeus, Magnus (1748-1822)	male	   1
@@ -132,8 +135,8 @@ Argelander, Fried Wilh Aug	male	   2
 Argillander, Ericus	NA	   1
 Aridlander, Johannes Henrici (1665-NA)	male	   1
 Armfeldt, Carl Gustaf	male	   1
-Armfelt, Augusta	female	   1
 Armfelt, August Filip	male	   1
+Armfelt, Augusta	female	   1
 Armfelt, Gustaf Mauritz (1757-1814)	male	   4
 Armfelt, Magnus Wilhelm (1725-1795)	male	   1
 Arndt, Johann (1555-1621)	male	   7
@@ -151,13 +154,13 @@ Askebohm, Olaus Petri (1703-NA)	male	   1
 Askegreen, Jacobus Magni	male	   1
 Asp, Andreas Johannes (1761-1825)	male	   1
 Asp, Carl	male	   1
+Asp, Matthias (1696-1763)	male	   2
 Aspegren, Carl	male	   2
 Aspegren, Gabriel Andreae (1708-1784)	male	   5
 Aspegren, Hans Henric (1741-1790)	male	   4
 Aspegren, Henricus (1760-1825)	male	   1
 Aspelinus, J	male	   1
 Asplund, Ericus Michaelis (1685-1717)	male	   3
-Asp, Matthias (1696-1763)	male	   2
 Astrèn, Aron (1740-1820)	male	   1
 Auricola, Magnus Josephi (1680-1723)	male	   2
 Aurivillius, Carolus	male	   4
@@ -176,6 +179,7 @@ Baazius, Bengt Johansson	male	   1
 Baazius, Johannes Johannis (1626-1681)	male	   1
 Bäck, Abraham (1713-1795)	male	   1
 Bäck, Henricus Reginaldus (1756-1838)	male	   1
+Bäck, Matthias (1792-1829)	male	   2
 Backman, C	NA	   1
 Backman, Daniel Andreae (1732-1784)	male	   4
 Backman, Daniel Danielis (1769-1834)	male	   1
@@ -183,9 +187,8 @@ Backman, Ericus Jacobus (1746-1825)	male	   1
 Backman, Jacobus	male	   1
 Backman, Johannes Arvidi (1710-NA)	male	   3
 Backman, Matts Mattsson (1732-1796)	male	   1
-Backmann, Lars Henrik (1755-NA)	male	  13
 Backman, Philippus Matthiae (1691-NA)	NA	   1
-Bäck, Matthias (1792-1829)	male	   2
+Backmann, Lars Henrik (1755-NA)	male	  13
 Bacmeister, Lucas Lucii (1570-1638)	male	   2
 Baeck, Johannes Fredricus (1766-1807)	male	   1
 Bagghufvud, Xx	NA	   1
@@ -195,15 +198,15 @@ Båld, Eric	male	   3
 Balduinus, Fridericus (1575-1627)	male	   5
 Balthasar, Jakob Heinrich Von (1690-1763)	male	   1
 Banck, Jacobus	male	   1
+Bång, Henric (1678-1728)	male	   1
+Bång, Johannes	male	   1
+Bång, Jonas (1708-1772)	male	   1
+Bång, Petrus Erici (1633-1696)	male	  74
 Bange, Andreas Andreae (1719-NA)	male	   2
 Bånge, Carl	male	   1
 Bange, Carl (1717-1784)	male	   2
 Bange, Gustavus Aron Andreae (1692-1750)	male	   1
 Bange, Jacobus (1752-NA)	male	   1
-Bång, Henric (1678-1728)	male	   1
-Bång, Johannes	male	   1
-Bång, Jonas (1708-1772)	male	   1
-Bång, Petrus Erici (1633-1696)	male	  74
 Barclay De Tolly, Mihail (1761-1818)	male	   4
 Barnekov, C	NA	   1
 Bastholm, Christian	male	   1
@@ -218,21 +221,21 @@ Benedicti, Bero (1605-1661)	NA	   2
 Benthem, Henrich Ludolf (1661-1723)	NA	   1
 Benzelius, Henric	male	   1
 Berg, Andreas Andreae	male	   1
+Berg, Herman	male	   1
+Berg, Johannes Olai	male	   2
 Bergbom, Fredericus (1785-1830)	male	   6
 Bergelin, Gabriel (1749-1816)	male	   1
 Bergenhielm, Johan (1629-1704)	male	   1
 Bergenholtz, Benedictus (1712-1771)	NA	   1
-Berghaell, Nils	male	   1
-Berg, Herman	male	   1
 Bergh, Johannes Henricus	male	   1
 Bergh, P	NA	   1
+Berghaell, Nils	male	   1
 Berghult, Anders	male	   1
 Bergius, Andreas Andreae (1693-1750)	male	  27
 Bergius, Andreas Petri (1661-1724)	male	   1
 Bergius, Olaus Nicolai (1670-NA)	male	   1
 Bergius, Petrus Andreae (1612-1691)	male	  13
 Bergius, Petrus Petri (1671-1697)	male	   1
-Berg, Johannes Olai	male	   2
 Bergling, Henricus (1707-1754)	male	   2
 Bergman, Carolus (1734-1802)	male	   1
 Bergman, Johannes Gabriel (1732-1793)	male	   5
@@ -259,8 +262,8 @@ Biugg, Eric (1727-1806)	male	   1
 Biugg, Petrus Jonae (1587-1656)	male	   1
 Biur, Henricus Laurentii (1660-NA)	male	   1
 Biurman, Georg (1700-1755)	male	  10
-Björck, Israel (1716-1782)	male	   2
 Björck Svensson, Sven	male	   1
+Björck, Israel (1716-1782)	male	   2
 Björk, Jacobus Johannes	male	   1
 Björklund, Christianus (1727-NA)	male	   4
 Björklund, Isaacus (1686-1740)	NA	  58
@@ -315,9 +318,9 @@ Boutauld, Michel	male	   1
 Bowen, Emanuel (NA-1767)	male	   3
 Bowles, Carington	NA	   1
 Brahe, Eric	male	   1
-Brahelén, Johan (1713-1745)	male	   7
-Brahelen, Johan (1713-1745)	male	   1
 Brahe, Per (1602-1680)	male	   2
+Brahelen, Johan (1713-1745)	male	   1
+Brahelén, Johan (1713-1745)	male	   7
 Brander, Fridericus Reginaldus (1730-1800)	male	   1
 Brander, Gustav Adolf	male	   1
 Brander, Jacobus Olaus (1714-1784)	male	   1
@@ -335,20 +338,20 @@ Brauner, J	male	   4
 Braunerskiöld, Laurentius (1657-1729)	male	   5
 Braxer, Johannes Johannis (1742-NA)	male	   1
 Breckling, Friedrich	male	   2
-Brehmer, Christophorus J	male	   1
 Brehm, J R	male	   1
+Brehmer, Christophorus J	male	   1
 Bremer, Carl Otto (1776-1828)	male	   1
 Bremer, Robert (1777-1844)	male	   1
 Brenner, Elias Isaksson (1647-1717)	male	   5
 Brenner, Mårten Knutsson (1616-1673)	male	   1
 Brenner, Petrus Johannis (1677-1720)	male	  13
 Brenner, Sophia Elisabeth (1659-1730)	female	  12
+Brenner, Zacharias Isaaci (1735-NA)	male	   1
 Brennerus, Gabriel Henrici (1605-1694)	male	   1
 Brennerus, Jacobus Henrici (1607-1685)	male	   3
-Brenner, Zacharias Isaaci (1735-NA)	male	   1
 Brinck, Samuel (1697-1753)	male	   1
-Bringius, Israel Nicolai (1587-1662)	male	   2
 Bring, Sven	male	   1
+Bringius, Israel Nicolai (1587-1662)	male	   2
 Brion De La Tour, Louis	male	   1
 Brobergen, Henrik Georg Von (1669-1708)	male	   3
 Brobergh, Gustavus Erici	NA	   1
@@ -435,13 +438,13 @@ Carleson, Carl	male	   1
 Carlmannus, Canutus Jacobi (1655-NA)	male	   1
 Carlsson, Carl	male	   1
 Carlsson, Carolus	male	   1
+Carp, Jacobus Arndt (1753-1820)	male	   1
 Carpelan, Carl Ephraim (1732-1819)	male	   4
 Carpelan, Christer (1704-1763)	male	   1
 Carpelan, Johan Fredric (1745-1808)	male	   4
 Carpelan, Simon Wilhelm (1733-1814)	male	   4
 Carpelan, Wilhelm (1787-1830)	male	   1
 Carpelius, Henricus (1711-1788)	male	   1
-Carp, Jacobus Arndt (1753-1820)	male	   1
 Carplan, Christer	male	   1
 Carplan, Lars Christersson (1664-1737)	male	   3
 Carpzovius, Johannes Benedictus	male	   2
@@ -494,8 +497,8 @@ Clöfwerbladh, Sophia Johansdotter (1681-NA)	female	   1
 Cluverius, Phil	NA	   1
 Cneiff, Johan David	male	   1
 Collan, Claudius	male	   1
-Collander, Samuel Thomae (1673-1727)	male	   1
 Collan, Petrus Johannes (1771-1833)	male	   1
+Collander, Samuel Thomae (1673-1727)	male	   1
 Colliander, Henricus Henrici (1731-NA)	male	   1
 Colliander, Johannes Erlandi (1649-1726)	male	   8
 Colliander, Magnus Erlandi (1661-1688)	male	   1
@@ -528,8 +531,9 @@ Cygnaeus, Zacharias (1733-1809)	male	   2
 D, 	NA	   2
 Dahl, And E	NA	   1
 Dahl, Andreas	male	   1
-Dahlberg, Johannes Petrus (1750-1815)	male	   3
 Dahl, Christopher	male	   2
+Dahl, Zacharias Michaelis (1709-1753)	male	  10
+Dahlberg, Johannes Petrus (1750-1815)	male	   3
 Dahleen, Abrah	NA	   1
 Dahlgren, Jonas (1717-1772)	male	   1
 Dahlijn, Petrus Andreae (1655-1717)	male	   1
@@ -537,20 +541,19 @@ Dahlman, Ericus Zachariae (1713-NA)	NA	   1
 Dahlman, Laurentius	male	   1
 Dahlman, Sveno	NA	   1
 Dahlman, Sveno Jonae (1717-NA)	NA	   1
-Dahl, Zacharias Michaelis (1709-1753)	male	  10
 Dähnert, Johann Carl	male	   1
+Dal, Nicolaus	NA	   1
 Dalenius, Andreas Johannis	male	   1
 Dalin, Olof	male	   3
-Dal, Nicolaus	NA	   1
 Danckerts, Justus	male	   1
 Darelli, Isaak Af	NA	   1
 Dau, Michael (1710-NA)	male	   2
 De Fer, N (1646-1720)	NA	   2
-Degerman, Andreas P (1672-1752)	male	   1
-Degerman, Peter	male	   1
-De Lacy, Peter	male	  13
 De La Myle, Carl Johan (1728-1798)	male	   3
 De La Myle, Fredrik Ludvig	male	   2
+De Lacy, Peter	male	  13
+Degerman, Andreas P (1672-1752)	male	   1
+Degerman, Peter	male	   1
 Delarochette, L (1731-1802)	NA	   1
 Delisle, Guillaume	male	   4
 Dent, Arthur (1607-NA)	male	   5
@@ -572,10 +575,11 @@ Duraeus, Magnus Christophori (1621-1679)	male	   1
 Durietz, Carl Jakob	male	   1
 Dusaeus, Hermannus	NA	   1
 Dych, Haraldus Johannis (1711-NA)	male	   1
+E-,  (3-NA)	NA	   2
+E-m, 	NA	   1
 E, 	NA	  16
 E,  (1700-NA)	NA	   3
 E,  (1713-1772)	NA	   3
-E-,  (3-NA)	NA	   2
 Ebelius, Caspar	male	   1
 Edberg, Olof Albert	male	   1
 Edelcrantz, Abraham Niclas (1754-1821)	male	   9
@@ -627,7 +631,6 @@ Elisabeth, 	female	   2
 Ell, C	NA	   1
 Ellisen, Georg	male	   1
 Elvius, Petrus	male	   1
-E-m, 	NA	   1
 Emporagrius, Ericus Gabrielis (1606-1674)	NA	   7
 Enaeus, Andreas Nicolai (1694-NA)	male	   2
 Enckell, Carolus (1740-1813)	male	   1
@@ -677,12 +680,12 @@ Falander, Isaacus Erici (1693-NA)	NA	   3
 Falander, Jacobus Erici (1658-1720)	male	   2
 Falander, Jacobus Erici (1719-1779)	male	   2
 Falck, Andreas Petri (1662-1727)	male	   1
-Falcken, Wilhelm Reinhold (1729-NA)	male	   2
 Falck, Johannes Johannis (1703-NA)	male	   2
 Falck, Samuel Wilh	male	   1
-Falkenberg, Carl Conradsson (1644-1697)	male	   2
+Falcken, Wilhelm Reinhold (1729-NA)	male	   2
 Falk, Ericus Johannis	NA	   2
 Falk, Johannes Erici	male	   2
+Falkenberg, Carl Conradsson (1644-1697)	male	   2
 Fant, Ericus Michael	male	  78
 Fant, Georg Freder	male	   1
 Fant, Johannes (1704-1734)	male	   1
@@ -828,9 +831,9 @@ G,  (1662-1741)	NA	   1
 G,  (1700-NA)	NA	   1
 g,  (1770-NA)	NA	   1
 Gabrielinpoika, J	male	   1
-Gädda, Andreas (1724-NA)	male	   2
 Gadd, Jacob Herman (1747-1811)	male	   1
 Gadd, Pehr Adrian (1727-1797)	male	 158
+Gädda, Andreas (1724-NA)	male	   2
 Gadolenus, Sveno Nicolai	male	   1
 Gadolin, Andreas Jacobi (1709-1799)	male	   1
 Gadolin, Gustaf (1769-1843)	male	   1
@@ -865,16 +868,16 @@ Gerdes, Jacob	male	   1
 Gerdt, Christian L	male	   1
 Gerdt, Johannes Laurentii	male	   1
 Gerhard, Johannes (1582-1637)	male	  10
+Gers, Peter Petersson (1684-NA)	male	   2
 Gerschau, Peter Von	male	   1
 Gerschovius, Jacobus (1587-1655)	male	   1
-Gers, Peter Petersson (1684-NA)	male	   2
 Gerstedt, N H	NA	   1
 Gervasius, Julius	male	   1
 Gesenius, Johannes	male	   1
-Gestrinius, Ernestus Thomae (1663-1739)	male	   6
-Gestrinius, Martinus Erici (1594-1648)	male	   3
 Gestrin, Magn	male	   1
 Gestrin, Nicolaus (1768-1814)	NA	   1
+Gestrinius, Ernestus Thomae (1663-1739)	male	   6
+Gestrinius, Martinus Erici (1594-1648)	male	   3
 Géte, A E	male	   1
 Gezelius, Georgius Martini (1735-1789)	NA	   5
 Gezelius, Johan	male	   1
@@ -974,8 +977,8 @@ Haartman, Johannes Johannis (1725-1787)	male	  24
 Habbaeus Von Lichtenstern, Christopher	male	   1
 Hacks, Alexander (1740-NA)	male	  22
 Hacks, Gustavus Petri (1717-NA)	male	   1
-Hacks, Johannes Caroli (1767-NA)	male	   1
 Hacks, Johan Petersson (1667-1735)	male	   2
+Hacks, Johannes Caroli (1767-NA)	male	   1
 Haell, Andreas (1717-1756)	male	   1
 Haellfors, Jacobus (1757-1820)	male	   1
 Håf, Andreas Erici (1657-1697)	male	   1
@@ -1001,16 +1004,16 @@ Hall, Daniel (1739-1803)	male	   1
 Hallenberg, Jonas (1748-1834)	male	   1
 Hallenius, Gregorius A (1702-1772)	male	   1
 Hallenius, Matthias (1699-1748)	male	   4
+Hallman, C J H	male	   1
 Hallman, Carl Gustaf	male	   1
 Hallman, Carolus Gustavus (1698-1770)	male	   3
-Hallman, C J H	male	   1
 Hällström, Carl Petter (1774-1836)	male	   3
 Hällström, Gustavus Gabriel (1775-1844)	male	  62
 Hallström, Jonas	male	   1
 Hambraeus, Jonas	male	   1
 Hamilton, Carl Axel Hugo (1722-1763)	male	   2
-Hammarhelff, Andreas Adam Georgii (1625-1670)	male	   1
 Hammar, Nicolaus Matthiae (1690-NA)	NA	   1
+Hammarhelff, Andreas Adam Georgii (1625-1670)	male	   1
 Hammarsköld, L	NA	   1
 Hamnerin, Nils	male	   7
 Hanell, Casper Christofer (1746-1806)	male	   5
@@ -1025,23 +1028,23 @@ Hartman, Gabriel	male	   1
 Hartman, Gabriel Israel (1776-1809)	male	  12
 Hartman, Gabriel Israelis (1717-1763)	male	   1
 Hartman, Jonas	male	   2
-Hartmann, Johannes	male	   1
 Hartman, Olaus Samuelis (1695-NA)	male	   3
 Hartman, Samuel Georgii (1653-NA)	male	   3
+Hartmann, Johannes	male	   1
 Hartwall, Victor Erici (1800-1857)	male	   1
 Hase, Johann Matthias	male	   1
 Hasenmüller, Joachim	male	   1
+Hassel, Henricus (1700-1776)	male	   2
+Hassel, Henrik (1700-1776)	male	 134
 Hasselbom, Nicolaus (1690-1764)	NA	  40
 Hasselgreen, Elias Petri	male	   2
 Hasselgreen, Henricus Petri (1635-1676)	male	   1
-Hassel, Henricus (1700-1776)	male	   2
-Hassel, Henrik (1700-1776)	male	 134
 Hasselqvist, Andreas Benedicti (1646-1700)	male	  37
 Hasselqwist, Andreas Andreae (1717-NA)	male	   3
-Hastaeus, Christianus	male	   1
 Hast, Herman H	male	   1
 Hast, Hermannus Rudolphus (1756-1821)	NA	   2
 Hast, Reinhold	male	   1
+Hastaeus, Christianus	male	   1
 Haveman, Georg Henriksson (1717-NA)	male	   1
 Havemannus, Michael (1597-1672)	male	   1
 Hedberg, Fridericus (1748-1791)	male	   1
@@ -1080,8 +1083,8 @@ Herkepaeus, Anders Gottlieb	male	   5
 Herkepaeus, Ericus Andreae (1693-NA)	male	   1
 Herlinus, Petrus Gabrielis (1652-1710)	male	   1
 Herman, 	male	   1
-Hermansson, Johannes	male	   5
 Hermansson, Johan Von	male	   1
+Hermansson, Johannes	male	   5
 Hermelin, Olaus (1658-1712)	male	   1
 Hermelin, S G	NA	   9
 Hermigius, Gabriel Sigfridi (1674-NA)	male	   1
@@ -1114,9 +1117,9 @@ Hjerta, Fredrich Larsson	male	   3
 Hodenius, Carl	male	   1
 Hoeckert, Johan (1718-1794)	male	   1
 Hoffreen, Johan Carlsson (1733-NA)	male	   1
+Hoffren, P	NA	   2
 Hoffrenius, Henricus Johannis (1710-NA)	male	   1
 Hoffrenius, Petrus Henrici (1699-NA)	male	   4
-Hoffren, P	NA	   2
 Hoghusen, Johan (1736-NA)	male	   1
 Höglund, Johannes (1748-1828)	male	   1
 Högman, David Ericus (1733-1781)	male	   4
@@ -1144,21 +1147,21 @@ Höpken, D N Von	NA	   1
 Hoppius, Henricus Claudii (1660-1737)	male	   1
 Horatius Flaccus, Quintus	NA	   2
 Hordelius, Bartholdus Johannis (1646-NA)	NA	   3
-Hornaeus, Andreas Amberni (1616-1700)	male	   1
-Hornborg, Benjamin Johansson (1744-1800)	male	   1
-Hornborg, Herman Emanuel	male	   3
-Hornborg, Herman Johansson	male	   1
-Hornborgh, Georgus Johannis (1710-1775)	NA	   1
-Hornborg, Johan	male	   1
-Hornborg, Joh Georg	male	   1
 Horn, Carl Christersson (1598-1639)	male	   1
 Horn, Claes Fredric	male	   1
 Horn, Evert Carlsson	male	   1
 Horn, Gustaf Evertsson (1614-1666)	male	   1
 Horn, Henrik Claesson (1595-NA)	male	   1
+Horn, Svante Christersson (1602-1645)	male	   1
+Hornaeus, Andreas Amberni (1616-1700)	male	   1
+Hornborg, Benjamin Johansson (1744-1800)	male	   1
+Hornborg, Herman Emanuel	male	   3
+Hornborg, Herman Johansson	male	   1
+Hornborg, Joh Georg	male	   1
+Hornborg, Johan	male	   1
+Hornborgh, Georgus Johannis (1710-1775)	NA	   1
 Hornick, Georgius Johannis (1661-NA)	NA	   1
 Hornick, Martinus Johannis (1683-NA)	male	   1
-Horn, Svante Christersson (1602-1645)	male	   1
 Horstius, Gregorius	male	   1
 Hortelius, Johannes (1688-1781)	male	   1
 Hoslerus, Jacobus Henrici (1681-1749)	male	   2
@@ -1254,8 +1257,8 @@ Justinus, Marcus Junianus	male	   1
 Juteini, Jaakko (1781-1855)	male	  35
 Juusten, Paulus Petri (1516-1575)	male	   2
 Juvelius, Ericus (1718-1791)	NA	   6
-K,  (1846-1937)	NA	   1
 K-a, 	NA	   1
+K,  (1846-1937)	NA	   1
 Kaliander, Sveno Johannis (1618-1674)	NA	   1
 Kallinen, Johan	male	   1
 Kalm, Matthias (1793-1833)	male	   3
@@ -1319,8 +1322,8 @@ Kolmodin, Olaus (1766-1838)	male	   1
 Kolmodin, Olof (1690-1753)	male	   1
 Kolmodinus, Ericus Erici (1665-NA)	NA	   2
 Komstadius, Petrus Jonae (1708-NA)	male	   1
-König, Johannes Andreae (1701-NA)	male	   2
 König, Johann Friedrich (1619-1664)	male	   1
+König, Johannes Andreae (1701-NA)	male	   2
 Königsmann, Robert (1606-1663)	male	   1
 Konst, Anders	male	   1
 Kontula, Joona	male	   1
@@ -1351,6 +1354,8 @@ Kurck, Gabriel Jönsson (1630-1712)	male	   1
 Kyander, Andreas Georgii (1692-NA)	male	   2
 Kyander, Georgius Andreae (1659-NA)	male	   2
 L,  (1700-1893)	NA	   1
+L,  (NA-1893)	NA	   8
+L'ecluse, Jacques De (1744-NA)	ambiguous	   5
 Lachmann, Carolus Bartholdi (1653-1692)	male	   1
 Lacmannus, Barthollus Johannis (1679-NA)	male	   3
 Lactantius, Lucius Caecilius Firmianus (300-NA)	male	   1
@@ -1378,16 +1383,17 @@ Lanaeus, J	male	   1
 Landberg, Johan	male	   1
 Landtman, Johannes Caspari (1694-1777)	male	   1
 Landtman, Johannes Petrus (1728-1796)	male	   1
+Lang, Jacobus Jacobi (1648-1716)	male	  12
 Lange, Bengt	male	   1
 Lange, Nicolaus	NA	   1
 Långhjelm, Carol Frid	female	   1
 Langhorst, Anna	female	   1
 Langius, Johannes Michaelis	male	   1
-Lang, Jacobus Jacobi (1648-1716)	male	  12
 Lannerus, Daniel Benedicti (1679-1761)	male	   2
 Lantzbergh, Johannes Petri	male	   1
 Lantzenfeldt, Henrik Chilosson (1673-NA)	male	   1
 Lässle, Johannes Bartholdi	male	   1
+Lau, Samuel	male	   1
 Lauraeus, Gabriel Gabrielis (1677-1753)	male	   2
 Lauraeus, Olaus Olai (1690-NA)	male	   2
 Laurbecchius, Benedictus Laurentii (1640-1688)	NA	   1
@@ -1402,9 +1408,10 @@ Laurenbergius, Petrus (1585-1639)	male	   2
 Laurin, Martinus (1706-1785)	male	   1
 Laurin, Simon (1743-1813)	male	   1
 Laurinus, J	male	   1
-Lau, Samuel	male	   1
 Laxenius, Jacobus Martini (1687-NA)	male	   1
 Laxmann, Erich	male	   1
+Le Rouge, Georges-louis	male	   1
+Le Vaillant, Francois	male	   1
 Leander, Gabriel Erici (1691-NA)	male	   1
 Lebell, Anders Casper	male	   1
 Lebell, Fridericus (1752-1819)	male	   1
@@ -1412,7 +1419,6 @@ Lebell, Michaël (1714-1786)	NA	   1
 Lechander, Lars Abrahamsson (1719-NA)	male	   1
 Lechander, Nicolaus Johannis (1656-1726)	NA	   1
 Leche, Johannes (1704-1764)	male	   5
-L'ecluse, Jacques De (1744-NA)	ambiguous	   5
 Leem, Knud (1697-1774)	NA	   1
 Leenberg, Axel Daniel (1703-1744)	male	   2
 Leerbeck, Ericus	NA	   1
@@ -1434,21 +1440,19 @@ Lenningh, Carl	male	   3
 Lenz, Christian Dawid	male	   1
 Leopold, Carolus Fridericus (1728-1794)	male	   1
 Leopold, Eric Ludolph (1730-1779)	male	   1
-Le Rouge, Georges-louis	male	   1
 Lethalensis, Josephus Laurentii (1672-NA)	NA	   1
 Leuchovius, Benedictus P (1583-1623)	NA	   2
-Le Vaillant, Francois	male	   1
 Levan, Ericus (1746-NA)	NA	   1
-Levesque, Pierre-charles (1736-1812)	male	   1
 Levesque, Pierre Charles (1736-1812)	male	   1
+Levesque, Pierre-charles (1736-1812)	male	   1
 Levin, Meyer	NA	   1
 Lewenhaupt, Adam Ludwig	male	   1
 Lewenhaupt, Carl Emil	male	   2
 Lexell, Andreas Johannes (1740-1784)	male	   3
 Leyonstedt, Wilhelm	male	   1
 Leyonsteen, Georg Wilhelm	male	   1
-Lidenius, Petrus Svenonis	male	   4
 Lidén, Johannes Henricus	male	   1
+Lidenius, Petrus Svenonis	male	   4
 Lidner, Bengt	male	   5
 Lietzen, Nils Arvidsson (1691-NA)	male	   3
 Lignell, Nicolaus (1744-1817)	NA	   1
@@ -1471,8 +1475,9 @@ Limaeus, Johannes Erlandi (1644-1723)	male	   1
 Limatius, Aron (1710-1770)	male	   1
 Limatius, Nicolaus (1664-1705)	NA	   1
 Limingius, Laurentius Laurentii	male	   1
-Lindahl, Carolus Petrus (1775-1848)	male	   1
 Lind, Anders Persson (1730-NA)	male	   3
+Lind, J	male	   1
+Lindahl, Carolus Petrus (1775-1848)	male	   1
 Lindblad, Johannes Adolphus (1785-1814)	male	   1
 Lindblom, Jacob Axelsson (1746-1819)	male	   2
 Lindebäck, Jacob (1765-1820)	male	   2
@@ -1484,7 +1489,6 @@ Lindequist, Jacobus (1768-1849)	male	   1
 Linderholm, Olavus	NA	   1
 Lindh, Mag	male	   1
 Lindh, O	NA	   1
-Lind, J	male	   1
 Lindqvist, Johannes Henricus (1743-1798)	male	  26
 Lindstèen, Henricus (1724-1799)	male	   1
 Lindsteen, O	NA	   1
@@ -1507,7 +1511,6 @@ Lithovius, Zacharias Gabrielis (1672-1743)	male	   5
 Liungberg, Niels	male	   1
 Ljungbergius, Nicolaus Svenonis (1703-NA)	male	   1
 Ljungh, Petrus Erici (1611-1679)	male	   1
-L,  (NA-1893)	NA	   8
 Loccenius, Johannes (1598-1677)	male	   6
 Lode, Jöran Wilhelm (1742-1799)	male	   5
 Lodtmann, Carl Gerhard Wilhelm (1720-1755)	male	   1
@@ -1538,15 +1541,15 @@ Lucander, Henricus Henrici	male	   1
 Lucianus, 	NA	   1
 Ludenius, Laurentius (1592-1654)	male	   5
 Luhr, Andreas Henrici	male	   2
-Lundanus, Zacharias Michaelis (1737-NA)	male	   1
-Lundblad, Johan Fredrik Af	male	   2
 Lund, Carolus (1638-1715)	male	   6
 Lund, David Johannis (1657-1729)	male	  68
+Lund, Jacobus Johannis (1697-NA)	male	   3
+Lundanus, Zacharias Michaelis (1737-NA)	male	   1
+Lundblad, Johan Fredrik Af	male	   2
 Lundebergius, Zacharias Petri (1602-1667)	male	   1
 Lundeen, Johannes Johannis (1684-1761)	male	   2
 Lundegreen, Johannes O	male	   1
 Lundenius, Carolus Gustavus (1780-1844)	male	   1
-Lund, Jacobus Johannis (1697-NA)	male	   3
 Luscinius, Andreas Johannis (1680-NA)	male	   1
 Luther, Martti	male	  13
 Luthström, Carl Johan	male	   1
@@ -1558,16 +1561,17 @@ Lyra, Henricus Henrici (1738-1775)	male	   1
 Lysander, 	NA	   1
 Lyth, Henricus	male	   1
 Lythraeus, Georgius Andreae	male	   1
+M-n, 	NA	   1
 Maconi, Petrus Henricus (1795-1850)	male	   1
 Maestertius, Jacobus (1610-1658)	male	   1
 Magander, Simeon Bartoldi	male	   1
 Maijer, Johann Friedrich	male	   1
 Mallet Du Pan, Jacques (1749-1800)	male	   2
 Mallet, Freder	male	   1
+Malm, Nicolaus Henrici (1686-1759)	male	   1
 Malmberg, Carl	male	   1
 Malmberg, Petrus	male	   2
 Malmgren, Em Mart Luth	male	   1
-Malm, Nicolaus Henrici (1686-1759)	male	   1
 Malmsten, Jacob	male	   2
 Malmström, Petrus (1758-1834)	male	   4
 Mancelius, Georgius (1593-1654)	NA	   6
@@ -1579,9 +1583,9 @@ Marcus, 	male	   1
 Mardell Widman, Jacob (1769-NA)	male	   3
 Mariaestadius, Isaacus	NA	   1
 Martin, Anton Antonsson	male	   1
+Martin, Roland	male	   1
 Martini, Jacobus	male	   3
 Martinius, Matthias Martini (1655-1728)	male	   5
-Martin, Roland	male	   1
 Mathesius, Aaron Nicolai (1736-1808)	male	   1
 Mathesius, Gabriel Gabrielis	male	   1
 Mathesius, Gabriel Nicolai (1705-1772)	male	   9
@@ -1605,15 +1609,15 @@ Meisner, Balthasar (1587-1626)	NA	   1
 Meisner, Johannes	male	   1
 Melanchthon, Philipp	male	   1
 Melander, Daniel	male	   1
-Melanderhielm, Daniel	male	   2
 Melander, Petrus	male	   2
 Melander, Sveno (1665-1729)	NA	   1
+Melanderhielm, Daniel	male	   2
+Melart, Xx	NA	   1
 Melartin, Erik Gabriel (1780-1847)	male	   8
 Melartopaeus, Carl (1747-1789)	male	   1
 Melartopaeus, Carolus (1701-1758)	male	   2
 Melartopaeus, Gabriel Christierni (1708-NA)	male	   1
 Melartopaeus, Johannes Christierni (1679-NA)	male	   4
-Melart, Xx	NA	   1
 Melissander, Casper (1591-NA)	male	   1
 Mellin, Abrahamus (1772-1818)	male	   1
 Mellin, Carolus Magnus (1676-1724)	male	   1
@@ -1650,7 +1654,6 @@ Miödh, Abrahamus (1708-1786)	male	   1
 Miödh, Abrahamus (1744-1810)	male	   1
 Miödh, Jonas Magni (1711-NA)	male	   1
 Miödh, Olaus (1706-1760)	male	   7
-M-n, 	NA	   1
 Moberg, 	NA	   1
 Moberg, J	male	   1
 Moberg, Olaus (1633-1705)	male	   1
@@ -1660,6 +1663,7 @@ Mohrberg, Ericus Er	NA	   1
 Molander, Aron Claudii (1753-1821)	male	   1
 Molin, Gustavus Nicolaus (1779-1824)	NA	   1
 Molin, Laurentius	male	   1
+Moll, Herman (NA-1732)	male	   1
 Möller, Carl A	male	   2
 Möller, Johan	male	   6
 Möller, P	NA	   1
@@ -1668,7 +1672,6 @@ Mollerus, Arvidus Christiani (1674-1758)	male	  10
 Mollerus, Benedictus Johannis (1637-1706)	NA	   1
 Mollerus, Carolus Fridericus (1718-1787)	male	   2
 Mollerus, Henricus (1528-1567)	male	   2
-Moll, Herman (NA-1732)	male	   1
 Mollin, Jonas (1734-NA)	male	   2
 Mollin, Josephus (1756-1810)	NA	   2
 Montanus, Mathias	male	   1
@@ -1685,8 +1688,8 @@ Moses, 	male	   1
 Mozelius, Fredric	male	   1
 Mozelius, Johannes	male	   1
 Muhlert, Ferdinand August	male	   1
-Munck, Adolf Fredrik (1749-1831)	male	   1
 Munck Af Rosenschiöld, E Z	NA	   1
+Munck, Adolf Fredrik (1749-1831)	male	   1
 Munselius, Ericus (1712-1751)	NA	   3
 Munselius, Ericus (1743-1802)	NA	   2
 Munselius, Jacobus Josephi (1669-NA)	male	   1
@@ -1702,8 +1705,8 @@ Mylius, Ernest	male	   1
 Mylius, Georgius	NA	   4
 Myréen, Daniel (1782-1831)	male	   7
 Myricius, Ericus Christophori (1679-NA)	male	   1
+N m, A	male	   1
 N,  (1668-1738)	NA	   6
--n,  (1857-1936)	NA	   1
 Nääf, Wilhelmus Robertus (1720-1783)	male	   7
 Naezenius, Esaias Gregorii (1707-NA)	male	   1
 Nagajev, A I	male	  25
@@ -1730,7 +1733,6 @@ Nieroth, Carl	male	   6
 Nircho, Fabianus Isaaci (1703-NA)	male	   1
 Niurenius, Nicolaus Petri	male	   1
 Nizar, G	NA	   1
-N m, A	male	   1
 Noberg, J E	male	   1
 Nobesius, Michael (1725-1791)	male	   1
 Nohrborg, Anders	male	   4
@@ -1753,8 +1755,8 @@ Nordling, Carolus Johannes (1769-1837)	male	   1
 Nordlund, Johannes (1752-1815)	male	   1
 Nordman, Henricus Henrici	male	   1
 Nordstedt, Simon	male	   1
-Nordström, Jacob Johan (1801-1874)	male	   1
 Nordström, J E	male	   1
+Nordström, Jacob Johan (1801-1874)	male	   1
 Norinus, Lambertus Petri (1691-NA)	male	   1
 Normannus, Laurentius Johannis (1651-1703)	male	   1
 Norrmark, Adam	male	   2
@@ -1794,8 +1796,9 @@ Otter, William	male	   2
 Outhier, Réginald (1694-1774)	NA	   2
 Ovidius Naso, Publius	NA	   1
 Oxe, Harald Eriksson (1628-1690)	male	   1
-Oxelbeck, Petrus M	male	   1
 Oxe, Lorentz Erich (1674-NA)	male	   1
+Oxelbeck, Petrus M	male	   1
+P,  (NA-1939)	NA	  13
 Pacchalenius, Andreas Andreae (1679-1735)	male	   2
 Pacchalenius, Benjamin Andersson (1707-NA)	male	   1
 Pacchalenius, Thomas Michaelis (1679-NA)	male	   1
@@ -1809,8 +1812,8 @@ Palander, Gabriel (1730-1800)	male	   1
 Palander, Gabriel (1776-1821)	male	  16
 Paléen, Eric Johan (1716-1788)	male	   1
 Paléen, Johan Erik	male	   1
-Palmenberg, Justus	male	   1
 Palm, Zacharias Danielsson	male	   1
+Palmenberg, Justus	male	   1
 Papke, Christianus Caroli (1718-1761)	male	   3
 Parment, Jacob	male	   1
 Parthenio, 	NA	   1
@@ -1837,9 +1840,9 @@ Petre, Alexander	male	   1
 Petreius, David Davidis (1678-1720)	male	   1
 Petreius, Johannes	male	   1
 Petrejus, Jonas Petri (1645-1696)	male	   2
-Petriin, Nicolaus (1739-NA)	NA	   1
 Petri, Salomon (1610-1681)	male	   1
 Petri, Sigfridus	male	   1
+Petriin, Nicolaus (1739-NA)	NA	   1
 Pettersson, Johannes (1747-1809)	male	   1
 Pezoldus, Wolfgangus	male	   1
 Phaedrus, 	NA	   3
@@ -1860,12 +1863,11 @@ Pippingsköld, Josephus Gustavi (1760-1815)	NA	   8
 Piranesi, Francesco	male	   3
 Pitra, Louis Guillaume	male	   1
 Planman, Andreas (1724-1803)	male	  29
-Planting, E	NA	   1
 Plantin, Olof	male	   1
+Planting, E	NA	   1
 Plate, Georg Ernst	male	   1
 Platinus, Erlandus Petri (1671-1698)	male	   1
 Platinus, Petrus Svenonis (1635-1689)	male	   1
-P,  (NA-1939)	NA	  13
 Podolinus, Johannes Olai (1640-NA)	male	   1
 Poëtevin, Francois Louis	male	   1
 Polidor, 	NA	   1
@@ -1919,7 +1921,6 @@ Quistberg, Niels	male	   1
 Qvanten, Carl-jacob Von	NA	   3
 Qviding, Johannes Andreas (1778-1818)	male	   1
 Qwick, Ericus Erici (1691-NA)	NA	   1
--r,  (1700-NA)	NA	   1
 Rabbén, Johannes (1781-1865)	male	   1
 Rabenius, Lars Georg (1771-1846)	male	   2
 Råbergh, Andreas (1659-1713)	male	   1
@@ -1938,10 +1939,10 @@ Rambach, Johann Jacob	male	   1
 Ramklou, Johannes (1741-NA)	male	   1
 Rampau, Jacob	male	   1
 Ramus, Jonas	male	   1
+Ranck, Robert Johansson (1724-NA)	male	   1
 Rancken, Engelbrekt (1790-1862)	male	   1
 Rancken, Gustaf (1756-1831)	male	   1
 Rancken, Johannes Gustavus (1784-1815)	male	   3
-Ranck, Robert Johansson (1724-NA)	male	   1
 Rappe, Christopher Johan (1719-1776)	male	   3
 Rappe, Wilhelm	male	   1
 Rask, Rasmus	male	   1
@@ -1957,8 +1958,8 @@ Rehbinder, Berendt Otto (1784-NA)	male	   2
 Rehbinder, Joh Adam (1733-1809)	male	   1
 Rehn, E	NA	   1
 Rein, Carolus Johannis (1712-1781)	male	   3
-Reinecke, Johann Matthias Christoph (1768-1818)	male	   2
 Rein, Gabriel (1800-1867)	male	  10
+Reinecke, Johann Matthias Christoph (1768-1818)	male	   2
 Reinhardus, Johannes	male	   1
 Reinius, Israel Matthiae (1699-1771)	male	   1
 Rejlin, Henricus (1769-1849)	male	   1
@@ -1973,11 +1974,11 @@ Renqvist, Henrik (1789-1866)	male	   1
 Renström, Ericus (1710-1759)	NA	   6
 Renvall, Gustaf (1781-1841)	male	  12
 Retzius, Lorenz Christofer	male	   2
+Reuter, Samuel Laurentii (1679-NA)	male	  12
 Reuterholm, Axel	male	   1
 Reuterholm, Esbjörn Christian	male	   3
 Reuterholm, Gustaf Adolf	male	   5
 Reuterholm, Gustaf Gottfried (1721-1803)	male	   1
-Reuter, Samuel Laurentii (1679-NA)	male	  12
 Revonius, Johannes Benedicti (1693-NA)	male	   1
 Rhyzelius, Andreas Olavi (1677-1761)	male	   7
 Riddercrantz, Joakim Jostsson (1650-1724)	male	   2
@@ -2007,16 +2008,16 @@ Roman, Abraham	male	   1
 Romanson, Henricus Wilhelm (1776-1853)	male	   3
 Romanzoff, Nicolas De	ambiguous	   2
 Rönnow, Magnus (1665-1735)	male	   7
-Roosberg, Sveno Olai (1667-1691)	male	   1
 Roos, Johannes Danielis (1705-1789)	male	   1
+Roosberg, Sveno Olai (1667-1691)	male	   1
 Röring, Andreas (1752-1788)	male	   1
 Rosbeck, Petrus (1703-1788)	male	   1
+Rosén Von Rosenstein, Nicolaus	NA	   3
 Rosenback, Erland	male	   1
 Rosendahl, Johannes (1756-1821)	male	   1
 Rosenius, Johannes Fridericus (1789-NA)	male	   1
 Rosenmüller, Joh Georg	male	   1
 Rosenstein, Nils Von	male	   1
-Rosén Von Rosenstein, Nicolaus	NA	   3
 Rosinus, Richardus Richardi (1623-1676)	male	   1
 Ross, Isaac (1739-1805)	male	   4
 Ross, Isaacus Hermanni (1706-1783)	male	  54
@@ -2034,11 +2035,11 @@ Rotkirch, Wentzel Friedrich	male	   1
 Rousseau, Jean-jacques	male	   2
 Rousset, Jean (1686-1762)	male	   1
 Ruda, Ericus Andreae (1673-1733)	male	   1
+Rudbeck, Johan Olof (1711-1790)	male	   1
+Rudbeck, Olof (1660-1740)	male	   3
 Rudbeckius, Johannes (1581-1646)	male	   6
 Rudbeckius, Johannes (1623-1667)	male	   2
 Rudbeckius, Nicolaus Johannis (1622-1676)	NA	   1
-Rudbeck, Johan Olof (1711-1790)	male	   1
-Rudbeck, Olof (1660-1740)	male	   3
 Rudeen, Torsten (1661-1729)	male	  80
 Rudell, Mund	male	   1
 Rudenschöld, Magdalena Charlotta	female	   1
@@ -2070,8 +2071,8 @@ Sajnovics, Joannes (1733-1785)	male	   2
 Salamnius, Mattias (1691-NA)	male	  13
 Salemannus, Jonas Jonae (1652-NA)	male	   1
 Salenius, Ericus Matthiae	NA	   1
-Salinius, Matthias Sigfridi (1737-NA)	male	   4
 Salin, Samuel	male	   1
+Salinius, Matthias Sigfridi (1737-NA)	male	   4
 Sallustius Crispus, Gaius	male	   2
 Salmenius, Emanuel (1771-1832)	male	   1
 Salmenius, Johannes Gregorii (1683-NA)	male	   1
@@ -2140,8 +2141,8 @@ Schultz, Johan Andreas	male	   1
 Schultz, Johan Casper (1697-NA)	male	   1
 Schultz, Johannes	male	   1
 Schütz, Caspar (1594-NA)	male	   1
-Schütz, Johannes Johannis (1695-NA)	male	   1
 Schütz, Johann Jakob (1640-1690)	male	   8
+Schütz, Johannes Johannis (1695-NA)	male	   1
 Scriver, Christian (1629-1693)	male	   2
 Sederholm, Karl (1789-1867)	male	   1
 Segerwall, Harald	male	   1
@@ -2220,7 +2221,6 @@ Sprengberg, J	male	   1
 Sprengtporten, Georg Magnus (1740-1819)	male	   8
 Sprengtporten, Jacob Magnus (1721-1786)	male	   2
 Sprengtporten, Jöran Jacob Magnus	male	   1
--s-s, 	NA	   1
 Stachaeus, Laurentius Zachariae (1696-NA)	male	   1
 Stachaeus, Olaus Zachariae (1680-NA)	male	   1
 Stachaeus, Zacharias Zachariae	male	   1
@@ -2244,12 +2244,12 @@ Stark, David	male	   1
 Staude, Christian Von	male	   1
 Stechern, Gottfried	male	   1
 Stecksenius, Israel Danielis	male	   1
+Steen, Magnus Magni (1660-1697)	male	   8
 Steenbergius, Ericus Michaelis (1722-NA)	male	   4
 Steenholm, Joh	NA	   1
-Steen, Magnus Magni (1660-1697)	male	   8
 Steenman, Gregorius Georgii (1700-1746)	male	   3
-Steinheil, Fabian (1762-1831)	male	   4
 Stein-mejer, Joh B	NA	   1
+Steinheil, Fabian (1762-1831)	male	   4
 Steinmeyer, J B	male	   1
 Stemann, Johannes	male	   2
 Stenbäck, Carolus Fredericus (1760-1834)	male	   1
@@ -2269,8 +2269,8 @@ Sterenius, Henricus (1729-NA)	male	   1
 Sterenius, Johan Jacob (1781-NA)	male	   1
 Steuchius, Elavus	male	   1
 Steuchius, Johannes (1676-1742)	male	   3
-Stiernadler, Lennart Johan	male	   2
 Stierna, Nils	male	   1
+Stiernadler, Lennart Johan	male	   2
 Stiernhielm, Göran Olofsson	male	   2
 Stiernhöök, Johannes Olai (1596-1675)	male	   1
 Stiernman, Anders Anton Von (1695-1765)	male	   4
@@ -2317,8 +2317,9 @@ Swanström, Johannes (1707-NA)	male	   1
 Syngman, Matthias (1697-NA)	male	   1
 Synnerberg, Andreas	male	   1
 Synnerberg, Jonas	male	   1
-T,  (1700-1928)	NA	   2
 T-'',  (1775-1844)	NA	   1
+T,  (1700-1928)	NA	   2
+T,  (NA-1928)	NA	   2
 Tallqvist, Henricus (1804-1854)	male	   1
 Tålpo, A	male	   1
 Tålpo, Johannes Simonis (1684-1740)	male	   4
@@ -2359,6 +2360,7 @@ Terserus, Uno Johannis (1642-1675)	male	   1
 Tersmeden, Carl (1715-1797)	male	   1
 Tersteegen, Gerhard	male	   1
 Tesche, Joachimus Johannis	male	   1
+Th, G	NA	   1
 Thauvonius, Abrahamus Georgii (1622-1679)	male	  40
 Thauvonius, Gabriel Gabrielis (1719-NA)	male	   2
 Thauvonius, Gabriel Jönsson (1686-1748)	male	   1
@@ -2366,7 +2368,6 @@ Thebelius, J	male	   1
 Theophilander, 	NA	   2
 Thesleff, Claudius Johannis (1612-1666)	male	   1
 Thesleff, Petter Georg (1775-1844)	male	   1
-Th, G	NA	   1
 Thieme, August	male	   3
 Thilen, Casparus	male	   1
 Thingwall, Johan Ingemarson (1667-1702)	male	   1
@@ -2389,17 +2390,16 @@ Tigerstedt, Ericus Erici (1640-1697)	NA	  18
 Tigerstedt, Petrus Erici (1679-1742)	male	   4
 Tigerstedt, Samuel Eriksson (1671-1716)	male	   2
 Tihleman, Georg Frans (1770-1802)	male	   1
+Til-lantz, Elias (1640-1693)	male	   5
 Tilacaeus, Daniel	male	   1
 Tilaceus, Daniel	male	   1
 Tilas, Daniel (1712-1772)	male	   1
 Tilenius, Samuel Petri (1683-NA)	male	   1
 Tillander, Johannes (1704-1769)	male	   2
 Tillander, Petrus (1705-NA)	male	   1
-Til-lantz, Elias (1640-1693)	male	   5
 Timidulus, 	NA	   1
 Timmerman, Ericus Antoni (1726-NA)	male	   1
 Tjeder, Michaël (1797-1842)	NA	   1
-T,  (NA-1928)	NA	   2
 Tolia, Matthias Jacobaeus (1582-1656)	male	   1
 Tollesson, Pehr	male	   2
 Tolpo, Andreas Johannis	male	   1
@@ -2413,12 +2413,12 @@ Tönnerus, Johan	male	   1
 Tooke, John Horne	male	   1
 Topelius, Zacharias (1781-1831)	male	   1
 Toppelius, Johan Gabriel (1765-1808)	male	   1
+Törn, Erlandus Erlandi (1737-NA)	male	   6
 Tornaeus, Johannes Jonae (1681-NA)	male	   1
 Tornaeus, Jonas (1715-NA)	male	   1
 Törnecreutz, Johan Johansson (1660-1722)	male	   1
 Törner, Fabianus	male	   8
 Torner, Gustaf	male	   1
-Törn, Erlandus Erlandi (1737-NA)	male	   6
 Törneskiöld, Carl Jakobsson (1674-NA)	male	   2
 Törngren, Johannes Agapetus (1772-1859)	male	  11
 Törnqvist, Johannes (1751-1783)	male	   1
@@ -2505,8 +2505,9 @@ Wahlman, Abrahamus	male	   1
 Walbeck, Henricus Johannes (1793-1822)	male	   5
 Walbman, Jonas Magni (1638-1702)	male	   1
 Waldius, Elias	male	   1
-Wallenborg, Henricus Henrici (1740-1804)	male	   1
 Wallen, Fridericus	male	   1
+Wallén, Jeremias Jeremiae (1693-1772)	male	   4
+Wallenborg, Henricus Henrici (1740-1804)	male	   1
 Wallenius, Andreas Erici	male	   1
 Wallenius, Ericus Andreae (1715-NA)	male	   2
 Wallenius, Ericus Jeremiae (1713-1772)	NA	   1
@@ -2520,7 +2521,6 @@ Wallenius, Johannes Jeremiae (1698-1746)	male	  11
 Wallenius, Laurentius	male	   1
 Wallenius, Martinus Johannes (1731-1773)	male	  30
 Wallenius, Petrus Gabrielis (1773-1838)	male	   1
-Wallén, Jeremias Jeremiae (1693-1772)	male	   4
 Wallensteen, Johannes Petrus	male	   2
 Wallenstierna, Gustaf (1715-1747)	male	   1
 Wallenström, Carolus Samuel (1759-1830)	male	   1
@@ -2594,12 +2594,12 @@ Westrin, Lars	male	   1
 Westzynthius, Johannes Magni (1734-1804)	male	   4
 Westzynthius, Olavus (1726-1781)	NA	   1
 Wetter, Abraham (1695-1737)	male	   2
+Wetter, Sveno Nicolai (1654-1722)	male	   1
 Wetterblad, Anders Georg	male	   1
 Wetterblad, Andreas (1716-1774)	male	   7
 Wetterhoff, Andreas Georgius (1707-1772)	male	   1
 Wetterstedt, Eric (1736-1822)	male	   3
 Wetterstedt, Eric Af (1736-1822)	male	   1
-Wetter, Sveno Nicolai (1654-1722)	male	   1
 Wexionensis, Jonas Magni (1583-1651)	male	   2
 Wexionius, Olaus Olai (1626-1671)	male	   9
 Wexionius, Olof Olofsson (1656-1690)	male	   9
@@ -2639,8 +2639,8 @@ Winter, Gabriel (1767-1832)	male	   2
 Wirenius, Gustaf Wilhelm (1798-1846)	male	   1
 Wising, Isaac	male	   1
 Wisius, Michael Canuti (1624-1679)	male	   2
-Witfoot, Johan Joachimsson (1690-NA)	male	   1
 Wit, Frederick De	ambiguous	   5
+Witfoot, Johan Joachimsson (1690-NA)	male	   1
 Witte, Hermannus (1666-1728)	NA	   1
 Wittfoot, Adolf Johannes (1708-NA)	male	   1
 Wittfooth, Hans Henrich Gustafsson (1705-1770)	male	   1

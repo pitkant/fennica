@@ -15,9 +15,9 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015a) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015b). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -208,9 +208,9 @@ References
 
 \[1\] H. Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2009. ISBN: 978-0-387-98140-6. &lt;URL: <http://ggplot2.org>&gt;.
 
-\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
+\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
 
-\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
+\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
 
 \[4\] M. Tolonen and L. Lahti. "Aatehistoria ja digitaalisten aineistojen mahdollisuudet". In: *Ennen & Nyt 2* 2 (Aug. 2015). &lt;URL: <http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet>&gt;.
 
@@ -244,22 +244,22 @@ sessionInfo()
     ## 
     ## locale:
     ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-    ##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
-    ##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
-    ##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
+    ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+    ##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+    ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
     ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-    ## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
+    ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] git2r_0.15.0          knitcitations_1.0.7   rmarkdown_0.9.6.14   
-    ##  [4] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
-    ##  [7] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
-    ## [10] tidyr_0.4.1           fennica_0.1.42        ggplot2_2.1.0        
-    ## [13] magrittr_1.5          sorvi_0.7.46          tibble_1.0           
-    ## [16] dplyr_0.4.3           bibliographica_0.2.21 devtools_1.11.1      
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    stringr_1.0.0        
+    ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
+    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
+    ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
+    ## [13] sorvi_0.7.46          tibble_1.0            dplyr_0.4.3          
+    ## [16] bibliographica_0.2.21 devtools_1.11.1      
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
@@ -283,11 +283,11 @@ sessionInfo()
     ## [55] RefManageR_0.10.13    ape_3.5               yaml_2.1.13          
     ## [58] stringi_1.1.1         RJSONIO_1.3-0         MASS_7.3-45          
     ## [61] zlibbioc_1.18.0       rhdf5_2.16.0          plyr_1.8.4           
-    ## [64] grid_3.3.0            parallel_3.3.0        gender_0.5.1         
-    ## [67] crayon_1.3.1          lattice_0.20-33       Biostrings_2.40.2    
+    ## [64] grid_3.3.0            parallel_3.3.0        gender_0.5.1.9000    
+    ## [67] crayon_1.3.1          lattice_0.20-33       Biostrings_2.40.1    
     ## [70] splines_3.3.0         multtest_2.28.0       igraph_1.0.1         
     ## [73] fastcluster_1.1.20    codetools_0.2-14      stats4_3.3.0         
-    ## [76] XML_3.98-1.4          babynames_0.2.1       evaluate_0.9         
+    ## [76] XML_3.98-1.4          babynames_0.2.1.9000  evaluate_0.9         
     ## [79] latticeExtra_0.6-28   data.table_1.9.6      foreach_1.4.3        
     ## [82] testthat_1.0.2        gtable_0.2.0          assertthat_0.1       
     ## [85] roxygen2_5.0.1        survival_2.39-4       genderdata_0.5.0     
