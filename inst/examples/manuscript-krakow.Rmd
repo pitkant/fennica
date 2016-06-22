@@ -363,7 +363,7 @@ paikallisia eroja ?
 
 ```{r bookmedia1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
 for (catal in unique(df0$catalog)) {
-  df2 <- subset(df0, catalog = catal)
+  df2 <- subset(df0, catalog == catal)
   pagelimit = 50
   df2$document.type <- rep(NA, nrow(df2))
   df2$document.type[df2$pagecount > pagelimit] <- "book"
