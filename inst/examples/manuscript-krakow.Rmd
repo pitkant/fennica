@@ -324,17 +324,42 @@ print(p)
 
 ### Book as media: development over time
 
-TODO Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö
-ajankohtia jolloin on poikkeuksellista kasvua / laskua
-tms. Esim. top-10 julkaisupaikat.
+Paper consumption per document in the top publication places. Note
+that paper consumption estimates have still problems so take this with
+reservations. Are there time periods with remarkable changes in paper
+consumption per document (meaning that small or large volumes suddenly
+become more frequent) ?
+
+
+```{r bookmedia2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+for (catal in unique(df0$catalog)) {
+  df <- subset(df0, catalog = catal)
+  theme_set(theme_bw(20))
+  top <- names(top(df, "publication_place", 10))
+
+  dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_decade, publication_place, country) %>% summarize(n = n(), paper = sum(paper.consumption.km2, na.rm = T))  %>% mutate(paper.per.document = paper/n)
+
+  p <- ggplot(dfs, aes(x = publication_decade, y = paper.per.document)) +
+       geom_point(aes(color = publication_place, shape = publication_place)) +
+       geom_line(aes(color = publication_place, linetype = publication_place)) +
+       xlab("Title Count") + 
+       ggtitle(paste("Paper consumption per document\n", catal)) +
+       scale_y_log10() 
+  #p <- p + geom_text(aes(label = publication_place), size = 5)
+  #p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
+  #p <- p + scale_color_manual(values = c("darkgray", "black"))
+  #p <- p + guides(color = "none")
+  print(p)	 
+}
+```
 
 
 
 
-How over 50 page documents are spreading in time. Paper consumption in
-books (over 50 pages; balls) versus other documents (less or equal
-than 50 pages; triangles). TODO: voidaanko tässä nähdä paikallisia
-eroja ?
+Overview on how over 50 page documents spread in time. Paper
+consumption in books (over 50 pages; balls) versus other documents
+(less or equal than 50 pages; triangles). TODO: voidaanko tässä nähdä
+paikallisia eroja ?
 
 ```{r bookmedia1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
 for (catal in unique(df0$catalog)) {
@@ -690,43 +715,6 @@ pk = p
 library(gridExtra)
 grid.arrange(pf, pk, nrow = 1)
 ```
-
-
-
-
-Gatherings vs. pagecounts per country (Fennica)
-
-```{r LIBER-docsizecomp3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
-selected.countries = c("Finland", "Sweden")
-dfs <- fen %>% select(pagecount, gatherings, country) %>% filter(country %in% selected.countries) %>% group_by(pagecount, gatherings, country) %>% tally()
-p <- ggplot(dfs, aes(x = pagecount, y = gatherings, size = n)) +
-     geom_point() + facet_grid(country ~ .) + scale_x_log10()
-print(p)
-```
-
-
-
-
-
-Title count and overall paper consumption in the top publication locations (Fennica). The current country of origin is indicated. Finland is highlighted. Note that paper consumption estimates have still problems.
-
-```{r LIBER-8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=8}
-df <- fen
-theme_set(theme_bw(20))
-top <- names(rev(sort(table(df$publication_place))))[1:50]
-dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_place) %>% summarize(titles = n(), paper = sum(paper.consumption.km2, na.rm = T))
-dfs$country <- get_country(dfs$publication_place)
-dfs$finland <- dfs$country == "Finland"
-p <- ggplot(dfs, aes(x = titles, y = paper))
-p <- p + geom_text(aes(label = publication_place, color = finland), size = 5)
-p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
-p <- p + scale_color_manual(values = c("darkgray", "black"))
-p <- p + guides(color = "none")
-p <- p + scale_x_log10() + scale_y_log10() 
-p <- p + ggtitle("Title count versus paper (places)")
-print(p)	 
-```
-
 
 
 
