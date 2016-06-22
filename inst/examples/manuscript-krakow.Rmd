@@ -324,34 +324,39 @@ print(p)
 
 ### Book as media: development over time
 
-Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö
+TODO Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö
 ajankohtia jolloin on poikkeuksellista kasvua / laskua
 tms. Esim. top-10 julkaisupaikat.
 
-Kirjan kehitys mediana (miten yli 50 sivuiset dokumentit yleistyvät
-ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
 
-Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 50 pages. Pamphlets are anything less or equal than 50 pages. Fennica data
 
-```{r LIBER-12, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
-df2 <- fen
-pagelimit = 50
-df2$document.type <- rep(NA, nrow(df2))
-df2$document.type[df2$pagecount > pagelimit] <- "book"
-df2$document.type[df2$pagecount <= pagelimit] <- "pamphlet"
-df2 <- df2[which(!is.na(df2$document.type)),]
-df2$document.type <- factor(df2$document.type)
-df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
-p <- p + geom_point(aes(shape = document.type), size = 5)
-p <- p + geom_smooth(method = "loess", color = "black")
-p <- p + ggtitle("Paper consumption per document type")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
-p <- p + scale_color_manual(values=c("black", "darkgray"))
-p <- p + guides(shape = "none")
-p <- p + ggtitle("Books versus pamphlets: paper consumption")
-print(p)
+
+How over 50 page documents are spreading in time. Paper consumption in
+books (over 50 pages; balls) versus other documents (less or equal
+than 50 pages; triangles). TODO: voidaanko tässä nähdä paikallisia
+eroja ?
+
+```{r bookmedia1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+for (catal in unique(df0$catalog)) {
+  df2 <- subset(df0, catalog = catal)
+  pagelimit = 50
+  df2$document.type <- rep(NA, nrow(df2))
+  df2$document.type[df2$pagecount > pagelimit] <- "book"
+  df2$document.type[df2$pagecount <= pagelimit] <- "pamphlet"
+  df2 <- df2[which(!is.na(df2$document.type)),]
+  df2$document.type <- factor(df2$document.type)
+  df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+  p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+  p <- p + geom_point(aes(shape = document.type), size = 5)
+  p <- p + geom_smooth(method = "loess", color = "black")
+  p <- p + ggtitle("Paper consumption per document type")
+  p <- p + xlab("Year")
+  p <- p + ylab("Paper consumption (km2)")
+  p <- p + scale_color_manual(values=c("black", "darkgray"))
+  # p <- p + guides(shape = "none") 
+  p <- p + ggtitle(catal)
+  print(p)
+}
 ```
 
 

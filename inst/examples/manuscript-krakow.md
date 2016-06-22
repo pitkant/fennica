@@ -15,9 +15,9 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015a) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015b). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -71,13 +71,11 @@ The publishing of historical works in .. on a timeline highlighting the eras of 
 
 ### Book as media: development over time
 
-Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankohtia jolloin on poikkeuksellista kasvua / laskua tms. Esim. top-10 julkaisupaikat.
+TODO Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankohtia jolloin on poikkeuksellista kasvua / laskua tms. Esim. top-10 julkaisupaikat.
 
-Kirjan kehitys mediana (miten yli 50 sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
+How over 50 page documents are spreading in time. Paper consumption in books (over 50 pages; balls) versus other documents (less or equal than 50 pages; triangles). TODO: voidaanko tässä nähdä paikallisia eroja ?
 
-Paper consumption in books (balls) versus pamphlets (triangles). Books are any documents with more than 32 pages. Pamphlets are anything less or equal than 32 pages. Fennica data
-
-![](figure_201606_Krakow/LIBER-12-1.png)
+<img src="figure_201606_Krakow/bookmedia1-1.png" width="430px" /><img src="figure_201606_Krakow/bookmedia1-2.png" width="430px" />
 
 Average paper consumption per document over time:
 
@@ -246,12 +244,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.14    stringr_1.0.0        
-    ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
-    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
-    ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
-    ## [13] sorvi_0.7.46          tibble_1.0            dplyr_0.4.3          
-    ## [16] bibliographica_0.2.21 devtools_1.11.1      
+    ##  [1] git2r_0.15.0          knitcitations_1.0.7   rmarkdown_0.9.6.14   
+    ##  [4] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
+    ##  [7] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
+    ## [10] tidyr_0.4.1           fennica_0.1.42        ggplot2_2.1.0        
+    ## [13] magrittr_1.5          sorvi_0.7.46          tibble_1.0           
+    ## [16] dplyr_0.4.3           bibliographica_0.2.21 devtools_1.11.1      
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
