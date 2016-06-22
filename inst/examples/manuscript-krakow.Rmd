@@ -55,7 +55,7 @@ kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.yea
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
-## Introduction (MT + JM voi jo kasata tähän hyvää läppää)
+## Introduction (MT + JM voi jo kasata tähän hyvää läppää + viitteitä)
 
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
@@ -64,12 +64,14 @@ Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen &
 Lahti (2015) - add to
 bib](http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet/)).
 
-Embed citations from bib files with `r citep(bib[["lahti14natcomm"]])`.
-
 We have prepared open data analytical ecosystem for in-depth analysis
 of such data collections `r citep("10.18352/lq.10112")`.
 
 
+You can also add citations by adding new references to the [bib
+file](bibliography.bib) and then citing in this text with
+`r citep(bib[["lahti14natcomm"]])`. These will then be automatically
+numbered and collected in references section. Alternatively, you can cite with the DOI (the citation info will then be collected automatically): `r citep("10.18352/lq.10112")`.
 
 
 ## Results
