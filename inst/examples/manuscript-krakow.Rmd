@@ -651,7 +651,9 @@ Further draft text in the funding application..?
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata `r nrow(fenraw)` and `r nrow(kunraw)` documents in Fennica and Kungliga, respectively. After initial preprocessing and limiting the analysis between the years `r min(df0$publication_year)`-`r max(df0$publication_year)`, we had `r nrow(subset(df0, catalog == "Fennica"))` and `r nrow(subset(df0, catalog == "Kungliga"))` documents for Fennica and Kungliga, respectively.
+The raw data contains metadata `r nrow(fenraw)` and `r nrow(kunraw)` documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval `r min(df0$publication_year)`-`r max(df0$publication_year)`, yielding a subset of `r nrow(subset(df0, catalog == "Fennica"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(fenraw), 1)`) and `r nrow(subset(df0, catalog == "Kungliga"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(fenraw), 1)`) documents for Fennica and Kungliga, respectively.
+
+
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. [SUMMARY FIGURE OF THE PROCESS?]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
