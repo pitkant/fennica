@@ -387,16 +387,15 @@ for (catal in unique(df0$catalog)) {
 
 Average paper consumption per document over time:
 
-```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9}
+```{r LIBER-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=9, out.width="430px"}
 theme_set(theme_bw(25))
 library(sorvi)
-df = df0
-dfs <- df %>% group_by(publication_year) %>%
+dfs <- df0 %>% group_by(publication_decade) %>%
          summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
-p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_year)) +
-       geom_line() + geom_point() +
-       xlab("Publication Year") + ylab("Paper per document")
-p <- p + ggtitle("Average paper consumption per document")
+p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_decade)) +
+       geom_point() + geom_smooth(col = "black") +
+       xlab("Publication year") + ylab("Paper per document") +
+       ggtitle("Average paper consumption per document")
 print(p)
 ```
 
