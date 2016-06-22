@@ -70,7 +70,7 @@ file](bibliography.bib) and then cite using the key with
 `r citep(bib[["Lahti15LIBER"]])`. Such citations will be automatically
 numbered and collected in references section.
 
-
+- Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
 ## Results
 
