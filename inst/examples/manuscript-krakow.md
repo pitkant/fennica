@@ -25,7 +25,9 @@ Results
 Relevant summaries can be moved here and polished. Which figures at least ?
 
 General trends (top authors etc):
-\* [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md) \* [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
+
+-   [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
+-   [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
 
 [ESTC-analyses](https://github.com/rOpenGov/estc) ([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) in particular); toisto Fennica/Kungliga datoilla ? LL: Voidaan tehda mut kandee miettia ehka spesifimmin et mitka analyysit sielta kiinnostaa. Muuten menee aikaa hukkaan jos pitaa fiksata juttuja joita ei sitten kaytetakaan.
 
@@ -113,9 +115,9 @@ Greifwald: 1456 (Ruotsin systeemissä 1600-1815)
 
 Greifswald mukaan yliopistoanalyysiin. osana Ruotsin valtakuntaa.
 
-Lisäksi kieli, milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä eri paikoissa on mielenkiintoinen kysymys. tuleeko jostain yliopistosta erityisesti ruotsinkielistä materiaalia 1700-luvulla. <https://github.com/rOpenGov/fennica/blob/master/inst/examples/language.md> Näissä pitää erityisesti analysoida niitä väitöskirjoja sekä niissä tapahtuvia muutoksia.
+Lisäksi kieli [Fennica](https://github.com/rOpenGov/fennica/blob/master/inst/examples/language.md) ja [Kungliga](https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md), milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä eri paikoissa on mielenkiintoinen kysymys. tuleeko jostain yliopistosta erityisesti ruotsinkielistä materiaalia 1700-luvulla. Näissä pitää erityisesti analysoida niitä väitöskirjoja sekä niissä tapahtuvia muutoksia.
 
--   Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen yliopistojärjestelmän kaupunkeihin. Lukumäärävertailut aikajanalla ja ne akateemisten julkaisujen blokkaaminenhan ei pitäisi olla kovinkaan hankalaa. Tämä saattaisi hyvin riittää siitä Kungligan käytöstä. Samalla vertailukohtia CERListä tai sitten ehkä ESTCstä pitää ottaa Fennicalle että pystytään suhteuttamaan mistä puhutaan.
+Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen yliopistojärjestelmän kaupunkeihin. Lukumäärävertailut aikajanalla ja ne akateemisten julkaisujen blokkaaminenhan ei pitäisi olla kovinkaan hankalaa. Tämä saattaisi hyvin riittää siitä Kungligan käytöstä. Samalla vertailukohtia CERListä tai sitten ehkä ESTCstä pitää ottaa Fennicalle että pystytään suhteuttamaan mistä puhutaan.
 
 Painovapaus, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)? Painovapaus on 1766-1772, miten tämä näkyy Kungligassa ja Fennicassa?
 
