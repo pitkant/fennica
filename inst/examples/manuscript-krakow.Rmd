@@ -178,50 +178,36 @@ Riksdagar are in some cases associated with publishing peaks (see
 Figure ...). See "Vapauden ajan valtiopäivät" from 1719 onwards ?
 
 
-Erityisesti:
-
-Riksdag Stockholm 20 januari 1719 1 juni 1719
-
-Riksdag Stockholm 14 maj 1734 14 december 1734
-
-Riksdag Stockholm 21 februari 1765 21 oktober 1766
-
-Riksdag Norrköping & Stockholm 22 april 1769 5 februari 1770
-
-Riksdag Stockholm 19 juni 1771 12 september 1772
-
-Riksdag Gävle 26 januari 1792 24 februari 1792
-
---> tapahtuuko Gävlessä selvää nousua julkaisemisessa.
-
+In particular: Riksdag Stockholm 20 januari 1719 1 juni 1719; Stockholm 14 maj 1734 14 december 1734; Stockholm 21 februari 1765 21 oktober 1766; Norrköping & Stockholm 22 april 1769 5 februari 1770; Stockholm 19 juni 1771 12 september 1772; Gävle 26 januari 1792 24 februari 1792.
 
 The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..).. 
 
-```{r valtiopaivat-total, echo=FALSE, warning=FALSE, fig.width=11, fig.height=4}
-# Use timeinterval year intervals
-dfsel = df0
-#dfsel = subset(df0, publication_place == "Stockholm")
-#dfsel = subset(df0, publication_place == "Norrköping")
-#dfsel = subset(df0, publication_place == "Gävle")
+```{r riksdar1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+for (catal in as.character(unique(df0$catalog))) {
 
-df <- subset(dfsel, publication_year >= 1700 & publication_year < 1800 )
+  # Use timeinterval year intervals
+  dfsel = subset(df0, catalog == catal)
+  #dfsel = subset(df0, publication_place == "Stockholm")
+  #dfsel = subset(df0, publication_place == "Norrköping")
+  #dfsel = subset(df0, publication_place == "Gävle")
 
-timeinterval <- 1
-df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+  df <- subset(dfsel, publication_year >= 1700 & publication_year < 1800 )
 
-df$unity = rep(1, nrow(df))
-publications <- tapply(df$unity, list(df$timeunit), sum)
+  timeinterval <- 1
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
 
-publications[is.na(publications)] <- 0 # Set NAs to 0
-publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-dfm <- melt(publications) 
-names(dfm) <- c("Time", "Documents")
-dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-ymin = min(dfm$Documents)
-ymax = max(dfm$Documents)
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+  ymin = min(dfm$Documents)
+  ymax = max(dfm$Documents)
 
-rect_left <- c(min(na.omit(dfm$date)),
+  rect_left <- c(min(na.omit(dfm$date)),
                1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
                1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
                1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
@@ -243,48 +229,52 @@ rect_left <- c(min(na.omit(dfm$date)),
  rectangles$shade[rectangles$shade == "Highlight"] = riksplace
  rectangles$shade = factor(rectangles$shade)
 
-# Draw Figure
-theme_set(theme_bw(20))
-p <- ggplot()
-p <- p + geom_rect(data = rectangles, 
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot()
+  p <- p + geom_rect(data = rectangles, 
 	   aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=shade), alpha=0.8) + 
          scale_fill_manual(values = cols) # + guides(fill = "none") 
-p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
-p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
-p <- p + scale_x_continuous(breaks=seq(min(dfm$date), max(dfm$date), 20))
-p <- p + ggtitle("Publishing activity")
-p <- p + ylab("Documents / Year")
-p <- p + xlab("Year")
-p <- p + ggtitle("Riksdagar - overall titlecount (Fen + Kun)")
-print(p)
+  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + scale_x_continuous(breaks=seq(min(dfm$date), max(dfm$date), 20))
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(catal)
+  print(p)
+}
 ```
 
 
-```{r valtiopaivat-gavle, echo=FALSE, warning=FALSE, fig.width=11, fig.height=4}
-# Use timeinterval year intervals
-myplace = "Gävle" # Norrköping / Stockholm
-dfsel = subset(df0, publication_place == myplace)
-minyear = 1700
-maxyear = 1800
+Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$publication_place)` occurrences in Fennica, hence not included here. The figure on Gävle is based on Kungliga.
 
-df <- subset(dfsel, publication_year >= minyear & publication_year < maxyear)
+```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, out.width="430px"}
 
-timeinterval <- 1
-df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+  # Use timeinterval year intervals
+  myplace = "Gävle" # Norrköping / Stockholm
+  minyear = 1700
+  maxyear = 1800
+  catal = "Kungliga"
 
-df$unity = rep(1, nrow(df))
-publications <- tapply(df$unity, list(df$timeunit), sum)
+  df = subset(df0, publication_place == myplace & catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year < maxyear)
 
+  timeinterval <- 1
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 
-publications[is.na(publications)] <- 0 # Set NAs to 0
-publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-dfm <- melt(publications) 
-names(dfm) <- c("Time", "Documents")
-dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-ymin = min(dfm$Documents)
-ymax = max(dfm$Documents)
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
 
-rect_left <- c(min(na.omit(dfm$date)),
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+  ymin = min(dfm$Documents)
+  ymax = max(dfm$Documents)
+
+  rect_left <- c(min(na.omit(dfm$date)),
                1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
                1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
                1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
@@ -295,33 +285,32 @@ rect_left <- c(min(na.omit(dfm$date)),
   rectangles <- data.frame(
     xmin = rect_left[-length(rect_left)],
     xmax = rect_left[-1],
-    #xmin = min(dfsel$publication_year),
-    #xmax = max(dfsel$publication_year),    
     ymin = ymin,
     ymax = ymax
     )
   rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
-  #rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))  
 
  riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
  cols = c("gray", "lightblue", "yellow", "white")
  rectangles$shade[rectangles$shade == "Highlight"] = riksplace
  rectangles$shade = factor(rectangles$shade)
 
-# Draw Figure
-theme_set(theme_bw(20))
-p <- ggplot()
-p <- p + geom_rect(data = rectangles, 
-	   aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=shade), alpha=0.8) + 
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot()
+  p <- p + geom_rect(data = rectangles, 
+	   aes(xmin=xmin, xmax=xmax,
+	       ymin=ymin, ymax=ymax,
+	       fill=shade), alpha=0.8) + 
          scale_fill_manual(values = cols) # + guides(fill = "none") 
-p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
-p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
-p <- p + scale_x_continuous(breaks=seq(minyear, maxyear, 20))
-p <- p + ggtitle("Publishing activity")
-p <- p + ylab("Documents / Year")
-p <- p + xlab("Year")
-p <- p + ggtitle(paste("Riksdagar - titlecount in ", myplace, sep = ""))
-print(p)
+  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + scale_x_continuous(breaks = seq(minyear, maxyear, 20))
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
+  print(p)
 
 ```
 

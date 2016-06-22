@@ -47,27 +47,15 @@ Comparison of printing activity in Turku, Uppsala, Lund, and Stockholm. Turussa 
 
 Riksdagar are in some cases associated with publishing peaks (see Figure ...). See "Vapauden ajan valtiopäivät" from 1719 onwards ?
 
-Erityisesti:
-
-Riksdag Stockholm 20 januari 1719 1 juni 1719
-
-Riksdag Stockholm 14 maj 1734 14 december 1734
-
-Riksdag Stockholm 21 februari 1765 21 oktober 1766
-
-Riksdag Norrköping & Stockholm 22 april 1769 5 februari 1770
-
-Riksdag Stockholm 19 juni 1771 12 september 1772
-
-Riksdag Gävle 26 januari 1792 24 februari 1792
-
---&gt; tapahtuuko Gävlessä selvää nousua julkaisemisessa.
+In particular: Riksdag Stockholm 20 januari 1719 1 juni 1719; Stockholm 14 maj 1734 14 december 1734; Stockholm 21 februari 1765 21 oktober 1766; Norrköping & Stockholm 22 april 1769 5 februari 1770; Stockholm 19 juni 1771 12 september 1772; Gävle 26 januari 1792 24 februari 1792.
 
 The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..)..
 
-![](figure_201606_Krakow/valtiopaivat-total-1.png)
+<img src="figure_201606_Krakow/riksdar1-1.png" width="430px" /><img src="figure_201606_Krakow/riksdar1-2.png" width="430px" />
 
-![](figure_201606_Krakow/valtiopaivat-gavle-1.png)
+Focus on Gävle (gray) during riksdagar. Gävle has 0 occurrences in Fennica, hence not included here. The figure on Gävle is based on Kungliga.
+
+<img src="figure_201606_Krakow/riksdar2-1.png" width="430px" />
 
 ### Book as media: development over time
 
