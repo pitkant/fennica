@@ -70,7 +70,7 @@ of such data collections `r citep("10.18352/lq.10112")`.
 
 You can also add citations by adding new references to the [bib
 file](bibliography.bib) and then citing in this text with
-`r citep(bib[["lahti14natcomm"]])`. These will then be automatically
+`r citep(bib[["Lahti15LIBER"]])`. These will then be automatically
 numbered and collected in references section. Alternatively, you can cite with the DOI (the citation info will then be collected automatically): `r citep("10.18352/lq.10112")`.
 
 
