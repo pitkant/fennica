@@ -69,7 +69,9 @@ Riksdag Gävle 26 januari 1792 24 februari 1792
 
 The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..)..
 
-![](figure_201606_Krakow/valtiopaivat-1.png)
+![](figure_201606_Krakow/valtiopaivat-total-1.png)
+
+![](figure_201606_Krakow/valtiopaivat-gavle-1.png)
 
 ### Book as media: development over time
 
