@@ -23,8 +23,8 @@ cleanbib()
 cite_options(hyperlink = TRUE, max.names = 3)
 bib <- read.bibtex("bibliography.bib")
 #opts_chunk$set(fig.width=4, fig.height=3, par=TRUE, out.width='2in', fig.pos='H')
-#knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/", dev="CairoPNG")
-knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/")
+knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/", dev="CairoPNG")
+#knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/")
 ```
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}

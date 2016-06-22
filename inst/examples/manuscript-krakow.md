@@ -271,25 +271,26 @@ sessionInfo()
     ## [19] permute_0.9-0         ade4_1.7-4            nnet_7.3-12          
     ## [22] withr_1.0.1           moments_0.14          preprocessCore_1.34.0
     ## [25] chron_2.3-47          WGCNA_1.51            Biobase_2.32.0       
-    ## [28] formatR_1.4           NLP_0.1-9             labeling_0.3         
-    ## [31] slam_0.1-34           scales_0.4.0          tm_0.6-2             
-    ## [34] tgp_2.4-14            digest_0.6.9          foreign_0.8-66       
-    ## [37] XVector_0.12.0        htmltools_0.3.5       tau_0.0-18           
-    ## [40] bibtex_0.4.0          highr_0.6             RSQLite_1.0.0        
-    ## [43] impute_1.46.0         jsonlite_0.9.21       acepack_1.3-3.3      
-    ## [46] RCurl_1.95-4.8        GO.db_3.3.0           Formula_1.2-1        
-    ## [49] biomformat_1.0.2      Matrix_1.2-6          maptree_1.4-7        
-    ## [52] Rcpp_0.12.5           munsell_0.4.3         S4Vectors_0.10.1     
-    ## [55] RefManageR_0.10.13    ape_3.5               yaml_2.1.13          
-    ## [58] stringi_1.1.1         RJSONIO_1.3-0         MASS_7.3-45          
-    ## [61] zlibbioc_1.18.0       rhdf5_2.16.0          plyr_1.8.4           
-    ## [64] grid_3.3.0            parallel_3.3.0        gender_0.5.1.9000    
-    ## [67] crayon_1.3.1          lattice_0.20-33       Biostrings_2.40.1    
-    ## [70] splines_3.3.0         multtest_2.28.0       igraph_1.0.1         
-    ## [73] fastcluster_1.1.20    codetools_0.2-14      stats4_3.3.0         
-    ## [76] XML_3.98-1.4          babynames_0.2.1.9000  evaluate_0.9         
-    ## [79] latticeExtra_0.6-28   data.table_1.9.6      foreach_1.4.3        
-    ## [82] testthat_1.0.2        gtable_0.2.0          assertthat_0.1       
-    ## [85] roxygen2_5.0.1        survival_2.39-4       genderdata_0.5.0     
-    ## [88] iterators_1.0.8       AnnotationDbi_1.34.3  memoise_1.0.0        
-    ## [91] IRanges_2.6.0         cluster_2.0.4
+    ## [28] formatR_1.4           Cairo_1.5-9           NLP_0.1-9            
+    ## [31] labeling_0.3          slam_0.1-34           scales_0.4.0         
+    ## [34] tm_0.6-2              tgp_2.4-14            digest_0.6.9         
+    ## [37] foreign_0.8-66        XVector_0.12.0        htmltools_0.3.5      
+    ## [40] tau_0.0-18            bibtex_0.4.0          highr_0.6            
+    ## [43] RSQLite_1.0.0         impute_1.46.0         jsonlite_0.9.21      
+    ## [46] acepack_1.3-3.3       RCurl_1.95-4.8        GO.db_3.3.0          
+    ## [49] Formula_1.2-1         biomformat_1.0.2      Matrix_1.2-6         
+    ## [52] maptree_1.4-7         Rcpp_0.12.5           munsell_0.4.3        
+    ## [55] S4Vectors_0.10.1      RefManageR_0.10.13    ape_3.5              
+    ## [58] yaml_2.1.13           stringi_1.1.1         RJSONIO_1.3-0        
+    ## [61] MASS_7.3-45           zlibbioc_1.18.0       rhdf5_2.16.0         
+    ## [64] plyr_1.8.4            grid_3.3.0            parallel_3.3.0       
+    ## [67] gender_0.5.1.9000     crayon_1.3.1          lattice_0.20-33      
+    ## [70] Biostrings_2.40.1     splines_3.3.0         multtest_2.28.0      
+    ## [73] tcltk_3.3.0           igraph_1.0.1          fastcluster_1.1.20   
+    ## [76] codetools_0.2-14      stats4_3.3.0          XML_3.98-1.4         
+    ## [79] babynames_0.2.1.9000  evaluate_0.9          latticeExtra_0.6-28  
+    ## [82] data.table_1.9.6      foreach_1.4.3         testthat_1.0.2       
+    ## [85] gtable_0.2.0          assertthat_0.1        roxygen2_5.0.1       
+    ## [88] survival_2.39-4       genderdata_0.5.0      iterators_1.0.8      
+    ## [91] AnnotationDbi_1.34.3  memoise_1.0.0         IRanges_2.6.0        
+    ## [94] cluster_2.0.4
