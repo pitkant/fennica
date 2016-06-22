@@ -102,34 +102,6 @@ perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun
 aikana.
 
 
-The most active known female authors based on the title count:
-
-```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=15, out.width="850px"}
-theme_set(theme_bw(10))
-dfs <- fen %>% filter(author_gender == "female")
-p <- top_plot(dfs, "author", ntop = 20)
-p <- p + scale_fill_manual(values = "black")
-p <- p + guides(fill = "none")
-p <- p + ylab("Title count")
-p <- p + ggtitle("Top female authors (Fennica)")
-p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 22), title = element_text(size = 22))
-pf = p
-
-theme_set(theme_bw(20))
-dfs <- kun %>% filter(author_gender == "female")
-p <- top_plot(dfs, "author", ntop = 20)
-p <- p + scale_fill_manual(values = "black")
-p <- p + guides(fill = "none")
-p <- p + ylab("Title count")
-p <- p + ggtitle("Top female authors (Kungliga)")
-p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 22), title = element_text(size = 22))
-pk = p
-
-library(gridExtra)
-grid.arrange(pf, pk, nrow = 1)
-```
-
-
 
 The top publication places ranked by the title count
 
@@ -154,27 +126,6 @@ p <- p + ggtitle("Top publication places\n(Kungliga)")
 pk = p
 
 grid.arrange(pf, pk, nrow = 1)
-```
-
-
-
-Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. 
-
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="430px"}
-for (catal in unique(df0$catalogue)) {
-  df2 <- subset(df0, catalogue == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
-  p <- p + geom_point(size = 4)
-  p <- p + geom_smooth(method = "loess", size = 1, color = "black")
-  p <- p + ggtitle("Paper consumption in time by gatherings")
-  p <- p + xlab("Year")
-  p <- p + ylab("Paper consumption (km2)")
-  p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
-  p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
-  print(p)
-}
-
 ```
 
 
@@ -221,6 +172,25 @@ tarkkaan. mielenkiintoista Kungligan osalta erityisesti että foliot
 lisäksi sitten 4to ja 8vo voimakas nousu 1700-luvulla on
 mielenkiintoista.
 
+
+Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. 
+
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="430px"}
+for (catal in unique(df0$catalogue)) {
+  df2 <- subset(df0, catalogue == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+  p <- p + geom_point(size = 4)
+  p <- p + geom_smooth(method = "loess", size = 1, color = "black")
+  p <- p + ggtitle("Paper consumption in time by gatherings")
+  p <- p + xlab("Year")
+  p <- p + ylab("Paper consumption (km2)")
+  p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
+  p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
+  print(p)
+}
+
+```
 
 
 ### Publisher analysis (HR)
@@ -464,6 +434,36 @@ bibliography(sorting = 'ynt')
 in particular); toisto Fennica/Kungliga datoilla ? LL: lisäilin
 joitain analyyseja tahan mutta jos tahdotte lisaa niin pyytakaa
 erikseen.
+
+
+The most active known female authors based on the title count:
+
+```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=15, out.width="850px"}
+theme_set(theme_bw(10))
+dfs <- fen %>% filter(author_gender == "female")
+p <- top_plot(dfs, "author", ntop = 20)
+p <- p + scale_fill_manual(values = "black")
+p <- p + guides(fill = "none")
+p <- p + ylab("Title count")
+p <- p + ggtitle("Top female authors\n(Fennica)")
+p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 22), title = element_text(size = 22))
+pf = p
+
+theme_set(theme_bw(20))
+dfs <- kun %>% filter(author_gender == "female")
+p <- top_plot(dfs, "author", ntop = 20)
+p <- p + scale_fill_manual(values = "black")
+p <- p + guides(fill = "none")
+p <- p + ylab("Title count")
+p <- p + ggtitle("Top female authors\n(Kungliga)")
+p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text(size = 16), axis.title.x = element_text(size = 25), axis.title.y = element_text(size = 22), title = element_text(size = 22))
+pk = p
+
+library(gridExtra)
+grid.arrange(pf, pk, nrow = 1)
+```
+
+
 
 
 Gatherings vs. pagecounts per country (Fennica)

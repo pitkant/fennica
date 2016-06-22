@@ -41,17 +41,9 @@ Alustavia vertailuja Kungligasta suhteessa Fennicaan.
 
 Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
 
-The most active known female authors based on the title count:
-
-<img src="figure_201606_Krakow/201606krakow-fennica-topfemale-1.png" width="850px" />
-
 The top publication places ranked by the title count
 
 ![](figure_201606_Krakow/LIBER-topplace-1.png)
-
-Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing.
-
-<img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
 
 **Valtiopäivät**
 
@@ -80,6 +72,10 @@ Miten paperinkulutus suhtautuu dokumenttien määrään? Löydetäänkö ajankoh
 Kirjan kehitys mediana (paperinkulutus / dokumentti, miten yli 50 sivuiset dokumentit yleistyvät ajassa / voidaanko tässä nähdä jotain paikallisia eroja?)
 
 Kirjakokojen kehityksiä pitää analysoida myöhemmin tarkkaan. mielenkiintoista Kungligan osalta erityisesti että foliot (1to ja 2to) puuttuvat melkein kokonaan joka on eri kuvio kuin ESTC, lisäksi sitten 4to ja 8vo voimakas nousu 1700-luvulla on mielenkiintoista.
+
+Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing.
+
+<img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
 
 ### Publisher analysis (HR)
 
@@ -195,6 +191,10 @@ Miscellaneous ideas to consider
 -------------------------------
 
 [ESTC-analyses](https://github.com/rOpenGov/estc) ([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) in particular); toisto Fennica/Kungliga datoilla ? LL: lisäilin joitain analyyseja tahan mutta jos tahdotte lisaa niin pyytakaa erikseen.
+
+The most active known female authors based on the title count:
+
+<img src="figure_201606_Krakow/201606krakow-fennica-topfemale-1.png" width="850px" />
 
 Gatherings vs. pagecounts per country (Fennica)
 
