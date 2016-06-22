@@ -62,6 +62,8 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
+Östholm, Hanna, Litteraturens uppodling : läsesällskap och litteraturkritik som politisk strategi vid sekelskiftet 1800; vertailee Turkua ja Uppsalaa lukuseurojen kautta. 
+
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet `r citep(bib[["Tolonen15EnnenNyt"]])` 
 
 We have prepared open data analytical ecosystem for in-depth analysis
