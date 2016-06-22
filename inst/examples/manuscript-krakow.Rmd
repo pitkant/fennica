@@ -226,7 +226,7 @@ for (catal in as.character(unique(df0$catalog))) {
     ymin = ymin,
     ymax = ymax
     )
-  rectangles$shade <- rep(c("", "Highlight"), length = nrow(rectangles))
+  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
 
  riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
  cols = c("gray", "lightblue", "yellow", "white")
