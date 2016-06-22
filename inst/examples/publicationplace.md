@@ -26,18 +26,12 @@ Top-20 publication places are shown together with the number of documents.
 ### Top publication countries	
 
 
-```
-## Error in .check_names_df(x, j): undefined columns: country
-```
-
-
-
-|Country               | Documents (n)| Fraction (%)|  NA| NA|
-|:---------------------|-------------:|------------:|---:|--:|
-|parts                 |     0.0000000|    100.00000|   0|  1|
-|publication_frequency |     0.0000000|    100.00000|   0|  1|
-|uncontrolled          |     0.0000000|    100.00000|   0|  1|
-|successor             |     0.0000000|    100.00000|   0|  1|
-|volnumber             |     0.0000000|    100.00000|   0|  1|
-|publication_year_till |     0.9455799|     99.05442| 192| 98|
+|Country     | Documents (n)| Fraction (%)|
+|:-----------|-------------:|------------:|
+|Finland     |         14341|         70.6|
+|Sweden      |          3809|         18.8|
+|Estonia     |           256|          1.3|
+|Germany     |           255|          1.3|
+|Russia      |           228|          1.1|
+|Netherlands |            68|          0.3|
 

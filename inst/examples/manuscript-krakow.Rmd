@@ -55,7 +55,7 @@ kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.yea
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
-## Introduction
+## Introduction (MT + JM voi jo kasata tähän hyvää läppää)
 
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
