@@ -85,14 +85,6 @@ General trends (top authors etc):
   * [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
-[ESTC-analyses](https://github.com/rOpenGov/estc)
-([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
-in particular); toisto Fennica/Kungliga datoilla ? LL: Voidaan tehda
-mut kandee miettia ehka spesifimmin et mitka analyysit sielta
-kiinnostaa. Muuten menee aikaa hukkaan jos pitaa fiksata juttuja joita
-ei sitten kaytetakaan.
-
-
 
 ### Fennica vs. Kungliga
 
@@ -112,8 +104,8 @@ aikana.
 
 The most active known female authors based on the title count:
 
-```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=10}
-theme_set(theme_bw(20))
+```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=15, out.width="850px"}
+theme_set(theme_bw(10))
 dfs <- fen %>% filter(author_gender == "female")
 p <- top_plot(dfs, "author", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
@@ -141,23 +133,24 @@ grid.arrange(pf, pk, nrow = 1)
 
 The top publication places ranked by the title count
 
-```{r LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=6}
-theme_set(theme_bw(30))
-p <- top_plot(fen, "publication_place", ntop = 20)
+```{r LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+theme_set(theme_bw(20))
+ntop = 10
+p <- top_plot(fen, "publication_place", ntop = ntop)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count (Log10 scale)")
 p <- p + scale_y_log10()
-p <- p + ggtitle("Top publication places (Fennica)")
+p <- p + ggtitle("Top publication places\n(Fennica)")
 pf = p
 
 theme_set(theme_bw(30))
-p <- top_plot(kun, "publication_place", ntop = 20)
+p <- top_plot(kun, "publication_place", ntop = ntop)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count (Log10 scale)")
 p <- p + scale_y_log10()
-p <- p + ggtitle("Top publication places (Kungliga)")
+p <- p + ggtitle("Top publication places\n(Kungliga)")
 pk = p
 
 grid.arrange(pf, pk, nrow = 1)
@@ -165,20 +158,23 @@ grid.arrange(pf, pk, nrow = 1)
 
 
 
-Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. Fennica.
+Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. 
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6}
-df2 <- df %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
-p <- p + geom_point(size = 4)
-p <- p + geom_smooth(method = "loess", size = 1, color = "black")
-p <- p + ggtitle("Paper consumption in time by gatherings")
-p <- p + xlab("Year")
-p <- p + ylab("Paper consumption (km2)")
-p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
-p <- p + ggtitle("Paper consumption for different document formats")
-print(p)
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="430px"}
+for (catal in unique(df0$catalogue)) {
+  df2 <- subset(df0, catalogue == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+  p <- p + geom_point(size = 4)
+  p <- p + geom_smooth(method = "loess", size = 1, color = "black")
+  p <- p + ggtitle("Paper consumption in time by gatherings")
+  p <- p + xlab("Year")
+  p <- p + ylab("Paper consumption (km2)")
+  p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
+  p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
+  print(p)
+}
+
 ```
 
 
@@ -461,7 +457,14 @@ Supported by Academy of Finland (grant 293316).
 bibliography(sorting = 'ynt')
 ```
 
-## Miscellaneous figures to consider
+## Miscellaneous ideas to consider
+
+[ESTC-analyses](https://github.com/rOpenGov/estc)
+([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md)
+in particular); toisto Fennica/Kungliga datoilla ? LL: lisäilin
+joitain analyyseja tahan mutta jos tahdotte lisaa niin pyytakaa
+erikseen.
+
 
 Gatherings vs. pagecounts per country (Fennica)
 

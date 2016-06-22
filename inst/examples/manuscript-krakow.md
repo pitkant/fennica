@@ -31,8 +31,6 @@ General trends (top authors etc):
 -   [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
 -   [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
 
-[ESTC-analyses](https://github.com/rOpenGov/estc) ([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) in particular); toisto Fennica/Kungliga datoilla ? LL: Voidaan tehda mut kandee miettia ehka spesifimmin et mitka analyysit sielta kiinnostaa. Muuten menee aikaa hukkaan jos pitaa fiksata juttuja joita ei sitten kaytetakaan.
-
 ### Fennica vs. Kungliga
 
 Alustavia vertailuja Kungligasta suhteessa Fennicaan.
@@ -45,15 +43,15 @@ Turku vertailut Upsalaan, Lundiin, Tukholmaan yms. Turussa julkaiseminen alkaa v
 
 The most active known female authors based on the title count:
 
-![](figure_201606_Krakow/201606krakow-fennica-topfemale-1.png)
+<img src="figure_201606_Krakow/201606krakow-fennica-topfemale-1.png" width="850px" />
 
 The top publication places ranked by the title count
 
 ![](figure_201606_Krakow/LIBER-topplace-1.png)
 
-Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. Fennica.
+Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing.
 
-![](figure_201606_Krakow/LIBER-13-1.png)
+<img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
 
 **Valtiopäivät**
 
@@ -193,8 +191,10 @@ References
 
 \[7\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.4.1. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
 
-Miscellaneous figures to consider
----------------------------------
+Miscellaneous ideas to consider
+-------------------------------
+
+[ESTC-analyses](https://github.com/rOpenGov/estc) ([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) in particular); toisto Fennica/Kungliga datoilla ? LL: lisäilin joitain analyyseja tahan mutta jos tahdotte lisaa niin pyytakaa erikseen.
 
 Gatherings vs. pagecounts per country (Fennica)
 
