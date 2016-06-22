@@ -332,8 +332,8 @@ become more frequent) ?
 
 
 ```{r bookmedia2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
-for (catal in unique(df0$catalog)) {
-  df <- subset(df0, catalog = catal)
+for (catal in as.character(unique(df0$catalog))) {
+  df <- subset(df0, catalog == catal)
   theme_set(theme_bw(20))
   top <- names(top(df, "publication_place", 10))
 
@@ -691,7 +691,7 @@ erikseen.
 
 The most active known female authors based on the title count:
 
-```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=15, out.width="850px"}
+```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=20, out.width="850px"}
 theme_set(theme_bw(10))
 dfs <- fen %>% filter(author_gender == "female")
 p <- top_plot(dfs, "author", ntop = 20)
