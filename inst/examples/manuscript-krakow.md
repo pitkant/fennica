@@ -91,7 +91,7 @@ Paper consumption for different document formats over time. Each point represent
 
 <img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
 
-![](figure_201606_Krakow/201606krakow-turkuvsother-1.png)![](figure_201606_Krakow/201606krakow-turkuvsother-2.png)
+<img src="figure_201606_Krakow/201606krakow-turkuvsother-1.png" width="430px" /><img src="figure_201606_Krakow/201606krakow-turkuvsother-2.png" width="430px" />
 
 ### Publisher analysis (HR)
 

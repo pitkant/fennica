@@ -439,7 +439,7 @@ for (catal in unique(df0$catalog)) {
 ```
 
 
-```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=9, fig.show="hold", out.width="430px"}
 df <- fen %>% 
       filter(!is.na(country)) %>%
       filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
