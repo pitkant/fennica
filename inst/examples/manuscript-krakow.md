@@ -91,6 +91,8 @@ Paper consumption for different document formats over time. Each point represent
 
 <img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
 
+Paper consumption in selected places (Fennica):
+
 <img src="figure_201606_Krakow/201606krakow-turkuvsother-1.png" width="430px" /><img src="figure_201606_Krakow/201606krakow-turkuvsother-2.png" width="430px" />
 
 ### Publisher analysis (HR)
@@ -162,22 +164,36 @@ Further todo points. Let us move in this manuscript only those points that there
 Conclusions
 -----------
 
-Materials and Methods
----------------------
+Library catalogues contain rich metadata on...
 
-Library catalogs contain rich metadata on...
-
-Here we analyse Fennica & Kungliga..
+Here we have analysed Fennica & Kungliga..
 
 Further draft text in the funding application..?
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)).
+Materials and Methods
+---------------------
 
-In summary, the data analytical ecosystem does ..
+We obtained Fennica and Kungliga library catalogues from..
 
-Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables..
+After initial preprocessing, we had 20327 and 73176 documents in Fennica and Kungliga, respectively between the years 1474-1828.
 
-Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. \[SUMMARY FIGURE OF THE PROCESS?\]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
+
+A brief summary of the data processing steps:
+
+**Author names**
+
+**Author life years**
+
+**Publication place**
+
+**Publishers**
+
+**Dissertations**
+
+**Duplicate removal** Combining the catalogs ..
+
+**Enriching** to add gender, country, geocoordinates ..
 
 The package utilizes tools from a number of other R extensions, including dplyr (Wickham and Francois, 2015), ggplot2 (Wickham, 2009), stats (R Core Team, 2016), tidyr (Wickham, 2016).
 

@@ -59,6 +59,8 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 ## Introduction 
 
+
+
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.
 
@@ -75,6 +77,7 @@ file](bibliography.bib) and then cite using the key with
 numbered and collected in references section.
 
 - Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
+
 
 ## Results
 
@@ -439,6 +442,8 @@ for (catal in unique(df0$catalog)) {
 ```
 
 
+Paper consumption in selected places (Fennica):
+
 ```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=10, fig.show="hold", out.width="430px"}
 df <- fen %>% 
       filter(!is.na(country)) %>%
@@ -630,25 +635,39 @@ that there is time to do.
 
 ## Conclusions
 
+Library catalogues contain rich metadata on...
+
+Here we have analysed Fennica & Kungliga.. 
+
+Further draft text in the funding application..?
+
 
 
 
 ## Materials and Methods
 
-Library catalogs contain rich metadata on...
+We obtained Fennica and Kungliga library catalogues from..
 
-Here we analyse Fennica & Kungliga.. 
+After initial preprocessing, we had `r nrow(subset(df0, catalog == "Fennica"))` and `r nrow(subset(df0, catalog == "Kungliga"))` documents in Fennica and Kungliga, respectively between the years `r min(df0$publication_year)`-`r max(df0$publication_year)`.
 
-Further draft text in the funding application..?
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. [SUMMARY FIGURE OF THE PROCESS?]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
+A brief summary of the data processing steps:
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)).
+**Author names**
 
-In summary, the data analytical ecosystem does ..
+**Author life years**
 
-Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables..
+**Publication place**
 
-Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
+**Publishers**
+
+**Dissertations** 
+
+**Duplicate removal** Combining the catalogs ..
+
+**Enriching** to add gender, country, geocoordinates ..
+
 
 The package utilizes tools from a number of other R extensions,
 including dplyr `r citep(citation("dplyr"))`, ggplot2 `r citep(citation("ggplot2"))`, stats `r citep(citation("stats"))`, tidyr `r citep(citation("tidyr"))`.
