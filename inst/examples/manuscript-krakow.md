@@ -15,7 +15,7 @@ Aatehistoria ja digitaalisten aineistojen mahdollisuudet ([Tolonen & Lahti (2015
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can also add citations by adding new references to the [bib file](bibliography.bib) and then citing in this text with (Lahti, Ilomäki, and Tolonen, 2015). These will then be automatically numbered and collected in references section. Alternatively, you can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015).
+You can also add citations by adding new references to the [bib file](bibliography.bib) and then citing in this text with (Lahti, Ilomäki, and Tolonen, 2015b). These will then be automatically numbered and collected in references section. Alternatively, you can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015).
 
 Results
 -------
