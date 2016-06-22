@@ -175,7 +175,7 @@ Materials and Methods
 
 We obtained Fennica and Kungliga library catalogues from..
 
-After initial preprocessing, we had 20327 and 73176 documents in Fennica and Kungliga, respectively between the years 1474-1828.
+The raw data contains metadata 71919 and 385771 documents in Fennica and Kungliga, respectively. After initial preprocessing and limiting the analysis between the years 1474-1828, we had 20327 and 73176 documents for Fennica and Kungliga, respectively.
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. \[SUMMARY FIGURE OF THE PROCESS?\]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
