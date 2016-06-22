@@ -24,7 +24,8 @@ Results
 
 Relevant summaries can be moved here and polished. Which figures at least ?
 
-General trends (top authors etc): \* [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md) \* [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
+General trends (top authors etc):
+\* [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md) \* [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)
 
 [ESTC-analyses](https://github.com/rOpenGov/estc) ([LIBER](https://github.com/rOpenGov/estc/blob/master/inst/examples/20151023-LIBER.md) in particular); toisto Fennica/Kungliga datoilla ? LL: Voidaan tehda mut kandee miettia ehka spesifimmin et mitka analyysit sielta kiinnostaa. Muuten menee aikaa hukkaan jos pitaa fiksata juttuja joita ei sitten kaytetakaan.
 
