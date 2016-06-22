@@ -182,7 +182,7 @@ In particular: Riksdag Stockholm 20 januari 1719 1 juni 1719; Stockholm 14 maj 1
 The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..).. 
 
 
-```{r riksdar1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+```{r riksdar1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, fig.show="hold", out.width="430px"}
 for (catal in as.character(unique(df0$catalog))) {
 
   # Use timeinterval year intervals
@@ -221,8 +221,7 @@ for (catal in as.character(unique(df0$catalog))) {
     ymin = ymin,
     ymax = ymax
     )
-  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
-  #rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))  
+  rectangles$shade <- rep(c("", "Highlight"), length = nrow(rectangles))
 
  riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
  cols = c("gray", "lightblue", "yellow", "white")
