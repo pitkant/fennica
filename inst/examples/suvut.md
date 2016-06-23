@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2016-06-22"
+date: "2016-06-23"
 output: markdown_document
 ---
 
@@ -17,15 +17,19 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'members' not found
+## Error in eval(expr, envir, enclos): object 'df2' not found
 ```
 
 ```
-## Error: Unknown column 'family_name'
+## Error in reorder(df2$family_name, df2$members): object 'df2' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'extra' not found
+## Error in ggplot(df2, aes(x = family_name, y = members)): object 'df2' not found
+```
+
+```
+## Error in fortify(data): object 'df2' not found
 ```
 
 ![plot of chunk suvut](figure/suvut-1.png)

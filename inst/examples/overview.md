@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-22"
+date: "2016-06-23"
 output: markdown_document
 ---
 
@@ -57,9 +57,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |holder                            |        40.6|          59.4|         12071|         44|
 |publisher                         |         8.9|          91.1|         18496|       2993|
 |corporate                         |         8.7|          91.3|         18544|        468|
-|latitude                          |         6.0|          94.0|         19079|         95|
-|longitude                         |         6.0|          94.0|         19079|         95|
-|country                           |         5.9|          94.1|         19100|         20|
+|latitude                          |         6.0|          94.0|         19081|         94|
+|longitude                         |         6.0|          94.0|         19081|         94|
+|country                           |         5.9|          94.1|         19102|         20|
 |subject_topic                     |         5.0|          95.0|         19297|       3111|
 |pagecount.orig                    |         3.2|          96.8|         19661|        566|
 |obl                               |         2.7|          97.3|         19757|          3|
@@ -71,7 +71,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |dissertation                      |         0.1|          99.9|         20280|          3|
 |publication_year_from             |         0.0|         100.0|         20300|        261|
 |synodal                           |         0.0|         100.0|         20304|          3|
-|publication_place                 |         0.0|         100.0|         20304|        109|
+|publication_place                 |         0.0|         100.0|         20304|        107|
 |language.Swedish                  |         0.0|         100.0|         20305|          2|
 |language.Finnish                  |         0.0|         100.0|         20305|          2|
 |language.Latin                    |         0.0|         100.0|         20305|          2|

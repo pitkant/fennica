@@ -11,6 +11,7 @@ TODO
 
 Gender: putsattu top-20 female mukaan. (F + K)
 
+Subject topics erikseen kaikki termit https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/subject_topic_accepted.csv
 
 ### Muita Fennica tutkimuskysymyksiä
 

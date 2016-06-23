@@ -15,11 +15,13 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015b).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015b) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015a). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
+
+TODO: try to check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
 Results
 -------
@@ -254,12 +256,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] bibliographica_0.2.21 git2r_0.15.0          knitcitations_1.0.7  
-    ##  [4] rmarkdown_0.9.6.11    stringr_1.0.0         microbiome_0.99.83   
-    ##  [7] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [10] reshape2_1.4.1        tidyr_0.4.1           fennica_0.1.42       
-    ## [13] ggplot2_2.1.0         magrittr_1.5          sorvi_0.7.46         
-    ## [16] tibble_1.0            dplyr_0.4.3           devtools_1.11.1      
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    stringr_1.0.0        
+    ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
+    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
+    ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
+    ## [13] sorvi_0.7.46          tibble_1.0            dplyr_0.4.3          
+    ## [16] bibliographica_0.2.22 devtools_1.11.1      
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
@@ -286,11 +288,10 @@ sessionInfo()
     ## [64] plyr_1.8.4            grid_3.3.0            parallel_3.3.0       
     ## [67] gender_0.5.1.9000     crayon_1.3.1          lattice_0.20-33      
     ## [70] Biostrings_2.40.1     splines_3.3.0         multtest_2.28.0      
-    ## [73] tcltk_3.3.0           igraph_1.0.1          fastcluster_1.1.20   
-    ## [76] codetools_0.2-14      stats4_3.3.0          XML_3.98-1.4         
-    ## [79] babynames_0.2.1.9000  evaluate_0.9          latticeExtra_0.6-28  
-    ## [82] data.table_1.9.6      foreach_1.4.3         testthat_1.0.2       
-    ## [85] gtable_0.2.0          assertthat_0.1        roxygen2_5.0.1       
-    ## [88] survival_2.39-4       genderdata_0.5.0      iterators_1.0.8      
-    ## [91] AnnotationDbi_1.34.3  memoise_1.0.0         IRanges_2.6.0        
-    ## [94] cluster_2.0.4
+    ## [73] igraph_1.0.1          fastcluster_1.1.20    codetools_0.2-14     
+    ## [76] stats4_3.3.0          XML_3.98-1.4          babynames_0.2.1.9000 
+    ## [79] evaluate_0.9          latticeExtra_0.6-28   data.table_1.9.6     
+    ## [82] foreach_1.4.3         testthat_1.0.2        gtable_0.2.0         
+    ## [85] assertthat_0.1        roxygen2_5.0.1        survival_2.39-4      
+    ## [88] genderdata_0.5.0      iterators_1.0.8       AnnotationDbi_1.34.3 
+    ## [91] memoise_1.0.0         IRanges_2.6.0         cluster_2.0.4
