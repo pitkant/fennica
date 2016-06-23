@@ -85,6 +85,18 @@ TODO: try to check duplicates. Clustering with identical place, identical year, 
 
 TODO: why Fennica has huge drop in 1700s
 
+TODO: yksittäiset kuvat eri kaupungeista julkaisumääristä auttaisivat paljon yleistä miettimistä ja nämä olisi varmaan helppo generoida. Eli onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
+
+
+Kungliga:
+
+
+Tartu, Skara, Växjö, Uppsala, Lund, Strängnäs, Linköping, Gothenburg, Västerås, Nyköping
+
+
+Ja lisäksi sitten muu kuin Suomi tai Ruotsi julkaisumaana.
+
+
 
 ## Results
 
