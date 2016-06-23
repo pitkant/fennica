@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Helsingissä 1746-1917"
 author: "Niko Ilomäki"
-date: "2016-06-23"
+date: "2016-06-24"
 output: markdown_document
 ---
 

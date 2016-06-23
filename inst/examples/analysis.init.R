@@ -11,7 +11,8 @@ library(knitr)
 
 # Set global parameters
 #timespan <- c(1400, 1920)
-timespan <- c(1470, 1828)
+#timespan <- c(1470, 1828)
+timespan <- c(-Inf, Inf)
 datafile <- "df.Rds"
 datafile.orig <- "df.raw.Rds"
 ntop <- 20

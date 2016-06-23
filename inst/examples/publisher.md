@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-23"
+date: "2016-06-24"
 output: markdown_document
 ---
 
@@ -19,7 +19,7 @@ output: markdown_document
 ## Error in `[.data.frame`(x, , field): undefined columns selected
 ```
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 0 documents (NaN%). There are 19 unique publisher names (some may be synonymes, though).
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 0 documents (NaN%). There are 32 unique publisher names (some may be synonymes, though).
 
 
 
