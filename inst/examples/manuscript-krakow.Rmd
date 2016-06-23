@@ -85,19 +85,24 @@ numbered and collected in references section.
 
 TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
-Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us look at top publication places in Fennica: 
+Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us look at top publication places during the period 1650-1750 in Fennica: 
 
 ```{r drop1700, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
-selected.places = names(top(subset(df0, catalog == "Fennica"), "publication_place", 10))
-for (myplace in selected.places) {
-  # Use timeinterval year intervals
+
   catal = "Fennica"
   minyear = 1650
   maxyear = 1750
-
-  df = subset(df0, publication_place == myplace & catalog == catal)
+  df = subset(df0, catalog == catal)
   df <- subset(df, publication_year >= minyear & publication_year < maxyear)
+  mydf = df
 
+selected.places = names(top(mydf, "publication_place", 6))
+
+for (myplace in selected.places) {
+
+  df = subset(mydf, publication_place == myplace)
+
+  # Use timeinterval year intervals
   timeinterval <- 1
   df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 
