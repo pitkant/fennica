@@ -23,7 +23,9 @@ You can cite with the DOI (the citation info will then be collected automaticall
 
 TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
-TODO: why Fennica has huge drop in 1700s
+Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us look at top publication places in Fennica:
+
+<img src="figure_201606_Krakow/drop1700-1.png" width="280px" /><img src="figure_201606_Krakow/drop1700-2.png" width="280px" /><img src="figure_201606_Krakow/drop1700-3.png" width="280px" /><img src="figure_201606_Krakow/drop1700-4.png" width="280px" /><img src="figure_201606_Krakow/drop1700-5.png" width="280px" /><img src="figure_201606_Krakow/drop1700-6.png" width="280px" /><img src="figure_201606_Krakow/drop1700-7.png" width="280px" /><img src="figure_201606_Krakow/drop1700-8.png" width="280px" /><img src="figure_201606_Krakow/drop1700-9.png" width="280px" /><img src="figure_201606_Krakow/drop1700-10.png" width="280px" />
 
 Results
 -------

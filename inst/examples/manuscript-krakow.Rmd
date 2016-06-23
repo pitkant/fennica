@@ -83,11 +83,48 @@ numbered and collected in references section.
 
 
 
-
-
 TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
-TODO: why Fennica has huge drop in 1700s
+Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us look at top publication places in Fennica: 
+
+```{r drop1700, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
+selected.places = names(top(subset(df0, catalog == "Fennica"), "publication_place", 10))
+for (myplace in selected.places) {
+  # Use timeinterval year intervals
+  catal = "Fennica"
+  minyear = 1650
+  maxyear = 1750
+
+  df = subset(df0, publication_place == myplace & catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year < maxyear)
+
+  timeinterval <- 1
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
+
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot(data = dfm, aes(x = date, y = Documents))
+  p <- p + geom_line(col = "black")
+  #p <- p + geom_smooth(col = "black")  
+  p <- p + geom_point(col = "black", size = 3)
+  p <- p + scale_x_continuous(breaks = seq(minyear, maxyear, 20), limits = c(minyear, maxyear))
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
+  
+  print(p)
+}
+```
 
 
 ## Results
