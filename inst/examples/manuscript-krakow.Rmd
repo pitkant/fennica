@@ -83,6 +83,9 @@ numbered and collected in references section.
 
 TODO: try to check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
+TODO: why Fennica has huge drop in 1700s
+
+
 ## Results
 
 ### General trends: Fennica vs. Kungliga
