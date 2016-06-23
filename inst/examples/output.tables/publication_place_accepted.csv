@@ -12,6 +12,7 @@ Basel	Switzerland	    1
 Berlin	Germany	   11
 Braniewo	Poland	    3
 Bremen	Germany	    1
+Cassel	France	    2
 Cologne	Germany	    1
 Copenhagen	Denmark	   16
 Dantzig	Poland	    1
@@ -22,10 +23,10 @@ Elbingen	Germany	    1
 Erfurt	Germany	    1
 Falun	Sweden	    4
 Frankfurt	Germany	   12
+Gävle	NA	    2
 Giessen	Germany	    4
 Gothenburg	Sweden	   18
-Göttingen	Germany	    8
-Göttingen gotha	NA	    1
+Göttingen	Germany	    9
 Greifswald	Germany	   20
 Haarlem	Netherlands	    4
 Halberstadt	Germany	    1
@@ -36,7 +37,7 @@ Haunia	Finland	    3
 Helmstedt	Germany	    3
 Helsinki	Finland	   17
 Jelgava	Latvia	    2
-Jena	Germany	   17
+Jena	Germany	   11
 Jönnköping	Sweden	    4
 Karlskrona	Sweden	    6
 Kiel	Germany	    2
@@ -53,16 +54,15 @@ Lund	Sweden	   26
 Lybeck	Germany	    5
 Maastricht	Netherlands	    2
 Magdeburg	Germany	    1
-Marburg	Germany	    4
+Marburg	Germany	    1
+Marpurgi	NA	    3
 Mikkeli	Finland	    1
 Moscow	Russia	    2
-NA	NA	 1194
+Nae	NA	    6
 Narva	Estonia	    5
-Newe stade	NA	    1
 Nizza	Italy	    1
 Norrköping	Sweden	    8
-Nurnberg	Germany	    6
-Nürnberg	Germany	    6
+Nürnberg	Germany	   12
 Nyköping	Sweden	    2
 Nytorp	Sweden	    5
 Odense	Denmark	    1
@@ -75,12 +75,13 @@ Pernaja	Finland	    5
 Regensburg	Germany	    1
 Riga	Latvia	   37
 Rostock	Germany	   53
-Sanktpeterburgě	NA	    1
+Samma	NA	    1
 Siena	Italy	    1
 Skara	Sweden	   28
-St Petersburg	Russia	  101
+Stade	NA	    1
 Stockholm	Sweden	 2934
 Stockton	England	    2
+St Petersburg	Russia	  102
 Stralsund	Germany	    3
 Strängnäs	Sweden	   26
 Strasbourg	France	    5
@@ -93,7 +94,7 @@ Ulm	Germany	    1
 Uppsala	Sweden	  676
 Utrecht	Netherlands	    4
 Vaasa	Finland	 2838
-Västerås	Sweden	   25
+Västeras	NA	   25
 Venice	Italy	    2
 Vienna	Austria	    2
 Vilnius	Lithuania	    1
@@ -106,3 +107,4 @@ Wismar	Germany	    1
 Wittenberg	Germany	   39
 York	England	    1
 Żary	NA	    2
+NA	NA	 1189

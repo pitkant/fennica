@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	19102	
+Total count: 	19072	
 Aboae	Finland	4868
 [Vasa]	Finland	2309
 [Åbo]	Finland	2053
@@ -86,7 +86,6 @@ Impr. Aboae	Finland	   7
 [Rostochii]	Germany	   7
 Upsalis	Sweden	   7
 Gryphiswaldiae	Germany	   7
-Arosiae	Sweden	   7
 Stokkholmisa	Sweden	   7
 Jena	Germany	   7
 I Stockholm	Sweden	   7
@@ -99,8 +98,6 @@ Tryckt j Stockholm	Sweden	   6
 [Ubsaliae]	Sweden	   6
 Stokholmiae	Sweden	   6
 [Viborg]	Russia	   6
-Ienae	Germany	   6
-Westerås	Sweden	   6
 A Amsterdam	Netherlands	   6
 Wiburg	Russia	   6
 Lundae	Sweden	   5
@@ -114,7 +111,6 @@ Norrköping	Sweden	   5
 I Åpo	Finland	   5
 Pernau	Finland	   5
 Impressa Aboae	Finland	   5
-Wästerås	Sweden	   5
 [Tryckt i Åbo]	Finland	   5
 [Stockholmis]	Sweden	   5
 Stockholm, Upsala och Åbo	Sweden	   5
@@ -149,7 +145,6 @@ Paris	France	   3
 Kiøbenhavn	Denmark	   3
 Petersburg	Russia	   3
 Regiomonti Borvssiae	Germany	   3
-Marpurgi Cattorum	Germany	   3
 [Wittebergae]	Germany	   3
 [Präntätty Stockholmis]	Sweden	   3
 [Wiburgi?]	Russia	   3
@@ -273,6 +268,7 @@ Petropoli	Russia	   2
 Åbo och Stockholm	Finland	   2
 [St. Petersburg]	Russia	   2
 Förut tryckt i Stockholm, och å nyo uplagd i Åbo	Sweden	   2
+Cassel	France	   2
 Nürnberg	Germany	   2
 Omtryckt i Wasa	Finland	   2
 [Aboe]	Finland	   2
@@ -307,6 +303,7 @@ Leipsic	Germany	   1
 Vitebergae	Germany	   1
 Pejteri	Russia	   1
 Annettu Wiipurissa	Russia	   1
+V' Sanktpeterburgě	Russia	   1
 [Sankt-Peterburg]	Russia	   1
 Turku ;;Helsinki	Finland	   1
 S.-Peterburg'	Russia	   1
@@ -393,10 +390,7 @@ Amsteldam	Netherlands	   1
 [Norrköping]	Sweden	   1
 [Götheborg]	Sweden	   1
 Rostochiae	Germany	   1
-Tryckt i Wästeråås	Sweden	   1
 Gedruckt zu Alten Stetin	Germany	   1
-[Västerås]	Sweden	   1
-Tryckt vthi Wästeråås	Sweden	   1
 Strasburg	France	   1
 [Strassburg]	France	   1
 [Lvtetiae Parisorvm]	France	   1
@@ -433,7 +427,6 @@ St. Petersborg	Russia	   1
 Ingressu Aboae	Finland	   1
 [Wiburgae]	Russia	   1
 [Viborgae]	Russia	   1
-Tryckt uti Westerås	Sweden	   1
 Impressus Aboae	Finland	   1
 Recusa Aboae	Finland	   1
 Aboáe	Finland	   1
@@ -570,7 +563,6 @@ Gedrucht zu Abo	Finland	   1
 Impressum Athenis Auräicis [sic]	Finland	   1
 Erffurt	Germany	   1
 Excussit [sic] Aboae	Finland	   1
-Tryckt i Wästerås	Sweden	   1
 [En Barcelona]	Spain	   1
 Tryckt i Reval	Estonia	   1
 Trykt i Stokholm	Sweden	   1
@@ -600,7 +592,6 @@ Tryckt i Wijbor	Russia	   1
 Occidentalis Arhusae	Denmark	   1
 Excusae Aboae	Finland	   1
 En Aboâ [Turku]	Finland	   1
-Wästeråhs	Sweden	   1
 Tryckt i Riga	Latvia	   1
 Gedruckt zu Reval	Estonia	   1
 Upsaiae [sic]	Sweden	   1
@@ -646,7 +637,6 @@ Imprimè [sic] a Abo	Finland	   1
 Stocklom	Sweden	   1
 Norköping	Sweden	   1
 Imprimé a Stockholm	Sweden	   1
-Westeråhs	Sweden	   1
 Junekopiae	Sweden	   1
 [Upsala?]	Sweden	   1
 Upsal.	Sweden	   1
@@ -668,6 +658,7 @@ Stockholm, Upsala & Åbo	Sweden	   1
 Abo [sic]	Finland	   1
 Räwelisä	Estonia	   1
 Stockholmjsa	Sweden	   1
+Göttingen und Gotha	Germany	   1
 Tryckt i Stockholm & Åbo	Sweden	   1
 Prändätty Stockholmis	Sweden	   1
 [Linköping]	Sweden	   1
