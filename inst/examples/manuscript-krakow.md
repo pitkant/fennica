@@ -63,15 +63,13 @@ Focus on Gävle (gray) during riksdagar. Gävle has 0 occurrences in Fennica, he
 
 <img src="figure_201606_Krakow/riksdar2-1.png" width="430px" />
 
-Title counts in selected places.
-
-onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
-
-Kungliga:
-
-Ja lisäksi sitten muu kuin Suomi tai Ruotsi julkaisumaana.
+Title counts in selected places in the Kungliga catalogue.
 
 <img src="figure_201606_Krakow/selectedplaces-1.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-2.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-3.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-4.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-5.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-6.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-7.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-8.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-9.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-10.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-11.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-12.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-13.png" width="280px" />
+
+Kungliga publications outside Sweden and Finland.
+
+<img src="figure_201606_Krakow/selectedplaces2-1.png" width="0px" />
 
 ### Book printing in Finland
 

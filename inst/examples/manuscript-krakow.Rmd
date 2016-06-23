@@ -326,9 +326,7 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
 ```
 
 
-Title counts in selected places.
-
-Ja lisäksi sitten muu kuin Suomi tai Ruotsi julkaisumaana.
+Title counts in selected places in the Kungliga catalogue.
 
 
 ```{r selectedplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
@@ -369,6 +367,48 @@ for (myplace in selected.places) {
   p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
   print(p)
 }
+```
+
+
+Kungliga publications outside Sweden and Finland.
+
+```{r selectedplaces2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="0px"}
+
+  # Use timeinterval year intervals
+  catal = "Kungliga"
+  minyear = 1500
+  #maxyear = 1800
+  #minyear = min(na.omit(df0$publication_year))
+  #maxyear = max(na.omit(df0$publication_year))  
+
+  df = subset(df0, !country %in% c("Finland", "Sweden") & catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year < maxyear)
+
+  timeinterval <- 5
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
+
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot(data = dfm, aes(x = date, y = Documents))
+  p <- p + geom_line(col = "black")
+  p <- p + geom_smooth(col = "black")  
+  p <- p + geom_point(col = "black", size = 3)
+  p <- p + scale_x_continuous(breaks = seq(minyear, maxyear, 20), limits = c(minyear, maxyear))
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(paste("Outside of Sweden and Finland", " (", catal, ")", sep = ""))
+  print(p)
+
 ```
 
 
