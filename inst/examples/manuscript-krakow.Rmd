@@ -372,7 +372,7 @@ for (myplace in selected.places) {
 
 Kungliga publications outside Sweden and Finland.
 
-```{r selectedplaces2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="0px"}
+```{r selectedplaces2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="600px"}
 
   # Use timeinterval year intervals
   catal = "Kungliga"

@@ -69,7 +69,7 @@ Title counts in selected places in the Kungliga catalogue.
 
 Kungliga publications outside Sweden and Finland.
 
-<img src="figure_201606_Krakow/selectedplaces2-1.png" width="0px" />
+<img src="figure_201606_Krakow/selectedplaces2-1.png" width="600px" />
 
 ### Book printing in Finland
 
