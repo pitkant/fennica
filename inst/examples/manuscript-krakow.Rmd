@@ -83,7 +83,7 @@ numbered and collected in references section.
 
 
 
-TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
+## Results
 
 Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us look at top publication places during the period 1650-1750 in Fennica: 
 
@@ -103,7 +103,7 @@ for (myplace in selected.places) {
   df = subset(mydf, publication_place == myplace)
 
   # Use timeinterval year intervals
-  timeinterval <- 1
+  timeinterval <- 5
   df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
 
   df$unity = rep(1, nrow(df))
@@ -132,7 +132,11 @@ for (myplace in selected.places) {
 ```
 
 
-## Results
+
+
+
+TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
+
 
 ### General trends: Fennica vs. Kungliga
 
