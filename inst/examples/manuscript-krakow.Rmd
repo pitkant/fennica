@@ -81,21 +81,13 @@ numbered and collected in references section.
 
 - Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
-TODO: try to check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
+
+
+
+
+TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
 TODO: why Fennica has huge drop in 1700s
-
-TODO: yksittäiset kuvat eri kaupungeista julkaisumääristä auttaisivat paljon yleistä miettimistä ja nämä olisi varmaan helppo generoida. Eli onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
-
-
-Kungliga:
-
-
-Tartu, Skara, Växjö, Uppsala, Lund, Strängnäs, Linköping, Gothenburg, Västerås, Nyköping
-
-
-Ja lisäksi sitten muu kuin Suomi tai Ruotsi julkaisumaana.
-
 
 
 ## Results
@@ -331,7 +323,57 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
   p <- p + xlab("Year")
   p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
   print(p)
+```
 
+
+
+TODO: yksittäiset kuvat eri kaupungeista julkaisumääristä auttaisivat yleistä miettimistä. onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
+
+Kungliga:
+
+
+
+Ja lisäksi sitten muu kuin Suomi tai Ruotsi julkaisumaana.
+
+
+```{r selectedplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8, out.width="280px"}
+selected.places = c("Tartu", "Skara", "Växjö", "Uppsala", "Lund", "Strängnäs", "Linköping", "Gothenburg", "Västerås", "Nyköping", "Norrköping", "Stockholm", "Turku")
+for (myplace in selected.places) {
+  # Use timeinterval year intervals
+  catal = "Kungliga"
+  #minyear = 1470
+  #maxyear = 1800
+  minyear = min(na.omit(df0$publication_year))
+  maxyear = max(na.omit(df0$publication_year))  
+
+  df = subset(df0, publication_place == myplace & catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year < maxyear)
+
+  timeinterval <- 5
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
+
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot(data = dfm, aes(x = date, y = Documents))
+  p <- p + geom_line(col = "black")
+  p <- p + geom_smooth(col = "black")  
+  p <- p + geom_point(col = "black", size = 3)
+  p <- p + scale_x_continuous(breaks = seq(minyear, maxyear, 20), limits = c(minyear, maxyear))
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
+  print(p)
+}
 ```
 
 
