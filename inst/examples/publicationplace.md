@@ -7,11 +7,11 @@ output: markdown_document
 
 ### Publication places
 
- * 109 [publication places](output.tables/publication_place_accepted.csv)
+ * 107 [publication places](output.tables/publication_place_accepted.csv)
  * 20 [publication countries](output.tables/country_accepted.csv) 
- * Publication place is identified for 19117 documents (94%). 
- * Publication country is identified for 19072 documents (94%).
- * 99.7% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``0.3``% of the documents have missing geocoordinates.
+ * Publication place is identified for 19113 documents (94%). 
+ * Publication country is identified for 19070 documents (94%).
+ * 99.7% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``0.29``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first)

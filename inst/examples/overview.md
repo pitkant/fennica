@@ -55,8 +55,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |note_source                       |        43.1|          56.9|         11554|       4930|
 |holder                            |        40.6|          59.4|         12071|         44|
 |corporate                         |         8.7|          91.3|         18544|        468|
-|country                           |         6.1|          93.9|         19072|         20|
-|publication_place                 |         5.9|          94.1|         19117|        109|
+|country                           |         6.1|          93.9|         19070|         20|
+|publication_place                 |         5.9|          94.1|         19113|        107|
 |subject_topic                     |         5.0|          95.0|         19297|       3111|
 |pagecount.orig                    |         3.2|          96.8|         19661|        566|
 |obl                               |         2.7|          97.3|         19757|          3|
@@ -64,8 +64,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                            |         1.4|          98.6|         20019|        142|
 |area                              |         1.4|          98.6|         20019|        217|
 |paper.consumption.km2             |         1.4|          98.6|         20019|       1262|
-|latitude                          |         0.3|          99.7|         20244|         94|
-|longitude                         |         0.3|          99.7|         20244|         94|
+|latitude                          |         0.3|          99.7|         20246|         93|
+|longitude                         |         0.3|          99.7|         20246|         93|
 |language                          |         0.2|          99.8|         20259|        143|
 |dissertation                      |         0.1|          99.9|         20280|          3|
 |publication_year_from             |         0.0|         100.0|         20300|        261|
