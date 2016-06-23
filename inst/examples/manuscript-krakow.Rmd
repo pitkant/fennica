@@ -326,25 +326,20 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
 ```
 
 
-
-TODO: yksittäiset kuvat eri kaupungeista julkaisumääristä auttaisivat yleistä miettimistä. onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
-
-Kungliga:
-
-
+Title counts in selected places.
 
 Ja lisäksi sitten muu kuin Suomi tai Ruotsi julkaisumaana.
 
 
-```{r selectedplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8, out.width="280px"}
+```{r selectedplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
 selected.places = c("Tartu", "Skara", "Växjö", "Uppsala", "Lund", "Strängnäs", "Linköping", "Gothenburg", "Västerås", "Nyköping", "Norrköping", "Stockholm", "Turku")
 for (myplace in selected.places) {
   # Use timeinterval year intervals
   catal = "Kungliga"
-  #minyear = 1470
+  minyear = 1500
   #maxyear = 1800
-  minyear = min(na.omit(df0$publication_year))
-  maxyear = max(na.omit(df0$publication_year))  
+  #minyear = min(na.omit(df0$publication_year))
+  #maxyear = max(na.omit(df0$publication_year))  
 
   df = subset(df0, publication_place == myplace & catalog == catal)
   df <- subset(df, publication_year >= minyear & publication_year < maxyear)

@@ -63,7 +63,9 @@ Focus on Gävle (gray) during riksdagar. Gävle has 0 occurrences in Fennica, he
 
 <img src="figure_201606_Krakow/riksdar2-1.png" width="430px" />
 
-TODO: yksittäiset kuvat eri kaupungeista julkaisumääristä auttaisivat yleistä miettimistä. onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
+Title counts in selected places.
+
+onko mahdollista tehdä kuvat kaupungeittain (eli samalla tavalla kun on jo Gävle):
 
 Kungliga:
 
