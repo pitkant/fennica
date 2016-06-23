@@ -13,6 +13,24 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Östholm, Hanna, Litteraturens uppodling : läsesällskap och litteraturkritik som politisk strategi vid sekelskiftet 1800; vertailee Turkua ja Uppsalaa lukuseurojen kautta.
 
+Grönroos, Henrik & Nyman, Ann-Charlotte, Boken i Finland, 1996.
+
+Suomen taloushistoria, Historiallinen tilasto 3, 1983.
+
+Vasenius, Valfrid, Suomalainen kirjallisuus, 1544-1877, 1878.
+
+Gardberg, Carl-Rudolf, Kirjapainotaito Suomessa I-III, 1949-1973.
+
+Heininen, Simo, Ulkomaisen kirjallisuuden tulo Suomeen 1531-1600. SKHSV, 1991.
+
+Häkli, Esko, Näin syntyi ja säilyi suomalainen kirja, 1989.
+
+Laine, Tuija, Vanhimman suomalaisen kirjallisuuden käsikirja, 1997.
+
+Vieraskielinen kirjallisuus Suomessa Ruotsin vallan aikana.
+
+Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth century? A history of reading in the west. Cambridge, 2003.
+
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
@@ -76,6 +94,8 @@ Kungliga publications outside Sweden and Finland.
 ### Book printing in Finland
 
 mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin vähäistä tarkastellulla ajanjaksolla.
+
+TODO (uusi, juhannustaika): Hartauskirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Muutenkin näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa. Mm. yleinen vertailu suomenkielisestä materiaalista ja ruotsinkielisestä materiaalista Fennicassa. Hartauskirjallisuuden osalta jos tämä näyttää järkevältä tarkastelukohdalta, niin sitten kannattaa tältä osin jatkaa analyysi myös 1828 eteenpäin suomenkielisen aineiston osalta niin pitkälle kuin Fennicassa riittää aineistoa.
 
 ### Book as media: development over time
 
