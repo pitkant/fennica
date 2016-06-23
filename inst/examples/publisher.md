@@ -12,10 +12,20 @@ output: markdown_document
 
 [Publishers discarded](output.tables/publisher_discarded.csv)
 
+[Publishers discarded](output.tables/publisher_nontrivial_conversions.csv)
 
 
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 19938 documents (98%). There are 11931 unique publisher names (some may be synonymes, though).
+```
+## Error in `[.data.frame`(x, , field): undefined columns selected
+```
 
+The 20 most common publishers are shown with the number of documents. Publisher information is available for 0 documents (NaN%). There are 19 unique publisher names (some may be synonymes, though).
+
+
+
+```
+## Error in dfs$names: $ operator is invalid for atomic vectors
+```
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
 
@@ -23,18 +33,30 @@ The 20 most common publishers are shown with the number of documents. Publisher 
 
 Title count
 
+
+```
+## Error in `[.data.frame`(x, , field): undefined columns selected
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'tops' not found
+```
+
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
 
 
 Title count versus paper consumption (top publishers):
 
-![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher      | titles|     paper|
-|:--------------|------:|---------:|
-|c frenckell    |   1342| 0.2767492|
-|c londicer     |    485| 0.0763086|
-|frenckellianis |   1191| 1.6536491|
-|sn             |   1400| 0.4838404|
-|w londicer     |   1829| 0.0960118|
+```
+## Error in compare_title_paper(df, "publisher", selected = tops): object 'tops' not found
+```
+
+```
+## NULL
+```
+
+```
+## Error in kable_markdown(x = structure(character(0), .Dim = c(0L, 0L), .Dimnames = list(: the table must have a header (column names)
+```

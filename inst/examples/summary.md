@@ -7,12 +7,74 @@ date: "March 2, 2016"
 # Fennica summary
 
 
-```
-## Error in gzfile(file, "rb"): cannot open the connection
-```
 
 
 Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+
+```
+## Error in eval(expr, envir, enclos): object 'publisher' not found
+```
+
+```
+## Error in apply(dfs, 2, function(x) {: object 'dfs' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in plot.window(xlim, ylim, log = log, ...): need finite 'ylim' values
+```
 
 ![plot of chunk missing2](figure/missing2-1.png)
 
