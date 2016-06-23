@@ -61,8 +61,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_gender                     |        44.1|          55.9|         37970|          4|
 |author_name                       |        33.0|          67.0|         45514|      11970|
 |author                            |        33.0|          67.0|         45514|      12034|
-|country                           |         4.1|          95.9|         65115|         33|
-|publication_place                 |         4.0|          96.0|         65179|        419|
+|country                           |         4.1|          95.9|         65114|         33|
+|publication_place                 |         4.0|          96.0|         65178|        419|
 |pagecount.orig                    |         2.2|          97.8|         66381|        998|
 |latitude                          |         1.1|          98.9|         67154|        342|
 |longitude                         |         1.1|          98.9|         67154|        342|
