@@ -125,6 +125,7 @@ for (myplace in selected.places) {
   p <- p + ggtitle("Publishing activity")
   p <- p + ylab("Documents / Year")
   p <- p + xlab("Year")
+  p = p + ylim(c(0, 80))
   p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
   
   print(p)
