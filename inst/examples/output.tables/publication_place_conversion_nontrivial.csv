@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	36241	
+Total count: 	36245	
 Helsingfors	Helsinki	10969
 Aboae	Turku	 4871
 [Vasa]	Vaasa	 2312
@@ -205,7 +205,6 @@ Lincopiae	Linköping	    6
 Tryckt j Stockholm	Stockholm	    6
 [Ubsaliae]	Uppsala	    6
 Stokholmiae	Stockholm	    6
-Ienae	Nae	    6
 [Uppsala]	Uppsala	    6
 Westerås	Västeras	    6
 A Amsterdam	Amsterdam	    6
@@ -320,7 +319,7 @@ Petersburg	St Petersburg	    3
 [Stockholm	Stockholm	    3
 Regiomonti Borvssiae	Koningsberg	    3
 Strassburg	Strasbourg	    3
-Marpurgi Cattorum	Marpurgi	    3
+Marpurgi Cattorum	Marburg	    3
 [Wittebergae]	Wittenberg	    3
 [Präntätty Stockholmis]	Stockholm	    3
 [Wiburgi?]	Vyborg	    3
@@ -371,6 +370,7 @@ Weimar : Verlage des Industrie-Comptoirs	Weimar	    2
 [Sankt-Peterburg']	St Petersburg	    2
 S.Peterburg'	St Petersburg	    2
 Carlskrona	Karlskrona	    2
+Jurjew	Tartu	    2
 Gel'singfors''	Helsinki	    2
 B'' Sanktpeterburgê	St Petersburg	    2
 Kazan'	Kazan	    2
@@ -420,6 +420,7 @@ Helsingfos	Helsinki	    2
 Pargas	Parainen	    2
 Napoli	Naples	    2
 Seattle (Wash.)	Seattle WA	    2
+Wandsbek	Hamburg	    2
 Brahestad	Raahe	    2
 Cincinnati	Cincinnati Oh	    2
 New Haven	New Haven Ct	    2
@@ -572,6 +573,7 @@ Petrograd''	St Petersburg	    1
 S.-Peterburg''	St Petersburg	    1
 Arhangelsk	Archangelsk	    1
 Peterburg	St Petersburg	    1
+Vjatka	Kirov	    1
 Vïden'	Vienna	    1
 Arhangel'sk''	Archangelsk	    1
 S. Peterburg''	St Petersburg	    1
@@ -589,11 +591,13 @@ Helsingfors :;Leipzig	Helsinki	    1
 Virginia (Minn.)	Virginia Mn	    1
 Loviza	Loviisa	    1
 Helsingforso	Helsinki	    1
+Tsingshi	Tsing-shin	    1
 Leipzig :;Pesth	Leipzig	    1
 [Karlstad]	Karlstad	    1
 Hancockissa (Mich.)	Hancock Mi	    1
 Mitau und Leipzig	Jelgava	    1
 Wyburg	Vyborg	    1
+Ancova	Ancona	    1
 Stockholm :;[Helsingfors]	Stockholm	    1
 Helsingfors :;Köpenhamn	Helsinki	    1
 G. Gel'singfors'	Helsinki	    1
@@ -610,7 +614,7 @@ Lith i Åbo	Turku	    1
 St. Pietarissa	St Petersburg	    1
 Moscou	Moscow	    1
 Leitmeritz	Litoměrice	    1
-Saint-Pétersbourg	Petersbourg	    1
+Saint-Pétersbourg	St Petersburg	    1
 Upsal	Uppsala	    1
 Poznán	Poznan	    1
 Cincinati	Cincinnati Oh	    1
@@ -763,7 +767,7 @@ New York (N. Y.)	New York	    1
 Helsink	Helsinki	    1
 Helsingfors [s.n.]	Helsinki	    1
 Rock Island (Ill.)	Rock Island IL	    1
-V Telči	Telci	    1
+V Telči	Telč	    1
 Würzburg	Wurzburg	    1
 Nagy-Várad	Oradea	    1
 Kolozsvár	Cluj-Napoca	    1
@@ -789,6 +793,7 @@ Neapel	Naples	    1
 [Lovisa]	Loviisa	    1
 [Jakobstad]	Pietarsaari	    1
 Kristinehamn	Kristiinankaupunki	    1
+Ugra	Smolensk	    1
 [Pieksämäki]	Pieksämäki	    1
 Haukilahti	Espoo	    1
 Lontoo	London	    1
@@ -796,8 +801,10 @@ Harjavallassa	Harjavalta	    1
 Ottawa, Canada	Ottawa	    1
 Bennäs	Pännäinen	    1
 Portland (Or.)	Portland Or	    1
+Vreta	Ljungsbro	    1
 La Haye	The Hague	    1
 Hämeeenlinna	Hämeenlinna	    1
+Kaukaa	Lappeenranta	    1
 New York (Mills.)	New York Mills Mn	    1
 [Pietarissa]	St Petersburg	    1
 Rooma	Rome	    1
@@ -815,13 +822,14 @@ Superior (Wis)	Superior Wi	    1
 Brooklyn [N.Y.]	New York	    1
 Superior, (Wis.)	Superior Wi	    1
 Hämeelinna	Hämeenlinna	    1
+Karkku	Tyrvää	    1
 Port Arth., (Ont. Can.)	Port Arthur On	    1
 Harbor (OH)	Harbor Oh	    1
 Superior (WI)	Superior Wi	    1
 Port Arthur, Ontario	Port Arthur On	    1
 Ishpeming (MI)	Ishpeming Mi	    1
-Houghton (MI)	Houghton	    1
-Red Jacket (MI)	Red jacket	    1
+Houghton (MI)	Houghton mi	    1
+Red Jacket (MI)	Red Jacket	    1
 Ashtabula (OH)	Ashtabula Oh	    1
 Fitchburg (MA)	Fitchburg Ma	    1
 Worchester (MA)	Worcester Ma	    1
@@ -943,7 +951,6 @@ St. Petersborg	St Petersburg	    1
 Ingressu Aboae	Turku	    1
 [Wiburgae]	Vyborg	    1
 [Viborgae]	Vyborg	    1
-Tryckt samma åhr	Samma	    1
 Tryckt uti Westerås	Västeras	    1
 Impressus Aboae	Turku	    1
 Recusa Aboae	Turku	    1
@@ -1082,7 +1089,7 @@ Gedrucht zu Abo	Turku	    1
 Impressum Athenis Auräicis [sic]	Turku	    1
 Erffurt	Erfurt	    1
 Excussit [sic] Aboae	Turku	    1
-Dorpt i Lieflandh	Dorpt lieflandh	    1
+Dorpt i Lieflandh	Tartu	    1
 Tryckt i Wästerås	Västeras	    1
 [En Barcelona]	Barcelona	    1
 Tryckt i Reval	Tallinn	    1

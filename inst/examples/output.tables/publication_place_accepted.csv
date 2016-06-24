@@ -10,7 +10,7 @@ Altdorf	Germany	    3
 Altenstein	Germany	    3
 Amersfoort	Netherlands	    1
 Amsterdam	Netherlands	   46
-Ancova	Latvia	    1
+Ancona	NA	    1
 Anttola	Finland	    1
 Antwerp	Belgium	    4
 Archangelsk	Russia	    5
@@ -56,7 +56,6 @@ Dantzig	Poland	    1
 Dessau	Germany	    2
 Dieren	Netherlands	    1
 Dordrecht	Netherlands	    1
-Dorpt lieflandh	NA	    1
 Dresden	Germany	   20
 Duluth Mn	USA	   33
 Edinburgh	Scotland	    1
@@ -89,7 +88,7 @@ Haarlem	Netherlands	    6
 Haderslev	Denmark	    1
 Halberstadt	Germany	    1
 Halle	Germany	   11
-Hamburg	Germany	   15
+Hamburg	Germany	   17
 Hämeenlinna	Finland	 1363
 Hamina	Finland	  138
 Hancock Mi	USA	  183
@@ -111,7 +110,7 @@ Helsingør	Denmark	    1
 Helsinki	Finland	25244
 Hinnerjoki	Finland	    1
 Hirvensalmi	Finland	    1
-Houghton	NA	    1
+Houghton mi	USA	    1
 Hull	England	    1
 Huopalahti	Finland	    2
 Hvitträsk	Finland	    1
@@ -136,7 +135,6 @@ Jelgava	Latvia	    6
 Jena	Germany	   21
 Joensuu	Finland	  106
 Jönnköping	Sweden	    5
-Jurjew	Latvia	    2
 Juva	Finland	    3
 Jyväskylä	Finland	  971
 Kainuu	Finland	    3
@@ -149,13 +147,11 @@ Kaprio	Finland	    1
 Karhula	Finland	    2
 Karjaa	Finland	   14
 Karjalohja	Finland	    4
-Karkku	Finland	    1
 Karlskrona	Sweden	    8
 Karlstad	Sweden	    3
 Karstula	Finland	    2
 Kaskinen	Finland	   16
 Kauhajoki	Finland	    1
-Kaukaa	Finland	    1
 Kausala	Finland	    1
 Kauvatsa	Finland	    2
 Kazan	Russia	    2
@@ -166,6 +162,7 @@ Kiel	Germany	    4
 Kiiminki	Finland	    2
 Kirchhain	Germany	    1
 Kirkkonummi	Finland	    2
+Kirov	NA	    1
 Kirvu	Finland	    1
 Kivennapa	Finland	    1
 Kodisjoki	Finland	    1
@@ -194,7 +191,7 @@ Laihiala	Finland	    1
 Laitila	Finland	    4
 Lammi	Finland	    1
 Landskrona	Sweden	    1
-Lappeenranta	Finland	   40
+Lappeenranta	Finland	   41
 Lapua	Finland	   30
 Lausanne	Switzerland	    1
 Le mans	France	    1
@@ -207,6 +204,7 @@ Linköping	Sweden	   19
 Lisbon	Portugal	    1
 Litoměrice	NA	    1
 Liverpool	England	    1
+Ljungsbro	NA	    1
 Lohja	Finland	    3
 Lohtaja	Finland	    1
 Loimaa	Finland	    1
@@ -224,9 +222,8 @@ Magdeburg	Germany	    1
 Malmö	Sweden	    4
 Mänttä	Finland	    1
 Mäntyharju	Finland	    1
-Marburg	Germany	    1
+Marburg	Germany	    4
 Mariehamn	Finland	   54
-Marpurgi	NA	    3
 Marttila	Finland	    1
 Messina	Finland	    1
 Mikkeli	Finland	  200
@@ -240,7 +237,6 @@ Mustasaari	Finland	    2
 Mustiala	Finland	    2
 Mustio	Finland	    1
 Naantali	Finland	    2
-Nae	NA	    6
 Naples	Italy	    3
 Närpiö	Finland	    1
 Narva	Estonia	    6
@@ -284,7 +280,6 @@ Perho	Finland	    1
 Perkjärvi	Finland	    1
 Pernaja	Finland	    7
 Petäjävesi	Finland	    2
-Petersbourg	NA	    1
 Philadelphia Pa	USA	    2
 Pieksämäki	Finland	    1
 Pietarsaari	Finland	   62
@@ -309,7 +304,7 @@ Rauma	Finland	  236
 Rautalampi	Finland	    1
 Rautio	Finland	    1
 Ravenna	Italy	    1
-Red jacket	NA	    1
+Red Jacket	NA	    1
 Red Jacket Mi	USA	    1
 Red Lodge MT	USA	    1
 Regensburg	Germany	    2
@@ -325,7 +320,6 @@ Saarijärvi	Finland	    2
 Sairala	Finland	   12
 Sakkola	Finland	    1
 Salo	Finland	    7
-Samma	NA	    1
 Sarvilahti	Finland	    1
 Sauvo	Finland	    1
 Savonlinna	Finland	   80
@@ -336,9 +330,10 @@ Siena	Italy	    1
 Simola	Finland	    1
 Skara	Sweden	   28
 Smithville Mn	USA	    2
+Smolensk	NA	    1
 Sortavala	Russia	  519
 St Louis Kaunti Mi	USA	    1
-St Petersburg	Russia	  606
+St Petersburg	Russia	  607
 Stade	NA	    1
 Stockholm	Sweden	 3955
 Stockton	England	    2
@@ -356,8 +351,8 @@ Tallinn	Estonia	   50
 Tammela	Finland	    1
 Tammisaari	Finland	  146
 Tampere	Finland	 2233
-Tartu	Estonia	  213
-Telci	NA	    1
+Tartu	Estonia	  216
+Telč	NA	    1
 Terijoki	Finland	    7
 Terni	Finland	    1
 Tervonsalmi	Finland	    1
@@ -369,15 +364,14 @@ Tornio	Finland	    9
 Trieste	Italy	    2
 Tromsö	Norway	    4
 Trondheim	Norway	    1
-Tsingshi	China	    1
+Tsing-shin	NA	    1
 Tubingen	Germany	    7
 Turenki	Finland	   16
 Turku	Finland	13419
 Turtle Lake Wi	USA	    1
 Tuusula	Finland	    1
 Tyrnävä	Finland	    1
-Tyrvää	Finland	    2
-Ugra	Russia	    1
+Tyrvää	Finland	    3
 Ulm	Germany	    1
 Uppsala	Sweden	  752
 Urjala	Finland	    1
@@ -398,10 +392,7 @@ Vilnius	Lithuania	    6
 Virginia Mn	USA	    1
 Virolahti	Finland	    2
 Visingsborg	Sweden	    4
-Vjatka	Russia	    1
-Vreta	Sweden	    1
 Vyborg	Russia	 1104
-Wandsbek	Germany	    2
 Warsaw	Poland	    9
 Weida	Germany	    1
 Weimar	Germany	    9
@@ -418,4 +409,4 @@ York	England	    1
 Ypäjä	Finland	    2
 Żary	NA	    2
 Zürich	Germany	    7
-NA	NA	 2722
+NA	NA	 2729
