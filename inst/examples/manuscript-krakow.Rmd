@@ -156,7 +156,25 @@ for (myplace in selected.places) {
 
 TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
 
-TODO (uusi, juhannustaika): Hartauskirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Muutenkin näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa. Mm. yleinen vertailu suomenkielisestä materiaalista ja ruotsinkielisestä materiaalista Fennicassa. Hartauskirjallisuuden osalta jos tämä näyttää järkevältä tarkastelukohdalta, niin sitten kannattaa tältä osin jatkaa analyysi myös 1828 eteenpäin suomenkielisen aineiston osalta niin pitkälle kuin Fennicassa riittää aineistoa.
+TODO: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
+
+virret	 
+arkkiveisut	 
+hartauskirjat	 
+katekismukset	 
+rukouspäivät	 
+saarnat	 
+aapiset	 
+rukoukset	  
+rukous	  
+hengelliset laulut	  
+hartauspuheet	  
+virsikirjat	  
+
+Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (suomi vs. ruotsi). ko. analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys.
+
+
+Muutenkin, näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa. Mm. yleinen vertailu suomen-, ruotsin- ja muun kielisestä materiaalista Fennicassa aikajanalla.
 
 ### General trends: Fennica vs. Kungliga
 
