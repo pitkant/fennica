@@ -13,6 +13,24 @@ Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden (väitöskirja
 
 Östholm, Hanna, Litteraturens uppodling : läsesällskap och litteraturkritik som politisk strategi vid sekelskiftet 1800; vertailee Turkua ja Uppsalaa lukuseurojen kautta.
 
+Grönroos, Henrik & Nyman, Ann-Charlotte, Boken i Finland, 1996.
+
+Suomen taloushistoria, Historiallinen tilasto 3, 1983.
+
+Vasenius, Valfrid, Suomalainen kirjallisuus, 1544-1877, 1878.
+
+Gardberg, Carl-Rudolf, Kirjapainotaito Suomessa I-III, 1949-1973.
+
+Heininen, Simo, Ulkomaisen kirjallisuuden tulo Suomeen 1531-1600. SKHSV, 1991.
+
+Häkli, Esko, Näin syntyi ja säilyi suomalainen kirja, 1989.
+
+Laine, Tuija, Vanhimman suomalaisen kirjallisuuden käsikirja, 1997.
+
+Vieraskielinen kirjallisuus Suomessa Ruotsin vallan aikana.
+
+Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth century? A history of reading in the west. Cambridge, 2003.
+
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
@@ -29,6 +47,25 @@ Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us l
 <img src="figure_201606_Krakow/drop1700-1.png" width="280px" /><img src="figure_201606_Krakow/drop1700-2.png" width="280px" /><img src="figure_201606_Krakow/drop1700-3.png" width="280px" /><img src="figure_201606_Krakow/drop1700-4.png" width="280px" /><img src="figure_201606_Krakow/drop1700-5.png" width="280px" /><img src="figure_201606_Krakow/drop1700-6.png" width="280px" />
 
 TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
+
+TODO: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
+
+virret
+arkkiveisut
+hartauskirjat
+katekismukset
+rukouspäivät
+saarnat
+aapiset
+rukoukset
+rukous
+hengelliset laulut
+hartauspuheet
+virsikirjat
+
+Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (suomi vs. ruotsi). ko. analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys.
+
+Muutenkin, näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa. Mm. yleinen vertailu suomen-, ruotsin- ja muun kielisestä materiaalista Fennicassa aikajanalla.
 
 ### General trends: Fennica vs. Kungliga
 
@@ -222,9 +259,9 @@ References
 
 \[1\] H. Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2009. ISBN: 978-0-387-98140-6. &lt;URL: <http://ggplot2.org>&gt;.
 
-\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
+\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
 
-\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
+\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
 
 \[4\] M. Tolonen and L. Lahti. "Aatehistoria ja digitaalisten aineistojen mahdollisuudet". In: *Ennen & Nyt 2* 2 (Aug. 2015). &lt;URL: <http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet>&gt;.
 
@@ -258,17 +295,17 @@ sessionInfo()
     ## 
     ## locale:
     ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-    ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-    ##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
-    ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+    ##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
+    ##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
+    ##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
     ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-    ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+    ## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    stringr_1.0.0        
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.14    stringr_1.0.0        
     ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
     ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
     ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
@@ -298,11 +335,11 @@ sessionInfo()
     ## [58] ape_3.5               yaml_2.1.13           stringi_1.1.1        
     ## [61] RJSONIO_1.3-0         MASS_7.3-45           zlibbioc_1.18.0      
     ## [64] rhdf5_2.16.0          plyr_1.8.4            grid_3.3.0           
-    ## [67] parallel_3.3.0        gender_0.5.1.9000     crayon_1.3.1         
-    ## [70] lattice_0.20-33       Biostrings_2.40.1     splines_3.3.0        
+    ## [67] parallel_3.3.0        gender_0.5.1          crayon_1.3.1         
+    ## [70] lattice_0.20-33       Biostrings_2.40.2     splines_3.3.0        
     ## [73] multtest_2.28.0       igraph_1.0.1          fastcluster_1.1.20   
     ## [76] codetools_0.2-14      stats4_3.3.0          XML_3.98-1.4         
-    ## [79] babynames_0.2.1.9000  evaluate_0.9          latticeExtra_0.6-28  
+    ## [79] babynames_0.2.1       evaluate_0.9          latticeExtra_0.6-28  
     ## [82] data.table_1.9.6      foreach_1.4.3         testthat_1.0.2       
     ## [85] gtable_0.2.0          assertthat_0.1        roxygen2_5.0.1       
     ## [88] survival_2.39-4       genderdata_0.5.0      iterators_1.0.8      
