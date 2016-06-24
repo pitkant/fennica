@@ -16,7 +16,7 @@ mc.cores <- 4
 gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv", package = "bibliographica")
 
 # Remove selected fields
-ignore.fields <- c("language2", "title_remainder", "physical_details", "physical_accomppanied", "note_general", "note_year", "publisher") # Fennica
+ignore.fields <- c("language2", "title_remainder", "physical_details", "physical_accomppanied", "note_general", "note_year") # Fennica
 
 # -------------------------------
 
