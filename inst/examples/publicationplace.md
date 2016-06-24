@@ -7,16 +7,17 @@ output: markdown_document
 
 ### Publication places
 
- * 410 [publication places](output.tables/publication_place_accepted.csv)
+ * 407 [publication places](output.tables/publication_place_accepted.csv)
  * 32 [publication countries](output.tables/country_accepted.csv) 
  * Publication place is identified for 65171 documents (96%). 
- * Publication country is identified for 65115 documents (96%).
+ * Publication country is identified for 65125 documents (96%).
  * 98.9% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.09``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first)
  * [Conversions from the original to the accepted place names](output.tables/publication_place_conversion_nontrivial.csv)
  * [Unknown place names](output.tables/publication_place_todo.csv) These terms do not map to any known place on the [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv); either because they require further cleaning or have not yet been encountered in the analyses
+ * [Discarded place names](output.tables/publication_place_discarded.csv) These terms are potential place names but with a closer check explicitly rejected on the [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv)
 
 Top-20 publication places are shown together with the number of documents.
 
@@ -29,9 +30,9 @@ Top-20 publication places are shown together with the number of documents.
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
 |Finland |         55195|         81.3|
-|Sweden  |          5017|          7.4|
+|Sweden  |          5020|          7.4|
 |Russia  |          2277|          3.4|
-|Germany |           755|          1.1|
+|Germany |           757|          1.1|
 |USA     |           749|          1.1|
 |Estonia |           285|          0.4|
 
