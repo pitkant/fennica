@@ -8,16 +8,16 @@ output: markdown_document
 
 ### Publishers
 
-[Publishers accepted](output.tables/publisher_accepted.csv)
+ * 6123 [unique publishers](output.tables/publisher_accepted.csv)
 
-[Publishers discarded](output.tables/publisher_discarded.csv)
+ * 67901 documents have unambiguous publisher information (100%). 
 
-[Publishers discarded](output.tables/publisher_nontrivial_conversions.csv)
+ * [Discarded publisher entries](output.tables/publisher_discarded.csv)
+
+ * [Conversions from original to final names](output.tables/publisher_nontrivial_conversions.csv) (only non-trivial conversions shown)
 
 
-
-The 20 most common publishers are shown with the number of documents. Publisher information is available for 67901 documents (100%). There are 6939 unique publisher names (some may be synonymes, though).
-
+The 20 most common publishers are shown with the number of documents. 
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
 
@@ -33,10 +33,15 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|     paper|
-|:-------------------------------|------:|---------:|
-|                                |  11406| 7.0023231|
-|Frenckell, Johan Christopher II |   2212| 2.4112588|
-|Londicer, Georg Wilhelm         |   2106| 0.1772058|
-|Otava                           |   2130| 1.1199492|
-|s.n                             |   6766| 3.4404971|
+|publisher                       | titles| paper|
+|:-------------------------------|------:|-----:|
+|                                |  11406|  7.00|
+|Frenckell, Johan Christopher I  |   1744|  0.82|
+|Frenckell, Johan Christopher II |   2212|  2.41|
+|Hansson, Peter                  |   1094|  1.78|
+|Londicer, Georg Wilhelm         |   2106|  0.18|
+|Otava                           |   2130|  1.12|
+|s.n                             |   6766|  3.44|
+|S.n                             |   1196|  0.34|
+|Tekijä                          |   1679|  0.35|
+|Wall, Johan Larsson             |   1404|  1.07|
