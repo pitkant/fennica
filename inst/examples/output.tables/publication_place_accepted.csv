@@ -134,7 +134,7 @@ Janakkala	Finland	    1
 Jelgava	Latvia	    6
 Jena	Germany	   21
 Joensuu	Finland	  106
-Jönnköping	Sweden	    5
+Jönköping	NA	    5
 Juva	Finland	    3
 Jyväskylä	Finland	  971
 Kainuu	Finland	    3
@@ -176,7 +176,8 @@ Korsnäs	Finland	    1
 Kotka	Finland	  143
 Kouvola	Finland	    4
 Krakow	Poland	    3
-Kristiinankaupunki	Finland	   44
+Kristiinankaupunki	Finland	   43
+Kristinehamn	Sweden	    1
 Kruunupyy	Finland	   20
 Kuopio	Finland	 1475
 Kuortane	Finland	    4
@@ -225,7 +226,7 @@ Marburg	Germany	    4
 Mariehamn	Finland	   54
 Marttila	Finland	    1
 Messina	Finland	    1
-Mikkeli	Finland	  200
+Mikkeli	Finland	  202
 Milan	Italy	    5
 Milwaukee Wi	USA	    1
 Montpellier	France	    1
@@ -285,7 +286,7 @@ Pihlava	Finland	    2
 Piikkiö	Finland	    6
 Pinjainen	Finland	    1
 Pistoia	Finland	    1
-Pori	Finland	  646
+Pori	Finland	  645
 Port Arthur On	Canada	   22
 Portland Or	USA	    1
 Porvoo	Finland	 3685
@@ -384,17 +385,19 @@ Venice	Italy	    2
 Verona	Italy	    1
 Vicenza	Italy	    2
 Vienna	Austria	   21
+Viipuri	Finland	  584
 Viitasaari	Finland	    2
 Viljandi	Estonia	    2
 Vilnius	Lithuania	    6
 Virginia Mn	USA	    1
 Virolahti	Finland	    2
-Visingsborg	Sweden	    7
-Vyborg	Russia	 1104
+Visingsborg	Sweden	    6
+Vyborg	Russia	  518
 Warsaw	Poland	    9
 Weida	Germany	    1
 Weimar	Germany	    9
 Wiesbaden	Germany	    7
+Wijsingzborg	NA	    1
 Wismar	Germany	    1
 Wittenberg	Germany	   39
 Worcester Ma	USA	    8
@@ -406,4 +409,4 @@ York	England	    1
 Ypäjä	Finland	    2
 Żary	NA	    2
 Zürich	Germany	    7
-NA	NA	 2729
+NA	NA	 2730

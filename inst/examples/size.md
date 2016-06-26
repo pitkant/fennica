@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-26"
+date: "2016-06-27"
 output: markdown_document
 ---
 
@@ -14,7 +14,7 @@ output: markdown_document
 
 [Discarded pagecount info](output.tables/pagecount_discarded.csv)
 
-
+[Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
 
 ## Document size comparisons
 
@@ -22,6 +22,7 @@ output: markdown_document
 
 [Dimension conversion table](output.tables/conversions_physical_dimension.csv)
 
+[Automated tests for dimension conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_dimension_polish.csv)
 
 These include estimates that are based on auxiliary information sheets:
 

@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-26"
+date: "2016-06-27"
 output: markdown_document
 ---
 
@@ -62,11 +62,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                       |        33.0|          67.0|         45516|      11972|
 |author                            |        33.0|          67.0|         45516|      12036|
 |self_published                    |        33.0|          67.0|         45516|          2|
-|country                           |         4.1|          95.9|         65126|         32|
-|publication_place                 |         4.0|          96.0|         65172|        407|
+|country                           |         4.1|          95.9|         65119|         32|
+|publication_place                 |         4.0|          96.0|         65171|        410|
 |pagecount.orig                    |         2.2|          97.8|         66383|        998|
-|latitude                          |         1.1|          98.9|         67158|        334|
-|longitude                         |         1.1|          98.9|         67158|        334|
+|latitude                          |         2.0|          98.0|         66574|        335|
+|longitude                         |         2.0|          98.0|         66574|        335|
 |language                          |         1.1|          98.9|         67177|        254|
 |dissertation                      |         0.0|         100.0|         67875|          3|
 |publication_year_from             |         0.0|         100.0|         67882|        352|
@@ -113,7 +113,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         67901|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         67901|          1|
 |language.Multiple languages       |         0.0|         100.0|         67901|          2|
-|publisher                         |         0.0|         100.0|         67901|       6123|
+|publisher                         |         0.0|         100.0|         67901|       6591|
 |pagecount                         |         0.0|         100.0|         67901|        997|
 |gatherings.original               |         0.0|         100.0|         67901|         18|
 |obl.original                      |         0.0|         100.0|         67901|          2|
