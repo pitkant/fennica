@@ -1,7 +1,7 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2016-06-24"
+date: "2016-06-26"
 output: markdown_document
 ---
 
@@ -26,9 +26,9 @@ Title count per language (including multi-language documents):
 |Language           | Documents (n)| Fraction (%)|
 |:------------------|-------------:|------------:|
 |Finnish            |         30765|         43.1|
-|Swedish            |         24427|         34.2|
+|Swedish            |         24428|         34.2|
 |Latin              |          6906|          9.7|
-|Multiple languages |          4107|          5.8|
+|Multiple languages |          4107|          5.7|
 |German             |          2242|          3.1|
 |French             |          1005|          1.4|
 

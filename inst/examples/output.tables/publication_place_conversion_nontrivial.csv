@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	36251	
+Total count: 	36252	
 Helsingfors	Helsinki	10969
 Aboae	Turku	 4871
 [Vasa]	Vaasa	 2312
@@ -15,7 +15,7 @@ Helsingissä	Helsinki	  458
 [Helsingfors]	Helsinki	  391
 Upsaliae	Uppsala	  364
 Tryckt i Åbo	Turku	  295
-[Stockholm]	Stockholm	  241
+[Stockholm]	Stockholm	  242
 S.-Peterburg'	St Petersburg	  221
 [Turku]	Turku	  220
 [Wasa]	Vaasa	  181
@@ -45,8 +45,8 @@ Dorpati	Tartu	   60
 [Vaasa]	Vaasa	   57
 [S.-Peterburg']	St Petersburg	   55
 St. Petersburg	St Petersburg	   55
+Stockholmis	Stockholm	   54
 Tukholma	Stockholm	   53
-Stockholmis	Stockholm	   53
 Kjøbenhavn	Copenhagen	   52
 Tavastehus	Hämeenlinna	   49
 Jakobstad	Pietarsaari	   49
@@ -888,7 +888,6 @@ Stockh.	Stockholm	    1
 [Turusa?]	Turku	    1
 Prändätty Stockholmisa	Stockholm	    1
 Pränt. Turusa	Turku	    1
-Präntätty Moscoosa	Moscow	    1
 [Örebroosa]	Örebro	    1
 Tryckt i Carlscrona	Karlskrona	    1
 [Stocholm]	Stockholm	    1

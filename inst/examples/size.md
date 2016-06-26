@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-24"
+date: "2016-06-26"
 output: markdown_document
 ---
 
@@ -35,7 +35,7 @@ These include estimates that are based on auxiliary information sheets:
   
 <!--[Discarded dimension info](output.tables/dimensions_discarded.csv)-->
 
-Document size (area) info in area is available for 34757 documents (51%). Estimates of document size (area) info in gatherings system are available for 67900 documents (100%). 
+Document size (area) info in area is available for 34758 documents (51%). Estimates of document size (area) info in gatherings system are available for 67901 documents (100%). 
 
 ![plot of chunk summarysize](figure/summarysize-1.png)
 
@@ -49,7 +49,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 1519 documents and updated (changed) for 0 documents. 
+Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 1518 documents and updated (changed) for 0 documents. 
 
 
 ![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
@@ -78,9 +78,9 @@ Multi-volume documents average page counts are given per volume.
 |4to           |                36.68|                     10|       15230|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 |6to           |                99.97|                     64|          29|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 |8long         |               210.27|                    112|          99|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|8vo           |               112.83|                     54|        6701|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|8vo           |               112.81|                     54|        6702|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 |12long        |               388.14|                    244|           7|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|12mo          |               112.91|                     68|        3213|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+|12mo          |               112.92|                     68|        3214|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 |16long        |               159.00|                    159|           1|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 |16mo          |               106.94|                     48|        1652|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 |18mo          |               244.88|                    199|           8|NA                  |NA                    |         NA|NA               |NA                 |      NA|

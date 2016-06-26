@@ -1,5 +1,5 @@
 original_name	original_date	final_author_id	final_author_birth	final_author_death	Count
-Total count: 	18431				
+Total count: 	18432				
 Runeberg, Johan Ludvig	1804-1877.	Runeberg, Johan Ludvig (1804-1877)	1804	1877	458
 Topelius, Zacharias	1818-1898.	Topelius, Zacharias (1818-1898)	1818	1898	332
 Bilmark, Johannes	1728-1801	Bilmark, Johannes (1728-1801)	1728	1801	232
@@ -673,7 +673,7 @@ Stiernstråle, Johan Eriksson	1607-1686.	Stiernstråle, Johan Eriksson (1607-168
 Ludenius, Laurentius	1592-1654.	Ludenius, Laurentius (1592-1654)	1592	1654	  5
 Balduinus, Fridericus	1575-1627.	Balduinus, Fridericus (1575-1627)	1575	1627	  5
 Schonaeus, Cornelius	k. 1611.	Schonaeus, Cornelius (1611-NA)	1611	NA	  5
-Chronander, Jacob Pettersson	s. ehkä 1620-luvulla, k. 1694.	Chronander, Jacob Pettersson (NA-1694)	NA	1694	  5
+Chronander, Jacob Pettersson	s. ehkä 1620-luvulla, k. 1694.	Chronander, Jacob Pettersson	NA	NA	  5
 Lönneström, David	n. 1746-1819.	Lönneström, David (1746-1819)	1746	1819	  5
 Loccenius, Johannes	1598-1677.	Loccenius, Johannes (1598-1677)	1598	1677	  5
 Wanochius, Enevald Andersson	1681-1708.	Wanochius, Enevald Andersson (1681-1708)	1681	1708	  5
@@ -1341,7 +1341,7 @@ Paulinus, Simon Pauli	1652-1691.	Paulinus, Simon Pauli (1652-1691)	1652	1691	  2
 Stephanius, Stephanus Johannis	k. 1650	Stephanius, Stephanus Johannis (1650-NA)	1650	NA	  2
 Pythagoras	n. 580-500 e. Kr.	Pythagoras, 	NA	NA	  2
 Isocrates	436-338 e.Kr.	Isocrates, 	NA	NA	  2
-Donatus, Aelius	eli 300-luvun puolivälissä.	Donatus, Aelius	NA	NA	  2
+Donatus, Aelius	eli 300-luvun puolivälissä.	Donatus, Aelius (300-NA)	300	NA	  2
 Cato, Marcus Porcius	234-149 e. Kr.	Cato, Marcus Porcius	NA	NA	  2
 Laghe, Magnus Magni	k. 1697	Laghe, Magnus Magni (1697-NA)	1697	NA	  2
 Ketarmannus, Johannes Matthiae	k. 1653	Ketarmannus, Johannes Matthiae (1653-NA)	1653	NA	  2
@@ -2063,6 +2063,7 @@ Robinson, John	1650-1723.	Robinson, John (1650-1723)	1650	1723	  1
 Keder, Nicolas	1659-1735.	Keder, Nicolas (1659-1735)	1659	1735	  1
 Strandman, Petrus Petri	1662-1709.	Strandman, Petrus Petri (1662-1709)	1662	1709	  1
 J. A. M	k. n. 1700	J,  (1700-NA)	1700	NA	  1
+Canisius, Petrus	1521-1597.	Canisius, Petrus (1521-1597)	1521	1597	  1
 Angermannus, Jacobus Johannis	1582-1642.	Angermannus, Jacobus Johannis (1582-1642)	1582	1642	  1
 Grandel, Matthias Johannis	n. 1623-1667	Grandel, Matthias Johannis (1623-1667)	1623	1667	  1
 Wallström, Eric	1720-1758.	Wallström, Eric (1720-1758)	1720	1758	  1
@@ -2159,7 +2160,7 @@ Hornick, Martinus Johannis	k. n. 1683	Hornick, Martinus Johannis (1683-NA)	1683	
 Hornick, Georgius Johannis	k. 1661.	Hornick, Georgius Johannis (1661-NA)	1661	NA	  1
 Schütz, Johannes Johannis	k. 1695.	Schütz, Johannes Johannis (1695-NA)	1695	NA	  1
 Gartzius, Johan Mattsson	n. 1617-1681.	Gartzius, Johan Mattsson (1617-1681)	1617	1681	  1
-Donatus, Aelius	eli 300-luvun puolivälissä	Donatus, Aelius	NA	NA	  1
+Donatus, Aelius	eli 300-luvun puolivälissä	Donatus, Aelius (300-NA)	300	NA	  1
 Christianus Matthiae	k. 1655.	Matthiae, Christianus (1655-NA)	1655	NA	  1
 Widekindi, Johannes	n. 1620-1678.	Widekindi, Johannes (1620-1678)	1620	1678	  1
 Utter, Per Månsson	k. 1632.	Utter, Per Månsson (1632-NA)	1632	NA	  1

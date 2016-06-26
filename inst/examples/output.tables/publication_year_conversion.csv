@@ -1,5 +1,5 @@
 original	publication_year	publication_year_from	publication_year_till	Count
-Total count: 	67900			
+Total count: 	67901			
 1916.	1916	1916	NA	1931
 1912.	1912	1912	NA	1869
 1917.	1917	1917	NA	1861
@@ -1077,7 +1077,7 @@ wuonna 1806.	1806	1806	NA	   2
 [-1911]	1911	NA	1911	   2
 [1911-1912]	1911	1911	1912	   2
 [1917-1918]	1917	1917	1918	   2
-[vuosien 1731 ja 1756 välillä]	1756	1756	NA	   2
+[vuosien 1731 ja 1756 välillä]	1731	1731	1756	   2
 [1747].	1747	1747	NA	   2
 [ca. 1730].	1730	1730	NA	   2
 [1645].	1645	1645	NA	   2
@@ -1697,10 +1697,10 @@ Suomen evank. seura,;1915.	1915	1915	NA	   1
 [1889?]	1889	1889	NA	   1
 [1846?]	1846	1846	NA	   1
 1838-1908.	1838	1838	1908	   1
-[vuosien 1721 ja 1743 välillä]	1743	1743	NA	   1
+[vuosien 1721 ja 1743 välillä]	1721	1721	1743	   1
 [1717?].	1717	1717	NA	   1
 [1726?]	1726	1726	NA	   1
-[vuosien 1700 ja 1725 välillä]	1725	1725	NA	   1
+[vuosien 1700 ja 1725 välillä]	1700	1700	1725	   1
 [1635?].	1635	1635	NA	   1
 [1755?].	1755	1755	NA	   1
 [1718].	1718	1718	NA	   1
@@ -1817,7 +1817,6 @@ präntätty wuona 1783.	1783	1783	NA	   1
 prändätty wuonna 1795.	1795	1795	NA	   1
 prändätyt wuonna 1780.	1780	1780	NA	   1
 w. 1760.	1760	1760	NA	   1
-wuonna 1754 s. 13 päiwänä touco cuusa.	1754	1754	NA	   1
 pränd 1738.	1738	1738	NA	   1
 [wuonna 1798]	1798	1798	NA	   1
 [wuonna 1795]	1795	1795	NA	   1
@@ -1867,6 +1866,7 @@ wuonna 1729.	1729	1729	NA	   1
 [1723--1729]	1723	1723	1729	   1
 wuonna 1713.	1713	1713	NA	   1
 wuonna 1712.	1712	1712	NA	   1
+[1579 ... före 25.7.1580]	1579	1579	1580	   1
 åhr 1734.	1734	1734	NA	   1
 anno 1705.	1705	1705	NA	   1
 1713.	1713	1713	NA	   1
@@ -2152,6 +2152,7 @@ vuona jälken Christuxen syndymän 1616.	1616	1616	NA	   1
 anno 1622. 25. Ian.	1622	1622	NA	   1
 anno 1622. 4. Octob.	1622	1622	NA	   1
 wuona 1656.	1656	1656	NA	   1
+wuona jelken Christuxen syndymän 1616,;1616.	1616	1616	NA	   1
 1680-1710.	1680	1680	1710	   1
 tryckt åhr Christi 1684.	1684	1684	NA	   1
 tryckt 1680.	1680	1680	NA	   1
