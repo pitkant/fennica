@@ -72,7 +72,7 @@ Forssa	Finland	    7
 Frankfurt	Germany	   14
 Freiburg	NA	    1
 Freiburg im Breisgau	Germany	    1
-Furth	Germany	    2
+Fürth	NA	    2
 Geneve	Switzerland	    2
 Gera	Germany	    1
 Giessen	Germany	    8
@@ -176,8 +176,7 @@ Korsnäs	Finland	    1
 Kotka	Finland	  143
 Kouvola	Finland	    4
 Krakow	Poland	    3
-Kristiinankaupunki	Finland	   43
-Kristinehamn	Sweden	    1
+Kristiinankaupunki	Finland	   44
 Kruunupyy	Finland	   20
 Kuopio	Finland	 1475
 Kuortane	Finland	    4
@@ -194,10 +193,10 @@ Landskrona	Sweden	    1
 Lappeenranta	Finland	   41
 Lapua	Finland	   30
 Lausanne	Switzerland	    1
-Le mans	France	    1
 Leeuwarden	Netherlands	    3
 Leiden	Netherlands	   12
 Leipzig	Germany	  193
+Le Mans	France	    1
 Letchworth	England	    1
 Liepaja	Latvia	    1
 Linköping	Sweden	   19
@@ -226,7 +225,7 @@ Marburg	Germany	    4
 Mariehamn	Finland	   54
 Marttila	Finland	    1
 Messina	Finland	    1
-Mikkeli	Finland	  202
+Mikkeli	Finland	  200
 Milan	Italy	    5
 Milwaukee Wi	USA	    1
 Montpellier	France	    1
@@ -290,7 +289,7 @@ Pori	Finland	  645
 Port Arthur On	Canada	   22
 Portland Or	USA	    1
 Porvoo	Finland	 3685
-Poznan	Poland	    1
+Poznań	NA	    1
 Prague	Czech Republic	    1
 Purleigh	England	    1
 Quedlinburg	Germany	    1
@@ -331,11 +330,11 @@ Skara	Sweden	   28
 Smithville Mn	USA	    2
 Smolensk	NA	    1
 Sortavala	Russia	  519
-St Louis Kaunti Mi	USA	    1
-St Petersburg	Russia	  607
 Stade	NA	    1
+St Louis Kaunti Mi	USA	    1
 Stockholm	Sweden	 3957
 Stockton	England	    2
+St Petersburg	Russia	  607
 Stralsund	Germany	    2
 Strängnäs	Sweden	   26
 Strasbourg	France	    7
@@ -385,19 +384,17 @@ Venice	Italy	    2
 Verona	Italy	    1
 Vicenza	Italy	    2
 Vienna	Austria	   21
-Viipuri	Finland	  584
 Viitasaari	Finland	    2
 Viljandi	Estonia	    2
 Vilnius	Lithuania	    6
 Virginia Mn	USA	    1
 Virolahti	Finland	    2
-Visingsborg	Sweden	    6
-Vyborg	Russia	  518
+Visingsborg	Sweden	    7
+Vyborg	Russia	 1104
 Warsaw	Poland	    9
 Weida	Germany	    1
 Weimar	Germany	    9
 Wiesbaden	Germany	    7
-Wijsingzborg	NA	    1
 Wismar	Germany	    1
 Wittenberg	Germany	   39
 Worcester Ma	USA	    8

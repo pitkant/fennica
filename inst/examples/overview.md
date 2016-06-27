@@ -59,14 +59,15 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |paper.consumption.km2             |        48.8|          51.2|         34758|       4287|
 |holder                            |        47.3|          52.7|         35750|       2096|
 |author_gender                     |        44.1|          55.9|         37971|          4|
+|self_published                    |        39.5|          60.5|         41104|          2|
 |author_name                       |        33.0|          67.0|         45516|      11972|
 |author                            |        33.0|          67.0|         45516|      12036|
-|self_published                    |        33.0|          67.0|         45516|          2|
-|country                           |         4.1|          95.9|         65119|         32|
-|publication_place                 |         4.0|          96.0|         65171|        410|
+|publisher                         |        12.4|          87.6|         59511|       6610|
+|country                           |         4.1|          95.9|         65117|         32|
+|publication_place                 |         4.0|          96.0|         65171|        407|
 |pagecount.orig                    |         2.2|          97.8|         66383|        998|
-|latitude                          |         2.0|          98.0|         66574|        335|
-|longitude                         |         2.0|          98.0|         66574|        335|
+|latitude                          |         1.1|          98.9|         67156|        333|
+|longitude                         |         1.1|          98.9|         67156|        333|
 |language                          |         1.1|          98.9|         67177|        254|
 |dissertation                      |         0.0|         100.0|         67875|          3|
 |publication_year_from             |         0.0|         100.0|         67882|        352|
@@ -113,7 +114,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         67901|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         67901|          1|
 |language.Multiple languages       |         0.0|         100.0|         67901|          2|
-|publisher                         |         0.0|         100.0|         67901|       6591|
 |pagecount                         |         0.0|         100.0|         67901|        997|
 |gatherings.original               |         0.0|         100.0|         67901|         18|
 |obl.original                      |         0.0|         100.0|         67901|          2|

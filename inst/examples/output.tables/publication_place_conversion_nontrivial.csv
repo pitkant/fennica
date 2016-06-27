@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	35740	
+Total count: 	36247	
 Helsingfors	Helsinki	10969
 Aboae	Turku	 4871
 [Vasa]	Vaasa	 2312
@@ -9,6 +9,7 @@ Aboae	Turku	 4871
 Turusa	Turku	  854
 Stockholmisa	Stockholm	  715
 [Helsinki]	Helsinki	  531
+Viipuri	Vyborg	  506
 Borgå	Porvoo	  492
 Helsingissä	Helsinki	  458
 [Helsingfors]	Helsinki	  391
@@ -33,7 +34,7 @@ Porvoossa	Porvoo	  119
 Wasa	Vaasa	  119
 Fitchburg (Mass.)	Fitchburg Ma	  104
 Tryckt i Stockholm	Stockholm	   78
-[Viipuri]	Viipuri	   76
+[Viipuri]	Vyborg	   76
 Nikolaistad	Vaasa	   72
 Dorpati Livonorum	Tartu	   70
 Turusa prändätty	Turku	   67
@@ -426,7 +427,7 @@ New Haven	New Haven Ct	    2
 Kobenhavn	Copenhagen	    2
 Chigago (Ill.)	Chicago IL	    2
 Kotkassa	Kotka	    2
-[Fürth]	Furth	    2
+[Fürth]	Fürth	    2
 Jacobstad	Pietarsaari	    2
 Lojo	Lohja	    2
 Lahdessa	Lahti	    2
@@ -463,7 +464,7 @@ Tryckt i Rostock	Rostock	    2
 [En Abóa]	Turku	    2
 At the Theater in Oxford	Oxford	    2
 Franckfurt am Mäyn und Leipzig	Frankfurt	    2
-[Viipuri?]	Viipuri	    2
+[Viipuri?]	Vyborg	    2
 Tryckt och vplagdt i Stockholm	Stockholm	    2
 Rijasa	Riga	    2
 Präntätyt Turusa	Turku	    2
@@ -616,7 +617,7 @@ Moscou	Moscow	    1
 Leitmeritz	Litoměrice	    1
 Saint-Pétersbourg	St Petersburg	    1
 Upsal	Uppsala	    1
-Poznán	Poznan	    1
+Poznán	Poznań	    1
 Cincinati	Cincinnati Oh	    1
 Te Dordrecht	Dordrecht	    1
 Christianstad	Copenhagen	    1
@@ -644,7 +645,7 @@ Vitebergae	Wittenberg	    1
 St.Michel	Mikkeli	    1
 Pejteri	St Petersburg	    1
 Gel'singfors' ;;S.-Peterburg'	Helsinki	    1
-Viipuri ;;Mikkeli ;;Viipuri	Mikkeli	    1
+Viipuri ;;Mikkeli ;;Viipuri	Vyborg	    1
 Oulu ;;Turku	Oulu	    1
 Mikkeli ;;Viipuri	Mikkeli	    1
 Annettu Wiipurissa	Vyborg	    1
@@ -678,7 +679,7 @@ J. Cedervaller poikineen	Vyborg	    1
 Jyväskylän kaupunnissa	Jyväskylä	    1
 Helsinki 4b Frenckell	Helsinki	    1
 Luulaja	Lulea	    1
-Viipuri ;;St. Mikkeli ;;Viipuri	Mikkeli	    1
+Viipuri ;;St. Mikkeli ;;Viipuri	Vyborg	    1
 Borgosa	Porvoo	    1
 Waasassa	Vaasa	    1
 Pietarporissa	St Petersburg	    1
@@ -791,6 +792,7 @@ Vibourg	Vyborg	    1
 Neapel	Naples	    1
 [Lovisa]	Loviisa	    1
 [Jakobstad]	Pietarsaari	    1
+Kristinehamn	Kristiinankaupunki	    1
 Ugra	Smolensk	    1
 [Pieksämäki]	Pieksämäki	    1
 Haukilahti	Espoo	    1
@@ -1039,7 +1041,7 @@ Amsterodami	Amsterdam	    1
 [Warschau?]	Warsaw	    1
 Edita Wittebergae	Wittenberg	    1
 Gedrukt zu Vlm	Ulm	    1
-Tryckt på Wijsingzborg	Wijsingzborg	    1
+Tryckt på Wijsingzborg	Visingsborg	    1
 Tryckte j Stockholm	Stockholm	    1
 Präntätyd Stocholmisa	Stockholm	    1
 Imprimebatur Wisingsbvrgi	Visingsborg	    1

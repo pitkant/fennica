@@ -6,15 +6,32 @@ output: markdown_document
 ---
 
 
+```r
+#opts_chunk$set(comment=NA, fig.width=6, fig.height=6)
+opts_chunk$set(fig.path = "figure/size-")
+```
+
+
 ## Page counts
 
-[Page conversions from raw data to final page count estimates](output.tables/pagecount_conversion_nontrivial.csv)
+  * Page count missing and estimated for 1518 documents (0.0223561%).
+
+  * Page count missing and could not be estimated for 0 documents
+
+  * Page count updated for 0 documents.
+  
+  * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversion_nontrivial.csv)
 
 <!--[Page conversions from raw data to final page count estimates with volume info](output.tables/page_conversion_table_full.csv)-->
 
-[Discarded pagecount info](output.tables/pagecount_discarded.csv)
+  * [Discarded pagecount info](output.tables/pagecount_discarded.csv)
 
-[Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
+  * [Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
+
+
+Visual summary of the estimated page counts per gatherings (shown only for the 1518 documents that have missing pagecount info in the original data):
+
+![plot of chunk size-estimated](figure/size-size-estimated-1.png)
 
 ## Document size comparisons
 
@@ -38,30 +55,30 @@ These include estimates that are based on auxiliary information sheets:
 
 Document size (area) info in area is available for 34758 documents (51%). Estimates of document size (area) info in gatherings system are available for 67901 documents (100%). 
 
-![plot of chunk summarysize](figure/summarysize-1.png)
+![plot of chunk size-summary](figure/size-size-summary-1.png)
 
 
 Compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
-![plot of chunk summarysizecomp](figure/summarysizecomp-1.png)
+![plot of chunk size-comp](figure/size-size-comp-1.png)
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
 
-![plot of chunk summary-surfacearea](figure/summary-surfacearea-1.png)
+![plot of chunk size-surfacearea](figure/size-size-surfacearea-1.png)
 
 
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 1518 documents and updated (changed) for 0 documents. 
+Compare gatherings and page counts. 
 
 
-![plot of chunk summarypagecomp](figure/summarypagecomp-1.png)
+![plot of chunk size-pagecomp](figure/size-size-pagecomp-1.png)
 
 Compare original gatherings and original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
-![plot of chunk summarysizevalidation](figure/summarysizevalidation-1.png)
+![plot of chunk size-validation](figure/size-size-validation-1.png)
 
 ### Gatherings timelines
 
-<img src="figure/papercompbyformat-1.png" title="plot of chunk papercompbyformat" alt="plot of chunk papercompbyformat" width="430px" /><img src="figure/papercompbyformat-2.png" title="plot of chunk papercompbyformat" alt="plot of chunk papercompbyformat" width="430px" />
+<img src="figure/size-size-compbyformat-1.png" title="plot of chunk size-compbyformat" alt="plot of chunk size-compbyformat" width="430px" /><img src="figure/size-size-compbyformat-2.png" title="plot of chunk size-compbyformat" alt="plot of chunk size-compbyformat" width="430px" />
 
 
 
@@ -92,14 +109,14 @@ Multi-volume documents average page counts are given per volume.
 |NA            |               111.27|                     61|       37596|NA                  |NA                    |         NA|NA               |NA                 |      NA|
 
 
-![plot of chunk summarypagecountsmulti2](figure/summarypagecountsmulti2-1.png)
+![plot of chunk size-pagecountsmulti2](figure/size-size-pagecountsmulti2-1.png)
 
 
 ## Average document dimensions 
 
 Here we use the original data only:
 
-![plot of chunk summaryavedimstime](figure/summaryavedimstime-1.png)
+![plot of chunk size-avedimstime](figure/size-size-avedimstime-1.png)
 
 
 
