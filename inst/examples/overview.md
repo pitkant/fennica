@@ -63,7 +63,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                       |        33.0|          67.0|         45516|      11972|
 |author                            |        33.0|          67.0|         45516|      12036|
 |publisher                         |        12.4|          87.6|         59511|       6610|
-|country                           |         4.1|          95.9|         65117|         32|
+|country                           |         4.1|          95.9|         65142|         33|
 |publication_place                 |         4.0|          96.0|         65171|        407|
 |pagecount.orig                    |         2.2|          97.8|         66383|        998|
 |latitude                          |         1.1|          98.9|         67156|        333|

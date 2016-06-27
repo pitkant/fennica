@@ -10,7 +10,7 @@ Altdorf	Germany	    3
 Altenstein	Germany	    3
 Amersfoort	Netherlands	    1
 Amsterdam	Netherlands	   46
-Ancona	NA	    1
+Ancona	Italy	    1
 Anttola	Finland	    1
 Antwerp	Belgium	    4
 Archangelsk	Russia	    5
@@ -70,9 +70,9 @@ Firenze	Italy	    7
 Fitchburg Ma	USA	  127
 Forssa	Finland	    7
 Frankfurt	Germany	   14
-Freiburg	NA	    1
+Freiburg	Germany	    1
 Freiburg im Breisgau	Germany	    1
-Fürth	NA	    2
+Fürth	Germany	    2
 Geneve	Switzerland	    2
 Gera	Germany	    1
 Giessen	Germany	    8
@@ -122,7 +122,7 @@ Impilahti	Finland	    1
 Inari	Finland	    1
 Inkoo	Finland	    1
 Ironwood Mi	USA	   11
-Isafjördur	NA	    6
+Isafjördur	Iceland	    6
 Ishpeming Mi	USA	    7
 Isokyrö	Finland	    7
 Jaakkima	Finland	    1
@@ -134,7 +134,7 @@ Janakkala	Finland	    1
 Jelgava	Latvia	    6
 Jena	Germany	   21
 Joensuu	Finland	  106
-Jönköping	NA	    5
+Jönköping	Sweden	    5
 Juva	Finland	    3
 Jyväskylä	Finland	  971
 Kainuu	Finland	    3
@@ -162,7 +162,7 @@ Kiel	Germany	    4
 Kiiminki	Finland	    2
 Kirchhain	Germany	    1
 Kirkkonummi	Finland	    2
-Kirov	NA	    1
+Kirov	Russia	    1
 Kirvu	Finland	    1
 Kivennapa	Finland	    1
 Kodisjoki	Finland	    1
@@ -201,9 +201,9 @@ Letchworth	England	    1
 Liepaja	Latvia	    1
 Linköping	Sweden	   19
 Lisbon	Portugal	    1
-Litoměrice	NA	    1
+Litoměrice	Czech Republic	    1
 Liverpool	England	    1
-Ljungsbro	NA	    1
+Ljungsbro	Sweden	    1
 Lohja	Finland	    3
 Lohtaja	Finland	    1
 Loimaa	Finland	    1
@@ -289,7 +289,7 @@ Pori	Finland	  645
 Port Arthur On	Canada	   22
 Portland Or	USA	    1
 Porvoo	Finland	 3685
-Poznań	NA	    1
+Poznań	Poland	    1
 Prague	Czech Republic	    1
 Purleigh	England	    1
 Quedlinburg	Germany	    1
@@ -328,9 +328,9 @@ Siena	Italy	    1
 Simola	Finland	    1
 Skara	Sweden	   28
 Smithville Mn	USA	    2
-Smolensk	NA	    1
+Smolensk	Russia	    1
 Sortavala	Russia	  519
-Stade	NA	    1
+Stade	Germany	    1
 St Louis Kaunti Mi	USA	    1
 Stockholm	Sweden	 3957
 Stockton	England	    2
@@ -350,7 +350,7 @@ Tammela	Finland	    1
 Tammisaari	Finland	  146
 Tampere	Finland	 2233
 Tartu	Estonia	  216
-Telč	NA	    1
+Telč	Czech Republic	    1
 Terijoki	Finland	    7
 Terni	Finland	    1
 Tervonsalmi	Finland	    1
@@ -362,7 +362,7 @@ Tornio	Finland	    9
 Trieste	Italy	    2
 Tromsö	Norway	    4
 Trondheim	Norway	    1
-Tsing-shin	NA	    1
+Tsing-shin	China	    1
 Tubingen	Germany	    7
 Turenki	Finland	   16
 Turku	Finland	13419
@@ -404,6 +404,6 @@ Ylistaro	Finland	    1
 Ylivieska	Finland	    1
 York	England	    1
 Ypäjä	Finland	    2
-Żary	NA	    2
+Żary	Poland	    2
 Zürich	Germany	    7
 NA	NA	 2730
