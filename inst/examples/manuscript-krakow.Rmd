@@ -158,18 +158,7 @@ TODO: try check duplicates. Clustering with identical place, identical year, nea
 
 TODO: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
 
-virret	 
-arkkiveisut	 
-hartauskirjat	 
-katekismukset	 
-rukouspäivät	 
-saarnat	 
-aapiset	 
-rukoukset	  
-rukous	  
-hengelliset laulut	  
-hartauspuheet	  
-virsikirjat	  
+virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat	  
 
 Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (suomi vs. ruotsi). ko. analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys.
 
