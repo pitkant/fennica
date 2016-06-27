@@ -1,0 +1,147 @@
+original	polished	Count
+Total count: 	20306	
+swe	Swedish	8694
+lat	Latin	6257
+fin	Finnish	3033
+lat;swe	Latin;Swedish	 597
+lat;grc	Latin;Greek, Ancient (to 1453)	 272
+ger	German	 247
+swe;lat	Swedish;Latin	 187
+lat;fre	Latin;French	 104
+fre	French	 100
+swe;fin	Swedish;Finnish	  81
+lat;grc;swe	Latin;Greek, Ancient (to 1453);Swedish	  64
+lat;ger	Latin;German	  45
+rus	Russian	  44
+eng	English	  40
+lat;swe;grc	Latin;Swedish;Greek, Ancient (to 1453)	  38
+NA	NA	  32
+fin;swe	Finnish;Swedish	  30
+lat;swe;fin	Latin;Swedish;Finnish	  26
+lat;fre;swe	Latin;French;Swedish	  25
+lat;swe;fre	Latin;Swedish;French	  25
+lat;fin	Latin;Finnish	  24
+mul	Multiple languages	  23
+lat;heb	Latin;Hebrew	  22
+grc	Greek, Ancient (to 1453)	  14
+dut	Dutch	  14
+fin;lat	Finnish;Latin	  13
+grc;lat	Greek, Ancient (to 1453);Latin	  12
+und	NA	  12
+ger;lat	German;Latin	  11
+dan	Danish	  10
+swe;fre	Swedish;French	  10
+lat;eng	Latin;English	   9
+lat;swe;ger	Latin;Swedish;German	   8
+lat;heb;swe	Latin;Hebrew;Swedish	   7
+lat;ger;swe	Latin;German;Swedish	   7
+swe;ger	Swedish;German	   6
+ita	Italian	   5
+lat;heb;grc	Latin;Hebrew;Greek, Ancient (to 1453)	   5
+swe;lat;grc	Swedish;Latin;Greek, Ancient (to 1453)	   4
+grc;lat;swe	Greek, Ancient (to 1453);Latin;Swedish	   3
+lat;grc;ger	Latin;Greek, Ancient (to 1453);German	   3
+swe;ger;lat	Swedish;German;Latin	   3
+swe;lat;fin	Swedish;Latin;Finnish	   3
+swe;lat;ger	Swedish;Latin;German	   3
+ger;swe	German;Swedish	   3
+lat;ita	Latin;Italian	   3
+lat;grc;fin	Latin;Greek, Ancient (to 1453);Finnish	   3
+lat;ara;swe	Latin;Arabic;Swedish	   3
+lat;ger;fre	Latin;German;French	   3
+lat;swe;heb	Latin;Swedish;Hebrew	   3
+rus;fre	Russian;French	   2
+grc;swe	Greek, Ancient (to 1453);Swedish	   2
+dut;swe;eng;fre	Dutch;Swedish;English;French	   2
+lat;grc;fre;swe	Latin;Greek, Ancient (to 1453);French;Swedish	   2
+lat;ita;grc;fre	Latin;Italian;Greek, Ancient (to 1453);French	   2
+lat;grc;fre	Latin;Greek, Ancient (to 1453);French	   2
+swe;ger;fre	Swedish;German;French	   2
+ger;swe;lat	German;Swedish;Latin	   2
+lat;ger;grc	Latin;German;Greek, Ancient (to 1453)	   2
+lat;grc;heb	Latin;Greek, Ancient (to 1453);Hebrew	   2
+lat;fin;swe	Latin;Finnish;Swedish	   2
+u	NA	   2
+swe;fin;lat	Swedish;Finnish;Latin	   2
+smi;swe	Sami;Swedish	   2
+smi	Sami	   2
+lat;swe;ger;fin	Latin;Swedish;German;Finnish	   2
+swe;eng	Swedish;English	   2
+lat;grc;heb;swe	Latin;Greek, Ancient (to 1453);Hebrew;Swedish	   2
+lat;swe;fre;fin	Latin;Swedish;French;Finnish	   2
+lat;grc;swe;fre	Latin;Greek, Ancient (to 1453);Swedish;French	   2
+lat;swe;eng	Latin;Swedish;English	   2
+swe;fin;ger	Swedish;Finnish;German	   1
+smi;sme	Sami;Northern Sami	   1
+ger;fin	German;Finnish	   1
+ger;rus	German;Russian	   1
+rus;swe	Russian;Swedish	   1
+lat;swe;rus	Latin;Swedish;Russian	   1
+krl	Karelian	   1
+fre;swe	French;Swedish	   1
+krl;rus	Karelian;Russian	   1
+lat;rus;swe	Latin;Russian;Swedish	   1
+lat;rus	Latin;Russian	   1
+lat;swe;ger;fre	Latin;Swedish;German;French	   1
+lat;gre;swe	Latin;Greek, Modern (1453-);Swedish	   1
+lat;dut	Latin;Dutch	   1
+dan;lat	Danish;Latin	   1
+rus;lat	Russian;Latin	   1
+rus;ger	Russian;German	   1
+sme	Northern Sami	   1
+fin;rus	Finnish;Russian	   1
+por	Portuguese	   1
+ger;fre	German;French	   1
+swe;lat;fre;grc	Swedish;Latin;French;Greek, Ancient (to 1453)	   1
+lat;eng;fre;heb	Latin;English;French;Hebrew	   1
+lat;swe;eng;fre	Latin;Swedish;English;French	   1
+lat;fin;grc	Latin;Finnish;Greek, Ancient (to 1453)	   1
+lat;fre;swe;grc	Latin;French;Swedish;Greek, Ancient (to 1453)	   1
+lat;grc;swe;fin;ger;dut;ita	Latin;Greek, Ancient (to 1453);Swedish;Finnish;German;Dutch;Italian	   1
+lat;swe;ger;fre;fin;heb;grc	Latin;Swedish;German;French;Finnish;Hebrew;Greek, Ancient (to 1453)	   1
+swe;mul	Swedish;Multiple languages	   1
+heb;grc;lat	Hebrew;Greek, Ancient (to 1453);Latin	   1
+lat;eng;fre;ita;dut;grc	Latin;English;French;Italian;Dutch;Greek, Ancient (to 1453)	   1
+lat;grc;eng;heb;swe	Latin;Greek, Ancient (to 1453);English;Hebrew;Swedish	   1
+heb	Hebrew	   1
+swe;smi	Swedish;Sami	   1
+swe;smj	Swedish;Lule Sami	   1
+lat;ita;grc	Latin;Italian;Greek, Ancient (to 1453)	   1
+fin;lat;ger	Finnish;Latin;German	   1
+fre;swe;fin	French;Swedish;Finnish	   1
+spa	Spanish	   1
+lat;grc;syr	Latin;Greek, Ancient (to 1453);Syriac, Modern	   1
+swe;fre;lat;ger	Swedish;French;Latin;German	   1
+swe;heb	Swedish;Hebrew	   1
+lat;grc;swe;ger	Latin;Greek, Ancient (to 1453);Swedish;German	   1
+swe;grc	Swedish;Greek, Ancient (to 1453)	   1
+ita;lat	Italian;Latin	   1
+fin;fre	Finnish;French	   1
+lat;fin;ger	Latin;Finnish;German	   1
+lat;grc;eng;fre;heb	Latin;Greek, Ancient (to 1453);English;French;Hebrew	   1
+lat;heb;grc;swe	Latin;Hebrew;Greek, Ancient (to 1453);Swedish	   1
+fin;lat;swe;grc;ger;heb	Finnish;Latin;Swedish;Greek, Ancient (to 1453);German;Hebrew	   1
+eng;swe;fin	English;Swedish;Finnish	   1
+fin;lat;swe	Finnish;Latin;Swedish	   1
+smi;dan	Sami;Danish	   1
+lat;eng;swe;fre	Latin;English;Swedish;French	   1
+lat;fre;swe;ger	Latin;French;Swedish;German	   1
+lat;grc;ger;swe	Latin;Greek, Ancient (to 1453);German;Swedish	   1
+lat;eng;fre;swe;ita	Latin;English;French;Swedish;Italian	   1
+lat;fre;ger;swe	Latin;French;German;Swedish	   1
+lat;eng;swe	Latin;English;Swedish	   1
+lat;swe;eng;fin	Latin;Swedish;English;Finnish	   1
+lat;ara	Latin;Arabic	   1
+swe;fre;lat	Swedish;French;Latin	   1
+lat;ger;fre;swe	Latin;German;French;Swedish	   1
+lat;fre;grc	Latin;French;Greek, Ancient (to 1453)	   1
+swe;lat;fre	Swedish;Latin;French	   1
+lat;swe;fin;eng	Latin;Swedish;Finnish;English	   1
+lat;eng;fre;ger;swe	Latin;English;French;German;Swedish	   1
+lat;fin;fre;swe	Latin;Finnish;French;Swedish	   1
+lat;ger;swe;fre	Latin;German;Swedish;French	   1
+lat;ger;heb;fre;swe	Latin;German;Hebrew;French;Swedish	   1
+lat;grc;heb;swe;fin	Latin;Greek, Ancient (to 1453);Hebrew;Swedish;Finnish	   1
+lat;heb;grc;swe;fin	Latin;Hebrew;Greek, Ancient (to 1453);Swedish;Finnish	   1
+lat;heb;eng	Latin;Hebrew;English	   1
+lat;swe;heb;grc	Latin;Swedish;Hebrew;Greek, Ancient (to 1453)	   1
