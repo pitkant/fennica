@@ -9,8 +9,8 @@ output: markdown_document
 
  * 40 unique languages
  * The languages may come in [combinations](output.tables/language_conversions.csv)
- * 4107 docs (6.05%) with multiple languages
- * 724 docs (1.07%) with no recognized language 
+ * 1795 docs (8.84%) with multiple languages
+ * 46 docs (0.23%) with no recognized language 
  * [Discarded languages](output.tables/language_discarded.csv)
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv).
@@ -25,10 +25,10 @@ Title count per language (including multi-language documents):
 
 |Language           | Documents (n)| Fraction (%)|
 |:------------------|-------------:|------------:|
-|Finnish            |         30765|         43.1|
-|Swedish            |         24428|         34.2|
-|Latin              |          6906|          9.7|
-|Multiple languages |          4107|          5.7|
-|German             |          2242|          3.1|
-|French             |          1005|          1.4|
+|Swedish            |          9588|         43.6|
+|Latin              |          6511|         29.6|
+|Finnish            |          3191|         14.5|
+|Multiple languages |          1795|          8.2|
+|German             |           348|          1.6|
+|French             |           306|          1.4|
 
