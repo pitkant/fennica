@@ -172,6 +172,7 @@ Relevant summaries can be moved here and polished. Which figures at least ? Just
   * [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
+Voisiko nämä molemmat rajata tätä analyysia varten 1640-1828? Voisin sitten poimia sieltä sopivat summaryt tänne tuotaviksi. Mielessä on mm. https://github.com/rOpenGov/fennica/blob/master/inst/examples/author.md Niin että täältä ottaisi top-author timelinen molemmista Fennicasta ja Kungligasta vierekkäin. Tätä ennen pitää kuitenkin tehdä näiden top-auktoreiden osalta putsaus. Kun aineisto rajattu nyt tarkasteltaviin niin tiedetään sitten mitkä auktorit tätä varten putsataan.
 
 Overall development in publishing activity:
 
