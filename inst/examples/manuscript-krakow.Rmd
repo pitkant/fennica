@@ -163,7 +163,9 @@ virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;ru
 Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (suomi vs. ruotsi). ko. analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys.
 
 
-Muutenkin, näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa. Mm. yleinen vertailu suomen-, ruotsin- ja muun kielisestä materiaalista Fennicassa aikajanalla.
+Muutenkin, näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa. 
+
+TODO: yleinen vertailu suomen-, ruotsin- ja muun kielisestä materiaalista Fennicassa aikajanalla.
 
 ### General trends: Fennica vs. Kungliga
 
