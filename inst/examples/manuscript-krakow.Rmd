@@ -103,7 +103,7 @@ numbered and collected in references section.
 
 ## Results
 
-Why Fennica has huge drop in 1700s. Do some publisher disappear (TODO). Let us look at top publication places during the period 1650-1750 in Fennica: 
+Why Fennica has huge drop in 1700s? Do some publisher disappear (TODO)? Let us look at top publication places during the period 1650-1750 in Fennica: 
 
 ```{r drop1700, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
 
@@ -150,7 +150,7 @@ for (myplace in selected.places) {
 }
 ```
 
-
+The drop in Fennica is explained largely by Great Nortern War (1700-1721). The war and difficult times seems to hit Turku particularly hard in early eighteenth century. What is telling also is that the curve of overall publishing activity in Kungliga is much steeper in eighteenth century compared to Fennica also in the second half of the century. This is the Enlightenment’s rising trend of knowledge production in most of Europe (for example ESTC has a similar development with Kungliga). Thus, development of publishing in Finland is much slower compared to larger European centers in the eighteenth century – this is an important context for the even further difficulties that follow after 1828.
 
 
 
