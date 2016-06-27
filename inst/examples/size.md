@@ -6,15 +6,11 @@ output: markdown_document
 ---
 
 
-```r
-#opts_chunk$set(comment=NA, fig.width=6, fig.height=6)
-opts_chunk$set(fig.path = "figure/size-")
-```
 
 
 ## Page counts
 
-  * Page count missing and estimated for 1518 documents (0.0223561%).
+  * Page count missing and estimated for 643 documents (0.0316655%).
 
   * Page count missing and could not be estimated for 0 documents
 
@@ -29,7 +25,7 @@ opts_chunk$set(fig.path = "figure/size-")
   * [Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
 
 
-Visual summary of the estimated page counts per gatherings (shown only for the 1518 documents that have missing pagecount info in the original data):
+Visual summary of the estimated page counts per gatherings (shown only for the 643 documents that have missing pagecount info in the original data):
 
 ![plot of chunk size-estimated](figure/size-size-estimated-1.png)
 
@@ -67,11 +63,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 ![plot of chunk size-surfacearea](figure/size-size-surfacearea-1.png)
 
 
-<<<<<<< HEAD
-Compare gatherings and page counts. Page count information is originally missing but subsequently estimated for 643 documents and updated (changed) for 0 documents. 
-=======
 Compare gatherings and page counts. 
->>>>>>> 4aa939a4fa9526696812b1883e45d7750adcb44a
 
 
 ![plot of chunk size-pagecomp](figure/size-size-pagecomp-1.png)
