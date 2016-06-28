@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 6615 [unique publishers](output.tables/publisher_accepted.csv)
+ * 7299 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60128 documents have unambiguous publisher information (88%). 
+ * 63065 documents have unambiguous publisher information (88%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -40,13 +40,13 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles| paper|
 |:-------------------------------|------:|-----:|
-|                                |   2041|  1.86|
-|<<Author>>                      |   1734|  0.38|
-|Frenckell, Johan Christopher I  |   1744|  0.82|
-|Frenckell, Johan Christopher II |   2216|  2.41|
-|Hansson, Peter                  |   1095|  1.78|
+|                                |   3353|  2.33|
+|<<Author>>                      |   1734|  0.37|
+|Frenckell, Johan Christopher I  |   1744|  0.78|
+|Frenckell, Johan Christopher II |   2216|  1.40|
+|Hansson, Peter                  |   1095|  0.84|
 |Londicer, Georg Wilhelm         |   2110|  0.18|
-|Otava                           |   2128|  1.12|
-|Söderström                      |   1176|  0.54|
-|Wall, Johan Larsson             |   1404|  1.07|
-|WSOY                            |   2802|  1.04|
+|Otava                           |   2129|  1.12|
+|Söderström                      |   1177|  0.52|
+|Wall, Johan Larsson             |   1404|  0.82|
+|WSOY                            |   2802|  1.00|

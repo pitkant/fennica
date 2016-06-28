@@ -1,34 +1,34 @@
 original	polished	Count
-Total count: 	32466	
+Total count: 	34286	
 [G. W. Londicer]	Londicer, Georg Wilhelm	1821
 Tekijä	<<Author>>	1535
 typis Frenckellianis	Frenckell, Johan Christopher II	 898
 G. W. Edlund	G.W. Edlund	 869
 [J. C. Frenckell]	Frenckell, Johan Christopher I	 685
 Förf.	Förf	 506
+[s.n.]		 484
 [C. A. Londicer]	Londicer, Carl Anton	 481
 [J. C. Frenckell]	Frenckell, Johan Christopher II	 479
 [Johan Winter]	Winter, Johan	 364
 [Johan Larsson Wall]	Wall, Johan Larsson	 274
 typis Frenckellianis	J. C. Frenckell ja poika	 273
-Kansanvalistus-seura	Kansanvalistusseura	 262
+Kansanvalistus-seura	Kansanvalistusseura	 266
 [Peter Hansson]	Hansson, Peter	 249
 K. E. Holm	K.E. Holm	 217
 excudebat Petrus Wald, Acad. typogr.	Wald, Peder Eriksson	 214
-[s.n.]		 212
 impressit direct. & typogr. reg. magn. duc. Finland. Jacob Merckell	Merckell, Jacob	 198
 [J. C. Frenckells änka]	Johan Christopher Frenckellin leski	 185
 [G. W. Londicers änka]	Londicerin leski	 181
 impressit Joh. Christoph. Frenckell	Frenckell, Johan Christopher I	 136
 [Tekijä]	<<Author>>	 131
 tryckt hos Johan Christopher Frenckell	Frenckell, Johan Christopher I	 126
-[Suomalaisen Kirjallisuuden Seura]	Suomalaisen Kirjallisuuden Seura	 115
+[Suomalaisen Kirjallisuuden Seura]	Suomalaisen Kirjallisuuden Seura	 116
 [Johan Wall]	Wall, Johan Larsson	 112
 excusa â Petro Hansonio Acad. typ.	Hansson, Peter	 107
 typis Frenckelliorum	J. C. Frenckell ja poika	 106
-WSOY		 103
+WSOY		 106
 in officina Frenckelliana	Frenckell, Johan Christopher II	 102
-G. W. Wilén	G.W. Wilén	 100
+G. W. Wilén	G.W. Wilén	 101
 exc. Jo. Wal.	Wall, Johan Larsson	  92
 Edlundska bokhandeln, distr.	Edlundska bokhandeln, distr	  91
 U. W. Telén & C:o	U.W. Telén & Co	  90
@@ -49,15 +49,16 @@ tryckt hos Joh. Christoph. Frenckell	Frenckell, Johan Christopher I	  64
 [Finska Litteratur-sällskapets tryckeri]	Finska Litteratur-sällskapets tryckeri	  63
 Työväen sanomalehti-o.y.	Työväen sanomalehti-o.y	  62
 Yrjö Weilin & Kumpp.	Yrjö Weilin & Coumpp	  61
-Clouberg		  56
+Clouberg		  57
 impr. apud Jo. Wallium	Wall, Johan Larsson	  56
 tryckt af Joh. Kiämpe Kongl. acad. boktr.	Kämpe, Johan	  52
 impressit Johannes Christophorus Frenckell	Frenckell, Johan Christopher I	  52
 tryckt i Kongl. tryckeriet	Fougt, Elsa	  51
 Työväen sanomalehti	Työväen sanomalehti-o.y	  50
+Otava		  50
 [Jacob Merckell]	Merckell, Jacob	  50
+K. J. Gummerus	K.J. Gummerus	  49
 exc. apud Joh. L. Wallium, A. t.	Wall, Johan Larsson	  49
-K. J. Gummerus	K.J. Gummerus	  48
 impressa â Petro Hansonio Acad. typ.	Hansson, Peter	  48
 [H. C. Merckell]	Merckell, Henric Christopher	  48
 P. A. Norstedt & Söner	P.A. Norstedt & Söner	  47
@@ -76,7 +77,6 @@ Finskugriska sällskapet	Finsk-ugriska sällskapet	  39
 Författaren	Författare	  39
 Societas pro fauna et flora Fennica		  39
 tryckt hos Lars Salvius	Salvius, Lars	  39
-Otava		  38
 prändätty Johan Christopher Frenckellildä	Frenckell, Johan Christopher I	  38
 excud. Joh. Kaempe, Reg. Acad. typ.	Kämpe, Johan	  38
 excud. Joh. Kiaempe, Reg. Acad. typ.	Kämpe, Johan	  38
@@ -89,8 +89,8 @@ Lillja :;Wilén	Lillja	  36
 Utg.	Utg	  36
 prändätty, directeurildä ja cuningalliselda kirjan präntäjäldä, Jacob Merckellildä	Merckell, Jacob	  36
 prändätty Cuning:sesa suomalaisesa präntisä	Carlbohm, Johan Arvid	  35
+Edlund		  34
 af Iohan Winter, kongl. booktr.	Winter, Johan	  34
-Edlund		  33
 [Johan Christofer Frenckell II]	Frenckell, Johan Christopher II	  33
 impr. apud Joh. L. Wallium, A. t.	Wall, Johan Larsson	  33
 tryckt hos direct. Lars Salvius	Salvius, Lars	  33
@@ -127,6 +127,7 @@ Gyldendalske Boghandel Nordisk Forlag	Gyldendalske Boghandel Nordisk	  26
 Gust. Ronelius	Gustav Ronelius	  26
 C. J. Bergström	C.J. Bergström	  26
 Suomen maanviljelys-taloudellinen koelaitos	Suomen maanviljelystaloudellinen koelaitos	  26
+G. W. Edlund		  26
 excusa â Petro Hansonio, Acad. typog.	Hansson, Peter	  26
 tryckt hos J. C. Frenckell	Frenckell, Johan Christopher II	  26
 [Frenckell]	Frenckell, Johan Christopher I	  26
@@ -165,9 +166,11 @@ hoos Ignatium Meurer	Meurer, Ignatius	  21
 prändätty Joh. Kiämpildä	Kämpe, Johan	  21
 Chr. Ev. Barck	Christian Evangeliska Barck	  20
 [Finska fornminnesföreningen]	Finska fornminnesföreningen	  20
+Työväen kp.	Työväen kp	  20
 Tekijä		  20
 Aikain Wartija	Aikain Vartija	  20
 Clouberg ja K.	Clouberg ja K	  20
+Söderström		  20
 impressa â Petro Hansonio, Acad. typog.	Hansson, Peter	  20
 excusa â Petro Hansonio	Hansson, Peter	  20
 af Iohan Winter	Winter, Johan	  20
@@ -194,6 +197,7 @@ J. F. Granlund	J.F. Granlund	  18
 [Wickström]	Wickström	  18
 Finska vetenskapsspcieteten	Finska Vetenskapssocieteten	  18
 [Förf.]	Förf	  18
+Weilin & Göös		  18
 exc. Jo. Wallius	Wall, Johan Larsson	  18
 tryckt hos Johan Ch. Frenckell	Frenckell, Johan Christopher II	  18
 prändätty Kuningalisesa suomalaisesa prändisä	Carlbohm, Arvid	  18
@@ -207,7 +211,6 @@ Société néophilogique de Helsinki	Société néophilogiqve de Helsinki	
 Lindstedts antikvariska bokhandel	Lindstedts antiqvariska bokhandel	  17
 Suomen Historiallinen seura		  17
 P. R. Wiitanen	P.R. Wiitanen	  17
-Työväen kp.	Työväen kp	  17
 Suomen metsänhoitoyhdistys Tapio	Suomen metsänhoitoyhdistys	  17
 excusa â Petro Hansonio A. t.	Hansson, Peter	  17
 prändätty G. W. Londicerildä	Londicer, Georg Wilhelm	  17
@@ -254,12 +257,12 @@ J. Simelii arfvingar	J. Simelii arvingar	  14
 [Frenckell]	Frenckell	  14
 [Kyrkomötet]	Kyrkomötet	  14
 [Svenska folkskolans vänner]	Svenska Folkskolans Vänner	  14
+Päivälehden kp.	Päivälehden kp	  14
 B. B. Bergdahl	B.B. Bergdahl	  14
 [Finska Metallindustrins Arbetsgifvareförbund]	Finska Metallindustrins Arbetsgivare	  14
 Victor Hoving		  14
 Osuuskunta Väinämöinen	Osuuskunta Wäinämöinen	  14
 Raittiuden ystävät		  14
-G. W. Edlund		  14
 tekijä	<<Author>>	  14
 [Peder Eriksson Wald]	Wald, Peder Eriksson	  14
 [Peder Wald]	Wald, Peder Eriksson	  14
@@ -276,6 +279,7 @@ Sällskapet för Finlands geografi		  13
 Geologiska Kommissionen :;Akademiska bokhandeln, jakaja	Geologiska kommissionen	  13
 H. W. Marjamaa	H.W. Marjamaa	  13
 B. E. Martin	B.E. Martin	  13
+Kuopion uusi kp.	Kuopion uusi kp	  13
 Lindstedt'in antikvaarinen kirjakauppa	Lindstedt'in antiqvaarinen kirjakauppa	  13
 Petrus Wald, Acad. typogr.	Wald, Peder Eriksson	  13
 Petrus Wald, Acad. typog.	Wald, Peder Eriksson	  13
@@ -300,13 +304,12 @@ Hufvudstadsblad'in kirjapaino :;Edlund	Huvudstadsblad'in kirjapaino	  12
 tryckt hos Carl Delén	Deleen, Carl	  12
 litteris Joh. Christoph. Frenckell & fil.	J. C. Frenckell ja poika	  12
 Suomen historiallinen seura		  12
-Päivälehden kp.	Päivälehden kp	  12
+KS		  12
 G. W. Edlund, distr.	G.W. Edlund, distr	  12
 Öfversättaren	Översättaren	  12
 W. Bensow	W. Bensov	  12
 G. A. Ekholm	G.A. Ekholm	  12
 [Suomen Keisarillinen Aleksanterin yliopisto]	Suomen Keisarillinen Aleksanterin yliopisto	  12
-Kuopion uusi kp.	Kuopion uusi kp	  12
 [Suomen historiallinen seura]	Suomen Historiallinen seura	  12
 Amerikan Sanomat		  12
 tryckt aff Johan Winter	Winter, Johan	  12
@@ -330,6 +333,7 @@ Suomen lähetys-seura	Suomen lähetysseura	  11
 Alb. Bonnier	Albert Bonnier	  11
 [Föreningen för arbetareskydd och socialförsäkring i Finland]	Föreningen för arbetareskydd & socialförsäkring i Finland	  11
 Satakunnan kp.	Satakunnan kp	  11
+Keisarillinen Suomen senaatti	Suomi 	  11
 Författarens förlag	Författare	  11
 Luukkonen ja Kumpp.	Luukkonen ja Kumpp	  11
 Lantbruksstyrelsen	Landtbruksstyrelsen	  11
@@ -361,6 +365,7 @@ Raittiuden ystäwät	Raittiuden ystävät	  10
 Lutherilainen evankeliumi-yhdistys	Lutherilainen Evankeliumi-yhtiö	  10
 Edlundska bokhandeln i distr	Edlundska bokhandeln, distr	  10
 [Nyländska afdelningen]	Nylands nation	  10
+Kauppakp.	Kauppakp	  10
 Hufvudstadsbladet	Huvudstadsbladet	  10
 [Finska Sparbanksföreningen]	Finska Sparbanksföreningen	  10
 Finlands Svenska Arbetareförbund	Finlands Svenska Arbetare	  10
@@ -371,6 +376,7 @@ Suomen muinaismuistoyhdistys	Suomen muinaismuisto-yhdistys	  10
 Toimittajat	Toimittaja	  10
 G. W. Edlundin kustannus	G.W. Edlundin kustannusoy	  10
 SKS	Suomalaisen Kirjallisuuden Seura	  10
+Gummerus		  10
 aff Johan Winter	Winter, Johan	  10
 aff Ignatio Meurer	Meurer, Ignatius	  10
 excudit Johannes Winter	Winter, Johan	  10
@@ -398,9 +404,7 @@ W. ja G.	W. ja G	   9
 GEJ. ja K.	GEJ. ja K	   9
 Fr. Vieweg & Sohn	Frederic Vieveg & Sohn	   9
 [Weilin & Göös]	Weilin & Göös	   9
-Kauppakp.	Kauppakp	   9
 [Finska Mosskulturförening]	Finska Mosskulturförening	   9
-Gummerus		   9
 [Författare]	Författare	   9
 Helios, distr.	Helios, distr	   9
 G. W. Edlundin kustannus-o.y.	G.W. Edlundin kustannusoy	   9
@@ -425,16 +429,19 @@ tryckt hos Johan C. Frenckell	Frenckell, Johan Christopher II	   9
 prändätty directeurildä ja cuning:da kirjan pränt. suuresa-ruhtinan-maasa Suomesa, Jacob Merckellildä	Merckell, Jacob	   9
 impr. apud Jo. Wal.	Wall, Johan Larsson	   9
 impressit direct. & typog. reg. m. duc. Finland. Jacob Merckell	Merckell, Jacob	   9
+J. C. Frenckell	J.C. Frenckell	   9
 [Pohjalainen osakunta]	Pohjalainen osakunta	   8
 Hufvudstadsblad'in kirjapaino :;Holm	Huvudstadsblad'in kirjapaino	   8
 Frenckelliläinen kirjapaino :;Granlund	Frenckelliläinen kirjapaino	   8
-J. C. Frenckell	J.C. Frenckell	   8
 [Suomalaisen Kirjallisuuden Seuran kirjapaino]	Suomalaisen Kirjallisuuden Seuran kirjapaino	   8
 Telén		   8
 tryckt hos F. J. Leverentz	Leverentz, Frans Jakob	   8
 prändätty J. C. Frenckellin tykönä	Frenckell, Johan Christopher II	   8
 ex officina J. C. Frenckell	J. C. Frenckell ja poika	   8
+Helsingfors stad	Helsingin kaupunki	   8
 P. H. Beijer	P.H. Beijer	   8
+Brage	Föreningen Brage	   8
+Nyländska afdelningen	Nylands nation	   8
 Befälhafvarestyrelsen	Befälhavarestyrelsen	   8
 Finska Historiska Samfundet		   8
 [Föreningen för främjande af allmännyttig byggnadsverksamhet]	Föreningen för främjande af allmännyttig byggnadsverksamhet	   8
@@ -455,6 +462,8 @@ Joh. K. Lindstedt	Johan K. Lindstedt	   8
 [Perustuslakikomitea]	Perustuslakikomitea	   8
 Tekijät	<<Author>>	   8
 J. F. Olánin kirjakauppa	J.F. Olánin kirjakauppa	   8
+Helios		   8
+K. E. Holm		   8
 impressa apud viduam Reg. Acad. typogr. Joh. Christoph. Frenckell	Johan Christopher Frenckellin leski	   8
 [s.l.]	s.l	   8
 Pietari Hannuxen pojalda Acad. typ.	Hansson, Peter	   8
@@ -497,11 +506,11 @@ Finsk ugriska sällskapet	Finsk-ugriska sällskapet	   7
 tryckt hos Johan Chr. Frenckell	Frenckell, Johan Christopher II	   7
 Hj. Hagelberg	Hjalmar Hagelberg	   7
 W. Benzow	W. Bensov	   7
+Senaten	Suomi 	   7
 E. E. Sundvall	E.E. Sundvall	   7
 Helsingin Sentr.-kp.	Helsingin Sentr.-kp	   7
 Henkivakuutus-yhtiö Suomi	Henkivakuutusyhtiö Suomi	   7
 [Hufvudstadsbladet]	Huvudstadsbladet	   7
-Nyländska afdelningen	Nylands nation	   7
 J. F. Olàn'in kirjakauppa	J.F. Olánin kirjakauppa	   7
 H. T. Bärlund	H.T. Bärlund	   7
 Luth. evang.-fören.	Luth. Evangeliska fören	   7
@@ -510,7 +519,6 @@ Otava, distr.	Otava, distr	   7
 Beijers bokförlagsaktiebolag	Beijers boksaktiebolag	   7
 Akademiska bokhandeln, distr.	Akademiska Bokhandeln, distr	   7
 Internat. Traktat- o. missionsföreningen	Internat. Traktat- & missionsföreningen	   7
-Söderström		   7
 [författare]	författare	   7
 [Föreningen för bekämpandet af tuberkulosen]	Föreningen för bekämpandet af tuberkulosen	   7
 Beijers Bokförlagsaktiebolag	Beijers Boksaktiebolag	   7
@@ -527,6 +535,8 @@ Kustannusoy Kirja	Kustannusoy. Kirja	   7
 Uus-uskonnollinen kustannusliike	Uususkonnollinen kustannusliike	   7
 Englannin ja ulkomaan pipliaseura	Englannin ja ulkomaan bibliaseura	   7
 Söderström & C:o i distr	Söderström & Co i distr	   7
+WSOY	Werner Söderström osakeyhtiö	   7
+Karjalan kp.	Karjalan kp	   7
 excusa typ. Acad. apud viduam Petri Waldz	Peder Eriksson Waldin leski	   7
 [Amund Laurentsson]	Laurentsson, Amund	   7
 impr. apud Jo. L. Wallium	Wall, Johan Larsson	   7
@@ -559,9 +569,9 @@ typis viduae Reg. Acad. typogr. Joh. C. Frenckell	Johan Christopher Frenckellin 
 [G. Klint]	G. Klint	   6
 [C. A. Gottlund]	C.A. Gottlund	   6
 [Société de Géographie de Finlande]	Société de Géographie de Finlande	   6
+Kalenteri		   6
 J. Länkeläs förlag	J. Länkelä	   6
 [s.n.]	Valtionarkisto	   6
-Brage	Föreningen Brage	   6
 excudebant J. C. Frenckell & fil.	J. C. Frenckell ja poika	   6
 Tipografìâ Imperatorskago senata	Suomi 	   6
 Imperatorskìj senat'	Suomi 	   6
@@ -581,9 +591,12 @@ tryckte hos J. C. Frenckell	Frenckell, Johan Christopher II	   6
 excudebant J. C. Frenckell [et] fil.	J. C. Frenckell ja poika	   6
 J. F. Olan	J.F. Olan	   6
 Sen. kp.	Sen. kp	   6
+Åbo stad	Turun kaupunki	   6
 C. W. Alopaeus	C.W. Alopaeus	   6
 Tammerfors Nyheter'in kp.	Tammerfors Nyheter'in kp	   6
+J. H. Tuhkanen	J.H. Tuhkanen	   6
 [Geografiska föreningen]	Geografiska föreningen	   6
+Landtbruksstyrelsen	Maanviljelyshallitus	   6
 P. G. Philipsen	P.G. Philipsen	   6
 Sammon kp.	Sammon kp	   6
 Luukkonen ja kumpp.	Luukkonen ja Kumpp	   6
@@ -602,7 +615,6 @@ K. F. U. K.	K. F. U. M	   6
 Vilho Leikas & C:o	Vilho Leikas & Co	   6
 M. W. Wuolukka	M.W. Wuolukka	   6
 Kansanvalistusseura		   6
-Karjalan kp.	Karjalan kp	   6
 Nuorten naisten kristillinen yhdistys	Nuorten miesten kristillinen yhdistys	   6
 W. Toiwonen	W. Toivonen	   6
 Kustannus-oy. Kirja	Kustannusoy. Kirja	   6
@@ -612,7 +624,7 @@ Edistysseurojen kustannusoy.	Edistysseurojen kustannusoy	   6
 Sortavalan evank.seura	Sortavalan evank. seura	   6
 [s.a.]	s.a	   6
 [J. W. Lillja]	J.W. Lillja	   6
-Helios		   6
+Otto Andersin		   6
 impr. apud Johannem Wallium	Wall, Johan Larsson	   6
 impr. apud Joh. Laurentii Wallium, Regiae Univ. ibid. typogr.	Wall, Johan Larsson	   6
 typis exscribebat Petrus Wald Acad. typographus	Wald, Peder Eriksson	   6
@@ -655,6 +667,7 @@ exc. J. Kiaempe, R. Ac. typ.	Kämpe, Johan	   6
 excud. R. Ac. typ. Joh. Kiämpe	Kämpe, Johan	   6
 excud. Joh. Kiaempe, R. Acad. typogr.	Kämpe, Johan	   6
 exc. J. Wal.	Wall, Johan Larsson	   6
+J. C. Frenckell		   6
 Clouberg & kumpp. (W. Hoving)		   5
 [Sällskapet för Finlands geografi]	Sällskapet för Finlands geografi	   5
 Liewendal's lith. tryckeri	Lievendal's lith. tryckeri	   5
@@ -675,20 +688,23 @@ G. O. Wasenius	G.O. Wasenius	   5
 P. Aschan ja K.	P. Aschan ja K	   5
 A. Manninen ja Fr. Ahlqvist	A. Manninen ja Frederic Ahlqvist	   5
 [Savo-karjalainen osakunta]	Savo-karjalainen osakunta	   5
-KS		   5
+Turistföreningen i Finland	Suomen matkailijayhdistys	   5
 [J. Westerback],;Oulun kirjapaino-oy.		   5
 A. W. Lindgren	A.W. Lindgren	   5
 Turun kirjapainon osakeyhtiö	Turun kirjapaino-osakeyhtiö	   5
 gedruckt bei M. C. Iversen	Iversen, Martin Christoph	   5
 prändätty Joh. C. Frenckellin tykönä	Frenckell, Johan Christopher II	   5
 excudebant J. C. Frenckell et fil.	J. C. Frenckell ja poika	   5
+Finska missionssällskapet	Suomen lähetysseura	   5
 [Maanviljelyshallitus]	Maanviljelyshallitus	   5
 K. J. Gummerus		   5
 Kansanwalistus-seura	Kansanvalistusseura	   5
 Sen kp.	Sen. kp	   5
 Hämeen Sanomain kp.	Hämeen Sanomain kp	   5
+Finska metallindustrins arbetsgifvareförbund	Suomen metalliteollisuuden työnantajaliitto	   5
 Kansanvalistus-seura		   5
 Finska missionsällskapet	Finska Missionssällskapet	   5
+GEJ		   5
 Satakunnan kirjakauppa		   5
 Hbl. uusi kp.	Hbl. uusi kp	   5
 Söderström, distr.	Söderström, distr	   5
@@ -702,11 +718,14 @@ O. J. Dahlberg	O.J. Dahlberg	   5
 [Studentfylkingen]	Studentfylkingen	   5
 [G. W. Edlund]	G.W. Edlund	   5
 [Svenska Folkskolans Vänner]	Svenska Folkskolans Vänner	   5
+SOK	Suomen osuuskauppojen keskusosuuskunta	   5
 Åbo Tryckeri och Tidnings Aktiebolag	Åbo Tryckeri & Tidnings Aktiebolag	   5
 Föreningen för Arbetareskydd och Socialförsäkring i Finland	Föreningen för Arbetareskydd & Socialförsäkring i Finland	   5
 Svenska Nykterhetsförlaget	Svenska Nykterhets	   5
 Pohjalaisen kp.	Pohjalaisen kp	   5
 [Prometheus]	Prometheus	   5
+Yrjö Weilin		   5
+[Oulun läänin eteläinen vaalipiiri]	Oulun läänin eteläinen vaalipiiri	   5
 Akateeminen kirjakauppa [jakaja]	Akateeminen kirjakauppa	   5
 [Medicinalstyrelse]	Medicinalstyrelse	   5
 Vihtori Kosonen o.y.	Vihtori Kosonen	   5
@@ -731,7 +750,10 @@ G. W. Edlundin kustannus-oy	G.W. Edlundin kustannusoy	   5
 Matti Wuolukka & Kumpp.	Matti Wuolukka & Coumpp	   5
 Valio	Valo	   5
 [J. F. Hellman]	J.F. Hellman	   5
+Suomen lähetysseura		   5
 Kirjatoimi		   5
+Tidskriften Ute och hemma	Tidskriften Ute & hemma	   5
+Nykterhetens vänner	Raittiuden ystävät	   5
 S. G. Hermelin	S.G. Hermelin	   5
 tryckt aff Johan Winter, kongl. booktr.	Winter, Johan	   5
 litteris direct. Johan. Edman	Edman, Johan	   5
@@ -823,25 +845,28 @@ J. C. Frenckell ja poika	J.C. Frenckell ja poika	   4
 Waasan painoyhtiö	Vaasan painoyhtiö	   4
 Philipp Reclam jun.	Philipp Reclam jun	   4
 Edlund	Suomen historiallinen seura	   4
+Konstnärsgillet	Suomen taiteilijaseura	   4
 tryckt hos Joh. Christ. Frenckell	Frenckell, Johan Christopher II	   4
+C. A. Gottlund		   4
+Finska mosskulturföreningen	Suomen suoviljelysyhdistys	   4
 [hos Londicers änka]	Londicerin leski	   4
 typis J. Ch. Frenckell & fil.	J. C. Frenckell ja poika	   4
 tryckt hos J. C. Frenckell & son.	J. C. Frenckell ja poika	   4
-Weilin & Göös		   4
+Finsk kvinnoförening	Suomen naisyhdistys	   4
 Fr. ja P.	Frederic ja P	   4
 Toimittaja		   4
+Finska vetenskapssocieteten	Meteorologinen keskuslaitos	   4
 Aug. Kajetskij	August Kajetskij	   4
 [Universitas Helsingforsiensis]	Universitas Helsingforsiensis	   4
 'Sanoma'	Sanoma	   4
 Weilin &  Göös	Weilin & Göös	   4
 Suomen luth. evank. -yhdistys	Suomen luth. evank.-yhdistys	   4
 G. E. Jansson ja K.	G.E. Jansson ja K	   4
-J. H. Tuhkanen	J.H. Tuhkanen	   4
 [Åbo stad]	Åbo stad	   4
 [Kejserliga Alexanders Universitetet i Helsingfors]	Kejserliga Alexanders Universitetet i Helsingfors	   4
-Otto Andersin		   4
 Söderström ja K.	Söderström ja K	   4
 Tampereen kp.	Tampereen kp	   4
+Viipurin uusi kp.	Viipurin uusi kp	   4
 Historiska Samfundet		   4
 Tidnings- o. tryckeriaktiebol.	Tidnings- & tryckeriaktiebol	   4
 Frk. C. Mechelin, distr.	Frk. C. Mechelin, distr	   4
@@ -849,7 +874,6 @@ Frk. C. Mechelin, distr.	Frk. C. Mechelin, distr	   4
 Hagelstams förlagsaktiebolag	Hagelstamsaktiebolag	   4
 [Föreningen Martha]	Föreningen Martha	   4
 Finsk Kvinnoförening	Finsk qvinnoförening	   4
-K. E. Holm		   4
 Suomalainen kirjallisuuden seura	Suomalaisen Kirjallisuuden Seura	   4
 G. W. Edlund'in kustannuksella	G.W. Edlundin kustannusoy	   4
 Yrjö Weilin, distr.	Yrjö Weilin, distr	   4
@@ -857,14 +881,13 @@ Yrjö Weilin, distr.	Yrjö Weilin, distr	   4
 [Finska Skogsvårdsföreningen Tapio]	Finska Skogsvårdsföreningen Tapio	   4
 [s. n.]	s. n	   4
 Helsingfors Bokhandel, distr.	Helsingfors Bokhandel, distr	   4
+Sällskapet Pellervo	Pellervo-seura	   4
 Svenska teosofiska Bokförlaget	Svenska teosofiska Bok	   4
 Werner Söderström		   4
 [Tekijä]		   4
 [Septem]	Septem	   4
 [Lainvalmistelukunta]	Lainvalmistelukunta	   4
-Yrjö Weilin		   4
 Helsingin N. M. K. Y.	Helsingin N. M. K. Y	   4
-Tidskriften Ute och hemma	Tidskriften Ute & hemma	   4
 Hydrografiska Byrån vid Öfverstyrelsen för väg- och vattenbyggnaderna i Finland	Hydrografiska Byrån vid Överstyrelsen för väg- & vattenbyggnaderna i Finland	   4
 Beijers bokförlagsab.	Beijers boksab	   4
 Hämeenlinnan uusi kp.	Hämeenlinnan uusi kp	   4
@@ -880,6 +903,7 @@ Livförsäkringsbolaget Suomi	Lifförsäkringsbolaget Suomi	   4
 Th. Wulff	Thorvald Wulff	   4
 Laulajapoika	<Author>	   4
 P. Sergein ja Hermanin veljeyskunta	Pyh. Sergein ja Hermanin veljeyskunta	   4
+Teosofinen kirjakauppa		   4
 S.O.K.	S.O.K	   4
 Tampereen työväen sanomalehti-oy	Tampereen työväen sanomalehti	   4
 [Lahden kaupunki]	Lahden kaupunki	   4
@@ -890,7 +914,10 @@ Suomen Metsänhoitoyhdistys Tapio	Suomen metsänhoitoyhdistys	   4
 Aug. Kanerva	August Kanerva	   4
 Suomen valtion rautatiet	Suomen valtionrautatiet	   4
 Työväen sanomalehti oy.	Työväen sanomalehti-o.y	   4
-WSOY	Werner Söderström osakeyhtiö	   4
+Työmiehen kustannusyhtiö		   4
+Savon työväen sanomalehti- ja kirjapaino-osuuskunta		   4
+N. A. Zilliacus		   4
+J. C. Frenckell & Son		   4
 typis Frenckellianis	Frenckell, Johan Christopher I	   4
 [Imperatorskaâ Akademìâ Nauk']	Imperatorskaâ Akademìâ nauk	   4
 [S. G. Hermelin]	S.G. Hermelin	   4
@@ -1024,6 +1051,7 @@ Finska Litteratursällskapets tryckeri	Finska Litteratur-sällskapets tryckeri	 
 [Finska vetenskaps-societeten]	Finska Vetenskapssocieteten	   3
 Finska litteratursällskapets tryckeri	Finska Litteratur-sällskapets tryckeri	   3
 [H. Wächter]	H. Wächter	   3
+J. Palmgreni raamatukauplus		   3
 Clouberg ja kumpp.	Clouberg ja Kumpp	   3
 [Brändö villastad]		   3
 Fazerin musiikkikauppa		   3
@@ -1034,7 +1062,6 @@ Beijer ;;Edlund	Beijer	   3
 Suomalais-am. kustannusyhtiö	Suomalais-amer. kustannusyhtiö	   3
 Söderström & co		   3
 J. C. Frenckell & son	J.C. Frenckell & Son	   3
-Turistföreningen i Finland	Suomen matkailijayhdistys	   3
 Suomen matkailija-yhdistys	Suomen matkailijayhdistys	   3
 Vieweg	Vieveg	   3
 MacMillan and Co.	MacMillan and Co	   3
@@ -1072,7 +1099,6 @@ Suomalaisen Kirjallisuuden Seura :;Tekijä	Suomalaisen Kirjallisuuden Seura	   3
 Hufvudstadsblad'in kirjap.	Huvudstadsblad'in kirjapaino	   3
 Nordenswan	Nordensvan	   3
 Imperatorskìj senat'	Imperatorskìj senat	   3
-C. A. Gottlund		   3
 [Kansanvalistus-seura]	Kansanvalistusseura	   3
 Suomen Muinaismuisto-yhtiö		   3
 Terveydenhoito-yhdistys	Terveydenhoitoyhdistys	   3
@@ -1086,6 +1112,7 @@ Pohjalais-osakunta	Pohjalainen osakunta	   3
 G. W. Edlundin kustantama	G.W. Edlundin kustantama	   3
 Tampereen kirjapaino-osakeyhtiö		   3
 Lindroth		   3
+Ständerbiblioteket		   3
 Andersin		   3
 Lutherilainen evankeliumiyhdistys	Lutherilainen Evankeliumi-yhtiö	   3
 tryckt hos magister J. C. Frenckell	Frenckell, Johan Christopher II	   3
@@ -1094,6 +1121,7 @@ literis Michaelis Gerhardi Grenzii typographi academici	Grenzius, Michael Gerhar
 [tryckt hos J. C. Frenckell]	Frenckell, Johan Christopher II	   3
 tryckt hos mag. J. C. Frenckell	Frenckell, Johan Christopher II	   3
 tryckte hos Carl Delén	Deleen, Carl	   3
+Hj. Hagelberg		   3
 Sampo		   3
 J. C. Lagerspetz	J.C. Lagerspetz	   3
 prändätyt J. C. Frenckellin tykönä	Frenckell, Johan Christopher II	   3
@@ -1103,7 +1131,9 @@ prändätty A. J. Segerstedtilda	Segerstedt, Albrecht Julius	   3
 ex officina Frenckelliana	Frenckell, Johan Christopher II	   3
 impressa apud Reg. Acad. typ. J. C. Frenckell	Frenckell, Johan Christopher II	   3
 impressa apud Imp. Acad. typ. J. C. Frenckell	Frenckell, Johan Christopher II	   3
+Edlundska bokhandeln, jakaja	Suomi 	   3
 [Wiborgs stad]	Viborgs stad	   3
+Senaten		   3
 G. W. Edlundin kirjak.	G.W. Edlundin kirjak	   3
 [Konstflitsföreningen i Finland]	Konstflitsföreningen i Finland	   3
 Luth. Evankeliumiyhdistys	Luth. Evankeliumi-yhdistys	   3
@@ -1111,13 +1141,19 @@ Suomalaisen kirjallisuuden seura		   3
 [Pedagogiska föreningen i Finland]	Pedagogiska föreningen i Finland	   3
 C. E. Holmberg	C.E. Holmberg	   3
 [Författaren]	Författare	   3
+Finska kennelklubben	Suomen kennelklubi	   3
+Finska konstföreningen	Suomen taideyhdistys	   3
 Gej. ja K.	Gej. ja K	   3
+Edlundska Bokhandeln i distr.	Edlundska Bokhandeln	   3
 [Privata reallyceum]	Privata reallyceum	   3
 Kansanvalistus-Seura	Kansanvalistusseura	   3
+F. W. Unggren	F.W. Unggren	   3
 [J. Länkelä]	J. Länkelä	   3
 Wentzel Hagelstam, distr.	Wentzel Hagelstam, distr	   3
+Jyväskylän kp.	Jyväskylän kp	   3
 W. ja K.	W. ja K	   3
 G. A. Grönlund	G.A. Grönlund	   3
+Osuuskunta Wäinämöinen		   3
 Th. Tammelin	Thorvald Tammelin	   3
 J. A. Majlund	J.A. Majlund	   3
 Suomalais-amerikkalainen kustannusyhtiö		   3
@@ -1126,7 +1162,6 @@ T. Fisher Unwin	T. Fisher Unvin	   3
 [Filosofiska fakultetens Fysisk-matematiska Sektion]	Filosofiska fakultetens Fysisk-matematiska Sektion	   3
 U. W. Telén & K.	U.W. Telén & Co	   3
 Lindstedt antikvar. bokh.	Lindstedt antiqvar. bokhandel	   3
-Viipurin uusi kp.	Viipurin uusi kp	   3
 Kansainvälinen kirja- ja lähetys-yhdistys	Kansainvälinen kirja- ja lähetysyhdistys	   3
 [Wasenius]	Wasenius	   3
 Otava station, förf.	Otava station, förf	   3
@@ -1139,6 +1174,7 @@ A. F. Høst & Søn	A.F. Höst & Sön	   3
 Utgivare	Utgivaren	   3
 Juridiska Studentfakulteten :;Akademiska Bokhandeln, jakaja	Juridiska Studentfakulteten	   3
 Karjalan veljeskunta		   3
+Helsingfors-Posten		   3
 J. A. Barth	J.A. Barth	   3
 O. L. Svanbäck'in kp.	O.L. Svanbäck'in kp	   3
 [Viborgs stad]	Viborgs stad	   3
@@ -1151,12 +1187,17 @@ C. E. Fritze	C.E. Fritze	   3
 [Finska Forstföreningen]	Finska Forstföreningen	   3
 Lutherska Evengeliföreningen	Lutherska evangeliföreningen	   3
 [Finlands Allm[änna] Slöjdförening]	 Slöjdförening	   3
+Isak Julin		   3
 [Finska skolstatens pensionskassa]	Finska skolstatens pensionskassa	   3
+[Suomen maalaisväestön liitto]	Suomen maalaisväestön liitto	   3
+Suomen tehdas- ja sekatyöväen liitto	Suomen tehdas- ja sekatyöväenliitto	   3
+Suomen sos.-dem. nuorisoliitto	Suomen sosialidemokraattinen nuorisoliitto	   3
 Oesterheld & C:o	Oesterheld & Co	   3
 [Finlands Svenska Nykterhetsförbund]	Finlands Svenska Nykterhets	   3
 P. A. Nordstedt & Söner	P.A. Norstedt & Söner	   3
 Clouberg ja kumpp.		   3
 [Suomen maataloustieteellinen seura]	Suomen maataloustieteellinen seura	   3
+Pekka Brofeldt		   3
 Edlundska Bokhandeln i distr	Edlundska bokhandeln, distr	   3
 [Konstföreningen i Åbo]	Konstföreningen i Åbo	   3
 Sällskapet M. M.	Sällskapet M. M	   3
@@ -1167,9 +1208,11 @@ J. A. Cederberg	J.A. Cederberg	   3
 Aikain Vartijas förlag	Aikain Vartija	   3
 [Kommunala centralbyrån i Finland]	Kommunala centralbyrån i Finland	   3
 Turistföreningen :;Waseniuska Bokhandeln, jakaja	Turistföreningen	   3
+Pyh. Sergein ja Hermanin veljeyskunta		   3
 Allmänna Finska Arbetsgifvareförbundet	Allmänna Finska Arbetsgivare	   3
 Helios, i distr.	Helios i distr	   3
 [Salon Strindberg]	Salon Strindberg	   3
+Kamaritoimituskunta		   3
 [Åbo akademikommitté]	Åbo akademikommitté	   3
 [Käsiteollisuuden harjoittajat]	Käsiteollisuuden harjoittajat	   3
 Clouberg ja Kumpp.		   3
@@ -1192,6 +1235,7 @@ Nya Budbärarens förlag	Nya Budbäraren	   3
 Edlundin kirjakauppa [jakaja]	Edlundin kirjakauppa	   3
 Suomalainen tiedeakatemia		   3
 [Asikkalan kunta]	Asikkalan kunta	   3
+Suomen metallityöntekijäin liitto	Suomen metallityön<<Author>>in liitto	   3
 [Kansallis-osake-pankki]	Kansallis-osake-pankki	   3
 Tampereen kirjapaino-o.y.	Tampereen kirjapaino-o.y	   3
 Frenckell'in kp.	Frenckell'in kp	   3
@@ -1216,6 +1260,7 @@ B. G. Teubner	B.G. Teubner	   3
 Kustannus oy. Kansa	Kustannus-o.y. Kansa	   3
 Kustannusoy. Kansa	Kustannus-o.y. Kansa	   3
 [Suomen suoviljelysyhdistys]	Suomen suoviljelysyhdistys	   3
+[Suomen rakennusmestariliitto]	Suomen rakennusmestariliitto	   3
 Työväen sanomalehti-oy.	Työväen sanomalehti-o.y	   3
 Nylands och Tavastehus läns landtbrukssällskap	Nylands & Tavastehus läns Landtbrukssällskap	   3
 Suomen sos. dem. nuorisoliitto	Suomen sos.-dem. nuorisoliitto	   3
@@ -1226,12 +1271,29 @@ Suom. sos. kust. yhtiö	Suom. sos. kust. yht	   3
 Työväen sanomalehti-oy	Työväen sanomalehti-o.y	   3
 S. O. N. R.	S. O. N. R	   3
 [Suomen matkailijayhdistys]	Suomen Matkailijayhdistys	   3
+Suomen metalliteollisuustyöntekijäin liitto	Suomen metalliteollisuustyön<<Author>>in liitto	   3
 G. W. Edlundin kustannusoy	G.W. Edlundin kustannusoy	   3
+[Tampereen kaupunki]	Tampereen kaupunki	   3
 Vilho Leikas & Co.	Vilho Leikas & Co	   3
 Aug. Kanervan kirjapaino	August Kanervan kirjapaino	   3
 Aug. Edwards	August Edvards	   3
 New Yorkin uutiset	Nev Yorkin uutiset	   3
-Suomen lähetysseura		   3
+F. W. Unggren		   3
+Osuuskunta Visa		   3
+Uleåborgs tryckeri		   3
+Eero Erkko		   3
+Hangö-bladets tryckeri ab		   3
+Mauritz Thiesen		   3
+Suomalaisen Työväenliiton Kirjapaino ja Sanomalehti Oy		   3
+Victor Pettersson		   3
+Osuuskunta Kehitys		   3
+A. F. Tanner		   3
+Weilin ja Göös		   3
+Sederholm		   3
+Livförsäkringsaktiebolaget Fennia	Fennia, vakuutusosakeyhtiö	   3
+Henkivakuutusosakeyhtiö Fennia	Fennia, vakuutusosakeyhtiö	   3
+Helsingin kustannusosakeyhtiö		   3
+Wasenius		   3
 Ioh. Bapt. Homanni		   3
 [Willem J. Blaeu]	Willem J. Blaeu	   3
 [Kongl. landmäterie contoiret]	Kongl. landmäterie contoiret	   3
@@ -1468,6 +1530,7 @@ Turisttrafikförbundet	Turisttrafik	   2
 Granberg'in taideteollisuus osake yhtiö		   2
 [Suomen kirkkohistoriallisen seura]	Suomen kirkkohistoriallinen seura	   2
 [Carolus Alexander Alcenius]	Carolus Alexander Alcenius	   2
+Sana		   2
 J. Simelii arfvingars boktryckeriaktiebolag	Voimaliitto	   2
 J. Simeliuksen perillisten kirjapaino-osakeyhtiö	Voimaliitto	   2
 [G. O. Wasenius]	G.O. Wasenius	   2
@@ -1475,6 +1538,7 @@ J. Simeliuksen perillisten kirjapaino-osakeyhtiö	Voimaliitto	   2
 P. Sjögren		   2
 N. M. Lindhs boktryckeri	N.M. Lindhs boktryckeri	   2
 C. W. Edlunds förlag	C.W. Edlund	   2
+[Kuninkaallinen Preussin jääkäripataljoona 27]	Saksa	   2
 [Suomen Historiallinen Seura]	Suomen Historiallinen seura	   2
 Zacharias Hæggström	Zacharias Häggström	   2
 printed for T. Cadell and W. Davies Strand London, by R. Watts Crown Court, Temple Bar	printed for T. Cadell and W. Davies Strand London, by R. Watts Crovn Court, Temple Bar	   2
@@ -1512,14 +1576,15 @@ F. Liewendal's lith. tr.	F. Lievendal's lith. tr	   2
 [Cygnaeuksen galleria]	Cygnaeuksen galleria	   2
 Abr. Hirsch ;;Rob. Forberg		   2
 Helsingin Uusi Musiikkikauppa, K. G. Fazer	Helsingin Uusi Musiikkikauppa, K.G. Fazer	   2
+Jyväskylän V. P. K.	Jyväskylän vapaaehtoinen palokunta	   2
 Clouberg ja Kumpp. (W. Hoving)	Clouberg ja Kumpp	   2
+F. B. K. i Åbo	Turun vapaaehtoinen palokunta	   2
 F. Liewendal	F. Lievendal	   2
 [Suomen taideyhdistys]	Suomen taideyhdistys	   2
 A. Apostol	Föreningen Brage	   2
 Knigoprodavca-tipografìâ M. O. Vol'fa	Knigoprodavca-tipografìâ M.O. Vol'fa	   2
 [Sven Gabriel Elmgren]	Sven Gabriel Elmgren	   2
 P. B. Eklund	P.B. Eklund	   2
-Konstnärsgillet	Suomen taiteilijaseura	   2
 Gust. Rylander	Gustav Rylander	   2
 A. G. Hellsten	A.G. Hellsten	   2
 Åbo tidnings och tryckeri aktiebolag	Åbo tidnings & tryckeri aktiebolag	   2
@@ -1543,10 +1608,8 @@ Er. Meuller	Erik Meuller	   2
 N. M. Lindh		   2
 Cederwaller	Cedervaller	   2
 A. E. Modeen	A.E. Modeen	   2
-F. W. Unggren	F.W. Unggren	   2
 [N. A. Zilliakus]	N.A. Zilliacus	   2
 J. W. Lillja & Co	J.W. Lillja & Co	   2
-J. C. Frenckell & Son		   2
 Sigfrid Flodins förlag	Sigfrid Flodin	   2
 [Carl Anton Londicer]	Londicer, Carl Anton	   2
 tryckt hos Olof Grahn	Grahn, Olof	   2
@@ -1646,8 +1709,14 @@ J. M. Salenius	J.M. Salenius	   2
 [J. C. Frenckell ja poika]	J.C. Frenckell ja poika	   2
 [Kastegren]	Kastegren	   2
 [Bergroth]	Bergroth	   2
+Wiborgs F. B. K.	Viborgs FBK	   2
 Jansson		   2
+Finlands exportförening	Suomen vientiyhdistys	   2
+Reallyceum i Åbo	Svenska reallyceum i Åbo	   2
 Nordström		   2
+Lindstedts antikvariska bokhandel	Lindstedt'in antikvaarinen kirjakauppa	   2
+Konstföreningen i Åbo	Turun taideyhdistys	   2
+Konstföreningen i Tammerfors	Tampereen taideyhdistys	   2
 Partanen		   2
 [C. A. Londicer]	C.A. Londicer	   2
 s.n.		   2
@@ -1660,14 +1729,20 @@ hos J. C. Frenckell	Frenckell, Johan Christopher II	   2
 OWB.	OWB	   2
 Modén		   2
 Kansavalistus-seura	Kansanvalistusseura	   2
-Hj. Hagelberg		   2
 J. W. Pihl	J.W. Pihl	   2
+[Västfinska stammen]	Åbo nation	   2
 [Frivilliga brandkåren i Borgå]	Frivilliga brandkåren i Borgå	   2
+Föreningen Martha	Finlands svenska Marthaförbund	   2
+Folkupplysningssällskapet	Kansanvalistusseura	   2
 Finska statsjärnvägarna	Finska statsjärnvägarne	   2
 Wenzel Hagelstam	Wentzel Hagelstam	   2
 Utgifvaren :;Wickström sekä C. E. Fritze, jakajat	Utgivaren	   2
 Finska seglareförbundet	Suomen purjehtijaliitto	   2
 Kuopion uusi kirjapaino		   2
+Finska forstföreningen	Suomen metsänhoitoyhdistys	   2
+Finska byggmästareförbundet	Suomen rakennusmestariliitto	   2
+Edlundska bokhandeln, jakaja		   2
+Finlands Utsädesförening	Suomen kylvösiemenyhdistys	   2
 G. A. Zumsteeg	G.A. Zumsteeg	   2
 C. E. Fritze, distr.	C.E. Fritze, distr	   2
 litteris & impensis Joh. C. Frenckell	Frenckell, Johan Christopher II	   2
@@ -1692,74 +1767,103 @@ Kansankp.	Kansankp	   2
 Rauhan sanoma	Rauhan sanomat	   2
 P. H. Beijer [distr.]	P.H. Beijer	   2
 A. Hackman	A. Backman	   2
+Kejserliga senaten för Finland	Suomi 	   2
 Johann André		   2
 [Suomen Talousseura],;Åbo Tidning'in kirjapaino-osakeyhtiö)		   2
 Verner Söderström	Werner Söderström	   2
 Hämeen Sanomain osakeyhtiö	Hämeen Sanomain osake-yhtiö	   2
 Wennberg ja K.	Wennberg ja K	   2
-Jyväskylän kp.	Jyväskylän kp	   2
 J. F. Olàn	J.F. Olan	   2
 G. W. Wílen	G.W. Wilén	   2
 Telén ja K.	Telén ja K	   2
 O. Andersin		   2
+G. W. Wilén		   2
 Östra Finland'in kp.	Östra Finlandin kp	   2
 [Pedagogiska föreningen]	Pedagogiska föreningen	   2
 Oulun kp.	Oulun kp	   2
-Eero Erkko		   2
 Tampereen kaupunki :;[Emil Lyytikäisen kirjakauppa, jakaja]	Tampereen kaupunki	   2
+Finlands Dövstumförbund	Suomen kuuromykkäinliitto	   2
 [Kansallis-Osakepankki]	Kansallis-osake-pankki	   2
 Aug. Edvards	August Edvards	   2
 Työväen kustannus-osakeyhtiö	Työväen kustannusosakeyhtiö	   2
 [Fredrikshamn stads svenska flickskola]	Fredrikshamn stads svenska flickskola	   2
+Emil Hagelberg		   2
 [Polytekniska institutet]	Polytekniska institutet	   2
 [K. Rantakari]	K. Rantakari	   2
 [Henkivakuutus-yhtiö Suomi]	Henkivakuutusyhtiö Suomi	   2
 [Järnvägsstyrelsen]	Järnvägsstyrelsen	   2
 [Stentryck]	Stentryck	   2
 Tampereen työväen sanomalehti-osakeyhtiö	Tampereen työväen sanomalehti	   2
+Sen. kp.	Suomi 	   2
 M. E. Forsström	M.E. Forsström	   2
 Söderström ja K.		   2
+Finlands Svenska Arbetareförbund	Finlands svenska arbetarförbund	   2
+Weilin & Göös	Pyhän Sergein ja Hermanin veljeyskunta	   2
+OWB	Mustialan maanviljelys- ja meijeriopisto	   2
 E. R. Krist. naisyhdistys	E.R. Krist. naisyhdistys	   2
 [Finska folkskolemötet]	Finska folkskolemötet	   2
 L. W. Partanen	L.W. Partanen	   2
+Försäkringsaktiebolaget Kaleva	Kaleva, keskinäinen vakuutusyhtiö	   2
 Gustaf Ronelius	Gustav Ronelius	   2
+N. A. Zilliacus	N.A. Zilliacus	   2
 O. L. Svanbäck'in kirjapaino	O.L. Svanbäck'in kirjapaino	   2
+Hbl. uusi kp.		   2
+Turun kp.	Turun kp	   2
 O. Wennberg ja K.	O. Wennberg ja K	   2
 A. Hautalan kp.	A. Hautalan kp	   2
+Säätyjen kirjasto		   2
 Helsingin Epworth-liitto	Helsingin Epvorth-liitto	   2
+Päivälehden kp.	Suomen nuorison liitto	   2
 K. O. Fontell	K.O. Fontell	   2
+Lilius ja Hertzberg		   2
+[S.l.]	S.l	   2
+Sammon kp.		   2
+Turun suom. kp.		   2
 Zigenarmissionens förlag	Zigenarmissionen	   2
 tekijä		   2
 [Öfverstyrelsen]	Överstyrelsen	   2
 [Finska konstföreningen]	Finska konstföreningen	   2
 Finlands Svenska Nykterhetsförbunds expedition	Finlands Svenska Nykterhetss Expedition	   2
+WSOY	Unioni, Naisasialiitto Suomessa	   2
 Ej i bokh.	Ej i bokhandeln	   2
 Hämäläisen kp.	Hämäläisen kp	   2
+Suomen Polyteknillinen opisto	Polyteknillinen opisto	   2
 P. H. Beijer, distr.	P.H. Beijer, distr	   2
 A. Kasurisen kp.	A. Kasurisen kp	   2
 Suomen kirkon sisälähetys-seura	Suomen kirkon sisälähetysseura	   2
+Brahestads borgare- och handelsskola	Raahen porvari- ja kauppakoulu	   2
 [Kejserliga Alexanders-Universitetet i Finland]	Kejserliga Alexanders-Universitetet	   2
 [Kejserliga Alexanders Universitetet i Finland]	Kejserliga Alexanders Universitetet i Finland	   2
 A. O.	A. O	   2
 [Kejserliga Alexanders-universitetet]	Kejserliga Alexanders-Universitetet	   2
 [Finska läkaresällskapet]	Finska läkaresällskapet	   2
 K. W. Hiersemann i komm.	K.W. Hiersemann	   2
+Suomen puutyöntekijäin liitto	Suomen puutyön<<Author>>in liitto	   2
 C. & E. Gernandts förlagsaktiebol.	C. & E. Gernandtsaktiebol	   2
 Alb. Cammermeyer	Albert Cammermeyer	   2
+Otava	Otava, kustannusosakeyhtiö	   2
+Keski-Suomen maanviljelyseura	Keski-Suomen maanviljelysseura	   2
+NAZ		   2
 Förf.		   2
+Frans Heinonen		   2
 Sortavalan kp.	Sortavalan kp	   2
+Kansan kuvalehden kustannusyhtiö		   2
 Beijers bokförlagsaktiebol.	Beijers boksaktiebolag	   2
 Luth. Evang.-föreningen	Luth. Evangeliska fören	   2
 Otava [distr.]	Otava	   2
 G. W. Edlund, jakaja	G.W. Edlund, jakaja	   2
+V. Pettersson	V. Petterson	   2
 Luth. evang.-föreningen	Luth. Evangeliska fören	   2
+[Oulun kaupunki]	Oulun kaupunki	   2
 Herman Edgrens bokhandel, distr.	Herman Edgrens bokhandel, distr	   2
 [Nykterhetens Vänner]	Nykterhetens vänner	   2
+[Viipurin kaupunki]	Viipurin kaupunki	   2
 Fr. Skoglund	Frederic Skoglund	   2
 [Konstflitföreningen]	Konstflitföreningen	   2
 Utgg.	Utgg	   2
 O. V. Böhmert	O.V. Böhmert	   2
 [Föreningen Fjäderfäskötselns vänner]	Föreningen Fjäderfäskötselns vänner	   2
+Uudenmaan ja Hämeenläänien maanviljelysseura	Uudenmaan ja Hämeen läänien maanviljelysseura	   2
 [Minervas bokhandel]	Minervas bokhandel	   2
 Statsarkivet	Valtionarkisto	   2
 C. E. Fritzes hofbokh. i komm.	C.E. Fritzes hofbokhandel	   2
@@ -1777,23 +1881,28 @@ Macmillan & C:o	Macmillan & Co	   2
 [s.n.]	Borgå Lycei konvent	   2
 [Kommunal centralbyrå]	Kommunal centralbyrå	   2
 Gyldendalske Boghandel	Gyldendalske bokhandel	   2
+Suomen ayrshireyhdistys	Suomen ayrshirekarjan siitosyhdistys	   2
 J. W. Cappelen	J.W. Cappelen	   2
 Waseniuska bokhandeln i distr	Waseniuska bokhandeln, distr	   2
 Etzold & C:o	Etzold & Co	   2
 [Söderström]	Söderström	   2
+Helsingfors musikinstitut	Helsingin musiikkiopisto	   2
+[s.n]		   2
 Tidnings- och tryckeriaktiebolaget	Tidnings- & tryckeriaktiebol	   2
+Suomen nahkurityöntekijät	Suomen nahkurityön<<Author>>t	   2
+Suomen nahkatyöntekijäin liitto	Suomen nahkatyön<<Author>>in liitto	   2
+Lördagen		   2
 Wettergren & Kerber	Wettergren & Coerber	   2
 J. Klockars bokhandel	J. Klockars' bokhandel	   2
 U. W. Telén ja K.		   2
 Juridiska Studentfakultetens förlag :;Akademiska Bokhandeln, jakaja	Juridiska Studentfakulteten	   2
 [Heurlinska skolan]	Heurlinska skolan	   2
-Helsingfors-Posten		   2
 W. Söderström		   2
 [Suomen perustuslaillinen työväenliitto]	Suomen perustuslaillinen työväenliitto	   2
-[Suomen maalaisväestön liitto]	Suomen maalaisväestön liitto	   2
 Sällskapet för Finlands geografi :;G. W. Edlund, jakaja	Sällskapet för Finlands geografi	   2
 [Keisarillisen Senaatin valtiovaraintoimituskunta]	Keisarillisen Senaatin valtiovaraintoimituskunta	   2
 [Suomen Kristillinen työväenliitto]	Suomen Kristillinen työväenliitto	   2
+Finska skogsvårdföreningen Tapio	Suomen metsänhoitoyhdistys Tapio	   2
 Akademiska bokhandel, distr.	Akademiska Bokhandeln, distr	   2
 O. L. Svanbäck	O.L. Svanbäck	   2
 J. E. Jarl	J.E. Jarl	   2
@@ -1823,7 +1932,6 @@ F. Vieweg & Sohn.	F. Vieveg & Sohn	   2
 Veit & C:o	Veit & Co	   2
 Osuuskunta 'Kristillinen työkansa'	Osuuskunta 'Kristillinen työkansa	   2
 Edlundska bokhandeln [distribution]	Edlundska Bokhandeln	   2
-Isak Julin		   2
 J. Looström & Komp.	J. Looström & Coomp	   2
 [Föreningen U. V.]	Föreningen U. V	   2
 E. G. Palmén	E.G. Palmén	   2
@@ -1846,20 +1954,26 @@ F. B. K.	F. B. K	   2
 [F. F. och E. Förening]	F. F. & E. Förening	   2
 G. L. Söderström		   2
 G. W. Wilén ja Kumpp.	G.W. Wilén ja Kumpp	   2
-Työmiehen kustannusyhtiö		   2
+[Suomen teollisuudenharjoittajat]		   2
+Sysmän pitäjä	Sysmän kunta	   2
 U. W. Telén & C:o		   2
+Keisarillisen Suomen senaatti	Keisarillinen Suomen senaatti	   2
 [Landtbruksutställning]	Landtbruksutställning	   2
 Förbundets mellan K. F. U. M. och U. K. F. förlag	s mellan K. F. U. M. & U. K. F	   2
+Ilmoitustoimisto Hermes		   2
 Yrjö Weilin [distr.]	Yrjö Weilin	   2
 A. Pichlers Witwe & Sohn	A. Pichlers Witve & Sohn	   2
+Sosialidemokratinen nuorisoliitto	Suomen sosialidemokratinen nuorisoliitto	   2
 Aikain Vartija Förlags A. B.	Aikain Vartija s A. B	   2
 Juridiska Studentfakultetens förlag	Juridiska Studentfakulteten	   2
 [Nyländska Jaktklubben]	Nyländska Jaktklubben	   2
 G. E. C. Gad	G.E.C. Gad	   2
 [Mercator]	Mercator	   2
+Palvelijain liitto	Suomen palvelijain liitto	   2
 K. F. U. K:s bokhandel, distr.	K. F. U. K:s bokhandel, distr	   2
 Kvinnosaksförbundet Unionen	Kvinnosaks Unionen	   2
 Landtbruks- och hushållningssällskapen	Landtbruks- & hushållningssällskapen	   2
+Kansanvalistusseuran Käkisalmen haaraosasto	Kansanvalistusseura	   2
 [Konstsamlingarna i Ateneum]	Konstsamlingarna i Ateneum	   2
 [Åbo industriutställning]	Åbo industriutställning	   2
 Nordiska Förlaget	Nordiska	   2
@@ -1869,7 +1983,6 @@ Arbetets förlag	Arbetet	   2
 O. Wihantola [Jakaja]	O. Wihantola	   2
 Granberg'in taideteollisuus-o.y.		   2
 J. C. B. Mohr	J.C.B. Mohr	   2
-Pyh. Sergein ja Hermanin veljeyskunta		   2
 Viipurin työväen sanomalehtiosuuskunta	Viipurin työväen sanomalehti-osuuskunta	   2
 Agricola kustannus-o.y.	Agricola kustannus-o.y	   2
 [Wiborgs Konstvänner]	Wiborgs Konstvänner	   2
@@ -1894,6 +2007,7 @@ Otto Anders	Otto Andersin	   2
 Rauhan sanomain kustannusliike	Rauhan sanomain kustannustoimi	   2
 [Limingan kansanopistolaisliitto]	Limingan kansanopistolaisliitto	   2
 Raivaajan kirjapaino		   2
+Senaten	Tie- ja vesirakennusten ylihallitus	   2
 Suomalaisen puolueen kanslia [jakaja]	Suomalaisen puolueen kanslia	   2
 Oulun uusi kp.	Oulun uusi kp	   2
 F. S. Eljas Pauanne	F.S. Eljas Pauanne	   2
@@ -1903,7 +2017,9 @@ Kansalliskp.	Kansalliskp	   2
 [Svenska Bildningens Vänner]	Svenska Bildningens Vänner	   2
 Lilius & Hertzberg, distr.	Lilius & Hertzberg, distr	   2
 Suomalainen Kansalliskirjakauppa		   2
+[s.n.]	Suomi College	   2
 [Arkitektklubben]	Arkitektklubben	   2
+Sortavalan evank. seura	Sortavalan evankelinen seura	   2
 Kustannusliike Aika	Kustannusliike Aura	   2
 [Nyländska avdelningen]	Nyländska avdelningen	   2
 Karjalan kirjakauppa ja kustannusliike	Karjalan kirjakauppa- ja kustannusliike	   2
@@ -1913,6 +2029,7 @@ Schildt, distr.	Schildt, distr	   2
 [Suomen säästöpankkiyhdistys]	Suomen säästöpankkiyhdistys	   2
 [Metsähallitus]	Metsähallitus	   2
 [Sosialidemokratinen puolue]	Sosialidemokratinen puolue	   2
+J. A. Salmisen kp.	J.A. Salmisen kp	   2
 [S metallityöntekijäin liitto]	S metallityön<<Author>>in liitto	   2
 Suomen luth. evank. pyhäkouluyhdistys	Suomen evank.-luth. pyhäkouluyhdistys	   2
 [Kansanopistonopettajain yhdistys]	Kansanopistonopettajain yhdistys	   2
@@ -1921,9 +2038,9 @@ E. E. Sundwall	E.E. Sundvall	   2
 Akademischen buchhandlung, distr.	Akademischen buchhandlung, distr	   2
 [Utg.]	Utg	   2
 Senaten	Finlands medicinalväxtodlings- och insamlingsandelslag	   2
+Kyminlaakson työväen sanomalehti- ja kirjapaino-osuuskunta		   2
 Bokförlaget i Karis	Bok i Karis	   2
 Söderström ja Kumpp.	Söderström ja K	   2
-Suomen metallityöntekijäin liitto	Suomen metallityön<<Author>>in liitto	   2
 [Finska konstförening]	Finska konstföreningen	   2
 J. M. Dent & sons	J.M. Dent & sons	   2
 M. G. Stenius	M.G. Stenius	   2
@@ -1956,11 +2073,14 @@ Suom. kp.	Suom. kp	   2
 Weilin & Kumpp.	Weilin & Coumpp	   2
 [Luvian kunta]	Luvian kunta	   2
 [Turun taidemuseo]	Turun taidemuseo	   2
+[Rauman yhteislyseo]	Rauman yhteislyseo	   2
 Osuuskunta Wisa	Osuuskunta Visa	   2
 Viktor Hoving	Victor Hoving	   2
 [Suomen Keisarillinen Aleksanterin Yliopisto]	Suomen Keisarillinen Aleksanterin yliopisto	   2
 [Laihian kunta]	Laihian kunta	   2
+[Keisarillinen Suomen senaatti]	Suomi 	   2
 [Suomen kirjaltajaliitto]	Suomen kirjaltajaliitto	   2
+[Länsi-Suomen karjanjalostusyhdistys]	Länsi-Suomen karjanjalostusyhdistys	   2
 [Turun kaupunki]	Turun kaupunki	   2
 WSoy	W. Soy	   2
 V. T.	V. T	   2
@@ -1973,7 +2093,6 @@ Pelastusarmeija	Pelastus-armeija	   2
 Martta yhdistys	Martta-yhdistys	   2
 Savon työväen sanomalehtiosuuskunta	Savon työväen sanomalehti-osuuskunta	   2
 Sim. per. kp.	Sim. per. kp	   2
-[Suomen rakennusmestariliitto]	Suomen rakennusmestariliitto	   2
 Työväen kustannusyhtiö	Työväen kustannusosakeyhtiö	   2
 Öflund & Petterson	Öflund & Pettersson	   2
 Otava ;;Valistus	Otava	   2
@@ -1993,6 +2112,7 @@ Savon työväen kp.	Savon työväen kp	   2
 Suomen lutherilainen evankeliumiyhdistys	Suomen lutherilainen evankeliumi-yhdistys	   2
 Suomen eläinsuojeluyhdistys	Suomen eläinsuojelusyhdistys	   2
 Urheilijain Kustannus-oy	Urheilijain kustannus	   2
+[Ulvilan kunta]	Ulvilan kunta	   2
 Urheilijan kustannus	Urheilijain kustannus	   2
 [Tusby svenska ungdomsförening]	Tusby svenska ungdomsförening	   2
 Otto Andersinin	Otto Andersin	   2
@@ -2005,9 +2125,9 @@ Edistysseurojen kustannus	Edistysseurojen kustannusoy	   2
 'Valistus'	Valistus	   2
 Urheilijain kustannusoy	Urheilijain kustannus	   2
 Rakentajain kustannusoy.	Rakentajain kustannusoy	   2
-Suomen metalliteollisuustyöntekijäin liitto	Suomen metalliteollisuustyön<<Author>>in liitto	   2
 Tuberkuloosin vastustamisyhdistys	Tuberkulosin vastustamisyhdistys	   2
 Otto Andersinin kustannusliike	Otto Andersin'in kustannusliike	   2
+Suomen Aleksanderin yliopisto	Helsingin yliopisto	   2
 Hämäläis-osakunta ;;Gummerus, jakaja	Hämäläis-osakunta	   2
 J. E. Lillback	J.E. Lillback	   2
 Joel Björklund & C:o	Joel Björklund & Co	   2
@@ -2020,6 +2140,49 @@ V. Hoving		   2
 Kustannusosakeyhtiö Kirja		   2
 Gyldendalske boghandel	Gyldendalske bokhandel	   2
 Breitkopf und Härtel	Breitkopf & Härtel	   2
+A. I. Arwidsson	A.I. Arvidsson	   2
+J. W. Starch		   2
+A. Cedervaller		   2
+O. Ansas		   2
+J. W. Nessler		   2
+Otto Bernhard Blomfelt		   2
+K. F. Malmström		   2
+Karjalan työväen sanomalehti-, kirjapaino- ja kirjansitomo-osuuskunta		   2
+Työväen sanomalehti-osuuskunta Raivaaja		   2
+Östra Finlands tryckeribolag		   2
+F. A. Hellström		   2
+Jooseppi Sajaniemi		   2
+Reinhold Roine		   2
+Kenraalikuvernöörin kanslia		   2
+Vihtori Niemi		   2
+Theodor Neovius		   2
+Fredrik Ahlqvist		   2
+Duodecim-seura	Suomalainen lääkäriseura Duodecim	   2
+G. O. Wasenius		   2
+Vihtori Kosonen		   2
+Rauhan sanomat		   2
+Mercator		   2
+Työväen sanomalehti		   2
+Jyväskylän kirjapaino		   2
+Suomen teollisuuslehti		   2
+Åbo tidnings tryckeri		   2
+Stadsmissionen i Helsingfors	Helsingin kaupunkilähetys	   2
+Emil Murén		   2
+Chr. Ev. Barck		   2
+Pietari Kurwinen		   2
+Aleksandra Gripenberg		   2
+Pinsebevægelsen i Norge		   2
+Santeri Pohjanpalo		   2
+G. A. Heinonen		   2
+N. J. Laamanen		   2
+Försäkringsföreningen i Finland	Suomen vakuutusyhdistys	   2
+F. Wald. Lönnbeck		   2
+J. Westerback		   2
+A. Laitinen		   2
+J. Alfthan		   2
+G. A. Wakaa	G.A. Wakaa	   2
+Sanoma		   2
+Emil Vainio		   2
 [M. Seutter]		   2
 Ioh. Baptista Homanni		   2
 Sold by William Berry at the Sign of the Globe between Charing-Cross and White-Hall	Sold by William Berry at the Sign of the Globe betveen Charing-Cross and White-Hall	   2
@@ -2513,6 +2676,7 @@ exc. Joh. Kiämpe Reg. Ac. typ.	Kämpe, Johan	   2
 literis Schneiderianis	Schneider, Benjamin Gottlieb	   2
 literis Merckelianis	Merckell, Henric Christopher	   2
 litteris Frenckellianis	Frenckell, Johan Christopher II	   2
+tryckt hos Kgl. Acad. boktr. J. C. Frenckells enka	Johan Christopher Frenckellin leski	   2
 [Suomen ewank. seura]	Suomen evank. seura	   1
 [Suomen ammattijärjestö]	Suomen ammattijärjestö	   1
 [Oulun läänin talouden-seura]	Oulun läänin talousseura	   1
@@ -2548,6 +2712,7 @@ på Wasenius' & Comp. förlag	på Wasenius' & Comp	   1
 [Frid. Wilh. Aug. Argelander]	Frid. Wilh. August Argelander	   1
 [Jacobus Johannes Östring]	Jacobus Johannes Östring	   1
 [Josephus Joachim. Alcenius]	Josephus Joachim. Alcenius	   1
+Arwi Hällfors		   1
 [Forststyrelsens]	Forststyrelsens	   1
 [Alexander Fredric. Laurell]	Alexander Fredric. Larsll	   1
 [Petrus Philippus Lindforss]	Petrus Philippus Lindforss	   1
@@ -2688,6 +2853,7 @@ Gust. Bergroth	Gustav Bergroth	   1
 Öfvermark Understödsförening för Förolyckade Hästar, Nötkreatur och Svin	Övermark Understödsförening för Förolyckade Hästar, Nötkreatur & Svin	   1
 Pohjoismaiden Soutuliitto :;Helsingin Soutuklubi	Pohjoismaiden Soutuliitto	   1
 forlagt af L. Veeken, trykt hos T. E. Raugel, og faaes tilkjøbs i Pilestraedet No. 111	t af L. Veeken, trykt hos T.E. Raugel, og faaes tilkjöbs i Pilestraedet No. 111	   1
+Tilastollinen toimisto	Tilastollinen päätoimisto	   1
 A. N. Winell	A.N. Winell	   1
 A. Val'ter', Â. Rapa i ko. ;;Akademiska bokhandeln	A. Val'ter', Â. Rapa i ko	   1
 [Voenno-topografičeskìj otděl' General'nago Štaba]		   1
@@ -2709,6 +2875,7 @@ Joh. A. Inberg	Johan A. Inberg	   1
 [Gust. Leonhardus Stenbäck]	Gustav Leonhardus Stenbäck	   1
 [Oloneckoe otdělenìe Karel'skago bratstva]	Oloneckoe otdělenìe Karel'skago bratstva	   1
 Glavnoe upravlenìe locmanskago i maâčnago vědomstva Finlândìi	Suomen luotsi- ja majakkalaitos	   1
+S. ylioppilaskunnan antikvaarilaitos	Suomen ylioppilaskunnan antikvaarilaitos	   1
 litteris J. C. Frenckell & fil.	J. C. Frenckell ja poika	   1
 J. C. Frenckell & sons förlag	J.C. Frenckell & Son	   1
 G. L. Söderström,;G. L. Söderström'in kirjapainossa)	G.L. Söderström	   1
@@ -2727,6 +2894,7 @@ E. I. Fesenko	E.I. Fesenko	   1
 Toiwonen	Toivonen	   1
 [Magyar Tudományos Akadémia]	Magyar Tudományos Akadémia	   1
 [K. Husmann]		   1
+Stationery Office	Iso-Britannia	   1
 Suomen lähetys seura	Suomen lähetysseura	   1
 [Ascher & co.]	Ascher & co	   1
 Tammerfors nyheter		   1
@@ -2736,11 +2904,23 @@ Ida Kaskenmäki		   1
 [Henrik Renqvist]	Henrik Renqvist	   1
 Otto Vieweg	Otto Vieveg	   1
 Alumni Association of the Michigan college of mining and technology	Michigan college of mining and technology	   1
+[Suomalainen sosialisti-järjestö]		   1
+[Amerikan S.S. järjestö]	Amerikan suomalainen sosialistijärjestö	   1
+[S.K.R.V.]	Suomalainen kansallis-raittius-veljeysseura	   1
+[Kalevan Naiset]	Kalevan Naiset	   1
+Suomi-Opisto	Suomi College	   1
 [Julutställningskalenderns expedition, G. H. Lindblad]	Julutställningskalenderns expedition, G.H. Lindblad	   1
 [Helsingfors lyceum]	Helsingfors lyceum	   1
+Werner Söderström	Suomalainen normaalilysee	   1
+[Suomalainen siirtolais-yhtiö]	Suomalainen siirtolais-yhtiö	   1
+Suomalainen sosialistinen kustannusyhtiö		   1
+Finland steamship company agency		   1
+Amerikan suom. ev. luth. kansalliskirkkokunta	Amerikan suomalainen evankelis-lutherilainen kansalliskirkkokunta	   1
 [Kotikielen seura]	Kotikielen seura	   1
 [Suomen kotiseutuliitto]	Suomen kotiseutuliitto	   1
 [Carl Axel Gottlund]	Carl Axel Gottlund	   1
+H. F. Parlin		   1
+Yrjö Weilin (jakaja)		   1
 G. A. Grinevskij	G.A. Grinevskij	   1
 Finlândskoe èksportnoe obŝestvo	Suomen vientiyhdistys	   1
 [Augustus Guilielmus Frosterus]	Augustus Guilielmus Frosterus	   1
@@ -2753,32 +2933,58 @@ J. W. Nesslers boktryckeri	J.W. Nesslers boktryckeri	   1
 Oskari Grönroos	Porin lyseon toverikunta	   1
 H. T. Bärlundin kirjakauppa	H.T. Bärlundin kirjakauppa	   1
 K. W. Luukkonen	K.W. Luukkonen	   1
+N. A. Zilliacus' tryckeri		   1
 [s.n.]	Helsingfors' lycei konvent	   1
 [Helsingfors' lycei konvent]	Helsingfors' lycei konvent	   1
+G. E. Jansson & kumpp. kirjapaino		   1
+Emil Lyytikäinen		   1
 [W. Lavonius]	W. Lavonius	   1
 [Svenska fruntimmersskolan]	Svenska fruntimmersskolan	   1
+C. H. Nummelin		   1
+Työmies publishing		   1
 Öfverstyrelsen för landtmäteriet		   1
+Tidnings- och Tryckeri-aktiebolaget		   1
+Gustaf Bergman		   1
+Finnish newspaper co.		   1
+E. W. Björklund & kumppanit		   1
+Amerikan suomalainen teosofinen kustannusliike		   1
+Socialist publishing co.		   1
+Henry Koller		   1
+[s.n.]	Suomalainen kansallis-raittius-veljeysseura	   1
 [K. E. Holms förlag]	K.E. Holm	   1
 [G. Alfthan]	G. Alfthan	   1
 Ventzel Hagelstam förlag	Wentzel Hagelstam	   1
+Suomi-opisto	Suomi College	   1
 Förlagsaktiebolaget Otava	saktiebolaget Otava	   1
 [I. J. Inberg]	I.J. Inberg	   1
 J. W. Lillja & Co förlag	J.W. Lillja & Co	   1
 Justus Perthes ; Helsingfors :;Wasenius & Co [jakaja]	Justus Perthes	   1
+J. F. Törmä		   1
+[s.n.]	Finnish Evangelical Lutheran Church of America	   1
 [Raittiusseura Vesi n:o 22]	Raittiusseura Vesi n:o 22	   1
+The Finnish Press Co.		   1
+Matti Lehtosen kirjapaino ja kustannusliike	Epworth-liitto Walo	   1
 Almqvist & Wiksells boktryckeri :;[Lundequistska bokhandeln (i distribution)]	Almqvist & Wiksells boktryckeri	   1
+Arvi A. Karisto	Karisto	   1
 [Heymann]	Heymann	   1
+Holger Schildt	Holger Schildt, förlagsaktiebolag	   1
 H. G. Nordström	H.G. Nordström	   1
 tryckt hos Carl Deleen, R. W. O.	tryckt hos Carl Deleen, R. W. O	   1
 Palmblad, Sebell & C.	Palmblad, Sebell & C	   1
 P. M. Lindhs förlag	P.M. Lindh	   1
 [Johan Esaias Waaranen]	Johan Esaias Waaranen	   1
 K. A. Hermann	K.A. Hermann	   1
+K. Valovuori		   1
+Veckobladet		   1
+Turun suomalainen kirjapaino- ja sanomalehti		   1
 Elméns och Granbergs tryckeri	Elméns & Granbergs tryckeri	   1
 Joh. Christ. Frenckell	Johan Christ. Frenckell	   1
+[s.n.]	Viipurin läänin itäisen vaalipiirin sosialidemokraattinen piirijärjestö	   1
 [Eliel Saarinen]	Eliel Saarinen	   1
 [Julius Tallberg]	Julius Tallberg	   1
+Otava	Suomen kirjailijaliitto	   1
 tryckt hos N. M. Lindh	tryckt hos N.M. Lindh	   1
+[s.n.]	Suomen kristillinen työväenliitto	   1
 på Alb. Bonniers förlag	på Albert Bonnier	   1
 på C. R. Hööks förlag	på C.R. Höök	   1
 tryckt hos P. A. Norstedt & Söner	tryckt hos P.A. Norstedt & Söner	   1
@@ -2806,6 +3012,7 @@ Turun suomalainen kirjapaino ja sanomalehti-osakeyhtiö (Uuden Auran kirjapaino)
 [Finska-Litteratur-Sällskapets förlag]	Finska-Litteratur-Sällskapet	   1
 F. W. Jalander	F.W. Jalander	   1
 [J. Ph. Palmén]	J. Philip Palmén	   1
+Svenska jägare-förbundet	Svenska jägareförbundet	   1
 F. Tilgmanns förlag	F. Tilgmann	   1
 A. W. Gröndahl & A. C. Öhman, förläggare	A.W. Gröndahl & A.C. Öhman, förläggare	   1
 G. W. Edlundʼin kustannuksella	G.W. Edlundin kustannusoy	   1
@@ -2822,6 +3029,8 @@ bij François Bohn		   1
 Chez Levrault, Schoell, et Compagnie, libraires, Rue de Seine ...		   1
 chez Levrault, Schoell et Comp. libraires, Rue de Seine		   1
 Printed for Joseph Mawman ...	Printed for Joseph Mavman	   1
+Waasan asianajotoimisto	Vaasan asianajotoimisto	   1
+Gelʼsingforsskij otděl' Vserossïjskago soûza morâkov' torgovago flota	Vserossijskij soûz morâkov torgovago flota	   1
 Sil'berberg'	Sil'berberg	   1
 [Svenska litteratursällskapet]	Svenska litteratursällskapet	   1
 Tip. SPB.	Tip. SPB	   1
@@ -2832,6 +3041,8 @@ Tip. 'Finlândskaâ gazeta'	Tip. 'Finlândskaâ gazeta	   1
 tip. 'Art. žurn.'	tip. 'Art. žurn	   1
 Ewerlöf	Everlöf	   1
 S.-Peterburg'	S.-Peterburg	   1
+Kamraten		   1
+Ålands Tidnings-Tryckeri		   1
 C. A. Leffler	C.A. Leffler	   1
 Lilius i Gercberg'	Lilius i Gercberg	   1
 K. Mattisen'	K. Mattisen	   1
@@ -2841,6 +3052,7 @@ Imperatorskaâ AkademÏâ nauk	Imperatorskaâ Akademìâ nauk	   1
 Kartografičeskoe zavedenìe A. Il'ina	Salamandr	   1
 Puttkammer & Mühlbrecht	Liga der Fremdvölker Russlands	   1
 tipo-lit. 'Ènergiâ'	tipo-lit. 'Ènergiâ	   1
+redaktionen för Biet		   1
 I. I. Vallenìus	I.I. Vallenìus	   1
 tip. Rûmina i komp.	tip. Rûmina i komp	   1
 Kartografičeskoe zavedenìe F. Zlotnikov' i L. Volk'	Kartografičeskoe zavedenìe F. Zlotnikov' i L. Volk	   1
@@ -2858,6 +3070,7 @@ Tipografìâ Imperatorskoj Akademìi Nauk'	Tipografìâ Imperatorskoj Akade
 red. žurn. 'Znanie'	red. žurn. 'Znanie	   1
 Lilkus' i Gercberg'	Lilkus' i Gercberg	   1
 P. P. Sojkin	P.P. Sojkin	   1
+Finlandia	Matkailutoimisto Finlandia	   1
 [Voenno-Topografičeskoe Depo]	Voenno-Topografičeskoe Depo	   1
 A. S. Suvorin'	A.S. Suvorin	   1
 Mirnyj trud'	Mirnyj trud	   1
@@ -2885,34 +3098,49 @@ WSOY,;Verner Sëderstrem'	WSOY	   1
 tipografiâ Imperatorskoj Akademìj nauk'	tipografiâ Imperatorskoj Akademìj nauk	   1
 Tipografìâ Glavnago upravlenìâ udělov',;типографія Главнаго управленія удѣеловъ	Tipografìâ Glavnago upravlenìâ udělov	   1
 Komissìâ po zavědyvanìû kapitalom' im. gr. S. A. Stroganova	Komissìâ po zavědyvanìû kapitalom' im. gr. S.A. Stroganova	   1
+[Wiipurin suomalaisen klassillisen lysein toverikunta]	Viipurin suomalainen klassillinen lyseon toverikunta	   1
 [s.n.]	Turun suomalaisen lyseon toverikunta	   1
 [Joensuun lyseon toverikunta]	Joensuun lyseon toverikunta	   1
 P. A. Norstedt & söner	Sällskapet för nyttiga kunskapers spridande	   1
+[Waasan reaalilyseon toverikunta]	Vaasan reaalilyseo	   1
+[s.n.]	Jyväskylän lyseo	   1
 Gyldendalske Boghandel, Nordisk Forlag	Gyldendalske Boghandel Nordisk	   1
 Tip. T-va p. f. 'Èlektro-Tip. N. Â. Stojkovoj'	Tip. T-va p. f. 'Èlektro-Tip. N. Â. Stojkovoj	   1
 Tip. Izvêstìj ,;Тип. Изве̂стій	Tip. Izvêstìj	   1
 Imperatorskaâ akademìâ nauk'	Imperatorskaâ akademìâ nauk	   1
 Gleerupska univ.-bokhandeln	Gleerupska universitetsbokhandeln	   1
+Wiborgs roddklubb och Wiborg läns segelförening	Wiborgs roddklubb	   1
+[s.n.]	Åggelby Fotbollklubb	   1
 E.K.S. rahwakirjanduse - toimekonna wäljaanne	E.K.S. rahvakirjanduse - toimekonna väljaanne	   1
 Simelii arfvingar	Simelii arvingar	   1
+Nordiska annonsbyrån	Pohjoismaiden ilmoitustoimisto	   1
+[Nordiska annonsbyrån]	Pohjoismaiden ilmoitustoimisto	   1
 G. W. Enlund	G.W. Enlund	   1
 J. N. Nyren	J.N. Nyren	   1
+K. B. Boströms förlag		   1
+[Finska aktiva motståndspartiet]	Suomen aktiivinen vastustuspuolue	   1
+Carl Schneiner		   1
 J. G. Cotta	J.G. Cotta	   1
 [Vapaa ajatus]		   1
+Finska telegramsbyråns annonsafdelning		   1
 [H. Em. Aspelin] :;Lennart Holmberg, distr.		   1
 J. Simelii Arfvingar	J. Simelii Arvingar	   1
 [Adolphus Fredricus Kepplerus]	Adolphus Fredricus Kepplerus	   1
 Nu.	Nu	   1
+Vakuutusosakeyhtiö Kaleva	Kaleva, keskinäinen vakuutusyhtiö	   1
 Anna Gros, distr.	Föreningen för Österbottens Historiska Museum	   1
 Svenska andelsförl.	Svenska andels	   1
 Nordblad, distr.	Nordblad, distr	   1
 s.l.	s.l	   1
 Przeglądu Narodowego	Przeglądu Narodovego	   1
 s.l.]	s.l	   1
+Suomen sahateollisuustyöväen liitto	Suomen sahateollisuustyöväenliitto	   1
+Pohjanmaan työväen osuuskirjapaino		   1
 Tipografìâ M. M. Stasûleviča	Tipografìâ M.M. Stasûleviča	   1
 Fritzes, distr.	Fritzes, distr	   1
 Akademiska bokförlaget	Akademiska bok	   1
 Plon [etc.]	Plon	   1
+N. R. af Ursin		   1
 Karlstedts bokhandel, distr.	Karlstedts bokhandel, distr	   1
 s. n.]	s. n	   1
 Èrlih'	Èrlih	   1
@@ -2920,17 +3148,25 @@ Helwing	Helving	   1
 P. A. Huldbergs bokhandel	P.A. Huldbergs bokhandel	   1
 Olewiku	Oleviku	   1
 [G. O. Holmberg]		   1
+Savonlinnan ajurien ao.	Savonlinnan ajurien ammattiosasto	   1
+Joensuun V. P. K.	Joensuun vapaaehtoinen palokunta	   1
+Tampereen VPK	Tampereen vapaaehtoinen palokunta	   1
+[Joensuun Kp.-yhdistys]	Joensuun Kp.-yhdistys	   1
 Carl Fr. Skough	Carl Frederic Skough	   1
 [Barck]	Barck	   1
+Uusmaalainen ylioppilas-yhdistys	Uusmaalainen ylioppilasyhdistys	   1
 [Finska studentafdelningarnas etnografiska museum],;Finska Litteratur-sällskapets tr.		   1
 [Prometheus]	Helsingin yliopiston vapaa-ajattelijayhdistys Prometheus	   1
 [Gottlund]	Gottlund	   1
 [Satakuntalainen osakunta]	Satakuntalainen osakunta	   1
+Nyländska studentafdelningen	Nylands nation	   1
+Stolpe	Länsisuomalainen osakunta	   1
 [Pohjalainen valtuuskunta]	Pohjalainen valtuuskunta	   1
 [Pohjalainen ylioppilaslainarahasto]	Pohjalainen ylioppilaslainarahasto	   1
 [Österbottniska studentlånefonden]	Österbottniska studentlånefonden	   1
 [Varsinais-Suomen suomenmielisten ylioppilaitten yhdistys]	Varsinais-Suomen suomenmielisten ylioppilaitten yhdistys	   1
 [Länsisuomalainen ylioppilas-osakunta]	Länsisuomalainen ylioppilas-osakunta	   1
+J. E. Ahlqvist		   1
 Charles Deleen et J. G. Forsgren		   1
 Wasenius & Komp.	Wasenius & Coomp	   1
 F.H.Morin	F.H. Morin	   1
@@ -2957,6 +3193,9 @@ Sampo Goal Company	Sampo Goal Company(Hanna )	   1
 W. Wm. Granlund		   1
 [s.n.]	Calumetin suomalainen kansallisseurakunta(Calumet )	   1
 [s.n.]	Calumetin suomalainen kristillinen nuorisoyhdistys(Calumet )	   1
+Suomen höyrylaiva osakeyhtiö		   1
+[Finland steamship company]	Finland steamship company	   1
+Finska ångfartygs aktiebolaget		   1
 Painettu A. P. Huldbergin tykönä		   1
 Stoličnaâ skoropečatnâ S. H. Zolotuhina	Valamon luostari	   1
 Tipografia N.A. Lebedeva	Valamon luostari	   1
@@ -2967,6 +3206,7 @@ Ferd. Dümmler	Ferdinand Dümmler	   1
 tryckt hos C. A. Londicer	tryckt hos C.A. Londicer	   1
 Akademiska Bokhandel [Distr.]	Akademiska Bokhandeln	   1
 Tipografìâ Karl' Gol'mstrem''	Tipografìâ Karl' Gol'mstrem	   1
+Osterlamm		   1
 gedruckt bei M. C. Iversen	gedruckt bei M.C. Iversen	   1
 G. J. Göschen'sche Verlagshandlung	G.J. Göschen'sche Verlagshandlung	   1
 Christ Ludv. Hjelt	Christ. Ludv. Hjelt	   1
@@ -2979,12 +3219,18 @@ präntätty J. C. Frenckellin ja pojan kirjan-präntisä	präntätty J.C. Frenck
 Å förf:s förlag	Å förf	   1
 [Finska litteratursällskapet]	Finska Litteratur-sällskapet	   1
 Justus Perthes :;J. W. Lilljas Agentur in Åbo [jakaja]	Justus Perthes	   1
+Kancelârìâ finlânskago arhìepiskopa		   1
+Frälsningsarmén		   1
+Norsk finnemisjon		   1
+Facklan		   1
+Nordens kristelige studenterforbund :;Akademiske frivilliges missionsforbund	Nordens kristelige studenterforbund	   1
+Evangelisk lutherska missionen		   1
 A. C. Öhman		   1
 J. W. Lillja & Co.	J.W. Lillja & Co	   1
+Skoglund		   1
 Ljus ;;Nordiska forlag	Ljus	   1
 J. Simelii arfvingar :;Wasenii	J. Simelii arvingar	   1
 J. F. Grönroos tryckeri	J.F. Grönroos tryckeri	   1
-J. C. Frenckell		   1
 Kirja	Kirja, kustannusosakeyhtiö	   1
 [J. Karsten]	J. Karsten	   1
 Tekijän kustantama	<<Author>>n kustantama	   1
@@ -3003,26 +3249,47 @@ A. Lindegren		   1
 Clouberg ja kumpp. (omist. W. Hoving)	Clouberg ja Kumpp	   1
 Victor Hoving (ent. Clouberg ja kumpp.)	Victor Hoving	   1
 Clouberg ja kumpp. (om. W. Hoving)	Clouberg ja Kumpp	   1
+[s.n.]	Sortavalan suomalainen seura	   1
 [s.n.]	Septem	   1
 [Erik August Hagfors]		   1
+Kehittäjän kannatusyhditys	Kehittäjän kannatusyhtiö	   1
+Rauhamaa & C:o	Rauhamaa & Co	   1
+[Satakunnan Sanomat]		   1
+Karjalan kirjapaino-oy	Karjalan kirjapaino	   1
+Konstnärsklubben		   1
 Voen. Top. Depo		   1
 Toimittajan kustannuksella.	Toimittajan kustannuksella	   1
+P. I. Turkkinen	P.I. Turkkinen	   1
+Evankelis-lutherilainen nuorukais-yhdistys	Evankelis-lutherilainen nuorukaisyhdistys	   1
+Osuukunta Veljeys	Osuuskunta Veljeys	   1
+[Viipurin uusi kirjapaino ja sanomalehti-osakeyhtiö]	Viipurin uusi kirjapaino ja sanomalehti-osakeyhtiö	   1
+[s.n.]	Deutsche Familie Club zu Helsingfors	   1
 G. W. Wilen	G.W. Wilén	   1
 WSOY	Savo-karjalainen osakunta	   1
+Helsingfors F. B. K.	Helsingin VPK	   1
 Savokarjalainen osakunta	Savo-karjalainen osakunta	   1
+Tampereen V. P. K.	Tampereen vapaaehtoinen palokunta	   1
+Tavastehus F. B. K.	Hämeenlinnan vapaaehtoinen palokunta	   1
+Björneborgs F. B. K.	Porin vapaaehtoinen palokunta	   1
 K. F. Vasenius	K.F. Vasenius	   1
+Kawerin towerit	Kaverin toverit	   1
 Fr. Skoglund, Seelig & C:is förlagsfirma	Frederic Skoglund, Seelig & C:isfirma	   1
 Tekiän kustannuksella	<<Author>>n kustannuksella	   1
+Porin VPK	Porin vapaaehtoinen palokunta	   1
 Clouberg ja Kumpp. (omist. W. Hoving)	Clouberg ja Kumpp	   1
 J. V. Hissa	J.V. Hissa	   1
+Handelsgillet	Handelsgillet i Wiborg	   1
 [Tekijän kustannuksella]	<<Author>>n kustannuksella	   1
 A. W. Johansson	A.W. Johansson	   1
 C. A. Reitzel	C.A. Reitzel	   1
+[J. V. Snellman]		   1
 J. Jänkelä	J. Länkelä	   1
 [s.n.]	Muntra musikanter	   1
 A. Apostol		   1
+[De blindas vänner]	Sokeain ystävät	   1
 [Muntra musikanter]	Muntra musikanter	   1
 Buchdruckerei Carl Zwiener	Buchdruckerei Carl Zviener	   1
+Helsingfors musikförening	Helsingin musiikkiyhdistys	   1
 Knižnyj magazin'' P. Krašeninnikova i komp.	Knižnyj magazin'' P. Krašeninnikova i komp	   1
 Mirskoj Vêstnik''	Mirskoj Vêstnik	   1
 O. N. Popovoj	O.N. Popovoj	   1
@@ -3108,7 +3375,6 @@ Clouberg & kumpp.	Clouberg & Coumpp	   1
 präntätty Londicerin lesken tykönä	Londicerin leski	   1
 Izdanìe Knižnago  Magazina Palḿgren'	Izdanìe Knižnago  Magazina Palḿgren	   1
 J. H. Schubothe	J.H. Schubothe	   1
-N. A. Zilliacus	N.A. Zilliacus	   1
 G. A. Reyher	G.A. Reyher	   1
 K. F. Köhler	K.F. Köhler	   1
 Marie A. Brown	Marie A. Brovn	   1
@@ -3156,6 +3422,7 @@ Simelius		   1
 [Turistföreningen i Finland]	Suomen matkailijayhdistys	   1
 Siegle, Hill & co.	Siegle, Hill & co	   1
 Löwegren	Lövegren	   1
+Suomen matkailijayhdistyksen Jyväskylän haaraosasto	Suomen matkailijayhdistys	   1
 Sampson Low	Sampson Lov	   1
 författarens förlag	författare	   1
 Zawadzkiego	Zavadzkiego	   1
@@ -3168,7 +3435,6 @@ Forlagsbureauet	sbureauet	   1
 [Jyväskylän kaupunki]	Jyväskylän kaupunki	   1
 N. J. Gumpert	N.J. Gumpert	   1
 Abr. Bohlin		   1
-[Oulun kaupunki]	Oulun kaupunki	   1
 Palmblad & C.	Palmblad & C	   1
 Sampson Low, Marston and Company	Sampson Lov, Marston and Company	   1
 Johanna Cederwaller et Son	Johanna Cedervaller et Son	   1
@@ -3250,6 +3516,7 @@ tryckt hos Henrik And. Nordström	Nordström, Henrik Andersson	   1
 typis Societatis Biblicae Fennicae	Pipliaseuran kirjapaino	   1
 tryckt uti Kongl. Ordens boktryckeriet	Pfeiffer, Johan	   1
 Åbo sjömans- och inre mission	Åbo sjömans- & inre mission	   1
+Verdandi	Föreningen Verdandi	   1
 excudebant Regiae Academiae typographi	Palmblad, Sebell & co	   1
 Palmblad &c C.	Palmblad & co	   1
 excudebat Zeipel et Palmblad	Zeipel och Palmblad	   1
@@ -3275,6 +3542,8 @@ J. Simelii arfvingars boktryckeri	J. Simelii arvingars boktryckeri	   1
 J. Simelü arfv. boktryskeri aktiebolag	J. Simelü arv. boktryskeri aktiebolag	   1
 Société d'Éditions Scientifiques	Société d'Éditions Scientifiqves	   1
 [Senatens tryckeri]	Senatens tryckeri	   1
+P. Gusev'		   1
+Gosudarstvennaâ tipografìâ		   1
 Finska Evangeliska-sällskapet	Suomen evankelinen seura	   1
 Svâtejšij Pravitel'stvennyj Sinod'	Svâtejšij Pravitel'stvennyj Sinod	   1
 Tipo-litografìâ S. M. Pavlova	Tipo-litografìâ S.M. Pavlova	   1
@@ -3295,7 +3564,6 @@ Painoyhtiön kirjap.	Painoyhtiön kirjapaino	   1
 Suomalaisen Kirjallisuuden Seura :;Muinaismuisto-yhtiö	Suomalaisen Kirjallisuuden Seura	   1
 Suomalaisen Bibl. seur. kp. :;Frenckell	Suomalaisen biblioteket seur. kp	   1
 P. Widerholmin perill. :;Stolpe	P. Widerholmin perill	   1
-J. Westerback		   1
 Suomalaisen Kirjallisuuden Seura :;Waaranen	Suomalaisen Kirjallisuuden Seura	   1
 Karsten :;Tekijä	Karsten	   1
 Karsten :;Wilén	Karsten	   1
@@ -3713,8 +3981,6 @@ Painoyht.	Painoyht	   1
 Joh. Blom	Johan Blom	   1
 Englannin ja ulkomaan Biblia-seura	Englannin ja ulkomaan bibliaseura	   1
 K. Göös ja K.	K. Göös ja K	   1
-Emil Hagelberg		   1
-Weilin ja Göös		   1
 Christ. Ev. Barck	Christ. Evangeliska Barck	   1
 Frenckell :;J. F. Granlund	Frenckell	   1
 J. R. Aspelin	J.R. Aspelin	   1
@@ -3729,21 +3995,42 @@ And. Cederwaller	Anders Cedervaller	   1
 W. Lilja & co.	W. Lilja & co	   1
 Chr. Ludv. Hjelt	Christian Ludv. Hjelt	   1
 Elfving	Elving	   1
+Privata svenskspråkiga lärovärket i Kuopio	Privata svenskspråkiga läroverket i Kuopio	   1
+Folkhögskolan i Borgå	Borgå folkhögskola	   1
 [GEJ]	GEJ	   1
 Viipurin sanomain kirjapaino	Wiipurin Sanomain kirjapaino	   1
 Syrén		   1
+Pedagogiska matlagningsskolan i Helsingfors	Helsingin kasvatusopillinen ruuanlaittokoulu	   1
+Typografernas förening i Helsingfors	Helsingin kirjatyön<<Author>>in yhdistys	   1
+Helsingfors handtverks- och fabriksförening	Helsingin käsityö- ja teollisuusyhdistys	   1
+Föreningen för befrämjande af barnavård i Helsingfors		   1
+Föreningen för Helsingfors arbetshem		   1
+Wasa arbetareförening	Vaasan työväenyhdistys	   1
 Kirjankustannusliike		   1
 [Itä-Hämeen maalaisseura]	Itä-Hämeen maalaisseura	   1
 K. L.	K. L	   1
+Finska statsjärnvägarna		   1
+Polytekniska institutets i Finland bibliotek	Polyteknillisen opiston kirjasto	   1
 [Pyhäkouluyhdistys]	Pyhäkouluyhdistys	   1
+Finska cyclistförbundet	Finska cyclist	   1
 Eero S.	Eero S	   1
 [Otava]		   1
 Nuorten miesten kristillinen yhdistys Suomessa	Nuorten miesten kristillinen yhdistys	   1
 Helsingin räätäli-ammatti-yhdistys		   1
+Åbo jagtvårdsförening	Turun metsästyksenhoitoyhdistys	   1
 [Rauma kirjapaino-osakeyhtiö]	Rauman kirjapaino-osakeyhtiö	   1
 [Tampereen vapaaehtoinen palokunta]	Tampereen vapaaehtoinen palokunta	   1
+Ständerhusdelegationen		   1
+Konstflitsföreningen i Finland	Suomen taideteollisuusyhdistys	   1
 E. A. Majlund & kumpp.	E.A. Majlund & Coumpp	   1
+Ekenäs tryckeri		   1
+Wentzel Hagelstam	Maanviljelyshallitus	   1
 Suomen Luteerilainen evankeliumi-yhdistys	Suomen lutherilainen evankeliumi-yhdistys	   1
+Finska studentkårens antikvariat	Finska studentkårens antiqvariat	   1
+O. W. Bergström	O.W. Bergström	   1
+Föreningen för beredande af själavård åt finske sjömän i utländska hamnar	Suomalaisten merimiesten ulkomaan satamissa sielunhoitoyhtiö	   1
+Fängelseföreningens i Finland centralbestyrelse		   1
+Länsisuomalainen osakunta,;Västfinska afdelningen.	Länsisuomalainen osakunta	   1
 Rosenberg		   1
 Suomentaja		   1
 [Vihdin nuorisoseura]	Vihdin nuorisoseura	   1
@@ -3754,15 +4041,70 @@ Sortavalan eankelinen seura	Sortavalan evankelinen seura	   1
 Kansallis kirjapaino	Kansalliskirjapaino	   1
 Östra Finlandin kirjapaino	Östra Finland'in kirjapaino	   1
 A. T. Öhman	A.C. Öhman	   1
+Föreningen för konstfliten i Finland	Suomen taideteollisuusyhdistys	   1
+Kejserliga finska hushållningssällskapet	Suomen talousseura	   1
+Finska forstföreningen	Suomen metsäyhdistys	   1
 Kansankirjallisuus-yhtiö		   1
+Föreningen för värnlösa barns uppfostran		   1
+Lutherska evangelii föreningen i Finland	Suomen luterilainen evankeliumiyhdistys	   1
+Kommunalnämnden i Helsinge		   1
+Guvernören i Nylands län		   1
+Guvernören i Kuopio län		   1
+Finansexpeditionen	Suomi 	   1
+Finansexpeditionen i Kejserliga senaten för Finland	Suomi 	   1
+Drätselkammaren i Helsingfors	Helsingin rahatoimikamari	   1
+Helsingfors arbetareförening	Helsingin työväenyhdistys	   1
+[s.n.]	Oulun kaupunki	   1
 [J. C. Lagerspetz' bokhandel, distributör]	J.C. Lagerspetz' bokhandel	   1
+Finska tidningsmannaföreningen	Suomen sanomalehtimiesyhdistys	   1
+[Wasa-Posten]		   1
 Pelastus-armeijan päämaja	Pelastusarmeijan päämaja	   1
+Akademiska bokhandeln	Helsingin yliopisto	   1
+Finlands allmänna slöjdförening	Suomen yleinen käsiteollisuusyhdistys	   1
+Finska industridelegationens centralkomité	Suomen teollisuusvaltuuskunta	   1
+Ossian Häggman i distr.		   1
 Suomen Lutherilainen Evankeliumiyhdistys	Suomen Lutherilainen evankeliumi-yhdistys	   1
+Meteorologiska centralanstalten	Meteorologinen keskuslaitos	   1
 Edludn	Edlund	   1
+Mustasaari landtmannagille	Mustasaaren maamiesseura	   1
+Farmaciekandidatklubben	Farmasiankandidaattiklubi	   1
+Finnischer Kunstverein	Suomen taideyhdistys	   1
+[Jac. Ahrenberg]	Jac. Ahrenberg	   1
+Svanbäck		   1
 Erkko		   1
+Helsingfors centraltryckeri och bokbinderiaktiebolag		   1
+Vasa läns landtbrukssällskap	Vaasan läänin maanviljelysseura	   1
+Edlundska bokhandeln i distr.		   1
+Musei bestyrelsen	Turun kaupungin historiallinen museo	   1
+V. Petterson & C:o		   1
+Waseniuska bokhandeln i distr.		   1
+Nykterhetens vänner	Lärareföreningen för hälsovård och nykterhet	   1
+Sjömansmissionen	Suomen merimieslähetys	   1
+Polytekniska institutet	Polyteknillinen opisto	   1
 Gumerus	Gummerus	   1
+Pellervo	Pellervo-seura	   1
+Luth. evangeliföreningen i Finland	Suomen luterilainen evankeliumiyhdistys	   1
+Nylands och Tavastehus läns landtbruksällskap	Uudenmaan ja Hämeen läänien maanviljelysseura	   1
+Tidn.- & tryckeriaktiebol.		   1
+Fotografi-amatörklubben i Helsingfors	Helsingin valokuvausyhdistys	   1
+Hagelstam	Maanviljelyshallitus	   1
+J. Jernström		   1
+Konstflitföreningen i Finland	Suomen taideteollisuusyhdistys	   1
+Edlundska bokhandel i distr.		   1
+Kejserliga Finska hushållningssällskapet	Keisarillinen Suomen talousseura	   1
+Guido Hornborg i distr.	Guido Hornborg i distr	   1
+Lördagsqvällen		   1
 Söderström & C:o, i distr.	Söderström & Co i distr	   1
+Utgifvarna		   1
+Helsingfors trädgårdsgille	Helsingfors trägårdsgille	   1
+P. A. Norstedt  Söner		   1
+Finska evangeliska sällskapet	Suomen evankelinen seura	   1
 O. W. B.	O. W. B	   1
+Victor Forselius		   1
+Kejserliga Senaten för Finland	Suomi 	   1
+Arbetets vänners västra filial	Arbetets vänner	   1
+Kejserliga Senaten för Finland	Keisarillinen Suomen senaatti	   1
+Kejserliga Senaten för Finland		   1
 Julin		   1
 Grönroos		   1
 Kirjankustannus-liike		   1
@@ -3776,7 +4118,6 @@ tryct i Kongl. tryckeriet	Fougt, Elsa	   1
 [C. F. Marquard]	Marquard, Carl Fredric	   1
 Hoving		   1
 Juho Häkkänen		   1
-Turun kp.	Turun kp	   1
 Sim.	Sim	   1
 litteris J. H. Eckhardt, Reg. Acad. typogr.	Eckhardt, Johann Heinrich	   1
 litteris Berlingianis	Berling, Carl Fredrik	   1
@@ -3803,36 +4144,63 @@ tryckte hos Joh. C. Frenckell	Frenckell, Johan Christopher II	   1
 tryckt hos mag. Joh. Christ. Frenckell	Frenckell, Johan Christopher II	   1
 KS kp.	KS. kp	   1
 Waasan painoyhtiön kp.	Vaasan painoyhtiö	   1
-GEJ		   1
 Söderstöm	Söderström	   1
 Wickstedt		   1
 Kajaanin kp.	Kajaanin kp	   1
-Sammon kp.		   1
 [Lutherilainen Evankeliumi-yhdistys]	Lutherilainen Evankeliumi-yhtiö	   1
+Helsingfors Stentryckeri		   1
 [J. Westerback],;Oulun uusi kp.		   1
+Jakobstad	Pietarsaaren kaupunki	   1
+Jakobstads elektricitetsverk	Pietarsaaren kaupunki	   1
+Kristliga föreningen för unga kvinnor	Nuorten naisten kristillinen yhdistys	   1
+Högre svenska handelsläroverket	Högre svenska handelsläroverket i Helsingfors	   1
+Hälsovårdsnämnden i Wiborg	Viipurin kaupunki	   1
+Hälsovårdsnämnden i Helsingfors	Helsingin kaupunki	   1
 Anton Lindeberg		   1
 [Matti Waronen]	Matti Waronen	   1
 O. R. Blom	O.R. Blom	   1
 F. A. Ottelin	F.A. Ottelin	   1
+G. W. Edlund	Terveydenhoitoyhdistys	   1
+Hälsovårdsföreningen i Finland	Suomen terveydenhoitoyhdistys	   1
+Ev. luth. söndagsskoleföreningen i Finland	Suomen evankelis-luterilainen pyhäkouluyhdistys	   1
+Helsingfors stads gasverk	Helsingin kaupunki	   1
+Helsingfors stads elektricitetsverk	Helsingin kaupunki	   1
+Helsingfors kommunala arbetsförmedlingsbyrå		   1
 [Verneri Varjoranta]	Verneri Varjoranta	   1
 Raittiuden Ystävät		   1
 Lindstedtin antikvaarinen kirjak.	Lindstedt'in antiqvaarinen kirjakauppa	   1
+L. Fisk		   1
 Hämeen Sanomain kp.		   1
 [Kejserliga Senaten]	Kejserliga Senaten	   1
 [Pedagogiska fören. i Finland]	Pedagogiska föreningen i Finland	   1
+Finska statsjärnvägarna	Valtionrautatiet	   1
+Föreningen för bekämpandet af tuberkulosen	Tuberkuloosin vastustamisyhdistys	   1
+Helios (i distr.)		   1
 Skandinawilainen kustannustoimisto	Skandinavilainen kustannustoimisto	   1
+Finska tjänarinneförbundet	Suomen palvelijaliitto	   1
 Finska tjänarinneförbundet	Finska tjänarinne	   1
+Finska svinafvelsföreningen	Suomen sianjalostusyhdistys	   1
 GEJ ja K.	GEJ. ja K	   1
+Finska sparbanksföreningen	Suomen säästöpankkiyhdistys	   1
 [Tampereen Naisyhdistys]	Tampereen Naisyhdistys	   1
 Utgifvaren :;Söderström, distr.	Utgivaren	   1
 Eget förlag :;Söderström, distr.	Eget	   1
 Helin ja K.	Helin ja K	   1
 [Fredrikshamns stads svenska flickskola]	Fredrikshamns stads svenska flickskola	   1
 [Nikolaistads folkbibliotek]	Nikolaistads folkbibliotek	   1
+Finska kreditgifvareföreningen	Suomen luotonantajayhdistys	   1
+Finska kreditsgifvareföreningen	Suomen luotonantajayhdistys	   1
+Finlands foxterrierklubben	Suomen kettuterrieriyhdistys	   1
 Auran kp.	Auran kp	   1
 Weilin + Göös	Weilin & Göös	   1
+Bokhandelstidning för Finland		   1
+Akademiska bokhandeln		   1
 Aura lehden osakeyhtiö	Auralehden osakeyhtiö	   1
+I. F. K.		   1
+Finlands Handelsresandeförening	Suomen kauppamatkustajayhdistys	   1
 E. A. Majlund	J.A. Majlund	   1
+Ekenäs stad	Tammisaari	   1
+Finska Missionssällskapet	Suomen lähetysseura	   1
 Suomalainen teolooginen kirjallisuuden seura	Suomalainen teologinen kirjallisuusseura	   1
 Clouberg ja K		   1
 P. Ahlgrén	P. Ahlgren	   1
@@ -3840,8 +4208,11 @@ Pyh. hallitsevainen Synodi	Pyh. Hallitsevainen Synoodi	   1
 GEJ  ja K.	GEJ  ja K	   1
 EHbg ja K.	E. Hbg ja K	   1
 Författaren :;Weilin & Göös, distr.	Författare	   1
+Brandverket i Åbo	Turun kaupunki	   1
 Glouberg ja K.		   1
 [Finska forstföreningen]	Finska forstförening	   1
+Styrelsen för Åbo stads historiska museum	Turun kaupungin historiallinen museo	   1
+Finska Vetenskapssocieteten		   1
 [Kejserliga senaten, justeringskommissionen]	Kejserliga senaten, justeringskommissionen	   1
 Ekenäs missionsbokhandeln	Ekenäs missionsbokhandel	   1
 Th. Clayhills	Thorvald Clayhills	   1
@@ -3949,24 +4320,58 @@ typis Frenkelliorum	J. C. Frenckell ja poika	   1
 excudebant J. C. Frenckell & fil. Acad. imper. typographi	J. C. Frenckell ja poika	   1
 Kastegrén	Kastegren	   1
 WS.	WS	   1
+Fredrikshamns folkbibliotek	Haminan kaupunginkirjasto	   1
 Lindstedts antiqv. bokh.	Lindstedts antiqv. bokhandel	   1
 [Kronoborgs landtbruksinstitut]	Kronoborgs landtbruksinstitut	   1
+Wiborgs stad	Viipurin kaupunki	   1
+Handels- och fabriksföreningen i Wiborg	Viipurin kaupunki	   1
 [Finlands natur och folk]	Finlands natur & folk	   1
+Nylands fiskareförbund	Nylands fiskarförbund	   1
 [Föreningen för Finlands kyrkohistoria]	Föreningen för Finlands kyrkohistoria	   1
 Joh. Castrén	Johan Castrén	   1
+Närpes kommun	Närpiön kunta	   1
+Hästavelsföreningen 'Nylands Hippos'	Nylands Hippos	   1
+Hästavelsföreningen Hippos	Suomen Hippos	   1
+Hangö stad	Hangon kaupunki	   1
+Helsingfors stads bibliotek	Helsingin kaupunginkirjasto	   1
+[Hangö stad]	Hangon kaupunki	   1
 P. W. Hannikainen	P.W. Hannikainen	   1
+Finska industridelegationen	Suomen teollisuusvaltuuskunta	   1
+Finska delegationen vid Ryska exportkammaren		   1
+Finlands gymnastik- och idrottsförbund	Suomen voimistelu- ja urheiluliitto	   1
 F. W. Nieminen	F.W. Nieminen	   1
+Edlundska bokhandeln, jakaja	Keisarillinen Suomen senaatti	   1
 [Société de littérature suédois de Finlande]	Société de littérature suédois de Finlande	   1
+Ev.-Luth. söndagsskolföreningen i Finland	Suomen evankelis-luterilainen pyhäkouluyhdistys	   1
 K. H. - J. F.	K. H. - J. F	   1
+Åbo avdelning	Åbo nation	   1
 [Nya svenska samskolan i Helsingfors]	Nya svenska samskolan i Helsingfors	   1
+S. Dahlström		   1
+Agrikulturekonomiska försöksanstaltens i Finland afdelning för växtkultur	Agrikultur-ekonomiska försöksanstalten i Finland	   1
 Sim. per.	Sim. per	   1
+Afvelsföreningen för Ayrshireboskap i Finland	Suomen ayrshireyhdistys	   1
 J. V. Laurén	J.V. Larśn	   1
+Wasa Nyheters tryckeri		   1
+Tidnings- och Tryckeriaktiebolaget		   1
+Jakobstads tryckeri och tidnings aktiebolag		   1
 Finska grafiska industrins arbetsgivareförbund	Finska grafiska industrins arbetsgivare	   1
+Teosofiska samfundet Finland	Suomen teosofinen seura	   1
+Finska Statsjärnvägarna	Valtionrautatiet	   1
+Maria sjukhus i Helsingfors		   1
+[Helsingfors stads Epidemisjukhus]	Helsingfors stads Epidemisjukhus	   1
+Helsingin palvelijatar-yhdistys	Helsingin palvelijataryhdistys	   1
+Finska mejerisamfundet	Suomen meijeriliitto	   1
+Privata barnbördshuset i Jakobstad		   1
+V. von Rehausen		   1
+Ångfartygsaktiebolaget Bore	Bore shipowners	   1
 C. E. Junioravdelningen i Åbo	C.E. Junioravdelningen i Åbo	   1
 Pohjoismainen merimieslähetys	Pohjoismaiden merimieslähetys	   1
+O. R. Gauffin		   1
+Teosofiska samfundet i Finland	Suomen teosofinen seura	   1
 Suomen talousseura	Suomen talous-seura	   1
 [Toimittajat]	Toimittaja	   1
 Jyväskylän kirjap.	Jyväskylän kirjapaino	   1
+Nikolaistad		   1
 Tammisaaren kp.	Tammisaaren kp	   1
 [Kansanwalistus-seura]	Kansanvalistusseura	   1
 Työväen sanomalehti-osakeyhtiö		   1
@@ -3978,7 +4383,6 @@ Lidstedts antikv. bokh., distr.	Lidstedts antiqv. bokhandel, distr	   1
 Luth. Evang. föreningen	Luth. Evangeliska fören	   1
 Helsingin Eläinsuojelusyhdistys	Helsingin Eläinsuojeluyhdistys	   1
 K. G. Holm	K.G. Holm	   1
-G. W. Wilén		   1
 P. A:n ja N. B.	P. A:n ja N. B	   1
 O. W. Backman		   1
 J. C. Frenckell ja Poika	J.C. Frenckell ja poika	   1
@@ -3993,20 +4397,37 @@ J. Länkelä		   1
 Turun kansakoulunjohtokunta	Turun kansakoulujohtokunta	   1
 Weini & Göös	Weilin & Göös	   1
 Porilaisten kirjapaino	Porilaisen kirjapaino	   1
-Finsk kvinnoförening	Suomen naisyhdistys	   1
 Luth. Ewankeliumi-yhtiö	Luth. Evankeliumi-yhtiö	   1
+Grossistföreningen i Finland	Tukkukaupan keskusliitto	   1
+Finansexpeditionen i Kejserliga Senaten för Finland	Suomi 	   1
+Baptistförsamlingarna i Finland	Baptistsamfundets svenska konferens	   1
+Finska järn- och metallarbetareförbund	Suomen metallityön<<Author>>in liitto	   1
 [Wasa läns landtbruksällskap]	Wasa läns landtbruksällskap	   1
 Luterilainen Ewankeilumi-yhdistys	Lutherilainen Evankeliumi-yhtiö	   1
-Emil Vainio		   1
+Finska typografförbundet	Suomen kirjatyön<<Author>>in liitto	   1
 E. R. K. N. Valkonauha	E. R.K.N. Valkonauha	   1
+F.S.J:s Mekaniska värkstäders arbetarföreningen		   1
+Finska Tullpersonalföreningen	Suomen tullivirkamiesliitto	   1
+Edlundska Bokhandeln		   1
+Finska Sortimentsbokhandlareföreningen		   1
+Finska Skeppsbefälsförbundet	Suomen laivanpäällystöliitto	   1
+Finska förare- och eldareföreningen	Suomen kuljettaja- ja lämmittäjäyhdistys	   1
 [Författarens förlag]	Författare	   1
+Metodist-episkopalkyrkan i Finland	Suomen metodisti-piispallinen kirkko	   1
 J. W. Nessler	J.W. Nessler	   1
 [Wasabladet]	Wasabladet	   1
+Karl Hurtig	Suomen metodisti-piispallinen kirkko	   1
+Landtbruks- och hushållningssällskapen	Suomen maatalousseurojen keskusliitto	   1
+[Mustiala landtbruks- och mäjeriinstitut]	Mustialan maanviljelys- ja meijeriopisto	   1
+Aktiebolaget Finlandia	Matkailutoimisto Finlandia	   1
+FKK	Suomen kennelklubi	   1
+Finska studentbiblioteket	Suomen ylioppilaskirjasto	   1
 Telén ja kumpp.	Telén ja kumpp	   1
 [Pellervo-seura]	Pellervo-seura	   1
 Karjalan Kirjakauppa ja Kust.	Karjalan Kirjakauppa ja Kust	   1
 Enkvist	Enqvist	   1
 [Sällskapets pro fauna et flora fennica]	Sällskapets pro fauna et flora fennica	   1
+Kammarexpeditionen	Kamaritoimituskunta	   1
 [Obstetrisk-gynäkologiska kliniken]	Obstetrisk-gynäkologiska kliniken	   1
 Suomen evank. luth. pyhäkouluyhdistys	Suomen evank.-luth. pyhäkouluyhdistys	   1
 [Schlüterin kirjakauppa, jakaja]	Schlüterin kirjakauppa, jakaja	   1
@@ -4020,8 +4441,11 @@ Edlund	Suomi	   1
 U. W. Telen ja K.	U.W. Telén ja K	   1
 E. W. Telén ja K.	U.W. Telén ja K	   1
 Työväen kustannusosakeyhtiö		   1
+Suomen muinais-muistoyhtiö		   1
 Evankeelinen kustannusliike	Evankelinen kustannusliike	   1
+Frenckell	Länsisuomalainen osakunta	   1
 C. H. Hirschberg	C.H. Hirschberg	   1
+Weilin & Göös	Koulutoimen ylihallitus	   1
 FÖrfattaren	F. Örfattaren	   1
 F. O. Lampola	F.O. Lampola	   1
 [Geografisk föreningen]	Geografiska föreningen	   1
@@ -4042,63 +4466,127 @@ M. N. Kasanskij	M.N. Kasanskij	   1
 Utgifwarenes förlag	Utgivaren	   1
 [Helsingfors vattenverk]	Helsingfors vattenverk	   1
 G. Th. Jacob	G. Thorvald Jacob	   1
+KS	Koulutoimen ylihallitus	   1
+Weilin & Göös	Suomen luotsi- ja majakkalaitos	   1
 Julius Rodziewicz	Julius Rodzievicz	   1
 [Normallyceum i Helsingfors]	Normallyceum i Helsingfors	   1
 J. & K. Höglund	J. & Co Höglund	   1
 A. B. Varias boktryckeri	A.B. Varias boktryckeri	   1
+Jyväskylän kp.		   1
+Axel Bergbom		   1
+Hämäläisen osake-yhtiö		   1
 Kaarle Halme ja K.	Kaarle Halme ja K	   1
 Tiedemann ja kumpp.	Tiedemann ja kumpp	   1
+Pelastusarmeija		   1
+Waseniuksen kirjakauppa	Suomen matkailijayhdistys	   1
+Hbl	Suomen matkailijayhdistys	   1
 C. A. Furstenborg, distr.	C.A. Furstenborg, distr	   1
+Biet-lehden toimitus		   1
+Åbo Tidning		   1
 Nordin & Josephson, distr.	Nordin & Josephson, distr	   1
 [Pedag. fören. i Finland]	Pedag. förening i Finland	   1
 [Frivilliga brandkårens i Borgå]	Frivilliga brandkårens i Borgå	   1
 Ekenäs missionbokhandel	Ekenäs missionsbokhandel	   1
-Lilius ja Hertzberg		   1
+SÖU	Svenska Österbottens ungdomsförbund	   1
+Auran kp.	Loimaan nuorisoseura	   1
+Helios	Svenska kvinnoförbundet	   1
+Wiipurin sanomain kp.	Wiipurin sanomain kp	   1
+Svenska Teaterföreningen	Svenska teaterföreningen i Finland	   1
+Hämeen Sanomain osake-yhtiö		   1
+Studentfylkingen :;Ateneum i distr.	Studentfylkingen	   1
+Helsinge kommun	Helsingin maalaiskunta	   1
 [Niilo Liakka]	Niilo Liakka	   1
+Stadsfullmäktiges i Helsingfors stad	Helsingin kaupunki	   1
+Socialdemokratiska partiet i Finland	Socialdemokratiska Partiet	   1
+Sociala Centralförbundet	Sociala Centralbyrån	   1
 [Kejs. finska hushållssällskapet]	Kejs. finska hushållssällskapet	   1
+Svenska folkpartiet i Helsingfors	Svenska folkpartiet i östra Helsingfors	   1
 [Alexanders universitet]	Alexanders universitet	   1
 [Kejserliga Alexanders universitetet]	Kejserliga Alexanders-Universitetet	   1
+Sampo	Sampo, keskinäinen vakuutuslaitos	   1
+Söderström	K. F. Hushållningssällskapet	   1
 [Sång- och musikfest]	Sång- & musikfest	   1
+SKFs förlag	Studenternas Kristliga Förening	   1
+Polyteknikernas förening	Polyteknillinen opisto	   1
 Viktor Pietkiewicz	Viktor Pietkievicz	   1
 [Yrjö Weilin]	Yrjö Weilin	   1
+Nylands och Tavastehus läns lantbrukssällskap	Uudenmaan ja Hämeen läänien maanviljelysseura	   1
 J. O. Östman	J.O. Östman	   1
 G. Th. Jacob & C:o	G. Thorvald Jacob & Co	   1
+Nylands Fiskareförbund	Nylands fiskarförbund	   1
+Förbundets mellan K.F.U.M. och U.K.F. förlag	Helsingin nuorten miesten kristillinen yhdistys	   1
+Merkurius		   1
 Kirjapaino 'Kotka'	Kirjapaino 'Kotka	   1
+Finska Skogsvårdsföreningen Tapio	Suomen metsänhoitoyhdistys Tapio	   1
+Waseniuska Bokhandeln i distr.	Waseniuska Bokhandeln	   1
+Helsingfors Stads Gasverk	Helsingin kaupungin kaasulaitos	   1
+Finska Sågvärksägarnes landtbruksdirektion	Suomen sahateollisuusmiesten yhdistys	   1
 [Wickström, distr.]	Wickström, distr	   1
 T. F. R.	<Author>	   1
+Otava	Suomen taiteilijaseura	   1
 'Vähäväkisten osuusliike'	'Vähäväkisten osuusliike	   1
+Otava	Suomen muinaismuistoyhdistys	   1
+Kristliga föreningen av unga kvinnor i Sörnäs	Nuorten naisten kristillisten yhdistysten liitto	   1
+Robert Edgrens förlag		   1
+OWB	Suomen evankelis-luterilainen kirkko	   1
 C. H. Hirschberg & C:o		   1
+Sanomal.- ja kp. -yhtiö		   1
+A. Sixtus Lindholm		   1
+Kp.-osakeyhtiö		   1
 Alfred Lagerblom	Alfred Lagerbom	   1
+Index		   1
 Alfred Lagerholm	Alfred Lagerbom	   1
 C. G. L.	C. G. L	   1
 [Pedag. föreningen i Finland]	Pedag. föreningen i Finland	   1
 [Finska skolläraremötet]	Finska skolläraremötet	   1
+Helsingfors handelsförening		   1
 Suomen matkailija-yhdistys	Suomen Matkailijayhdistys	   1
+Suomen kustannusyhdistys		   1
+Kansankp.	Voimistelu- ja urheiluseura Ponnistus	   1
+WSOY	Uudenmaanläänin maanviljelysseura	   1
 [Föreningen Svenska folkskolans vänners]	Föreningen Svenska folkskolans vänners	   1
 [Finlands statskontor]	Finlands statskontor	   1
 [Finska statjernvägarne]	Finska statjernvägarne	   1
 Finska Forstförenignen	Finska Forstföreningen	   1
 N. M. K. Yhdistys	N.M.K. Yhdistys	   1
+Wiipurin uusi kp.	Pappeinkokous	   1
+Etelä-Savon kp.	Pappeinkokous	   1
 [Mäntän nuorisoseura]	Mäntän nuorisoseura	   1
 G. Th. Jakob	G. Thorvald Jakob	   1
 [Nyländska jaktklubben]	Nyländska Jaktklubben	   1
 G. E. J. ja K.	G. E. J. ja K	   1
+Sortavalan evank. seura		   1
 Polyteknikkojen yhdistys		   1
 Stenografiska föreningen	Geografiska föreningen	   1
 [Svenska landsmålsföreningen i Helsingfors]	Svenska landsmålsföreningen i Helsingfors	   1
 G. E. Liljeström	G.E. Liljeström	   1
+Ammattilaisten kp.		   1
 [Diakonisshuset i Helsingfors]	Diakonisshuset i Helsingfors	   1
 Unionen :;Söderström	Unionen	   1
 [Ekenäs missionsbokhandels förlag]	Ekenäs missionsbokhandel	   1
 [Suomen maakauppiaat]	Suomen maakauppiaat	   1
 J. E. Liljeroos	J.E. Liljeroos	   1
 E. W. Örling	E.W. Örling	   1
+Päivälehden kp.	Filosofinen tiedekunta	   1
 [Lappeenrannan vapaaehtoinen palosammutuskunta]	Lappeenrannan vapaaehtoinen palosammutuskunta	   1
+päivälehden kp.	Päivälehden kp	   1
+Kuopio uusi kp.		   1
+Centralstyrelsen för hästavelsförbunden i Finland		   1
+Ammattilaisten kp.	Suomen työväenpuolue	   1
+O. B. Blomfelt	Suur-Savon nuorisoseurojen keskusseura	   1
 Waseniuska bokh.	Waseniuska bokhandeln	   1
+H. Forsström		   1
 Utgifvaren :;P. H. Beijer, distr.	Utgivaren	   1
 [Société de géographie de Finlande]	Société de Géographie de Finlande	   1
 [Ur naturen]	Ur naturen	   1
 Aug. Fabritius	August Fabritius	   1
+Kp.-yhtiö Valo	Suomen merimieslähetysseura	   1
+Sjöfartsstyrelsens lots- och fyravdelning	Merenkulkuhallitus	   1
+Sortavalan kp.	Sortavalan eläinsuojelusyhdistys	   1
+[Antti Mäkinen]		   1
+W. luhterilais-evank. nuorisoyhdistyksen lähetti J. T.	W. luhterilais-evank. nuorisoyhdistyksen lähetti J. T	   1
+[s.n.],;Matti Vuolukka & kumpp.		   1
+Osuuskunta Wäinämöinen	Suomen rauhanliitto	   1
 Fr. Bagge	Frederic Bagge	   1
 [Åbo teater]	Åbo teater	   1
 [Gygnæi galleri]	Gygnäi galleri	   1
@@ -4109,13 +4597,31 @@ Wickström, distr.	Wickström, distr	   1
 Öfversattarinnan	Översattarinnan	   1
 A. G. Wäänänen	A.G. Wäänänen	   1
 [V. M. von Born]	V. M. von Born	   1
+Tampereen työväen-yhdistys	Tampereen työväenyhdistys	   1
+Sen. kp.	Säästöpankkien tarkastaja	   1
+Tampereen Sanomain osakeyhtiö		   1
+KS	Tilastollinen päätoimisto	   1
 Herättäjä		   1
+[OWB]		   1
+Turun kp.	Suomen evankelinen seura	   1
+Nylands och Tavastehus läns landtbrukssällskap	Uudenmaan ja Hämeen läänien maanviljelysseura	   1
+KS	Raittiuden ystävät	   1
+Wilho Reiman		   1
 J. K. Kari	J.K. Kari	   1
 'Kotka'	'Kotka	   1
 Etelä-Suomen kp.	Etelä-Suomen kp	   1
+Privata svenska reallyceum	Privata svenska reallyceum för gossar och flickor i Kuopio	   1
 Waseniuska bokh., jakaja	Waseniuska Bokhandeln, jakaja	   1
+Uoti ja Grönroos	Pyhän Johanneksen seura	   1
+Reallyceum i Helsingfors	Svenska reallyceum i Helsingfors	   1
+Puuseppien ammattiyhdistys	Suomen puuseppien ammattiyhdistys	   1
+Uudenkaupungin kirjapaino	Turun puuseppäin-, sorvarein- ja kuvanveistäjäin-ammattiyhdistys	   1
+Sortavalan kp.	Sortavalan evankelinen seura	   1
 Ej i bokhandel	Ej i bokhandeln	   1
 [Nykterhetnes vänner]	Nykterhetens vänner	   1
+Helsingfors stad		   1
+Fröken Forsmans svenska flickskola	Fröken Forsmans svenska flickskola i Helsingfors	   1
+Deutsche Elementarschule	Deutsche Elementarschule zu Helsingfors	   1
 [Geografiska förneningen]	Geografiska föreningen	   1
 Yrjö Weilin	Raittiusyhdistys Koitto	   1
 Ekenäs tryckeris förlag	Ekenäs tryckeri	   1
@@ -4128,62 +4634,158 @@ Sentr.-kp.	Sentr. kp	   1
 Bolman ja Karlsson	Boman ja Karlsson	   1
 K. F. Wirtanen	K.F. Wirtanen	   1
 H. E. Svahn'in kp.	H.E. Svahn'in kp	   1
+Pohjois-Karjalan kp.	Pohjois-Karjalan kp	   1
+Länsisuomalaisten esitelmätoimikunta	Länsisuomalaiset ylioppilaat	   1
 Mikkelin Sanomain kp.	Mikkelin Sanomain kp	   1
+keski-Suomen kp.	Itä-Hämeen maalaisseura	   1
 Suom. Kansalliskp.	Suom. Kansalliskp	   1
+WSOY	Kansataloudellinen yhdistys	   1
+Weilin & Göös	Lutherilainen evankeliumi-yhdistys	   1
+Ammattilaisten kp.	Suomen satamatyön<<Author>>t	   1
+Päivälehden kp.		   1
+Työväen kp.	Suomen räätäliyhdistys	   1
 A. W. Kaskinen	A.W. Kaskinen	   1
+Työväen kp.	Suomen rauta- ja metallityön<<Author>>t	   1
 G. E. Jansson & kumpp.	G.E. Jansson & Coumpp	   1
+Ammattilaisten kp.	Suomen rakennusmestariliitto	   1
+Otto F. Kinos		   1
+Tampereen kp.		   1
+Suomen puuseppien liitto	Suomen puuseppien ammattiyhdistys	   1
+Antti Hautalan kp.		   1
+H. V. Marjamaan kp.	H.V. Marjamaan kp	   1
+[Suomen ammattijärjestö]		   1
 C. A. Heinze'n kirjapaino	C.A. Heinze'n kirjapaino	   1
+Diakonissanstalten i Helsingfors	Helsingin diakonissalaitos	   1
+[Suomen eduskunta]	Suomi 	   1
+[Uudenmaanläänin maanviljelysseura]	Uudenmaanläänin maanviljelysseura	   1
 Rauman kp.	Rauman kp	   1
+Etelä-Savon kp.	Savonlinnan hiippakunta	   1
+Kp.- ja sanomal. oy		   1
 [s.n.]	Tre fattiga studenter	   1
+Tampereen uutisten o.-y.		   1
+Kp-yhtiö Valo	Helsingin nuorisoseura	   1
+Sammon kp.	Nuorten naisten kristillinen yhdistys	   1
+W. ja K.	Suomen nuorten miesten kristillisten yhdistysten liitto	   1
 Hämeenlinnan V. P. K.	Hämeenlinnan V. P. K	   1
+Kp.-yhtiö Valo		   1
+Työväen kp.	Suomen muurarien liitto	   1
+Suomen metodisti piispallinen kirkko	Suomen metodisti-piispallinen kirkko	   1
+Kauppakp.	Suomen maanviljelysvirkamiesyhdistys	   1
+Pohjois-Karjalan kp.	Maanviljelysvirkamiehet	   1
+[Maanviljelys- ja talousseurain sihteerit]	Maanviljelys- ja talousseurain sihteerit	   1
 Tyäväen kp.	Tyäväen kp	   1
+W. ja G.	Suomen kaunokirjailijaliitto	   1
+Helsingin Sentr.-kp.	Suomen leipurin- ja konditorin-ammatin harjoittajat	   1
+Helsingin Sentr.-kp.	Suomen leipurin- ja konditorin-ammatin työnantajat	   1
 Pohjantähden kp.		   1
 A. E. Sundberg		   1
+Hämeen sanomain kirjapaino		   1
+Työväen kp.	Suomen kivityön<<Author>>t	   1
+Åbo Tidning'in kp.	Suomen evankelis-luterilainen kirkko	   1
+E. E. Sundvall		   1
 Suomen evank.- luth. pyhäkouluyhdistys	Suomen evank.-luth. pyhäkouluyhdistys	   1
+Päivälehden kp.	Suomen kauppa-apulaisyhdistys	   1
+Otava	Kansantaloudellinen yhdistys	   1
+Työväen kp.	Helsingin Epworth-liitto 'Rauha'	   1
+Kansan kuvalehden kp.		   1
+Kajaanin kp.	Kajaanin maalaisseura	   1
+Kaarlo Halme		   1
+I. Lattu		   1
+Valo		   1
+A. Mäkinen		   1
+Kauppias J. Kerminen		   1
+Luukkonen ja Kumpp.		   1
+Kauppakp.		   1
+E. Wirkin kp.		   1
+B. B. Bergdahl	Herättäjä-yhdistys	   1
+Kuopion uusi kp.	Edistysseura	   1
+Suom.-amer. kustannusyhtiö		   1
+Turun suom. kp.	Turun suom. kp	   1
+Työväen kp.	Fredriksbergin työväenyhdistys	   1
 [Jordbrukarenes i Finland Central-Andelslag]	Jordbrukarenes i Finland Central-Andelslag	   1
+S. S. Nuorisoliiton Turun osasto	S.S. Nuorisoliiton Turun osasto	   1
+Mikkelin työväen sanomalehti-osuuskunta		   1
+Suomen vapaa lähetys	Suomen vapaalähetys	   1
+F. Heinonen		   1
 Evangeliska Tryckeriets förlag	Evangeliska Tryckeriet	   1
+Siipikarjanhoidon ystävät Turussa	Yhdistys Siipikarjanhoidon ystävät Turussa	   1
+Ylioppilaiden kristillinen yhdistys		   1
 Gust. Ekholm	Gustav Ekholm	   1
 Salems sjömanskyrkas förlag	Salems sjömanskyrka	   1
 Frenckellska Tryckeri Aktiebolaget		   1
+Suomen tuberkulosin vastustamisyhdistys	Suomen tuberkuloosin vastustamisyhdistys	   1
+Turun lehden toimitus		   1
+Työkansan kustannus		   1
+Edw. Koskinen		   1
 G. A. Koskinen ja kumpp.		   1
 Förlagsaktiebolaget Valistus	saktiebolaget Valistus	   1
 Brødrene Salmonsen (J. Salmonsen)	Brödrene Salmonsen	   1
 Akademiska Bokhandel, jakaja	Akademiska Bokhandeln, jakaja	   1
 [Hufvudstadbladet]	Huvudstadsbladet	   1
-WSOY	Unioni, Naisasialiitto Suomessa	   1
+A. Halonen		   1
 Gröönroos ja K.	Gröönroos ja K	   1
+SVR	SVR Konepajoen työväenyhdistys	   1
+Suomen sähkötyöntekijäinliitto	Suomen sähkötyön<<Author>>inliitto	   1
+Suomen sähkötyöntekijät	Suomen sähkötyön<<Author>>t	   1
+[Tampereen sanomat]	Tampereen sanomat	   1
 [Industriskolans i Helsingfors]	Industriskolans i Helsingfors	   1
 Utgifvarne	Utgivaren	   1
 Utgifv.	Utgiv	   1
 [Helsingfors utskänkningsaktiebolag]	Helsingfors utskänkningsaktiebolag	   1
+WSOY	Suomen urheiluliitto	   1
 Kp.-'Kotka'	Kp.-'Kotka	   1
 [Finsk kvinnoförening]	Suomen naisyhdistys	   1
+Kansanvalistuseura	Suomen nuorison liitto	   1
+Suomen satamatyöntekijäinliitto	Suomen satamatyön<<Author>>inliitto	   1
+Suomen Postisäästöpankki	Postisäästöpankki	   1
 [Svenska lyceets i Uleåborg konvent]	Svenska lyceets i Uleåborg konvent	   1
 Wasa Svenska Lycei konvent	Vasa svenska lycei konvent	   1
+Suomen polyteknillinen opisto	Polyteknillinen opisto	   1
 Missionsbokhandeln		   1
+O. Wihantola, jakaja		   1
+Suomen eduskunta	Suomi	   1
+Suomen evank. seura	Suomen evankelinen seura	   1
 Joensuun W. P. K.	Joensuun W. P. K	   1
 Helsingin V. P. K.	Helsingin V. P. K	   1
+[Suomalainen puolue]		   1
 Kalevan kirjapaino		   1
+WSOY	Suomalainen naisliitto	   1
+[sos.dem. eduskuntaryhmän lentokirjakomitea]	sos.dem. eduskuntaryhmän lentokirjakomitea	   1
+Viipurin läänin läntisen vaalipiirin sos. dem. vaalipiiritoimikunta	Viipurin läänin läntisen vaalipiirin sosialidemokratinen järjestö	   1
+Vaasan läänin pohjoinen vaalipiiri	Suomen sosialidemokraattinen puolue	   1
+Sos.-dem. vaalipiiritoimikunta	Hämeenläänin pohjoisen vaalipiirin sosialidemokraattinen piirijärjestö	   1
 J. H. Rosenqvist	J.H. Rosenqvist	   1
+Suomalainen työväenliitto		   1
 Alfred Lagerbomin jaett.	Alfred Lagerbomin jaett	   1
 Åsvikin kp.	Åsvikin kp	   1
 [Kvinnosaksförbund i Finland]	Kvinnosaksförbund i Finland	   1
+Kristliga Föreningen av Unga Kvinnor	Nuorten naisten kristillinen yhdistys	   1
 A. B. Novella	A.B. Novella	   1
+Kejserliga Senaten	Suomi 	   1
 Lindstedts Antikvariska Bokhandel	Lindstedts Antiqvariska Bokhandel	   1
 Suomen luth. evank-yhdistys	Suomen luth. evank.-yhdistys	   1
 A. G. Väänäsen kp.	A.G. Väänäsen kp	   1
 Pelastusarmeijan päämaja		   1
+Edlundska Bokhandeln i distr.	Suomi 	   1
 Edw. Helin	Edvard Helin	   1
 Review of Review's Office	Reviev of Reviev's Office	   1
 Nordiske Forlag	Nordiske	   1
+Bröderna Palmgren		   1
 Alb. Gammermeyers Boghandel	Albert Gammermeyers Boghandel	   1
 [Filosofiska fakultetens Historisk-filologiska sektion]	Filosofiska fakultetens Historisk-filologiska sektion	   1
 [Filosofiska fakultetens Historisk-filologiska  sektion]	Filosofiska fakultetens Historisk-filologiska  sektion	   1
 Suomen merimieslähetys-seura	Suomen merimieslähetysseura	   1
 Sortavalan evankelinen  seura	Sortavalan evankelinen seura	   1
+[Konepajojen työväenyhdistys]	S. V. R. konepajojen työväenyhdistys	   1
 Hälsovännens expedition, distr.	Hälsovännens expedition, distr	   1
+Holger Schildt	Östra Nylands folkhögskola	   1
 Frenckellska Tryckeri-Aktiebolagets förlag	Frenckellska Tryckeri-Aktiebolaget	   1
+Aikain Vartija		   1
+Hämeen Voima		   1
 [Hästafvelsföreningen Nylands Hippos]	Hästavelsföreningen Nylands Hippos	   1
+J. Oksanen		   1
+SKS		   1
+[Pohjois-Karjalan maanviljelysseura]	Pohjois-Karjalan maanviljelysseura	   1
 [Närpes folkhögskolas elevförbund]	Närpes Folkhögskolas Elev	   1
 [Wasa Segelföreningen]	Wasa Segelföreningen	   1
 [Svenska Lyceets i Uleåborg]	Svenska Lyceets i Uleåborg	   1
@@ -4193,7 +4795,11 @@ Franckellska bokh.	Franckellska bokhandel	   1
 A. Hirchwald	A. Hirchvald	   1
 Lutherska Evangeliföreningen		   1
 Kvinnosaksförb. Unionen	Kvinnosaks Unionen	   1
+Oulun l. etel. vaalipiiri	Oulun läänin eteläisen vaalipiirin sosialidemokraattinen piiritoimikunta	   1
+Oulun Kristillisen työväenyhdistys	Oulun Kristillinen työväenyhdistys	   1
 Luth. evangeliifören.	Luth. evangeliiföreningen	   1
+[Suomen osuuskauppojen keskuskunta r.l.]	Yleinen osuuskauppojen liitto	   1
+Helsingin kustannus-oy		   1
 Lindstedts antikvar.	Lindstedts antiqvar	   1
 Förf. :;W. Hagelstam (för landsorten)	Förf	   1
 G. W. Edlunds bokhn., distr.	G.W. Edlunds bokhn., distr	   1
@@ -4202,28 +4808,42 @@ Lindstedts antikv. bokh.	Lindstedts antiqv. bokhandel	   1
 Otto Ekroos, distr.	Otto Ekroos, distr	   1
 FÖrfattare	F. Örfattare	   1
 [Folkhögskolan i Borgå]	Folkhögskolan i Borgå	   1
+J. Heilala		   1
 Alfred  Lagerbom	Alfred Lagerbom	   1
 Stenografiska fören.	Stenografiska fören	   1
 [Svenska litteratursälskapet i Finland]	Svenska litteratursällskapet i Finland	   1
+Suomen ev.luth.pyhäkouluyhdistys	Suomen evankelis-luterilainen pyhäkouluyhdistys	   1
+Tullstyrelsens statistiska kontor	Tullihallitus	   1
+Ömsesidiga livförsäkringsbolaget Suomi		   1
+Ömsesidiga försäkringsanstalten Sampos försäkringsbibliotek	Sampo, keskinäinen vakuutusyhtiö	   1
 V. Pettersson & C:o	V. Pettersson & Co	   1
 Clouberg ja K. [W. Hoving]	Clouberg ja K	   1
+Keski-Suomen työväen sanomalehti-osuuskunta		   1
 G. O. Holmberg	G.O. Holmberg	   1
 Aktiebolaget 'Finlands djurskydd o. djurvårds' förlag, n:o 3	Aktiebolaget 'Finlands djurskydd & djurvårds' , n:o 3	   1
+Svenska kvinnoförbundet i Finland	Svenska kvinnoförbundet	   1
+N. Öhrnberg'in välitysliike		   1
 F. Vieweg & Sohn	F. Vieveg & Sohn	   1
+Suomen kaakeli-, fajanssi-  ja uunintekijäin liitto	Suomen kaakeli-, fajanssi- ja uunin<<Author>>in liitto	   1
+Neva		   1
 [Hoppets-Härs-kommittén]	Hoppets-Härs-kommittén	   1
 [Åbo Tryckeri och Tidnings Aktiebolag]	Åbo Tryckeri & Tidnings Aktiebolag	   1
+Weilin	Helsingin psyykillinen tutkimusseura	   1
+HTYL	Helsingin työväenyhdistys	   1
+Hevoskasvatusyhdistys Hippos	Hevoskasvatusyhdistys Uudenmaan Hippos	   1
+Yliopiston kirjasto	Helsingin yliopiston kirjasto	   1
 Kuopion teollisuuskoulu		   1
 C. A. Heinze	C.A. Heinze	   1
 P. A. Norstedt & Söner, distr.	P.A. Norstedt & Söner, distr	   1
 Författare :;W. Hagelstam, distr.	Författare	   1
 Käkisalmen työväen sanomalehti-o.y.	Käkisalmen työväen sanomalehti-o.y	   1
 [Nordisk kirurgisk föreningen]	Nordisk kirurgisk föreningen	   1
-V. Pettersson	V. Petterson	   1
 Gummerus, distr.	Gummerus, distr	   1
 [Järnbrukens olycksfallförsäkringbolag]	Järnbrukens olycksfallförsäkringbolag	   1
 [Landtbruks- och hushållningssällskapen]	Landtbruks- & hushållningssällskapen	   1
 [s.n.].		   1
 [Nionde allmänna finska köpmannamötet]	Nionde allmänna finska köpmannamötet	   1
+A. V. Havela	Suomalainen kansallis-raittius-veljeysseura	   1
 Akademiska Bokhandeln, jakaja :;[Tekijä]	Akademiska Bokhandeln, jakaja	   1
 [C. E. Fritzes hofbokhandeln i komm.]	C.E. Fritzes hofbokhandeln	   1
 V. Pettersson & C:os tryckeriaktiebol.	V. Pettersson & Cos tryckeriaktiebol	   1
@@ -4240,16 +4860,26 @@ tidn. 'Vårt Land'	tidn. 'Vårt Land	   1
 Joh. Gust. Wikeström, jakaja	Johan Gustav Wikeström, jakaja	   1
 C. & E. Germandts förlagsaktiebl.	C. & E. Germandtsaktiebl	   1
 [Societas pro fauna et flora fennica]	Societas pro fauna et flora Fennica	   1
+Viipurin läntisen vaalipiirin sosialidemokratinen vaalipiiritoimikunta		   1
+Viipurin l. länt. vaalipiirin sos.-dem. piiritoimikunta		   1
+Tullihallituksen tilastollinen konttori	Tullihallitus	   1
 [Helsingfors Yrkes- och Industriidkareförbund]	Helsingfors Yrkes- & Industriidkare	   1
+[Länsi-Suomen piirin yksityisoppikoulunopettajat]	Länsi-Suomen piirin yksityisoppikoulunopettajat	   1
 [Lappfjärds ungdomsförening]	Lappfjärds ungdomsförening	   1
 Tidn. 'Vårt Landt'	Tidn. 'Vårt Landt	   1
+Suomen Aleksanterin yliopisto	Suomen Keisarillinen Aleksanterin yliopisto	   1
 Tampereen kaupunki :;[Emil Lyytikäisen kirjakauppa, jakaja]		   1
+Anton Wakkuri		   1
 Polyteknikernas förening		   1
 Förbundet		   1
 J. A. Falk i distr	J.A. Falk i distr	   1
 Turun ev. luth. seura	Turun Evangeliska luth. seura	   1
+[Suomen vaatturityönantajain liitto]	Suomen räätälityön<<Author>>in liitto	   1
+Suomen räätälintyöntekijäin liitto	Suomen räätälintyön<<Author>>in liitto	   1
+[Suomen vaatturityönantajain liitto]	Suomen vaatturityönantajain liitto	   1
 [Svenska Normallyceum]	Svenska Normallyceum	   1
 Oskar Grönroos		   1
+[Valkealan kunta]	Valkealan kunta	   1
 Suom. sos. kust. yht.		   1
 'Nya Pressen'	Nya Pressen	   1
 M. Lindman		   1
@@ -4264,6 +4894,7 @@ Metodistförsaml:s förlagsexp.	Metodistförsaml:sexp	   1
 Akademiska  bokhandeln	Akademiska Bokhandeln	   1
 [Kuopion kauppakoulu]	Kuopion kauppakoulu	   1
 Exportverein in Finland	Suomen vientiyhdistys	   1
+'Titulus'	'Titulus	   1
 Adolf Gumerus, distr.	Adolf Gumerus, distr	   1
 [Uleåborgs stads sparbank]	Uleåborgs stads sparbank	   1
 [Kp. Polytypos]	Kp. Polytypos	   1
@@ -4272,10 +4903,11 @@ Aug. Eklöf	August Eklöf	   1
 [Sparbanken i Åbo]	Sparbanken i Åbo	   1
 Luth. Evang.- fören.	Luth. Evangeliska fören	   1
 [M. Hanemann]	M. Hanemann	   1
-Rauhan sanomat		   1
+Polytypos		   1
 Sundhedsbladets Forlag	Sundhedsbladet	   1
 Ad. Bergman	Adolf Bergman	   1
 Internationella T. o. M.-föreningens förlagsexp.	Internationella T. & M.-föreningensexp	   1
+Tampereen kp.-oy.	Tampereen kp.-oy	   1
 [Kuopion suomalainen yhteiskoulu]	Kuopion suomalaisen yhteiskoulun toverikunta	   1
 Viipurin antikvaarinen kirjakauppa	Viipurin antiqvaarinen kirjakauppa	   1
 'Aakkoset'	'Aakkoset	   1
@@ -4286,6 +4918,7 @@ Missionsbokh.	Missionsbokhandeln	   1
 [Nykterhetsföreningen Balder]	Nykterhetsföreningen Balder	   1
 G. A. Hidén	G.A. Hidén	   1
 Steiger & C:o	Steiger & Co	   1
+Uudenmaan läänin vaalipiirin sos.-dem piirijärjestö	Uudenmaan läänin vaalipiirin sosialidemokraattinen piirijärjestö	   1
 Ljus' förlag	Ljus	   1
 'Oma Avu'	'Oma Avu	   1
 Söderström & C:o i distr.	Söderström & Co i distr	   1
@@ -4293,6 +4926,7 @@ Tidn. f. mjölkhushålln.	Tidn. f. mjölkhushålln	   1
 [Finska Statsjärnvägarna]	Finska Statsjärnvägarna	   1
 [Oulun diakonissakoti]	Oulun diakonissakoti	   1
 Veit & Comp.	Veit & Comp	   1
+Työväen kirjapaino- ja sanomalehtiliikkeet	Suomen työväen kirjapaino- ja sanomalehtiliikkeet	   1
 Juridiska studentfakulteten förlagsrörelse :;Akad. bokh., distr.	Juridiska studentfakulteten srörelse	   1
 [Fornminnesföreningen]	Fornminnesföreningen	   1
 Finsk-ugriska sällsk.	Finsk-ugriska sällskapet	   1
@@ -4305,6 +4939,10 @@ Svenska literatursällsk.	Svenska literatursällsk	   1
 Viipurin työväen sanomalehti-o.y.	Viipurin työväen sanomalehti-o.y	   1
 [Societas pro fauna et flora Fennica]	Societas pro fauna et flora Fennica	   1
 Söderströmm	Söderström	   1
+[Tampereen kaupunki]		   1
+Valtion vointutkimuslaboratoorio	Valtion vointarkastuslaitos	   1
+[Tilattoman väestön alakomitea]		   1
+[Hengellinen totuusliitto]	Hengellinen totuusliitto	   1
 Luth. evangeliiföreningen		   1
 [Valtion Historiallinen museo]	Valtion historiallinen museo	   1
 Turistföreningen	Touristenverein in Finland, Filiale Hangö	   1
@@ -4330,6 +4968,9 @@ Magistraten		   1
 Nourrit & C:o	Nourrit & Co	   1
 Ph. Reclam	Philip Reclam	   1
 Sv. Folkskolans Vänner	Svenska Folkskolans Vänner	   1
+Suomen vaatetustyöntekijäin liiton toimisto	Suomen vaatetustyön<<Author>>in liitto	   1
+Suomalainen ylioppilas-kirjasto	Suomen ylioppilaskirjasto	   1
+Tampereen työväen kp.		   1
 Herman Edgrens bokh	Herman Edgrens bokhandel	   1
 Fr. C. Mechelin i distr	Frederic C. Mechelin i distr	   1
 Wilh. Billes bokförlagsaktiebol.	Wilh. Billes boksaktiebol	   1
@@ -4345,7 +4986,9 @@ Sv. Literatursällsk.	Svenska Literatursällsk	   1
 'Östra Finland'in kirjapaino	Östra Finland'in kirjapaino	   1
 Kustannus-yhtiö Osmo	Kustannusyhtiö Osmo	   1
 V. Petterssons & C:os tryckeriaktiebol.	V. Petterssons & Cos tryckeriaktiebol	   1
+Snmky	Suomen nuorten miesten kristillinen yhdistys	   1
 K. F. Wasenius		   1
+Metsänhoitoyhdistys Tapio	Suomen metsänhoitoyhdistys Tapio	   1
 [E. Lagus i distr.]	E. Lagus i distr	   1
 [Suomen sos.-dem. puoluetoimikunta]	Suomen sos.-dem. puoluetoimikunta	   1
 [Työttömyysvakuutuskomitea]	Työttömyysvakuutuskomitea	   1
@@ -4357,29 +5000,48 @@ Otava	Turun kaupungin historiallinen museo	   1
 [Sosialidemokratinen eduskuntaryhmä]	Sosialidemokratinen eduskuntaryhmä	   1
 [Polytekniska Institutet]	Polytekniska Institutet	   1
 [Finska Sågverksegareföreningen]	Finska Sågverksegareföreningen	   1
+Schildt	Svenska teaterföreningen i Finland	   1
+A. Måsbäck		   1
 [Konstmuseum i Helsingfors]	Konstmuseum i Helsingfors	   1
+Landtbruksstyrelsen	Maataloushallitus	   1
+Baptistförsamlingarna i Finland	Svenstalande baptistförsamlingarna i Finland	   1
+WSOY	Suomen koulunuorisoliitto	   1
 Centrallaget för Handelslagen i Finlnd	Centrallaget för handelslagen i Finland m.b.t	   1
 Osuuskunta Kehityksen kp.	Osuuskunta Kehityksen kp	   1
+Hämeen kustannusliike		   1
+Suomen Eduskunnan kirjasto	Eduskunnan kirjasto	   1
 [Lappeenrannan työväenyhdistys]	Lappeenrannan työväenyhdistys	   1
 Öfvers.	Övers	   1
 [Axel Söderlund, utg.]	Axel Söderlund, utg	   1
 Alex. F. Lindberg, distr.	Alexander F. Lindberg, distr	   1
 [G. Långhjelm, M. von Nandelstadh, utg.]	G. Långhjelm, M. von Nandelstadh, utg	   1
+Suomalaisen Kirjallisuuden Seura	Suomalainen kansanrunousseminaari	   1
 Akademiska bokhandeln i distr	Akademiska Bokhandeln, distr	   1
+Sos.-dem. raittiusliitto	Sosialidemokratinen raittiusliitto	   1
 M. Wuolukka	M.V. Vuolukka	   1
 [Unionen, Kvinnosaksförbund i Finland]	Unionen, Kvinnosaks i Finland	   1
+[Rauman rautatie]	Rauman rautatie	   1
 V. B. Meinander, distr.	V.B. Meinander, distr	   1
+Raittiuden ystävät	Raittiusjärjestöjen keskustoimisto	   1
 [Öflund & Pettersson]	Öflund & Pettersson	   1
+P. Sergein ja Hermanin veljeskunta	Pyhäin Sergein ja Hermanin veljeskunta	   1
+Osuuskunta Saimaa		   1
+Wiipurin työväen sanomalehti- ja kirjapaino-osuuskunta		   1
+Pohj.työv.osuuskirjap.	Suomen kommunistinen puolue	   1
 Teaterns förlag	Teatern	   1
+[Porin kaupunki]	Porin kaupunki	   1
 Collection Legène et Oudin		   1
+Suomen kirkon sisälähetysseura		   1
 Fröléen & C:o	Fröléen & Co	   1
 R. Saxén, distr.	R. Saxén, distr	   1
 Luzac & C:o	Luzac & Co	   1
+Pedagogiska hushållskolan i Helsingfors	Pedagogiska hushållsskolan i Helsingfors	   1
 [Från utskottet n:o 2]	Från utskottet n:o 2	   1
 Replot, utg.	Replot, utg	   1
 J. H. Ed. Hertz	J.H. Ed. Hertz	   1
 Husmoderförbundet i Helsingfors	Husmoder i Helsingfors	   1
 Paul Wahl & C:o, Elektr. Abth.	Paul Wahl & Co, Elektr. Abth	   1
+[Oulun piirin hevosjalostusliitto]	Oulun piirin hevosjalostusliitto	   1
 [Åbo Branch of the Touring Club in Finland]	Åbo Branch of the Touring Club in Finland	   1
 Ekenäs Pappers- och Missionsbokhandel	Ekenäs Pappers- & Missionsbokhandel	   1
 [Juridiska föreningen i Finland]	Juridiska föreningen i Finland	   1
@@ -4387,14 +5049,24 @@ Ekenäs Pappers- och Missionsbokhandel	Ekenäs Pappers- & Missionsbokhandel	   1
 [Tekniska Föreningen i Finland]	Tekniska Föreningen i Finland	   1
 C. E. Fritze i komm	C.E. Fritze	   1
 P. A. Norstedt & Söners förlag	P.A. Norstedt & Söner	   1
+Folkskollärarinneseminarium i Ekenäs		   1
+Pelastusarmeijan päämaja	Suomen pelastusarmeija	   1
 E. Pfeiffer		   1
 Söderström	Finska grundlagskomitén	   1
 Minervas bokhandel, distr.	Minervas bokhandel, distr	   1
 [Svenska Landtbrukssällskapens i Finland]	Svenska Landtbrukssällskapens i Finland	   1
+Osuuskassojen keskuslainarahasto		   1
 [Joutsenon 'Tenho']	Joutsenon 'Tenho	   1
 [Suomen tehdastyöväki]	Suomen tehdastyöväki	   1
+Finnish Publishing Company		   1
+Nauru-Jussi		   1
 Svenska Landtbrukssällskapens i Finland Förbund	Svenska Landtbrukssällskapens i Finland	   1
+Finska kemistsamfundet	Suomen kemistiseura	   1
+Keski-Suomen työväen kirjakauppa		   1
+[Naantalin kaupunki]	Naantalin kaupunki	   1
+Keski-Suomen Työwäen Sanomalehti-, Kirjapaino- ja Kirjakauppa Osuuskunta		   1
 [Vihdin kansanopisto]	Vihdin kansanopisto	   1
+Miesylioppilaiden krist. yhdist.	Miesylioppilaiden kristillinen yhdistys	   1
 [Finska statsjärnvägarna]	Finska statsjärnvägarne	   1
 I. Hæggström	I. Häggström	   1
 [Åbo stads folkskolor]	Åbo stads folkskolor	   1
@@ -4402,7 +5074,10 @@ Vilho Leikas		   1
 [Tampereen osuuskauppapiiri]	Tampereen osuuskauppapiiri	   1
 Waseniuska bokhandel, distr.	Waseniuska bokhandeln, distr	   1
 Alex. Lundström :;Centraltryckeriet, jakaja	Alexander Lundström	   1
+Viipurin läänin hevosjalostusyhdistysten liitto	Läntisen Viipurin läänin hevosjalostusyhdistysten liitto	   1
 A. Pichler's Witwe & Sohn	A. Pichler's Witve & Sohn	   1
+Suomen maakauppiaat		   1
+Lantbruksstyrelsen	Maataloushallitus	   1
 [Västra Nylands folkhögskola]	Västra Nylands folkhögskola	   1
 Schulthess & C:o	Schulthess & Co	   1
 [Suomen Säästöpankkimiehet]	Suomen Säästöpankkimiehet	   1
@@ -4414,8 +5089,10 @@ Frenckellska tryckeriaktiebolaget, distr.	Frenckellska tryckeriaktiebolaget, dis
 Det Nordiske Forlag	Det Nordiske	   1
 Handtverks- och fabriksföreningen :;J. F. Wiemark, distr.	Handtverks- & fabriksföreningen	   1
 K. Iwar Nordlund	K. Ivar Nordlund	   1
+[Leppävirran kunta]	Leppävirran kunta	   1
 Isohiisi, jakaja		   1
 [Suomen suutarit]	Suomen suutarit	   1
+A.F. Tanner		   1
 Ekenäs tryckeriaktiebolag, i distr.	Ekenäs tryckeriaktiebolag, i distr	   1
 Helsingfors Centraltryckeri :;Akademiska Bokhandeln, jakaja	Helsingfors Centraltryckeri	   1
 [Svenska folkskolan i Temmerfors]	Svenska folkskolan i Temmerfors	   1
@@ -4428,11 +5105,16 @@ A. Deichert Nachf.	A. Deichert Nachf	   1
 [Ungdomsklubben inom Svenska arbetarföreningen i Vasa]	Ungdomsklubben inom Svenska arbetarföreningen i Vasa	   1
 Tampereen sanomain o.y.	Tampereen sanomain & y	   1
 Lahden lehden kp.	Lahden lehden kp	   1
+[Kuopion läänin läntisen vaalipiirin sosialidemokraattinen piirijärjestö]	Kuopion läänin läntisen vaalipiirin sosialidemokraattinen piirijärjestö	   1
 [Suomen yleinen vanginvartijayhdistys]	Suomen yleinen vanginvartijayhdistys	   1
 Juridiska studentfakultetens förlagsrörelse	Juridiska studentfakultetensrörelse	   1
 Lindstedts antikv. bokhandel, distr.	Lindstedts antiqv. bokhandel, distr	   1
+Senaten	Invaliditeettivakuutuskomitea	   1
 K. G. Alkman	K.G. Alkman	   1
 [Suomen uimaliitto]	Suomen uimaliitto	   1
+Kuopion kaupunginvaltuusto	Kuopion kaupunki	   1
+Suomen kulta- ja hopeatyöntekijäin liitto	Suomen kulta- ja hopeatyön<<Author>>in liitto	   1
+Kullaan kunta		   1
 Ota o.y.	Ota & y	   1
 Helios [i distr]	Helios	   1
 J. L. Boehm	J.L. Boehm	   1
@@ -4440,9 +5122,12 @@ J. L. Boehm	J.L. Boehm	   1
 G. W. Edlund [jakaja]	G.W. Edlund	   1
 [Postivirkamiehet]	Postivirkamiehet	   1
 Ruuki, utg.	Ruuki, utg	   1
+Finlands soc-dem ungdomsförbund	Finlands social-demokratiska ungdomsförbund	   1
+Kosken kunta	Kosken Tl kunta	   1
 Aug. Rietz	August Rietz	   1
 [Suomen palloliitto]	Suomen palloliitto	   1
 Vyborgskïj komitet' Partïi socïalistov'-revolûcïonerov'	Vyborgskïj komitet' Partïi socïalistov'-revolûcïonerov	   1
+Raivaaja		   1
 Izdanïe 'Věstnika vyborgskoj krěpostnoj artillerïi'	Izdanïe 'Věstnika vyborgskoj krěpostnoj artillerïi	   1
 [Suomen muinaismuisto-yhdistys]	Suomen muinaismuisto-yhdistys	   1
 [Suomen metsästysyhdistys]	Suomen metsästysyhdistys	   1
@@ -4452,30 +5137,45 @@ Izdanïe 'Věstnika vyborgskoj krěpostnoj artillerïi'	Izdanïe 'Věstnik
 G. E. C. Gad i komm.	G.E.C. Gad	   1
 N. Öhrnberg, distr.	N. Öhrnberg, distr	   1
 [Vasa handelsskola]	Vasa handelsskola	   1
+Suomen kylvösiemenyhdistys		   1
+Etelä-Savon Kirjapaino		   1
 Industriidkarenas i Finland Ömsesidiga Brandstodsförening	Industriidkarenes i Finland Ömsesidiga Brandstodsförening	   1
 [Suomen lähetysseura]	Suomen lähetysseura	   1
 [Liittohallinto]	Liittohallinto	   1
 [Suomen Kristillinen Työväenliitto]	Suomen Kristillinen Työväenliitto	   1
 A.-B. Ekmans förlagsexpedition	A.-B. Ekmansexpedition	   1
 [Redakcïâ žurnala 'Truženik' morâ']	Redakcïâ žurnala 'Truženik' morâ	   1
+A. Helenius förlag		   1
 Svanbäck & C:o	Suomi 	   1
 [Sällskapet Pellervo]	Sällskapet Pellervo	   1
+Sosialistin kp.		   1
+[Kauvatsan kunta]	Kauvatsan kunta	   1
 [Osuuskassojen Keskuslainarahasto]	Osuuskassojen Keskuslainarahasto	   1
+[s.n.]	Suomen kauppavaltuuskunnan Keskusvaliokunta	   1
 [Gamlakarleby Svenska Förening]	Gamlakarleby Svenska Förening	   1
 [Gamlakarleby Segel Förening]	Gamlakarleby Segel Förening	   1
 Öfversättare	Översättaren	   1
 [Reinhold Hausen]	Reinhold Hausen	   1
+Suomen liikemiesten kauppaopiston oy	Kauppakorkeakoulu	   1
+Finska slöjddelegationen	Suomen kotiteollisuusvaltuuskunta	   1
 Tuberkulosin vastustamisyhdistys :;Akateeminen kirjakauppa, jakaja	Tuberkulosin vastustamisyhdistys	   1
 Fröleen & C:o	Fröleen & Co	   1
 Tipografïja 'Zadruga'	Tipografïja 'Zadruga	   1
+Kansanvalistusseura	Kansanvalistusseuran luonnontieteellinen kirjasto	   1
+Kansanvalistusseura	Kansanvalistusseuran käsiteollisuuskirjasto	   1
 [Industristyrelse]	Industristyrelse	   1
+Försäkringsinspektören		   1
 Minerva, distr.]	Minerva, distr	   1
 Nya bokhandeln, distr.	Nya bokhandeln, distr	   1
+Kalastustentarkastaja		   1
+Suomen kaakeli- ja uunintekijäin liitto	Suomen kaakeli- ja uunin<<Author>>in liitto	   1
 [Jakobstads kommunala reglementen]	Jakobstads kommunala reglementen	   1
 [Finska Statsjärnvägarnes]	Finska Statsjärnvägarna	   1
 [Nordiska Kirurgiska Föreningen]	Nordiska Kirurgiska Föreningen	   1
 Finlands statsarkiv	Valtionarkisto	   1
 [Helsingfors stads folkskolor]	Helsingfors stads folkskolor	   1
+Sosialistin kp.-osuuskunta		   1
+Turun l. etel. vaalipiiritoimikunta		   1
 [Suomalaisuuden liitto]	Suomalaisuuden liitto	   1
 [s.n.]	Svenska folkskolans vänner	   1
 [Suomalainen työväenliitto]	Suomalainen työväenliitto	   1
@@ -4498,6 +5198,7 @@ P. J. Bögelund	P.J. Bögelund	   1
 Edlundska bokhandel i distr	Edlundska bokhandeln, distr	   1
 Kotka stads förlag	Kotka stad	   1
 Liitohallinto	Liittohallinto	   1
+[Suolahden nuorisoseura]	Suolahden nuorisoseura	   1
 [Finska Sågverksägareföreningen]	Finska Sågverksägareföreningen	   1
 [Drätselkammaren i Wasa]	Drätselkammaren i Wasa	   1
 Finska Typografförbundet	Finska Typograf	   1
@@ -4513,16 +5214,25 @@ Merimieskoulu [jakaja]	Merimieskoulu	   1
 Partïâ soc.-revolûcïonerov'	Partïâ soc.-revolûcïonerov	   1
 Fr. Forsberg	Frederic Forsberg	   1
 F. G. Petersons bokhandel i distr	F.G. Petersons bokhandel i distr	   1
+Uudenkirkon V.l. kunta	Uudenkirkon Vl kunta	   1
 [Postsparbanksstyrelsen]	Postsparbanksstyrelse	   1
 [Poststyrelsen]	Postihallitus	   1
 O. W. M:s förlag	O. W. M	   1
 Edmund Brusiins bokhandel, distr.	Edmund Brusiins bokhandel, distr	   1
+Sörnäisten Nuorten naisten kristillinen yhdistys	Nuorten naisten kristillinen yhdistys	   1
+Suomen lutherilainen evankeliumiyhdistys	Suomen luterilainen evankeliumiyhdistys	   1
 [Helios]	Helios	   1
+Suomen kirkon sisälähetysseura	Suomen sisälähetysseura	   1
 Wentzel Hahelstam [po. Hagelstam]	Wentzel Hagelstam	   1
+Turun arkkihiippakunta	Suomen evankelis-luterilainen kirkko	   1
 [Föreningen Gabelsberger] :;Waseniuska Bokhandeln, jakaja		   1
+[Porvoon hiippakunta]	Porvoon hiippakunta	   1
 Suomen satamatyöntekijäin liitto	Suomen satamatyön<<Author>>in liitto	   1
 Finska Mosskulturföreningen	Finska Mosskulturförening	   1
 Emil Wahlsteinin kp.	Emil Wahlsteinin kp	   1
+Luukkonen ja kumpp.		   1
+Itä-Hämeen       hevosjalostusyhdistysten liitto	Itä-Suomen hevosjalostusyhdistysten liitto	   1
+Kustannus oy Herättäjä	Herättäjä-yhdistys	   1
 [Suomen kuuromykkäinliitto]	Suomen kuuromykkäin liitto	   1
 San Franciscon suomal. ev. luth. seurakunta	San Franciscon suomal. Evangeliska luth. seurakunta	   1
 Tampereen työväen sanomalehti o.y.	Tampereen työväen sanomalehti	   1
@@ -4588,6 +5298,7 @@ Puromiehen kp.	Puromiehen kp	   1
 Izdatel'stvo Petrogradskago komiteta Partïi socïalistov'-revolûcïonerob'	Izdatel'stvo Petrogradskago komiteta Partïi socïalistov'-revolûcïonerob	   1
 Waseniuska Bokhandeln i distr	Waseniuska bokhandeln, distr	   1
 Joh. Parcinski	Johan Parcinski	   1
+Lahden, Tampereen ja Viipurin puutarhaseurat	Lahden puutarhaseura	   1
 [Finska Svinafvelsförening]	Finska Svinavelsförening	   1
 [Finska Stats Järnvägarnas Verkstäders arbetarförening]	Finska Stats Järnvägarnas Verkstäders arbetarförening	   1
 [Finska Sparbanksdelegationen]	Finska Sparbanksdelegationen	   1
@@ -4669,7 +5380,6 @@ Suomen luth. evnk.-yhdistys	Suomen luth. evank.-yhdistys	   1
 [Vasa Hoppets Här]	Vasa Hoppets Här	   1
 Helsingin uusi kp.-o.y.	Helsingin uusi kp.-o.y	   1
 [Finlands Dövstumförbund]	Finlands Dövstum	   1
-Sällskapet Pellervo	Pellervo-seura	   1
 E. Marlborough & C:o	E. Marlborough & Co	   1
 [Finlands Allmänna Slöjdförenings yrkesskola]	Finlands Allmänna Slöjdförenings yrkesskola	   1
 Otto Harrassowitz		   1
@@ -4677,18 +5387,32 @@ Otto Harrassowitz	Otto Harrassovitz	   1
 Sos. dem. eduskuntaryhmä	Sos.-dem. eduskuntaryhmä	   1
 Förlagsföreningen Antroposofiska Sällskapet	sföreningen Antroposofiska Sällskapet	   1
 Turistföreningen i Finland :;Waseniuska Bokhandeln, jakaja	Turistföreningen i Finland	   1
+Hämeenläänin pohjoinen vaalipiiri		   1
+Sos.-dem. vaalipiiritoimikunta	Hämeenläänin eteläisen vaalipiirin sosialidemokraattinen piirijärjestö	   1
 Pyh. Sergein ja Hermanin veljeykunta	Pyh. Sergein ja Hermanin veljeyskunta	   1
+Suomen hevosjalostusliittojen edustajisto	Hevosjalostusliittojen edustajisto	   1
+Suomen evank.-luth. pyhäkouluyhdistys	Suomen evankelis-luterilainen pyhäkouluyhdistys	   1
 Gust. Ronlius	Gustav Ronelius	   1
+Kustannustoimisto Hermes		   1
+Helsingin NMKY	Helsingin nuorten miesten kristillinen yhdistys	   1
 [Museo Botanico Universitatis Helsingforsiensis]	Museo Botanico Universitatis Helsingforsiensis	   1
 F. W. Edlund	F.W. Edlund	   1
+[Suomalaisen Kirjallisuuden Seura]		   1
+[Fennia]		   1
+Etelä-Karjalan nuorisoseuran johtokunta	Etelä-Karjalan nuorisoseura	   1
+M. V. Wuolukka		   1
 J. M. Dent & Sons	J.M. Dent & Sons	   1
+Senaten	Agrikultur-ekonomiska försöksanstalten i Finland	   1
 Tavastehus Sten- och Boktryckeri	Tavastehus Sten- & Boktryckeri	   1
+Asikkalan kunnalislautakunta	Asikkalan kunta	   1
+Högholmens djurgårds verksamhet	Korkeasaaren eläintarha	   1
 S. V. R. Konepajojen tyäväenyhdistys	S.V.R. Konepajojen tyäväenyhdistys	   1
 Handelstr.	Handelstr	   1
 [Industriidkarenes i Finland Ömsesidiga brandstodsförening]	Industriidkarenes i Finland Ömsesidiga Brandstodsförening	   1
 Yrjö Weilin & Kumpp. o.y. kans.	Yrjö Weilin & Coumpp	   1
 [Primula]	Primula	   1
 Missions-Standarets förlag	Missions-Standaret	   1
+K. J. Gummerus	Teknillinen korkeakoulu	   1
 [Svenska Samskolans i Tavastehus konvent, utg.]	Svenska Samskolans i Tavastehus konvent, utg	   1
 H. Nurhonen		   1
 [Gamlakarleby landskommun]	Gamlakarleby landskommun	   1
@@ -4699,6 +5423,7 @@ A. V. Carlsson	A.V. Carlsson	   1
 J. C. Hinrich'sche Buchhandlung	J.C. Hinrich'sche Buchhandlung	   1
 Ev.-lut. nuorisoyhdistys	Evangeliska-lut. nuorisoyhdistys	   1
 R. Friedländer & Sohn.	R. Friedländer & Sohn	   1
+Andelssmörexportaffären Valio	Valio	   1
 [Suomen koulunuorisoliitto]	Suomen koulunuorisoliitto	   1
 [Österbottens svenska kontventförbund]	Österbottens svenska kontvent	   1
 Chiswick Press	Chisvick Press	   1
@@ -4712,6 +5437,7 @@ Chelius & Comp.	Chelius & Comp	   1
 [Kymmene Aktiebolag]	Kymmene Aktiebolag	   1
 [F. T. M. Föreningen]	F.T.M. Föreningen	   1
 [Finska Sparbanksförening]	Finska Sparbanksföreningen	   1
+Suomen sosialidemokraattisen nuorisoliiton Jyväskylän osasto	Suomen sosialidemokraattinen nuorisoliitto 	   1
 Finska Seglareförbundet	Finska Seglare	   1
 [Finlands Förare- och Eldareförening]	Finlands Förare- & Eldareförening	   1
 [Finska Förare- och Eldareföreningen]	Finska Förare- & Eldareföreningen	   1
@@ -4720,6 +5446,7 @@ Suomen rautatieläisten sanomalehti ja kirjapaino osuusk.	Suomen rautatieläiste
 [Finalands Svenska Gymnastik- och Idrottsförbund]	Finalands Svenska Gymnastik- & Idrotts	   1
 [Finlands Socialdemokratiska Ungdomsförbund]	Finlands Socialdemokratiska Ungdoms	   1
 Nyländska avdelningen	Nylands nation	   1
+[Akaan kunnallis- ja köyhäinhoitohallitus]		   1
 G. M. Giesche	G.M. Giescke	   1
 Suomalaisen Kirjallisuudern Seura	Suomalaisen Kirjallisuuden Seura	   1
 U. W. Télen & C:o	U.W. Telén & Co	   1
@@ -4730,21 +5457,52 @@ Vapaa lähetys		   1
 Keski-Suomen työväen sanomalehtiosuuskunta	Keski-Suomen työväen sanomalehti-osuuskunta	   1
 Kivityötekijäin liitto	Kivityö<<Author>>in liitto	   1
 Kustannus o.y. Helios		   1
+Ammatillinen liittovaliokunta	Ammattillinen liittovaliokunta	   1
 Weilin & Göösin kirjakauppa [jakaja]	Weilin & Göösin kirjakauppa	   1
 sak Julin	Isak Julin	   1
+Työväen kustannusyhtiö		   1
+Laukaan kunnallislautakunta	Laukaan kunta	   1
+Suomen leipuri- ja konditoriammatti-osastot	Suomen leipurityön<<Author>>in liitto	   1
+[Pohjois-Savon hevossiitosyhdistysten liitto]	Pohjois-Savon hevossiitosyhdistysten liitto	   1
 Suomalaisen puolueenpiiritoimikunta Turun läänin eteläinen vaalipiiri [kustantaja]	Suomalaisen puolueenpiiritoimikunta Turun läänin eteläinen vaalipiiri	   1
+Lukutupa		   1
 K. L. Rantanen	K.L. Rantanen	   1
+Sanomalehtiosuuskunta Liitto	Suomen maalaisväestön liitto	   1
+Suomen maalarintyöntekijäin liitto	Suomen maalarintyön<<Author>>in liitto	   1
+[Kansanvalistuseura]	Kansanvalistusseura	   1
 Tampereen työväen sanomalehtiosakeyhtiö	Tampereen työväen sanomalehti	   1
+WSOY	Maanviljelyslyseo	   1
 Juho Oksanen		   1
+Maatalousseurojen v.a. konetarkastuslaitos	Maatalousseurojen väliaikainen konetarkastuslaitos	   1
+[Maanvuokraajain keskustoimikunta]		   1
 O. Mantere [Jakaja]	O. Mantere	   1
+Kuopion l. läntisen vaalipiirin maalaisliitto	Kuopion läänin läntisen vaalipiirin maalaisliitto	   1
+Werner Söderström	Werner Söderström osakeyhtiö	   1
+Voinvientiosuusliike Valio	Valio	   1
+Vaasan läänin pohjoisen vaalipiirin sos.-dem. piirijärjestö	Suomen sosialidemokraattinen puolue	   1
+Vaasan läänin itäisen vaalipiirin sosialidemokraattinen piirijärjestö	Vaasan itäisen vaalipiirin sosialidemokraattinen piiri	   1
+Uudenmaanläänin vaalipiiri	Uudenmaanläänin sosialidemokraattinen vaalipiiri	   1
+[Uudenmaan hevosjalostusliitto]	Uudenmaan hevosjalostusliitto	   1
+Tampereen työväen sanomalehtioy		   1
+Tampereen työväen sanomalehti		   1
+Suomen talous- ja ravintolatyöntekijäin liitto	Suomen talous- ja ravintolatyön<<Author>>in liitto	   1
+Keski-Savon kansanopisto	Keski-Savon kansanopiston toveriliitto	   1
+Edistysseurojen kustannusoy	Raittiuden ystävät	   1
 Lääkintähallitus	Lääkintöhallitus	   1
+Gummerus	Teknillinen korkeakoulu	   1
 autio, L. typpö, P. Raattamaa		   1
 Suomen karjanjalostusyhdistys	Itä-Suomen karjanjalostusyhdistys	   1
 Turun ev. lut. seura	Turun Evangeliska lut. seura	   1
+Työkansan kirjapainoyhtiö		   1
 [Suomen mieskuoroliitto]	Suomen mieskuoroliitto	   1
 [Finlands kvartettsångarförbund]	Finlands qvartettsångar	   1
 [Pedagogiska Föreningen]	Pedagogiska Föreningen	   1
+[Suomen tullilaitos]	Suomen tullilaitos	   1
+Suomen tilintarkastajayhdistys	Suomen tilintarkastajainyhdistys	   1
+Suomen tie- ja vesirakennusten ylihallituksen hydrografinen toimisto	Tie- ja vesirakennusten ylihallitus	   1
 [Nordisk kirurgisk förening]	Nordisk kirurgisk förening	   1
+Aakkoset	Aakkosyhdistys	   1
+Suomen sos.-dem. puolue	Suomen sosialidemokraattinen puolue	   1
 [Metodist-Episkopal-Kyrkan]	Metodist-Episkopal-Kyrkan	   1
 [Lappfjärds folkhögskola]	Lappfjärds folkhögskola	   1
 [Lantbrukssällskap utställning]	Lantbrukssällskap utställning	   1
@@ -4753,11 +5511,14 @@ G. M. Giesckes förlag	G.M. Giescke	   1
 [Kronoby hushålls- och trädgårdsskola]	Kronoby hushålls- & trädgårdsskola	   1
 [K. F. Hushållningssällskapets Handarbetsskola]	K.F. Hushållningssällskapets Handarbetsskola	   1
 F.Å.A.	F.Å.A	   1
+Suomen senaatin talousosasto	Suomen senaatti	   1
+Keisarillinen suomen senaatti	Suomi 	   1
 Öfversättarens förlag	Översättaren	   1
 Tekniska Högskolans Studentförenings Arbetskomité, utg.	Tekniska Högskolans Studentförenings Arbetskomité, utg	   1
 [LTY]	LTY	   1
 [Fruntimmersföreningen i Jakobstad]	Fruntimmersföreningen i Jakobstad	   1
 [Barnskyddsföreningen i Åbo]	Barnskyddsföreningen i Åbo	   1
+Suomen leipurityöntekijäin liitto	Suomen leipurityön<<Author>>in liitto	   1
 Finska Ångfartygsaktiebolaget & Turistföreningen i Finland	Suomen höyrylaiva-osakeyhtiö	   1
 K. F. U. K., distr.	K. F. U. K., distr	   1
 Förbundet för Inhemskt Arbete	 för Inhemskt Arbete	   1
@@ -4766,14 +5527,18 @@ Ilmari Palmén [jakaja]	Ilmari Palmén	   1
 [Näsijärvi segelsällskap]	Näsijärvi segelsällskap	   1
 [Finska Bryggeriföreningen]	Finska Bryggeriföreningen	   1
 [Evangeliska Missionsförbundet]	Evangeliska Missions	   1
+Robert Edgren		   1
 [Museum Viburgense]	Museum Viburgense	   1
 [Suomen metallivalajat]	Suomen metallivalajat	   1
+Suomen sosialidemokratinen puolue	Suomen sosialidemokraattinen puolue	   1
 [Svenska Järn- och Metallarbetare F. A.]	Svenska Järn- & Metallarbetare F. A	   1
 Nyländska afdelningen	Nyländska avdelningen	   1
 [Mellersta Nylands folkhögskola]	Mellersta Nylands folkhögskola	   1
 [Nylands Djurskyddsförening]	Nylands Djurskyddsförening	   1
 [Högre Svenska Handelsläroverket]	Högre Svenska Handelsläroverket	   1
+[Siikaisten kunta]	Siikaisten kunta	   1
 [Jernvägsmannaföreningen]	Jernvägsmannaföreningen	   1
+Meijeriliitto	Suomen meijeriliitto	   1
 [Helsingin kuvalehti]	Helsingin kuvalehti	   1
 [Finska Vetenskaps-Societeten]	Finska Vetenskapssocieteten	   1
 Handelstryckeriet, distr.	Handelstryckeriet, distr	   1
@@ -4781,6 +5546,9 @@ Handelstryckeriet, distr.	Handelstryckeriet, distr	   1
 [Ungdomsföreningen Framåt]	Ungdomsföreningen Framåt	   1
 [Metodist-kyrkans Ev. Ungdomsförbund]	Metodist-kyrkans Evangeliska Ungdoms	   1
 A. B. Merkurius	A.B. Merkurius	   1
+Salama	Henkivakuutusosakeyhtiö Salama	   1
+Salama	Salama, henkivakuutusosakeyhtiö	   1
+Lappeen maanmiesseura	Lappeen maamiesseura	   1
 Suom.sos. kust.yht.	Suom.sos. kust.yht	   1
 Helsingfors Stads Gasverk		   1
 Waseniuska Bokhandel, distr.	Waseniuska bokhandeln, distr	   1
@@ -4791,14 +5559,17 @@ K. F. U. K:s Bokhandel, distr.	K. F. U. K:s Bokhandel, distr	   1
 'Metsämiehet'	'Metsämiehet	   1
 [Dövstumskolan i Jakobstad]	Dövstumskolan i Jakobstad	   1
 [Finska Sortimentsbokhandlareförening]	Finska Sortimentsbokhandlareförening	   1
+[Padasjoen kunta]	Padasjoen kunta	   1
 [Helsingfors Handelsbiträdeförening]	Helsingfors Handelsbiträdeförening	   1
 Enok Rytkönen [jakaja]	Enok Rytkönen	   1
 [Tammerfors Linne- och Jern-Manufaktur Aktiebolag]	Tammerfors Linne- & Jern-Manufaktur Aktiebolag	   1
 [Mellersta Kyrkslätt Ungdomsförening, utg.]	Mellersta Kyrkslätt Ungdomsförening, utg	   1
 Osuuskunta Länsi-Suomen kp.	Osuuskunta Länsi-Suomen kp	   1
 Söderstörm	Söderström	   1
+WSOY	Kotikasvatusyhdistys	   1
 Weilin & Göös'in kirjakauppa [jakaja]	Weilin & Göös'in kirjakauppa	   1
 Suomen evank.-lut. pyhäkouluyhdistys	Suomen evank.-luth. pyhäkouluyhdistys	   1
+Pellervo-seura		   1
 [Maatalousvaliokunta]	Maatalousvaliokunta	   1
 [Maanvuokraajain edustajakokous]	Maanvuokraajain edustajakokous	   1
 [Maanviljelysvirkamiehet]	Maanviljelysvirkamiehet	   1
@@ -4812,6 +5583,7 @@ Bokförlaget Wellamo	Bok Wellamo	   1
 A. V. Ruusuvaara	A.V. Ruusuvaara	   1
 Lindstedts Antikvariska Bokhandel		   1
 Otava	Karjalainen osakunta	   1
+[Maakansa]	Maakansa	   1
 Lahden kp.-o.y.	Lahden kp.-o.y	   1
 Förlagsaktiebolaget Kirja	saktiebolaget Kirja	   1
 [Svenska Folkpartiet, utg.]	Svenska folkpartiet	   1
@@ -4826,12 +5598,14 @@ Finlands Svenska Nykterhetsförbunds Expedition i distr	Finlands Svenska Nykterh
 [Landtbruksutställning i Ekenäs]	Landtbruksutställning i Ekenäs	   1
 [Landtbruksmötet å Malm]	Landtbruksmötet å Malm	   1
 [Landtbruksmötet och -utställningen i Kuopio]	Landtbruksmötet & -utställningen i Kuopio	   1
+[Kejserliga senaten för Finland]	Suomi 	   1
 [Handtverksutställningen i Wasa]	Handtverksutställningen i Wasa	   1
 [G. W. Edlunds Förlag]	G.W. Edlund	   1
 [Finska Kennelklubben]	Finska Kennelklubben	   1
 Lifförsäkringbolaget Suomi	Lifförsäkringsbolaget Suomi	   1
 Suomen luotsi- ja majakkalaitoksen ylihallitus	Suomen luotsi- ja majakkalaitos	   1
 A. B. Herman Lindell	A.B. Herman Lindell	   1
+[Janakkalan kunta]	Janakkalan kunta	   1
 Agricola o.y. [Jakaja]	Agricola & y	   1
 [Absoluta Nykterhetsföreningen i Ekenäs]	Absoluta Nykterhetsföreningen i Ekenäs	   1
 Kustannusliike Aura o.y.	Kustannusliike Aura	   1
@@ -4875,8 +5649,11 @@ Tampereen työväen sanomalehti-o.y.	Tampereen työväen sanomalehti	   1
 [Suomen Rautatieläisten Liitto]	Suomen Rautatieläisten Liitto	   1
 [Sydvästra Finlands Svenska Folkhögskola]	Sydvästra Finlands Svenska Folkhögskola	   1
 Th. Weber	Thorvald Weber	   1
+[Heinolan lehti]	Heinolan lehti	   1
 [Helsingin maalariammattiyhdistys]	Helsingin maalariammattiyhdistys	   1
+Helsingin kaupungin sosialilautakunta	Helsingin kaupunki	   1
 Edlundska Bokhandeln, i distr.	Edlundska bokhandeln, distr	   1
+Hankkija	Hankkija 	   1
 [Finska konstnärer]	Finska konstnärer	   1
 A. Mantere [jakaja]	A. Mantere	   1
 Kustannusliike Vellamo		   1
@@ -4887,6 +5664,7 @@ Kustannus o.y. Kansa	Kustannus & y. Kansa	   1
 Finska Konstföreningen :;Akademiska Bokhandeln, jakaja	Finska konstföreningen	   1
 Förs.	Förs	   1
 Vilho Leikas & C:o		   1
+V. Nieminen		   1
 Turun läänin etel. vaalipiirin sos. dem.	Turun läänin etel. vaalipiirin sos. dem	   1
 N. F. Höijer, O. W. Johansson ja Joh. Svensson	N.F. Höijer, O.W. Johansson ja Johan Svensson	   1
 Kustannusyhtiö Osmo (Ventola ja kumpp.)	Kustannusyhtiö Osmo	   1
@@ -4901,6 +5679,7 @@ Clouberg ja Kumpp. (V. Hoving)		   1
 Tampereen Sanomat o. y.	Tampereen Sanomat & y	   1
 [Zilliacus Tryckeri]	Zilliacus Tryckeri	   1
 Suomen palvelijain liitto	Suomen palvelijaliitto	   1
+Työväen kirjapaino ja sanomalehti osuuskunta		   1
 [Käsiteollisuuslehti]	Käsiteollisuuslehti	   1
 Suomen satamatyöntekijäin kustannus-osuuskunta	Suomen satamatyön<<Author>>in kustannus-osuuskunta	   1
 Suom. sos. kust.yht.	Suom. sos. kust. yht	   1
@@ -4917,6 +5696,7 @@ Akademsika Bokhandeln, jakaja	Akademiska Bokhandeln, jakaja	   1
 [Akademiska Bokhandeln, jakaja]	Akademiska Bokhandeln, jakaja	   1
 [Suomen kutomateollisuustyöntekijät]	Suomen kutomateollisuustyön<<Author>>t	   1
 [Fram, distr.]	Fram, distr	   1
+Ylioppilaskunta	Helsingin yliopiston ylioppilaskunta	   1
 Osuuskunta 'Oma Apu'	Osuuskunta 'Oma Apu	   1
 Turun ev. luth. nuorukaisyhdistys	Turun Evangeliska luth. nuorukaisyhdistys	   1
 Acricola Kustannus-o.y.	Acricola Kustannus-o.y	   1
@@ -4928,6 +5708,7 @@ Kustannus o. y. Kansa	Kustannus & y. Kansa	   1
 Wenemaa sots.-dem. tööliste partei Helsingi eestlaste organisatsioni wäljaanne	Wenemaa sots.-dem. tööliste partei Helsingi eestlaste organisatsioni väljaanne	   1
 WSOy	W.S. Oy	   1
 Suom. sos. kustanusyhtiö	Suom. sos. kustannusyhtiö	   1
+[Kansan ääni]	Kansan ääni	   1
 Kuopion uusi kirjapaino [Jakaja]	Kuopion uusi kirjapaino	   1
 [Warkaus bruk]	Warkaus bruk	   1
 Kirkollinen kirja- ja paperikauppa o.y.	Kirkollinen kirja- ja paperikauppa	   1
@@ -4975,6 +5756,7 @@ J. Simeliuksen perill. kirjapaino	Voimaliitto	   1
 [Viipurin teollisuusyhdistys]	Viipurin teollisuusyhdistys	   1
 [Viipurin l. läntinen vaalipiiri]	Viipurin l. läntinen vaalipiiri	   1
 Sosialistin kirjapaino-osuuskunta I. L.	Sosialistin kirjapaino-osuuskunta	   1
+Kp. Gutenberg		   1
 [Sörnäs svenska församling]	Sörnäs svenska församling	   1
 [Hakaniemen kirjakauppa oy]	Hakaniemen kirjakauppa	   1
 [Jyväskylän kauppalaisseura]	Jyväskylän kauppalaisseura	   1
@@ -4992,7 +5774,6 @@ Pohjanmaan työväen osuuskirjapaino	Pohjanmaan työväen osuuskp	   1
 Sos.-dem eduskuntaryhmä	Sos.-dem. eduskuntaryhmä	   1
 [Svenska folkpartiet]	Svenska folkpartiet	   1
 Lilius & Hertzberg (Schildt)	Lilius & Hertzberg	   1
-Senaten	Tie- ja vesirakennusten ylihallitus	   1
 [Varsinaissuomalainen osakunta]	Varsinaissuomalainen osakunta	   1
 [Varkauden työväenyhdistys]	Varkauden työväenyhdistys	   1
 Svensk-finska nykterhets-förbundet i Amerika	Svensk-finska nykterhets- i Amerika	   1
@@ -5030,6 +5811,7 @@ Suom. työväen liiton kp.	Suom. työväen liiton kp	   1
 [Borgå järnvägsaktiebolag]	Borgå järnvägsaktiebolag	   1
 Lilius & Hertzberg :;Akateeminen kirjakauppa [jakaja]	Lilius & Hertzberg	   1
 [Finska sparbankförening]	Finska sparbankförening	   1
+Akateeminen kirjakauppa	Helsingin yliopisto	   1
 Kustannustoimisto Widell' ja Kumpp.	Kustannustoimisto Widell' ja Kumpp	   1
 H. Klingsten		   1
 [Städernas Allmänna Brandstodsbolag i Finland]	Städernas Allmänna Brandstodsbolag i Finland	   1
@@ -5041,7 +5823,6 @@ H. Klingsten		   1
 Pekka Brofelt, distr.	Pekka Brofelt, distr	   1
 [Eteläsuomalainen osakunta]	Eteläsuomalainen osakunta	   1
 [Järnvägskomitén]	Järnvägskomitén	   1
-[Ulvilan kunta]	Ulvilan kunta	   1
 Uljas Koitto raittiusseura	Uljas Koitto -raittiusseura	   1
 [Finska Sparbanksföreningens Delegation]	Finska Sparbanksföreningens Delegation	   1
 Aug. Edwards		   1
@@ -5090,7 +5871,6 @@ Kommandiittiyhtiö O. Räisänen ja Kumpp.	Kommandiittiyhtiö O. Räisänen ja K
 Edlundska Bokhandeln, jakaja	Industristyrelse	   1
 Verlag von J. Engelhorn Nachf.	Verlag von J. Engelhorn Nachf	   1
 [Suomen teollisuudenharjoittajat]	Suomen teollisuudenharjoittajat	   1
-Osuuskunta Kehitys		   1
 [Alexanders Universitetet]	Alexanders Universitetet	   1
 [Tie- ja vesirakennusten ylihallitus]	Tie- ja vesirakennusten ylihallitus	   1
 Akademiska bokhandeln, i distribution	Akademiska Bokhandeln	   1
@@ -5107,7 +5887,6 @@ Aug. Kanerva		   1
 [Tampereen osuuskaupat]	Tampereen osuuskaupat	   1
 [Tampereen N. M. K. Y.]	Tampereen N. M. K. Y	   1
 [Tampereen kunta]	Tampereen kunta	   1
-[Tampereen kaupunki]	Tampereen kaupunki	   1
 [Tampereen kauppaoppilaitos]	Tampereen kauppaoppilaitos	   1
 [Yläneen osuusliike]	Yläneen osuusliike	   1
 Otto Harrasowitz	Otto Harrasovitz	   1
@@ -5121,14 +5900,15 @@ Förbundets mellan K.F.U.M. och U.K.F. förlag	s mellan K.F.U.M. & U.K.F	   1
 [Tornion Alkeiskoulun toverikunta]	Tornion Alkeiskoulun toverikunta	   1
 [Ylihärmän nuorisoseura]	Ylihärmän nuorisoseura	   1
 [Viipurin sokeain avustusyhdistys]	Viipurin sokeain avustusyhdistys	   1
+Hakala & Kumpp.	Hakala & Coumpp	   1
 [Eläinsuojelusseura]	Eläinsuojelusseura	   1
 Suomen luth. evank.-yhdistysn	Suomen luth. evank.-yhdistys	   1
 [Suoniemen kunta]	Suoniemen kunta	   1
 F. K. Nybom	F.K. Nybom	   1
 Urheilujain kustannusoy.	Urheilujain kustannusoy	   1
+Akateeminen kirjakauppa		   1
 [Suomen teollisuuskoulut]	Suomen teollisuuskoulut	   1
 Merkurius kustannusoy.	Merkurius kustannusoy	   1
-J. A. Salmisen kp.	J.A. Salmisen kp	   1
 [Suomen senaatti]	Suomen senaatti	   1
 [Suomen matkailijayhdistyksen Turun haaraosasto]	Suomen matkailijayhdistyksen Turun haaraosasto	   1
 [Suomen maatalousseurojen keskusliitto]	Suomen maatalousseurojen keskusliitto	   1
@@ -5159,7 +5939,6 @@ Sananvalta		   1
 [Svenska Reallyceum i Åbo]	Svenska Reallyceum i Åbo	   1
 Björneborgs nya bokhandel, distr.	Björneborgs nya bokhandel, distr	   1
 Sosialistinen aikakausilehti	Sosialistinen aikakauslehti	   1
-Kyminlaakson työväen sanomalehti- ja kirjapaino-osuuskunta		   1
 F.P.F:s Helsingfors avdelning, utg.	F.P.F:s Helsingfors avdelning, utg	   1
 Unionen, kvinnosaksförbund i Finland	Unionen, qvinnosaks i Finland	   1
 Kirjapaino 'Sanan valta'	Kirjapaino 'Sanan valta	   1
@@ -5192,6 +5971,7 @@ Helsingin kustannus-oy.	Helsingin kustannus-o.y	   1
 [Satakunnan Sanomat]	Satakunnan Sanomat	   1
 Trävaru-aktiebolaget 'Kemi'	Trävaru-aktiebolaget 'Kemi	   1
 [Finska bildhuggarförbundet]	Finska bildhuggar	   1
+John Salminen		   1
 Gust. Frilund	Gustav Frilund	   1
 Eesti kirjastusühisus 'Postimees'	Eesti kirjastusühisus 'Postimees	   1
 Hämeenlinna Kivi- & kirjapaino oy.	Hämeenlinna Kivi- & Coirjapaino oy	   1
@@ -5223,6 +6003,7 @@ Kristliga arbetarförbundet	Kristliga arbetar	   1
 Friedr. Vieweg & Sohn	Friedr. Vieveg & Sohn	   1
 Maanviljelys-taloudellinen koelaitos	Maanviljelystaloudellinen koelaitos	   1
 Suomen N. M. K. Y. ja N. K. Y:n Liitto	Suomen N. M. K. Y. ja N. K. Y. liitto	   1
+[Voimistelu- ja urheiluseura Riento]	Turun Riento	   1
 O. F. Rae	O.F. Rae	   1
 N. B. Grotenfelt	N.B. Grotenfelt	   1
 [Kymmene aktiebolag]	Kymmene aktiebolag	   1
@@ -5262,6 +6043,7 @@ Allmänna brandkårsförbundet i Finland	Allmänna brandkårs i Finland	   1
 [Helsingin vapaa-ehtoinen palokunta]	Helsingin vapaa-ehtoinen palokunta	   1
 [Finska grafiska industrins arbetsgifvareförbund]	Finska grafiska industrins arbetsgivare	   1
 [Perä-Pohjolan kansanopisto]	Perä-Pohjolan kansanopisto	   1
+Sjukhusläkareföreningen i Finland	Sairaalalääkäriyhdistys	   1
 [Föreningsbankens i Finland]	Föreningsbankens i Finland	   1
 Föreningen för arbetarskydd och socialförsäkring i Finland	Föreningen för arbetareskydd & socialförsäkring i Finland	   1
 [Rauman kaupunki]	Rauman kaupunki	   1
@@ -5294,6 +6076,7 @@ Svenska nykterhetsförl.	Svenska Nykterhets	   1
 [NMKY]	NMKY	   1
 Viipurin työväen sanomalehti- ja kirjapaino osuuskunta	Viipurin työväen sanomalehti- ja kirjapaino-osuuskunta	   1
 [Nilsiän kunta]	Nilsiän kunta	   1
+Nauru-lippaan toimitus		   1
 [Raahen  porvari- ja kauppakoulu]	Raahen  porvari- ja kauppakoulu	   1
 Wihtori Kosonen	Vihtori Kosonen	   1
 [Mynämäen kunta]	Mynämäen kunta	   1
@@ -5316,6 +6099,9 @@ F. Forsbergin kp.	F. Forsbergin kp	   1
 KS.	KS	   1
 [Helsingin sentraalikirjapaino]	Helsingin sentraalikirjapaino	   1
 [Lilius & Hertzberg]	Lilius & Hertzberg	   1
+Suomen maalaisväestön liiton Viipurin läänin itäinen vaalipiiri	Suomen maalaisväestön liitto	   1
+[Karjalan Maalaiskansan sanomalehti-osakeyhtiö]	Karjalan Maalaiskansan sanomalehti-osakeyhtiö	   1
+W. Nieminen		   1
 J. F. Olan's bokhandel & bokbinderi	J.F. Olan's bokhandel & bokbinderi	   1
 [SONR]	SONR	   1
 Maanviljelys-taloudellinen koelaitos Suomessa	Maanviljelystaloudellinen koelaitos	   1
@@ -5338,7 +6124,6 @@ Turun evank.-lut. seura.	Turun evank.-lut. seura	   1
 Hekivakuutusyhtiö Suomi	Henkivakuutusyhtiö Suomi	   1
 Tekijätär	<<Author>>tär	   1
 [s.n.]	Sortavalan reaalilyseon toverikunta	   1
-[Rauman yhteislyseo]	Rauman yhteislyseo	   1
 Työv. sanomal. kirjapaino- ja kauppaosuusk.	Työv. sanomal. kirjapaino- ja kauppaosuusk	   1
 H. W. Marjamaan kirjapaino	H.W. Marjamaan kirjapaino	   1
 N. N. K. Y.	N. N. K. Y	   1
@@ -5368,8 +6153,8 @@ Kirja		   1
 [Kauhajoen nuorisoseura]	Kauhajoen nuorisoseura	   1
 [Kuopion kuuromykkäinkoulu]	Kuopion kuuromykkäinkoulu	   1
 [Kiikoisten kunta]	Kiikoisten kunta	   1
-[Länsi-Suomen karjanjalostusyhdistys]	Länsi-Suomen karjanjalostusyhdistys	   1
 Kustannusliike 'Tarmo'	Kustannusliike Tarmo	   1
+Meteor		   1
 [S. O. N. R.]	S. O. N. R	   1
 [Hämeenlinnan suomalainen säästöpankki]	Hämeenlinnan suomalainen säästöpankki	   1
 K.Valovuori	K. Valovuori	   1
@@ -5384,6 +6169,8 @@ K.Valovuori	K. Valovuori	   1
 [kansanvalistusseuran Uudenkaupungin haaraosasto]	kansanvalistusseuran Uudenkaupungin haaraosasto	   1
 [Kansainvälinen ammattiyhdistysliike]	Kansainvälinen ammattiyhdistysliike	   1
 [Haminan rautatie]	Haminan rautatie	   1
+[V. Nieminen]	V. Nieminen	   1
+Emil Sundell		   1
 Kansan tahdon kp.	Kansan tahdon kp	   1
 Etelä Savon kp.	Etelä Savon kp	   1
 [Längelmäen säästöpankki]	Längelmäen säästöpankki	   1
@@ -5391,6 +6178,7 @@ Etelä Savon kp.	Etelä Savon kp	   1
 Tekijä, jakaja	<<Author>>, jakaja	   1
 [Kuopion uimaseura]	Kuopion uimaseura	   1
 [Pohjanmaan Työväen Osuuskirjapaino]	Pohjanmaan Työväen Osuuskirjapaino	   1
+Juuse Blom		   1
 [Sörnäisten suomalainen seurakunta]	Sörnäisten suomalainen seurakunta	   1
 Suomen sos.- dem. nuorisoliitto	Suomen sos.-dem. nuorisoliitto	   1
 [Kalastuskomitea]	Kalastuskomitea	   1
@@ -5498,7 +6286,6 @@ Tr. o. tidn.-ab.	Tr. & tidn.-ab	   1
 [Kuopion nuorten kristittyjen C. E. yhdistys]	Kuopion nuorten kristittyjen C. E. yhdistys	   1
 [Nuorsuomalainen puolue]	Nuorsuomalainen puolue	   1
 Koulutarpeiden keskusliike-oy	Koulutarpeiden keskusliike	   1
-Teosofinen kirjakauppa		   1
 Kaskisten kp.	Kaskisten kp	   1
 Urheilijain kustannusoy.	Urheilijain kustannus	   1
 Suom. kirj. seuran kp.	Suom. kirj. seuran kp	   1
@@ -5522,6 +6309,7 @@ Wiipurin työväen sanomalehti- ja kirjapaino-osuuskunta	Viipurin työväen sano
 [s.n.]	Suomen eläinlääkäriyhdistys	   1
 V. ja U.-seura 'Veikot'	V. ja U.-seura 'Veikot	   1
 Suomalainen kirjakauppa oy.	Suomalainen kirjakauppa	   1
+Société de Litérature Finnoise		   1
 K. A. Waaranen	K.A. Waaranen	   1
 Päivälehden K. Y.	Päivälehden K. Y	   1
 [Maamiesten kauppa osakeyhtiö]	Maamiesten kauppa osakeyhtiö	   1
@@ -5541,6 +6329,7 @@ Yrjö Weilin & Kumpp. oy	Yrjö Weilin & Coumpp	   1
 'Suomen laulu'	'Suomen laulu	   1
 [Oulun kaupungin ja maalaiskunnan säästöpankki Sampo]	Oulun kaupungin ja maalaiskunnan säästöpankki Sampo	   1
 Suomen Kuljetustyöntekijäin Liiton Helsingin Liikeapulaisosasto N:o 19	Suomen Kuljetustyön<<Author>>in Liiton Helsingin Liikeapulaisosasto N:o 19	   1
+Frenckell ja Poika	Suomen Keisarillinen Aleksanterin yliopisto	   1
 [Loimaan ja Pöytyän säästöpankki]	Loimaan ja Pöytyän säästöpankki	   1
 S. V. U. L.	S. V. U. L	   1
 Haminan suom. kp.	Haminan suom. kp	   1
@@ -5595,20 +6384,25 @@ U. W. Telén & Co.	U.W. Telén & Co	   1
 Otto Andersinen kp.	Otto Andersinen kp	   1
 Evert Em. Mesiäinen	Evert Emil Mesiäinen	   1
 Tampereen työväen sanomalehti oy	Tampereen työväen sanomalehti	   1
+Kansan-opisto	Work People's College	   1
 Lounas oy:n kp.	Lounas oy:n kp	   1
 [Sortavalan reaalilyseo]	Sortavalan reaalilyseo	   1
 [Suomen voimistelunopettajaliitto]	Suomen voimistelunopettajaliitto	   1
+[Antti J. Muikku]	Antti J. Muikku	   1
 The Northwestern Book	The Northvestern Book	   1
 Western Workmen's Pub. Co.	Western Workmen's Pub. Co	   1
 Wahlstöm & Widstrand	Wahlström & Widstrand	   1
 Työmiehen kustannusyhtiön kp	Työmiehen kustannusyhtiö	   1
 Toveri kustannusyhtiö	Toverin kustannusyhtiö	   1
+Ehdottoman raittiuden seura	Ehdoton raittiusseura	   1
 [Hämeenkyrön kunta]	Hämeenkyrön kunta	   1
 Aikain wartija	Aikain Vartija	   1
 T. S. Osuuskunta Raivaaja	T.S. Osuuskunta Raivaaja	   1
+Suomi-synodi	Suomi Synod	   1
 [s.n.]	Suomen säästöpankkien valtuuskunta	   1
 Suomalainen Ewankelinen Kustannusyhtiö	Suomalainen Evankelinen Kustannusyhtiö	   1
 Suomalaisen Kirjallisuuden Seuran kirjapainon oy	Suomalaisen Kirjallisuuden Seuran kirjapaino	   1
+Lilius & Hertzberg	Helsingin yliopisto	   1
 Gust. Bergrothin kp.	Gustav Bergrothin kp	   1
 Turku		   1
 Oman Kannan kirjap.	Oman Kannan kirjap	   1
@@ -5628,6 +6422,7 @@ Nya Pressen		   1
 Wahström & Widstrand	Wahlström & Widstrand	   1
 [Kotkan kaupunki]	Kotkan kaupunki	   1
 M. S.	M. S	   1
+[Kilpi-raittiusseura]		   1
 [Amerikan Suomalainen Kirjallisuuden Seura]	Amerikan Suomalainen Kirjallisuuden Seura	   1
 New Yorkin suom. vapaa seura	Nev Yorkin suom. vapaa seura	   1
 [Luvian osuuskauppa r.l.]	Luvian osuuskauppa r.l	   1
@@ -5635,8 +6430,378 @@ New Yorkin suom. vapaa seura	Nev Yorkin suom. vapaa seura	   1
 Fritzes hofbokhandel, distr.		   1
 Hornyánsky Viktor kiadása		   1
 Svensk-finnar		   1
+G. A. Ekholm		   1
+A. Svedberg		   1
+E. Nervander		   1
+Victor Pettersonin kirjapaino		   1
+M. Lankinen		   1
+C. B. Federley		   1
+E. Erkko		   1
+S. Rindell		   1
+J. G. Leistenius		   1
+H. Wadenström		   1
+Johanna Cedervaller & Son		   1
+Vaasan painoyhtiö		   1
+Tidnings ab Wasa		   1
+W. Lundström		   1
+Karjalan kirjapaino		   1
+E. V. Emeleus		   1
+Tidningen Westra Finlands ab		   1
+Osuuskunta Veljeys		   1
+A. F. Schütz		   1
+Vaasan paino		   1
+C. A. Heinzen kirjapaino		   1
+P. Ervast		   1
+E. Järvinen		   1
+Suomen kristillisen työväen liiton sanomalehti- ja kustannus-osuuskunta		   1
+J. F. Granlund		   1
+C. Alb. Gröneberg		   1
+F. Korpi		   1
+Reinhold von Becker		   1
+E. Suvanto		   1
+G. A. Ryynänen		   1
+J. W. Heickell		   1
+A. Berner		   1
+M. Uotinen		   1
+R. Roine		   1
+A. W. Gröndahl		   1
+T. Hagman		   1
+E. Wallin		   1
+Tampereen takausyhtiö		   1
+K. Grahn		   1
+V. Alava		   1
+M. Heinonen		   1
+A. Lille		   1
+V. Pasi		   1
+F. Polén		   1
+Suomalaisen Kansan sanomalehti- ja kirjapaino		   1
+C. Carstens		   1
+O. Palander		   1
+M. Latva		   1
+J. W. Lillja & Co		   1
+G. A. Sjöblom		   1
+G. A. Sjöblom	G.A. Sjöblom	   1
+Kuopion Uusi sanomalehti		   1
+F. Warén		   1
+I. A. Grönroos	I.A. Grönroos	   1
+K. Tuorila		   1
+J. V. Snellman		   1
+A. A. Niskala		   1
+E. Salminen		   1
+J. W. Juvelius		   1
+R. Rossander		   1
+Raja-Karjala		   1
+K. G. Göös		   1
+E. Linder		   1
+Finska tidnings ab i Helsingfors		   1
+K. O. Palander		   1
+Porilaisten kirjapaino		   1
+K. J. Wiss		   1
+Tryckeri- & tidnings ab i Kristinestad		   1
+V. Jämsén		   1
+Pohjois-Karjalan kirjapaino		   1
+J. Rännäri		   1
+Sanomalehti oy Pohjanmaa		   1
+Rauman kirjapaino		   1
+O. Ansas (ent. F.O.Husberg)		   1
+O. Juntunen		   1
+A. Schauman		   1
+A. Kurth		   1
+E. Vainio		   1
+G. Bergroth		   1
+V. A. Marjanen		   1
+C. E. Barck		   1
+B. B. Bergdahl		   1
+N. E. Ringvall		   1
+Viipurin suomalaisen kirjallisuuden seura		   1
+K. Kononov		   1
+A. Johansson		   1
+J. F. Holmström	J.F. Holmström	   1
+C. G. Swan		   1
+Konstantin Ivanoff		   1
+Aleksanteri Kasurinen		   1
+Fredrik Polén		   1
+Kaarlo Lehtonen		   1
+Julius Nygren		   1
+A. E. Landgren		   1
+Johan Gustaf Fonsell		   1
+Johannes Walve		   1
+Johan Anton Karsten		   1
+Kirjapaino oy Maalainen		   1
+Th. Tigerstedt		   1
+Pertti Uotila		   1
+Karl Axel Gottlund		   1
+Osuuskunta Mikkeli		   1
+Matti Kauppinen		   1
+Kalle Pylkkänen		   1
+Teuvo Pakkala		   1
+Sanomalehtiyhtiö Karttunen ja kumpp.		   1
+Sortavalan kirjapaino		   1
+Käkisalmen suomalainen kirjapaino		   1
+Tryckeri och tidnings ab i Kristinestad		   1
+Edwin Nylander		   1
+Adolf Edvard Rongain ja Carl Johan Marelius		   1
+Adolf Edward Rongain ja Carl Johan Moberg		   1
+P. A. Aschan	Suomen evankelis-luterilainen kirkko	   1
+Kotka Tryckeri ab		   1
+Karl Wilhelm Weman		   1
+Kokkolan uutisten oy		   1
+N. F. Spolander		   1
+August Favén		   1
+H. F. Helminen		   1
+Keski-Suomen sanomain oy		   1
+K. G. Ekman		   1
+Aleksander Ramstedt		   1
+Oy Keski-Pohjalainen		   1
+Antti Kallio		   1
+Rudolf Lindgren		   1
+Osuuskunta Työväki		   1
+[Lahden sosialidemokraattinen kunnallisjärjestö]	Lahden sosialidemokraattinen kunnallisjärjestö	   1
+Petter Adolf Aschan		   1
+Otto Edvard Könni		   1
+Volmar Schildt		   1
+Henrik Piipponen		   1
+Gustaf Adolf Ryynänen		   1
+David  Emanuel Daniel Europaeus		   1
+Johanna Cederwaller & Son		   1
+Juuso Hyvärinen		   1
+Jakobstads tryckeri- och tidnings ab	Jakobstads tryckeri- & tidnings ab	   1
+Jakobstads tryckeri- och tidnings ab		   1
+Heinolan sanomalehti		   1
+Isak Smeds		   1
+Juho Kröger		   1
+Kotkan työväen sanomalehti		   1
+Sanomalehti ja kirjapaino oy Savolainen		   1
+Theodor Dahlgren		   1
+Frans Ossian Ansas		   1
+Itä-Hämeen sanomalehti oy		   1
+Wasa tryckeribolag		   1
+C. G. Wolff		   1
+Torsten T. Renvall		   1
+Gustaf Erik Eurén		   1
+Frans Enok Nyman		   1
+Vapaus Publishing	Canadan suomalainen järjestö	   1
+Ludvig Dannholm		   1
+David Halonen, Evald Jahnsson ja Petter Jurva		   1
+Senaatin kansliatoimikunta		   1
+H. R. Pohjola	H.R. Pohjola	   1
+H. R. Pohjola		   1
+Georg Zachris Forsman		   1
+Jac. Ahrenberg		   1
+August Hagman		   1
+Gustaf Otto Wasenius		   1
+Frans Johan Valbäck		   1
+Otto Reinhold Frenckell		   1
+Johan Wilhelm Boxberg		   1
+Ukko Andersin		   1
+Itä-Hämeen sanomalehti		   1
+Hangon suomalainen kirjapaino		   1
+Aleksanteri Grönberg		   1
+Uusi kansan kirjapaino		   1
+Haminan sanomat		   1
+Oskar Holmström		   1
+Artur Sundholm		   1
+Tidnings Ab Fritt folk		   1
+Tryckeri- och tidnings Ab i Fredrikshamn		   1
+Viktor Öhberg		   1
+Anna Kristina Charlotta Edelheim		   1
+Weilin + Göös fabriks och förlags ab		   1
+Viljo Koskinen		   1
+Uusmaalainen sanomalehti		   1
+Oskar Robert Marjanen		   1
+Bruno Granit		   1
+Osuuskunta Lappeenranta		   1
+Matti Roiha		   1
+Verneri Vesterdahl		   1
+Wilhelm Weman		   1
+Elämä osuuskunta		   1
+Konstantin Elgh		   1
+J. F. Grönroos tryckeri		   1
+Turun työväen sanomalehti		   1
+Arkkit. Jac. Ahrenberg		   1
+Hufvudstadsbladets nya tryckeri		   1
+Tryckeri och tidnings ab		   1
+Tryckeri och tidnings Ab		   1
+Dagens tidning		   1
+Henrik Christian Friis		   1
+A. A. Lindfors tryckeri		   1
+Andreas August Lindfors		   1
+Kirjanpain. Petter Widerholm		   1
+Tryckeri- och Tidnings Ab i Borgå		   1
+Oskar F. Borg		   1
+Finlands svenska arbetareförbund	Finlands svenska arbetarförbund	   1
+V. J. von Wright		   1
+Johannes Lampinen ja kaupp. Vilho Parmanen		   1
+Kauppa- ja teollisuustoimikunta	Vakuutustarkastaja	   1
 präntätty P. T. Mallingin kirjanpräntissä	präntätty P.T. Mallingin kirjanpräntissä	   1
 Beijers förlag	Beijer	   1
+Evangelisk-lutherska söndagskoleföreningen i Finland	Suomen evankelis-luterilainen pyhäkouluyhdistys	   1
+Juridiska föreningens i Finland	Juridiska föreningen i Finland	   1
+[Finlands allmänna svenska folkskollärare- och lärarinneförening]	Finlands allmänna svenska folkskollärare- och lärarinneförening	   1
+Finska veterinärföreningen	Suomen eläinlääkäriyhdistys	   1
+Suomen osuuskauppojen keskusosuuskunta	Suomen osuuskauppojen keskuskunta	   1
+[s.n.]	Suomen metsästysyhdistys	   1
+Åbo stads-mission	Turun kaupunkilähetys	   1
+Läröverkets för gossar och flickor konvent	Läröverket för gossar och flickor i Helsingfors	   1
+Axel Adolf Laurell		   1
+Pelastusarmeija	Suomen pelastusarmeija	   1
+Osuuskunta Weljeys	Osuuskunta Veljeys	   1
+Helsingin suomalainen sanomalehti		   1
+T. Sederholm		   1
+Joh. Bergdahl		   1
+Helsingin kustannus		   1
+A. Öhrnberg		   1
+Harry Wegelius		   1
+Heimo Helminen		   1
+Uuden-ajan toimitus		   1
+Tarmo		   1
+Kansan lehti		   1
+Aikain vartija		   1
+Holger Schildts förlag		   1
+Suomen satama- ja vesiliikennetyöntekijäinliitto	Suomen satamatyön<<Author>>inliitto	   1
+Kaarlo Kari		   1
+Emil af Forselles		   1
+Frans Ludv. Schauman		   1
+Kustannus Valonvalta		   1
+Keskinäinen vakuutuslaitos Sampo	Sampo, keskinäinen vakuutuslaitos	   1
+Ömsesidiga försäkringsanstalten Sampo	Sampo, keskinäinen vakuutuslaitos	   1
+Osuuskassa Runko		   1
+[s.n.]	Finlands svenska scoutbrigad	   1
+K. E. F. Wesander nuor.		   1
+V. Lindman		   1
+Finska hushållningssällskapet	Suomen talousseura	   1
+Kejserliga finska hushållnings-sällskapet	Suomen talousseura	   1
+Suomen sosialidemokraattisen raittiusliiton toimikunta	Suomen sosialidemokraattinen raittiusliitto	   1
+Suomen teollisuushallitus	Teollisuushallitus	   1
+Typografernes förening i Helsingfors		   1
+Albin Finander		   1
+G. W. Wilén & kumpp.		   1
+Turun kaupunki-lähetys	Turun kaupunkilähetys	   1
+Suomen tullihenkilöyhdistys	Suomen tullihenkilökunnan yhdistys	   1
+Toukomettisen toimitus		   1
+Helsingfors tjänarinneförenings bestyrelse		   1
+B. H. Ljunggren		   1
+H. Råbergh		   1
+Helsingfors schackklubb	Helsingin shakkiklubi	   1
+Maskinistföreningen i Finland	Suomen koneenkäyttäjäyhdistys	   1
+Alex. Hintze		   1
+F. L. Schauman		   1
+W. Fredrikson		   1
+[s.n.]	Suomen teollisuusvaltuuskunta	   1
+Fjäderfäskötselns vänner	Siipikarjanhoidon ystävät	   1
+[S.n]		   1
+Skandinaviska förlagsexpeditionen		   1
+S. Dahlbeck		   1
+Litografiska tryckeribolaget		   1
+Finska forstföreningen Tapio	Suomen metsänhoitoyhdistys Tapio	   1
+[s.n.]	Sylviayhdistys	   1
+[s.n.]	Sylviaföreningen	   1
+Josef Stenbäck		   1
+Finska litteratursällskapet		   1
+P. I. Turkkinen ja A. Lingrén		   1
+Julius Krohn		   1
+Erik Engström	Suomen lajittelukirjakauppiasyhdistys	   1
+Suomen kelloseppäin liitto	Suomen kelloseppäliitto	   1
+Suomen talousseura	Suomen huoneenhallitusseura	   1
+Fria missionen		   1
+Fria missionen i Finland	Suomen vapaa lähetys	   1
+Matti Meikäläinen		   1
+Kuopion läänin maanviljelysseurat	Pohjois-Karjalan maanviljelysseura	   1
+[Maanviljelijäin yleinen liitto]	Maanviljelijäin yleinen liitto	   1
+Gustaf  Key		   1
+O. Wihantola		   1
+Suomen M.P.K. sisälähetys	Suomen metodisti-piispallinen kirkko	   1
+Lahja Leppänen		   1
+Maanviljelys-seura Viipurissa	Viipurin läänin maanviljelysseura	   1
+Lounais-Suomen maanviljelysseura	Lounais-Suomen kotiteollisuusyhdistys	   1
+Em. Törmälä		   1
+Wickström		   1
+Waldemar Lönnbeck		   1
+Finlands lawntennisförbund	Suomen verkkopalloliitto	   1
+Tidnings- och tryckeri ab i Helsingfors		   1
+A. R. Wellroos		   1
+[s.n.]	Suomen spiritualistinen seura	   1
+Christ. Ludv. Hjelt		   1
+J. Tanskanen		   1
+J. H. Tuhkanen		   1
+Kustannusosakeyhtiö Kirja	Kirja, kustannusosakeyhtiö	   1
+P. Stolpe		   1
+Sigurd Roos		   1
+Anton Lilius	Suomen evankelinen seura	   1
+K. J. G. Sirelius	K.J.G. Sirelius	   1
+Nestor Järvinen, Jaakko Länkelä ja Olai Wallin		   1
+J. F. Hellman		   1
+Viipurin NMKY	Viipurin nuorten miesten kristillinen yhdistys	   1
+Oskar af Heurlin		   1
+Kansainvälinen raamatuntutkijain yhdistys		   1
+Poststyrelsen	Postihallitus	   1
+Suomen postiljooniyhdistyksen Helsingin osasto	Suomen postiljooniyhdistys	   1
+Helsingin paino-yhtiö		   1
+Helsingin palvelijataryhdistyksen johtokunta		   1
+Herman Hagberg ja H. E. Wegelius		   1
+E. Pelkonen		   1
+Kyläkirjaston kuvalehti		   1
+Koulutarpeiden keskusliike		   1
+Teosofinen kirjakauppa ja kustannusliike		   1
+Sanomalehti-osuuskunta Nuori Karjala		   1
+Finska läkare-sällskapet	Finska läkaresällskapet	   1
+Kristliga föreningen af unge män i Helsingfors	Svenska kristliga föreningen av unge män i Helsingfors	   1
+Alf. Bärlund		   1
+Joh. Westerback		   1
+Tampereen sanomain kp.		   1
+O. Furuhjelm		   1
+Finska grafiska industrins arbetsgivareförbund	Suomen graafillisen teollisuuden harjoittajain liitto	   1
+[s.n.],;Östra Nylands folkskollärarekår	Östra Nylands folkskollärarekår	   1
+Haniel Östring		   1
+Nylands svenska landtmannagillen och ungdomsföreningar	Finlands svenska landtmannagillen och ungdomsföreningar	   1
+Diakonisshuset i Helsingfors	Helsingin diakonissalaitos	   1
+Herman Gummerus		   1
+Fotografiamatörklubben i Helsingfors	Helsingin valokuvausyhdistys	   1
+Fiskeriföreningen i Finland	Suomen kalastusyhdistys	   1
+Finska fornminnesföreningen	Suomen muinaismuistoyhdistys	   1
+Helsingfors frimärkssamlareförening	Helsingfors frimärkssamlare förening	   1
+Leonard Lund		   1
+Osakeyhtiö Kauppakirjasto		   1
+Esperanto-asocio de Finnlando	Suomen esperantoliitto	   1
+Djurskyddsföreningarna i Finland	Suomen eläinsuojelusyhdistys	   1
+Fattigvårdsförbundet i Finland	Suomen köyhäinhoitoliitto	   1
+Farmaceutiska föreningen i Finland		   1
+Anton Lindberg		   1
+Öhmanska bokhandel		   1
+T. Reuter		   1
+Matti Kurikka		   1
+Fotografiklubben i Helsingfors	Helsingin valokuvausyhdistys	   1
+Osuuskunta Oma apu rl.		   1
+Tilgmann		   1
+Industristyrelsen i Finland	Teollisuushallitus	   1
+Kaarle Werkko		   1
+Edward Hannula	Suomen luterilainen evankeliumiyhdistys	   1
+Uoti & Grönroos		   1
+A. J. Frosterus	A.J. Frosterus	   1
+K. Bergbom		   1
+Kehittäjän kannatusyhtiö Suodeniemi		   1
+Keskinäinen henkivakuutusyhtiö Kataja	Kataja, keskinäinen henkivakuutusyhtiö	   1
+[Sortavalan evankelinen seura]	Sortavalan evankelinen seura	   1
+Osakuntainvälinen karjalaistoimikunta		   1
+Wienan karjalaisten liitto	Vienan karjalaisten liitto	   1
+Nuorsuomalaisen puolueen keskustoimikunta		   1
+Henkivakuutusyhtiö Fennia	Fennia, vakuutusosakeyhtiö	   1
+O. W. Wackman		   1
+Työläisnaisten liittohallinto		   1
+socialdemokratiska ungdomsklubbarna i Helsingfors		   1
+Kirjapaino-osakeyhtiö sana	Suomen kalastusyhdistys	   1
+Alarik Hernberg		   1
+Suomen jalkinetyöntekijäin liitto	Suomen jalkinetyön<<Author>>in liitto	   1
+Tampereen isäntäyhdistys		   1
+Industriidkarnes i Finland ömsesidiga  brandförsäkringsbolag	Suomen teollisuudenharjoittajain keskinäinen palovakuutusyhtiö	   1
+[Sosialidemokraattinen naisliitto]	Sosialidemokraattinen naisliitto	   1
+Åbo stadsmission	Turun kaupunkilähetys	   1
+Alli Trygg		   1
+Helsingin kaiku		   1
+Finska Vetenskaps-Societen	Suomen tiedeseura	   1
+Geografiska föreningen	Maantieteellinen yhdistys	   1
+Yhdysvaltain ja Canadan suomalainen sanomalehtiliitto	Minnesotan suomalais-amerikkalainen historiallinen seura	   1
+Mercator	Finska läkaresällskapet	   1
 Finska vetenskaps-societeten	Suomen tiedeseura	   1
 par Iean Covens et Corneille Mortier avec privil.		   1
 chez I. Covens et C. Mortier avec privilege		   1
@@ -5663,7 +6828,6 @@ impressum â Petro Hansonio	Hansson, Peter	   1
 sumptibus Janssonio-Waesbergiorum ; et Mosis Pitt		   1
 excus. apud viduam Hans. A. typogr.	Peter Hanssons enckia	   1
 excud. Joh. Kiaempe, Reg. Ac. typogr.	Kämpe, Johan	   1
-tryckt hos Kgl. Acad. boktr. J. C. Frenckells enka	Johan Christopher Frenckellin leski	   1
 impressit Joh. Christ. Frenckell, Reg. Acad. typogr.	Frenckell, Johan Christopher I	   1
 omtryckt hos Andreas Holmerus	Holmerus, Anders	   1
 [s.n.]	Winter, Johan	   1
@@ -8735,3 +9899,6 @@ typ. E. Flodström, Reg. Acad. typog.	Flodström, Eric	   1
 impr. E. M. Flodström Reg. Acad. typogr. in m. d. Finl.	Flodström, Eric	   1
 exc. apud E. M. Flodström, Reg. Acad. typogr.	Flodström, Eric	   1
 excusum typis Kiämpianis	Kämpe, Johan	   1
+Aurora-Seura		   1
+Frenckellin kirjapaino		   1
+tryckt hos Kgl. acad. boktr. J. C. Frenckells encka.	Johan Christopher Frenckellin leski	   1

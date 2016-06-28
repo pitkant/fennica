@@ -1,8 +1,8 @@
 Name	Count
-Total count: 	34605
+Total count: 	34619
 hautajaiset	1926
 etsintäkuulutukset	1387
-yliopistot	1241
+yliopistot	1242
 häät	1107
 Turku	1098
 kartat	 811
@@ -113,10 +113,10 @@ kyyditys	  51
 oppihistoria	  50
 Suomen sota	  50
 katovuodet	  49
+osakunnat	  49
 järjestöt	  48
 maanviljely	  48
 maatalous	  48
-osakunnat	  48
 asiakirjat	  47
 korvaukset	  47
 hengelliset laulut	  46
@@ -295,6 +295,7 @@ Viipuri	  18
 akatemiat	  17
 hallintaoikeus	  17
 järjestötoiminta	  17
+jäsenluettelot	  17
 karjanhoito	  17
 maanmittarit	  17
 oikeusjärjestelmät	  17
@@ -305,7 +306,6 @@ aistit	  16
 arpajaiset	  16
 hallitsijat	  16
 harhaoppisuus	  16
-jäsenluettelot	  16
 kuninkaat	  16
 kuolinpesät	  16
 Kuortane	  16
@@ -449,6 +449,7 @@ linnoitukset	   9
 luominen	   9
 maaherrat	   9
 Maalahti	   9
+matkaoppaat	   9
 numismatiikka	   9
 pahoinpitely	   9
 postitoimipaikat	   9
@@ -559,7 +560,7 @@ lähteet	   6
 lehti-ilmoitukset	   6
 luonnononnettomuudet	   6
 Maaria	   6
-matkaoppaat	   6
+matrikkelit	   6
 metsät	   6
 myllyt	   6
 Oulu	   6
@@ -613,7 +614,6 @@ lennätinliikenne	   5
 Lohtaja	   5
 luonnonlääkkeet	   5
 maatilat	   5
-matrikkelit	   5
 messu	   5
 metsätalous	   5
 mielikuvitus	   5
@@ -643,6 +643,7 @@ vankeus	   5
 värit	   5
 venäjän kieli	   5
 Virrat	   5
+aikakauslehdet	   4
 ajanmittaus	   4
 apurahat	   4
 arviointi	   4
@@ -758,6 +759,7 @@ asumisoikeus	   3
 asutushistoria	   3
 ateismi	   3
 avioero	   3
+bibliografiat	   3
 diplomatia	   3
 ehtoollinen	   3
 eläkekassat	   3
@@ -782,6 +784,7 @@ kansanopetus	   3
 kansanopistot	   3
 kansanrunous	   3
 kansantalous	   3
+käsikirjat	   3
 kaskiviljely	   3
 kasvivärjäys	   3
 kauppiaat	   3
@@ -872,14 +875,12 @@ Vehmaa	   3
 vesiväylät	   3
 virsikirjat	   3
 yksilönsuoja	   3
-aikakauslehdet	   2
 Alajärvi	   2
 alkoholi	   2
 apteekkarit	   2
 asusteet	   2
 automerkit	   2
 autot	   2
-bibliografiat	   2
 diplomaatit	   2
 eläimeen sekaantuminen	   2
 eläinsuojeluvalvojat	   2
@@ -1666,6 +1667,7 @@ terveydenhuoltolaitokset	   1
 tiet	   1
 tieteelliset seurat	   1
 tilat	   1
+toimihenkilöt	   1
 toimivalta	   1
 torpparilaitos	   1
 tuhohyönteiset	   1
