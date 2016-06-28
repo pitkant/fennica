@@ -19,11 +19,6 @@ ntop <- 20
 author <- "Lahti, Marjanen, Roivainen, Tolonen"
 output.folder <- "output.tables/"
 
-
-#mean.pagecounts.singlevol = read.table(file = "mean_pagecounts_singlevol.csv", sep = ",", header = T)
-#mean.pagecounts.multivol = read.table(file = "mean_pagecounts_multivol.csv", sep = ",", header = T)
-#mean.pagecounts.issue = read.table(file = "mean_pagecounts_issue.csv", sep = ",", header = T)
-
 # ---------------------------------
 
 print("Prepare the final data set")
