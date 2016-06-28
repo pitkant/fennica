@@ -17,37 +17,15 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'df2' not found
+## Error in eval(expr, envir, enclos): object 'members' not found
 ```
 
 ```
-## Error in reorder(df2$family_name, df2$members): object 'df2' not found
+## Error: Unknown column 'family_name'
 ```
 
 ```
-## Error in ggplot(df2, aes(x = family_name, y = members)): object 'df2' not found
+## Error in eval(expr, envir, enclos): object 'extra' not found
 ```
 
-```
-## Error in eval(expr, envir, enclos): object 'p' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'p' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'p' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'p' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'p' not found
-```
-
-```
-## Error in print(p): object 'p' not found
-```
+![plot of chunk suvut](figure/suvut-1.png)

@@ -31,7 +31,9 @@ Visual summary of the estimated page counts per gatherings (shown only for the 1
 
 ## Document size comparisons
 
-  * Document gatherings info is originally available for 68561 documents (100%), and further estimated up to 68561 documents (100%).
+  * Document gatherings info is originally available for 30550 documents (45%), and further estimated up to 30550 documents (45%). 
+
+The gatherings is available in the original data but could not be interpreted for 0 documents (ie. 0% of the documents where it is available in principle).
 
   * Document height info is originally available for 4617 documents (7%), and further estimated up to 35109 documents (51%).
 
