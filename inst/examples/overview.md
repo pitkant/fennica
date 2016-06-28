@@ -55,10 +55,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic                     |        71.0|          29.0|         20889|       3533|
 |obl                               |        54.6|          45.4|         32687|          3|
 |holder                            |        49.5|          50.5|         36295|       2162|
+|paper.consumption.km2             |        47.6|          52.4|         37664|       4266|
 |width                             |        47.6|          52.4|         37687|        310|
 |height                            |        47.6|          52.4|         37687|        351|
 |area                              |        47.6|          52.4|         37687|        816|
-|paper.consumption.km2             |        47.6|          52.4|         37687|       4266|
 |author_gender                     |        46.9|          53.1|         38196|          4|
 |self_published                    |        42.4|          57.6|         41392|          2|
 |author_name                       |        36.3|          63.7|         45806|      12012|
@@ -74,6 +74,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_year                  |         0.9|          99.1|         71254|        357|
 |publication_decade                |         0.9|          99.1|         71254|         44|
 |dissertation                      |         0.0|         100.0|         71893|          3|
+|pagecount                         |         0.0|         100.0|         71896|        978|
 |title                             |         0.0|         100.0|         71916|      57062|
 |synodal                           |         0.0|         100.0|         71918|          3|
 |language.Swedish                  |         0.0|         100.0|         71919|          2|
@@ -117,7 +118,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         71919|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         71919|          1|
 |language.Multiple languages       |         0.0|         100.0|         71919|          2|
-|pagecount                         |         0.0|         100.0|         71919|        977|
 |gatherings.original               |         0.0|         100.0|         71919|         18|
 |obl.original                      |         0.0|         100.0|         71919|          2|
 |original_row                      |         0.0|         100.0|         71919|      71919|

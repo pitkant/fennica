@@ -34,9 +34,6 @@ if (exists("timespan")) {
         publication_year >=  min(timespan) & publication_year <= max(timespan))
 }
 
-# Remove issues for now
-# df <- filter(df, !issue)
-
 # Store
 df.preprocessed <- df.preprocessed.orig <- df
-
+rm(df)
