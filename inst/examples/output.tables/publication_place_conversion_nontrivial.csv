@@ -1,5 +1,5 @@
 original	polished	Count
-Total count: 	36607	
+Total count: 	36612	
 Helsingfors	Helsinki	11019
 Aboae	Turku	 4871
 [Vasa]	Vaasa	 2312
@@ -83,7 +83,7 @@ København	Copenhagen	   27
 Calumet (Mich.)	Calumet Mi	   27
 Petrograd'	St Petersburg	   26
 Kristiania	Oslo	   26
-Duluth (Minn.)	Duluth Mn	   25
+Duluth (Minn.)	Duluth MN	   25
 Jyväskylässä	Jyväskylä	   25
 [Holmiae]	Stockholm	   25
 Nikolainkaupunki	Vaasa	   24
@@ -170,7 +170,7 @@ Trykkt i Åbo	Turku	    8
 Kjöbenhavn	Copenhagen	    8
 Pest	Budapest	    7
 Copenhague	Copenhagen	    7
-Tübingen	Tubingen	    7
+Tübingen	Tübingen	    7
 Mikkelissä	Mikkeli	    7
 Nystad	Uusikaupunki	    7
 Zürich	Zürich	    7
@@ -178,7 +178,7 @@ Roma	Rome	    7
 [Hämeenlinna]	Hämeenlinna	    7
 Astoria (Ore.)	Astoria Or	    7
 [Nürnberg]	Nürnberg	    7
-Lübeck	Lybeck	    7
+Lübeck	Lübeck	    7
 Impr. Aboae	Turku	    7
 [Rostochii]	Rostock	    7
 Upsalis	Uppsala	    7
@@ -253,12 +253,13 @@ Tartus	Tartu	    4
 Hämeenlinna ;;Porvoo	Hämeenlinna	    4
 [Tryckt i Wasa]	Vaasa	    4
 Porwoo	Porvoo	    4
+Giessen	Gießen	    4
 [Tammerfors]	Tampere	    4
 Lahtis	Lahti	    4
 Köpenhamn	Copenhagen	    4
 Petrograd	St Petersburg	    4
 Helsingis	Helsinki	    4
-Duluth (MN)	Duluth Mn	    4
+Duluth (MN)	Duluth MN	    4
 Quincy (Mass.)	Quincy Ma	    4
 Piotrogród	St Petersburg	    4
 Upsalas	Uppsala	    4
@@ -315,7 +316,7 @@ Fitchburg, Mass.	Fitchburg Ma	    3
 Hancock	Hancock Mi	    3
 Pietarissa	St Petersburg	    3
 Fitchburgissa (Mass.)	Fitchburg Ma	    3
-[Duluth (Minn.)]	Duluth Mn	    3
+[Duluth (Minn.)]	Duluth MN	    3
 [Moskva]	Moscow	    3
 [Tartto ]	Tartu	    3
 Kiøbenhavn	Copenhagen	    3
@@ -438,12 +439,12 @@ Lojo	Lohja	    2
 Lahdessa	Lahti	    2
 Helsinki :;[Helsinki]	Helsinki	    2
 [Brooklyn (N.Y.)]	New York	    2
-Chisholm (Minn.)	Chisholm Mn	    2
+Chisholm (Minn.)	Chisholm MN	    2
 [Helsinki ]	Helsinki	    2
 Hancock (MI)	Hancock Mi	    2
 [Helsinki] :;Jyväskylä	Helsinki	    2
 Ashtabula, OH	Ashtabula Oh	    2
-[Duluth, Minn.]	Duluth Mn	    2
+[Duluth, Minn.]	Duluth MN	    2
 Ashtabula, Ohio	Ashtabula Oh	    2
 Calumet, Mich.	Calumet Mi	    2
 Ironwood, Mich.	Ironwood Mi	    2
@@ -858,7 +859,7 @@ Fichtburg, Mass.	Fitchburg Ma	    1
 Seattle, (Wash.)	Seattle WA	    1
 Cleveland	Cleveland Oh	    1
 Ala-Tornio	Tornio	    1
-Duluth, Minn.	Duluth Mn	    1
+Duluth, Minn.	Duluth MN	    1
 Freiburg in Baden	Freiburg im Breisgau	    1
 [St.-Pétersbourg]	St Petersburg	    1
 Port Arthur, Ont.	Port Arthur On	    1
@@ -924,10 +925,10 @@ Amsteldam	Amsterdam	    1
 [Norrköping]	Norrköping	    1
 [Götheborg]	Gothenburg	    1
 Rostochiae	Rostock	    1
-Tryckt i Wästeråås	Västeras	    1
+Tryckt i Wästeråås	Västerås	    1
 Gedruckt zu Alten Stetin	Altenstein	    1
-[Västerås]	Västeras	    1
-Tryckt vthi Wästeråås	Västeras	    1
+[Västerås]	Västerås	    1
+Tryckt vthi Wästeråås	Västerås	    1
 Strasburg	Strasbourg	    1
 [Strassburg]	Strasbourg	    1
 [Lvtetiae Parisorvm]	Paris	    1
@@ -995,7 +996,7 @@ Tryckt i Linköping	Linköping	    1
 Tryckt på Wijsingsborg	Visingsborg	    1
 Wisingsburgi	Visingsborg	    1
 Impressum Gryphiswaldiae	Greifswald	    1
-[Lübeck]	Lybeck	    1
+[Lübeck]	Lübeck	    1
 Tryckt j Stocholm	Stockholm	    1
 [Strengnesiae]	Strängnäs	    1
 Och i Vpsala	Uppsala	    1
@@ -1024,7 +1025,7 @@ Prentattu Stockholmis	Stockholm	    1
 Tryckt i Socholm [sic]	Stockholm	    1
 Tryckt i Stockholm på nytt	Stockholm	    1
 Tryckt i then konungzlige hufwudstaden Stockholm	Stockholm	    1
-[Tryckt j keyserligh frij Rijkzstad Lybeck]	Lybeck	    1
+[Tryckt j keyserligh frij Rijkzstad Lybeck]	Lübeck	    1
 [Stokholmiae]	Stockholm	    1
 Excusi Aboae Finnorum	Turku	    1
 t'Amsterdam	Amsterdam	    1
@@ -1034,7 +1035,7 @@ Präntäty Turusa	Turku	    1
 [Prentattu Stocholmisa]	Stockholm	    1
 Prentätty Stocholmis	Stockholm	    1
 Holmiae Sueonum	Stockholm	    1
-Lubecae	Lybeck	    1
+Lubecae	Lübeck	    1
 Adoae [po. Aboae]	Turku	    1
 Wjburgi	Vyborg	    1
 Suobaci recusa	Greifswald	    1
@@ -1077,7 +1078,7 @@ Gedruckt [s.l.]	Visingsborg	    1
 Gryphiswaldi	Greifswald	    1
 Excusum primo Rostochii, nunc recusum Stockholmiae	Rostock	    1
 [Witebergae]	Wittenberg	    1
-[Lubecae]	Lybeck	    1
+[Lubecae]	Lübeck	    1
 Nu på nytt vplagdt och tryckt i Vpsala	Uppsala	    1
 Vilnae	Vilnius	    1
 [I Wiborg]	Vyborg	    1
@@ -1151,6 +1152,7 @@ Stockholmis[s]a	Stockholm	    1
 Sotckholm [!]	Stockholm	    1
 Sto[c]holm	Stockholm	    1
 Sto[c]kholm	Stockholm	    1
+Dantzig	Gdańsk	    1
 [Stóckholm]	Stockholm	    1
 Ludguni Batavorum	Leiden	    1
 Gothoburgi	Gothenburg	    1

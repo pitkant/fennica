@@ -45,19 +45,18 @@ Calcutta	India	    1
 Calumet Mi	USA	   36
 Cambridge	England	    5
 Chicago IL	USA	   21
-Chisholm Mn	USA	    2
+Chisholm MN	USA	    2
 Cincinnati Oh	USA	    3
 Clear Creek UT	USA	    1
 Cleveland Oh	USA	    1
 Cluj-Napoca	Romania	    1
 Cologne	Germany	    2
 Copenhagen	Denmark	  128
-Dantzig	Poland	    1
 Dessau	Germany	    2
 Dieren	Netherlands	    1
 Dordrecht	Netherlands	    1
 Dresden	Germany	   20
-Duluth Mn	USA	   35
+Duluth MN	USA	   35
 Edinburgh	Scotland	    1
 Elbingen	Germany	    1
 Ely Mi	USA	    1
@@ -73,10 +72,10 @@ Frankfurt	Germany	   14
 Freiburg	Germany	    1
 Freiburg im Breisgau	Germany	    1
 Fürth	Germany	    2
+Gdańsk	NA	    1
 Geneva	Switzerland	    2
 Gera	Germany	    1
-Giessen	Germany	    4
-Gießen	NA	    4
+Gießen	Germany	    8
 Godby	Finland	    1
 Gotha	Germany	    4
 Gothenburg	Sweden	   31
@@ -212,16 +211,16 @@ Loimaa	Finland	    1
 Loimijoki	Finland	    1
 London	England	  166
 Loviisa	Finland	   26
+Lübeck	NA	   11
 Luleå	Sweden	    2
 Lund	Sweden	   50
-Lybeck	Germany	   11
 Maaninka	Finland	    1
 Maastricht	Netherlands	    2
 Macon	France	    1
 Madrid	Spain	    4
 Magdeburg	Germany	    1
 Malmö	Sweden	    4
-Mänttä-Vilppula	NA	    1
+Mänttä-Vilppula	Finland	    1
 Mäntyharju	Finland	    1
 Marburg	Germany	    4
 Mariehamn	Finland	   54
@@ -368,7 +367,7 @@ Trieste	Italy	    2
 Tromsö	Norway	    4
 Trondheim	Norway	    1
 Tsing-shin	China	    1
-Tubingen	Germany	    7
+Tübingen	Germany	    7
 Turenki	Finland	   16
 Turku	Finland	13438
 Turtle Lake Wi	USA	    1
@@ -384,8 +383,7 @@ Uusikaupunki	Finland	   45
 Vaasa	Finland	 3399
 Valamo	Finland	    1
 Valkjärvi	Finland	    1
-Västeras	NA	    3
-Västerås	Sweden	   22
+Västerås	Sweden	   25
 Venice	Italy	    2
 Verona	Italy	    1
 Vicenza	Italy	    2

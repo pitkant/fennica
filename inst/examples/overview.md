@@ -63,11 +63,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_name                       |        33.2|          66.8|         45805|      12012|
 |author                            |        33.2|          66.8|         45805|      12076|
 |publisher                         |        12.3|          87.7|         60128|       6615|
-|country                           |         4.2|          95.8|         65653|         34|
-|publication_place                 |         4.2|          95.8|         65662|        414|
+|country                           |         4.2|          95.8|         65649|         34|
+|publication_place                 |         4.2|          95.8|         65662|        412|
 |pagecount.orig                    |         2.3|          97.7|         67017|        999|
-|latitude                          |         1.1|          98.9|         67786|        337|
-|longitude                         |         1.1|          98.9|         67786|        337|
+|latitude                          |         1.2|          98.8|         67766|        333|
+|longitude                         |         1.2|          98.8|         67766|        333|
 |language                          |         1.1|          98.9|         67833|        256|
 |publication_year_from             |         1.0|          99.0|         67882|        352|
 |publication_year                  |         1.0|          99.0|         67901|        352|
