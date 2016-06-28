@@ -25,9 +25,9 @@ output: markdown_document
   * [Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
 
 
-Visual summary of the estimated page counts per gatherings (shown only for the 1544 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts. Right: Visual summary of the estimated page counts per gatherings (shown only for the 1544 documents that have missing pagecount info in the original data):
 
-![plot of chunk size-estimated](figure/size-size-estimated-1.png)
+<img src="figure/size-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/size-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 ## Document size comparisons
 
@@ -65,12 +65,9 @@ Estimates of document size (area) info in gatherings system are available for 68
 <img src="figure/size-size-summary-1.png" title="plot of chunk size-summary" alt="plot of chunk size-summary" width="430px" /><img src="figure/size-size-summary-2.png" title="plot of chunk size-summary" alt="plot of chunk size-summary" width="430px" />
 
 
-Document dimension histogram (surface area). Few document sizes dominate publishing.
-
-![plot of chunk size-surfacearea](figure/size-size-surfacearea-1.png)
+Left: Document dimension histogram (surface area). Few document sizes dominate publishing. Right: original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
 
-Gatherings versus page counts, and original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
 
 <img src="figure/size-size-pagecomp-1.png" title="plot of chunk size-pagecomp" alt="plot of chunk size-pagecomp" width="430px" /><img src="figure/size-size-pagecomp-2.png" title="plot of chunk size-pagecomp" alt="plot of chunk size-pagecomp" width="430px" />
