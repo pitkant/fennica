@@ -1,17 +1,10 @@
 TODO
 ==========
 
-### Elements
-
-- Automatic standard overviews (LL)
-- University & dissertation analysis (HR)
-- Publisher analysis (HR)
 
 ### Technical (urgent)
 
 Gender: putsattu top-20 female mukaan. (F + K)
-
-Subject topics erikseen kaikki termit https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/subject_topic_accepted.csv
 
 ### Muita Fennica tutkimuskysymyksiä
 
@@ -23,6 +16,8 @@ vielä ESTC:ä ängetään tähän samaa kässäriin tällä aikataululla eli
 jättäisin pois)
 
 ### Technical, less urgent
+
+MT lisää 6to kokoarviot tauluihin
 
 Single/MultiVol/Issue erottelut tulee ESTn nojalla mutta
 kesken. Pitäiskö tehdä erikseen Fennicalle ym vai ei
