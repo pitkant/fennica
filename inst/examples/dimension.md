@@ -26,7 +26,7 @@ These tables can be used to verify the accuracy of the conversions from the raw 
 
   * [Automated tests for dimension conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_dimension_polish.csv)
 
-The estimates are based on the following auxiliary information sheets:
+The estimated dimensions are based on the following auxiliary information sheets:
 
   * [Document dimension abbreviations](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/document_size_abbreviations.csv)
 
@@ -38,17 +38,22 @@ The estimates are based on the following auxiliary information sheets:
   
 <!--[Discarded dimension info](output.tables/dimensions_discarded.csv)-->
 
-Estimates of document size (area) info in gatherings system are available for 68561 documents (100%). Also compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
+Right: original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate. Left: Estimates of document size (area) info in gatherings system are available for 68561 documents (100%). Also compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available. 
 
 <img src="figure/dimension-summary-1.png" title="plot of chunk summary" alt="plot of chunk summary" width="430px" /><img src="figure/dimension-summary-2.png" title="plot of chunk summary" alt="plot of chunk summary" width="430px" />
 
 
-Left: Document dimension histogram (surface area). Few document sizes dominate publishing. Right: original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
-
+Left: Document dimension histogram (surface area). Few document sizes dominate publishing. Right: title count per gatherings.
 
 <img src="figure/dimension-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="430px" /><img src="figure/dimension-sizes-2.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="430px" />
 
 ### Gatherings timelines
+
+
+
+
+Gatherings with less than 15 documents in every decade are excluded:
+
 
 <img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
 
