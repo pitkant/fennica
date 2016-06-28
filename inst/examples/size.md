@@ -62,7 +62,7 @@ The estimates are based on the following auxiliary information sheets:
 
 Estimates of document size (area) info in gatherings system are available for 68561 documents (100%). Also compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available.
 
-![plot of chunk size-summary](figure/size-size-summary-1.png)![plot of chunk size-summary](figure/size-size-summary-2.png)
+<img src="figure/size-size-summary-1.png" title="plot of chunk size-summary" alt="plot of chunk size-summary" width="430px" /><img src="figure/size-size-summary-2.png" title="plot of chunk size-summary" alt="plot of chunk size-summary" width="430px" />
 
 
 Document dimension histogram (surface area). Few document sizes dominate publishing.
@@ -73,7 +73,7 @@ Document dimension histogram (surface area). Few document sizes dominate publish
 Gatherings versus page counts, and original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
 
-![plot of chunk size-pagecomp](figure/size-size-pagecomp-1.png)![plot of chunk size-pagecomp](figure/size-size-pagecomp-2.png)
+<img src="figure/size-size-pagecomp-1.png" title="plot of chunk size-pagecomp" alt="plot of chunk size-pagecomp" width="430px" /><img src="figure/size-size-pagecomp-2.png" title="plot of chunk size-pagecomp" alt="plot of chunk size-pagecomp" width="430px" />
 
 ### Gatherings timelines
 
