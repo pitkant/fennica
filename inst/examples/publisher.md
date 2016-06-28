@@ -40,13 +40,13 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles| paper|
 |:-------------------------------|------:|-----:|
-|                                |   3353|  2.33|
-|<<Author>>                      |   1734|  0.37|
-|Frenckell, Johan Christopher I  |   1744|  0.78|
-|Frenckell, Johan Christopher II |   2216|  1.40|
-|Hansson, Peter                  |   1095|  0.84|
+|                                |   3353|  2.35|
+|<<Author>>                      |   1734|  0.38|
+|Frenckell, Johan Christopher I  |   1744|  0.82|
+|Frenckell, Johan Christopher II |   2216|  2.41|
+|Hansson, Peter                  |   1095|  1.78|
 |Londicer, Georg Wilhelm         |   2110|  0.18|
 |Otava                           |   2129|  1.12|
-|Söderström                      |   1177|  0.52|
-|Wall, Johan Larsson             |   1404|  0.82|
-|WSOY                            |   2802|  1.00|
+|Söderström                      |   1177|  0.54|
+|Wall, Johan Larsson             |   1404|  1.07|
+|WSOY                            |   2802|  1.04|

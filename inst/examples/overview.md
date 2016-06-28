@@ -58,15 +58,15 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                             |        47.6|          52.4|         37687|        310|
 |height                            |        47.6|          52.4|         37687|        351|
 |area                              |        47.6|          52.4|         37687|        816|
-|paper.consumption.km2             |        47.6|          52.4|         37687|       4266|
+|paper.consumption.km2             |        47.6|          52.4|         37687|       4367|
 |author_gender                     |        46.9|          53.1|         38196|          4|
 |self_published                    |        42.4|          57.6|         41392|          2|
 |author_name                       |        36.3|          63.7|         45806|      12012|
 |author                            |        36.3|          63.7|         45806|      12076|
 |publisher                         |        12.3|          87.7|         63065|       7299|
-|pagecount.orig                    |         6.8|          93.2|         67048|        978|
+|pagecount.orig                    |         6.8|          93.2|         67027|        999|
 |country                           |         4.3|          95.7|         68797|         34|
-|publication_place                 |         4.3|          95.7|         68810|        434|
+|publication_place                 |         4.3|          95.7|         68810|        435|
 |latitude                          |         1.2|          98.8|         71046|        347|
 |longitude                         |         1.2|          98.8|         71046|        347|
 |language                          |         1.0|          99.0|         71186|        259|
@@ -117,7 +117,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         71919|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         71919|          1|
 |language.Multiple languages       |         0.0|         100.0|         71919|          2|
-|pagecount                         |         0.0|         100.0|         71919|        977|
+|pagecount                         |         0.0|         100.0|         71919|        998|
 |gatherings.original               |         0.0|         100.0|         71919|         18|
 |obl.original                      |         0.0|         100.0|         71919|          2|
 |original_row                      |         0.0|         100.0|         71919|      71919|
