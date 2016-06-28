@@ -31,15 +31,18 @@ Visual summary of the estimated page counts per gatherings (shown only for the 1
 
 ## Document size comparisons
 
-  * Document size (area) info is available for 35109 documents (51%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](output.tables/physical_dimension_incomplete.csv)
+  * Some dimension info is provided in the original raw data for altogether 35328 documents (51.5%) but could not be interpreted for 4778 documents (ie. dimension info was successfully estimated for 86.5 % of the documents where this field was not empty).
 
-  * Some dimension info is provided in the original data for  35328 documents but could not be interpreted for 4778 documents (ie. dimension info was estimated for 86.5 % of the documents where this field was not empty).
+  * Document size (area) info was obtained in the final preprocessed data for altogether 35109 documents (51%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](output.tables/physical_dimension_incomplete.csv)
 
-  * Document gatherings info is originally available for 30550 documents (45%), and further estimated up to 30550 documents (45%).
+  * Document gatherings info is originally available for 30550 documents (45%), and further estimated up to 30550 documents (45%) in the final preprocessed data.
 
-  * Document height info is originally available for 4617 documents (7%), and further estimated up to 35109 documents (51%).
+  * Document height info is originally available for 4617 documents (7%), and further estimated up to 35109 documents (51%) in the final preprocessed data.
 
-  * Document width info is originally available for 2019 documents (3%), and further estimated up to 35109 documents (51%).
+  * Document width info is originally available for 2019 documents (3%), and further estimated up to 35109 documents (51%) in the final preprocessed data.
+
+
+These tables can be used to verify the accuracy of the conversions from the raw data to final estimates:
 
   * [Dimension conversions from raw data to final estimates](output.tables/conversions_physical_dimension.csv)
 
