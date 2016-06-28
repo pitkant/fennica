@@ -68,8 +68,6 @@ Estimates of document size (area) info in gatherings system are available for 68
 Left: Document dimension histogram (surface area). Few document sizes dominate publishing. Right: original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate.
 
 
-
-
 <img src="figure/size-size-pagecomp-1.png" title="plot of chunk size-pagecomp" alt="plot of chunk size-pagecomp" width="430px" /><img src="figure/size-size-pagecomp-2.png" title="plot of chunk size-pagecomp" alt="plot of chunk size-pagecomp" width="430px" />
 
 ### Gatherings timelines
