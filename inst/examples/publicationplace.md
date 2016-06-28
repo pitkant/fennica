@@ -7,7 +7,7 @@ output: markdown_document
 
 ### Publication places
 
- * 412 [publication places](output.tables/publication_place_accepted.csv)
+ * 411 [publication places](output.tables/publication_place_accepted.csv)
  * 34 [publication countries](output.tables/country_accepted.csv) 
  * Publication place is identified for 65662 documents (96%). 
  * Publication country is identified for 65649 documents (96%).

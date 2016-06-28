@@ -65,7 +65,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author                            |        33.2|          66.8|         45805|      12076|
 |publisher                         |        12.3|          87.7|         60128|       6615|
 |country                           |         4.2|          95.8|         65649|         34|
-|publication_place                 |         4.2|          95.8|         65662|        412|
+|publication_place                 |         4.2|          95.8|         65662|        411|
 |pagecount.orig                    |         2.3|          97.7|         67017|        999|
 |latitude                          |         1.2|          98.8|         67766|        333|
 |longitude                         |         1.2|          98.8|         67766|        333|
