@@ -26,6 +26,8 @@ These tables can be used to verify the accuracy of the conversions from the raw 
 
   * [Automated tests for dimension conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_dimension_polish.csv)
 
+
+
 The estimated dimensions are based on the following auxiliary information sheets:
 
   * [Document dimension abbreviations](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/document_size_abbreviations.csv)
@@ -38,12 +40,13 @@ The estimated dimensions are based on the following auxiliary information sheets
   
 <!--[Discarded dimension info](output.tables/dimensions_discarded.csv)-->
 
-Right: original gatherings versus original heights where both are available. The point size indicates the number of documents with the corresponding combination. The red dots indicate the estimated height that is used when only gathering information is available. It seems that in most documents, the given height is smaller than the correponding estimate. Left: Estimates of document size (area) info in gatherings system are available for 68561 documents (100%). Also compare gatherings and area sizes as a quality check. This includes all data; the area has been estimated from the gatherings when dimension information was not available. 
+Left: final gatherings vs. final document dimension (width x height). Right: original gatherings versus original heights where both are available. The point size indicates the number of documents for each case. The red dots indicate the estimated height that is used when only gathering information is available. 
+
 
 <img src="figure/dimension-summary-1.png" title="plot of chunk summary" alt="plot of chunk summary" width="430px" /><img src="figure/dimension-summary-2.png" title="plot of chunk summary" alt="plot of chunk summary" width="430px" />
 
 
-Left: Document dimension histogram (surface area). Few document sizes dominate publishing. Right: title count per gatherings.
+Left: Document dimension histogram (surface area). Right: title count per gatherings.
 
 <img src="figure/dimension-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="430px" /><img src="figure/dimension-sizes-2.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="430px" />
 
@@ -52,7 +55,7 @@ Left: Document dimension histogram (surface area). Few document sizes dominate p
 
 
 
-Gatherings with less than 15 documents in every decade are excluded:
+Popularity of different document sizes over time. Left: absolute title counts. Right: relative title counts. Gatherings with less than 15 documents at every decade are excluded:
 
 
 <img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
