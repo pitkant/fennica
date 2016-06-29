@@ -510,6 +510,14 @@ Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottav
 
 Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
 
+BOOKINFINLAND-TODO3: Sama kuin edellä, mutta asiasanat tässä:
+
+hautajaiset;häät;juhlamenot
+
+BOOKINFINLAND-TODO4: edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli:
+
+virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
+
 Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
 
 ### Book as media: development over time
