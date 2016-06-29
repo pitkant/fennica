@@ -59,7 +59,6 @@ Dresden	Germany	   20
 Duluth MN	USA	   42
 Edinburgh	Scotland	    1
 Elbingen	Germany	    1
-Ely	England	    1
 Ely Mi	USA	    1
 Erfurt	Germany	    2
 Erlangen	Germany	    1
@@ -74,7 +73,7 @@ Forssa	Finland	   10
 Frankfurt	Germany	   14
 Freiburg im Breisgau	Germany	    2
 Fürth	Germany	    2
-Gdańsk	NA	    1
+Gdańsk	Poland	    1
 Geneva	Switzerland	    2
 Gera	Germany	    1
 Gießen	Germany	    8
@@ -190,7 +189,7 @@ Kuortane	Finland	    4
 Kurkijoki	Finland	    1
 Kuusankoski	Finland	    1
 Kylmäkoski	Finland	    1
-Kymi	Finland	    1
+Kymenlaakso	NA	    1
 Kyrö	Finland	    1
 La Chapelle-Montligeon	France	    1
 Lahti	Finland	  160
@@ -220,7 +219,7 @@ Loimaa	Finland	    1
 Loimijoki	Finland	    1
 London	England	  169
 Loviisa	Finland	   29
-Lübeck	NA	   11
+Lübeck	Germany	   11
 Luleå	Sweden	    2
 Lund	Sweden	   51
 Maaninka	Finland	    1
@@ -335,7 +334,6 @@ Saarijärvi	Finland	    2
 Sairala	Finland	   12
 Säkkijärvi	Finland	    1
 Sakkola	Finland	    1
-Salmi	Finland	    1
 Salo	Finland	    8
 Sandstone Mi	USA	    1
 Sarvilahti	Finland	    1
@@ -350,7 +348,7 @@ Sipoo	Finland	    2
 Skara	Sweden	   28
 Smithville Mn	USA	    2
 Smolensk	Russia	    1
-Sortavala	Russia	  548
+Sortavala	Russia	  549
 St Louis Kaunti Mi	USA	    1
 St Petersburg	Russia	  628
 Stade	Germany	    1
@@ -433,4 +431,4 @@ York	England	    1
 Ypäjä	Finland	    2
 Żary	Poland	    2
 Zürich	Germany	    7
-NA	NA	 3109
+NA	NA	 3110
