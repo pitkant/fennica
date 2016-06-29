@@ -19,7 +19,7 @@ gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv", package =
 ignore.fields <- c("language2", "title_remainder", "physical_details", "physical_accomppanied", "note_general", "note_year") # Fennica
 
 # update.fields <- setdiff(names(df.preprocessed), "publisher")
-update.fields <- "publication_place"
+# update.fields <- "publication_place"
 
 # -------------------------------
 
