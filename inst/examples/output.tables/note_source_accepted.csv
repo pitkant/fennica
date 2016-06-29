@@ -1,18 +1,18 @@
 Name	Count
-Total count: 	11754
-Lidén,;Vallinkoski	2499
-Marklin,;Vallinkoski	1473
-Melander	 672
-Pipping,;Rämä	 367
+Total count: 	11557
+Lidén,;Vallinkoski	2497
+Marklin,;Vallinkoski	1472
+Melander	 671
+Pipping,;Rämä	 363
 Lidén,;Marklin,;Vallinkoski	 114
-Pipping	 114
 Vallinkoski II	  96
 Liden,;Vallinkoski	  94
 Leinberg	  82
 Vallinkoski	  67
 Collijn IV	  62
+Pipping	  61
 Stiernman,;Lidén,;Vallinkoski	  50
-Rämä	  49
+Rämä	  48
 Lidén,;Leinberg	  40
 Melander,;SKB	  37
 Bring 1958	  30
@@ -25,17 +25,16 @@ Lidén	  22
 Ei Melander	  19
 Elmgren I s. 127	  19
 Elmgren II	  19
-Marklin II	  18
 Lidén,;SKB,;Vallinkoski	  17
 Stiernman,;Melander	  16
 Marklin	  15
 Marklin II,;Vallinkoski	  15
 Lidén,;Stiernman,;Suomen kansallisbibliografia 1488-1700,;Vallinkoski	  14
-Marklin,;Pipping,;Vallinkoski	  14
 Collijn IV p. 1064	  13
 Kaarna & Winter 1005	  13
 Melander,;Suomen kansallisbibliografia 1488-1700	  13
 Lidén I,;Leinberg	  12
+Marklin,;Pipping,;Vallinkoski	  12
 Bring 1961	  11
 Kaarna & Winter 1225	  11
 Pipping,;Suomen almanakan juhlakirja,;Rämä	  11
@@ -44,7 +43,6 @@ Lidén,;Pipping,;Rämä,;Vallinkoski	  10
 Pipping,;Lidén,;Vallinkoski,;Rämä	  10
 Sainio	  10
 Stiernman,;Collijn IV,;Vallinkoski	  10
-Hultin I	   9
 Kaarna & Winter 1227	   9
 Lidén 113	   9
 Melander,;Rämä	   9
@@ -59,15 +57,13 @@ Collijn IV p. 312	   7
 Collijn IV p. 313	   7
 Elmgren II s. 8	   7
 Elmgren s. 55. - Collijn IV p. 1073	   7
-Hultin II	   7
 Lidén;Vallinkoski	   7
 Marklin;Vallinkoski	   7
-Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius	   7
-Bygdén I	   6
 Elmgren I s. 131	   6
 Leinberg,;Marklin	   6
 SKB,;Vallinkoski	   6
 Bygdén	   5
+Bygdén I	   5
 Collijn III,;Melander,;SKB	   5
 Collijn IV p. 1065	   5
 Elmgren I s. 123	   5
@@ -78,7 +74,6 @@ Leinberg,;Lidén	   5
 Lidén,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   5
 Marklin I,;Marklin II,;Vallinkoski	   5
 Marklin,;SKB,;Vallinkoski	   5
-Pipping,;Hultin I	   5
 Pipping,;Rämä,;Tuomas Ragvaldinpoika : hengellinen arkkivirsirunoilija / Pekka Raittila	   5
 Rämä 618/619. Lisä	   5
 Collijn II	   4
@@ -89,7 +84,6 @@ Collijn IV p. 273	   4
 Collijn IV p. 311	   4
 Collijn IV p. 314	   4
 Collijn IV p. 610	   4
-Collijn IV p. 763	   4
 Collijn IV,;Vallinkoski	   4
 Elmgren I s. 133	   4
 Elmgren I s. 136	   4
@@ -99,7 +93,6 @@ Elmgren II s. 14	   4
 Elmgren II s. 27	   4
 Elmgren II s. 30	   4
 Elmgren II s. 9	   4
-Estlander	   4
 Kallio s. 118	   4
 Lidén II,;Leinberg	   4
 Liden,;Marklin,;Vallinkoski	   4
@@ -127,6 +120,7 @@ Collijn IV p. 272	   3
 Collijn IV p. 274	   3
 Collijn IV p. 315	   3
 Collijn IV p. 451	   3
+Collijn IV p. 763	   3
 Collijn IV p. 837	   3
 Collijn IV,;Stiernman,;Vallinkoski	   3
 Collijn IV;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   3
@@ -141,17 +135,13 @@ Leinberg 193	   3
 Liden	   3
 Lidén I	   3
 Lidèn,;Vallinkoski,;SKB	   3
-Pipping,;Hultin II	   3
 Pipping,;Rämä,;SKB	   3
-Pipping;Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius;Suomen kirjalilijat 1809-1916	   3
-Rämä 357 c) z-ä	   3
 SAJ s. 311	   3
 SAJ s. 312	   3
 SAJ s. 313	   3
 Stiernman	   3
 Stiernman,;Collijn IV,;SKB	   3
 Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén	   3
-Svenskt boklexikon, åren 1830-1865 / Hjalmar Linnström	   3
 Vallinkoski,;SKB	   3
 Bring 1961 s. 101	   2
 Bring 1961 s. 151	   2
@@ -203,8 +193,6 @@ Elmgren II s. 16	   2
 Elmgren II s. 24	   2
 Elmgren II s. 29	   2
 Elmgren II s. 6	   2
-Hultin I,;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   2
-Katalog öfver den svenska litteraturen i Finland 1896-1900 / H. Bergroth	   2
 Lagus 12	   2
 Leinberg 194	   2
 Leinberg 197	   2
@@ -224,7 +212,6 @@ Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Stiernm
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   2
 Melander,;Stiernman	   2
 Melander.	   2
-Ofärdsårens politiska litteratur / Ernst Estlander	   2
 Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   2
 Pipping 1147. - Rämä 1147-1148	   2
 Pipping 1194 a. - Rämä 1194-1194 b	   2
@@ -251,10 +238,7 @@ Pipping,;Hultin I,;Rämä,;Suomen kansallisbibliografia 1488-1700	   2
 Pipping,;Rämä,;Ei Hultin	   2
 Pipping,;Rämä,;Hultin I	   2
 Pipping,;Rämä,;Hultin II	   2
-Pipping;Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius	   2
 Rämä [357 bb:1]	   2
-Rämä 357 c) p-q	   2
-Rämä 357 c) r-[s]	   2
 Rämä 578:1[:1]	   2
 Rämä,;Pipping	   2
 Recke-Napiersky 4, s. 357	   2
@@ -266,13 +250,10 @@ Stiernman,;Melander,;SKB	   2
 Stiernman,;Pipping,;Collijn IV,;Rämä	   2
 Stiernman,;Pipping,;Melander,;Rämä	   2
 Stiernman,;Pipping,;Rämä,;Rukoilevaisten kirjoja / Osmo Tiililä	   2
-Suomalainen kirjallisuus 1911-1915 / Simo Pakarinen	   2
 Suomalaiset ja inkeriläiset ylioppilaat Tarton ja Tarton-Pärnun yliopistossa v. 1632-1710 / A. R. Cederberg	   2
 Suomen aikakauslehdistön bibliografia 1782-1955 / Kurikka & Takkala	   2
-Suomen kirjailijat 1809-1916	   2
 ... Si quid in rebus humanis lacrimis & planctu prosequi decet, ... Serenissimus ille atque potentissimus princeps ac Dominus Carolus XI. ... Amor suorum atque deliciae, felicitas & gaudium integrum! ipse, inquam, proh fata! fatali falce dejectus jacet. ... Ubi crastina luce vir plurimum reverendus & clarissimus, Dn. Laurentius Molin, S. theol. licent. & prof. publ. ... vir celeberrimus, Dn. Michael Dau, eloq. utriusque prof., tertia vero die, quae erit Saturni, vir celeberrimus, Dn. Daniel Sarcovius, log. & metaph. prof. ord. ... hic ligata oratione, ... praeter hos vero vir juvenis pereximius atquq doctiss. Dn. Arvidus Mollerus, regiae in hac urbe scholae rector designatus, & nobiliss. juvenis, Henricus Johannes Freytag, nobilis Livonus, ... Dab. Dorpati, d. XXIV. Novemb. anno reparatae salutis, M. DC. XCVII. Gabriel Skragge, Orient. & Gr. ling. prof. h. tp. rect. acad.;Leinberg Or.,;Melander	   1
 [Pipping 604 f:1]	   1
-[Rämä 1453 b:3?]	   1
 Alopaeus, Magnus Jacob. Borgå gymnasii historia. IV,;Vallinkoski	   1
 Bibliogr.: Lidén 28	   1
 Bibliogr.: Qvigstad F. 3.??	   1
@@ -335,7 +316,6 @@ Bring 1958 91:1	   1
 Bring 1958 91:3	   1
 Bring 1958,;Bygdén II	   1
 Bring 1961 106-107	   1
-Bring 1961 s. 106	   1
 Bring 1961 s. 124	   1
 Bring 1961 s. 150	   1
 Bring 1961 s. 63	   1
@@ -600,7 +580,6 @@ Finlands botaniska litteratur till och med år 1900 / af Th. Saelan	   1
 Forfatterlexikon omfattende Danmark, Norge og Island tindtil 1814 / H. Ehrencron-Müller. Bd. VII. 1929	   1
 Göran Magnus Sprengtporten : XII / K. K. Tigerstedt	   1
 Hjelt s. 17	   1
-Hjelt s. 177	   1
 Hjelt s. 423	   1
 Hjelt s. 426	   1
 Hjelt s. 427	   1
@@ -608,8 +587,6 @@ Hjelt s. 457. - Collijn IV p. 108	   1
 Kallio	   1
 Kallio s. 265	   1
 Kallio s. 334	   1
-Katalog öfver den svenska literaturen i Finland 1891-1895 / Yrjö Hirn	   1
-Katalog öfver den svenska litteraturen i Finland 1906-1915 / Holger Nohrström	   1
 Ks. myös Bring 1958 362	   1
 Kurikka & Takkala 103	   1
 Lagus 14	   1
@@ -2429,7 +2406,6 @@ Melander,;SKB 11	   1
 Melander,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Melander,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
 Meyer 666	   1
-Ofärdsårens politiska litteratur : (ur 'Kagalens' arkiv II) / Ernst Estlander	   1
 Öfversigt af Finlands litteratur ifrån år 1542 till 1770 / Sven Gabriel Elmgren	   1
 Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
 Pipp. 1961. - Rämä 1954-1961	   1
@@ -2944,7 +2920,6 @@ Pipping 1420. - Rämä 1418-1425	   1
 Pipping 1421 b. - Rämä 1418-1425	   1
 Pipping 1422. - Rämä 1418-1425	   1
 Pipping 1424. - Rämä 1418-1425	   1
-Pipping 1425 a. - Rämä 1425 a	   1
 Pipping 1425 e. - Rämä 1418-1425	   1
 Pipping 1425. - Rämä 1418-1425	   1
 Pipping 1426. - SAJ s. 324. - Rämä 1426-1428	   1
@@ -3057,7 +3032,6 @@ Pipping 1518 c. - Rämä 1518 c-e	   1
 Pipping 1518 e. - Rämä 1518 c-e	   1
 Pipping 1518 g. - Rämä 1518 f-h	   1
 Pipping 1519. - Rämä 1519	   1
-Pipping 152. - Rämä 152. - SKB 2706	   1
 Pipping 1520 a. - Rämä 1520 a-1521 a	   1
 Pipping 1520 b. - Rämä 1520 a-1521 a	   1
 Pipping 1521 a. - Rämä 1520 a-1521 a	   1
@@ -3524,7 +3498,6 @@ Pipping 1954, - Vallinkoski II	   1
 Pipping 1956. - Rämä 1954-1961	   1
 Pipping 196. - Rämä 195-197	   1
 Pipping 1960. - Rämä 1954-1961	   1
-Pipping 1962. - Vasenius s. 88. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 238-239	   1
 Pipping 1963. - Rämä 1963	   1
 Pipping 197. - Rämä 195-197	   1
 Pipping 1974	   1
@@ -3587,15 +3560,12 @@ Pipping 238 a. - Elmgren I s. 102. - Rämä 238-242	   1
 Pipping 238. - Rämä 238-242	   1
 Pipping 239. - Rämä 238-242	   1
 Pipping 240. - Rämä 238-242	   1
-Pipping 2403 a	   1
-Pipping 2403 b, 3045	   1
 Pipping 241. - Rämä 238-242. - Suomen kansallisbibliografia 1488-1700, 515	   1
 Pipping 242. - Rämä 238-242	   1
 Pipping 243. - Collijn IV sp. 576-577. - Rämä 243	   1
 Pipping 244. - Rämä 244	   1
 Pipping 245. - Rämä 245	   1
 Pipping 246. - Rämä 246	   1
-Pipping 2498 a	   1
 Pipping 25. - Kilpi 29. - Collijn IV p. 389. - Rämä 25. - SKB 2014	   1
 Pipping 250 a. - Hultin I s. 68. - Rämä 250-254. - SKB 2023	   1
 Pipping 250. - Hultin I s. 68. - Rämä 250-254. - SKB 2022	   1
@@ -3617,12 +3587,10 @@ Pipping 266. - Rämä 264-266	   1
 Pipping 269 a. - Collijn IV p. 546. - Rämä 269 a	   1
 Pipping 269 b. - Collijn IV p. 546. - Rämä 269 b	   1
 Pipping 269. - Collijn IV p. 546. - Rämä 269	   1
-Pipping 2693 a. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 197	   1
 Pipping 27 a. - Collijn IV sp. 375. - Rämä 27 a	   1
 Pipping 27. - Collijn IV p. 375. - Rämä 27	   1
 Pipping 270. - Rämä 270-271	   1
 Pipping 272 a?. - Rämä 272 a?	   1
-Pipping 2725 b	   1
 Pipping 275. - Rämä 275	   1
 Pipping 277. - Rämä 276-277	   1
 Pipping 278. - Rämä 278	   1
@@ -3643,7 +3611,6 @@ Pipping 288 h. - Rämä 288 h	   1
 Pipping 288 i. - Rämä 288 i	   1
 Pipping 288, Pipping 288 a. - Rämä 288, Rämä 288 a	   1
 Pipping 289. - Hultin I s. 161. - Rämä 289. - SKB 2774	   1
-Pipping 2894. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 72	   1
 Pipping 29. - Collijn IV p. 702. - Rämä 29	   1
 Pipping 290. - Rämä 289-290	   1
 Pipping 291. - Rämä 291	   1
@@ -3667,8 +3634,6 @@ Pipping 313. - Melander 1362a. - Rämä 313	   1
 Pipping 314. - Rämä 314	   1
 Pipping 316. - Rämä 316-318	   1
 Pipping 317. - Rämä 316-318	   1
-Pipping 3175	   1
-Pipping 3175. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 72	   1
 Pipping 318. - Rämä 316-318	   1
 Pipping 319. - Hultin I s. 23. - Rämä 319. - SKB 845	   1
 Pipping 32. - Rämä 32	   1
@@ -3841,7 +3806,6 @@ Pipping 3955. - Rämä 3955	   1
 Pipping 3956 a. - Rämä 3956 a-c	   1
 Pipping 3956 b. - Rämä 3956 a-b	   1
 Pipping 3956. - Rämä 3956	   1
-Pipping 3957. - Rämä 3957	   1
 Pipping 3959	   1
 Pipping 396. - SAJ s. 309. - Rämä 396	   1
 Pipping 3964 c. - Rämä 3964 c-d	   1
@@ -3857,9 +3821,6 @@ Pipping 3965 c. - Rämä 3965 c	   1
 Pipping 3965 e. - Rämä 3965 e	   1
 Pipping 3965 f. - Rämä 3965 f-g	   1
 Pipping 3965 l. - Rämä 3965 l	   1
-Pipping 3965 m. - Rämä 3965 m	   1
-Pipping 3965 n. - Rämä 3965 n	   1
-Pipping 3965. - Rämä 3965	   1
 Pipping 3966 a. - Rämä 3966-3966 b	   1
 Pipping 3966 b. - Rämä 3966-3966 b	   1
 Pipping 3966 c. - Rämä 3966 c	   1
@@ -3950,7 +3911,6 @@ Pipping 470. - Rämä 470-470 a	   1
 Pipping 471. - Rämä 471	   1
 Pipping 473. - Rämä 473	   1
 Pipping 474, Pipping 500. - Rämä 474, Rämä 500	   1
-Pipping 474. - Rämä 474	   1
 Pipping 477. - Rämä 477-478	   1
 Pipping 478. - Rämä 477-478	   1
 Pipping 479. - SAJ s. 314. - Rämä 479	   1
@@ -4125,7 +4085,6 @@ Pipping 594 h. - Rämä 594 h-i	   1
 Pipping 594 i. - Rämä 594 h-i	   1
 Pipping 594 k. - Rämä 594 k-m	   1
 Pipping 594 l. - Rämä 594 k-m	   1
-Pipping 594 m. - Rämä 594 k-m	   1
 Pipping 595. - Rämä 595	   1
 Pipping 596. - SAJ s. 316. - Rämä 596	   1
 Pipping 597. - Rämä 597	   1
@@ -4288,7 +4247,6 @@ Pipping 705 c ja 972 b. - Rämä 705 c ja 972 b	   1
 Pipping 705?ja Pipping 972 a. - Rämä 705? ja Rämä 972 a	   1
 Pipping 705. - Rämä 704-705	   1
 Pipping 707. - Rämä 707	   1
-Pipping 708 [e:1]. - Hultin I s. 109 ja s. 34. - Rämä 708 [e:1]	   1
 Pipping 709 d. - Rämä 709 d	   1
 Pipping 709 e. - Rämä 709 e	   1
 Pipping 709 g. - Rämä 709 g	   1
@@ -4306,7 +4264,6 @@ Pipping 711 b. - Rämä 711 a-b	   1
 Pipping 711 c. - Rämä 711 c	   1
 Pipping 711. - Rämä 711	   1
 Pipping 712 b. - Rämä 712 b	   1
-Pipping 712 d. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 54	   1
 Pipping 712. - Rämä 712	   1
 Pipping 713. - SAJ s. 319. - Rämä 713-730	   1
 Pipping 714. - Rämä 713-730	   1
@@ -4552,7 +4509,6 @@ Pipping 952. - Rämä 949-956	   1
 Pipping 953. - Rämä 949-956	   1
 Pipping 954. - Rämä 949-956	   1
 Pipping 955. - Rämä 949-956	   1
-Pipping 957 c.	   1
 Pipping 958. - SAJ s. 321. - Rämä 958-964	   1
 Pipping 959. - Rämä 958-964	   1
 Pipping 96. - Rämä 95-99	   1
@@ -4607,9 +4563,7 @@ Pipping,;Bygdén II,;Rukoilevaisten kirjoja / Osmo Tiililä	   1
 Pipping,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Pipping,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700,;Virittäjä 1968	   1
 Pipping,;Elmgren II,;Rämä	   1
-Pipping,;Hultin I,;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   1
-Pipping,;Hultin I,;Kirjallinen kuukauslehti. 1868 : 7	   1
-Pipping,;Hultin III	   1
+Pipping,;Hultin II	   1
 Pipping,;Lidén,;Vallinkoski	   1
 Pipping,;Melander,;Rämä,;Vasenius,;SKB	   1
 Pipping,;Rämä 472	   1
@@ -4622,14 +4576,11 @@ Pipping,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Pipping,;Rämä,;Tiililä, Osmo. Rukoilevaisten kirjoja	   1
 Pipping,;Rämä,;Vallinkoski II	   1
 Pipping,;Rukoilevaisten kirjoja / Osmo Tiililä	   1
-Pipping,;Suomalainen Raamattumme / A. F. Puukko	   1
 Pipping,;Vallinkoski	   1
 Pipping,;Vasenius;Kilpi,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Pipping;Collijn IV;Rämä;Suomen kansallisbibliografia 1488-1700	   1
-Pipping;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Laine ja Anna Perälä	   1
 Pipping;Rämä;Collijn IV;Kilpi;Suomen kansallisbibliografia 1488-1700	   1
 Pipping;Rämä;Rukoilevaisten kirjoja / Osmo Tiililä	   1
-Pipping;Rukoilevaisten kirjoja / Osmo Tiililä	   1
 Pipping. 1331 g. - Rämä 1331 g	   1
 Pipping. 4058. - Rämä 4058	   1
 Priv.: A. Carlbohm;Pipping 1177. - Rämä 1171-1188	   1
@@ -4664,7 +4615,6 @@ Rämä [142:1.]	   1
 Rämä [1434 a]	   1
 Rämä [1434 b]	   1
 Rämä [1434 e]	   1
-Rämä [1453 b:2]	   1
 Rämä [1488:1]	   1
 Rämä [1503:1]	   1
 Rämä [1518 b:2]	   1
@@ -4688,9 +4638,7 @@ Rämä [388 e:1]	   1
 Rämä [388 e:1/e:2]	   1
 Rämä [3964 f:2]	   1
 Rämä [3965 c:1]	   1
-Rämä [3965:1]	   1
 Rämä [3965:2], [3965:3]	   1
-Rämä [447 c:2]	   1
 Rämä [447 t:1]	   1
 Rämä [447 u:1]	   1
 Rämä [447:1]	   1
@@ -4740,24 +4688,13 @@ Rämä 1764 [a]	   1
 Rämä 1789/1790. Lisä	   1
 Rämä 1790/1791. Lisä	   1
 Rämä 1790/1791. Lisä: 2	   1
-Rämä 1790/1791. Lisä: 3	   1
 Rämä 1887 a/1888. Lisä	   1
-Rämä 247/248. Lisä	   1
 Rämä 291/292. Lisä	   1
 Rämä 338/339. Lisä	   1
 Rämä 35/36. Lisä	   1
 Rämä 357 c:y	   1
 Rämä 357 c) i	   1
 Rämä 357 c) k	   1
-Rämä 357 c) l	   1
-Rämä 357 c) m	   1
-Rämä 357 c) n	   1
-Rämä 357 c) o	   1
-Rämä 357 c) s	   1
-Rämä 357 c) t	   1
-Rämä 357 c) v-w	   1
-Rämä 357 c) w:1	   1
-Rämä 357 c) x	   1
 Rämä 435/436. Lisä	   1
 Rämä 447 [r:1]	   1
 Rämä 517/518 Lisä	   1
@@ -4797,7 +4734,6 @@ SAJ s. 308	   1
 SAJ s. 314	   1
 SAJ s. 329. - Rämä [1886:1]	   1
 SAJ s. 330	   1
-Salanimet ja nimimerkit / Maija Hirvonen	   1
 Samtida skrifter rörande Sveriges förhållanden till fremmande magter,;Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén	   1
 Schefferus, Svedia literata s. 319. - Pipping 143. - Rämä 143	   1
 SKB	   1
@@ -4805,7 +4741,6 @@ SKB 142	   1
 SKB 155	   1
 SKB 156	   1
 SKB 157	   1
-SKB 1740	   1
 SKB 2410	   1
 SKB 2411. - Melander 936 a	   1
 SKB 2412. - Melander 936 b	   1
@@ -4878,7 +4813,6 @@ Stiernman s. 64:4. - Collijn IV p. 618	   1
 Stiernman s. 64. - Melander 476	   1
 Stiernman s. 64. - Melander 580	   1
 Stiernman s. 64. - Pipping 107. - Melander 480. - Rämä 106-109	   1
-Stiernman s. 65, n:o 2. - Pipping 202 i. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 32.	   1
 Stiernman s. 65. - Collijn IV p. 911. - SKB 3721	   1
 Stiernman s. 65. - Melander 1042	   1
 Stiernman s. 66, 68. - Melander 495	   1
@@ -4967,19 +4901,15 @@ Stiernman;Collijn IV;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman;Melander;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman;Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
-Suomalainen kirjallisuus 1544-1877	   1
-Suomalainen kirjallisuus 1886-1891 / Valfrid Vasenius	   1
 Suomen almanakan juhlakirja	   1
 Suomen almanakan juhlakirja,;Rämä	   1
 Suomen kansallisbibliografia 1488-1700	   1
 Suomen kansallisbibliografia 1488-1700, 490	   1
 Suomen kansallisbibliografia 1488-1700, 501	   1
-Suomen lainopillinen kirjallisuus 1809-1948	   1
 Suomi 1844,;Leinberg,;SKB	   1
 Svenska kopparstickare och etsare 1500-1944 / Emil Hultmark,;Gardberg II	   1
 Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén,;Öfversigt af Finlands litteratur ifrån år 1771 till 1865 / Sven Gabriel Elmgren,;Bring	   1
 Svenskt boklexikon 1700-1829 : rättegångshandlingar / Samuel E. Bring	   1
-Svenskt boklexikon. Åren 1830-1865	   1
 Tn. Pipping 165 b; mahdollisesti sama kuin Pipping 273. - Rämä 165 b ja 273	   1
 Uutta vanhaa fennicaa Åminnen kartanossa / Sirkka Havu. Helsingin yliopiston kirjaston tiedotuslehti ; 2002 : 2	   1
 Vallinkoski 176 ff	   1
@@ -4999,6 +4929,5 @@ Vrt. Bring 1958 770:2, 770:3	   1
 Vrt. Bring 1961 s. 64-65	   1
 vrt. Pipping 1431 d-e.	   1
 vrt. Pipping 1453 h.;Rukoilevaisten kirjoja / Osmo Tiililä	   1
-vrt. Pipping 1764 b;Rukoilevaisten kirjoja / Osmo Tiililä	   1
 vrt. Pipping 358 h-i.	   1
 Warmholtz,;Melander	   1
