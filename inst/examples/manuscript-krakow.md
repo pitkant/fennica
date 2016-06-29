@@ -177,6 +177,16 @@ AJATUKSIA: Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden
 
 PUBLISHER-TODO (jos ehtii): Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia). \[OK monenlaista voidaan tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?\]
 
+PUBLISHER TODO (jos ehtii):
+
+Kaaviot kustantajien määrästä per kaupunki. Keskittyisin täässä Tukholmaan, Lundiin, Uppsalaan, Greifswaldiin ja Turkuun. Parhaimmillaan tämä voitaisiin suhteuttaa paperinkulutukseen, mutta julkaisujen määrät on varmaan helpompi. Tavallaan tämä tieto on jo noissa kaavioissa, mutta voidaanko siis selvittää vuosittain kuinka monta eri kustantajaa on julkaissut jotain sinä vuonna yhdellä paikkakunnalla. Hankaluutena tässä on, kustantajien nimien muutokset yms ja suhteet, mutta tuskin ne ovat julkaisseet yhden vuden aikana eri nimillä kovinkaan. Eli: ei tarvitse identifioida kustantajia, pelkästään laskea kuinka monta eri kustantajaa joka vuonna on. Toimiiko tämä?
+
+Tämän voi sitten kytkeä erilaisiin media diversity keskusteluihin, joista on julkaistu kilometreittäin materiaalia.
+
+Jos noissa on jotain merkittävää, pitäisi myös verrata kaupunkin väkimäärään. Tukholman väkimäärät löytyvät täältä vuosikymmenittäin löytyy vuodesta 1720 täältä: ”Historisk statistik för Sverige: I. Befolkning 1720-1950”. Kaivan esille kyseisen teoksen kunhan pääseen kirjastoon, mutta tämä ei nyt varmaankaan ole akuutein juttu.
+
+Turun osalta Wikipedia käyttää lähteenä: Laaksonen, Hannu: ”Turkulaiset 1500-luvulla”, Turun historiaa kahdeksalta vuosisadalta, s. 41–42. Turku: Turun historiallinen yhdistys ja Turun historiallinen arkisto, 2007. ISBN 978-952-99637-3-7. JA Laaksonen, Hannu: ”Raskaat vuodet 1700-luvun alussa”, Turun historiaa kahdeksalta vuosisadalta, s. 70–73. Turku: Turun historiallinen yhdistys ja Turun historiallinen arkisto, 2007. ISBN 978-952-99637-3-7. 
+
 ### University publishing
 
 Yliopistojulkaisuista mahd. pian yleiset tilastolliset näkymät ja voidaan sitten arvioida onko joku mahdollisesti pahastikin vielä pielessä esim. väitöskirjoiksi Kungligan osalta luokiteltavissa aineistoissa.
