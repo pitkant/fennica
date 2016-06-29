@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-28"
+date: "2016-06-29"
 output: markdown_document
 ---
 
@@ -65,10 +65,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author                            |        36.3|          63.7|         45806|      12076|
 |publisher                         |        12.3|          87.7|         63065|       7299|
 |pagecount.orig                    |         6.8|          93.2|         67048|        978|
-|country                           |         4.3|          95.7|         68797|         34|
-|publication_place                 |         4.3|          95.7|         68810|        434|
-|latitude                          |         1.2|          98.8|         71046|        347|
-|longitude                         |         1.2|          98.8|         71046|        347|
+|country                           |         4.3|          95.7|         68807|         34|
+|publication_place                 |         4.3|          95.7|         68809|        432|
+|latitude                          |         1.2|          98.8|         71047|        346|
+|longitude                         |         1.2|          98.8|         71047|        346|
 |language                          |         1.0|          99.0|         71186|        259|
 |publication_year_from             |         1.0|          99.0|         71235|        357|
 |publication_year                  |         0.9|          99.1|         71254|        357|

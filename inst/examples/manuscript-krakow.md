@@ -6,6 +6,20 @@
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ========================================================================================
 
+TODO-järjestyksestä:
+
+Tärkein ASAP tehtävä on \#\#Publisher analysis
+
+Selvensin alle (\#\#Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista.
+
+Lisäksi tuolla on paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
+
+Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla:
+
+### Book printing in Finland - kohdasta BOOKINFINLAND-TODO1 ja BOOKINFINLAND-TODO2.
+
+Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja sitten kun julkaisijakenttä tsekattu varmasti loppuun, niin sitten heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+
 Introduction
 ------------
 
@@ -49,18 +63,6 @@ Why Fennica has huge drop in 1700s? Do some publisher disappear (TODO)? Let us l
 The drop in Fennica is explained largely by Great Nortern War (1700-1721). The war and difficult times seems to hit Turku particularly hard in early eighteenth century. What is telling also is that the curve of overall publishing activity in Kungliga is much steeper in eighteenth century compared to Fennica also in the second half of the century. This is the Enlightenment’s rising trend of knowledge production in most of Europe (for example ESTC has a similar development with Kungliga). Thus, development of publishing in Finland is much slower compared to larger European centers in the eighteenth century – this is an important context for the even further difficulties that follow after 1828.
 
 TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
-
-TODO: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
-
-virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat
-
-Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
-
-Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (suomi vs. ruotsi). ko. analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys.
-
-Muutenkin, näitä suomi vs. ruotsinkieli kysymyksiä kannattaa yrittää toteuttaa.
-
-TODO: yleinen vertailu suomen-, ruotsin- ja muun kielisestä materiaalista Fennicassa aikajanalla.
 
 ### General trends: Fennica vs. Kungliga
 
@@ -111,6 +113,18 @@ Kungliga publications outside Sweden and Finland.
 
 mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin vähäistä tarkastellulla ajanjaksolla.
 
+BOOKINFINLAND-TODO1: Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen. Tarkoituksena tarkkailla miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.). Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva. Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
+
+BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
+
+virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat
+
+Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys (sitten kun mahdollista).
+
+Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
+
+Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
+
 ### Book as media: development over time
 
 Paper consumption per document in the top publication places. Note that paper consumption estimates have still problems so take this with reservations. Are there time periods with remarkable changes in paper consumption per document (meaning that small or large volumes suddenly become more frequent) ?
@@ -141,15 +155,17 @@ Paper consumption in selected places (Fennica):
 
 Puhutaan julkaisijatoiminnan kehityksestä ikään kuin luonnollisena kehityksenä - eli yhteys luonnonilmiöiden kehitykseen säilyisi.
 
-Pystytäänkö julkaisemiseen liittyvästä Fennica-datasta erottelemaan selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus julkaisijat: Miten uusia julkaisijoita tulee julkaisijakenttään Suomessa ja katoaa. Pääpaino erityisesti sillä kun julkaisijakartalle tulee uusia toimijoita! \[TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA TAI STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA\]
+PUBLISHER-TODO1: Fennica-datasta pyritään erottamaan selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus julkaisijat: 1) Miten uusia julkaisijoita tulee eri paikkakunnille Suomessa ja aikaisempia julkaisijoita katoaa? Pääpaino erityisesti sillä kun julkaisijakartalle tulee uusia toimijoita (eli uudet paikkakunnat). Ideana että julkaisijan nimi ei tässä ole tärkeää, vaan se että milloin uusia julkaisijoita tulee ja milloin aikaisempia häviää. Lisäksi suuremmat pudotukset tärkeitä (vrt. Turku julkaisumäärät yleensä 1700-luvun alku) \[TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA TAI STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA\]
 
-Toimijoita voisi myös yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Vertailua suurimpien julkaisijoiden kesken.
+Ylläolevalla analyysillä pyritään vastaamaan myös tähän: “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
 
-Analyysia voisi tästä tehdä sitten näiden luokkien kehityksen mukaan. “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tämä hypoteesi voidaan todentaa/tarkistaa/korjata kun mukana on paperinkulutus!
+PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja.
 
-Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden: julkaisutoiminnan leviäminen ja kasvu ajassa eri paikkakunnilla. Paperinkulutus voi osoittautua hyväksi työvälineeksi erityisesti kun tiedetään, että toiset isot julkaisijat julkaisivat esim. jotain asetuskokoelmia yksittäin ja toiset taas ryppäinä. Eli julkaisijoiden sisällä erottelua eri tyyppisten julkaisujen suhteen pitää tehdä.
+PUBLISHER-TODO(jos ehtii): Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
 
-Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia). \[OK monenlaista voidaan tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?\]
+AJATUKSIA: Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden: julkaisutoiminnan leviäminen ja kasvu ajassa eri paikkakunnilla. Paperinkulutus voi osoittautua hyväksi työvälineeksi erityisesti kun tiedetään, että toiset isot julkaisijat julkaisivat esim. jotain asetuskokoelmia yksittäin ja toiset taas ryppäinä. Eli julkaisijoiden sisällä erottelua eri tyyppisten julkaisujen suhteen pitää tehdä.
+
+PUBLISHER-TODO (jos ehtii): Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia). \[OK monenlaista voidaan tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?\]
 
 ### University publishing
 
