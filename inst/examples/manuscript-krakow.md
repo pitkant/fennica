@@ -10,7 +10,7 @@ TODO-järjestyksestä:
 
 Tärkein ASAP tehtävä on \#\#Publisher analysis
 
-Selvensin alle (\#\#Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2 ja jos mahdollista myös muut PUBLISHER-TODO-ehdotukset. Aloitetaan näiden työstäminen niin pian kuin mahdollista.
+Selvensin alle (\#\#Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista.
 
 Lisäksi tuolla on paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
 
@@ -18,6 +18,7 @@ Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää
 
 ### Book printing in Finland - kohdasta BOOKINFINLAND-TODO1 ja BOOKINFINLAND-TODO2.
 
+Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja sitten kun julkaisijakenttä tsekattu varmasti loppuun, niin sitten heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
 Introduction
 ------------
