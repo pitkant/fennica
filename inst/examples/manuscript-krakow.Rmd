@@ -44,10 +44,10 @@ max.year = 1828
 
 # Read data
 fen <- readRDS("df.Rds")
-kun <- readRDS("../../../kungliga/antagomir/df.Rds")
+kun <- readRDS("../../../kungliga/df.Rds")
 
 fenraw <- readRDS("df.raw.Rds")
-kunraw <- readRDS("../../../kungliga/antagomir/df.raw.Rds")
+kunraw <- readRDS("../../../kungliga/df.raw.Rds")
 
 fen <- fen %>% filter(publication_year >= min.year & publication_year <= max.year)
 kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.year)

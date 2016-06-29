@@ -7,11 +7,11 @@ output: markdown_document
 
 ### Publication places
 
- * 432 [publication places](output.tables/publication_place_accepted.csv)
- * 34 [publication countries](output.tables/country_accepted.csv) 
- * Publication place is identified for 68809 documents (96%). 
- * Publication country is identified for 68807 documents (96%).
- * 98.8% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.21``% of the documents have missing geocoordinates.
+ * 478 [publication places](output.tables/publication_place_accepted.csv)
+ * 33 [publication countries](output.tables/country_accepted.csv) 
+ * Publication place is identified for 68810 documents (96%). 
+ * Publication country is identified for 67952 documents (94%).
+ * 97.6% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``2.36``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first)
@@ -30,10 +30,10 @@ Top-20 publication places are shown together with the number of documents.
 
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
-|Finland |         58326|         81.1|
-|Sweden  |          5100|          7.1|
-|Russia  |          2552|          3.5|
+|Finland |         57690|         80.2|
+|Sweden  |          5079|          7.1|
+|Russia  |          2523|          3.5|
 |USA     |           870|          1.2|
-|Germany |           775|          1.1|
+|Germany |           715|          1.0|
 |Estonia |           287|          0.4|
 

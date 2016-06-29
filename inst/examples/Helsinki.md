@@ -13,7 +13,7 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'published_in'
+## Error in eval(expr, envir, enclos): unknown variable to group by : published_in
 ```
 
 ```

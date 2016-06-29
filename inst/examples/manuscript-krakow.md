@@ -45,8 +45,6 @@ Vieraskielinen kirjallisuus Suomessa Ruotsin vallan aikana.
 
 Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth century? A history of reading in the west. Cambridge, 2003.
 
-Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
-
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
@@ -125,15 +123,15 @@ Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottav
 
 Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
+BOOKINFINLAND-TODO3: Sama kuin edellä, mutta asiasanat tässä:
+
+hautajaiset;häät;juhlamenot
+
+BOOKINFINLAND-TODO4: edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli:
+
+virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
+
 Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
-
-BOOKINFINLAND-TODO3
-
-Kielikohtainen vertailu myös lääketieteen osalta. Ajatuksena tässä on, että hartauskirjallisuutta on hyvä verrata tiedejulkaisemiseen. 1800-luvun jukisuuteen kuuluu vahvasti tarina kansallisista tieteista (historia, suomen kieli, folkloristiikka jne), ja niissä suomenkielen nusu on aika hyvin selvitetty juttu. Sama koskee tiedejulkaisemista, mutta siinä argumentit olivat erilaiset. Tästä on Katja Huumon väitöskirja ”Perkeleen kieli”, jossa käydään laadullisen tutkimuksen kautta tieteen kielikiistoja 1800-luvulla. Ajattelen, että lääketieteen osalta asiasanat ovat ehkä kaikkein luotettavimmat, joten voisi tarkastella lääketiedettä ja verrata siihen hartauskirjallisuuteen. Hartauskirjallisuuden osaltahan pyrkimys suomeksi julkaisemiseen oli kovin vahva koska se tieto oli kansalle tärkeää. Lääketieteellinenkin tieto kansallistettiin, mutta myöhemmin.
-
-Eli: Fennicasta kaikki kirjallisuus, jossa asiasana lääketiede (muut lääkeaiheiset eivät välttämättä kuulu tähän, noita on muuten kummallisen vähän). Tätä pitää jatkaa mielellään vuoteen 1900 asti, tai ainakin yhtää pitkälle kuin hartauskirjojakin.
-
-Myös kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla.
 
 ### Book as media: development over time
 
@@ -176,16 +174,6 @@ PUBLISHER-TODO(jos ehtii): Fennican julkaisijoita voisi myös laajemmin yrittä�
 AJATUKSIA: Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden: julkaisutoiminnan leviäminen ja kasvu ajassa eri paikkakunnilla. Paperinkulutus voi osoittautua hyväksi työvälineeksi erityisesti kun tiedetään, että toiset isot julkaisijat julkaisivat esim. jotain asetuskokoelmia yksittäin ja toiset taas ryppäinä. Eli julkaisijoiden sisällä erottelua eri tyyppisten julkaisujen suhteen pitää tehdä.
 
 PUBLISHER-TODO (jos ehtii): Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia). \[OK monenlaista voidaan tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?\]
-
-PUBLISHER TODO (jos ehtii):
-
-Kaaviot kustantajien määrästä per kaupunki. Keskittyisin täässä Tukholmaan, Lundiin, Uppsalaan, Greifswaldiin ja Turkuun. Parhaimmillaan tämä voitaisiin suhteuttaa paperinkulutukseen, mutta julkaisujen määrät on varmaan helpompi. Tavallaan tämä tieto on jo noissa kaavioissa, mutta voidaanko siis selvittää vuosittain kuinka monta eri kustantajaa on julkaissut jotain sinä vuonna yhdellä paikkakunnalla. Hankaluutena tässä on, kustantajien nimien muutokset yms ja suhteet, mutta tuskin ne ovat julkaisseet yhden vuden aikana eri nimillä kovinkaan. Eli: ei tarvitse identifioida kustantajia, pelkästään laskea kuinka monta eri kustantajaa joka vuonna on. Toimiiko tämä?
-
-Tämän voi sitten kytkeä erilaisiin media diversity keskusteluihin, joista on julkaistu kilometreittäin materiaalia.
-
-Jos noissa on jotain merkittävää, pitäisi myös verrata kaupunkin väkimäärään. Tukholman väkimäärät löytyvät täältä vuosikymmenittäin löytyy vuodesta 1720 täältä: ”Historisk statistik för Sverige: I. Befolkning 1720-1950”. Kaivan esille kyseisen teoksen kunhan pääseen kirjastoon, mutta tämä ei nyt varmaankaan ole akuutein juttu.
-
-Turun osalta Wikipedia käyttää lähteenä: Laaksonen, Hannu: ”Turkulaiset 1500-luvulla”, Turun historiaa kahdeksalta vuosisadalta, s. 41–42. Turku: Turun historiallinen yhdistys ja Turun historiallinen arkisto, 2007. ISBN 978-952-99637-3-7. JA Laaksonen, Hannu: ”Raskaat vuodet 1700-luvun alussa”, Turun historiaa kahdeksalta vuosisadalta, s. 70–73. Turku: Turun historiallinen yhdistys ja Turun historiallinen arkisto, 2007. ISBN 978-952-99637-3-7. 
 
 ### University publishing
 
@@ -279,7 +267,7 @@ A brief summary of the data processing steps:
 
 **Enriching** to add gender, country, geocoordinates ..
 
-The package utilizes tools from a number of other R extensions, including dplyr (Wickham and Francois, 2015), ggplot2 (Wickham, 2009), stats (R Core Team, 2016), tidyr (Wickham, 2016).
+The package utilizes tools from a number of other R extensions, including dplyr (Wickham and Francois, 2016), ggplot2 (Wickham, 2009), stats (R Core Team, 2016), tidyr (Wickham, 2016).
 
 ### Acknowledgements
 
@@ -298,11 +286,11 @@ References
 
 \[4\] M. Tolonen and L. Lahti. "Aatehistoria ja digitaalisten aineistojen mahdollisuudet". In: *Ennen & Nyt 2* 2 (Aug. 2015). &lt;URL: <http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet>&gt;.
 
-\[5\] H. Wickham and R. Francois. *dplyr: A Grammar of Data Manipulation*. R package version 0.4.3. 2015. &lt;URL: <https://CRAN.R-project.org/package=dplyr>&gt;.
+\[5\] R Core Team. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing. Vienna, Austria, 2016. <URL: https://www.R-project.org/>.
 
-\[6\] R Core Team. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing. Vienna, Austria, 2016. <URL: https://www.R-project.org/>.
+\[6\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.5.1. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
 
-\[7\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.4.1. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
+\[7\] H. Wickham and R. Francois. *dplyr: A Grammar of Data Manipulation*. R package version 0.5.0. 2016. &lt;URL: <https://CRAN.R-project.org/package=dplyr>&gt;.
 
 Miscellaneous ideas to consider
 -------------------------------
@@ -338,42 +326,41 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    stringr_1.0.0        
-    ##  [4] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
-    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.4.1          
-    ## [10] fennica_0.1.42        ggplot2_2.1.0         magrittr_1.5         
-    ## [13] sorvi_0.7.46          tibble_1.0            dplyr_0.4.3          
-    ## [16] bibliographica_0.2.24 devtools_1.11.1      
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    sorvi_0.7.46         
+    ##  [4] tibble_1.0            fennica_0.1.42        stringr_1.0.0        
+    ##  [7] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
+    ## [10] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
+    ## [13] bibliographica_0.2.24 dplyr_0.5.0           tidyr_0.5.1          
+    ## [16] ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
-    ##  [4] lubridate_1.5.6       httr_1.1.0            doParallel_1.0.10    
+    ##  [4] lubridate_1.5.6       httr_1.2.0            doParallel_1.0.10    
     ##  [7] RColorBrewer_1.1-2    dynamicTreeCut_1.63-1 tools_3.3.0          
-    ## [10] R6_2.1.2              vegan_2.3-5           rpart_4.1-10         
-    ## [13] Hmisc_3.17-4          DBI_0.4-1             lazyeval_0.1.10      
+    ## [10] R6_2.1.2              vegan_2.4-0           rpart_4.1-10         
+    ## [13] Hmisc_3.17-4          DBI_0.4-1             lazyeval_0.2.0       
     ## [16] BiocGenerics_0.18.0   mgcv_1.8-12           colorspace_1.2-6     
     ## [19] permute_0.9-0         ade4_1.7-4            nnet_7.3-12          
-    ## [22] withr_1.0.1           moments_0.14          preprocessCore_1.34.0
-    ## [25] chron_2.3-47          WGCNA_1.51            Biobase_2.32.0       
-    ## [28] formatR_1.4           Cairo_1.5-9           NLP_0.1-9            
-    ## [31] labeling_0.3          slam_0.1-34           scales_0.4.0         
-    ## [34] tm_0.6-2              tgp_2.4-14            digest_0.6.9         
-    ## [37] foreign_0.8-66        stringdist_0.9.4.1    XVector_0.12.0       
-    ## [40] htmltools_0.3.5       bibtex_0.4.0          highr_0.6            
-    ## [43] RSQLite_1.0.0         impute_1.46.0         jsonlite_0.9.21      
-    ## [46] acepack_1.3-3.3       RCurl_1.95-4.8        GO.db_3.3.0          
-    ## [49] Formula_1.2-1         biomformat_1.0.2      Matrix_1.2-6         
-    ## [52] maptree_1.4-7         Rcpp_0.12.5           munsell_0.4.3        
-    ## [55] S4Vectors_0.10.1      RefManageR_0.10.13    ape_3.5              
-    ## [58] yaml_2.1.13           stringi_1.1.1         RJSONIO_1.3-0        
-    ## [61] MASS_7.3-45           zlibbioc_1.18.0       rhdf5_2.16.0         
-    ## [64] plyr_1.8.4            grid_3.3.0            parallel_3.3.0       
-    ## [67] gender_0.5.1.9000     crayon_1.3.1          lattice_0.20-33      
-    ## [70] Biostrings_2.40.1     splines_3.3.0         multtest_2.28.0      
-    ## [73] igraph_1.0.1          fastcluster_1.1.20    codetools_0.2-14     
-    ## [76] stats4_3.3.0          XML_3.98-1.4          babynames_0.2.1.9000 
-    ## [79] evaluate_0.9          latticeExtra_0.6-28   data.table_1.9.6     
-    ## [82] foreach_1.4.3         testthat_1.0.2        gtable_0.2.0         
-    ## [85] assertthat_0.1        roxygen2_5.0.1        survival_2.39-4      
-    ## [88] genderdata_0.5.0      iterators_1.0.8       AnnotationDbi_1.34.3 
-    ## [91] memoise_1.0.0         IRanges_2.6.0         cluster_2.0.4
+    ## [22] moments_0.14          preprocessCore_1.34.0 chron_2.3-47         
+    ## [25] WGCNA_1.51            Biobase_2.32.0        formatR_1.4          
+    ## [28] Cairo_1.5-9           NLP_0.1-9             labeling_0.3         
+    ## [31] slam_0.1-35           scales_0.4.0          tm_0.6-2             
+    ## [34] tgp_2.4-14            digest_0.6.9          foreign_0.8-66       
+    ## [37] stringdist_0.9.4.1    XVector_0.12.0        htmltools_0.3.5      
+    ## [40] bibtex_0.4.0          highr_0.6             RSQLite_1.0.0        
+    ## [43] impute_1.46.0         jsonlite_0.9.22       acepack_1.3-3.3      
+    ## [46] RCurl_1.95-4.8        GO.db_3.3.0           Formula_1.2-1        
+    ## [49] biomformat_1.0.2      Matrix_1.2-6          Rcpp_0.12.5          
+    ## [52] munsell_0.4.3         S4Vectors_0.10.1      maptree_1.4-7        
+    ## [55] RefManageR_0.10.13    ape_3.5               stringi_1.1.1        
+    ## [58] yaml_2.1.13           RJSONIO_1.3-0         MASS_7.3-45          
+    ## [61] zlibbioc_1.18.0       rhdf5_2.16.0          plyr_1.8.4           
+    ## [64] grid_3.3.0            parallel_3.3.0        gender_0.5.1.9000    
+    ## [67] lattice_0.20-33       Biostrings_2.40.2     splines_3.3.0        
+    ## [70] multtest_2.28.0       igraph_1.0.1          fastcluster_1.1.20   
+    ## [73] codetools_0.2-14      stats4_3.3.0          XML_3.98-1.4         
+    ## [76] babynames_0.2.1.9000  evaluate_0.9          latticeExtra_0.6-28  
+    ## [79] data.table_1.9.6      foreach_1.4.3         gtable_0.2.0         
+    ## [82] assertthat_0.1        survival_2.39-5       genderdata_0.5.0     
+    ## [85] iterators_1.0.8       AnnotationDbi_1.34.3  IRanges_2.6.1        
+    ## [88] cluster_2.0.4

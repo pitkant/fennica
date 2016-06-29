@@ -35,8 +35,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                        | missing (%)| available (%)| available (n)| unique (n)|
 |:---------------------------------|-----------:|-------------:|-------------:|----------:|
+|parts                             |       100.0|           0.0|             0|          1|
 |volnumber                         |       100.0|           0.0|             0|          1|
-|parts                             |        99.9|           0.1|            44|          8|
 |uncontrolled                      |        99.8|           0.2|           111|         99|
 |successor                         |        99.4|           0.6|           404|        396|
 |publication_frequency             |        98.6|           1.4|          1001|         51|
@@ -53,28 +53,28 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |first_edition                     |        73.7|          26.3|         18922|          3|
 |corporate                         |        71.7|          28.3|         20324|       1419|
 |subject_topic                     |        71.0|          29.0|         20889|       3533|
-|obl                               |        54.6|          45.4|         32687|          3|
+|obl                               |        58.4|          41.6|         29901|          3|
+|paper.consumption.km2             |        52.0|          48.0|         34494|       3975|
+|width                             |        51.4|          48.6|         34965|        308|
+|height                            |        51.4|          48.6|         34965|        350|
+|area                              |        51.4|          48.6|         34965|        811|
 |holder                            |        49.5|          50.5|         36295|       2162|
-|paper.consumption.km2             |        47.6|          52.4|         37664|       4266|
-|width                             |        47.6|          52.4|         37687|        310|
-|height                            |        47.6|          52.4|         37687|        351|
-|area                              |        47.6|          52.4|         37687|        816|
 |author_gender                     |        46.9|          53.1|         38196|          4|
-|self_published                    |        42.4|          57.6|         41392|          2|
+|self_published                    |        36.9|          63.1|         45351|          2|
 |author_name                       |        36.3|          63.7|         45806|      12012|
 |author                            |        36.3|          63.7|         45806|      12076|
-|publisher                         |        12.3|          87.7|         63065|       7299|
-|pagecount.orig                    |         6.8|          93.2|         67048|        978|
-|country                           |         4.3|          95.7|         68807|         34|
-|publication_place                 |         4.3|          95.7|         68809|        432|
-|latitude                          |         1.2|          98.8|         71047|        346|
-|longitude                         |         1.2|          98.8|         71047|        346|
+|pagecount.orig                    |        10.6|          89.4|         64325|        959|
+|country                           |         5.5|          94.5|         67952|         33|
+|publication_place                 |         4.3|          95.7|         68810|        478|
+|latitude                          |         2.4|          97.6|         70225|        337|
+|longitude                         |         2.4|          97.6|         70225|        337|
+|publisher                         |         1.7|          98.3|         70680|       7429|
 |language                          |         1.0|          99.0|         71186|        259|
 |publication_year_from             |         1.0|          99.0|         71235|        357|
 |publication_year                  |         0.9|          99.1|         71254|        357|
 |publication_decade                |         0.9|          99.1|         71254|         44|
+|pagecount                         |         0.7|          99.3|         71448|        959|
 |dissertation                      |         0.0|         100.0|         71893|          3|
-|pagecount                         |         0.0|         100.0|         71896|        978|
 |title                             |         0.0|         100.0|         71916|      57062|
 |synodal                           |         0.0|         100.0|         71918|          3|
 |language.Swedish                  |         0.0|         100.0|         71919|          2|
@@ -118,11 +118,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Votic                    |         0.0|         100.0|         71919|          2|
 |language.Germanic (Other)         |         0.0|         100.0|         71919|          1|
 |language.Multiple languages       |         0.0|         100.0|         71919|          2|
-|gatherings.original               |         0.0|         100.0|         71919|         18|
+|gatherings.original               |         0.0|         100.0|         71919|         11|
 |obl.original                      |         0.0|         100.0|         71919|          2|
 |original_row                      |         0.0|         100.0|         71919|      71919|
 |author_pseudonyme                 |         0.0|         100.0|         71919|          2|
-|gatherings                        |         0.0|         100.0|         71919|         18|
+|gatherings                        |         0.0|         100.0|         71919|         11|
 |volcount                          |         0.0|         100.0|         71919|          1|
 |singlevol                         |         0.0|         100.0|         71919|          2|
 |multivol                          |         0.0|         100.0|         71919|          1|
