@@ -178,7 +178,18 @@ Relevant summaries can be moved here and polished. Which figures at least ? Just
   * [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
-Voisiko nämä molemmat rajata tätä analyysia varten 1640-1828? Voisin sitten poimia sieltä sopivat summaryt tänne tuotaviksi. Mielessä on mm. https://github.com/rOpenGov/fennica/blob/master/inst/examples/author.md Niin että täältä ottaisi top-author timelinen molemmista Fennicasta ja Kungligasta vierekkäin. Tätä ennen pitää kuitenkin tehdä näiden top-auktoreiden osalta putsaus. Kun aineisto rajattu nyt tarkasteltaviin niin tiedetään sitten mitkä auktorit tätä varten putsataan.
+ https://github.com/rOpenGov/fennica/blob/master/inst/examples/author.md täältä top-author timelinen molemmista Fennicasta ja Kungligasta vierekkäin. Putsaus ok (näistä tsekattu, että ei löydy ainakaan isoa määrää laskuista puuttuvia nimivariantilla julkaistuja teoksia). Pointtina tässä on, että Kungligassa väitöskirjat näyttelevät huomattavasti pienempää osaa kuin Fennicassa. Näkyy näistä top-auktori kuvista.
+ 
+ Tämä kuva Fennica Summarysta on hyvä publisher analyysiin:
+
+https://raw.githubusercontent.com/rOpenGov/fennica/master/inst/examples/figure/summaryTop10pubtimeline-1.png
+
+Voisiko tästä julkaisijoiden title vs. paper countista laskea jonkun suhdeluvun per julkaisija? Idea että nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).
+
+Tuolla Fennica yhteenvedoissa on myös ##EDITIONS kohta. Siellä ei kuitenkaan ole mitään kuvia. Olisiko ne mahdollista saada? On nimittäin mielenkiintoinen kysymys:
+
+https://github.com/rOpenGov/fennica/blob/master/inst/examples/publicationyear.md
+
 
 Overall development in publishing activity:
 
@@ -636,7 +647,7 @@ for (catal in unique(df0$catalog)) {
   print(p)
 }
 ```
-
+Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) kertoo Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
 
 Paper consumption in selected places (Fennica):
 
