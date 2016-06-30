@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Helsingissä 1746-1917"
 author: "Niko Ilomäki"
-date: "2016-06-29"
+date: "2016-06-30"
 output: markdown_document
 ---
 
@@ -13,7 +13,7 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'published_in'
+## Error in eval(expr, envir, enclos): unknown variable to group by : published_in
 ```
 
 ```

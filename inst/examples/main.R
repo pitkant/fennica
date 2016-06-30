@@ -1,6 +1,6 @@
 library(bibliographica)
-library(devtools)
-load_all("~/proj/2014-Aatelouhinta/bibliographica")
+#library(devtools)
+# load_all("~/proj/2014-Aatelouhinta/bibliographica")
 
 # I/O definitions
 output.folder <- "output.tables/"

@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2016-06-29"
+date: "2016-06-30"
 output: markdown_document
 ---
 
@@ -13,7 +13,7 @@ output: markdown_document
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown column 'family_name'
+## Error in eval(expr, envir, enclos): unknown variable to group by : family_name
 ```
 
 ```
