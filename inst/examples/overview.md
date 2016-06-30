@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-29"
+date: "2016-06-30"
 output: markdown_document
 ---
 
@@ -50,28 +50,28 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_death                      |        58.9|          41.1|          8345|        263|
 |author_birth                      |        54.6|          45.4|          9225|        255|
 |author_gender                     |        50.6|          49.4|         10044|          4|
-|self_published                    |        47.9|          52.1|         10596|          2|
+|self_published                    |        48.6|          51.4|         10441|          2|
 |author_name                       |        45.6|          54.4|         11049|       2647|
 |author                            |        45.6|          54.4|         11049|       2678|
 |title_uniform                     |        44.4|          55.6|         11304|       8300|
 |note_source                       |        43.1|          56.9|         11557|       4932|
 |holder                            |        40.6|          59.4|         12073|         45|
-|pagecount.orig                    |        11.8|          88.2|         17939|        487|
 |corporate                         |         8.7|          91.3|         18550|        470|
-|paper.consumption.km2             |         6.7|          93.3|         18971|       1078|
-|country                           |         6.4|          93.6|         19029|         20|
-|publication_place                 |         5.9|          94.1|         19123|        123|
-|publisher                         |         5.9|          94.1|         19133|        660|
-|obl                               |         5.7|          94.3|         19176|          3|
+|publisher                         |         6.9|          93.1|         18925|        644|
+|publication_place                 |         5.9|          94.1|         19123|        101|
+|country                           |         5.9|          94.1|         19123|         20|
 |subject_topic                     |         5.1|          94.9|         19300|       3110|
-|width                             |         4.4|          95.6|         19441|        136|
-|height                            |         4.4|          95.6|         19441|        141|
-|area                              |         4.4|          95.6|         19441|        214|
-|pagecount                         |         2.3|          97.7|         19858|        487|
-|latitude                          |         0.6|          99.4|         20203|         90|
-|longitude                         |         0.6|          99.4|         20203|         90|
+|pagecount.orig                    |         3.3|          96.7|         19664|        494|
+|obl                               |         2.7|          97.3|         19770|          3|
+|paper.consumption.km2             |         1.6|          98.4|         20011|       1121|
+|width                             |         1.5|          98.5|         20033|        139|
+|height                            |         1.5|          98.5|         20033|        142|
+|area                              |         1.5|          98.5|         20033|        217|
 |language                          |         0.2|          99.8|         20282|        143|
+|latitude                          |         0.2|          99.8|         20295|         92|
+|longitude                         |         0.2|          99.8|         20295|         92|
 |dissertation                      |         0.1|          99.9|         20303|          3|
+|pagecount                         |         0.1|          99.9|         20306|        494|
 |publication_year_from             |         0.0|         100.0|         20323|        262|
 |synodal                           |         0.0|         100.0|         20327|          3|
 |language.Swedish                  |         0.0|         100.0|         20328|          2|
@@ -116,13 +116,13 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Germanic (Other)         |         0.0|         100.0|         20328|          1|
 |language.Multiple languages       |         0.0|         100.0|         20328|          2|
 |title                             |         0.0|         100.0|         20328|      16935|
-|gatherings.original               |         0.0|         100.0|         20328|         10|
+|gatherings.original               |         0.0|         100.0|         20328|         14|
 |obl.original                      |         0.0|         100.0|         20328|          2|
 |original_row                      |         0.0|         100.0|         20328|      20328|
 |author_pseudonyme                 |         0.0|         100.0|         20328|          2|
 |publication_year                  |         0.0|         100.0|         20328|        261|
 |publication_decade                |         0.0|         100.0|         20328|         31|
-|gatherings                        |         0.0|         100.0|         20328|         10|
+|gatherings                        |         0.0|         100.0|         20328|         14|
 |volcount                          |         0.0|         100.0|         20328|          1|
 |singlevol                         |         0.0|         100.0|         20328|          2|
 |multivol                          |         0.0|         100.0|         20328|          1|
