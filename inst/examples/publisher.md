@@ -8,9 +8,15 @@ output: markdown_document
 
 ### Publishers
 
+<<<<<<< HEAD
  * 7303 [unique publishers](output.tables/publisher_accepted.csv)
 
  * 63071 documents have unambiguous publisher information (88%). 
+=======
+ * 644 [unique publishers](output.tables/publisher_accepted.csv)
+
+ * 18925 documents have unambiguous publisher information (93%). 
+>>>>>>> 4b4bb313e5021f18ef31cd760bdf7982f9ac752d
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -25,11 +31,6 @@ The 20 most common publishers are shown with the number of documents.
 
 Title count
 
-
-```
-## Warning: Removed 3 rows containing missing values (position_stack).
-```
-
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
 
@@ -40,13 +41,13 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles| paper|
 |:-------------------------------|------:|-----:|
-|                                |   3353|  2.33|
-|<<Author>>                      |   1734|  0.37|
-|Frenckell, Johan Christopher I  |   1744|  0.78|
-|Frenckell, Johan Christopher II |   2216|  1.40|
-|Hansson, Peter                  |   1095|  0.84|
-|Londicer, Georg Wilhelm         |   2110|  0.18|
-|Otava                           |   2129|  1.12|
-|Söderström                      |   1177|  0.52|
+|Frenckell, Johan Christopher I  |   1743|  0.78|
+|Frenckell, Johan Christopher II |   2212|  1.39|
+|Hansson, Peter                  |   1094|  0.84|
+|Kämpe, Johan                    |   1030|  0.65|
+|Londicer, Carl Anton            |    500|  0.08|
+|Londicer, Georg Wilhelm         |   2106|  0.18|
+|Merckell, Jacob                 |    962|  0.68|
+|Wald, Peder Eriksson            |    559|  0.36|
 |Wall, Johan Larsson             |   1404|  0.82|
-|WSOY                            |   2802|  1.00|
+|Winter, Johan                   |    971|  0.85|

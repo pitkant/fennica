@@ -1,4 +1,5 @@
 Name	Count
+<<<<<<< HEAD
 Total count: 	36295
 FI-H	12011
 FI-Suom. kaunok. 3	 1175
@@ -618,18 +619,19 @@ FI-Aapiset 2	    2
 FI-Alkoholiliikkeet	    2
 FI-Alkoholiliikkeet;FI-Kom. miet. 1	    2
 FI-Amerikka 3;FI-Suom. kaunok. 2	    2
+=======
+Total count: 	12073
+FI-H	11940
+FI-H;FI-H	   60
+FI-Frenckell, Johan Christofer II	    8
+FI-H;FI-H;FI-H	    6
+FI-losofia	    6
+FI-Ruots. kaunokirj. 1	    5
+FI-R.Fol.	    3
+>>>>>>> 4b4bb313e5021f18ef31cd760bdf7982f9ac752d
 FI-Carlbohm, Arvid	    2
-FI-Diss. HY;FI-Eksegetiikka	    2
-FI-Diss. HY;FI-Germ. kielit.	    2
-FI-Diss. HY;FI-Itam. kielit.	    2
-FI-Diss. HY;FI-Kirj. hist.;FI-Tiet. seur.: Svenska litt. sallsk.	    2
-FI-Diss. HY;FI-Matematiikka	    2
-FI-Diss. HY;FI-Tiet. seur.: Svenska litt. sallsk.	    2
-FI-Elaintensuojelu 2	    2
-FI-Elamisentaito. Naineille	    2
-FI-Elamisentaito. Saarenheimo	    2
-FI-Foliot. Antellska	    2
 FI-Fougt, Henrik I (leski)	    2
+<<<<<<< HEAD
 FI-Hbrtauskirj. Cutting	    2
 FI-Hbrtauskirj.;FI-Amerikka 3	    2
 FI-Hbrtauskirj.;FI-Eksegetiikka	    2
@@ -709,15 +711,14 @@ FI-Lait 1 Lakiselityksia	    2
 FI-Lakitiede 3ps	    2
 FI-Leikit , Ajanvietteen	    2
 FI-Lennatin 3	    2
+=======
+FI-Heng.laulukirj.1.	    2
+FI-HYK	    2
+FI-Lahetys	    2
+>>>>>>> 4b4bb313e5021f18ef31cd760bdf7982f9ac752d
 FI-Londicer, Carl Anton	    2
-FI-losofia, Sederholm	    2
-FI-losofia, Sederholm, C.	    2
-FI-Maantiede 1;FI-Siv.seur.: Kansanvalistusseura 3	    2
-FI-Maanvilj. 1	    2
-FI-Maanvilj. 2D	    2
-FI-Maanvilj. 2D, Hbrjun	    2
-FI-Maanvilj. 3, Hbllakorpi, I.A.	    2
 FI-Merckell, Jacob	    2
+<<<<<<< HEAD
 FI-Merenkulku 4	    2
 FI-Metsastys 3, Brander E.V.R.	    2
 FI-Musiikki 4, Puhakka, P.	    2
@@ -2160,4 +2161,35 @@ FI-Yl.lukemistot 1 , Einio	    1
 FI-Yl.lukemistot 1 , Kodin	    1
 FI-Yl.lukemistot 2 , Barnens	    1
 FI-Yl.luonnontiede, Ur var tids naturforskning	    1
+=======
+FI-Suom. kaunokirj. 1	    2
+FI-Diss. Ulk.	    1
+FI-Fougt, Henrik (leski)	    1
+FI-H;FI-H;FI-H;FI-H	    1
+FI-H;FI-K.Oikeustiede	    1
+FI-H;FI-Kirjatieto 1	    1
+FI-H;FI-Kuopio VI:7:122	    1
+FI-H;FI-Palosuojelu 2, asetus	    1
+FI-H;FI-Palosuojelu 2, Turku	    1
+FI-Heng. laulukirj.1.	    1
+FI-Heng.laulukirj.1	    1
+FI-III.3.b/1	    1
+FI-III.3.b/2	    1
+FI-K. Hist. asiakirj.	    1
+FI-K.Hbrtauskirj.	    1
+FI-K.Saarnakirj.	    1
+FI-Kirjastot 2 Viipuri	    1
+FI-Londicer, Georg Wilhelm	    1
+FI-Maantiede 1	    1
+FI-Maantiede 1.	    1
+FI-Maanvilj. 2B	    1
+FI-Momma, Peter	    1
+FI-R. Suom. kaunokirj. 5	    1
+FI-Raamatut 5. , Matteus	    1
+FI-s.n.	    1
+FI-Saarnakirj.	    1
+FI-Suom. kaunok. 6	    1
+FI-Suom. lastenkirj. 3	    1
+FI-Teollisuus 3	    1
+>>>>>>> 4b4bb313e5021f18ef31cd760bdf7982f9ac752d
 Suomi	    1

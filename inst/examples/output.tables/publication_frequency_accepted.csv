@@ -1,4 +1,5 @@
 Name	Count
+<<<<<<< HEAD
 Total count: 	1001
 Kerran kuukaudessa	176
 Kerran vuodessa	163
@@ -50,3 +51,11 @@ Vaihtelee	  1
 Viisi kertaa vuodessa	  1
 Yhdeksän kertaa vuodessa.	  1
 Yhdestä kahteen kertaa kuukaudessa	  1
+=======
+Total count: 	11
+Kerran viikossa.	6
+Kaksi kertaa kuukaudessa.	2
+Kaksi kertaa viikossa.	1
+Kerran kuukaudessa.	1
+Kolme kertaa viikossa.	1
+>>>>>>> 4b4bb313e5021f18ef31cd760bdf7982f9ac752d
