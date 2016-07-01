@@ -194,10 +194,10 @@ Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Top-5 julkaisijoist
 OK, see lists for
 
 -   [Frenckell Johan Christopher II](output.tables/subjecttopicsFrenckell_Johan_Christopher_II.tab)
--   [Frenckell Johan Christopher I](output.tables/Frenckell_Johan_Christopher_I.tab)
--   [Hansson Peter](output.tables/Hansson_Peter.tab)
--   [Londicer Georg Wilhelm](output.tables/Londicer_Georg_Wilhelm.tab)
--   [Wall Johan Larsson](output.tables/Wall_Johan_Larsson.tab)
+-   [Frenckell Johan Christopher I](output.tables/subjecttopicsFrenckell_Johan_Christopher_I.tab)
+-   [Hansson Peter](output.tables/subjecttopicsHansson_Peter.tab)
+-   [Londicer Georg Wilhelm](output.tables/subjecttopicsLondicer_Georg_Wilhelm.tab)
+-   [Wall Johan Larsson](output.tables/subjecttopicsWall_Johan_Larsson.tab)
 
 **Londicer versus Frencell** “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
 

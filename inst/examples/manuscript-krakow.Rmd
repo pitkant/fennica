@@ -949,10 +949,10 @@ julkaisijoiden kohdalla tässä mitään eroja.
 OK, see lists for  
 
   * [Frenckell Johan Christopher II](output.tables/subjecttopicsFrenckell_Johan_Christopher_II.tab)
-  * [Frenckell Johan Christopher I](output.tables/Frenckell_Johan_Christopher_I.tab)
-  * [Hansson Peter](output.tables/Hansson_Peter.tab)
-  * [Londicer Georg Wilhelm](output.tables/Londicer_Georg_Wilhelm.tab)
-  * [Wall Johan Larsson](output.tables/Wall_Johan_Larsson.tab)   
+  * [Frenckell Johan Christopher I](output.tables/subjecttopicsFrenckell_Johan_Christopher_I.tab)
+  * [Hansson Peter](output.tables/subjecttopicsHansson_Peter.tab)
+  * [Londicer Georg Wilhelm](output.tables/subjecttopicsLondicer_Georg_Wilhelm.tab)
+  * [Wall Johan Larsson](output.tables/subjecttopicsWall_Johan_Larsson.tab)   
 
 
 ```{r publishers-subtop, echo=FALSE, message=FALSE, warning=FALSE}
