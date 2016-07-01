@@ -179,6 +179,8 @@ Number of unique publishers in top publication places over time:
 
 ![](figure_201606_Krakow/publishers2-finland-1.png)
 
+**PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing profile (title count and paper consumption) over time.
+
 Title count per top publisher (two alternative visualizations):
 
 ![](figure_201606_Krakow/publishers3-finland-1.png)![](figure_201606_Krakow/publishers3-finland-2.png)
@@ -187,11 +189,13 @@ Paper consumption per top publisher (two alternative visualizations):
 
 ![](figure_201606_Krakow/publishers4-finland-1.png)![](figure_201606_Krakow/publishers4-finland-2.png)
 
+Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja.
+
+OK, see lists for \* [Frenckell Johan Christopher II](output.tables/subjecttopicsFrenckell,_Johan_Christopher_II.tab) \* [Frenckell Johan Christopher I](output.tables/Frenckell,_Johan_Christopher_I.tab) \* [Hansson Peter](output.tables/Hansson,_Peter.tab) \* [Londicer Georg Wilhelm](output.tables/Londicer,_Georg_Wilhelm.tab) \* [Wall Johan Larsson](output.tables/Wall,_Johan_Larsson.tab)
+
 **Londicer versus Frencell** “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
 
 ![](figure_201606_Krakow/publishers5-finland-1.png)![](figure_201606_Krakow/publishers5-finland-2.png)
-
-PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja.
 
 PUBLISHER-TODO(jos ehtii): Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
 
