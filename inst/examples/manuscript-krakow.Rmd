@@ -763,7 +763,7 @@ print(p)
 ```
 
 
-```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=10, out.width="800px"}
+```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 df <- df0
 df <- df %>%
         filter(catalog == "Fennica" & country == "Finland") %>%
@@ -791,6 +791,169 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ggtitle("Unique publishers in top publication places (Finland/Fennica)")
 print(p)
 ```
+
+
+
+```{r publishers3-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
+# Title count
+catalogue <- "Fennica"
+place <- "Turku"
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) %>%
+        filter(publication_year >= 1640 & publication_year < 1828)
+
+df <- df %>%	
+        select(publication_decade, publisher, paper.consumption.km2)
+
+# Group small publishers
+# Top publishers by title count
+ntop <- 10
+top <- names(top(df, "publisher", ntop))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, c(top, "Other"))
+
+# Title count per decade & publisher	
+npub <- df %>% group_by(publication_decade, publisher) %>% tally()
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = n)) +
+       geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) + 
+       #geom_point(size = 5, aes(shape = publication_place)) +
+       #geom_line(col = "black", aes(shape = publication_place)) +       
+       # geom_smooth(col = "black", aes(shape = publisher)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +        
+       ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
+print(p)
+
+
+catalogue <- "Fennica"
+place <- "Turku"
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) %>%
+        filter(publication_year >= 1640 & publication_year < 1828)
+
+df <- df %>%	
+        select(publication_decade, publisher, paper.consumption.km2)
+
+# Group small publishers
+# Top publishers
+ntop <- 5
+top <- names(top(df, "publisher", ntop))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, c(top, "Other"))
+
+# Publishing per decade & publisher	
+npub <- df %>%
+     	  group_by(publication_decade, publisher) %>%
+	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  mutate(paper.per.title = paper/n)
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = n)) +
+       geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       #geom_point(size = 5, aes(shape = publisher)) +
+       #geom_line(col = "black", aes(shape = publisher)) +       
+       # geom_smooth(col = "black", aes(shape = publisher)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +        
+       ggtitle(paste("Title count (", place, "/", catalogue, ")", sep = ""))
+print(p)
+
+
+
+
+
+
+
+
+
+
+# Paper consumption
+catalogue <- "Fennica"
+place <- "Turku"
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) %>%
+        filter(publication_year >= 1640 & publication_year < 1828)
+
+df <- df %>%	
+        select(publication_decade, publisher, paper.consumption.km2)
+
+# Group small publishers
+# Top publishers by title count
+ntop <- 10
+top <- names(top(df, "publisher", ntop))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, c(top, "Other"))
+
+# Publishing per decade & publisher	
+npub <- df %>% group_by(publication_decade, publisher) %>% summarize(paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = paper)) +
+       geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) + 
+       #geom_point(size = 5, aes(shape = publication_place)) +
+       #geom_line(col = "black", aes(shape = publication_place)) +       
+       # geom_smooth(col = "black", aes(shape = publisher)) + 
+       xlab("Publication year") +
+       ylab("Paper consumption") +        
+       ggtitle(paste("Paper consumption per publisher (", place, "/", catalogue, ")", sep = ""))
+print(p)
+
+
+catalogue <- "Fennica"
+place <- "Turku"
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) %>%
+        filter(publication_year >= 1640 & publication_year < 1828)
+
+df <- df %>%	
+        select(publication_decade, publisher, paper.consumption.km2)
+
+# Group small publishers
+# Top publishers
+ntop <- 5
+top <- names(top(df, "publisher", ntop))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, c(top, "Other"))
+
+# Publishing per decade & publisher	
+npub <- df %>%
+     	  group_by(publication_decade, publisher) %>%
+	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  mutate(paper.per.title = paper/n)
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = paper)) +
+       geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       #geom_point(size = 5, aes(shape = publisher)) +
+       #geom_line(col = "black", aes(shape = publisher)) +       
+       # geom_smooth(col = "black", aes(shape = publisher)) + 
+       xlab("Publication year") +
+       ylab("Paper") +        
+       ggtitle(paste("Paper (", place, "/", catalogue, ")", sep = ""))
+print(p)
+
+
+
+
+
+
+
+
+```
+
+
+
+
 
 PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja. 
 

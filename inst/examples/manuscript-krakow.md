@@ -179,7 +179,9 @@ Number of unique publishers per decade in Finland and elsewhere (based on the Fe
 
 <img src="figure_201606_Krakow/publishers-finland-1.png" width="430px" /><img src="figure_201606_Krakow/publishers-finland-2.png" width="430px" />
 
-<img src="figure_201606_Krakow/publishers2-finland-1.png" width="800px" />
+![](figure_201606_Krakow/publishers2-finland-1.png)
+
+![](figure_201606_Krakow/publishers3-finland-1.png)![](figure_201606_Krakow/publishers3-finland-2.png)![](figure_201606_Krakow/publishers3-finland-3.png)![](figure_201606_Krakow/publishers3-finland-4.png)
 
 PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja.
 
