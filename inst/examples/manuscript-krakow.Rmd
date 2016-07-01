@@ -694,26 +694,11 @@ DONE1: Observed trends in Fennica regarding Finnish knowledge
 production 1640-1828, focusing on the appearance of new publishers on
 the publishing landscape.
 
-  1. Miten uusia julkaisijoita ilmestyy ja katoaa eri paikkakunnilla
-     Suomessa?  Pääpaino erityisesti kun julkaisijakartalle tulee
-     uusia toimijoita (uudet paikkakunnat). Julkaisijan nimi ei
-     tärkeää, vaan se milloin uusia tulee ja aikaisempia
-     häviää.
-     
-  1. Suuremmat pudotukset tärkeitä (vrt. Turku julkaisumäärät
-     yleensä 1700-luvun alku) [TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA
-     TAI STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA]
-
-  1. Pyritään vastaamaan myös tähän: “Siinä missä Londicer 1700-luvun
-     Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena
-     kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli
-     yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa
-     näyttää suurelta verrattuna Londiceriin, mutta itse asiassa
-     sisältömäärä on sama”.  → Tätä hypoteesia voidaan yrittää
-     todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos
-     verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja
-     julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
-
+How new publishers appear and disappear from the Finnish publishing
+landscape. We have analyzed the number of unique publication places
+and unique publishers in terms of title count and paper consumption
+over Finland in general, and more specifically within the top
+publication places over time.
 
 
 Number of unique publishers per decade in Finland and elsewhere (based on the Fennica catalogue).
@@ -766,7 +751,7 @@ print(p)
 
 Number of unique publishers in top publication places over time:
 
-```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
+```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
 df <- df %>%
         filter(catalog == "Fennica" & country == "Finland") %>%
@@ -871,13 +856,9 @@ print(p)
 ```
 
 
-
-
 Paper consumption per top publisher (two alternative visualizations):
 
 ```{r publishers4-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
-
-
 # Paper consumption
 catalogue <- "Fennica"
 place <- "Turku"
@@ -949,8 +930,64 @@ print(p)
 ```
 
 
+**Londicer versus Frencell** “Siinä missä Londicer 1700-luvun Vaasassa
+     näyttää aina julkaisseen asetukset jonkinlaisena
+     kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli
+     yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa
+     näyttää suurelta verrattuna Londiceriin, mutta itse asiassa
+     sisältömäärä on sama”.  → Tätä hypoteesia voidaan yrittää
+     todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos
+     verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja
+     julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
 
 
+
+```{r publishers5-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+catalogue <- "Fennica"
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue) %>%
+        filter(publication_year >= 1750 & publication_year < 1828)
+
+df <- df %>%	
+        select(publication_decade, publisher, paper.consumption.km2)
+
+# Selected ones
+top <- c("Frenckell, Johan Christopher I", "Londicer, Georg Wilhelm", "Frenckell, Johan Christopher II")
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, c(top, "Other"))
+
+# Publishing per decade & publisher	
+npub <- df %>%
+     	  group_by(publication_decade, publisher) %>%
+	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  mutate(paper.per.title = paper/n)
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = n, group = publisher)) +
+       geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       #geom_point(size = 5, aes(shape = publisher)) +
+       #geom_line(col = "black", aes(shape = publisher)) +       
+       # geom_smooth(col = "black", aes(shape = publisher)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +        
+       ggtitle(paste("Title count (", catalogue, ")", sep = ""))
+print(p)
+
+
+
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = paper, group = publisher)) +
+       geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       #geom_point(size = 5, aes(shape = publisher)) +
+       #geom_line(col = "black", aes(shape = publisher)) +       
+       # geom_smooth(col = "black", aes(shape = publisher)) + 
+       xlab("Publication year") +
+       ylab("Paper") +        
+       ggtitle(paste("Paper (", catalogue, ")", sep = ""))
+print(p)
+```
 
 PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja. 
 
