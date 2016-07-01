@@ -946,12 +946,13 @@ puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili
 asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko
 julkaisijoiden kohdalla tässä mitään eroja.
 
-OK, see lists for
-  * [Frenckell Johan Christopher II](output.tables/subjecttopicsFrenckell,_Johan_Christopher_II.tab)
-  * [Frenckell Johan Christopher I](output.tables/Frenckell,_Johan_Christopher_I.tab)
-  * [Hansson Peter](output.tables/Hansson,_Peter.tab)
-  * [Londicer Georg Wilhelm](output.tables/Londicer,_Georg_Wilhelm.tab)
-  * [Wall Johan Larsson](output.tables/Wall,_Johan_Larsson.tab)   
+OK, see lists for  
+
+  * [Frenckell Johan Christopher II](output.tables/subjecttopicsFrenckell_Johan_Christopher_II.tab)
+  * [Frenckell Johan Christopher I](output.tables/Frenckell_Johan_Christopher_I.tab)
+  * [Hansson Peter](output.tables/Hansson_Peter.tab)
+  * [Londicer Georg Wilhelm](output.tables/Londicer_Georg_Wilhelm.tab)
+  * [Wall Johan Larsson](output.tables/Wall_Johan_Larsson.tab)   
 
 
 ```{r publishers-subtop, echo=FALSE, message=FALSE, warning=FALSE}
@@ -973,7 +974,7 @@ spl <- split(df$subject_topic, df$publisher)
 x <- lapply(spl, function (x) {unlist(strsplit(x, ";"))})
 
 for (pn in names(x)) {
-  fnam <- gsub(" ", "_", pn)
+  fnam <- gsub(",", "", gsub(" ", "_", pn))
   write_xtable(x[[pn]], file = paste(output.folder, "subjecttopics", fnam, ".tab", sep = ""))
 }
 ```
