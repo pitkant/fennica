@@ -39,8 +39,8 @@ library(sorvi)
 theme_set(theme_bw(26))
 
 # Define time span
-min.year = 1470
-max.year = 1828
+min.year <- 1488
+max.year <- 1828
 
 # Read data
 fen <- readRDS("df.Rds")
@@ -62,11 +62,9 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 TODO-järjestyksestä:
 
-Tärkein ASAP tehtävä on ##Publisher analysis
+Tärkein ASAP tehtävä on **Publisher analysis**
 
-Selvensin alle (##Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista.
-
-Lisäksi tuolla on paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
+Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista. Lisäksi tuolla paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
 
 Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla:
 
@@ -75,8 +73,6 @@ Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää
 Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja sitten kun julkaisijakenttä tsekattu varmasti loppuun, niin sitten heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
 ## Introduction 
-
-
 
 Matti Klinge HYn historia; Jari Niemelä, Vain hyödynkö tähden
 (väitöskirja) käsittelee Turun yliopiston asemaa.

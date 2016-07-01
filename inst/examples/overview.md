@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-06-30"
+date: "2016-07-01"
 output: markdown_document
 ---
 
@@ -38,99 +38,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |parts                             |       100.0|           0.0|             0|          1|
 |uncontrolled                      |       100.0|           0.0|             0|          1|
 |volnumber                         |       100.0|           0.0|             0|          1|
-<<<<<<< HEAD
-|parts                             |        99.9|           0.1|            44|          8|
-|uncontrolled                      |        99.8|           0.2|           111|         99|
-|successor                         |        99.4|           0.6|           404|        396|
-|publication_frequency             |        98.6|           1.4|          1001|         51|
-|width.original                    |        97.2|           2.8|          2021|        307|
-|publication_year_till             |        94.0|           6.0|          4337|        195|
-|height.original                   |        93.0|           7.0|          5058|        350|
-|subject_geography                 |        91.9|           8.1|          5838|        779|
-|note_granter                      |        91.9|           8.1|          5845|         98|
-|note_510c                         |        90.8|           9.2|          6652|       6457|
-|note_source                       |        83.7|          16.3|         11754|       5003|
-|title_uniform                     |        83.0|          17.0|         12209|       8937|
-|author_death                      |        75.2|          24.8|         17807|        364|
-|author_birth                      |        73.9|          26.1|         18740|        347|
-|first_edition                     |        73.7|          26.3|         18922|          3|
-|corporate                         |        71.7|          28.3|         20324|       1419|
-|subject_topic                     |        71.0|          29.0|         20889|       3533|
-|obl                               |        54.6|          45.4|         32687|          3|
-|holder                            |        49.5|          50.5|         36295|       2162|
-|paper.consumption.km2             |        47.6|          52.4|         37664|       4266|
-|width                             |        47.6|          52.4|         37687|        310|
-|height                            |        47.6|          52.4|         37687|        351|
-|area                              |        47.6|          52.4|         37687|        816|
-|author_gender                     |        46.9|          53.1|         38196|          4|
-|self_published                    |        42.4|          57.6|         41397|          2|
-|author_name                       |        36.3|          63.7|         45806|      12012|
-|author                            |        36.3|          63.7|         45806|      12076|
-|publisher                         |        12.3|          87.7|         63071|       7303|
-|pagecount.orig                    |         6.8|          93.2|         67048|        978|
-|country                           |         4.3|          95.7|         68808|         34|
-|publication_place                 |         4.3|          95.7|         68809|        432|
-|latitude                          |         1.2|          98.8|         71047|        346|
-|longitude                         |         1.2|          98.8|         71047|        346|
-|language                          |         1.0|          99.0|         71186|        259|
-|publication_year_from             |         1.0|          99.0|         71235|        357|
-|publication_year                  |         0.9|          99.1|         71254|        357|
-|publication_decade                |         0.9|          99.1|         71254|         44|
-|dissertation                      |         0.0|         100.0|         71893|          3|
-|pagecount                         |         0.0|         100.0|         71896|        978|
-|title                             |         0.0|         100.0|         71916|      57062|
-|synodal                           |         0.0|         100.0|         71918|          3|
-|language.Swedish                  |         0.0|         100.0|         71919|          2|
-|language.Finnish                  |         0.0|         100.0|         71919|          2|
-|language.Latin                    |         0.0|         100.0|         71919|          2|
-|language.English                  |         0.0|         100.0|         71919|          2|
-|language.French                   |         0.0|         100.0|         71919|          2|
-|language.German                   |         0.0|         100.0|         71919|          2|
-|language.Hebrew                   |         0.0|         100.0|         71919|          2|
-|language.Greek, Ancient (to 1453) |         0.0|         100.0|         71919|          1|
-|language.Arabic                   |         0.0|         100.0|         71919|          2|
-|language.Italian                  |         0.0|         100.0|         71919|          2|
-|language.Danish                   |         0.0|         100.0|         71919|          2|
-|language.Sami                     |         0.0|         100.0|         71919|          2|
-|language.Dutch                    |         0.0|         100.0|         71919|          2|
-|language.Syriac, Modern           |         0.0|         100.0|         71919|          2|
-|language.Spanish                  |         0.0|         100.0|         71919|          2|
-|language.Lule Sami                |         0.0|         100.0|         71919|          2|
-|language.Portuguese               |         0.0|         100.0|         71919|          2|
-|language.Russian                  |         0.0|         100.0|         71919|          2|
-|language.Northern Sami            |         0.0|         100.0|         71919|          2|
-|language.Greek, Modern (1453-)    |         0.0|         100.0|         71919|          1|
-|language.Estonian                 |         0.0|         100.0|         71919|          2|
-|language.Esperanto                |         0.0|         100.0|         71919|          2|
-|language.Norwegian                |         0.0|         100.0|         71919|          2|
-|language.Polish                   |         0.0|         100.0|         71919|          2|
-|language.Finno-Ugrian (Other)     |         0.0|         100.0|         71919|          1|
-|language.Undetermined             |         0.0|         100.0|         71919|          2|
-|language.Lithuanian               |         0.0|         100.0|         71919|          2|
-|language.Hungarian                |         0.0|         100.0|         71919|          2|
-|language.Tibetan                  |         0.0|         100.0|         71919|          2|
-|language.Czech                    |         0.0|         100.0|         71919|          2|
-|language.Afroasiatic (Other)      |         0.0|         100.0|         71919|          1|
-|language.Latvian                  |         0.0|         100.0|         71919|          2|
-|language.Icelandic                |         0.0|         100.0|         71919|          2|
-|language.Ukrainian                |         0.0|         100.0|         71919|          2|
-|language.Karelian                 |         0.0|         100.0|         71919|          2|
-|language.Church Slavic            |         0.0|         100.0|         71919|          2|
-|language.Erzya                    |         0.0|         100.0|         71919|          2|
-|language.Yiddish                  |         0.0|         100.0|         71919|          2|
-|language.Votic                    |         0.0|         100.0|         71919|          2|
-|language.Germanic (Other)         |         0.0|         100.0|         71919|          1|
-|language.Multiple languages       |         0.0|         100.0|         71919|          2|
-|gatherings.original               |         0.0|         100.0|         71919|         18|
-|obl.original                      |         0.0|         100.0|         71919|          2|
-|original_row                      |         0.0|         100.0|         71919|      71919|
-|author_pseudonyme                 |         0.0|         100.0|         71919|          2|
-|gatherings                        |         0.0|         100.0|         71919|         18|
-|volcount                          |         0.0|         100.0|         71919|          1|
-|singlevol                         |         0.0|         100.0|         71919|          2|
-|multivol                          |         0.0|         100.0|         71919|          1|
-|issue                             |         0.0|         100.0|         71919|          2|
-=======
 |successor                         |       100.0|           0.0|             8|          8|
 |publication_frequency             |        99.9|           0.1|            11|          6|
 |publication_year_till             |        98.9|           1.1|           219|        109|
@@ -220,7 +127,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |singlevol                         |         0.0|         100.0|         20328|          2|
 |multivol                          |         0.0|         100.0|         20328|          1|
 |issue                             |         0.0|         100.0|         20328|          2|
->>>>>>> 4b4bb313e5021f18ef31cd760bdf7982f9ac752d
 
 
 
