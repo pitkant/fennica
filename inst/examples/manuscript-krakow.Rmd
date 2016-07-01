@@ -763,6 +763,9 @@ print(p)
 ```
 
 
+
+Number of unique publishers in top publication places over time:
+
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 df <- df0
 df <- df %>%
@@ -794,7 +797,9 @@ print(p)
 
 
 
-```{r publishers3-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
+Title count per top publisher (two alternative visualizations):
+
+```{r publishers3-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # Title count
 catalogue <- "Fennica"
 place <- "Turku"
@@ -863,14 +868,14 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ylab("Title count (n)") +        
        ggtitle(paste("Title count (", place, "/", catalogue, ")", sep = ""))
 print(p)
+```
 
 
 
 
+Paper consumption per top publisher (two alternative visualizations):
 
-
-
-
+```{r publishers4-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 
 
 # Paper consumption
@@ -941,14 +946,6 @@ p <- ggplot(npub, aes(x = publication_decade, y = paper)) +
        ylab("Paper") +        
        ggtitle(paste("Paper (", place, "/", catalogue, ")", sep = ""))
 print(p)
-
-
-
-
-
-
-
-
 ```
 
 
