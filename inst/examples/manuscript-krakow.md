@@ -8,17 +8,13 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 TODO-järjestyksestä:
 
-Tärkein ASAP tehtävä on \#\#Publisher analysis
+Tärkein ASAP tehtävä on **Publisher analysis**
 
-Selvensin alle (\#\#Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista.
+Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista. Lisäksi tuolla paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
 
-Lisäksi tuolla on paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
+Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla: **Book printing in Finland** - kohdasta \* BOOKINFINLAND-TODO1 ja \* BOOKINFINLAND-TODO2.
 
-Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla:
-
-### Book printing in Finland - kohdasta BOOKINFINLAND-TODO1 ja BOOKINFINLAND-TODO2.
-
-Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja sitten kun julkaisijakenttä tsekattu varmasti loppuun, niin sitten heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu varmasti loppuun, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
 Introduction
 ------------
@@ -47,9 +43,9 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015b).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015b) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015a). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -169,13 +165,19 @@ Paper consumption in selected places (Fennica):
 
 <img src="figure_201606_Krakow/201606krakow-turkuvsother-1.png" width="430px" /><img src="figure_201606_Krakow/201606krakow-turkuvsother-2.png" width="430px" />
 
-### Publisher analysis
+### Dynamics and evolution of publisher networks
 
-Puhutaan julkaisijatoiminnan kehityksestä ikään kuin luonnollisena kehityksenä - eli yhteys luonnonilmiöiden kehitykseen säilyisi.
+DONE1: Observed trends in Fennica regarding Finnish knowledge production 1640-1828, focusing on the appearance of new publishers on the publishing landscape.
 
-PUBLISHER-TODO1: Fennica-datasta pyritään erottamaan selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus julkaisijat: 1) Miten uusia julkaisijoita tulee eri paikkakunnille Suomessa ja aikaisempia julkaisijoita katoaa? Pääpaino erityisesti sillä kun julkaisijakartalle tulee uusia toimijoita (eli uudet paikkakunnat). Ideana että julkaisijan nimi ei tässä ole tärkeää, vaan se että milloin uusia julkaisijoita tulee ja milloin aikaisempia häviää. Lisäksi suuremmat pudotukset tärkeitä (vrt. Turku julkaisumäärät yleensä 1700-luvun alku) \[TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA TAI STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA\]
+1.  Miten uusia julkaisijoita ilmestyy ja katoaa eri paikkakunnilla Suomessa? Pääpaino erityisesti kun julkaisijakartalle tulee uusia toimijoita (uudet paikkakunnat). Julkaisijan nimi ei tärkeää, vaan se milloin uusia tulee ja aikaisempia häviää.
 
-Ylläolevalla analyysillä pyritään vastaamaan myös tähän: “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
+2.  Suuremmat pudotukset tärkeitä (vrt. Turku julkaisumäärät yleensä 1700-luvun alku) \[TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA TAI STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA\]
+
+3.  Pyritään vastaamaan myös tähän: “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
+
+Number of unique publishers per decade in Finland and elsewhere (based on the Fennica catalogue).
+
+<img src="figure_201606_Krakow/publishers-finland-1.png" width="430px" /><img src="figure_201606_Krakow/publishers-finland-2.png" width="430px" />
 
 PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja.
 
@@ -336,12 +338,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    sorvi_0.7.46         
-    ##  [4] tibble_1.0            fennica_0.1.42        stringr_1.0.0        
-    ##  [7] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
-    ## [10] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
-    ## [13] bibliographica_0.2.24 dplyr_0.5.0           tidyr_0.5.1          
-    ## [16] ggplot2_2.1.0        
+    ##  [1] git2r_0.15.0          knitcitations_1.0.7   rmarkdown_0.9.6.11   
+    ##  [4] sorvi_0.7.46          tibble_1.0            fennica_0.1.42       
+    ##  [7] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
+    ## [10] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
+    ## [13] magrittr_1.5          bibliographica_0.2.24 dplyr_0.5.0          
+    ## [16] tidyr_0.5.1           ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   

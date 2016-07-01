@@ -66,11 +66,12 @@ Tärkein ASAP tehtävä on **Publisher analysis**
 
 Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Aloitetaan näiden työstäminen niin pian kuin mahdollista. Lisäksi tuolla paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
 
-Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla:
+Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla: **Book printing in Finland** - kohdasta
+  * BOOKINFINLAND-TODO1 ja
+  * BOOKINFINLAND-TODO2.
 
-### Book printing in Finland - kohdasta BOOKINFINLAND-TODO1 ja BOOKINFINLAND-TODO2.
+Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu varmasti loppuun, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
-Eli ehdottaisin että analyysivaihe johon nyt siirrytään, niin Leo jos ehdit, niin aloita noilla BOOKINFINLAND-TODOilla ja sitten kun julkaisijakenttä tsekattu varmasti loppuun, niin sitten heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
 ## Introduction 
 
@@ -527,8 +528,8 @@ virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;ru
 
 Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
 
-### Book as media: development over time
 
+### Book as media: development over time
 
 Paper consumption per document in the top publication places. Note
 that paper consumption estimates have still problems so take this with
@@ -687,24 +688,80 @@ print(p)
 ```
 
 
-### Publisher analysis
+### Dynamics and evolution of publisher networks
 
-Puhutaan julkaisijatoiminnan kehityksestä ikään kuin luonnollisena
-kehityksenä - eli yhteys luonnonilmiöiden kehitykseen säilyisi.
+DONE1: Observed trends in Fennica regarding Finnish knowledge
+production 1640-1828, focusing on the appearance of new publishers on
+the publishing landscape.
 
-PUBLISHER-TODO1: Fennica-datasta pyritään erottamaan selkeitä trendejä suomalaisesta tiedontuotannosta 1640-1828, pääfokus
-julkaisijat: 1) Miten uusia julkaisijoita tulee eri paikkakunnille
-Suomessa ja aikaisempia julkaisijoita katoaa? Pääpaino erityisesti sillä kun julkaisijakartalle
-tulee uusia toimijoita (eli uudet paikkakunnat). Ideana että julkaisijan nimi ei tässä ole tärkeää, vaan se että milloin uusia julkaisijoita tulee ja milloin aikaisempia häviää. Lisäksi suuremmat pudotukset tärkeitä (vrt. Turku julkaisumäärät yleensä 1700-luvun alku) [TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA TAI
-STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA]
+  1. Miten uusia julkaisijoita ilmestyy ja katoaa eri paikkakunnilla
+     Suomessa?  Pääpaino erityisesti kun julkaisijakartalle tulee
+     uusia toimijoita (uudet paikkakunnat). Julkaisijan nimi ei
+     tärkeää, vaan se milloin uusia tulee ja aikaisempia
+     häviää.
+     
+  1. Suuremmat pudotukset tärkeitä (vrt. Turku julkaisumäärät
+     yleensä 1700-luvun alku) [TÄHÄN VOISI MIETTIÄ KARTTAKUVIEN SARJAA
+     TAI STACKED BARPLOTTIA JONKA DIVERSITEETTI KASVAA]
 
-Ylläolevalla analyysillä pyritään vastaamaan myös tähän: “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina
-julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta
-Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin
-julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna
-Londiceriin, mutta itse asiassa sisältömäärä on sama”. 
-→ Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on
-paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
+  1. Pyritään vastaamaan myös tähän: “Siinä missä Londicer 1700-luvun
+     Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena
+     kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli
+     yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa
+     näyttää suurelta verrattuna Londiceriin, mutta itse asiassa
+     sisältömäärä on sama”.  → Tätä hypoteesia voidaan yrittää
+     todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos
+     verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja
+     julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
+
+
+
+Number of unique publishers per decade in Finland and elsewhere (based on the Fennica catalogue).
+
+```{r publishers-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=10, fig.show="hold", out.width="430px"}
+
+# Unique publishers
+df <- df0
+# Indicator Finland yes/no
+df$Finland <- (df$country == "Finland")
+
+df <- df %>%
+        filter(catalog == "Fennica" & !is.na(Finland)) %>%
+        filter(publication_year >= 1640 & publication_year < 1828) %>%	
+        select(publisher, publication_decade, Finland)
+npub <- unique(df) %>% group_by(publication_decade, Finland) %>% tally()
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = n, group = Finland)) +
+       geom_point(aes(shape = Finland), size = 5) +
+       geom_line(col = "black", aes(shape = Finland)) +       
+       geom_smooth(col = "black") + 
+       xlab("Publication year") +
+       ylab("Unique publishers (n)") +        
+       ggtitle("Unique publishers (Fennica)")
+print(p)
+
+# -----------------------------
+
+# Unique publication places
+df <- df0
+df <- df %>%
+        filter(catalog == "Fennica" & country == "Finland") %>%
+        filter(publication_year >= 1640 & publication_year < 1828) %>%	
+        select(publication_decade, publication_place)
+npub <- unique(df) %>% group_by(publication_decade) %>% tally()
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = n)) +
+       geom_point(size = 5) +
+       geom_line(col = "black") +       
+       geom_smooth(col = "black") + 
+       xlab("Publication year") +
+       ylab("Unique publication places (n)") +        
+       ggtitle("Unique publication places in Finland (Fennica)")
+print(p)
+```
+
+
+
 
 PUBLISHER-TODO2: Fennican suurimpien tarkasteltavan ajanjakson julkaisijoiden (top-5) julkaisuprofiilin ja siinä mahdollisesti tapahtuvan muutoksen tutkiminen. Ts. julkaisumäärät aikajanalla (on jo osittain), lisäksi paperinkulutusvertailu. Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Tähän liittyen top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja. 
 
