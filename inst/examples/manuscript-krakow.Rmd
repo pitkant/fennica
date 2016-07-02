@@ -163,32 +163,156 @@ for (myplace in selected.places) {
 
 The drop in Fennica is explained largely by Great Nortern War (1700-1721). The war and difficult times seems to hit Turku particularly hard in early eighteenth century. What is telling also is that the curve of overall publishing activity in Kungliga is much steeper in eighteenth century compared to Fennica also in the second half of the century. This is the Enlightenment’s rising trend of knowledge production in most of Europe (for example ESTC has a similar development with Kungliga). Thus, development of publishing in Finland is much slower compared to larger European centers in the eighteenth century – this is an important context for the even further difficulties that follow after 1828.
 
-```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
 
+The following figure highlights publisher title count changes around 1700 drop in Turku, the most significant publishing place at the time:
+
+```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
+catalogue <- "Fennica"
+place <- "Turku"
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) %>%
+        filter(publication_year >= 1650 & publication_year < 1750)
+
+# Selected ones
+top <- names(top(df, "publisher", 5))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, levels = c(top, "Other"))
+
+# Publishing per year & publisher	
+npub <- df %>%
+     	  group_by(publication_year, publisher) %>%
+	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_year, y = n, group = publisher)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(size = 5, aes(shape = publisher, color = publisher)) +
+       #geom_line(col = "black", aes(shape = publisher)) +       
+       geom_smooth(col = "black", aes(shape = publisher, fill = publisher, color = publisher)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ylim(c(0, 1.1*max(npub$n))) +
+       ggtitle(paste("Title count (", place, "/", catalogue, ")", sep = ""))
+print(p)
 ```
 
 
-TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks.
+Here the same for the complete Fennica:
+
+```{r summaryTop10pubtimeline, fig.height=10, fig.width=20, echo=FALSE}
+df <- filter(df0, catalog == "Fennica")
+theme_set(theme_bw(20))
+tops <- names(top(df, field = "publisher", n = 5))
+field <- "publisher"
+dfs <- df
+dfs$field <- dfs[[field]]
+dfs <- dfs %>% filter(field %in% tops) %>%
+     	 group_by(field, publication_decade) %>%
+     	 tally() %>%
+     	 arrange(publication_decade)
+p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = field)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("field")) +
+       ggtitle("Title count timeline for the top publishers in Fennica")
+print(p)
+```
+
+TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks. - LL: you mean something different from what HR already did ? Duplicates within Fennica, or duplicates between Fennica vs Kungliga ? To be removed from all analyses, or a specific figure ?
+
+
+Paper per title count ratio per publisher. [nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).]
+
+```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="430px", fig.show="hold"}
+for (catalogue in c("Fennica", "Kungliga")) {
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue) %>%
+	filter(publication_year >= 1640 & publication_year <= 1828)
+
+# Selected ones
+top <- names(top(df, "publisher", 5))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, levels = c(top, "Other"))
+
+# Publishing per decade & publisher	
+npub <- df %>%
+     	  group_by(publication_decade, publisher) %>%
+	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  mutate(paper.per.title = paper/n)
+
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = paper.per.title, group = publisher)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(size = 5, aes(shape = publisher, color = publisher)) +
+       #geom_line(col = "black", aes(shape = publisher)) +       
+       geom_smooth(col = "black", aes(shape = publisher, fill = publisher, color = publisher)) + 
+       xlab("Publication year") +
+       ylab("Paper per title") +
+       ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Paper per title ratio (", catalogue, ")", sep = ""))
+print(p)
+}
+```
+
 
 
 ### General trends: Fennica vs. Kungliga
 
-Relevant summaries can be moved here and polished. Which figures at least ? Just let me know and I will add.
-
   * [Fennica overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
- https://github.com/rOpenGov/fennica/blob/master/inst/examples/author.md täältä top-author timelinen molemmista Fennicasta ja Kungligasta vierekkäin. Putsaus ok (näistä tsekattu, että ei löydy ainakaan isoa määrää laskuista puuttuvia nimivariantilla julkaistuja teoksia). Pointtina tässä on, että Kungligassa väitöskirjat näyttelevät huomattavasti pienempää osaa kuin Fennicassa. Näkyy näistä top-auktori kuvista.
+Top-author timelines. Putsaus ok (näistä tsekattu, että ei löydy ainakaan isoa määrää laskuista puuttuvia nimivariantilla julkaistuja teoksia). Kungligassa väitöskirjat näyttelevät huomattavasti pienempää osaa kuin Fennicassa. Näkyy näistä top-auktori kuvista.
  
- Tämä kuva Fennica Summarysta on hyvä publisher analyysiin:
+```{r summaryTop10authorstimeline, fig.height=10, fig.width=20, echo=FALSE, fig.show="hold", out.width="430px"}
+theme_set(theme_bw(20))
+for (catalogue in c("Fennica", "Kungliga")) {
+  df <- filter(df0, catalog == catalogue)
+  top.authors <- names(top(df, field = "author", n = 3))
+  dfs <- df %>% filter(author %in% top.authors) %>%
+     	 group_by(author, publication_decade) %>%
+     	 tally() %>%
+     	 arrange(publication_decade)
+  p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle(paste("Title count top authors\n", catalogue)) +
+       xlim(range(df0$publication_year))
+  print(p)
+}
+```
 
-https://raw.githubusercontent.com/rOpenGov/fennica/master/inst/examples/figure/summaryTop10pubtimeline-1.png
 
-Voisiko tästä julkaisijoiden title vs. paper countista laskea jonkun suhdeluvun per julkaisija? Idea että nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).
+Fennica yhteenvedoissa on myös EDITIONS kohta. Siellä ei kuitenkaan ole mitään kuvia. Olisiko ne mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia:
 
-Tuolla Fennica yhteenvedoissa on myös ##EDITIONS kohta. Siellä ei kuitenkaan ole mitään kuvia. Olisiko ne mahdollista saada? On nimittäin mielenkiintoinen kysymys:
+```{r firsteditions, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="430px", fig.show="hold"}
+for (catalogue in c("Fennica", "Kungliga")) {
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue) %>%
+	filter(publication_year >= 1640 & publication_year <= 1828)
 
-https://github.com/rOpenGov/fennica/blob/master/inst/examples/publicationyear.md
+df <- df %>% group_by(publication_decade) %>%
+             summarise(n = sum(first_edition, na.rm = TRUE))
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n)) +
+       geom_point(size = 5) +
+       geom_smooth(col = "black") + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("First editions per decade (", catalogue, ")", sep = ""))
+print(p)
+}
+```
 
 
 Overall development in publishing activity:
@@ -237,7 +361,9 @@ Comparison of printing activity in Turku, Uppsala, Lund, and
 Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta
 ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim
 miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen
-julkaisukenttään 1600-luvun aikana. I can provide percentages instead
+julkaisukenttään 1600-luvun aikana.
+
+I can provide percentages instead
 of counts, or paper consumption estimates (not reliable yet, though),
 barplots, selected time spans, selected places etc.. just let me know
 what is needed.
@@ -505,13 +631,15 @@ Kungliga publications outside Sweden and Finland.
 
 ### Book printing in Finland 
 
-mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä
+Mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä
 löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä
 vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin
 vähäistä tarkastellulla ajanjaksolla.
 
 
 BOOKINFINLAND-TODO1: Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen. Tarkoituksena tarkkailla miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.). Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva. Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
+
+
 
 BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
 
