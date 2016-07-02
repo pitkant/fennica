@@ -1076,7 +1076,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = paper)) +
 print(p)
 ```
 
-
+PUBLISHER-TODO: julkaisijakuvat jotka edellä, samat kuin Fennica Kungligalle.
 
 Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Top-5
 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset
@@ -1120,6 +1120,7 @@ for (pn in names(x)) {
   write_xtable(x[[pn]], file = paste(output.folder, "subjecttopics", fnam, ".tab", sep = ""))
 }
 ```
+PUBLISHER-TODO: julkaisijakuvat jotka edellä, samat kuin Fennica Kungligalle.
 
 
 **Londicer versus Frencell** “Siinä missä Londicer 1700-luvun Vaasassa
