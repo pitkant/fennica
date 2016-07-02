@@ -60,7 +60,7 @@ The drop in Fennica is explained largely by Great Nortern War (1700-1721). The w
 
 The following figure highlights publisher title count changes around 1700 drop in Turku, the most significant publishing place at the time:
 
-<img src="figure_201606_Krakow/drop1700B-1.png" width="280px" />
+![](figure_201606_Krakow/drop1700B-1.png)
 
 Here the same for the complete Fennica:
 

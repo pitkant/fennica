@@ -166,7 +166,7 @@ The drop in Fennica is explained largely by Great Nortern War (1700-1721). The w
 
 The following figure highlights publisher title count changes around 1700 drop in Turku, the most significant publishing place at the time:
 
-```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
+```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
 catalogue <- "Fennica"
 place <- "Turku"
 
@@ -227,7 +227,7 @@ TODO: try check duplicates. Clustering with identical place, identical year, nea
 
 Paper per title count ratio per publisher. [nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).]
 
-```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="430px", fig.show="hold"}
+```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
 
 df <- df0
@@ -270,7 +270,7 @@ print(p)
 
 Top-author timelines. Putsaus ok (näistä tsekattu, että ei löydy ainakaan isoa määrää laskuista puuttuvia nimivariantilla julkaistuja teoksia). Kungligassa väitöskirjat näyttelevät huomattavasti pienempää osaa kuin Fennicassa. Näkyy näistä top-auktori kuvista.
  
-```{r summaryTop10authorstimeline, fig.height=10, fig.width=20, echo=FALSE, fig.show="hold", out.width="430px"}
+```{r summaryTop10authorstimeline, fig.height=6, fig.width=10, echo=FALSE, fig.show="hold", out.width="430px"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue)
