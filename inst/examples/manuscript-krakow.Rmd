@@ -1051,7 +1051,7 @@ print(p)
 ```
 
 
-
+PUBLISHER-TODO NEXT: julkaisioiden osalta  Kungligan aineiston osalta samat analyysit Tukholmasta, Lundista, Uppsalasta ja Gerifswaldista. Tämä mahdollistaa Turun sijoittamisen kontekstiin.
 
 
 
