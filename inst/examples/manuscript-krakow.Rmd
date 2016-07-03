@@ -772,7 +772,7 @@ print(p)
 Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva.
 
 
-```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
+```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
 for (catalogue in c("Fennica", "Kungliga")) {
 
@@ -838,13 +838,238 @@ print(p)
 
 
 
-BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
+BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
 
-virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat	  
+NOTE: Kungliga is missing those subject topics hence skipped.
 
-Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys (sitten kun mahdollista).
 
-Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
+1. General analysis with all documents combined:
+
+```{r topics, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
+# TITLE COUNT
+catalogue <- "Fennica"
+
+  if (catalogue == "Fennica") {
+    df <- df.full # full time span
+  } else if (catalogue == "Kungliga") {
+    df <- df0 # selected time span
+  }
+
+  df <- df %>% filter(catalog == catalogue & subject_topic %in% sel)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+dfl <- NULL
+
+for (lan in lang) {
+
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  dflsub$language <- gsub("language.", "", lan)
+  dfl <- bind_rows(dfl, dflsub)
+  
+}
+dfl$language <- factor(dfl$language, levels = langs)
+
+df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+```
+
+
+
+2. Selected publication places
+
+
+```{r topics.per.place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
+
+for (place in c("Turku", "Stockholm", "Vaasa")) {
+catalogue <- "Fennica"
+
+  if (catalogue == "Fennica") {
+    df <- df.full # full time span
+  } else if (catalogue == "Kungliga") {
+    df <- df0 # selected time span
+  }
+
+  sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(catalog == catalogue & hit & publication_place == place)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+dfl <- NULL
+
+for (lan in lang) {
+
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+dfl$language <- factor(dfl$language, levels = langs)
+
+df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+df$language <- factor(df$language, levels = names(table(df$language)))
+
+# TITLE COUNT
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+}
+```
+
+
+3. Top publishers
+
+```{r topics.per.publisher, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
+
+tops <-  names(top(fen, "publisher", 5))
+
+for (publ in tops) {
+catalogue <- "Fennica"
+
+  if (catalogue == "Fennica") {
+    df <- df.full # full time span
+  } else if (catalogue == "Kungliga") {
+    df <- df0 # selected time span
+  }
+
+  sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
+
+  df <- df %>% filter(catalog == catalogue & publisher == publ)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+dfl <- NULL
+
+for (lan in lang) {
+
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+dfl$language <- factor(dfl$language, levels = langs)
+
+df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+df$language <- factor(df$language, levels = names(table(df$language)))
+
+# TITLE COUNT
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+}
+
+```
+
+
 
 
 

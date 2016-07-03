@@ -139,13 +139,21 @@ Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Tä
 
 <img src="figure_201606_Krakow/language-sel-1.png" width="430px" /><img src="figure_201606_Krakow/language-sel-2.png" width="430px" /><img src="figure_201606_Krakow/language-sel-3.png" width="430px" /><img src="figure_201606_Krakow/language-sel-4.png" width="430px" />
 
-BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista:
+BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
-virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat
+NOTE: Kungliga is missing those subject topics hence skipped.
 
-Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia: 1) yleinen, 2) paikkakunta sekä 3) julkaisijakohtainen kehitys (sitten kun mahdollista).
+1.  General analysis with all documents combined:
 
-Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
+<img src="figure_201606_Krakow/topics-1.png" width="430px" /><img src="figure_201606_Krakow/topics-2.png" width="430px" />
+
+1.  Selected publication places
+
+<img src="figure_201606_Krakow/topics.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics.per.place-6.png" width="430px" />
+
+1.  Top publishers
+
+<img src="figure_201606_Krakow/topics.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-10.png" width="430px" />
 
 BOOKINFINLAND-TODO3: Sama kuin edellä, mutta asiasanat tässä:
 
