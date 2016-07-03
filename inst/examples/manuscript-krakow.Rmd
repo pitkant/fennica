@@ -1476,7 +1476,31 @@ for (place in c("Turku", "Uppsala")) {
 }
 ```
 
+### BOOKINFINLAND-5
 
+Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoida yliopisto-opetuksen muutosta. Kokonaismäärät ja kielikohtaiset vaihtelut kiinnostavat. 
+
+i) kirkkohistoria;raamatunhistoria;eksegetiikka;homiletiikka;dogmatiikka;teologia
+
+ii) oppihistoria;antiikki;historia
+
+iii) filosofia;luonnonfilosofia;metafysiikka;logiikka
+
+iv) luonnontieteet;matematiikka;fysiikka;kemia;tähtitiede;maantiede;geodesia;geofysiikka;meteorologia
+
+v) retoriikka;poetiikka;kielitiede;kielioppi
+
+vi) heprean kieli;kreikan kieli;latinan kieli
+
+vii) psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus
+
+viii) luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen;maanviljely;maatalous;kalastus
+
+ix) naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt
+
+x) etsintäkuulutukset;rikokset;oikeus;rangaistukset
+
+Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
 
 ### Book as media: development over time
 
