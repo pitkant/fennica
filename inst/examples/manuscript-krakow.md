@@ -139,7 +139,9 @@ Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Tä
 
 <img src="figure_201606_Krakow/language-sel-1.png" width="430px" /><img src="figure_201606_Krakow/language-sel-2.png" width="430px" /><img src="figure_201606_Krakow/language-sel-3.png" width="430px" /><img src="figure_201606_Krakow/language-sel-4.png" width="430px" />
 
-BOOKINFINLAND-DONE2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
+### BOOKINFINLAND-DONE2
+
+Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
 NOTE: Kungliga is missing those subject topics hence skipped.
 
@@ -155,25 +157,63 @@ Same with top publishers
 
 <img src="figure_201606_Krakow/topics.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-10.png" width="430px" />
 
-BOOKINFINLAND-TODO3: Sama kuin edellä, mutta asiasanat tässä:
+### BOOKINFINLAND-DONE3
 
-hautajaiset;häät;juhlamenot
+Sama kuin edellä, mutta asiasanat tässä: hautajaiset;häät;juhlamenot
 
-BOOKINFINLAND-TODO4: edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli:
+General analysis with all documents combined:
 
-virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
+<img src="figure_201606_Krakow/topics2-1.png" width="430px" /><img src="figure_201606_Krakow/topics2-2.png" width="430px" />
+
+Same with selected publication places:
+
+<img src="figure_201606_Krakow/topics2.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-6.png" width="430px" />
+
+Same with top publishers
+
+<img src="figure_201606_Krakow/topics2.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-10.png" width="430px" />
+
+### BOOKINFINLAND-DONE4
+
+edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
 
 Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
 
-BOOKINFINLAND-TODO4
+General analysis with all documents combined:
+
+<img src="figure_201606_Krakow/topics3-1.png" width="430px" /><img src="figure_201606_Krakow/topics3-2.png" width="430px" />
+
+Same with selected publication places:
+
+<img src="figure_201606_Krakow/topics3.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-6.png" width="430px" />
+
+Same with top publishers
+
+<img src="figure_201606_Krakow/topics3.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-10.png" width="430px" />
+
+### BOOKINFINLAND-DONE4
 
 Kielikohtainen vertailu myös lääketieteen osalta. Ajatuksena tässä on, että hartauskirjallisuutta on hyvä verrata tiedejulkaisemiseen. 1800-luvun jukisuuteen kuuluu vahvasti tarina kansallisista tieteista (historia, suomen kieli, folkloristiikka jne), ja niissä suomenkielen nusu on aika hyvin selvitetty juttu. Sama koskee tiedejulkaisemista, mutta siinä argumentit olivat erilaiset. Tästä on Katja Huumon väitöskirja ”Perkeleen kieli”, jossa käydään laadullisen tutkimuksen kautta tieteen kielikiistoja 1800-luvulla. Ajattelen, että lääketieteen osalta asiasanat ovat ehkä kaikkein luotettavimmat, joten voisi tarkastella lääketiedettä ja verrata siihen hartauskirjallisuuteen. Hartauskirjallisuuden osaltahan pyrkimys suomeksi julkaisemiseen oli kovin vahva koska se tieto oli kansalle tärkeää. Lääketieteellinenkin tieto kansallistettiin, mutta myöhemmin.
 
 Eli: Fennicasta kaikki kirjallisuus, jossa asiasana lääketiede (muut lääkeaiheiset eivät välttämättä kuulu tähän, noita on muuten kummallisen vähän). Tätä pitää jatkaa mielellään vuoteen 1900 asti, tai ainakin yhtää pitkälle kuin hartauskirjojakin.
 
-Myös kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla.
+Title count for different places. Fennica, no time limit.
+
+    ## 
+    ##       Jena      Pärnu  Stockholm Wittenberg  Göttingen Greifswald 
+    ##          1          1          1          1          2          2 
+    ##     Leiden       Lund      Tartu    Uppsala      Turku 
+    ##          2          2          7         40        104
+
+General analysis with all documents combined:
+
+<img src="figure_201606_Krakow/topics4-1.png" width="430px" /><img src="figure_201606_Krakow/topics4-2.png" width="430px" />
+
+Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla.
 
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
+
+<img src="figure_201606_Krakow/topics4.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-4.png" width="430px" />
 
 ### Book as media: development over time
 
@@ -215,17 +255,15 @@ Number of unique publishers in top publication places over time:
 
 ![](figure_201606_Krakow/publishers2-finland-1.png)
 
-**PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing profile (title count and paper consumption) over time.
+**PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing profile (title count and paper consumption) over time. DONE: now also added for Kungliga.
 
 Title count per top publisher (two alternative visualizations):
 
-![](figure_201606_Krakow/publishers3-finland-1.png)![](figure_201606_Krakow/publishers3-finland-2.png)
+![](figure_201606_Krakow/publishers3-finland-1.png)![](figure_201606_Krakow/publishers3-finland-2.png)![](figure_201606_Krakow/publishers3-finland-3.png)![](figure_201606_Krakow/publishers3-finland-4.png)
 
 Paper consumption per top publisher (two alternative visualizations):
 
-![](figure_201606_Krakow/publishers4-finland-1.png)![](figure_201606_Krakow/publishers4-finland-2.png)
-
-PUBLISHER-TODO: julkaisijakuvat jotka edellä, samat kuin Fennica Kungligalle.
+![](figure_201606_Krakow/publishers4-finland-1.png)![](figure_201606_Krakow/publishers4-finland-2.png)![](figure_201606_Krakow/publishers4-finland-3.png)![](figure_201606_Krakow/publishers4-finland-4.png)
 
 Tärkeänä kysymyksenä on mitä eri julkaisijat julkaisee. Top-5 julkaisijoista voisi tuottaa julkaisujen yhteiset, julkaisijakohtaiset asiasanalistat (mitä asiasanoja yhden julkaisijan kaikista töistä löytyy) jotka voitaisiin sitten käsin ryhmitellä isompiin kategorioihin (esim. yliopistojulkaisu, uskonnollinen teksti, säädökset, kaunokirjallinen ja muut (tai vast.)). Näin pystyttäisiin puhumaan siitä minkälainen julkaisija on kyseessä, muuttuuko profiili asiasanojen esiintymisen mukaan aikajanalla sekä nähdä onko julkaisijoiden kohdalla tässä mitään eroja.
 
