@@ -838,34 +838,31 @@ print(p)
 
 
 
-BOOKINFINLAND-TODO2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
+BOOKINFINLAND-DONE2: Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
 
 NOTE: Kungliga is missing those subject topics hence skipped.
 
-
-1. General analysis with all documents combined:
+General analysis with all documents combined:
 
 ```{r topics, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
-# TITLE COUNT
+sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
-
   if (catalogue == "Fennica") {
     df <- df.full # full time span
   } else if (catalogue == "Kungliga") {
     df <- df0 # selected time span
   }
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 
-  df <- df %>% filter(catalog == catalogue & subject_topic %in% sel)
+# Selected catalogue with selected topics
+df <- df %>% filter(catalog == catalogue & hit)
 
 langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-
 dfl <- NULL
-
 for (lan in lang) {
-
   # Classify a document to the specifed language
   # If document is assigned with languages, each case is considered
   # so one doc may have multiple entries corresponding to different languages
@@ -874,14 +871,16 @@ for (lan in lang) {
   dflsub <- filter(df, df[[lan]])
   dflsub$language <- gsub("language.", "", lan)
   dfl <- bind_rows(dfl, dflsub)
-  
 }
 dfl$language <- factor(dfl$language, levels = langs)
+
+# -------------------------------------------
 
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
+# TITLE COUNT
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
        #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
@@ -912,52 +911,21 @@ print(p)
 
 
 
-2. Selected publication places
+Same with selected publication places:
 
 
 ```{r topics.per.place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
 
 for (place in c("Turku", "Stockholm", "Vaasa")) {
-catalogue <- "Fennica"
 
-  if (catalogue == "Fennica") {
-    df <- df.full # full time span
-  } else if (catalogue == "Kungliga") {
-    df <- df0 # selected time span
-  }
+ df <- dfl %>% filter(publication_place == place)
 
-  sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(catalog == catalogue & hit & publication_place == place)
-
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-
-dfl <- NULL
-
-for (lan in lang) {
-
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-dfl$language <- factor(dfl$language, levels = langs)
-
-df <- dfl %>% group_by(publication_decade, language) %>%
+ df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-df$language <- factor(df$language, levels = names(table(df$language)))
-
+ df$language <- factor(df$language, levels = names(table(df$language)))
+ 
 # TITLE COUNT
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
@@ -990,52 +958,19 @@ print(p)
 ```
 
 
-3. Top publishers
+Same with top publishers
 
 ```{r topics.per.publisher, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
-
 tops <-  names(top(fen, "publisher", 5))
 
 for (publ in tops) {
-catalogue <- "Fennica"
 
-  if (catalogue == "Fennica") {
-    df <- df.full # full time span
-  } else if (catalogue == "Kungliga") {
-    df <- df0 # selected time span
-  }
+  df <- dfl %>% filter(publisher == publ)
 
-  sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-  df <- df %>% filter(catalog == catalogue & publisher == publ)
-
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-
-dfl <- NULL
-
-for (lan in lang) {
-
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-dfl$language <- factor(dfl$language, levels = langs)
-
-df <- dfl %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-df$language <- factor(df$language, levels = names(table(df$language)))
+  df$language <- factor(df$language, levels = names(table(df$language)))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1066,10 +1001,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
 print(p)
 
 }
-
 ```
-
-
 
 
 
@@ -1077,6 +1009,21 @@ print(p)
 BOOKINFINLAND-TODO3: Sama kuin edellä, mutta asiasanat tässä:
 
 hautajaiset;häät;juhlamenot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 BOOKINFINLAND-TODO4: edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli:
 
