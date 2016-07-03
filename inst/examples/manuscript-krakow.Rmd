@@ -234,7 +234,7 @@ TODO: try check duplicates. Clustering with identical place, identical year, nea
 
 Paper per title count ratio per publisher. [nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).]
 
-```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
+```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
 
 df <- df0
@@ -277,7 +277,7 @@ print(p)
 
 Top-author timelines. Putsaus ok (näistä tsekattu, että ei löydy ainakaan isoa määrää laskuista puuttuvia nimivariantilla julkaistuja teoksia). Kungligassa väitöskirjat näyttelevät huomattavasti pienempää osaa kuin Fennicassa. Näkyy näistä top-auktori kuvista.
  
-```{r summaryTop10authorstimeline, fig.height=6, fig.width=10, echo=FALSE, fig.show="hold", out.width="430px"}
+```{r summaryTop10authorstimeline, fig.height=4, fig.width=10, echo=FALSE, fig.show="hold", out.width="430px"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue)
@@ -642,11 +642,10 @@ löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä
 vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin
 vähäistä tarkastellulla ajanjaksolla.
 
-
 Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen.
 
 
-```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px"}
+```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
 for (catalogue in c("Fennica", "Kungliga")) {
 
@@ -712,7 +711,7 @@ print(p)
 Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
 
-```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px"}
+```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
 for (catalogue in c("Fennica", "Kungliga")) {
 
@@ -773,7 +772,7 @@ print(p)
 Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva.
 
 
-```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px"}
+```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
 for (catalogue in c("Fennica", "Kungliga")) {
 
