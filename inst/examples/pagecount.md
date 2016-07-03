@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-02"
+date: "2016-07-03"
 output: markdown_document
 ---
 
@@ -27,7 +27,7 @@ output: markdown_document
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (shown only for the 642 documents that have missing pagecount info in the original data):
 
-<img src="figure/size-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/size-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 <!--
@@ -52,6 +52,6 @@ Multi-volume documents average page counts are given per volume.
 |64mo          |               117.33|                  128.0|           6|NA                  |NA                    |         NA|               NA|                 NA|      NA|
 |NA            |                48.32|                    8.0|         558|NA                  |NA                    |         NA|               60|                 60|      10|
 
-![plot of chunk size-pagecountsmulti2](figure/size-size-pagecountsmulti2-1.png)
+![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
 
 -->
