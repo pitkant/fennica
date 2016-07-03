@@ -1434,7 +1434,7 @@ print(p)
 
 
 
-Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla.
+Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.
 
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
 
@@ -1593,6 +1593,7 @@ for (catal in unique(df0$catalog)) {
   print(p)
 }
 ```
+
 Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) kertoo Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
 
 Paper consumption in selected places (Fennica):
@@ -1639,9 +1640,9 @@ print(p)
 
 ### Dynamics and evolution of publisher networks
 
-DONE1: Observed trends in Fennica regarding Finnish knowledge
-production 1640-1828, focusing on the appearance of new publishers on
-the publishing landscape.
+Observed trends in Fennica regarding Finnish knowledge production
+1640-1828, focusing on the appearance of new publishers on the
+publishing landscape.
 
 How new publishers appear and disappear from the Finnish publishing
 landscape. We have analyzed the number of unique publication places
@@ -1660,7 +1661,7 @@ df$Finland <- (df$country == "Finland")
 
 df <- df %>%
         filter(catalog == "Fennica" & !is.na(Finland)) %>%
-        filter(publication_year >= 1640 & publication_year < 1828) %>%	
+        filter(publication_year >= 1640 & publication_year <= 1828) %>%	
         select(publisher, publication_decade, Finland)
 npub <- unique(df) %>% group_by(publication_decade, Finland) %>% tally()
 theme_set(theme_bw(20))
@@ -1679,7 +1680,7 @@ print(p)
 df <- df0
 df <- df %>%
         filter(catalog == "Fennica" & country == "Finland") %>%
-        filter(publication_year >= 1640 & publication_year < 1828) %>%	
+        filter(publication_year >= 1640 & publication_year <= 1828) %>%	
         select(publication_decade, publication_place)
 npub <- unique(df) %>% group_by(publication_decade) %>% tally()
 theme_set(theme_bw(20))
@@ -1698,13 +1699,13 @@ print(p)
 
 
 
-Number of unique publishers in top publication places over time:
+Number of unique publishers in top publication places over time (Fennica):
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
 df <- df %>%
         filter(catalog == "Fennica" & country == "Finland") %>%
-        filter(publication_year >= 1640 & publication_year < 1828)
+        filter(publication_year >= 1640 & publication_year <= 1828)
 
 # Top publication places
 ntop <- 10
@@ -1730,10 +1731,44 @@ print(p)
 ```
 
 
+Number of unique publishers in selected publication places over time
+(Kungliga). [Julkaisijoiden osalta Kungligan aineiston osalta samat
+analyysit Tukholmasta, Lundista, Uppsalasta ja Greifswaldista. Tämä
+mahdollistaa Turun sijoittamisen kontekstiin.]
+
+
+```{r publishers2-kungliga, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+df <- df0
+catalogue <- "Kungliga"
+df <- df %>%
+        filter(catalog == catalogue) %>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
+
+# Selected publication places
+top <- c("Stockholm", "Lund", "Uppsala", "Greifswald")
+df <- df %>%	
+        filter(publication_place %in% top) %>%	
+        select(publication_decade, publication_place, publisher)
+	
+npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
+npub$publication_place <- factor(npub$publication_place, levels = top)
+theme_set(theme_bw(20))
+
+p <- ggplot(npub, aes(x = publication_decade, y = n)) +
+       geom_bar(stat = "identity", position = "stack", aes(fill = publication_place)) + 
+       xlab("Publication year") +
+       ylab("Unique publishers (n)") +        
+       ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
+print(p)
+```
+
+
+
 
 
 **PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing
-  profile (title count and paper consumption) over time. DONE: now also added for Kungliga.
+  profile (title count and paper consumption) over time. DONE: now
+  also added for Kungliga.
 
 
 Title count per top publisher (two alternative visualizations):
@@ -1925,7 +1960,7 @@ catalogue <- "Fennica"
 df <- df0
 df <- df %>%
         filter(catalog == catalogue) %>%
-        filter(publication_year >= 1640 & publication_year < 1828)
+        filter(publication_year >= 1640 & publication_year <= 1828)
 
 # Selected ones
 top <- names(top(df, "publisher", 5))
@@ -1941,15 +1976,13 @@ for (pn in names(x)) {
 ```
 
 
-PUBLISHER-TODO: julkaisijakuvat jotka edellä, samat kuin Fennica Kungligalle.
-
 
 **Londicer versus Frencell** “Siinä missä Londicer 1700-luvun Vaasassa
      näyttää aina julkaisseen asetukset jonkinlaisena
      kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli
      yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa
      näyttää suurelta verrattuna Londiceriin, mutta itse asiassa
-     sisältömäärä on sama”.  → Tätä hypoteesia voidaan yrittää
+     sisältömäärä on sama”.  Tätä hypoteesia voidaan yrittää
      todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos
      verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja
      julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
@@ -1961,7 +1994,7 @@ catalogue <- "Fennica"
 df <- df0
 df <- df %>%
         filter(catalog == catalogue) %>%
-        filter(publication_year >= 1750 & publication_year < 1828)
+        filter(publication_year >= 1750 & publication_year <= 1828)
 
 df <- df %>%	
         select(publication_decade, publisher, paper.consumption.km2)
@@ -1980,23 +2013,15 @@ npub <- df %>%
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_decade, y = n, group = publisher)) +
        geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
-       #geom_point(size = 5, aes(shape = publisher)) +
-       #geom_line(col = "black", aes(shape = publisher)) +       
-       # geom_smooth(col = "black", aes(shape = publisher)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +        
        ggtitle(paste("Title count (", catalogue, ")", sep = ""))
 print(p)
 
 
-
-
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_decade, y = paper, group = publisher)) +
        geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
-       #geom_point(size = 5, aes(shape = publisher)) +
-       #geom_line(col = "black", aes(shape = publisher)) +       
-       # geom_smooth(col = "black", aes(shape = publisher)) + 
        xlab("Publication year") +
        ylab("Paper") +        
        ggtitle(paste("Paper (", catalogue, ")", sep = ""))
@@ -2004,35 +2029,35 @@ print(p)
 ```
 
 
-PUBLISHER-TODO NEXT: julkaisioiden osalta  Kungligan aineiston osalta samat analyysit Tukholmasta, Lundista, Uppsalasta ja Gerifswaldista. Tämä mahdollistaa Turun sijoittamisen kontekstiin.
 
+**PUBLISHER-TODO** (jos ehtii)
 
+  * Fennican julkaisijoita voisi myös laajemmin yrittää luokitella
+    suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen
+    vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen
+    määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla
+    olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa
+    kehitystä. Vertailua suurimpien julkaisijoiden kesken.
 
-PUBLISHER-TODO(jos ehtii): Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”,
-“keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin
-jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin
-suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
+  * AJATUKSIA: Julkaisijoiden ilmentyminen kartalle
+    paperinkulutusvoluumi huomioiden: julkaisutoiminnan leviäminen ja
+    kasvu ajassa eri paikkakunnilla. Paperinkulutus voi osoittautua
+    hyväksi työvälineeksi erityisesti kun tiedetään, että toiset isot
+    julkaisijat julkaisivat esim. jotain asetuskokoelmia yksittäin ja
+    toiset taas ryppäinä. Eli julkaisijoiden sisällä erottelua eri
+    tyyppisten julkaisujen suhteen pitää tehdä.
 
-AJATUKSIA: Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden:
-julkaisutoiminnan leviäminen ja kasvu ajassa eri
-paikkakunnilla. Paperinkulutus voi osoittautua hyväksi työvälineeksi
-erityisesti kun tiedetään, että toiset isot julkaisijat julkaisivat
-esim. jotain asetuskokoelmia yksittäin ja toiset taas ryppäinä. Eli
-julkaisijoiden sisällä erottelua eri tyyppisten julkaisujen suhteen
-pitää tehdä.
-
-PUBLISHER-TODO (jos ehtii): Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen
-miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös
-yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden
-perusteella voidaan varmaankin erotella yliopistojulkaiseminen,
-asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen
-auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut
-julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä
-(valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää
-myös asiasanojen ja otsikoiden analyysia). [OK monenlaista voidaan
-tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä
-prioriteetti?]
-
+  * Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet”
+    siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi
+    myös yrittää luokitella eniten käytettyjen asiasanojen
+    mukaan. Näiden perusteella voidaan varmaankin erotella
+    yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja
+    kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat,
+    yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden
+    ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja
+    yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja
+    otsikoiden analyysia). [OK monenlaista voidaan tehdä, onko tämä
+    asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?]
 
 
 ### University publishing

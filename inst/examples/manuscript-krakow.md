@@ -209,7 +209,7 @@ General analysis with all documents combined:
 
 <img src="figure_201606_Krakow/topics4-1.png" width="430px" /><img src="figure_201606_Krakow/topics4-2.png" width="430px" />
 
-Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla.
+Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.
 
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
 
@@ -235,7 +235,9 @@ The development of book formats over time. Folios (1to ja 2to) are largely missi
 
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing.
 
-<img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" /> Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) kertoo Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
+<img src="figure_201606_Krakow/LIBER-13-1.png" width="430px" /><img src="figure_201606_Krakow/LIBER-13-2.png" width="430px" />
+
+Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) kertoo Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
 
 Paper consumption in selected places (Fennica):
 
@@ -243,7 +245,7 @@ Paper consumption in selected places (Fennica):
 
 ### Dynamics and evolution of publisher networks
 
-DONE1: Observed trends in Fennica regarding Finnish knowledge production 1640-1828, focusing on the appearance of new publishers on the publishing landscape.
+Observed trends in Fennica regarding Finnish knowledge production 1640-1828, focusing on the appearance of new publishers on the publishing landscape.
 
 How new publishers appear and disappear from the Finnish publishing landscape. We have analyzed the number of unique publication places and unique publishers in terms of title count and paper consumption over Finland in general, and more specifically within the top publication places over time.
 
@@ -251,9 +253,13 @@ Number of unique publishers per decade in Finland and elsewhere (based on the Fe
 
 <img src="figure_201606_Krakow/publishers-finland-1.png" width="430px" /><img src="figure_201606_Krakow/publishers-finland-2.png" width="430px" />
 
-Number of unique publishers in top publication places over time:
+Number of unique publishers in top publication places over time (Fennica):
 
 ![](figure_201606_Krakow/publishers2-finland-1.png)
+
+Number of unique publishers in selected publication places over time (Kungliga). \[Julkaisijoiden osalta Kungligan aineiston osalta samat analyysit Tukholmasta, Lundista, Uppsalasta ja Greifswaldista. Tämä mahdollistaa Turun sijoittamisen kontekstiin.\]
+
+![](figure_201606_Krakow/publishers2-kungliga-1.png)
 
 **PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing profile (title count and paper consumption) over time. DONE: now also added for Kungliga.
 
@@ -275,19 +281,17 @@ OK, see lists for
 -   [Londicer Georg Wilhelm](output.tables/subjecttopicsLondicer_Georg_Wilhelm.tab)
 -   [Wall Johan Larsson](output.tables/subjecttopicsWall_Johan_Larsson.tab)
 
-PUBLISHER-TODO: julkaisijakuvat jotka edellä, samat kuin Fennica Kungligalle.
-
 **Londicer versus Frencell** “Siinä missä Londicer 1700-luvun Vaasassa näyttää aina julkaisseen asetukset jonkinlaisena kokoomapainoksena, mutta Frenckellin kirjapainosta ne tuli yksitellen. Siten Frenckellin julkaisemien niteiden määrä saattaa näyttää suurelta verrattuna Londiceriin, mutta itse asiassa sisältömäärä on sama”. → Tätä hypoteesia voidaan yrittää todentaa/tarkistaa/korjata kun mukana on paperinkulutus. Eli jos verrataan Londicer ja Frenckell paperinkulutusta vuositasolla ja julkaisujen määrää, niin tästä pitäisi pystyä sanomaan jotain.
 
 ![](figure_201606_Krakow/publishers5-finland-1.png)![](figure_201606_Krakow/publishers5-finland-2.png)
 
-PUBLISHER-TODO NEXT: julkaisioiden osalta Kungligan aineiston osalta samat analyysit Tukholmasta, Lundista, Uppsalasta ja Gerifswaldista. Tämä mahdollistaa Turun sijoittamisen kontekstiin.
+**PUBLISHER-TODO** (jos ehtii)
 
-PUBLISHER-TODO(jos ehtii): Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
+-   Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
 
-AJATUKSIA: Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden: julkaisutoiminnan leviäminen ja kasvu ajassa eri paikkakunnilla. Paperinkulutus voi osoittautua hyväksi työvälineeksi erityisesti kun tiedetään, että toiset isot julkaisijat julkaisivat esim. jotain asetuskokoelmia yksittäin ja toiset taas ryppäinä. Eli julkaisijoiden sisällä erottelua eri tyyppisten julkaisujen suhteen pitää tehdä.
+-   AJATUKSIA: Julkaisijoiden ilmentyminen kartalle paperinkulutusvoluumi huomioiden: julkaisutoiminnan leviäminen ja kasvu ajassa eri paikkakunnilla. Paperinkulutus voi osoittautua hyväksi työvälineeksi erityisesti kun tiedetään, että toiset isot julkaisijat julkaisivat esim. jotain asetuskokoelmia yksittäin ja toiset taas ryppäinä. Eli julkaisijoiden sisällä erottelua eri tyyppisten julkaisujen suhteen pitää tehdä.
 
-PUBLISHER-TODO (jos ehtii): Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia). \[OK monenlaista voidaan tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?\]
+-   Julkaisijoista tehtävä verkostoanalyysi. keskeisimmät “nodet” siihen miten julkaisijakenttä muuttuu ajassa. Julkaisijoita voisi myös yrittää luokitella eniten käytettyjen asiasanojen mukaan. Näiden perusteella voidaan varmaankin erotella yliopistojulkaiseminen, asiakirja/asetusjulkaiseminen ja kirjajulkaiseminen. Tämän jälkeen auktorit, valtioasiakirjat, yliopistodokumentit, kirjat ja muut julkaisut kategoroina joiden ympärille verkostoanalyysi voisi syntyä (valtionasiakirjojen ja yliopisto-aineiston luokittelu voisi yhdistää myös asiasanojen ja otsikoiden analyysia). \[OK monenlaista voidaan tehdä, onko tämä asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?\]
 
 ### University publishing
 
