@@ -43,14 +43,20 @@ min.year <- 1488
 max.year <- 1828
 
 # Read data
-fen <- readRDS("df.Rds")
-kun <- readRDS("../../../kungliga/df.Rds")
+fen0 <- readRDS("df.Rds")
+kun0 <- readRDS("../../../kungliga/df.Rds")
 
 fenraw <- readRDS("df.raw.Rds")
 kunraw <- readRDS("../../../kungliga/df.raw.Rds")
 
-fen <- fen %>% filter(publication_year >= min.year & publication_year <= max.year)
-kun <- kun %>% filter(publication_year >= min.year & publication_year <= max.year)
+fen <- fen0 %>% filter(publication_year >= min.year & publication_year <= max.year)
+kun <- kun0 %>% filter(publication_year >= min.year & publication_year <= max.year)
+
+# Full time span
+df.full = bind_rows(fen0, kun0)
+df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0))))
+
+# Selected time spam
 df0 = bind_rows(fen, kun)
 df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 ```
@@ -64,13 +70,14 @@ TODO-järjestyksestä:
 
 Tärkein ASAP tehtävä on **Publisher analysis**
 
-Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Lisäksi tuolla paljon näistä riippumattomia (kuin myös näistä riippuvia) analyysiajatuksia.
+Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja
+PUBLISHER-TODO2. Lisäksi löytyy muita ajatuksia.
 
-Muiden osalta (eli sellaisista joita voi tehdä jo nyt ilman publisher kenttää), järjestys voisi olla: **Book printing in Finland** - kohdasta
+Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book printing in Finland** - kohdasta
   * BOOKINFINLAND-TODO1 ja
   * BOOKINFINLAND-TODO2.
 
-Eli ehdottaisin että analyysivaihe johon nyt siirrytään, aloita BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu varmasti loppuun, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+Eli aloita BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
 
 ## Introduction 
@@ -292,7 +299,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 ```
 
 
-Fennica yhteenvedoissa on myös EDITIONS kohta. Siellä ei kuitenkaan ole mitään kuvia. Olisiko ne mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia:
+Fennica yhteenvedoissa on EDITIONS kohta. Kuvia mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia:
 
 ```{r firsteditions, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="430px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
@@ -405,7 +412,6 @@ Figure ...). See "Vapauden ajan valtiopäivät" from 1719 onwards ?
 In particular: Riksdag Stockholm 20 januari 1719 1 juni 1719; Stockholm 14 maj 1734 14 december 1734; Stockholm 21 februari 1765 21 oktober 1766; Norrköping & Stockholm 22 april 1769 5 februari 1770; Stockholm 19 juni 1771 12 september 1772; Gävle 26 januari 1792 24 februari 1792.
 
 The publishing of historical works in .. on a timeline highlighting the eras of the riksdagar (16..-16..).. 
-
 
 **Painovapaus**, 1766, räjähtääkö / kasvaako julkaiseminen merkittävästi
 ja miten tämä näkyy Tukholma vs. muu valtakunta (ml. Turku)?
@@ -637,7 +643,197 @@ vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin
 vähäistä tarkastellulla ajanjaksolla.
 
 
-BOOKINFINLAND-TODO1: Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen. Tarkoituksena tarkkailla miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.). Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva. Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. 
+Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen.
+
+
+```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px"}
+# TITLE COUNT
+for (catalogue in c("Fennica", "Kungliga")) {
+
+  df <- df0
+  df <- df %>% filter(catalog == catalogue)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+dfl <- NULL
+
+for (lan in lang) {
+
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  dflsub$language <- gsub("language.", "", lan)
+  dfl <- bind_rows(dfl, dflsub)
+  
+}
+dfl$language <- factor(dfl$language, levels = langs)
+
+df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       # geom_smooth(aes(col = language)) + 
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+}
+```
+
+
+Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
+
+
+```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px"}
+# TITLE COUNT
+for (catalogue in c("Fennica", "Kungliga")) {
+
+  if (catalogue == "Fennica") {
+    df <- df.full # full time span
+  } else if (catalogue == "Kungliga") {
+    df <- df0 # selected time span
+  }
+  
+  df <- df %>% filter(catalog == catalogue)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+dfl <- NULL
+
+for (lan in lang) {
+
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  dflsub$language <- gsub("language.", "", lan)
+  dfl <- bind_rows(dfl, dflsub)
+  
+}
+dfl$language <- factor(dfl$language, levels = langs)
+
+df <- dfl %>% group_by(publication_decade, language) %>%
+     	     summarise(n = n())
+
+# Calculate percentages
+dff <- spread(df, language, n, fill = 0)
+dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
+dff <- gather(dff, publication_decade);
+colnames(dff) <- c("publication_decade", "language", "f")
+# Order languages by title count over the complete time span 
+# (same ordering used with both catalogs)
+dff$language <- factor(dff$language, levels = langs)
+
+theme_set(theme_bw(20))
+p <- ggplot(dff, aes(x = publication_decade, y = f)) +
+     geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
+     xlab("Publication year") +
+     ylab("Title count frequency (%)") +
+     ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+}
+```
+
+
+Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva.
+
+
+```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=6, out.width="430px"}
+# TITLE COUNT
+for (catalogue in c("Fennica", "Kungliga")) {
+
+  df <- df0
+  df <- df %>% filter(catalog == catalogue)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+dfl <- NULL
+
+for (lan in lang) {
+
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  dflsub$language <- gsub("language.", "", lan)
+  dfl <- bind_rows(dfl, dflsub)
+  
+}
+dfl$language <- factor(dfl$language, levels = langs)
+
+df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+for (sel.lan in "German") {
+
+dfs <- filter(df, language == sel.lan)
+
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = publication_decade, y = n)) +
+       geom_point(size = 5) +
+       geom_line() +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Languages (", sel.lan, "/", catalogue, ")", sep = ""))       
+print(p)
+
+
+# PAPER CONSUMPTION
+
+theme_set(theme_bw(20))
+p <- ggplot(dfs, aes(x = publication_decade, y = paper)) +
+       geom_point(size = 5) +
+       geom_line() +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", sel.lan, "/", catalogue, ")", sep = ""))
+print(p)
+
+}
+}
+```
+
 
 
 
