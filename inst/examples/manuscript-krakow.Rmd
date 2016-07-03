@@ -2129,6 +2129,7 @@ joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku
 painotalo huomattavasti enemmän kuin toiset).
 
 
+
 ### Other points if the time allows
 
 Vertailukohtia CERListä tai sitten ehkä ESTCstä pitää ottaa Fennicalle
