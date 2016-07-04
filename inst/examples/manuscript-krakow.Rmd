@@ -1526,15 +1526,11 @@ for (catal in as.character(unique(df0$catalog))) {
   dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_decade, publication_place, country) %>% summarize(n = n(), paper = sum(paper.consumption.km2, na.rm = T))  %>% mutate(paper.per.document = paper/n)
 
   p <- ggplot(dfs, aes(x = publication_decade, y = paper.per.document)) +
-       geom_popuint(aes(color = publication_place, shape = publication_place)) +
+       geom_point(aes(color = publication_place, shape = publication_place)) +
        geom_line(aes(color = publication_place, linetype = publication_place)) +
        xlab("Title Count") + 
        ggtitle(paste("Paper consumption per document\n", catal)) +
        scale_y_log10() 
-  #p <- p + geom_text(aes(label = publication_place), size = 5)
-  #p <- p + xlab("Title Count") + ylab("Paper consumption (km2)")
-  #p <- p + scale_color_manual(values = c("darkgray", "black"))
-  #p <- p + guides(color = "none")
   print(p)	 
 }
 ```
@@ -1564,7 +1560,6 @@ for (catal in unique(df0$catalog)) {
   p <- p + xlab("Year")
   p <- p + ylab("Paper consumption (km2)")
   p <- p + scale_color_manual(values=c("black", "darkgray"))
-  # p <- p + guides(shape = "none") 
   p <- p + ggtitle(catal)
   print(p)
 }
