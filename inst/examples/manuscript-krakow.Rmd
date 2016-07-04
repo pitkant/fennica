@@ -1261,7 +1261,7 @@ print(p)
 
 
 
-### BOOKINFINLAND-DONE4
+### BOOKINFINLAND-DONE4 TODO:kielten viilaus, pätee myös BOOKINFINLAND-5. Nyt "other" kentästä pitäisi irrottaa relevantit. Nouseeko ranska esiin niin että sille kannattaisi laittaa oma analyysiviiva?
 
 edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
 
