@@ -1510,9 +1510,9 @@ v) retoriikka;poetiikka;kielitiede;kielioppi
 
 vi) heprean kieli;kreikan kieli;latinan kieli
 
-vii) psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus
+vii) psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus;maanviljely;maatalous;kalastus
 
-viii) luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen;maanviljely;maatalous;kalastus
+viii) luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen
 
 ix) naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt
 
