@@ -570,12 +570,13 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
 **DONE_Political events 1** Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1760-1780, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)? 
 
 
-```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="280px", fig.show="hold"}
 # TITLE COUNT
 sel.places = c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
 sel.years = c(1760, 1780)
 
 for (place in sel.places) {
+
 
 for (catalogue in c("Fennica", "Kungliga")) {
 
