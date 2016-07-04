@@ -8,15 +8,27 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 TODO-järjestyksestä:
 
-Tärkein ASAP tehtävä on **Publisher analysis**
+Selvensin alle (Publisher analysis kohtaan):
 
-Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja PUBLISHER-TODO2. Lisäksi löytyy muita ajatuksia.
+-   PUBLISHER-TODO1
+-   PUBLISHER-TODO2
+-   Lisäksi löytyy muita ajatuksia.
 
-Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book printing in Finland** - kohdasta \* BOOKINFINLAND-TODO1 ja \* BOOKINFINLAND-TODO2.
+Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book printing in Finland** - kohdasta
 
-Eli aloita BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+-   BOOKINFINLAND-TODO1
+-   BOOKINFINLAND-TODO2
 
-Lisäsin alle seuraavat TODO:t: TODO\_Political events 1, TODO\_Turku in Sweden 1, TODO\_Turku in Sweden 2, TODO\_Publisher analysis\_\#, TODO\_Publishing in Finland \# ja TODO\_Publishing in Finland\_kieliolosuhteet\_muualla 1. Ovatko nämä toteuttamiskelpoisia?
+Marjanen ja minä siivotaan samalla näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+
+Lisäsin alle seuraavat TODO:t (Ovatko nämä toteuttamiskelpoisia?):
+
+-   TODO\_Political events 1
+-   TODO\_Turku in Sweden 1
+-   TODO\_Turku in Sweden 2
+-   TODO\_Publisher analysis\_
+-   TODO\_Publishing in Finland
+-   TODO\_Publishing in Finland\_kieliolosuhteet\_muualla
 
 Introduction
 ------------
@@ -45,18 +57,20 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015a) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015b). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
 Results
 -------
 
-MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this?
+MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this? LL: yes we can rather easily add map visualization when it is clear what we like to present using maps. For instance the code we used for LIBER to visualize differences in publishing activity across UK can be reused (with different regions), also videos can be made for presentation if we like. But I would first focus on findings, and polish the visualizations later. I will try to look at maps somewhere this week. The less there are other todo points, the more there will be time for maps. If you like to see some result specifically on a map, please mark it so and I can check.
 
-Why Fennica has huge drop in 1700s? Do some publisher disappear (TODO)? Let us look at top publication places during the period 1650-1750 in Fennica:
+Why Fennica has huge drop in 1700s? Do some publisher disappear (see below for an answer..)
+
+Let us look at top publication places during the period 1650-1750 in Fennica:
 
 <img src="figure_201606_Krakow/drop1700-1.png" width="280px" /><img src="figure_201606_Krakow/drop1700-2.png" width="280px" /><img src="figure_201606_Krakow/drop1700-3.png" width="280px" /><img src="figure_201606_Krakow/drop1700-4.png" width="280px" /><img src="figure_201606_Krakow/drop1700-5.png" width="280px" /><img src="figure_201606_Krakow/drop1700-6.png" width="280px" />
 
@@ -85,7 +99,9 @@ Top-author timelines. Putsaus ok (näistä tsekattu, että ei löydy ainakaan is
 
 <img src="figure_201606_Krakow/summaryTop10authorstimeline-1.png" width="430px" /><img src="figure_201606_Krakow/summaryTop10authorstimeline-2.png" width="430px" />
 
-Fennica yhteenvedoissa on EDITIONS kohta. Kuvia mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia: MT: otetaan tarkasteluun ainoastaan sellaiset julkaisut joista on enemmän kuin yksi editio. Eli editioita pitää olla kaksi tai useampi, että lasketaan mukaan. Näistä sitten tarkastellaan ainoastaan sen ensimmäisen edition ilmestymistä. Lisäksi voisi piirtää toisen kuvan jossa tarkastellaan muita kuin sen ensimmäisen edition ilmestymistä (eli toinen, kolmas jne. editiot).
+Fennica yhteenvedoissa on EDITIONS kohta. Kuvia mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia:
+
+MT: otetaan tarkasteluun ainoastaan sellaiset julkaisut joista on enemmän kuin yksi editio. Eli editioita pitää olla kaksi tai useampi, että lasketaan mukaan. Näistä sitten tarkastellaan ainoastaan sen ensimmäisen edition ilmestymistä. Lisäksi voisi piirtää toisen kuvan jossa tarkastellaan muita kuin sen ensimmäisen edition ilmestymistä (eli toinen, kolmas jne. editiot). LL: tää lienee TODO-listan häntäpäässä? Tuntuu vähemmän tärkeältä kuin muut eli skippaan for now.
 
 <img src="figure_201606_Krakow/firsteditions-1.png" width="430px" /><img src="figure_201606_Krakow/firsteditions-2.png" width="430px" />
 
@@ -98,8 +114,6 @@ The top publication places ranked by the title count
 ![](figure_201606_Krakow/LIBER-topplace-1.png)
 
 Comparison of printing activity in Turku, Uppsala, Lund, and Stockholm. Turussa julkaiseminen alkaa vasta 1640-luvulla, mutta ollaan kiinnostuttu ruotsalaisesta julkaisemisesta ennen sitä. Esim miten Turun yliopiston perustaminen vaikuttaa ruotsalaiseen julkaisukenttään 1600-luvun aikana.
-
-I can provide percentages instead of counts, or paper consumption estimates (not reliable yet, though), barplots, selected time spans, selected places etc.. just let me know what is needed.
 
 <img src="figure_201606_Krakow/publishingactivitycomparisons-1.png" width="430px" /><img src="figure_201606_Krakow/publishingactivitycomparisons-2.png" width="430px" />
 
@@ -119,7 +133,9 @@ Focus on Gävle (gray) during riksdagar. Gävle has 0 occurrences in Fennica, he
 
 <img src="figure_201606_Krakow/riksdar2-1.png" width="430px" />
 
-TODO\_Political events 1: Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1860-1880, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)?
+**DONE\_Political events 1** Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1760-1780, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)?
+
+<img src="figure_201606_Krakow/polev1-1.png" width="430px" /><img src="figure_201606_Krakow/polev1-2.png" width="430px" /><img src="figure_201606_Krakow/polev1-3.png" width="430px" /><img src="figure_201606_Krakow/polev1-4.png" width="430px" /><img src="figure_201606_Krakow/polev1-5.png" width="430px" /><img src="figure_201606_Krakow/polev1-6.png" width="430px" /><img src="figure_201606_Krakow/polev1-7.png" width="430px" /><img src="figure_201606_Krakow/polev1-8.png" width="430px" /><img src="figure_201606_Krakow/polev1-9.png" width="430px" /><img src="figure_201606_Krakow/polev1-10.png" width="430px" /><img src="figure_201606_Krakow/polev1-11.png" width="430px" /><img src="figure_201606_Krakow/polev1-12.png" width="430px" /><img src="figure_201606_Krakow/polev1-13.png" width="430px" /><img src="figure_201606_Krakow/polev1-14.png" width="430px" /><img src="figure_201606_Krakow/polev1-15.png" width="430px" /><img src="figure_201606_Krakow/polev1-16.png" width="430px" /><img src="figure_201606_Krakow/polev1-17.png" width="430px" /><img src="figure_201606_Krakow/polev1-18.png" width="430px" /><img src="figure_201606_Krakow/polev1-19.png" width="430px" /><img src="figure_201606_Krakow/polev1-20.png" width="430px" /><img src="figure_201606_Krakow/polev1-21.png" width="430px" /><img src="figure_201606_Krakow/polev1-22.png" width="430px" /><img src="figure_201606_Krakow/polev1-23.png" width="430px" /><img src="figure_201606_Krakow/polev1-24.png" width="430px" /><img src="figure_201606_Krakow/polev1-25.png" width="430px" /><img src="figure_201606_Krakow/polev1-26.png" width="430px" /><img src="figure_201606_Krakow/polev1-27.png" width="430px" /><img src="figure_201606_Krakow/polev1-28.png" width="430px" /><img src="figure_201606_Krakow/polev1-29.png" width="430px" /><img src="figure_201606_Krakow/polev1-30.png" width="430px" />
 
 Title counts in selected places in the Kungliga catalogue.
 
@@ -133,7 +149,9 @@ Kungliga publications outside Sweden and Finland.
 
 Mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin vähäistä tarkastellulla ajanjaksolla.
 
-Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen. TÄYDENNYS: Venäjän ja ranskankielisestä aineistosta omat graafit myös.
+Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen.
+
+DONE: Venäjän ja ranskankielisestä aineistosta omat graafit myös.
 
 <img src="figure_201606_Krakow/language1-1.png" width="430px" /><img src="figure_201606_Krakow/language1-2.png" width="430px" /><img src="figure_201606_Krakow/language1-3.png" width="430px" /><img src="figure_201606_Krakow/language1-4.png" width="430px" />
 
@@ -243,9 +261,9 @@ Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoid
 
 6.  heprean kieli;kreikan kieli;latinan kieli
 
-7.  psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus
+7.  psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus;maanviljely;maatalous;kalastus
 
-8.  luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen;maanviljely;maatalous;kalastus
+8.  luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen
 
 9.  naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt
 
