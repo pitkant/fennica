@@ -79,6 +79,7 @@ Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book prin
 
 Eli aloita BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
+Lisäsin alle seuraavat TODO:t: TODO_Political events 1, TODO_Turku in Sweden 1, TODO_Turku in Sweden 2, TODO_Publisher analysis_#, TODO_Publishing in Finland # ja TODO_Publishing in Finland_kieliolosuhteet_muualla 1. Ovatko nämä toteuttamiskelpoisia?
 
 ## Introduction 
 
@@ -550,6 +551,7 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
   print(p)
 ```
 
+TODO_Political events 1: Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1860-1880, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)? 
 
 Title counts in selected places in the Kungliga catalogue.
 
@@ -838,7 +840,7 @@ print(p)
 ```
 
 
-
+TODO_Publishing in Finland_kieliolosuhteet_muualla 1: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan materiaalin osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa?
 
 ### BOOKINFINLAND-DONE2
 
@@ -1008,8 +1010,6 @@ print(p)
 
 }
 ```
-
-
 
 
 ### BOOKINFINLAND-DONE3
@@ -1480,6 +1480,8 @@ for (place in c("Turku", "Uppsala")) {
 }
 ```
 
+TODO_Publishing in Finland #: Kaaviot Fennicasta, jossa lasketaan eri kielten mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain siitä millä kielellä on julkaistu mitäkin. Minusta voisi tehdä kaavion vuoteen 1828 sekä toisen vuoteen 1900. Tiedän että 1800-luvun osalta Fennicassa on kielellinen bias, mutta esim. suomenkielen tarkastelun kannalta tällä ei ole merkitystä, sillä kaikki suomenkielinen materiaali on tarkkaan läpikäytyä. Tässä näky toivottasti se millä tavalla 1855 jälkeen suomenkielinen julkaiseminen laajeni. Kaavio joka näyttää asiasanat vuoteen 1828 auttaa toivottavasti asettamaan 1700-luvun suomenkielisen hartauskirjallisuuden kontekstiinsa.
+
 ### BOOKINFINLAND-5
 
 Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoida yliopisto-opetuksen muutosta. Kokonaismäärät ja kielikohtaiset vaihtelut kiinnostavat. 
@@ -1524,7 +1526,7 @@ for (catal in as.character(unique(df0$catalog))) {
   dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_decade, publication_place, country) %>% summarize(n = n(), paper = sum(paper.consumption.km2, na.rm = T))  %>% mutate(paper.per.document = paper/n)
 
   p <- ggplot(dfs, aes(x = publication_decade, y = paper.per.document)) +
-       geom_point(aes(color = publication_place, shape = publication_place)) +
+       geom_popuint(aes(color = publication_place, shape = publication_place)) +
        geom_line(aes(color = publication_place, linetype = publication_place)) +
        xlab("Title Count") + 
        ggtitle(paste("Paper consumption per document\n", catal)) +
@@ -2062,6 +2064,8 @@ print(p)
 
 **PUBLISHER-TODO** (jos ehtii)
 
+TODO_Publisher analysis_#: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri julkaisijoiden. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot 1828. 
+
   * Fennican julkaisijoita voisi myös laajemmin yrittää luokitella
     suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen
     vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen
@@ -2158,6 +2162,11 @@ Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko
 joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku
 painotalo huomattavasti enemmän kuin toiset).
 
+TODO_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
+
+TODO_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
+
+TODO_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
 
 
 ### Other points if the time allows
