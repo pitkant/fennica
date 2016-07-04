@@ -1755,7 +1755,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ggtitle("Unique publishers in top publication places (Finland/Fennica)")
 print(p)
 ```
-
+MITEN ON MAHDOLLISTA, ETTÄ VYBORG EI NÄY TÄSSÄ? Tai jos syynä että merkattu Suomen ulkopuolelle, niin se pitäisi saada tähän poikkeuksena mukaan. Tuolla alkupäässä sen pitäisi näkyä.
 
 Number of unique publishers in selected publication places over time
 (Kungliga). [Julkaisijoiden osalta Kungligan aineiston osalta samat
