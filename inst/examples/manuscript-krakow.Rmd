@@ -1621,7 +1621,7 @@ x) etsintäkuulutukset;rikokset;oikeus;rangaistukset
 Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
 
 
-**OK riittääkö alla olevat vai jotain vielä lisää?**
+**OK riittääkö alla olevat vai jotain vielä lisää?** Voidaan joskus myohemmin tehda Shiny applikaatio jossa valita itse vuoden ja asiasanat lennossa. Mutta ei ehdi tahan.
 
 
 ```{r topics44, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
@@ -1666,13 +1666,9 @@ for (lan in lang) {
 }
 dfl$language <- factor(dfl$language, levels = names(table(dfl$language)))
 
-# -------------------------------------------
-
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-
 
 # TITLE COUNT
 theme_set(theme_bw(20))
