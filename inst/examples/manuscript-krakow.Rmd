@@ -121,6 +121,8 @@ numbered and collected in references section.
 
 ## Results
 
+MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this?
+
 Why Fennica has huge drop in 1700s? Do some publisher disappear (TODO)? Let us look at top publication places during the period 1650-1750 in Fennica: 
 
 ```{r drop1700, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
