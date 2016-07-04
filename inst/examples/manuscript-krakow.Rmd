@@ -66,29 +66,14 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
-TODO-järjestyksestä:
 
-Selvensin alle (Publisher analysis kohtaan):
+Seuraavat TODO:t ainakin kesken:
 
-  * PUBLISHER-TODO1
-  * PUBLISHER-TODO2
-  * Lisäksi löytyy muita ajatuksia.
 
-Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book printing in Finland** - kohdasta
-
-  * BOOKINFINLAND-TODO1
-  * BOOKINFINLAND-TODO2
-
-Marjanen ja minä siivotaan samalla näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
-
-Lisäsin alle seuraavat TODO:t (Ovatko nämä toteuttamiskelpoisia?):  
-
-  * TODO_Political events 1
   * TODO_Turku in Sweden 1
   * TODO_Turku in Sweden 2
-  * TODO_Publisher analysis_
-  * TODO_Publishing in Finland
-  * TODO_Publishing in Finland_kieliolosuhteet_muualla
+  * TODO_Publisher analysis_ JANI: Täsmennä mitä ajattelit.
+  * TODO_Publishing in Finland JANI: täsmennä mitä ajattelit (ks. alla).
 
 
 
@@ -187,8 +172,6 @@ for (myplace in selected.places) {
 }
 ```
 
-The drop in Fennica is explained largely by Great Nortern War (1700-1721). The war and difficult times seems to hit Turku particularly hard in early eighteenth century. What is telling also is that the curve of overall publishing activity in Kungliga is much steeper in eighteenth century compared to Fennica also in the second half of the century. This is the Enlightenment’s rising trend of knowledge production in most of Europe (for example ESTC has a similar development with Kungliga). Thus, development of publishing in Finland is much slower compared to larger European centers in the eighteenth century – this is an important context for the even further difficulties that follow after 1828.
-
 
 The following figure highlights publisher title count changes around 1700 drop in Turku, the most significant publishing place at the time:
 
@@ -249,7 +232,7 @@ print(p)
 ```
 
 
-TODO: try check duplicates. Clustering with identical place, identical year, near identical title and then print table with potential duplicates for manual checks. - LL: you mean something different from what HR already did ? Duplicates within Fennica, or duplicates between Fennica vs Kungliga ? To be removed from all analyses, or a specific figure ?
+TODO: Hege's deduplication code for specific figures. Particular figures to be decided.
 
 
 Paper per title count ratio per publisher. [nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).]
@@ -321,7 +304,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
 Fennica yhteenvedoissa on EDITIONS kohta. Kuvia mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia:
 
-MT: otetaan tarkasteluun ainoastaan sellaiset julkaisut joista on enemmän kuin yksi editio. Eli editioita pitää olla kaksi tai useampi, että lasketaan mukaan. Näistä sitten tarkastellaan ainoastaan sen ensimmäisen edition ilmestymistä. Lisäksi voisi piirtää toisen kuvan jossa tarkastellaan muita kuin sen ensimmäisen edition ilmestymistä (eli toinen, kolmas jne. editiot). LL: tää lienee TODO-listan häntäpäässä? Tuntuu vähemmän tärkeältä kuin muut eli skippaan for now.
+MT: otetaan tarkasteluun ainoastaan sellaiset julkaisut joista on enemmän kuin yksi editio. Eli editioita pitää olla kaksi tai useampi, että lasketaan mukaan. Näistä sitten tarkastellaan ainoastaan sen ensimmäisen edition ilmestymistä. Lisäksi voisi piirtää toisen kuvan jossa tarkastellaan muita kuin sen ensimmäisen edition ilmestymistä (eli toinen, kolmas jne. editiot). LL: tää lienee TODO-listan häntäpäässä? Tuntuu vähemmän tärkeältä kuin muut eli skippaan for now. OK
 
 ```{r firsteditions, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="430px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
@@ -723,14 +706,6 @@ Kungliga publications outside Sweden and Finland.
 
 ### Book printing in Finland 
 
-Mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä
-löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä
-vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin
-vähäistä tarkastellulla ajanjaksolla.
-
-Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen.
-
-DONE: Venäjän ja ranskankielisestä aineistosta omat graafit myös. OK lisätty samaan kuvaan.
 
 
 ```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
@@ -854,9 +829,6 @@ print(p)
 ```
 
 
-Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Täten esim. pienemmän saksankielen kohdalla kannattaa varmaan piirtää erillinen kuva.
-
-
 ```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
 for (catalogue in c("Fennica", "Kungliga")) {
@@ -958,9 +930,7 @@ catalogue = "Kungliga"
 
 ### BOOKINFINLAND-DONE2
 
-Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
-
-MT: Korjataan tätä kommenttia. Tässä data ei riitä siihen että kannattaa analyysia jatkaa. Eli siis 1828 takalautana kaikissa kuvissa. Näin viilaamalla noista erittäin hyvistä kuvista tuossa alla (ja kohdassa BOOKINFINLAND-DONE4) tulee vielä parempia. **OK, aikarajaus lisatty tahan kohtaan**
+Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä).
 
 **TODO: Kungligan subject topiceista voisi tuottaa vastaavat niputettavat asiasanaryhmät Kungligalle (Jani ja Mikko): https://github.com/rOpenGov/kungliga/blob/master/output.tables/subject_topic_accepted.csv Näistä sitten oma analyysi joka suhtautuu Fennicaan.** LL: voin tehda jos saan selvan listan asiasanoista.
 
@@ -1947,9 +1917,6 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
 print(p)
 ```
 
-
-MITEN ON MAHDOLLISTA, ETTÄ VYBORG EI NÄY TÄSSÄ? Tai jos syynä että merkattu Suomen ulkopuolelle, niin se pitäisi saada tähän poikkeuksena mukaan. Tuolla alkupäässä sen pitäisi näkyä. **LL: oli poissa siksi etta Suomen ulkopuolelle merkattu - lisasin nyt poikkeuksena mukaan**
-
 Number of unique publishers in selected publication places over time
 (Kungliga). [Julkaisijoiden osalta Kungligan aineiston osalta samat
 analyysit Tukholmasta, Lundista, Uppsalasta ja Greifswaldista. Tämä
@@ -1989,8 +1956,6 @@ print(p)
 
 
 Title count per top publisher (two alternative visualizations):
-
-MT: Näissä ensimmäisissä kuvissa myös aikarajaus niin että loppuu 1828. **LL OK DONE**
 
 ```{r publishers3-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15, fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
