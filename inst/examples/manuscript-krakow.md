@@ -279,21 +279,41 @@ Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki k
 
     ## [1] "kirkkohistoria;raamatunhistoria;eksegetiikka;homiletiikka;dogmatiikka;teologia"
 
+    ## [1] "kirkkohistoria;raamatunhistoria;eksegetiikka;homiletiikka;dogmatiikka;teologia"
+
     ## [1] "oppihistoria;antiikki;historia"
+
+    ## [1] "oppihistoria;antiikki;historia"
+
+    ## [1] "filosofia;luonnonfilosofia;metafysiikka;logiikka"
 
     ## [1] "filosofia;luonnonfilosofia;metafysiikka;logiikka"
 
     ## [1] "luonnontieteet;matematiikka;fysiikka;kemia;tähtitiede;maantiede;geodesia;geofysiikka;meteorologia"
 
+    ## [1] "luonnontieteet;matematiikka;fysiikka;kemia;tähtitiede;maantiede;geodesia;geofysiikka;meteorologia"
+
     ## [1] "retoriikka;poetiikka;kielitiede;kielioppi"
+
+    ## [1] "retoriikka;poetiikka;kielitiede;kielioppi"
+
+    ## [1] "heprean kieli;kreikan kieli;latinan kieli"
 
     ## [1] "heprean kieli;kreikan kieli;latinan kieli"
 
     ## [1] "psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus;maanviljely;maatalous;kalastus"
 
+    ## [1] "psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus;maanviljely;maatalous;kalastus"
+
+    ## [1] "luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen"
+
     ## [1] "luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen"
 
     ## [1] "naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt"
+
+    ## [1] "naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt"
+
+    ## [1] "etsintäkuulutukset;rikokset;oikeus;rangaistukset"
 
     ## [1] "etsintäkuulutukset;rikokset;oikeus;rangaistukset"
 
