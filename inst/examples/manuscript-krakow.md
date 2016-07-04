@@ -16,6 +16,8 @@ Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book prin
 
 Eli aloita BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
 
+Lisäsin alle seuraavat TODO:t: TODO\_Political events 1, TODO\_Turku in Sweden 1, TODO\_Turku in Sweden 2, TODO\_Publisher analysis\_\#, TODO\_Publishing in Finland \# ja TODO\_Publishing in Finland\_kieliolosuhteet\_muualla 1. Ovatko nämä toteuttamiskelpoisia?
+
 Introduction
 ------------
 
@@ -52,6 +54,8 @@ You can cite with the DOI (the citation info will then be collected automaticall
 Results
 -------
 
+MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this?
+
 Why Fennica has huge drop in 1700s? Do some publisher disappear (TODO)? Let us look at top publication places during the period 1650-1750 in Fennica:
 
 <img src="figure_201606_Krakow/drop1700-1.png" width="280px" /><img src="figure_201606_Krakow/drop1700-2.png" width="280px" /><img src="figure_201606_Krakow/drop1700-3.png" width="280px" /><img src="figure_201606_Krakow/drop1700-4.png" width="280px" /><img src="figure_201606_Krakow/drop1700-5.png" width="280px" /><img src="figure_201606_Krakow/drop1700-6.png" width="280px" />
@@ -81,7 +85,7 @@ Top-author timelines. Putsaus ok (näistä tsekattu, että ei löydy ainakaan is
 
 <img src="figure_201606_Krakow/summaryTop10authorstimeline-1.png" width="430px" /><img src="figure_201606_Krakow/summaryTop10authorstimeline-2.png" width="430px" />
 
-Fennica yhteenvedoissa on EDITIONS kohta. Kuvia mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia:
+Fennica yhteenvedoissa on EDITIONS kohta. Kuvia mahdollista saada? On nimittäin mielenkiintoinen kysymys. LL: ok lisasin tan sinne - voin elaboroida lisaa jos on ehdotuksia: MT: otetaan tarkasteluun ainoastaan sellaiset julkaisut joista on enemmän kuin yksi editio. Eli editioita pitää olla kaksi tai useampi, että lasketaan mukaan. Näistä sitten tarkastellaan ainoastaan sen ensimmäisen edition ilmestymistä. Lisäksi voisi piirtää toisen kuvan jossa tarkastellaan muita kuin sen ensimmäisen edition ilmestymistä (eli toinen, kolmas jne. editiot).
 
 <img src="figure_201606_Krakow/firsteditions-1.png" width="430px" /><img src="figure_201606_Krakow/firsteditions-2.png" width="430px" />
 
@@ -115,6 +119,8 @@ Focus on Gävle (gray) during riksdagar. Gävle has 0 occurrences in Fennica, he
 
 <img src="figure_201606_Krakow/riksdar2-1.png" width="430px" />
 
+TODO\_Political events 1: Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1860-1880, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)?
+
 Title counts in selected places in the Kungliga catalogue.
 
 <img src="figure_201606_Krakow/selectedplaces-1.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-2.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-3.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-4.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-5.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-6.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-7.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-8.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-9.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-10.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-11.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-12.png" width="280px" /><img src="figure_201606_Krakow/selectedplaces-13.png" width="280px" />
@@ -127,7 +133,7 @@ Kungliga publications outside Sweden and Finland.
 
 Mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä löydetäänkö sieltä mitään mielenkiintoisia kehityskulkuja ylipäänsä vai pelkästään toteamus, että suomalainen tiedontuotanto oli hyvin vähäistä tarkastellulla ajanjaksolla.
 
-Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen.
+Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen. TÄYDENNYS: Venäjän ja ranskankielisestä aineistosta omat graafit myös.
 
 <img src="figure_201606_Krakow/language1-1.png" width="430px" /><img src="figure_201606_Krakow/language1-2.png" width="430px" /><img src="figure_201606_Krakow/language1-3.png" width="430px" /><img src="figure_201606_Krakow/language1-4.png" width="430px" />
 
@@ -139,9 +145,13 @@ Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Tä
 
 <img src="figure_201606_Krakow/language-sel-1.png" width="430px" /><img src="figure_201606_Krakow/language-sel-2.png" width="430px" /><img src="figure_201606_Krakow/language-sel-3.png" width="430px" /><img src="figure_201606_Krakow/language-sel-4.png" width="430px" />
 
+TODO\_Publishing in Finland\_kieliolosuhteet\_muualla 1: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan materiaalin osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa?
+
 ### BOOKINFINLAND-DONE2
 
-Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
+Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. MT: Korjataan tätä kommenttia. Tässä data ei riitä siihen että kannattaa analyysia jatkaa. Eli siis 1828 takalautana kaikissa kuvissa. Näin viilaamalla noista erittäin hyvistä kuvista tuossa alla (ja kohdassa BOOKINFINLAND-DONE4) tulee vielä parempia.
+
+TODO: Kungligan subject topiceista voisi tuottaa vastaavat niputettavat asiasanaryhmät Kungligalle (Jani ja Mikko): <https://github.com/rOpenGov/kungliga/blob/master/output.tables/subject_topic_accepted.csv> Näistä sitten oma analyysi joka suhtautuu Fennicaan.
 
 NOTE: Kungliga is missing those subject topics hence skipped.
 
@@ -215,6 +225,34 @@ Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1
 
 <img src="figure_201606_Krakow/topics4.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-4.png" width="430px" />
 
+TODO\_Publishing in Finland \#: Kaaviot Fennicasta, jossa lasketaan eri kielten mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain siitä millä kielellä on julkaistu mitäkin. Minusta voisi tehdä kaavion vuoteen 1828 sekä toisen vuoteen 1900. Tiedän että 1800-luvun osalta Fennicassa on kielellinen bias, mutta esim. suomenkielen tarkastelun kannalta tällä ei ole merkitystä, sillä kaikki suomenkielinen materiaali on tarkkaan läpikäytyä. Tässä näky toivottasti se millä tavalla 1855 jälkeen suomenkielinen julkaiseminen laajeni. Kaavio joka näyttää asiasanat vuoteen 1828 auttaa toivottavasti asettamaan 1700-luvun suomenkielisen hartauskirjallisuuden kontekstiinsa.
+
+### BOOKINFINLAND-5
+
+Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoida yliopisto-opetuksen muutosta. Kokonaismäärät ja kielikohtaiset vaihtelut kiinnostavat.
+
+1.  kirkkohistoria;raamatunhistoria;eksegetiikka;homiletiikka;dogmatiikka;teologia
+
+2.  oppihistoria;antiikki;historia
+
+3.  filosofia;luonnonfilosofia;metafysiikka;logiikka
+
+4.  luonnontieteet;matematiikka;fysiikka;kemia;tähtitiede;maantiede;geodesia;geofysiikka;meteorologia
+
+5.  retoriikka;poetiikka;kielitiede;kielioppi
+
+6.  heprean kieli;kreikan kieli;latinan kieli
+
+7.  psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus
+
+8.  luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen;maanviljely;maatalous;kalastus
+
+9.  naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt
+
+10. etsintäkuulutukset;rikokset;oikeus;rangaistukset
+
+Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
+
 ### Book as media: development over time
 
 Paper consumption per document in the top publication places. Note that paper consumption estimates have still problems so take this with reservations. Are there time periods with remarkable changes in paper consumption per document (meaning that small or large volumes suddenly become more frequent) ?
@@ -255,7 +293,7 @@ Number of unique publishers per decade in Finland and elsewhere (based on the Fe
 
 Number of unique publishers in top publication places over time (Fennica):
 
-![](figure_201606_Krakow/publishers2-finland-1.png)
+![](figure_201606_Krakow/publishers2-finland-1.png) MITEN ON MAHDOLLISTA, ETTÄ VYBORG EI NÄY TÄSSÄ? Tai jos syynä että merkattu Suomen ulkopuolelle, niin se pitäisi saada tähän poikkeuksena mukaan. Tuolla alkupäässä sen pitäisi näkyä.
 
 Number of unique publishers in selected publication places over time (Kungliga). \[Julkaisijoiden osalta Kungligan aineiston osalta samat analyysit Tukholmasta, Lundista, Uppsalasta ja Greifswaldista. Tämä mahdollistaa Turun sijoittamisen kontekstiin.\]
 
@@ -264,6 +302,8 @@ Number of unique publishers in selected publication places over time (Kungliga).
 **PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing profile (title count and paper consumption) over time. DONE: now also added for Kungliga.
 
 Title count per top publisher (two alternative visualizations):
+
+MT: Näissä ensimmäisissä kuvissa myös aikarajaus niin että loppuu 1828.
 
 ![](figure_201606_Krakow/publishers3-finland-1.png)![](figure_201606_Krakow/publishers3-finland-2.png)![](figure_201606_Krakow/publishers3-finland-3.png)![](figure_201606_Krakow/publishers3-finland-4.png)
 
@@ -286,6 +326,8 @@ OK, see lists for
 ![](figure_201606_Krakow/publishers5-finland-1.png)![](figure_201606_Krakow/publishers5-finland-2.png)
 
 **PUBLISHER-TODO** (jos ehtii)
+
+TODO\_Publisher analysis\_\#: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri julkaisijoiden. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot 1828.
 
 -   Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
 
@@ -332,6 +374,12 @@ Kuinka paljon julkaisijoita
 Miten julkaisijoiden verkosto muodostuu Turussa
 
 Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku painotalo huomattavasti enemmän kuin toiset).
+
+TODO\_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
+
+TODO\_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
+
+TODO\_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
 
 ### Other points if the time allows
 
@@ -398,9 +446,9 @@ References
 
 \[1\] H. Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2009. ISBN: 978-0-387-98140-6. &lt;URL: <http://ggplot2.org>&gt;.
 
-\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
+\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
 
-\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
+\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
 
 \[4\] M. Tolonen and L. Lahti. "Aatehistoria ja digitaalisten aineistojen mahdollisuudet". In: *Ennen & Nyt 2* 2 (Aug. 2015). &lt;URL: <http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet>&gt;.
 
@@ -428,23 +476,23 @@ This document was created with the following versions:
 sessionInfo()
 ```
 
-    ## R version 3.3.0 (2016-05-03)
+    ## R version 3.3.1 (2016-06-21)
     ## Platform: x86_64-pc-linux-gnu (64-bit)
     ## Running under: Ubuntu 16.04 LTS
     ## 
     ## locale:
     ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-    ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-    ##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
-    ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+    ##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
+    ##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
+    ##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
     ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-    ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+    ## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    sorvi_0.7.46         
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.14    sorvi_0.7.46         
     ##  [4] tibble_1.0            fennica_0.1.42        stringr_1.0.0        
     ##  [7] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
     ## [10] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
@@ -454,7 +502,7 @@ sessionInfo()
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
     ##  [4] lubridate_1.5.6       httr_1.2.0            doParallel_1.0.10    
-    ##  [7] RColorBrewer_1.1-2    dynamicTreeCut_1.63-1 tools_3.3.0          
+    ##  [7] RColorBrewer_1.1-2    dynamicTreeCut_1.63-1 tools_3.3.1          
     ## [10] R6_2.1.2              vegan_2.4-0           rpart_4.1-10         
     ## [13] Hmisc_3.17-4          DBI_0.4-1             lazyeval_0.2.0       
     ## [16] BiocGenerics_0.18.0   mgcv_1.8-12           colorspace_1.2-6     
@@ -473,11 +521,11 @@ sessionInfo()
     ## [55] RefManageR_0.10.13    ape_3.5               stringi_1.1.1        
     ## [58] yaml_2.1.13           RJSONIO_1.3-0         MASS_7.3-45          
     ## [61] zlibbioc_1.18.0       rhdf5_2.16.0          plyr_1.8.4           
-    ## [64] grid_3.3.0            parallel_3.3.0        gender_0.5.1.9000    
-    ## [67] lattice_0.20-33       Biostrings_2.40.2     splines_3.3.0        
+    ## [64] grid_3.3.1            parallel_3.3.1        gender_0.5.1         
+    ## [67] lattice_0.20-33       Biostrings_2.40.2     splines_3.3.1        
     ## [70] multtest_2.28.0       igraph_1.0.1          fastcluster_1.1.20   
-    ## [73] codetools_0.2-14      stats4_3.3.0          XML_3.98-1.4         
-    ## [76] babynames_0.2.1.9000  evaluate_0.9          latticeExtra_0.6-28  
+    ## [73] codetools_0.2-14      stats4_3.3.1          XML_3.98-1.4         
+    ## [76] babynames_0.2.1       evaluate_0.9          latticeExtra_0.6-28  
     ## [79] data.table_1.9.6      foreach_1.4.3         gtable_0.2.0         
     ## [82] assertthat_0.1        survival_2.39-5       genderdata_0.5.0     
     ## [85] iterators_1.0.8       AnnotationDbi_1.34.3  IRanges_2.6.1        
