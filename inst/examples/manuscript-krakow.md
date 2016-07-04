@@ -135,6 +135,8 @@ Focus on Gävle (gray) during riksdagar. Gävle has 0 occurrences in Fennica, he
 
 **DONE\_Political events 1** Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1760-1780, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)?
 
+**NOTE** Tulee enemmän kuin 6 kaaviota.. pistin kaikki viivat erikseen kun pyydettiin erikseen. Huom: pystyakselin skaala vaihtelee kuvittain.
+
 <img src="figure_201606_Krakow/polev1-1.png" width="280px" /><img src="figure_201606_Krakow/polev1-2.png" width="280px" /><img src="figure_201606_Krakow/polev1-3.png" width="280px" /><img src="figure_201606_Krakow/polev1-4.png" width="280px" /><img src="figure_201606_Krakow/polev1-5.png" width="280px" /><img src="figure_201606_Krakow/polev1-6.png" width="280px" /><img src="figure_201606_Krakow/polev1-7.png" width="280px" /><img src="figure_201606_Krakow/polev1-8.png" width="280px" /><img src="figure_201606_Krakow/polev1-9.png" width="280px" /><img src="figure_201606_Krakow/polev1-10.png" width="280px" /><img src="figure_201606_Krakow/polev1-11.png" width="280px" /><img src="figure_201606_Krakow/polev1-12.png" width="280px" /><img src="figure_201606_Krakow/polev1-13.png" width="280px" /><img src="figure_201606_Krakow/polev1-14.png" width="280px" /><img src="figure_201606_Krakow/polev1-15.png" width="280px" /><img src="figure_201606_Krakow/polev1-16.png" width="280px" /><img src="figure_201606_Krakow/polev1-17.png" width="280px" /><img src="figure_201606_Krakow/polev1-18.png" width="280px" /><img src="figure_201606_Krakow/polev1-19.png" width="280px" /><img src="figure_201606_Krakow/polev1-20.png" width="280px" /><img src="figure_201606_Krakow/polev1-21.png" width="280px" /><img src="figure_201606_Krakow/polev1-22.png" width="280px" /><img src="figure_201606_Krakow/polev1-23.png" width="280px" /><img src="figure_201606_Krakow/polev1-24.png" width="280px" /><img src="figure_201606_Krakow/polev1-25.png" width="280px" /><img src="figure_201606_Krakow/polev1-26.png" width="280px" /><img src="figure_201606_Krakow/polev1-27.png" width="280px" /><img src="figure_201606_Krakow/polev1-28.png" width="280px" /><img src="figure_201606_Krakow/polev1-29.png" width="280px" /><img src="figure_201606_Krakow/polev1-30.png" width="280px" />
 
 Title counts in selected places in the Kungliga catalogue.
@@ -151,7 +153,7 @@ Mitä voidaan sanoa suomalaisesta kirjatuotannosta ylipäänsä sekä löydetä�
 
 Kielikohtainen yleinen vertailu julkaisumääristä ja paperinkulutuksesta. Eli kaksi kuvaa (julkaisumäärät ja paperinkulutus kielittäin). Miten kielten kehitys suhtautuu toisiinsa (suomi kasvaa, latina laskee jne.)? Tarkkailtavia kielikategorioita on 5: suomi, ruotsi, latina, saksa sekä kategoria jossa kaikki muun kielisiset kuin edellä mainitut niputetaan yhteen.
 
-DONE: Venäjän ja ranskankielisestä aineistosta omat graafit myös.
+DONE: Venäjän ja ranskankielisestä aineistosta omat graafit myös. OK lisätty samaan kuvaan.
 
 <img src="figure_201606_Krakow/language1-1.png" width="430px" /><img src="figure_201606_Krakow/language1-2.png" width="430px" /><img src="figure_201606_Krakow/language1-3.png" width="430px" /><img src="figure_201606_Krakow/language1-4.png" width="430px" />
 
@@ -163,15 +165,17 @@ Tärkeää on vertailu, mutta myös että nähdään kielikohtainen kehitys. Tä
 
 <img src="figure_201606_Krakow/language-sel-1.png" width="430px" /><img src="figure_201606_Krakow/language-sel-2.png" width="430px" /><img src="figure_201606_Krakow/language-sel-3.png" width="430px" /><img src="figure_201606_Krakow/language-sel-4.png" width="430px" />
 
-**TODO\_Publishing in Finland\_kieliolosuhteet\_muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan materiaalin osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa?
+**DONE\_Publishing in Finland\_kieliolosuhteet\_muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan materiaalin osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennat. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.**
+
+<img src="figure_201606_Krakow/greifswald-lang-1.png" width="430px" />
 
 ### BOOKINFINLAND-DONE2
 
-Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta. MT: Korjataan tätä kommenttia. Tässä data ei riitä siihen että kannattaa analyysia jatkaa. Eli siis 1828 takalautana kaikissa kuvissa. Näin viilaamalla noista erittäin hyvistä kuvista tuossa alla (ja kohdassa BOOKINFINLAND-DONE4) tulee vielä parempia.
+Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä). Erilaisia tarkkailukulmia. Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
-TODO: Kungligan subject topiceista voisi tuottaa vastaavat niputettavat asiasanaryhmät Kungligalle (Jani ja Mikko): <https://github.com/rOpenGov/kungliga/blob/master/output.tables/subject_topic_accepted.csv> Näistä sitten oma analyysi joka suhtautuu Fennicaan.
+MT: Korjataan tätä kommenttia. Tässä data ei riitä siihen että kannattaa analyysia jatkaa. Eli siis 1828 takalautana kaikissa kuvissa. Näin viilaamalla noista erittäin hyvistä kuvista tuossa alla (ja kohdassa BOOKINFINLAND-DONE4) tulee vielä parempia. **OK, aikarajaus lisatty tahan kohtaan**
 
-NOTE: Kungliga is missing those subject topics hence skipped.
+**TODO: Kungligan subject topiceista voisi tuottaa vastaavat niputettavat asiasanaryhmät Kungligalle (Jani ja Mikko): <https://github.com/rOpenGov/kungliga/blob/master/output.tables/subject_topic_accepted.csv> Näistä sitten oma analyysi joka suhtautuu Fennicaan.** LL: voin tehda jos saan selvan listan asiasanoista.
 
 General analysis with all documents combined:
 
@@ -187,7 +191,7 @@ Same with top publishers
 
 ### BOOKINFINLAND-DONE3
 
-Sama kuin edellä, mutta asiasanat tässä: hautajaiset;häät;juhlamenot
+Sama kuin edellä, mutta asiasanat tässä: hautajaiset;häät;juhlamenot.
 
 General analysis with all documents combined:
 
@@ -237,13 +241,13 @@ General analysis with all documents combined:
 
 <img src="figure_201606_Krakow/topics4-1.png" width="430px" /><img src="figure_201606_Krakow/topics4-2.png" width="430px" />
 
-Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.
+Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. **HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.**
 
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
 
 <img src="figure_201606_Krakow/topics4.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-4.png" width="430px" />
 
-TODO\_Publishing in Finland \#: Kaaviot Fennicasta, jossa lasketaan eri kielten mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain siitä millä kielellä on julkaistu mitäkin. Minusta voisi tehdä kaavion vuoteen 1828 sekä toisen vuoteen 1900. Tiedän että 1800-luvun osalta Fennicassa on kielellinen bias, mutta esim. suomenkielen tarkastelun kannalta tällä ei ole merkitystä, sillä kaikki suomenkielinen materiaali on tarkkaan läpikäytyä. Tässä näky toivottasti se millä tavalla 1855 jälkeen suomenkielinen julkaiseminen laajeni. Kaavio joka näyttää asiasanat vuoteen 1828 auttaa toivottavasti asettamaan 1700-luvun suomenkielisen hartauskirjallisuuden kontekstiinsa.
+**TODO\_Publishing in Finland** Kaaviot Fennicasta, jossa lasketaan eri kielten mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain siitä millä kielellä on julkaistu mitäkin. Minusta voisi tehdä kaavion vuoteen 1828 sekä toisen vuoteen 1900. Tiedän että 1800-luvun osalta Fennicassa on kielellinen bias, mutta esim. suomenkielen tarkastelun kannalta tällä ei ole merkitystä, sillä kaikki suomenkielinen materiaali on tarkkaan läpikäytyä. Tässä näky toivottasti se millä tavalla 1855 jälkeen suomenkielinen julkaiseminen laajeni. Kaavio joka näyttää asiasanat vuoteen 1828 auttaa toivottavasti asettamaan 1700-luvun suomenkielisen hartauskirjallisuuden kontekstiinsa. **LL: voitko tasmentaa - eli tarvitaanko kaavio jossa on joka vuodelle (tai ehka vuosikymmenelle parempi?) ja asiasanalle numero etta montako kertaa ko. asiasana esiintyy kunakin vuonna eri dokumenttien yhteydessa ? Vai yhteensa uniikkien asiasanojen maara eri vuosina katsomatta niiden sisaltoa ?**
 
 ### BOOKINFINLAND-5
 
@@ -270,6 +274,41 @@ Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoid
 10. etsintäkuulutukset;rikokset;oikeus;rangaistukset
 
 Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
+
+\`\`\`{r topics44, echo=TRUE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+===========================================================================================================================
+
+selections = list( c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia"), c("oppihistoria","antiikki","historia"), c("filosofia","luonnonfilosofia","metafysiikka","logiikka"), c("luonnontieteet","matematiikka","fysiikka","kemia","tähtitiede","maantiede","geodesia","geofysiikka","meteorologia"), c("retoriikka","poetiikka","kielitiede","kielioppi"), c("heprean kieli","kreikan kieli","latinan kieli"), c("psykologia","yhteiskuntafilosofia","valtiofilosofia","talous","raha","moraali","velvollisuudet","kasvatus","maanviljely","maatalous","kalastus"), c("luonnonhistoria","lääketiede","tartuntataudit","eläintiede","kasvitiede","kasvisto","eläimet","eläinsuojelu","eläimistö","eläintaudit","hevonen"), c("naiset","naisen asema","naisasialiikkeet","naisasiajärjestöt"), c("etsintäkuulutukset","rikokset","oikeus","rangaistukset"))
+
+for (sel in selections) {
+
+print(paste(sel, collapse = ";"))
+
+catalogue &lt;- "Fennica" df = df0 df\(hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df\)subject\_topic))})), 1, any)
+
+Selected catalogue with selected topics
+=======================================
+
+df &lt;- df %&gt;% filter(catalog == catalogue & hit)
+
+langs &lt;- c("Finnish", "Swedish", "Latin", "German", "Other") lang &lt;- paste("language.", langs, sep = "") otherlang &lt;- setdiff(names(df)\[grep("lang.", names(df))\], lang) df\(language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0 dfl <- NULL for (lan in lang) {  # Classify a document to the specifed language  # If document is assigned with languages, each case is considered  # so one doc may have multiple entries corresponding to different languages  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language  # Combine data frames for specified languages  dflsub <- filter(df, df[[lan]])  if (nrow(dflsub) > 0) {  dflsub\)language &lt;- gsub("language.", "", lan) dfl &lt;- bind\_rows(dfl, dflsub) } } dfl\(language <- factor(dfl\)language, levels = names(table(dfl$language)))
+
+-------------------------------------------
+===========================================
+
+df &lt;- dfl %&gt;% group\_by(publication\_decade, language) %&gt;% summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+TITLE COUNT
+===========
+
+theme\_set(theme\_bw(20)) p &lt;- ggplot(df, aes(x = publication\_decade, y = n, group = language)) + geom\_point(aes(col = language, shape = language), size = 5) + geom\_line(aes(col = language, shape = language)) +
+xlab("Publication year") + ylab("Title count (n)") + ggtitle(paste("Languages (", catalogue, ")", sep = "")) print(p)
+
+PAPER CONSUMPTION
+=================
+
+theme\_set(theme\_bw(20)) p &lt;- ggplot(df, aes(x = publication\_decade, y = paper, group = language)) + geom\_point(aes(col = language, shape = language), size = 5) + geom\_line(aes(col = language, shape = language)) +
+xlab("Publication year") + ylab("Paper consumption") + ggtitle(paste("Languages (", catalogue, ")", sep = "")) print(p) } \#\`\`\`
 
 ### Book as media: development over time
 
