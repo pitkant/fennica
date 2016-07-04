@@ -1799,6 +1799,8 @@ print(p)
 
 Title count per top publisher (two alternative visualizations):
 
+MT: Näissä ensimmäisissä kuvissa myös aikarajaus niin että loppuu 1828.
+
 ```{r publishers3-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15, fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
 
