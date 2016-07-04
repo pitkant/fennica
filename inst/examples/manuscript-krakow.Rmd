@@ -1624,7 +1624,7 @@ Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki k
 **OK riittääkö alla olevat vai jotain vielä lisää?**
 
 
-```{r topics44, echo=TRUE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r topics44, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 selections = list(
   c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia"),
   c("oppihistoria","antiikki","historia"),
