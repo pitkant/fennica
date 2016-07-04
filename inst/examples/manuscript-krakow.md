@@ -43,9 +43,9 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015b).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015b) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015a). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -214,6 +214,32 @@ Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsing
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
 
 <img src="figure_201606_Krakow/topics4.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics4.per.place-4.png" width="430px" />
+
+### BOOKINFINLAND-5
+
+Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoida yliopisto-opetuksen muutosta. Kokonaismäärät ja kielikohtaiset vaihtelut kiinnostavat.
+
+1.  kirkkohistoria;raamatunhistoria;eksegetiikka;homiletiikka;dogmatiikka;teologia
+
+2.  oppihistoria;antiikki;historia
+
+3.  filosofia;luonnonfilosofia;metafysiikka;logiikka
+
+4.  luonnontieteet;matematiikka;fysiikka;kemia;tähtitiede;maantiede;geodesia;geofysiikka;meteorologia
+
+5.  retoriikka;poetiikka;kielitiede;kielioppi
+
+6.  heprean kieli;kreikan kieli;latinan kieli
+
+7.  psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus
+
+8.  luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen;maanviljely;maatalous;kalastus
+
+9.  naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt
+
+10. etsintäkuulutukset;rikokset;oikeus;rangaistukset
+
+Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
 
 ### Book as media: development over time
 
@@ -444,12 +470,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    sorvi_0.7.46         
-    ##  [4] tibble_1.0            fennica_0.1.42        stringr_1.0.0        
-    ##  [7] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
-    ## [10] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
-    ## [13] bibliographica_0.2.24 dplyr_0.5.0           tidyr_0.5.1          
-    ## [16] ggplot2_2.1.0        
+    ##  [1] git2r_0.15.0          knitcitations_1.0.7   rmarkdown_0.9.6.11   
+    ##  [4] sorvi_0.7.46          tibble_1.0            fennica_0.1.42       
+    ##  [7] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
+    ## [10] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
+    ## [13] magrittr_1.5          bibliographica_0.2.24 dplyr_0.5.0          
+    ## [16] tidyr_0.5.1           ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
