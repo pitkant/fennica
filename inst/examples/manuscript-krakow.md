@@ -275,40 +275,102 @@ Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoid
 
 Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
 
-\`\`\`{r topics44, echo=TRUE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
-===========================================================================================================================
+**OK riittääkö alla olevat vai jotain vielä lisää?**
 
-selections = list( c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia"), c("oppihistoria","antiikki","historia"), c("filosofia","luonnonfilosofia","metafysiikka","logiikka"), c("luonnontieteet","matematiikka","fysiikka","kemia","tähtitiede","maantiede","geodesia","geofysiikka","meteorologia"), c("retoriikka","poetiikka","kielitiede","kielioppi"), c("heprean kieli","kreikan kieli","latinan kieli"), c("psykologia","yhteiskuntafilosofia","valtiofilosofia","talous","raha","moraali","velvollisuudet","kasvatus","maanviljely","maatalous","kalastus"), c("luonnonhistoria","lääketiede","tartuntataudit","eläintiede","kasvitiede","kasvisto","eläimet","eläinsuojelu","eläimistö","eläintaudit","hevonen"), c("naiset","naisen asema","naisasialiikkeet","naisasiajärjestöt"), c("etsintäkuulutukset","rikokset","oikeus","rangaistukset"))
+``` r
+selections = list(
+  c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia"),
+  c("oppihistoria","antiikki","historia"),
+  c("filosofia","luonnonfilosofia","metafysiikka","logiikka"),
+  c("luonnontieteet","matematiikka","fysiikka","kemia","tähtitiede","maantiede","geodesia","geofysiikka","meteorologia"),
+  c("retoriikka","poetiikka","kielitiede","kielioppi"),
+  c("heprean kieli","kreikan kieli","latinan kieli"),
+  c("psykologia","yhteiskuntafilosofia","valtiofilosofia","talous","raha","moraali","velvollisuudet","kasvatus","maanviljely","maatalous","kalastus"),
+  c("luonnonhistoria","lääketiede","tartuntataudit","eläintiede","kasvitiede","kasvisto","eläimet","eläinsuojelu","eläimistö","eläintaudit","hevonen"),
+  c("naiset","naisen asema","naisasialiikkeet","naisasiajärjestöt"),
+  c("etsintäkuulutukset","rikokset","oikeus","rangaistukset"))
+
 
 for (sel in selections) {
 
 print(paste(sel, collapse = ";"))
 
-catalogue &lt;- "Fennica" df = df0 df\(hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df\)subject\_topic))})), 1, any)
+catalogue <- "Fennica"
+df = df0
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 
-Selected catalogue with selected topics
-=======================================
+# Selected catalogue with selected topics
+df <- df %>% filter(catalog == catalogue & hit)
 
-df &lt;- df %&gt;% filter(catalog == catalogue & hit)
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+dfl$language <- factor(dfl$language, levels = names(table(dfl$language)))
 
-langs &lt;- c("Finnish", "Swedish", "Latin", "German", "Other") lang &lt;- paste("language.", langs, sep = "") otherlang &lt;- setdiff(names(df)\[grep("lang.", names(df))\], lang) df\(language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0 dfl <- NULL for (lan in lang) {  # Classify a document to the specifed language  # If document is assigned with languages, each case is considered  # so one doc may have multiple entries corresponding to different languages  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language  # Combine data frames for specified languages  dflsub <- filter(df, df[[lan]])  if (nrow(dflsub) > 0) {  dflsub\)language &lt;- gsub("language.", "", lan) dfl &lt;- bind\_rows(dfl, dflsub) } } dfl\(language <- factor(dfl\)language, levels = names(table(dfl$language)))
+# -------------------------------------------
 
--------------------------------------------
-===========================================
+df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+                   paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-df &lt;- dfl %&gt;% group\_by(publication\_decade, language) %&gt;% summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+# TITLE COUNT
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
 
-TITLE COUNT
-===========
 
-theme\_set(theme\_bw(20)) p &lt;- ggplot(df, aes(x = publication\_decade, y = n, group = language)) + geom\_point(aes(col = language, shape = language), size = 5) + geom\_line(aes(col = language, shape = language)) +
-xlab("Publication year") + ylab("Title count (n)") + ggtitle(paste("Languages (", catalogue, ")", sep = "")) print(p)
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+}
+```
 
-PAPER CONSUMPTION
-=================
+    ## [1] "kirkkohistoria;raamatunhistoria;eksegetiikka;homiletiikka;dogmatiikka;teologia"
 
-theme\_set(theme\_bw(20)) p &lt;- ggplot(df, aes(x = publication\_decade, y = paper, group = language)) + geom\_point(aes(col = language, shape = language), size = 5) + geom\_line(aes(col = language, shape = language)) +
-xlab("Publication year") + ylab("Paper consumption") + ggtitle(paste("Languages (", catalogue, ")", sep = "")) print(p) } \#\`\`\`
+    ## [1] "oppihistoria;antiikki;historia"
+
+    ## [1] "filosofia;luonnonfilosofia;metafysiikka;logiikka"
+
+    ## [1] "luonnontieteet;matematiikka;fysiikka;kemia;tähtitiede;maantiede;geodesia;geofysiikka;meteorologia"
+
+    ## [1] "retoriikka;poetiikka;kielitiede;kielioppi"
+
+    ## [1] "heprean kieli;kreikan kieli;latinan kieli"
+
+    ## [1] "psykologia;yhteiskuntafilosofia;valtiofilosofia;talous;raha;moraali;velvollisuudet;kasvatus;maanviljely;maatalous;kalastus"
+
+    ## [1] "luonnonhistoria;lääketiede;tartuntataudit;eläintiede;kasvitiede;kasvisto;eläimet;eläinsuojelu;eläimistö;eläintaudit;hevonen"
+
+    ## [1] "naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt"
+
+    ## [1] "etsintäkuulutukset;rikokset;oikeus;rangaistukset"
+
+<img src="figure_201606_Krakow/topics44-1.png" width="430px" /><img src="figure_201606_Krakow/topics44-2.png" width="430px" /><img src="figure_201606_Krakow/topics44-3.png" width="430px" /><img src="figure_201606_Krakow/topics44-4.png" width="430px" /><img src="figure_201606_Krakow/topics44-5.png" width="430px" /><img src="figure_201606_Krakow/topics44-6.png" width="430px" /><img src="figure_201606_Krakow/topics44-7.png" width="430px" /><img src="figure_201606_Krakow/topics44-8.png" width="430px" /><img src="figure_201606_Krakow/topics44-9.png" width="430px" /><img src="figure_201606_Krakow/topics44-10.png" width="430px" /><img src="figure_201606_Krakow/topics44-11.png" width="430px" /><img src="figure_201606_Krakow/topics44-12.png" width="430px" /><img src="figure_201606_Krakow/topics44-13.png" width="430px" /><img src="figure_201606_Krakow/topics44-14.png" width="430px" /><img src="figure_201606_Krakow/topics44-15.png" width="430px" /><img src="figure_201606_Krakow/topics44-16.png" width="430px" /><img src="figure_201606_Krakow/topics44-17.png" width="430px" /><img src="figure_201606_Krakow/topics44-18.png" width="430px" /><img src="figure_201606_Krakow/topics44-19.png" width="430px" /><img src="figure_201606_Krakow/topics44-20.png" width="430px" />
 
 ### Book as media: development over time
 
@@ -316,7 +378,9 @@ Paper consumption per document in the top publication places. Note that paper co
 
 <img src="figure_201606_Krakow/bookmedia2-1.png" width="430px" /><img src="figure_201606_Krakow/bookmedia2-2.png" width="430px" />
 
-Overview on how over 50 page documents spread in time. Paper consumption in books (over 50 pages; balls) versus other documents (less or equal than 50 pages; triangles). TODO: voidaanko tässä nähdä paikallisia eroja ?
+Overview on how over 50 page documents spread in time. Paper consumption in books (over 50 pages; balls) versus other documents (less or equal than 50 pages; triangles).
+
+TODO: voidaanko tässä nähdä paikallisia eroja ? **TODO MT: voin katsoa jos spesifoitte tarkemmin**
 
 <img src="figure_201606_Krakow/bookmedia1-1.png" width="430px" /><img src="figure_201606_Krakow/bookmedia1-2.png" width="430px" />
 
@@ -350,7 +414,9 @@ Number of unique publishers per decade in Finland and elsewhere (based on the Fe
 
 Number of unique publishers in top publication places over time (Fennica):
 
-![](figure_201606_Krakow/publishers2-finland-1.png) MITEN ON MAHDOLLISTA, ETTÄ VYBORG EI NÄY TÄSSÄ? Tai jos syynä että merkattu Suomen ulkopuolelle, niin se pitäisi saada tähän poikkeuksena mukaan. Tuolla alkupäässä sen pitäisi näkyä.
+![](figure_201606_Krakow/publishers2-finland-1.png)
+
+MITEN ON MAHDOLLISTA, ETTÄ VYBORG EI NÄY TÄSSÄ? Tai jos syynä että merkattu Suomen ulkopuolelle, niin se pitäisi saada tähän poikkeuksena mukaan. Tuolla alkupäässä sen pitäisi näkyä. **LL: oli poissa siksi etta Suomen ulkopuolelle merkattu - lisasin nyt poikkeuksena mukaan**
 
 Number of unique publishers in selected publication places over time (Kungliga). \[Julkaisijoiden osalta Kungligan aineiston osalta samat analyysit Tukholmasta, Lundista, Uppsalasta ja Greifswaldista. Tämä mahdollistaa Turun sijoittamisen kontekstiin.\]
 
@@ -360,7 +426,7 @@ Number of unique publishers in selected publication places over time (Kungliga).
 
 Title count per top publisher (two alternative visualizations):
 
-MT: Näissä ensimmäisissä kuvissa myös aikarajaus niin että loppuu 1828.
+MT: Näissä ensimmäisissä kuvissa myös aikarajaus niin että loppuu 1828. **LL OK DONE**
 
 ![](figure_201606_Krakow/publishers3-finland-1.png)![](figure_201606_Krakow/publishers3-finland-2.png)![](figure_201606_Krakow/publishers3-finland-3.png)![](figure_201606_Krakow/publishers3-finland-4.png)
 
