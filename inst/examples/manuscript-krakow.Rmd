@@ -68,18 +68,29 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 TODO-järjestyksestä:
 
-Tärkein ASAP tehtävä on **Publisher analysis**
+Selvensin alle (Publisher analysis kohtaan):
 
-Selvensin alle (Publisher analysis kohtaan): PUBLISHER-TODO1 ja
-PUBLISHER-TODO2. Lisäksi löytyy muita ajatuksia.
+  * PUBLISHER-TODO1
+  * PUBLISHER-TODO2
+  * Lisäksi löytyy muita ajatuksia.
 
 Muiden osalta (voi tehdä jo ilman publisher kenttää), järjestys: **Book printing in Finland** - kohdasta
-  * BOOKINFINLAND-TODO1 ja
-  * BOOKINFINLAND-TODO2.
 
-Eli aloita BOOKINFINLAND-TODOilla ja kun julkaisijakenttä tsekattu, niin heti Publisher analysis kohtaan ja PUBLISHER-TODOt. Samalla Marjanen ja minä siivotaan näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+  * BOOKINFINLAND-TODO1
+  * BOOKINFINLAND-TODO2
 
-Lisäsin alle seuraavat TODO:t: TODO_Political events 1, TODO_Turku in Sweden 1, TODO_Turku in Sweden 2, TODO_Publisher analysis_#, TODO_Publishing in Finland # ja TODO_Publishing in Finland_kieliolosuhteet_muualla 1. Ovatko nämä toteuttamiskelpoisia?
+Marjanen ja minä siivotaan samalla näitä muita analyysi-ideoita toteuttamiskelpoisiksi ohjeiksi. Jani voi tehdä tätä omatoimisesti myös.
+
+Lisäsin alle seuraavat TODO:t (Ovatko nämä toteuttamiskelpoisia?):  
+
+  * TODO_Political events 1
+  * TODO_Turku in Sweden 1
+  * TODO_Turku in Sweden 2
+  * TODO_Publisher analysis_
+  * TODO_Publishing in Finland
+  * TODO_Publishing in Finland_kieliolosuhteet_muualla
+
+
 
 ## Introduction 
 
@@ -122,7 +133,8 @@ numbered and collected in references section.
 
 ## Results
 
-MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this?
+MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this? LL: yes we can rather easily add map visualization when it is clear what we like to present using maps. For instance the code we used for LIBER to visualize differences in publishing activity across UK can be reused (with different regions), also videos can be made for presentation if we like. But I would first focus on findings, and polish the visualizations later. I will try to look at maps somewhere this week. The less there are other todo points, the more there will be time for maps. If you like to see some result specifically on a map, please mark it so and I can check.
+
 
 Why Fennica has huge drop in 1700s? Do some publisher disappear (TODO)? Let us look at top publication places during the period 1650-1750 in Fennica: 
 
