@@ -40,7 +40,7 @@ output: markdown_document
    or the [custom author information
    table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/author_info.csv)
 
-<img src="figure_201606_Krakow/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure_201606_Krakow/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure_201606_Krakow/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure_201606_Krakow/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" />
+<img src="figure/summary-authorgenders-1.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-2.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-3.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" /><img src="figure/summary-authorgenders-4.png" title="plot of chunk summary-authorgenders" alt="plot of chunk summary-authorgenders" width="400px" />
 
 
 Author gender distribution in the complete data:
@@ -56,7 +56,7 @@ Author gender distribution in the complete data:
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 
 
-![plot of chunk summarygendertime](figure_201606_Krakow/summarygendertime-1.png)
+![plot of chunk summarygendertime](figure/summarygendertime-1.png)
 
 
 

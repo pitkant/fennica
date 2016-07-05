@@ -17,7 +17,7 @@ Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.h
 
 Title count per language (including multi-language documents):
 
-![plot of chunk summarylang](figure_201606_Krakow/summarylang-1.png)
+![plot of chunk summarylang](figure/summarylang-1.png)
 
 
 ### Top languages
