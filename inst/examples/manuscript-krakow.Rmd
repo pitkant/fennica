@@ -2332,6 +2332,18 @@ painotalo huomattavasti enemmän kuin toiset).
 
 TODO_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
 
+```{r kungliga_subjecttopics, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+df <- filter(df0, catalog == "Kungliga") %>%
+      filter(publication_year <= 1828)
+
+output.folder <- "figure_201606_Krakow/"
+field <- "subject_topic"
+entries = unlist(strsplit(as.character(df.preprocessed[[field]]), ";"), use.names = FALSE)
+s <- write_xtable(entries, file = paste(output.folder, catalog, "_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
+```
+
+[Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv)
+
 TODO_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
 
 TODO_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
