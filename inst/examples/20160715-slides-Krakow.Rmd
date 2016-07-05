@@ -70,7 +70,6 @@ library(bibliographica)
 library(fennica)
 library(sorvi)
 
-
 df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(n = n())
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = catalog)) +
@@ -91,20 +90,18 @@ print(p)
 
 ```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishingactivitycomparisons-2.png
-
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
                summarise(n = n()) %>%
 	       filter(publication_place %in% selected.places) 
 df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
 df2$publication_place = droplevels(factor(df2$publication_place))
-df3 = spread(df2, publication_decade, n, fill = 0)
+df3 = as.data.frame(spread(df2, publication_decade, n, fill = 0))
 df2 = melt(df3)
 colnames(df2) = c("publication_place", "catalog", "publication_decade", "n")
 df2$publication_decade = as.numeric(as.character(df2$publication_decade))
 df2$n = as.numeric(as.character(df2$n))
 for (catal in unique(df2$catalog)) {
-
   p <- ggplot(subset(df2, catalog == catal), aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = publication_place)) +
      geom_point(aes(shape = publication_place), size = 3) +
@@ -129,6 +126,7 @@ df <- df %>%
 
 # Top publication places
 ntop <- 10
+library(bibliographica)
 top <- names(top(df, "publication_place", ntop))
 
 df <- df %>%	
