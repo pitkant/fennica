@@ -98,7 +98,7 @@ df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
 	       filter(publication_place %in% selected.places) 
 df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
 df2$publication_place = droplevels(factor(df2$publication_place))
-df3 = spread(df2, publication_decade, n, fill = 0)
+df3 = as.data.frame(spread(df2, publication_decade, n, fill = 0))
 df2 = melt(df3)
 colnames(df2) = c("publication_place", "catalog", "publication_decade", "n")
 df2$publication_decade = as.numeric(as.character(df2$publication_decade))
