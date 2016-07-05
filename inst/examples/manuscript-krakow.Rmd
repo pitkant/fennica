@@ -66,14 +66,25 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
+**UUSIA TODOJA (5.7.2016) alla:**
 
-Seuraavat TODO:t ainakin kesken:
+**BOOKINFINLAND-5.1**
+**50PAGES-TODO**
+**BOOKFORMATS-TODO**
+**KUNGLIGAPUB-TODO1**
+**KUNGLIGAPUB-TODO2**
+-----------
+**AUTHOR-TODO1**
+**AUTHOR-TODO2**
+Tämä lista kiireysjärjestyksessä. Ensimmäiset 3 listalla pitäisi olla kohtuu nopea toteuttaa. KUNGLIGAPUB on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio toteutetaan nyt jos ehditään.
 
+**Lisäksi seuraavat TODOt kesken:**
 
-  * TODO_Turku in Sweden 1
-  * TODO_Turku in Sweden 2
-  * TODO_Publisher analysis_ JANI: Täsmennä mitä ajattelit.
-  * TODO_Publishing in Finland JANI: täsmennä mitä ajattelit (ks. alla).
+**TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
+**TODO_Turku in Sweden 1**
+**TODO_Turku in Sweden 2**
+**TODO_Publisher analysis_ JANI: Täsmennä mitä ajattelit.**
+**TODO_Publishing in Finland JANI: täsmennä mitä ajattelit (ks. alla).**
 
 
 
@@ -118,12 +129,7 @@ numbered and collected in references section.
 
 ## Results
 
-MT: We are in a session called "MAPS and SPACE", so I think we need to have some of the results presented on a map. Now, the question is what is possible to do within this time? But perhaps the publishing houses should be included in this? LL: yes we can rather easily add map visualization when it is clear what we like to present using maps. For instance the code we used for LIBER to visualize differences in publishing activity across UK can be reused (with different regions), also videos can be made for presentation if we like. But I would first focus on findings, and polish the visualizations later. I will try to look at maps somewhere this week. The less there are other todo points, the more there will be time for maps. If you like to see some result specifically on a map, please mark it so and I can check.
-
-
-Why Fennica has huge drop in 1700s? Do some publisher disappear (see
-below for an answer..)
-
+LL: yes we can rather easily add map visualization when it is clear what we like to present using maps. For instance the code we used for LIBER to visualize differences in publishing activity across UK can be reused (with different regions), also videos can be made for presentation if we like. But I would first focus on findings, and polish the visualizations later. I will try to look at maps somewhere this week. The less there are other todo points, the more there will be time for maps. If you like to see some result specifically on a map, please mark it so and I can check.
 
 Let us look at top publication places during the period 1650-1750 in Fennica: 
 
@@ -172,7 +178,6 @@ for (myplace in selected.places) {
 }
 ```
 
-
 The following figure highlights publisher title count changes around 1700 drop in Turku, the most significant publishing place at the time:
 
 ```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
@@ -207,7 +212,6 @@ p <- ggplot(npub, aes(x = publication_year, y = n, group = publisher)) +
 print(p)
 ```
 
-
 Here the same for the complete Fennica:
 
 ```{r summaryTop10pubtimeline, fig.height=10, fig.width=20, echo=FALSE}
@@ -230,9 +234,6 @@ p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = field)) +
        ggtitle("Title count timeline for the top publishers in Fennica")
 print(p)
 ```
-
-
-TODO: Hege's deduplication code for specific figures. Particular figures to be decided.
 
 
 Paper per title count ratio per publisher. [nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).]
@@ -279,6 +280,12 @@ print(p)
   * [Kungliga overview](https://github.com/rOpenGov/kungliga/blob/master/antagomir/overview.md)  
 
 Top-author timelines. Putsaus ok (näistä tsekattu, että ei löydy ainakaan isoa määrää laskuista puuttuvia nimivariantilla julkaistuja teoksia). Kungligassa väitöskirjat näyttelevät huomattavasti pienempää osaa kuin Fennicassa. Näkyy näistä top-auktori kuvista.
+
+**AUTHOR-TODO1 Fennica top-auktoreiden julkaisijat: Kuka julkaisee top-auktoreita, milloin ja kuinka paljon? Toimenpiteet: valitse tarkastelun kohteeksi Fennicasta top-20 auktoreiden kaikki teokset (yhteinen aineisto, ei erotteluja sen sisällä mihinkään suuntaan).  Tarkastele tämän aineiston julkaisijoita aikajanalla (eli samansuuntainen analyysi kuin BOOKINFINLAND-DONE3 with top-publishers). Esim. 4 top-julkaisijaa tälle aineistolle + muut kategoria. Yksi kuva, 5 viivaa aikajanalla, jos toimii käytännössä. Jos ei, niin voi tehdä useamman kuvan.**
+
+
+**AUTHOR-TODO2 Kungliga top-auktoreiden julkaisijat: sama kuin edellä, mutta nyt Kungliga top-20-auktoreiden teosten julkaiseminen ajakajanalla tarkastelun kohteena eli kuka julkaisee top-auktoreita, milloin ja kuinka paljon.**
+
  
 ```{r summaryTop10authorstimeline, fig.height=4, fig.width=10, echo=FALSE, fig.show="hold", out.width="430px"}
 theme_set(theme_bw(20))
@@ -325,7 +332,6 @@ p <- ggplot(df, aes(x = publication_decade, y = n)) +
 print(p)
 }
 ```
-
 
 Overall development in publishing activity:
 
@@ -706,8 +712,6 @@ Kungliga publications outside Sweden and Finland.
 
 ### Book printing in Finland 
 
-TODO: kielikategorian laajennus (ranska ja venäjä mukaan) pitäisi tehdä myös muihin BOOKINFINLAND kohtiin tässä osiossa.
-
 
 ```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 
@@ -933,7 +937,7 @@ catalogue = "Kungliga"
 
 Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? Toteutus, valitaan kaikki teokset joihin liittyy joku seuraavista asiasanoista: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. Tämän jälkeen tarkkaillaan aikajanalla näiden teosten esiintymistä, erottavana tekijänä kieli (samat 5 kategoriaa kuin edellisessä analyysissä).
 
-**TODO: Kungligan subject topiceista voisi tuottaa vastaavat niputettavat asiasanaryhmät Kungligalle (Jani ja Mikko): https://github.com/rOpenGov/kungliga/blob/master/output.tables/subject_topic_accepted.csv Näistä sitten oma analyysi joka suhtautuu Fennicaan.** LL: voin tehda jos saan selvan listan asiasanoista.
+TODO (to be decided): Kungligan subject topiceista voisi tuottaa vastaavat niputettavat asiasanaryhmät Kungligalle (Jani ja Mikko): https://github.com/rOpenGov/kungliga/blob/master/output.tables/subject_topic_accepted.csv Näistä sitten oma analyysi joka suhtautuu Fennicaan. LL: voin tehda jos saan selvan listan asiasanoista.
 
 
 General analysis with all documents combined:
@@ -1262,7 +1266,7 @@ print(p)
 
 
 
-### BOOKINFINLAND-DONE4 TODO:kielten viilaus, pätee myös BOOKINFINLAND-5. Nyt "other" kentästä pitäisi irrottaa relevantit. Nouseeko ranska esiin niin että sille kannattaisi laittaa oma analyysiviiva?
+### BOOKINFINLAND-DONE4 **TODO:kielten viilaus, pätee myös BOOKINFINLAND-5. Nyt "other" kentästä pitäisi irrottaa relevantit eli ranska ja venäjä mukaan.**
 
 edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
 
@@ -1517,7 +1521,7 @@ print(p)
 
 
 
-Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. **HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.**
+Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.
 
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
 
@@ -1565,7 +1569,7 @@ for (place in c("Turku", "Uppsala")) {
 
 
 
-### BOOKINFINLAND-5
+### BOOKINFINLAND-5 **TODO kielten viilaus, ranska ja venäjä omiksi kategorioikseen mukaan**
 
 Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoida yliopisto-opetuksen muutosta. Kokonaismäärät ja kielikohtaiset vaihtelut kiinnostavat. 
 
@@ -1594,6 +1598,7 @@ Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki k
 
 **OK riittääkö alla olevat vai jotain vielä lisää?** Voidaan joskus myohemmin tehda Shiny applikaatio jossa valita itse vuoden ja asiasanat lennossa. Mutta ei ehdi tahan.
 
+**BOOKINFINLAND-5.1 Jatketaan tätä analyysia julkaisijatarkasteluun. Tehdään näiden valmiiden kuvien pohjalta vielä toinen setti kuvia joissa kaikki kielet yhdistetään kuvakohtaisesti (vain yksi viiva, tarkasteltavat asiasanaryhmät kuvakohtaisesti samat) ja piirretään Fennican top-5 julkaisijoiden perusteella kuvat miten he julkaisevat näitä mainittuja sanaryppäitä (vai julkaisevatko ollenkaan). Lisäksi kategoria muut julkaisijat pitää piirtää myös koska akateeminen kirjapaino on tässä kategoriassa.**
 
 ```{r topics44, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 selections = list(
@@ -1663,8 +1668,11 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
 print(p)
 }
 ```
-These are intriguing graphs. Potentially they reveal the story of the development of the Academy in Turku in a very elegant manner. All disciplines suffer a dramatic decline after 1700, which is due to external causes (war, famine etc.). Philosophy (including logic and rhetoric) do not bounce back once the situation is normalised towards the middle of eighteenth century. Having been thriving in 17th-century philosophy is close to extinction as an academic subject by the second half of eighteenth century. It seems that natural science (and related fields) take over, especially when extended topic of medicine is included here. What is interesting about natural science is that the printing happens in several different languages (note also that the topics included in this category are perhaps more wide-ranging, which might play a part). Economy (and related fields) is a tremendous case in point that should be contrasted with religious/devotional literature towards the second half of eighteenth century. The reason for this is that Swedish is the predominant language (whereas the devotional literature is mainly in Finnish). Hebrew-Latin-Greek seem to do better than philosophy. Thus, perhaps there is a point in that book: Vain hyödynkö tähden?. Latin publishing of theology (and related fields) goes down as well. History does suprisingly well throughout the period.
+These are intriguing graphs. Potentially they reveal the story of the development of the Academy in Turku in an elegant manner. All disciplines suffer a dramatic decline after 1700, which is due to external causes (war, famine etc.). Philosophy (including logic and rhetoric) do not bounce back once the situation is normalised towards the middle of the eighteenth century. Having been somewhat thriving in 17th-century, philosophy is close to extinction as an academic subject by the second half of eighteenth century. It seems that natural science (and related fields) take over, especially when extended topic of medicine is included here. What is interesting about natural science is that the printing happens in several different languages (note also that the topics included in this category are perhaps more wide-ranging, which might play a part). Economy (and related fields) is a tremendous case in point that should be contrasted with religious/devotional literature towards the second half of eighteenth century. The reason for this is that Swedish is the predominant language (whereas the devotional literature is mainly in Finnish). Hebrew-Latin-Greek seem to do better than philosophy. Thus, perhaps there is a point in that book: Vain hyödynkö tähden?. Latin publishing of theology (and related fields) goes down as well. History does suprisingly well throughout the period.
 
+**KUNGLIGAPUB-TODO1 Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä.**
+
+**KUNGLIGAPUB-TODO2 Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti.**
 
 
 
@@ -1702,7 +1710,7 @@ Overview on how over 50 page documents spread in time. Paper
 consumption in books (over 50 pages; balls) versus other documents
 (less or equal than 50 pages; triangles).
 
-TODO: voidaanko tässä nähdä paikallisia eroja ? **TODO MT: voin katsoa jos spesifoitte tarkemmin**
+**50PAGES-TODO: voidaanko tässä nähdä paikallisia eroja? Toteutustapa: otetaan tarkastelun kohteeksi yksittäiset kaupungit. Käytetään yliopistokaupunkeja: Turku, Tukholma, Lund, Greifswald, Uppsala, Tartu sekä mukaan myös Vyborg ja Helsinki.**
 
 
 ```{r bookmedia1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
@@ -1761,7 +1769,7 @@ for (catal in unique(df0$catalog)) {
   print(res$plot + ggtitle(paste(catal, " (%)", sep = "")))
 }
 ```
-
+**BOOKFORMATS-TODO: sama paikallisten erojen tarkasteluun. Toteutustapa: otetaan tarkasteluun Kungligasta yksittäiset kaupungit. Käytetään yliopistokaupunkeja: Turku, Tukholma, Lund, Greifswald, Uppsala, Tartu sekä mukaan myös Vyborg ja Helsinki.**
 
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. 
 
@@ -1780,8 +1788,10 @@ for (catal in unique(df0$catalog)) {
   print(p)
 }
 ```
+**
 
-Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) kertoo Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
+
+Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) näyttäisi kertovan Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
 
 Paper consumption in selected places (Fennica):
 
