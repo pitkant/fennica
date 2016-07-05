@@ -846,6 +846,8 @@ print(p)
 
 }
 ```
+**ranska ja venäjä pitäisi nostaa omiksi ryhmikseen tähän prosenttianalyysiin!**
+
 **KIELI%-TODO sama prosenttianalyysi kielistä mutta paikkakuntakohtaisesti (sekä Fennican että Kungligan mukaan): Turku, Greifswald, Stockholm, Uppsala, Lund. Rajataan analyysi vuoteen 1828.**
 
 ```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
