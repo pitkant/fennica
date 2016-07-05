@@ -56,7 +56,7 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 
 ## Peaks and drops – role of publishers and contingency
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=6}
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5}
 library(devtools)
 install_github("ropengov/gisfin")
 
