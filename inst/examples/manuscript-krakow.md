@@ -22,7 +22,7 @@ UUSIA TODOJA (5.7.2016):
 
 **BOOKFORMATS-TODO**
 
-**KUNGLIGAPUB-TODO1**
+**KUNGLIGAPUB-TODO1 (mietitään onnistuuko yhden Kungligan asiasanalistauksen avulla)**
 
 **KUNGLIGAPUB-TODO2**
 
@@ -40,7 +40,7 @@ AUTHOR-osio toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös m
 
 **TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
 
-**TODO\_Turku in Sweden 1**
+**TODO\_Turku in Sweden 1 (JANI TSEKKAA VOIKO YKSINKERTAISTAA SUHTEESSA KUNGLIGAPUBiin**
 
 **TODO\_Turku in Sweden 2**
 
@@ -373,10 +373,6 @@ Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki k
 
 These are intriguing graphs. Potentially they reveal the story of the development of the Academy in Turku in an elegant manner. All disciplines suffer a dramatic decline after 1700, which is due to external causes (war, famine etc.). Philosophy (including logic and rhetoric) do not bounce back once the situation is normalised towards the middle of the eighteenth century. Having been somewhat thriving in 17th-century, philosophy is close to extinction as an academic subject by the second half of eighteenth century. It seems that natural science (and related fields) take over, especially when extended topic of medicine is included here. What is interesting about natural science is that the printing happens in several different languages (note also that the topics included in this category are perhaps more wide-ranging, which might play a part). Economy (and related fields) is a tremendous case in point that should be contrasted with religious/devotional literature towards the second half of eighteenth century. The reason for this is that Swedish is the predominant language (whereas the devotional literature is mainly in Finnish). Hebrew-Latin-Greek seem to do better than philosophy. Thus, perhaps there is a point in that book: Vain hyödynkö tähden?. Latin publishing of theology (and related fields) goes down as well. History does suprisingly well throughout the period.
 
-**KUNGLIGAPUB-TODO1** asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
-
-**KUNGLIGAPUB-TODO2** Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
-
 ### Book as media: development over time
 
 Paper consumption per document in the top publication places. Note that paper consumption estimates have still problems so take this with reservations. Are there time periods with remarkable changes in paper consumption per document (meaning that small or large volumes suddenly become more frequent) ?
@@ -471,7 +467,13 @@ Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko joku paperink
 
 [Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
 
+[Kungliga subject topics Uppsala 1488-1828](figure_201606_Krakow/Kungliga_Uppsala_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
+
 ### Other points if the time allows (I will skip all of these unless they are moved back to main text above)
+
+**KUNGLIGAPUB-TODO1** (mietitään onnistuuko yhden Kungligan asiasanalistauksen avulla, alkuperäinen idea kuitenkin tässä) Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä. KOKO KUNGLIGA LISTAUS vaikuttaa toistaiseksi siltä että on hyvin vähän asiasanoja jotka liittyvät yliopistoon. Näin ollen, voisiko generoida Uppsalasta oman asiasanalistauksen joka toimii evaluaatiokeissinä tuosta paikkakuntakohtaisesta listauksesta?**OK DONE see link above Kungliga subject topics Uppsala 1488-1828**
+
+**KUNGLIGAPUB-TODO2** Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
 
 TODO\_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
 
