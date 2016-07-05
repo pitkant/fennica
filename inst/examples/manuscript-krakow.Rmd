@@ -80,7 +80,7 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 **BOOKFORMATS-TODO**
 
-**KUNGLIGAPUB-TODO1**
+**KUNGLIGAPUB-TODO1 (mietitään onnistuuko yhden Kungligan asiasanalistauksen avulla)**
 
 **KUNGLIGAPUB-TODO2**
 
@@ -96,7 +96,7 @@ Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla koht
 
 **TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
 
-**TODO_Turku in Sweden 1**
+**TODO_Turku in Sweden 1 (JANI TSEKKAA VOIKO YKSINKERTAISTAA SUHTEESSA KUNGLIGAPUBiin**
 
 **TODO_Turku in Sweden 2**
 
@@ -1690,7 +1690,7 @@ print(p)
 ```
 These are intriguing graphs. Potentially they reveal the story of the development of the Academy in Turku in an elegant manner. All disciplines suffer a dramatic decline after 1700, which is due to external causes (war, famine etc.). Philosophy (including logic and rhetoric) do not bounce back once the situation is normalised towards the middle of the eighteenth century. Having been somewhat thriving in 17th-century, philosophy is close to extinction as an academic subject by the second half of eighteenth century. It seems that natural science (and related fields) take over, especially when extended topic of medicine is included here. What is interesting about natural science is that the printing happens in several different languages (note also that the topics included in this category are perhaps more wide-ranging, which might play a part). Economy (and related fields) is a tremendous case in point that should be contrasted with religious/devotional literature towards the second half of eighteenth century. The reason for this is that Swedish is the predominant language (whereas the devotional literature is mainly in Finnish). Hebrew-Latin-Greek seem to do better than philosophy. Thus, perhaps there is a point in that book: Vain hyödynkö tähden?. Latin publishing of theology (and related fields) goes down as well. History does suprisingly well throughout the period.
 
-**KUNGLIGAPUB-TODO1 Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä.**
+**KUNGLIGAPUB-TODO1 (mietitään onnistuuko yhden Kungligan asiasanalistauksen avulla, alkuperäinen idea kuitenkin tässä) Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä. KOKO KUNGLIGA LISTAUS vaikuttaa toistaiseksi siltä että on hyvin vähän asiasanoja jotka liittyvät yliopistoon. Näin ollen, voisiko generoida Uppsalasta oman asiasanalistauksen joka toimii evaluaatiokeissinä tuosta paikkakuntakohtaisesta listauksesta?**
 
 **KUNGLIGAPUB-TODO2 Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti.**
 
