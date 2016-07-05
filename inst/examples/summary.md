@@ -11,7 +11,7 @@ date: "March 2, 2016"
 
 Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
-![plot of chunk missing2](figure/missing2-1.png)
+![plot of chunk missing2](figure_201606_Krakow/missing2-1.png)
 
 
 
@@ -35,7 +35,7 @@ We also have corporate info available ?
 
 Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5838 documents (8%). There are 645 unique geographical places.
 
-![plot of chunk geo2](figure/geo2-1.png)
+![plot of chunk geo2](figure_201606_Krakow/geo2-1.png)
 
 
 

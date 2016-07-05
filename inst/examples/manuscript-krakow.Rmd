@@ -28,7 +28,7 @@ knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/", dev="CairoPNG")
 ```
 
 
-```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
+```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE}
 library(stringr)
 library(dplyr)
 library(ggplot2)
@@ -60,6 +60,8 @@ df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0
 # Selected time spam
 df0 = bind_rows(fen, kun)
 df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 ```
 
 
@@ -362,10 +364,8 @@ Overall development in publishing activity:
 df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
 df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
-     #geom_bar(stat = "identity") + #scale_y_log10() +
      geom_line(aes(linetype = catalog)) +
      geom_point(aes(shape = catalog), size = 3) +     
-     #ylab("Paper consumption (km2)")
      ylab("Title count (n)") + xlab("Publication year") +  
      ggtitle("Overall publishing activity")
 print(p)
@@ -409,9 +409,7 @@ julkaisukenttään 1600-luvun aikana.
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
                summarise(n = n()) %>%
-               #summarise(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%	       
 	       filter(publication_place %in% selected.places) # %>%
-	       #filter(publication_decade >= 1600)
 df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
 df2$publication_place = droplevels(factor(df2$publication_place))
 df3 = spread(df2, publication_decade, n, fill = 0)
@@ -424,8 +422,6 @@ for (catal in unique(df2$catalog)) {
   p <- ggplot(subset(df2, catalog == catal), aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = publication_place)) +
      geom_point(aes(shape = publication_place), size = 3) +
-     #scale_y_log10() +
-     #facet_wrap(catalog ~ .) + 
      ylab("Title count (n)") + xlab("Publication year") +  
      ggtitle(catal)
   print(p)
@@ -453,9 +449,6 @@ for (catal in as.character(unique(df0$catalog))) {
 
   # Use timeinterval year intervals
   dfsel = subset(df0, catalog == catal)
-  #dfsel = subset(df0, publication_place == "Stockholm")
-  #dfsel = subset(df0, publication_place == "Norrköping")
-  #dfsel = subset(df0, publication_place == "Gävle")
 
   df <- subset(dfsel, publication_year >= 1700 & publication_year < 1800 )
 
@@ -736,7 +729,6 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df <- df0
   df <- df %>% filter(catalog == catalogue)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -889,7 +881,6 @@ dfs <- filter(df, language == sel.lan)
 theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = publication_year, y = n)) +
        geom_point(size = 2) +
-       #geom_line() +
        geom_smooth(col = "black") +              
        xlab("Publication year") +
        ylab("Title count (n)") +
@@ -902,7 +893,6 @@ print(p)
 theme_set(theme_bw(20))
 p <- ggplot(dfs, aes(x = publication_year, y = paper)) +
        geom_point(size = 2) +
-       #geom_line() +
        geom_smooth(col = "black") +              
        xlab("Publication year") +
        ylab("Paper consumption") +
@@ -978,9 +968,6 @@ df = df0
     dflsub$language <- gsub("language.", "", lan)
     dfl <- bind_rows(dfl, dflsub)
   }
-  dfl$language <- factor(dfl$language, levels = langs)
-
-  # -------------------------------------------
 
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
@@ -989,13 +976,10 @@ df = df0
   # TITLE COUNT
   theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
   print(p)
 
@@ -1003,13 +987,10 @@ df = df0
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = "")) 
   print(p)
 ```
@@ -1028,12 +1009,9 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-  df$language <- factor(df$language, levels = names(table(df$language)))
- 
   # TITLE COUNT
   theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
@@ -1067,8 +1045,6 @@ for (publ in tops) {
 
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  df$language <- factor(df$language, levels = names(table(df$language)))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1105,18 +1081,11 @@ General analysis with all documents combined:
 
 ```{r topics2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 sel <- c("hautajaiset", "häät", "juhlamenot")
-
 catalogue <- "Fennica"
-  if (catalogue == "Fennica") {
-    df <- df.full # full time span
-  } else if (catalogue == "Kungliga") {
-    df <- df0 # selected time span
-  }
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-
+df <- df.full # full time span
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 # Selected catalogue with selected topics
 df <- df %>% filter(catalog == catalogue & hit)
-
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -1131,10 +1100,6 @@ for (lan in lang) {
   dflsub$language <- gsub("language.", "", lan)
   dfl <- bind_rows(dfl, dflsub)
 }
-dfl$language <- factor(dfl$language, levels = langs)
-
-# -------------------------------------------
-
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
@@ -1163,7 +1128,6 @@ print(p)
 
 
 Same with selected publication places:
-
 
 ```{r topics2.per.place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 
@@ -1261,7 +1225,6 @@ catalogue <- "Fennica"
 # Selected catalogue with selected topics
 df <- df %>% filter(catalog == catalogue & hit)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -1509,7 +1472,6 @@ df <- filter(df0, catalog == "Fennica") %>% select(publication_year, language, s
 df <- unique(df)
 df <- df %>% group_by(publication_year, language) %>% summarise(n = length(unique(unlist(strsplit(subject_topic, ";")))))
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 df$language[!df$language %in% langs] <- "Other"
 df$language <- factor(df$language, levels = langs)
 

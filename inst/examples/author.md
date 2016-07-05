@@ -19,7 +19,7 @@ output: markdown_document
 
 Top-20 uniquely identified authors and their productivity (title count).
 
-<img src="figure/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
+<img src="figure_201606_Krakow/summaryauthors-1.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" /><img src="figure_201606_Krakow/summaryauthors-2.png" title="plot of chunk summaryauthors" alt="plot of chunk summaryauthors" width="430px" />
 
 ### Ambiguous authors
 
@@ -36,17 +36,17 @@ Should also add living year information from supporting sources later.
 
 Ordered by productivity (number of documents))
 
-![plot of chunk summaryauthorslife](figure/summaryauthorslife-1.png)
+![plot of chunk summaryauthorslife](figure_201606_Krakow/summaryauthorslife-1.png)
 
 
 ### Author productivity
 
 Title count versus paper consumption (all authors):
 
-![plot of chunk authortitlespapers](figure/authortitlespapers-1.png)
+![plot of chunk authortitlespapers](figure_201606_Krakow/authortitlespapers-1.png)
 
 
-![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
+![plot of chunk summaryTop10authorstimeline](figure_201606_Krakow/summaryTop10authorstimeline-1.png)
 
 
 

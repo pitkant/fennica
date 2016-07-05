@@ -14,5 +14,5 @@ output: markdown_document
 
 Top-20 titles are shown together with the number of documents.
 
-![plot of chunk summarytitle](figure/summarytitle-1.png)
+![plot of chunk summarytitle](figure_201606_Krakow/summarytitle-1.png)
 

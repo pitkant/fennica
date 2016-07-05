@@ -24,6 +24,9 @@ library(sorvi)
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
 
+# Set locale
+Sys.setlocale(locale="UTF-8") 
+
 # Nice theme
 theme_set(theme_bw(26))
 ```
@@ -52,7 +55,10 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 
 ## Peaks and drops – role of publishers and contingency
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10}
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=6}
+library(devtools)
+install_github("ropengov/gisfin")
+
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishingovertime-1.png
 library(stringr)
 library(dplyr)
@@ -68,8 +74,8 @@ df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(n = n())
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = catalog)) +
      geom_point(aes(shape = catalog), size = 3) +     
-     ylab("Title count (n)") + xlab("Publication year") +  
-     ggtitle("Overall publishing activity")
+     ylab("Title count (n)") + xlab("Publication year") #+  
+     # ggtitle("Overall publishing activity")
 print(p)
 ```
 
@@ -77,14 +83,12 @@ print(p)
 
 ## Comparing publishing activity 
 
-Comparison of printing activity in 
-
 - Turku
 - Uppsala
 - Lund 
 - Stockholm 
 
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=8, fig.height=6, fig.show="hold", out.width="430px"}
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishingactivitycomparisons-2.png
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
@@ -113,9 +117,7 @@ for (catal in unique(df2$catalog)) {
 
 ---
  
-## Publishers Finland
-
-Number of unique publishers in top publication places over time (Fennica)
+## Unique publishers in top publication places over time 
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers2-finland-1.png
@@ -146,8 +148,6 @@ print(p)
 ```
 
 ---
-
-## Publishers Kungliga
 
 ```{r publishers2-kungliga, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers2-kungliga-1.png
@@ -180,12 +180,11 @@ print(p)
 
 ## Title count per top publisher
 
-```{r publishers3-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15, fig.show="hold"}
+```{r publishers3-finland-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=13, out.width="150px", fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers3-finland-1.png
 
-for (catalogue in c("Fennica", "Kungliga")) {
-
 place <- "Turku"
+catalogue = "Fennica"
 df = df0
 
 df <- df %>%
@@ -213,7 +212,43 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
 print(p)
 
-}
+
+```
+
+---
+
+## Title count per top publisher
+
+```{r publishers3-finland-kungliga, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=13, out.width="150px", fig.show="hold"}
+# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers3-finland-1.png
+catalogue = "Kungliga"
+place <- "Turku"
+df = df0
+
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) 
+
+df <- df %>%	
+        select(publication_decade, publisher, paper.consumption.km2)
+
+# Group small publishers
+# Top publishers by title count
+ntop <- 10
+top <- names(top(df, "publisher", ntop))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, c(top, "Other"))
+
+# Title count per decade & publisher	
+npub <- df %>% group_by(publication_decade, publisher) %>% tally()
+
+# TITLE COUNT
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_decade, y = n)) +
+       geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +        
+       ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
+print(p)
 ```
 
 ---
@@ -223,24 +258,25 @@ print(p)
 
 Paper per title count ratio per publisher. [nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).]
 
-```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publisherpapertitle-1.png
 
 for (catalogue in c("Fennica", "Kungliga")) {
 
-df <- df0
-df <- df %>%
+  df <- df0
+  df <- df %>%
         filter(catalog == catalogue) %>%
 	filter(publication_year >= 1640 & publication_year <= 1828)
 
-# Selected ones
-top <- names(top(df, "publisher", 5))
-df$publisher[!df$publisher %in% top] <- "Other"
-df$publisher <- factor(df$publisher, levels = c(top, "Other"))
+  # Selected ones
+  df$publisher[df$publisher == ""] = "Other"
+  top <- names(top(df, "publisher", 5))
+  df$publisher[!df$publisher %in% c(top, "")] <- "Other"
+  df$publisher <- factor(df$publisher, levels = c(top, "Other"))
 
-# Publishing per decade & publisher	
-npub <- df %>%
+  # Publishing per decade & publisher	
+  npub <- df %>%
      	  group_by(publication_decade, publisher) %>%
 	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
 	  mutate(paper.per.title = paper/n)
@@ -299,11 +335,11 @@ print(p)
 
 ---
 
-## Riksdagar 2
+## Gävle in Riksdagar
 
-Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$publication_place)` occurrences in Fennica, hence not included here. The figure on Gävle is based on Kungliga.
+Gävle (gray) during riksdagar (Kungliga)
 
-```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, out.width="430px"}
+```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/riksdar2-1.png
 
   # Use timeinterval year intervals
@@ -373,27 +409,18 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
 
 # Language
 
+## Book printing in Finland / Fennica
 
-## Book printing in Finland / Language
-
-```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="150px", fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/language1-1.png
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/language1-2.png
-
-for (catalogue in c("Fennica", "Kungliga")) {
-
-  df <- df0
-  df <- df %>% filter(catalog == catalogue)
-
+catalogue = "Fennica"
+df <- df0
 langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-
 dfl <- NULL
-
 for (lan in lang) {
-
   # Classify a document to the specifed language
   # If document is assigned with languages, each case is considered
   # so one doc may have multiple entries corresponding to different languages
@@ -404,9 +431,42 @@ for (lan in lang) {
   dfl <- bind_rows(dfl, dflsub)
   
 }
-dfl$language <- factor(dfl$language, levels = langs)
 
-df <- dfl %>% group_by(publication_decade, language) %>%
+# ----------------------------------
+
+df <- dfl %>% filter(catalog == catalogue)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# TITLE COUNT
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+```
+
+---
+
+## Book printing in Finland / Kungliga
+
+```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="150px", fig.show="hold"}
+catalogue = "Kungliga"
+  df <- dfl %>% filter(catalog == catalogue)
+  df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
@@ -429,8 +489,6 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        ylab("Paper consumption") +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
-
-}
 ```
 
 
@@ -438,7 +496,7 @@ print(p)
 
 ## Same with percentages
 
-```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="150px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
 
   if (catalogue == "Fennica") {
@@ -468,7 +526,6 @@ for (lan in lang) {
   dfl <- bind_rows(dfl, dflsub)
   
 }
-dfl$language <- factor(dfl$language, levels = langs)
 
 df <- dfl %>% group_by(publication_decade, language) %>%
      	     summarise(n = n())
@@ -499,7 +556,7 @@ print(p)
 
 Fennica, Hartaus- yms. kirjallisuuden kieli (suomi vai ruotsi) milloin alkaa yleistyä suomenkielinen ja miten tämän julkaiseminen suomeksi kasvaa? virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat. 
 
-```{r topics, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r topics, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
@@ -526,7 +583,6 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
     dflsub$language <- gsub("language.", "", lan)
     dfl <- bind_rows(dfl, dflsub)
   }
-  dfl$language <- factor(dfl$language, levels = langs)
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
@@ -547,10 +603,10 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 
 ### BOOKINFINLAND DONE3
 
-Sama kuin edellä, mutta asiasanat tässä: hautajaiset;häät;juhlamenot. 
+hautajaiset;häät;juhlamenot. 
 
 
-```{r topics2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r topics2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics2-2.png
 
 sel <- c("hautajaiset", "häät", "juhlamenot")
@@ -615,12 +671,7 @@ print(p)
 
 Edellisten yhdistäminen. Samat analyysit, mutta asiasanoina kaikki aiemmista kohdista yhdistettynä: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
 
-Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
-
-
-General analysis with all documents combined:
-
-```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics3-2.png
 
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat","hautajaiset","häät","juhlamenot")
@@ -650,7 +701,6 @@ for (lan in lang) {
   dflsub$language <- gsub("language.", "", lan)
   dfl <- bind_rows(dfl, dflsub)
 }
-dfl$language <- factor(dfl$language, levels = langs)
 
 # -------------------------------------------
 
@@ -692,12 +742,6 @@ sel =  c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogm
 langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 catalogue <- "Fennica"
 
-#https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics44-2.png
-#https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics44-4.png
-#https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics44-6.png
-#https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics44-8.png
-#https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics44-14.png
-
 df <- df0 %>% filter(catalog == catalogue)
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
@@ -710,12 +754,11 @@ for (lan in lang) {
     dfl <- bind_rows(dfl, dflsub)
   }
 }
-dfl$language <- factor(dfl$language, levels = names(table(dfl$language)))
 # Selected catalogue with selected topics
 df = dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 df <- df %>% filter(hit)
-df <- dfl %>% group_by(publication_decade, language) %>%
+df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
@@ -743,7 +786,7 @@ sel = c("oppihistoria","antiikki","historia")
 df = dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 df <- df %>% filter(hit)
-df <- dfl %>% group_by(publication_decade, language) %>%
+df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
@@ -771,7 +814,7 @@ sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
 df = dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 df <- df %>% filter(hit)
-df <- dfl %>% group_by(publication_decade, language) %>%
+df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
@@ -799,7 +842,7 @@ sel = c("luonnontieteet","matematiikka","fysiikka","kemia","tähtitiede","maanti
 df = dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 df <- df %>% filter(hit)
-df <- dfl %>% group_by(publication_decade, language) %>%
+df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
@@ -829,7 +872,7 @@ sel =   c("psykologia","yhteiskuntafilosofia","valtiofilosofia","talous","raha",
 df = dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 df <- df %>% filter(hit)
-df <- dfl %>% group_by(publication_decade, language) %>%
+df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
@@ -851,7 +894,7 @@ print(p)
 
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. 
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="430px"}
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/LIBER-13-2.png
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
@@ -876,7 +919,7 @@ Paper consumption (Kungliga) näyttäisi kertovan Valistuksen voittokulusta Euro
 
 Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä? 
 
-```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=10, fig.show="hold", out.width="430px"}
+```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/201606krakow-turkuvsother-2.png
 
 df <- fen %>% 
@@ -916,6 +959,9 @@ p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order =
 print(p)
 ```
 
-
 ---
 
+## Thanks !
+
+- Academy of Finland
+- University of Helsinki
