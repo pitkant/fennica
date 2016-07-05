@@ -68,14 +68,14 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 **UUSIA TODOJA (5.7.2016) alla:**
 
-**BOOKINFINLAND-5.1**
-**50PAGES-TODO**
-**BOOKFORMATS-TODO**
-**KUNGLIGAPUB-TODO1**
-**KUNGLIGAPUB-TODO2**
------------
-**AUTHOR-TODO1**
-**AUTHOR-TODO2**
+**BOOKINFINLAND-5.1**;
+**50PAGES-TODO**;
+**BOOKFORMATS-TODO**;
+**KUNGLIGAPUB-TODO1**;
+**KUNGLIGAPUB-TODO2**;
+-----------;
+**AUTHOR-TODO1**;
+**AUTHOR-TODO2**;
 Tämä lista kiireysjärjestyksessä. Ensimmäiset 3 listalla pitäisi olla kohtuu nopea toteuttaa. KUNGLIGAPUB on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio toteutetaan nyt jos ehditään.
 
 **Lisäksi seuraavat TODOt kesken:**
