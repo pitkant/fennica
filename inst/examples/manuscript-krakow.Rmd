@@ -2276,7 +2276,7 @@ TODO_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannat
 
 **PUBLISHER-TODO** (jos ehtii)
 
-TODO_Publisher analysis_#: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri julkaisijoiden. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot 1828. 
+TODO_Publisher analysis_#: Kaaviot Fennicasta, jossa lasketaan eri julkaisijoiden julkaisujen asiasanamäärä, siis samalla tavalla kuin tuolla yllä on tehty kielien asiasanojen kanssa. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot vuoteen 1828. 
 
   * Fennican julkaisijoita voisi myös laajemmin yrittää luokitella
     suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen
