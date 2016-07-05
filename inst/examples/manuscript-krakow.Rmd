@@ -66,9 +66,11 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
-**UUSIA TODOJA (5.7.2016) alla:**
+**UUSIA TODOJA (5.7.2016):**
 
 **BOOKINFINLAND-5.1**
+
+**KIELI%-TODO**
 
 **50PAGES-TODO**
 
@@ -84,7 +86,7 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 **AUTHOR-TODO2**
 
-Tämä lista kiireysjärjestyksessä. Ensimmäiset 3 listalla pitäisi olla kohtuu nopea toteuttaa. KUNGLIGAPUB on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio toteutetaan nyt jos ehditään.
+Tämä lista kiireysjärjestyksessä. Ensimmäiset 4 listalla pitäisi olla kohtuu nopea toteuttaa, ovat täydentäviä kuvia siitä mitä jo toteutettu. KUNGLIGAPUB1&2 on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio viivan alla toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
 
 **Lisäksi seuraavat TODOt kesken:**
 
@@ -844,7 +846,7 @@ print(p)
 
 }
 ```
-
+**KIELI%-TODO sama prosenttianalyysi kielistä mutta paikkakuntakohtaisesti (sekä Fennican että Kungligan mukaan): Turku, Greifswald, Stockholm, Uppsala, Lund. Rajataan analyysi vuoteen 1828.**
 
 ```{r language-sel, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
