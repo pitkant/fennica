@@ -455,7 +455,7 @@ Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko joku paperink
 
 TODO\_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
 
-[Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv)
+[Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
 
 TODO\_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
 
