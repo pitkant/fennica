@@ -2248,13 +2248,12 @@ entries = unlist(strsplit(as.character(df[[field]]), ";"), use.names = FALSE)
 s <- write_xtable(entries, file = paste(output.folder, catalogue, "_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
 
 
-
 df <- filter(df0, catalog == catalogue & publication_place == "Uppsala") %>%
       filter(publication_year <= 1828)
 
 field <- "subject_topic"
 entries = unlist(strsplit(as.character(df[[field]]), ";"), use.names = FALSE)
-s <- write_xtable(entries, file = paste(output.folder, catalog, "_Uppsala_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
+s <- write_xtable(entries, file = paste(output.folder, catalogue, "_Uppsala_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
 ```
 
 [Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
