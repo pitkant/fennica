@@ -89,9 +89,15 @@ UUSIA TODOJA (5.7.2016):
 
 **KUNGLIGAPUB-TODO2**
 
+**KUNGLIGAPUB-TODO3**
+
+**KUNGLIGAPUB-TODO4**
+
 **AUTHOR-TODO1**
 
 **AUTHOR-TODO2**
+
+**TODO_Publisher analysis_ JANI: Täsmennetty alle.**
 
 Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla kohtuu nopea toteuttaa, ensimmäiset 2 (**PUBLISHER-TODO2(lisää) + BOOKINFINLAND-TODO(lisää)) ovat rajauskysymyksiä ja seuraavat (BOOKINFINLAND-5.1 + KIELI%-TODO + 50PAGES-TODO + BOOKFORMATS-TODO) ovat täydentäviä kuvia.
 
@@ -99,18 +105,9 @@ KUNGLIGAPUB1&2 on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tär
 
 AUTHOR-osio toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
 
-**Lisäksi seuraavat TODOt kesken. Jani miettii miten tärkeitä nämä ovat nyt kun saatu lisää kuvia. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
+**Lisäksi seuraavat TODOt kesken. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
 
 **TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
-
-**TODO_Turku in Sweden 1 (JANI TSEKKAA VOIKO YKSINKERTAISTAA SUHTEESSA KUNGLIGAPUBiin**
-
-**TODO_Turku in Sweden 2**
-
-**TODO_Publisher analysis_ JANI: Täsmennä mitä ajattelit.**
-
-**TODO_Publishing in Finland JANI: täsmennä mitä ajattelit (ks. alla).**
-
 
 
 ## Introduction 
@@ -905,7 +902,9 @@ print(p)
 
 
 
-**Publishing in Finland kieliolosuhteet muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennatte. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.**
+**Publishing in Finland kieliolosuhteet muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennatte. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.** 
+
+JM: Tämän voi poistaa, myös kaavion. Yllä on sama juttu, mutta järkevämmin formuloitu. Pahoittelut sekvaasta muotoilusta ja turhan työn teettämisestä. 
 
 
 
