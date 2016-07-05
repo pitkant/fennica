@@ -27,6 +27,7 @@ knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/", dev="CairoPNG")
 #knitr::opts_chunk$set(fig.path = "figure_201606_Krakow/")
 ```
 
+
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
 library(stringr)
 library(dplyr)
@@ -803,7 +804,6 @@ for (catalogue in c("Fennica", "Kungliga")) {
   
   df <- df %>% filter(catalog == catalogue)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -858,7 +858,6 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df <- df0
   df <- df %>% filter(catalog == catalogue)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -965,8 +964,6 @@ df = df0
 
   # Selected catalogue with selected topics
   df <- df %>% filter(catalog == catalogue & hit)
-
-  langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
   df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -1120,7 +1117,6 @@ catalogue <- "Fennica"
 # Selected catalogue with selected topics
 df <- df %>% filter(catalog == catalogue & hit)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
