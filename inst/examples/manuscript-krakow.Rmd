@@ -66,7 +66,9 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
-**UUSIA TODOJA (5.7.2016):**
+UUSIA TODOJA (5.7.2016):
+
+**Voitko katsoa että OK ja poistaa sitten tästä mitkä oli jo hoidettu tyydyttävästi ?**
 
 **PUBLISHER-TODO2(lisää)**
 
@@ -84,13 +86,15 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 **KUNGLIGAPUB-TODO2**
 
------------
-
 **AUTHOR-TODO1**
 
 **AUTHOR-TODO2**
 
-Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla kohtuu nopea toteuttaa, ensimmäiset 2 (PUBLISHER-TODO2(lisää) + BOOKINFINLAND-TODO(lisää)) ovat rajauskysymyksiä ja seuraavat (BOOKINFINLAND-5.1 + KIELI%-TODO + 50PAGES-TODO + BOOKFORMATS-TODO) ovat täydentäviä kuvia siitä mitä jo toteutettu eli pitäisi olla selkeitä, suoraviivaisia ja nopeita. KUNGLIGAPUB1&2 taas on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio viivan alla toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
+Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla kohtuu nopea toteuttaa, ensimmäiset 2 (**PUBLISHER-TODO2(lisää) + BOOKINFINLAND-TODO(lisää)) ovat rajauskysymyksiä ja seuraavat (BOOKINFINLAND-5.1 + KIELI%-TODO + 50PAGES-TODO + BOOKFORMATS-TODO) ovat täydentäviä kuvia.
+
+KUNGLIGAPUB1&2 on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä.
+
+AUTHOR-osio toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
 
 **Lisäksi seuraavat TODOt kesken. Jani miettii miten tärkeitä nämä ovat nyt kun saatu lisää kuvia. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
 
@@ -574,12 +578,8 @@ Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$pub
 ```
 
 
-**DONE_Political events 1** Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1760-1780, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta, eli yhteensä kuusi kaaviota. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)? 
+**Political events** Kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta ajalle 1760-1780, joissa näkyy vuosittain julkaisumäärät, arvio paperinkulutuksesta ja kustantajien määrästä. Nämä pitää tehdä erikseen Fennicasta ja Kungligasta. Tärkeää, että saadaan jokaisesta vuodesta oma piste/luku. Trendiviiva ei ole kovinkaan kiinnostava, koska tässä yritetään selvittää sitä millä tavalla painovapausaika (1766-1774) erottuu materiaalissa. Yksi aikaisemman tutkimuksen väitteistä on se, että pamflettikirjoittelu räjähtää tänä aikana. Tätä testataan vertaamalla paperinkulutusta ja nimikkeiden määrää. Julkaisijoiden määrän kasvu näkyy Kungligan materiaalissa Tukholman osalta ja Turunkin osalta päästään kymmeneen julkaisijaan joten verrataan tätä muihin kaupunkeihin. Synnyttääkö painovapaus uusia julkaisijoita (vastaus on kyllä)? 
 
-
-**NOTE** Tulee enemmän kuin 6 kaaviota.. pistin kaikki viivat erikseen
-  kun pyydettiin erikseen. Huom: pystyakselin skaala vaihtelee
-  kuvittain.
 
 ```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
 # TITLE COUNT
@@ -651,12 +651,9 @@ Title counts in selected places in the Kungliga catalogue.
 ```{r selectedplaces, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, fig.height=6, out.width="280px"}
 selected.places = c("Tartu", "Skara", "Växjö", "Uppsala", "Lund", "Strängnäs", "Linköping", "Gothenburg", "Västerås", "Nyköping", "Norrköping", "Stockholm", "Turku")
 for (myplace in selected.places) {
-  # Use timeinterval year intervals
+
   catal = "Kungliga"
   minyear = 1500
-  #maxyear = 1800
-  #minyear = min(na.omit(df0$publication_year))
-  #maxyear = max(na.omit(df0$publication_year))  
 
   df = subset(df0, publication_place == myplace & catalog == catal)
   df <- subset(df, publication_year >= minyear & publication_year < maxyear)
@@ -850,7 +847,7 @@ print(p)
 
 }
 ```
-**ranska ja venäjä pitäisi nostaa omiksi ryhmikseen tähän prosenttianalyysiin!**
+ranska ja venäjä pitäisi nostaa omiksi ryhmikseen tähän prosenttianalyysiin! **OK DONE**
 
 **KIELI%-TODO sama prosenttianalyysi kielistä mutta paikkakuntakohtaisesti (sekä Fennican että Kungligan mukaan): Turku, Greifswald, Stockholm, Uppsala, Lund. Rajataan analyysi vuoteen 1828.**
 
@@ -861,7 +858,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df <- df0
   df <- df %>% filter(catalog == catalogue)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -918,7 +915,8 @@ print(p)
 ```
 
 
-**DONE_Publishing in Finland_kieliolosuhteet_muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan materiaalin osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennat. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.**
+
+**Publishing in Finland kieliolosuhteet muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennatte. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.**
 
 
 
@@ -940,16 +938,12 @@ catalogue = "Kungliga"
 
   # Language count
   p = ggplot(df, aes(x = publication_year, y = n, group = publication_place, color = publication_place, shape = publication_place)) +
-       #geom_bar(aes(fill = publication_place), position = "dodge", stat = "identity") +
        geom_point() +
        geom_line() +
        ggtitle(paste("Number of languages:", catalogue)) 
-       #scale_x_discrete(breaks = seq(min(sel.years), max(sel.years), 10))
   print(p)  
 
 ```
-
-
 
 
 
@@ -1045,10 +1039,8 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
        #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", place, "/", catalogue, ")", sep = ""))
   print(p)
 
@@ -1056,13 +1048,10 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", place, "/", catalogue, ")", sep = ""))
   print(p)
 
@@ -1090,10 +1079,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
        #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", publ, "/", catalogue, ")", sep = ""))
 print(p)
 
@@ -1102,13 +1089,10 @@ print(p)
 
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", publ, "/", catalogue, ")", sep = ""))
 print(p)
 
@@ -1162,28 +1146,20 @@ df <- dfl %>% group_by(publication_decade, language) %>%
 # TITLE COUNT
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
 
 
 # PAPER CONSUMPTION
-
-theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
 ```
@@ -1208,13 +1184,10 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
 # TITLE COUNT
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", place, "/", catalogue, ")", sep = ""))
 print(p)
 
@@ -1223,15 +1196,12 @@ print(p)
 
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", place, "/", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 
 }
 ```
@@ -1245,50 +1215,37 @@ tops <-  names(top(fen, "publisher", 5))
 for (publ in tops) {
 
   df <- dfl %>% filter(publisher == publ)
-
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
 
   df$language <- factor(df$language, levels = names(table(df$language)))
 
-# TITLE COUNT
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+  # TITLE COUNT
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", publ, "/", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 
-
-# PAPER CONSUMPTION
-
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+  # PAPER CONSUMPTION
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", publ, "/", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 
 }
 ```
 
 
+### BOOK IN FINLAND 4
 
-
-
-### BOOKINFINLAND-DONE4 **BOOKINFINLAND-TODO(lisää) :kielten viilaus, pätee myös BOOKINFINLAND-5. Nyt "other" kentästä pitäisi irrottaa relevantit eli ranska ja venäjä mukaan.**
-
-edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
+Edellisten yhdistäminen. Samat analyysit, mutta asiasanoina kaikki aiemmista kohdista yhdistettynä: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
 
 Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
 
@@ -1308,7 +1265,7 @@ catalogue <- "Fennica"
 # Selected catalogue with selected topics
 df <- df %>% filter(catalog == catalogue & hit)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -1334,28 +1291,20 @@ df <- dfl %>% group_by(publication_decade, language) %>%
 # TITLE COUNT
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
 
 
 # PAPER CONSUMPTION
-
-theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
 ```
@@ -1370,40 +1319,31 @@ Same with selected publication places:
 for (place in c("Turku", "Stockholm", "Vaasa")) {
 
  df <- dfl %>% filter(publication_place == place)
-
  df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
  df$language <- factor(df$language, levels = names(table(df$language)))
  
-# TITLE COUNT
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+  # TITLE COUNT
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", place, "/", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 
-
-# PAPER CONSUMPTION
-
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+  
+  # PAPER CONSUMPTION
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", place, "/", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 
 }
 ```
@@ -1426,13 +1366,10 @@ for (publ in tops) {
 # TITLE COUNT
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", publ, "/", catalogue, ")", sep = ""))
 print(p)
 
@@ -1441,13 +1378,10 @@ print(p)
 
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", publ, "/", catalogue, ")", sep = ""))
 print(p)
 
@@ -1456,7 +1390,7 @@ print(p)
 
 
 
-### BOOKINFINLAND-DONE4
+### BOOK IN FINLAND
 
 Kielikohtainen vertailu myös lääketieteen osalta. Ajatuksena tässä on, että hartauskirjallisuutta on hyvä verrata tiedejulkaisemiseen. 1800-luvun jukisuuteen kuuluu vahvasti tarina kansallisista tieteista (historia, suomen kieli, folkloristiikka jne), ja niissä suomenkielen nusu on aika hyvin selvitetty juttu. Sama koskee tiedejulkaisemista, mutta siinä argumentit olivat erilaiset. Tästä on Katja Huumon väitöskirja ”Perkeleen kieli”, jossa käydään laadullisen tutkimuksen kautta tieteen kielikiistoja 1800-luvulla. Ajattelen, että lääketieteen osalta asiasanat ovat ehkä kaikkein luotettavimmat, joten voisi tarkastella lääketiedettä ja verrata siihen hartauskirjallisuuteen. Hartauskirjallisuuden osaltahan pyrkimys suomeksi julkaisemiseen oli kovin vahva koska se tieto oli kansalle tärkeää. Lääketieteellinenkin tieto kansallistettiin, mutta myöhemmin.
 
@@ -1481,70 +1415,58 @@ catalogue <- "Fennica"
   }
   df$hit <- grepl(sel, tolower(df$subject_topic))
 
-# Selected catalogue with selected topics
-df <- df %>% filter(catalog == catalogue & hit)
+  # Selected catalogue with selected topics
+  df <- df %>% filter(catalog == catalogue & hit)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
+  lang <- paste("language.", langs, sep = "")
+  otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+  dfl <- NULL 
+  for (lan in lang) {
+    # Classify a document to the specifed language
+    # If document is assigned with languages, each case is considered
+    # so one doc may have multiple entries corresponding to different languages
+    # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+    # Combine data frames for specified languages
+    dflsub <- filter(df, df[[lan]])
+    if (nrow(dflsub) > 0) {
+      dflsub$language <- gsub("language.", "", lan)
+      dfl <- bind_rows(dfl, dflsub)
+    }  
   }
-}
-dfl$language <- factor(dfl$language, levels = names(table(dfl$language)))
+  dfl$language <- factor(dfl$language, levels = names(table(dfl$language)))
 
-# -------------------------------------------
+  # -------------------------------------------
 
-df <- dfl %>% group_by(publication_decade, language) %>%
+  df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-# TITLE COUNT
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+  # TITLE COUNT
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Title count (n)") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 
 
-# PAPER CONSUMPTION
-
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_bar(stat = "identity", position = "dodge", aes(fill = publisher)) + 
+  # PAPER CONSUMPTION
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
-       # geom_smooth(aes(col = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       # ylim(c(0, 1.1*max(npub$paper.per.title))) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 ```
-
-
 
 
 Kaupungittain vertailu on kiinnostavaa, koska tuntuma on, että Turun ja Helsingin osalta ei latinan, ranskan ja saksankielista matskua pitäisi löytyä. Silloin vernakularisointi tapahtuu erityisesti muualla. HUOM: Helsingissä ei ole painettu mitään asiasanalla lääketiede.
 
 Huumo, Katja. "Perkeleen kieli" : suomen kieli ja poliittisesti korrekti tiede 1800-luvulla, Helsinki : Suomen tiedeseura, 2005.
-
 
 
 ```{r topics4.per.place, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
@@ -1560,7 +1482,6 @@ for (place in c("Turku", "Uppsala")) {
  df$language <- factor(df$language, levels = names(table(df$language)))
  
   # TITLE COUNT
-  theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
@@ -1571,7 +1492,6 @@ for (place in c("Turku", "Uppsala")) {
 
 
   # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
@@ -1585,11 +1505,31 @@ for (place in c("Turku", "Uppsala")) {
 
 
 
-**TODO_Publishing in Finland** Kaaviot Fennicasta, jossa lasketaan eri kielten mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain siitä millä kielellä on julkaistu mitäkin. Minusta voisi tehdä kaavion vuoteen 1828 sekä toisen vuoteen 1900. Tiedän että 1800-luvun osalta Fennicassa on kielellinen bias, mutta esim. suomenkielen tarkastelun kannalta tällä ei ole merkitystä, sillä kaikki suomenkielinen materiaali on tarkkaan läpikäytyä. Tässä näky toivottasti se millä tavalla 1855 jälkeen suomenkielinen julkaiseminen laajeni. Kaavio joka näyttää asiasanat vuoteen 1828 auttaa toivottavasti asettamaan 1700-luvun suomenkielisen hartauskirjallisuuden kontekstiinsa. **LL: voitko tasmentaa - eli tarvitaanko kaavio jossa on joka vuodelle (tai ehka vuosikymmenelle parempi?) ja asiasanalle numero etta montako kertaa ko. asiasana esiintyy kunakin vuonna eri dokumenttien yhteydessa ? Vai yhteensa uniikkien asiasanojen maara eri vuosina katsomatta niiden sisaltoa ?**
+**Publishing in Finland** Kaaviot Fennicasta, jossa lasketaan eri kielten mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain siitä millä kielellä on julkaistu mitäkin. Minusta voisi tehdä kaavion vuoteen 1828 sekä toisen vuoteen 1900. Tiedän että 1800-luvun osalta Fennicassa on kielellinen bias, mutta esim. suomenkielen tarkastelun kannalta tällä ei ole merkitystä, sillä kaikki suomenkielinen materiaali on tarkkaan läpikäytyä. Tässä näky toivottasti se millä tavalla 1855 jälkeen suomenkielinen julkaiseminen laajeni. Kaavio joka näyttää asiasanat vuoteen 1828 auttaa toivottavasti asettamaan 1700-luvun suomenkielisen hartauskirjallisuuden kontekstiinsa. **OK tässä - onko se mitä haluttiin?**
+
+
+```{r topics4.per.year, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+df <- filter(df0, catalog == "Fennica") %>% select(publication_year, language, subject_topic)
+df <- unique(df)
+df <- df %>% group_by(publication_year, language) %>% summarise(n = length(unique(unlist(strsplit(subject_topic, ";")))))
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
+df$language[!df$language %in% langs] <- "Other"
+df$language <- factor(df$language, levels = langs)
+
+p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
+       geom_line() + geom_point() +
+       ggtitle("Number of subject topics")
+
+print(p)
+```
 
 
 
-### BOOKINFINLAND-5 **TODO kielten viilaus, ranska ja venäjä omiksi kategorioikseen mukaan**
+
+### BOOKINFINLAND 5
+
+Kielten viilaus, ranska ja venäjä omiksi kategorioikseen mukaan **DONE**
 
 Samat analyysit kuin yllä, seuraavat asiasanaryppäät. Tarkoituksena analysoida yliopisto-opetuksen muutosta. Kokonaismäärät ja kielikohtaiset vaihtelut kiinnostavat. 
 
@@ -1613,12 +1553,9 @@ ix) naiset;naisen asema;naisasialiikkeet;naisasiajärjestöt
 
 x) etsintäkuulutukset;rikokset;oikeus;rangaistukset
 
-Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää.
+Näissä kiinnostaa myös julkaisijakohtaiset vaihtelut (tai oikeastaan kaikki kuvat joita esim. BOOKINFINLAND-4:ssa. Tämä vain jatkaa siitä mihin tuo edellinen jää. **OK now?**
 
 
-**OK riittääkö alla olevat vai jotain vielä lisää?** Voidaan joskus myohemmin tehda Shiny applikaatio jossa valita itse vuoden ja asiasanat lennossa. Mutta ei ehdi tahan.
-
-**BOOKINFINLAND-5.1 Jatketaan tätä analyysia julkaisijatarkasteluun. Tehdään näiden valmiiden kuvien pohjalta vielä toinen setti kuvia joissa kaikki kielet yhdistetään kuvakohtaisesti (vain yksi viiva, tarkasteltavat asiasanaryhmät kuvakohtaisesti samat) ja piirretään Fennican top-5 julkaisijoiden perusteella kuvat miten he julkaisevat näitä mainittuja sanaryppäitä (vai julkaisevatko ollenkaan). Lisäksi kategoria muut julkaisijat pitää piirtää myös koska akateeminen kirjapaino on tässä kategoriassa.**
 
 ```{r topics44, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 selections = list(
@@ -1642,8 +1579,6 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 
 # Selected catalogue with selected topics
 df <- df %>% filter(catalog == catalogue & hit)
-
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -1688,11 +1623,55 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
 print(p)
 }
 ```
+
+
+**BOOKINFINLAND-5.1** Jatketaan tätä analyysia julkaisijatarkasteluun. Tehdään näiden valmiiden kuvien pohjalta vielä toinen setti kuvia joissa kaikki kielet yhdistetään kuvakohtaisesti (vain yksi viiva, tarkasteltavat asiasanaryhmät kuvakohtaisesti samat) ja piirretään Fennican top-5 julkaisijoiden perusteella kuvat miten he julkaisevat näitä mainittuja sanaryppäitä (vai julkaisevatko ollenkaan). Lisäksi kategoria muut julkaisijat pitää piirtää myös koska akateeminen kirjapaino on tässä kategoriassa. **OK now ? Eli samat kuvat mutta nyt eroteltu julkaisijan mukaan?**
+
+```{r topics44B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+
+for (sel in selections) {
+
+  catalogue <- "Fennica"
+  df = df0
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  toppub <- names(top(df, "publisher", 5))
+  df$publisher[!df$publisher %in% toppub] <- "Other"
+
+# Selected catalogue with selected topics
+df <- df %>% filter(catalog == catalogue & hit)
+df <- df %>% group_by(publication_decade, publisher) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# TITLE COUNT
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = n, group = publisher)) +
+       geom_point(aes(col = publisher, shape = publisher), size = 5) +
+       geom_line(aes(col = publisher, shape = publisher)) +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Title count (", print(paste(sel, collapse = ";")), ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = publisher)) +
+       geom_point(aes(col = publisher, shape = publisher), size = 5) +
+       geom_line(aes(col = publisher, shape = publisher)) +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Paper (", print(paste(sel, collapse = ";")), ")", sep = ""))
+print(p)
+
+}
+```
+
 These are intriguing graphs. Potentially they reveal the story of the development of the Academy in Turku in an elegant manner. All disciplines suffer a dramatic decline after 1700, which is due to external causes (war, famine etc.). Philosophy (including logic and rhetoric) do not bounce back once the situation is normalised towards the middle of the eighteenth century. Having been somewhat thriving in 17th-century, philosophy is close to extinction as an academic subject by the second half of eighteenth century. It seems that natural science (and related fields) take over, especially when extended topic of medicine is included here. What is interesting about natural science is that the printing happens in several different languages (note also that the topics included in this category are perhaps more wide-ranging, which might play a part). Economy (and related fields) is a tremendous case in point that should be contrasted with religious/devotional literature towards the second half of eighteenth century. The reason for this is that Swedish is the predominant language (whereas the devotional literature is mainly in Finnish). Hebrew-Latin-Greek seem to do better than philosophy. Thus, perhaps there is a point in that book: Vain hyödynkö tähden?. Latin publishing of theology (and related fields) goes down as well. History does suprisingly well throughout the period.
 
-**KUNGLIGAPUB-TODO1 Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä.**
+**KUNGLIGAPUB-TODO1** asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
 
-**KUNGLIGAPUB-TODO2 Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti.**
+**KUNGLIGAPUB-TODO2** Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
 
 
 
@@ -1730,9 +1709,6 @@ Overview on how over 50 page documents spread in time. Paper
 consumption in books (over 50 pages; balls) versus other documents
 (less or equal than 50 pages; triangles).
 
-**50PAGES-TODO: voidaanko tässä nähdä paikallisia eroja? Toteutustapa: otetaan tarkastelun kohteeksi yksittäiset kaupungit. Käytetään yliopistokaupunkeja: Turku, Tukholma, Lund, Greifswald, Uppsala, Tartu sekä mukaan myös Vyborg ja Helsinki.**
-
-
 ```{r bookmedia1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal)
@@ -1742,7 +1718,8 @@ for (catal in unique(df0$catalog)) {
   df2$document.type[df2$pagecount <= pagelimit] <- "pamphlet"
   df2 <- df2[which(!is.na(df2$document.type)),]
   df2$document.type <- factor(df2$document.type)
-  df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+  df2 <- df2 %>% group_by(publication_decade, document.type) %>%
+                 summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
   p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
   p <- p + geom_point(aes(shape = document.type), size = 5)
   p <- p + geom_smooth(method = "loess", color = "black")
@@ -1754,6 +1731,40 @@ for (catal in unique(df0$catalog)) {
   print(p)
 }
 ```
+
+
+**Local focus** Tarkastelun kohteeksi yliopistokaupungit: Turku, Tukholma, Lund, Greifswald, Uppsala, Tartu, Vyborg, Helsinki. Figure is omitted if there is no data.
+
+
+```{r bookmedia1local, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
+sel.places <- c("Turku", "Tukholma", "Lund", "Greifswald", "Uppsala", "Tartu", "Vyborg", "Helsinki")
+for (place in sel.places) {
+ for (catal in unique(df0$catalog)) {
+  df2 <- subset(df0, catalog == catal & publication_place == place)
+  pagelimit = 50
+  df2$document.type <- rep(NA, nrow(df2))
+  df2$document.type[df2$pagecount > pagelimit] <- "book"
+  df2$document.type[df2$pagecount <= pagelimit] <- "pamphlet"
+  df2 <- df2[which(!is.na(df2$document.type)),]
+  df2$document.type <- factor(df2$document.type)
+
+  df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+
+  if (nrow(df2) > 0) {
+    p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+    p <- p + geom_point(aes(shape = document.type), size = 5)
+    p <- p + geom_smooth(method = "loess", color = "black")
+    p <- p + ggtitle("Paper consumption per document type")
+    p <- p + xlab("Year")
+    p <- p + ylab("Paper consumption (km2)")
+    p <- p + scale_color_manual(values=c("black", "darkgray"))
+    p <- p + ggtitle(paste(place, catal))
+    print(p)
+  }
+ }
+}
+```
+
 
 
 Average paper consumption per document over time:
@@ -1777,7 +1788,6 @@ The development of book formats over time. Folios (1to ja 2to) are
 largely missing (in contrast to ESTC). Moreover, the quarto (4to) and
 octavo (8vo) increase rapidly in 1700s.
 
-
 ```{r papercompbyformat, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, fig.show="hold", out.width="430px"}
 for (catal in unique(df0$catalog)) {
   dfs <- df0 %>% filter(!gatherings == "NA" & catalog == catal) 
@@ -1789,7 +1799,8 @@ for (catal in unique(df0$catalog)) {
   print(res$plot + ggtitle(paste(catal, " (%)", sep = "")))
 }
 ```
-**BOOKFORMATS-TODO: sama paikallisten erojen tarkasteluun. Toteutustapa: otetaan tarkasteluun Kungligasta yksittäiset kaupungit. Käytetään yliopistokaupunkeja: Turku, Tukholma, Lund, Greifswald, Uppsala, Tartu sekä mukaan myös Vyborg ja Helsinki.**
+
+
 
 Paper consumption for different document formats over time. Each point represents a decade. Loess smoothing. 
 
@@ -1808,7 +1819,32 @@ for (catal in unique(df0$catalog)) {
   print(p)
 }
 ```
-**
+
+
+**Local focus** Tarkasteluun Kungligasta yksittäiset yliopistokaupungit: Turku, Tukholma, Lund, Greifswald, Uppsala, Tartu, Vyborg, Helsinki. Figure is omitted if there is no data.
+
+```{r LIBER-13B, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="430px"}
+for (place in sel.places) {
+for (catal in unique(df0$catalog)) {
+  df2 <- filter(df0, catalog == catal & publication_place == place) %>%
+           group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+
+  if (nrow(df2) > 0) {
+  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+  p <- p + geom_point(size = 4)
+  p <- p + geom_smooth(method = "loess", size = 1, color = "black")
+  p <- p + ggtitle("Paper consumption in time by gatherings")
+  p <- p + xlab("Year")
+  p <- p + ylab("Paper consumption (km2)")
+  p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
+  p <- p + ggtitle(paste("Paper consumption\n(", place, catal, ")", sep = ""))
+  print(p)
+}
+}
+}
+```
+
 
 
 Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) näyttäisi kertovan Valistuksen voittokulusta Euroopassa. Octavo kokoisten kirjojen paper consumption on merkki kirjojen merkityksen korostumisesta ja muutoksesta. Sama päti ESTCn. Suomi taas tulee tässä orastavasti perässä kirjatuotannon puolesta. Mitä me halutaan sanoa tästä suomalaisen sivistysvaltion myöhemmästä kehityksestä?
@@ -1837,7 +1873,6 @@ dfs <- df %>% group_by(publication_decade, myplace) %>%
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
      ggtitle("Paper consumption") +
-     #scale_fill_manual(values = c("blue", "black", "darkgreen")) +
      scale_fill_grey() +
      guides(fill = guide_legend(reverse = TRUE, title = "")) + 
      xlab("Publication decade") + ylab("Paper (km2)")
@@ -1981,10 +2016,7 @@ print(p)
 
 
 
-**PUBLISHER-TODO2** (Done?) Analysis of the top publishers publishing
-  profile (title count and paper consumption) over time. DONE: now
-  also added for Kungliga.
-
+**Top publishers publishing profile** 
 
 Title count per top publisher (two alternative visualizations):
 
@@ -2059,8 +2091,6 @@ print(p)
 
 
 Paper consumption per top publisher (two alternative visualizations):
-
-**PUBLISHER-TODO2(lisää) Tässä aikarajaus Turun osalta 1640-1828**
 
 ```{r publishers4-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 for (catalogue in c("Fennica", "Kungliga")) {
@@ -2230,6 +2260,48 @@ print(p)
 
 
 
+
+### Case of Turku
+
+Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen
+yliopistojärjestelmän kaupunkeihin: Lukumäärävertailut
+aikajanalla. Akateemisten julkaisujen blokkaaminenhan ei pitäisi olla
+kovinkaan hankalaa [väitöskirjat, mitä muuta tähän siis?]. 
+
+Turku vs. muu Suomi: Turku osana ruotsalaista yliopistojärjestelmää
+(ml. Tarto) muuttuu tärkeäksi).
+
+Kuinka paljon yliopistoon liittyvää julkaisutoimintaa
+
+Kuinka paljon julkaisijoita
+
+Miten julkaisijoiden verkosto muodostuu Turussa
+
+Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko
+joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku
+painotalo huomattavasti enemmän kuin toiset).
+
+```{r kungliga_subjecttopics, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
+df <- filter(df0, catalog == "Kungliga") %>%
+      filter(publication_year <= 1828)
+
+field <- "subject_topic"
+entries = unlist(strsplit(as.character(df[[field]]), ";"), use.names = FALSE)
+s <- write_xtable(entries, file = paste(output.folder, catalog, "_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
+```
+
+[Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
+
+
+### Other points if the time allows (I will skip all of these unless they are moved back to main text above)
+
+TODO_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
+
+TODO_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
+
+TODO_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
+
+
 **PUBLISHER-TODO** (jos ehtii)
 
 TODO_Publisher analysis_#: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri julkaisijoiden. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot 1828. 
@@ -2262,7 +2334,7 @@ TODO_Publisher analysis_#: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan er
     asiasanajuttu nyt tärkeä vai vähemmän tärkeä prioriteetti?]
 
 
-### University publishing
+**University publishing**
 
 Yliopistojulkaisuista mahd. pian yleiset tilastolliset näkymät ja
 voidaan sitten arvioida onko joku mahdollisesti pahastikin vielä
@@ -2302,54 +2374,10 @@ suhdetta muuhun Suomeen ja katso kääntyy erityisesti julkaisijoihin
 tehdään sitten vertailua akateeminen vs. hallinnollinen vs. muu
 julkaisutoiminta).
 
-
 **Dissertation language** milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä eri paikoissa on mielenkiintoinen kysymys. tuleeko jostain yliopistosta
 erityisesti ruotsinkielistä materiaalia 1700-luvulla.  pitää
 erityisesti analysoida niitä väitöskirjoja sekä niissä tapahtuvia
 muutoksia. See [Fennica](https://github.com/rOpenGov/fennica/blob/master/inst/examples/language.md) and [Kungliga](https://github.com/rOpenGov/kungliga/blob/master/antagomir/language.md),
-
-
-
-### Case of Turku
-
-Turun akateemisen julkaisemisen vertautuminen muihin ruotsalaisen
-yliopistojärjestelmän kaupunkeihin: Lukumäärävertailut
-aikajanalla. Akateemisten julkaisujen blokkaaminenhan ei pitäisi olla
-kovinkaan hankalaa [väitöskirjat, mitä muuta tähän siis?]. 
-
-Turku vs. muu Suomi: Turku osana ruotsalaista yliopistojärjestelmää
-(ml. Tarto) muuttuu tärkeäksi).
-
-Kuinka paljon yliopistoon liittyvää julkaisutoimintaa
-
-Kuinka paljon julkaisijoita
-
-Miten julkaisijoiden verkosto muodostuu Turussa
-
-Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko
-joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku
-painotalo huomattavasti enemmän kuin toiset).
-
-TODO_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
-
-```{r kungliga_subjecttopics, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
-df <- filter(df0, catalog == "Kungliga") %>%
-      filter(publication_year <= 1828)
-
-output.folder <- "figure_201606_Krakow/"
-field <- "subject_topic"
-entries = unlist(strsplit(as.character(df[[field]]), ";"), use.names = FALSE)
-s <- write_xtable(entries, file = paste(output.folder, catalog, "_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
-```
-
-[Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
-
-TODO_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
-
-TODO_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
-
-
-### Other points if the time allows
 
 Vertailukohtia CERListä tai sitten ehkä ESTCstä pitää ottaa Fennicalle
 että pystytään suhteuttamaan mistä puhutaan [verratkaa vaikka aiempiin
@@ -2370,10 +2398,6 @@ that there is time to do.
 
  * [Fennica TODO](https://github.com/rOpenGov/fennica/blob/master/inst/examples/TODO.md)
  * [Kungliga TODO](https://github.com/rOpenGov/kungliga/blob/master/antagomir/TODO.md)
-
-
-
-
 
 
 
