@@ -56,7 +56,7 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 
 ## Peaks and drops – role of publishers and contingency
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=6}
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5}
 library(devtools)
 install_github("ropengov/gisfin")
 
@@ -69,7 +69,6 @@ library(ggplot2)
 library(bibliographica)
 library(fennica)
 library(sorvi)
-
 
 df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(n = n())
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
@@ -91,7 +90,6 @@ print(p)
 
 ```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishingactivitycomparisons-2.png
-
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
                summarise(n = n()) %>%
@@ -104,7 +102,6 @@ colnames(df2) = c("publication_place", "catalog", "publication_decade", "n")
 df2$publication_decade = as.numeric(as.character(df2$publication_decade))
 df2$n = as.numeric(as.character(df2$n))
 for (catal in unique(df2$catalog)) {
-
   p <- ggplot(subset(df2, catalog == catal), aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = publication_place)) +
      geom_point(aes(shape = publication_place), size = 3) +
@@ -129,6 +126,7 @@ df <- df %>%
 
 # Top publication places
 ntop <- 10
+library(bibliographica)
 top <- names(top(df, "publication_place", ntop))
 
 df <- df %>%	

@@ -1097,8 +1097,10 @@ for (lan in lang) {
   # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
   # Combine data frames for specified languages
   dflsub <- filter(df, df[[lan]])
-  dflsub$language <- gsub("language.", "", lan)
-  dfl <- bind_rows(dfl, dflsub)
+  if (nrow(dflsub)) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
 }
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
@@ -2236,21 +2238,22 @@ joku paperinkulutukseltaan vain pieniä dokumentteja, julkaiseeko joku
 painotalo huomattavasti enemmän kuin toiset).
 
 ```{r kungliga_subjecttopics, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
-df <- filter(df0, catalog == "Kungliga") %>%
+catalogue = "Kungliga"
+
+df <- filter(df0, catalog == catalogue) %>%
       filter(publication_year <= 1828)
 
 field <- "subject_topic"
 entries = unlist(strsplit(as.character(df[[field]]), ";"), use.names = FALSE)
-s <- write_xtable(entries, file = paste(output.folder, catalog, "_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
+s <- write_xtable(entries, file = paste(output.folder, catalogue, "_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
 
 
-
-df <- filter(df0, catalog == "Kungliga" & publication_place == "Uppsala") %>%
+df <- filter(df0, catalog == catalogue & publication_place == "Uppsala") %>%
       filter(publication_year <= 1828)
 
 field <- "subject_topic"
 entries = unlist(strsplit(as.character(df[[field]]), ";"), use.names = FALSE)
-s <- write_xtable(entries, file = paste(output.folder, catalog, "_Uppsala_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
+s <- write_xtable(entries, file = paste(output.folder, catalogue, "_Uppsala_subjecttopics", min(df$publication_year), "_", max(df$publication_year), ".csv", sep = ""))
 ```
 
 [Kungliga subject topics 1488-1828](figure_201606_Krakow/Kungliga_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
