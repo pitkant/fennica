@@ -68,6 +68,10 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 **UUSIA TODOJA (5.7.2016):**
 
+**PUBLISHER-TODO2(lisää)**
+
+**BOOKINFINLAND-TODO(lisää)**
+
 **BOOKINFINLAND-5.1**
 
 **KIELI%-TODO**
@@ -86,9 +90,9 @@ Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1
 
 **AUTHOR-TODO2**
 
-Tämä lista kiireysjärjestyksessä. Ensimmäiset 4 listalla pitäisi olla kohtuu nopea toteuttaa, ovat täydentäviä kuvia siitä mitä jo toteutettu. KUNGLIGAPUB1&2 on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio viivan alla toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
+Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla kohtuu nopea toteuttaa, ensimmäiset 2 (PUBLISHER-TODO2(lisää) + BOOKINFINLAND-TODO(lisää)) ovat rajauskysymyksiä ja seuraavat (BOOKINFINLAND-5.1 + KIELI%-TODO + 50PAGES-TODO + BOOKFORMATS-TODO) ovat täydentäviä kuvia siitä mitä jo toteutettu eli pitäisi olla selkeitä, suoraviivaisia ja nopeita. KUNGLIGAPUB1&2 taas on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tärkeä. AUTHOR-osio viivan alla toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
 
-**Lisäksi seuraavat TODOt kesken:**
+**Lisäksi seuraavat TODOt kesken. Jani miettii miten tärkeitä nämä ovat nyt kun saatu lisää kuvia. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
 
 **TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
 
@@ -1282,7 +1286,7 @@ print(p)
 
 
 
-### BOOKINFINLAND-DONE4 **TODO:kielten viilaus, pätee myös BOOKINFINLAND-5. Nyt "other" kentästä pitäisi irrottaa relevantit eli ranska ja venäjä mukaan.**
+### BOOKINFINLAND-DONE4 **BOOKINFINLAND-TODO(lisää) :kielten viilaus, pätee myös BOOKINFINLAND-5. Nyt "other" kentästä pitäisi irrottaa relevantit eli ranska ja venäjä mukaan.**
 
 edellisten yhdistäminen, eli täsmälleen samat analyysit, mutta asiasanoina kaikki (todo2 ja todo3), eli: virret;arkkiveisut;hartauskirjat;katekismukset;rukouspäivät;saarnat;aapiset;rukoukset;rukous;hengelliset laulut;hartauspuheet;virsikirjat;hautajaiset;häät;juhlamenot
 
@@ -2055,6 +2059,8 @@ print(p)
 
 
 Paper consumption per top publisher (two alternative visualizations):
+
+**PUBLISHER-TODO2(lisää) Tässä aikarajaus Turun osalta 1640-1828**
 
 ```{r publishers4-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 for (catalogue in c("Fennica", "Kungliga")) {
