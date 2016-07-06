@@ -566,9 +566,9 @@ print(p)
 
 ```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
 catalogue = "Kungliga"
-  df <- dfl %>% filter(catalog == catalogue)
-  df <- dfl %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
+  df <- dfl %>% filter(catalog == catalogue) %>%
+     	        group_by(publication_decade, language) %>%
+                summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
 
