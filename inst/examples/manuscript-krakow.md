@@ -6,6 +6,10 @@
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ========================================================================================
 
+TILANNE (6.7.2016):
+
+Paperin kommentointi ja kehittäminen siirretty slide-rmd:n. JANI, kommentoi siis sitä pdf:ää mikä generoitu sen pohjalta. Myös TODOt täältä siirretty sinne.
+
 UUSIA TODOJA (5.7.2016):
 
 **Voitko katsoa että OK ja poistaa sitten tästä mitkä oli jo hoidettu tyydyttävästi ?**
@@ -26,9 +30,15 @@ UUSIA TODOJA (5.7.2016):
 
 **KUNGLIGAPUB-TODO2**
 
+**KUNGLIGAPUB-TODO3**
+
+**KUNGLIGAPUB-TODO4**
+
 **AUTHOR-TODO1**
 
 **AUTHOR-TODO2**
+
+**TODO\_Publisher analysis\_ JANI: Täsmennetty alle.**
 
 Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla kohtuu nopea toteuttaa, ensimmäiset 2 (\*\*PUBLISHER-TODO2(lisää) + BOOKINFINLAND-TODO(lisää)) ovat rajauskysymyksiä ja seuraavat (BOOKINFINLAND-5.1 + KIELI%-TODO + 50PAGES-TODO + BOOKFORMATS-TODO) ovat täydentäviä kuvia.
 
@@ -36,17 +46,9 @@ KUNGLIGAPUB1&2 on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tär
 
 AUTHOR-osio toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
 
-**Lisäksi seuraavat TODOt kesken. Jani miettii miten tärkeitä nämä ovat nyt kun saatu lisää kuvia. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
+**Lisäksi seuraavat TODOt kesken. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
 
 **TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
-
-**TODO\_Turku in Sweden 1 (JANI TSEKKAA VOIKO YKSINKERTAISTAA SUHTEESSA KUNGLIGAPUBiin**
-
-**TODO\_Turku in Sweden 2**
-
-**TODO\_Publisher analysis\_ JANI: Täsmennä mitä ajattelit.**
-
-**TODO\_Publishing in Finland JANI: täsmennä mitä ajattelit (ks. alla).**
 
 Introduction
 ------------
@@ -174,6 +176,8 @@ Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehit
 <img src="figure_201606_Krakow/language-sel-1.png" width="430px" /><img src="figure_201606_Krakow/language-sel-2.png" width="430px" /><img src="figure_201606_Krakow/language-sel-3.png" width="430px" /><img src="figure_201606_Krakow/language-sel-4.png" width="430px" />
 
 **Publishing in Finland kieliolosuhteet muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennatte. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.**
+
+JM: Tämän voi poistaa, myös kaavion. Yllä on sama juttu, mutta järkevämmin formuloitu. Pahoittelut sekvaasta muotoilusta ja turhan työn teettämisestä.
 
 <img src="figure_201606_Krakow/greifswald-lang-1.png" width="430px" />
 
@@ -469,17 +473,15 @@ Miten eri julkaisijoita Turussa voitaisiin luokitella (julkaiseeko joku paperink
 
 [Kungliga subject topics Uppsala 1488-1828](figure_201606_Krakow/Kungliga_Uppsala_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
 
-### Other points if the time allows (I will skip all of these unless they are moved back to main text above)
+**KUNGLIGAPUB-TODO1**: Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifswald, Uppsala, Turku, Lund, Tartu. Eli eri asiasanojan määrä eri kaupungeissa eri aikoina Kungligan mukaan. (Siis Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa).
 
-**KUNGLIGAPUB-TODO1** (mietitään onnistuuko yhden Kungligan asiasanalistauksen avulla, alkuperäinen idea kuitenkin tässä) Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä. KOKO KUNGLIGA LISTAUS vaikuttaa toistaiseksi siltä että on hyvin vähän asiasanoja jotka liittyvät yliopistoon. Näin ollen, voisiko generoida Uppsalasta oman asiasanalistauksen joka toimii evaluaatiokeissinä tuosta paikkakuntakohtaisesta listauksesta?**OK DONE see link above Kungliga subject topics Uppsala 1488-1828**
+**KUNGLIGAPUB-TODO2**: Tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. Asiasanalista on seuraava. Käytin Fennican asiasanajaottelua pohjana, mutta Kungligan asiasanat ovat paljon modernimpaa kieltä ja yleensä seikkaperäisempiä. Jouduin siis soveltamaan aika paljon mikä tarkoittaa, että Fennican ja Kungligan vertailtavuus on heikko, mutta katalogin sisäisesti tilanne on hieman parempi. Osa kategorioista jäävät todella pieniksi (erityisesti toi retoriikka, poetiikka jne. En vain löytänyt niihin sopivia termejä). Tämä toki tiedettiin jo. 1. Kyrkohistoria; Biblisk arkeologi;Exegetik;Homiletik;Dogmatik;Teologi; Praktisk Teologi; Teologisk etik 2. Idé- och lärdomshistoria;Antiken;Historia;Militärhistoria; 3. Filosofi;Metafysik;Logik 4. Naturvetenskap;Matematik;Matematiska tabeller; Kemi;Astronomi;Geografi;Geologi;Meteorologi 5. Retorik 6. Hebreiska språket; Grekiska språket;Latin 7. Politisk filosofi;Ekonomiska förhållanden; Nationalekonomi;Lantbruksekonomi;Ekonomi;Penningväsen;Penningvärde;Kreditväsen;Penningförfalskning;Moral;Pedagogik;Uppfsotringsverket;Uppfostran;Barnuppfostran;Jordbruk;Jordbrukslära;Jordbrukspolitik;Fiske 8. Biologi;Medicinalverket;Medicin;Veterinärmedicin;Medicinalväsen;Medicinalväxkter;Sjukdomar;Djursjukdomar;Djur;Husdjur;Djurskydd;Hästar;Hästkreatur;Hästkörning;Hästavel 9. Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor 10. Högmålsbrott;Skattebrott;Brott;Brottslingar;Äktenskapsbrott;Våldsbrott;Trafikbrott;Gäldenärsbrott;Sabbattsbrott;Sexualbrott;Fridsbrott;Ekonomisk brottslighet;Religionsbrott;Juridik;Straff;Dödsstraff;Kroppsstraff;Straffarbete;Straffarbete;Fängelsestraff
 
-**KUNGLIGAPUB-TODO2** Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
+Uppsalan asiasanoista en saanut mitään uutta irti. Mitä näille tehdään?
 
-TODO\_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
+**KUNGLIGAPUB-TODO 3**: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen?
 
-TODO\_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
-
-TODO\_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
+**KUNGLIGAPUB-TODO 4** (jos ehtii ja pidetään järkevänä): Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla, siis niin, että kullekin kaupungille tullee pallukka joka kooltaan vastaa julkaisujen määrää. Kartta kannattaisi tehdä vuosille 1650, ja 1800. Onko tämä mahdollista?
 
 **PUBLISHER-TODO** (jos ehtii)
 
@@ -580,9 +582,9 @@ References
 
 \[1\] H. Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2009. ISBN: 978-0-387-98140-6. &lt;URL: <http://ggplot2.org>&gt;.
 
-\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
+\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
 
-\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
+\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
 
 \[4\] M. Tolonen and L. Lahti. "Aatehistoria ja digitaalisten aineistojen mahdollisuudet". In: *Ennen & Nyt 2* 2 (Aug. 2015). &lt;URL: <http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet>&gt;.
 
@@ -610,23 +612,23 @@ This document was created with the following versions:
 sessionInfo()
 ```
 
-    ## R version 3.3.0 (2016-05-03)
+    ## R version 3.3.1 (2016-06-21)
     ## Platform: x86_64-pc-linux-gnu (64-bit)
     ## Running under: Ubuntu 16.04 LTS
     ## 
     ## locale:
     ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-    ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-    ##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
-    ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+    ##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
+    ##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
+    ##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
     ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-    ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+    ## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.11    sorvi_0.7.46         
+    ##  [1] knitcitations_1.0.7   rmarkdown_0.9.6.14    sorvi_0.7.46         
     ##  [4] tibble_1.0            fennica_0.1.42        stringr_1.0.0        
     ##  [7] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
     ## [10] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
@@ -636,7 +638,7 @@ sessionInfo()
     ## loaded via a namespace (and not attached):
     ##  [1] nlme_3.1-128          bitops_1.0-6          matrixStats_0.50.2   
     ##  [4] lubridate_1.5.6       httr_1.2.0            doParallel_1.0.10    
-    ##  [7] RColorBrewer_1.1-2    dynamicTreeCut_1.63-1 tools_3.3.0          
+    ##  [7] RColorBrewer_1.1-2    dynamicTreeCut_1.63-1 tools_3.3.1          
     ## [10] R6_2.1.2              vegan_2.4-0           rpart_4.1-10         
     ## [13] Hmisc_3.17-4          DBI_0.4-1             lazyeval_0.2.0       
     ## [16] BiocGenerics_0.18.0   mgcv_1.8-12           colorspace_1.2-6     
@@ -655,11 +657,11 @@ sessionInfo()
     ## [55] RefManageR_0.10.13    ape_3.5               stringi_1.1.1        
     ## [58] yaml_2.1.13           RJSONIO_1.3-0         MASS_7.3-45          
     ## [61] zlibbioc_1.18.0       rhdf5_2.16.0          plyr_1.8.4           
-    ## [64] grid_3.3.0            parallel_3.3.0        gender_0.5.1.9000    
-    ## [67] lattice_0.20-33       Biostrings_2.40.2     splines_3.3.0        
+    ## [64] grid_3.3.1            parallel_3.3.1        gender_0.5.1         
+    ## [67] lattice_0.20-33       Biostrings_2.40.2     splines_3.3.1        
     ## [70] multtest_2.28.0       igraph_1.0.1          fastcluster_1.1.20   
-    ## [73] codetools_0.2-14      stats4_3.3.0          XML_3.98-1.4         
-    ## [76] babynames_0.2.1.9000  evaluate_0.9          latticeExtra_0.6-28  
+    ## [73] codetools_0.2-14      stats4_3.3.1          XML_3.98-1.4         
+    ## [76] babynames_0.2.1       evaluate_0.9          latticeExtra_0.6-28  
     ## [79] data.table_1.9.6      foreach_1.4.3         gtable_0.2.0         
     ## [82] assertthat_0.1        survival_2.39-5       genderdata_0.5.0     
     ## [85] iterators_1.0.8       AnnotationDbi_1.34.3  IRanges_2.6.1        
