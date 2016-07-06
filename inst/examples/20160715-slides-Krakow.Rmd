@@ -383,7 +383,7 @@ print(p)
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-Gävle (gray) during riksdagar (Kungliga)
+Gävle (gray) during riksdagar (Kungliga) TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AIKA PIENI TOI NOUSU NÄKYVISSÄ TÄSSÄ. MENEEKÖ OIKEIN?
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/riksdar2-1.png
