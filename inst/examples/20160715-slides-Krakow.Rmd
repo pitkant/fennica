@@ -1138,4 +1138,3 @@ TODO: General analysis (any simple picture) of duplicates between Kungliga and F
 - National Library of Finland
 - National Library of Sweden
 - Digitalia / The Regional Council of South Savo
-
