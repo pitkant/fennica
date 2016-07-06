@@ -69,6 +69,10 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other"
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
+TILANNE (6.7.2016):
+
+Paperin kommentointi ja kehittäminen siirretty slide-rmd:n. JANI, kommentoi siis sitä pdf:ää mikä generoitu sen pohjalta. Myös TODOt täältä siirretty sinne.
+
 UUSIA TODOJA (5.7.2016):
 
 **Voitko katsoa että OK ja poistaa sitten tästä mitkä oli jo hoidettu tyydyttävästi ?**
