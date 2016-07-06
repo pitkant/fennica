@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-05"
+date: "2016-07-06"
 output: markdown_document
 ---
 
@@ -22,7 +22,7 @@ output: markdown_document
 
 Top-20 publication places are shown together with the number of documents.
 
-<img src="figure_201606_Krakow/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure_201606_Krakow/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
+<img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
 ### Top publication countries	

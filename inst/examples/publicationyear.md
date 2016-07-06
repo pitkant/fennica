@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-07-05"
+date: "2016-07-06"
 output: markdown_document
 ---
 
@@ -14,7 +14,7 @@ output: markdown_document
 
 Publication year is available for 20328 documents (100%). The publication years span 1488-1828.
 
-![plot of chunk summarypublicationyear](figure_201606_Krakow/summarypublicationyear-1.png)
+![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
 ### Publication frequency
 
@@ -56,6 +56,11 @@ suggested as the first edition.
 
 This figure shows the number of first editions per decade.
 
-<img src="figure_201606_Krakow/firsteditions-1.png" title="plot of chunk firsteditions" alt="plot of chunk firsteditions" width="280px" />
+
+```
+## Error in paste("First editions count (", catalogue, ")", sep = ""): object 'catalogue' not found
+```
+
+<img src="figure/firsteditions-1.png" title="plot of chunk firsteditions" alt="plot of chunk firsteditions" width="280px" />
 
 

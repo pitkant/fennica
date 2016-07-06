@@ -483,7 +483,7 @@ TODO\_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kanna
 
 **PUBLISHER-TODO** (jos ehtii)
 
-TODO\_Publisher analysis\_\#: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri julkaisijoiden. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot 1828.
+TODO\_Publisher analysis\_\#: Kaaviot Fennicasta, jossa lasketaan eri julkaisijoiden julkaisujen asiasanamäärä, siis samalla tavalla kuin tuolla yllä on tehty kielien asiasanojen kanssa. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri julkaisijoiden profiilien muutoksista. Laaditaan kaaviot vuoteen 1828.
 
 -   Fennican julkaisijoita voisi myös laajemmin yrittää luokitella suhteellisesti (“iso”, “keskikokoinen”, “pieni”) liittyen vuosittaiseen julkaisuvoluumiin jota mitataan niin julkaisujen määrän kuin myös paperinkulutusvoluumin suhteen. Tällä tavalla olisi helpompi hahmottaa eri kaupungeissa tapahtuvaa kehitystä. Vertailua suurimpien julkaisijoiden kesken.
 
@@ -648,7 +648,7 @@ sessionInfo()
     ## [34] tgp_2.4-14            digest_0.6.9          foreign_0.8-66       
     ## [37] stringdist_0.9.4.1    XVector_0.12.0        htmltools_0.3.5      
     ## [40] bibtex_0.4.0          highr_0.6             RSQLite_1.0.0        
-    ## [43] impute_1.46.0         jsonlite_0.9.22       acepack_1.3-3.3      
+    ## [43] impute_1.46.0         jsonlite_1.0          acepack_1.3-3.3      
     ## [46] RCurl_1.95-4.8        GO.db_3.3.0           Formula_1.2-1        
     ## [49] biomformat_1.0.2      Matrix_1.2-6          Rcpp_0.12.5          
     ## [52] munsell_0.4.3         S4Vectors_0.10.1      maptree_1.4-7        

@@ -1,7 +1,7 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2016-07-05"
+date: "2016-07-06"
 output: markdown_document
 ---
 
@@ -17,7 +17,7 @@ Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.h
 
 Title count per language (including multi-language documents):
 
-![plot of chunk summarylang](figure_201606_Krakow/summarylang-1.png)
+![plot of chunk summarylang](figure/summarylang-1.png)
 
 
 ### Top languages

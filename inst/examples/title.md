@@ -1,7 +1,7 @@
 ---
 title: "Title summaries"
 author: "Leo Lahti"
-date: "2016-07-05"
+date: "2016-07-06"
 output: markdown_document
 ---
 
@@ -14,5 +14,5 @@ output: markdown_document
 
 Top-20 titles are shown together with the number of documents.
 
-![plot of chunk summarytitle](figure_201606_Krakow/summarytitle-1.png)
+![plot of chunk summarytitle](figure/summarytitle-1.png)
 

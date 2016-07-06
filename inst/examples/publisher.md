@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-05"
+date: "2016-07-06"
 output: markdown_document
 ---
 
@@ -19,19 +19,19 @@ output: markdown_document
 
 The 20 most common publishers are shown with the number of documents. 
 
-![plot of chunk summarypublisher2](figure_201606_Krakow/summarypublisher2-1.png)
+![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
 
 ### Publication timeline for top publishers
 
 Title count
 
-![plot of chunk summaryTop10pubtimeline](figure_201606_Krakow/summaryTop10pubtimeline-1.png)
+![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
 
 
 Title count versus paper consumption (top publishers):
 
-![plot of chunk publishertitlespapers](figure_201606_Krakow/publishertitlespapers-1.png)
+![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
 |publisher                       | titles| paper|
 |:-------------------------------|------:|-----:|
