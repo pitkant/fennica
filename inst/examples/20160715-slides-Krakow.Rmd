@@ -615,7 +615,6 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "French", "Russian", "Other"
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-
 dfl <- NULL
 
 for (lan in lang) {
@@ -637,7 +636,8 @@ df <- dfl %>% group_by(publication_decade, language) %>%
 # Calculate percentages
 dff <- spread(df, language, n, fill = 0)
 dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
-dff <- gather(dff, publication_decade);
+#dff <- gather(dff, publication_decade);
+dff <- melt(dff, "publication_decade");
 colnames(dff) <- c("publication_decade", "language", "f")
 dff$language <- factor(dff$language, levels = langs)
 
