@@ -53,8 +53,8 @@ Jönköping	  8
 Rostock	  8
 Vänersborg	  8
 Pohjanmaa;Länsipohja	  7
-Ruotsinsalmi	  7
 Ruotsi;Pietarsaari	  7
+Ruotsinsalmi	  7
 Kreikka;Suomi	  6
 Länsipohja	  6
 Mynämäki	  6
@@ -159,9 +159,9 @@ Rautalampi	  2
 Ruotsi;Itä-Intia	  2
 Ruotsi;Lappi;Suomi;Tanska	  2
 Ruotsi;Liivinmaa	  2
-Ruotsin Pommeri	  2
 Ruotsi;Uppsala	  2
 Ruotsi;Västerås	  2
+Ruotsin Pommeri	  2
 Rymättylä	  2
 Säkylä	  2
 Siikajoki	  2
@@ -186,8 +186,8 @@ Viro	  2
 Aasia	  1
 Ahvenanmaa;Etelä-Suomi	  1
 Ahvenanmaa;Turun saaristo	  1
-Alankomaat	  1
 Ala-Veteli	  1
+Alankomaat	  1
 Arabian niemimaa;Punainenmeri	  1
 Arboga	  1
 Arboga;Ruotsi	  1
@@ -218,10 +218,10 @@ Gripsholm	  1
 Gryte	  1
 Hallanti	  1
 Halmstad	  1
-Hämeen lääni;Kyminkartanon lääni	  1
-Hämeenlinna	  1
 Häme;Savo;Karjala	  1
 Häme;Uppsala	  1
+Hämeen lääni;Kyminkartanon lääni	  1
+Hämeenlinna	  1
 Harju	  1
 Härmä	  1
 Hattula	  1
@@ -333,10 +333,10 @@ Pohjanmaa;Länsipohja;Turun ja Porin lääni	  1
 Pohjanmaa;Vaasan lääni	  1
 Pohjanmeri	  1
 Pohjanmeri;Itämeri	  1
+Pohjois-Suomi	  1
 Pohjoismaat;historia	  1
 Pohjoismaat;Pohjois-Eurooppa	  1
 Pohjoismaat;Venäjä	  1
-Pohjois-Suomi	  1
 Pori	  1
 Pori;Ruovesi	  1
 Pori;Tampere	  1
@@ -377,9 +377,9 @@ Sälgrundet	  1
 Satakunta;Enköping	  1
 Sauvo	  1
 Savo;Karjala;Suomi	  1
+Savo;Ruotsi	  1
 Savon lääni	  1
 Savonlinnan ja Kymenkartanon lääni	  1
-Savo;Ruotsi	  1
 Siestarjoki	  1
 Sisilia;Pohjoismaat	  1
 Själevad	  1
@@ -441,6 +441,7 @@ Uumaja;Piteå	  1
 Uusikaarlepyy	  1
 Uusikirkko Tl.	  1
 Vaasa;Kokkola;Pietarsaari;Uusikaarlepyy;Kristiinankaupunki;Kaskinen	  1
+Vaasa;Uusikaarlepyy;Vaasan lääni	  1
 Vaasan lääni;Göteborgin lääni	  1
 Vaasan lääni;Mustasaari	  1
 Vaasan lääni;Pohjanmaa	  1
@@ -448,7 +449,6 @@ Vaasan lääni;Ruotsi	  1
 Vaasan lääni;Ulvetorp	  1
 Vaasan lääni;Uppsala	  1
 Vaasan saaristo;Suomi;Ruotsi	  1
-Vaasa;Uusikaarlepyy;Vaasan lääni	  1
 Vadstena	  1
 Växjö	  1
 Vehmaa;Halikko;Masku	  1

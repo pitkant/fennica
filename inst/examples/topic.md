@@ -16,7 +16,7 @@ output: markdown_document
 
 Top-20 subject topics and number of documents for each.
 
-![plot of chunk summarytopics22](figure_201606_Krakow/summarytopics22-1.png)
+![plot of chunk summarytopics22](figure/summarytopics22-1.png)
 
 ### Publication topic
 
@@ -36,4 +36,4 @@ Top-20 publication topics and number of documents for each.
 ## Error in dfs$names: $ operator is invalid for atomic vectors
 ```
 
-![plot of chunk summarytopics223](figure_201606_Krakow/summarytopics223-1.png)
+![plot of chunk summarytopics223](figure/summarytopics223-1.png)
