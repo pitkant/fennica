@@ -1105,7 +1105,7 @@ dfs <- df %>% group_by(publication_decade, myplace) %>%
 
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
-     ggtitle("Paper consumption") +
+     ggtitle("Paper consumption") + 
      scale_fill_grey() +
      guides(fill = guide_legend(reverse = TRUE, title = "")) + 
      xlab("Publication decade") + ylab("Paper (km2)")
