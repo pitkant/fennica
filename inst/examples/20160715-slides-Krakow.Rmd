@@ -606,10 +606,11 @@ for (catalogue in c("Fennica", "Kungliga")) {
   if (catalogue == "Fennica") {
     df <- df.full # full time span
   } else if (catalogue == "Kungliga") {
-    df <- df0 # selected time span
+    df <- df.full # full time span
   }
   
-  df <- df %>% filter(catalog == catalogue)
+  df <- df %>% filter(catalog == catalogue)%>%
+        filter(publication_year >= 1600 & publication_year <= 1900)
 
 langs <- c("Finnish", "Swedish", "Latin", "German", "French", "Russian", "Other")
 lang <- paste("language.", langs, sep = "")
@@ -639,17 +640,16 @@ dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
 #dff <- gather(dff, publication_decade);
 dff <- melt(dff, "publication_decade");
 colnames(dff) <- c("publication_decade", "language", "f")
-dff$language <- factor(dff$language, levels = langs)
+#dff$language <- factor(dff$language, levels = langs)
 
 theme_set(theme_bw(20))
 p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
      xlab("Publication year") +
      ylab("Title count frequency (%)") +
-     ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+     ggtitle(paste("Languages (", catalogue, ")", sep = "")) +  scale_fill_brewer(palette="Paired")
 print(p)
-
-
+ 
 }
 ```
 
