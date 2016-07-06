@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
 
 # Set locale
-Sys.setlocale(locale="UTF-8") 
+tmp = Sys.setlocale(locale="UTF-8") 
 
 # Nice theme
 theme_set(theme_bw(26))
@@ -52,29 +52,28 @@ df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0
 df0 = bind_rows(fen, kun)
 df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 ```
+
 ---
 
 ## From particular data to global perspective?
 
-Idea: to study early modern knowledge production, all of it (1470-1830)
+**Idea**: study early modern knowledge production, all of it (1470-1830)
 
-How? By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
+**How?** By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
 
-What is important: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
+**Important**: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
 
-How to fail: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
+**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
 
 ---
 
 [Intro 2/3]
 
-### Data
+### Data (1470-1828):
 
-Data used (1470-1828):
+- Fennica (Finnish National Bibliography): 20328 documents
 
-- Fennica, Finnish National Bibliography, 20328 documents
-
-- Kungliga, National Library of Sweden's catalogue, 73165 documents
+- Kungliga (National Library of Sweden): 73165 documents
 
 ### Method
 
