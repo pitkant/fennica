@@ -13,6 +13,7 @@ knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 library(rmarkdown)
 rmarkdown::render("manuscript-krakow.Rmd")
+rmarkdown::render("20160715-slides-Krakow.Rmd")
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
 # Push changes to github

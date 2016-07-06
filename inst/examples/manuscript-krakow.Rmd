@@ -69,6 +69,10 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other"
 Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828
 ==============
 
+TILANNE (6.7.2016):
+
+Paperin kommentointi ja kehittäminen siirretty slide-rmd:n. JANI, kommentoi siis sitä pdf:ää mikä generoitu sen pohjalta. Myös TODOt täältä siirretty sinne.
+
 UUSIA TODOJA (5.7.2016):
 
 **Voitko katsoa että OK ja poistaa sitten tästä mitkä oli jo hoidettu tyydyttävästi ?**
@@ -89,9 +93,15 @@ UUSIA TODOJA (5.7.2016):
 
 **KUNGLIGAPUB-TODO2**
 
+**KUNGLIGAPUB-TODO3**
+
+**KUNGLIGAPUB-TODO4**
+
 **AUTHOR-TODO1**
 
 **AUTHOR-TODO2**
+
+**TODO_Publisher analysis_ JANI: Täsmennetty alle.**
 
 Tämä lista kiireysjärjestyksessä. Ensimmäiset 6 listalla pitäisi olla kohtuu nopea toteuttaa, ensimmäiset 2 (**PUBLISHER-TODO2(lisää) + BOOKINFINLAND-TODO(lisää)) ovat rajauskysymyksiä ja seuraavat (BOOKINFINLAND-5.1 + KIELI%-TODO + 50PAGES-TODO + BOOKFORMATS-TODO) ovat täydentäviä kuvia.
 
@@ -99,18 +109,9 @@ KUNGLIGAPUB1&2 on kaksi vaiheinen ja vaatii vähän enemmän työtä, mutta tär
 
 AUTHOR-osio toteutetaan nyt jos ehditään. Pikkuhiljaa aletaan miettiä myös mikä karttamuotoinen kuva tuoteutetaan ja aletaan sitten hioa tätä samalla kohti esitystä.
 
-**Lisäksi seuraavat TODOt kesken. Jani miettii miten tärkeitä nämä ovat nyt kun saatu lisää kuvia. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
+**Lisäksi seuraavat TODOt kesken. Duplikaatti-kuvan toteuttaminen taas päätetään kun saadaan muut tehtyä. Jotain sillä kannattaa joka tapauksessa tehdä:**
 
 **TODO: Hege's deduplication code for specific figures. Particular figures to be decided.**
-
-**TODO_Turku in Sweden 1 (JANI TSEKKAA VOIKO YKSINKERTAISTAA SUHTEESSA KUNGLIGAPUBiin**
-
-**TODO_Turku in Sweden 2**
-
-**TODO_Publisher analysis_ JANI: Täsmennä mitä ajattelit.**
-
-**TODO_Publishing in Finland JANI: täsmennä mitä ajattelit (ks. alla).**
-
 
 
 ## Introduction 
@@ -905,7 +906,9 @@ print(p)
 
 
 
-**Publishing in Finland kieliolosuhteet muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennatte. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.**
+**Publishing in Finland kieliolosuhteet muualla 1**: Greifswaldin kieliprofiili vuoteen 1828 asti (käytännössä 1815) Kungligan osalta. Onko Greifswaldissa samanlainen kielimonimuotoisuus läsnä kuin Turussa? **OK en ollu varma mita tarkotit kieliprofiililla mut plottasin nyt uniikkien kielten maaran mainituille paikoille 1640-1828. Nopeasti voin tehda muutakin jos tasmennatte. Hitaammin voin tehda viela enemman jos alan itse tutkia aineistoa huolellisesti mutta sit jaa muut jutut eli skippaan for now.** 
+
+JM: Tämän voi poistaa, myös kaavion. Yllä on sama juttu, mutta järkevämmin formuloitu. Pahoittelut sekvaasta muotoilusta ja turhan työn teettämisestä. 
 
 
 
@@ -2260,18 +2263,26 @@ s <- write_xtable(entries, file = paste(output.folder, catalogue, "_Uppsala_subj
 
 [Kungliga subject topics Uppsala 1488-1828](figure_201606_Krakow/Kungliga_Uppsala_subjecttopics1488_1828.csv) **Voiko noita TODO Turku in Sweden kohtia nyt yksinkertaistaa? Poista mita ei enaa tarvitakaan**
 
+**KUNGLIGAPUB-TODO1**: Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifswald, Uppsala, Turku, Lund, Tartu. Eli eri asiasanojan määrä eri kaupungeissa eri aikoina Kungligan mukaan. (Siis Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa).
 
-### Other points if the time allows (I will skip all of these unless they are moved back to main text above)
+**KUNGLIGAPUB-TODO2**: Tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. 
+Asiasanalista on seuraava. Käytin Fennican asiasanajaottelua pohjana, mutta Kungligan asiasanat ovat paljon modernimpaa kieltä ja yleensä seikkaperäisempiä. Jouduin siis soveltamaan aika paljon mikä tarkoittaa, että Fennican ja Kungligan vertailtavuus on heikko, mutta katalogin sisäisesti tilanne on hieman parempi. Osa kategorioista jäävät todella pieniksi (erityisesti toi retoriikka, poetiikka jne. En vain löytänyt niihin sopivia termejä). Tämä toki tiedettiin jo.
+1.	Kyrkohistoria; Biblisk arkeologi;Exegetik;Homiletik;Dogmatik;Teologi; Praktisk Teologi; Teologisk etik
+2.	Idé- och lärdomshistoria;Antiken;Historia;Militärhistoria;
+3.	Filosofi;Metafysik;Logik
+4.	Naturvetenskap;Matematik;Matematiska tabeller; Kemi;Astronomi;Geografi;Geologi;Meteorologi
+5.	Retorik
+6.	Hebreiska språket; Grekiska språket;Latin
+7.	Politisk filosofi;Ekonomiska förhållanden; Nationalekonomi;Lantbruksekonomi;Ekonomi;Penningväsen;Penningvärde;Kreditväsen;Penningförfalskning;Moral;Pedagogik;Uppfsotringsverket;Uppfostran;Barnuppfostran;Jordbruk;Jordbrukslära;Jordbrukspolitik;Fiske
+8.	Biologi;Medicinalverket;Medicin;Veterinärmedicin;Medicinalväsen;Medicinalväxkter;Sjukdomar;Djursjukdomar;Djur;Husdjur;Djurskydd;Hästar;Hästkreatur;Hästkörning;Hästavel
+9.	Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor
+10.	Högmålsbrott;Skattebrott;Brott;Brottslingar;Äktenskapsbrott;Våldsbrott;Trafikbrott;Gäldenärsbrott;Sabbattsbrott;Sexualbrott;Fridsbrott;Ekonomisk brottslighet;Religionsbrott;Juridik;Straff;Dödsstraff;Kroppsstraff;Straffarbete;Straffarbete;Fängelsestraff
 
-**KUNGLIGAPUB-TODO1** (mietitään onnistuuko yhden Kungligan asiasanalistauksen avulla, alkuperäinen idea kuitenkin tässä) Tavoitteena asiasana-analyysi paikkakuntakohtaisesti liittyen yliopistojulkaisemiseen samalla tavalla kuin jo tehty Fennicasta. Ensimmäinen toimenpide: asiasanalistat Kungligasta 1480-1828 paikkakuntakohtaisesti: Tukholma, Lund, Greifwald, Uppsala, Turku, Lund, Tartu. Tämän jälkeen Mikko ja Jani ryhmittelee nämä. KOKO KUNGLIGA LISTAUS vaikuttaa toistaiseksi siltä että on hyvin vähän asiasanoja jotka liittyvät yliopistoon. Näin ollen, voisiko generoida Uppsalasta oman asiasanalistauksen joka toimii evaluaatiokeissinä tuosta paikkakuntakohtaisesta listauksesta?**OK DONE see link above Kungliga subject topics Uppsala 1488-1828**
+Uppsalan asiasanoista en saanut mitään uutta irti. Mitä näille tehdään?
 
-**KUNGLIGAPUB-TODO2** Edellä tehdyistä asiasanalistoista tuotetaan samanlaiset asiasanaryppäät kuin BOOKINFINLAND-5. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. **OK skippaan toistaiseksi - päivitä tai poista tämä kohta**
+**KUNGLIGAPUB-TODO 3**: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen?
 
-TODO_Turku in Sweden 2: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien mukaan asiasanojen määrä eri vuosina. Asiasanat ovat osin arbriträärisiä, mutta ehkä niiden määrän pohjalta voidaan sanoa jotain eri kaupunkien julkaisuprofiilien muutoksista. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta vuoteen 1828. Fennican osalta tehdään myös kaavio Vaasasta, jotta nähdään kuinka Vaasan hovioikeuteen painottunut julkaiseminen erottuu Turun julkaisemisesta.
-
-TODO_Turku in Sweden 1 (jos ehditään ja on mahdollista): Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
-
-TODO_Turku in Sweden 3: Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla. Kartat kannattaisi kai tehdä vuosille 1650, 1710, 1767 ja 1800. Onko tämä mahdollista?
+**KUNGLIGAPUB-TODO 4** (jos ehtii ja pidetään järkevänä): Kun kerran ollaan maps and space sessiossa, ehkä kannattaisi tehdä myös kartta jossa, nämä eri kaupungit ja niiden nimikemäärät ovat kartalla, siis niin, että kullekin kaupungille tullee pallukka joka kooltaan vastaa julkaisujen määrää. Kartta kannattaisi tehdä vuosille 1650, ja 1800. Onko tämä mahdollista?
 
 
 **PUBLISHER-TODO** (jos ehtii)
