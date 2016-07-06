@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
 
 # Set locale
-Sys.setlocale(locale="UTF-8") 
+tmp = Sys.setlocale(locale="UTF-8") 
 
 # Nice theme
 theme_set(theme_bw(26))
@@ -52,37 +52,34 @@ df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0
 df0 = bind_rows(fen, kun)
 df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 ```
----
 
-[Intro 1/3]
+---
 
 ## From particular data to global perspective?
 
-Idea: to study early modern knowledge production, all of it (1470-1830)
+**Idea**: study early modern knowledge production, all of it (1470-1830)
 
-How? By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
+**How?** By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
 
-What is important: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
+**Important**: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
 
-How to fail: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
+**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
 
 ---
 
 [Intro 2/3]
 
-### Data and method
+### Data (1470-1828):
 
-Data:
+- Fennica (Finnish National Bibliography): 20328 documents
 
-- Fennica (Finnish National Bibliography), n-number of documents
+- Kungliga (National Library of Sweden): 73165 documents
 
-- Kungliga (National Library of Sweden's library catalogue), n-number of documents
-
-Method:
+### Method
 
 - Scalable code in library catalogue data ecosystem (github)
 
-- xxx
+- xxx TODO: WHAT DOES LEO WANT TO SAY HERE?
 
 - Benefit no. 1: once the work has been done, the data is available for everyone to use and to enrich it. The ecosystem is constructed with even unforeseen changes in mind.
 
@@ -90,11 +87,13 @@ Method:
 
 [Intro 3/3]
 
-### Argument and findings
+### Context
 
-- Finnish knowledge production 1640-1828 can only be understood in Swedish context.
+- Finnish knowledge production 1640-1828 can only be understood in the Swedish context.
 
 - Academy of Turku as part of the Swedish University system is the centre of Finnish knowledge production.
+
+### Findings
 
 Enlightenment in Finland after "the rock bottom" of 1700-1721
 
@@ -104,13 +103,19 @@ Enlightenment in Finland after "the rock bottom" of 1700-1721
 
 3) Economy and social science published in Swedish language 
 
---> Deep roots of the diversity of "Finnishness" clearly reflcted in knowledge production, 1640-1828.
+--> Deep roots of the diversity of "Finnishness" reflcted in knowledge production, 1640-1828.
 
 ---
 
 [Big Picture 1/4]
 
-Kartta jossa näkyy Turku osana Ruotsin valtakuntaa tähän (Janilla ideoita manuskriptin puolella, mun mielestä ne on hyviä tästä). Voisi miettiä, että tämä kartta-slide korvaisi sitten tuon alla tulevan "Comparing publishing activity in Swedish University town".
+### TODO Kartta!!! 
+
+jossa näkyy Turku osana Ruotsin valtakuntaa 
+
+ts. eri kaupungit ja niiden nimikemäärät kartalla. Kartat voisi tehdä, jos mahdollista, vuosille 1650, 1710, 1767 ja 1800 niin näkyy muutos. Tai sitten video jossa näkyy kehitys. Pohjois-Eurooppa karttapohjana.
+
+Toteutuksesta riippuen voidaan miettiä, jos tämä kartta-slide korvaisi tuon alla tulevan "Comparing publishing activity in Swedish University town".
 
 ---
 
@@ -179,6 +184,7 @@ for (catal in unique(df2$catalog)) {
 ---
 
 [Big Picture 4/4]
+
 ### Rise of the octavo sized book as vehicle of Enlightenment
 
 Paper consumption for different document formats over time. 
@@ -208,7 +214,9 @@ for (catal in unique(df0$catalog)) {
 
 [Publishers 1/6]
 
-Turku in Sweden -slide (Janin ideoima tulisi tähän)
+### TODO Turku in Sweden!!!
+
+Janin ajatus: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
 
 ---
 
@@ -282,9 +290,10 @@ print(p)
 
 [Publishers 4/6]
 
-### Numbers of publications of main publishers in Turku
+### Title count of the output of publishers in Turku
 
-```{r publishers3-finland-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=13, out.width="150px", fig.show="hold"}
+```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers3-finland-1.png
 
 place <- "Turku"
@@ -292,9 +301,10 @@ catalogue = "Fennica"
 df = df0
 
 df <- df %>%
-        filter(catalog == catalogue & publication_place == place) 
+        filter(catalog == catalogue & publication_place == place)
 
 df <- df %>%	
+  filter(publication_year >= 1640 & publication_year <= 1828)%>%
         select(publication_decade, publisher, paper.consumption.km2)
 
 # Group small publishers
@@ -323,10 +333,10 @@ print(p)
 
 [Publishers 5/6]
 
-### Comparing how much paper different publishers used on average in their publications in Turku
+### Comparing paper used on average per publication by publishers
 
 
-```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
+```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
 
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publisherpapertitle-1.png
 
@@ -410,7 +420,7 @@ print(p)
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-Gävle (gray) during riksdagar (Kungliga) TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AIKA PIENI TOI NOUSU NÄKYVISSÄ TÄSSÄ. MENEEKÖ OIKEIN?
+Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AIKA PIENI TOI NOUSU NÄKYVISSÄ TÄSSÄ. MENEEKÖ OIKEIN? ERI NÄKÖINEN TUOLLA MANUSKRIPTIN PUOLELLA.
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/riksdar2-1.png
@@ -481,19 +491,26 @@ Gävle (gray) during riksdagar (Kungliga) TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AI
 
 [Swedish age of Freedom and abolishment of censorship 2/2]
 
-Tämän kohdalta olisi tärkeä, että mukana myös joku slide siitä 1760-1770 ajasta. Pitää myös miettiä mihin kohtaan esitystä tämä osio istuu.
+### Number of publishers in Stockholm 1760-1770
+
+TODO: Epäonnistuin tässä tuomaan koodin niin että knittaisi oikein. Täten joudun laittamaan kuvalinkin tähän. Harmittaa. Jotkut muut onnistui niin hyvin...
+
+https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/polev1-3.png 
 
 ---
 
 ### Languages
 
+TODO: "Other" kielikategorian selvittäminen seuraavissa kuvissa. Onko siellä joku tietty kieli joka näkyy hyvin selvästi mukana analyysissä? Nousee isoksi kategoriaksi. Nyt oon merkannut, että Kreikan kieli (Greek) mukaan moneen kohtaan. Jos kyseessä joku muu kuin Kreikka niin sitten se. Jos taas paljon kombinaatioita pieniä kieliä, niin antaa siinä tapauksessa olla.
+
 ---
 
-[Languages 1/3]
+[Languages 1/4]
+#TODO: TÄSSÄ OLISI HYVÄ JOS v. 1800 julkaisut ei tippuisi nollaan!
 
 ### Development of use of different languages in Finnish National Bibliography
 
-```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="150px", fig.show="hold"}
+```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/language1-1.png
 catalogue = "Fennica"
 df <- df0
@@ -543,11 +560,11 @@ print(p)
 
 ---
 
-[Languages 2/3]
+[Languages 2/4]
 
-### Development of use of different languages in Kungliga Biblioteket's Swedish data
+### Development of use of different languages in Kungliga data
 
-```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="150px", fig.show="hold"}
+```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
 catalogue = "Kungliga"
   df <- dfl %>% filter(catalog == catalogue)
   df <- dfl %>% group_by(publication_decade, language) %>%
@@ -578,13 +595,12 @@ print(p)
 
 ---
 
-[Languages 3/3]
+[Languages 3/4]
 
-### Percentages of use of different languages in Finnish and Swedish data across time
+### Different languages in Fennica and Kungliga (percentage)
+TODO: GREEK mukaan (tai jos joku muu iso kieli niin se)!
 
-TÄMÄ PITÄÄ PÄIVITTÄÄ NIIN ETTÄ ON SE RANSKA JA VENÄJÄ MUKANA!
-
-```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="150px", fig.show="hold"}
+```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12, out.width="150px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
 
   if (catalogue == "Fennica") {
@@ -595,7 +611,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
   
   df <- df %>% filter(catalog == catalogue)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+langs <- c("Finnish", "Swedish", "Latin", "German", "French", "Russian", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -636,6 +652,38 @@ print(p)
 
 }
 ```
+
+---
+
+###TODO: KIELI% !!!!!!!!!!!!!
+
+Sama prosenttianalyysi kielistä kuin edellisessä slidessä mutta paikkakuntakohtaisesti (sekä Fennican että Kungligan mukaan): Turku, Greifswald, Stockholm, Uppsala, Lund. Rajataan analyysi vuoteen 1828.
+
+---
+
+[Languages 4/4]
+
+### Topic diversity in different languages in Finnish publications
+TODO: TÄMÄ PITÄISI RAJATA LOPPUMAAN VUOTEEN 1828.
+
+```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
+catalogue <- "Fennica"
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
+df <- filter(df0, catalog == "Fennica") %>%
+  filter(publication_year >= 1640 & publication_year <= 1828)%>% select(publication_year, language, subject_topic)
+df <- unique(df)
+df <- df %>% group_by(publication_year, language) %>% summarise(n = length(unique(unlist(strsplit(subject_topic, ";")))))
+
+df$language[!df$language %in% langs] <- "Other"
+df$language <- factor(df$language, levels = langs)
+
+p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
+       geom_line() + geom_point() +
+       ggtitle("Number of subject topics")
+
+print(p)
+```
+
 ---
 
 ### Religious texts in Finland
@@ -646,9 +694,9 @@ print(p)
 
 ### Devotional literature (catechisms, hymns, prayer collections, etc.) 
 
-- known as an form of literature denoting the advancement of reading in Finland in the nineteenth century. Yet, it has been unclear when does it show up as a relevant category.
+- Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
 
-```{r topics, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
+```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
@@ -693,13 +741,15 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 ---
 
 [Religious texts in Finland 2/3]
+#TODO: TÄSTÄ ja seuraavasta TOI "IF FENNICA FULL TIME SPAN" KOMENTO POIS. En saanut koodattua sitä. TODO: GREEK mukaan!
 
 ### Temporary sermons in Latin and Swedish
 
-- Temporary sermons played a crucial role in early modern knowledge production, but it has not been clearly analysed in what language they were in Finland (and Sweden). 
+
+- play an important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
 
 
-```{r topics2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics2-2.png
 
 sel <- c("hautajaiset", "häät", "juhlamenot")
@@ -761,6 +811,7 @@ print(p)
 ---
 
 [Religious texts in Finland 3/3]
+#TODO: GREEK mukaan!
 
 ### Combining devotional literature and temporary sermons
 
@@ -780,7 +831,10 @@ catalogue <- "Fennica"
 # Selected catalogue with selected topics
 df <- df %>% filter(catalog == catalogue & hit)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
+  # Selected catalogue with selected years
+  df = filter(df0, catalog == catalogue & publication_year >= 1640 & publication_year <= 1828)
+
+langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -825,11 +879,13 @@ print(p)
 
 ---
 
-### University curriculum
+### University curriculum in Turku 1640-1828
 
 ---
 
-[University curriculum 1/6]
+[University curriculum 1/5]
+
+TODO: OISKO NÄMÄ VIELÄ SELVEMPIÄ VÄRIKKÄINÄ BARPLOTTEINA? Leo, lisäksi säädätkö pois ton risuaitahässäkän näistä? En saanut sitä pois. TODO3: GREEK mukaan!
 
 ### Printing of theology in different languages in Turku
 
@@ -838,7 +894,8 @@ sel =  c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogm
 langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 catalogue <- "Fennica"
 
-df <- df0 %>% filter(catalog == catalogue)
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= 1640 & publication_year <= 1800)
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -872,7 +929,8 @@ print(p)
 
 ---
 
-[University curriculum 2/6]
+[University curriculum 2/5]
+TODO: GREEK mukaan!
 
 ### Printing of history in different languages in Turku
 
@@ -901,9 +959,10 @@ print(p)
 
 ---
 
-[University curriculum 3/6]
+[University curriculum 3/5]
 
 ### Printing of philosophy in different languages in Turku
+TODO: GREEK mukaan!
 
 ```{r topics-103, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
@@ -929,7 +988,8 @@ print(p)
 
 ---
 
-[University curriculum 4/6]
+[University curriculum 4/5]
+TODO: GREEK mukaan!
 
 ### Printing of natural science in different languages in Turku
 
@@ -957,9 +1017,10 @@ print(p)
 
 ---
 
-[University curriculum 5/6]
+[University curriculum 5/5]
+TODO: GREEK mukaan!
 
-### Printing of economy in different languages in Turku
+### Printing of economy and social science in different languages in Turku
 
 
 ```{r topics-105, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
@@ -987,27 +1048,44 @@ print(p)
 
 ---
 
-[University curriculum 6/6]
+### Effects of the Enlightenment in Finland
 
-### Effects of the Enlightenment on the curriculum in Turku
+- decline of metaphysics, rise of social and economic theory 
+- the Enlightenment literature read in Finland mainly printed elsewhere
 
-- decline of metaphysics in favour of social and economic theory is clear in Turku
-- the Enlightenment literature that people read in Finland was mainly printed in Stockholm and on the continent.
-
-Tähän top-auktorilistat Fennica ja Kungliga.
+TODO: KUVA PITÄIS RAJATA 1640-1828, EN ONNISTUNUT
+```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
+theme_set(theme_bw(20))
+for (catalogue in c("Fennica", "Kungliga")) {
+  df <- filter(df0, catalog == catalogue)
+  top.authors <- names(top(df, field = "author", n = 10))
+  dfs <- df %>% filter(author %in% top.authors) %>%
+         group_by(author, publication_decade) %>%
+         tally() %>%
+         arrange(publication_decade)
+  p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle(paste("Title count top authors\n", catalogue)) +
+       xlim(range(df0$publication_year))
+  print(p)
+}
+```
 
 ---
 
-[Conclusion 1/2]
-
 ### Finland in the Swedish context
 
-- Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century. Finland becomes part of Russia and Turku is stripped off of its former glory... But the analysis of Finnish knowledge production 1828-2016 is for another day.
+- Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century --- but the analysis of Finnish knowledge production 1828-2016 is for another day.
 
 ```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/201606krakow-turkuvsother-2.png
 
-df <- fen %>% 
+df <- fen %>%
+  filter(publication_year >= 1640 & publication_year <= 1800)%>% 
       filter(!is.na(country)) %>%
       filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
 
@@ -1046,9 +1124,16 @@ print(p)
 
 ---
 
-[Conclusion 2/2]
+### Duplicate publications
+
+TODO: General analysis (any simple picture) of duplicates between Kungliga and Fennica based on Hege's deduplication code.
+
+---
 
 ### Thanks !
 
 - Academy of Finland
 - University of Helsinki
+- National Library of Finland
+- National Library of Sweden
+- Digitalia / The Regional Council of South Savo
