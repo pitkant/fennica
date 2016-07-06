@@ -58,6 +58,17 @@ Left: Document dimension histogram (surface area). Right: title count per gather
 Popularity of different document sizes over time. Left: absolute title counts. Right: relative title counts. Gatherings with less than 15 documents at every decade are excluded:
 
 
+
+```
+## Error: Each variable must have a unique name.
+## Problem variables: 'group'
+```
+
+```
+## Error: Each variable must have a unique name.
+## Problem variables: 'group'
+```
+
 <img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
 
 
@@ -68,11 +79,6 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 ## Average document dimensions 
 
 Here we use the original data only:
-
-
-```
-## Error: Unknown column 'PANEL'
-```
 
 ![plot of chunk avedimstime](figure/dimension-avedimstime-1.png)
 

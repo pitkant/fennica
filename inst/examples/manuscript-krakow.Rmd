@@ -785,7 +785,7 @@ print(p)
 Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
 
-```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
+```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 # TITLE COUNT
 for (catalogue in c("Fennica", "Kungliga")) {
 
@@ -823,7 +823,8 @@ df <- dfl %>% group_by(publication_decade, language) %>%
 # Calculate percentages
 dff <- spread(df, language, n, fill = 0)
 dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
-dff <- gather(dff, publication_decade);
+#dff <- gather(dff, publication_decade);
+dff <- melt(dff, "publication_decade");
 colnames(dff) <- c("publication_decade", "language", "f")
 # Order languages by title count over the complete time span 
 # (same ordering used with both catalogs)
