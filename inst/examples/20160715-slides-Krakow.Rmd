@@ -589,6 +589,22 @@ Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks.
 
 ---
 
+[Swedish Age of Freedom and Abolishment of Censorship TODO]
+
+### TODO 1766-1772
+
+Kungligan mukaan piirakkakuva prosentteina (tai joku vastaava, vaihtelun vuoksi) kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävien (esim. kahden) vuosikymmenen kasvuun. Eli siis vuodet 1766-1772 ja kuinka paljon silloin on enemmän julkaisuja sensuurin puuttumisen takia tarkoituksena selvittää. Eli odotettu kasvu (kun katsotaan käyrää Kungligasta se on aika tasainen näiden vuosien ympärillä ylöspäin) ja todellinen kasvu (piikki) sekä niiden ero prosentteina.
+
+---
+
+### TODO 1766-1774
+
+Selvitettävä asia: onko erityisesti pamflettien kasvu syynä tänä aikana tulevaan nousuun? 
+
+Tapa: Lasketaan Kungligan mukaan Tukholmassa nimikkeiden määrän ja paperinkulutuksen suhde vuosilta 1766-1774 ja verrataan sitä vuosiin 1757-1765 ja 1775-1783. Tämän pitäisi tapahtua niin että lasketaan näille kolmelle ajanjaksolle jokaiselle oma "nimikkeiden määrä jaettuna paperinkulutuksella määrä" -lukema joka laitetaan sitten esim. prosentuaaliseen piirakkakuvaan jossa on kolme palaa. Palojen koko määräytyy sen mukaan kuinka paljon enemmän kyseisenä aikana on nimikkeitä suhteessa paperinkulutukseen.
+
+---
+
 [Swedish Age of Freedom and Abolishment of Censorship 2/3]
 
 ### Number of publishers in Stockholm 1760-1770
@@ -1238,6 +1254,37 @@ for (catalogue in c("Fennica", "Kungliga")) {
   print(p)
 }
 ```
+---
+
+### TODO Kungliga subject topics (NEW!!)
+
+Tuotetaan samanlaiset asiasanaryppäät kuin University Curriculum Turku. Tämän jälkeen piirretään Kungligan pohjalta yliopisto-asiasanat aikajanalle samalla tavalla kuin Fennican kohdalla kaupunkikohtaisesti. 
+
+TÄMÄ vie paljon enemmän tilaa kuin slideihin tulee jäämään. Täten, voi tuottaa kuvat kaksi per slide tai sitten vaihtoehtoisesti kässäriin josta blokataan tänne mitä tarvitaan.
+
+Kaupungit: "Tukholma", "Lund", "Greifswald", "Uppsala"
+
+Asiasanalista on seuraava (omat kuvat kaikista kaupunkikohtaisesti): 
+
+1. Kyrkohistoria; Biblisk arkeologi;Exegetik;Homiletik;Dogmatik;Teologi; Praktisk Teologi; Teologisk etik 
+
+2. Idé- och lärdomshistoria;Antiken;Historia;Militärhistoria; 
+
+3. Filosofi;Metafysik;Logik 
+
+4. Naturvetenskap;Matematik;Matematiska tabeller; Kemi;Astronomi;Geografi;Geologi;Meteorologi 
+
+5. Retorik 
+
+6. Hebreiska språket; Grekiska språket;Latin 
+
+7. Politisk filosofi;Ekonomiska förhållanden; Nationalekonomi;Lantbruksekonomi;Ekonomi;Penningväsen;Penningvärde;Kreditväsen;Penningförfalskning;Moral;Pedagogik;Uppfsotringsverket;Uppfostran;Barnuppfostran;Jordbruk;Jordbrukslära;Jordbrukspolitik;Fiske 
+
+8. Biologi;Medicinalverket;Medicin;Veterinärmedicin;Medicinalväsen;Medicinalväxkter;Sjukdomar;Djursjukdomar;Djur;Husdjur;Djurskydd;Hästar;Hästkreatur;Hästkörning;Hästavel 
+
+9. Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor 
+
+10. Högmålsbrott;Skattebrott;Brott;Brottslingar;Äktenskapsbrott;Våldsbrott;Trafikbrott;Gäldenärsbrott;Sabbattsbrott;Sexualbrott;Fridsbrott;Ekonomisk brottslighet;Religionsbrott;Juridik;Straff;Dödsstraff;Kroppsstraff;Straffarbete;Straffarbete;Fängelsestraff
 
 ---
 
