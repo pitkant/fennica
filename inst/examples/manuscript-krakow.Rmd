@@ -44,22 +44,29 @@ min.year <- 1488
 max.year <- 1828
 
 # Read data
-fen0 <- readRDS("df.Rds")
-kun0 <- readRDS("../../../kungliga/df.Rds")
+#fen0 <- readRDS("df.Rds")
+#kun0 <- readRDS("../../../kungliga/df.Rds")
 
-fenraw <- readRDS("df.raw.Rds")
-kunraw <- readRDS("../../../kungliga/df.raw.Rds")
+#fenraw <- readRDS("df.raw.Rds")
+#kunraw <- readRDS("../../../kungliga/df.raw.Rds")
 
-fen <- fen0 %>% filter(publication_year >= min.year & publication_year <= max.year)
-kun <- kun0 %>% filter(publication_year >= min.year & publication_year <= max.year)
+#fen <- fen0 %>% filter(publication_year >= min.year & publication_year <= max.year)
+#kun <- kun0 %>% filter(publication_year >= min.year & publication_year <= max.year)
 
 # Full time span
-df.full = bind_rows(fen0, kun0)
-df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0))))
+#df.full = bind_rows(fen0, kun0)
+#df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0))))
 
 # Selected time spam
-df0 = bind_rows(fen, kun)
-df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
+#df0 = bind_rows(fen, kun)
+#df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
+
+# Full combined catalogue (Fen + Kun) with marked duplicates
+df.combined.preprocessed <- readRDS("df.combined.Rds")
+# Data with duplicates removed
+df.full <- df.combined.preprocessed %>% filter(!remove)
+# Data with years limited as well
+df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
 
 langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 ```

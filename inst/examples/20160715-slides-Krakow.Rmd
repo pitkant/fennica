@@ -34,24 +34,14 @@ theme_set(theme_bw(26))
 
 
 ```{r 201606krakow-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
-# Read data
-fen0 <- readRDS("fennica.Rds")
-kun0 <- readRDS("kungliga.Rds")
-
-fenraw <- readRDS("fennica.raw.Rds")
-kunraw <- readRDS("kungliga.raw.Rds")
-
-fen <- fen0 %>% filter(publication_year >= min.year & publication_year <= max.year)
-kun <- kun0 %>% filter(publication_year >= min.year & publication_year <= max.year)
-
-# Full time span
-df.full = bind_rows(fen0, kun0)
-df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0))))
-
-# Selected time spam
-df0 = bind_rows(fen, kun)
-df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
+# Full combined catalogue (Fen + Kun) with marked duplicates
+df.combined.preprocessed <- readRDS("df.combined.Rds")
+# Data with duplicates removed
+df.full <- df.combined.preprocessed %>% filter(!remove)
+# Data with years limited as well
+df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
 ```
+
 
 ---
 
@@ -1245,7 +1235,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 - Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century --- but the analysis of Finnish knowledge production 1828-2016 is for another day.
 
 ```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
-df <- fen %>%
+df <- subset(df0, catalog == "Fennica") %>%
   filter(publication_year >= 1640 & publication_year <= 1800)%>% 
       filter(!is.na(country)) %>%
       filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
@@ -1288,6 +1278,17 @@ print(p)
 ### Duplicate publications
 
 TODO: General analysis (any simple picture) of duplicates between Kungliga and Fennica based on Hege's deduplication code.
+
+```{r duplicates, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
+# DUPLICATE FRACTION
+df <- df.combined.preprocessed %>% group_by(catalog) %>%
+      			           summarise(duplicates = 100 * mean(remove))
+p <- ggplot(df, aes(x = catalog, y = duplicates)) +
+       geom_bar(position = "dodge", stat = "identity") +
+       ylab("Duplicates (%)") +
+       ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
+print(p)
+```
 
 ---
 
