@@ -113,7 +113,7 @@ library(ggplot2)
 library(gisfin)
 source("funcs.R")
 theme_set(get_theme_map())
-mapdata <- filter(df0, catalog == "Fennica") %>%
+mapdata <- filter(df0, catalog == "Kungliga") %>%
       group_by(publication_decade, publication_place, latitude, longitude) %>%
       summarise(n = n())
 
@@ -143,11 +143,11 @@ for (i in c(1650, 1710, 1760, 1800)) {
       p <- p0 +
       	geom_point(data = dfw,
       	  aes(x = longitude, y = latitude,
-	      size = 20*log10(1+n),
+	      size = 3*log10(1+n),
 	      color = highlight)) +
 	      #color = highlight), alpha = 0.8) +	      
 	  ggtitle(i) +
-	  scale_size(range = c(2, 20)) +
+	  scale_size(range = c(1, 15)) +
 	  scale_color_manual(values = c("black", "red"))	  
     }
     
@@ -262,7 +262,8 @@ Proportions for title count, paper, and publishers
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
-df <- df0 %>% filter(catalog == catalogue)
+df <- df0 %>% filter(catalog == catalogue)%>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
 places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
 df$publication_place[!df$publication_place %in% places] <- "Other"
 df <- subset(df, !is.na(df$publication_place))
@@ -510,22 +511,22 @@ print(p)
 
 ---
 
-[Swedish age of Freedom and abolishment of censorship 1/2]
+[Swedish Age of Freedom and Abolishment of Censorship 1/3]
 
 ### Gävle in Riksdagar
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AIKA PIENI TOI NOUSU NÄKYVISSÄ TÄSSÄ. MENEEKÖ OIKEIN? ERI NÄKÖINEN TUOLLA MANUSKRIPTIN PUOLELLA. - NO KAATU KUN myplace kohdalle pistää skandeja eli olin vaihtanu tukholmaksi. Vaihdoin takas Gävleen, katotaan tuleeko virhe.
+Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi.
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/riksdar2-1.png
 
   # Use timeinterval year intervals
-  myplace = "Gävle" # Norrköping / Stockholm
+  myplace = "Greifswald" # Norrköping / Stockholm
   minyear = 1700
   maxyear = 1800
-  catal = "Kungliga"
+  catalog = "Kungliga"
 
   df = subset(df0, publication_place == myplace & catalog == catal)
   df <- subset(df, publication_year >= minyear & publication_year < maxyear)
@@ -585,7 +586,7 @@ Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN
 
 ---
 
-[Swedish age of Freedom and abolishment of censorship 2/2]
+[Swedish Age of Freedom and Abolishment of Censorship 2/3]
 
 ### Number of publishers in Stockholm 1760-1770
 
@@ -626,6 +627,12 @@ for (catalogue in c("Fennica", "Kungliga")) {
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
              pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], nrow = 2)
 ```
+
+---
+
+[Swedish Age of Freedom and Abolishment of Censorship 3/3]
+
+TODO: asiasanoja / yliopistopaikkakunta vertailu. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta (eli kaikki julkaisut eivät samasta aiheesta, esim. oikeuspöytäkirjoissa ei varmaan hirveästi vaihtelua). Voidaan suhteuttaa myös esim. paperinkulutukseen. Greifswald vs Turku (kuinka monta kieltä per vuosi) oli samansuuntainen. 
 
 ---
 
