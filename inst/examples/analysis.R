@@ -3,7 +3,7 @@ source("analysis.init.R")
 source("analysis.run.R")
 
 # Combine the data sets and mark duplicates
-source("analysis.combined.R")
+source("analysis.combined.R") # SLOW, only run once
 
 # Duplicate analyses / HR
 # source("analysis.combined.run.R")
