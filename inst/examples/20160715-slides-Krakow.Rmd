@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
 
 # Set locale
-tmp = Sys.setlocale(locale="UTF-8") 
+tmp <- Sys.setlocale(locale="UTF-8") 
 
 # Nice theme
 theme_set(theme_bw(26))
@@ -59,11 +59,11 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 
 **Idea**: study early modern knowledge production, all of it (1470-1830)
 
-**How?** By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
+**How?** By combining library catalogues (Fennica, Kungliga, ESTC, CERL)
 
-**Important**: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
+**Important**: to clean up the data (90% of the work!) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
 
-**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
+**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.
 
 ---
 
@@ -77,9 +77,11 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 
 ### Method
 
-- Scalable code in library catalogue data ecosystem (github)
+- Open source tools for library catalogues (Github)
 
-- xxx TODO: WHAT DOES LEO WANT TO SAY HERE?
+- Fully transparent and reproducible
+
+- Scales up to new catalogues and tasks
 
 - Benefit no. 1: once the work has been done, the data is available for everyone to use and to enrich it. The ecosystem is constructed with even unforeseen changes in mind.
 
@@ -93,6 +95,7 @@ df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 
 - Academy of Turku as part of the Swedish University system is the centre of Finnish knowledge production.
 
+
 ### Findings
 
 Enlightenment in Finland after "the rock bottom" of 1700-1721
@@ -103,19 +106,69 @@ Enlightenment in Finland after "the rock bottom" of 1700-1721
 
 3) Economy and social science published in Swedish language 
 
---> Deep roots of the diversity of "Finnishness" reflcted in knowledge production, 1640-1828.
+--> Deep roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
 
 ---
 
 [Big Picture 1/4]
 
-### TODO Kartta!!! 
+### Publishing activity in Turku 
 
-jossa näkyy Turku osana Ruotsin valtakuntaa 
+Voi miettiä, jos tämä korvaisi alla tulevan "Comparing publishing activity in Swedish University town".
 
-ts. eri kaupungit ja niiden nimikemäärät kartalla. Kartat voisi tehdä, jos mahdollista, vuosille 1650, 1710, 1767 ja 1800 niin näkyy muutos. Tai sitten video jossa näkyy kehitys. Pohjois-Eurooppa karttapohjana.
+```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
+library(dplyr)
+library(ggmap)
+library(ggplot2)
+library(gisfin)
+source("funcs.R")
+theme_set(get_theme_map())
+mapdata <- filter(df0, catalog == "Fennica") %>%
+      group_by(publication_decade, publication_place, latitude, longitude) %>%
+      summarise(n = n())
 
-Toteutuksesta riippuen voidaan miettiä, jos tämä kartta-slide korvaisi tuon alla tulevan "Comparing publishing activity in Swedish University town".
+mapdata$size <- mapdata$n
+mapdata$highlight <- rep("black", nrow(mapdata))
+mapdata$highlight[mapdata$publication_place %in% c("Turku")] <- "red"
+mapdata$highlight <- factor(mapdata$highlight)
+
+region <- "Europe.north"
+mymap <- get_map(location=geobox(region), color = "bw", source="google",  maptype="terrain")
+
+p0 <- ggmap(mymap) + theme(legend.position="none")
+
+pics <- list()
+for (i in c(1650, 1710, 1760, 1800)) {
+  
+    # Plot map
+    p <- p0
+
+    # Pick the investigated period (sliding window)
+    # Sum up the years within this sliding window for each element    	    
+    dfw <- subset(mapdata, publication_decade == i) %>%
+    	   	       group_by(latitude, longitude, highlight) %>%
+		       summarize(n = sum(size))
+
+    if (nrow(dfw) > 0) {
+      p <- p0 +
+      	geom_point(data = dfw,
+      	  aes(x = longitude, y = latitude,
+	      size = 20*log10(1+n),
+	      color = highlight)) +
+	      #color = highlight), alpha = 0.8) +	      
+	  ggtitle(i) +
+	  scale_size(range = c(2, 20)) +
+	  scale_color_manual(values = c("black", "red"))	  
+    }
+    
+  pics[[as.character(i)]] <- p
+
+}
+
+library(gridExtra)
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
+```
+
 
 ---
 
@@ -152,10 +205,7 @@ print(p)
 
 ### Comparing publishing activity in Swedish University towns
 
-- Turku
-- Uppsala
-- Lund 
-- Stockholm 
+Turku / Uppsala / Lund / Stockholm 
 
 ```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishingactivitycomparisons-2.png
@@ -214,9 +264,65 @@ for (catal in unique(df0$catalog)) {
 
 [Publishers 1/6]
 
-### TODO Turku in Sweden!!!
+### TODO Turku in Sweden
 
-Janin ajatus: Kaaviot Fennicasta ja Kungligasta, jossa lasketaan eri kaupunkien nimikemäärien, paperinkulutuksen ja kustantajien suhteellinen osuus vuoteen 1828. Eli samanlainen kaavio kuin on kielistä ”Book printing in Finland” –osiossa. Laaditaan kaaviot Tukholmasta, Uppsalasta, Lundista, Greifswaldista ja Turusta. Voiko myös tehdä erillisen kaavion, jossa Tukholma on poistettu, josta näkee näiden kilpailevien kakkoskaupunkien tilanteen.
+Proportions for title count, paper, and publishers
+
+```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=8}
+pics <- list()
+for (catalogue in na.omit(unique(df0$catalog))) {
+
+df <- df0 %>% filter(catalog == catalogue)
+places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
+df$publication_place[!df$publication_place %in% places] <- "Other"
+df <- subset(df, !is.na(df$publication_place))
+df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
+
+df <- df %>% group_by(publication_decade, publication_place) %>%
+             summarise(n = n(),
+	     	       paper = sum(paper.consumption.km2, na.rm = TRUE),
+		       publishers = length(na.omit(unique(publisher)))
+		       )
+
+
+# Calculate percentages
+for (varname in c("n", "paper", "publishers")) {
+
+  df$varname <- df[[varname]]
+  dff <- df %>% select(publication_decade, publication_place, varname)
+  dff <- spread(dff, publication_place, varname, fill = 0)
+  dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
+  dff <- melt(dff, "publication_decade");
+  colnames(dff) <- c("publication_decade", "publication_place", "f")
+
+  theme_set(theme_bw(20))
+  p <- ggplot(dff, aes(x = publication_decade, y = f)) +
+     geom_bar(position = "stack", stat = "identity",
+       aes(fill = publication_place)) + 
+     xlab("Publication year") +
+     scale_fill_brewer(palette="Paired")
+     if (varname == "n") {
+       p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
+                ylab("Title count frequency (%)") 
+     }
+     if (varname == "paper") {
+       p <- p + ggtitle(paste("Paper (", catalogue, ")", sep = "")) +
+                ylab("Paper (%)")        
+     }
+     if (varname == "publishers") {
+       p <- p + ggtitle(paste("Publishers (", catalogue, ")", sep = "")) +
+                       ylab("Publishers (%)")
+     }     
+
+
+  pics[[paste(catalogue, varname, sep = "-")]] <- p
+
+}
+}
+library(gridExtra)
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], nrow = 2)
+```
+
 
 ---
 
@@ -420,13 +526,13 @@ print(p)
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AIKA PIENI TOI NOUSU NÄKYVISSÄ TÄSSÄ. MENEEKÖ OIKEIN? ERI NÄKÖINEN TUOLLA MANUSKRIPTIN PUOLELLA.
+Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN ON AIKA PIENI TOI NOUSU NÄKYVISSÄ TÄSSÄ. MENEEKÖ OIKEIN? ERI NÄKÖINEN TUOLLA MANUSKRIPTIN PUOLELLA. - NO KAATU KUN myplace kohdalle pistää skandeja eli olin vaihtanu tukholmaksi. Vaihdoin takas Gävleen, katotaan tuleeko virhe.
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/riksdar2-1.png
 
   # Use timeinterval year intervals
-  myplace = "Stockholm" # Norrköping / Stockholm
+  myplace = "Gävle" # Norrköping / Stockholm
   minyear = 1700
   maxyear = 1800
   catal = "Kungliga"
@@ -493,28 +599,62 @@ Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN
 
 ### Number of publishers in Stockholm 1760-1770
 
-TODO: Epäonnistuin tässä tuomaan koodin niin että knittaisi oikein. Täten joudun laittamaan kuvalinkin tähän. Harmittaa. Jotkut muut onnistui niin hyvin...
+```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
+sel.places = c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
+sel.years = c(1760, 1780)
+pics <- list()
 
-https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/polev1-3.png 
+for (place in sel.places) {
+
+for (catalogue in c("Fennica", "Kungliga")) {
+
+  df <- df0
+  dfs <- df %>% filter(catalog == catalogue &
+     	              publication_place == place &
+		      publication_year >= min(sel.years) &
+		      publication_year <= max(sel.years) 
+		      )
+
+  df <- dfs %>% group_by(publication_year) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PUBLISHER COUNT
+  n = sapply(split(dfs$publisher, dfs$publication_year), function (x) {length(unique(na.omit(x)))})
+  df = data.frame(year = names(n), n = unname(n))
+  if (nrow(df) > 1) {
+    p = ggplot(df, aes(x = year, y = n)) +
+        geom_bar(stat = "identity") +
+       ggtitle(paste("Publishers:", catalogue, place)) +
+       scale_x_discrete(breaks = seq(min(sel.years), max(sel.years), 10))
+  } else {
+    p <- ggplot() + ggtitle("Insufficient data")
+  }
+  pics[[paste(place, catalogue, sep = "-")]] <- p
+}
+}
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
+             pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], nrow = 2)
+```
 
 ---
 
 ### Languages
 
-TODO: "Other" kielikategorian selvittäminen seuraavissa kuvissa. Onko siellä joku tietty kieli joka näkyy hyvin selvästi mukana analyysissä? Nousee isoksi kategoriaksi. Nyt oon merkannut, että Kreikan kieli (Greek) mukaan moneen kohtaan. Jos kyseessä joku muu kuin Kreikka niin sitten se. Jos taas paljon kombinaatioita pieniä kieliä, niin antaa siinä tapauksessa olla.
+TODO: "Other" kielikategorian selvittäminen seuraavissa kuvissa. Onko siellä joku tietty kieli joka näkyy hyvin selvästi mukana analyysissä? Nousee isoksi kategoriaksi. Nyt oon merkannut, että Kreikan kieli (Greek - huom on kielet Greek, Modern (1453-) sekä Greek, Ancient (to 1453) mutta ei pelkka Greek) mukaan moneen kohtaan. Jos kyseessä joku muu kuin Kreikka niin sitten se. Jos taas paljon kombinaatioita pieniä kieliä, niin antaa siinä tapauksessa olla. LL: Lisäsin Kreikan mutten muuten ehdi tutkia asiaa. Voit katsoa R:llä top(df0, "language", 10)
 
 ---
 
 [Languages 1/4]
-#TODO: TÄSSÄ OLISI HYVÄ JOS v. 1800 julkaisut ei tippuisi nollaan!
+#TODO: TÄSSÄ OLISI HYVÄ JOS v. 1800 julkaisut ei tippuisi nollaan! LL: I cannot change the data. This is the results from this analysis.
 
 ### Development of use of different languages in Finnish National Bibliography
 
 ```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/language1-1.png
-catalogue = "Fennica"
+catalogue <- "Fennica"
 df <- df0
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Greek, Ancient (to 1453)", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -526,9 +666,10 @@ for (lan in lang) {
   # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
   # Combine data frames for specified languages
   dflsub <- filter(df, df[[lan]])
-  dflsub$language <- gsub("language.", "", lan)
-  dfl <- bind_rows(dfl, dflsub)
-  
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
 }
 
 # ----------------------------------
@@ -612,12 +753,11 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df <- df %>% filter(catalog == catalogue)%>%
         filter(publication_year >= 1600 & publication_year <= 1900)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "French", "Russian", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
 
+dfl <- NULL
 for (lan in lang) {
 
   # Classify a document to the specifed language
@@ -626,9 +766,10 @@ for (lan in lang) {
   # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
   # Combine data frames for specified languages
   dflsub <- filter(df, df[[lan]])
-  dflsub$language <- gsub("language.", "", lan)
-  dfl <- bind_rows(dfl, dflsub)
-  
+  if (nrow(dflsub)>0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
 }
 
 df <- dfl %>% group_by(publication_decade, language) %>%
@@ -637,17 +778,16 @@ df <- dfl %>% group_by(publication_decade, language) %>%
 # Calculate percentages
 dff <- spread(df, language, n, fill = 0)
 dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
-#dff <- gather(dff, publication_decade);
 dff <- melt(dff, "publication_decade");
 colnames(dff) <- c("publication_decade", "language", "f")
-#dff$language <- factor(dff$language, levels = langs)
 
 theme_set(theme_bw(20))
 p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
      xlab("Publication year") +
      ylab("Title count frequency (%)") +
-     ggtitle(paste("Languages (", catalogue, ")", sep = "")) +  scale_fill_brewer(palette="Paired")
+     ggtitle(paste("Languages (", catalogue, ")", sep = "")) +
+     scale_fill_brewer(palette="Paired")
 print(p)
  
 }
@@ -655,9 +795,66 @@ print(p)
 
 ---
 
+
 ###TODO: KIELI% !!!!!!!!!!!!!
 
 Sama prosenttianalyysi kielistä kuin edellisessä slidessä mutta paikkakuntakohtaisesti (sekä Fennican että Kungligan mukaan): Turku, Greifswald, Stockholm, Uppsala, Lund. Rajataan analyysi vuoteen 1828.
+
+
+```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
+pics <- list()
+theme_set(theme_bw(20))
+myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
+
+for (catalogue in c("Fennica", "Kungliga")) {
+
+  df <- df0 %>% filter(catalog == catalogue) %>%
+        filter(publication_year >= 1600 & publication_year <= 1828)
+
+  lang <- paste("language.", langs, sep = "")
+  otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
+  dfl <- NULL
+  for (lan in lang) {
+
+    # Classify a document to the specifed language
+    # If document is assigned with languages, each case is considered
+    # so one doc may have multiple entries corresponding to different languages
+    # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+    # Combine data frames for specified languages
+    dflsub <- filter(df, df[[lan]])
+    if (nrow(dflsub) > 0) {
+      dflsub$language <- gsub("language.", "", lan)
+      dfl <- bind_rows(dfl, dflsub)
+    }
+  }
+
+  df <- dfl %>% group_by(publication_decade, publication_place, language) %>%
+     	     summarise(n = n())
+
+  # Calculate percentages
+  dff <- spread(df, language, n, fill = 0)
+  dff[, -c(1,2)] <- 100 * t(apply(dff[, -c(1,2)], 1, function (x) {x/sum(x)}))
+
+  dff <- melt(dff, id = c("publication_place", "publication_decade"))
+  colnames(dff) <- c("publication_place", "publication_decade", "language", "f")
+
+  for (myplace in myplaces) {
+    p <- ggplot(subset(dff, publication_place == myplace), aes(x = publication_decade, y = f)) +
+      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
+      xlab("Publication year") +
+      ylab("Title count frequency (%)") +
+      ggtitle(paste("Languages (", myplace, "/", catalogue, ")", sep = "")) +
+      scale_fill_brewer(palette="Paired")
+    pics[[paste(catalogue, myplace, sep = "-")]] <- p
+  }
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
+             pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], 
+             nrow = 2)
+```
 
 ---
 
@@ -665,14 +862,16 @@ Sama prosenttianalyysi kielistä kuin edellisessä slidessä mutta paikkakuntako
 
 ### Topic diversity in different languages in Finnish publications
 TODO: TÄMÄ PITÄISI RAJATA LOPPUMAAN VUOTEEN 1828.
+LL: on rajattu jo mun nähdäkseni ?
 
 ```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 catalogue <- "Fennica"
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 df <- filter(df0, catalog == "Fennica") %>%
-  filter(publication_year >= 1640 & publication_year <= 1828)%>% select(publication_year, language, subject_topic)
+  filter(publication_year >= 1640 & publication_year <= 1828) %>%
+  select(publication_year, language, subject_topic)
 df <- unique(df)
-df <- df %>% group_by(publication_year, language) %>% summarise(n = length(unique(unlist(strsplit(subject_topic, ";")))))
+df <- df %>% group_by(publication_year, language) %>%
+             summarise(n = length(unique(unlist(strsplit(subject_topic, ";")))))
 
 df$language[!df$language %in% langs] <- "Other"
 df$language <- factor(df$language, levels = langs)
@@ -700,10 +899,11 @@ print(p)
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
-  
+
   # Selected catalogue with selected years
-  df = filter(df0, catalog == catalogue & publication_year >= 1640 & publication_year <= 1828)
+  df <- filter(df0, catalog == catalogue &
+     		    publication_year >= 1640 &
+		    publication_year <= 1828)
 
   # Selected topics
   df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
@@ -720,8 +920,10 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
     # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
     # Combine data frames for specified languages
     dflsub <- filter(df, df[[lan]])
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
+    if (nrow(dflsub) > 0) {
+      dflsub$language <- gsub("language.", "", lan)
+      dfl <- bind_rows(dfl, dflsub)
+    }
   }
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
@@ -741,143 +943,105 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 ---
 
 [Religious texts in Finland 2/3]
-#TODO: TÄSTÄ ja seuraavasta TOI "IF FENNICA FULL TIME SPAN" KOMENTO POIS. En saanut koodattua sitä. TODO: GREEK mukaan!
 
 ### Temporary sermons in Latin and Swedish
 
-
 - play an important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
 
-
 ```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics2-2.png
-
-sel <- c("hautajaiset", "häät", "juhlamenot")
-catalogue <- "Fennica"
-  if (catalogue == "Fennica") {
-    df <- df.full # full time span
-  } else if (catalogue == "Kungliga") {
-    df <- df0 # selected time span
-  }
+  sel <- c("hautajaiset", "häät", "juhlamenot")
+  catalogue <- "Fennica"
+  df <- df0
   df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 
-# Selected catalogue with selected topics
-df <- df %>% filter(catalog == catalogue & hit)
+  # Selected catalogue with selected topics
+  df <- df %>% filter(catalog == catalogue & hit)
+  lang <- paste("language.", langs, sep = "")
+  otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  dflsub$language <- gsub("language.", "", lan)
-  dfl <- bind_rows(dfl, dflsub)
+  dfl <- NULL
+  for (lan in lang) {
+    # Classify a document to the specifed language
+    # If document is assigned with languages, each case is considered
+    # so one doc may have multiple entries corresponding to different languages
+    # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+    # Combine data frames for specified languages
+    dflsub <- filter(df, df[[lan]])
+    if (nrow(dflsub) > 0) {
+      dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
 }
 dfl$language <- factor(dfl$language, levels = langs)
 
-# -------------------------------------------
-
-df <- dfl %>% group_by(publication_decade, language) %>%
+  df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-# TITLE COUNT
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Title count (n)") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-#print(p)
-
-
-# PAPER CONSUMPTION
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+  # PAPER CONSUMPTION
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 ```
 
 ---
 
 [Religious texts in Finland 3/3]
-#TODO: GREEK mukaan!
 
 ### Combining devotional literature and temporary sermons
 
-
 ```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics3-2.png
-
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat","hautajaiset","häät","juhlamenot")
 catalogue <- "Fennica"
-  if (catalogue == "Fennica") {
-    df <- df.full # full time span
-  } else if (catalogue == "Kungliga") {
-    df <- df0 # selected time span
-  }
+  df <- df0 # selected time span
   df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 
-# Selected catalogue with selected topics
-df <- df %>% filter(catalog == catalogue & hit)
+  # Selected catalogue with selected topics
+  df <- df %>% filter(catalog == catalogue & hit)
 
   # Selected catalogue with selected years
   df = filter(df0, catalog == catalogue & publication_year >= 1640 & publication_year <= 1828)
 
-langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  dflsub$language <- gsub("language.", "", lan)
-  dfl <- bind_rows(dfl, dflsub)
+  lang <- paste("language.", langs, sep = "")
+  otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+  dfl <- NULL
+  for (lan in lang) {
+    # Classify a document to the specifed language
+    # If document is assigned with languages, each case is considered
+    # so one doc may have multiple entries corresponding to different languages
+    # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+    # Combine data frames for specified languages
+    dflsub <- filter(df, df[[lan]])
+    if (nrow(dflsub) > 0) {
+      dflsub$language <- gsub("language.", "", lan)
+      dfl <- bind_rows(dfl, dflsub)
+    }
 }
 
-# -------------------------------------------
+  # -------------------------------------------
 
-df <- dfl %>% group_by(publication_decade, language) %>%
+  df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-# TITLE COUNT
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Title count (n)") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-#print(p)
-
-
-# PAPER CONSUMPTION
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+  # PAPER CONSUMPTION
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
+  print(p)
 ```
 
 ---
+
 
 ### University curriculum in Turku 1640-1828
 
@@ -885,13 +1049,12 @@ print(p)
 
 [University curriculum 1/5]
 
-TODO: OISKO NÄMÄ VIELÄ SELVEMPIÄ VÄRIKKÄINÄ BARPLOTTEINA? Leo, lisäksi säädätkö pois ton risuaitahässäkän näistä? En saanut sitä pois. TODO3: GREEK mukaan!
+TODO: OISKO NÄMÄ VIELÄ SELVEMPIÄ VÄRIKKÄINÄ BARPLOTTEINA? 
 
 ### Printing of theology in different languages in Turku
 
 ```{r topics-101, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 sel =  c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia")
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 catalogue <- "Fennica"
 
 df <- df0 %>% filter(catalog == catalogue)%>%
@@ -908,32 +1071,29 @@ for (lan in lang) {
   }
 }
 # Selected catalogue with selected topics
-df = dfl
+df <- dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-# PAPER CONSUMPTION
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", print(paste(sel, collapse = ";")), ")", sep = ""))
-print(p)
-
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+  print(p)
 ```
 
 ---
 
+
 [University curriculum 2/5]
-TODO: GREEK mukaan!
 
 ### Printing of history in different languages in Turku
-
 
 ```{r topics-102, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 sel = c("oppihistoria","antiikki","historia")
@@ -952,7 +1112,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", print(paste(sel, collapse = ";")), ")", sep = ""))
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
@@ -962,7 +1122,6 @@ print(p)
 [University curriculum 3/5]
 
 ### Printing of philosophy in different languages in Turku
-TODO: GREEK mukaan!
 
 ```{r topics-103, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
@@ -981,7 +1140,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", print(paste(sel, collapse = ";")), ")", sep = ""))
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
@@ -989,7 +1148,6 @@ print(p)
 ---
 
 [University curriculum 4/5]
-TODO: GREEK mukaan!
 
 ### Printing of natural science in different languages in Turku
 
@@ -1010,7 +1168,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", print(paste(sel, collapse = ";")), ")", sep = ""))
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
@@ -1018,7 +1176,6 @@ print(p)
 ---
 
 [University curriculum 5/5]
-TODO: GREEK mukaan!
 
 ### Printing of economy and social science in different languages in Turku
 
@@ -1041,7 +1198,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", print(paste(sel, collapse = ";")), ")", sep = ""))
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
@@ -1050,14 +1207,16 @@ print(p)
 
 ### Effects of the Enlightenment in Finland
 
-- decline of metaphysics, rise of social and economic theory 
-- the Enlightenment literature read in Finland mainly printed elsewhere
+- Decline of metaphysics, rise of social and economic theory 
+- The Enlightenment literature read in Finland mainly printed elsewhere
 
-TODO: KUVA PITÄIS RAJATA 1640-1828, EN ONNISTUNUT
+TODO: KUVA PITÄIS RAJATA 1640-1828, EN ONNISTUNUT - DONE
+
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
-  df <- filter(df0, catalog == catalogue)
+  df <- filter(df0, catalog == catalogue) %>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
   top.authors <- names(top(df, field = "author", n = 10))
   dfs <- df %>% filter(author %in% top.authors) %>%
          group_by(author, publication_decade) %>%
@@ -1082,8 +1241,6 @@ for (catalogue in c("Fennica", "Kungliga")) {
 - Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century --- but the analysis of Finnish knowledge production 1828-2016 is for another day.
 
 ```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/201606krakow-turkuvsother-2.png
-
 df <- fen %>%
   filter(publication_year >= 1640 & publication_year <= 1800)%>% 
       filter(!is.na(country)) %>%
@@ -1137,3 +1294,4 @@ TODO: General analysis (any simple picture) of duplicates between Kungliga and F
 - National Library of Finland
 - National Library of Sweden
 - Digitalia / The Regional Council of South Savo
+
