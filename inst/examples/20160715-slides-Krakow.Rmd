@@ -517,7 +517,7 @@ print(p)
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi.
+Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi, siksi Greifswald analyysi tässä.
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/riksdar2-1.png
@@ -632,7 +632,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
 
 [Swedish Age of Freedom and Abolishment of Censorship 3/3]
 
-TODO: asiasanoja / yliopistopaikkakunta vertailu. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta (eli kaikki julkaisut eivät samasta aiheesta, esim. oikeuspöytäkirjoissa ei varmaan hirveästi vaihtelua). Voidaan suhteuttaa myös esim. paperinkulutukseen. Greifswald vs Turku (kuinka monta kieltä per vuosi) oli samansuuntainen. 
+###TODO: asiasanoja / yliopistopaikkakunta vertailu. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta (eli kaikki julkaisut eivät samasta aiheesta, esim. oikeuspöytäkirjoissa ei varmaan hirveästi vaihtelua). Voidaan suhteuttaa myös esim. paperinkulutukseen. Greifswald vs Turku (kuinka monta kieltä per vuosi) oli samansuuntainen. 
 
 ---
 
@@ -643,7 +643,6 @@ TODO: "Other" kielikategorian selvittäminen seuraavissa kuvissa. Onko siellä j
 ---
 
 [Languages 1/4]
-#TODO: TÄSSÄ OLISI HYVÄ JOS v. 1800 julkaisut ei tippuisi nollaan! LL: I cannot change the data. This is the results from this analysis.
 
 ### Development of use of different languages in Finnish National Bibliography
 
@@ -736,7 +735,7 @@ print(p)
 [Languages 3/4]
 
 ### Different languages in Fennica and Kungliga (percentage)
-TODO: GREEK mukaan (tai jos joku muu iso kieli niin se)!
+
 
 ```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12, out.width="150px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
@@ -793,10 +792,7 @@ print(p)
 ---
 
 
-###TODO: KIELI% !!!!!!!!!!!!!
-
-Sama prosenttianalyysi kielistä kuin edellisessä slidessä mutta paikkakuntakohtaisesti (sekä Fennican että Kungligan mukaan): Turku, Greifswald, Stockholm, Uppsala, Lund. Rajataan analyysi vuoteen 1828.
-
+### Different languages in Swedish University towns
 
 ```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 pics <- list()
@@ -850,7 +846,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
              pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], 
-             nrow = 2)
+             nrow = 3)
 ```
 
 ---
@@ -1041,6 +1037,14 @@ catalogue <- "Fennica"
 
 
 ### University curriculum in Turku 1640-1828
+
+---
+
+##TODO: Dissertation language 
+
+Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: 
+
+Ollaan kiinnostuttu milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä. 
 
 ---
 
