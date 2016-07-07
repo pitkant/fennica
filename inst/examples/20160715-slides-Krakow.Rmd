@@ -47,7 +47,7 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ## From particular data to global perspective?
 
-**Idea**: study early modern knowledge production, all of it (1470-1830)
+**Idea**: to study early modern knowledge production, all of it (1470-1830)
 
 **How?** By combining library catalogues (Fennica, Kungliga, ESTC, CERL)
 
@@ -165,6 +165,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 [Big Picture 2/4]
 
 ### Peaks and drops – role of publishers and contingency
+TODO: Tuolla on yksi iso piikki Kungligassa (1760-1770) ja kaksi laskua Fennicassa (1700-1721) ja (1809-1828). Voisko ne HIGHLIGHTata jollain tyylikkäällä tavalla?
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5}
 library(devtools)
@@ -229,6 +230,7 @@ for (catal in unique(df2$catalog)) {
 
 Paper consumption for different document formats over time. 
 
+TODO: Tässä vois maalata ton octavo-kirjojen käyrän molemmista kuvista jollain kirkkaalla värillä (ei muuta).
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/LIBER-13-2.png
 for (catal in unique(df0$catalog)) {
@@ -257,7 +259,7 @@ for (catal in unique(df0$catalog)) {
 ### TODO Turku in Sweden
 
 Proportions for title count, paper, and publishers
-
+TODO: OTHER julkaisijakenttä laittaa ton Turku-kuvan pieleen, "other" kategoria liian iso.
 ```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=8}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
@@ -320,6 +322,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], n
 [Publishers 2/6]
 
 ### Development of number of publishers in Finland 
+TODO: Voisko tämän ja seuraavan kuvan (ruotsalaiset julkaisijat) jotenkin yhdistää järkevästi selvyyden vuoksi? En valitettavasti tiedä miten se teknisesti tehtäisiin.
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers2-finland-1.png
@@ -589,7 +592,7 @@ Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks.
 [Swedish Age of Freedom and Abolishment of Censorship 2/3]
 
 ### Number of publishers in Stockholm 1760-1770
-
+TODO: Tästä kaikki Fennica kuvat pois analyysistä selkeyden vuoksi.
 ```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
 sel.places = c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
 sel.years = c(1760, 1780)
@@ -792,8 +795,8 @@ print(p)
 ---
 
 
-### Different languages in Swedish University towns
-
+### Different languages in Turku, Stockholm and Uppsala
+TODO: Rajataan analyysi Turku (Fennica), Stockholm (Kungliga) ja Uppsala (Kungliga)
 ```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 pics <- list()
 theme_set(theme_bw(20))
@@ -846,7 +849,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
              pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], 
-             nrow = 3)
+             nrow = 2)
 ```
 
 ---
@@ -854,8 +857,6 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
 [Languages 4/4]
 
 ### Topic diversity in different languages in Finnish publications
-TODO: TÄMÄ PITÄISI RAJATA LOPPUMAAN VUOTEEN 1828.
-LL: on rajattu jo mun nähdäkseni ?
 
 ```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 catalogue <- "Fennica"
@@ -987,6 +988,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 [Religious texts in Finland 3/3]
 
 ### Combining devotional literature and temporary sermons
+TODO: Voisko kokeilla tätä barplotteina selvyyden vuoksi?
 
 ```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat","hautajaiset","häät","juhlamenot")
@@ -1040,7 +1042,7 @@ catalogue <- "Fennica"
 
 ---
 
-##TODO: Dissertation language 
+###TODO: Dissertation language 
 
 Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: 
 
@@ -1049,8 +1051,6 @@ Ollaan kiinnostuttu milloin alkaa erityisesti tulemaan ruotsinkielellä väitök
 ---
 
 [University curriculum 1/5]
-
-TODO: OISKO NÄMÄ VIELÄ SELVEMPIÄ VÄRIKKÄINÄ BARPLOTTEINA? 
 
 ### Printing of theology in different languages in Turku
 
@@ -1215,7 +1215,7 @@ print(p)
 - Decline of metaphysics, rise of social and economic theory 
 - The Enlightenment literature read in Finland mainly printed elsewhere
 
-TODO: KUVA PITÄIS RAJATA 1640-1828, EN ONNISTUNUT - DONE
+TODO: kuva rajattu 1640-1828, MUTTA piirtää silti tuonne nuo tyhjät vuodet 1470-1640. NE PITÄIS SAADA PRINTISTÄ POIS.
 
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
@@ -1287,8 +1287,6 @@ print(p)
 ---
 
 ### Duplicate publications
-
-TODO: General analysis (any simple picture) of duplicates between Kungliga and Fennica based on Hege's deduplication code.
 
 ```{r duplicates, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 # DUPLICATE FRACTION
