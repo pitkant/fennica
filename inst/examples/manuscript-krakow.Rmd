@@ -42,7 +42,7 @@ theme_set(theme_bw(26))
 # Define time span
 min.year <- 1488
 max.year <- 1828
-output.folder <- "output.tables"
+output.folder <- "output.tables/"
 
 
 # Read data
