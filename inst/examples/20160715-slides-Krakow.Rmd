@@ -1108,8 +1108,9 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +             
+       #geom_point(aes(col = language, shape = language), size = 5) +
+       #geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
@@ -1136,8 +1137,9 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
+       #geom_point(aes(col = language, shape = language), size = 5) +
+       #geom_line(aes(col = language, shape = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
@@ -1164,8 +1166,9 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
+       #geom_point(aes(col = language, shape = language), size = 5) +
+       #geom_line(aes(col = language, shape = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
@@ -1194,8 +1197,9 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
+       #geom_point(aes(col = language, shape = language), size = 5) +
+       #geom_line(aes(col = language, shape = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
