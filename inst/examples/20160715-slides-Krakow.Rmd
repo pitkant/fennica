@@ -1288,6 +1288,15 @@ p <- ggplot(df, aes(x = catalog, y = duplicates)) +
        ylab("Duplicates (%)") +
        ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
 print(p)
+
+
+df <- df.combined.preprocessed %>% group_by(catalog) %>%
+      			           summarise(duplicates = 100 * mean(remove))
+p <- ggplot(df, aes(x = catalog, y = duplicates)) +
+       geom_bar(position = "dodge", stat = "identity") +
+       ylab("Duplicates (%)") +
+       ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
+print(p)
 ```
 
 ---
