@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
 
 # Set locale
-tmp = Sys.setlocale(locale="UTF-8") 
+Sys.setlocale(locale="UTF-8") 
 
 # Nice theme
 theme_set(theme_bw(26))
@@ -52,28 +52,29 @@ df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0
 df0 = bind_rows(fen, kun)
 df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
 ```
-
 ---
 
 ## From particular data to global perspective?
 
-**Idea**: study early modern knowledge production, all of it (1470-1830)
+Idea: to study early modern knowledge production, all of it (1470-1830)
 
-**How?** By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
+How? By combining library catalogue data (Fennica, Kungliga, ESTC, CERL)
 
-**Important**: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
+What is important: to clean up the data (90% of the work) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
 
-**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
+How to fail: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it first.
 
 ---
 
 [Intro 2/3]
 
-### Data (1470-1828):
+### Data
 
-- Fennica (Finnish National Bibliography): 20328 documents
+Data used (1470-1828):
 
-- Kungliga (National Library of Sweden): 73165 documents
+- Fennica, Finnish National Bibliography, 20328 documents
+
+- Kungliga, National Library of Sweden's catalogue, 73165 documents
 
 ### Method
 
@@ -490,6 +491,7 @@ Gävle (gray) during riksdagar (Kungliga) TODO: TÄÄ EI TOIMI NYT OLLENKAAN KUN
 ---
 
 [Swedish age of Freedom and abolishment of censorship 2/2]
+<<<<<<< HEAD
 
 ### Number of publishers in Stockholm 1760-1770
 
@@ -497,6 +499,15 @@ TODO: Epäonnistuin tässä tuomaan koodin niin että knittaisi oikein. Täten j
 
 https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/polev1-3.png 
 
+=======
+
+### Number of publishers in Stockholm 1760-1770
+
+TODO: Epäonnistuin tässä tuomaan koodin niin että knittaisi oikein. Täten joudun laittamaan kuvalinkin tähän. Harmittaa. Jotkut muut onnistui niin hyvin...
+
+https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/polev1-3.png 
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 ---
 
 ### Languages
@@ -561,14 +572,20 @@ print(p)
 ---
 
 [Languages 2/4]
+<<<<<<< HEAD
 
 ### Development of use of different languages in Kungliga data
 
+=======
+
+### Development of use of different languages in Kungliga data
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 ```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
 catalogue = "Kungliga"
-  df <- dfl %>% filter(catalog == catalogue) %>%
-     	        group_by(publication_decade, language) %>%
-                summarise(n = n(),
+  df <- dfl %>% filter(catalog == catalogue)
+  df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
 
@@ -596,26 +613,33 @@ print(p)
 ---
 
 [Languages 3/4]
+<<<<<<< HEAD
 
 ### Different languages in Fennica and Kungliga (percentage)
 TODO: GREEK mukaan (tai jos joku muu iso kieli niin se)!
 
+=======
+
+### Different languages in Fennica and Kungliga (percentage)
+TODO: GREEK mukaan (tai jos joku muu iso kieli niin se)!
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 ```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12, out.width="150px", fig.show="hold"}
 for (catalogue in c("Fennica", "Kungliga")) {
 
   if (catalogue == "Fennica") {
     df <- df.full # full time span
   } else if (catalogue == "Kungliga") {
-    df <- df.full # full time span
+    df <- df0 # selected time span
   }
   
-  df <- df %>% filter(catalog == catalogue)%>%
-        filter(publication_year >= 1600 & publication_year <= 1900)
+  df <- df %>% filter(catalog == catalogue)
 
 langs <- c("Finnish", "Swedish", "Latin", "German", "French", "Russian", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+
 dfl <- NULL
 
 for (lan in lang) {
@@ -637,19 +661,19 @@ df <- dfl %>% group_by(publication_decade, language) %>%
 # Calculate percentages
 dff <- spread(df, language, n, fill = 0)
 dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
-#dff <- gather(dff, publication_decade);
-dff <- melt(dff, "publication_decade");
+dff <- gather(dff, publication_decade);
 colnames(dff) <- c("publication_decade", "language", "f")
-#dff$language <- factor(dff$language, levels = langs)
+dff$language <- factor(dff$language, levels = langs)
 
 theme_set(theme_bw(20))
 p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
      xlab("Publication year") +
      ylab("Title count frequency (%)") +
-     ggtitle(paste("Languages (", catalogue, ")", sep = "")) +  scale_fill_brewer(palette="Paired")
+     ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
- 
+
+
 }
 ```
 
@@ -677,9 +701,9 @@ df <- df %>% group_by(publication_year, language) %>% summarise(n = length(uniqu
 df$language[!df$language %in% langs] <- "Other"
 df$language <- factor(df$language, levels = langs)
 
-p <- ggplot(df, aes(x = publication_year, y = n, color = qsec)) +
+p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
        geom_line() + geom_point() +
-       ggtitle("Number of subject topics") 
+       ggtitle("Number of subject topics")
 
 print(p)
 ```
@@ -687,6 +711,7 @@ print(p)
 ---
 
 ### Religious texts in Finland
+<<<<<<< HEAD
 
 ---
 
@@ -696,6 +721,17 @@ print(p)
 
 - Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
 
+=======
+
+---
+
+[Religious texts in Finland 1/3]
+
+### Devotional literature (catechisms, hymns, prayer collections, etc.) 
+
+- Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 ```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
@@ -742,13 +778,24 @@ langs <- c("Finnish", "Swedish", "Latin", "German", "Other")
 
 [Religious texts in Finland 2/3]
 #TODO: TÄSTÄ ja seuraavasta TOI "IF FENNICA FULL TIME SPAN" KOMENTO POIS. En saanut koodattua sitä. TODO: GREEK mukaan!
+<<<<<<< HEAD
 
 ### Temporary sermons in Latin and Swedish
 
 
 - play an important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
+=======
 
+### Temporary sermons in Latin and Swedish
 
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
+
+- play an important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 ```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics2-2.png
 
@@ -880,6 +927,7 @@ print(p)
 ---
 
 ### University curriculum in Turku 1640-1828
+<<<<<<< HEAD
 
 ---
 
@@ -887,6 +935,15 @@ print(p)
 
 TODO: OISKO NÄMÄ VIELÄ SELVEMPIÄ VÄRIKKÄINÄ BARPLOTTEINA? Leo, lisäksi säädätkö pois ton risuaitahässäkän näistä? En saanut sitä pois. TODO3: GREEK mukaan!
 
+=======
+
+---
+
+[University curriculum 1/5]
+
+TODO: OISKO NÄMÄ VIELÄ SELVEMPIÄ VÄRIKKÄINÄ BARPLOTTEINA? Leo, lisäksi säädätkö pois ton risuaitahässäkän näistä? En saanut sitä pois. TODO3: GREEK mukaan!
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 ### Printing of theology in different languages in Turku
 
 ```{r topics-101, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
@@ -1049,10 +1106,17 @@ print(p)
 ---
 
 ### Effects of the Enlightenment in Finland
+<<<<<<< HEAD
 
 - decline of metaphysics, rise of social and economic theory 
 - the Enlightenment literature read in Finland mainly printed elsewhere
 
+=======
+
+- decline of metaphysics, rise of social and economic theory 
+- the Enlightenment literature read in Finland mainly printed elsewhere
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
 TODO: KUVA PITÄIS RAJATA 1640-1828, EN ONNISTUNUT
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
@@ -1105,7 +1169,7 @@ dfs <- df %>% group_by(publication_decade, myplace) %>%
 
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
-     ggtitle("Paper consumption") + 
+     ggtitle("Paper consumption") +
      scale_fill_grey() +
      guides(fill = guide_legend(reverse = TRUE, title = "")) + 
      xlab("Publication decade") + ylab("Paper (km2)")
@@ -1137,3 +1201,7 @@ TODO: General analysis (any simple picture) of duplicates between Kungliga and F
 - National Library of Finland
 - National Library of Sweden
 - Digitalia / The Regional Council of South Savo
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0841493a33ba1272c163526772214f5b5deaf21a
