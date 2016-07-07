@@ -1281,21 +1281,25 @@ TODO: General analysis (any simple picture) of duplicates between Kungliga and F
 
 ```{r duplicates, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 # DUPLICATE FRACTION
-df <- df.combined.preprocessed %>% group_by(catalog) %>%
-      			           summarise(duplicates = 100 * mean(remove))
-p <- ggplot(df, aes(x = catalog, y = duplicates)) +
+#df <- df.combined.preprocessed %>% group_by(catalog) %>%
+#      			           summarise(duplicates = 100 * mean(remove))
+#p <- ggplot(df, aes(x = catalog, y = duplicates)) +
+#       geom_bar(position = "dodge", stat = "identity") +
+#       ylab("Duplicates (%)") +
+#       ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
+#print(p)
+
+df <- df.combined.preprocessed %>%
+        filter(publication_year >= 1640 & publication_year <=1828) %>%
+        group_by(catalog, publication_decade) %>%
+	summarise(duplicates = 100 * mean(remove))
+				   
+p <- ggplot(df, aes(x = publication_decade, y = duplicates, fill = catalog)) +
        geom_bar(position = "dodge", stat = "identity") +
        ylab("Duplicates (%)") +
-       ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
-print(p)
+       scale_fill_manual(values = c("blue", "red")) + 
+       ggtitle(paste("Duplicates", paste(range(na.omit(df$publication_year)), collapse = "-"))) 
 
-
-df <- df.combined.preprocessed %>% group_by(catalog) %>%
-      			           summarise(duplicates = 100 * mean(remove))
-p <- ggplot(df, aes(x = catalog, y = duplicates)) +
-       geom_bar(position = "dodge", stat = "identity") +
-       ylab("Duplicates (%)") +
-       ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
 print(p)
 ```
 
