@@ -61,9 +61,9 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### Data (1470-1828):
 
-- Fennica (Finnish National Bibliography): 20328 documents
+- Fennica (Finnish National Bibliography): `r nrow(filter(df0, catalog == "Fennica" & publication_year >= 1470 & publication_year <= 1828))` documents
 
-- Kungliga (National Library of Sweden): 73165 documents
+- Kungliga (National Library of Sweden): `r nrow(filter(df0, catalog == "Kungliga" & publication_year >= 1470 & publication_year <= 1828))` documents
 
 ### Method
 
@@ -73,7 +73,7 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 - Scales up to new catalogues and tasks
 
-- Benefit no. 1: once the work has been done, the data is available for everyone to use and to enrich it. The ecosystem is constructed with even unforeseen changes in mind.
+- Benefit no. 1: once the work has been done, the data is available for everyone to use and to enrich. The generic data analytical ecosystem is designed with even unforeseen changes in mind.
 
 ---
 
@@ -104,6 +104,8 @@ Enlightenment in Finland after "the rock bottom" of 1700-1721
 
 ### Publishing activity in Turku 
 
+Selitys puuttuville palloille: Kungligassa ei ole yhtään kaupunkia mainittuina vuosikymmeninä joille geokoordinaatit olisi tiedossa. Eli dataa ei ole. Ei siis palloja. Johtunee siitä että ESTC:n ja Fennican osalta näitä joskus aiemmin selviteltiin mutta Kungligan ruotsalaisille paikannimille ei ole haettu geokoordinaatteja eikä niitä juuri näköjään ole aiemmin käyttämissämme geokoordinaattiaineistoissa. Pitää joko vaihtaa takaisin Fennicaan tässä, tai toivoa että ehditään etsiä ja soveltaa ruotsalaisia geokoordinaattijuttuja ajoissa. 
+
 Voi miettiä, jos tämä korvaisi alla tulevan "Comparing publishing activity in Swedish University town".
 
 ```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
@@ -114,8 +116,9 @@ library(gisfin)
 source("funcs.R")
 theme_set(get_theme_map())
 mapdata <- filter(df0, catalog == "Kungliga") %>%
+      #filter(!is.na(latitude) & !is.na(longitude)) %>%
       group_by(publication_decade, publication_place, latitude, longitude) %>%
-      summarise(n = n())
+      summarise(n = n()) 
 
 mapdata$size <- mapdata$n
 mapdata$highlight <- rep("black", nrow(mapdata))
@@ -136,18 +139,19 @@ for (i in c(1650, 1710, 1760, 1800)) {
     # Pick the investigated period (sliding window)
     # Sum up the years within this sliding window for each element    	    
     dfw <- subset(mapdata, publication_decade == i) %>%
-    	   	       group_by(latitude, longitude, highlight) %>%
+    	     group_by(publication_place, latitude, longitude, highlight) %>%
 		       summarize(n = sum(size))
 
     if (nrow(dfw) > 0) {
       p <- p0 +
       	geom_point(data = dfw,
       	  aes(x = longitude, y = latitude,
-	      size = 3*log10(1+n),
+	      size = 20*log10(1+n),
 	      color = highlight)) +
 	      #color = highlight), alpha = 0.8) +	      
 	  ggtitle(i) +
-	  scale_size(range = c(1, 15)) +
+	  scale_size(range = c(2, 15)) +
+	  theme(title = element_text(size = 20)) +
 	  scale_color_manual(values = c("black", "red"))	  
     }
     
@@ -165,13 +169,13 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 [Big Picture 2/4]
 
 ### Peaks and drops – role of publishers and contingency
-TODO: Tuolla on yksi iso piikki Kungligassa (1760-1770) ja kaksi laskua Fennicassa (1700-1721) ja (1809-1828). Voisko ne HIGHLIGHTata jollain tyylikkäällä tavalla?
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5}
+TODO: iso piikki Kungligassa (1760-1770) ja kaksi laskua Fennicassa (1700-1721) ja (1809-1828). Voisko ne HIGHLIGHTata jollain tyylikkäällä tavalla? Tai sit joku päivä voi kehitellä paneeleita tms. Lisäsäätö vie aikaa, pitäis vähän tutkiskella asiaa.
+
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5, out.width="200px"}
 library(devtools)
-install_github("ropengov/gisfin")
-
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishingovertime-1.png
+#install_github("ropengov/gisfin")
+library(gisfin)
 library(stringr)
 library(dplyr)
 library(tidyr)
@@ -182,10 +186,17 @@ library(fennica)
 library(sorvi)
 
 df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(n = n())
+df2$highlight <- rep(FALSE, nrow(df2))
+df2$highlight[df2$catalog == "Kungliga" &
+	      df2$publication_decade %in% c(1770, 1810)] <- TRUE
+df2$highlight[df2$catalog == "Fennica" &
+	      df2$publication_decade %in% c(1710, 1810)] <- TRUE	      
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
-     geom_line(aes(linetype = catalog)) +
-     geom_point(aes(shape = catalog), size = 3) +     
-     ylab("Title count (n)") + xlab("Publication year") #+  
+     geom_line(aes(linetype = catalog), color = "black") +
+     geom_point(aes(shape = catalog, color = highlight, size = highlight)) +
+     ylab("Title count (n)") + xlab("Publication year") +
+     scale_color_manual(values = c("darkgray", "black")) +
+     theme(legend.position = "none")
      # ggtitle("Overall publishing activity")
 print(p)
 ```
@@ -230,19 +241,29 @@ for (catal in unique(df2$catalog)) {
 
 Paper consumption for different document formats over time. 
 
-TODO: Tässä vois maalata ton octavo-kirjojen käyrän molemmista kuvista jollain kirkkaalla värillä (ei muuta).
+TODO: Tässä vois maalata octavo-kirjojen käyrän molemmista kuvista kirkkaalla värillä (ei muuta).
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/LIBER-13-2.png
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+  df2$highlight <- rep("gray", nrow(df2))
+  df2$highlight[df2$gatherings == "8vo"] <- "darkgreen"
+  
+  p <- ggplot(df2, aes(y = paper.consumption.km2,
+                       x = publication_decade,
+		       shape = gatherings,
+		       linetype = gatherings))		       
   p <- p + geom_point(size = 4)
-  p <- p + geom_smooth(method = "loess", size = 1, color = "black")
+  p <- p + geom_smooth(method = "loess", size = 1,
+         aes(color = highlight, fill = highlight))
+  p <- p + scale_color_manual(values = c("darkgreen", "darkgray"))
+  p <- p + scale_fill_manual(values = c("darkgreen", "darkgray"))  	 
   p <- p + ggtitle("Paper consumption in time by gatherings")
   p <- p + xlab("Year")
   p <- p + ylab("Paper consumption (km2)")
-  p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
+  p <- p + guides(linetype = guide_legend(keywidth = 5),
+       	          shape = guide_legend(keywidth = 5))
   p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
   print(p)
 }
@@ -259,7 +280,7 @@ for (catal in unique(df0$catalog)) {
 ### TODO Turku in Sweden
 
 Proportions for title count, paper, and publishers
-TODO: OTHER julkaisijakenttä laittaa ton Turku-kuvan pieleen, "other" kategoria liian iso.
+TODO: OTHER julkaisijakenttä laittaa ton Turku-kuvan pieleen, "other" kategoria liian iso. LL: eli ohjeet mitä tehdään ?
 ```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=8}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
@@ -321,7 +342,8 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], n
 
 [Publishers 2/6]
 
-### Development of number of publishers in Finland 
+### Publishers in Finland / Swedish University towns
+
 TODO: Voisko tämän ja seuraavan kuvan (ruotsalaiset julkaisijat) jotenkin yhdistää järkevästi selvyyden vuoksi? En valitettavasti tiedä miten se teknisesti tehtäisiin.
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
@@ -350,17 +372,10 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        xlab("Publication year") +
        ylab("Unique publishers (n)") +        
        ggtitle("Unique publishers in top publication places (Finland/Fennica)")
-print(p)
-```
+p1 <- p
 
----
+# ----------------------
 
-[Publishers 3/6]
-
-### Development of number of publishers in Swedish University towns
-
-```{r publishers2-kungliga, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers2-kungliga-1.png
 df <- df0
 catalogue <- "Kungliga"
 df <- df %>%
@@ -382,7 +397,10 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        xlab("Publication year") +
        ylab("Unique publishers (n)") +        
        ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
-print(p)
+p2 <- p
+
+
+grid.arrange(p1, p2, nrow = 2)
 ```
 
 
@@ -594,6 +612,42 @@ Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks.
 ### TODO 1766-1772
 
 Kungligan mukaan piirakkakuva prosentteina (tai joku vastaava, vaihtelun vuoksi) kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävien (esim. kahden) vuosikymmenen kasvuun. Eli siis vuodet 1766-1772 ja kuinka paljon silloin on enemmän julkaisuja sensuurin puuttumisen takia tarkoituksena selvittää. Eli odotettu kasvu (kun katsotaan käyrää Kungligasta se on aika tasainen näiden vuosien ympärillä ylöspäin) ja todellinen kasvu (piikki) sekä niiden ero prosentteina.
+
+LL: no ainakin data nyt tässä laskettuna kahdelle peräkkäiselle 6 vuoden jaksolle. Tehdään ensin analyysit jotka tarvitaan. Hiotaan kuvia lisää sitten kun ei tule enää muuten lisää kamaa. 
+
+
+```{r peak, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+# Select catalog
+df <- df0 %>% filter(catalog == "Kungliga")
+
+# Mark time periods
+df$period <- rep(NA, nrow(df))
+df$period[df$publication_year >= 1759 & df$publication_year <= 1765] <- 1
+df$period[df$publication_year >= 1766 & df$publication_year <= 1772] <- 2
+
+
+# Remove NA time periods
+df <- df %>% filter(!is.na(period))
+
+df <- df %>% group_by(period) %>%
+             summarise(n = n(),
+	     	   paper = sum(paper.consumption.km2, na.rm = TRUE))
+#df <- melt(df, "period")
+
+# TITLE COUNT
+p1 <- ggplot(df, aes(x = period, y = n)) +
+       geom_bar(stat = "identity", position = "stack") +
+       scale_x_discrete(labels = c("Period A", "Period B")) +
+       ggtitle("Title count")
+
+# PAPER
+p2 <- ggplot(df, aes(x = period, y = paper)) +
+       geom_bar(stat = "identity", position = "stack") +
+       scale_x_discrete(labels = c("Period A", "Period B")) +
+       ggtitle("Paper")
+
+grid.arrange(p1, p2, nrow = 1)
+```
 
 ---
 

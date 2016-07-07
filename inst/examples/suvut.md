@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2016-07-07"
+date: "2016-07-08"
 output: markdown_document
 ---
 
@@ -14,6 +14,10 @@ output: markdown_document
 
 ```
 ## Error in eval(expr, envir, enclos): unknown variable to group by : family_name
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'members' not found
 ```
 
 ```
