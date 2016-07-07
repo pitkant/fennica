@@ -22,7 +22,6 @@ output.folder <- "output.tables/"
 # ---------------------------------
 
 print("Prepare the final data set")
-
 # Read the preprocessed data
 df0 <- readRDS(datafile)
 df.orig <- readRDS(datafile.orig)

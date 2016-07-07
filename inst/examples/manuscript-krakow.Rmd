@@ -42,24 +42,33 @@ theme_set(theme_bw(26))
 # Define time span
 min.year <- 1488
 max.year <- 1828
+output.folder <- "output.tables/"
+
 
 # Read data
-fen0 <- readRDS("df.Rds")
-kun0 <- readRDS("../../../kungliga/df.Rds")
+#fen0 <- readRDS("df.Rds")
+#kun0 <- readRDS("../../../kungliga/df.Rds")
 
-fenraw <- readRDS("df.raw.Rds")
-kunraw <- readRDS("../../../kungliga/df.raw.Rds")
+#fenraw <- readRDS("df.raw.Rds")
+#kunraw <- readRDS("../../../kungliga/df.raw.Rds")
 
-fen <- fen0 %>% filter(publication_year >= min.year & publication_year <= max.year)
-kun <- kun0 %>% filter(publication_year >= min.year & publication_year <= max.year)
+#fen <- fen0 %>% filter(publication_year >= min.year & publication_year <= max.year)
+#kun <- kun0 %>% filter(publication_year >= min.year & publication_year <= max.year)
 
 # Full time span
-df.full = bind_rows(fen0, kun0)
-df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0))))
+#df.full = bind_rows(fen0, kun0)
+#df.full$catalog = factor(c(rep("Fennica", nrow(fen0)), rep("Kungliga", nrow(kun0))))
 
 # Selected time spam
-df0 = bind_rows(fen, kun)
-df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
+#df0 = bind_rows(fen, kun)
+#df0$catalog = factor(c(rep("Fennica", nrow(fen)), rep("Kungliga", nrow(kun))))
+
+# Full combined catalogue (Fen + Kun) with marked duplicates
+df.combined.preprocessed <- readRDS("df.combined.Rds")
+# Data with duplicates removed
+df.full <- df.combined.preprocessed %>% filter(!remove)
+# Data with years limited as well
+df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
 
 langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 ```
@@ -378,7 +387,7 @@ The top publication places ranked by the title count
 ```{r LIBER-topplace, echo=FALSE, message=FALSE, cache=FALSE, fig.height=6, fig.width=12}
 theme_set(theme_bw(20))
 ntop = 10
-p <- top_plot(fen, "publication_place", ntop = ntop)
+p <- top_plot(subset(df0, catalog == "Fennica"), "publication_place", ntop = ntop)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count (Log10 scale)")
@@ -387,7 +396,7 @@ p <- p + ggtitle("Top publication places\n(Fennica)")
 pf = p
 
 theme_set(theme_bw(30))
-p <- top_plot(kun, "publication_place", ntop = ntop)
+p <- top_plot(subset(df0, catalog == "Kungliga"), "publication_place", ntop = ntop)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
 p <- p + ylab("Title count (Log10 scale)")
@@ -506,7 +515,7 @@ for (catal in as.character(unique(df0$catalog))) {
 ```
 
 
-Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% fen$publication_place)` occurrences in Fennica, hence not included here. The figure on Gävle is based on Kungliga.
+Focus on Gävle (gray) during riksdagar. Gävle has `r sum("Gävle" %in% subset(df0, catalog == "Fennica")$publication_place)` occurrences in Fennica, hence not included here. The figure on Gävle is based on Kungliga.
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7, out.width="430px"}
 
@@ -1043,7 +1052,7 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
 Same with top publishers
 
 ```{r topics.per.publisher, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
-tops <-  names(top(fen, "publisher", 5))
+tops <-  names(top(subset(df0, catalog == "Fennica"), "publisher", 5))
 
 for (publ in tops) {
 
@@ -1178,7 +1187,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
 Same with top publishers
 
 ```{r topics2.per.publisher, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
-tops <-  names(top(fen, "publisher", 5))
+tops <-  names(top(subset(df0, catalog == "Fennica"), "publisher", 5))
 
 for (publ in tops) {
 
@@ -1319,7 +1328,7 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
 Same with top publishers
 
 ```{r topics3.per.publisher, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
-tops <-  names(top(fen, "publisher", 5))
+tops <-  names(top(subset(df0, catalog == "Fennica"), "publisher", 5))
 
 for (publ in tops) {
 
@@ -1814,7 +1823,8 @@ Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) näy
 Paper consumption in selected places (Fennica):
 
 ```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=10, fig.show="hold", out.width="430px"}
-df <- fen %>% 
+df <- df0 %>%
+      filter(catalog == "Fennica") %>% 
       filter(!is.na(country)) %>%
       filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
 
@@ -2402,7 +2412,7 @@ Further draft text in the funding application..?
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata `r nrow(fenraw)` and `r nrow(kunraw)` documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval `r min(df0$publication_year)`-`r max(df0$publication_year)`, yielding a subset of `r nrow(subset(df0, catalog == "Fennica"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(fenraw), 1)`%) and `r nrow(subset(df0, catalog == "Kungliga"))` (`r round(100*nrow(subset(df0, catalog == "Kunliga"))/nrow(kunraw), 1)`%) documents for Fennica and Kungliga, respectively.
+The raw data contains metadata `r nrow(subset(df.full, catalog == "Fennica"))` and `r nrow(subset(df.full, catalog == "Kungliga"))` documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval `r min(df0$publication_year)`-`r max(df0$publication_year)`, yielding a subset of `r nrow(subset(df0, catalog == "Fennica"))` (`r round(100*nrow(subset(df0, catalog == "Fennica"))/nrow(subset(df.full, catalog == "Fennica")), 1)`%) and `r nrow(subset(df0, catalog == "Kungliga"))` (`r round(100*nrow(subset(df0, catalog == "Kunliga"))/nrow(subset(df.full, catalog == "Kungliga")), 1)`%) documents for Fennica and Kungliga, respectively.
 
 
 
@@ -2467,7 +2477,9 @@ The most active known female authors based on the title count:
 
 ```{r 201606krakow-fennica-topfemale, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=20, out.width="850px"}
 theme_set(theme_bw(10))
-dfs <- fen %>% filter(author_gender == "female")
+dfs <- df0 %>%
+  filter(catalog == "Fennica") %>%
+  filter(author_gender == "female")
 p <- top_plot(dfs, "author", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")
@@ -2477,7 +2489,9 @@ p <- p + theme(axis.text.x = element_text(size = 16), axis.text.y = element_text
 pf = p
 
 theme_set(theme_bw(20))
-dfs <- kun %>% filter(author_gender == "female")
+dfs <- df0 %>%
+  filter(catalog == "Kungliga") %>%
+  filter(author_gender == "female")
 p <- top_plot(dfs, "author", ntop = 20)
 p <- p + scale_fill_manual(values = "black")
 p <- p + guides(fill = "none")

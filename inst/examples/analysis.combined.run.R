@@ -1,3 +1,13 @@
+
+
+message("Filtering out rows with remove-tags")
+# This is the real removal
+# Fast to run, so just run before analysis and do not save
+# It is better to have one starting point file and clear operations on top of that
+# rather than various intermediate saves
+df.filtered.preprocessed <- df.combined.preprocessed %>% filter(!remove)
+
+
 # LIST DISSERTATIONS
 output.folder <- "output.tables/"
 
@@ -46,8 +56,7 @@ fields <- c("catalog", "author", "short_title", "title", "dissertation", "public
 duplicates <- duplicates[,fields][order(duplicates$publication_year, duplicates$short_title, duplicates$publication_place, duplicates$catalog),]
 write.table(duplicates, paste0(output.folder, "duplicates.csv"), quote = FALSE, sep = "\t", row.names = FALSE)
 
-#tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
-#sf <- generate_summaryfiles(df.preprocessed, author = author, output.folder = output.folder, ntop = ntop)
+
 
 
 

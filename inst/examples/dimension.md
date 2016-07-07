@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-06"
+date: "2016-07-07"
 output: markdown_document
 ---
 
@@ -57,17 +57,6 @@ Left: Document dimension histogram (surface area). Right: title count per gather
 
 Popularity of different document sizes over time. Left: absolute title counts. Right: relative title counts. Gatherings with less than 15 documents at every decade are excluded:
 
-
-
-```
-## Error: Each variable must have a unique name.
-## Problem variables: 'group'
-```
-
-```
-## Error: Each variable must have a unique name.
-## Problem variables: 'group'
-```
 
 <img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
 

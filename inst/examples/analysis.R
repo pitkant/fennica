@@ -1,5 +1,12 @@
+# Initialize
 source("analysis.init.R")
 source("analysis.run.R")
+
+# Combine the data sets and mark duplicates
+source("analysis.combined.R")
+
+# Duplicate analyses / HR
+# source("analysis.combined.run.R")
 
 # Custom analyses
 knitr::knit("summary.Rmd", encoding="UTF-8")
@@ -12,8 +19,8 @@ knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
 knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 library(rmarkdown)
-rmarkdown::render("manuscript-krakow.Rmd")
 rmarkdown::render("20160715-slides-Krakow.Rmd")
+rmarkdown::render("manuscript-krakow.Rmd")
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
 # Push changes to github

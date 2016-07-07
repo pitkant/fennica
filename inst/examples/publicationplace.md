@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-06"
+date: "2016-07-07"
 output: markdown_document
 ---
 
