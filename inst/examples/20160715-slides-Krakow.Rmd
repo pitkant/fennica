@@ -677,9 +677,9 @@ df <- df %>% group_by(publication_year, language) %>% summarise(n = length(uniqu
 df$language[!df$language %in% langs] <- "Other"
 df$language <- factor(df$language, levels = langs)
 
-p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
+p <- ggplot(df, aes(x = publication_year, y = n, color = qsec)) +
        geom_line() + geom_point() +
-       ggtitle("Number of subject topics")
+       ggtitle("Number of subject topics") 
 
 print(p)
 ```
