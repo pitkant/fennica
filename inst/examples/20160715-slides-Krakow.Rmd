@@ -660,14 +660,14 @@ df <- df %>% group_by(period) %>%
 # TITLE COUNT
 p1 <- ggplot(df, aes(x = period, y = n)) +
        geom_bar(stat = "identity", position = "stack") +
-       scale_x_discrete(labels = c("Period A", "Period B")) +
-       ggtitle("Title count")
+       scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
+       ggtitle("Title count") + xlab("1759-1765")
 
 # PAPER
 p2 <- ggplot(df, aes(x = period, y = paper)) +
        geom_bar(stat = "identity", position = "stack") +
-       scale_x_discrete(labels = c("Period A", "Period B")) +
-       ggtitle("Paper")
+       scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
+       ggtitle("Paper consumption") + xlab("1766-1772")
 
 grid.arrange(p1, p2, nrow = 1)
 ```
