@@ -61,9 +61,7 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### Data (1470-1828):
 
-- Fennica (Finnish National Bibliography): `r nrow(filter(df0, catalog == "Fennica" & publication_year >= 1470 & publication_year <= 1828))` documents
 
-- Kungliga (National Library of Sweden): `r nrow(filter(df0, catalog == "Kungliga" & publication_year >= 1470 & publication_year <= 1828))` documents
 
 ### Method
 
@@ -85,10 +83,13 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 - Academy of Turku as part of the Swedish University system is the centre of Finnish knowledge production.
 
+### Challenges: nationally delineated perspectives by using nationally collected materials
 
-### Findings
+We use nationally organized library catalogues produced by national memory organizations. The aim is to at least partly overcome a national gaze in the analysis. By focusing on The Finnish case and studying it both in the context of the Swedish realm and (later) in the Russian empire, we have the opportunity to see how knowledge production happened through a more complex network of cities.
 
-Enlightenment in Finland after "the rock bottom" of 1700-1721
+### Enlightenment in Finland after "the rock bottom" of 1700-1721
+
+Different roles of languages visible in topics addressed in different languages:
 
 1) Changes in University curriculum reflected in published theses 
 
@@ -104,7 +105,7 @@ Enlightenment in Finland after "the rock bottom" of 1700-1721
 
 ### Publishing activity in Turku 
 
-Selitys puuttuville palloille: Kungligassa ei ole yhtään kaupunkia mainittuina vuosikymmeninä joille geokoordinaatit olisi tiedossa. Eli dataa ei ole. Ei siis palloja. Johtunee siitä että ESTC:n ja Fennican osalta näitä joskus aiemmin selviteltiin mutta Kungligan ruotsalaisille paikannimille ei ole haettu geokoordinaatteja eikä niitä juuri näköjään ole aiemmin käyttämissämme geokoordinaattiaineistoissa. Pitää joko vaihtaa takaisin Fennicaan tässä, tai toivoa että ehditään etsiä ja soveltaa ruotsalaisia geokoordinaattijuttuja ajoissa. 
+Selitys puuttuville palloille: Kungligassa ei ole yhtään kaupunkia mainittuina vuosikymmeninä joille geokoordinaatit olisi tiedossa. Eli dataa ei ole. Ei siis palloja. MT: Voisiko tätä kuvaa muuttaa niin että tarkkaillaan vaan samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli haetaan koordinaatit näille mitä me pääasiassa tarkkaillaan: "Stockholm", "Uppsala", "Lund", "Greifswald", "Turku", "Tartu"? Sitten datana käyttäisi Kungligaa.
 
 Voi miettiä, jos tämä korvaisi alla tulevan "Comparing publishing activity in Swedish University town".
 
@@ -169,8 +170,6 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 [Big Picture 2/4]
 
 ### Peaks and drops – role of publishers and contingency
-
-TODO: iso piikki Kungligassa (1760-1770) ja kaksi laskua Fennicassa (1700-1721) ja (1809-1828). Voisko ne HIGHLIGHTata jollain tyylikkäällä tavalla? Tai sit joku päivä voi kehitellä paneeleita tms. Lisäsäätö vie aikaa, pitäis vähän tutkiskella asiaa.
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5, out.width="200px"}
 library(devtools)
