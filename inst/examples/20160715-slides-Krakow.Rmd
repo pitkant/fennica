@@ -105,9 +105,9 @@ Different roles of languages visible in topics addressed in different languages:
 
 ### Publishing activity in Turku 
 
-Selitys puuttuville palloille: Kungligassa ei ole yhtään kaupunkia mainittuina vuosikymmeninä joille geokoordinaatit olisi tiedossa. Eli dataa ei ole. Ei siis palloja. MT: Voisiko tätä kuvaa muuttaa niin että tarkkaillaan vaan samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli haetaan koordinaatit näille mitä me pääasiassa tarkkaillaan: "Stockholm", "Uppsala", "Lund", "Greifswald", "Turku", "Tartu"? Sitten datana käyttäisi Kungligaa.
+TODO MT: Voisiko tätä kuvaa muuttaa niin että tarkkaillaan vain samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli haetaan koordinaatit näille: "Stockholm", "Uppsala", "Lund", "Greifswald", "Turku", "Tartu"? Sitten datana käyttäisi Kungligaa.
 
-Voi miettiä, jos tämä korvaisi alla tulevan "Comparing publishing activity in Swedish University town".
+Turussa kirjantuotanto laskee huomattavasti isonvihan (1710-luku) , pikkuvihan (1740-luku) ja Suomen sodan (1808-1809) aikana. Pikkuviha ei ollut yhtä dramaattinen, eikä näy niin totaalisesti. Suomen sodan (ja Napoleonin sotien) seuraukset olivat tietysti kaikkein dramaattisimmat.
 
 ```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 library(dplyr)
@@ -170,6 +170,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 [Big Picture 2/4]
 
 ### Peaks and drops – role of publishers and contingency
+TODO: Tässä olisi hyvä olla vuodet näkyvissä.
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5, out.width="200px"}
 library(devtools)
@@ -205,6 +206,7 @@ print(p)
 [Big Picture 3/4]
 
 ### Comparing publishing activity in Swedish University towns
+TODO: Tässä olisi hyvä olla vuodet näkyvissä.
 
 Turku / Uppsala / Lund / Stockholm 
 
@@ -449,7 +451,7 @@ print(p)
 [Publishers 5/6]
 
 ### Comparing paper used on average per publication by publishers
-
+TODO: Mikä toi Sverige on? Pitäisikö toi tarkastaa, ettei siinä ole joku virhe. Jani ei ole koskaan törmännyt siihen kustantajana.
 
 ```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
 
@@ -493,7 +495,7 @@ print(p)
 
 ### Rock Bottom of the Great Northern War (1700-1721)
 
-Publisher title count changes around 1700 with a nearly detrimental drop in Turku, the most significant publishing place at the time.
+Publisher title count changes around 1700 with a nearly detrimental drop in Turku, significant publishing place in Finland at the time.
 
 ```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/drop1700B-1.png
@@ -720,7 +722,7 @@ TODO: "Other" kielikategorian selvittäminen seuraavissa kuvissa. Onko siellä j
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/language1-1.png
 catalogue <- "Fennica"
 df <- df0
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Greek, Ancient (to 1453)", "Other")
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -1111,7 +1113,7 @@ catalogue <- "Fennica"
 
 ###TODO: Dissertation language 
 
-Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: 
+Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: "Finnish", "Swedish", "Latin", "German", "Russian", "French", "Hebrew", "Other"
 
 Ollaan kiinnostuttu milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä. 
 
