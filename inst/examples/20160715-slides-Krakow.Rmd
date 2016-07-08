@@ -60,15 +60,13 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 7) Sivu 30. Viilaus: Viivojen vaihtaminen barplotteihin.
 
-8) Sivu 19. Viilaus: Fennica kuvien pudottaminen pois kalvolta.
+8) [Lokaali ongelma Mikolla? näkyy R-studion konsolissa oikein, mutta ei knitatussa PDF:ssä] Sivu 7. Kuva 1. Viilaus: vuosiluvut näkyviin.
 
-9) Sivu 7. Kuva 1. Viilaus: vuosiluvut näkyviin.
+9) [Lokaali ongelma Mikolla? näkyy R-studion konsolissa oikein, mutta ei knitatussa PDF:ssä] Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
 
-10) Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
+10) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
 
-11) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
-
-12) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
+11) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
 
 
 ---
@@ -277,7 +275,7 @@ for (catal in unique(df0$catalog)) {
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
   df2$highlight <- rep("gray", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "darkgreen"
-  
+    
   p <- ggplot(df2, aes(y = paper.consumption.km2,
                        x = publication_decade,
 		       shape = gatherings,
@@ -685,7 +683,7 @@ Tapa: Lasketaan Kungligan mukaan Tukholmassa nimikkeiden määrän ja paperinkul
 [Swedish Age of Freedom and Abolishment of Censorship 2/3]
 
 ### Number of publishers in Stockholm 1760-1770
-TODO: Tästä kaikki Fennica kuvat pois analyysistä selkeyden vuoksi.
+
 ```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
 sel.places = c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
 sel.years = c(1760, 1780)
@@ -720,8 +718,10 @@ for (catalogue in c("Fennica", "Kungliga")) {
   pics[[paste(place, catalogue, sep = "-")]] <- p
 }
 }
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
-             pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], nrow = 2)
+#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
+             #pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], nrow = 2)
+grid.arrange(pics[[2]], pics[[4]],
+             pics[[6]], pics[[8]], pics[[10]], nrow = 2)
 ```
 
 ---
