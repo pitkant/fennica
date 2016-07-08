@@ -280,7 +280,7 @@ for (catal in unique(df0$catalog)) {
 ### TODO Turku in Sweden
 
 Proportions for title count, paper, and publishers
-TODO: OTHER julkaisijakenttä laittaa ton Turku-kuvan pieleen, "other" kategoria liian iso. LL: eli ohjeet mitä tehdään ?
+TODO: OTHER julkaisijakenttä laittaa ton Turku-kuvan pieleen, "other" kategoria liian iso. LL: eli ohjeet mitä tehdään ? MT: Pudotetaan publishers kaaviot pois tästä. 
 ```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=8}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
@@ -610,9 +610,9 @@ Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks.
 
 ### TODO 1766-1772
 
-Kungligan mukaan piirakkakuva prosentteina (tai joku vastaava, vaihtelun vuoksi) kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävien (esim. kahden) vuosikymmenen kasvuun. Eli siis vuodet 1766-1772 ja kuinka paljon silloin on enemmän julkaisuja sensuurin puuttumisen takia tarkoituksena selvittää. Eli odotettu kasvu (kun katsotaan käyrää Kungligasta se on aika tasainen näiden vuosien ympärillä ylöspäin) ja todellinen kasvu (piikki) sekä niiden ero prosentteina.
+Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävien (esim. kahden) vuosikymmenen kasvuun. Eli siis vuodet 1766-1772 ja kuinka paljon silloin on enemmän julkaisuja sensuurin puuttumisen takia tarkoituksena selvittää. Eli odotettu kasvu (kun katsotaan käyrää Kungligasta se on aika tasainen näiden vuosien ympärillä ylöspäin) ja todellinen kasvu (piikki) sekä niiden ero prosentteina.
 
-LL: no ainakin data nyt tässä laskettuna kahdelle peräkkäiselle 6 vuoden jaksolle. Tehdään ensin analyysit jotka tarvitaan. Hiotaan kuvia lisää sitten kun ei tule enää muuten lisää kamaa. 
+LL: no ainakin data nyt tässä laskettuna kahdelle peräkkäiselle 6 vuoden jaksolle. Tehdään ensin analyysit jotka tarvitaan. Hiotaan kuvia lisää sitten kun ei tule enää muuten lisää kamaa. MT: TÄMÄ ON HYVÄ!
 
 
 ```{r peak, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
