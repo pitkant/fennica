@@ -77,9 +77,9 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015b).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015b) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015a). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -628,14 +628,14 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] git2r_0.15.0          knitcitations_1.0.7   devtools_1.12.0      
-    ##  [4] gisfin_0.9.26         R6_2.1.2              rgdal_1.1-10         
-    ##  [7] sp_1.2-3              ggmap_2.6.1           rmarkdown_0.9.6.14   
-    ## [10] sorvi_0.7.47          tibble_1.1            fennica_0.1.42       
-    ## [13] stringr_1.0.0         microbiome_0.99.83    phyloseq_1.16.2      
-    ## [16] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
-    ## [19] magrittr_1.5          bibliographica_0.2.25 dplyr_0.5.0          
-    ## [22] tidyr_0.5.1           ggplot2_2.1.0        
+    ##  [1] knitcitations_1.0.7   devtools_1.12.0       gisfin_0.9.26        
+    ##  [4] R6_2.1.2              rgdal_1.1-10          sp_1.2-3             
+    ##  [7] ggmap_2.6.1           rmarkdown_0.9.6.14    sorvi_0.7.47         
+    ## [10] tibble_1.1            fennica_0.1.42        stringr_1.0.0        
+    ## [13] microbiome_0.99.83    phyloseq_1.16.2       knitr_1.13           
+    ## [16] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
+    ## [19] bibliographica_0.2.25 dplyr_0.5.0           tidyr_0.5.1          
+    ## [22] ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):
     ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
@@ -659,18 +659,17 @@ sessionInfo()
     ##  [55] stringdist_0.9.4.1    LearnBayes_2.15       zlibbioc_1.18.0      
     ##  [58] MASS_7.3-45           scales_0.4.0          parallel_3.3.1       
     ##  [61] biomformat_1.0.2      genderdata_0.5.0      rhdf5_2.16.0         
-    ##  [64] RColorBrewer_1.1-2    curl_0.9.7            yaml_2.1.13          
-    ##  [67] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
-    ##  [70] latticeExtra_0.6-28   stringi_1.1.1         maptree_1.4-7        
-    ##  [73] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.1     
-    ##  [76] foreach_1.4.3         permute_0.9-0         BiocGenerics_0.18.0  
-    ##  [79] bibtex_0.4.0          boot_1.3-18           chron_2.3-47         
-    ##  [82] bitops_1.0-6          RgoogleMaps_1.2.0.7   moments_0.14         
-    ##  [85] matrixStats_0.50.2    evaluate_0.9          lattice_0.20-33      
-    ##  [88] labeling_0.3          plyr_1.8.4            IRanges_2.6.1        
-    ##  [91] Hmisc_3.17-4          DBI_0.4-1             withr_1.0.2          
-    ##  [94] foreign_0.8-66        mgcv_1.8-12           RCurl_1.95-4.8       
-    ##  [97] survival_2.39-5       nnet_7.3-12           jpeg_0.1-8           
-    ## [100] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
-    ## [103] digest_0.6.9          tm_0.6-2              stats4_3.3.1         
-    ## [106] munsell_0.4.3
+    ##  [64] RColorBrewer_1.1-2    yaml_2.1.13           memoise_1.0.0        
+    ##  [67] geosphere_1.5-5       rpart_4.1-10          latticeExtra_0.6-28  
+    ##  [70] stringi_1.1.1         maptree_1.4-7         RSQLite_1.0.0        
+    ##  [73] highr_0.6             S4Vectors_0.10.1      foreach_1.4.3        
+    ##  [76] permute_0.9-0         BiocGenerics_0.18.0   bibtex_0.4.0         
+    ##  [79] boot_1.3-18           chron_2.3-47          bitops_1.0-6         
+    ##  [82] RgoogleMaps_1.2.0.7   moments_0.14          matrixStats_0.50.2   
+    ##  [85] evaluate_0.9          lattice_0.20-33       labeling_0.3         
+    ##  [88] plyr_1.8.4            IRanges_2.6.1         Hmisc_3.17-4         
+    ##  [91] DBI_0.4-1             withr_1.0.2           foreign_0.8-66       
+    ##  [94] mgcv_1.8-12           RCurl_1.95-4.8        survival_2.39-5      
+    ##  [97] nnet_7.3-12           jpeg_0.1-8            grid_3.3.1           
+    ## [100] data.table_1.9.6      vegan_2.4-0           digest_0.6.9         
+    ## [103] tm_0.6-2              stats4_3.3.1          munsell_0.4.3
