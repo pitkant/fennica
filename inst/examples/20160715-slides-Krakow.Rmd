@@ -70,11 +70,9 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 12) Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
 
-13) Sivu 38. vuosien viilaus kuvassa.
+13) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
 
-14) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
-
-15) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
+14) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
 
 
 ---
@@ -131,7 +129,7 @@ Different roles of languages visible in topics addressed in different languages:
 
 3) Economy and social science published in Swedish language 
 
---> Deep roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
+--> Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
 
 ---
 
@@ -273,7 +271,7 @@ for (catal in unique(df2$catalog)) {
 [Big Picture 4/4]
 
 ### Rise of the octavo sized book as vehicle of Enlightenment
-
+TÄSSÄ kanssa vuodet näkyviin.
 Paper consumption for different document formats over time. 
 
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
@@ -1314,14 +1312,12 @@ print(p)
 - Decline of metaphysics, rise of social and economic theory 
 - The Enlightenment literature read in Finland mainly printed elsewhere
 
-kuva rajattu 1640-1828, MUTTA piirtää silti tuonne nuo tyhjät vuodet 1470-1640. NE PITÄIS SAADA PRINTISTÄ POIS.
-
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
-  top.authors <- names(top(df, field = "author", n = 10))
+  top.authors <- names(bibliographica::top(df, field = "author", n = 10))
   dfs <- df %>% filter(author %in% top.authors) %>%
          group_by(author, publication_decade) %>%
          tally() %>%
@@ -1333,7 +1329,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
        scale_fill_grey() +
        guides(fill = guide_legend("Author")) +
        ggtitle(paste("Title count top authors\n", catalogue)) +
-       xlim(range(df0$publication_year))
+       xlim(c(1640, 1828))
   print(p)
 }
 ```
