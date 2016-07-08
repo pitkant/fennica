@@ -42,6 +42,40 @@ df.full <- df.combined.preprocessed %>% filter(!remove)
 df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
 ```
 
+---
+
+### TODO-lista
+
+1) Sivu 6. Karttakuva, geokoordinaatit (löytyy kalvolta) lisääminen + kartan muodostaminen Kungligan pohjalta mainittuihin kuuteen kaupunkiin paitsi Turku jonka data otetaan Fennicasta.
+
+2) Sivu 12. Kuva 1 ja Kuva 2 yhdistäminen samaan Kungliga kaavioon. Eli, Fennica kuvasta siirretään "Turku", "Vaasa" ja "Vyborg" Kungliga kuvaan. Muut tiedot Fennicasta jätetään pois.
+
+3) Sivu 20. Uusi kuva: asiasanoja / yliopistopaikkakunta vertailu Kungligasta.
+
+4) Sivu 18. Uusi kuva: Kungligasta nimikkeiden määrän ja paperinkulutuksen suhde vuosilta 1766-1774 ja verrataan sitä vuosiin 1757-1765 ja 1775-1783.
+
+5) Sivu 32. Uusi kuva: Yleinen kielianalyysi prosentteina Fennican väitöskirjoista (pitäisi olla suoraviivainen).
+
+6) Sivu 39. Uusi kuva: Kungliga subject topics, kalvossa olevien asiasanaryppäiden pohjalta samanlainen analyysi Kungligan yliopistokaupungeista kuin on tehty nyt Fennicasta.
+
+7) Sivu 11. Viilaus: Publisher kaaviot pudotetaan pois (Fennica ja Kungliga), title count ja paper consumption jää kalvolle.
+
+8) Sivu 25. Viilaus: Analyysin rajaaminen neljään kuvaan kymmenen sijasta.
+
+9) Sivu 30. Viilaus: Viivojen vaihtaminen barplotteihin.
+
+10) Sivu 19. Viilaus: Fennica kuvien pudottaminen pois kalvolta.
+
+11) Sivu 7. Kuva 1. Viilaus: vuosiluvut näkyviin.
+
+12) Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
+
+13) Sivu 38. vuosien viilaus kuvassa.
+
+14) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
+
+15) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
+
 
 ---
 
@@ -105,7 +139,7 @@ Different roles of languages visible in topics addressed in different languages:
 
 ### Publishing activity in Turku 
 
-TODO MT: Voisiko tätä kuvaa muuttaa niin että tarkkaillaan vain samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli haetaan koordinaatit näille: "Stockholm", "Uppsala", "Lund", "Greifswald", "Turku", "Tartu"? Sitten datana käyttäisi Kungligaa. Paitsi "Turku" jossa data pitäisi ottaa Fennicasta.
+TODO: Muutetaan niin että tarkkaillaan vain samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli lisätään koordinaatit näille: "Stockholm" (59.3251172 / 18.0710935), "Uppsala" (59.8588200 / 17.6388900), "Lund" (55.7058400 / 13.1932100), "Greifswald" (54.0931100 / 13.3878600), "Turku" (60.4517531 / 22.2670522), "Tartu" (58.3806200 / 26.7250900)? Sitten datana käytetään Kungligaa. Paitsi "Turku" jossa data pitäisi ottaa Fennicasta.
 
 Turussa kirjantuotanto laskee huomattavasti isonvihan (1710-luku) , pikkuvihan (1740-luku) ja Suomen sodan (1808-1809) aikana. Pikkuviha ei ollut yhtä dramaattinen, eikä näy niin totaalisesti. Suomen sodan (ja Napoleonin sotien) seuraukset olivat tietysti kaikkein dramaattisimmat.
 
@@ -343,7 +377,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], n
 [Publishers 2/6]
 
 ### Publishers in Finland / Swedish University towns
-TODO: Todella tärkeä slide. Kehitysidea: voisiko nämä yhdistää yhteen ainoaan kaavioon niin että siinä olisi mukana valittuna pelkästään Fennicasta "Turku" ja "Vyborg" sekä Kungligasta "Stockholm", "Lund", "Uppsala", "Greifswald" ja "Tartu"? Näin ollen näkisi selvästi sitten erot ja kehityksen kun n on sama.
+TODO: voisiko nämä yhdistää yhteen ainoaan kaavioon niin että siinä olisi mukana valittuna pelkästään Fennicasta "Turku", "Vaasa" ja "Vyborg" ja Kungligasta kaikki mitä siellä nytkin on eli "Stockholm", "Lund", "Uppsala", "Greifswald" ja "Tartu"? Ts. kolme kaupungin arvot siirretään Kungliga kuvaan joka pysyy muuten samana kuin nyt. Näin ollen näkisi selvästi sitten erot ja kehityksen kun n on sama.
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers2-finland-1.png
@@ -606,14 +640,11 @@ Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks.
 
 ---
 
-[Swedish Age of Freedom and Abolishment of Censorship TODO]
+[Swedish Age of Freedom and Abolishment of Censorship]
 
-### TODO 1766-1772
+### 1766-1772 Title count vs. paper consumption (Kungliga)
 
-Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävien (esim. kahden) vuosikymmenen kasvuun. Eli siis vuodet 1766-1772 ja kuinka paljon silloin on enemmän julkaisuja sensuurin puuttumisen takia tarkoituksena selvittää. Eli odotettu kasvu (kun katsotaan käyrää Kungligasta se on aika tasainen näiden vuosien ympärillä ylöspäin) ja todellinen kasvu (piikki) sekä niiden ero prosentteina.
-
-LL: no ainakin data nyt tässä laskettuna kahdelle peräkkäiselle 6 vuoden jaksolle. Tehdään ensin analyysit jotka tarvitaan. Hiotaan kuvia lisää sitten kun ei tule enää muuten lisää kamaa. MT: TÄMÄ ON HYVÄ!
-
+Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävään kuuteen vuoteen. 
 
 ```{r peak, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Select catalog
@@ -704,13 +735,12 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
 
 [Swedish Age of Freedom and Abolishment of Censorship 3/3]
 
-###TODO: asiasanoja / yliopistopaikkakunta vertailu. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta (eli kaikki julkaisut eivät samasta aiheesta, esim. oikeuspöytäkirjoissa ei varmaan hirveästi vaihtelua). Voidaan suhteuttaa myös esim. paperinkulutukseen. Greifswald vs Turku (kuinka monta kieltä per vuosi) oli samansuuntainen. 
+###TODO: asiasanoja / yliopistopaikkakunta vertailu Kungligasta. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta (eli kaikki julkaisut eivät samasta aiheesta, esim. oikeuspöytäkirjoissa ei varmaan hirveästi vaihtelua). Voidaan suhteuttaa myös esim. paperinkulutukseen tai julkaisujen määrään. Tarkkailtavat paikkakunnat: "Stockholm", "Uppsala", "Lund", "Greifswald", "Tartu" ja "Turku". Aikaisammin piirretty Greifswald vs Turku (kuinka monta kieltä per vuosi) oli samansuuntainen analyysi. 
 
 ---
 
 ### Languages
 
-TODO: "Other" kielikategorian selvittäminen seuraavissa kuvissa. Onko siellä joku tietty kieli joka näkyy hyvin selvästi mukana analyysissä? Nousee isoksi kategoriaksi. Nyt oon merkannut, että Kreikan kieli (Greek - huom on kielet Greek, Modern (1453-) sekä Greek, Ancient (to 1453) mutta ei pelkka Greek) mukaan moneen kohtaan. Jos kyseessä joku muu kuin Kreikka niin sitten se. Jos taas paljon kombinaatioita pieniä kieliä, niin antaa siinä tapauksessa olla. LL: Lisäsin Kreikan mutten muuten ehdi tutkia asiaa. Voit katsoa R:llä top(df0, "language", 10)
 
 ---
 
@@ -1284,7 +1314,7 @@ print(p)
 - Decline of metaphysics, rise of social and economic theory 
 - The Enlightenment literature read in Finland mainly printed elsewhere
 
-TODO: kuva rajattu 1640-1828, MUTTA piirtää silti tuonne nuo tyhjät vuodet 1470-1640. NE PITÄIS SAADA PRINTISTÄ POIS.
+kuva rajattu 1640-1828, MUTTA piirtää silti tuonne nuo tyhjät vuodet 1470-1640. NE PITÄIS SAADA PRINTISTÄ POIS.
 
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
@@ -1315,7 +1345,7 @@ Tuotetaan samanlaiset asiasanaryppäät kuin University Curriculum Turku. Tämä
 
 TÄMÄ vie paljon enemmän tilaa kuin slideihin tulee jäämään. Täten, voi tuottaa kuvat kaksi per slide tai sitten vaihtoehtoisesti kässäriin josta blokataan tänne mitä tarvitaan.
 
-Kaupungit: "Tukholma", "Lund", "Greifswald", "Uppsala"
+Kaupungit: "Tukholma", "Lund", "Greifswald", "Uppsala", "Tartu"
 
 Asiasanalista on seuraava (omat kuvat kaikista kaupunkikohtaisesti): 
 
