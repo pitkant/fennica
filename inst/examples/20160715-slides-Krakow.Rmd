@@ -105,7 +105,7 @@ Different roles of languages visible in topics addressed in different languages:
 
 ### Publishing activity in Turku 
 
-TODO MT: Voisiko tätä kuvaa muuttaa niin että tarkkaillaan vain samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli haetaan koordinaatit näille: "Stockholm", "Uppsala", "Lund", "Greifswald", "Turku", "Tartu"? Sitten datana käyttäisi Kungligaa.
+TODO MT: Voisiko tätä kuvaa muuttaa niin että tarkkaillaan vain samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli haetaan koordinaatit näille: "Stockholm", "Uppsala", "Lund", "Greifswald", "Turku", "Tartu"? Sitten datana käyttäisi Kungligaa. Paitsi "Turku" jossa data pitäisi ottaa Fennicasta.
 
 Turussa kirjantuotanto laskee huomattavasti isonvihan (1710-luku) , pikkuvihan (1740-luku) ja Suomen sodan (1808-1809) aikana. Pikkuviha ei ollut yhtä dramaattinen, eikä näy niin totaalisesti. Suomen sodan (ja Napoleonin sotien) seuraukset olivat tietysti kaikkein dramaattisimmat.
 
