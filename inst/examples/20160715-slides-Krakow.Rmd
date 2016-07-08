@@ -240,7 +240,6 @@ for (catal in unique(df2$catalog)) {
 
 Paper consumption for different document formats over time. 
 
-TODO: Tässä vois maalata octavo-kirjojen käyrän molemmista kuvista kirkkaalla värillä (ei muuta).
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
 #https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/LIBER-13-2.png
 for (catal in unique(df0$catalog)) {
@@ -342,8 +341,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], n
 [Publishers 2/6]
 
 ### Publishers in Finland / Swedish University towns
-
-TODO: Voisko tämän ja seuraavan kuvan (ruotsalaiset julkaisijat) jotenkin yhdistää järkevästi selvyyden vuoksi? En valitettavasti tiedä miten se teknisesti tehtäisiin.
+TODO: Todella tärkeä slide. Kehitysidea: voisiko nämä yhdistää yhteen ainoaan kaavioon niin että siinä olisi mukana valittuna pelkästään Fennicasta "Turku" ja "Vyborg" sekä Kungligasta "Stockholm", "Lund", "Uppsala", "Greifswald" ja "Tartu"? Näin ollen näkisi selvästi sitten erot ja kehityksen kun n on sama.
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers2-finland-1.png
@@ -864,8 +862,8 @@ print(p)
 ---
 
 
-### Different languages in Turku, Stockholm and Uppsala
-TODO: Rajataan analyysi Turku (Fennica), Stockholm (Kungliga) ja Uppsala (Kungliga)
+### Different languages in Turku, Stockholm, Lund and Uppsala
+TODO: Rajataan analyysi Turku (Fennican pohjalta), Stockholm (Kungligan pohjalta), Lund (Kungligan pohjalta) ja Uppsala (Kungligan pohjalta)
 ```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 pics <- list()
 theme_set(theme_bw(20))
