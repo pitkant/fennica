@@ -58,21 +58,17 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 6) Sivu 39. Uusi kuva: Kungliga subject topics, kalvossa olevien asiasanaryppäiden pohjalta samanlainen analyysi Kungligan yliopistokaupungeista kuin on tehty nyt Fennicasta.
 
-7) Sivu 11. Viilaus: Publisher kaaviot pudotetaan pois (Fennica ja Kungliga), title count ja paper consumption jää kalvolle.
+7) Sivu 30. Viilaus: Viivojen vaihtaminen barplotteihin.
 
-8) Sivu 25. Viilaus: Analyysin rajaaminen neljään kuvaan kymmenen sijasta.
+8) Sivu 19. Viilaus: Fennica kuvien pudottaminen pois kalvolta.
 
-9) Sivu 30. Viilaus: Viivojen vaihtaminen barplotteihin.
+9) Sivu 7. Kuva 1. Viilaus: vuosiluvut näkyviin.
 
-10) Sivu 19. Viilaus: Fennica kuvien pudottaminen pois kalvolta.
+10) Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
 
-11) Sivu 7. Kuva 1. Viilaus: vuosiluvut näkyviin.
+11) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
 
-12) Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
-
-13) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
-
-14) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
+12) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
 
 
 ---
@@ -309,10 +305,8 @@ for (catal in unique(df0$catalog)) {
 
 [Publishers 1/6]
 
-### TODO Turku in Sweden
-
-Proportions for title count, paper, and publishers
-TODO: OTHER julkaisijakenttä laittaa ton Turku-kuvan pieleen, "other" kategoria liian iso. LL: eli ohjeet mitä tehdään ? MT: Pudotetaan publishers kaaviot pois tästä. 
+### Turku in Sweden: proportions for title count and paper in Swedish University towns
+ 
 ```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=8}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
@@ -366,7 +360,8 @@ for (varname in c("n", "paper", "publishers")) {
 }
 }
 library(gridExtra)
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], nrow = 2)
+#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], nrow = 2)
+grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
 ```
 
 
@@ -893,7 +888,7 @@ print(p)
 
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
-TODO: Rajataan analyysi Turku (Fennican pohjalta), Stockholm (Kungligan pohjalta), Lund (Kungligan pohjalta) ja Uppsala (Kungligan pohjalta)
+
 ```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 pics <- list()
 theme_set(theme_bw(20))
@@ -944,9 +939,12 @@ for (catalogue in c("Fennica", "Kungliga")) {
   }
 }
 
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
-             pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], 
+grid.arrange(pics[[1]],
+             pics[[8]], pics[[9]], pics[[10]], 
              nrow = 2)
+#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
+             #pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], 
+            # nrow = 2)
 ```
 
 ---
@@ -1442,9 +1440,15 @@ print(p)
 
 ### Thanks !
 
+R master (plots & maps): Leo Lahti.
+
+Institutional support:
+
 - Academy of Finland
 - University of Helsinki
-- National Library of Finland
-- National Library of Sweden
 - Digitalia / The Regional Council of South Savo
 
+Data providers:
+
+- National Library of Finland
+- National Library of Sweden
