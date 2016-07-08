@@ -46,6 +46,8 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### TODO-lista
 
+1) Sivut 38-39. Auktori piikki. 1650-luvulla, miksi?
+
 1) Sivu 6. Karttakuva, geokoordinaatit (löytyy kalvolta) lisääminen + kartan muodostaminen Kungligan pohjalta mainittuihin kuuteen kaupunkiin paitsi Turku jonka data otetaan Fennicasta.
 
 2) Sivu 12. Kuva 1 ja Kuva 2 yhdistäminen samaan Kungliga kaavioon. Eli, Fennica kuvasta siirretään "Turku", "Vaasa" ja "Vyborg" Kungliga kuvaan. Muut tiedot Fennicasta jätetään pois.
@@ -305,7 +307,7 @@ for (catal in unique(df0$catalog)) {
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
-```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=8}
+```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=15}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -889,7 +891,7 @@ print(p)
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
 
-```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
+```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=15}
 pics <- list()
 theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
@@ -1309,6 +1311,8 @@ print(p)
 
 - Decline of metaphysics, rise of social and economic theory 
 - The Enlightenment literature read in Finland mainly printed elsewhere
+
+Tässä on aika jännä piikki 1650 luvun Fennican top-auktorit. Eli toi Kalm, Pehr ja joku toinen. Onhan varmasti niin että tässä ei saattaisi tulla laskuihin mukaan näille tyypeille sekä Fennica että Kungliga? Kyseessä sivut 38-39 slideistä. Tollanen 200 väitöskirjaa per 10 vuotta on kyllä todella iso myös suhteessa muihin noista professoreista jotka päässeet tälle top-listalle. Mä siis muuttelin tätä kuvaa, siihen tuli se Bibliographica-top. Ettei vaan se jotenkin sotkis tätä niin että nyt ottaa kaikista bibliographica-kansioista tohon yhteen Kalmit? Tai jotain vastaavaa.
 
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
