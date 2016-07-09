@@ -652,13 +652,13 @@ df <- df %>% group_by(period) %>%
 p1 <- ggplot(df, aes(x = period, y = n)) +
        geom_bar(stat = "identity", position = "stack") +
        scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
-       ggtitle("Title count") + xlab("1759-1765")
+       ggtitle("Title count") + xlab("1759-1765 / 1766-1772")
 
 # PAPER
 p2 <- ggplot(df, aes(x = period, y = paper)) +
        geom_bar(stat = "identity", position = "stack") +
        scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
-       ggtitle("Paper consumption") + xlab("1766-1772")
+       ggtitle("Paper consumption") + xlab("1759-1765 / 1766-1772")
 
 grid.arrange(p1, p2, nrow = 1)
 ```
