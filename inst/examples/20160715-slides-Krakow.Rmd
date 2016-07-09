@@ -102,7 +102,7 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### Data (1470-1828):
 
-
+TÄHÄN DATA MÄÄRÄ KOODISTA!
 
 ### Method
 
@@ -251,7 +251,8 @@ TODO: Tässä olisi hyvä olla vuodet näkyvissä.
 
 Turku / Uppsala / Lund / Stockholm 
 
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=FALSE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
+v <- seq(1500, 1800, 50)
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
                summarise(n = n()) %>%
@@ -319,7 +320,7 @@ for (catal in unique(df0$catalog)) {
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
-```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=15}
+```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, eval = FALSE, fig.width=20, fig.height=15}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -383,8 +384,6 @@ rm(pics)
 
 ### Publishers in Finland / Swedish University towns
 
-TODO: yhdistä yhteen kaavioon Fennicasta "Turku", "Vaasa" ja "Vyborg" ja Kungligasta kaikki eli "Stockholm", "Lund", "Uppsala", "Greifswald" ja "Tartu"?
-
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
 df <- df %>%
@@ -443,8 +442,6 @@ print(p)
 
 ---
 
-
-
 [Publishers 4/6]
 
 ### Title count of the output of publishers in Turku
@@ -487,10 +484,7 @@ print(p)
 
 ### Comparing paper used on average per publication by publishers
 
-TODO: Mikä kustantaja Sverige on? LL: originaalidatan publisher-kenttä
-on tässä kohden tyhjä. Veikkaan että tähän on täydennetty materiaalia
-muistakin kentistä. Pitää katsoa Hegen kanssa tarkemmin mikä on
-Sverige koska publisher-kenttä tulee hänen koodeilla.
+TODO: Mikä kustantaja Sverige on? LL: originaalidatan publisher-kenttä on tässä kohden tyhjä. Veikkaan että tähän on täydennetty materiaalia muistakin kentistä. Pitää katsoa Hegen kanssa tarkemmin mikä on Sverige koska publisher-kenttä tulee hänen koodeilla.
 
 ```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
 
@@ -682,7 +676,8 @@ Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks.
 
   publications[is.na(publications)] <- 0 # Set NAs to 0
   publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-  dfm <- melt(publications) 
+library(reshape2)  
+dfm <- melt(publications) 
   names(dfm) <- c("Time", "Documents")
   dfm <- transform(dfm, date = as.numeric(as.character(Time)))
   ymin = min(dfm$Documents)
@@ -780,15 +775,7 @@ rm(pics)
 
 [Swedish Age of Freedom and Abolishment of Censorship 3/3]
 
-TODO: asiasanoja / yliopistopaikkakunta vertailu Kungligasta. Ts. mitä
-enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla,
-sitä monimuotoisempaa/rikkaampaa julkaisutoiminta (eli kaikki
-julkaisut eivät samasta aiheesta, esim. oikeuspöytäkirjoissa ei
-varmaan hirveästi vaihtelua). Voidaan suhteuttaa myös
-esim. paperinkulutukseen tai julkaisujen määrään. Tarkkailtavat
-paikkakunnat: "Stockholm", "Uppsala", "Lund", "Greifswald", "Tartu" ja
-"Turku". Aikaisammin piirretty Greifswald vs Turku (kuinka monta
-kieltä per vuosi) oli samansuuntainen analyysi.
+TODO: asiasanoja / yliopistopaikkakunta vertailu Kungligasta. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta?
 
 ```{r subtop1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6}
 selected.places <- c("Stockholm", "Uppsala",
@@ -931,10 +918,14 @@ for (catalogue in c("Fennica", "Kungliga")) {
   } else if (catalogue == "Kungliga") {
     df <- df.full # full time span
   }
-  
   df <- df %>% filter(catalog == catalogue)%>%
         filter(publication_year >= 1600 & publication_year <= 1900)
 
+  library(dplyr)
+  library(tidyr)
+library(magrittr)
+library(reshape2)
+  
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
@@ -971,7 +962,6 @@ p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      ggtitle(paste("Languages (", catalogue, ")", sep = "")) +
      scale_fill_brewer(palette="Paired")
 print(p)
- 
 }
 ```
 
@@ -1227,9 +1217,7 @@ catalogue <- "Fennica"
 
 ### University curriculum in Turku 1640-1828
 
-Dissertation language: Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: "Finnish", "Swedish", "Latin", "German", "Russian", "French", "Hebrew", "Other"
-
-Ollaan kiinnostuttu milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä. 
+Dissertation language
 
 
 ```{r disslang, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
@@ -1445,43 +1433,6 @@ print(p)
 
 - Decline of metaphysics, rise of social and economic theory 
 - The Enlightenment literature read in Finland mainly printed elsewhere
-
-Tässä on aika jännä piikki 1650 luvun Fennican top-auktorit.
-
-Koko graafi perustuu top auktoreihin. Näistä pari aktiivisinta sattuu olemaan 1650. Jos katsotaan koko Fennican tuotantoa (kaikki auktorit) niin piikkiä 1650 ei ole. Erityisesti 1650 aktiivisia ovat:
-
-- Petraeus, Aeschillus Olai (1593-1657) 183 
-- Gyldenstolpe, Michael Olai (1608-1670) 114 
-                                      
-Eli toi Kalm, Pehr ja joku toinen.
-
-- Kalm, Pehr on vasta 1700-luvulla mun datan perusteella.
-
-Onhan varmasti niin että tässä ei saattaisi tulla laskuihin mukaan
-näille tyypeille sekä Fennica että Kungliga?
-
-- Kyllä tässä on katsottu pelkkää Fennicaa (eikä Kungligan pitäis ehkä
-  vaikuttaakaan kun siellä ei moista piikkiä näy?) Lähes kaikki
-  julkaisut Turusta.
-
-Tollanen 200 väitöskirjaa per 10 vuotta on kyllä todella iso myös suhteessa muihin noista professoreista jotka päässeet tälle top-listalle.
-
-- Tässä on nimikkeiden nojalla n. 15% duplikaatteja kahdella ekalla
-  top auktorilla. Eli nimikkeet identtiset (ja lisää voisi ehkä tulla
-  jos katsottaisiin melkein identtiset). Mutta en tiedä ovatko muuten
-  oikeasti duplikaatteja, tästähän oli juttua. Se voi selittää
-  osittain piikkiä.
-
-
-Mä siis muuttelin tätä kuvaa, siihen tuli se Bibliographica-top. Ettei
-vaan se jotenkin sotkis tätä niin että nyt ottaa kaikista
-bibliographica-kansioista tohon yhteen Kalmit?
-
-- Kalmilla ei näyttäis olevan tekemistä tässä
-
-- bibliographican top-funktio toimii kuten pitää, se ei missään
-  vaiheessa etsi mitään bibliographicasta, vaan operoi yksinomaan
-  inputtina annetulla data.framella ja katsoo sen yleisimmät termit
 
 ```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
 theme_set(theme_bw(20))
