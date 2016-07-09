@@ -21,8 +21,10 @@ library(bibliographica)
 library(fennica)
 library(sorvi)
 library(devtools)
-#install_github("ropengov/gisfin")
+# install_github("ropengov/gisfin")
+# devtools::install_github('cttobin/ggthemr')
 library(gisfin)
+library(ggthemr)
 
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
@@ -33,6 +35,14 @@ tmp <- Sys.setlocale(locale="UTF-8")
 
 # Nice theme
 theme_set(theme_bw(26))
+
+# Nice default themes
+# https://github.com/cttobin/ggthemr#palettes
+#ggthemr('fresh', text_size = 20)
+# ggthemr('greyscale', text_size = 20)
+#ggthemr('light', text_size = 20)
+# ggthemr('pale', text_size = 20)
+ggthemr_reset() # Reset theme
 ```
 
 
@@ -69,9 +79,9 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 9) OK [Lokaali ongelma Mikolla? näkyy R-studion konsolissa oikein, mutta ei knitatussa PDF:ssä] Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
 
-10) Sivu 16. Gävlen muuttaminen takaisin analyysiin.
+10) OK Sivu 16. Gävlen muuttaminen takaisin analyysiin.
 
-11) Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
+11) NOTE Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
 
 
 ---
@@ -134,11 +144,9 @@ Different roles of languages visible in topics addressed in different languages:
 
 [Big Picture 1/4]
 
-### Publishing activity in Turku 
+### Publishing activity in Swedish University Towns (Kungliga)
 
-TODO: Muutetaan niin että tarkkaillaan vain samoja yliopistokaupunkeja joita muutenkin otsikolla "Publishing activity in Swedish University Towns (based on Kungliga data)", eli lisätään koordinaatit näille: "Stockholm" (59.3251172 / 18.0710935), "Uppsala" (59.8588200 / 17.6388900), "Lund" (55.7058400 / 13.1932100), "Greifswald" (54.0931100 / 13.3878600), "Turku" (60.4517531 / 22.2670522), "Tartu" (58.3806200 / 26.7250900)? Sitten datana käytetään Kungligaa. Paitsi "Turku" jossa data pitäisi ottaa Fennicasta.
-
-Turussa kirjantuotanto laskee huomattavasti isonvihan (1710-luku) , pikkuvihan (1740-luku) ja Suomen sodan (1808-1809) aikana. Pikkuviha ei ollut yhtä dramaattinen, eikä näy niin totaalisesti. Suomen sodan (ja Napoleonin sotien) seuraukset olivat tietysti kaikkein dramaattisimmat.
+Turussa kirjantuotanto laskee huomattavasti isonvihan (1710-luku), pikkuvihan (1740-luku) ja Suomen sodan (1808-1809) aikana. Pikkuviha ei ollut yhtä dramaattinen, eikä näy niin totaalisesti. Suomen sodan (ja Napoleonin sotien) seuraukset olivat tietysti kaikkein dramaattisimmat.
 
 ```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 library(dplyr)
@@ -147,9 +155,14 @@ library(ggplot2)
 library(gisfin)
 source("funcs.R")
 theme_set(get_theme_map())
-mapdata <- filter(df0, catalog == "Kungliga") %>%
-      #filter(!is.na(latitude) & !is.na(longitude)) %>%
-      group_by(publication_decade, publication_place, latitude, longitude) %>%
+mapdata <- filter(df0,
+          (catalog == "Kungliga" &
+	      publication_place %in% c("Stockholm", "Uppsala",
+	                         "Greifwald", "Lund", "Tartu"))|
+	  (catalog == "Fennica" &
+	      publication_place == "Turku")) %>%
+      group_by(publication_decade, publication_place,
+	       latitude, longitude) %>%
       summarise(n = n()) 
 
 mapdata$size <- mapdata$n
@@ -158,7 +171,8 @@ mapdata$highlight[mapdata$publication_place %in% c("Turku")] <- "red"
 mapdata$highlight <- factor(mapdata$highlight)
 
 region <- "Europe.north"
-mymap <- get_map(location=geobox(region), color = "bw", source="google",  maptype="terrain")
+mymap <- get_map(location=geobox(region), color = "bw",
+                  source="google",  maptype="terrain")
 
 p0 <- ggmap(mymap) + theme(legend.position="none")
 
@@ -183,7 +197,7 @@ for (i in c(1650, 1710, 1760, 1800)) {
 	      #color = highlight), alpha = 0.8) +	      
 	  ggtitle(i) +
 	  scale_size(range = c(2, 15)) +
-	  theme(title = element_text(size = 20)) +
+	  theme(title = element_text(size = 30)) +
 	  scale_color_manual(values = c("black", "red"))	  
     }
     
@@ -201,9 +215,12 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 [Big Picture 2/4]
 
 ### Peaks and drops – role of publishers and contingency
-TODO: Tässä olisi hyvä olla vuodet näkyvissä.
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=5, out.width="200px"}
+TODO: Tässä olisi hyvä olla vuodet näkyvissä. LL: en kyl nyt löydä
+vikaa vaikka pitäis olla hyvin simppeli. Täytyy katsoa lisää
+Krakovassa.
+
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4, out.width="200px"}
 df2 <- df0 %>% group_by(publication_decade, catalog) %>%
                summarise(n = n())
 df2$highlight <- rep(FALSE, nrow(df2))
@@ -222,6 +239,8 @@ p <- ggplot(df2, aes(x = publication_decade, y = n)) +
      # ggtitle("Overall publishing activity")
 print(p)
 ```
+
+
 
 ---
 
@@ -265,7 +284,6 @@ TÄSSÄ kanssa vuodet näkyviin.
 Paper consumption for different document formats over time. 
 
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
-#https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/LIBER-13-2.png
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
@@ -310,7 +328,7 @@ df <- df0 %>% filter(catalog == catalogue)%>%
 places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
 df$publication_place[!df$publication_place %in% places] <- "Other"
 df <- subset(df, !is.na(df$publication_place))
-df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
+#df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
 
 df <- df %>% group_by(publication_decade, publication_place) %>%
              summarise(n = n(),
@@ -354,8 +372,8 @@ for (varname in c("n", "paper", "publishers")) {
 }
 }
 library(gridExtra)
-#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], pics[[6]], nrow = 2)
 grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
 
@@ -365,7 +383,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
 
 ### Publishers in Finland / Swedish University towns
 
-TODO: yhdistä yhteen ainoaan kaavioon, mukana Fennicasta "Turku", "Vaasa" ja "Vyborg" ja Kungligasta kaikki eli "Stockholm", "Lund", "Uppsala", "Greifswald" ja "Tartu"?
+TODO: yhdistä yhteen kaavioon Fennicasta "Turku", "Vaasa" ja "Vyborg" ja Kungligasta kaikki eli "Stockholm", "Lund", "Uppsala", "Greifswald" ja "Tartu"?
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
@@ -425,14 +443,13 @@ print(p)
 
 ---
 
+
+
 [Publishers 4/6]
 
 ### Title count of the output of publishers in Turku
 
 ```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
-
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publishers3-finland-1.png
-
 place <- "Turku"
 catalogue = "Fennica"
 df = df0
@@ -462,8 +479,6 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ylab("Title count (n)") +        
        ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
 print(p)
-
-
 ```
 
 ---
@@ -471,11 +486,13 @@ print(p)
 [Publishers 5/6]
 
 ### Comparing paper used on average per publication by publishers
-TODO: Mikä toi Sverige on? Pitäisikö toi tarkastaa, ettei siinä ole joku virhe. Jani ei ole koskaan törmännyt siihen kustantajana.
+
+TODO: Mikä kustantaja Sverige on? LL: originaalidatan publisher-kenttä
+on tässä kohden tyhjä. Veikkaan että tähän on täydennetty materiaalia
+muistakin kentistä. Pitää katsoa Hegen kanssa tarkemmin mikä on
+Sverige koska publisher-kenttä tulee hänen koodeilla.
 
 ```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
-
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/publisherpapertitle-1.png
 
 for (catalogue in c("Fennica", "Kungliga")) {
 
@@ -488,7 +505,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df$publisher[df$publisher == ""] = "Other"
   top <- names(top(df, "publisher", 5))
   df$publisher[!df$publisher %in% c(top, "")] <- "Other"
-  df$publisher <- factor(df$publisher, levels = c(top, "Other"))
+  df$publisher <- factor(df$publisher, levels = unique(c(top, "Other")))
 
   # Publishing per decade & publisher	
   npub <- df %>%
@@ -551,84 +568,14 @@ print(p)
 
 ---
 
-[Swedish Age of Freedom and Abolishment of Censorship 1/3]
-
-### Gävle in Riksdagar
-
-An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
-
-Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi, siksi Greifswald analyysi tässä.
-
-```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-  # Use timeinterval year intervals
-  myplace = "Greifswald" # Norrköping / Stockholm
-  minyear = 1700
-  maxyear = 1800
-  catalog = "Kungliga"
-
-  df = subset(df0, publication_place == myplace & catalog == catal)
-  df <- subset(df, publication_year >= minyear & publication_year < maxyear)
-
-  timeinterval <- 1
-  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
-
-  df$unity = rep(1, nrow(df))
-  publications <- tapply(df$unity, list(df$timeunit), sum)
-
-  publications[is.na(publications)] <- 0 # Set NAs to 0
-  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-  dfm <- melt(publications) 
-  names(dfm) <- c("Time", "Documents")
-  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-  ymin = min(dfm$Documents)
-  ymax = max(dfm$Documents)
-
-  rect_left <- c(min(na.omit(dfm$date)),
-               1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
-               1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
-               1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
-               1769-.5, 1770+.5, # Norrköping & Stockholm 22 april 1769 5 februari 1770
-               1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
-               1792-.5, 1792+.5, # Gävle 26 januari 1792 24 februari 1792	       
-               max(na.omit(dfm$date)))
-  rectangles <- data.frame(
-    xmin = rect_left[-length(rect_left)],
-    xmax = rect_left[-1],
-    ymin = ymin,
-    ymax = ymax
-    )
-  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
-
- riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
- cols = c("gray", "lightblue", "yellow", "white")
- rectangles$shade[rectangles$shade == "Highlight"] = riksplace
- rectangles$shade = factor(rectangles$shade)
-
-  # Draw Figure
-  theme_set(theme_bw(20))
-  p <- ggplot()
-  p <- p + geom_rect(data = rectangles, 
-	   aes(xmin=xmin, xmax=xmax,
-	       ymin=ymin, ymax=ymax,
-	       fill=shade), alpha=0.8) + 
-         scale_fill_manual(values = cols) # + guides(fill = "none") 
-  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
-  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
-  #p <- p + scale_x_continuous(breaks = seq(minyear, maxyear, 20))
-  p <- p + ggtitle("Publishing activity")
-  p <- p + ylab("Documents / Year")
-  p <- p + xlab("Year")
-  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
-  print(p)
-```
-
----
 
 [Swedish Age of Freedom and Abolishment of Censorship]
 
 ### 1766-1772 Title count vs. paper consumption (Kungliga)
 
-Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävään kuuteen vuoteen. 
+Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen
+lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina
+1766-1772 suhteessa tätä edeltävään kuuteen vuoteen.
 
 ```{r peak, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Select catalog
@@ -642,11 +589,9 @@ df$period[df$publication_year >= 1766 & df$publication_year <= 1772] <- 2
 
 # Remove NA time periods
 df <- df %>% filter(!is.na(period))
-
 df <- df %>% group_by(period) %>%
              summarise(n = n(),
 	     	   paper = sum(paper.consumption.km2, na.rm = TRUE))
-#df <- melt(df, "period")
 
 # TITLE COUNT
 p1 <- ggplot(df, aes(x = period, y = n)) +
@@ -664,6 +609,7 @@ grid.arrange(p1, p2, nrow = 1)
 ```
 
 ---
+
 
 ### TODO 1766-1774
 
@@ -695,14 +641,93 @@ p <- ggplot(df,
        scale_x_discrete(labels = c("1757-1765", "1766-1774", "1775-1783")) +
        ylab("Paper per title") + xlab("") 
 print(p)
-
-
-
-
-
-
 ```
+
 ---
+
+
+[Swedish Age of Freedom and Abolishment of Censorship 1/3]
+
+### Gavle in Riksdagar
+
+An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
+
+Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi, siksi Greifswald analyysi tässä.
+
+```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+  myplace <- "Gavle" # Norrköping / Stockholm
+  minyear <- 1700
+  maxyear <- 1800
+  catalog <- "Kungliga"
+
+  df <- df0
+  df = subset(df, catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
+
+  # Use timeinterval year intervals
+  # Remove special chars
+  if (length(unique(df$publication_place[grep("^G.vle$", df$publication_place)])) == 1) {
+    df$publication_place[grep("^G.vle$", df$publication_place)] <- "Gavle"
+  }
+  if (length(unique(df$publication_place[grep("^Norrk.ping$", df$publication_place)])) == 1) {
+    df$publication_place[grep("^Norrk.ping$", df$publication_place)] <- "Norrkoping"
+  }
+  df <- df %>% filter(publication_place == myplace)
+
+  timeinterval <- 1
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
+
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+  ymin = min(dfm$Documents)
+  ymax = max(dfm$Documents)
+
+  rect_left <- c(min(na.omit(dfm$date)),
+               1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
+               1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
+               1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
+               1769-.5, 1770+.5, # Norrkoping & Stockholm 22 april 1769 5 februari 1770
+               1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
+               1792-.5, 1792+.5, # Gavle 26 januari 1792 24 februari 1792	       
+               max(na.omit(dfm$date)))
+  rectangles <- data.frame(
+    xmin = rect_left[-length(rect_left)],
+    xmax = rect_left[-1],
+    ymin = ymin,
+    ymax = ymax
+    )
+  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
+
+ riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrkoping", "Stockholm", "Gavle")
+ cols = c("gray", "lightblue", "yellow", "white")
+ rectangles$shade[rectangles$shade == "Highlight"] = riksplace
+ rectangles$shade = factor(rectangles$shade)
+
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot()
+  p <- p + geom_rect(data = rectangles, 
+	   aes(xmin=xmin, xmax=xmax,
+	       ymin=ymin, ymax=ymax,
+	       fill=shade), alpha=0.8) + 
+         scale_fill_manual(values = cols) # + guides(fill = "none") 
+  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
+  print(p)
+```
+
+---
+
 
 [Swedish Age of Freedom and Abolishment of Censorship 2/3]
 
@@ -729,7 +754,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
 	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
   # PUBLISHER COUNT
-  n = sapply(split(dfs$publisher, dfs$publication_year), function (x) {length(unique(na.omit(x)))})
+  n = sapply(split(dfs$publisher, dfs$publication_year), function (x) {
+         length(unique(na.omit(x)))})
   df = data.frame(year = names(n), n = unname(n))
   if (nrow(df) > 1) {
     p = ggplot(df, aes(x = year, y = n)) +
@@ -742,10 +768,12 @@ for (catalogue in c("Fennica", "Kungliga")) {
   pics[[paste(place, catalogue, sep = "-")]] <- p
 }
 }
-#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
-             #pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], nrow = 2)
+
 grid.arrange(pics[[2]], pics[[4]],
              pics[[6]], pics[[8]], pics[[10]], nrow = 2)
+
+# Remove the pics to save memory
+rm(pics)	     
 ```
 
 ---
@@ -792,6 +820,7 @@ p <- ggplot(df, aes(x = publication_decade, y = n)) +
 print(p)
 ```
 
+
 ---
 
 ### Languages
@@ -799,12 +828,12 @@ print(p)
 
 ---
 
+
 [Languages 1/4]
 
 ### Development of use of different languages in Finnish National Bibliography
 
 ```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/language1-1.png
 catalogue <- "Fennica"
 df <- df0
 langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
@@ -946,6 +975,8 @@ print(p)
 }
 ```
 
+
+
 ---
 
 
@@ -1004,9 +1035,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
 grid.arrange(pics[[1]],
              pics[[8]], pics[[9]], pics[[10]], 
              nrow = 2)
-#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]],
-             #pics[[6]], pics[[7]], pics[[8]], pics[[9]], pics[[10]], 
-            # nrow = 2)
+
+rm(pics)
 ```
 
 ---
@@ -1197,11 +1227,7 @@ catalogue <- "Fennica"
 
 ### University curriculum in Turku 1640-1828
 
----
-
-### Dissertation language 
-
-Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: "Finnish", "Swedish", "Latin", "German", "Russian", "French", "Hebrew", "Other"
+Dissertation language: Yleinen kielianalyysi prosentteina (sama kuin muut toteutetut prosenttianalyysit näissä Krakova slideissa) kaikkien Fennicassa väitöskirjoiksi merkityistä: eli Kenttä "Dissertation" ja vastaus "True" tässä aineisto. Analyysi vuosikymmenittäin ja kielen mukaan eri väreillä. Kielien joukko: "Finnish", "Swedish", "Latin", "German", "Russian", "French", "Hebrew", "Other"
 
 Ollaan kiinnostuttu milloin alkaa erityisesti tulemaan ruotsinkielellä väitöksiä. 
 
@@ -1323,8 +1349,6 @@ df <- df %>% group_by(publication_decade, language) %>%
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +             
-       #geom_point(aes(col = language, shape = language), size = 5) +
-       #geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
@@ -1351,8 +1375,6 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_point(aes(col = language, shape = language), size = 5) +
-       #geom_line(aes(col = language, shape = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
        xlab("Publication year") +
        ylab("Paper consumption") +
@@ -1380,8 +1402,6 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_point(aes(col = language, shape = language), size = 5) +
-       #geom_line(aes(col = language, shape = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
        xlab("Publication year") +
        ylab("Paper consumption") +
@@ -1411,8 +1431,6 @@ df <- df %>% group_by(publication_decade, language) %>%
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       #geom_point(aes(col = language, shape = language), size = 5) +
-       #geom_line(aes(col = language, shape = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
        xlab("Publication year") +
        ylab("Paper consumption") +
@@ -1486,6 +1504,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
   print(p)
 }
 ```
+
 ---
 
 
@@ -1540,6 +1559,8 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+
+rm(pics)
 ```
 
 ---
@@ -1598,6 +1619,8 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+
+rm(pics)
 ```
 
 ---
@@ -1655,6 +1678,7 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
 ---
@@ -1713,6 +1737,7 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
 ---
@@ -1770,11 +1795,13 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
+
+---
 
 
 6. Hebreiska språket; Grekiska språket;Latin 
-
 
 ```{r ktopic6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 
@@ -1826,6 +1853,7 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
 ---
@@ -1882,6 +1910,7 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
 
@@ -1940,9 +1969,10 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
----
 
+---
 
 9. Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor 
 
@@ -1997,6 +2027,7 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
 ---
@@ -2055,10 +2086,11 @@ for (place in places) {
 }
 
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
 ```
 
-
 ---
+
 
 ### Finland in the Swedish context
 
@@ -2084,15 +2116,6 @@ df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
 dfs <- df %>% group_by(publication_decade, myplace) %>%
   summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
 
-p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
-     geom_bar(position = "stack", stat = "identity", color = "black") +
-     ggtitle("Paper consumption") + 
-     scale_fill_grey() +
-     guides(fill = guide_legend(reverse = TRUE, title = "")) + 
-     xlab("Publication decade") + ylab("Paper (km2)")
-#print(p)
-
-
 p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
      ggtitle("Title count") +
@@ -2109,14 +2132,6 @@ print(p)
 
 ```{r duplicates, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 # DUPLICATE FRACTION
-#df <- df.combined.preprocessed %>% group_by(catalog) %>%
-#      			           summarise(duplicates = 100 * mean(remove))
-#p <- ggplot(df, aes(x = catalog, y = duplicates)) +
-#       geom_bar(position = "dodge", stat = "identity") +
-#       ylab("Duplicates (%)") +
-#       ggtitle(paste("Duplicates", paste(range(df.combined.preprocessed$publication_year), collapse = "-")))
-#print(p)
-
 df <- df.combined.preprocessed %>%
         filter(publication_year >= 1640 & publication_year <=1828) %>%
         group_by(catalog, publication_decade) %>%
@@ -2126,7 +2141,7 @@ p <- ggplot(df, aes(x = publication_decade, y = duplicates, fill = catalog)) +
        geom_bar(position = "dodge", stat = "identity") +
        ylab("Duplicates (%)") +
        scale_fill_manual(values = c("blue", "red")) + 
-       ggtitle(paste("Duplicates", paste(range(na.omit(df$publication_year)), collapse = "-"))) 
+       ggtitle(paste("Duplicates", paste(range(na.omit(df$publication_decade)), collapse = "-"))) 
 
 print(p)
 ```
@@ -2135,7 +2150,8 @@ print(p)
 
 ### Thanks !
 
-R master (plots & maps): Leo Lahti.
+R master (plots & maps):
+- Leo Lahti
 
 Institutional support:
 
@@ -2147,3 +2163,7 @@ Data providers:
 
 - National Library of Finland
 - National Library of Sweden
+
+
+
+
