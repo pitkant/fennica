@@ -24,7 +24,7 @@ library(devtools)
 # install_github("ropengov/gisfin")
 # devtools::install_github('cttobin/ggthemr')
 library(gisfin)
-library(ggthemr)
+#library(ggthemr)
 
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
@@ -42,7 +42,7 @@ theme_set(theme_bw(26))
 # ggthemr('greyscale', text_size = 20)
 #ggthemr('light', text_size = 20)
 # ggthemr('pale', text_size = 20)
-ggthemr_reset() # Reset theme
+#ggthemr_reset() # Reset theme
 ```
 
 
