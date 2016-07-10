@@ -2438,6 +2438,48 @@ A brief summary of the data processing steps:
 The package utilizes tools from a number of other R extensions,
 including dplyr `r citep(citation("dplyr"))`, ggplot2 `r citep(citation("ggplot2"))`, stats `r citep(citation("stats"))`, tidyr `r citep(citation("tidyr"))`.
 
+### Chunks transfered from slides for later use
+
+[Swedish Age of Freedom and Abolishment of Censorship]
+
+### 1766-1772 Title count vs. paper consumption (Kungliga)
+
+Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen
+lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina
+1766-1772 suhteessa tätä edeltävään kuuteen vuoteen.
+
+```{r peak, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+# Select catalog
+df <- df0 %>% filter(catalog == "Kungliga")
+
+# Mark time periods
+df$period <- rep(NA, nrow(df))
+df$period[df$publication_year >= 1759 & df$publication_year <= 1765] <- 1
+df$period[df$publication_year >= 1766 & df$publication_year <= 1772] <- 2
+
+
+# Remove NA time periods
+df <- df %>% filter(!is.na(period))
+df <- df %>% group_by(period) %>%
+             summarise(n = n(),
+	     	   paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# TITLE COUNT
+p1 <- ggplot(df, aes(x = period, y = n)) +
+       geom_bar(stat = "identity", position = "stack") +
+       scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
+       ggtitle("Title count") + xlab("1759-1765 / 1766-1772")
+
+# PAPER
+p2 <- ggplot(df, aes(x = period, y = paper)) +
+       geom_bar(stat = "identity", position = "stack") +
+       scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
+       ggtitle("Paper consumption") + xlab("1759-1765 / 1766-1772")
+
+grid.arrange(p1, p2, nrow = 1)
+```
+
+---
 
 
 
