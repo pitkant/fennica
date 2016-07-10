@@ -3216,6 +3216,43 @@ print(p)
 
 ---
 
+
+[Languages]
+
+### Development of use of different languages in Kungliga data
+
+```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
+catalogue = "Kungliga"
+  df <- dfl %>% filter(catalog == catalogue) %>%
+     	        group_by(publication_decade, language) %>%
+                summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+
+# TITLE COUNT
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+```
+
+
+---
+
+
 ### Acknowledgements
 
 Supported by Academy of Finland (grant 293316).
