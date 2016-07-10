@@ -3139,6 +3139,41 @@ rm(pics)
 ```
 ---
 
+### Finland in the Swedish context
+
+- Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century --- but the analysis of Finnish knowledge production 1828-2016 is for another day.
+
+```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
+df <- subset(df0, catalog == "Fennica") %>%
+  filter(publication_year >= 1640 & publication_year <= 1800)%>% 
+      filter(!is.na(country)) %>%
+      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
+
+# Add indicator field: Turku or Not Turku
+myplace <- "Turku"
+
+df$myplace <- rep(NA, nrow(df))
+df$myplace[df$publication_place == myplace] <- myplace
+df$myplace[!df$publication_place == myplace & df$country == "Finland"] <- "Finland"
+df$myplace[!df$country == "Finland" & !df$publication_place == myplace] <- "Foreign"
+df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
+
+# Keep entries with known publication place and paper consumption
+# Group by year/decade and Turku/Other
+dfs <- df %>% group_by(publication_decade, myplace) %>%
+  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
+     geom_bar(position = "stack", stat = "identity", color = "black") +
+     ggtitle("Title count") +
+     # scale_fill_manual(values = c("blue", "black", "darkgreen")) +
+     scale_fill_grey() +
+     guides(fill = guide_legend(reverse = TRUE, title = "")) +      
+     xlab("Publication decade") + ylab("Title count (n)")
+print(p)
+```
+---
+
 ### Acknowledgements
 
 Supported by Academy of Finland (grant 293316).
