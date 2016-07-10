@@ -3252,6 +3252,42 @@ print(p)
 
 ---
 
+[Publishers]
+
+Asiasanoja / yliopistopaikkakunta vertailu Kungligasta. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta?
+
+```{r subtop1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6}
+selected.places <- c("Stockholm", "Uppsala",
+		     "Lund", "Greifswald",
+                     "Tartu", "Turku")
+
+df <- df0 %>%
+        filter(catalog == "Kungliga") %>%
+        filter(publication_year >= 1640 & publication_year <= 1828) %>%
+	filter(publication_place %in% selected.places) %>%
+	select(publication_decade, publication_place, subject_topic)
+
+# Number of subject topics for each entry
+df$n <- sapply(df$subject_topic, function(x) {length(na.omit(unlist(strsplit(x, ";"))))})
+
+# Group by time, place
+# summarize number of topics
+df <- df %>% group_by(publication_decade, publication_place) %>%
+       summarise(n = sum(n, na.rm = TRUE))
+
+
+p <- ggplot(df, aes(x = publication_decade, y = n)) + 
+       geom_line(aes(color = publication_place)) +
+       geom_point(aes(color = publication_place)) +
+       scale_y_log10() +
+       xlab("Publication year") +
+       ylab("Title count (Log10 n)")
+  
+print(p)
+```
+
+
+---
 
 ### Acknowledgements
 
