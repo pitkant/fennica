@@ -20,7 +20,7 @@ knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 library(rmarkdown)
 rmarkdown::render("20160715-slides-Krakow.Rmd")
-rmarkdown::render("test.Rmd")
+#rmarkdown::render("test.Rmd")
 rmarkdown::render("manuscript-krakow.Rmd")
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
