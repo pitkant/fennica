@@ -2505,7 +2505,590 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
 print(p)
 
 ```
+---
 
+
+### DONE Kungliga subject topics (NEW!!)
+
+Kyrkohistoria; Biblisk arkeologi;Exegetik;Homiletik;Dogmatik;Teologi; Praktisk Teologi; Teologisk etik 
+
+```{r ktopic1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Kyrkohistoria", "biblisk arkeologi", "Exegetik", "Homiletik", "Dogmatik", "Teologi", "Praktisk Teologi", "Teologisk etik"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+
+rm(pics)
+```
+
+---
+
+
+Idé- och lärdomshistoria;Antiken;Historia;Militärhistoria; 
+
+
+```{r ktopic2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Idé- och lärdomshistoria", "Antiken", "Historia", "Militärhistoria"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+
+rm(pics)
+```
+
+---
+
+
+Filosofi;Metafysik;Logik 
+
+```{r ktopic3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Filosofi", "Metafysik", "Logik"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
+
+
+4. Naturvetenskap;Matematik;Matematiska tabeller; Kemi;Astronomi;Geografi;Geologi;Meteorologi 
+
+```{r ktopic4, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Naturvetenskap", "Matematik", "Matematiska tabeller", "Kemi", "Astronomi", "Geografi", "Geologi", "Meteorologi"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
+
+5. Retorik 
+
+```{r ktopic5, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Retorik"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
+
+6. Hebreiska språket; Grekiska språket;Latin 
+
+```{r ktopic6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Hebreiska språket", "Grekiska språket", "Latin"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
+7. Politisk filosofi;Ekonomiska förhållanden; Nationalekonomi;Lantbruksekonomi;Ekonomi;Penningväsen;Penningvärde;Kreditväsen;Penningförfalskning;Moral;Pedagogik;Uppfsotringsverket;Uppfostran;Barnuppfostran;Jordbruk;Jordbrukslära;Jordbrukspolitik;Fiske 
+
+```{r ktopic7, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Politisk filosofi","Ekonomiska förhållanden"," Nationalekonomi","Lantbruksekonomi","Ekonomi","Penningväsen","Penningvärde","Kreditväsen","Penningförfalskning","Moral","Pedagogik","Uppfsotringsverket","Uppfostran","Barnuppfostran","Jordbruk","Jordbrukslära","Jordbrukspolitik","Fiske"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+
+---
+
+8. Biologi;Medicinalverket;Medicin;Veterinärmedicin;Medicinalväsen;Medicinalväxkter;Sjukdomar;Djursjukdomar;Djur;Husdjur;Djurskydd;Hästar;Hästkreatur;Hästkörning;Hästavel 
+
+
+```{r ktopic8, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Biologi","Medicinalverket","Medicin","Veterinärmedicin","Medicinalväsen","Medicinalväxkter","Sjukdomar","Djursjukdomar","Djur","Husdjur","Djurskydd","Hästar","Hästkreatur","Hästkörning","Hästavel"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
+9. Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor 
+
+
+```{r ktopic9, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Kvinnor","Kvinnliga textilarbetare","Gravida kvinnor","Adelskvinnor","Kvinnorollen","Ensamstående kvinnor"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
+
+10. Högmålsbrott;Skattebrott;Brott;Brottslingar;Äktenskapsbrott;Våldsbrott;Trafikbrott;Gäldenärsbrott;Sabbattsbrott;Sexualbrott;Fridsbrott;Ekonomisk brottslighet;Religionsbrott;Juridik;Straff;Dödsstraff;Kroppsstraff;Straffarbete;Straffarbete;Fängelsestraff
+
+
+```{r ktopic10, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+
+catalogue <- "Kungliga"
+years <- c(1640, 1828)
+sel =  tolower(c("Högmålsbrott","Skattebrott","Brott","Brottslingar","Äktenskapsbrott","Våldsbrott","Trafikbrott","Gäldenärsbrott","Sabbattsbrott","Sexualbrott","Fridsbrott","Ekonomisk brottslighet","Religionsbrott","Juridik","Straff","Dödsstraff","Kroppsstraff","Straffarbete","Straffarbete","Fängelsestraff"))
+places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
+  filter(publication_place %in% places)
+
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+
+
+# Selected catalogue and place with selected topics
+pics <- list()
+for (place in places) {
+
+  df <- subset(dfl, publication_place == place)
+
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+  df <- df %>% filter(hit)
+  df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(place) +
+       xlim(c(years[[1]], years[[2]]))
+  pics[[place]] <- p
+
+}
+
+grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+---
 
 
 ### Acknowledgements
