@@ -6,7 +6,6 @@ output:
   beamer_presentation
 ---
 
-
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
 # Default time span for the slides
 min.year <- 1488
@@ -57,32 +56,17 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ---
 
-### TODO-lista
+### TODO
 
-1) DONE Sivut 38-39. Auktori piikki. 1650-luvulla, miksi?
+Esitysjärjestys: Sivun 19 slide ("Development of use of different languages in Finnish NationalBibliography") pitäisi tulla sivun 21 sliden ("Different languages in Fennica and Kungliga (percentage)") jälkeen (samalla sivun 20 slide "Development of use of different languages in Kungliga data" putoaa pois). Mutta nyt kun muutan järjestystä niin sivun 21 slide ei sen jälkeen toimi. Tämä pitää fiksata.
 
-1) Sivu 6. Karttakuva, geokoordinaatit (löytyy kalvolta) lisääminen + kartan muodostaminen Kungligan pohjalta mainittuihin kuuteen kaupunkiin paitsi Turku jonka data otetaan Fennicasta. 
+Karttakuvassa Greifswald, Lund ei näy. Tätä pitää vähän miettiä.
 
-2) OK Sivu 12. Kuva 1 ja Kuva 2 yhdistäminen samaan Kungliga kaavioon. Eli, Fennica kuvasta siirretään "Turku", "Vaasa" ja "Vyborg" Kungliga kuvaan. Muut tiedot Fennicasta jätetään pois.
+Dissertation languages: kategoria "other" sisällön selvittäminen!
 
-3) OK Sivu 20. Uusi kuva: asiasanoja / yliopistopaikkakunta vertailu Kungligasta.
+Joissain kuvista puuttuu vielä mystisesti ne akselitiedot. Lisäksi Mikko tsekkaa kuvien tekstit yms.
 
-4) OK Sivu 18. Uusi kuva: Kungligasta nimikkeiden määrän ja paperinkulutuksen suhde vuosilta 1766-1774 ja verrataan sitä vuosiin 1757-1765 ja 1775-1783.
-
-5) OK Sivu 32. Uusi kuva: Yleinen kielianalyysi prosentteina Fennican väitöskirjoista (pitäisi olla suoraviivainen).
-
-6) OK Sivu 39. Uusi kuva: Kungliga subject topics, kalvossa olevien asiasanaryppäiden pohjalta samanlainen analyysi Kungligan yliopistokaupungeista kuin on tehty nyt Fennicasta.
-
-7) OK Sivu 30. Viilaus: Viivojen vaihtaminen barplotteihin.
-
-8) OK [Lokaali ongelma Mikolla? näkyy R-studion konsolissa oikein, mutta ei knitatussa PDF:ssä] Sivu 7. Kuva 1. Viilaus: vuosiluvut näkyviin.
-
-9) OK [Lokaali ongelma Mikolla? näkyy R-studion konsolissa oikein, mutta ei knitatussa PDF:ssä] Sivu 8. Kuva 1. Viilaus: vuosiluvut näkyviin.
-
-10) OK Sivu 16. Gävlen muuttaminen takaisin analyysiin.
-
-11) NOTE Sivu 14. Kuva 1. Sverige julkaisijanimen tarkastaminen.
-
+Gävle-kuvan kohtalo pitää tsiigata myös.
 
 ---
 
@@ -98,7 +82,7 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ---
 
-[Intro 2/3]
+[Intro]
 
 ### Data (1470-1828):
 
@@ -116,7 +100,7 @@ TÄHÄN DATA MÄÄRÄ KOODISTA!
 
 ---
 
-[Intro 3/3]
+[Intro]
 
 ### Context
 
@@ -126,23 +110,29 @@ TÄHÄN DATA MÄÄRÄ KOODISTA!
 
 ### Challenges: nationally delineated perspectives by using nationally collected materials
 
-We use nationally organized library catalogues produced by national memory organizations. The aim is to at least partly overcome a national gaze in the analysis. By focusing on The Finnish case and studying it both in the context of the Swedish realm and (later) in the Russian empire, we have the opportunity to see how knowledge production happened through a more complex network of cities.
+Overcoming a national gaze in the analysis by focusing on how knowledge production happened through a more complex network of cities.
 
-### Enlightenment in Finland after "the rock bottom" of 1700-1721
+---
 
-Different roles of languages visible in topics addressed in different languages:
+### Outline of the presentation
 
-1) Changes in University curriculum reflected in published theses 
+1) Big picture and political events
 
-2) Religious publishing in Finnish language 
+2) Publishers in Sweden and Turku
 
-3) Economy and social science published in Swedish language 
+3) Languages and religious publishing in Finland
+
+4) University curriculum & Enlightenment in Finland
 
 --> Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
 
 ---
 
-[Big Picture 1/4]
+### Big Picture & Political Events
+
+---
+
+[Big Picture & Political Events]
 
 ### Publishing activity in Swedish University Towns (Kungliga)
 
@@ -212,7 +202,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 
 ---
 
-[Big Picture 2/4]
+[Big Picture & Political Events]
 
 ### Peaks and drops – role of publishers and contingency
 
@@ -244,7 +234,7 @@ print(p)
 
 ---
 
-[Big Picture 3/4]
+[Big Picture & Political Events]
 
 ### Comparing publishing activity in Swedish University towns
 TODO: Tässä olisi hyvä olla vuodet näkyvissä.
@@ -278,36 +268,121 @@ for (catal in unique(df2$catalog)) {
 
 ---
 
-[Big Picture 4/4]
+[Big Picture & Political Events]
 
-### Rise of the octavo sized book as vehicle of Enlightenment
-TÄSSÄ kanssa vuodet näkyviin.
-Paper consumption for different document formats over time. 
+### Role of pamphleteering in 1766-1774
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
-for (catal in unique(df0$catalog)) {
-  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-  df2$highlight <- rep("gray", nrow(df2))
-  df2$highlight[df2$gatherings == "8vo"] <- "darkgreen"
-    
-  p <- ggplot(df2, aes(y = paper.consumption.km2,
-                       x = publication_decade,
-		       shape = gatherings,
-		       linetype = gatherings))		       
-  p <- p + geom_point(size = 4)
-  p <- p + geom_smooth(method = "loess", size = 1,
-         aes(color = highlight, fill = highlight))
-  p <- p + scale_color_manual(values = c("darkgreen", "darkgray"))
-  p <- p + scale_fill_manual(values = c("darkgreen", "darkgray"))  	 
-  p <- p + ggtitle("Paper consumption in time by gatherings")
+Pamphleteering clearly causes the peak in publishing during the time of abolished censorship in Sweden.
+
+
+```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
+df <- df0 %>%
+        filter(catalog == "Kungliga")
+
+# Add indicator of the publication period
+df$period <- cut(df$publication_year,
+           breaks = c(1757, 1766, 1775, 1783),
+		 include.lowest = TRUE,
+		 right = FALSE
+		 )
+
+# Remove entries outside the investigated publication periods
+df <- df %>% filter(!is.na(period)) %>%
+	     group_by(period) %>%
+	     summarise(n = n(),
+		  paper = sum(paper.consumption.km2, na.rm = TRUE)) %>%
+        mutate(paper.per.title = paper/n)		 
+
+p <- ggplot(df,
+       aes(x = period, y = paper.per.title)) + 
+       geom_bar(stat = "identity") +
+       scale_x_discrete(labels = c("1757-1765", "1766-1774", "1775-1783")) +
+       ylab("Paper per title") + xlab("") 
+print(p)
+```
+
+---
+
+[Big Picture & Political Events]
+
+### Gävle in Riksdagar
+
+An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
+
+Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi, siksi Greifswald analyysi tässä.
+
+```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+  myplace <- "Gavle" # Norrköping / Stockholm
+  minyear <- 1700
+  maxyear <- 1800
+  catalog <- "Kungliga"
+
+  df <- df0
+  df = subset(df, catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
+
+  # Use timeinterval year intervals
+  # Remove special chars
+  if (length(unique(df$publication_place[grep("^G.vle$", df$publication_place)])) == 1) {
+    df$publication_place[grep("^G.vle$", df$publication_place)] <- "Gavle"
+  }
+  if (length(unique(df$publication_place[grep("^Norrk.ping$", df$publication_place)])) == 1) {
+    df$publication_place[grep("^Norrk.ping$", df$publication_place)] <- "Norrkoping"
+  }
+  df <- df %>% filter(publication_place == myplace)
+
+  timeinterval <- 1
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
+
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+library(reshape2)  
+dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+  ymin = min(0.0001)
+  ymax = max(dfm$Documents)
+
+  rect_left <- c(min(na.omit(dfm$date)),
+               1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
+               1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
+               1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
+               1769-.5, 1770+.5, # Norrkoping & Stockholm 22 april 1769 5 februari 1770
+               1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
+               1792-.5, 1792+.5, # Gavle 26 januari 1792 24 februari 1792	       
+               max(na.omit(dfm$date)))
+  rectangles <- data.frame(
+    xmin = rect_left[-length(rect_left)],
+    xmax = rect_left[-1],
+    ymin = ymin,
+    ymax = ymax
+    )
+  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
+
+ riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrkoping", "Stockholm", "Gavle")
+ cols = c("gray", "lightblue", "yellow", "white")
+ rectangles$shade[rectangles$shade == "Highlight"] = riksplace
+ rectangles$shade = factor(rectangles$shade)
+
+  # Draw Figure
+library(ggplot2)
+  theme_set(theme_bw(20))
+  p <- ggplot()
+  p <- p + geom_rect(data = rectangles, 
+	   aes(xmin=xmin, xmax=xmax,
+	       ymin=ymin, ymax=ymax,
+	       fill=shade), alpha=0.8) + 
+         scale_fill_manual(values = cols) # + guides(fill = "none") 
+  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
   p <- p + xlab("Year")
-  p <- p + ylab("Paper consumption (km2)")
-  p <- p + guides(linetype = guide_legend(keywidth = 5),
-       	          shape = guide_legend(keywidth = 5))
-  p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
+  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
   print(p)
-}
 ```
 
 ---
@@ -316,73 +391,9 @@ for (catal in unique(df0$catalog)) {
 
 ---
 
-[Publishers 1/6]
+[Publishers]
 
-### Turku in Sweden: proportions for title count and paper in Swedish University towns
- 
-```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, eval = FALSE, fig.width=20, fig.height=15}
-pics <- list()
-for (catalogue in na.omit(unique(df0$catalog))) {
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-        filter(publication_year >= 1640 & publication_year <= 1828)
-places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
-df$publication_place[!df$publication_place %in% places] <- "Other"
-df <- subset(df, !is.na(df$publication_place))
-#df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
-
-df <- df %>% group_by(publication_decade, publication_place) %>%
-             summarise(n = n(),
-	     	       paper = sum(paper.consumption.km2, na.rm = TRUE),
-		       publishers = length(na.omit(unique(publisher)))
-		       )
-
-
-# Calculate percentages
-for (varname in c("n", "paper", "publishers")) {
-
-  df$varname <- df[[varname]]
-  dff <- df %>% select(publication_decade, publication_place, varname)
-  dff <- spread(dff, publication_place, varname, fill = 0)
-  dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
-  dff <- melt(dff, "publication_decade");
-  colnames(dff) <- c("publication_decade", "publication_place", "f")
-
-  theme_set(theme_bw(20))
-  p <- ggplot(dff, aes(x = publication_decade, y = f)) +
-     geom_bar(position = "stack", stat = "identity",
-       aes(fill = publication_place)) + 
-     xlab("Publication year") +
-     scale_fill_brewer(palette="Paired")
-     if (varname == "n") {
-       p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
-                ylab("Title count frequency (%)") 
-     }
-     if (varname == "paper") {
-       p <- p + ggtitle(paste("Paper (", catalogue, ")", sep = "")) +
-                ylab("Paper (%)")        
-     }
-     if (varname == "publishers") {
-       p <- p + ggtitle(paste("Publishers (", catalogue, ")", sep = "")) +
-                       ylab("Publishers (%)")
-     }     
-
-
-  pics[[paste(catalogue, varname, sep = "-")]] <- p
-
-}
-}
-library(gridExtra)
-grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
-
----
-
-[Publishers 2/6]
-
-### Publishers in Finland / Swedish University towns
+### Publishers in Swedish University towns (and Finland)
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
@@ -442,7 +453,75 @@ print(p)
 
 ---
 
-[Publishers 4/6]
+[Publishers]
+
+### Turku in Sweden: proportions for title count and paper in Swedish University towns
+ 
+```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=15}
+pics <- list()
+for (catalogue in na.omit(unique(df0$catalog))) {
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
+places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
+df$publication_place[!df$publication_place %in% places] <- "Other"
+df <- subset(df, !is.na(df$publication_place))
+#df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
+library(reshape2)
+library(magrittr)
+library(tidyr)
+
+df <- df %>% group_by(publication_decade, publication_place) %>%
+             summarise(n = n(),
+       	       paper = sum(paper.consumption.km2, na.rm = TRUE),
+		       publishers = length(na.omit(unique(publisher)))
+		       )
+
+
+# Calculate percentages
+for (varname in c("n", "paper", "publishers")) {
+
+  df$varname <- df[[varname]]
+  dff <- df %>% select(publication_decade, publication_place, varname)
+  dff <- spread(dff, publication_place, varname, fill = 0)
+  dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
+  dff <- melt(dff, "publication_decade");
+  colnames(dff) <- c("publication_decade", "publication_place", "f")
+
+  theme_set(theme_bw(20))
+  p <- ggplot(dff, aes(x = publication_decade, y = f)) +
+     geom_bar(position = "stack", stat = "identity",
+       aes(fill = publication_place)) + 
+     xlab("Publication year") +
+     scale_fill_brewer(palette="Paired")
+     if (varname == "n") {
+       p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
+                ylab("Title count frequency (%)") 
+     }
+     if (varname == "paper") {
+       p <- p + ggtitle(paste("Paper (", catalogue, ")", sep = "")) +
+                ylab("Paper (%)")        
+     }
+     if (varname == "publishers") {
+       p <- p + ggtitle(paste("Publishers (", catalogue, ")", sep = "")) +
+                       ylab("Publishers (%)")
+     }     
+
+
+  pics[[paste(catalogue, varname, sep = "-")]] <- p
+
+}
+}
+library(gridExtra)
+grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+
+---
+
+
+[Publishers]
 
 ### Title count of the output of publishers in Turku
 
@@ -480,49 +559,7 @@ print(p)
 
 ---
 
-[Publishers 5/6]
-
-### Comparing paper used on average per publication by publishers
-
-TODO: Mikä kustantaja Sverige on? LL: originaalidatan publisher-kenttä on tässä kohden tyhjä. Veikkaan että tähän on täydennetty materiaalia muistakin kentistä. Pitää katsoa Hegen kanssa tarkemmin mikä on Sverige koska publisher-kenttä tulee hänen koodeilla.
-
-```{r publisherpapertitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
-
-for (catalogue in c("Fennica", "Kungliga")) {
-
-  df <- df0
-  df <- df %>%
-        filter(catalog == catalogue) %>%
-	filter(publication_year >= 1640 & publication_year <= 1828)
-
-  # Selected ones
-  df$publisher[df$publisher == ""] = "Other"
-  top <- names(top(df, "publisher", 5))
-  df$publisher[!df$publisher %in% c(top, "")] <- "Other"
-  df$publisher <- factor(df$publisher, levels = unique(c(top, "Other")))
-
-  # Publishing per decade & publisher	
-  npub <- df %>%
-     	  group_by(publication_decade, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
-	  mutate(paper.per.title = paper/n)
-
-
-theme_set(theme_bw(20))
-p <- ggplot(npub, aes(x = publication_decade, y = paper.per.title, group = publisher)) +
-       geom_point(size = 5, aes(shape = publisher, color = publisher)) +
-       geom_smooth(col = "black", aes(shape = publisher, fill = publisher, color = publisher)) + 
-       xlab("Publication year") +
-       ylab("Paper per title") +
-       ylim(c(0, 1.1*max(npub$paper.per.title))) +
-       ggtitle(paste("Paper per title ratio (", catalogue, ")", sep = ""))
-print(p)
-}
-```
-
----
-
-[Publishers 6/6]
+[Publishers]
 
 ### Rock Bottom of the Great Northern War (1700-1721)
 
@@ -562,261 +599,13 @@ print(p)
 
 ---
 
-
-[Swedish Age of Freedom and Abolishment of Censorship]
-
-### 1766-1772 Title count vs. paper consumption (Kungliga)
-
-Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen
-lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina
-1766-1772 suhteessa tätä edeltävään kuuteen vuoteen.
-
-```{r peak, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-# Select catalog
-df <- df0 %>% filter(catalog == "Kungliga")
-
-# Mark time periods
-df$period <- rep(NA, nrow(df))
-df$period[df$publication_year >= 1759 & df$publication_year <= 1765] <- 1
-df$period[df$publication_year >= 1766 & df$publication_year <= 1772] <- 2
-
-
-# Remove NA time periods
-df <- df %>% filter(!is.na(period))
-df <- df %>% group_by(period) %>%
-             summarise(n = n(),
-	     	   paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-# TITLE COUNT
-p1 <- ggplot(df, aes(x = period, y = n)) +
-       geom_bar(stat = "identity", position = "stack") +
-       scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
-       ggtitle("Title count") + xlab("1759-1765 / 1766-1772")
-
-# PAPER
-p2 <- ggplot(df, aes(x = period, y = paper)) +
-       geom_bar(stat = "identity", position = "stack") +
-       scale_x_discrete(labels = c("1759-1765", "1766-1772")) +
-       ggtitle("Paper consumption") + xlab("1759-1765 / 1766-1772")
-
-grid.arrange(p1, p2, nrow = 1)
-```
-
----
-
-
-### TODO 1766-1774
-
-Selvitettävä asia: onko erityisesti pamflettien kasvu syynä tänä aikana tulevaan nousuun?
-
-Kungliga. Paper per title 1766-1774; 1757-1765; 1775-1783.
-
-```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
-df <- df0 %>%
-        filter(catalog == "Kungliga")
-
-# Add indicator of the publication period
-df$period <- cut(df$publication_year,
-	         breaks = c(1757, 1766, 1775, 1783),
-		 include.lowest = TRUE,
-		 right = FALSE
-		 )
-
-# Remove entries outside the investigated publication periods
-df <- df %>% filter(!is.na(period)) %>%
-	     group_by(period) %>%
-	     summarise(n = n(),
-		  paper = sum(paper.consumption.km2, na.rm = TRUE)) %>%
-        mutate(paper.per.title = paper/n)		 
-
-p <- ggplot(df,
-       aes(x = period, y = paper.per.title)) + 
-       geom_bar(stat = "identity") +
-       scale_x_discrete(labels = c("1757-1765", "1766-1774", "1775-1783")) +
-       ylab("Paper per title") + xlab("") 
-print(p)
-```
-
----
-
-
-[Swedish Age of Freedom and Abolishment of Censorship 1/3]
-
-### Gavle in Riksdagar
-
-An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
-
-Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi, siksi Greifswald analyysi tässä.
-
-```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-  myplace <- "Gavle" # Norrköping / Stockholm
-  minyear <- 1700
-  maxyear <- 1800
-  catalog <- "Kungliga"
-
-  df <- df0
-  df = subset(df, catalog == catal)
-  df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
-
-  # Use timeinterval year intervals
-  # Remove special chars
-  if (length(unique(df$publication_place[grep("^G.vle$", df$publication_place)])) == 1) {
-    df$publication_place[grep("^G.vle$", df$publication_place)] <- "Gavle"
-  }
-  if (length(unique(df$publication_place[grep("^Norrk.ping$", df$publication_place)])) == 1) {
-    df$publication_place[grep("^Norrk.ping$", df$publication_place)] <- "Norrkoping"
-  }
-  df <- df %>% filter(publication_place == myplace)
-
-  timeinterval <- 1
-  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
-
-  df$unity = rep(1, nrow(df))
-  publications <- tapply(df$unity, list(df$timeunit), sum)
-
-  publications[is.na(publications)] <- 0 # Set NAs to 0
-  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-library(reshape2)  
-dfm <- melt(publications) 
-  names(dfm) <- c("Time", "Documents")
-  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-  ymin = min(dfm$Documents)
-  ymax = max(dfm$Documents)
-
-  rect_left <- c(min(na.omit(dfm$date)),
-               1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
-               1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
-               1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
-               1769-.5, 1770+.5, # Norrkoping & Stockholm 22 april 1769 5 februari 1770
-               1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
-               1792-.5, 1792+.5, # Gavle 26 januari 1792 24 februari 1792	       
-               max(na.omit(dfm$date)))
-  rectangles <- data.frame(
-    xmin = rect_left[-length(rect_left)],
-    xmax = rect_left[-1],
-    ymin = ymin,
-    ymax = ymax
-    )
-  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
-
- riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrkoping", "Stockholm", "Gavle")
- cols = c("gray", "lightblue", "yellow", "white")
- rectangles$shade[rectangles$shade == "Highlight"] = riksplace
- rectangles$shade = factor(rectangles$shade)
-
-  # Draw Figure
-  theme_set(theme_bw(20))
-  p <- ggplot()
-  p <- p + geom_rect(data = rectangles, 
-	   aes(xmin=xmin, xmax=xmax,
-	       ymin=ymin, ymax=ymax,
-	       fill=shade), alpha=0.8) + 
-         scale_fill_manual(values = cols) # + guides(fill = "none") 
-  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
-  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
-  p <- p + ggtitle("Publishing activity")
-  p <- p + ylab("Documents / Year")
-  p <- p + xlab("Year")
-  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
-  print(p)
-```
-
----
-
-
-[Swedish Age of Freedom and Abolishment of Censorship 2/3]
-
-### Number of publishers in Stockholm 1760-1770
-
-```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
-sel.places = c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
-sel.years = c(1760, 1780)
-pics <- list()
-
-for (place in sel.places) {
-
-for (catalogue in c("Fennica", "Kungliga")) {
-
-  df <- df0
-  dfs <- df %>% filter(catalog == catalogue &
-     	              publication_place == place &
-		      publication_year >= min(sel.years) &
-		      publication_year <= max(sel.years) 
-		      )
-
-  df <- dfs %>% group_by(publication_year) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PUBLISHER COUNT
-  n = sapply(split(dfs$publisher, dfs$publication_year), function (x) {
-         length(unique(na.omit(x)))})
-  df = data.frame(year = names(n), n = unname(n))
-  if (nrow(df) > 1) {
-    p = ggplot(df, aes(x = year, y = n)) +
-        geom_bar(stat = "identity") +
-       ggtitle(paste("Publishers:", catalogue, place)) +
-       scale_x_discrete(breaks = seq(min(sel.years), max(sel.years), 10))
-  } else {
-    p <- ggplot() + ggtitle("Insufficient data")
-  }
-  pics[[paste(place, catalogue, sep = "-")]] <- p
-}
-}
-
-grid.arrange(pics[[2]], pics[[4]],
-             pics[[6]], pics[[8]], pics[[10]], nrow = 2)
-
-# Remove the pics to save memory
-rm(pics)	     
-```
-
----
-
-[Swedish Age of Freedom and Abolishment of Censorship 3/3]
-
-TODO: asiasanoja / yliopistopaikkakunta vertailu Kungligasta. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta?
-
-```{r subtop1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6}
-selected.places <- c("Stockholm", "Uppsala",
-		     "Lund", "Greifswald",
-                     "Tartu", "Turku")
-
-df <- df0 %>%
-        filter(catalog == "Kungliga") %>%
-        filter(publication_year >= 1640 & publication_year <= 1828) %>%
-	filter(publication_place %in% selected.places) %>%
-	select(publication_decade, publication_place, subject_topic)
-
-# Number of subject topics for each entry
-df$n <- sapply(df$subject_topic, function(x) {length(na.omit(unlist(strsplit(x, ";"))))})
-
-# Group by time, place
-# summarize number of topics
-df <- df %>% group_by(publication_decade, publication_place) %>%
-       summarise(n = sum(n, na.rm = TRUE))
-
-
-p <- ggplot(df, aes(x = publication_decade, y = n)) + 
-       geom_line(aes(color = publication_place)) +
-       geom_point(aes(color = publication_place)) +
-       scale_y_log10() +
-       xlab("Publication year") +
-       ylab("Title count (Log10 n)")
-  
-print(p)
-```
-
-
----
-
 ### Languages
 
 
 ---
 
 
-[Languages 1/4]
+[Languages]
 
 ### Development of use of different languages in Finnish National Bibliography
 
@@ -870,7 +659,7 @@ print(p)
 
 ---
 
-[Languages 2/4]
+[Languages]
 
 ### Development of use of different languages in Kungliga data
 
@@ -905,7 +694,7 @@ print(p)
 
 ---
 
-[Languages 3/4]
+[Languages]
 
 ### Different languages in Fennica and Kungliga (percentage)
 
@@ -969,6 +758,7 @@ print(p)
 
 ---
 
+[Languages]
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
 
@@ -1031,7 +821,7 @@ rm(pics)
 
 ---
 
-[Languages 4/4]
+[Languages]
 
 ### Topic diversity in different languages in Finnish publications
 
@@ -1060,7 +850,7 @@ print(p)
 
 ---
 
-[Religious texts in Finland 1/3]
+[Religious texts in Finland]
 
 ### Devotional literature (catechisms, hymns, prayer collections, etc.) 
 
@@ -1113,7 +903,7 @@ catalogue <- "Fennica"
 
 ---
 
-[Religious texts in Finland 2/3]
+[Religious texts in Finland]
 
 ### Temporary sermons in Latin and Swedish
 
@@ -1162,7 +952,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ---
 
-[Religious texts in Finland 3/3]
+[Religious texts in Finland]
 
 ### Combining devotional literature and temporary sermons
 
@@ -1214,10 +1004,13 @@ catalogue <- "Fennica"
 
 ---
 
+### University curriculum & Enlightenment in Finland
 
-### University curriculum in Turku 1640-1828
+---
 
-Dissertation language
+[University curriculum & Enlightenment in Finland]
+
+### Dissertation languages in Turku 1640-1828
 
 
 ```{r disslang, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
@@ -1277,7 +1070,7 @@ print(p)
 
 ---
 
-[University curriculum 1/5]
+[University curriculum & Enlightenment in Finland]
 
 ### Printing of theology in different languages in Turku
 
@@ -1319,7 +1112,7 @@ df <- df %>% group_by(publication_decade, language) %>%
 ---
 
 
-[University curriculum 2/5]
+[University curriculum & Enlightenment in Finland]
 
 ### Printing of history in different languages in Turku
 
@@ -1346,7 +1139,7 @@ print(p)
 
 ---
 
-[University curriculum 3/5]
+[University curriculum & Enlightenment in Finland]
 
 ### Printing of philosophy in different languages in Turku
 
@@ -1371,36 +1164,10 @@ print(p)
 
 ```
 
----
-
-[University curriculum 4/5]
-
-### Printing of natural science in different languages in Turku
-
-```{r topics-104, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
-sel = c("luonnontieteet","matematiikka","fysiikka","kemia","tähtitiede","maantiede","geodesia","geofysiikka","meteorologia")
-# Selected catalogue with selected topics
-df = dfl
-df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-df <- df %>% filter(hit)
-df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-# PAPER CONSUMPTION
-theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
-print(p)
-
-```
 
 ---
 
-[University curriculum 5/5]
+[University curriculum & Enlightenment in Finland]
 
 ### Printing of economy and social science in different languages in Turku
 
@@ -1429,12 +1196,45 @@ print(p)
 
 ---
 
-### Effects of the Enlightenment in Finland
+[University curriculum & Enlightenment in Finland]
 
-- Decline of metaphysics, rise of social and economic theory 
-- The Enlightenment literature read in Finland mainly printed elsewhere
+### Rise of the octavo sized book as vehicle of Enlightenment
 
-```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width="150px", fig.show="hold"}
+Paper consumption for different document formats over time. 
+
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
+for (catal in unique(df0$catalog)) {
+  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+  df2$highlight <- rep("gray", nrow(df2))
+  df2$highlight[df2$gatherings == "8vo"] <- "darkgreen"
+    
+  p <- ggplot(df2, aes(y = paper.consumption.km2,
+                       x = publication_decade,
+  	       shape = gatherings,
+		       linetype = gatherings))		       
+  p <- p + geom_point(size = 4)
+  p <- p + geom_smooth(method = "loess", size = 1,
+         aes(color = highlight, fill = highlight))
+  p <- p + scale_color_manual(values = c("darkgreen", "darkgray"))
+  p <- p + scale_fill_manual(values = c("darkgreen", "darkgray"))  	 
+  p <- p + ggtitle("Paper consumption in time by gatherings")
+  p <- p + xlab("Year")
+  p <- p + ylab("Paper consumption (km2)")
+  p <- p + guides(linetype = guide_legend(keywidth = 5),
+       	          shape = guide_legend(keywidth = 5))
+  p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
+  print(p)
+}
+```
+
+---
+
+[University curriculum & Enlightenment in Finland]
+
+### Enlightenment literature read in Finland
+
+```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
@@ -1458,626 +1258,25 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
 ---
 
+### Thanks !
 
-### DONE Kungliga subject topics (NEW!!)
+R master (plots & maps):
+- Leo Lahti
 
-Kyrkohistoria; Biblisk arkeologi;Exegetik;Homiletik;Dogmatik;Teologi; Praktisk Teologi; Teologisk etik 
+Institutional support:
 
-```{r ktopic1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Kyrkohistoria", "biblisk arkeologi", "Exegetik", "Homiletik", "Dogmatik", "Teologi", "Praktisk Teologi", "Teologisk etik"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
+- Academy of Finland
+- University of Helsinki
+- Digitalia / The Regional Council of South Savo
 
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
+Data providers:
 
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-
-rm(pics)
-```
+- National Library of Finland
+- National Library of Sweden
 
 ---
 
-
-Idé- och lärdomshistoria;Antiken;Historia;Militärhistoria; 
-
-
-```{r ktopic2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Idé- och lärdomshistoria", "Antiken", "Historia", "Militärhistoria"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-
-rm(pics)
-```
-
----
-
-
-Filosofi;Metafysik;Logik 
-
-```{r ktopic3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Filosofi", "Metafysik", "Logik"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-
-
-4. Naturvetenskap;Matematik;Matematiska tabeller; Kemi;Astronomi;Geografi;Geologi;Meteorologi 
-
-```{r ktopic4, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Naturvetenskap", "Matematik", "Matematiska tabeller", "Kemi", "Astronomi", "Geografi", "Geologi", "Meteorologi"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-
-5. Retorik 
-
-```{r ktopic5, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Retorik"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-
-6. Hebreiska språket; Grekiska språket;Latin 
-
-```{r ktopic6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Hebreiska språket", "Grekiska språket", "Latin"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-7. Politisk filosofi;Ekonomiska förhållanden; Nationalekonomi;Lantbruksekonomi;Ekonomi;Penningväsen;Penningvärde;Kreditväsen;Penningförfalskning;Moral;Pedagogik;Uppfsotringsverket;Uppfostran;Barnuppfostran;Jordbruk;Jordbrukslära;Jordbrukspolitik;Fiske 
-
-```{r ktopic7, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Politisk filosofi","Ekonomiska förhållanden"," Nationalekonomi","Lantbruksekonomi","Ekonomi","Penningväsen","Penningvärde","Kreditväsen","Penningförfalskning","Moral","Pedagogik","Uppfsotringsverket","Uppfostran","Barnuppfostran","Jordbruk","Jordbrukslära","Jordbrukspolitik","Fiske"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
-
----
-
-8. Biologi;Medicinalverket;Medicin;Veterinärmedicin;Medicinalväsen;Medicinalväxkter;Sjukdomar;Djursjukdomar;Djur;Husdjur;Djurskydd;Hästar;Hästkreatur;Hästkörning;Hästavel 
-
-
-```{r ktopic8, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Biologi","Medicinalverket","Medicin","Veterinärmedicin","Medicinalväsen","Medicinalväxkter","Sjukdomar","Djursjukdomar","Djur","Husdjur","Djurskydd","Hästar","Hästkreatur","Hästkörning","Hästavel"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-9. Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor 
-
-
-```{r ktopic9, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Kvinnor","Kvinnliga textilarbetare","Gravida kvinnor","Adelskvinnor","Kvinnorollen","Ensamstående kvinnor"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-
-10. Högmålsbrott;Skattebrott;Brott;Brottslingar;Äktenskapsbrott;Våldsbrott;Trafikbrott;Gäldenärsbrott;Sabbattsbrott;Sexualbrott;Fridsbrott;Ekonomisk brottslighet;Religionsbrott;Juridik;Straff;Dödsstraff;Kroppsstraff;Straffarbete;Straffarbete;Fängelsestraff
-
-
-```{r ktopic10, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-
-catalogue <- "Kungliga"
-years <- c(1640, 1828)
-sel =  tolower(c("Högmålsbrott","Skattebrott","Brott","Brottslingar","Äktenskapsbrott","Våldsbrott","Trafikbrott","Gäldenärsbrott","Sabbattsbrott","Sexualbrott","Fridsbrott","Ekonomisk brottslighet","Religionsbrott","Juridik","Straff","Dödsstraff","Kroppsstraff","Straffarbete","Straffarbete","Fängelsestraff"))
-places <- c("Stockholm", "Lund", "Greifswald", "Uppsala", "Tartu")
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= years[[1]] & publication_year <= years[[2]]) %>%
-  filter(publication_place %in% places)
-
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-
-
-# Selected catalogue and place with selected topics
-pics <- list()
-for (place in places) {
-
-  df <- subset(dfl, publication_place == place)
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(hit)
-  df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(place) +
-       xlim(c(years[[1]], years[[2]]))
-  pics[[place]] <- p
-
-}
-
-grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
-```
-
----
-
-
-### Finland in the Swedish context
-
-- Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century --- but the analysis of Finnish knowledge production 1828-2016 is for another day.
-
-```{r 201606krakow-turkuvsother, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
-df <- subset(df0, catalog == "Fennica") %>%
-  filter(publication_year >= 1640 & publication_year <= 1800)%>% 
-      filter(!is.na(country)) %>%
-      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
-
-# Add indicator field: Turku or Not Turku
-myplace <- "Turku"
-
-df$myplace <- rep(NA, nrow(df))
-df$myplace[df$publication_place == myplace] <- myplace
-df$myplace[!df$publication_place == myplace & df$country == "Finland"] <- "Finland"
-df$myplace[!df$country == "Finland" & !df$publication_place == myplace] <- "Foreign"
-df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
-
-# Keep entries with known publication place and paper consumption
-# Group by year/decade and Turku/Other
-dfs <- df %>% group_by(publication_decade, myplace) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
-     geom_bar(position = "stack", stat = "identity", color = "black") +
-     ggtitle("Title count") +
-     # scale_fill_manual(values = c("blue", "black", "darkgreen")) +
-     scale_fill_grey() +
-     guides(fill = guide_legend(reverse = TRUE, title = "")) +      
-     xlab("Publication decade") + ylab("Title count (n)")
-print(p)
-```
-
----
+Extra Slide:
 
 ### Duplicate publications
 
@@ -2096,25 +1295,5 @@ p <- ggplot(df, aes(x = publication_decade, y = duplicates, fill = catalog)) +
 
 print(p)
 ```
-
----
-
-### Thanks !
-
-R master (plots & maps):
-- Leo Lahti
-
-Institutional support:
-
-- Academy of Finland
-- University of Helsinki
-- Digitalia / The Regional Council of South Savo
-
-Data providers:
-
-- National Library of Finland
-- National Library of Sweden
-
-
 
 
