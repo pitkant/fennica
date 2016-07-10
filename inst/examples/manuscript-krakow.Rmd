@@ -2481,6 +2481,31 @@ grid.arrange(p1, p2, nrow = 1)
 
 ---
 
+[University curriculum 4/5]
+
+### Printing of natural science in different languages in Turku
+
+```{r topics-104, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+sel = c("luonnontieteet","matematiikka","fysiikka","kemia","tähtitiede","maantiede","geodesia","geofysiikka","meteorologia")
+# Selected catalogue with selected topics
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+print(p)
+
+```
+
 
 
 ### Acknowledgements
@@ -2546,7 +2571,7 @@ library(gridExtra)
 grid.arrange(pf, pk, nrow = 1)
 ```
 
-
+---
 
 
 
