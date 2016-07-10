@@ -3091,6 +3091,54 @@ rm(pics)
 ---
 
 
+[Swedish Age of Freedom and Abolishment of Censorship 2/3]
+
+### Number of publishers in Stockholm 1760-1770
+
+```{r polev1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
+sel.places = c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
+sel.years = c(1760, 1780)
+pics <- list()
+
+for (place in sel.places) {
+
+for (catalogue in c("Fennica", "Kungliga")) {
+
+  df <- df0
+  dfs <- df %>% filter(catalog == catalogue &
+     	              publication_place == place &
+		      publication_year >= min(sel.years) &
+		      publication_year <= max(sel.years) 
+		      )
+
+  df <- dfs %>% group_by(publication_year) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PUBLISHER COUNT
+  n = sapply(split(dfs$publisher, dfs$publication_year), function (x) {
+         length(unique(na.omit(x)))})
+  df = data.frame(year = names(n), n = unname(n))
+  if (nrow(df) > 1) {
+    p = ggplot(df, aes(x = year, y = n)) +
+        geom_bar(stat = "identity") +
+       ggtitle(paste("Publishers:", catalogue, place)) +
+       scale_x_discrete(breaks = seq(min(sel.years), max(sel.years), 10))
+  } else {
+    p <- ggplot() + ggtitle("Insufficient data")
+  }
+  pics[[paste(place, catalogue, sep = "-")]] <- p
+}
+}
+
+grid.arrange(pics[[2]], pics[[4]],
+             pics[[6]], pics[[8]], pics[[10]], nrow = 2)
+
+# Remove the pics to save memory
+rm(pics)	     
+```
+---
+
 ### Acknowledgements
 
 Supported by Academy of Finland (grant 293316).
