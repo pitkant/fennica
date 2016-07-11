@@ -1,11 +1,13 @@
-# Read data & combine
-# Define time span
+# Read data & combine / Define time span
 library(dplyr)
 
 if (file.exists("df.combined.Rds")) {
+  
   message("Opening df.combined.Rds")
   df.combined.preprocessed <- readRDS("df.combined.Rds")
+  
 } else {
+  
   message("Creating df.combined.Rds by combining df.Rds-files from Kungliga & Fennica")
 
   # TODO:
