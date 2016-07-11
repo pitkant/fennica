@@ -58,13 +58,15 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### TODO
 
-Karttakuvassa Greifswald, Lund ei näy. Tätä olisi hyvä saada kehitettyä, tällaisena tää ei ihan toimi.
+sivu 3. Datamäärät koodista tähän takaisin. Deletoin tän vahingossa aikaisemmin kun koodi ei toiminut.
 
-Dissertation languages: kategoria "other" sisällön selvittäminen!
+sivu 8. Karttakuvassa Greifswald, Lund ei näy. Tätä olisi hyvä saada kehitettyä, tällaisena tää ei ihan toimi.
 
-Mikko tsekkaa kuvien tekstit yms.
+sivu 12. Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata mitkä vuodet highlightataan. Tällaisena ei vielä toimi.
 
-Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata myös mitkä vuodet highlightataan.
+sivu 27. Dissertation languages: kategoria "other" sisällön selvittäminen!
+
+Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 ---
 
@@ -114,11 +116,11 @@ Overcoming a national gaze in the analysis by focusing on how knowledge producti
 
 ### Outline of the presentation
 
-1) Big picture and political events
+1) Big picture & political events
 
 2) Publishers in Sweden and Turku
 
-3) Languages and religious publishing in Finland
+3) Languages & religious texts in Finland
 
 4) University curriculum & Enlightenment in Finland
 
@@ -126,7 +128,7 @@ Overcoming a national gaze in the analysis by focusing on how knowledge producti
 
 ---
 
-### Big Picture & Political Events
+### 1. Big Picture & Political Events
 
 ---
 
@@ -200,7 +202,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 
 [Big Picture & Political Events]
 
-### Peaks and drops – role of publishers and contingency
+### Fennica drop in 1700-1721, Kungliga peak in 1760-1770s, effect of Napoleonic wars (1803-1815)
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4, out.width="200px"}
 df2 <- df0 %>% group_by(publication_decade, catalog) %>%
@@ -379,7 +381,7 @@ library(ggplot2)
 
 ---
 
-### Publishers
+### 2. Publishers
 
 ---
 
@@ -591,11 +593,11 @@ print(p)
 
 ---
 
-### Languages
+### 3. Languages & religious texts in Finland
 
 ---
 
-[Languages]
+[Languages & religious texts in Finland]
 
 ### Different languages in Fennica and Kungliga (percentage)
 
@@ -659,7 +661,7 @@ print(p)
 ---
 
 
-[Languages]
+[Languages & religious texts in Finland]
 
 ### Development of use of different languages in Finnish National Bibliography
 
@@ -713,7 +715,7 @@ print(p)
 
 ---
 
-[Languages]
+[Languages & religious texts in Finland]
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
 
@@ -776,7 +778,7 @@ rm(pics)
 
 ---
 
-[Languages]
+[Languages & religious texts in Finland]
 
 ### Topic diversity in different languages in Finnish publications
 
@@ -801,11 +803,7 @@ print(p)
 
 ---
 
-### Religious texts in Finland
-
----
-
-[Religious texts in Finland]
+[Languages & religious texts in Finland]
 
 ### Devotional literature (catechisms, hymns, prayer collections, etc.) 
 
@@ -858,7 +856,7 @@ catalogue <- "Fennica"
 
 ---
 
-[Religious texts in Finland]
+[Languages & religious texts in Finland]
 
 ### Temporary sermons in Latin and Swedish
 
@@ -907,7 +905,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ---
 
-[Religious texts in Finland]
+[Languages & religious texts in Finland]
 
 ### Combining devotional literature and temporary sermons
 
@@ -959,7 +957,7 @@ catalogue <- "Fennica"
 
 ---
 
-### University curriculum & Enlightenment in Finland
+### 4. University curriculum & Enlightenment in Finland
 
 ---
 
