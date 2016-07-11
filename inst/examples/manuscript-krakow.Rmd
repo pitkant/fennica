@@ -3286,6 +3286,11 @@ p <- ggplot(df, aes(x = publication_decade, y = n)) +
 print(p)
 ```
 
+---
+
+TODOja KRAKOVAN JÄLKEEN tehtäviä:
+
+Vaasan merkitys Turun rinnalla 1700-luvun lopulla. Tämä pitää ottaa mukaan analyysiin. Todella mielenkiintoinen case joka myös näkyy tuossa kokonaiskuvassa. Tästä siis tarkemmat analyysit.
 
 ---
 
