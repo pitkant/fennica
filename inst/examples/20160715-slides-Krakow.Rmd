@@ -64,9 +64,9 @@ Karttakuvassa Greifswald, Lund ei näy. Tätä pitää vähän miettiä.
 
 Dissertation languages: kategoria "other" sisällön selvittäminen!
 
-Joissain kuvista puuttuu vielä mystisesti ne akselitiedot. Lisäksi Mikko tsekkaa kuvien tekstit yms.
+Mikko tsekkaa kuvien tekstit yms.
 
-Gävle-kuvan kohtalo pitää tsiigata myös.
+Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata myös mitkä vuodet highlightataan.
 
 ---
 
@@ -136,8 +136,6 @@ Overcoming a national gaze in the analysis by focusing on how knowledge producti
 
 ### Publishing activity in Swedish University Towns (Kungliga)
 
-Turussa kirjantuotanto laskee huomattavasti isonvihan (1710-luku), pikkuvihan (1740-luku) ja Suomen sodan (1808-1809) aikana. Pikkuviha ei ollut yhtä dramaattinen, eikä näy niin totaalisesti. Suomen sodan (ja Napoleonin sotien) seuraukset olivat tietysti kaikkein dramaattisimmat.
-
 ```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
 library(dplyr)
 library(ggmap)
@@ -206,10 +204,6 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 
 ### Peaks and drops – role of publishers and contingency
 
-TODO: Tässä olisi hyvä olla vuodet näkyvissä. LL: en kyl nyt löydä
-vikaa vaikka pitäis olla hyvin simppeli. Täytyy katsoa lisää
-Krakovassa.
-
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4, out.width="200px"}
 df2 <- df0 %>% group_by(publication_decade, catalog) %>%
                summarise(n = n())
@@ -218,7 +212,8 @@ df2$highlight[df2$catalog == "Kungliga" &
 	      df2$publication_decade %in% c(1770, 1810)] <- TRUE
 df2$highlight[df2$catalog == "Fennica" &
 	      df2$publication_decade %in% c(1710, 1810)] <- TRUE
-v <- seq(1500, 1800, 50)	      
+v <- seq(1500, 1800, 50)
+theme_set(theme_bw(20))
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = catalog), color = "black") +
      geom_point(aes(shape = catalog, color = highlight, size = highlight)) +
@@ -237,11 +232,10 @@ print(p)
 [Big Picture & Political Events]
 
 ### Comparing publishing activity in Swedish University towns
-TODO: Tässä olisi hyvä olla vuodet näkyvissä.
 
 Turku / Uppsala / Lund / Stockholm 
 
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=6, fig.height=5, fig.show="hold", out.width="150px"}
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=6, fig.height=5, fig.show="hold", out.width="160px"}
 v <- seq(1500, 1800, 50)
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
@@ -270,9 +264,9 @@ for (catal in unique(df2$catalog)) {
 
 [Big Picture & Political Events]
 
-### Role of pamphleteering in 1766-1774
+### Explaining the 1760-1770 publishing peak in Sweden
 
-Pamphleteering clearly causes the peak in publishing during the time of abolished censorship in Sweden.
+Role of pamphleteering in 1766-1774 plays a crucial role in the peak in publishing during the time of abolished censorship in Sweden.
 
 
 ```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
@@ -305,14 +299,14 @@ print(p)
 
 [Big Picture & Political Events]
 
-### Gävle in Riksdagar
+### Stockholm & political events
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-Gävle (gray) during riksdagar (Kungliga) TODO: Lopuks muutetaan takas Gävleks. Nyt ei toimi, siksi Greifswald analyysi tässä.
+TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät. Miksi katalogina lukee Fennica?
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-  myplace <- "Gavle" # Norrköping / Stockholm
+  myplace <- "Stockholm" # Norrköping / Stockholm
   minyear <- 1700
   maxyear <- 1800
   catalog <- "Kungliga"
@@ -343,8 +337,8 @@ library(reshape2)
 dfm <- melt(publications) 
   names(dfm) <- c("Time", "Documents")
   dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-  ymin = min(0.0001)
-  ymax = max(dfm$Documents)
+  ymin = min(0.1)
+  ymax = max(60)
 
   rect_left <- c(min(na.omit(dfm$date)),
                1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
