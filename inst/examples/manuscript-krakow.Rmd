@@ -3301,7 +3301,57 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        ggtitle(paste("Languages (", catalogue, ")", sep = ""))
 print(p)
 ```
+---
 
+[Languages & religious texts in Finland]
+
+### Combining devotional literature and temporary sermons
+
+```{r topics3, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat","hautajaiset","häät","juhlamenot")
+catalogue <- "Fennica"
+  df <- df0 # selected time span
+  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+
+  # Selected catalogue with selected topics
+  df <- df %>% filter(catalog == catalogue & hit)
+
+  # Selected catalogue with selected years
+  df = filter(df0, catalog == catalogue & publication_year >= 1640 & publication_year <= 1828)
+
+  lang <- paste("language.", langs, sep = "")
+  otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+  dfl <- NULL
+  for (lan in lang) {
+    # Classify a document to the specifed language
+    # If document is assigned with languages, each case is considered
+    # so one doc may have multiple entries corresponding to different languages
+    # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+    # Combine data frames for specified languages
+    dflsub <- filter(df, df[[lan]])
+    if (nrow(dflsub) > 0) {
+      dflsub$language <- gsub("language.", "", lan)
+      dfl <- bind_rows(dfl, dflsub)
+    }
+}
+
+  # -------------------------------------------
+
+  df <- dfl %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       #geom_point(aes(col = language, shape = language), size = 5) +
+       #geom_line(aes(col = language, shape = language)) +
+       geom_bar(stat = "identity", aes(fill = language, )) +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+  print(p)
+```
 
 ---
 
