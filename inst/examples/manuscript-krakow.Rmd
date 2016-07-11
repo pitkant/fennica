@@ -3217,6 +3217,59 @@ print(p)
 ---
 
 
+[Languages & religious texts in Finland]
+
+### Development of use of different languages in Finnish National Bibliography
+
+```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
+catalogue <- "Fennica"
+df <- df0
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+# ----------------------------------
+
+df <- dfl %>% filter(catalog == catalogue)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# TITLE COUNT
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+```
+---
+
 [Languages]
 
 ### Development of use of different languages in Kungliga data
