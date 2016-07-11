@@ -58,9 +58,7 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### TODO
 
-Esitysjärjestys: Sivun 19 slide ("Development of use of different languages in Finnish NationalBibliography") pitäisi tulla sivun 21 sliden ("Different languages in Fennica and Kungliga (percentage)") jälkeen (samalla sivun 20 slide "Development of use of different languages in Kungliga data" putoaa pois). Mutta nyt kun muutan järjestystä niin sivun 21 slide ei sen jälkeen toimi. Tämä pitää fiksata.
-
-Karttakuvassa Greifswald, Lund ei näy. Tätä pitää vähän miettiä.
+Karttakuvassa Greifswald, Lund ei näy. Tätä olisi hyvä saada kehitettyä, tällaisena tää ei ihan toimi.
 
 Dissertation languages: kategoria "other" sisällön selvittäminen!
 
@@ -235,7 +233,7 @@ print(p)
 
 Turku / Uppsala / Lund / Stockholm 
 
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=6, fig.height=5, fig.show="hold", out.width="160px"}
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=6, fig.height=5, fig.show="hold", out.width="170px"}
 v <- seq(1500, 1800, 50)
 selected.places = c("Turku", "Uppsala", "Lund", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
@@ -595,97 +593,6 @@ print(p)
 
 ### Languages
 
-
----
-
-
-[Languages]
-
-### Development of use of different languages in Finnish National Bibliography
-
-```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
-catalogue <- "Fennica"
-df <- df0
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-# ----------------------------------
-
-df <- dfl %>% filter(catalog == catalogue)
-df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-# TITLE COUNT
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Title count (n)") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
-
-
-# PAPER CONSUMPTION
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
-```
-
----
-
-[Languages]
-
-### Development of use of different languages in Kungliga data
-
-```{r language1-kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="150px", fig.show="hold"}
-catalogue = "Kungliga"
-  df <- dfl %>% filter(catalog == catalogue) %>%
-     	        group_by(publication_decade, language) %>%
-                summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-
-# TITLE COUNT
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Title count (n)") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
-
-
-# PAPER CONSUMPTION
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
-```
-
-
 ---
 
 [Languages]
@@ -701,6 +608,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
   } else if (catalogue == "Kungliga") {
     df <- df.full # full time span
   }
+  langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
   df <- df %>% filter(catalog == catalogue)%>%
         filter(publication_year >= 1600 & publication_year <= 1900)
 
@@ -748,7 +656,60 @@ print(p)
 }
 ```
 
+---
 
+
+[Languages]
+
+### Development of use of different languages in Finnish National Bibliography
+
+```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
+catalogue <- "Fennica"
+df <- df0
+langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  # Classify a document to the specifed language
+  # If document is assigned with languages, each case is considered
+  # so one doc may have multiple entries corresponding to different languages
+  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
+  # Combine data frames for specified languages
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+
+# ----------------------------------
+
+df <- dfl %>% filter(catalog == catalogue)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# TITLE COUNT
+p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+
+
+# PAPER CONSUMPTION
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_point(aes(col = language, shape = language), size = 5) +
+       geom_line(aes(col = language, shape = language)) +       
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+print(p)
+```
 
 ---
 
@@ -1063,48 +1024,6 @@ print(p)
 ```
 
 ---
-
-[University curriculum & Enlightenment in Finland]
-
-### Printing of theology in different languages in Turku
-
-```{r topics-101, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
-sel =  c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia")
-catalogue <- "Fennica"
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-  filter(publication_year >= 1640 & publication_year <= 1800)
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-# Selected catalogue with selected topics
-df <- dfl
-df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-df <- df %>% filter(hit)
-df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-  # PAPER CONSUMPTION
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
-  print(p)
-```
-
----
-
 
 [University curriculum & Enlightenment in Finland]
 
