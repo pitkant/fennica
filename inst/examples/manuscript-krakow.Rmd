@@ -3328,6 +3328,13 @@ df <- df %>% group_by(publication_decade, language) %>%
 ```
 
 ---
+# Context
+
+- Finnish knowledge production 1640-1828 can only be understood in the Swedish context.
+
+- Academy of Turku as part of the Swedish University system is the centre of Finnish knowledge production.
+
+### Challenges: nationally delineated perspectives by using nationally collected materials
 
 
 ---
