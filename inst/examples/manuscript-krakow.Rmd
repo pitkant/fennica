@@ -3288,6 +3288,50 @@ print(p)
 
 ---
 
+[University curriculum & Enlightenment in Finland]
+
+### Printing of theology in different languages in Turku
+
+```{r topics-101, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+sel =  c("kirkkohistoria","raamatunhistoria","eksegetiikka","homiletiikka","dogmatiikka","teologia")
+catalogue <- "Fennica"
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+  filter(publication_year >= 1640 & publication_year <= 1800)
+lang <- paste("language.", langs, sep = "")
+otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
+dfl <- NULL
+for (lan in lang) {
+  dflsub <- filter(df, df[[lan]])
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
+}
+# Selected catalogue with selected topics
+df <- dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+  # PAPER CONSUMPTION
+  theme_set(theme_bw(20))
+  p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+  print(p)
+```
+
+---
+
+
+---
+
 TODOja KRAKOVAN JÄLKEEN tehtäviä:
 
 Vaasan merkitys Turun rinnalla 1700-luvun lopulla. Tämä pitää ottaa mukaan analyysiin. Todella mielenkiintoinen case joka myös näkyy tuossa kokonaiskuvassa. Tästä siis tarkemmat analyysit.
