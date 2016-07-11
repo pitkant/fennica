@@ -15,4 +15,5 @@ data
 *.Rds
 *.RDs
 *.RData
-
+kungliga.Rds
+fennica.Rds
