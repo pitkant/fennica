@@ -74,15 +74,15 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 **Idea**: to study early modern knowledge production, all of it (1470-1830)
 
-**How?** By combining library catalogues (Fennica, Kungliga, ESTC, CERL)
+**How?** By combining library catalogues (Fennica, Kungliga, ESTC, CERL's HPB database)
 
 **Important**: to clean up the data (90% of the work!) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
 
 **How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.
 
----
+Overcoming a national gaze in the analysis by focusing on how knowledge production happened through a more complex network of cities.
 
-[Intro]
+---
 
 ### Data (1470-1828):
 
@@ -90,27 +90,13 @@ TÄHÄN DATA MÄÄRÄ KOODISTA!
 
 ### Method
 
-- Open source tools for library catalogues (Github)
+- Open source tools for library catalogues (Github/Fennica)
 
 - Fully transparent and reproducible
 
 - Scales up to new catalogues and tasks
 
 - Benefit no. 1: once the work has been done, the data is available for everyone to use and to enrich. The generic data analytical ecosystem is designed with even unforeseen changes in mind.
-
----
-
-[Intro]
-
-### Context
-
-- Finnish knowledge production 1640-1828 can only be understood in the Swedish context.
-
-- Academy of Turku as part of the Swedish University system is the centre of Finnish knowledge production.
-
-### Challenges: nationally delineated perspectives by using nationally collected materials
-
-Overcoming a national gaze in the analysis by focusing on how knowledge production happened through a more complex network of cities.
 
 ---
 
@@ -660,61 +646,6 @@ print(p)
 
 ---
 
-
-[Languages & religious texts in Finland]
-
-### Development of use of different languages in Finnish National Bibliography
-
-```{r language1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
-catalogue <- "Fennica"
-df <- df0
-langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
-lang <- paste("language.", langs, sep = "")
-otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
-df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
-dfl <- NULL
-for (lan in lang) {
-  # Classify a document to the specifed language
-  # If document is assigned with languages, each case is considered
-  # so one doc may have multiple entries corresponding to different languages
-  # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
-  # Combine data frames for specified languages
-  dflsub <- filter(df, df[[lan]])
-  if (nrow(dflsub) > 0) {
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
-  }
-}
-
-# ----------------------------------
-
-df <- dfl %>% filter(catalog == catalogue)
-df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(),
-                 paper = sum(paper.consumption.km2, na.rm = TRUE))
-
-# TITLE COUNT
-p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Title count (n)") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
-
-
-# PAPER CONSUMPTION
-p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       xlab("Publication year") +
-       ylab("Paper consumption") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
-print(p)
-```
-
----
-
 [Languages & religious texts in Finland]
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
@@ -1202,7 +1133,7 @@ p <- ggplot(df, aes(x = publication_decade, y = duplicates, fill = catalog)) +
        geom_bar(position = "dodge", stat = "identity") +
        ylab("Duplicates (%)") +
        scale_fill_manual(values = c("blue", "red")) + 
-       ggtitle(paste("Duplicates", paste(range(na.omit(df$publication_decade)), collapse = "-"))) 
+       ggtitle(paste("Certain duplicates Fennica-Kungliga", paste(range(na.omit(df$publication_decade)), collapse = "-"))) 
 
 print(p)
 ```
