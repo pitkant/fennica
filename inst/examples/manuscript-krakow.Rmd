@@ -3379,6 +3379,45 @@ df <- df %>% group_by(publication_decade, language) %>%
        ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
   print(p)
 ```
+---
+
+[Publishers in Sweden and Turku]
+
+### Rock Bottom of the Great Northern War (1700-1721)
+
+Publisher title count changes around 1700 with a nearly detrimental drop in Turku, significant publishing place in Finland at the time.
+
+```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
+# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/drop1700B-1.png
+
+catalogue <- "Fennica"
+place <- "Turku"
+
+df <- df0
+df <- df %>%
+        filter(catalog == catalogue & publication_place == place) %>%
+        filter(publication_year >= 1650 & publication_year < 1750)
+
+# Selected ones
+top <- names(top(df, "publisher", 5))
+df$publisher[!df$publisher %in% top] <- "Other"
+df$publisher <- factor(df$publisher, levels = c(top, "Other"))
+
+# Publishing per year & publisher	
+npub <- df %>%
+     	  group_by(publication_year, publisher) %>%
+	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+
+theme_set(theme_bw(20))
+p <- ggplot(npub, aes(x = publication_year, y = n, group = publisher)) +
+       geom_point(size = 5, aes(shape = publisher, color = publisher)) +
+       geom_smooth(col = "black", aes(shape = publisher, fill = publisher, color = publisher)) + 
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ylim(c(0, 1.1*max(npub$n))) +
+       ggtitle(paste("Title count (", place, "/", catalogue, ")", sep = ""))
+print(p)
+```
 
 ---
 # Context
