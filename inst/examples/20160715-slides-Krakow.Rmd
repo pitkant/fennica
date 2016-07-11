@@ -62,7 +62,7 @@ sivu 3. Datamäärät koodista tähän takaisin. Deletoin tän vahingossa aikais
 
 sivu 8. Karttakuvassa Greifswald, Lund ei näy. Tätä olisi hyvä saada kehitettyä, tällaisena tää ei ihan toimi.
 
-sivu 12. Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata mitkä vuodet highlightataan. Tällaisena ei vielä toimi.
+sivu 12. Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata mitkä vuodet highlightataan. Tällaisena ei vielä toimi. Onhan katalogi oikein?
 
 sivu 27. Dissertation languages: kategoria "other" sisällön selvittäminen!
 
@@ -114,9 +114,9 @@ Overcoming a national gaze in the analysis by focusing on how knowledge producti
 
 ---
 
-### Outline of the presentation
+### Outline of Quantitative Study of Finnish Knowledge Production, 1640-1828
 
-1) Big picture & political events
+1) General trends & political events
 
 2) Publishers in Sweden and Turku
 
@@ -128,11 +128,11 @@ Overcoming a national gaze in the analysis by focusing on how knowledge producti
 
 ---
 
-### 1. Big Picture & Political Events
+### 1. General trends & political events
 
 ---
 
-[Big Picture & Political Events]
+[General trends & political events]
 
 ### Publishing activity in Swedish University Towns (Kungliga)
 
@@ -200,7 +200,7 @@ grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 
 ---
 
-[Big Picture & Political Events]
+[General trends & political events]
 
 ### Fennica drop in 1700-1721, Kungliga peak in 1760-1770s, effect of Napoleonic wars (1803-1815)
 
@@ -229,7 +229,7 @@ print(p)
 
 ---
 
-[Big Picture & Political Events]
+[General trends & political events]
 
 ### Comparing publishing activity in Swedish University towns
 
@@ -262,7 +262,7 @@ for (catal in unique(df2$catalog)) {
 
 ---
 
-[Big Picture & Political Events]
+[General trends & political events]
 
 ### Explaining the 1760-1770 publishing peak in Sweden
 
@@ -297,13 +297,13 @@ print(p)
 
 ---
 
-[Big Picture & Political Events]
+[General trends & political events]
 
-### Stockholm & political events
+### Stockholm & democratic cycles
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät. Miksi katalogina lukee Fennica?
+TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät. Miksi katalogina lukee Fennica? Pitää olla Kungligan mukaan data tässä.
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
   myplace <- "Stockholm" # Norrköping / Stockholm
@@ -381,11 +381,11 @@ library(ggplot2)
 
 ---
 
-### 2. Publishers
+### 2. Publishers in Sweden and Turku
 
 ---
 
-[Publishers]
+[Publishers in Sweden and Turku]
 
 ### Publishers in Swedish University towns (and Finland)
 
@@ -447,7 +447,7 @@ print(p)
 
 ---
 
-[Publishers]
+[Publishers in Sweden and Turku]
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
@@ -515,7 +515,7 @@ rm(pics)
 ---
 
 
-[Publishers]
+[Publishers in Sweden and Turku]
 
 ### Title count of the output of publishers in Turku
 
@@ -553,7 +553,7 @@ print(p)
 
 ---
 
-[Publishers]
+[Publishers in Sweden and Turku]
 
 ### Rock Bottom of the Great Northern War (1700-1721)
 
