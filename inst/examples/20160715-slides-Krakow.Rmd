@@ -9,7 +9,7 @@ output:
 ---
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
-# Default time span for the slides
+# Default time span
 min.year <- 1488
 max.year <- 1828
 
@@ -72,28 +72,39 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 ---
 
 
-## Global knowledge production and massive library catalogues
+## Global knowledge production and library catalogues
 
-**Idea**: Study early modern knowledge production, all of it (1470-1830)
+**Idea**: Study early modern knowledge production, all of it (1470-1830)  
 
-**How?** Combine library catalogues (Fennica, Kungliga, ESTC, CERL HPB database)
+**How?** Combine library catalogues (Fennica, Kungliga, ESTC, CERL HPB database)  
 
-**Important**: cleaning up the data (90% of the effort!) and considering how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
+**Important**: cleaning up the data (90% of the effort!) and considering how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.  
 
-**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.
+**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.  
 
 **Overcoming a national gaze** focus on knowledge production through more complex cross-national networks
 
 ---
 
-### Data: bibliographic catalogues 1640-1828
+## Data: bibliographic catalogues 1640-1828  
 
-- Fennica: `r nrow(subset(df0, catalog == "Fennica" & publication_year >= 1640 & publication_year < 1828))` documents
-- Kungliga: `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year < 1828))` documents
 
-```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+**Fennica** Finnish National bibliography
+
+- 900,000+ books and monographies (printed and electronic; 1488-)
+- 70,000+ continuous publications (journals or series; 1771-)
+- Series, maps, audiovisual, electronic material
+- `r nrow(subset(df0, catalog == "Fennica" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
+
+**Kungliga**  Swedish National bibliography
+
+- `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
+- Altogether > 18 million entries
+
+```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
 library(dplyr)
 library(ggplot2)
+theme_set(theme_bw(20))
 df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>% group_by(catalog, publication_decade) %>% tally()
 p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) + 
        geom_point() + 
@@ -108,14 +119,15 @@ print(p)
 
 ### Methods: Open data analytical ecosystem
 
-- **Automated** scales well with new data and unforeseen changes
+**Customized** dedicated R packages for bibliographic analysis combine flexibility with automation
 
-- **Customized** dedicated R packages for bibliographic analysis combine automation with flexibility
+**Automated** scales well with new data and unforeseen changes; a million documents ~ 30 minutes
 
-- **Reusable** the polished data can be reused and further enriched
+**Open source** fully transparent and reproducible data analytics; every single detail, from raw data to final visualization https://github.com/rOpenGov/fennica
 
-- **Open source** fully transparent and reproducible data analytics  
-  https://github.com/rOpenGov/fennica
+**Collaboration & Reuse** further use and enrichment
+
+**Research potential** greatly underestimated; world is full of metadata collections
 
 ![Data Science Workflow](data-science.png)  
 \tiny{(Figure by Hadley Wickham)}
@@ -123,45 +135,52 @@ print(p)
 
 ---
 
-### Examples of the tools
+### Data processing is a major effort and should not be underestimated
 
-**Parse** From original MARC/XML to CSV to RData 
+We have built custom tools to automate all analyses from raw data to final summary documents (these slides, for instance).
 
-**Preprocess** Cleaning up the fields. 
+![](parsing.png) ![](iceberg.png)
 
-```{r, message=FALSE, warning=FALSE}
+---
+
+
+### Preprocess & Enrich
+
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+library(bibliographica, quiet = TRUE)
+```
+
+**Clean up messy entries**
+
+```{r, message=FALSE, warning=FALSE,echo=TRUE}
 polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 polish_place("Sur l'imprimea londres")
 ```
 
-**Enrich**
+
+**Augment data** (geocoordinates, gender, ..)
 
 ```{r, message=FALSE, warning=FALSE}
 get_country("Porvoo")
 ```
 
+---
 
-**Analyse**
 
-```{r, message=FALSE, warning=FALSE}
-library(knitr)
-kable(as.data.frame(top(df0, "publication_place", 3)))
-```
+### Analyse & Visualize
 
-**Visualize**
+**Fast time line analysis**
 
 ```{r, fig.width=10, fig.height=7, message=FALSE, warning=FALSE}
 titlecount_timeline(subset(df0, catalog == "Fennica"), 
-                         "publisher", nmin = 500, mode = "n")$plot
+          "publisher", nmin = 500, mode = "n")$plot
 ```
-
 
 ---
 
 
-### Outline
-
-**Quantitative Study of Finnish Knowledge Production, 1640-1828**
+### Practical exercise: Quantitative Study of Finnish Knowledge Production, 1640-1828
 
 1) General trends & political events
 
@@ -242,8 +261,6 @@ for (i in c(1650, 1710, 1760, 1800)) {
 
 }
 
-#library(gridExtra)
-#grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
 library(gridExtra)
 grid.arrange(pics[[1]], nrow = 1)
 ```
@@ -273,11 +290,13 @@ df2$highlight[df2$catalog == "Fennica" &
 v <- seq(1500, 1800, 50)
 theme_set(theme_bw(20))
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
-     geom_line(aes(linetype = catalog), color = "black") +
+     geom_line(aes(group = catalog), color = "black") +
+     #geom_smooth(aes(fill = catalog)) + 
      geom_point(aes(shape = catalog, color = highlight, size = highlight)) +
      ylab("Title count (n)") + xlab("Publication year") +
-     scale_color_manual(values = c("darkgray", "black")) +
-     theme(legend.position = "none") +
+     scale_color_manual(values = c("black", "black")) +
+     #scale_color_manual(values = c("black")) +
+       theme(legend.position = "none") +
      scale_x_continuous(breaks = v, labels = v)
      # ggtitle("Overall publishing activity")
 print(p)
@@ -323,10 +342,10 @@ for (catal in unique(df2$catalog)) {
 
 ### Explaining the 1760-1770 publishing peak in Sweden
 
-Role of pamphleteering in 1766-1774 plays a crucial role in the peak in publishing during the time of abolished censorship in Sweden.
+Pamphleteering plays a crucial role during abolished censorship in Sweden.
 
 
-```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=6, out.width="280px", fig.show="hold"}
+```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=4, out.width="280px", fig.show="hold"}
 df <- df0 %>%
         filter(catalog == "Kungliga")
 
@@ -495,7 +514,8 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +        
-       ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
+       guides(fill = guide_legend(reverse = TRUE, title = "")) #+ 
+       #ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
 
 
 print(p)
@@ -508,7 +528,7 @@ print(p)
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
-```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=15}
+```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -557,7 +577,7 @@ for (varname in c("n", "paper", "publishers")) {
        p <- p + ggtitle(paste("Publishers (", catalogue, ")", sep = "")) +
                        ylab("Publishers (%)")
      }     
-
+  p <- p + guides(fill = guide_legend(reverse = TRUE, title = "")) 
 
   pics[[paste(catalogue, varname, sep = "-")]] <- p
 
@@ -574,7 +594,7 @@ rm(pics)
 
 [Publishers in Sweden and Turku]
 
-### Title count of the output of publishers in Turku
+### Top publishers in Turku/Fennica (title count)
 
 ```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 place <- "Turku"
@@ -603,8 +623,8 @@ theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) + 
        xlab("Publication year") +
-       ylab("Title count (n)") +        
-       ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
+       ylab("Title count (n)") #+        
+       #ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
 print(p)
 ```
 
@@ -616,10 +636,10 @@ print(p)
 
 [Languages & religious texts in Finland]
 
-### Different languages in Fennica and Kungliga (percentage)
+### Language comparison between catalogues (percentage)
 
-
-```{r language-perc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=12, out.width="150px", fig.show="hold"}
+```{r languageperc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=10}
+pics <- list()
 for (catalogue in c("Fennica", "Kungliga")) {
 
   if (catalogue == "Fennica") {
@@ -631,8 +651,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df <- df %>% filter(catalog == catalogue)%>%
         filter(publication_year >= 1600 & publication_year <= 1900)
 
-  library(dplyr)
-  library(tidyr)
+library(dplyr)
+library(tidyr)
 library(magrittr)
 library(reshape2)
   
@@ -669,10 +689,14 @@ p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
      xlab("Publication year") +
      ylab("Title count frequency (%)") +
-     ggtitle(paste("Languages (", catalogue, ")", sep = "")) +
+     #ggtitle(paste("Languages (", catalogue, ")", sep = "")) +
+     ggtitle(catalogue) +
+     guides(fill = guide_legend(reverse = TRUE, title = "")) +
      scale_fill_brewer(palette="Paired")
-print(p)
+pics[[catalogue]] <- p
 }
+library(gridExtra)
+grid.arrange(p[[1]], p[[2]], nrow = 2)
 ```
 
 ---
@@ -725,7 +749,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
       geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
       xlab("Publication year") +
       ylab("Title count frequency (%)") +
-      ggtitle(paste("Languages (", myplace, "/", catalogue, ")", sep = "")) +
+      #ggtitle(paste("Languages (", myplace, "/", catalogue, ")", sep = "")) +
+      ggtitle(paste(myplace, "/", catalogue)) +
       scale_fill_brewer(palette="Paired")
     pics[[paste(catalogue, myplace, sep = "-")]] <- p
   }
@@ -742,7 +767,7 @@ rm(pics)
 
 [Languages & religious texts in Finland]
 
-### Topic diversity in different languages in Finnish publications
+### Topic richness per language (Finnish publications)
 
 ```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 catalogue <- "Fennica"
