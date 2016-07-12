@@ -169,7 +169,7 @@ titlecount_timeline(subset(df0, catalog == "Fennica"),
 ---
 
 
-### Practical exercise: Quantitative Study of Finnish Knowledge Production, 1640-1828
+### Outline of Quantitative Study of Finnish Knowledge Production, 1640-1828
 
 1) General trends & political events
 
@@ -184,7 +184,7 @@ Visible roots of the diversity of "Finnishness" reflected in knowledge productio
 ---
 
 
-1. General trends & political events
+**1. General trends & political events**
 
 
 ---
@@ -299,7 +299,7 @@ print(p)
 
 ### Comparing publishing activity in Stockholm and Turku
 
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=8, fig.height=5, fig.show="hold", out.width="150px"}
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=10, fig.height=9, fig.show="hold", out.width="160px"}
 v <- seq(1500, 1800, 100)
 selected.places = c("Turku", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
@@ -448,7 +448,7 @@ for (catal in "Kungliga") {
 
 ---
 
-2. Publishers in Sweden and Turku
+**2. Publishers in Sweden and Turku**
 
 ---
 
@@ -621,7 +621,7 @@ print(p)
 
 ---
 
-3. Languages & religious texts in Finland
+**3. Languages & religious texts in Finland**
 
 ---
 
@@ -887,7 +887,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ---
 
-4. University curriculum & Enlightenment in Finland
+**4. University curriculum & Enlightenment in Finland**
 
 ---
 
@@ -1043,7 +1043,7 @@ print(p)
 
 Paper consumption for different document formats over time. 
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="150px"}
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=9, fig.show="hold", out.width="160px"}
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
@@ -1075,7 +1075,7 @@ for (catal in unique(df0$catalog)) {
 
 ### Enlightenment literature read in Finland
 
-```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="160px", fig.show="hold"}
+```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10, out.width="160px", fig.show="hold"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
