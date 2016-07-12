@@ -4,9 +4,9 @@ author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
 output: 
   beamer_presentation:
-    theme: "Montpellier"
-    colortheme: "default"
-    fonttheme: "structuresmallcapsserif"
+    theme: "Singapore"
+    colortheme: "orchid"
+    fonttheme: "professionalfonts"
 ---
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
@@ -1098,30 +1098,6 @@ for (catal in unique(df0$catalog)) {
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
-        filter(publication_year >= 1640 & publication_year <= 1828)
-  top.authors <- names(bibliographica::top(df, field = "author", n = 10))
-  dfs <- df %>% filter(author %in% top.authors) %>%
-         group_by(author, publication_decade) %>%
-         tally() %>%
-         arrange(publication_decade)
-  p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
-       geom_bar(stat = "identity", position = "stack", color = "black") +
-       xlab("Publication Decade") +
-       ylab("Title Count") +
-       scale_fill_grey() +
-       guides(fill = guide_legend("Author")) +
-       ggtitle(paste("Title count top authors\n", catalogue)) +
-       xlim(c(1640, 1828))
-  print(p)
-}
-```
-
----
-
-```{r authors24, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
-theme_set(theme_bw(20))
-for (catalogue in c("Fennica", "Kungliga")) {
-  df <- filter(df0, catalog == catalogue) %>%filter(gatherings == "8vo")%>%
         filter(publication_year >= 1640 & publication_year <= 1828)
   top.authors <- names(bibliographica::top(df, field = "author", n = 10))
   dfs <- df %>% filter(author %in% top.authors) %>%
