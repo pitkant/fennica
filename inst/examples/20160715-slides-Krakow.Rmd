@@ -3,7 +3,9 @@ title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Produ
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
 output: 
-  beamer_presentation
+  beamer_presentation:
+    theme: "default"
+    colortheme: "dolphin"
 ---
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
@@ -11,6 +13,8 @@ output:
 min.year <- 1488
 max.year <- 1828
 
+library(ggmap)
+library(gisfin)
 library(stringr)
 library(dplyr)
 library(tidyr)
@@ -56,11 +60,8 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ---
 
+
 ### TODO
-
-sivu 3. Datamäärät koodista tähän takaisin. Deletoin tän vahingossa aikaisemmin kun koodi ei toiminut.
-
-sivu 8. Karttakuvassa Greifswald, Lund ei näy. Tätä olisi hyvä saada kehitettyä, tällaisena tää ei ihan toimi.
 
 sivu 12. Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata mitkä vuodet highlightataan. Tällaisena ei vielä toimi. Onhan katalogi oikein?
 
@@ -70,37 +71,89 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 ---
 
-## From particular data to global perspective?
 
-**Idea**: to study early modern knowledge production, all of it (1470-1830)
+## Global knowledge production and large-scale library catalogues
 
-**How?** By combining library catalogues (Fennica, Kungliga, ESTC, CERL's HPB database)
+**Idea**: Study early modern knowledge production, all of it (1470-1830)
 
-**Important**: to clean up the data (90% of the work!) and to take into account how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
+**How?** Combine library catalogues (Fennica, Kungliga, ESTC, CERL HPB database)
+
+**Important**: cleaning up the data (90% of the effort!) and considering how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.
 
 **How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.
 
-**Overcoming a national gaze** by focusing on how knowledge production happened through a more complex network of cities.
+**Overcoming a national gaze** focus on knowledge production through more complex cross-national networks
+
+**Data: bibliographic catalogues 1640-1828**
+
+- Fennica: `r nrow(subset(df0, catalog == "Fennica" & publication_year >= 1640 & publication_year < 1828))` documents
+- Kungliga: `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year < 1828))` documents
+
+```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+library(dplyr)
+library(ggplot2)
+df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>% group_by(catalog, publication_decade) %>% tally()
+p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) + 
+       geom_point() + 
+       geom_line() + 
+       ylab("Documents (n)") + xlab("Publication year") +
+       scale_color_manual(values = c("blue", "darkgreen"))
+print(p)
+```
 
 ---
 
-### Data (1640-1828):
 
-TÄHÄN DATA MÄÄRÄ KOODISTA!
+### Methods: Open data analytical ecosystem
 
-### Method
+- **Automated** scales well with new data and unforeseen changes
 
-- Open source tools for library catalogues (Github/Fennica)
+- **Reusable** the polished data can be reused and further enriched
 
-- Fully transparent and reproducible
+- **Customized** dedicated R packages for bibliographic analysis combine automation with flexibility
 
-- Scales up to new catalogues and tasks
+- **Open source** fully transparent and reproducible data analytics  
+  https://github.com/rOpenGov/fennica
 
-- Benefit no. 1: once the work has been done, the data is available for everyone to use and to enrich. The generic data analytical ecosystem is designed with even unforeseen changes in mind.
+![Data Science Workflow](data-science.png)  
+\tiny{(Figure by Hadley Wickham)}
+
 
 ---
 
-### Outline of Quantitative Study of Finnish Knowledge Production, 1640-1828
+### Examples of the tools
+
+- **Parsers** From original MARC/XML to CSV to RData 
+
+- **Preprocessing** Cleaning up the fields. 
+
+```{r}
+library(bibliographica)
+polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
+polish_place("Sur l'imprimea londres")
+```
+
+**Analysis**
+
+```{r}
+library(knitr)
+kable(as.data.frame(top(df0, "publication_place", 3)))
+```
+
+**Visualization**
+
+```{r, fig.width=10, fig.height=7}
+titlecount_timeline(subset(df0, catalog == "Fennica"), 
+                         "publisher", nmin = 500, mode = "n")$plot
+```
+
+
+---
+
+
+### Outline
+
+**Quantitative Study of Finnish Knowledge Production, 1640-1828**
 
 1) General trends & political events
 
@@ -110,7 +163,7 @@ TÄHÄN DATA MÄÄRÄ KOODISTA!
 
 4) University curriculum & Enlightenment in Finland
 
---> Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
+Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
 
 ---
 
@@ -120,9 +173,11 @@ TÄHÄN DATA MÄÄRÄ KOODISTA!
 
 [General trends & political events]
 
-### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Greifswald and Lund)
+### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm
 
-```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5}
+TODO Karttakuvassa Greifswald, Lund ei näy. Tätä hyvä saada kehitettyä, tällaisena ei toimi. LL: ei näy sen takia että näytettynä on vuosikymmen 1650 jolloin Lundissa on 0 dokumenttia ja Greifswaldissa 1. Muissa kymmeniä tai satoja. Data näkyy kuten pitääkin.
+
+```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5, eval=FALSE}
 library(dplyr)
 library(ggmap)
 library(ggplot2)
@@ -190,9 +245,16 @@ grid.arrange(pics[[1]], nrow = 1)
 
 [General trends & political events]
 
-### Fennica drop in 1700-1721, Kungliga peak in 1760-1770s, effect of Napoleonic wars (1803-1815)
+### Publishing activity over time
+
+- 1700-1721 Fennica drop
+- 1760-1770s Kungliga peak 
+- 1803-1815 Napoleonic wars
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4, out.width="200px"}
+library(magrittr)
+library(ggplot2)
+library(dplyr)
 df2 <- df0 %>% group_by(publication_decade, catalog) %>%
                summarise(n = n())
 df2$highlight <- rep(FALSE, nrow(df2))
@@ -221,8 +283,8 @@ print(p)
 
 ### Comparing publishing activity in Stockholm and Turku
 
-```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=6, fig.height=5, fig.show="hold", out.width="170px"}
-v <- seq(1500, 1800, 50)
+```{r publishingactivitycomparisons, echo=FALSE, message=FALSE, cache=TRUE, fig.width=8, fig.height=5, fig.show="hold", out.width="150px"}
+v <- seq(1500, 1800, 100)
 selected.places = c("Turku", "Stockholm")
 df2 <- df0 %>% group_by(publication_decade, publication_place, catalog) %>%
                summarise(n = n()) %>%
@@ -240,7 +302,8 @@ for (catal in unique(df2$catalog)) {
      geom_point(aes(shape = publication_place), size = 3) +
      ylab("Title count (n)") + xlab("Publication year") +  
      ggtitle(catal) +
-     scale_x_continuous(breaks = v, labels = v)     
+     scale_x_continuous(breaks = v, labels = v) + 
+     theme(axis.text.x = element_text(angle = 0))
   print(p)
 
 }
@@ -289,7 +352,7 @@ print(p)
 
 An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
 
-TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät. Miksi katalogina lukee Fennica? Pitää olla Kungligan mukaan data tässä.
+TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät. 
 
 ```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
   myplace <- "Stockholm" # Norrköping / Stockholm
@@ -1010,8 +1073,9 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
 ### Thanks !
 
+
 R master (plots & maps):
-- Leo Lahti
+- Leo Lahti  
 
 Institutional support:
 
@@ -1024,14 +1088,16 @@ Data providers:
 - National Library of Finland
 - National Library of Sweden
 
+
+Source code for these slides:
+- https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.Rmd
+
 ---
 
-Extra Slide:
 
-### Duplicate publications
+### Duplicate publications in Fennica/Kungliga
 
 ```{r duplicates, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
-# DUPLICATE FRACTION
 df <- df.combined.preprocessed %>%
         filter(publication_year >= 1640 & publication_year <=1828) %>%
         group_by(catalog, publication_decade) %>%
@@ -1040,8 +1106,8 @@ df <- df.combined.preprocessed %>%
 p <- ggplot(df, aes(x = publication_decade, y = duplicates, fill = catalog)) +
        geom_bar(position = "dodge", stat = "identity") +
        ylab("Duplicates (%)") +
-       scale_fill_manual(values = c("blue", "red")) + 
-       ggtitle(paste("Certain duplicates Fennica-Kungliga", paste(range(na.omit(df$publication_decade)), collapse = "-"))) 
+       scale_fill_manual(values = c("blue", "red")) 
+       #ggtitle(paste("Certain duplicates Fennica-Kungliga", paste(range(na.omit(df$publication_decade)), collapse = "-"))) 
 
 print(p)
 ```
