@@ -115,6 +115,7 @@ print(p)
 ---
 
 
+
 ### Methods: Open data analytical ecosystem
 
 **Customized** dedicated R packages for bibliographic analysis combine flexibility with automation
