@@ -24,3 +24,48 @@ We have built custom tools to automate all analyses from raw data to final summa
 ![](ecosystemflowchart.png)
 
 
+---
+
+### Data: bibliographic catalogues 1640-1828  
+
+
+**Fennica** Finnish National bibliography
+
+- 900,000+ books and monographies (printed and electronic; 1488-)
+- 70,000+ continuous publications (journals or series; 1771-)
+- Series, maps, audiovisual, electronic material
+- `r nrow(subset(df0, catalog == "Fennica" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
+
+**Kungliga**  Swedish National bibliography
+
+- `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
+- Altogether > 18 million entries
+
+```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
+library(dplyr)
+library(ggplot2)
+theme_set(theme_bw(20))
+df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>% group_by(catalog, publication_decade) %>% tally()
+p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) + 
+       geom_point() + 
+       geom_line() + 
+       ylab("Documents (n)") + xlab("Publication year") +
+       scale_color_manual(values = c("blue", "darkgreen"))
+print(p)
+```
+
+---
+
+## Analyse & Visualize
+
+**Fast time line analysis**
+
+```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
+library(bibliographica)
+titlecount_timeline(subset(df0, catalog == "Fennica"), 
+          "publisher", nmin = 500, mode = "n")$plot
+```
+
+---
+
+

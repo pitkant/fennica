@@ -108,7 +108,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) +
        geom_point() + 
        geom_line() + 
        ylab("Documents (n)") + xlab("Publication year") +
-       scale_color_manual(values = c("blue", "darkgreen"))
+       scale_color_manual(values = c("blue", "darkgreen")) + 
+       guides(fill = guide_legend(reverse = TRUE, title = "")) #+ 
 print(p)
 ```
 
@@ -155,19 +156,6 @@ get_country("Porvoo")
 ```
 
 ---
-
-## Analyse & Visualize
-
-**Fast time line analysis**
-
-```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
-library(bibliographica)
-titlecount_timeline(subset(df0, catalog == "Fennica"), 
-          "publisher", nmin = 500, mode = "n")$plot
-```
-
----
-
 
 ### Outline of Quantitative Study of Finnish Knowledge Production, 1640-1828
 
@@ -279,15 +267,13 @@ df2$highlight[df2$catalog == "Fennica" &
 v <- seq(1500, 1800, 50)
 theme_set(theme_bw(20))
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
-     geom_line(aes(group = catalog), color = "black") +
-     #geom_smooth(aes(fill = catalog)) + 
+     geom_line(aes(color = catalog)) +
      geom_point(aes(shape = catalog, color = highlight, size = highlight)) +
      ylab("Title count (n)") + xlab("Publication year") +
-     scale_color_manual(values = c("black", "black")) +
-     #scale_color_manual(values = c("black")) +
-       theme(legend.position = "none") +
-     scale_x_continuous(breaks = v, labels = v)
-     # ggtitle("Overall publishing activity")
+     theme(legend.position = "none") +
+     scale_x_continuous(breaks = v, labels = v) +
+     scale_color_manual(values = c("darkgreen", "blue", "darkgreen", "blue")) + 
+     guides(fill = guide_legend(reverse = TRUE, title = "")) 
 print(p)
 ```
 
