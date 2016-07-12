@@ -94,7 +94,9 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 - `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
 
-- **Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828**
+**Why this project?**
+
+- Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828
 
 ```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
 library(dplyr)
@@ -153,22 +155,6 @@ get_country("Porvoo")
 ```
 
 ---
-
-
-### Outline of Quantitative Study of Finnish Knowledge Production, 1640-1828
-
-1) General trends & political events
-
-2) Publishers in Sweden and Turku
-
-3) Languages & religious texts in Finland
-
-4) University curriculum & Enlightenment in Finland
-
-Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
-
----
-
 
 
 **1. General trends & political events**
