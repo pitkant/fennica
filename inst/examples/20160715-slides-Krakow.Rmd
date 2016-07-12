@@ -4,7 +4,7 @@ author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
 output: 
   beamer_presentation:
-    theme: "Singapore"
+    theme: "Goettingen"
     colortheme: "orchid"
     fonttheme: "professionalfonts"
 ---
@@ -84,7 +84,7 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 ---
 
-## Data: bibliographic catalogues 1640-1828  
+### Data: bibliographic catalogues 1640-1828  
 
 
 **Fennica** Finnish National bibliography
@@ -115,8 +115,7 @@ print(p)
 ---
 
 
-
-### Methods: Open data analytical ecosystem
+## Methods: Open data analytical ecosystem
 
 **Customized** dedicated R packages for bibliographic analysis combine flexibility with automation
 
@@ -136,7 +135,7 @@ print(p)
 
 
 
-### Preprocess & Enrich
+## Preprocess & Enrich
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bibliographica, quiet = TRUE)
@@ -157,7 +156,7 @@ get_country("Porvoo")
 
 ---
 
-### Analyse & Visualize
+## Analyse & Visualize
 
 **Fast time line analysis**
 
@@ -184,7 +183,9 @@ Visible roots of the diversity of "Finnishness" reflected in knowledge productio
 
 ---
 
-### 1. General trends & political events
+
+1. General trends & political events
+
 
 ---
 
@@ -447,7 +448,7 @@ for (catal in "Kungliga") {
 
 ---
 
-### 2. Publishers in Sweden and Turku
+2. Publishers in Sweden and Turku
 
 ---
 
@@ -620,7 +621,7 @@ print(p)
 
 ---
 
-### 3. Languages & religious texts in Finland
+3. Languages & religious texts in Finland
 
 ---
 
@@ -886,7 +887,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ---
 
-### 4. University curriculum & Enlightenment in Finland
+4. University curriculum & Enlightenment in Finland
 
 ---
 
@@ -1098,7 +1099,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
 ---
 
-### Thanks !
+##Thanks !
 
 
 R master (plots & maps):  
