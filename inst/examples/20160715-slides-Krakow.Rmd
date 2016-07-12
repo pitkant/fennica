@@ -4,7 +4,7 @@ author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
 output: 
   beamer_presentation:
-    theme: "Goettingen"
+    theme: "boxes"
     colortheme: "orchid"
     fonttheme: "professionalfonts"
 ---
@@ -70,7 +70,7 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 ---
 
-## Global knowledge production and library catalogues
+## From particular data to global perspective?
 
 **Idea**: Study early modern knowledge production, all of it (1470-1830)  
 
@@ -80,24 +80,21 @@ Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 **How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.  
 
-**Overcoming a national gaze** focus on knowledge production through more complex cross-national networks
+**Overcoming a national gaze** by focus on knowledge production through more complex cross-national network of cities
 
 ---
 
 ### Data: bibliographic catalogues 1640-1828  
 
-
 **Fennica** Finnish National bibliography
 
-- 900,000+ books and monographies (printed and electronic; 1488-)
-- 70,000+ continuous publications (journals or series; 1771-)
-- Series, maps, audiovisual, electronic material
 - `r nrow(subset(df0, catalog == "Fennica" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
 
 **Kungliga**  Swedish National bibliography
 
 - `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year < 1828))` documents 1640-1828
-- Altogether > 18 million entries
+
+- **Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828**
 
 ```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
 library(dplyr)
@@ -121,7 +118,7 @@ print(p)
 
 **Automated** scales well with new data and unforeseen changes; a million documents ~ 30 minutes
 
-**Open source** fully transparent and reproducible data analytics; every single detail, from raw data to final visualization https://github.com/rOpenGov/fennica
+**Open source** fully transparent and reproducible data analytics: https://github.com/rOpenGov/fennica
 
 **Collaboration & Reuse** further use and enrichment
 
@@ -153,33 +150,6 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 ```{r, message=FALSE, warning=FALSE}
 get_country("Porvoo")
 ```
-
----
-
-## Analyse & Visualize
-
-**Fast time line analysis**
-
-```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
-library(bibliographica)
-titlecount_timeline(subset(df0, catalog == "Fennica"), 
-          "publisher", nmin = 500, mode = "n")$plot
-```
-
----
-
-
-### Outline of Quantitative Study of Finnish Knowledge Production, 1640-1828
-
-1) General trends & political events
-
-2) Publishers in Sweden and Turku
-
-3) Languages & religious texts in Finland
-
-4) University curriculum & Enlightenment in Finland
-
-Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828.
 
 ---
 
