@@ -487,8 +487,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +        
-       ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
-
+       ggtitle(paste("Unique publishers in selected publication places"))
 
 print(p)
 ```
@@ -619,9 +618,9 @@ for (catalogue in c("Fennica", "Kungliga")) {
   } else if (catalogue == "Kungliga") {
     df <- df.full # full time span
   }
-  langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Other")
+  langs <- c("Finnish", "Swedish", "Latin", "German", "Russian", "French", "Danish", "English", "Other")
   df <- df %>% filter(catalog == catalogue)%>%
-        filter(publication_year >= 1600 & publication_year <= 1900)
+        filter(publication_year >= 1640 & publication_year <= 1900)
 
   library(dplyr)
   library(tidyr)
@@ -681,7 +680,7 @@ myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
 for (catalogue in c("Fennica", "Kungliga")) {
 
   df <- df0 %>% filter(catalog == catalogue) %>%
-        filter(publication_year >= 1600 & publication_year <= 1828)
+        filter(publication_year >= 1640 & publication_year <= 1828)
 
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
@@ -1044,6 +1043,7 @@ for (catal in unique(df0$catalog)) {
 ---
 
 [University curriculum & Enlightenment in Finland]
+TODO: UUSI SLIDE top-authors publishing in octavo (title count) Fennica and Kungliga. OF COURSE!
 
 ### Enlightenment literature read in Finland
 
