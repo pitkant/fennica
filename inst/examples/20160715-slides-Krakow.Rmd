@@ -591,6 +591,9 @@ for (catalogue in c("Fennica", "Kungliga")) {
   df <- df0 %>% filter(catalog == catalogue) %>%
         filter(publication_year >= 1600 & publication_year <= 1828)
 
+  langs <- c("Finnish", "Swedish", "Latin", "German",
+           "Russian", "French", "Hebrew", "Other")
+
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
   df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
