@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+output: ioslides_presentation
+---
+
+### Data processing is a major effort and should not be underestimated
+
+We have built custom tools to automate all analyses from raw data to final summary documents (these slides, for instance).
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+     \includegraphics[width=1\textwidth]{parsing.png}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+    \begin{center}
+     \includegraphics[width=1\textwidth]{iceberg.png}
+     \end{center}
+\end{column}
+\end{columns}
+
+
+---
+
+![](ecosystemflowchart.png)
+
+
