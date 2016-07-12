@@ -951,8 +951,9 @@ Data providers:
 - National Library of Finland
 - National Library of Sweden
 
+For more info, see: \textcolor{blue}{https://github.com/rOpenGov/fennica}
 
-For more info, see: \textcolor[blue]{https://github.com/rOpenGov/fennica}
+```
 
 ---
 
