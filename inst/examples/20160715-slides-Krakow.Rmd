@@ -759,8 +759,9 @@ df <- unique(df)
 df <- df %>% group_by(publication_year, language) %>%
              summarise(n = length(unique(unlist(strsplit(subject_topic, ";")))))
 
-df$language[!df$language %in% langs] <- "Other"
-df$language <- factor(df$language, levels = langs)
+langs2 <- c("Finnish", "Swedish", "Latin", "Other")
+df$language[!df$language %in% langs2] <- "Other"
+df$language <- factor(df$language, levels = langs2)
 
 p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
        geom_line() + geom_point() 
@@ -958,7 +959,8 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+       guides(fill = guide_legend(reverse = TRUE, title = "")) 
+       #ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
@@ -986,7 +988,8 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +             
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+       guides(fill = guide_legend(reverse = TRUE, title = "")) 
+       #ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
@@ -1015,10 +1018,76 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+       guides(fill = guide_legend(reverse = TRUE, title = "")) 
+       #ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
 print(p)
 
 ```
+
+---
+
+
+[University curriculum & Enlightenment in Finland]
+
+### Printing by topic in different languages in Turku
+
+```{r topics-103B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9}
+sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+p1 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       guides(fill = guide_legend(reverse = TRUE, title = "")) +
+       ggtitle("Philosophy")
+
+
+sel = c("oppihistoria","antiikki","historia")
+# Selected catalogue with selected topics
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+p2 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +             
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       guides(fill = guide_legend(reverse = TRUE, title = "")) +
+       ggtitle("History")
+
+
+sel =   c("psykologia","yhteiskuntafilosofia","valtiofilosofia","talous","raha","moraali","velvollisuudet","kasvatus","maanviljely","maatalous","kalastus")
+
+# Selected catalogue with selected topics
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p3 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       guides(fill = guide_legend(reverse = TRUE, title = "")) +
+       ggtitle("Economy")
+grid.arrange(p1, p2, p3, nrow = 3)
+```
+
 
 ---
 
