@@ -64,8 +64,6 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ### TODO
 
-sivu 12. Gävle-kuva vaihdettu Tukholmaan, pitää tsiigata mitkä vuodet highlightataan. Tällaisena ei vielä toimi. Onhan katalogi oikein?
-
 sivu 27. Dissertation languages: kategoria "other" sisällön selvittäminen!
 
 Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
@@ -153,13 +151,12 @@ We have built custom tools to automate all analyses from raw data to final summa
 
 ---
 
-
 ![](ecosystemflowchart.png)
 
 ---
 
-### Preprocess & Enrich
 
+### Preprocess & Enrich
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bibliographica, quiet = TRUE)
@@ -180,12 +177,12 @@ get_country("Porvoo")
 
 ---
 
-
 ### Analyse & Visualize
 
 **Fast time line analysis**
 
 ```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
+library(bibliographica)
 titlecount_timeline(subset(df0, catalog == "Fennica"), 
           "publisher", nmin = 500, mode = "n")$plot
 ```
@@ -708,6 +705,8 @@ p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      guides(fill = guide_legend(reverse = TRUE, title = "")) +
      scale_fill_brewer(palette="Paired")
 pics[[catalogue]] <- p
+library(dplyr)
+library(magrittr)
 }
 library(gridExtra)
 grid.arrange(pics[[1]], pics[[2]], nrow = 2)
@@ -1099,6 +1098,30 @@ for (catal in unique(df0$catalog)) {
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
+  top.authors <- names(bibliographica::top(df, field = "author", n = 10))
+  dfs <- df %>% filter(author %in% top.authors) %>%
+         group_by(author, publication_decade) %>%
+         tally() %>%
+         arrange(publication_decade)
+  p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle(paste("Title count top authors\n", catalogue)) +
+       xlim(c(1640, 1828))
+  print(p)
+}
+```
+
+---
+
+```{r authors24, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
+theme_set(theme_bw(20))
+for (catalogue in c("Fennica", "Kungliga")) {
+  df <- filter(df0, catalog == catalogue) %>%filter(gatherings == "8vo")%>%
         filter(publication_year >= 1640 & publication_year <= 1828)
   top.authors <- names(bibliographica::top(df, field = "author", n = 10))
   dfs <- df %>% filter(author %in% top.authors) %>%
