@@ -1072,8 +1072,7 @@ Data providers:
 - National Library of Sweden
 
 
-Source code of these slides:
-- https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.Rmd
+For more info, see: \textcolor[blue]{https://github.com/rOpenGov/fennica}
 
 ---
 

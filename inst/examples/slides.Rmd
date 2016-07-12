@@ -163,3 +163,119 @@ library(magrittr)
 library(gridExtra)
 grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 ```
+
+---
+
+
+[University curriculum & Enlightenment in Finland]
+
+### Printing of philosophy in different languages in Turku
+
+```{r topics-103, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
+# Selected catalogue with selected topics
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       guides(fill = guide_legend(reverse = TRUE, title = "")) 
+       #ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+print(p)
+
+```
+
+
+---
+
+[University curriculum & Enlightenment in Finland]
+
+### Printing of history in different languages in Turku
+
+```{r topics-102, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+sel = c("oppihistoria","antiikki","historia")
+# Selected catalogue with selected topics
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +             
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       guides(fill = guide_legend(reverse = TRUE, title = "")) 
+       #ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+print(p)
+
+```
+
+---
+
+[University curriculum & Enlightenment in Finland]
+
+### Printing of economy and social science in different languages in Turku
+
+
+```{r topics-105, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+sel =   c("psykologia","yhteiskuntafilosofia","valtiofilosofia","talous","raha","moraali","velvollisuudet","kasvatus","maanviljely","maatalous","kalastus")
+
+# Selected catalogue with selected topics
+df = dfl
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df %>% filter(hit)
+df <- df %>% group_by(publication_decade, language) %>%
+             summarise(n = n(),
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+
+# PAPER CONSUMPTION
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
+       geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
+       xlab("Publication year") +
+       ylab("Paper consumption") +
+       guides(fill = guide_legend(reverse = TRUE, title = "")) 
+       #ggtitle(paste("Paper (", paste(sel, collapse = ";"), ")", sep = ""))
+print(p)
+
+```
+
+---
+
+[University curriculum & Enlightenment in Finland]
+
+### Enlightenment literature read in Finland
+
+```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10, out.width="160px", fig.show="hold"}
+theme_set(theme_bw(20))
+for (catalogue in c("Fennica", "Kungliga")) {
+  df <- filter(df0, catalog == catalogue) %>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
+  top.authors <- names(bibliographica::top(df, field = "author", n = 10))
+  dfs <- df %>% filter(author %in% top.authors) %>%
+         group_by(author, publication_decade) %>%
+         tally() %>%
+         arrange(publication_decade)
+  p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle(paste("Title count top authors\n", catalogue)) +
+       xlim(c(1640, 1828))
+  print(p)
+}
+```
