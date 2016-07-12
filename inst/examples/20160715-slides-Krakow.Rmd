@@ -172,7 +172,11 @@ get_country("Porvoo")
 
 **Fast time line analysis**
 
+<<<<<<< HEAD
+#```{r, fig.width=10, fig.height=7}
+=======
 ```{r, fig.width=10, fig.height=7, message=FALSE, warning=FALSE}
+>>>>>>> 2dc3a507bcaf0a67dd5f6e86fd188a650f3b2bb3
 titlecount_timeline(subset(df0, catalog == "Fennica"), 
           "publisher", nmin = 500, mode = "n")$plot
 ```
@@ -201,8 +205,6 @@ Visible roots of the diversity of "Finnishness" reflected in knowledge productio
 [General trends & political events]
 
 ### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm
-
-TODO Karttakuvassa Greifswald, Lund ei näy. Tätä hyvä saada kehitettyä, tällaisena ei toimi. LL: ei näy sen takia että näytettynä on vuosikymmen 1650 jolloin Lundissa on 0 dokumenttia ja Greifswaldissa 1. Muissa kymmeniä tai satoja. Data näkyy kuten pitääkin.
 
 ```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5, eval=FALSE}
 library(dplyr)
@@ -375,31 +377,34 @@ print(p)
 
 [General trends & political events]
 
-### Stockholm & democratic cycles
+### Swedish knowledge production & cycles of representation
 
-An example how historical events, namely parliamentary assemblies in the Swedish case, have an impact on local knowledge production.
+An example how historical events, namely parliamentary assemblies in the Swedish case, have an effect on knowledge production.
 
-TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät. 
+```{r riksdar5, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 
-```{r riksdar2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-  myplace <- "Stockholm" # Norrköping / Stockholm
-  minyear <- 1700
+minyear <- 1700
   maxyear <- 1800
   catalog <- "Kungliga"
+
+library(magrittr)
+library(ggplot2)
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+
+#for (catal in as.character(unique(df0$catalog))) {
+
+for (catal in "Kungliga") {
+
+  # Use timeinterval year intervals
+  dfsel = subset(df0, catalog == catal)
 
   df <- df0
   df = subset(df, catalog == catal)
   df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
-
-  # Use timeinterval year intervals
-  # Remove special chars
-  if (length(unique(df$publication_place[grep("^G.vle$", df$publication_place)])) == 1) {
-    df$publication_place[grep("^G.vle$", df$publication_place)] <- "Gavle"
-  }
-  if (length(unique(df$publication_place[grep("^Norrk.ping$", df$publication_place)])) == 1) {
-    df$publication_place[grep("^Norrk.ping$", df$publication_place)] <- "Norrkoping"
-  }
-  df <- df %>% filter(publication_place == myplace)
+  
+  df <- subset(dfsel, publication_year >= 1700 & publication_year < 1800 )
 
   timeinterval <- 1
   df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
@@ -409,20 +414,19 @@ TODO: Vaihdettiin tähän Stockholm, riittää julkaisumäärät.
 
   publications[is.na(publications)] <- 0 # Set NAs to 0
   publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-library(reshape2)  
-dfm <- melt(publications) 
+  dfm <- melt(publications) 
   names(dfm) <- c("Time", "Documents")
   dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-  ymin = min(0.1)
-  ymax = max(60)
+  ymin = min(dfm$Documents)
+  ymax = max(dfm$Documents)
 
   rect_left <- c(min(na.omit(dfm$date)),
                1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
                1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
                1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
-               1769-.5, 1770+.5, # Norrkoping & Stockholm 22 april 1769 5 februari 1770
+               1769-.5, 1770+.5, # Norrköping & Stockholm 22 april 1769 5 februari 1770
                1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
-               1792-.5, 1792+.5, # Gavle 26 januari 1792 24 februari 1792	       
+               1792-.5, 1792+.5, # Gävle 26 januari 1792 24 februari 1792         
                max(na.omit(dfm$date)))
   rectangles <- data.frame(
     xmin = rect_left[-length(rect_left)],
@@ -432,27 +436,27 @@ dfm <- melt(publications)
     )
   rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
 
- riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrkoping", "Stockholm", "Gavle")
+ riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
  cols = c("gray", "lightblue", "yellow", "white")
  rectangles$shade[rectangles$shade == "Highlight"] = riksplace
  rectangles$shade = factor(rectangles$shade)
 
   # Draw Figure
-library(ggplot2)
   theme_set(theme_bw(20))
   p <- ggplot()
   p <- p + geom_rect(data = rectangles, 
-	   aes(xmin=xmin, xmax=xmax,
-	       ymin=ymin, ymax=ymax,
-	       fill=shade), alpha=0.8) + 
+       aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=shade), alpha=0.8) + 
          scale_fill_manual(values = cols) # + guides(fill = "none") 
   p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
   p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + scale_x_continuous(breaks=seq(min(dfm$date), max(dfm$date), 20))
   p <- p + ggtitle("Publishing activity")
   p <- p + ylab("Documents / Year")
   p <- p + xlab("Year")
-  p <- p + ggtitle(paste(myplace, " (", catal, ")", sep = ""))
+  p <- p + ggtitle(catal)
   print(p)
+}
+
 ```
 
 ---
