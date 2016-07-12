@@ -4,8 +4,9 @@ author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
 output: 
   beamer_presentation:
-    theme: "default"
-    colortheme: "dolphin"
+    theme: "Montpellier"
+    colortheme: "default"
+    fonttheme: "structuresmallcapsserif"
 ---
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
@@ -70,7 +71,6 @@ sivu 27. Dissertation languages: kategoria "other" sisällön selvittäminen!
 Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
 
 ---
-
 
 ## Global knowledge production and library catalogues
 
@@ -139,10 +139,24 @@ print(p)
 
 We have built custom tools to automate all analyses from raw data to final summary documents (these slides, for instance).
 
-![](parsing.png) ![](iceberg.png)
+\begin{columns}
+\begin{column}{0.5\textwidth}
+     \includegraphics[width=1\textwidth]{parsing.png}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+    \begin{center}
+     \includegraphics[width=1\textwidth]{iceberg.png}
+     \end{center}
+\end{column}
+\end{columns}
+
 
 ---
 
+
+![](ecosystemflowchart.png)
+
+---
 
 ### Preprocess & Enrich
 
@@ -155,7 +169,6 @@ library(bibliographica, quiet = TRUE)
 
 ```{r, message=FALSE, warning=FALSE,echo=TRUE}
 polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
-polish_place("Sur l'imprimea londres")
 ```
 
 
@@ -172,11 +185,7 @@ get_country("Porvoo")
 
 **Fast time line analysis**
 
-<<<<<<< HEAD
-#```{r, fig.width=10, fig.height=7}
-=======
-```{r, fig.width=10, fig.height=7, message=FALSE, warning=FALSE}
->>>>>>> 2dc3a507bcaf0a67dd5f6e86fd188a650f3b2bb3
+```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
 titlecount_timeline(subset(df0, catalog == "Fennica"), 
           "publisher", nmin = 500, mode = "n")$plot
 ```
@@ -206,7 +215,7 @@ Visible roots of the diversity of "Finnishness" reflected in knowledge productio
 
 ### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm
 
-```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5, eval=FALSE}
+```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5, eval=TRUE}
 library(dplyr)
 library(ggmap)
 library(ggplot2)
@@ -342,9 +351,9 @@ for (catal in unique(df2$catalog)) {
 
 [General trends & political events]
 
-### Explaining the 1760-1770 publishing peak in Sweden
+### Swedish 1760-1770 publishing peak
 
-Pamphleteering plays a crucial role during abolished censorship in Sweden.
+Pamphleteering plays a crucial role during abolished censorship
 
 
 ```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=4, out.width="280px", fig.show="hold"}
@@ -640,6 +649,7 @@ print(p)
 
 [Languages & religious texts in Finland]
 
+
 ### Language comparison between catalogues (percentage)
 
 ```{r languageperc, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=10}
@@ -700,7 +710,7 @@ p <- ggplot(dff, aes(x = publication_decade, y = f)) +
 pics[[catalogue]] <- p
 }
 library(gridExtra)
-grid.arrange(p[[1]], p[[2]], nrow = 2)
+grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 ```
 
 ---
@@ -709,7 +719,7 @@ grid.arrange(p[[1]], p[[2]], nrow = 2)
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
 
-```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=15}
+```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=12}
 pics <- list()
 theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
@@ -755,7 +765,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
       ylab("Title count frequency (%)") +
       #ggtitle(paste("Languages (", myplace, "/", catalogue, ")", sep = "")) +
       ggtitle(paste(myplace, "/", catalogue)) +
-      scale_fill_brewer(palette="Paired")
+      scale_fill_brewer(palette="Paired") + 
+      guides(fill = guide_legend(reverse = TRUE, title = ""))
     pics[[paste(catalogue, myplace, sep = "-")]] <- p
   }
 }
@@ -773,6 +784,7 @@ rm(pics)
 
 ### Topic richness per language (Finnish publications)
 
+
 ```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 catalogue <- "Fennica"
 df <- filter(df0, catalog == "Fennica") %>%
@@ -786,8 +798,7 @@ df$language[!df$language %in% langs] <- "Other"
 df$language <- factor(df$language, levels = langs)
 
 p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
-       geom_line() + geom_point() +
-       ggtitle("Number of subject topics")
+       geom_line() + geom_point() 
 
 print(p)
 ```
@@ -798,10 +809,9 @@ print(p)
 
 ### Devotional literature (catechisms, hymns, prayer collections, etc.) 
 
-- Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
+Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
 
 ```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
 
@@ -841,7 +851,8 @@ catalogue <- "Fennica"
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = "")) 
+       ggtitle(catalogue) 
+       #ggtitle(paste("Languages (", catalogue, ")", sep = "")) 
   print(p)
 ```
 
@@ -1084,7 +1095,7 @@ for (catal in unique(df0$catalog)) {
 
 ### Enlightenment literature read in Finland
 
-```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8, out.width="160px", fig.show="hold"}
+```{r authors22, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="160px", fig.show="hold"}
 theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
@@ -1111,8 +1122,9 @@ for (catalogue in c("Fennica", "Kungliga")) {
 ### Thanks !
 
 
-R master (plots & maps):
+R master (plots & maps):  
 - Leo Lahti  
+
 
 Institutional support:
 
@@ -1126,7 +1138,7 @@ Data providers:
 - National Library of Sweden
 
 
-Source code for these slides:
+Source code of these slides:
 - https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.Rmd
 
 ---
