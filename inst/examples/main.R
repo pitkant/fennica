@@ -21,7 +21,7 @@ ignore.fields <- c("language2", "title_remainder",
 		    "note_general", "note_year") # Fennica
 
 # update.fields <- setdiff(names(df.preprocessed), "publisher")
-# update.fields <- c("publication_place", "language")
+# update.fields <- c("language")
 
 # -------------------------------
 

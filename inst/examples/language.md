@@ -7,7 +7,7 @@ output: markdown_document
 
 ## Language
 
- * 39 unique languages
+ * 45 unique languages
  * The languages may come in [combinations](output.tables/language_conversions.csv)
  * 1795 multilingual documents (8.83%)  
  * 46 docs (0.23%) with no recognized language 
@@ -23,12 +23,12 @@ Title count per language (including multi-language documents):
 ### Top languages
 
 
-|Language | Documents (n)| Fraction (%)|
-|:--------|-------------:|------------:|
-|Swedish  |          9918|         45.2|
-|Latin    |          7868|         35.8|
-|Finnish  |          3242|         14.8|
-|German   |           369|          1.7|
-|French   |           308|          1.4|
-|English  |            68|          0.3|
+|Language              | Documents (n)| Fraction (%)|
+|:---------------------|-------------:|------------:|
+|Swedish               |          9918|         44.3|
+|Latin                 |          7868|         35.1|
+|Finnish               |          3242|         14.5|
+|Greek Ancient to 1453 |           454|          2.0|
+|German                |           369|          1.6|
+|French                |           308|          1.4|
 
