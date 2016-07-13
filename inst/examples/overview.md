@@ -40,6 +40,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |volnumber                         |       100.0|           0.0|             0|          1|
 |successor                         |       100.0|           0.0|             8|          8|
 |publication_frequency             |        99.9|           0.1|            11|          6|
+|publication_interval              |        99.9|           0.1|            22|         23|
 |publication_year_till             |        98.9|           1.1|           219|        109|
 |width.original                    |        98.9|           1.1|           222|        131|
 |height.original                   |        98.7|           1.3|           264|        137|
@@ -68,10 +69,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                            |         1.5|          98.5|         20033|        142|
 |area                              |         1.5|          98.5|         20033|        217|
 |language                          |         0.2|          99.8|         20282|        143|
-|latitude                          |         0.2|          99.8|         20295|         92|
-|longitude                         |         0.2|          99.8|         20295|         92|
 |dissertation                      |         0.1|          99.9|         20303|          3|
 |pagecount                         |         0.1|          99.9|         20306|        494|
+|latitude                          |         0.1|          99.9|         20306|         93|
+|longitude                         |         0.1|          99.9|         20306|         93|
 |publication_year_from             |         0.0|         100.0|         20323|        262|
 |synodal                           |         0.0|         100.0|         20327|          3|
 |language.Swedish                  |         0.0|         100.0|         20328|          2|
@@ -114,7 +115,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |language.Yiddish                  |         0.0|         100.0|         20328|          1|
 |language.Votic                    |         0.0|         100.0|         20328|          1|
 |language.Germanic (Other)         |         0.0|         100.0|         20328|          1|
-|language.Multiple languages       |         0.0|         100.0|         20328|          2|
+|multilingual                      |         0.0|         100.0|         20328|          2|
 |title                             |         0.0|         100.0|         20328|      16935|
 |gatherings.original               |         0.0|         100.0|         20328|         14|
 |obl.original                      |         0.0|         100.0|         20328|          2|

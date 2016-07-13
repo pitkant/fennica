@@ -29,7 +29,7 @@ Publication frequency is available for 11 documents (0%). The links are invalid 
 
 ### Publication interval
 
-Publication interval is available for 0 documents (NaN%). 
+Publication interval is available for 22 documents (0%). 
 
 [Publication interval accepted](output.tables/publication_interval_discarded.csv)
 

@@ -788,9 +788,9 @@ sessionInfo()
     ##  [1] knitcitations_1.0.7   gisfin_0.9.26         R6_2.1.2             
     ##  [4] rgdal_1.1-10          sp_1.2-3              ggmap_2.6.1          
     ##  [7] rmarkdown_0.9.6.14    sorvi_0.7.47          tibble_1.1           
-    ## [10] fennica_0.1.42        stringr_1.0.0         microbiome_0.99.84   
+    ## [10] fennica_0.1.42        stringr_1.0.0         microbiome_0.99.85   
     ## [13] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [16] reshape2_1.4.1        magrittr_1.5          bibliographica_0.2.25
+    ## [16] reshape2_1.4.1        magrittr_1.5          bibliographica_0.2.27
     ## [19] dplyr_0.5.0           tidyr_0.5.1           ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):

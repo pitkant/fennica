@@ -1,6 +1,6 @@
-library(bibliographica)
-#library(devtools)
-# load_all("~/proj/2014-Aatelouhinta/bibliographica")
+#library(bibliographica)
+library(devtools)
+load_all("~/proj/2014-Aatelouhinta/bibliographica")
 
 # I/O definitions
 output.folder <- "output.tables/"
@@ -21,7 +21,7 @@ ignore.fields <- c("language2", "title_remainder",
 		    "note_general", "note_year") # Fennica
 
 # update.fields <- setdiff(names(df.preprocessed), "publisher")
-# update.fields <- "publication_place"
+# update.fields <- c("publication_place", "language")
 
 # -------------------------------
 
