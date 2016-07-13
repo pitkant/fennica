@@ -7,6 +7,7 @@ output:
     theme: "boxes"
     colortheme: "orchid"
     fonttheme: "professionalfonts"
+fontsize: 13pt
 ---
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
@@ -27,7 +28,6 @@ library(sorvi)
 library(devtools)
 # install_github("ropengov/gisfin")
 # devtools::install_github('cttobin/ggthemr')
-library(gisfin)
 #library(ggthemr)
 
 knitr::opts_chunk$set(echo = FALSE)
@@ -61,14 +61,6 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 
 ---
 
-
-### TODO
-
-sivu 27. Dissertation languages: kategoria "other" sisällön selvittäminen!
-
-Yleisesti eri kuvien tekstit yms. tsekkaaminen, korostukset yms.
-
----
 
 ## From particular data to global perspective?
 
@@ -108,7 +100,7 @@ p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) +
        geom_line() + 
        ylab("Documents (n)") + xlab("Publication year") +
        scale_color_manual(values = c("blue", "darkgreen")) + 
-       guides(fill = guide_legend(reverse = TRUE, title = "")) #+ 
+       guides(color = guide_legend(reverse = TRUE, title = "")) #+ 
 print(p)
 ```
 
@@ -122,8 +114,6 @@ print(p)
 **Automated** scales well with new data and unforeseen changes; a million documents ~ 30 minutes
 
 **Open source** fully transparent and reproducible data analytics: https://github.com/rOpenGov/fennica
-
-**Collaboration & Reuse** further use and enrichment
 
 **Research potential** greatly underestimated; world is full of metadata collections
 
@@ -157,25 +147,27 @@ get_country("Porvoo")
 ---
 
 
-**1. General trends & political events**
+\Large{1. General trends and political events}
 
 
 ---
 
 [General trends & political events]
 
-### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm
+### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Lund & Greifswald)
 
-```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=5, eval=TRUE}
+```{r map1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=4, eval=TRUE}
 library(dplyr)
 library(ggmap)
 library(ggplot2)
 library(gisfin)
 source("funcs.R")
 theme_set(get_theme_map())
-mapdata <- filter(df0,
-          (catalog == "Kungliga" &
-	      publication_place %in% c("Stockholm", "Uppsala",
+i <- 1650
+mapdata1 <- filter(df0,
+              publication_decade == i &
+              (catalog == "Kungliga" & 
+	            publication_place %in% c("Stockholm", "Uppsala",
 	                         "Greifswald", "Lund", "Tartu"))|
 	  (catalog == "Fennica" &
 	      publication_place == "Turku")) %>%
@@ -183,50 +175,51 @@ mapdata <- filter(df0,
 	       latitude, longitude) %>%
       summarise(n = n()) 
 
+mapdata <- bind_rows(mapdata1, 
+  as.data.frame(list(publication_decade = 1650, publication_place = "Lund", 
+                     latitude = 55.70293, longitude = 13.19294, n = 0)))
+
 mapdata$size <- mapdata$n
 mapdata$highlight <- rep("black", nrow(mapdata))
 mapdata$highlight[mapdata$publication_place %in% c("Turku")] <- "red"
 mapdata$highlight <- factor(mapdata$highlight)
 
-region <- "Europe.north"
-mymap <- get_map(location=geobox(region), color = "bw",
-                  source="google",  maptype="terrain")
+mapdata$highlight2 <- rep(1, nrow(mapdata))
+mapdata$highlight2[mapdata$publication_place %in% c("Greifswald", "Lund")] <- 9
+mapdata$highlight2 <- factor(mapdata$highlight2)
 
-p0 <- ggmap(mymap) + theme(legend.position="none")
+region <- c(8, 40, 31, 76)
+names(region) <- c("left", "bottom", "right", "top")
+#mymap <- get_map(location=geobox(region), color = "bw", source="osm",  maptype="terrain")
+#mymap <- get_map(location=geobox(region), source="stamen", maptype = "watercolor")
+mymap <- get_map(location=geobox(region), maptype="roadmap")
 
-pics <- list()
-for (i in c(1650, 1710, 1760, 1800)) {
-  
-    # Plot map
-    p <- p0
-
-    # Pick the investigated period (sliding window)
-    # Sum up the years within this sliding window for each element    	    
-    dfw <- subset(mapdata, publication_decade == i) %>%
-    	     group_by(publication_place, latitude, longitude, highlight) %>%
+# Pick the investigated period (sliding window)
+# Sum up the years within this sliding window for each element    	    
+dfw <- mapdata %>%
+    	     group_by(publication_place, latitude, longitude, highlight, highlight2) %>%
 		       summarize(n = sum(size))
-
-    if (nrow(dfw) > 0) {
-      p <- p0 +
-      	geom_point(data = dfw,
-      	  aes(x = longitude, y = latitude,
-	      size = 20*log10(1+n),
-	      color = highlight)) +
-	      #color = highlight), alpha = 0.8) +	      
-	  ggtitle(i) +
-	  scale_size(range = c(2, 15)) +
-	  theme(title = element_text(size = 30)) +
-	  scale_color_manual(values = c("black", "red"))	  
-    }
+dfw$size <- log10(1 + dfw$n)
+dfw$size[!dfw$highlight2 == 1] <- max(dfw$size)
     
-  pics[[as.character(i)]] <- p
-
-}
-
-library(gridExtra)
-grid.arrange(pics[[1]], nrow = 1)
+# Plot map
+p <- ggmap(mymap) + 
+      	geom_point(data = dfw,
+      	  aes(
+      	  x = longitude, 
+      	  y = latitude,
+	        size = size,
+	        shape = highlight2, 
+	        color = highlight)) +
+	        ggtitle(i) +
+	        scale_size(range = c(2, 15)) +
+	        theme(title = element_text(size = 30), legend.position="none") +
+	        scale_color_manual(values = c("black", "red")) +
+	        scale_shape_manual(values = c(19,1))
+print(p)
 ```
 
+Map by Stamen
 
 ---
 
@@ -235,10 +228,10 @@ grid.arrange(pics[[1]], nrow = 1)
 ### Publishing activity over time
 
 - 1700-1721 Fennica drop
-- 1760-1770s Kungliga peak 
+- 1760-1770 Pamphleteering plays a crucial role during abolished censorship
 - 1803-1815 Napoleonic wars
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4, out.width="200px"}
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4, out.width="300px"}
 library(magrittr)
 library(ggplot2)
 library(dplyr)
@@ -249,33 +242,19 @@ df2$highlight[df2$catalog == "Kungliga" &
 	      df2$publication_decade %in% c(1770, 1810)] <- TRUE
 df2$highlight[df2$catalog == "Fennica" &
 	      df2$publication_decade %in% c(1710, 1810)] <- TRUE
-v <- seq(1500, 1800, 50)
+v <- seq(1500, 1800, 100)
 theme_set(theme_bw(20))
-p <- ggplot(df2, aes(x = publication_decade, y = n)) +
+p1 <- ggplot(df2, aes(x = publication_decade, y = n)) +
      geom_line(aes(color = catalog), size = 1) +
-     geom_point(aes(shape = catalog, color = highlight, size = highlight)) +
+     geom_point(aes(shape = catalog, color = catalog, size = highlight)) +
      ylab("Title count (n)") + xlab("Publication year") +
      #theme(legend.position = "none") +
      scale_x_continuous(breaks = v, labels = v) +
-     scale_color_manual(values = c("black", "blue", "darkgreen", "blue")) + 
-     guides(fill = guide_legend(reverse = TRUE)) 
-print(p)
-```
+     scale_color_manual(values = c("blue", "darkgreen")) + 
+  	 scale_size_discrete(range = c(2, 8)) +
+     guides(color = guide_legend(reverse = TRUE), size = "none", shape = "none") 
 
-
----
-
-[General trends & political events]
-
-### Swedish 1760-1770 publishing peak
-
-Pamphleteering plays a crucial role during abolished censorship
-
-
-```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=4, out.width="280px", fig.show="hold"}
-df <- df0 %>%
-        filter(catalog == "Kungliga")
-
+df <- df0 %>% filter(catalog == "Kungliga")
 # Add indicator of the publication period
 df$period <- cut(df$publication_year,
            breaks = c(1757, 1766, 1775, 1783),
@@ -290,12 +269,14 @@ df <- df %>% filter(!is.na(period)) %>%
 		  paper = sum(paper.consumption.km2, na.rm = TRUE)) %>%
         mutate(paper.per.title = paper/n)		 
 
-p <- ggplot(df,
+p2 <- ggplot(df,
        aes(x = period, y = paper.per.title)) + 
        geom_bar(stat = "identity") +
        scale_x_discrete(labels = c("1757-1765", "1766-1774", "1775-1783")) +
        ylab("Paper per title") + xlab("") 
-print(p)
+
+library(gridExtra)
+grid.arrange(p1, p2, nrow = 1)
 ```
 
 ---
@@ -359,10 +340,10 @@ for (catal in "Kungliga") {
     ymin = ymin,
     ymax = ymax
     )
-  rectangles$shade <- rep(c("White", "Highlight"), length = nrow(rectangles))
+  rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
 
  riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
- cols = c("gray", "lightblue", "yellow", "white")
+ cols = c("white", "black", "blue", "darkgray")
  rectangles$shade[rectangles$shade == "Highlight"] = riksplace
  rectangles$shade = factor(rectangles$shade)
 
@@ -386,11 +367,13 @@ for (catal in "Kungliga") {
 
 ---
 
-**2. Publishers in Sweden and Turku**
+\Large{2. Publishers in Sweden and Turku}
 
 ---
 
+\begin{center}
 [Publishers in Sweden and Turku]
+\end{center}
 
 ### Publishers in Swedish University towns (and Finland)
 
@@ -523,15 +506,15 @@ rm(pics)
 
 [Publishers in Sweden and Turku]
 
-### Top publishers in Turku/Fennica (title count)
+### Top publishers in Turku/Fennica
 
-```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+library(dplyr)
 place <- "Turku"
 catalogue = "Fennica"
 df = df0
 
-df <- df %>%
-        filter(catalog == catalogue & publication_place == place)
+df <- df %>% filter(catalog == catalogue & publication_place == place)
 
 df <- df %>%	
   filter(publication_year >= 1640 & publication_year <= 1828)%>%
@@ -545,21 +528,27 @@ df$publisher[!df$publisher %in% top] <- "Other"
 df$publisher <- factor(df$publisher, c(top, "Other"))
 
 # Title count per decade & publisher	
-npub <- df %>% group_by(publication_decade, publisher) %>% tally()
+npub <- df %>% group_by(publication_decade, publisher) %>% tally() %>% arrange(n)
+npub$publisher <- factor(npub$publisher, levels = (npub %>% group_by(publisher) %>% summarise(total = sum(n)) %>% arrange(total))$publisher)
+
 
 # TITLE COUNT
 theme_set(theme_bw(20))
-p <- ggplot(npub, aes(x = publication_decade, y = n)) +
-       geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) + 
-       xlab("Publication year") +
-       ylab("Title count (n)") #+        
+p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
+      geom_point(aes(size = n)) + 
+      #geom_line(aes(color = publisher), size = 2) +
+      #geom_smooth(aes(fill = publisher)) +
+      # geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) + 
+       xlab("Year") +
+       ylab("") +
+       guides(size = guide_legend(title = "Title count (n)"))
        #ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")", sep = ""))
 print(p)
 ```
 
 ---
 
-**3. Languages & religious texts in Finland**
+\Large{3. Languages and religious texts in Finland}
 
 ---
 
@@ -652,7 +641,7 @@ df$language[!df$language %in% langs2] <- "Other"
 df$language <- factor(df$language, levels = langs2)
 
 p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
-       geom_line() + geom_point() 
+       geom_line() + geom_point() + ylab("Documents (n)") + xlab("Publication year")
 
 print(p)
 ```
@@ -661,9 +650,9 @@ print(p)
 
 [Languages & religious texts in Finland]
 
-### Devotional literature (catechisms, hymns, prayer collections, etc.) 
+### Devotional literature (catechisms, hymns, prayers, etc.) 
 
-Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
+Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when does it show up as a relevant category.
 
 ```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
@@ -716,7 +705,7 @@ catalogue <- "Fennica"
 
 ### Temporary sermons in Latin and Swedish
 
-- play an important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
+- Important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
 
 ```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
   sel <- c("hautajaiset", "häät", "juhlamenot")
@@ -762,7 +751,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ---
 
-**4. University curriculum & Enlightenment in Finland**
+\Large{4. University curriculum and Enlightenment in Finland}
 
 ---
 
@@ -770,8 +759,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ### Dissertation languages in Turku 1640-1828
 
-
-```{r disslang, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+```{r disslang, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 catalogue <- "Fennica"
 langs <- c("Finnish", "Swedish", "Latin", "German",
            "Russian", "French", "Hebrew", "Other")
@@ -835,7 +823,7 @@ print(p)
 
 ### Printing by topic in different languages in Turku
 
-```{r topics-103B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=9}
+```{r topics-103B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8}
 sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
 df = dfl
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
@@ -848,7 +836,7 @@ df <- df %>% group_by(publication_decade, language) %>%
 p1 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +                     
        xlab("Publication year") +
-       ylab("Paper consumption") +
+       ylab("Paper") +
        guides(fill = guide_legend(reverse = TRUE, title = "")) +
        ggtitle("Philosophy")
 
@@ -866,7 +854,7 @@ df <- df %>% group_by(publication_decade, language) %>%
 p2 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +             
        xlab("Publication year") +
-       ylab("Paper consumption") +
+       ylab("Paper") +
        guides(fill = guide_legend(reverse = TRUE, title = "")) +
        ggtitle("History")
 
@@ -886,7 +874,7 @@ theme_set(theme_bw(20))
 p3 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_bar(aes(fill = language), position = "stack", stat = "identity") +              
        xlab("Publication year") +
-       ylab("Paper consumption") +
+       ylab("Paper") +
        guides(fill = guide_legend(reverse = TRUE, title = "")) +
        ggtitle("Economy")
 grid.arrange(p1, p2, p3, nrow = 3)
@@ -899,14 +887,14 @@ grid.arrange(p1, p2, p3, nrow = 3)
 
 ### Rise of the octavo sized book as vehicle of Enlightenment
 
-Paper consumption for different document formats over time. 
+Paper consumption: different document formats over time
 
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=9, fig.show="hold", out.width="160px"}
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-  df2$highlight <- rep("gray", nrow(df2))
-  df2$highlight[df2$gatherings == "8vo"] <- "darkgreen"
+  df2$highlight <- rep("Other", nrow(df2))
+  df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
     
   p <- ggplot(df2, aes(y = paper.consumption.km2,
                        x = publication_decade,
@@ -922,7 +910,7 @@ for (catal in unique(df0$catalog)) {
   p <- p + ylab("Paper consumption (km2)")
   p <- p + guides(linetype = guide_legend(keywidth = 5),
        	          shape = guide_legend(keywidth = 5))
-  p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
+  p <- p + ggtitle(catal)
   print(p)
 }
 ```
@@ -942,7 +930,9 @@ Data providers:
 - National Library of Finland
 - National Library of Sweden
 
-For more info, see: \textcolor{blue}{https://github.com/rOpenGov/fennica}
+For more info, see: 
+
+- \textcolor{blue}{https://github.com/rOpenGov/fennica}
 
 
 ---

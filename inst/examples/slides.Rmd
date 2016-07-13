@@ -279,3 +279,73 @@ for (catalogue in c("Fennica", "Kungliga")) {
   print(p)
 }
 ```
+
+
+[General trends & political events]
+
+### Publishing activity over time
+
+- 1700-1721 Fennica drop
+- 1760-1770 Kungliga peak 
+- 1803-1815 Napoleonic wars
+
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4, out.width="200px"}
+library(magrittr)
+library(ggplot2)
+library(dplyr)
+df2 <- df0 %>% group_by(publication_decade, catalog) %>%
+               summarise(n = n())
+df2$highlight <- rep(FALSE, nrow(df2))
+df2$highlight[df2$catalog == "Kungliga" &
+	      df2$publication_decade %in% c(1770, 1810)] <- TRUE
+df2$highlight[df2$catalog == "Fennica" &
+	      df2$publication_decade %in% c(1710, 1810)] <- TRUE
+v <- seq(1500, 1800, 100)
+theme_set(theme_bw(20))
+p <- ggplot(df2, aes(x = publication_decade, y = n)) +
+     geom_line(aes(color = catalog), size = 1) +
+     geom_point(aes(shape = catalog, color = catalog, size = highlight)) +
+     ylab("Title count (n)") + xlab("Publication year") +
+     #theme(legend.position = "none") +
+     scale_x_continuous(breaks = v, labels = v) +
+     scale_color_manual(values = c("blue", "darkgreen")) + 
+  	 scale_size_discrete(range = c(2, 8)) +
+     guides(color = guide_legend(reverse = TRUE), size = "none", shape = "none") 
+print(p)
+```
+
+
+---
+
+[General trends & political events]
+
+### Swedish 1760-1770 publishing peak
+
+Pamphleteering plays a crucial role during abolished censorship
+
+```{r pamflets1, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=4, out.width="280px", fig.show="hold"}
+df <- df0 %>% filter(catalog == "Kungliga")
+
+# Add indicator of the publication period
+df$period <- cut(df$publication_year,
+           breaks = c(1757, 1766, 1775, 1783),
+		 include.lowest = TRUE,
+		 right = FALSE
+		 )
+
+# Remove entries outside the investigated publication periods
+df <- df %>% filter(!is.na(period)) %>%
+	     group_by(period) %>%
+	     summarise(n = n(),
+		  paper = sum(paper.consumption.km2, na.rm = TRUE)) %>%
+        mutate(paper.per.title = paper/n)		 
+
+p <- ggplot(df,
+       aes(x = period, y = paper.per.title)) + 
+       geom_bar(stat = "identity") +
+       scale_x_discrete(labels = c("1757-1765", "1766-1774", "1775-1783")) +
+       ylab("Paper per title") + xlab("") 
+print(p)
+```
+
+---
