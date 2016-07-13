@@ -939,7 +939,6 @@ Data providers:
 
 For more info, see: \textcolor{blue}{https://github.com/rOpenGov/fennica}
 
-```
 
 ---
 

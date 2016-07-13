@@ -94,7 +94,7 @@ Let us look at top publication places during the period 1650-1750 in Fennica:
 
 The following figure highlights publisher title count changes around 1700 drop in Turku, the most significant publishing place at the time:
 
-![](figure_201606_Krakow/drop1700B-1.png)
+![](figure_201606_Krakow/drop1700BB-1.png)
 
 Here the same for the complete Fennica:
 
@@ -102,7 +102,7 @@ Here the same for the complete Fennica:
 
 Paper per title count ratio per publisher. \[nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).\]
 
-<img src="figure_201606_Krakow/publisherpapertitle-1.png" width="430px" /><img src="figure_201606_Krakow/publisherpapertitle-2.png" width="430px" />
+<img src="figure_201606_Krakow/publisherpapertitleB-1.png" width="430px" /><img src="figure_201606_Krakow/publisherpapertitleB-2.png" width="430px" />
 
 ### General trends: Fennica vs. Kungliga
 
@@ -165,7 +165,7 @@ Kungliga publications outside Sweden and Finland.
 
 ### Book printing in Finland
 
-<img src="figure_201606_Krakow/language1-1.png" width="430px" /><img src="figure_201606_Krakow/language1-2.png" width="430px" /><img src="figure_201606_Krakow/language1-3.png" width="430px" /><img src="figure_201606_Krakow/language1-4.png" width="430px" />
+<img src="figure_201606_Krakow/language1B-1.png" width="430px" /><img src="figure_201606_Krakow/language1B-2.png" width="430px" /><img src="figure_201606_Krakow/language1B-3.png" width="430px" /><img src="figure_201606_Krakow/language1B-4.png" width="430px" />
 
 Analyysi voi tapahtua aikajanalla, mutta voisi myös ajatella suhteellista kehitystä tässä jollain muulla esitystavalla, olisiko se sitten jonkinlainen prosenttianalyysi? Tämä analyysi kannattaa jatkaa myös pidemmälle kuin 1828 Fennican osalta.
 
@@ -223,7 +223,7 @@ Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
 
 General analysis with all documents combined:
 
-<img src="figure_201606_Krakow/topics3-1.png" width="430px" /><img src="figure_201606_Krakow/topics3-2.png" width="430px" />
+<img src="figure_201606_Krakow/topics3B-1.png" width="430px" /><img src="figure_201606_Krakow/topics3B-2.png" width="430px" />
 
 Same with selected publication places:
 
@@ -411,7 +411,7 @@ Tässä on meille tärkeät kuvat. Erityisesti paper consumption (Kungliga) näy
 
 Paper consumption in selected places (Fennica):
 
-<img src="figure_201606_Krakow/201606krakow-turkuvsother-1.png" width="430px" /><img src="figure_201606_Krakow/201606krakow-turkuvsother-2.png" width="430px" />
+<img src="figure_201606_Krakow/201606krakow-turkuvsotherB-1.png" width="430px" /><img src="figure_201606_Krakow/201606krakow-turkuvsotherB-2.png" width="430px" />
 
 ### Dynamics and evolution of publisher networks
 
@@ -571,6 +571,161 @@ A brief summary of the data processing steps:
 
 The package utilizes tools from a number of other R extensions, including dplyr (Wickham and Francois, 2016), ggplot2 (Wickham, 2009), stats (R Core Team, 2016), tidyr (Wickham, 2016).
 
+### Chunks transfered from slides for later use
+
+\[Swedish Age of Freedom and Abolishment of Censorship\]
+
+### 1766-1772 Title count vs. paper consumption (Kungliga)
+
+Kungligan mukaan kuinka paljon enemmän Kungligassa julkaisujen lukumäärä ja paperinkulutus kasvaa kun sensuuri puuttuu vuosina 1766-1772 suhteessa tätä edeltävään kuuteen vuoteen.
+
+![](figure_201606_Krakow/peak-1.png)
+
+------------------------------------------------------------------------
+
+\[University curriculum 4/5\]
+
+### Printing of natural science in different languages in Turku
+
+![](figure_201606_Krakow/topics-104-1.png)
+------------------------------------------
+
+### DONE Kungliga subject topics (NEW!!)
+
+Kyrkohistoria; Biblisk arkeologi;Exegetik;Homiletik;Dogmatik;Teologi; Praktisk Teologi; Teologisk etik
+
+![](figure_201606_Krakow/ktopic1-1.png)
+
+------------------------------------------------------------------------
+
+Idé- och lärdomshistoria;Antiken;Historia;Militärhistoria;
+
+![](figure_201606_Krakow/ktopic2-1.png)
+
+------------------------------------------------------------------------
+
+Filosofi;Metafysik;Logik
+
+![](figure_201606_Krakow/ktopic3-1.png)
+
+------------------------------------------------------------------------
+
+1.  Naturvetenskap;Matematik;Matematiska tabeller; Kemi;Astronomi;Geografi;Geologi;Meteorologi
+
+![](figure_201606_Krakow/ktopic4-1.png)
+
+------------------------------------------------------------------------
+
+1.  Retorik
+
+![](figure_201606_Krakow/ktopic5-1.png)
+
+------------------------------------------------------------------------
+
+1.  Hebreiska språket; Grekiska språket;Latin
+
+![](figure_201606_Krakow/ktopic6-1.png)
+
+------------------------------------------------------------------------
+
+1.  Politisk filosofi;Ekonomiska förhållanden; Nationalekonomi;Lantbruksekonomi;Ekonomi;Penningväsen;Penningvärde;Kreditväsen;Penningförfalskning;Moral;Pedagogik;Uppfsotringsverket;Uppfostran;Barnuppfostran;Jordbruk;Jordbrukslära;Jordbrukspolitik;Fiske
+
+![](figure_201606_Krakow/ktopic7-1.png)
+
+------------------------------------------------------------------------
+
+1.  Biologi;Medicinalverket;Medicin;Veterinärmedicin;Medicinalväsen;Medicinalväxkter;Sjukdomar;Djursjukdomar;Djur;Husdjur;Djurskydd;Hästar;Hästkreatur;Hästkörning;Hästavel
+
+![](figure_201606_Krakow/ktopic8-1.png)
+
+------------------------------------------------------------------------
+
+1.  Kvinnor;Kvinnliga textilarbetare;Gravida kvinnor;Adelskvinnor;Kvinnorollen;Ensamstående kvinnor
+
+![](figure_201606_Krakow/ktopic9-1.png)
+
+------------------------------------------------------------------------
+
+1.  Högmålsbrott;Skattebrott;Brott;Brottslingar;Äktenskapsbrott;Våldsbrott;Trafikbrott;Gäldenärsbrott;Sabbattsbrott;Sexualbrott;Fridsbrott;Ekonomisk brottslighet;Religionsbrott;Juridik;Straff;Dödsstraff;Kroppsstraff;Straffarbete;Straffarbete;Fängelsestraff
+
+![](figure_201606_Krakow/ktopic10-1.png)
+----------------------------------------
+
+\[Swedish Age of Freedom and Abolishment of Censorship 2/3\]
+
+### Number of publishers in Stockholm 1760-1770
+
+<img src="figure_201606_Krakow/polev1b-1.png" width="280px" />
+--------------------------------------------------------------
+
+### Finland in the Swedish context
+
+-   Dramatic events regarding the diversity of "Finnishness" take place in the early nineteenth century --- but the analysis of Finnish knowledge production 1828-2016 is for another day.
+
+![](figure_201606_Krakow/201606krakow-turkuvsother-1.png)
+---------------------------------------------------------
+
+\[Publishers 5/6\]
+
+### Comparing paper used on average per publication by publishers
+
+TODO: Mikä kustantaja Sverige on? LL: originaalidatan publisher-kenttä on tässä kohden tyhjä. Veikkaan että tähän on täydennetty materiaalia muistakin kentistä. Pitää katsoa Hegen kanssa tarkemmin mikä on Sverige koska publisher-kenttä tulee hänen koodeilla.
+
+<img src="figure_201606_Krakow/publisherpapertitle-1.png" width="150px" /><img src="figure_201606_Krakow/publisherpapertitle-2.png" width="150px" />
+
+------------------------------------------------------------------------
+
+\[Languages & religious texts in Finland\]
+
+### Development of use of different languages in Finnish National Bibliography
+
+<img src="figure_201606_Krakow/language1-1.png" width="160px" /><img src="figure_201606_Krakow/language1-2.png" width="160px" />
+--------------------------------------------------------------------------------------------------------------------------------
+
+\[Languages\]
+
+### Development of use of different languages in Kungliga data
+
+<img src="figure_201606_Krakow/language1-kungliga-1.png" width="150px" /><img src="figure_201606_Krakow/language1-kungliga-2.png" width="150px" />
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+\[Languages & religious texts in Finland\]
+
+### Combining devotional literature and temporary sermons
+
+![](figure_201606_Krakow/topics3-1.png)
+
+------------------------------------------------------------------------
+
+\[Publishers\]
+
+Asiasanoja / yliopistopaikkakunta vertailu Kungligasta. Ts. mitä enemmän eri aikoina asiasanoja (ihan sama mitä ne on) paikkakunnalla, sitä monimuotoisempaa/rikkaampaa julkaisutoiminta?
+
+![](figure_201606_Krakow/subtop1-1.png)
+
+------------------------------------------------------------------------
+
+\[University curriculum & Enlightenment in Finland\]
+
+### Printing of theology in different languages in Turku
+
+![](figure_201606_Krakow/topics-101-1.png)
+------------------------------------------
+
+\[Publishers in Sweden and Turku\]
+
+### Rock Bottom of the Great Northern War (1700-1721)
+
+Publisher title count changes around 1700 with a nearly detrimental drop in Turku, significant publishing place in Finland at the time.
+
+![](figure_201606_Krakow/drop1700B-1.png)
+
+TODOja KRAKOVAN JÄLKEEN tehtäviä:
+
+Vaasan merkitys Turun rinnalla 1700-luvun lopulla. Tämä pitää ottaa mukaan analyysiin. Todella mielenkiintoinen case joka myös näkyy tuossa kokonaiskuvassa. Tästä siis tarkemmat analyysit.
+
+------------------------------------------------------------------------
+
 ### Acknowledgements
 
 Supported by Academy of Finland (grant 293316).
@@ -603,6 +758,8 @@ The most active known female authors based on the title count:
 
 <img src="figure_201606_Krakow/201606krakow-fennica-topfemale-1.png" width="850px" />
 
+------------------------------------------------------------------------
+
 Session info
 ------------
 
@@ -628,48 +785,47 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] Cairo_1.5-9           scales_0.4.0          gisfin_0.9.26        
-    ##  [4] R6_2.1.2              rgdal_1.1-10          sp_1.2-3             
-    ##  [7] ggmap_2.6.1           devtools_1.12.0       knitcitations_1.0.7  
-    ## [10] rmarkdown_0.9.6.14    sorvi_0.7.47          tibble_1.1           
-    ## [13] fennica_0.1.42        stringr_1.0.0         microbiome_0.99.83   
-    ## [16] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [19] reshape2_1.4.1        magrittr_1.5          bibliographica_0.2.25
-    ## [22] dplyr_0.5.0           tidyr_0.5.1           ggplot2_2.1.0        
+    ##  [1] knitcitations_1.0.7   gisfin_0.9.26         R6_2.1.2             
+    ##  [4] rgdal_1.1-10          sp_1.2-3              ggmap_2.6.1          
+    ##  [7] rmarkdown_0.9.6.14    sorvi_0.7.47          tibble_1.1           
+    ## [10] fennica_0.1.42        stringr_1.0.0         microbiome_0.99.84   
+    ## [13] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
+    ## [16] reshape2_1.4.1        magrittr_1.5          bibliographica_0.2.25
+    ## [19] dplyr_0.5.0           tidyr_0.5.1           ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):
-    ##   [1] colorspace_1.2-6      deldir_0.1-12         rjson_0.2.15         
+    ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
     ##   [4] babynames_0.2.1       dynamicTreeCut_1.63-1 XVector_0.12.0       
-    ##   [7] AnnotationDbi_1.34.3  lubridate_1.5.6       RefManageR_0.10.13   
+    ##   [7] lubridate_1.5.6       AnnotationDbi_1.34.3  RefManageR_0.10.13   
     ##  [10] codetools_0.2-14      splines_3.3.1         doParallel_1.0.10    
     ##  [13] impute_1.46.0         tgp_2.4-14            ade4_1.7-4           
-    ##  [16] Formula_1.2-1         jsonlite_1.0          WGCNA_1.51           
-    ##  [19] cluster_2.0.4         GO.db_3.3.0           png_0.1-7            
-    ##  [22] mapproj_1.2-4         httr_1.2.1            assertthat_0.1       
-    ##  [25] Matrix_1.2-6          lazyeval_0.2.0        formatR_1.4          
-    ##  [28] acepack_1.3-3.3       htmltools_0.3.5       tools_3.3.1          
-    ##  [31] igraph_1.0.1          NLP_0.1-9             coda_0.18-1          
-    ##  [34] gtable_0.2.0          gmodels_2.16.2        maps_3.1.0           
-    ##  [37] Rcpp_0.12.5           slam_0.1-35           Biobase_2.32.0       
-    ##  [40] Biostrings_2.40.2     RJSONIO_1.3-0         spdep_0.6-5          
-    ##  [43] multtest_2.28.0       gdata_2.17.0          ape_3.5              
-    ##  [46] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
-    ##  [49] fastcluster_1.1.20    gender_0.5.1          proto_0.3-10         
-    ##  [52] gtools_3.5.0          XML_3.98-1.4          stringdist_0.9.4.1   
-    ##  [55] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
-    ##  [58] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
-    ##  [61] rhdf5_2.16.0          RColorBrewer_1.1-2    yaml_2.1.13          
-    ##  [64] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
-    ##  [67] latticeExtra_0.6-28   stringi_1.1.1         maptree_1.4-7        
-    ##  [70] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.1     
-    ##  [73] foreach_1.4.3         permute_0.9-0         BiocGenerics_0.18.0  
-    ##  [76] boot_1.3-18           bibtex_0.4.0          chron_2.3-47         
-    ##  [79] RgoogleMaps_1.2.0.7   moments_0.14          matrixStats_0.50.2   
-    ##  [82] bitops_1.0-6          evaluate_0.9          lattice_0.20-33      
-    ##  [85] labeling_0.3          plyr_1.8.4            IRanges_2.6.1        
-    ##  [88] Hmisc_3.17-4          DBI_0.4-1             foreign_0.8-66       
-    ##  [91] withr_1.0.2           mgcv_1.8-12           survival_2.39-5      
-    ##  [94] RCurl_1.95-4.8        nnet_7.3-12           jpeg_0.1-8           
+    ##  [16] Formula_1.2-1         jsonlite_1.0          Cairo_1.5-9          
+    ##  [19] WGCNA_1.51            cluster_2.0.4         GO.db_3.3.0          
+    ##  [22] png_0.1-7             httr_1.2.1            mapproj_1.2-4        
+    ##  [25] assertthat_0.1        Matrix_1.2-6          lazyeval_0.2.0       
+    ##  [28] formatR_1.4           acepack_1.3-3.3       htmltools_0.3.5      
+    ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
+    ##  [34] coda_0.18-1           gtable_0.2.0          maps_3.1.0           
+    ##  [37] gmodels_2.16.2        Rcpp_0.12.5           slam_0.1-35          
+    ##  [40] Biobase_2.32.0        Biostrings_2.40.2     RJSONIO_1.3-0        
+    ##  [43] multtest_2.28.0       spdep_0.6-5           gdata_2.17.0         
+    ##  [46] ape_3.5               preprocessCore_1.34.0 nlme_3.1-128         
+    ##  [49] iterators_1.0.8       fastcluster_1.1.20    gender_0.5.1         
+    ##  [52] proto_0.3-10          gtools_3.5.0          XML_3.98-1.4         
+    ##  [55] stringdist_0.9.4.1    LearnBayes_2.15       zlibbioc_1.18.0      
+    ##  [58] MASS_7.3-45           scales_0.4.0          parallel_3.3.1       
+    ##  [61] biomformat_1.0.2      genderdata_0.5.0      rhdf5_2.16.0         
+    ##  [64] RColorBrewer_1.1-2    yaml_2.1.13           geosphere_1.5-5      
+    ##  [67] rpart_4.1-10          latticeExtra_0.6-28   stringi_1.1.1        
+    ##  [70] maptree_1.4-7         RSQLite_1.0.0         highr_0.6            
+    ##  [73] S4Vectors_0.10.1      foreach_1.4.3         permute_0.9-0        
+    ##  [76] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
+    ##  [79] chron_2.3-47          bitops_1.0-6          RgoogleMaps_1.2.0.7  
+    ##  [82] moments_0.14          matrixStats_0.50.2    evaluate_0.9         
+    ##  [85] lattice_0.20-33       labeling_0.3          plyr_1.8.4           
+    ##  [88] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.4-1            
+    ##  [91] foreign_0.8-66        mgcv_1.8-12           RCurl_1.95-4.8       
+    ##  [94] survival_2.39-5       nnet_7.3-12           jpeg_0.1-8           
     ##  [97] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
     ## [100] digest_0.6.9          tm_0.6-2              stats4_3.3.1         
     ## [103] munsell_0.4.3
