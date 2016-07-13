@@ -618,7 +618,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
       ylab("Title count frequency (%)") +
       #ggtitle(paste("Languages (", myplace, "/", catalogue, ")", sep = "")) +
       ggtitle(paste(myplace, "/", catalogue)) +
-      scale_fill_brewer(palette="Paired") + 
+      scale_fill_brewer(palette="Spectral") + 
       guides(fill = guide_legend(reverse = TRUE, title = ""))
     pics[[paste(catalogue, myplace, sep = "-")]] <- p
   }
@@ -824,7 +824,7 @@ p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      xlab("Publication year") +
      ylab("Title count frequency (%)") +
      ggtitle(paste("Languages (", catalogue, ")", sep = "")) +
-     scale_fill_brewer(palette="Paired")
+     scale_fill_brewer(palette="Spectral")
 print(p)
 ```
 
