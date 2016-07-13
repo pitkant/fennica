@@ -582,6 +582,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  otherlang <- otherlang[otherlang!="language.Multiple languages"]
+
   df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
 
   dfl <- NULL
@@ -726,6 +728,7 @@ catalogue <- "Fennica"
   df <- df %>% filter(catalog == catalogue & hit)
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+  otherlang <- otherlang[otherlang!="language.Multiple languages"]
   df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
 
   dfl <- NULL
@@ -780,6 +783,8 @@ df <- df0 %>%
 
 lang <- paste("language.", langs, sep = "")
 otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
+otherlang <- otherlang[otherlang!="language.Multiple languages"]
+
 df$language.Other <- rowSums(df[, otherlang] == TRUE, na.rm = T) > 0
 
 dfl <- NULL
