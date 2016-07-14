@@ -253,7 +253,7 @@ Map by Stamen
 
 ### Publishing activity over time
 
-- 1700-1721 Fennica drop
+- 1700-1721 Great Northern War & Fennica drop during "the Great Wrath"
 - 1760-1770 Pamphleteering plays a crucial role during abolished censorship
 - 1803-1815 Napoleonic wars
 
@@ -602,7 +602,7 @@ print(p)
 \tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
 \end{center}
 
-### Different languages in Turku, Stockholm, Lund and Uppsala
+### Different languages in Turku, Stockholm, Uppsala and Lund
 
 ```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=12}
 pics <- list()
@@ -674,7 +674,7 @@ rm(pics)
 \tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
 \end{center}
 
-### Topic richness per language (Finnish publications)
+### Topic richness per language (publications in Fennica)
 
 
 ```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
@@ -706,7 +706,7 @@ print(p)
 
 ### Devotional literature (catechisms, hymns, prayers, etc.) 
 
-Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when does it show up as a relevant category.
+Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
 ```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
@@ -749,8 +749,8 @@ catalogue <- "Fennica"
        #geom_smooth(aes(fill = language, color = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(catalogue) 
-       #ggtitle(paste("Languages (", catalogue, ")", sep = "")) 
+       ggtitle(paste("Devotional Literature (", catalogue, ")", sep = ""))
+       #ggtitle(paste("Devotional literature" (", catalogue, ")", sep = "")) 
   print(p)
 ```
 
@@ -762,7 +762,7 @@ catalogue <- "Fennica"
 
 ### Temporary sermons in Latin and Swedish
 
-- Important role in early modern knowledge production. It has not been analysed in what language they were in Finland (and Sweden). 
+- Important role in early modern knowledge production. Language of temporary sermons in contrast to devotional literature has not been analysed in Finland (and Sweden). 
 
 ```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
   sel <- c("hautajaiset", "häät", "juhlamenot")
@@ -802,7 +802,7 @@ dfl$language <- factor(dfl$language, levels = langs)
        geom_line(aes(col = language, shape = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
-       ggtitle(paste("Languages (", catalogue, ")", sep = ""))
+       ggtitle(paste("Temporary Sermons (", catalogue, ")", sep = ""))
   print(p)
 ```
 
@@ -873,7 +873,7 @@ p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
      xlab("Publication year") +
      ylab("Title count frequency (%)") +
-     ggtitle(paste("Languages (", catalogue, ")", sep = "")) +
+     ggtitle(paste("Dissertation languages (", catalogue, ")", sep = "")) +
      scale_fill_brewer(palette="Spectral")
 print(p)
 ```
@@ -885,7 +885,7 @@ print(p)
 \tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
 \end{center}
 
-### Printing by topic in different languages in Turku
+### Printing by topics in different languages in Turku
 
 ```{r topics-103B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8}
 sel = c("filosofia","luonnonfilosofia","metafysiikka","logiikka")
