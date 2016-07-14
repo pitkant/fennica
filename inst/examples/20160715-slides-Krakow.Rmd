@@ -109,9 +109,9 @@ print(p)
 
 ## Methods: Open data analytical ecosystem
 
-**Customized** dedicated R packages for bibliographic analysis combine flexibility with automation
+**Customized** our dedicated R packages for bibliographic analysis combine flexibility with automation
 
-**Automated** scales well with new data and unforeseen changes; a million documents ~ 30 minutes
+**Automated** scales well with new data and unforeseen changes; a million documents cleaned up in 30 minutes
 
 **Open source** fully transparent and reproducible data analytics: https://github.com/rOpenGov/fennica
 
@@ -200,22 +200,41 @@ dfw <- mapdata %>%
     	     group_by(publication_place, latitude, longitude, highlight, highlight2) %>%
 		       summarize(n = sum(size))
 dfw$size <- log10(1 + dfw$n)
-dfw$size[!dfw$highlight2 == 1] <- max(dfw$size)
+dfw$size[!dfw$highlight2 == 1] <- 0.5*max(dfw$size)
     
+
 # Plot map
 p <- ggmap(mymap) + 
-      	geom_point(data = dfw,
-      	  aes(
-      	  x = longitude, 
-      	  y = latitude,
-	        size = size,
-	        shape = highlight2, 
-	        color = highlight)) +
+
+        	geom_point(data = subset(dfw, highlight2 == 1),
+      	    aes(
+      	      x = longitude, 
+      	      y = latitude,
+	            size = size,
+	            shape = 1, 
+	            #shape = highlight2, 
+	            fill = highlight), 
+      	      pch = 21, stroke = 1) +
+  
+        	geom_point(data = subset(dfw, !highlight2 == 1),
+      	    aes(
+      	      thickness = 10,
+      	      x = longitude, 
+      	      y = latitude,
+	            shape = 19, 
+	            #shape = highlight2, 
+	            color = highlight), 
+      	      colour = "black", 
+      	      shape = 21, # Point shape 
+      	      size = 7,   # Point size
+      	      stroke = 2) + # Point edge thickness
+  
+  
 	        ggtitle(i) +
 	        scale_size(range = c(2, 15)) +
 	        theme(title = element_text(size = 30), legend.position="none") +
-	        scale_color_manual(values = c("black", "red")) +
-	        scale_shape_manual(values = c(19,1))
+	        scale_fill_manual(values = c("darkgray", "red")) #+
+	        #scale_shape_manual(values = c(19,1))
 print(p)
 ```
 
@@ -530,7 +549,13 @@ df$publisher <- factor(df$publisher, c(top, "Other"))
 
 # Title count per decade & publisher	
 npub <- df %>% group_by(publication_decade, publisher) %>% tally() %>% arrange(n)
-npub$publisher <- factor(npub$publisher, levels = (npub %>% group_by(publisher) %>% summarise(total = sum(n)) %>% arrange(total))$publisher)
+#npub$publisher <- factor(npub$publisher, levels = (npub %>% group_by(publisher) %>% summarise(total = sum(n)) %>% arrange(total))$publisher)
+# Sort by biggest publication decade
+#ord <- (npub %>% group_by(publisher) %>% summarise(decade = publication_decade[[which.max(n)]]) %>% arrange(decade))$publisher
+ord <- as.character((npub %>% group_by(publisher) %>% 
+                        summarise(decade = median(publication_decade)) %>% 
+                        arrange(decade))$publisher)
+npub$publisher <- factor(npub$publisher, levels = ord)
 
 
 # TITLE COUNT
