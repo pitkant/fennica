@@ -1,35 +1,32 @@
-Fennica: tools and analyses for the Finnish national bibliography
+Fennica: analysis of the Finnish national bibliography
 ============================================
 
-This repository contains automated analysis of the Finnish national bibliography, [Fennica](http://www.kansalliskirjasto.fi/kirjastoala/fennica.html), together with full soure code. Fennica includes metadata for over 70,000 documents printed in Finland between 1488-1955, and is analyzed in parallel with [Kungliga](https://github.com/ropengov/kungliga), a related collection of bibliographic metadata from the Swedish National library.
+This repository contains automated analysis of the Finnish national bibliography, [Fennica](http://www.kansalliskirjasto.fi/kirjastoala/fennica.html). Fennica includes bibliographic metadata for over 70,000 documents between 1488-1955, representing the publishing activity in Finland during that period. This is analyzed in parallel with [Kungliga](https://github.com/ropengov/kungliga), a related collection of bibliographic metadata from the Swedish National library.
 
 For more info of the overall research project funded by Academy of
 Finland 2016-2019, see the [project
 page](https://www.helsinki.fi/en/researchgroups/digital-humanities-helsinki/projects#section-13696).
 
 
-### Analysis overview
+### Reproducible analysis
 
 The data is summarized in the following automatically generated files:
 
- * [Fennica bibliography: an overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
- * Knowledge production in Finland/Sweden 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.pdf)) and [code](inst/examples/20160715-slides-Krakow.Rmd)
- * [Digital History in Finland seminar, University of Helsinki, Dec 9, 2015](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md)
+ * [Fennica: an overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
+ * Knowledge production in Finland 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.pdf)) and [code](inst/examples/20160715-slides-Krakow.Rmd)
+ * [Digital History in Finland](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md) Seminar in University of Helsinki, Dec 9, 2015
  * [Analyses on specific publication places and other topics](https://github.com/rOpenGov/fennica/tree/master/inst/examples) (see the .md files) 
  * [Further notes on preprocessing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md)
 
-The analyses include several steps including XML parsing, data
+The analyses cover several steps including XML parsing, data
 harmonization, removing unrecognized entries, enriching and organizing
 the data, carrying out statistical summaries, analysis, visualization
-and automated document generation. The full source
-code](https://github.com/rOpenGov/fennica/blob/master/inst/examples/main.md
-is provided in this repository.
-
-The full source code and analysis outputs can be freely reused under
-the [BSD 2 clause](https://opensource.org/licenses/BSD-2-Clause)
-(FreeBSD) open source licence. The analyses are based on the
-[R](http://r-project.org) statistical programming environment, and
-rely on the custom
+and automated document generation. The analyses and full [source
+code](https://github.com/rOpenGov/fennica/blob/master/inst/examples/main.R)
+are provided in this repository and can be freely reused under the
+[BSD 2 clause](https://opensource.org/licenses/BSD-2-Clause) (FreeBSD)
+open source licence. The analyses are based on the
+[R](http://r-project.org) and rely on the custom
 [bibliographica](https://github.com/ropengov/bibliographica) package
 for bibliographic data analysis, as well as many other R packages. The
 original raw data is available only on a separate agreement, so we are
@@ -39,8 +36,9 @@ code.
 
 ### Contact
 
-The tools are under active open development and the tools, analysis,
-and documentation are being constantly updated. You can support the project by
+The project is under active open development and the tools, analysis,
+and documentation are being constantly updated. You can support the
+project by
 
   * [sending suggestions and bug reports](https://github.com/ropengov/fennica/issues)
   * [pull requests](https://github.com/ropengov/fennica/) (we will acknowledge contributions)
@@ -68,9 +66,9 @@ Funding:
   * [Academy of Finland](https://www.kansalliskirjasto.fi/en/projects/comhis-computational-history-and-the-transformation-of-public-discourse-in-finland-1640)
 
 
-Special thanks for data and other support:
+Special thanks:
 
-  * [Finnish National library](https://www.kansalliskirjasto.fi/en/)
+  * [Finnish National library](https://www.kansalliskirjasto.fi/en/) (Fennica data collection)
 
   * [Väestörekisterikeskus](http://vrk.fi/) Finnish first name-gender
     mappings and demographic information
@@ -80,6 +78,8 @@ Special thanks for data and other support:
   * [Tilastokeskus](http://www.tilastokeskus.fi/) Demographic information
 
   * [Open Street Map](https://www.openstreetmap.org) Geographic information
+
+  * [Google Maps]() Geographic information  
   
-  * [Open Knowledge Finland ry.](http://fi.okfn.org/)
+  * [Open Knowledge Finland ry.](http://fi.okfn.org/) 
 
