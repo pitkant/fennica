@@ -285,7 +285,7 @@ grid.arrange(p1, p2, nrow = 1)
 
 ### Swedish knowledge production & cycles of representation
 
-An example how historical events, namely parliamentary assemblies in the Swedish case, have an effect on knowledge production.
+An example how historical events, namely **parliamentary assemblies** in the Swedish case, have an effect on knowledge production.
 
 ```{r riksdar5, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 
@@ -343,7 +343,7 @@ for (catal in "Kungliga") {
   rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
 
  riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
- cols = c("white", "black", "blue", "darkgray")
+ cols = c("pink", "Purple", "aquamarine", "yellow")
  rectangles$shade[rectangles$shade == "Highlight"] = riksplace
  rectangles$shade = factor(rectangles$shade)
 
@@ -359,7 +359,7 @@ for (catal in "Kungliga") {
   p <- p + ggtitle("Publishing activity")
   p <- p + ylab("Documents / Year")
   p <- p + xlab("Year")
-  p <- p + ggtitle(catal)
+  p <- p + ggtitle(paste(catal,"Riksplaces"))
   print(p)
 }
 
@@ -452,6 +452,7 @@ df <- subset(df, !is.na(df$publication_place))
 #df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
 library(reshape2)
 library(magrittr)
+library(dplyr)
 library(tidyr)
 
 df <- df %>% group_by(publication_decade, publication_place) %>%
