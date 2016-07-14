@@ -390,6 +390,74 @@ for (catal in "Kungliga") {
 
 ---
 
+
+[Publishers in Sweden and Turku]
+
+### Turku in Sweden: proportions for title count and paper in Swedish University towns
+ 
+```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
+pics <- list()
+for (catalogue in na.omit(unique(df0$catalog))) {
+
+df <- df0 %>% filter(catalog == catalogue)%>%
+        filter(publication_year >= 1640 & publication_year <= 1828)
+places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Tartu", "Turku")
+df$publication_place[!df$publication_place %in% places] <- "Other"
+df <- subset(df, !is.na(df$publication_place))
+#df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
+library(reshape2)
+library(magrittr)
+library(dplyr)
+library(tidyr)
+
+df <- df %>% group_by(publication_decade, publication_place) %>%
+             summarise(n = n(),
+                paper = sum(paper.consumption.km2, na.rm = TRUE),
+		       publishers = length(na.omit(unique(publisher)))
+		       )
+
+
+# Calculate percentages
+for (varname in c("n", "paper", "publishers")) {
+
+  df$varname <- df[[varname]]
+  dff <- df %>% select(publication_decade, publication_place, varname)
+  dff <- spread(dff, publication_place, varname, fill = 0)
+  dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
+  dff <- melt(dff, "publication_decade");
+  colnames(dff) <- c("publication_decade", "publication_place", "f")
+
+  theme_set(theme_bw(20))
+  p <- ggplot(dff, aes(x = publication_decade, y = f)) +
+     geom_bar(position = "stack", stat = "identity",
+       aes(fill = publication_place)) + 
+     xlab("Publication year") +
+     scale_fill_brewer(palette="Paired")
+     if (varname == "n") {
+       p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
+                ylab("Title count frequency (%)") 
+     }
+     if (varname == "paper") {
+       p <- p + ggtitle(paste("Paper (", catalogue, ")", sep = "")) +
+                ylab("Paper (%)")        
+     }
+     if (varname == "publishers") {
+       p <- p + ggtitle(paste("Publishers (", catalogue, ")", sep = "")) +
+                       ylab("Publishers (%)")
+     }     
+  p <- p + guides(fill = guide_legend(reverse = TRUE, title = "")) 
+
+  pics[[paste(catalogue, varname, sep = "-")]] <- p
+
+}
+}
+library(gridExtra)
+grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
+rm(pics)
+```
+
+---
+
 \begin{center}
 [Publishers in Sweden and Turku]
 \end{center}
@@ -450,74 +518,6 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
 
 
 print(p)
-```
-
-
----
-
-[Publishers in Sweden and Turku]
-
-### Turku in Sweden: proportions for title count and paper in Swedish University towns
- 
-```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
-pics <- list()
-for (catalogue in na.omit(unique(df0$catalog))) {
-
-df <- df0 %>% filter(catalog == catalogue)%>%
-        filter(publication_year >= 1640 & publication_year <= 1828)
-places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Turku")
-df$publication_place[!df$publication_place %in% places] <- "Other"
-df <- subset(df, !is.na(df$publication_place))
-#df$publication_place <- factor(df$publication_place, levels = c(places, "Other"))
-library(reshape2)
-library(magrittr)
-library(dplyr)
-library(tidyr)
-
-df <- df %>% group_by(publication_decade, publication_place) %>%
-             summarise(n = n(),
-       	       paper = sum(paper.consumption.km2, na.rm = TRUE),
-		       publishers = length(na.omit(unique(publisher)))
-		       )
-
-
-# Calculate percentages
-for (varname in c("n", "paper", "publishers")) {
-
-  df$varname <- df[[varname]]
-  dff <- df %>% select(publication_decade, publication_place, varname)
-  dff <- spread(dff, publication_place, varname, fill = 0)
-  dff[, -1] <- 100 * t(apply(dff[, -1], 1, function (x) {x/sum(x)}))
-  dff <- melt(dff, "publication_decade");
-  colnames(dff) <- c("publication_decade", "publication_place", "f")
-
-  theme_set(theme_bw(20))
-  p <- ggplot(dff, aes(x = publication_decade, y = f)) +
-     geom_bar(position = "stack", stat = "identity",
-       aes(fill = publication_place)) + 
-     xlab("Publication year") +
-     scale_fill_brewer(palette="Paired")
-     if (varname == "n") {
-       p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
-                ylab("Title count frequency (%)") 
-     }
-     if (varname == "paper") {
-       p <- p + ggtitle(paste("Paper (", catalogue, ")", sep = "")) +
-                ylab("Paper (%)")        
-     }
-     if (varname == "publishers") {
-       p <- p + ggtitle(paste("Publishers (", catalogue, ")", sep = "")) +
-                       ylab("Publishers (%)")
-     }     
-  p <- p + guides(fill = guide_legend(reverse = TRUE, title = "")) 
-
-  pics[[paste(catalogue, varname, sep = "-")]] <- p
-
-}
-}
-library(gridExtra)
-grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
-rm(pics)
 ```
 
 
