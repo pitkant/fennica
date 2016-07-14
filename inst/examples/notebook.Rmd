@@ -199,6 +199,7 @@ for (i in c(1650, 1710, 1760, 1800)) {
 
 library(gridExtra)
 grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1)
+#grid.arrange(pics[[1]], pics[[2]], pics[[3]], nrow = 1)
 ```
 
 
