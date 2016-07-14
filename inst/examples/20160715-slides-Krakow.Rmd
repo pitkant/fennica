@@ -413,7 +413,7 @@ for (varname in c("n", "paper", "publishers")) {
      geom_bar(position = "stack", stat = "identity",
        aes(fill = publication_place)) + 
      xlab("Publication year") +
-     scale_fill_brewer(palette="Paired")
+     scale_fill_brewer(palette="Spectral")
      if (varname == "n") {
        p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
                 ylab("Title count frequency (%)") 
@@ -493,7 +493,8 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack",
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
-       ylab("Unique publishers (n)") +        
+       ylab("Unique publishers (n)") +
+      scale_fill_brewer(palette="Spectral") +       
        guides(fill = guide_legend(reverse = TRUE, title = "")) #+ 
        #ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
 
