@@ -232,7 +232,7 @@ df$publisher <- factor(df$publisher, levels = c(top, "Other"))
 # Publishing per year & publisher	
 npub <- df %>%
      	  group_by(publication_year, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n())
 
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_year, y = n, group = publisher)) +
@@ -289,7 +289,7 @@ df$publisher <- factor(df$publisher, levels = c(top, "Other"))
 # Publishing per decade & publisher	
 npub <- df %>%
      	  group_by(publication_decade, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
 	  mutate(paper.per.title = paper/n)
 
 
@@ -371,7 +371,7 @@ print(p)
 Overall development in publishing activity:
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=10, out.width="430px"}
-df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+df2 <- df0 %>% group_by(publication_decade, catalog) %>% summarise(paper = sum(paper, na.rm = TRUE), n = n())
 df2$catalog = factor(df2$catalog, levels = rev(c("Fennica", "Kungliga")))
 p <- ggplot(df2, aes(x = publication_decade, y = n)) +
      geom_line(aes(linetype = catalog)) +
@@ -605,7 +605,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
   df <- dfs %>% group_by(publication_year) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 
 
@@ -763,7 +763,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 
 # TITLE COUNT
@@ -885,7 +885,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 df <- dfl %>% group_by(publication_year, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 for (sel.lan in "German") {
 
@@ -986,7 +986,7 @@ df = df0
 
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # TITLE COUNT
   theme_set(theme_bw(20))
@@ -1022,7 +1022,7 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
 
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # TITLE COUNT
   theme_set(theme_bw(20))
@@ -1059,7 +1059,7 @@ for (publ in tops) {
   df <- dfl %>% filter(publisher == publ)
 
   df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+             summarise(n = n(), paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1119,7 +1119,7 @@ for (lan in lang) {
 }
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1154,7 +1154,7 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
 
  df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
  df$language <- factor(df$language, levels = names(table(df$language)))
  
@@ -1193,7 +1193,7 @@ for (publ in tops) {
 
   df <- dfl %>% filter(publisher == publ)
   df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+             summarise(n = n(), paper = sum(paper, na.rm = TRUE))
 
   df$language <- factor(df$language, levels = names(table(df$language)))
 
@@ -1262,7 +1262,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1297,7 +1297,7 @@ for (place in c("Turku", "Stockholm", "Vaasa")) {
  df <- dfl %>% filter(publication_place == place)
  df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
  df$language <- factor(df$language, levels = names(table(df$language)))
  
@@ -1335,7 +1335,7 @@ for (publ in tops) {
   df <- dfl %>% filter(publisher == publ)
 
   df <- df %>% group_by(publication_decade, language) %>%
-             summarise(n = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+             summarise(n = n(), paper = sum(paper, na.rm = TRUE))
 
   df$language <- factor(df$language, levels = names(table(df$language)))
 
@@ -1416,7 +1416,7 @@ catalogue <- "Fennica"
 
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # TITLE COUNT
   theme_set(theme_bw(20))
@@ -1453,7 +1453,7 @@ for (place in c("Turku", "Uppsala")) {
 
  df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
  df$language <- factor(df$language, levels = names(table(df$language)))
  
@@ -1574,7 +1574,7 @@ dfl$language <- factor(dfl$language, levels = names(table(dfl$language)))
 
 df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1616,7 +1616,7 @@ for (sel in selections) {
 df <- df %>% filter(catalog == catalogue & hit)
 df <- df %>% group_by(publication_decade, publisher) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 theme_set(theme_bw(20))
@@ -1661,7 +1661,7 @@ for (catal in as.character(unique(df0$catalog))) {
   theme_set(theme_bw(20))
   top <- names(top(df, "publication_place", 10))
 
-  dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_decade, publication_place, country) %>% summarize(n = n(), paper = sum(paper.consumption.km2, na.rm = T))  %>% mutate(paper.per.document = paper/n)
+  dfs <- df %>% filter(publication_place %in% top) %>% group_by(publication_decade, publication_place, country) %>% summarize(n = n(), paper = sum(paper, na.rm = T))  %>% mutate(paper.per.document = paper/n)
 
   p <- ggplot(dfs, aes(x = publication_decade, y = paper.per.document)) +
        geom_point(aes(color = publication_place, shape = publication_place)) +
@@ -1690,13 +1690,13 @@ for (catal in unique(df0$catalog)) {
   df2 <- df2[which(!is.na(df2$document.type)),]
   df2$document.type <- factor(df2$document.type)
   df2 <- df2 %>% group_by(publication_decade, document.type) %>%
-                 summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
-  p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+                 summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+  p <- ggplot(df2, aes(x = publication_decade, y = paper, group = document.type))
   p <- p + geom_point(aes(shape = document.type), size = 5)
   p <- p + geom_smooth(method = "loess", color = "black")
   p <- p + ggtitle("Paper consumption per document type")
   p <- p + xlab("Year")
-  p <- p + ylab("Paper consumption (km2)")
+  p <- p + ylab("Paper consumption")
   p <- p + scale_color_manual(values=c("black", "darkgray"))
   p <- p + ggtitle(catal)
   print(p)
@@ -1719,15 +1719,15 @@ for (place in sel.places) {
   df2 <- df2[which(!is.na(df2$document.type)),]
   df2$document.type <- factor(df2$document.type)
 
-  df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+  df2 <- df2 %>% group_by(publication_decade, document.type) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n())
 
   if (nrow(df2) > 0) {
-    p <- ggplot(df2, aes(x = publication_decade, y = paper.consumption.km2, group = document.type))
+    p <- ggplot(df2, aes(x = publication_decade, y = paper, group = document.type))
     p <- p + geom_point(aes(shape = document.type), size = 5)
     p <- p + geom_smooth(method = "loess", color = "black")
     p <- p + ggtitle("Paper consumption per document type")
     p <- p + xlab("Year")
-    p <- p + ylab("Paper consumption (km2)")
+    p <- p + ylab("Paper consumption")
     p <- p + scale_color_manual(values=c("black", "darkgray"))
     p <- p + ggtitle(paste(place, catal))
     print(p)
@@ -1744,7 +1744,7 @@ Average paper consumption per document over time:
 theme_set(theme_bw(25))
 library(sorvi)
 dfs <- df0 %>% group_by(publication_decade) %>%
-         summarize(paper.per.doc = mean(paper.consumption.km2, na.rm = T))
+         summarize(paper.per.doc = mean(paper, na.rm = T))
 p <- ggplot(dfs, aes(y = paper.per.doc, x = publication_decade)) +
        geom_point() + geom_smooth(method = "loess", size = 1, color = "black") +
        xlab("Publication year") + ylab("Paper per document") +
@@ -1777,14 +1777,14 @@ Paper consumption for different document formats over time. Each point represent
 
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=8, fig.show="hold", out.width="430px"}
 for (catal in unique(df0$catalog)) {
-  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
+  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
-  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+  p <- ggplot(df2, aes(y = paper, x = publication_decade, shape = gatherings, linetype = gatherings))
   p <- p + geom_point(size = 4)
   p <- p + geom_smooth(method = "loess", size = 1, color = "black")
   p <- p + ggtitle("Paper consumption in time by gatherings")
   p <- p + xlab("Year")
-  p <- p + ylab("Paper consumption (km2)")
+  p <- p + ylab("Paper consumption")
   p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
   p <- p + ggtitle(paste("Paper consumption\n(", catal, ")", sep = ""))
   print(p)
@@ -1798,16 +1798,16 @@ for (catal in unique(df0$catalog)) {
 for (place in sel.places) {
 for (catal in unique(df0$catalog)) {
   df2 <- filter(df0, catalog == catal & publication_place == place) %>%
-           group_by(publication_decade, gatherings) %>% summarize(paper.consumption.km2 = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+           group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n())
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
 
   if (nrow(df2) > 0) {
-  p <- ggplot(df2, aes(y = paper.consumption.km2, x = publication_decade, shape = gatherings, linetype = gatherings))
+  p <- ggplot(df2, aes(y = paper, x = publication_decade, shape = gatherings, linetype = gatherings))
   p <- p + geom_point(size = 4)
   p <- p + geom_smooth(method = "loess", size = 1, color = "black")
   p <- p + ggtitle("Paper consumption in time by gatherings")
   p <- p + xlab("Year")
-  p <- p + ylab("Paper consumption (km2)")
+  p <- p + ylab("Paper consumption")
   p <- p + guides(linetype = guide_legend(keywidth = 5), shape = guide_legend(keywidth = 5))
   p <- p + ggtitle(paste("Paper consumption\n(", place, catal, ")", sep = ""))
   print(p)
@@ -1826,7 +1826,7 @@ Paper consumption in selected places (Fennica):
 df <- df0 %>%
       filter(catalog == "Fennica") %>% 
       filter(!is.na(country)) %>%
-      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
+      filter(!is.na(publication_place) & !is.na(paper) & paper > -0.01)
 
 # Add indicator field: Turku or Not Turku
 myplace <- "Turku"
@@ -1840,14 +1840,14 @@ df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
 # Keep entries with known publication place and paper consumption
 # Group by year/decade and Turku/Other
 dfs <- df %>% group_by(publication_decade, myplace) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+  summarise(titles = n(), paper = sum(paper, na.rm = TRUE))
 
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
      ggtitle("Paper consumption") +
      scale_fill_grey() +
      guides(fill = guide_legend(reverse = TRUE, title = "")) + 
-     xlab("Publication decade") + ylab("Paper (km2)")
+     xlab("Publication decade") + ylab("Paper")
 print(p)
 
 
@@ -2002,7 +2002,7 @@ df <- df %>%
         filter(catalog == catalogue & publication_place == place) 
 
 df <- df %>%	
-        select(publication_decade, publisher, paper.consumption.km2)
+        select(publication_decade, publisher, paper)
 
 # Group small publishers
 # Top publishers by title count
@@ -2035,7 +2035,7 @@ df <- df %>%
         filter(catalog == catalogue & publication_place == place)
 
 df <- df %>%	
-        select(publication_decade, publisher, paper.consumption.km2)
+        select(publication_decade, publisher, paper)
 
 # Group small publishers
 # Top publishers
@@ -2047,7 +2047,7 @@ df$publisher <- factor(df$publisher, c(top, "Other"))
 # Publishing per decade & publisher	
 npub <- df %>%
      	  group_by(publication_decade, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
 	  mutate(paper.per.title = paper/n)
 
 theme_set(theme_bw(20))
@@ -2077,7 +2077,7 @@ df <- df %>%
         filter(catalog == catalogue & publication_place == place)
 
 df <- df %>%	
-        select(publication_decade, publisher, paper.consumption.km2)
+        select(publication_decade, publisher, paper)
 
 # Group small publishers
 # Top publishers by title count
@@ -2087,7 +2087,7 @@ df$publisher[!df$publisher %in% top] <- "Other"
 df$publisher <- factor(df$publisher, c(top, "Other"))
 
 # Publishing per decade & publisher	
-npub <- df %>% group_by(publication_decade, publisher) %>% summarize(paper = sum(paper.consumption.km2, na.rm = TRUE))
+npub <- df %>% group_by(publication_decade, publisher) %>% summarize(paper = sum(paper, na.rm = TRUE))
 
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_decade, y = paper)) +
@@ -2108,7 +2108,7 @@ df <- df %>%
         filter(catalog == catalogue & publication_place == place)
 
 df <- df %>%	
-        select(publication_decade, publisher, paper.consumption.km2)
+        select(publication_decade, publisher, paper)
 
 # Group small publishers
 # Top publishers
@@ -2120,7 +2120,7 @@ df$publisher <- factor(df$publisher, c(top, "Other"))
 # Publishing per decade & publisher	
 npub <- df %>%
      	  group_by(publication_decade, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
 	  mutate(paper.per.title = paper/n)
 
 theme_set(theme_bw(20))
@@ -2199,7 +2199,7 @@ df <- df %>%
         filter(publication_year >= 1750 & publication_year <= 1828)
 
 df <- df %>%	
-        select(publication_decade, publisher, paper.consumption.km2)
+        select(publication_decade, publisher, paper)
 
 # Selected ones
 top <- c("Frenckell, Johan Christopher I", "Londicer, Georg Wilhelm", "Frenckell, Johan Christopher II")
@@ -2209,7 +2209,7 @@ df$publisher <- factor(df$publisher, c(top, "Other"))
 # Publishing per decade & publisher	
 npub <- df %>%
      	  group_by(publication_decade, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
 	  mutate(paper.per.title = paper/n)
 
 theme_set(theme_bw(20))
@@ -2462,7 +2462,7 @@ df$period[df$publication_year >= 1766 & df$publication_year <= 1772] <- 2
 df <- df %>% filter(!is.na(period))
 df <- df %>% group_by(period) %>%
              summarise(n = n(),
-	     	   paper = sum(paper.consumption.km2, na.rm = TRUE))
+	     	   paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 p1 <- ggplot(df, aes(x = period, y = n)) +
@@ -2493,7 +2493,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+                 paper = sum(paper, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
@@ -2544,7 +2544,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2604,7 +2604,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2663,7 +2663,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2722,7 +2722,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2780,7 +2780,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2838,7 +2838,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2895,7 +2895,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -2954,7 +2954,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -3012,7 +3012,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -3071,7 +3071,7 @@ for (place in places) {
   df <- df %>% filter(hit)
   df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -3113,7 +3113,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
 
   df <- dfs %>% group_by(publication_year) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PUBLISHER COUNT
   n = sapply(split(dfs$publisher, dfs$publication_year), function (x) {
@@ -3147,7 +3147,7 @@ rm(pics)
 df <- subset(df0, catalog == "Fennica") %>%
   filter(publication_year >= 1640 & publication_year <= 1800)%>% 
       filter(!is.na(country)) %>%
-      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
+      filter(!is.na(publication_place) & !is.na(paper) & paper > -0.01)
 
 # Add indicator field: Turku or Not Turku
 myplace <- "Turku"
@@ -3161,7 +3161,7 @@ df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
 # Keep entries with known publication place and paper consumption
 # Group by year/decade and Turku/Other
 dfs <- df %>% group_by(publication_decade, myplace) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+  summarise(titles = n(), paper = sum(paper, na.rm = TRUE))
 
 p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
@@ -3198,7 +3198,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
   # Publishing per decade & publisher	
   npub <- df %>%
      	  group_by(publication_decade, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n()) %>%
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n()) %>%
 	  mutate(paper.per.title = paper/n)
 
 
@@ -3247,7 +3247,7 @@ for (lan in lang) {
 df <- dfl %>% filter(catalog == catalogue)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+                 paper = sum(paper, na.rm = TRUE))
 
 # TITLE COUNT
 p <- ggplot(df, aes(x = publication_decade, y = n, group = language)) +
@@ -3279,7 +3279,7 @@ catalogue = "Kungliga"
   df <- dfl %>% filter(catalog == catalogue) %>%
      	        group_by(publication_decade, language) %>%
                 summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 
 # TITLE COUNT
@@ -3340,7 +3340,7 @@ catalogue <- "Fennica"
 
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
@@ -3418,7 +3418,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -3456,7 +3456,7 @@ df$publisher <- factor(df$publisher, levels = c(top, "Other"))
 # Publishing per year & publisher	
 npub <- df %>%
      	  group_by(publication_year, publisher) %>%
-	  summarize(paper = sum(paper.consumption.km2, na.rm = TRUE), n = n())
+	  summarize(paper = sum(paper, na.rm = TRUE), n = n())
 
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_year, y = n, group = publisher)) +

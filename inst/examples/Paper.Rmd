@@ -14,38 +14,38 @@ library(fennica)
 library(sorvi)
 df <- readRDS("df.Rds")
 dfs <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
-  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  filter(!is.na(paper) & paper > -0.01) %>%
   group_by(publication_year) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2))
+  summarise(titles = n(), paper = sum(paper))
 authors <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
   group_by(author_name) %>%
   summarise(titles=n()) %>% arrange(desc(titles))
 top10.authors <- tail(head(authors,11),10)
 df.authors <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
   filter(author_name %in% c(top10.authors$author_name)) %>%
-  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  filter(!is.na(paper) & paper > -0.01) %>%
   group_by(publication_year) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2))
+  summarise(titles = n(), paper = sum(paper))
 df.Turku <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
   filter(publication_place == "Turku") %>%
-  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  filter(!is.na(paper) & paper > -0.01) %>%
   group_by(publication_year) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2))
+  summarise(titles = n(), paper = sum(paper))
 df.Tukholma <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
   filter(publication_place == "Stockholm") %>%
-  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  filter(!is.na(paper) & paper > -0.01) %>%
   group_by(publication_year) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2))
+  summarise(titles = n(), paper = sum(paper))
 df.Vaasa <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
   filter(publication_place == "Vaasa") %>%
-  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  filter(!is.na(paper) & paper > -0.01) %>%
   group_by(publication_year) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2))
+  summarise(titles = n(), paper = sum(paper))
 df.Uppsala <- df %>% filter(publication_year > 1400 & publication_year < 1829) %>%
   filter(publication_place == "Uppsala") %>%
-  filter(!is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01) %>%
+  filter(!is.na(paper) & paper > -0.01) %>%
   group_by(publication_year) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2))
+  summarise(titles = n(), paper = sum(paper))
 ```
 
 ```{r titles, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
@@ -63,7 +63,7 @@ print(p1)
 p2 <- ggplot(dfs, aes(y = paper, x = publication_year))
 p2 <- p2 + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)")
+       ylab("Paper Consumption")
        
 p2 <- p2 + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2 <- p2 + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
@@ -87,7 +87,7 @@ print(p1b)
 p2b <- ggplot(df.authors, aes(y = paper, x = publication_year))
 p2b <- p2b + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)")
+       ylab("Paper Consumption")
        
 p2b <- p2b + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2b <- p2b + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
@@ -111,7 +111,7 @@ print(p1.Turku)
 p2.Turku <- ggplot(df.Turku, aes(y = paper, x = publication_year))
 p2.Turku <- p2.Turku + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)")
+       ylab("Paper Consumption")
        
 p2.Turku <- p2.Turku + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2.Turku <- p2.Turku + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
@@ -135,7 +135,7 @@ print(p1.Tukholma)
 p2.Tukholma <- ggplot(df.Tukholma, aes(y = paper, x = publication_year))
 p2.Tukholma <- p2.Tukholma + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)")
+       ylab("Paper Consumption")
        
 p2.Tukholma <- p2.Tukholma + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2.Tukholma <- p2.Tukholma + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
@@ -159,7 +159,7 @@ print(p1.Vaasa)
 p2.Vaasa <- ggplot(df.Vaasa, aes(y = paper, x = publication_year))
 p2.Vaasa <- p2.Vaasa + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)")
+       ylab("Paper Consumption")
        
 p2.Vaasa <- p2.Vaasa + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2.Vaasa <- p2.Vaasa + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))
@@ -183,7 +183,7 @@ print(p1.Uppsala)
 p2.Uppsala <- ggplot(df.Uppsala, aes(y = paper, x = publication_year))
 p2.Uppsala <- p2.Uppsala + geom_smooth(color = "black") + geom_point() +
        xlab("Publication Year") +
-       ylab("Paper Consumption (km2)")
+       ylab("Paper Consumption")
        
 p2.Uppsala <- p2.Uppsala + theme(axis.text.x = element_text(size = 20), axis.text.y = element_text(size = 20))
 p2.Uppsala <- p2.Uppsala + theme(axis.title.x = element_text(size = 20), axis.title.y = element_text(size = 20))

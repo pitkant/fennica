@@ -32,7 +32,7 @@ dfo <- dfo %>% filter(publication_year > 1400 & publication_year < 1911)
 # Let us focus on years 1400-1828
 df <- dfo %>% filter(publication_year > 1400 & publication_year < 1829) %>%
       filter(!is.na(country)) %>%
-      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
+      filter(!is.na(publication_place) & !is.na(paper) & paper > -0.01)
 
 # Add indicator field: Turku or Not Turku
 myplace <- "Turku"
@@ -47,7 +47,7 @@ df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
 # Keep entries with known publication place and paper consumption
 # Group by year/decade and Turku/Other
 dfs <- df %>% group_by(publication_decade, myplace) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+  summarise(titles = n(), paper = sum(paper, na.rm = TRUE))
 
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
@@ -55,7 +55,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = 
      #scale_fill_manual(values = c("blue", "black", "darkgreen")) +
      scale_fill_grey() +
      guides(fill = guide_legend(reverse = TRUE, title = "")) + 
-     xlab("Publication decade") + ylab("Paper (km2)")
+     xlab("Publication decade") + ylab("Paper")
 print(p)
 
 pdf("20160303-paper.pdf", width = 12, height = 9)

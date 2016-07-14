@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Misc Slides"
 output: ioslides_presentation
 ---
 
@@ -179,7 +179,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-                 paper = sum(paper.consumption.km2, na.rm = TRUE))
+                 paper = sum(paper, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
@@ -208,7 +208,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
@@ -238,7 +238,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper.consumption.km2, na.rm = TRUE))
+	               paper = sum(paper, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
@@ -337,7 +337,7 @@ df$period <- cut(df$publication_year,
 df <- df %>% filter(!is.na(period)) %>%
 	     group_by(period) %>%
 	     summarise(n = n(),
-		  paper = sum(paper.consumption.km2, na.rm = TRUE)) %>%
+		  paper = sum(paper, na.rm = TRUE)) %>%
         mutate(paper.per.title = paper/n)		 
 
 p <- ggplot(df,

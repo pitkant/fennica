@@ -34,7 +34,7 @@ dfo <- dfo %>% filter(publication_year > 1400 & publication_year < 1911)
 # Let us focus on years 1400-1828
 df <- dfo %>% filter(publication_year > 1400 & publication_year < 1829) %>%
       filter(!is.na(country)) %>%
-      filter(!is.na(publication_place) & !is.na(paper.consumption.km2) & paper.consumption.km2 > -0.01)
+      filter(!is.na(publication_place) & !is.na(paper) & paper > -0.01)
 
 # Add indicator field: Turku or Not Turku
 myplace <- "Turku"
@@ -49,7 +49,7 @@ df$myplace <- factor(df$myplace, levels = rev(c("Foreign", "Finland", "Turku")))
 # Keep entries with known publication place and paper consumption
 # Group by year/decade and Turku/Other
 dfs <- df %>% group_by(publication_decade, myplace) %>%
-  summarise(titles = n(), paper = sum(paper.consumption.km2, na.rm = TRUE))
+  summarise(titles = n(), paper = sum(paper, na.rm = TRUE))
 
 p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = -as.numeric(myplace))) +
      geom_bar(position = "stack", stat = "identity", color = "black") +
@@ -57,7 +57,7 @@ p <- ggplot(dfs, aes(x = publication_decade, y = paper, fill = myplace, order = 
      #scale_fill_manual(values = c("blue", "black", "darkgreen")) +
      scale_fill_grey() +
      guides(fill = guide_legend(reverse = TRUE)) + 
-     xlab("Publication decade") + ylab("Paper (km2)")
+     xlab("Publication decade") + ylab("Paper")
 print(p)
 
 p <- ggplot(dfs, aes(x = publication_decade, y = titles, fill = myplace, order = -as.numeric(myplace))) +
@@ -85,12 +85,12 @@ print(p2)
 # Top author
 topa <- names(rev(sort(table(dfo$author))))[1:2]
 
-dfs <- dfo %>% filter(author %in% topa) %>% group_by(author, publication_decade) %>% summarize(paper = sum(paper.consumption.km2, na.rm = T), titles = n())
+dfs <- dfo %>% filter(author %in% topa) %>% group_by(author, publication_decade) %>% summarize(paper = sum(paper, na.rm = T), titles = n())
 
 p1 <- p2 <- ggplot(dfs, aes(x = publication_decade, y = titles, color = author)) + geom_point() + geom_line(size = 2) + scale_color_manual(values = c("blue", "red")) + ggtitle("Title count") + xlab("Publication decade") + ylab("Title count (n)")
 print(p1)
 
-p2 <- ggplot(dfs, aes(x = publication_decade, y = paper, color = author)) + geom_point() + geom_line(size = 2) + scale_color_manual(values = c("blue", "red")) + ggtitle("Paper consumption") + xlab("Publication decade") + ylab("Paper (km2)")
+p2 <- ggplot(dfs, aes(x = publication_decade, y = paper, color = author)) + geom_point() + geom_line(size = 2) + scale_color_manual(values = c("blue", "red")) + ggtitle("Paper consumption") + xlab("Publication decade") + ylab("Paper")
 print(p2)
 ```
 
