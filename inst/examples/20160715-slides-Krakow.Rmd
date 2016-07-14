@@ -138,21 +138,26 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 ```
 
 
-**Augment data** (geocoordinates, gender, ..)
+**Enrich data** (geocoordinates, gender, ..)
 
 ```{r, message=FALSE, warning=FALSE}
 get_country("Porvoo")
 ```
 
+- Parse, clean up, enrich, summarise, analyze, visualize, report..
+
 ---
 
-
+\begin{center}
 \Large{1. General trends and political events}
+\end{center}
 
 
 ---
 
-[General trends & political events]
+\begin{center}
+\tiny{\textcolor{gray}{General trends \& political events}}
+\end{center}
 
 ### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Lund & Greifswald)
 
@@ -227,7 +232,7 @@ p <- ggmap(mymap) +
       	      colour = "black", 
       	      shape = 21, # Point shape 
       	      size = 7,   # Point size
-      	      stroke = 2) + # Point edge thickness
+      	      stroke = 1.5) + # Point edge thickness
   
   
 	        ggtitle(i) +
@@ -242,7 +247,9 @@ Map by Stamen
 
 ---
 
-[General trends & political events]
+\begin{center}
+\tiny{\textcolor{gray}{General trends \& political events}}
+\end{center}
 
 ### Publishing activity over time
 
@@ -300,7 +307,10 @@ grid.arrange(p1, p2, nrow = 1)
 
 ---
 
-[General trends & political events]
+
+\begin{center}
+\tiny{\textcolor{gray}{General trends \& political events}}
+\end{center}
 
 ### Swedish knowledge production & cycles of representation
 
@@ -362,7 +372,7 @@ for (catal in "Kungliga") {
   rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
 
  riksplace = c("Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", "Gävle")
- cols = c("pink", "Purple", "aquamarine", "yellow")
+ cols = c("white", "Purple", "blue", "orange")
  rectangles$shade[rectangles$shade == "Highlight"] = riksplace
  rectangles$shade = factor(rectangles$shade)
 
@@ -386,12 +396,15 @@ for (catal in "Kungliga") {
 
 ---
 
+\begin{center}
 \Large{2. Publishers in Sweden and Turku}
+\end{center}
 
 ---
 
-
-[Publishers in Sweden and Turku]
+\begin{center}
+\tiny{\textcolor{gray}{Publishers in Sweden and Turku}}
+\end{center}
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
@@ -458,8 +471,9 @@ rm(pics)
 
 ---
 
+
 \begin{center}
-[Publishers in Sweden and Turku]
+\tiny{\textcolor{gray}{Publishers in Sweden and Turku}}
 \end{center}
 
 ### Publishers in Swedish University towns (and Finland)
@@ -524,7 +538,9 @@ print(p)
 ---
 
 
-[Publishers in Sweden and Turku]
+\begin{center}
+\tiny{\textcolor{gray}{Publishers in Sweden and Turku}}
+\end{center}
 
 ### Top publishers in Turku/Fennica
 
@@ -555,7 +571,7 @@ npub <- df %>% group_by(publication_decade, publisher) %>% tally() %>% arrange(n
 ord <- as.character((npub %>% group_by(publisher) %>% 
                         summarise(decade = median(publication_decade)) %>% 
                         arrange(decade))$publisher)
-npub$publisher <- factor(npub$publisher, levels = ord)
+npub$publisher <- factor(npub$publisher, levels = c("Other", setdiff(ord, "Other")))
 
 
 # TITLE COUNT
@@ -574,11 +590,16 @@ print(p)
 
 ---
 
+\begin{center}
 \Large{3. Languages and religious texts in Finland}
+\end{center}
 
 ---
 
-[Languages & religious texts in Finland]
+
+\begin{center}
+\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
+\end{center}
 
 ### Different languages in Turku, Stockholm, Lund and Uppsala
 
@@ -648,7 +669,9 @@ rm(pics)
 
 ---
 
-[Languages & religious texts in Finland]
+\begin{center}
+\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
+\end{center}
 
 ### Topic richness per language (Finnish publications)
 
@@ -667,14 +690,18 @@ df$language[!df$language %in% langs2] <- "Other"
 df$language <- factor(df$language, levels = langs2)
 
 p <- ggplot(df, aes(x = publication_year, y = n, color = language)) +
-       geom_line() + geom_point() + ylab("Documents (n)") + xlab("Publication year")
+       geom_line() + geom_point() + 
+       geom_smooth(aes(fill = language, color = language)) + 
+       ylab("Documents (n)") + xlab("Publication year")
 
 print(p)
 ```
 
 ---
 
-[Languages & religious texts in Finland]
+\begin{center}
+\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
+\end{center}
 
 ### Devotional literature (catechisms, hymns, prayers, etc.) 
 
@@ -718,6 +745,7 @@ catalogue <- "Fennica"
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(col = language, shape = language), size = 5) +
        geom_line(aes(col = language, shape = language)) +       
+       #geom_smooth(aes(fill = language, color = language)) + 
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(catalogue) 
@@ -727,7 +755,9 @@ catalogue <- "Fennica"
 
 ---
 
-[Languages & religious texts in Finland]
+\begin{center}
+\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
+\end{center}
 
 ### Temporary sermons in Latin and Swedish
 
@@ -777,11 +807,16 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 ---
 
+\begin{center}
 \Large{4. University curriculum and Enlightenment in Finland}
+\end{center}
 
 ---
 
-[University curriculum & Enlightenment in Finland]
+
+\begin{center}
+\tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
+\end{center}
 
 ### Dissertation languages in Turku 1640-1828
 
@@ -845,7 +880,9 @@ print(p)
 ---
 
 
-[University curriculum & Enlightenment in Finland]
+\begin{center}
+\tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
+\end{center}
 
 ### Printing by topic in different languages in Turku
 
@@ -909,7 +946,9 @@ grid.arrange(p1, p2, p3, nrow = 3)
 
 ---
 
-[University curriculum & Enlightenment in Finland]
+\begin{center}
+\tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
+\end{center}
 
 ### Rise of the octavo sized book as vehicle of Enlightenment
 
@@ -956,10 +995,24 @@ Data providers:
 - National Library of Finland
 - National Library of Sweden
 
+Code infrastructure:
+
+- Github
+- R project
+
 For more info, see: 
 
 - \textcolor{blue}{https://github.com/rOpenGov/fennica}
 
+\begin{figure}
+\begin{tabular}{cccccc}
+\includegraphics[width=2cm,height=2cm]{aka.png}&
+\includegraphics[width=1cm,height=1cm]{HY-CC.png}&
+\includegraphics[width=1cm,height=1cm]{kansalliskirjasto.png}&
+\includegraphics[width=1cm,height=1cm]{kungliga.png}&
+\includegraphics[width=1cm,height=1cm]{github-logo.png}
+\end{tabular}
+\end{figure}
 
 ---
 
