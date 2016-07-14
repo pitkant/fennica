@@ -1010,7 +1010,8 @@ For more info, see:
 \includegraphics[width=1cm,height=1cm]{HY-CC.png}&
 \includegraphics[width=1cm,height=1cm]{kansalliskirjasto.png}&
 \includegraphics[width=1cm,height=1cm]{kungliga.png}&
-\includegraphics[width=1cm,height=1cm]{github-logo.png}
+\includegraphics[width=1cm,height=1cm]{github-logo.png}&
+\includegraphics[width=1cm,height=1cm]{Rlogo.png}
 \end{tabular}
 \end{figure}
 
