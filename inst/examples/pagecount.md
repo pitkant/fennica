@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-13"
+date: "2016-07-15"
 output: markdown_document
 ---
 
@@ -37,25 +37,21 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 Multi-volume documents average page counts are given per volume.
 
 
-|doc.dimension | mean.pages.singlevol|median.pages.singlevol | n.singlevol|mean.pages.multivol |median.pages.multivol | n.multivol| mean.pages.issue|median.pages.issue | n.issue|
-|:-------------|--------------------:|:----------------------|-----------:|:-------------------|:---------------------|----------:|----------------:|:------------------|-------:|
-|2fo           |                  NaN|NA                     |        2223|NA                  |NA                    |         NA|              NaN|NA                 |      19|
-|4long         |                  NaN|NA                     |         181|NA                  |NA                    |         NA|               NA|NA                 |      NA|
-|4to           |                  NaN|NA                     |       12660|NA                  |NA                    |         NA|              NaN|NA                 |      32|
-|8long         |                  NaN|NA                     |          71|NA                  |NA                    |         NA|               NA|NA                 |      NA|
-|8vo           |                  NaN|NA                     |        3438|NA                  |NA                    |         NA|              NaN|NA                 |      78|
-|12long        |                  NaN|NA                     |           4|NA                  |NA                    |         NA|               NA|NA                 |      NA|
-|12mo          |                  NaN|NA                     |         499|NA                  |NA                    |         NA|              NaN|NA                 |      14|
-|16mo          |                  NaN|NA                     |         183|NA                  |NA                    |         NA|              NaN|NA                 |       2|
-|24mo          |                  NaN|NA                     |           4|NA                  |NA                    |         NA|               NA|NA                 |      NA|
-|32mo          |                  NaN|NA                     |           2|NA                  |NA                    |         NA|               NA|NA                 |      NA|
-|64mo          |                  NaN|NA                     |           6|NA                  |NA                    |         NA|               NA|NA                 |      NA|
-|NA            |                  NaN|NA                     |         558|NA                  |NA                    |         NA|              NaN|NA                 |      23|
-|1to           |                   NA|NA                     |          NA|NA                  |NA                    |         NA|              NaN|NA                 |       7|
+|doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol|mean.pages.multivol |median.pages.multivol | n.multivol| mean.pages.issue| median.pages.issue| n.issue|
+|:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|----------------:|------------------:|-------:|
+|2fo           |                 8.59|                    4.0|        2223|NA                  |NA                    |         NA|                4|                  4|      11|
+|4long         |                51.87|                   24.0|         181|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|4to           |                17.71|                    8.0|       12660|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|8long         |               225.51|                  122.0|          71|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|8vo           |                71.59|                   32.0|        3438|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|12long        |               583.25|                  666.5|           4|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|12mo          |               199.98|                  100.0|         499|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|16mo          |                47.16|                   48.0|         183|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|24mo          |               453.50|                  340.5|           4|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|32mo          |               254.50|                  254.5|           2|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|64mo          |               117.33|                  128.0|           6|NA                  |NA                    |         NA|               NA|                 NA|      NA|
+|NA            |                48.32|                    8.0|         558|NA                  |NA                    |         NA|               NA|                 NA|      NA|
 
-
-```
-## Error in eval(expr, envir, enclos): object 'value' not found
-```
+![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
 
 -->

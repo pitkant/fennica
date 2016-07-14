@@ -12,11 +12,12 @@ page](https://www.helsinki.fi/en/researchgroups/digital-humanities-helsinki/proj
 
 The data is summarized in the following automatically generated files:
 
- * [Fennica: an overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
+ * [Fennica: a generic overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
+ * [Fennica: a specific overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md) (Fennica specific preprocessing notes)
  * Knowledge production in Finland 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.pdf)) and [code](inst/examples/20160715-slides-Krakow.Rmd)
  * [Digital History in Finland](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md) Seminar in University of Helsinki, Dec 9, 2015
  * [Analyses on specific publication places and other topics](https://github.com/rOpenGov/fennica/tree/master/inst/examples) (see the .md files) 
- * [Further notes on preprocessing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md)
+
 
 The analyses cover several steps including XML parsing, data
 harmonization, removing unrecognized entries, enriching and organizing
@@ -69,17 +70,11 @@ Funding:
 Special thanks:
 
   * [Finnish National library](https://www.kansalliskirjasto.fi/en/) (Fennica data collection)
-
   * [Väestörekisterikeskus](http://vrk.fi/) Finnish first name-gender
     mappings and demographic information
-
   * [Maanmittauslaitos](http://mml.fi) Geographic information
-
   * [Tilastokeskus](http://www.tilastokeskus.fi/) Demographic information
-
   * [Open Street Map](https://www.openstreetmap.org) Geographic information
-
   * [Google Maps]() Geographic information  
-  
   * [Open Knowledge Finland ry.](http://fi.okfn.org/) 
 

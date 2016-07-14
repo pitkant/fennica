@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing summary"
-author: "Leo Lahti and Niko Ilomäki"
-date: "March 2, 2016"
+author: "Leo Lahti"
+date: "July 2, 2016"
 ---
 
 # Fennica summary
@@ -13,9 +13,7 @@ Fields of special interest. Real success percentage (proportion of successful co
 
 ![plot of chunk missing2](figure/missing2-1.png)
 
-
-
-## Publisher 
+## Publisher
 
 [Self-published accepted](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
 

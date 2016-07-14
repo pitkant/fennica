@@ -1,13 +1,13 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2016-07-13"
+date: "2016-07-15"
 output: markdown_document
 ---
 
 ## Language
 
- * 45 unique languages
+ * 39 unique languages
  * The languages may come in [combinations](output.tables/language_conversions.csv)
  * 1795 multilingual documents (8.83%)  
  * 46 docs (0.23%) with no recognized language 

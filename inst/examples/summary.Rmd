@@ -46,9 +46,7 @@ real.success[["paper"]] <- success$paper/sum(rowMeans(!is.na(df.orig[, c("physic
 par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Real success rate (selected fields)", las = 1, xlim = c(0, 100), xlab = "Success rate (%)")
 ```
 
-
-
-## Publisher 
+## Publisher
 
 [Self-published accepted](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
 

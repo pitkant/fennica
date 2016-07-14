@@ -1,7 +1,7 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-13"
+date: "2016-07-15"
 output: markdown_document
 ---
 
@@ -33,15 +33,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles| paper|
-|:-------------------------------|------:|-----:|
-|Frenckell, Johan Christopher I  |   1743|  0.78|
-|Frenckell, Johan Christopher II |   2212|  1.39|
-|Hansson, Peter                  |   1094|  0.84|
-|Kämpe, Johan                    |   1030|  0.65|
-|Londicer, Carl Anton            |    500|  0.08|
-|Londicer, Georg Wilhelm         |   2106|  0.18|
-|Merckell, Jacob                 |    962|  0.68|
-|Wald, Peder Eriksson            |    559|  0.36|
-|Wall, Johan Larsson             |   1404|  0.82|
-|Winter, Johan                   |    971|  0.85|
+|publisher                       | titles|     paper|
+|:-------------------------------|------:|---------:|
+|Frenckell, Johan Christopher I  |   1743| 199302.60|
+|Frenckell, Johan Christopher II |   2212| 224137.89|
+|Hansson, Peter                  |   1094| 122261.63|
+|Kämpe, Johan                    |   1030| 176463.72|
+|Londicer, Carl Anton            |    500|  55380.90|
+|Londicer, Georg Wilhelm         |   2106| 216098.70|
+|Merckell, Jacob                 |    962| 131454.86|
+|Wald, Peder Eriksson            |    559|  58161.72|
+|Wall, Johan Larsson             |   1404| 220057.81|
+|Winter, Johan                   |    971| 152788.67|
+
+
