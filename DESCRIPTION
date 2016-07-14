@@ -1,8 +1,8 @@
 Package: fennica
 Type: Package
 Title: Finnish National Bibliography Fennica Toolkit
-Version: 0.1.42
-Date: 2016-05-05
+Version: 0.1.43
+Date: 2016-07-12
 Authors@R: c(
     person("Ilomaki", "Niko", email = "niko.ilomaki@helsinki.fi", role = c("aut", "cre")),
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = "aut"),
