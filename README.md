@@ -37,6 +37,8 @@ code.
 
 ### Contact
 
+Email: leo.lahti@iki.fi
+
 The project is under active open development and the tools, analysis,
 and documentation are being constantly updated. You can support the
 project by
