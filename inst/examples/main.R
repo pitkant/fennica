@@ -1,4 +1,5 @@
 #library(bibliographica)
+
 library(devtools)
 load_all("~/proj/2014-Aatelouhinta/bibliographica")
 
@@ -7,7 +8,7 @@ output.folder <- "output.tables/"
 
 # List preprocessed data files
 fs <- "data/fennica.csv.gz"
-catalog <- "fennica"
+catalog <- "fennica" 
 
 # Cores for parallelization
 mc.cores <- 4
@@ -38,10 +39,13 @@ synonyms <- read.csv(f, sep = ";")
 df.orig$physical_dimension <- map(df.orig$physical_dimension,
 					synonyms, mode = "recursive")
 
+
+# Test with small data subset
+df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),]
+
 # -------------------------------
 
 source(system.file("extdata/preprocessing.R", package = "bibliographica"))
-
 source("preprocessing.fennica.R") # Fennica-specific
 
 # -------------------------------

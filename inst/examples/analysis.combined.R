@@ -10,8 +10,6 @@ if (file.exists("df.combined.Rds")) {
   
   message("Creating df.combined.Rds by combining df.Rds-files from Kungliga & Fennica")
 
-  # TODO:
-  # Fiksaa input-fileille symboliset linkit työhakemistoon niin pysytään paremmin synkassa.
   message("Reading the data")
   fen <- readRDS("fennica.Rds") # symbolic link to fennica/inst/examples/fennica.Rds 
   kun <- readRDS("kungliga.Rds")  # symbolic link to kungliga/df.Rds 

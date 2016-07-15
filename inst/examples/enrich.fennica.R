@@ -70,6 +70,14 @@ gendercustom <- get_gender(firstname, gender.custom)
 inds <- which(!is.na(gendercustom))
 df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
+# Publisher
+# TODO : see if this could be run after
+# harmonize_publisher_generic
+# if yes, then we can incorporate harmonize_publisher_generic to generic workflow and
+# simplify all other catalog scripts
+# df.preprocessed$publisher <- harmonize_publisher_generic(df.preprocessed, languages = c("english"))
+df.preprocessed$publisher <- harmonize_publisher_fennica_part2(df.preprocessed)
+
 # ----------------------------------------------------------------
  
 # Recognize synonymes with string matching;

@@ -1,5 +1,8 @@
 #' @import dplyr
+#' @importFrom bibliographica extract_personal_names
+#' @importFrom bibliographica map
 #' @importFrom stats na.omit
+#' @importFrom stringr str_extract
 #' @importFrom utils adist
 #' @importFrom utils read.csv
 
