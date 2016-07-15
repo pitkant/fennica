@@ -1,6 +1,9 @@
 #' @import dplyr
+#' @importFrom bibliographica clean_publisher
 #' @importFrom bibliographica extract_personal_names
+#' @importFrom bibliographica harmonize_publisher
 #' @importFrom bibliographica map
+#' @importFrom bibliographica remove_endings
 #' @importFrom stats na.omit
 #' @importFrom stringr str_extract
 #' @importFrom utils adist

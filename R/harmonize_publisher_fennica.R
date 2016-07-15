@@ -50,8 +50,8 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
                             all_names = all_names, 
                             known_inds = inds,
                             Finto_town = cheat_list$town,
-			    publication_place = df.orig$publication_place,
-                            unknown_town = town,
+                            unknown_town = df.orig$publication_place,
+			    publication_year = df.orig$publication_year,
                             Finto_years = Finto_years)
 
   return(Finto_pubs$alt)
