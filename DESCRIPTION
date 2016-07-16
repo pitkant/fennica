@@ -21,6 +21,7 @@ Imports:
     dplyr,
     gisfin,
     stringr,
+    stringdist,    
     XML
 Suggests:
     knitr,

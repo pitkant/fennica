@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_publishers_Finto.R
 \name{get_publishers_Finto}
 \alias{get_publishers_Finto}
-\title{Get publishers Finto}
+\title{Get Publishers Finto}
 \usage{
 get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
   Finto_town, unknown_town, publication_year, Finto_years)

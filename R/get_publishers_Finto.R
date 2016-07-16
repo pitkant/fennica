@@ -1,4 +1,4 @@
-#' @title Get publishers Finto
+#' @title Get Publishers Finto
 #' @description Use Finto database to unify publisher names
 #' @param Finto_corrected Vector of preferred names from Finto
 #' @param Finto_comp Vector of alternative names from Finto
@@ -112,7 +112,7 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
     
     # The actual comparison
     # NB! tmp_comparison is a subset of [inds], so [res] must be the same subset
-    res <- Finto_comp$orig[inds][match(name_comp, tmp_comparison, method="jw", p=0.05, maxDist=0.04)]
+    res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison, method="jw", p=0.05, maxDist=0.04)]
 
     if ((is.null(res)) || (is.na(res)) || (res=="")) {
       # No results -> return the original

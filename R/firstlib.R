@@ -5,6 +5,7 @@
 #' @importFrom bibliographica map
 #' @importFrom bibliographica remove_endings
 #' @importFrom stats na.omit
+#' @importFrom stringdist amatch
 #' @importFrom stringr str_extract
 #' @importFrom utils adist
 #' @importFrom utils read.csv

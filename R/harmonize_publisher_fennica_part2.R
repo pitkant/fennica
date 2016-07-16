@@ -1,29 +1,28 @@
 #' @title Harmonize Publisher Fennica
 #' @description Main handler for publisher fields for Fennica.
-#' @param df.orig Data frame with raw data, assuming the place, year fields are already polished.
+#' @param df.preprocessed Data frame with raw data, assuming the place, year fields are already polished.
 #' @return A vector with polished entries.
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-harmonize_publisher_fennica_part2 <- function (df.orig) {
+harmonize_publisher_fennica_part2 <- function (df.preprocessed) {
 
   # TODO: consider unique entries only  
   languages <- c("finnish", "latin", "swedish")
   cheat_list <- cheat_publishers()
-
+  
   # TODO this might be overlapping with polish_publisher
   # the generic function which was called before the present function
-  # We may want to skip this with Fennica, not sure
-  combined_pubs <- harmonize_publisher(combined_pubs,
-				       df.orig$publication_year,
+  # We may want to skip this with Fennica, not sure yet
+  combined_pubs <- harmonize_publisher(df.preprocessed,
 				       languages = languages)
 
 
   # Init data.frame
-  df <- data.frame(list(row.index = 1:nrow(df.orig)))
-  pubs <- data.frame(alt  = character(length = nrow(df.orig)),
-                     pref = character(length = nrow(df.orig)),
+  df <- data.frame(list(row.index = 1:nrow(df.preprocessed)))
+  pubs <- data.frame(alt  = character(length = nrow(df.preprocessed)),
+                     pref = character(length = nrow(df.preprocessed)),
 		     stringsAsFactors = FALSE)
 
   enriched_pubs <- data.frame(
@@ -35,12 +34,12 @@ harmonize_publisher_fennica_part2 <- function (df.orig) {
   # Additional harmonization: if there's stuff in $corporate -field,
   # which doesn't match with Finto
   # TODO: Separate catalog specific parts outside of bibliographica
-  inds <- which(!is.na(df.orig$corporate))
-  additionally_harmonized <- harmonize_corporate_Finto(df.orig$corporate[inds])
+  inds <- which(!is.na(df.preprocessed$corporate))
+  additionally_harmonized <- harmonize_corporate_Finto(df.preprocessed$corporate[inds])
   pubs$alt[inds]  <- additionally_harmonized$orig
   pubs$pref[inds] <- additionally_harmonized$name
   
-  enriched_pubs <- harmonize_publisher_fennica(df.orig,
+  enriched_pubs <- harmonize_publisher_fennica(df.preprocessed,
 			                       cheat_list = cheat_list,
 		       	 	               languages = languages)
 					       
@@ -51,12 +50,11 @@ harmonize_publisher_fennica_part2 <- function (df.orig) {
   enriched_inds <- intersect(which(!is.na(pubs$alt)), enriched_inds)
   
   # TODO: Shortcut: exit if empty
-  unprocessed_pubs <- clean_publisher(df.orig$publisher[-enriched_inds], languages = languages)
+  unprocessed_pubs <- clean_publisher(df.preprocessed$publisher[-enriched_inds], languages = languages)
   unprocessed_pubs <- harmonize_publisher(unprocessed_pubs,
-					  df.orig$publication_year[-enriched_inds],
 					  languages = languages)
-  unprocessed_towns <- df.orig$publication_place[-enriched_inds]
-  unprocessed_years <- df.orig$publication_year[-enriched_inds,]
+  unprocessed_towns <- df.preprocessed$publication_place[-enriched_inds]
+  unprocessed_years <- df.preprocessed$publication_year[-enriched_inds,]
   # Remove opening brackets without closure, as grep considers that naughty
   unprocessed_towns <- gsub("^[[]([^[]+)$","\\1", unprocessed_towns)
   unprocessed_towns <- gsub("^[[](.*[^]])$","\\1", unprocessed_towns)

@@ -52,7 +52,6 @@ df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10)
 # ------------------------------------------------------
 
 message("Custom gender information for Fennica")
-
 # For author names, use primarily the Finnish names database
 # hence use it to replace the genders assigned earlier by bibliographica
 library(fennica)
@@ -76,7 +75,9 @@ df.preprocessed$author_gender[inds] <- gendercustom[inds]
 # if yes, then we can incorporate harmonize_publisher_generic to generic workflow and
 # simplify all other catalog scripts
 # df.preprocessed$publisher <- harmonize_publisher_generic(df.preprocessed, languages = c("english"))
+message("-- Fennica publishers")
 df.preprocessed$publisher <- harmonize_publisher_fennica_part2(df.preprocessed)
+message("-- Fennica publishers OK")
 
 # ----------------------------------------------------------------
  

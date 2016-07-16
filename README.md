@@ -59,7 +59,7 @@ Main contributors:
 
   * [Leo Lahti](https://github.com/antagomir/)
   * [Mikko Tolonen](https://github.com/orgs/rOpenGov/people/tolonen)
-  * [Jani Marjanen]()  
+  * Jani Marjanen 
   * [Hege Roivainen](hegroiva)  
   * [Niko Ilomaki](https://github.com/NVI/)
 
