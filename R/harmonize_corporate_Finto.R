@@ -1,7 +1,11 @@
-harmonize_corporate_Finto <- function(x) {
+harmonize_corporate_Finto <- function (x) {
+
+  xorig <- as.character(x)
+  x <- xuniq <- unique(xorig)  
 
   # Split by semicolon, and select only the first part
-  # This behaviour might change later, but now we'll stick with just one publisher per library item
+  # This behaviour might change later, but now we'll stick with just
+  # one publisher per library item
   x <- gsub("([^;]*);.*", "\\1", x)
   
   # Get the original version for later use
@@ -11,7 +15,9 @@ harmonize_corporate_Finto <- function(x) {
   node_count <- length(x)
   
   # prepare year
-  year <- data.frame(year_from=integer(node_count), year_till=integer(node_count), stringsAsFactors=FALSE)
+  year <- data.frame(year_from=integer(node_count),
+       	             year_till=integer(node_count),
+		     stringsAsFactors=FALSE)
   year[any(year)==0] <- NA
 
   # Get the indices with years in brackets
@@ -41,10 +47,18 @@ harmonize_corporate_Finto <- function(x) {
   
   # Final touch
   x <- remove_endings(x , c(" ", "[.]", ","))
-  
-  # Since Finto data is implicit about the preferred company name, we won't touch it any more
-  # Just return the values
-  
-  df <- cbind.data.frame(orig=orig, name=x, town=town, year_from=year$year_from, year_till=year$year_till, stringsAsFactors=FALSE)
-  df
+
+  # Since Finto data is implicit about the preferred company name, we
+  # won't touch it any more Just return the values
+  df <- cbind.data.frame(orig = orig,
+			 name = x,
+			 town = town,
+			 year_from = year$year_from,
+			 year_till = year$year_till,
+			 stringsAsFactors = FALSE)
+
+  # Back to original indices, then unique again;
+  # reduces number of unique cases further
+  df[match(xorig, xuniq),]
+
 }

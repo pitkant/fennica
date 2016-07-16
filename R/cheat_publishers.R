@@ -16,13 +16,12 @@ cheat_publishers <- function() {
   # 1d. Brackets: remove osakeyhtiö etc..
   # 1e. Brackets: grep what's still left
   # 2.  Remove everything that's not needed
-  
-  
+    
   # Determine the number of known labels
   f <- system.file("extdata/cn-skos.rdf", package = "bibliographica")
   tree <- xmlTreeParse(f, useInternalNodes = TRUE)
   node_count <- length(xpathApply(tree, path="//rdac:C10005//skos:altLabel | //rdac:C10005//skos:prefLabel", xmlValue))
-  
+
   # Prepare variables
   f <- system.file("extdata/cn-skos.rdf", package = "bibliographica")    
   rdf <- xmlParse(f)
@@ -37,7 +36,6 @@ cheat_publishers <- function() {
     
     kids <- xmlApply(parentNode, xmlValue)
   
-    
     if (length(parentNode[which(names(kids)=="prefLabel")]) != 0) {
       # Get all the children with tags "altLabel" or "prefLabel" and put the only child "prefLabel" as their counterparts
       # simplified example: 

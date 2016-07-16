@@ -4,10 +4,10 @@
 \alias{harmonize_publisher_fennica_part2}
 \title{Harmonize Publisher Fennica}
 \usage{
-harmonize_publisher_fennica_part2(df.preprocessed)
+harmonize_publisher_fennica_part2(df)
 }
 \arguments{
-\item{df.preprocessed}{Data frame with raw data, assuming the place, year fields are already polished.}
+\item{df}{Data frame with raw data, assuming the place, year fields are already polished.}
 }
 \value{
 A vector with polished entries.

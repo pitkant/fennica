@@ -40,7 +40,7 @@ df.orig$physical_dimension <- map(df.orig$physical_dimension,
 					synonyms, mode = "recursive")
 
 
-# Test with small data subset
+# Test with small data test set
 df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),]
 
 # -------------------------------

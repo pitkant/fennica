@@ -12,7 +12,7 @@
 harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("english")) {
 
   message("Starting: harmonize_publisher_fennica")
-  
+
   # Get Finto data from field 710a ($corporate)
   publisher <- harmonize_corporate_Finto(df.orig$corporate)
   
@@ -37,21 +37,24 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   all_names <- clean_publisher(publisher$name, languages=c("finnish"))
 
   # TODO: this is slow - to optimize
-  Finto_comp <- extract_personal_names(cheat_list$alt, languages=c("finnish", "latin", "swedish"))
-  all_names <- extract_personal_names(all_names, c("finnish", "latin", "swedish"))
+  Finto_comp <- extract_personal_names(cheat_list$alt,
+       languages=c("finnish", "latin", "swedish"))
+  all_names <- extract_personal_names(all_names,
+       c("finnish", "latin", "swedish"))
   
-  # Check against Finto, if there's a preferred way in outputting the publisher name
+  # Check against Finto, if there's a preferred way in outputting the
+  # publisher name
   # Included are also publication place & year
   # Typos are allowed to a small extent
   
   message("About to start: get_publishers_Finto")
-  Finto_pubs <- get_publishers_Finto(Finto_corrected = cheat_list$pref, 
+  Finto_pubs <- get_publishers_Finto(
+			    Finto_corrected = cheat_list$pref, 
                             Finto_comp = Finto_comp,
-                            all_names = all_names, 
+                            all_names  = all_names, 
                             known_inds = inds,
                             Finto_town = cheat_list$town,
-                            unknown_town = df.orig$publication_place,
-			    publication_year = df.orig$publication_year,
+                            df.orig = df.orig,
                             Finto_years = Finto_years)
 
   return(Finto_pubs$alt)

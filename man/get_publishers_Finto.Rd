@@ -2,10 +2,10 @@
 % Please edit documentation in R/get_publishers_Finto.R
 \name{get_publishers_Finto}
 \alias{get_publishers_Finto}
-\title{Get Publishers Finto}
+\title{Get Finto Publishers}
 \usage{
 get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
-  Finto_town, unknown_town, publication_year, Finto_years)
+  Finto_town, df.orig, Finto_years)
 }
 \arguments{
 \item{Finto_corrected}{Vector of preferred names from Finto}
@@ -18,9 +18,7 @@ get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
 
 \item{Finto_town}{Vector of towns in Finto}
 
-\item{unknown_town}{Vector of towns from raw data}
-
-\item{publication_year}{Data frame of published_in, published_from and published_till}
+\item{df.orig}{data.frame}
 
 \item{Finto_years}{Data frame of published_in, published_from and publishe_till}
 }
@@ -28,7 +26,7 @@ get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
 Data frame with alt, pref and match_methods
 }
 \description{
-Use Finto database to unify publisher names
+Use Finto database to unify publisher names.
 }
 \author{
 Hege Roivainen \email{hege.roivainen@gmail.com}
