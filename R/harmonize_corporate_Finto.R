@@ -1,17 +1,13 @@
 harmonize_corporate_Finto <- function (x) {
 
-  xorig <- as.character(x)
-  x <- xuniq <- unique(xorig)  
-
   # Split by semicolon, and select only the first part
   # This behaviour might change later, but now we'll stick with just
   # one publisher per library item
-  x <- gsub("([^;]*);.*", "\\1", x)
-  
-  # Get the original version for later use
-  # NB! The value might have already changed!
-  orig <- as.character(x)
-  
+  x <- gsub("([^;]*);.*", "\\1", as.character(x))
+
+  xorig <- x
+  x <- xuniq <- unique(xorig)  
+
   node_count <- length(x)
   
   # prepare year
@@ -25,7 +21,7 @@ harmonize_corporate_Finto <- function (x) {
   inds <- grep("\\([^)]*[0-9]{4}[-][0-9]{4}", x)
   year$year_from[inds] <- as.integer(gsub(".*\\([^)]*([0-9]{4})[-][0-9]{4}.*", "\\1", x[inds]))
   year$year_till[inds] <- as.integer(gsub(".*\\([^)]*[0-9]{4}[-]([0-9]{4}).*", "\\1", x[inds]))
-  
+
   # Case: Stupid Hege Inc. (1975)
   inds <- grep("\\([^)]*[0-9]{4}", x)
   inds <- intersect(which(is.na(year$year_from)), inds)
@@ -50,7 +46,7 @@ harmonize_corporate_Finto <- function (x) {
 
   # Since Finto data is implicit about the preferred company name, we
   # won't touch it any more Just return the values
-  df <- cbind.data.frame(orig = orig,
+  df <- cbind.data.frame(
 			 name = x,
 			 town = town,
 			 year_from = year$year_from,
@@ -59,6 +55,9 @@ harmonize_corporate_Finto <- function (x) {
 
   # Back to original indices, then unique again;
   # reduces number of unique cases further
-  df[match(xorig, xuniq),]
+  df <- df[match(xorig, xuniq),]
+  df$orig <- xorig
+
+  df
 
 }

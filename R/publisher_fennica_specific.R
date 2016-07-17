@@ -29,26 +29,40 @@ publisher_fennica_specific <- function (df, languages) {
   enriched_inds <- intersect(which(!is.na(pubs$alt)), enriched_inds)
   
   # TODO: Shortcut: exit if empty
-  unprocessed_pubs <- clean_publisher(df$publisher[-enriched_inds],
+  message("clean publisher")
+  if (length(enriched_inds) > 0) {
+    dfs <- df[-enriched_inds, ]
+  } else {
+    dfs <- df
+  }
+  
+  dfs$publisher <- clean_publisher(dfs$publisher,
 				languages = languages)
-  unprocessed_pubs <- harmonize_publisher(unprocessed_pubs,
-					  languages = languages)
-  unprocessed_towns <- df$publication_place[-enriched_inds]
-  unprocessed_years <- df$publication_year[-enriched_inds,]
+  message("harmonize publisher")				
+  unprocessed_pubs <- harmonize_publisher(dfs, languages = languages)
+  unprocessed_towns <- dfs$publication_place
+  unprocessed_years <- dfs$publication_year
   # Remove opening brackets without closure, as grep considers that naughty
   unprocessed_towns <- gsub("^[[]([^[]+)$","\\1", unprocessed_towns)
   unprocessed_towns <- gsub("^[[](.*[^]])$","\\1", unprocessed_towns)
-  
+
+  message("Finto preferred")
   preferred_pubs <- change_to_Finto_preferred(pubs  = unprocessed_pubs,
 				              towns = unprocessed_towns,
 					      years = unprocessed_years,
 					      cheat_list = cheat_list)
 					      
-  # Combine the two sets of the combined publishers
+  message("Combine the two sets of the combined publishers")
   combined_pubs <- character(length = nrow(pubs))
-  combined_pubs[enriched_inds]  <- pubs$pref[enriched_inds]
-  combined_pubs[-enriched_inds] <- preferred_pubs$mod
-
+  if (length(enriched_inds) > 0 && length(enriched_inds) < nrow(combined_pubs)) {
+    combined_pubs[enriched_inds] <- pubs$pref[enriched_inds]
+    combined_pubs[-enriched_inds] <- preferred_pubs$mod
+  } else if (length(enriched_inds) == 0) {
+    combined_pubs <- preferred_pubs$mod
+  } else {
+    combined_pubs <- pubs$pref
+  }
+  
   combined_pubs$mod
 
 }

@@ -9,7 +9,7 @@
 #' @references See citation("bibliographica")
 #' @examples # harmonize_publisher_fennica(df.orig, cheat_list, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
-harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("english")) {
+harmonize_publisher_fennica <- function(df.orig, cheat_list, languages = c("english")) {
 
   message("Starting: harmonize_publisher_fennica")
 
@@ -22,16 +22,20 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   publisher$orig[-inds] <- as.character(df.orig$publisher[-inds])
   publisher$town[-inds] <- df.orig$publication_place[-inds]
 
-  # Test if misspelling can be corrected using corporate field values for all the corresponding publisher values
+  # Test if misspelling can be corrected using corporate field values for all
+  # the corresponding publisher values
   known_indices <- which(!is.na(publisher$name))
   unknown_indices <- which(is.na(publisher$name))
-  known_names <- clean_publisher(df.orig$publisher[known_indices], languages=languages)
-  unknown_names <- unique(clean_publisher(df.orig$publisher[unknown_indices], languages=languages))
+  known_names <- clean_publisher(df.orig$publisher[known_indices], languages = languages)
+  unknown_names <- unique(clean_publisher(df.orig$publisher[unknown_indices], languages = languages))
   corrected_names <- publisher$name[known_indices]
 
   # Cheat list contains every bit of info from Finto XML
-  #cheat_list <- cheat_publishers()
-  Finto_years <- data.frame(year_from=cheat_list$year_from, year_till=cheat_list$year_till, stringsAsFactors = FALSE)
+  # cheat_list <- cheat_publishers()
+  Finto_years <- data.frame(year_from=cheat_list$year_from,
+			    year_till=cheat_list$year_till,
+			    stringsAsFactors = FALSE)
+			    
   # NB! Add town synonyms!
   Finto_town <- publisher$publication_place
   all_names <- clean_publisher(publisher$name, languages=c("finnish"))
@@ -47,7 +51,6 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   # Included are also publication place & year
   # Typos are allowed to a small extent
   
-  message("About to start: get_publishers_Finto")
   Finto_pubs <- get_publishers_Finto(
 			    Finto_corrected = cheat_list$pref, 
                             Finto_comp = Finto_comp,

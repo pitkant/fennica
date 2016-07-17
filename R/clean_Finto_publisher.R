@@ -9,12 +9,11 @@ clean_Finto_publisher <- function(x, language="english") {
   q <- gsub("^[(].*[)]([^(]+)$", "\\1", q)
   q <- gsub("^[[].*[]]([^[]+)$", "\\1", q)
   
-  # remove everything in brackets or parentheses after collecting i komm., distr., exp., för ... -information
-  # TBD
-  
-  
+  # remove everything in brackets or parentheses after collecting i
+  # komm., distr., exp., för ... -information TBD
+    
   # remove naughty characters from the rear
-  endings=c(" ", "\\(", "\\)", "\\[", "\\]", "\\.", ";", ":", ",", "'")
+  endings <- c(" ", "\\(", "\\)", "\\[", "\\]", "\\.", ";", ":", ",", "'")
   q <- remove_endings(q, endings=endings, random_order=TRUE)
   
   # replace naughty characters from the middle

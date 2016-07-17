@@ -43,26 +43,27 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
   
   for (idx in 1:nrow(unique_data)) {
 
-    all_names_indices <- which(all_names$orig==unique_data$names.orig[idx])
+    all_names_indices <- which(all_names$orig == unique_data$names.orig[idx])
     all_names_indices <- intersect(all_names_indices,
-    		      	   which(df.orig$publication_year_from==unique_data$pubyear.from[idx]))
+      which(df.orig$publication_year_from==unique_data$pubyear.from[idx]))
     all_names_indices <- intersect(all_names_indices,
-    		      	   which(df.orig$publication_year_till==unique_data$pubyear.till[idx]))
+      which(df.orig$publication_year_till==unique_data$pubyear.till[idx]))
     all_names_indices <- intersect(all_names_indices,
-    		      	   which(df.orig$publication_place==unique_data$town[idx]))
+      which(df.orig$publication_place==unique_data$town[idx]))
     town2 <- unique_data$town[idx]
     
     # Filter out naughty towns
     # Phase 1. Get all the alt forms through the pref forms
-    inds <- which(Finto_town==town2)
+    inds  <- which(Finto_town == town2)
     inds2 <- which(is.na(Finto_town))
-    inds <- union(inds, inds2)
+    inds  <- union(inds, inds2)
     valid_pref_corps <- unique(Finto_corrected[inds])
-    valid_alt_names <- Finto_comp$orig[which(Finto_corrected %in% valid_pref_corps)]
+    valid_alt_names  <- Finto_comp$orig[which(Finto_corrected %in% valid_pref_corps)]
     inds <- which(Finto_comp$orig %in% valid_alt_names)
     
     # Include groups of valid companies from Finto data based on year
     if (!is.na(unique_data$pubyear.from[idx])) {
+    
       # Group 1. Start year is between Finto's start and end years
       inds2 <- which(unique_data$pubyear.from[idx] >= Finto_years$year_from)
       inds2 <- intersect(inds2, which(unique_data$pubyear.from[idx] <= Finto_years$year_till))
@@ -78,18 +79,26 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
       inds <- union(inds, which(is.na(Finto_years$year_from)))
       
     } else {
+    
       # Nothing else.
-      # If publication_year is NA, inds will not be limited, because it might be between the right range
+      # If publication_year is NA, inds will not be limited, because it might be between
+      # the right range
+      
     }
     
-    if ((is.na(unique_data$names.initials[idx])) || (unique_data$names.initials[idx]=="") || (is.na(unique_data$names.guessed[idx]))) {
+    if ((is.na(unique_data$names.initials[idx])) ||
+         (unique_data$names.initials[idx]=="") ||
+	 (is.na(unique_data$names.guessed[idx]))) {
+	 
       # 1. Check against Finto name, if there's no initials at all
       tmp_comparison <- Finto_comp$orig[inds]
       name_comp <- unique_data$names.orig[idx]
       match_method <- 1
 
-    } else if (unique_data$names.guessed[idx] == FALSE) {
-      # 2. Check against Finto family name, if initials match exactly AND the initials aren't guessed
+    } else if (!unique_data$names.guessed[idx]) {
+    
+      # 2. Check against Finto family name, if initials match exactly AND
+      # the initials aren't guessed
       tmp_comparison_inds <- which(Finto_comp$initials==unique_data$names.initials[idx])
       inds <- intersect(inds, tmp_comparison_inds)
       inds <- intersect(inds, which(Finto_comp$guessed==FALSE))
@@ -97,38 +106,52 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
       name_comp <- unique_data$names.family[idx]
       match_method <- 2
 
-    } else if (unique_data$names.guessed[idx] == TRUE) {
+    } else if (unique_data$names.guessed[idx]) {
+    
       # 3. Check against Finto full name, if initials are guessed
       tmp_comparison_inds <- which(Finto_comp$full_name==unique_data$names.full_name[idx])
       inds <- intersect(inds, tmp_comparison_inds)
       tmp_comparison <- Finto_comp$full_name[inds]
       name_comp <- unique_data$names.full_name[idx]
       match_method <- 3
+      
     } else {
+    
       match_method <- 4
+      
     }
     
     # The actual comparison
     # NB! tmp_comparison is a subset of [inds], so [res] must be the same subset
-    res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison, method="jw", p=0.05, maxDist=0.04)]
+    res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison,
+    	     method="jw", p = 0.05, maxDist = 0.04)]
 
     if ((is.null(res)) || (is.na(res)) || (res=="")) {
+    
       # No results -> return the original
       res <- unique_data$names.origs[idx]
+      
     } else {
+    
       # There was a match
       # Get the indices from Finto matching the result string
       # Select the most likely corrected version in par with the matched result
       
-      if (match_method==1) {
+      if (match_method == 1) {
+      
         inds <- which(Finto_comp$orig==res)
-      } else if (match_method==2) {
+	
+      } else if (match_method == 2) {
+      
         # Initials & Family name
-        inds <- which(Finto_comp$family==unique_data$names.family[idx])
-        inds <- intersect(inds, which(Finto_comp$initials==unique_data$names.initials[idx]))
-        inds <- intersect(inds, which(Finto_comp$guessed==FALSE))
+        inds <- which(Finto_comp$family == unique_data$names.family[idx])
+        inds <- intersect(inds, which(Finto_comp$initials == unique_data$names.initials[idx]))
+        inds <- intersect(inds, which(Finto_comp$guessed == FALSE))
+	
       } else if (match_method==3) {
+      
         inds <- which(Finto_comp$full_name==unique_data$names.full_name[idx])
+	
       } else {
       
       }
@@ -138,7 +161,7 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
 
       # Right company can't be selected from multiple variants by random
       if ((length(origs) > 1) && (length(prefs) > 1)) {
-        # Hardcoded! Should be changed.
+        # TODO Hardcoded! Should be changed to csv lists
         inds <- grep("(kirja)|(bok)|(paino)|(tryck)|(kustan)", x=origs, ignore.case=TRUE)
         if ((length(inds) > 1) && (length(unique(origs[inds])) > 1)) {
           # Can't be decided: more than one book-related company
@@ -171,8 +194,12 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
         }
       }
 
-      # Shortcut to avoid problems with short names getting irrational correspondences from Finto
-      # Too generic names produce real problems: Sampsa -> Asunto Oy Sampsa; Sjöblom -> Autohuolto Sjöblom; Granlund -> Insinööritoimisto Olof Granlund
+      # Shortcut to avoid problems with short names getting irrational correspondences
+      # from Finto
+      # Too generic names produce real problems:
+      # Sampsa -> Asunto Oy Sampsa;
+      # Sjöblom -> Autohuolto Sjöblom;
+      # Granlund -> Insinööritoimisto Olof Granlund
       # FIXTHIS: Gummerus -> K.J. Gummerus will be missing
       tryCatch({
         if (length(grep("^[[:upper:]][[:lower:]]{1,8}$", unique_data$names.orig[idx]))>0) {
@@ -199,10 +226,15 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
       }
       match_methods[all_names_indices] <- match_method
       
-    }  
+    }
+    
     idx <- idx + 1
+    
   }
   
-  return (data.frame(alt=alt, pref=pref, match_methods=match_methods, stringsAsFactors=FALSE))
+  return (data.frame(alt = alt,
+  	 	     pref = pref,
+		     match_methods = match_methods,
+  	 	     stringsAsFactors = FALSE))
     
 }
