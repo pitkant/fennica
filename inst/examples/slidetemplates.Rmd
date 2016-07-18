@@ -31,8 +31,8 @@ library(devtools)
 #library(ggthemr)
 
 knitr::opts_chunk$set(echo = FALSE)
-#knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
-knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
+#knitr::opts_chunk$set(fig.path = "figure_slides/", dev="CairoPNG")
+knitr::opts_chunk$set(fig.path = "figure_slides/")
 
 # Set locale
 tmp <- Sys.setlocale(locale="UTF-8") 

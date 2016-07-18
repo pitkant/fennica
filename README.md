@@ -14,7 +14,8 @@ The data is summarized in the following automatically generated files:
 
  * [Fennica: a generic overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/overview.md)
  * [Fennica: a specific overview](https://github.com/rOpenGov/fennica/blob/master/inst/examples/summary.md) (Fennica specific preprocessing notes)
- * Knowledge production in Finland 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-slides-Krakow.pdf)) and [code](inst/examples/20160715-slides-Krakow.Rmd)
+ * Presentation slide templates ([PDF](https://github.com/rOpenGov/fennica/blob/master/inst/examples/slidetemplates.pdf)) and [code](inst/examples/slidetemplates.Rmd) 
+ * Knowledge production in Finland 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20160715-Krakow-Fennica.pdf)) and [code](inst/examples/20160715-Krakow-Fennica.pdf)
  * [Digital History in Finland](https://github.com/rOpenGov/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md) Seminar in University of Helsinki, Dec 9, 2015
  * [Analyses on specific publication places and other topics](https://github.com/rOpenGov/fennica/tree/master/inst/examples) (see the .md files) 
 

@@ -18,11 +18,13 @@ knitr::knit("Vaasa.Rmd", encoding="UTF-8")
 knitr::knit("suvut.Rmd", encoding="UTF-8")
 knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
 knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
+#rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 
 library(rmarkdown)
-rmarkdown::render("20160715-slides-Krakow.Rmd")
-#rmarkdown::render("test.Rmd")
-rmarkdown::render("manuscript-krakow.Rmd")
+rmarkdown::render("slidetemplates.Rmd") # Slide draft
+# rmarkdown::render("slides.Rmd") # Another Slide draft, to bw combined
+rmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
+#rmarkdown::render("test.Rmd") # For interactive testing
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
 # Push changes to github

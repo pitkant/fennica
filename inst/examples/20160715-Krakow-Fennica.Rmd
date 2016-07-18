@@ -32,7 +32,7 @@ library(devtools)
 
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
-knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
+knitr::opts_chunk$set(fig.path = "figure-20160715-Krakow-Fennica/")
 
 # Set locale
 tmp <- Sys.setlocale(locale="UTF-8") 
@@ -52,7 +52,7 @@ theme_set(theme_bw(26))
 
 ```{r 201606krakow-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
 # Full combined catalogue (Fen + Kun) with marked duplicates
-df.combined.preprocessed <- readRDS("df.combined.Rds")
+df.combined.preprocessed <- readRDS("df.combined.20160715-Krakow.Rds")
 # Data with duplicates removed and years limited
 df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 	   			    filter(publication_year >= min.year &
@@ -291,11 +291,11 @@ df$period <- cut(df$publication_year,
 		 )
 
 # Remove entries outside the investigated publication periods
-df <- df %>% filter(!is.na(period)) %>% group_by(period, paper)
+df <- df %>% filter(!is.na(period)) %>% group_by(period, paper.consumption.km2)
 df <- df %>% summarise(n = n(),
-		  paper2 = sum(paper, na.rm = TRUE)) %>%
+		  paper2 = sum(paper.consumption.km2, na.rm = TRUE)) %>%
              mutate(paper.per.title = paper2/n)		 
-df$paper <- df$paper2
+df$paper.consumption.km2 <- df$paper2
 df$paper2 <- NULL
 
 p2 <- ggplot(df, aes(x = period, y = paper.per.title)) + 
@@ -428,7 +428,7 @@ library(tidyr)
 
 df <- df %>% group_by(publication_decade, publication_place) %>%
              summarise(n = n(),
-                paper = sum(paper, na.rm = TRUE),
+                paper = sum(paper.consumption.km2, na.rm = TRUE),
 		       publishers = length(na.omit(unique(publisher)))
 		       )
 
@@ -556,7 +556,7 @@ df <- df0 %>% filter(catalog == catalogue & publication_place == place)
 
 df <- df %>%	
   filter(publication_year >= 1640 & publication_year <= 1828)%>%
-        select(publication_decade, publisher, paper)
+        select(publication_decade, publisher, paper.consumption.km2)
 
 # Group small publishers
 # Top publishers by title count
@@ -740,7 +740,7 @@ catalogue <- "Fennica"
   }
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper, na.rm = TRUE))
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
@@ -795,7 +795,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
   df <- dfl %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper, na.rm = TRUE))
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
   # PAPER CONSUMPTION
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
@@ -895,7 +895,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-                 paper = sum(paper, na.rm = TRUE))
+                 paper = sum(paper.consumption.km2, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 p1 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
@@ -913,7 +913,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper, na.rm = TRUE))
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 p2 <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
@@ -932,7 +932,7 @@ df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})
 df <- df %>% filter(hit)
 df <- df %>% group_by(publication_decade, language) %>%
              summarise(n = n(),
-	               paper = sum(paper, na.rm = TRUE))
+	               paper = sum(paper.consumption.km2, na.rm = TRUE))
 
 # PAPER CONSUMPTION
 theme_set(theme_bw(20))
@@ -960,7 +960,7 @@ Paper consumption: different document formats over time
 for (catal in unique(df0$catalog)) {
   df2 <- df0 %>% filter(catalog == catal) %>% 
                  group_by(publication_decade, gatherings) %>% 
-		 summarise(paper2 = sum(paper, na.rm = TRUE), n = n()) 
+		 summarise(paper2 = sum(paper.consumption.km2, na.rm = TRUE), n = n()) 
   df2$paper <- df2$paper2; df2$paper2 <- NULL # Rename
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
