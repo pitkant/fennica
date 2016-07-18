@@ -242,10 +242,8 @@ Eli: Fennicasta kaikki kirjallisuus, jossa asiasana lääketiede (muut lääkeai
 Title count for different places. Fennica, no time limit.
 
     ## 
-    ##       Jena      Pärnu  Stockholm Wittenberg  Göttingen Greifswald 
-    ##          1          1          1          1          2          2 
-    ##     Leiden       Lund      Tartu    Uppsala      Turku 
-    ##          2          2          7         40        104
+    ##    Leiden Stockholm     Tartu   Uppsala     Turku 
+    ##         1         1         1         5        16
 
 General analysis with all documents combined:
 
@@ -549,7 +547,7 @@ Materials and Methods
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata 70004 and 381811 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 19668 (28.1%) and 72631 (0%) documents for Fennica and Kungliga, respectively.
+The raw data contains metadata 9725 and 385230 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 2771 (28.5%) and 73085 (0%) documents for Fennica and Kungliga, respectively.
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. \[SUMMARY FIGURE OF THE PROCESS?\]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
@@ -788,9 +786,9 @@ sessionInfo()
     ##  [1] knitcitations_1.0.7   gisfin_0.9.26         R6_2.1.2             
     ##  [4] rgdal_1.1-10          sp_1.2-3              ggmap_2.6.1          
     ##  [7] rmarkdown_0.9.6.14    sorvi_0.7.47          tibble_1.1           
-    ## [10] fennica_0.1.42        stringr_1.0.0         microbiome_0.99.85   
+    ## [10] fennica_0.1.43        stringr_1.0.0         microbiome_0.99.85   
     ## [13] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [16] reshape2_1.4.1        magrittr_1.5          bibliographica_0.2.27
+    ## [16] reshape2_1.4.1        magrittr_1.5          bibliographica_0.2.28
     ## [19] dplyr_0.5.0           tidyr_0.5.1           ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):

@@ -2,10 +2,11 @@
 source("analysis.init.R")
 source("analysis.run.R")
 
-# Combine the data sets and mark duplicates
+# Combine Fennica + Kungliga and mark duplicates
 source("analysis.combined.R") # SLOW, only run once
 
 # Duplicate analyses / HR
+# may have to be updated after the latest code changes
 # source("analysis.combined.run.R")
 
 # Custom analyses

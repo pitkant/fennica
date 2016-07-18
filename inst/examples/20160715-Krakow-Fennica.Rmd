@@ -126,7 +126,7 @@ print(p)
 
 
 
-## Automated data clean-up
+## Preprocess & Enrich
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bibliographica, quiet = TRUE)
@@ -141,14 +141,13 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 
 **Enrich data** (geocoordinates, gender, ..)
 
-```{r, message=FALSE, warning=FALSE, echo=TRUE}
+```{r, message=FALSE, warning=FALSE}
 get_country("Porvoo")
 ```
 
 - Parse, clean up, enrich, summarise, analyze, visualize, report..
 
 ---
-
 
 \begin{center}
 \Large{1. General trends and political events}
@@ -962,11 +961,12 @@ for (catal in unique(df0$catalog)) {
   df2 <- df0 %>% filter(catalog == catal) %>% 
                  group_by(publication_decade, gatherings) %>% 
 		 summarise(paper2 = sum(paper, na.rm = TRUE), n = n()) 
+  df2$paper <- df2$paper2; df2$paper2 <- NULL # Rename
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
     
-  p <- ggplot(df2, aes(y = paper2,
+  p <- ggplot(df2, aes(y = paper,
                        x = publication_decade,
   	       	       shape = gatherings,
 		       linetype = gatherings))		       

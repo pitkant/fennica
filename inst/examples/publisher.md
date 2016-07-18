@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 370 [unique publishers](output.tables/publisher_accepted.csv)
+ * 377 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 9963 documents have unambiguous publisher information (100%). 
+ * 9976 documents have unambiguous publisher information (100%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -27,7 +27,7 @@ Title count
 
 
 ```
-## Warning: Removed 1 rows containing missing values (position_stack).
+## Warning: Removed 2 rows containing missing values (position_stack).
 ```
 
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
@@ -38,17 +38,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|      paper|
-|:-------------------------------|------:|----------:|
-|                                |   7154| 14900186.8|
-|Frenckell, Johan Christopher I  |    243|   324337.4|
-|Frenckell, Johan Christopher II |    292|   624487.2|
-|Hansson, Peter                  |    149|   390457.0|
-|Kämpe, Johan                    |    147|   323291.3|
-|Londicer, Georg Wilhelm         |    308|   106880.6|
-|Merckell, Jacob                 |    131|   307112.5|
-|Wald, Peder Eriksson            |     79|   179476.0|
-|Wall, Johan Larsson             |    205|   372287.2|
-|Winter, Johan                   |    150|   606009.2|
+|publisher                       | titles|       paper|
+|:-------------------------------|------:|-----------:|
+|                                |   7117| 13946989.95|
+|Frenckell, Johan Christopher I  |    242|   363217.62|
+|Frenckell, Johan Christopher II |    298|   616500.04|
+|Hansson, Peter                  |    143|   352868.40|
+|Kämpe, Johan                    |    168|   431502.78|
+|Londicer, Georg Wilhelm         |    293|    72502.78|
+|Merckell, Jacob                 |    149|   401738.11|
+|Wald, Peder Eriksson            |     83|   175590.62|
+|Wall, Johan Larsson             |    192|   466598.09|
+|Winter, Johan                   |    149|   314424.74|
 
 

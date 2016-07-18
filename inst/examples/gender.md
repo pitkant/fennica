@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 2538 unique male authors
+ * 2557 unique male authors
  
- * 268 unique female authors
+ * 250 unique female authors
  
- * 4884 documents (48.8%) with a male author
+ * 4922 documents (49.2%) with a male author
  
- * 422 documents (4.2%) with a female author
+ * 388 documents (3.9%) with a female author
  
- * 4694 documents (46.9%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 4690 documents (46.9%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -48,10 +48,10 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|ambiguous |            21|         0.21|
-|female    |           422|         4.22|
-|male      |          4884|        48.84|
-|NA        |          4673|        46.73|
+|ambiguous |            23|         0.23|
+|female    |           388|         3.88|
+|male      |          4922|        49.22|
+|NA        |          4667|        46.67|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 

@@ -8,7 +8,7 @@ output: markdown_document
 
 ### Titles
 
- * 9248 [unique titles](output.tables/title_accepted.csv)
+ * 9241 [unique titles](output.tables/title_accepted.csv)
  * 10000 documents (100%) have a title
  * [Discarded titles](output.tables/title_discarded.csv)
 

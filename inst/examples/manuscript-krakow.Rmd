@@ -963,9 +963,8 @@ General analysis with all documents combined:
 ```{r topics, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
-df = df0
-
-  df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
+df <- df0
+df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
 
   # Selected catalogue with selected topics
   df <- df %>% filter(catalog == catalogue & hit)
@@ -980,8 +979,10 @@ df = df0
     # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
     # Combine data frames for specified languages
     dflsub <- filter(df, df[[lan]])
-    dflsub$language <- gsub("language.", "", lan)
-    dfl <- bind_rows(dfl, dflsub)
+    if (nrow(dflsub)>0) {
+      dflsub$language <- gsub("language.", "", lan)
+      dfl <- bind_rows(dfl, dflsub)
+    }
   }
 
   df <- dfl %>% group_by(publication_decade, language) %>%
@@ -1226,7 +1227,6 @@ Edellisten yhdistäminen. Samat analyysit, mutta asiasanoina kaikki aiemmista ko
 
 Hartauskirjallisuudesta ks. Osmo Tiililä, Rukoilevaisten kirjoja, 1961.
 
-
 General analysis with all documents combined:
 
 ```{r topics3B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, out.width="430px", fig.show="hold"}
@@ -1253,8 +1253,10 @@ for (lan in lang) {
   # mean(rowSums(df[, lang]) == 1) # 93% Fennica docs have just 1 language
   # Combine data frames for specified languages
   dflsub <- filter(df, df[[lan]])
-  dflsub$language <- gsub("language.", "", lan)
-  dfl <- bind_rows(dfl, dflsub)
+  if (nrow(dflsub) > 0) {
+    dflsub$language <- gsub("language.", "", lan)
+    dfl <- bind_rows(dfl, dflsub)
+  }
 }
 dfl$language <- factor(dfl$language, levels = langs)
 
