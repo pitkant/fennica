@@ -57,7 +57,7 @@ source(system.file("extdata/validation.R", package = "bibliographica"))
 # -------------------------------
 
 source(system.file("extdata/enrich.R", package = "bibliographica"))
-source("enrich.fennica.R") # Fennica-specific
+source("enrich.fennica.R")     # Fennica-specific
 source("validation.fennica.R") # Year checks: must come after enrich
 
 print("Saving updates on preprocessed data")

@@ -64,7 +64,8 @@ inds <- which(!is.na(genderfi))
 df.preprocessed$author_gender[inds] <- genderfi[inds]
 
 # Let us Fennica custom gender mappings override others
-gender.custom <- read_mapping("custom_gender_fennica.csv", sep = "\t", from = "name", to = "gender", mode = "table")
+gender.custom <- read_mapping("custom_gender_fennica.csv", sep = "\t",
+	      	   from = "name", to = "gender", mode = "table")
 gendercustom <- get_gender(firstname, gender.custom)
 inds <- which(!is.na(gendercustom))
 df.preprocessed$author_gender[inds] <- gendercustom[inds]
