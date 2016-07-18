@@ -783,14 +783,14 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   devtools_1.12.0       gisfin_0.9.26        
-    ##  [4] R6_2.1.2              rgdal_1.1-10          sp_1.2-3             
-    ##  [7] ggmap_2.6.1           rmarkdown_0.9.6.14    sorvi_0.7.47         
-    ## [10] tibble_1.1            fennica_0.1.43        stringr_1.0.0        
-    ## [13] microbiome_0.99.85    phyloseq_1.16.2       knitr_1.13           
-    ## [16] gridExtra_2.2.1       reshape2_1.4.1        magrittr_1.5         
-    ## [19] bibliographica_0.2.28 dplyr_0.5.0           tidyr_0.5.1          
-    ## [22] ggplot2_2.1.0        
+    ##  [1] knitcitations_1.0.7   gisfin_0.9.26         R6_2.1.2             
+    ##  [4] rgdal_1.1-10          sp_1.2-3              ggmap_2.6.1          
+    ##  [7] rmarkdown_0.9.6.14    stringr_1.0.0         microbiome_0.99.85   
+    ## [10] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
+    ## [13] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
+    ## [16] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
+    ## [19] dplyr_0.5.0           devtools_1.12.0       fennica_0.1.43       
+    ## [22] bibliographica_0.2.28
     ## 
     ## loaded via a namespace (and not attached):
     ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
@@ -804,8 +804,8 @@ sessionInfo()
     ##  [25] assertthat_0.1        Matrix_1.2-6          lazyeval_0.2.0       
     ##  [28] formatR_1.4           acepack_1.3-3.3       htmltools_0.3.5      
     ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
-    ##  [34] coda_0.18-1           gtable_0.2.0          maps_3.1.0           
-    ##  [37] gmodels_2.16.2        Rcpp_0.12.5           slam_0.1-35          
+    ##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
+    ##  [37] maps_3.1.0            Rcpp_0.12.5           slam_0.1-35          
     ##  [40] Biobase_2.32.0        Biostrings_2.40.2     RJSONIO_1.3-0        
     ##  [43] multtest_2.28.0       spdep_0.6-5           gdata_2.17.0         
     ##  [46] ape_3.5               preprocessCore_1.34.0 nlme_3.1-128         
@@ -823,7 +823,7 @@ sessionInfo()
     ##  [82] RgoogleMaps_1.2.0.7   moments_0.14          matrixStats_0.50.2   
     ##  [85] evaluate_0.9          lattice_0.20-33       labeling_0.3         
     ##  [88] plyr_1.8.4            IRanges_2.6.1         Hmisc_3.17-4         
-    ##  [91] DBI_0.4-1             withr_1.0.2           foreign_0.8-66       
+    ##  [91] DBI_0.4-1             foreign_0.8-66        withr_1.0.2          
     ##  [94] mgcv_1.8-12           RCurl_1.95-4.8        survival_2.39-5      
     ##  [97] nnet_7.3-12           jpeg_0.1-8            grid_3.3.1           
     ## [100] data.table_1.9.6      vegan_2.4-0           digest_0.6.9         

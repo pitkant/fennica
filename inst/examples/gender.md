@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-18"
+date: "2016-07-19"
 output: markdown_document
 ---
 
@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 2557 unique male authors
+ * 2494 unique male authors
  
- * 250 unique female authors
+ * 269 unique female authors
  
- * 4922 documents (49.2%) with a male author
+ * 4863 documents (48.6%) with a male author
  
- * 388 documents (3.9%) with a female author
+ * 441 documents (4.4%) with a female author
  
- * 4690 documents (46.9%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 4696 documents (47%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -48,9 +48,9 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|ambiguous |            23|         0.23|
-|female    |           388|         3.88|
-|male      |          4922|        49.22|
+|ambiguous |            29|         0.29|
+|female    |           441|         4.41|
+|male      |          4863|        48.63|
 |NA        |          4667|        46.67|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
