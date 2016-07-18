@@ -2,6 +2,7 @@
 
 library(devtools)
 load_all("~/proj/2014-Aatelouhinta/bibliographica")
+load_all("~/proj/2014-Aatelouhinta/fennica")
 
 # I/O definitions
 output.folder <- "output.tables/"

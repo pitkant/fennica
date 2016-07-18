@@ -1,46 +1,708 @@
 Name	Count
-Total count: 	12073
-FI-H	11940
-FI-H;FI-H	   60
-FI-Frenckell, Johan Christofer II	    8
-FI-H;FI-H;FI-H	    6
-FI-losofia	    6
-FI-Ruots. kaunokirj. 1	    5
-FI-R.Fol.	    3
-FI-Carlbohm, Arvid	    2
-FI-Fougt, Henrik I (leski)	    2
-FI-Heng.laulukirj.1.	    2
-FI-HYK	    2
-FI-Lahetys	    2
-FI-Londicer, Carl Anton	    2
-FI-Merckell, Jacob	    2
-FI-Suom. kaunokirj. 1	    2
-FI-Diss. Ulk.	    1
-FI-Fougt, Henrik (leski)	    1
-FI-H;FI-H;FI-H;FI-H	    1
-FI-H;FI-K.Oikeustiede	    1
-FI-H;FI-Kirjatieto 1	    1
-FI-H;FI-Kuopio VI:7:122	    1
-FI-H;FI-Palosuojelu 2, asetus	    1
-FI-H;FI-Palosuojelu 2, Turku	    1
-FI-Heng. laulukirj.1.	    1
-FI-Heng.laulukirj.1	    1
-FI-III.3.b/1	    1
-FI-III.3.b/2	    1
-FI-K. Hist. asiakirj.	    1
-FI-K.Hbrtauskirj.	    1
-FI-K.Saarnakirj.	    1
-FI-Kirjastot 2 Viipuri	    1
-FI-Londicer, Georg Wilhelm	    1
-FI-Maantiede 1	    1
-FI-Maantiede 1.	    1
-FI-Maanvilj. 2B	    1
-FI-Momma, Peter	    1
-FI-R. Suom. kaunokirj. 5	    1
-FI-Raamatut 5. , Matteus	    1
-FI-s.n.	    1
-FI-Saarnakirj.	    1
-FI-Suom. kaunok. 6	    1
-FI-Suom. lastenkirj. 3	    1
-FI-Teollisuus 3	    1
-Suomi	    1
+Total count: 	5086
+FI-H	1645
+FI-Suom. kaunok. 3	 133
+FI-Suom. kaunok. 4	 125
+FI-Suom. kaunokirj. 1	 123
+FI-Hbrtauskirj.	  75
+FI-Suom. kaunokirj. 2	  72
+FI-K.Hbrtauskirj.	  66
+FI-Ruots. kaunokirj. 1	  59
+FI-Diss. HY	  52
+FI-Lahetys	  51
+FI-Maanviljelys 2B	  51
+FI-Matematiikka	  49
+FI-Suom. kaunok. 2	  47
+FI-Yl. hist.	  47
+FI-losofia	  44
+FI-Siv.seur.: Kansanvalistusseura 3	  42
+FI-Suom. lastenkirj. 5	  41
+FI-Laäketiede 3	  39
+FI-Teollisuus 3	  37
+FI-K.Hbrtauskirj	  36
+FI-Maantiede 1	  36
+FI-Amerikka 3	  35
+FI-Lakitiede 3	  33
+FI-K.Raittius	  31
+FI-Ruots. kaunok. 3	  31
+FI-Tiet. seur.: Suom. kirj. seura	  30
+FI-K.Saarnakirj.	  28
+FI-Raittius 2 , Raittiuden	  28
+FI-K. Hbrtauskirj.	  27
+FI-Kirj. hist.	  24
+FI-Suom. kaunok. 1.	  24
+FI-Teologia 3	  24
+FI-K. Saarnakirjallisuus	  23
+FI-K.Suom.kaunok.	  22
+FI-Raamatunhist.	  22
+FI-Elaintiede	  21
+FI-Foliot	  21
+FI-Suom.kaunokirj.1	  20
+FI-Saarnakirj.	  19
+FI-Suom. lastenkirj. 4	  19
+FI-Heng.laulukirj.1.	  17
+FI-Kasvatusoppi 3	  17
+FI-Germ. kielit.	  16
+FI-Kom. miet. 1	  16
+FI-Suom. kiel. 3	  16
+FI-Slaavil. kielit.	  15
+FI-Suom. lastenkirj. 2	  15
+FI-Tiet. seur.: Svenska litt. sallsk.	  15
+FI-Valtiopaivät 1	  15
+FI-Yleiset sarjat 2.	  15
+FI-Kemia	  14
+FI-Maanvilj. 2B	  13
+FI-Maanviljelys 3	  13
+FI-Yl.luonnontiede	  13
+FI-Elamisentaito	  12
+FI-H;FI-H	  12
+FI-Musiikki 3	  12
+FI-Pohjoism. kielit.	  12
+FI-Suom. kaunok. 6	  12
+FI-Eksegetiikka	  11
+FI-Amerikka 3.	  10
+FI-Engl. kielit.	  10
+FI-K.Kasvatusoppi	  10
+FI-Lainvalm.kunta 1	  10
+FI-Maantiede 2	  10
+FI-Matkailu 2	  10
+FI-Musiikki 4	  10
+FI-Nuorisoseurat 2	  10
+FI-Rautatiet 7	  10
+FI-Ruots.kaunok. 1.	  10
+FI-Virsikirjat 1	  10
+FI-Fol.SK	   9
+FI-K. Yl. historia	   9
+FI-K.Kansanopetus	   9
+FI-K.Kirj.hist.	   9
+FI-K.Maanviljelys	   9
+FI-Kielitiede: Tulkkikirjat	   9
+FI-Naisasia 2	   9
+FI-Ruotsal. lastenkirj. 3	   9
+FI-Suom. lastenkirj. 3	   9
+FI-Uni- ja povauskirjat	   9
+FI-Elainlääkintä 3	   8
+FI-K.Laäketiede	   8
+FI-K.Teknologia	   8
+FI-K.Teologia	   8
+FI-Laäketiede 2	   8
+FI-Maanvilj. 3	   8
+FI-Metsanhoito 3	   8
+FI-Pienpainatekokoelma	   8
+FI-Puutarhanhoito 3	   8
+FI-Senaatti	   8
+FI-Suom. kaunok. 3, Kevytta lukemista	   8
+FI-Yl.lukemistot 1	   8
+FI-Diss. Ulk.	   7
+FI-Fol. A	   7
+FI-Fysiikka	   7
+FI-Heng. laulukirj. 2	   7
+FI-K. Kirkkohistoria	   7
+FI-K. Maanviljelys 2	   7
+FI-K. Suom. kaunokirj.	   7
+FI-K.Lahetys	   7
+FI-K.Metsanhoito	   7
+FI-Kasvitiede	   7
+FI-Kirkkohist.	   7
+FI-Lainvalm.kunta 2	   7
+FI-Maanvilj.  3	   7
+FI-Piirustus 3	   7
+FI-Posti 2	   7
+FI-Romaan. kielit.	   7
+FI-Siveellisyys	   7
+FI-Tiet. seur.: Geologinen toimikunta	   7
+FI-Urheilu 3	   7
+FI-Heng. seurat 1	   6
+FI-K. Laäketiede	   6
+FI-K. Matematiikka	   6
+FI-K.Kauppa	   6
+FI-K.Oikeustiede	   6
+FI-Kansanopistot 2	   6
+FI-Klass. kielit. 1	   6
+FI-Klass. kielit. 2	   6
+FI-Kunn. hall 5	   6
+FI-Maantiede 1.	   6
+FI-Metsanhoito 2	   6
+FI-Raittius 2	   6
+FI-Ruots. kaunokirj. 4	   6
+FI-Sanakirjat	   6
+FI-Siv.seur.: Svenska folkskolans vanner	   6
+FI-Suom. kaunok. 1	   6
+FI-Vakuutus 5	   6
+FI-Vierask. kaunokirj. 1	   6
+FI-Fol.N	   5
+FI-Heng. laulukirj. 1	   5
+FI-Heng. laulukirj. 1.	   5
+FI-K. Elainlääk.	   5
+FI-K. Oopperatekstit	   5
+FI-K.Suom.hist.	   5
+FI-Kansantalous 3	   5
+FI-Kasvatusoppi 3 Koti	   5
+FI-Kom. miet. 2.	   5
+FI-Kotitalous 3	   5
+FI-Kunn. hall. 3	   5
+FI-Kunn. hall. 4	   5
+FI-Lait 2 Lilla	   5
+FI-Maantiede 2.	   5
+FI-Maanviljelys 2 C	   5
+FI-Rahalaitokset 7	   5
+FI-Ruots. kaunok. 1	   5
+FI-Ruots. kaunokirj. 2	   5
+FI-Ruots. lastenkirj. 3	   5
+FI-Siv.seur.: Kansanvalistusseura 4	   5
+FI-Suomi - Venajä 3	   5
+FI-Taide 2	   5
+FI-Taide 2.	   5
+FI-Teollisuus 2	   5
+FI-Yleiset sarjat 1 , Pieni	   5
+FI-Abo Akademi 17 , Skrifter	   4
+FI-Alkukoulut 2	   4
+FI-Diss. HY;FI-Laäketiede 3	   4
+FI-Heng. seurat 2	   4
+FI-K. Kauppa	   4
+FI-K. Teologia	   4
+FI-K.Heng.laulukirj.	   4
+FI-K.Unikirjat	   4
+FI-K.Vakuutus	   4
+FI-Katekism. 2	   4
+FI-Kauppayhdistykset	   4
+FI-Lait 2 Otavan	   4
+FI-Lait 2 Pieni	   4
+FI-Meijeritalous 3	   4
+FI-Musiikki 2	   4
+FI-Naisasia 2, Martta-yhdistyksen	   4
+FI-Rahalaitokset 6	   4
+FI-Rautatiet 3	   4
+FI-Rautatiet 4	   4
+FI-Suom. elamäkerrat 1	   4
+FI-Suom. elamäkerrat 2	   4
+FI-Suom. kaunokirj. 1;FI-Suom. kaunok. 4	   4
+FI-Suom. kaunokirj. 2;FI-Suom. kaunok. 3	   4
+FI-Suom. sukututkimus 2	   4
+FI-Suomi - Venäjä 3	   4
+FI-Tiet. seur.: Kansantal. yhdistys	   4
+FI-Tiet. seur.: Vanamo	   4
+FI-Vakuutus 3	   4
+FI-Yl.lukemistot 2	   4
+FI-Aapiset 1.	   3
+FI-Aistiviallishoito 2	   3
+FI-K. Amerikka 2	   3
+FI-K. Elaintiede	   3
+FI-K. Kiel.,uudet	   3
+FI-K. Maanviljelys	   3
+FI-K.Hatäapu	   3
+FI-K.Kirjastot 1	   3
+FI-K.Maantiede	   3
+FI-K.Maanviljelys;FI-K. Maanviljelys 2	   3
+FI-K.Matematiikka	   3
+FI-K.Ruots.kaunok.	   3
+FI-K.Urheilu	   3
+FI-K.Yl.hist.	   3
+FI-Kauppa 3	   3
+FI-Lait 2 Edlund	   3
+FI-Luetteloimaton kokoelma	   3
+FI-Maantiede 1 , Bidrag	   3
+FI-Merenkulku 3	   3
+FI-Naisasia 2, Foreningen Marthas	   3
+FI-Pappeinkok.	   3
+FI-Posti 4	   3
+FI-Raamatut 5	   3
+FI-Rahalaitokset 8	   3
+FI-Raittius 3	   3
+FI-Ruotsal. lastenkirj. 2	   3
+FI-Seminaarit	   3
+FI-Siv.seur.: Kansanvalistusseura 5	   3
+FI-Suom. elamäkerrat 2 , Snellman	   3
+FI-Suom. kaunok. 3, Kirjan 50 pennin kirjasto	   3
+FI-Suom. kaunok. 5.	   3
+FI-Suom. lastenkirj. 3, Runoja	   3
+FI-Suom.kaunokirj.1, Ivalo, Santeri	   3
+FI-Synodaalikirj.	   3
+FI-Tyovaenkys. 2	   3
+FI-Vakuutus 6, Suomen	   3
+FI-Yleiset sarjat 1 , Ajankysymyksia	   3
+FI-Yleiset sarjat 1 , Yhteiskunnallisia	   3
+FI-Alkukoulut 3	   2
+FI-Amerikka 2.	   2
+FI-Astronomia	   2
+FI-Diss. HY;FI-Kemia	   2
+FI-Diss. HY;FI-Kirj. hist.	   2
+FI-Diss. HY;FI-Lakitiede 3	   2
+FI-Elamisentaito. Saarenheimo	   2
+FI-Fol.U	   2
+FI-Helsingin yliopisto 12	   2
+FI-Heng.lauluk.1.	   2
+FI-K. Folio	   2
+FI-K. Fysiikka	   2
+FI-K. Kirjastot 2	   2
+FI-K. Suom. kaunokirj. 1	   2
+FI-K. Vierask. kaunokirj.	   2
+FI-K.Elainlääk.	   2
+FI-K.Genealogia	   2
+FI-K.Kemia	   2
+FI-K.Kiel.kotim., suom.	   2
+FI-K.Kiel.vanh.kielet	   2
+FI-K.Musiikki	   2
+FI-K.Oopperatekstit	   2
+FI-K.Taidehist.	   2
+FI-K.Yl.luonnontiede	   2
+FI-Kansakoulut 1	   2
+FI-Kansantalous 2;FI-Kom. miet. 1	   2
+FI-Katekism. 1	   2
+FI-Katekism. 3	   2
+FI-Kauppaliikkeet 2	   2
+FI-Kirjastot 3	   2
+FI-Kirjeoppaat	   2
+FI-Kirkoll. kasikirj. 4	   2
+FI-Kom. miet. 2.;FI-Rautatiet 2A	   2
+FI-Kunn. hall. 2 Suomen	   2
+FI-Kunn. hall. 4, Helsingin	   2
+FI-Lähetys	   2
+FI-Lahetys, Pakanalähetyksen;FI-K.Lahetys	   2
+FI-Lait 1	   2
+FI-Lait 2	   2
+FI-losofia, Teosofisia	   2
+FI-Maanmittaus 3	   2
+FI-Maanvilj. 2B, Maatalousseurojen	   2
+FI-Maanvilj. 3, Maatalouskirjasto	   2
+FI-Maatalous 2 B	   2
+FI-Merenkulku 4	   2
+FI-Metsastys 2	   2
+FI-Oppikoulut 1	   2
+FI-Opuscula	   2
+FI-Palosuojelu 2	   2
+FI-Puol.sos.dem.	   2
+FI-Puolustus 7 B	   2
+FI-Puutarhanhoito 2, Nylands	   2
+FI-Raamatut 6	   2
+FI-Raittius 2 ,Raittiuden	   2
+FI-Rautatiet 2A	   2
+FI-Ruots. kaunokirj. 4 (ks. Krook, A.)	   2
+FI-Ruots.kaunok.1.	   2
+FI-Siv.seur.: Kansanvalistusseura 2	   2
+FI-Siv.seur.: Karjalan sivistysseura	   2
+FI-Siveellisyys , Sukuelamä	   2
+FI-Suom. kansanrunous 2	   2
+FI-Suom. kaunok. 2, Pihlstrand, R.	   2
+FI-Suom. kaunok. 3, Kylaläisten kirjasia	   2
+FI-Suom. lastenkirj. 5 (ks. sarja)	   2
+FI-Suom.kaunok.1.	   2
+FI-Suomi-Venäjä 3.	   2
+FI-Tiet. seur.: Suomen historiallinen seura	   2
+FI-Tilasto 1	   2
+FI-Urheilu 2	   2
+FI-Vakuutus 4	   2
+FI-Vakuutus 5, Kaleva	   2
+FI-Virsikirjat 2	   2
+FI-Yl.lukemistot 1 , Kansakoulun	   2
+FI-Yleiset sarjat 1 , Kansalaiskirjasto	   2
+FI-Yleiset sarjat 1 , Kirjasia	   2
+FI-Yleiset sarjat 1 , Tietoaarre	   2
+FI-Yleiset sarjat 1 , Tietovarasto	   2
+FI-Aapiset 1	   1
+FI-Ajanvietelehdet	   1
+FI-Ajanvietelehdet;FI-Kasifilmisto A904	   1
+FI-Alkoholiliikkeet;FI-Kom. miet. 1	   1
+FI-Amerikka 3;FI-K. Amerikka 2	   1
+FI-Amerikka 3;FI-Laäketiede 3	   1
+FI-Amerikka 3;FI-Teologia 3	   1
+FI-Carlbohm, Arvid	   1
+FI-Diakonissalaitos	   1
+FI-Diss. HY;FI-Germ. kielit.	   1
+FI-Diss. HY;FI-Hydrogr. Finnlandische;FI-Hydrogr.	   1
+FI-Diss. HY;FI-Kirj. hist.;FI-Tiet. seur.: Suom.-ugril. seura	   1
+FI-Diss. HY;FI-Maanviljelys 2B	   1
+FI-Diss. HY;FI-Matematiikka	   1
+FI-Diss. HY;FI-Tiet. seur.: Kansantal. yhdistys	   1
+FI-Diss. HY;FI-Yl. hist.	   1
+FI-Farmasia 2;FI-Kom. miet. 1	   1
+FI-Farmasia 3	   1
+FI-Fol.K	   1
+FI-Fol.N, Koitto	   1
+FI-Fol.SK, Majblomman	   1
+FI-Foliot. Minnesskrift	   1
+FI-Germ. kielit. Ohquist	   1
+FI-Hbrtaus	   1
+FI-Hbrtauskirj. Fresenius	   1
+FI-Hbrtauskirj. Macduff	   1
+FI-Hbrtauskirj.;FI-Amerikka 3	   1
+FI-Hbrtauskirj.;FI-K.Hbrtauskirj	   1
+FI-Helsingin yliopisto 12, Orationes	   1
+FI-Helsingin yliopisto 13	   1
+FI-Helsingin yliopisto 14	   1
+FI-Helsingin yliopisto 14, Suomen	   1
+FI-Helsingin yliopisto 3	   1
+FI-Helsingin yliopisto 5;FI-Helsingin yliopisto 7	   1
+FI-Helsingin yliopisto 7	   1
+FI-Heng. laulukirj. 1, Lasten lauluja	   1
+FI-Heng. laulukirj. 3	   1
+FI-Heng. laulukirja. 1	   1
+FI-Heng. seurat 1 Pyhien	   1
+FI-Heng. seurat 2;FI-Lahetys	   1
+FI-Heng.laulukirj. 1.	   1
+FI-Heng.laulukirj.1.;FI-Virsikirjat 1	   1
+FI-Hevostenhoito 2	   1
+FI-Hydrogr. Finnlandische	   1
+FI-Hydrogr. Meddelanden	   1
+FI-Hydrogr. Suomen	   1
+FI-III.3.a./1	   1
+FI-III.3.b/1	   1
+FI-III.3.b/11	   1
+FI-III.3.b/24	   1
+FI-III.3.b/63	   1
+FI-Itam. kielit.	   1
+FI-K. Amerikka 1	   1
+FI-K. Elainlääk. , Savela	   1
+FI-K. Elamisentaito	   1
+FI-K. Hbrtauskirj., Tucker, C.;FI-Suom. lastenkirj. 5, Lasten	   1
+FI-K. Kasvitiede	   1
+FI-K. Kiel., itam. Evstiféief	   1
+FI-K. Kiel., vanhat	   1
+FI-K. Kiel.,vanhat , Statii	   1
+FI-K. Kiel.,vanhat;FI-K. Yl. historia	   1
+FI-K. Kiel.;kotim. Suomi	   1
+FI-K. Meijerihoito	   1
+FI-K. Ruots. kaunokirj.	   1
+FI-K. Suomi - Venajä	   1
+FI-K.Filosofia	   1
+FI-K.H.artauskirj.	   1
+FI-K.hartauskirj.	   1
+FI-K.Hartauskirj.	   1
+FI-K.Hbrtauskirj , Oletko	   1
+FI-K.Hbrtauskirj. , Neuvo	   1
+FI-K.Hbrtauskirj., Kansamme	   1
+FI-K.Hbrtauskirj., Svensson, Joh.	   1
+FI-K.Henkilokirj.	   1
+FI-K.Hevostenhoito	   1
+FI-K.Kansanopetus , Aakkosyhdistyksen	   1
+FI-K.Kansanopetus , Kaarle	   1
+FI-K.Kansatiede	   1
+FI-K.Kasvatusoppi, Reichert	   1
+FI-K.Kasvatusoppi;FI-K.Kansanopetus , Parssinen	   1
+FI-K.Kasvitiede	   1
+FI-K.Kiel.Itam.,slaav.	   1
+FI-K.Kiel.kotim.,suom	   1
+FI-K.Kiel.kotim.,suom.	   1
+FI-K.Kielet Itam., slaav.	   1
+FI-K.Kielia Apukielet	   1
+FI-K.Kielikysymys, Ervasti, A.W.	   1
+FI-K.Kielikysymys, Renvall, W.	   1
+FI-K.Kirj.hist	   1
+FI-K.Kirj.hist. , Leino	   1
+FI-K.Kirj.hist.;FI-Kirj. hist.	   1
+FI-K.Laäketiede;FI-Laäketiede 2	   1
+FI-K.Laäketiede;FI-Yleiset sarjat 1 , terveyden	   1
+FI-K.Maanviljelys;FI-K.Suomi-Venajä, Estl. 60	   1
+FI-K.Meijerihoito	   1
+FI-K.Musiikki;FI-Musiikki 3	   1
+FI-K.Oikeustiede;FI-K.Suomi-Venajä, Estl. 133	   1
+FI-K.Pikakirjoitus	   1
+FI-K.Raittius, Wiina	   1
+FI-K.Raittius;FI-Amerikka 3	   1
+FI-K.Saarnakirj., Litzell, Carl Emil	   1
+FI-K.Saarnakirj.;FI-Lahetys	   1
+FI-K.Suom.kaunok., helppotajuisia	   1
+FI-K.Suom.kaunok., Ramée, Louise de la	   1
+FI-K.Suom.kaunok., Toivonen, L.	   1
+FI-K.Suom.kaunok.;FI-Suom. kaunok. 3	   1
+FI-K.Suom.kaunok.;FI-Suom. kaunokirj. 1	   1
+FI-K.Suom.kaunok.;FI-Suom. kaunokirj. 1, Suppanen	   1
+FI-K.Suomi-Venajä	   1
+FI-K.Suomi-Venajä Est;FI-Yleiset sarjat 1 , Kirjasia	   1
+FI-K.Suomi-Venajä, Estl. 1068a-b	   1
+FI-K.Suomi-Venajä, Estl. 1104a-b	   1
+FI-K.Suomi-Venajä, Estl. 115	   1
+FI-K.Suomi-Venajä, Estl. 1177	   1
+FI-K.Suomi-Venajä, Estl. 1189	   1
+FI-K.Suomi-Venajä, Estl. 122a	   1
+FI-K.Suomi-Venajä, Estl. 131	   1
+FI-K.Suomi-Venajä, Estl. 1360	   1
+FI-K.Suomi-Venajä, Estl. 243-44	   1
+FI-K.Suomi-Venajä, Estl. 257	   1
+FI-K.Suomi-Venajä, Estl. 282	   1
+FI-K.Suomi-Venajä, Estl. 284	   1
+FI-K.Suomi-Venajä, Estl. 328	   1
+FI-K.Suomi-Venajä, Estl. 34	   1
+FI-K.Suomi-Venajä, Estl. 596	   1
+FI-K.Suomi-Venajä, Estl. 672	   1
+FI-K.Suomi-Venajä, Estl. 71	   1
+FI-K.Suomi-Venajä, Estl. 770	   1
+FI-K.Suomi-Venajä, Estl. 79	   1
+FI-K.Suomi-Venajä, Estl. 904	   1
+FI-K.Suomi-Venajä, Estl. 916	   1
+FI-K.Teologia;FI-Yleiset sarjat 1 , Ilkan;FI-K. Teologia	   1
+FI-K.Tulli	   1
+FI-K.Tyovaenkys.	   1
+FI-K.Unikirjat;FI-Uni- ja povauskirjat , Debarolle	   1
+FI-K.Vieraskiel.kauno	   1
+FI-K.Yl.luonnontiede, Johansson, Oscar V.	   1
+FI-Kalenterit 2	   1
+FI-Kansakoulut 1;FI-Kom. miet. 2.	   1
+FI-Kansakoulut 1;FI-Kom. miet. 2. 1899:10	   1
+FI-Kansantalous 3;FI-Valtio-oppi 3	   1
+FI-Karjanhoito 3	   1
+FI-Kasvatusoppi 3 Kansakoulu...	   1
+FI-Kasvatusoppi 3 Kasvatusopillisia	   1
+FI-Kasvatusoppi 3ps	   1
+FI-Katekism. 2 Ehdoitus	   1
+FI-Katekism. 4	   1
+FI-Kaunokirjoitus	   1
+FI-Kauppaopetus	   1
+FI-Keinotek. kielet 3	   1
+FI-Kemia Lassar	   1
+FI-Kielitiede: Tulkkikirjat Pieni	   1
+FI-Kirj. hist. Hultin;FI-Tiet. seur.: Svenska litt. sallsk.	   1
+FI-Kirj. hist. Konst	   1
+FI-Kirj. hist. Opuscula 13	   1
+FI-Kirj. hist. Runeberg;FI-Tiet. seur.: Svenska litt. sallsk.	   1
+FI-Kirj. hist. Taidetta	   1
+FI-Kirj. hist.;FI-Tiet. seur.: Svenska litt. sallsk.	   1
+FI-Kirjastot 2	   1
+FI-Kirjastot 2 Kuopio	   1
+FI-Kirjastot 2;FI-Helsingin yliopisto 11	   1
+FI-Kirjastot 2;FI-Tiet. seur.: Suom. kirj. seura	   1
+FI-Kirjatieto 1;FI-Tiet. seur.: Svenska litt. sallsk.	   1
+FI-Kirjatieto 3	   1
+FI-Kirkoll. kasikirj. 2	   1
+FI-Kirkoll. kasikirj. 2 Kyrkohandbok;FI-Kom. miet. 2. 1911:11 b	   1
+FI-Kirkoll. kasikirj.;FI-Kom. miet. 1	   1
+FI-Kirkoll.matrikkeli	   1
+FI-Klass. kielit. 1 Roomalaisten	   1
+FI-Klass. kielit. 1 Scriptores	   1
+FI-Klass. kielit. 2 Hiden	   1
+FI-Klass. kielit. 2 Lectionum	   1
+FI-Klass. kielit. 2ps	   1
+FI-Klass. kielit. 3	   1
+FI-Kom. miet. 1;FI-Laäketiede 2	   1
+FI-Kom. miet. 1;FI-Maanvilj.  3	   1
+FI-Kom. miet. 1;FI-Maanvilj. 2A	   1
+FI-Kom. miet. 1;FI-Metsanhoito 2	   1
+FI-Kom. miet. 1;FI-Raittius 2	   1
+FI-Kom. miet. 1;FI-Teollisuus 2	   1
+FI-Kom. miet. 1;FI-Tilasto 1	   1
+FI-Kom. miet. 2	   1
+FI-Kom. miet. 2. 1899:7	   1
+FI-Kom. miet. 2. 1899:9;FI-Lakitiede 2 Anteckningar	   1
+FI-Kom. miet. 2. 1901:3	   1
+FI-Kom. miet. 2. 1902:1;FI-Oikeuslaitos 2	   1
+FI-Kom. miet. 2. 1904:3;FI-Raittius 2	   1
+FI-Kom. miet. 2. 1905:2	   1
+FI-Kom. miet. 2. 1905:7 d;FI-Vakuutus 6	   1
+FI-Kom. miet. 2. 1907:15 b;FI-Rautatiet 2A	   1
+FI-Kom. miet. 2. 1908:28 c	   1
+FI-Kom. miet. 2. 1908:6	   1
+FI-Kom. miet. 2. 1908:7	   1
+FI-Kom. miet. 2. 1909:18 b;FI-Vakuutus 6	   1
+FI-Kom. miet. 2. 1909.14	   1
+FI-Kom. miet. 2. 1910:6	   1
+FI-Kom. miet. 2. 1912:13	   1
+FI-Kom. miet. 2. 1912:3	   1
+FI-Kom. miet. 2. 1913:1	   1
+FI-Kom. miet. 2. 1913:3	   1
+FI-Kom. miet. 2. 1917:8	   1
+FI-Kom. miet. 2.;FI-Kunn. hall. 2 Komitébetankande	   1
+FI-Kom. miet. 2.;FI-Vakuutus 6	   1
+FI-Kunn. hall. 2  Nylands	   1
+FI-Kunn. hall. 2 Foreningen	   1
+FI-Kunn. hall. 4,  Helsingfors	   1
+FI-Laäketiede 3 , andra uppl.1914	   1
+FI-Laäketiede 3 , Hoida terveyttäsi 6;FI-Urheilu 3	   1
+FI-Laäketiede 3 , Hoida terveyttäsi 7;FI-Urheilu 3	   1
+FI-Laäketiede 3 , Kirjasia	   1
+FI-Laäketiede 3;FI-K. Laäketiede	   1
+FI-Laäketiede 3;FI-K.Laäketiede	   1
+FI-Laäketiede 4, Wasa	   1
+FI-Lahetys, Pakanalähetyksen	   1
+FI-Lahetys, Pieniä	   1
+FI-Lait 1;FI-Suomi - Venäjä 3	   1
+FI-Lait 2 Asetuskokoelma 7	   1
+FI-Lait 2 Edlunds forfattnings..1	   1
+FI-Lakitiede 3 Hbataja, Kyosti	   1
+FI-Leikit , Ajanvietteen	   1
+FI-Londicer, Carl Anton	   1
+FI-losofia Korpi	   1
+FI-losofia, Sederholm	   1
+FI-losofia, Sederholm, C.	   1
+FI-losofia, Suomensuvun	   1
+FI-losofia;FI-2. p.    Yleiset sarjat 1 , Sivistys ja	   1
+FI-Maantiede 1 , Carlson	   1
+FI-Maantiede 1 , Fehr	   1
+FI-Maantiede 1;FI-Siv.seur.: Kansanvalistusseura 3	   1
+FI-Maanvilj. 2D, Hbrjun	   1
+FI-Maanvilj. 3, Hbllakorpi, I.A.	   1
+FI-Maanvilj. 3, Peltomiehen;FI-K. Maanviljelys	   1
+FI-Maanviljelys 3;FI-Maanviljelys 2 C	   1
+FI-Matkailu 2.	   1
+FI-Merenkulku 2	   1
+FI-Merenkulku 4.	   1
+FI-Metsanhoito 2;FI-Metsanhoito 3	   1
+FI-Metsastys 3	   1
+FI-Musiikki 2, Arbetets	   1
+FI-Musiikki 3, Sohlstrom G.	   1
+FI-Musiikki 3;FI-Tiet. seur.: Suom.-ugril. seura	   1
+FI-Musiikki 5, Patarouva	   1
+FI-Naisasia 2, Finsk	   1
+FI-Naisasia 3	   1
+FI-Nayttämo 3	   1
+FI-Neuvosto-Karjala	   1
+FI-Nuorisoseurat 3, Kotkanpaä, F.A.	   1
+FI-Oikeuslaitos 1	   1
+FI-Oppikoulut 3, Porvoo	   1
+FI-Paik. luonnontiet. seur 2	   1
+FI-Palosuojelu	   1
+FI-Palosuojelu 3	   1
+FI-Pienkarjanhoito 2	   1
+FI-Pienpainatekokoelma (XVII: Suomen sos.-dem. nuorisoliitto)	   1
+FI-Piirustus 3.	   1
+FI-Pikakirjoitus	   1
+FI-Pohjoism. kielit.;FI-Tiet. seur.: Svenska litt. sallsk.	   1
+FI-Puhelin 3	   1
+FI-Puhetaito	   1
+FI-Punakaarti	   1
+FI-Puolueet: Sos.-dem.	   1
+FI-Puolueet: Suomal.	   1
+FI-Puolustus 3	   1
+FI-Puolustus 3 , Hermansson	   1
+FI-Puolustus 7 C	   1
+FI-Raamatut 1	   1
+FI-Raamatut 4	   1
+FI-Raamatut 5. , Matfeja	   1
+FI-Raamatut 5., Lukas	   1
+FI-Rahalaitokset 2	   1
+FI-Rahalaitokset 4	   1
+FI-Rahalaitokset 5	   1
+FI-Raittius 2 , F.S.N.	   1
+FI-Raittius 2 , Kemi	   1
+FI-Raittius 2 , Muistoja	   1
+FI-Raittius 2 , Nykterhetens	   1
+FI-Raittius 2 , Orimattila	   1
+FI-Raittius 2 , Raittiuden ystavät	   1
+FI-Rautatiet 2B	   1
+FI-Ruots. kaunok. 1.	   1
+FI-Ruots. kaunok. 3, Hemma och ute	   1
+FI-Ruots. kaunokirj. 4 (ks. sarja)	   1
+FI-Ruots. kaunokirj. 5	   1
+FI-Ruots. lastenkirj. 2, Visan om...	   1
+FI-Ruots. lastenkirj. 3, Bergh, John	   1
+FI-Ruots. lastenkirj. 3, Heinricius, Sigrid	   1
+FI-Ruots. lastenkirj. 3, Oker-Blom, Max	   1
+FI-Ruots. lastenkirj. 3, Sohlstrom, Edith	   1
+FI-Ruotsal. lastenkirj. 2, ABC	   1
+FI-Ruotsal. lastenkirj. 3, Topelius, Zakarias	   1
+FI-Ruotsal. lastenkirj. 4, Leroy, M:me Ferdinand	   1
+FI-s.n.	   1
+FI-Sanomalehdet 2	   1
+FI-Sanomalehdet 2 , Nya Pressen	   1
+FI-Seminaarit , Sortavala	   1
+FI-Siveellisyys , Aikamme	   1
+FI-Siveellisyys , Aikamme siveelisyyskys.	   1
+FI-Siveellisyys , Kothen	   1
+FI-Siveellisyys , Puritas	   1
+FI-Siveellisyys , Sukupuolielamää	   1
+FI-Siveellisyys , Sukupuolikysymyksia	   1
+FI-Sosiaalipolitiikka 3	   1
+FI-Suom. elamäkerrat 2 , Murenius	   1
+FI-Suom. elamäkerrat 2 , Renlund	   1
+FI-Suom. elamäkerrat 2 , Schwartzberg	   1
+FI-Suom. elamäkerrat 2, Agricola;FI-Yl. hist.	   1
+FI-Suom. elamäkerrat. 2 , Laxmann	   1
+FI-Suom. hist. 3.	   1
+FI-Suom. kansanrunous 1.	   1
+FI-Suom. kaunok. 1, Komonen	   1
+FI-Suom. kaunok. 1, Krohn, Julius	   1
+FI-Suom. kaunok. 1., Ekberg	   1
+FI-Suom. kaunok. 2, Jaloluontoinen	   1
+FI-Suom. kaunok. 2, Wetterbergh, Carl Anton	   1
+FI-Suom. kaunok. 2, Wettergrund, Josephina	   1
+FI-Suom. kaunok. 2, Wieselgren, P. S.	   1
+FI-Suom. kaunok. 2;FI-Suom. kaunok. 3	   1
+FI-Suom. kaunok. 2;FI-Suom. kaunokirj. 3	   1
+FI-Suom. kaunok. 3 (1. p.)	   1
+FI-Suom. kaunok. 3, Gummerus	   1
+FI-Suom. kaunok. 3, Novelleja ja kertomuksia	   1
+FI-Suom. kaunok. 3, Oma kirjasto 21	   1
+FI-Suom. kaunok. 3;FI-Suom. kaunok. 6, Grotenfelt, Kustavi	   1
+FI-Suom. kaunok. 3;FI-Suom. kaunok. 6, Roine	   1
+FI-Suom. kaunok. 4 (3. p.)	   1
+FI-Suom. kaunok. 6, Krook, Anna	   1
+FI-Suom. kaunok. 6, Lundstrom, Vilh.	   1
+FI-Suom. kaunok. 6, Paivio	   1
+FI-Suom. kaunok. 6, Suits	   1
+FI-Suom. kaunok. 6, Syntymapäiväkirja	   1
+FI-Suom. kaunokirj. 1 (1. p.);FI-Suom. kaunok. 3 (2. p.)	   1
+FI-Suom. kaunokirj. 1, Bergman	   1
+FI-Suom. kaunokirj. 1;FI-Suom. kaunok. 3	   1
+FI-Suom. kaunokirj. 3, Kansan;FI-Suom. kaunokirj. 2, Kipling, Rudyard	   1
+FI-Suom. kirj. seura	   1
+FI-Suom. lastenkirj. 2, Kauniita	   1
+FI-Suom. lastenkirj. 2, Kristofer	   1
+FI-Suom. lastenkirj. 2, Kuvia Suomen	   1
+FI-Suom. lastenkirj. 2, Meidan	   1
+FI-Suom. lastenkirj. 2, Pikku	   1
+FI-Suom. lastenkirj. 3, Rosekin, T.	   1
+FI-Suom. lastenkirj. 4, Buffalo	   1
+FI-Suom. sukututkimus 1;FI-Tiet. seur.: Svenska litt. sallsk.	   1
+FI-Suom. sukututkimus 2 , Adlercreutz	   1
+FI-Suom. sukututkimus 2 , Granstrom	   1
+FI-Suom. sukututkimus 2 , Weber	   1
+FI-Suom.kansanrunous 1	   1
+FI-Suom.kansanrunous 1;FI-Suom. lastenkirj. 5	   1
+FI-Suom.kaunokirj.1, Ivalo, Santeri;FI-Suom. kaunokirj. 2	   1
+FI-Suom.kaunokirj.1;FI-Suom. kaunok. 3	   1
+FI-Suomal. kielit. 3	   1
+FI-Suomi - Venäjä 3 , Elenev	   1
+FI-Taide 3	   1
+FI-Teollisuusliikkeet 2 , Fiskars	   1
+FI-Teollisuusopetus	   1
+FI-Teollisuusyhdistykset	   1
+FI-Teologia 1	   1
+FI-Teologia 2	   1
+FI-Teologia 3 , Nykyajan	   1
+FI-Teologia 3 , Sederholm	   1
+FI-Teologia 3 , Seurakuntaelamä	   1
+FI-Teologia 3 , Uskonnollisia	   1
+FI-Teologia 3 , Uskontotieteen	   1
+FI-Teologia 3;FI-Teologia 2	   1
+FI-Tie -ja vesirakennus	   1
+FI-Tiet. seur.: Duodecim	   1
+FI-Tiet. seur.: Maantiet. seurat	   1
+FI-Tiet. seur.: Suom. kirj. seura;FI-Suom. kansanrunous 2	   1
+FI-Tiet. seur.: Suom. kirj. seura;FI-Suom. kaunok. 2	   1
+FI-Tiet. seur.: Suom. kirj. seura;FI-Suomal. kansanrun. 2;FI-Suom. kansanrunous 2	   1
+FI-Tiet. seur.: Suom. tiedeakatemia	   1
+FI-Tiet. seur.: Suom.-ugril. seura	   1
+FI-Tiet. seur.: Suom.-ugril. seura, Apuneuvoja	   1
+FI-Tiet. seur.: Suomal. teol. kirj. seura;FI-Teologia 2	   1
+FI-Tiet. seur.: Suomen kirkkohist.seura	   1
+FI-Tiet. seur.: Suomen laäkäriseura	   1
+FI-Tulli 2	   1
+FI-Tulli 3	   1
+FI-Tyovaenkys. 2 , Kotkan	   1
+FI-Tyovaenkysymys 3	   1
+FI-Ulkom. sopimukset	   1
+FI-Uni- ja povauskirjatps	   1
+FI-Urheilu 2 , Joensuu	   1
+FI-Urheilu 3 , Baden-Powell	   1
+FI-Vakuutus 5, Sampo	   1
+FI-Vakuutus 5;FI-K. Maanviljelys	   1
+FI-Vakuutus 6	   1
+FI-Valokuvaus 3	   1
+FI-Valokuvaus 3.	   1
+FI-Valtio-oppi 3	   1
+FI-Valtiopaivät 2	   1
+FI-Vierask. kaunokirj. 2	   1
+FI-Yl. hist., Bergholm	   1
+FI-Yl. hist., Biografier	   1
+FI-Yl. hist., Kansojen kamppailu 6	   1
+FI-Yl. hist., Kansojen kamppailu 9	   1
+FI-Yl.lukemistot 1 , Nissinen	   1
+FI-Yl.luonnontiede, Pohjoismaiset	   1
+FI-Yleiset sarjat 1 ,  Paivänkysymyksiä	   1
+FI-Yleiset sarjat 1 , Auta	   1
+FI-Yleiset sarjat 1 , Helppotajuinen	   1
+FI-Yleiset sarjat 1 , Osuuskunta	   1
+FI-Yleiset sarjat 1 , Paivänkysymyksiä	   1
+FI-Yleiset sarjat 1 , Tieteen	   1
+FI-Yleiset sarjat 1 , Yhteiskunnallisia;FI-K.Suomi-Venajä, Estl. 1096	   1
+FI-Yleiset sarjat 2.;FI-K.Ruots.kaunok.	   1
+Suomi	   1

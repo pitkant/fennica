@@ -1,14 +1,14 @@
 ---
 title: "Author preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-15"
+date: "2016-07-18"
 output: markdown_document
 ---
 
 ## Authors
 
- * 2678 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv).
- * 11049 documents have unambiguous author information (54%). 
+ * 3480 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv).
+ * 6409 documents have unambiguous author information (64%). 
  * 3 [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are recognized based on [custom pseudonyme lists](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
  * [Discarded author names](output.tables/author_discarded.csv) This list should not include any real authors (if it does, please send a note). The following stopword lists are considered when discarding names:
   * [Stopwords for names](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/stopwords_for_names.csv)
@@ -45,6 +45,11 @@ Title count versus paper consumption (all authors):
 
 ![plot of chunk authortitlespapers](figure/authortitlespapers-1.png)
 
+
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
 
 ![plot of chunk summaryTop10authorstimeline](figure/summaryTop10authorstimeline-1.png)
 

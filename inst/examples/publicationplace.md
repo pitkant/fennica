@@ -1,17 +1,17 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-15"
+date: "2016-07-18"
 output: markdown_document
 ---
 
 ### Publication places
 
- * 101 [publication places](output.tables/publication_place_accepted.csv)
- * 20 [publication countries](output.tables/country_accepted.csv) 
- * Publication place is identified for 19123 documents (94%). 
- * Publication country is identified for 19123 documents (94%).
- * 99.9% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``0.11``% of the documents have missing geocoordinates.
+ * 187 [publication places](output.tables/publication_place_accepted.csv)
+ * 24 [publication countries](output.tables/country_accepted.csv) 
+ * Publication place is identified for 9608 documents (96%). 
+ * Publication country is identified for 9608 documents (96%).
+ * 98% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.97``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv)
  * [Potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first)
@@ -28,12 +28,12 @@ Top-20 publication places are shown together with the number of documents.
 ### Top publication countries	
 
 
-|Country     | Documents (n)| Fraction (%)|
-|:-----------|-------------:|------------:|
-|Finland     |         14355|         70.6|
-|Sweden      |          3811|         18.7|
-|Estonia     |           256|          1.3|
-|Germany     |           249|          1.2|
-|Russia      |           229|          1.1|
-|Netherlands |            68|          0.3|
+|Country | Documents (n)| Fraction (%)|
+|:-------|-------------:|------------:|
+|Finland |          8082|         80.8|
+|Sweden  |           729|          7.3|
+|Russia  |           377|          3.8|
+|Germany |           121|          1.2|
+|USA     |           117|          1.2|
+|Estonia |            39|          0.4|
 

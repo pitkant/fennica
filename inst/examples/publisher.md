@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-15"
+date: "2016-07-18"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 637 [unique publishers](output.tables/publisher_accepted.csv)
+ * 370 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 18925 documents have unambiguous publisher information (93%). 
+ * 9963 documents have unambiguous publisher information (100%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -25,6 +25,11 @@ The 20 most common publishers are shown with the number of documents.
 
 Title count
 
+
+```
+## Warning: Removed 1 rows containing missing values (position_stack).
+```
+
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
 
@@ -33,17 +38,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|     paper|
-|:-------------------------------|------:|---------:|
-|Frenckell, Johan Christopher I  |   1743| 199302.60|
-|Frenckell, Johan Christopher II |   2212| 224137.89|
-|Hansson, Peter                  |   1094| 122261.63|
-|Kämpe, Johan                    |   1030| 176463.72|
-|Londicer, Carl Anton            |    500|  55380.90|
-|Londicer, Georg Wilhelm         |   2106| 216098.70|
-|Merckell, Jacob                 |    962| 131454.86|
-|Wald, Peder Eriksson            |    559|  58161.72|
-|Wall, Johan Larsson             |   1404| 220057.81|
-|Winter, Johan                   |    971| 152788.67|
+|publisher                       | titles|      paper|
+|:-------------------------------|------:|----------:|
+|                                |   7154| 14900186.8|
+|Frenckell, Johan Christopher I  |    243|   324337.4|
+|Frenckell, Johan Christopher II |    292|   624487.2|
+|Hansson, Peter                  |    149|   390457.0|
+|Kämpe, Johan                    |    147|   323291.3|
+|Londicer, Georg Wilhelm         |    308|   106880.6|
+|Merckell, Jacob                 |    131|   307112.5|
+|Wald, Peder Eriksson            |     79|   179476.0|
+|Wall, Johan Larsson             |    205|   372287.2|
+|Winter, Johan                   |    150|   606009.2|
 
 

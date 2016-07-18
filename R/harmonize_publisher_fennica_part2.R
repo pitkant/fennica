@@ -18,7 +18,7 @@ harmonize_publisher_fennica_part2 <- function (df) {
   # Fennica specific part (compare to harmonize_publisher_generic.R)
   pub <- publisher_fennica_specific(df, languages)
 
-  # Convert S.N. into NA and Author into <Author>
+  message("Convert S.N. into NA and Author into <Author>")
   f <- system.file("extdata/NA_publishers.csv", package="bibliographica")
   synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
   harmonized_pubs <- map(pub, synonymes, mode = "recursive")
