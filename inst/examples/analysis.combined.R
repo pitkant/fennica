@@ -1,7 +1,13 @@
 # Read data & combine / Define time span
 library(dplyr)
 
-if (file.exists("df.combined.Rds")) {
+# Check that the combined data file exists AND is newer than
+# its components (ie. updated after the latest changes).
+# Otherwise update.
+if (file.exists("df.combined.Rds") &&
+    (as.numeric(file.info("df.combined.Rds")$mtime - file.info("fennica.Rds")$mtime)) > 0 &&
+    (as.numeric(file.info("df.combined.Rds")$mtime - file.info("kungliga.Rds")$mtime)) > 0)
+   {
   
   message("Opening df.combined.Rds")
   df.combined.preprocessed <- readRDS("df.combined.Rds")

@@ -242,8 +242,10 @@ Eli: Fennicasta kaikki kirjallisuus, jossa asiasana lääketiede (muut lääkeai
 Title count for different places. Fennica, no time limit.
 
     ## 
-    ##    Leiden Stockholm     Tartu   Uppsala     Turku 
-    ##         1         1         1         5        16
+    ##       Jena      Pärnu  Stockholm Wittenberg  Göttingen Greifswald 
+    ##          1          1          1          1          2          2 
+    ##     Leiden       Lund      Tartu    Uppsala      Turku 
+    ##          2          2          7         40        104
 
 General analysis with all documents combined:
 
@@ -547,7 +549,7 @@ Materials and Methods
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata 9725 and 385230 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 2771 (28.5%) and 73085 (0%) documents for Fennica and Kungliga, respectively.
+The raw data contains metadata 70004 and 381811 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 19668 (28.1%) and 72631 (0%) documents for Fennica and Kungliga, respectively.
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. \[SUMMARY FIGURE OF THE PROCESS?\]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
@@ -785,12 +787,11 @@ sessionInfo()
     ## other attached packages:
     ##  [1] knitcitations_1.0.7   gisfin_0.9.26         R6_2.1.2             
     ##  [4] rgdal_1.1-10          sp_1.2-3              ggmap_2.6.1          
-    ##  [7] rmarkdown_0.9.6.14    stringr_1.0.0         microbiome_0.99.85   
-    ## [10] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [13] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
-    ## [16] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
-    ## [19] dplyr_0.5.0           devtools_1.12.0       fennica_0.1.43       
-    ## [22] bibliographica_0.2.28
+    ##  [7] rmarkdown_0.9.6.14    sorvi_0.7.47          tibble_1.1           
+    ## [10] stringr_1.0.0         microbiome_0.99.85    phyloseq_1.16.2      
+    ## [13] knitr_1.13            gridExtra_2.2.1       reshape2_1.4.1       
+    ## [16] magrittr_1.5          fennica_0.1.43        bibliographica_0.2.28
+    ## [19] dplyr_0.5.0           tidyr_0.5.1           ggplot2_2.1.0        
     ## 
     ## loaded via a namespace (and not attached):
     ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
@@ -804,8 +805,8 @@ sessionInfo()
     ##  [25] assertthat_0.1        Matrix_1.2-6          lazyeval_0.2.0       
     ##  [28] formatR_1.4           acepack_1.3-3.3       htmltools_0.3.5      
     ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
-    ##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
-    ##  [37] maps_3.1.0            Rcpp_0.12.5           slam_0.1-35          
+    ##  [34] coda_0.18-1           gtable_0.2.0          maps_3.1.0           
+    ##  [37] gmodels_2.16.2        Rcpp_0.12.5           slam_0.1-35          
     ##  [40] Biobase_2.32.0        Biostrings_2.40.2     RJSONIO_1.3-0        
     ##  [43] multtest_2.28.0       spdep_0.6-5           gdata_2.17.0         
     ##  [46] ape_3.5               preprocessCore_1.34.0 nlme_3.1-128         
@@ -814,17 +815,17 @@ sessionInfo()
     ##  [55] stringdist_0.9.4.1    LearnBayes_2.15       zlibbioc_1.18.0      
     ##  [58] MASS_7.3-45           scales_0.4.0          parallel_3.3.1       
     ##  [61] biomformat_1.0.2      genderdata_0.5.0      rhdf5_2.16.0         
-    ##  [64] RColorBrewer_1.1-2    yaml_2.1.13           memoise_1.0.0        
-    ##  [67] geosphere_1.5-5       rpart_4.1-10          latticeExtra_0.6-28  
-    ##  [70] stringi_1.1.1         maptree_1.4-7         RSQLite_1.0.0        
-    ##  [73] highr_0.6             S4Vectors_0.10.1      foreach_1.4.3        
-    ##  [76] permute_0.9-0         BiocGenerics_0.18.0   bibtex_0.4.0         
-    ##  [79] boot_1.3-18           chron_2.3-47          bitops_1.0-6         
-    ##  [82] RgoogleMaps_1.2.0.7   moments_0.14          matrixStats_0.50.2   
-    ##  [85] evaluate_0.9          lattice_0.20-33       labeling_0.3         
-    ##  [88] plyr_1.8.4            IRanges_2.6.1         Hmisc_3.17-4         
-    ##  [91] DBI_0.4-1             foreign_0.8-66        withr_1.0.2          
-    ##  [94] mgcv_1.8-12           RCurl_1.95-4.8        survival_2.39-5      
-    ##  [97] nnet_7.3-12           jpeg_0.1-8            grid_3.3.1           
-    ## [100] data.table_1.9.6      vegan_2.4-0           digest_0.6.9         
-    ## [103] tm_0.6-2              stats4_3.3.1          munsell_0.4.3
+    ##  [64] RColorBrewer_1.1-2    yaml_2.1.13           geosphere_1.5-5      
+    ##  [67] rpart_4.1-10          latticeExtra_0.6-28   stringi_1.1.1        
+    ##  [70] maptree_1.4-7         RSQLite_1.0.0         highr_0.6            
+    ##  [73] S4Vectors_0.10.1      foreach_1.4.3         permute_0.9-0        
+    ##  [76] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
+    ##  [79] chron_2.3-47          bitops_1.0-6          RgoogleMaps_1.2.0.7  
+    ##  [82] moments_0.14          matrixStats_0.50.2    evaluate_0.9         
+    ##  [85] lattice_0.20-33       labeling_0.3          plyr_1.8.4           
+    ##  [88] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.4-1            
+    ##  [91] foreign_0.8-66        mgcv_1.8-12           RCurl_1.95-4.8       
+    ##  [94] survival_2.39-5       nnet_7.3-12           jpeg_0.1-8           
+    ##  [97] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
+    ## [100] digest_0.6.9          tm_0.6-2              stats4_3.3.1         
+    ## [103] munsell_0.4.3
