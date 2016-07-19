@@ -10,7 +10,7 @@ output:
 fontsize: 13pt
 ---
 
-```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # Default time span
 min.year <- 1488
 max.year <- 1828
@@ -50,7 +50,7 @@ theme_set(theme_bw(26))
 ```
 
 
-```{r 201606krakow-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+```{r 201606krakow-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # Full combined catalogue (Fen + Kun) with marked duplicates
 df.combined.preprocessed <- readRDS("df.combined.Rds")
 # Data with duplicates removed and years limited
@@ -126,7 +126,7 @@ print(p)
 
 
 
-## Automated data clean-up
+## Automated algorithms for data clean-up
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
 library(bibliographica, quiet = TRUE)
@@ -145,7 +145,8 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 get_country("Porvoo")
 ```
 
-- Parse, clean up, enrich, summarise, analyze, visualize, report..
+- Open source tools: parse, clean up, interpret, augment, enrich,
+  validate, summarise, analyze, visualize, report..
 
 ---
 
