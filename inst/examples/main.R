@@ -43,7 +43,7 @@ df.orig$physical_dimension <- map(df.orig$physical_dimension,
 
 
 # Test with small data test set
-df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),]
+# df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),]
 
 # -------------------------------
 

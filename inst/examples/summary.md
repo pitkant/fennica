@@ -31,7 +31,7 @@ We also have corporate info available ?
 
 
 
-Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 816 documents (8%). There are 250 unique geographical places.
+Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5838 documents (8%). There are 645 unique geographical places.
 
 ![plot of chunk geo2](figure/geo2-1.png)
 

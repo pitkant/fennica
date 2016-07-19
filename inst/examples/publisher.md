@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 375 [unique publishers](output.tables/publisher_accepted.csv)
+ * 1311 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 9978 documents have unambiguous publisher information (100%). 
+ * 71719 documents have unambiguous publisher information (100%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -27,7 +27,7 @@ Title count
 
 
 ```
-## Warning: Removed 1 rows containing missing values (position_stack).
+## Warning: Removed 3 rows containing missing values (position_stack).
 ```
 
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
@@ -40,15 +40,15 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles|      paper|
 |:-------------------------------|------:|----------:|
-|                                |   7219| 7204990.86|
-|Frenckell, Johan Christopher I  |    256|  202623.48|
-|Frenckell, Johan Christopher II |    303|  292297.96|
-|Hansson, Peter                  |    155|  246848.09|
-|Kämpe, Johan                    |    141|  142350.26|
-|Londicer, Georg Wilhelm         |    279|   42281.29|
-|Merckell, Jacob                 |    141|  174973.26|
-|Wald, Peder Eriksson            |     73|   71417.53|
-|Wall, Johan Larsson             |    199|  201568.14|
-|Winter, Johan                   |    121|  189788.41|
+|                                |  51594| 51328243.8|
+|Frenckell, Johan Christopher I  |   1744|  1361610.0|
+|Frenckell, Johan Christopher II |   2216|  2422445.8|
+|Hansson, Peter                  |   1095|  1461684.9|
+|Kämpe, Johan                    |   1033|  1129371.0|
+|Londicer, Georg Wilhelm         |   2110|   308398.6|
+|Merckell, Jacob                 |    964|  1186048.1|
+|Wald, Peder Eriksson            |    562|   622216.0|
+|Wall, Johan Larsson             |   1404|  1427113.4|
+|Winter, Johan                   |    973|  1481005.8|
 
 
