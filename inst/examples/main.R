@@ -12,11 +12,16 @@ output.folder <- "output.tables/"
 fs <- "data/fennica.csv.gz"
 catalog <- "fennica" 
 
+# Languages to consider in cleanup.
+# TODO: recognize the necessary languages automatically ?
+languages <- c("finnish", "latin", "swedish")
+
 # Cores for parallelization
 mc.cores <- 4
 
 # Limit to Finnish/Swedish name-gender mappings for Fennica
-gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv", package = "bibliographica")
+gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv",
+	            package = "bibliographica")
 
 # Remove selected fields
 ignore.fields <- c("language2", "title_remainder",
@@ -40,7 +45,6 @@ f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographic
 synonyms <- read.csv(f, sep = ";") 
 df.orig$physical_dimension <- map(df.orig$physical_dimension,
 					synonyms, mode = "recursive")
-
 
 # Test with small data test set
 # df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),]

@@ -1,4 +1,13 @@
-publisher_fennica_specific <- function (df, languages) {
+#' @title Polish Publishers for Fennica
+#' @description Fennica-specific cleanup for the publisher field.
+#' @param df data.frame
+#' @return Data frame with possible publisher form and the preferred output
+#' @export
+#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
+#' @references See citation("bibliographica")
+polish_publisher_fennica <- function (df) {
+
+ languages <- c("finnish", "latin", "swedish")
 
   # Saved to speed up analysis
   # cheat_list <- cheat_publishers()
@@ -47,25 +56,18 @@ publisher_fennica_specific <- function (df, languages) {
 					      
   message("Combine the two sets of the combined publishers")
 
-  print("saving")
   save(df, enriched_inds, pubs, preferred_pubs, languages, file = "~/tmp/tmp.RData")
-  print("fine")
 
   combined_pubs <- character(length = nrow(df))
   if (length(enriched_inds) > 0 &&
       length(enriched_inds) < length(combined_pubs)) {
-      print("herewego")
     combined_pubs[enriched_inds] <- pubs$pref[enriched_inds]
     combined_pubs[-enriched_inds] <- preferred_pubs
   } else if (length(enriched_inds) == 0) {
-        print("herewego2")
     combined_pubs <- preferred_pubs
   } else {
-        print("herewego3")
     combined_pubs <- pubs$pref
   }
-
-  print("okok")
 
   combined_pubs
 
