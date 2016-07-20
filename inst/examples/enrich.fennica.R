@@ -76,6 +76,7 @@ df.preprocessed$author_gender[inds] <- gendercustom[inds]
 # if yes, then we can incorporate harmonize_publisher_generic to generic workflow and
 # simplify all other catalog scripts
 # df.preprocessed$publisher <- harmonize_publisher_generic(df.preprocessed, languages = c("english"))
+#save(df.preprocessed, file = "publisherdebug.RData")
 message("-- Fennica publishers")
 df.preprocessed$publisher <- harmonize_publisher_fennica_part2(df.preprocessed)
 message("-- Fennica publishers OK")

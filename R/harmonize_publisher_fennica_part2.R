@@ -11,6 +11,12 @@ harmonize_publisher_fennica_part2 <- function (df) {
   # TODO: consider unique entries only  
   languages <- c("finnish", "latin", "swedish")
 
+  # Use corporate field for NA publishers
+  if ("corporate" %in% names(df)) {
+    inds <- which(is.na(df$publisher))
+    df$publisher[inds] <- df$corporate[inds]
+  }
+
   # TODO this might be overlapping with polish_publisher
   # the generic function which was called before the present function
   df$publisher <- harmonize_publisher(df, languages = languages)
