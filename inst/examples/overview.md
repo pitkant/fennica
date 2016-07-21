@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-20"
+date: "2016-07-21"
 output: markdown_document
 ---
 
@@ -52,10 +52,10 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |note_510c                      |        90.8|           9.2|          6652|       6457|
 |note_source                    |        83.7|          16.3|         11754|       5003|
 |title_uniform                  |        83.0|          17.0|         12209|       8937|
+|self_published                 |        80.7|          19.3|         13891|          2|
 |author_death                   |        75.2|          24.8|         17807|        364|
 |author_birth                   |        73.9|          26.1|         18740|        347|
 |first_edition                  |        73.7|          26.3|         18922|          3|
-|publisher                      |        72.0|          28.0|         20125|       1310|
 |corporate                      |        71.7|          28.3|         20324|       1419|
 |subject_topic                  |        71.0|          29.0|         20889|       3533|
 |obl                            |        54.6|          45.4|         32687|          3|
@@ -65,7 +65,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                         |        47.6|          52.4|         37687|        351|
 |area                           |        47.6|          52.4|         37687|        816|
 |author_gender                  |        46.9|          53.1|         38196|          4|
-|self_published                 |        36.9|          63.1|         45380|          2|
 |author_name                    |        36.3|          63.7|         45806|      12012|
 |author                         |        36.3|          63.7|         45806|      12076|
 |pagecount.orig                 |         6.8|          93.2|         67048|        978|
@@ -125,6 +124,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings.original            |         0.0|         100.0|         71919|         18|
 |obl.original                   |         0.0|         100.0|         71919|          2|
 |original_row                   |         0.0|         100.0|         71919|      71919|
+|publisher                      |         0.0|         100.0|         71919|       1319|
 |author_pseudonyme              |         0.0|         100.0|         71919|          2|
 |gatherings                     |         0.0|         100.0|         71919|         18|
 |volcount                       |         0.0|         100.0|         71919|          1|

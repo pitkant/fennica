@@ -5,14 +5,14 @@
 #' @param all_names Data frame containing all the name related fields
 #' @param known_inds Vector of already processed indices, to ignore
 #' @param Finto_town Vector of towns in Finto
-#' @param df.orig data.frame
+#' @param df data.frame
 #' @param Finto_years Data frame of published_in, published_from and publishe_till
 #' @return Data frame with alt, pref and match_methods
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_inds, Finto_town, df.orig, Finto_years) {
+get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_inds, Finto_town, df, Finto_years) {
   
   message("Starting: get_publishers_Finto")
   match_count <- 0
@@ -24,9 +24,9 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
   idx = 1
   
   all_data <- data.frame(names = all_names,
-  	      		 pubyear.from = df.orig$publication_year_from,
-			 pubyear.till = df.orig$publication_year_till,
-			 town = df.orig$publication_place,
+  	      		 pubyear.from = df$publication_year_from,
+			 pubyear.till = df$publication_year_till,
+			 town = df$publication_place,
 			 ignore = FALSE)
   
   # Change NA to an empty string to avoid problems later
@@ -45,11 +45,11 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
 
     all_names_indices <- which(all_names$orig == unique_data$names.orig[idx])
     all_names_indices <- intersect(all_names_indices,
-      which(df.orig$publication_year_from==unique_data$pubyear.from[idx]))
+      which(df$publication_year_from==unique_data$pubyear.from[idx]))
     all_names_indices <- intersect(all_names_indices,
-      which(df.orig$publication_year_till==unique_data$pubyear.till[idx]))
+      which(df$publication_year_till==unique_data$pubyear.till[idx]))
     all_names_indices <- intersect(all_names_indices,
-      which(df.orig$publication_place==unique_data$town[idx]))
+      which(df$publication_place==unique_data$town[idx]))
     town2 <- unique_data$town[idx]
     
     # Filter out naughty towns

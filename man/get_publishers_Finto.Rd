@@ -5,7 +5,7 @@
 \title{Get Finto Publishers}
 \usage{
 get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
-  Finto_town, df.orig, Finto_years)
+  Finto_town, df, Finto_years)
 }
 \arguments{
 \item{Finto_corrected}{Vector of preferred names from Finto}
@@ -18,7 +18,7 @@ get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
 
 \item{Finto_town}{Vector of towns in Finto}
 
-\item{df.orig}{data.frame}
+\item{df}{data.frame}
 
 \item{Finto_years}{Data frame of published_in, published_from and publishe_till}
 }

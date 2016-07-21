@@ -1,9 +1,15 @@
 library(bibliographica)
 library(fennica)
 
-library(devtools)
-load_all("~/proj/2014-Aatelouhinta/bibliographica")
-load_all("~/proj/2014-Aatelouhinta/fennica")
+# Ensure NULL
+rm("update.fields")
+rm("ignore.fields")
+rm("df.preprocessed")
+rm("df.orig")
+
+#library(devtools)
+#load_all("~/proj/2014-Aatelouhinta/bibliographica")
+#load_all("~/proj/2014-Aatelouhinta/fennica")
 
 # I/O definitions
 output.folder <- "output.tables/"

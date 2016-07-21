@@ -1,33 +1,31 @@
 #' @title Harmonize Publisher Fennica
 #' @description Harmonizes publisher names and enriches them with Finto information.
-#' @param df.orig Raw data from csv
+#' @param df data.frame
 #' @param cheat_list Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling
 #' @param languages A vector of languages which are used in detecting relation keywords
 #' @return Polished vector.
-#' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
-#' @examples # harmonize_publisher_fennica(df.orig, cheat_list, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
-harmonize_publisher_fennica <- function(df.orig, cheat_list, languages = c("english")) {
+harmonize_publisher_fennica <- function(df, cheat_list, languages = c("english")) {
 
   message("Starting: harmonize_publisher_fennica")
 
   # Get Finto data from field 710a ($corporate)
-  publisher <- harmonize_corporate_Finto(df.orig$corporate)
+  publisher <- harmonize_corporate_Finto(df$corporate)
   
   # Get remaining values from other fields
   inds <- which(!is.na(publisher$name))
-  publisher$name[-inds] <- clean_publisher(df.orig$publisher[-inds], languages=languages)
-  publisher$orig[-inds] <- as.character(df.orig$publisher[-inds])
-  publisher$town[-inds] <- df.orig$publication_place[-inds]
+  publisher$name[-inds] <- clean_publisher(df$publisher[-inds], languages=languages)
+  publisher$orig[-inds] <- as.character(df$publisher[-inds])
+  publisher$town[-inds] <- df$publication_place[-inds]
 
   # Test if misspelling can be corrected using corporate field values for all
   # the corresponding publisher values
   known_indices <- which(!is.na(publisher$name))
   unknown_indices <- which(is.na(publisher$name))
-  known_names <- clean_publisher(df.orig$publisher[known_indices], languages = languages)
-  unknown_names <- unique(clean_publisher(df.orig$publisher[unknown_indices], languages = languages))
+  known_names <- clean_publisher(df$publisher[known_indices], languages = languages)
+  unknown_names <- unique(clean_publisher(df$publisher[unknown_indices], languages = languages))
   corrected_names <- publisher$name[known_indices]
 
   # Cheat list contains every bit of info from Finto XML
@@ -57,7 +55,7 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages = c("engl
                             all_names  = all_names, 
                             known_inds = inds,
                             Finto_town = cheat_list$town,
-                            df.orig = df.orig,
+                            df = df,
                             Finto_years = Finto_years)
 
   return(Finto_pubs$alt)
