@@ -66,6 +66,8 @@ polish_publisher_fennica <- function (df) {
     combined_pubs <- pubs$pref
   }
 
+  combined_pubs[combined_pubs == ""] <- NA
+
   combined_pubs
 
 }
