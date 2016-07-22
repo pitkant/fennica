@@ -56,6 +56,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |author_birth                   |        73.9|          26.1|         18740|        347|
 |first_edition                  |        73.7|          26.3|         18922|          3|
 |corporate                      |        71.7|          28.3|         20324|       1419|
+|publisher                      |        71.7|          28.3|         20325|       1319|
 |subject_topic                  |        71.0|          29.0|         20889|       3533|
 |obl                            |        54.6|          45.4|         32687|          3|
 |holder                         |        49.5|          50.5|         36295|       2162|
@@ -124,7 +125,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings.original            |         0.0|         100.0|         71919|         18|
 |obl.original                   |         0.0|         100.0|         71919|          2|
 |original_row                   |         0.0|         100.0|         71919|      71919|
-|publisher                      |         0.0|         100.0|         71919|       1319|
 |author_pseudonyme              |         0.0|         100.0|         71919|          2|
 |gatherings                     |         0.0|         100.0|         71919|         18|
 |volcount                       |         0.0|         100.0|         71919|          1|

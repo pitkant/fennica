@@ -10,7 +10,7 @@ output: markdown_document
 
  * 1319 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 71919 documents have unambiguous publisher information (100%). 
+ * 20325 documents have unambiguous publisher information (28%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -38,17 +38,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|      paper|
-|:-------------------------------|------:|----------:|
-|                                |  51594| 51328243.8|
-|Frenckell, Johan Christopher I  |   1744|  1361610.0|
-|Frenckell, Johan Christopher II |   2216|  2422445.8|
-|Hansson, Peter                  |   1095|  1461684.9|
-|Kämpe, Johan                    |   1033|  1129371.0|
-|Londicer, Georg Wilhelm         |   2110|   308398.6|
-|Merckell, Jacob                 |    964|  1186048.1|
-|Wald, Peder Eriksson            |    562|   622216.0|
-|Wall, Johan Larsson             |   1404|  1427113.4|
-|Winter, Johan                   |    973|  1481005.8|
+|publisher                       | titles|     paper|
+|:-------------------------------|------:|---------:|
+|Frenckell, Johan Christopher I  |   1744| 1361610.0|
+|Frenckell, Johan Christopher II |   2216| 2422445.8|
+|Hansson, Peter                  |   1095| 1461684.9|
+|J. C. Frenckell ja poika        |    509|  432149.9|
+|Kämpe, Johan                    |   1033| 1129371.0|
+|Londicer, Georg Wilhelm         |   2110|  308398.6|
+|Merckell, Jacob                 |    964| 1186048.1|
+|Wald, Peder Eriksson            |    562|  622216.0|
+|Wall, Johan Larsson             |   1404| 1427113.4|
+|Winter, Johan                   |    973| 1481005.8|
 
 
