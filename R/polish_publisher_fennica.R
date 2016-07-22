@@ -46,8 +46,8 @@ polish_publisher_fennica <- function (df) {
   }
 
   message("Clean publisher")
-    dfs$publisher <- clean_publisher(dfs$publisher,
-				languages = languages)
+  dfs$publisher <- harmonize_publishers_per_language(dfs$publisher, languages)  
+  dfs$publisher <- clean_publisher(dfs$publisher)
 
   message("Finto preferred")
   preferred_pubs <- change_to_Finto_preferred(df = dfs, 
@@ -55,9 +55,6 @@ polish_publisher_fennica <- function (df) {
 					      languages = languages)
 					      
   message("Combine the two sets of the combined publishers")
-
-  save(df, enriched_inds, pubs, preferred_pubs, languages, file = "~/tmp/tmp.RData")
-
   combined_pubs <- character(length = nrow(df))
   if (length(enriched_inds) > 0 &&
       length(enriched_inds) < length(combined_pubs)) {

@@ -16,17 +16,24 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages = c("english")
   
   # Get remaining values from other fields
   inds <- which(!is.na(publisher$name))
-  publisher$name[-inds] <- clean_publisher(df$publisher[-inds], languages=languages)
+  df$publisher[-inds] <- harmonize_publishers_per_language(df$publisher[-inds], languages)
+  df$publisher[-inds] <- clean_publisher(df$publisher[-inds])
+
   publisher$orig[-inds] <- as.character(df$publisher[-inds])
   publisher$town[-inds] <- df$publication_place[-inds]
 
   # Test if misspelling can be corrected using corporate field values for all
   # the corresponding publisher values
-  known_indices <- which(!is.na(publisher$name))
-  unknown_indices <- which(is.na(publisher$name))
-  known_names <- clean_publisher(df$publisher[known_indices], languages = languages)
-  unknown_names <- unique(clean_publisher(df$publisher[unknown_indices], languages = languages))
-  corrected_names <- publisher$name[known_indices]
+  known_indices   <- which(!is.na(publisher$name))
+  #unknown_indices <- which(is.na(publisher$name))
+  #known_names <- df$publisher[known_indices]
+  #known_names <- harmonize_publishers_per_language(known_names, languages)
+  #known_names <- clean_publisher(known_names)
+  #unknown_names <- df$publisher[unknown_indices]
+  #unknown_names <- harmonize_publishers_per_language(unknown_names, languages)
+  #unknown_names <- clean_publisher(unknown_names)
+  #corrected_names <- df$publisher[known_indices]
+
 
   # Cheat list contains every bit of info from Finto XML
   # cheat_list <- cheat_publishers()
@@ -36,7 +43,9 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages = c("english")
 			    
   # NB! Add town synonyms!
   Finto_town <- publisher$publication_place
-  all_names <- clean_publisher(publisher$name, languages=c("finnish"))
+
+  publisher$name <- harmonize_publishers_per_language(publisher$name, languages = "finnish")
+  all_names <- clean_publisher(publisher$name)
 
   # TODO: this is slow - to optimize
   Finto_comp <- extract_personal_names(cheat_list$alt,
