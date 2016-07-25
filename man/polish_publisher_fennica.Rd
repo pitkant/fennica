@@ -2,18 +2,18 @@
 % Please edit documentation in R/polish_publisher_fennica.R
 \name{polish_publisher_fennica}
 \alias{polish_publisher_fennica}
-\title{Polish Publishers for Fennica}
+\title{Harmonize Publisher Main}
 \usage{
 polish_publisher_fennica(df)
 }
 \arguments{
-\item{df}{data.frame}
+\item{df}{Data frame with raw data}
 }
 \value{
-Data frame with possible publisher form and the preferred output
+Data frame with orig, mod
 }
 \description{
-Fennica-specific cleanup for the publisher field.
+Main handler for publisher fields.
 }
 \author{
 Hege Roivainen \email{hege.roivainen@gmail.com}
@@ -21,4 +21,5 @@ Hege Roivainen \email{hege.roivainen@gmail.com}
 \references{
 See citation("bibliographica")
 }
+\keyword{utilities}
 
