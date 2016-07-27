@@ -1,19 +1,80 @@
 ---
-title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
+title: "A Quantitative Study of Finnish Knowledge Production `r params$min.year`-`r params$max.year`"
+subtitle: "Subtitle here"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
+fontsize: 13pt
+geometry: margin=1in
+linkcolor: magenta
+urlcolor: blue
+citecolor: black
+institute: "University of Helsinki"
 output: 
   beamer_presentation:
     theme: "boxes"
     colortheme: "orchid"
     fonttheme: "professionalfonts"
-fontsize: 13pt
+  pdf_document:
+    fig_width: 7
+    fig_height: 6
+    fig_caption: true
+    includes:
+      in_header: header.tex
+params:
+  min.year: 
+    label: "Start year:"
+    input: numeric
+    value: 1488
+  max.year: 
+    label: "End year:"
+    input: numeric
+    value: 1828
+  journals:
+    label: "Include journals:"
+    value: TRUE
+    input: checkbox
+  catalogue:
+    label: "Library catalog:"
+    value: all
+    input: select
+    multiple: TRUE
+    choices: [fennica, kungliga, all]
+  language:
+    label: "Language:"
+    value: all
+    input: radio
+    choices: [finnish, swedish, all]
+  data: 
+    label: "Input dataset:"
+    value: df.combined.Rds
+    input: file
+  slideparameter: 
+    label: "Sliding value:"
+    value: 100
+    input: slider
+    min: 0
+    max: 1000
+  date: 
+    label: "Date:"
+    value: !r date()
+    input: date
+  text: 
+    label: "Text:"
+    value: Some test text
+    input: text
 ---
 
 ```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
-# Default time span
-min.year <- 1488
-max.year <- 1828
+
+# For all parameter options for rmarkdown slide rendering, see:
+# http://rmarkdown.rstudio.com/developer_parameterized_reports.html
+# More header options in Pandoc manual
+# http://pandoc.org/MANUAL.html#templates
+
+# Read parameters from the header
+mydate <- params$start
+min.year <- params$min.year
+max.year <- params$max.year
 
 library(ggmap)
 library(gisfin)
@@ -52,11 +113,16 @@ theme_set(theme_bw(26))
 
 ```{r 201606krakow-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=FALSE}
 # Full combined catalogue (Fen + Kun) with marked duplicates
-df.combined.preprocessed <- readRDS("df.combined.Rds")
+#df.combined.preprocessed <- readRDS("df.combined.Rds")
+df.combined.preprocessed <- readRDS(params$data)
 # Data with duplicates removed and years limited
 df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 	   			    filter(publication_year >= min.year &
 					   publication_year <= max.year)
+
+if (!params$catalogue == "all") {
+  df0 <- filter(df0, catalog == params$catalogue)
+}
 ```
 
 
@@ -65,8 +131,7 @@ df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 
 ## From particular data to global perspective?
 
-**Idea**: Study early modern knowledge production, all of it (1470-1830)  
-
+**Idea**: Study early modern knowledge production, all of it (`r min.year`-`r max.year`)  
 **How?** Combine library catalogues (Fennica, Kungliga, ESTC, CERL HPB database)  
 
 **Important**: cleaning up the data (90% of the effort!) and considering how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.  

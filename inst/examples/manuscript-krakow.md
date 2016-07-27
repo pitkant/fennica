@@ -785,14 +785,14 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   gisfin_0.9.26         R6_2.1.2             
-    ##  [4] rgdal_1.1-10          sp_1.2-3              ggmap_2.6.1          
-    ##  [7] rmarkdown_0.9.6.14    stringr_1.0.0         microbiome_0.99.85   
-    ## [10] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [13] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
-    ## [16] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
-    ## [19] dplyr_0.5.0           fennica_0.1.43        bibliographica_0.2.28
-    ## [22] devtools_1.12.0      
+    ##  [1] knitcitations_1.0.7   shiny_0.13.2          gisfin_0.9.26        
+    ##  [4] R6_2.1.2              rgdal_1.1-10          sp_1.2-3             
+    ##  [7] ggmap_2.6.1           rmarkdown_0.9.6.14    stringr_1.0.0        
+    ## [10] microbiome_0.99.86    phyloseq_1.16.2       knitr_1.13           
+    ## [13] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.5.1          
+    ## [16] ggplot2_2.1.0         magrittr_1.5          sorvi_0.7.47         
+    ## [19] tibble_1.1            dplyr_0.5.0           fennica_0.1.43       
+    ## [22] bibliographica_0.2.28 devtools_1.12.0      
     ## 
     ## loaded via a namespace (and not attached):
     ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
@@ -813,21 +813,22 @@ sessionInfo()
     ##  [46] gdata_2.17.0          ape_3.5               preprocessCore_1.34.0
     ##  [49] nlme_3.1-128          iterators_1.0.8       fastcluster_1.1.20   
     ##  [52] gender_0.5.1          proto_0.3-10          testthat_1.0.2       
-    ##  [55] gtools_3.5.0          XML_3.98-1.4          stringdist_0.9.4.1   
-    ##  [58] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
-    ##  [61] scales_0.4.0          parallel_3.3.1        biomformat_1.0.2     
-    ##  [64] genderdata_0.5.0      rhdf5_2.16.0          RColorBrewer_1.1-2   
-    ##  [67] yaml_2.1.13           memoise_1.0.0         geosphere_1.5-5      
-    ##  [70] rpart_4.1-10          latticeExtra_0.6-28   stringi_1.1.1        
-    ##  [73] maptree_1.4-7         RSQLite_1.0.0         highr_0.6            
-    ##  [76] S4Vectors_0.10.1      foreach_1.4.3         permute_0.9-0        
-    ##  [79] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
-    ##  [82] chron_2.3-47          bitops_1.0-6          RgoogleMaps_1.2.0.7  
-    ##  [85] moments_0.14          matrixStats_0.50.2    evaluate_0.9         
-    ##  [88] lattice_0.20-33       labeling_0.3          plyr_1.8.4           
-    ##  [91] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.4-1            
-    ##  [94] foreign_0.8-66        withr_1.0.2           mgcv_1.8-12          
-    ##  [97] RCurl_1.95-4.8        survival_2.39-5       nnet_7.3-12          
-    ## [100] crayon_1.3.2          jpeg_0.1-8            grid_3.3.1           
-    ## [103] data.table_1.9.6      vegan_2.4-0           digest_0.6.9         
-    ## [106] tm_0.6-2              stats4_3.3.1          munsell_0.4.3
+    ##  [55] mime_0.4              gtools_3.5.0          XML_3.98-1.4         
+    ##  [58] stringdist_0.9.4.1    LearnBayes_2.15       zlibbioc_1.18.0      
+    ##  [61] MASS_7.3-45           scales_0.4.0          parallel_3.3.1       
+    ##  [64] biomformat_1.0.2      genderdata_0.5.0      rhdf5_2.16.0         
+    ##  [67] RColorBrewer_1.1-2    yaml_2.1.13           memoise_1.0.0        
+    ##  [70] geosphere_1.5-5       rpart_4.1-10          latticeExtra_0.6-28  
+    ##  [73] stringi_1.1.1         maptree_1.4-7         RSQLite_1.0.0        
+    ##  [76] highr_0.6             S4Vectors_0.10.1      foreach_1.4.3        
+    ##  [79] permute_0.9-0         BiocGenerics_0.18.0   bibtex_0.4.0         
+    ##  [82] boot_1.3-18           chron_2.3-47          bitops_1.0-6         
+    ##  [85] RgoogleMaps_1.2.0.7   moments_0.14          matrixStats_0.50.2   
+    ##  [88] evaluate_0.9          lattice_0.20-33       labeling_0.3         
+    ##  [91] plyr_1.8.4            IRanges_2.6.1         Hmisc_3.17-4         
+    ##  [94] DBI_0.4-1             foreign_0.8-66        withr_1.0.2          
+    ##  [97] mgcv_1.8-12           RCurl_1.95-4.8        survival_2.39-5      
+    ## [100] nnet_7.3-12           crayon_1.3.2          jpeg_0.1-8           
+    ## [103] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
+    ## [106] digest_0.6.9          xtable_1.8-2          tm_0.6-2             
+    ## [109] httpuv_1.3.3          stats4_3.3.1          munsell_0.4.3

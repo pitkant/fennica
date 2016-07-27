@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-22"
+date: "2016-07-27"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 1319 [unique publishers](output.tables/publisher_accepted.csv)
+ * 7393 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 20325 documents have unambiguous publisher information (28%). 
+ * 71719 documents have unambiguous publisher information (100%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -38,17 +38,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|     paper|
-|:-------------------------------|------:|---------:|
-|Frenckell, Johan Christopher I  |   1744| 1361610.0|
-|Frenckell, Johan Christopher II |   2216| 2422445.8|
-|Hansson, Peter                  |   1095| 1461684.9|
-|J. C. Frenckell ja poika        |    509|  432149.9|
-|Kämpe, Johan                    |   1033| 1129371.0|
-|Londicer, Georg Wilhelm         |   2110|  308398.6|
-|Merckell, Jacob                 |    964| 1186048.1|
-|Wald, Peder Eriksson            |    562|  622216.0|
-|Wall, Johan Larsson             |   1404| 1427113.4|
-|Winter, Johan                   |    973| 1481005.8|
+|publisher                       | titles|      paper|
+|:-------------------------------|------:|----------:|
+|                                |  12077| 11492653.8|
+|<<<Author>>>                    |   1708|   549155.1|
+|Frenckell, Johan Christopher I  |   1744|  1361610.0|
+|Frenckell, Johan Christopher II |   2216|  2422445.8|
+|Hansson, Peter                  |   1095|  1461684.9|
+|Londicer, Georg Wilhelm         |   2110|   308398.6|
+|Otava                           |   2129|  1936637.4|
+|Söderström                      |   1179|   895139.4|
+|Wall, Johan Larsson             |   1404|  1427113.4|
+|WSOY                            |   2801|  1741728.9|
 
 

@@ -8,6 +8,9 @@ bibliography:
 output: 
   md_document:
     variant: markdown_github
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
 ---
 <!--
   %\VignetteEngine{knitr::rmarkdown}
