@@ -20,9 +20,10 @@ knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
 knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 #rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 
-library(rmarkdown)
-rmarkdown::render("slidetemplates.Rmd", params = list(min.year = 1470, max.year = 1828, data = "df.combined.Rds"))
-rmarkdown::render("slidetemplates.Rmd", params = "ask")
+#library(rmarkdown)
+#rmarkdown::render("slidetemplates.Rmd", params = list(min.year = 1470, max.year = 1828, data = "df.combined.Rds"))
+#rmarkdown::render("slidetemplates.Rmd", params = "ask")
+#rmarkdown::render("flexdashboard.Rmd")
 
 # rmarkdown::render("slides.Rmd") # Another Slide draft, to bw combined
 rmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
