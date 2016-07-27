@@ -18,6 +18,7 @@ polish_publisher_fennica <- function (df) {
 
   # Additional harmonizing: in Fennica there's stuff in $corporate -field, which doesn't match with Finto
   inds <- which(!is.na(df$corporate))
+
   additionally_harmonized <- harmonize_corporate_Finto(df$corporate[inds])
 
   pubs <- data.frame(alt = character(length = nrow(df)),

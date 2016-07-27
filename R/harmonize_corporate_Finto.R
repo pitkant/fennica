@@ -3,16 +3,16 @@ harmonize_corporate_Finto <- function(x) {
   # Split by semicolon, and select only the first part
   # This behaviour might change later, but now we'll stick with just one publisher per library item
   x <- gsub("([^;]*);.*", "\\1", x)
-  
-  # Get the original version for later use
-  # NB! The value might have already changed!
-  orig <- as.character(x)
+
+  # Only handle unique entries, in the end map back to original indices
+  xorig <- x
+  x <- xuniq <- unique(xorig)
   
   node_count <- length(x)
   
   # prepare year
-  year <- data.frame(year_from=integer(node_count), year_till=integer(node_count), stringsAsFactors=FALSE)
-  year[any(year)==0] <- NA
+  year <- data.frame(year_from = integer(node_count), year_till = integer(node_count), stringsAsFactors = FALSE)
+  year[any(year) == 0] <- NA
 
   # Get the indices with years in brackets
   # Case: Stupid Hege Inc. (1975-2016)
@@ -44,7 +44,17 @@ harmonize_corporate_Finto <- function(x) {
   
   # Since Finto data is implicit about the preferred company name, we won't touch it any more
   # Just return the values
-  
-  df <- cbind.data.frame(orig=orig, name=x, town=town, year_from=year$year_from, year_till=year$year_till, stringsAsFactors=FALSE)
+
+  # Map back to original indices
+  x <- x[match(xorig, xuniq)]
+
+  df <- cbind.data.frame(orig = xorig,
+     			 name = x,
+			 town = town,
+     	                 year_from = year$year_from,
+			 year_till = year$year_till,
+			 stringsAsFactors = FALSE)
+
   df
+
 }
