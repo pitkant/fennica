@@ -48,7 +48,8 @@ polish_publisher_fennica <- function (df) {
   f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
   synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
   combined_pubs <- map(combined_pubs, synonymes, mode = "recursive")
-    
+  combined_pubs[combined_pubs == ""] <- NA
+
   return (combined_pubs)
 
 }
