@@ -4,7 +4,8 @@
 \alias{harmonize_publisher_fennica}
 \title{Harmonize Publisher Fennica}
 \usage{
-harmonize_publisher_fennica(df, cheat_list, languages = c("english"))
+harmonize_publisher_fennica(df, cheat_list, languages = c("english"),
+  additionally_harmonized)
 }
 \arguments{
 \item{df}{Raw data from csv}
@@ -12,6 +13,8 @@ harmonize_publisher_fennica(df, cheat_list, languages = c("english"))
 \item{cheat_list}{Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling}
 
 \item{languages}{A vector of languages which are used in detecting relation keywords}
+
+\item{additionally_harmonized}{additionally_harmonized}
 }
 \value{
 Data frame with alt, pref, match_methods
