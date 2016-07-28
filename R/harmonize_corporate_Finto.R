@@ -28,7 +28,7 @@ harmonize_corporate_Finto <- function(x) {
   # Get the town/city/village in brackets
   town <- character(node_count)
   town[town==0] <- NA
-  
+
   inds <- grep("\\([^)]*([[:upper:]][[:lower:]]+), ?[0-9]{4}", x)
   town[inds] <- gsub(".*\\([^)]*([[:upper:]][[:lower:]]+), ?[0-9]{4}.*", "\\1", x[inds])
   
@@ -41,19 +41,19 @@ harmonize_corporate_Finto <- function(x) {
   
   # Final touch
   x <- remove_endings(x , c(" ", "[.]", ","))
-  
+
   # Since Finto data is implicit about the preferred company name, we won't touch it any more
   # Just return the values
-
-  # Map back to original indices
-  x <- x[match(xorig, xuniq)]
-
-  df <- cbind.data.frame(orig = xorig,
+  df <- cbind.data.frame(
      			 name = x,
 			 town = town,
      	                 year_from = year$year_from,
 			 year_till = year$year_till,
 			 stringsAsFactors = FALSE)
+
+  # Map back to original indices
+  df <- df[match(xorig, xuniq),]
+  df$orig <- xorig
 
   df
 
