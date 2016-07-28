@@ -3,20 +3,20 @@
 #' @param df Raw data from csv
 #' @param cheat_list Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling
 #' @param languages A vector of languages which are used in detecting relation keywords
-#' @param additionally_harmonized additionally_harmonized
+#' @param publishername publishername
 #' @return Data frame with alt, pref, match_methods
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @examples # harmonize_publisher_fennica(df, cheat_list, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
-harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english"), additionally_harmonized) {
+harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english"), publishername) {
 
   message("Starting: harmonize_publisher_fennica")
   
   # Get Finto data from field 710a ($corporate)
   #publisher <- harmonize_corporate_Finto(df$corporate)
-  publishername <- additionally_harmonized$name
+  #publishername <- additionally_harmonized$name
 
   # Get remaining values from other fields
   inds <- which(!is.na(publishername))
