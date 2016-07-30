@@ -14,8 +14,8 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english")) 
   message("Starting: harmonize_publisher_fennica")
   
   # Get Finto data from field 710a ($corporate)
-  #publisher <- harmonize_corporate_Finto(df$corporate)
-  publisher <- character(length = nrow(df))
+  publisher <- harmonize_corporate_Finto(df$corporate)
+  #publisher <- character(length = nrow(df))
 
   # Get remaining values from other fields
   inds <- which(!is.na(publisher$name))
