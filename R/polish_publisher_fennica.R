@@ -16,9 +16,11 @@ polish_publisher_fennica <- function (df) {
   cheat_list <- readRDS(system.file("extdata/publisher_cheatlist.Rds",
 			               package = "fennica"))
 
-  # Additional harmonizing: in Fennica there's stuff in $corporate -field, which doesn't match with Finto
-  inds <- which(!is.na(df$corporate))
+  # Additional harmonizing: in Fennica there's stuff in
+  # $corporate -field, which doesn't match with Finto
   publishername <- harmonize_corporate_Finto(df$corporate)
+
+  inds <- which(!is.na(df$corporate))
   additionally_harmonized <- publishername[inds, ]
 
   pubs <- data.frame(alt = character(length = nrow(df)),

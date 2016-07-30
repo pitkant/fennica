@@ -20,10 +20,12 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english"), 
 
   # Get remaining values from other fields
   inds <- which(!is.na(publishername))
-  publishername[-inds] <- clean_publisher(harmonize_publishers_per_language(df$publisher[-inds], languages))    
-  #publisher$name[-inds] <- clean_publisher(harmonize_publishers_per_language(df$publisher[-inds], languages))  
-  #publisher$orig[-inds] <- as.character(df$publisher[-inds])
-  #publisher$town[-inds] <- df$publication_place[-inds]
+  if (length(inds) > 0) {
+    publishername[-inds] <- clean_publisher(harmonize_publishers_per_language(df$publisher[-inds], languages))    
+    #publisher$name[-inds] <- clean_publisher(harmonize_publishers_per_language(df$publisher[-inds], languages))  
+    #publisher$orig[-inds] <- as.character(df$publisher[-inds])
+    #publisher$town[-inds] <- df$publication_place[-inds]
+  }
 
   # Test if misspelling can be corrected using corporate field values for all the corresponding publisher values
   known_indices <- which(!is.na(publishername))
