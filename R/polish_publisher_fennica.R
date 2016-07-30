@@ -22,8 +22,11 @@ polish_publisher_fennica <- function (df) {
 
   inds <- which(!is.na(df$corporate))
 <<<<<<< HEAD
+<<<<<<< HEAD
   additionally_harmonized <- publishername[inds, ]
 =======
+=======
+>>>>>>> parent of d734060... ok
 
   additionally_harmonized <- harmonize_corporate_Finto(df$corporate[inds])
 >>>>>>> parent of d734060... ok
@@ -38,7 +41,11 @@ polish_publisher_fennica <- function (df) {
   
   # The enrichment part
 <<<<<<< HEAD
+<<<<<<< HEAD
   enriched_pubs <- harmonize_publisher_fennica(df, cheat_list = cheat_list, languages = languages, publishername$name)
+=======
+  enriched_pubs <- harmonize_publisher_fennica(df, cheat_list = cheat_list, languages = languages)
+>>>>>>> parent of d734060... ok
 =======
   enriched_pubs <- harmonize_publisher_fennica(df, cheat_list = cheat_list, languages = languages)
 >>>>>>> parent of d734060... ok

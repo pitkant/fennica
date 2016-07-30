@@ -5,8 +5,12 @@
 \title{Harmonize Publisher Fennica}
 \usage{
 <<<<<<< HEAD
+<<<<<<< HEAD
 harmonize_publisher_fennica(df, cheat_list, languages = c("english"),
   publishername)
+=======
+harmonize_publisher_fennica(df, cheat_list, languages = c("english"))
+>>>>>>> parent of d734060... ok
 =======
 harmonize_publisher_fennica(df, cheat_list, languages = c("english"))
 >>>>>>> parent of d734060... ok
@@ -18,8 +22,11 @@ harmonize_publisher_fennica(df, cheat_list, languages = c("english"))
 
 \item{languages}{A vector of languages which are used in detecting relation keywords}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 \item{publishername}{publishername}
+=======
+>>>>>>> parent of d734060... ok
 =======
 >>>>>>> parent of d734060... ok
 }

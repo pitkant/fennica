@@ -4,7 +4,10 @@
 #' @param cheat_list Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling
 #' @param languages A vector of languages which are used in detecting relation keywords
 <<<<<<< HEAD
+<<<<<<< HEAD
 #' @param publishername publishername
+=======
+>>>>>>> parent of d734060... ok
 =======
 >>>>>>> parent of d734060... ok
 #' @return Data frame with alt, pref, match_methods
@@ -14,7 +17,11 @@
 #' @examples # harmonize_publisher_fennica(df, cheat_list, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
 <<<<<<< HEAD
+<<<<<<< HEAD
 harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english"), publishername) {
+=======
+harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english")) {
+>>>>>>> parent of d734060... ok
 =======
 harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english")) {
 >>>>>>> parent of d734060... ok
@@ -23,6 +30,7 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english")) 
   
   # Get Finto data from field 710a ($corporate)
   #publisher <- harmonize_corporate_Finto(df$corporate)
+<<<<<<< HEAD
 <<<<<<< HEAD
   #publishername <- additionally_harmonized$name
 
@@ -38,10 +46,18 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english")) 
   publisher <- character(length = nrow(df))
 
   # Get remaining values from other fields
+=======
+  publisher <- character(length = nrow(df))
+
+  # Get remaining values from other fields
+>>>>>>> parent of d734060... ok
   inds <- which(!is.na(publisher$name))
   publisher$name[-inds] <- clean_publisher(harmonize_publishers_per_language(df$publisher[-inds], languages))  
   publisher$orig[-inds] <- as.character(df$publisher[-inds])
   publisher$town[-inds] <- df$publication_place[-inds]
+<<<<<<< HEAD
+>>>>>>> parent of d734060... ok
+=======
 >>>>>>> parent of d734060... ok
 
   # Test if misspelling can be corrected using corporate field values for all the corresponding publisher values
