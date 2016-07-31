@@ -21,7 +21,7 @@ polish_publisher_fennica <- function (df) {
   publishername <- harmonize_corporate_Finto(df$corporate)
 
   inds <- which(!is.na(df$corporate))
-  additionally_harmonized <- harmonize_corporate_Finto(df$corporate[inds])
+  additionally_harmonized <- publishername[inds, ]
 
   pubs <- data.frame(alt = character(length = nrow(df)),
                      pref = character(length = nrow(df)),
@@ -32,7 +32,7 @@ polish_publisher_fennica <- function (df) {
   pubs$match_method[inds] <- 4
   
   # The enrichment part
-  enriched_pubs <- harmonize_publisher_fennica(df, cheat_list = cheat_list, languages = languages)
+  enriched_pubs <- harmonize_publisher_fennica(df, cheat_list = cheat_list, languages = languages, publishername$name)
   enriched_inds <- which(enriched_pubs$alt != "")
   pubs$alt[enriched_inds] <- enriched_pubs$alt[enriched_inds]
   
