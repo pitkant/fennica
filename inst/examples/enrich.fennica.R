@@ -29,8 +29,8 @@ y <- unname(apply(tmp[inds2,], 1, function (x) {unique(na.omit(x))}))
 df.preprocessed$publication_year_from[inds[inds2]] <- y
 df.preprocessed$publication_year_till[inds[inds2]] <- y
 # For conflicting years, select he largest combined span
-tmp <- cbind(from0=df.preprocessed$publication_year_from[inds],
-             till0=df.preprocessed$publication_year_till[inds],
+tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
+             till0 = df.preprocessed$publication_year_till[inds],
 	     interval)
 mins <- unname(apply(tmp, 1, function (x) {min(x, na.rm = TRUE)}))
 maxs <- unname(apply(tmp, 1, function (x) {max(x, na.rm = TRUE)}))
@@ -71,7 +71,7 @@ inds <- which(!is.na(gendercustom))
 df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
 message("-- Fennica publishers")
-df.preprocessed$publisher    <- polish_publisher_fennica(df.preprocessed)
+df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
   
 # ----------------------------------------------------------------
  
