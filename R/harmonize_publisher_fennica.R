@@ -46,7 +46,6 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english"), 
   Finto_comp <- extract_personal_names(cheat_list$alt, languages=c("finnish", "latin", "swedish"))
   Finto_years <- data.frame(year_from=cheat_list$year_from, year_till=cheat_list$year_till, stringsAsFactors = FALSE)
 
-
   message("About to start: get_publishers_Finto")
   Finto_pubs <- get_publishers_Finto(Finto_corrected = cheat_list$pref, 
                             Finto_comp = Finto_comp,
@@ -58,6 +57,6 @@ harmonize_publisher_fennica <- function(df, cheat_list, languages=c("english"), 
 
   message("get_publishers_Finto OK.")			    
 
-  return (Finto_pubs)
+  return (Finto_pubs$alt)
 }
   

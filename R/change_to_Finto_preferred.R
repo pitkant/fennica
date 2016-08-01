@@ -77,5 +77,5 @@ change_to_Finto_preferred <- function (df, cheat_list, languages) {
       }
   }
   
-  return (ret)
+  return (ret$mod)
 }
