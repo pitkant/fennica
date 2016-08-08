@@ -78,6 +78,6 @@ Special thanks:
   * [Maanmittauslaitos](http://mml.fi) Geographic information
   * [Tilastokeskus](http://www.tilastokeskus.fi/) Demographic information
   * [Open Street Map](https://www.openstreetmap.org) Geographic information
-  * [Google Maps]() Geographic information  
+  * [Google Maps] Geographic information  
   * [Open Knowledge Finland ry.](http://fi.okfn.org/) 
 

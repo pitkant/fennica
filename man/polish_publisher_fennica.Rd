@@ -4,10 +4,10 @@
 \alias{polish_publisher_fennica}
 \title{Harmonize Publisher Main}
 \usage{
-polish_publisher_fennica(df)
+polish_publisher_fennica(df.orig)
 }
 \arguments{
-\item{df}{Data frame with raw data}
+\item{df.orig}{Data frame with raw data}
 }
 \value{
 Data frame with orig, mod

@@ -1,56 +1,81 @@
 #' @title Harmonize Publisher Main
 #' @description Main handler for publisher fields.
-#' @param df Data frame with raw data
+#' @param df.orig Data frame with raw data
 #' @return Data frame with orig, mod
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-polish_publisher_fennica <- function (df) {
+polish_publisher_fennica <- function (df.orig) {
 
-  languages <- c("finnish", "latin", "swedish")
+  # Adapted from: harmonize_publisher_main			 
+  # TODO : one way to speed up is to only consider unique entries. 
 
-  # Saved to speed up analysis
-  # cheat_list <- cheat_publishers()
-  # saveRDS(cheat_list, file = "../extdata/publisher_cheatlist.Rds")
-  cheat_list <- readRDS(system.file("extdata/publisher_cheatlist.Rds",
-			               package = "fennica"))
+  raw_publishers <- NULL # Never created but assumed later??
+  enrich <- FALSE
 
-  # Additional harmonizing: in Fennica there's stuff in
-  # $corporate -field, which doesn't match with Finto
-  publishername <- harmonize_corporate_Finto(df$corporate)
+  # TODO: Get necessary function names, tables etc. from a single csv-file!
+  additional_harmonizing_function <- NA
 
-  # TODO do we really want to take all non-NA entries from corporate field?
-  # Is it not sufficient to take thos which are NA in publisher field and non-NA in corporate field?
-  inds <- which(!is.na(df$corporate))
-  pubs <- data.frame(alt = character(length = nrow(df)),
-                     pref = character(length = nrow(df)),
-		     stringsAsFactors = FALSE)
-  pubs$alt[inds]  <- publishername[inds, "orig"]
-  pubs$pref[inds] <- publishername[inds, "name"]
+    languages <- c("finnish", "latin", "swedish")
+    enrich <- TRUE
+    enrichment_function <- "harmonize_publisher_fennica"
+    additional_harmonizing_function <- "harmonize_corporate_Finto"
+    combining_function <- "combine_publisher_fennica"
 
-  message("Combine the two sets of the combined publishers") # By default, use pubs
-  final_pubs  <- pubs$pref 
+    publication_year <- df.orig$publication_year
+    town <- df.orig$publication_place
+    cheat_list <- cheat_publishers()
+    inds <- which(!is.na(df.orig$corporate))
+    
 
+  df <- data.frame(list(row.index = 1:nrow(df.orig)))
+  
+  # Initiate pubs
+  pubs <- data.frame(alt=character(length=nrow(df.orig)), pref=character(length=nrow(df.orig)), match_method=integer(length=nrow(df.orig)), stringsAsFactors = FALSE)
+  
+  # Additional harmonizing: in Fennica there's stuff in $corporate -field, which doesn't match with Finto
+  # TODO: Would be very good to separate the catalog specific parts outside of bibliographica
+  if (!is.na(additional_harmonizing_function)) {
+    additionally_harmonized <- do.call(additional_harmonizing_function, list(df.orig$corporate[inds]))
+    pubs$alt[inds] <- additionally_harmonized$orig
+    pubs$pref[inds] <- additionally_harmonized$name
+    pubs$match_method[inds] <- 4
+  }
+  
   # The enrichment part
-  enriched_pubs <- harmonize_publisher_fennica(df, cheat_list = cheat_list, languages = languages, publishername$name)
-  # Pick entries that could be harmonized non-trivially
-  inds <- which(enriched_pubs != "")
-  pubs$alt[inds] <- enriched_pubs[inds]
-
-  # Consider non-NA/non-empty entries
-  inds <- (!is.na(pubs$alt)) & (pubs$alt != "")  
-  # But for non enriched inds use preferred_pubs
-  tmp <- change_to_Finto_preferred(df = df[inds,], cheat_list = cheat_list, languages = languages)
-  final_pubs[inds] <- tmp
+  # TODO: enrichments should be in a separate function for clarity, as with the other fields in the pipeline.
+  # But this is ok an very useful for now  
+  if (enrich) {
+    enriched_pubs <- do.call(enrichment_function, args=list(df.orig, cheat_list=cheat_list, languages=languages))
+  } else {
+    enriched_pubs <- data.frame(alt=character(length=0), pref=character(length=0), match_methods=character(length=0), stringsAsFactors=FALSE)
+  }
+  
+  enriched_inds <- which(enriched_pubs$alt!="")
+  
+  # Check if this is valid
+  pubs$alt[enriched_inds] <- enriched_pubs$alt[enriched_inds]
+  
+  # CHECK THE contents of pubs$alt[1:10] !!!!
+  # The combination of enriched part & the unprocessed part
+  if (enrich) {
+    combined_pubs <- do.call(combining_function, args=list(df.orig, languages, pubs, town, publication_year, cheat_list))
+  } else {
+    combined_pubs <- clean_publisher_fennica(raw_publishers, languages=languages)
+    combined_pubs <- harmonize_publisher(combined_pubs, languages=languages)
+    combined_pubs <- combined_pubs[,1:2]
+  }
   
   # Convert S.N. into NA and Author into <Author>
-  f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
-  synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
-  final_pubs <- map(final_pubs, synonymes, mode = "recursive")
-  final_pubs[final_pubs == ""] <- NA
-
-  return(final_pubs)
-
+  f <- system.file("extdata/NA_publishers.csv", package="bibliographica")
+  synonymes <- read.csv(file=f, sep="\t", fileEncoding="UTF-8")
+  combined_pubs$mod <- map(combined_pubs$mod, synonymes, mode="recursive")
+  
+  # Last unification: If author name is the same as the publisher name -> mark as self-published
+  # NB! This could be more refined!
+  inds <- which(df.orig$publisher==df.orig$author_name)
+  combined_pubs$mod[inds] <- "<Author>"
+  
+  return(combined_pubs$mod)
 }
-

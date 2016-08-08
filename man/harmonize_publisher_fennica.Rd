@@ -4,17 +4,14 @@
 \alias{harmonize_publisher_fennica}
 \title{Harmonize Publisher Fennica}
 \usage{
-harmonize_publisher_fennica(df, cheat_list, languages = c("english"),
-  publishername)
+harmonize_publisher_fennica(df.orig, cheat_list, languages = c("english"))
 }
 \arguments{
-\item{df}{Raw data from csv}
+\item{df.orig}{Raw data from csv}
 
 \item{cheat_list}{Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling}
 
 \item{languages}{A vector of languages which are used in detecting relation keywords}
-
-\item{publishername}{publishername}
 }
 \value{
 Data frame with alt, pref, match_methods
@@ -23,7 +20,7 @@ Data frame with alt, pref, match_methods
 Harmonizes publisher names and enriches them with Finto information.
 }
 \examples{
-# harmonize_publisher_fennica(df, cheat_list, languages=c("finnish", "swedish", "latin"))
+# harmonize_publisher_fennica(df.orig, cheat_list, languages=c("finnish", "swedish", "latin"))
 }
 \author{
 Hege Roivainen \email{hege.roivainen@gmail.com}

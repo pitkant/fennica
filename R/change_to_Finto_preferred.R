@@ -1,32 +1,26 @@
-change_to_Finto_preferred <- function (df, cheat_list, languages) {
-
-    message("Clean publisher")
-    df$publisher <- clean_publisher(harmonize_publishers_per_language(df$publisher, languages))
-
-    message("Harmonize publisher")			  
-    df$publisher <- harmonize_publisher(df, languages = languages)
-
-    message("Towns")
-    towns <- gsub("^[[](.*[^]])$","\\1", gsub("^[[]([^[]+)$","\\1", df$publication_place))
-
-    ret <- data.frame(orig = character(nrow(df)), mod = character(nrow(df)), stringsAsFactors = FALSE)
-    na_till <- which(is.na(df$publication_year_till))
-    na_from <- which(is.na(df$publication_year_from))
-    pubtills <- integer(length = nrow(df))
-    pubtills[-na_till] <- df$publication_year_till[-na_till]
-    pubtills[na_till]  <- df$publication_year_from[na_till]    
-    pubfroms <- integer(length = nrow(df))
-    pubfroms[-na_from] <- df$publication_year_from[-na_from]
-    pubfroms[na_from]  <- df$publication_year_from[na_from]
-
-    p5 <- data.frame(orig = df$orig, mod = df$publisher, town = towns, pubfrom = pubfroms, pubtill = pubtills, stringsAsFactors = FALSE)
+change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
+  
+    ret <- data.frame(orig=character(nrow(pubs)), mod=character(nrow(pubs)), stringsAsFactors = FALSE)
+    
+    na_till <- which(is.na(years$till))
+    na_from <- which(is.na(years$from))
+    pubtills <- integer(length=nrow(years))
+    pubtills[-na_till] <- years$till[-na_till]
+    pubtills[na_till] <- years$from[na_till]
+    
+    pubfroms <- integer(length=nrow(years))
+    pubfroms[-na_from] <- years$from[-na_from]
+    pubfroms[na_from] <- years$from[na_from]
+    p5 <- data.frame(orig=pubs$orig, mod=pubs$mod, town=towns, pubfrom=pubfroms, pubtill=pubtills, stringsAsFactors = FALSE)
     unique_pubs <- unique(p5)
-
+    
     cheat_list$town[which(cheat_list$town=="")] <- NA
-
-    message("Go through unique_pubs")
+    
     for (idx in 1:nrow(unique_pubs)) {
 
+      #if ((idx %% 2500) == 1) {
+      #  print (idx)
+      #}
       pubname <- as.character(unique_pubs$mod[idx])
       pubtown <- unique_pubs$town[idx]
       pubtill <- unique_pubs$pubtill[idx]
@@ -64,7 +58,7 @@ change_to_Finto_preferred <- function (df, cheat_list, languages) {
           
           # No point of changing a unique to something else,
           # if the changed name doesn't exist in the other set of names
-          if ((length(tmp_inds)==1) && (pubname %in% df) && (!is.na(tmp_inds))) {
+          if ((length(tmp_inds)==1) && (pubname %in% pubs) && (!is.na(tmp_inds))) {
             
             unique_pubs_instances <- intersect(which(pubname==p5$mod), which(pubtown==p5$town))
             unique_pubs_instances <- intersect(which(pubtill==p5$pubfrom), unique_pubs_instances)
@@ -77,5 +71,5 @@ change_to_Finto_preferred <- function (df, cheat_list, languages) {
       }
   }
   
-  return (ret$mod)
+  return (ret)
 }
