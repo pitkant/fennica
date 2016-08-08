@@ -16,18 +16,13 @@
 get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_inds, Finto_town, unknown_town, df, Finto_years) {
   
   message("Starting: get_publishers_Finto")
-  match_count <- 0
-  no_match_count <- 0
+  match_count       <- 0
+  no_match_count    <- 0
   exact_match_count <- 0
-  alt <- character(length=nrow(all_names))
-  match_methods <- character(length=nrow(all_names))
-  pref <- character(length=nrow(all_names))
-  idx = 1
-  
-  # Unify publication year
-  inds <- which(is.na(df$publication_year_from))
-  inds <- intersect(inds, which(is.na(df$publication_year_till)))
-  df$publication_year_from[inds] <- df$publication_year_till[inds] <- df$publication_year_from[inds]
+  alt <- character(length = nrow(all_names))
+  match_methods <- character(length = nrow(all_names))
+  pref <- character(length = nrow(all_names))
+  idx  <- 1
 
   all_data <- data.frame(names = all_names,
   	                 pubyear.from = df$publication_year_from,
@@ -37,8 +32,10 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
   
   # Change NA to an empty string to avoid problems later
   all_data$names.orig[which(is.na(all_data$names.orig))] <- ""
-  
-  # Add a flag for those that need not be processed at all
+
+  # TODO: this could be removed and just running this function
+  # with missing entries to simplify the function.
+  message("Add a flag for those that need not be processed at all")
   for (idx in 1:nrow(all_data)) {
     if (idx %in% known_inds) {
       all_data$ignore[idx] <- TRUE
@@ -47,7 +44,6 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
   
   unique_data <- unique(all_data[all_data$ignore==FALSE,])
   
-
   for (idx in 1:nrow(unique_data)) {
 
     all_names_indices <- which(all_names$orig==unique_data$names.orig[idx])
@@ -58,7 +54,7 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
     
     # Filter out naughty towns
     # Phase 1. Get all the alt forms through the pref forms
-    inds <- which(Finto_town==town2)
+    inds <- which(Finto_town == town2)
     inds2 <- which(is.na(Finto_town))
     inds <- union(inds, inds2)
     valid_pref_corps <- unique(Finto_corrected[inds])
@@ -207,6 +203,9 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
     idx <- idx + 1
   }
   
-  return (data.frame(alt=alt, pref=pref, match_methods=match_methods, stringsAsFactors=FALSE))
+  return (data.frame(alt=alt,
+                     pref=pref,
+		     match_methods=match_methods,
+		     stringsAsFactors=FALSE))
     
 }
