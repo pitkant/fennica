@@ -6,14 +6,14 @@
 #' @param known_inds Vector of already processed indices, to ignore
 #' @param Finto_town Vector of towns in Finto
 #' @param unknown_town Vector of towns from raw data
-#' @param publication_year Data frame of published_in, published_from and published_till
+#' @param df Data frame 
 #' @param Finto_years Data frame of published_in, published_from and publishe_till
 #' @return Data frame with alt, pref and match_methods
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_inds, Finto_town, unknown_town, publication_year, Finto_years) {
+get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_inds, Finto_town, unknown_town, df, Finto_years) {
   
   message("Starting: get_publishers_Finto")
   match_count <- 0
@@ -25,16 +25,18 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
   idx = 1
   
   # Unify publication year
-  inds <- which(is.na(publication_year$from))
-  inds <- intersect(inds, which(is.na(publication_year$till)))
+  inds <- which(is.na(df$publication_year_from))
+  inds <- intersect(inds, which(is.na(df$publication_year_till)))
+  df$publication_year_from[inds] <- df$publication_year_till[inds] <- df$publication_year_from[inds]
 
-  publication_year$from[inds] <- publication_year$till[inds] <- publication_year$from[inds]
-
-  all_data <- data.frame(names = all_names, pubyear.from = publication_year$from, pubyear.till = publication_year$till, town=unknown_town, ignore=FALSE)
+  all_data <- data.frame(names = all_names,
+  	                 pubyear.from = df$publication_year_from,
+			 pubyear.till = df$publication_year_till,
+			 town=unknown_town,
+			 ignore=FALSE)
   
   # Change NA to an empty string to avoid problems later
   all_data$names.orig[which(is.na(all_data$names.orig))] <- ""
-  
   
   # Add a flag for those that need not be processed at all
   for (idx in 1:nrow(all_data)) {
@@ -49,8 +51,8 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
   for (idx in 1:nrow(unique_data)) {
 
     all_names_indices <- which(all_names$orig==unique_data$names.orig[idx])
-    all_names_indices <- intersect(all_names_indices, which(publication_year$from==unique_data$pubyear.from[idx]))
-    all_names_indices <- intersect(all_names_indices, which(publication_year$till==unique_data$pubyear.till[idx]))
+    all_names_indices <- intersect(all_names_indices, which(df$publication_year_from==unique_data$pubyear.from[idx]))
+    all_names_indices <- intersect(all_names_indices, which(df$publication_year_till==unique_data$pubyear.till[idx]))
     all_names_indices <- intersect(all_names_indices, which(unknown_town==unique_data$town[idx]))
     town2 <- unique_data$town[idx]
     

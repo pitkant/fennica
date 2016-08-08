@@ -76,6 +76,9 @@ polish_publisher_fennica <- function (df.orig) {
   # NB! This could be more refined!
   inds <- which(df.orig$publisher==df.orig$author_name)
   combined_pubs$mod[inds] <- "<Author>"
-  
-  return(combined_pubs$mod)
+
+  final <- combined_pubs$mod
+  final[final == ""] <- NA
+
+  return(final)
 }

@@ -12,7 +12,6 @@
 harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("english")) {
 
   message("Starting: harmonize_publisher_fennica")
-  publication_year <- df.orig$publication_year
   
   # Get Finto data from field 710a ($corporate)
   publisher <- harmonize_corporate_Finto(df.orig$corporate)
@@ -53,7 +52,7 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
                             known_inds = inds,
                             Finto_town = cheat_list$town,
                             unknown_town = town,
-                            publication_year = publication_year,
+                            df = df.orig,
                             Finto_years = Finto_years)
 
   return (Finto_pubs)
