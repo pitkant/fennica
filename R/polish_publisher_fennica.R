@@ -7,7 +7,7 @@
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-polish_publisher_main <- function (datasource, df.orig) {
+polish_publisher_fennica <- function (datasource, df.orig) {
 
   # TODO : one way to speed up is to only consider unique entries. 
 
@@ -26,16 +26,24 @@ polish_publisher_main <- function (datasource, df.orig) {
     # FIXME : polish_years should be replaced with the newer
     # and more generic function polish_years whenever time allows
     
-    publication_year <- polish_years(df.orig$publication_time)
-    town <- polish_place(df.orig$publication_place)
-    cheat_list <- cheat_publishers()
+    #publication_year <- polish_years(df.orig$publication_time)
+    publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_from")]
+    #town <- polish_place(df.orig$publication_place)
+    town <- df.orig$publication_place
+
+    # Saved to speed up analysis
+    # cheat_list <- cheat_publishers()
+    # saveRDS(cheat_list, file = "../extdata/publisher_cheatlist.Rds")
+    cheat_list <- readRDS(system.file("extdata/publisher_cheatlist.Rds",
+                                       package = "fennica"))
+
     inds <- which(!is.na(df.orig$corporate))
     
   } else if (datasource == "kungliga") {
     languages <- c("swedish")
     enrich <- FALSE
     inds <- integer(length(0))
-    publication_year <- polish_years(df.orig$publication_time)
+    publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_from")]
     raw_publishers <- df.orig$publisher
     raw_publishers[which(is.na(raw_publishers))] <- df.orig$corporate[which(is.na(raw_publishers))]
   }

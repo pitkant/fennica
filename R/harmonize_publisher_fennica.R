@@ -13,7 +13,8 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
 
   message("Starting: harmonize_publisher_fennica")
   # First: Take the publication year  
-  publication_year <- polish_years(df.orig$publication_time)
+  #publication_year <- polish_years(df.orig$publication_time)
+  publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_till")]
   
   # Get Finto data from field 710a ($corporate)
   publisher <- harmonize_corporate_Finto(df.orig$corporate)
@@ -37,7 +38,8 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   #cheat_list <- cheat_publishers()
   Finto_years <- data.frame(year_from=cheat_list$year_from, year_till=cheat_list$year_till, stringsAsFactors = FALSE)
   # NB! Add town synonyms!
-  Finto_town <- polish_place(publisher$town)  
+  #Finto_town <- polish_place(publisher$town)
+  Finto_town <- publisher$town # We assume this was preprocessed already
   all_names <- clean_publisher(publisher$name, languages=c("finnish"))
 
   # TODO: this is slow - to optimize

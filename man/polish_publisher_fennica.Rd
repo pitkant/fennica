@@ -2,11 +2,13 @@
 % Please edit documentation in R/polish_publisher_fennica.R
 \name{polish_publisher_fennica}
 \alias{polish_publisher_fennica}
-\title{Harmonize Publisher Main}
+\title{Polish Publisher Main}
 \usage{
-polish_publisher_fennica(df.orig)
+polish_publisher_fennica(datasource, df.orig)
 }
 \arguments{
+\item{datasource}{String denoting catalog: "fennica", "kungliga"...}
+
 \item{df.orig}{Data frame with raw data}
 }
 \value{

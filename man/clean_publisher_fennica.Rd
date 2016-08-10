@@ -2,7 +2,7 @@
 % Please edit documentation in R/clean_publisher_fennica.R
 \name{clean_publisher_fennica}
 \alias{clean_publisher_fennica}
-\title{Clean publisher}
+\title{Clean Fennica Publisher}
 \usage{
 clean_publisher_fennica(x, languages = c("english"))
 }
