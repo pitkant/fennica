@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-07-31"
+date: "2016-08-10"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8427 [unique publishers](output.tables/publisher_accepted.csv)
+ * 7593 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 59636 documents have unambiguous publisher information (83%). 
+ * 59666 documents have unambiguous publisher information (83%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -40,6 +40,7 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles|     paper|
 |:-------------------------------|------:|---------:|
+|<Author>                        |   1322|  383613.5|
 |Frenckell, Johan Christopher I  |   1744| 1361610.0|
 |Frenckell, Johan Christopher II |   2216| 2422445.8|
 |Hansson, Peter                  |   1095| 1461684.9|
@@ -48,7 +49,6 @@ Title count versus paper consumption (top publishers):
 |Otava                           |   2129| 1936637.4|
 |Söderström                      |   1179|  895139.4|
 |Wall, Johan Larsson             |   1404| 1427113.4|
-|Winter, Johan                   |    973| 1481005.8|
 |WSOY                            |   2801| 1741728.9|
 
 

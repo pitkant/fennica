@@ -1,6 +1,8 @@
 change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
   
-    ret <- data.frame(orig=character(nrow(pubs)), mod=character(nrow(pubs)), stringsAsFactors = FALSE)
+    ret <- data.frame(orig=character(nrow(pubs)),
+                      mod=character(nrow(pubs)),
+		      stringsAsFactors = FALSE)
     
     na_till <- which(is.na(years$till))
     na_from <- which(is.na(years$from))
@@ -11,7 +13,13 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
     pubfroms <- integer(length=nrow(years))
     pubfroms[-na_from] <- years$from[-na_from]
     pubfroms[na_from] <- years$from[na_from]
-    p5 <- data.frame(orig=pubs$orig, mod=pubs$mod, town=towns, pubfrom=pubfroms, pubtill=pubtills, stringsAsFactors = FALSE)
+    p5 <- data.frame(orig=pubs$orig,
+                     mod=pubs$mod,
+		     town=towns,
+		     pubfrom=pubfroms,
+		     pubtill=pubtills,
+		     stringsAsFactors = FALSE)
+		     
     unique_pubs <- unique(p5)
     
     cheat_list$town[which(cheat_list$town=="")] <- NA

@@ -1,11 +1,12 @@
 Name	Count
-Total count: 	59636
+Total count: 	59666
 WSOY	2801
 Frenckell, Johan Christopher II	2216
 Otava	2129
 Londicer, Georg Wilhelm	2110
 Frenckell, Johan Christopher I	1744
 Wall, Johan Larsson	1404
+<Author>	1322
 Söderström	1179
 Hansson, Peter	1095
 Kämpe, Johan	1033
@@ -62,9 +63,9 @@ Finska litteratur-sällskap	 113
 Werner Söderström	 113
 Kansa	 112
 Lutherska Evangeliförening	 109
-Otto Andersin	 109
 Suomen historiallinen seura	 109
 G.W. Wilén	 108
+Otto Andersin	 105
 Beijer	 104
 Kustannus-oy Kirja	 104
 Svenska folkskolans vänner	 104
@@ -161,14 +162,13 @@ Suomen naisyhdistys	  40
 Curio, Henric	  39
 Kansan lehti	  39
 Suomen muinaismuisto-yhdistys	  39
-Kurvinen, Pietari	  38
 OWB	  38
 Boman & Coarlsson	  37
 Matthias Syngmans enckia	  37
 Sortavalan evankelinen seura	  37
 Tampereen työväen sanomalehti	  37
-Victor Hoving	  37
 Suomalais-ugrilainen seura	  36
+Victor Hoving	  36
 Wentzel Hagelstam	  36
 Landtbruksstyrelse	  35
 Osuuskunta Väinämöinen	  35
@@ -189,7 +189,7 @@ Zilliacus	  32
 Naisasialiitto Unioni	  31
 Nordström, Anders Jacobsson	  31
 Société néophilologiqve	  31
-Juteini, Jaakko 1781-1855	  30
+Juteini, Jaakko	  30
 Kustannus-o.y. Kansa	  30
 Lutherska evangeliförening	  30
 Osuuskunta Kehitys	  30
@@ -236,7 +236,6 @@ KS. kp	  25
 Ruotsi	  25
 Suomen matkailija-yhdistys	  25
 Finsk qvinnoförening	  24
-Hämäläinen	  24
 Lindh, Johan Peter	  24
 Rauhan sanomat	  24
 Valio	  24
@@ -244,6 +243,7 @@ Ziervogel, Evald	  24
 Akateeminen kirjakauppa jakaja	  23
 C.G. Clouberg	  23
 Finska fornminnesförening	  23
+Hämäläinen	  23
 J.C. Frenkell & son	  23
 J.W. Lillja	  23
 K.F. Kivekäs	  23
@@ -336,9 +336,7 @@ Suomen ammattijärjestö	  17
 Suomen Eläinsuojelusyhdistys	  17
 Suomen sos.-dem. nuorisoliitto	  17
 Sylviayhdistys	  17
-Tanner, A F	  17
 Unggren	  17
-Uotinen, Mikko	  17
 Zetterberg, Anders	  17
 Alopäus	  16
 Amerikan sanomat	  16
@@ -379,7 +377,6 @@ Sos.-dem. eduskuntaryhmä	  15
 Suomalaisen puolueen naisvaliokunta	  15
 Suomen eläinsuojelusyhdistys	  15
 Terveydenhoito-yhdistys	  15
-Vakaa, Gustaf Adolf	  15
 B.B. Bergdahl	  14
 Bakman	  14
 Breitkopf & Härtel	  14
@@ -395,7 +392,6 @@ B.E. Martin	  13
 Edlundin kirjakauppa	  13
 Finska Sparbanksförening	  13
 H.W. Marjamaa	  13
-Haataja, Kyösti	  13
 Hemma & Utes redaktion	  13
 K. F. U. K	  13
 Karjalan kirjakauppa- ja kustannusliike	  13
@@ -419,7 +415,6 @@ Viipurin kaupunki	  13
 Viipurin suomalaisen kirjallisuuden seura	  13
 Zeipel och Palmblad	  13
 Arvi A. Karisto	  12
-Bonsdorff, Adolf Von	  12
 Brage	  12
 Cölln, Johan von	  12
 Ej i bokhandel	  12
@@ -461,7 +456,7 @@ Wilde, Jacob	  12
 A.C. McClurg	  11
 Alb. Bonnier	  11
 Axel E. Lindgren	  11
-Boldt, Alexander 1873-1956	  11
+Boldt, Alexander	  11
 C.J. Wikberg	  11
 F. Lievendals lithogr	  11
 Helminen	  11
@@ -511,7 +506,7 @@ Horrn, Johan Laurentius II	  10
 Ilkka	  10
 Johan Wallin leski	  10
 Kauppakp	  10
-Kurikka, Matti 1863-1915	  10
+Kurikka, Matti	  10
 Kustannus oy. Kirja	  10
 Kustannusliike Minerva	  10
 Macmillan	  10
@@ -541,13 +536,12 @@ Vaasan painoyhtiö	  10
 Wennberg, Lars	  10
 E.E. Sundvall	   9
 Ekenäs missionsbokhandel	   9
-Ervast, Pekka 1875-1934	   9
+Ervast, Pekka	   9
 Fedotov	   9
 Finlandia	   9
 Finska forstförening	   9
 förening för främjande af allmännyttig byggnadsverksamhet	   9
 Förr detta Grefingska tryckeriet	   9
-Forstén, T K	   9
 Frenkellska	   9
 GEJ. ja K	   9
 Geografiska förening	   9
@@ -559,7 +553,7 @@ Helsingin uusi kp	   9
 J. Nordenankar	   9
 J.A. Hahnsson	   9
 J.F. Olan	   9
-Kalke, Kosti 1858-1938	   9
+Kalke, Kosti	   9
 Kansantaloudellinen yhdistys	   9
 Keski-Suomen kirjapaino	   9
 Kustannusosakeyhtiö Kirja	   9
@@ -584,7 +578,6 @@ Valtion historiallinen museo	   9
 Valtionarkisto	   9
 Viipurin Eläinsuojelusyhdistys	   9
 W. ja G	   9
-Werkko, Kaarle	   9
 Werner Söderström osakeyhtiö	   9
 A. Tvietmeyer	   8
 A.C. Öhman	   8
@@ -602,10 +595,8 @@ G. Smidt	   8
 Geologiska kommissionen i Finland	   8
 Hildén	   8
 J.C. Frenkell ja poika	   8
-Jahnsson, Yrjö	   8
 Joh. K. Lindstedt	   8
 Johan Edmans enka	   8
-Kahilus, J	   8
 Kajaanin kirjapaino	   8
 Kämpe, David	   8
 Kansainvälinen kirja- ja lähetys-yhdistys	   8
@@ -615,7 +606,6 @@ Kristillinen liikemiestoiminta	   8
 Kustannus-o.y. Helios	   8
 Kustannusliike Kullervo	   8
 Laurelius, Michael	   8
-Lax, Hj	   8
 Leverentz, Frans Jakob	   8
 Lundberg	   8
 Nutids redaktion	   8
@@ -623,7 +613,6 @@ Nya teatern i Helsingfors	   8
 Nylands & Tavastehus läns Landtbrukssällskap	   8
 OP	   8
 Otava jakaja	   8
-Partanen, L W	   8
 Pečatano v' Gl. Gidrograf. Upravlenìi Morskogo Ministerstva	   8
 Perustuslakikomitea	   8
 Pettersson	   8
@@ -658,7 +647,6 @@ Weurlander	   8
 Widerholm	   8
 Åbo stad	   7
 Blak	   7
-Boije, Rolf	   7
 C.A. Gottlund	   7
 Churberg	   7
 Clouberg & Co	   7
@@ -676,6 +664,7 @@ Finska Läkaresällskap	   7
 Finska Skogsvårdsförening Tapio	   7
 Georg Hantschs efterlefwerska	   7
 Gidrografičeskij Departament' Morskago Ministerstva	   7
+Gottlund, Carl Axel	   7
 Gröndahl	   7
 H.T. Bärlund	   7
 Haberegger, Abraham	   7
@@ -717,7 +706,6 @@ Pyhien Sergein ja Hermanin veljeyskunta	   7
 Salama	   7
 Savon työväen sanomalehti- ja kirjapaino-osuuskunta	   7
 Schuster & Löffler	   7
-Skutnb, Akseli	   7
 Sosialidemokratinen puolue	   7
 Statistiska centralbyrån i Finland	   7
 Suom. sos. kust. yht	   7
@@ -726,7 +714,7 @@ Suomen evank.-luth. pyhäkouluyhdistys	   7
 Suomen maalaisväestön liitto	   7
 Tapio	   7
 Toimittajan kustannuksella	   7
-Tuhkanen, Johan Henrik 1851-1932	   7
+Tuhkanen, Johan Henrik	   7
 Turistförening i Finland	   7
 Turun Eläinsuojelusyhdistys	   7
 Turun kaupunkilähetys	   7
@@ -744,7 +732,6 @@ Borgå stad	   6
 Brokhaus	   6
 C.E. Fritze	   6
 C.W. Alopäus	   6
-Churberg, Waldemar	   6
 Drechsler, Friedrich	   6
 Edistysseurojen kustannusoy	   6
 Eläintenystävät	   6
@@ -758,7 +745,6 @@ G. Klint	   6
 Geografiska förening i Finland	   6
 Gleerup	   6
 Gormann, Johann	   6
-Gottlund, Carl Axel 1796-1875	   6
 Granlund	   6
 Grönroos	   6
 Hämäläis-osakunta	   6
@@ -780,10 +766,10 @@ Jöl Björklund & Co	   6
 Julin	   6
 Kalle Kaukoranta	   6
 Kauppakirjapaino	   6
+Keisarillisen senaatin kirjapaino	   6
 Keysers arvingar	   6
 Köhler, Johann	   6
 Kouluylihallitus	   6
-Krogerus, V J G	   6
 Kumblinska tryckeriet	   6
 kungliga	   6
 Lång & Ståhlberg	   6
@@ -794,7 +780,6 @@ NAZ	   6
 Nuorten naisten kristillinen yhdistys	   6
 P. Th. Stolpe	   6
 P.G. Philipsen	   6
-Paavo-kallio, Esa	   6
 Paulssen, Franz Philip	   6
 Pietarsaaren kunta	   6
 Polyteknillinen opisto	   6
@@ -842,12 +827,10 @@ A.B. Ljus	   5
 A.W. Lindgren	   5
 Anders Björckmans enka	   5
 Anton Lindeberg	   5
-Asp, Gustaf Edvard 1866-1952	   5
+Asp, Gustaf Edvard	   5
 Aug. Edvards	   5
-Bergroth, Gustaf Elis	   5
 Christ. Ludv. Hjelt	   5
 Collin	   5
-Daniel Henkikäsi, Numero	   5
 E.W. Ponkala	   5
 Ekenäs	   5
 Ekholm	   5
@@ -893,9 +876,8 @@ Jokamiehen viikkolehti	   5
 Kankel, Johan	   5
 Kastegren	   5
 Keisarillinen Suomen senaatti	   5
-Keisarillisen senaatin kirjapaino	   5
 Kejserliga Alexanders-Universitetet	   5
-Kerkkonen, Kaarlo 1869-1928	   5
+Kerkkonen, Kaarlo	   5
 Kirjapaino Kipinä	   5
 Koitto	   5
 Kokoilija	   5
@@ -909,8 +891,6 @@ Lahden uusi kirjapaino	   5
 Lainopillinen ylioppilastiedekunta	   5
 Lång	   5
 Lievendal's lith	   5
-Liipola, Heikki	   5
-Liljeroos, J E	   5
 Limingan kansanopisto	   5
 Lukutupa	   5
 Maanviljelystaloudellinen kölaitos	   5
@@ -925,7 +905,7 @@ Möller, Herman Arnold	   5
 Morskö ministerstvo	   5
 Muinaismuisto-yhdistys	   5
 Mustasaari Landtmannagille	   5
-Neovius-nevanlinna, L 1850-1916	   5
+Neovius-nevanlinna, L	   5
 Nylands fruktodlareförening	   5
 O.J. Dahlberg	   5
 O.y. Weilin & Göös	   5
@@ -940,7 +920,6 @@ Pohjalaisen kp	   5
 Porin kaupunki	   5
 Postihallitus	   5
 Puoluehallinto	   5
-Rahkonen, Juho	   5
 Raittiusjärjestöjen keskustoimisto	   5
 röderna Bohlin	   5
 Russo-Française	   5
@@ -1019,7 +998,6 @@ Berling, Christian Fredrik	   4
 Bertrand	   4
 Björckegren, Gabriel	   4
 Björk & Börjesson	   4
-Boldt, Georg	   4
 Brockenius, Zacharias	   4
 Bröderna Lagerström	   4
 Burchardi, Georg Gottlieb	   4
@@ -1031,10 +1009,9 @@ Dahlberg	   4
 Decreaux, Ludvig	   4
 Ebering	   4
 Edv. Helin	   4
-Ehrnrooth, Leo	   4
 Elzevier, Abraham ja Bonaventura	   4
 Enaeus, Olof Olofsson	   4
-Erich, Rafäl 1879-1946	   4
+Erich, Rafäl	   4
 Erinäisten rautatiesuuntien taloudellista tutkimusta varten asetettu komitea	   4
 Erkko	   4
 Falck, Israel	   4
@@ -1043,10 +1020,9 @@ Finska evangeliska sällskap	   4
 Finska historiska samfund	   4
 Finska studentafdelningarnas etnografiska museum	   4
 Finska Veterinärförening	   4
-Forsman, Juho Rudolf	   4
 Fr. ja P	   4
 Fram	   4
-Fraser, Georg 1849-1937	   4
+Fraser, Georg	   4
 Frenkell ja poika	   4
 Frenkellska ykeriet	   4
 fröken C. Mechelin	   4
@@ -1068,9 +1044,7 @@ Hämeenlinnan uusi kirjapaino	   4
 Hämeenlinnan uusi kp	   4
 Hannes Sjöblom	   4
 Happenius, Johan Ludvig	   4
-Hårdh, Albert	   4
-Heikel, Axel O 1851-1924	   4
-Heino, K	   4
+Heikel, Axel O	   4
 Hellsten	   4
 Helsingfors Stads Gasverk	   4
 Helsingin diakonissalaitos	   4
@@ -1078,9 +1052,7 @@ Helsingin Kustannusosakeyhtiö	   4
 Hemvännen	   4
 Henkivakuutusyhtiö Salama	   4
 Herman Edgrens bokhandel	   4
-Hermanson, Berta	   4
 Holmerus, Anders	   4
-Hurtig, Karl	   4
 Hydrografiska Byrån vid Överstyrelse för väg- & vattenbyggnaderna i Finland	   4
 Industrins centralloratorium	   4
 Ioh. Bapt. Homanni	   4
@@ -1093,7 +1065,6 @@ Jansson	   4
 Joh. Bergdahl	   4
 Juridiska studentfakulteten	   4
 Kajaanin maalaisseura	   4
-Kallio, J E	   4
 Kamaritoimituskunta	   4
 Karjalan sivistysseura	   4
 Kaselius	   4
@@ -1101,7 +1072,7 @@ Kataja	   4
 Kejserliga Alexanders Universitetet i Helsingfors	   4
 Kejserliga Senaten	   4
 Kemin uusi kirjapaino	   4
-Kilpeläinen, E 1879-1941	   4
+Kilpeläinen, E	   4
 Kirjakustantamo Into	   4
 Kloström	   4
 Kommunala centralbyrån i Finland	   4
@@ -1109,19 +1080,16 @@ Kosonen	   4
 Kotimainen herätystyö	   4
 Kotimaisen työn liitto	   4
 Kotkan kaupunki	   4
-Kovero, Karl Adolf	   4
 Kp. Polytypos	   4
 Kreusig, Christian	   4
 Kulutusosuuskuntien keskusliitto	   4
 Kuopion kaupunki	   4
 Kuopion uusi kirjapaino, jakaja	   4
 Kustannus-o.y. Sampo	   4
-Kuusi, Eino	   4
 Lainvalmistelukunta	   4
 Lamm	   4
 Landtbruksstyrelses landtbruksekonomiska afdelning	   4
 Lärobokskommitténs förslag	   4
-Laulajapoika	   4
 Lauringer, Eucharius	   4
 Lifförsäkringsbolaget Suomi	   4
 Lilius & Hertzberg, jakaja	   4
@@ -1138,15 +1106,12 @@ Minervas bokhandel	   4
 Mollyn, Nicolaus	   4
 Mustalaislähetyksen toimisto	   4
 N.A. Zilliacus	   4
-Nevanlinna, O 1867-1927	   4
+Nevanlinna, O	   4
 Nordin & Josephson	   4
 Nordström, Henrik Andersson	   4
-Nurho, Juho	   4
 Nykterhetssällskapens Centralbyrå	   4
-Nylander, Lennart	   4
 Nyländska afdelningen	   4
 Oesterheld & Co	   4
-öhrlund, Saimi	   4
 Okružnyj št	   4
 Omalla kustannuksella	   4
 Östra Finlandin kp	   4
@@ -1162,11 +1127,8 @@ Pietarsaaren kaupunki	   4
 Pohjolan kustannusoy	   4
 Pyrkijä	   4
 Rauman Eläinsuojelus-Yhdistys	   4
-Raunio, el Fian	   4
-Rekonen, Aatu	   4
-Renvall, Heikki 1872-1955	   4
+Renvall, Heikki	   4
 röderna Lundqvist	   4
-Ruotsalainen, Armas	   4
 S. O. N. R	   4
 S.O.K	   4
 Säätyjen kirjasto	   4
@@ -1175,7 +1137,6 @@ Sampsa	   4
 Samson & Wallin	   4
 Sanomalehti- ja kirjapaino-osakeyhtiö	   4
 Satakuntalainen osakunta	   4
-Savolainen, raham	   4
 Schultz	   4
 Simelii	   4
 Sjöblom	   4
@@ -1215,7 +1176,6 @@ Suomen valtion rautatiet	   4
 Suomen voimistelu- ja urheiluliitto	   4
 Suomi Synod	   4
 Svenska teosofiska	   4
-Tammelander, Mathilda Emilia	   4
 Tampereen kirkollinen kirjakauppa	   4
 Tampereen kp	   4
 Tekniska förening	   4
@@ -1224,10 +1184,8 @@ Thomas von Wierings Erben	   4
 Tidnings- &	   4
 Tie- ja vesirakennusten ylihallitus	   4
 Tipografìâ Imperatorskoj Akademìi nauk	   4
-Tunkelo, J H	   4
 Turun ja Porin lääni	   4
 Turun taideyhdistys	   4
-Turunen, W	   4
 Universitas Helsingforsiensis	   4
 Uoti ja Grönroos	   4
 Uudenmaan eläinsuojeluyhdistys	   4
@@ -1242,10 +1200,8 @@ Visa	   4
 Volmar Lindman	   4
 W. Lundeqvist	   4
 W. Nieminen	   4
-Waaranen, K A 1849-1923	   4
+Waaranen, K A	   4
 Waseniuksen kirjakauppa, jakaja	   4
-Wesala, Kaarlo	   4
-Willjamson, William	   4
 Yhteiskunnallinen keskusliitto ja keskustoimisto	   4
 Yrjö Weilin, jakaja	   4
 A. Cedervaller	   3
@@ -1261,13 +1217,12 @@ Abbor, Thomas	   3
 Adler, Johann Jakob	   3
 Agrikulturvissenschaftliche Gesellschaft	   3
 Ahlaisten kunta	   3
-Ahlqvist, Viktor	   3
 Aikakauslehti Lukutupa	   3
 Aktiebol. Handels	   3
 Albert Langen	   3
 Alex F. Lindberg	   3
 Allardt	   3
-Alopäus, Carl Henrik 1825-1892	   3
+Alopäus, Carl Henrik	   3
 Amerikan sanomain kp	   3
 Amerikan yhdist. suom. sos. kustannusyhtiöt	   3
 Ammattikasvatuskomitea	   3
@@ -1290,14 +1245,12 @@ Brändö villastad	   3
 Breitkopf	   3
 Bröder Åström	   3
 Brodin, P. A	   3
-Brotherus, V F	   3
 C.E. Holmberg	   3
 C.W.K. Gleerup	   3
-Castrén, Zachris	   3
 Centralstyrelses för hästavelsen i Finland	   3
 Chapman and Hall	   3
 D.F. Bonnier	   3
-Dannholm, Fredrik Oskar 1847-1930	   3
+Dannholm, Fredrik Oskar	   3
 Daubmann, Hans	   3
 David Nutt	   3
 Dieterich, Johann Christian	   3
@@ -1312,8 +1265,7 @@ Edlundska Bokhandeln	   3
 Egenolff, Paul	   3
 Eget	   3
 Ehdoton raittiusseura	   3
-Eklund, Hjalmar	   3
-Elia,  1875-1934	   3
+Elia	   3
 Etelä-Suomen kirjapaino	   3
 Etzold & Co	   3
 F. Österlund	   3
@@ -1343,28 +1295,21 @@ G.W. Edlund, jakaja	   3
 G.W. Edlund'in kustannus-o.y	   3
 G.W. Edlundin kirjak	   3
 G.W. Edlundin kustantama	   3
-Gadolin, A W	   3
 Gebethner i Wolff	   3
 Gej. ja K	   3
 General läntmäterie contoiret	   3
 Gieske	   3
-Godenhjelm, Hugo	   3
 Gottlund	   3
 Grahn, Olof	   3
-Granfelt, O. Hj	   3
 Grenzius, Michael Gerhard	   3
-Gummerus, K J 1840-1898	   3
+Gummerus, K J	   3
 Gyldendalske bokhandel	   3
 Gymnastikförening för fruntimmer	   3
 H. Wächter	   3
-Hahl, Axel Fredrik	   3
 Hajander	   3
-Halme, August	   3
 Hämeen kirjakauppa	   3
 Haminan kaupunki	   3
 Harberg & Hesselberg	   3
-Helander, B H	   3
-Helle, L T	   3
 Helsingfors Bokhandel, jakaja	   3
 Helsingfors frimärkssamlare förening	   3
 Helsingin Diakonissalaitos	   3
@@ -1374,7 +1319,6 @@ Helsingin musiikkiopisto	   3
 Helsingin työväenyhdistys	   3
 Helsingin uusi kirjapaino	   3
 Helsingin valokuvausyhdistys	   3
-Helsingius, Gustaf Adolf	   3
 Henrik Renqvist	   3
 Herman Lindell	   3
 Hinrichssche Buchhandlung	   3
@@ -1384,11 +1328,9 @@ Huhtin	   3
 Hyvinkään lähetysyhdistys	   3
 I. Rosqvist	   3
 I.N. Kušnerev' i K°	   3
-Ilmonen, S	   3
 Imperatorskìj senat	   3
 Industriidkarenes i Finland Ömsesidiga Brandstodsförening	   3
 Industristyrelse	   3
-Ingman, Junia	   3
 Into	   3
 izd. 'Kir'â	   3
 Izdatel'stvo putevoditelej 'Russkìj Bedeker	   3
@@ -1397,7 +1339,7 @@ J.A. Cederberg	   3
 J.A. Majlund	   3
 J.C. Lagerspetz	   3
 J.W. Lillja ja kumpp	   3
-Jaatinen, Otto Engb 1882-1958	   3
+Jaatinen, Otto Engb	   3
 Jernvägsstyrelse	   3
 Julius Tallberg	   3
 Julkaisija	   3
@@ -1406,7 +1348,6 @@ K. Rantakari	   3
 K. Suomen Talousseura	   3
 K.B. Boström	   3
 Kaarlo Halme	   3
-Kaasinen, J P	   3
 Kainuun Eläinsuojelusyhdistys	   3
 Käkisalmen kaupunki	   3
 Kaleva, keskinäinen vakuutusyhtiö	   3
@@ -1425,9 +1366,7 @@ Keski-Savon kansanopisto	   3
 Keski-Suomen nuorisoseura	   3
 Keski-Suomen työväen sanomalehti-osuuskunta	   3
 Keskinäinen henkivakuutusyhtiö Suomi	   3
-Kihlman, Alfred Osvald	   3
-Killinen, Kust 1849-1922	   3
-Killinen, Tilta Josefina	   3
+Killinen, Kust	   3
 Kirja-Aitta	   3
 Kirja-oy. Tieto	   3
 Kirjapaino Suomi	   3
@@ -1439,9 +1378,7 @@ Komitén för den inhemska industrins gynnande	   3
 Konstflitförening	   3
 Konstflitsförening i Finland	   3
 Konstnärsgillet	   3
-Konttinen, Juho	   3
-Korpisaari, Paavo 1886-1950	   3
-Koskinen, Juho	   3
+Korpisaari, Paavo	   3
 Kotikasvatusyhdistys	   3
 Kotkan työväenyhdistys	   3
 Koulutoimen ylihallitus	   3
@@ -1451,7 +1388,6 @@ Kungliga akademiska boktryckeriet	   3
 Kuopion isänmaallinen seura	   3
 Kuopion läänin maanviljelysseura	   3
 Kuopion maanviljelysseura	   3
-Kurvinen, P J I	   3
 Kustannus oy. Kansa	   3
 Kustannusliike Aura	   3
 Kustannusliike Säde	   3
@@ -1459,7 +1395,7 @@ Kustannustoimisto Vapaus	   3
 Kvinnosaks Unionen	   3
 Kyläkirjaston Kuvalehti	   3
 Lahden kp	   3
-Laitinen, Aatu 1853-1923	   3
+Laitinen, Aatu	   3
 Landtbruks- & hushållningssällskapen	   3
 Lännen työväen kustannusyhtiö	   3
 Lapsenpäästölaitos	   3
@@ -1467,11 +1403,7 @@ Lars Salvius wainajan pränti	   3
 Lars Walls enckia	   3
 Laurelius, Anders	   3
 Leppänen	   3
-Levón, Kaarlo	   3
 Liittohallinto	   3
-Lilius, Axel	   3
-Lille, Werner Olympius	   3
-Lind, Karl Johan	   3
 Lindfors	   3
 Lindforsi pärijad	   3
 Lindman	   3
@@ -1484,28 +1416,26 @@ M. Lindroth	   3
 Maakansa	   3
 Maanviljelys- ja talousseurain edusmiehet	   3
 MacMillan and Co	   3
-Mäkinen, Antti 1857-1936	   3
+Mäkinen, Antti	   3
 Matti Vuolukka & Coumpp	   3
-Maunu, J A 1856-1939	   3
+Maunu, J A	   3
 Max Niemeyer	   3
 Mayer & Müller	   3
 Meteor	   3
 Meteorologischen Zentralanstalt	   3
 Meteorologiska Centralanstalte	   3
 Michelson	   3
-Miettinen, E	   3
 Mikkelin läänin maanviljelysseura	   3
 Militärlitteraturförening	   3
 Möller, Nicolaus	   3
 Mortier, Pierre II	   3
 Moshinjoliso sh'Ehangeno lja Literatur ja Suomi	   3
-Murén, Emil 1854-1912	   3
+Murén, Emil	   3
 Murray	   3
 Mustialan maanviljelys- ja meijeriopisto	   3
 Närpes Folkhögskolas Elev	   3
-Neovius, L 1850-1916	   3
+Neovius, L	   3
 Nev Yorkin uutiset	   3
-Nevalinna, L	   3
 Norberg, Samuel	   3
 Normallyceum i Helsingfors	   3
 Norman	   3
@@ -1516,7 +1446,6 @@ Nylands Djurskyddsförening	   3
 Nylands svenska landskommuners kommunala centralbyrå	   3
 O. Harrassovitz	   3
 O.L. Svanbäk'in kp	   3
-Ojansuu, Heikki	   3
 Ollgren	   3
 Oskar Aukusti Frithiof Blomstedt	   3
 Otava station, författare	   3
@@ -1525,14 +1454,11 @@ Oulun läänin talousseura	   3
 P. Hanstein	   3
 P.M.F. Lundberg	   3
 P.R. Viitanen	   3
-Palmgren, Rolf	   3
-Palomaa, Veikko	   3
 Pappeinkokous	   3
 Pargas Kalkberg	   3
-Pätiälä, H J 1880-1950	   3
+Pätiälä, H J	   3
 Pedagogiska förening	   3
 Pellavanviljelyskomitea	   3
-Pellikka, Johan	   3
 Piipponen	   3
 Plon	   3
 Pohjanmaan työväen osuuskp	   3
@@ -1549,17 +1475,13 @@ R. Gärtner	   3
 Rauman kp.-osakeyhtiö	   3
 Rautatiehallitus	   3
 Reimer	   3
-Rentola, A 1881-1919	   3
-Renvall, Tancred T	   3
+Rentola, A	   3
 Richel, Johann II	   3
 Ries & Erler	   3
 Robert Edgren	   3
-Roine, Reinhold 1866-1937	   3
+Roine, Reinhold	   3
 Rönberg, Jöns	   3
 Röse, Anton Ferdinand	   3
-Rosenqvist, I A	   3
-Röyhy, Sara	   3
-Ruuth, Martti	   3
 S. n	   3
 s.l	   3
 S.l	   3
@@ -1568,11 +1490,10 @@ Sampo, keskinäinen vakuutuslaitos	   3
 Sanomal.- ja kp.-osakeyhtiö	   3
 Satakunnan Eläinsuojelusyhdistys	   3
 Savon työväen sanomal.-osuuskunta	   3
-Schvindt, Fr M	   3
 Schwiegerau, Nikolaus	   3
 Segerstedt, Albrecht Julius	   3
 Senaatti	   3
-Setälä, E N 1864-1935	   3
+Setälä, E N	   3
 Severin Falkman	   3
 Sim. per. kp	   3
 Skandinaviska sexpeditionen	   3
@@ -1583,8 +1504,7 @@ Sos.-dem. nuorisoliitto	   3
 Sosialistinen aikakauslehti	   3
 Sosialistinen kirjapaino-osuuskunta	   3
 Stadsmissionen	   3
-Stenij, Edv 1857-1925	   3
-Summa, Vilho	   3
+Stenij, Edv	   3
 Suom. Kirj. seura	   3
 Suom. sos. kust. yhtiö	   3
 Suomal. sosialistinen kustannusyhtiö	   3
@@ -1622,16 +1542,13 @@ Svenska Folkpartiet	   3
 Svenska reallyceum i Åbo	   3
 Sydvästra Finlands svenska folkhögskola	   3
 Syrén	   3
-T-r, Nestor	   3
 T. Fisher Unvin	   3
 Tammisaaren kirjapaino	   3
 Tampereen kirjapaino-o.y	   3
 Tampereen kp.-osakeyhtiö	   3
 Tekiä	   3
 Th. Tammelin	   3
-Thesleff, L	   3
 Tiden	   3
-Tikkanen, L J	   3
 Tilastokeskus	   3
 Tilastokomitea	   3
 Tipografìâ I.N. Skorohodova	   3
@@ -1644,7 +1561,6 @@ Tuberkuloosin vastustamisyhdistys	   3
 Tullihallitus	   3
 Turun suomalainen kirjapaino	   3
 Tytty Lagerstedt, jakaja	   3
-Ukkonen, Aksel	   3
 Unionen	   3
 Universitetskaâ tipografìâ	   3
 Uudenkaupungin kirjapaino-osakeyhtiö	   3
@@ -1662,11 +1578,9 @@ Verokomitea	   3
 Victor Forselius	   3
 Vienan karjalaisten liitto	   3
 Vieveg	   3
-Vihlman, Ivar	   3
 Viipurin museo	   3
 Viipurin uusi kp	   3
 Vönnaâ tipografìâ	   3
-Vuolle-apiala, Jalmari	   3
 W. Engelmann	   3
 W. ja K	   3
 Wahlström & C	   3
@@ -1678,7 +1592,6 @@ Westbek	   3
 Wikberg	   3
 Wilhelm Braumüller	   3
 Willem J. Bläu	   3
-Williamson, William	   3
 Wirkki	   3
 Yhdistyneet edistyspuolueet	   3
 Yhdistys Siipikarjanhoidon ystävät Turussa	   3
@@ -1690,7 +1603,6 @@ Zacharias Heggström	   3
 'Valistus	   2
 <<<Author>>>n kustannuksella	   2
 A	   2
-A-n, W-a	   2
 A. Bonnier	   2
 A. Christianson	   2
 A. Hakman	   2
@@ -1712,7 +1624,7 @@ A.G. Hellsten	   2
 A.I. Arvidsson	   2
 A.N. Winell	   2
 A.W. Jahnsson	   2
-Aavikko, Armas 1885-NA	   2
+Aavikko, Armas	   2
 Åbo afdelning	   2
 Åbo domkyrkoförsamling	   2
 Åbo industriutställning	   2
@@ -1724,7 +1636,6 @@ Agricola kustannus-o.y	   2
 Agricola Kustannus-o.y	   2
 Agrikultur-ekonomiska försöksanstalten i Finland	   2
 Ahjo	   2
-Ahlberg, Hugo	   2
 Åhlen & Åkerlund	   2
 Ahlgren	   2
 Aikain Vartija s A. B	   2
@@ -1770,11 +1681,9 @@ Berlingska ykeriet	   2
 Bernard Grasset	   2
 Berthiaume	   2
 bey Johann Rudolph Crökers seel. Wittve	   2
-Björkenheim, Edv A	   2
-Blåfield, G I	   2
-Blomstedt, Yrjö 1871-1912	   2
+Blomstedt, Yrjö	   2
 Blume, Johan Benjamin	   2
-Boisman, A W 1851-1922	   2
+Boisman, A W	   2
 Borgå folkhögskola	   2
 Borgå gymnasister	   2
 Borgå Lycei konvent	   2
@@ -1785,7 +1694,6 @@ Breitkopf, Bernhard Theodor	   2
 Brendeken, Johann Christoph	   2
 Broocman, Reinerus	   2
 by Jan ten Hoorn, böqverkooper, over't Oude Heeren Logement	   2
-Byman, Walter	   2
 C. & E. Gernandt	   2
 C. & E. Gernandtsaktiebol	   2
 C. Ullner	   2
@@ -1799,26 +1707,23 @@ Cahiers de la qvinzaine	   2
 Cammermayer	   2
 Carl B. Lork	   2
 Carl Deleen och Johan Gustaf Forsgren	   2
-Carlsson, A W	   2
 Carolus Alexander Alcenius	   2
 Carolus Eneberg	   2
 Carolus Fr. Eneberg	   2
 Carolus Gustavus Borg	   2
 Carolus Isaacus Nordlund	   2
-Cederberg, A R	   2
 Cederholm	   2
 Centrallaget för handelslagen i Finland m.b.t	   2
 chez Charles Delén	   2
 chez l'Autheur dans l'Isle du Palais a la Sphere Royale	   2
 Christian Endeavor liitto	   2
 Clouberg ja Kumpp. W. Hoving	   2
-Colliander, O I	   2
-Colliander, Yolanda	   2
 Covie	   2
 Cygnaeuksen galleria	   2
 Daniel Joh. Walls änckia	   2
 De lʼImprimerie de Cox, Fils, & Baylis, Great Queen Street	   2
 Djurskyddsförening i Borgå	   2
+E	   2
 E. Ahtia	   2
 E. Pierson	   2
 E. W	   2
@@ -1831,7 +1736,6 @@ Edlundin kirjakauppa Jakaja	   2
 Edvard Arnold	   2
 Eetu	   2
 Eklund	   2
-Ekström, F W	   2
 Eläinsuojelustoimisto	   2
 Elämän kevät	   2
 Elkan & Schildknecht	   2
@@ -1844,8 +1748,6 @@ Emma Mäkinen	   2
 Engelmann	   2
 Er. Meuller	   2
 Erich Reiss	   2
-Erich, Mikko V	   2
-Erkko, J H	   2
 Ernest Leroux	   2
 Ernst Hofmann	   2
 Esbo hembygdsforskningsförening	   2
@@ -1867,7 +1769,7 @@ F. Lievendals lith	   2
 F. Tilgmanns bok- & sten samt kemigrafi	   2
 F.S. Eljas Pauanne	   2
 Fazerin musiikkikauppa	   2
-Fellman, Jacob 1795-1875	   2
+Fellman, Jacob	   2
 Ferdinand Enke	   2
 Finlands allmänna slöjdförening	   2
 Finlands allmänna svenska folkskollärare- och lärarinneförening	   2
@@ -1876,7 +1778,7 @@ Finlands medicinalväxtodlings- och insamlingsandelslag	   2
 Finlands svenska Marthaförbund	   2
 Finlands Svenska Nykterhetss expedition	   2
 Finlands Svenska Ungdomens	   2
-Finne, Jalmari 1874-1938	   2
+Finne, Jalmari	   2
 Finnish Lutheran Book Concern	   2
 Finnish-American Pblad Co	   2
 Finsk Militär Tidskrift	   2
@@ -1920,9 +1822,8 @@ Fredrikshamn stads svenska flikskola	   2
 Frenkell ja pojan kirjakauppa	   2
 Frenkelliläinen kirjap	   2
 Fria missionen i Finland	   2
-Friis, Aleks 1874-1939	   2
+Friis, Aleks	   2
 Fritius	   2
-Fritius, L J	   2
 Frivilliga brandkåren i Borgå	   2
 Fyren	   2
 G	   2
@@ -1937,7 +1838,6 @@ G.W. Wilén & Co	   2
 G.W. Wilén ja Kumpp	   2
 Gabriel Björckegrens änka	   2
 Gad	   2
-Gagneur, Bernhard	   2
 Garnier	   2
 Geogr. förening	   2
 Gerardus Valk et Petrus Schenk	   2
@@ -1958,7 +1858,6 @@ Gubernskaâ tipografìâ	   2
 Gust. Rylander	   2
 Gyldendalske boghandel	   2
 Gyldendalske Boghandel	   2
-Gylling, Edvard	   2
 H. Edgrenin kirjakauppa	   2
 H. Hagerup	   2
 H. Hässel	   2
@@ -1967,11 +1866,7 @@ Haberegger, Vitus	   2
 Hagelstam'in kirjakauppa	   2
 Hagen, Boëtius	   2
 Hahnsson	   2
-Haimila, E	   2
-Hakkarainen, A	   2
-Häkkinen, Samuel 1858-1918	   2
-Halinen, Helena	   2
-Hallstén, Onni	   2
+Häkkinen, Samuel	   2
 Hälsovännen	   2
 Hämäläisen kp	   2
 Hämeen läänin pohj. vaalipiirin nuorsuomalaiset	   2
@@ -1991,10 +1886,8 @@ Harrison & Sons	   2
 Harvard University Press	   2
 Hautala	   2
 Hedvig Sohlberg	   2
-Heikel, Gunnar	   2
-Heikel, Karl iel 1846-1919	   2
-Heikinheimo, Olli 1882-1973	   2
-Heiskanen, O	   2
+Heikel, Karl iel	   2
+Heikinheimo, Olli	   2
 Helios, jakaja	   2
 Helsingfors botaniska bytesförening	   2
 Helsingfors Central & bokbinderi	   2
@@ -2013,9 +1906,7 @@ Helsingin musiikkiyhdistys	   2
 Helsingin palvelijataryhdistys	   2
 Helsingin Uusi Kirjapaino-Osakeyhtiö	   2
 Helsingin Uusi Musiikkikauppa, K.G. Fazer	   2
-Helsingius, Nä̈ma	   2
 Hembygdsförening i Åbo	   2
-Hemmer, Helga	   2
 Hemskoleexpeditionen	   2
 Henckel, Martin	   2
 Hengellinen totuusliitto	   2
@@ -2024,31 +1915,23 @@ Henkivakuutusoy Salama	   2
 Henkivakuutusyhtiö Kaleva	   2
 Henric Keysers änka	   2
 Herättäjä-yhdistys	   2
-Hernberg, Alarik	   2
-Heurlin, Paula Af	   2
 Heurlinska skolan	   2
 Heyno	   2
-Hildén, Konr	   2
 Hjalmar Renvall	   2
-Holmberg, G O	   2
 Homanniania Heredibus	   2
 Homannianorum Heredum	   2
 Hornborg & Co	   2
 Hornyánszky Viktor kiadása	   2
-Hortling, Ivar	   2
-Hougberg, Konrad Aleksis 1849-1923	   2
+Hougberg, Konrad Aleksis	   2
 Huittisten kansanopisto	   2
 Hulda Liljeström	   2
 Huldberg	   2
 Hulkenroy, Izaak van's erven	   2
-Hummelin, Juho Werner	   2
 Huvudstadsbladi'in kirjapaino	   2
-Hyvärinen, M F	   2
 i Karis	   2
 I. F. K	   2
 I.J. Granlundin kustannuksella	   2
 I.J. Ingberg	   2
-Ikonen, Leander	   2
 Ilarejo Esperantista	   2
 Ilmajön maamiesseura	   2
 im verlage des Geogr. Instituts	   2
@@ -2060,7 +1943,6 @@ Ivar Willehad	   2
 Izdanìe O.N. Popovoj	   2
 Izdatel'stvo O.N. Popovoj	   2
 J	   2
-J-n, Herman	   2
 J. Cedervaller ja P	   2
 J. Cedervaller poikineen	   2
 J. Ehrlich	   2
@@ -2099,31 +1981,25 @@ Jacob Merkell	   2
 Jacobus Fredricus Blank	   2
 Jacobus Johannes Amnell	   2
 Jahnsson	   2
-Jalander, Y W	   2
 Jämsän kirjakauppa	   2
-Järnefelt, Eugen	   2
-Järvinen, Eero 1860-NA	   2
-Järvinen, Kyösti 1869-1957	   2
-Järvinen, Nestor	   2
+Järvinen, Eero	   2
+Järvinen, Kyösti	   2
 Johan Laurentius Horrns enkia	   2
 Johanna Cederwaller ja poika	   2
 Johannes Edvardus Öhman	   2
 Johannes Ericus Hongelin	   2
-Johansson, Osc V	   2
-Jokinen, Eeli 1888-1963	   2
-Jokinen, William 1889-1958	   2
+Jokinen, Eeli	   2
+Jokinen, William	   2
 Jönsuun kaupunki	   2
 Jönsuun Kp.-yhdistys	   2
-Joutsela, J N	   2
 Juho Häkkänen	   2
 Juho Nurhonen	   2
 Julius Springer	   2
 Justus Perthes	   2
-Jyrkänne, Herm	   2
 Jyväskylän Eläinsuojelusyhdistys	   2
 Jyväskylän kp	   2
 Jyväskylän vapaaehtoinen palokunta	   2
-K,  1846-1937	   2
+K	   2
 K. Bergroth	   2
 K. Birkenfel'd	   2
 K. È. Gol'm	   2
@@ -2136,11 +2012,9 @@ K.J. Gummerus o.y	   2
 K.O. Fontell	   2
 K.W. Hiersemann	   2
 Kaakkois-Karjalan kirjapaino	   2
-Kairamo, Hugo	   2
 Käkisalmen kaupungin rautatievaliokunta	   2
 Kalevalaseura	   2
-Kallio, Elin Oihonna 1859-1927	   2
-Kallio, V J	   2
+Kallio, Elin Oihonna	   2
 Kallmeyer, Johan Ernst	   2
 Kansallis-Osakepankki	   2
 Kansan näytelmäkirjasto	   2
@@ -2154,19 +2028,16 @@ Karjalan Kirjakauppa	   2
 Karjalan kirjakauppa ja kustannusliike	   2
 Karjalan Kirjakauppa- ja Kustannusliike	   2
 Karjalan työv. sanomalehti-osuuskunta	   2
-Kärki, Frans 1884-1965	   2
-Karttunen, K I	   2
-Karttunen, Uuno 1874-1959	   2
+Kärki, Frans	   2
+Karttunen, Uuno	   2
 Karvian kunta	   2
 Käsityönopettajat	   2
-Katavisto, Max Alfrid Wilhelm	   2
 Keis. Suomen talousseura	   2
 Keisarillinen Suomen talousseura	   2
 Keisarillisen Senaatin valtiovaraintoimituskunta	   2
 Kejserliga Alexanders Universitetet i Finland	   2
 Kejserliga Alexanders-universitetet	   2
 Kemink, Dirk	   2
-Keravuori, Elin	   2
 Keski-Pohjanmaan hevosjalostusliitto	   2
 Keski-Suomen hevosjalostusyhdistysten liitto	   2
 Keski-Suomen työväki	   2
@@ -2177,24 +2048,19 @@ Kirjapaino Sanan valta	   2
 Kirkkokäsikirjakomitea	   2
 Kirkkolakikomitea	   2
 Kiskon kunta	   2
-Kivialho, K	   2
 Kivipaino yhtiö	   2
 Klein	   2
-Klemetti, Heikki 1876-1953	   2
+Klemetti, Heikki	   2
 Klinkhardt	   2
 Knigoprodavca-tipografìâ M.O. Vol'fa	   2
 Köhler, Jacob Johann	   2
-Kohonen, A	   2
-Koivistoinen, Joh	   2
 Kokkolan paperikauppa	   2
 Kommunal centralbyrå	   2
 Kommunala sjukhuset i Åbo	   2
 Kommunalförvaltningen i Sibbo	   2
 Konstsamlingarna i Ateneum	   2
-Korpela, Kalle	   2
 Korsholms jordbruksskola	   2
 Koti ja yhteiskunta	   2
-Koti, Juhani	   2
 Kotimaisen teollisuuden edistämiskomitea	   2
 Kotka sjömans- och inre missionsförening	   2
 Kotkan työväenopisto	   2
@@ -2202,7 +2068,7 @@ Kp.-yhtiö Valo	   2
 Kraft, Per	   2
 Ksiegarnia polska	   2
 Ksiegarnia Polska	   2
-Kujala, Juho 1878-1919	   2
+Kujala, Juho	   2
 Kukkonen	   2
 kungliga Svenska sjökarte kontoret	   2
 Kustannus-o.y. Kataja	   2
@@ -2213,27 +2079,19 @@ Kustannusoy Herättäjä	   2
 Kustannusoy. Aikain Wartija	   2
 Kustannusyhtiö Maanviljelyskirjasto	   2
 Kutoma- ja paperiteollisuus	   2
-Kuusa, Pietari	   2
 Kymmene	   2
 L.W. Partanen	   2
-Laatija, Lapatossun	   2
 Lahden seudun nuorisoseurojen liitto	   2
 Laihian kunta	   2
 Lainopillinen Ylioppilastiedekunta	   2
-Laitinen, J	   2
 Lakimies	   2
-Lampinen, Niilo E	   2
 Landtbruksutställning	   2
 Landtdagsbiblioteket	   2
 Lang	   2
-Länkelä, Jaakko	   2
 Länsi-Suomi	   2
 Laukaan kunta	   2
 Leander	   2
-Lehto, Juho	   2
 Leikas	   2
-Leikku, J	   2
-Levander, K M	   2
 Lievendal	   2
 lifförsäkringsbolaget Suomi	   2
 Liikemiesherätystyön toimisto	   2
@@ -2242,7 +2100,7 @@ Limingan kansanopistolaisliitto	   2
 Lina Enroth	   2
 Lindebergska bokhandeln	   2
 Lindfors, Axel Heinrich	   2
-Lindgren, Anton Wilhelm 1831-1902	   2
+Lindgren, Anton Wilhelm	   2
 Lindh	   2
 Lindh, Johan	   2
 Lindh, Nils Magnus	   2
@@ -2255,14 +2113,11 @@ llkka	   2
 Lobedanius, Arnoldus	   2
 Loimaan nuorisoseura	   2
 Lönbohm, Lars	   2
-Lönnbohm, Kasimir Agathon	   2
 Looström & Coomp	   2
 Lounais-Suomen maanviljelysseura	   2
 Lounas-osuuskunta	   2
-Lundström, Gustaf Alexander	   2
-Luoma, Ernst Jaakko Konstantin	   2
 Luonnonystäväin yhdistys	   2
-Luoto, Kaarlo 1875-1947	   2
+Luoto, Kaarlo	   2
 Luth. evank.-yhdistys	   2
 Lutherilainen evank. -yhdistys	   2
 Lutherska evangeli-förening	   2
@@ -2279,18 +2134,14 @@ Maanviljelysvirkamiehet	   2
 Maaseututeaatteri-osakeyhtiö	   2
 Maataloushallitus	   2
 Maatalousseurojen neuvojain liiton puutarha-ammattiosasto	   2
-Määttälä, Evert	   2
 mag. J.C. Frenkellykeri. På egen bekostnad	   2
 Magistraten	   2
 Magnus Ericus Alopäus	   2
 Maisonneuve	   2
 Majlund ja Lyytisen kirjapaino	   2
 Mäkinen	   2
-Mäkinen, Lauri 1877-1935	   2
-Malmberg, E W	   2
-Mannermaa, J A	   2
+Mäkinen, Lauri	   2
 Manninen ja Ahlqvist	   2
-Mantere, Oskari	   2
 Manuzio	   2
 Marelius	   2
 Mart	   2
@@ -2303,7 +2154,6 @@ Matti Lehmus	   2
 Medelplan, Anders Johan	   2
 Mellersta Nylands folkhögskola	   2
 Merikarttalaitos	   2
-Merisointu, Sine	   2
 Merkurius	   2
 Metsähallitus	   2
 Meždunarodnö traktatnö obŝestvo	   2
@@ -2314,7 +2164,6 @@ Mikkelin työväenyhdistys	   2
 Milo'ske Boghandel	   2
 Ministerstvo putej soobŝenìâ	   2
 Möllers änka	   2
-Montonen, Arvid	   2
 Muntra musikanter	   2
 Mustalaislähetyksen keskustoimisto	   2
 Mustalaislähetys	   2
@@ -2323,16 +2172,13 @@ N. M. K. Y:n liitto	   2
 N.M. Lindhykeri	   2
 Naantalin kaupunki	   2
 Näma Helsingius	   2
-Neovius, Adolf	   2
 Nev Yorkin suomal. vapaa seura	   2
-Nicolay, Paul	   2
 Nielsen & Lundbek	   2
 Nord Western Mining Journal	   2
 Nordin, Carl Gustaf	   2
 Nordisk kirurgisk förening	   2
 Nordiska	   2
 Nordiska museet	   2
-Nordqvist, Osc	   2
 Nordström	   2
 Nuori Suomi	   2
 Nuorisoseura Sarastus	   2
@@ -2360,7 +2206,6 @@ O.V. Böhmert	   2
 Öflund & Petterson	   2
 Olánin kirjakauppa	   2
 Olsens Boghandel	   2
-Olsoni, Emerik	   2
 Oma Apu	   2
 Oscar af Heurlin	   2
 Oskar Dannholm	   2
@@ -2377,6 +2222,8 @@ Osuusliike Pyörä	   2
 Otava Jakaja	   2
 Otava, kustannusosakeyhtiö	   2
 Otto Anders	   2
+Otto Andersin kp	   2
+Otto Andersinin	   2
 Otto Wigand	   2
 Oulun kp	   2
 Oulun Kristillinen työväenyhdistys	   2
@@ -2393,9 +2240,6 @@ P. Virkkunen	   2
 P.A. Norstedt	   2
 P.B. Eklund	   2
 På eget	   2
-Paavo-kallio, Valfrid	   2
-Päiviö, Väinö	   2
-Palmén, E G	   2
 Palmgren	   2
 Paraisten kalkkivuori	   2
 Paraisten kalkkivuorioy	   2
@@ -2407,11 +2251,8 @@ Pelastusarmeija	   2
 per Joh. Kiämpe, regis Acad. Typogr	   2
 Perä-Pohjolan maamiesseura	   2
 Perä-Pohjolan maanviljelysseura	   2
-Perälä, Lauri	   2
-Pesonen, E J	   2
 Philipp Reclam	   2
 Pilecan, Petter Hansson	   2
-Pilvi, E	   2
 Pitra, Samuel	   2
 Pohjalainen valtuuskunta	   2
 Pohjan Tähden kp	   2
@@ -2422,7 +2263,7 @@ Pohjois-Karjalan kirjapaino-osakeyhtiö	   2
 Pohjoismaiden ilmoitustoimisto	   2
 Polyteknikernas förening	   2
 Polyteknikkojen yhdistys	   2
-Ponkala, E W 1862-1943	   2
+Ponkala, E W	   2
 Ponnistus	   2
 Porin Eläinsuojelus-yhteys	   2
 Porin Polkupyörä Klubi	   2
@@ -2433,17 +2274,14 @@ printed for T. Cadell and W. Davies Strand London, by R. Watts Crovn Court, Temp
 Privata svenskspråkiga läroverket i Kuopio	   2
 Punainen kaarti	   2
 Putnam	   2
-Puupponen, Jaakko	   2
 Pyh. hallitsevan synodin kirjapaja	   2
 Pyhin hallitseva synodi	   2
 Pyrkijän toimitus	   2
 R. Saxén	   2
 Raahen porvari- ja kauppakoulu	   2
 Raamatunkäännöskomitea	   2
-Raitio, K 1855-1924	   2
-Raivio, ram A	   2
+Raitio, K	   2
 Rakentajain kustannusoy	   2
-Ramsay, August	   2
 Ratamestari- ja esimiesyhdistys	   2
 Rauhan sanoma	   2
 Rauhan sanomain kustannusliike	   2
@@ -2453,11 +2291,9 @@ Rautatiekomitea	   2
 Rautatieläisten raittiusyhdistys	   2
 Ravesteyn, Johannes van I	   2
 Red. der Finnisch-ugrischen Forschungen	   2
-Relander, Konrad	   2
 röderna Hirsch	   2
 Roneliuksen kirjakauppa	   2
 Ronelius'en kirjakauppa	   2
-Ronkainen, H	   2
 Rossander	   2
 Rothe, Johann Gottlieb	   2
 Ruben	   2
@@ -2470,40 +2306,31 @@ S.-Peterb. Akademiska nauk	   2
 Säästöpankkien tarkastaja	   2
 saffären Express	   2
 Sahl. Billingsleys tryckeri	   2
-Sahlstén, P A	   2
 Saksa	   2
-Salminen, Väinö	   2
 Salon Eläinsuojelusyhdistys	   2
 Samuel Rumstedt	   2
 Sanan valta	   2
 Sandberg	   2
 Sandelin	   2
-Sandman, Gustaf Zachris	   2
-Sargren, Johan Engelbert	   2
 Satakunta	   2
 Satakunta bokhandeln	   2
 Saukko	   2
-Savolainen, Aaro Iivari	   2
 Savon työväen kp	   2
 Schindler, Georg Christian	   2
 Schleicher	   2
 Schnakenburgi trükk ja kulu	   2
 Schnoor, Johann Karl	   2
-Schöneman, Gustaf Oskar 1839-1894	   2
+Schöneman, Gustaf Oskar	   2
 Schultz, Johan Frederik	   2
 Schünmann, Johann Joachim Christian	   2
 Seligmann	   2
 Senaatin kirjapaino	   2
 Sentraali-kirjapaino	   2
-Senvall, Kaarlo Vilho	   2
-Serlachius, Gustaf Adolf 1830-1901	   2
+Serlachius, Gustaf Adolf	   2
 Sigfrid Flodin	   2
 Siipikarjanhoidon ystävät	   2
 Simon, Adolph	   2
-Sivunen, S	   2
-Sjöblom, Frida	   2
-Sjöblom, Hannes 1874-1944	   2
-Sjöström, Alfred	   2
+Sjöblom, Hannes	   2
 Sjukhemmet i Borgå	   2
 Social-demokratiska partiet	   2
 Sociala Central	   2
@@ -2529,11 +2356,8 @@ Stadsfullmäktige	   2
 Ståhlberg	   2
 Statens Historiska Museum	   2
 Steenbergen van Goor	   2
-Stenbäk, Josef	   2
 Studentkåren	   2
 Sulo Toivonen	   2
-Sunila, J E	   2
-Suolahti, Gunnar	   2
 Suom. kp	   2
 Suom. luth. evank.-yhdistys	   2
 Suom.-am. kustannusyhtiö	   2
@@ -2546,7 +2370,7 @@ Suomalainen kirjakauppa, jakaja	   2
 Suomalainen opera	   2
 Suomalainen siirtolaisyhtiö	   2
 Suomalainen teatteri	   2
-Suomalainen, K 1850-1907	   2
+Suomalainen, K	   2
 Suomalaisen puolueen asettama komitea	   2
 Suomalaisen sosialistijärjestön toimeenpaneva komitea	   2
 Suoman Evank. seura	   2
@@ -2617,7 +2441,6 @@ Suomen voimistelunopettajaliitto	   2
 Suomenkielisten teknikkojen seura	   2
 Suomi-opisto	   2
 Suomlaisen Kirjallisuuden Seura	   2
-Suvilumi, Joonas	   2
 Svahn	   2
 Svanbäk	   2
 Svanbäk & Coomp	   2
@@ -2633,11 +2456,10 @@ Svenska reallyceum i Helsingfors	   2
 Svenska studentförening	   2
 Svenska teaterföreningen i Finland	   2
 Sysmän kunta	   2
+T	   2
 T-vo R. Golike i A. Vil'borg	   2
-T,  NA-1928	   2
 Taiteilijaseura	   2
-Tallgren, A M 1885-1945	   2
-Tallqvist, Hj	   2
+Tallgren, A M	   2
 Tammelin	   2
 Tampereen kansalliskirjapaino	   2
 Tampereen Kansalliskirjapaino	   2
@@ -2654,14 +2476,13 @@ Tampereen taideyhdistys	   2
 Tampereen työväen sanomalehti-osakeyhtiö	   2
 Tampereen työväenopisto	   2
 Tampereen vapaaehtoinen palokunta	   2
-Tanttu, Antti 1884-1962	   2
+Tanttu, Antti	   2
 Teknillinen aikakauslehti Konetyömies	   2
 Teknillinen korkeakoulu	   2
 Tekniska förening i Finland	   2
 Telen	   2
 Telén ja K	   2
 Teosofinen Kirjakauppa ja Kustannusliike	   2
-Teräsvuori, Kaarlo	   2
 Terveydenhoitoyhdistys	   2
 Th. Michälsen & Tillge	   2
 The Robert Clarke Company	   2
@@ -2672,7 +2493,6 @@ tidning f. mjölkhushålln	   2
 Tidskriften Hemma & ute	   2
 Tidskriften Lukutupa	   2
 Tigerstedt	   2
-Timm, Allan	   2
 tip. Èkspedicìi zagotovlenìâ gos. bumag	   2
 tip. i hromolit. A. Tranšelâ	   2
 tip. t-va 'Obŝestvennaâ pol'za	   2
@@ -2692,8 +2512,7 @@ trykt hos Johan Laur. Horrn	   2
 trykt hos Olof Grahn	   2
 trykt hos P. Sohm	   2
 trykt, hos ... Jacob Merkell	   2
-Tulenheimo, Antti	   2
-Tunkelo, E A 1870-1953	   2
+Tunkelo, E A	   2
 Turisttrafik	   2
 Turun Eläinten Ystävät	   2
 Turun hovioikeus	   2
@@ -2723,7 +2542,6 @@ Työväen kustannus-osakeyhtiö	   2
 Työväen kustannusosakeyhtiö	   2
 Työväen kustannusyhtiö	   2
 Työväen sanolehti-o.y	   2
-Typpö, Leonard	   2
 Û.N. Èrlih	   2
 U.W. Telen & Co	   2
 Ulvilan kunta	   2
@@ -2731,7 +2549,6 @@ Unioni, Naisasialiitto Suomessa	   2
 Uniooni	   2
 Universitetsbiblioteket	   2
 Uno Knorrings fond	   2
-Uskela, Kaarlo	   2
 Utgg	   2
 Utgivare	   2
 Uudenmaan ja Hämeenläänien maanviljelysseura	   2
@@ -2747,7 +2564,6 @@ V. Pettersson	   2
 V. Solstrand	   2
 V. T	   2
 V.R. Kokström	   2
-Väänänen, Matti	   2
 Vaasan asianajotoimisto	   2
 Vaasan läänin eteläinen vaalipiiri	   2
 Vaasan työväenyhdistys	   2
@@ -2759,14 +2575,12 @@ Vapaa Ajatus	   2
 Vapaa sana	   2
 Variaykeri	   2
 Varsinais-Suomen suomenmielisten ylioppilaitten yhdistys	   2
-Varteva, Kaarle	   2
 Vartio-Torni	   2
 Vasa Nyheter	   2
 Vasa svenska lycei konvent	   2
 Västfinska Ungdoms	   2
 Västra Nylands folkhögskola	   2
 Veit & Co	   2
-Vennola, J H	   2
 Verkehrsbureau Norden	   2
 Verlag der Arbeiter-Versorgung	   2
 Verlag des Landes-Industrie-Comptoirs	   2
@@ -2789,14 +2603,14 @@ Voss	   2
 Vuoksi	   2
 W. Schultz	   2
 W. Soy	   2
+Waaranen	   2
 Wahlström & Låström	   2
 Wahlström, Lars	   2
 Wäinämöinen	   2
-Wainio, Edvard August	   2
 Wald. Churberg	   2
 Warén	   2
 Wasa Segelförening	   2
-Wegelius, K A 1864-1939	   2
+Wegelius, K A	   2
 Weilin	   2
 Weilin & Coumpp	   2
 Welter	   2
@@ -2810,8 +2624,6 @@ Wiipurin Kirjallisuusseura	   2
 Wiipurin Soutuklupi	   2
 Wiipurin uusi kirjapaino- ja sanomalehti-osakeyhtiö	   2
 Wilh. Booberg	   2
-Wilkman, A J	   2
-Willgren, Karl	   2
 William Heinemann	   2
 William Ruth	   2
 Wirtamo ja Markkula	   2
@@ -2823,12 +2635,11 @@ Yhteiskuntataloudellinen aikakauskirja	   2
 Ylioppilaiden keskusteluseura	   2
 Ylioppilaiden kristillinen yhdistys	   2
 Yrjö Weilin & Co	   2
-Yrjö-koskinen, E S 1858-1916	   2
+Yrjö-koskinen, E S	   2
 Z. Häggström	   2
 Zacharias Häggström	   2
 Zigenarmissionen	   2
 - & tidnings-	   1
--k, -s	   1
 : E. Wallenius	   1
 . Fylgia	   1
 . Systema oy	   1
@@ -2861,8 +2672,6 @@ Zigenarmissionen	   2
 <<<Author>>>n kustantama	   1
 <<<Author>>>tär	   1
 Å författare	   1
-A-r, W	   1
-A:n, Wilhelmiina	   1
 A. & gel'singforskoj central'noj tipografìi	   1
 A. Aavikko	   1
 A. Airaksisen kirjapaino	   1
@@ -2945,10 +2754,8 @@ A.W. Kaskinen	   1
 Aakkos yhdistys	   1
 Aalto	   1
 Aalto-raittiusseura	   1
-Aaltonen, V W	   1
 Aan	   1
 Aarne Pietinen	   1
-Aarnisalo, Otto	   1
 Aaron Gustavus Borg	   1
 Åbo  & tidning	   1
 Åbo Arbetare-Olyksfallsförsäkringsbolag	   1
@@ -2976,7 +2783,6 @@ Académie des Sciences de St. Pétersbourg	   1
 Acricola Kustannus-o.y	   1
 Ad. Bergman	   1
 Adam and Charles Blak	   1
-Adler, Ananias	   1
 Administration, Åbo  & tidning	   1
 Admiraltejskaâ Kollegïâ	   1
 Adolf Allardt	   1
@@ -3003,24 +2809,15 @@ Agronominen yhdistys	   1
 Agronominen Yhdistys	   1
 Agronoominen yhdistys	   1
 Åhlén &  Åkerlund	   1
-Ahlman, Erik 1892-1952	   1
-Ahlman, John E	   1
+Ahlman, Erik	   1
 Ahlqvist	   1
-Ahlqvist, Ellen	   1
-Ahlström, Bertel	   1
-Ahnger, Charles Emile	   1
-Ahonius, Karl Severin	   1
-Ahtela, H 1881-1968	   1
-Ahto, K A	   1
+Ahtela, H	   1
 Aignar Lajos Bizománya	   1
 Aikain vartijan kustannus	   1
 Aikain Wartijan kustannus	   1
 Aikakauskirja Spiritisti	   1
 Aikakauslehti Spiritisti	   1
-Ailio, Julius	   1
-äimä, F	   1
-Aimonen, Anton 1857-1927	   1
-Airila, Y	   1
+Aimonen, Anton	   1
 Akademia Nauk	   1
 Akademìâ nauk	   1
 Akademìâ Nauk	   1
@@ -3042,9 +2839,7 @@ Akseli Kivialho oy	   1
 Akseli Oinola	   1
 Akseli Rauhamaa	   1
 Akseli Skutnb	   1
-Akté-renvall, Aino	   1
 Aktiengesellschaftsdrukerei	   1
-ålander, K J	   1
 Ålands folkhögskola	   1
 Ålands Kulturhistoriska Museum	   1
 Ålands Missionförening	   1
@@ -3071,7 +2866,6 @@ Alexander Ruuth	   1
 Alexanders universitet	   1
 Alexanders Universitetet	   1
 Alexanders-universitet	   1
-Alexejeff, Th	   1
 Alf. Hölder	   1
 Alfred  Janssen	   1
 Alfred  Lagerbom	   1
@@ -3079,9 +2873,7 @@ Alfred Lagerblom	   1
 Alfred Lagerbom, jakaja	   1
 Alfred Lagerbomin jätt	   1
 Alfredus Waklin	   1
-Alfthan, Axel 1862-1934	   1
-Alfthan, Otto Ludvig Von	   1
-Alho, Ensio	   1
+Alfthan, Axel	   1
 Alkio	   1
 Allén	   1
 Alli Trygg-Helenius	   1
@@ -3112,8 +2904,6 @@ Andelslaget Kirjapainotaito	   1
 Andelslaget Varuboden	   1
 Anders Björckmans enka 	   1
 Anders Herman Chydenius	   1
-Anderson, Amos	   1
-Andersson, G A	   1
 Andr. Fred. Höst & Sön	   1
 Andr. Fred. Höst & söns	   1
 Andr. Fredr. Höst & Sön	   1
@@ -3147,34 +2937,26 @@ apud Petrum Wald, Acad. typog	   1
 Arbetare- och nykterhetsorgan för Södra Finland	   1
 Arbetets Vänner i Vasa	   1
 Argeologinen toimisto	   1
-Arho, A O	   1
 Arkeolooginen toimisto	   1
 Arkki	   1
 Armas Aavikko	   1
 Arminius Julius Withander	   1
 Arne Cederholm	   1
-Aro, J E	   1
-Aro, Otto Nikolai	   1
-Arokallio, Gust	   1
 Aron Gustavus Borg	   1
 Aron Isakoff	   1
 Arppe	   1
 Arrhenii sbokhandeln	   1
 Art. Institut Orell Füssli	   1
 Arti Grafiche Vicentine	   1
-Arvekari, B	   1
-Arvela, Elis	   1
 Arvid Genetz	   1
 Arvid Neovius	   1
 Arvo	   1
 Aschan & Comp	   1
 Ascher & Co	   1
-Aspelin, Henrik Emanuel	   1
 Åsvik	   1
 Åsvikin kp	   1
 Athenäum	   1
 Atte Mantere	   1
-Auer, Axel	   1
 Aug. Deubner	   1
 Aug. Eklöf	   1
 Aug. Ferdin. Strandberg	   1
@@ -3195,17 +2977,13 @@ Augustus Julius Linsén	   1
 Augustus Lindfors	   1
 Augustus Magnus Lilius	   1
 Augustus Schauman	   1
-Aunio, Aksel	   1
 Aura lehden osakeyhtiö	   1
 Aura-lehden osakeyhtiö	   1
 Auran kp	   1
 Auran uusi yhtiö	   1
-Aurén, P W 1826-1896	   1
+Aurén, P W	   1
 Aurora Kok	   1
 Aus dem Physiologischen Institut der Universität Bern	   1
-Autio, Nikolai	   1
-Avellan, Hjalmar	   1
-Avellan, Kaarola	   1
 Avenarius und Mendelssohn	   1
 Axel Berndtson	   1
 Axel Junker	   1
@@ -3217,16 +2995,14 @@ Axel Wilhelm Sohlström	   1
 Axel. R. Spoof	   1
 Axelius Fredricus Granfelt	   1
 Axelius Gvilielmus Lilienstrand	   1
-äyräpää, Matti 1852-1928	   1
+äyräpää, Matti	   1
 Az Athenäum irod. és nyomdai r.-t. kiadása	   1
 B	   1
 B. Boxström	   1
 Badhuskomitén	   1
 Bagge	   1
 Bahn & Wändel	   1
-Bahr, L	   1
 Baillière	   1
-Baklund, R J	   1
 Bäkman	   1
 Bäkman'in kirjapaino	   1
 Balhorn, Johann II	   1
@@ -3234,116 +3010,76 @@ Baltic-South Rangen ev. lut. seurakunta	   1
 Baptistsamfundets svenska konferens	   1
 Barbin, Claude	   1
 Bard, Marqvardt & Co	   1
-Bardy, Henri	   1
 Barnskyddsförening i Åbo	   1
 Barrie & son	   1
 Bartholomäus Ghotan	   1
 Bauer & Treuttel	   1
-Behse, Emil	   1
 bei Georg Joachim Göschen	   1
-Beker, Gösta	   1
-Beker, Thorvald	   1
 Bekman	   1
 Belgian avustusrahasto	   1
 Benjamin Frosterus	   1
 Benjamin Gottlieb Schneiders änka	   1
 Bensov	   1
 Bentley	   1
-Bergbom, Axel	   1
-Bergbom, J G	   1
-Berglund, Uno	   1
-Bergman, Mathias	   1
-Bergstedt, Karl Anders	   1
 Bergstrand	   1
-Bergström, C J	   1
-Bergström, J B	   1
 Berling, Carl Gustaf	   1
 Bernhardus Wilhelmus Brunou	   1
 Betelin seurakunnallinen nuorisopiiri Turussa	   1
 Beuermanns musikhandel	   1
 bey Gottfried Kiesevetter	   1
-Biaudet, Henry	   1
 Bibel-sällskapykeri	   1
 Bibelsällskap	   1
 Bibliothèqve Royale de Stokholm	   1
 bij Steenbergen van Goor	   1
 Biörckman, Anders	   1
 Birževye Vědomosti	   1
-Björkenheim, Carl Gustaf	   1
 Björklund	   1
-Björkman, Hj	   1
 Björn Schauman	   1
 Björneborgs folkbibliotek	   1
 Björneborgs nya bokhandel	   1
 Björneborgs stad	   1
 Björneborgs tidning	   1
-Bjugg, Emil	   1
 Blanco Lunos	   1
 Blom	   1
-Blomberg, K G	   1
-Blomberg, Karl Evert	   1
 Board of Improvement	   1
 Boel, Joachim	   1
-Böhm, Emil	   1
 Bökée	   1
 Bökerman	   1
-Bolander, A V	   1
 Boldt	   1
-Boldt, Robert	   1
 Bolman ja Karlsson	   1
 Bonsdorff	   1
-Bonsdorff, Artur Von	   1
-Bonsdorff, Axel Von	   1
-Bonsdorff, Karl Richard	   1
-Böök, Einar 1874-1957	   1
+Böök, Einar	   1
 Bore shipowners	   1
-Borenius, Aksel	   1
-Borg, Arvid	   1
-Borg, Väinö Griel	   1
 Borgå Folkhögskolas elev	   1
 Borgå järnväg	   1
 Borgå missionsbokhandel	   1
 Borgå Museiförening	   1
 Borgå stads realskola	   1
 Borgå-lyceister	   1
-Born, Eric Von 1897-1975	   1
+Born, Eric Von	   1
 Borotinski	   1
-Boström, H J 1876-1930	   1
+Boström, H J	   1
 Boxe, Willem Christiaens van der	   1
-Boxström, B	   1
 Brahestads Borgare- & Handelsskola	   1
-Brander, Arthur Harald	   1
 Brandförsäkring Fennia	   1
 Brändön huvilakaupunki	   1
 Braumüller	   1
-Brax, Kaarle Emil	   1
-Braxén, Hjalmar 1860-1909	   1
-Bredenberg, G A	   1
-Bremer, Nestor Maximilian	   1
-Brenner, Magnus 1843-1930	   1
-Brenner, Widar 1887-1932	   1
+Braxén, Hjalmar	   1
+Brenner, Magnus	   1
+Brenner, Widar	   1
 Brigola	   1
 Britanskö i inostrannö biblejskö obŝestvo	   1
 Britanskö i Inostrannö Bìblejskö Obŝestvo	   1
 Broderus Carolus Julius Witting	   1
 Brödrene Salmonsen J. Salmonsen	   1
-Broman, Fred H G	   1
-Brotherus, Hj V	   1
 Brudin	   1
 Brummer	   1
 Brunel, Pierre	   1
-Brüning, Johan	   1
-Brusila, A	   1
-Brusila, A H	   1
-Bruyn-ouboter, Ernst De	   1
 Bruzelius, Emanuel	   1
 Bryggeriindustriförening	   1
-Buch, Hans	   1
-Buch, Kurt	   1
 Buchdrukerei Carl Zviener	   1
 Buchdrükerei des typografischen Vereinn	   1
 Buchhandlung des Waisenhauses	   1
-Buddén, E J	   1
 Burdach	   1
 Bureaux de l'Artiste	   1
 by Jan ten Hoorn, böqverkooper, overʼt Oude Heeren Logement	   1
@@ -3380,7 +3116,6 @@ Calmann Lévy	   1
 Calumetin suomalainen kansallisseurakunta(Calumet )	   1
 Calumetin suomalainen kristillinen nuorisoyhdistys(Calumet )	   1
 Canadan suomalainen järjestö	   1
-Candolin, Einar	   1
 Car. Maur. Crusell	   1
 Carberg	   1
 Carl Adolf Öhrnberg	   1
@@ -3427,10 +3162,9 @@ Carolvs Alexander Lillström	   1
 Carolvs Christianvs Stenivs	   1
 Carolvs Iacobvs Kekman	   1
 Casa Editrice Romana	   1
-Castrén, Jalmar 1873-1946	   1
-Castrén, Ola	   1
+Castrén, Jalmar	   1
 Catuffe, Jean	   1
-Cederberg, Eino 1889-1963	   1
+Cederberg, Eino	   1
 Cedervaller & Son	   1
 Cedervallerin leski ja poika	   1
 Cederwaller, Anders	   1
@@ -3440,11 +3174,10 @@ Centrallaget för Handelslagen i Finlnd	   1
 Centralstyrelse för Finlands Svenska Arbetar, utgivare	   1
 Čertežnaâ Gosudarstvennago Admiraltejskago Departamenta	   1
 Champion	   1
-Chapelle, Albert De La	   1
 Charisius, Adam Christian	   1
 Charles Emil Boldt	   1
 Charles Muqvart	   1
-Charpentier, Axel 1865-1949	   1
+Charpentier, Axel	   1
 Chatto & Windus	   1
 Chelius & Comp	   1
 Chemlin, Kaspar	   1
@@ -3478,8 +3211,6 @@ Claudius Herm. Molander	   1
 Clavdivs Hermannvs Molander	   1
 Clemmerus, Joh	   1
 Clifford Sifton	   1
-Clopatt, Arthur	   1
-Clopatt, Arthur Rudolf	   1
 Clouberg & Coumpp	   1
 Clouberg ja k	   1
 Clouberg ja K. kirjakauppa	   1
@@ -3490,8 +3221,7 @@ Clouberg ja Kumpp. omist. W. Hoving	   1
 Clouck, Andries	   1
 Club des Nationalistes	   1
 Colburn	   1
-Colliander, A N	   1
-Collin, Otto 1850-1924	   1
+Collin, Otto	   1
 Collins Medical Institute	   1
 Colombo Cön	   1
 Comité permanent international des Assurances sociales	   1
@@ -3508,24 +3238,18 @@ Costianderin Lahjoitusrahasto	   1
 Cotta'sche Buchhandlung	   1
 Cröcker, Heinrich Christoph	   1
 Cronland, C. G	   1
-Cronstedt, Griel	   1
 Croy, Philippe de	   1
 Cygnäi galleri	   1
 D	   1
 D. Appleton and Company	   1
 D. van Nostrand	   1
 D.K. Wyyryläinen	   1
-Dahlberg, åke	   1
-Dahlin, T	   1
 Dalman	   1
 Daniel Medelplan	   1
 Daniel Nyblin	   1
 Danielson & Co	   1
-Danielson-kalmari, J R	   1
-Danielson, Joh Rich	   1
 Dankerts	   1
 Danmarks Afholdforening	   1
-Dannholm, Johannes	   1
 Dansk konstutställning	   1
 Das Wochen Blatt	   1
 David Kustaanpoika	   1
@@ -3536,7 +3260,6 @@ de l'imprimerie de N. Gretsch	   1
 de lʼimprimerie de F. Drechsler	   1
 de lʼimprimerie de P.P.A. Pluchart, Petite-Morskoї, No 120	   1
 de lʼImprimerie royale	   1
-De Pont, Fanny	   1
 Den internationella kommittén för fysisk	   1
 Dentu	   1
 Departament Narodnago prosvêŝenìâ	   1
@@ -3587,11 +3310,8 @@ Duluth, South Shore & Atlantic Railway	   1
 Dunajeff	   1
 Dunker	   1
 Duodecim	   1
-Duva, Uno Henrik Berndt	   1
 Dyberg	   1
 DYK'sche Buchhandlung	   1
-E	   1
-E,  1881-1968	   1
 E. Björkell	   1
 E. Gerbek	   1
 E. Hagelberg	   1
@@ -3629,7 +3349,7 @@ Edistysseura	   1
 Édité par la Commission des collections Antell	   1
 Edith Strengin kirjakauppa	   1
 Edludn	   1
-Edlund, G W 1829-1907	   1
+Edlund, G W	   1
 Edlund, kustantaja	   1
 Edlundin kustannus	   1
 Edlundin kustannusoy	   1
@@ -3653,29 +3373,23 @@ Eemil Forsgren	   1
 Eemil Suvanto	   1
 Eero Huima	   1
 Eero S	   1
-Eerola, Albert	   1
 Eesti kirjastusühisus 'Postimees	   1
 Effingham Wilson	   1
 Eggers u. C:o	   1
 Ehdottoman raittiuden seura	   1
 Ehrlich	   1
 Ehrnrooth	   1
-Ehrnrooth, Gustaf Robert	   1
-Ehrström, Fredrik August 1801-1850	   1
-Ehrström, Robert	   1
+Ehrström, Fredrik August	   1
 Ekenäs missionbokhandel	   1
 Ekenäs Pappers- & Missionsbokhandel	   1
 Ekenäs stad	   1
 Ekenäsoluta nykterhetsförening	   1
 Ekhéll	   1
-Ekholm, Evert	   1
-Eklöf, Harald	   1
-Ekman, Gunnar 1883-1937	   1
+Ekman, Gunnar	   1
 Ekmansexpedition	   1
 Ekmanson, Johan Samuel	   1
 Ekonomiska samfundet i Finland	   1
 Eksteinska	   1
-Ekström, N	   1
 Eläinsuojelus	   1
 Eläinsuojelus-yhdistys	   1
 Eläinsuojeluskonttori	   1
@@ -3691,12 +3405,9 @@ Elfström	   1
 Eliel Saarinen	   1
 Ellen Nervander	   1
 Elmén ja Granberg	   1
-Elo, Efr	   1
 Elon r.l	   1
-Elovaara, Ernst Wilhelm	   1
 Elving	   1
-Elving, Fredrik 1854-1942	   1
-Elving, H	   1
+Elving, Fredrik	   1
 Elzevier, Isaac	   1
 Elzevier, Johannes Erven	   1
 Elzevier, Lowijs III	   1
@@ -3722,15 +3433,9 @@ Emma Hedman	   1
 en la emprenta de Iame Romeu, delante Santiago	   1
 Endter, Johann Daniel	   1
 Engberg & Holmberg	   1
-Engdahl, John	   1
-Engel, raham	   1
-Engelberg, G	   1
-Engelberg, Rafäl	   1
 Englannin ja ulkomaan Biblia-seura	   1
-Enkell, Karl	   1
 Enok Rytkönen jakaja	   1
 Enqvist	   1
-Ensiö, Armas	   1
 Eos expedition	   1
 Ephraim Kempes änka	   1
 Epworth-liitto Walo	   1
@@ -3738,7 +3443,6 @@ Er. Aleksander Ingman	   1
 Ericus Alexander Ingman	   1
 Ericus Otto Planman	   1
 Erik Johan Blom	   1
-Erikson, Maria	   1
 Erio	   1
 Erland Villehad Gyllenbögel	   1
 Èrlih	   1
@@ -3747,7 +3451,6 @@ Ernst Hofman	   1
 Ernst Linder	   1
 Ernst Lönn	   1
 Ernst Siegfried Mittler und Sohn	   1
-Eronen, Oliver	   1
 Ervast	   1
 Esa Paavo-Kallio	   1
 Esbo hembygdsforskningförening	   1
@@ -3755,7 +3458,7 @@ Esbo segelförening	   1
 Esbo Ungdomsförening	   1
 Eskil Mattsson	   1
 Eskil Renfors	   1
-Eskola, Pentti 1883-1964	   1
+Eskola, Pentti	   1
 Esso	   1
 Esteri S. Kurvinen	   1
 Etelä Savon kp	   1
@@ -3774,7 +3477,6 @@ Etelä-Suomen, Lounais-Suomen ja Satakunnan maanviljelijäin klubit	   1
 Etelä-Suomi	   1
 Eteläsuomalainen osakunta	   1
 Eud. Tenkanen	   1
-Europäus, Aarne	   1
 Euterpe	   1
 Eva Ljungberg	   1
 Evangeli-Kören	   1
@@ -3853,19 +3555,16 @@ Farmaceuternas pensionskassa i Finland	   1
 Farmaceutiska förening	   1
 Farmasiankandidaattiklubi	   1
 Fastighetsegareförening	   1
-Faust,  1879-1918	   1
+Faust	   1
 Favorin	   1
 Fazer	   1
 Fazer & Westerlund	   1
-Federley, Harry 1879-1951	   1
+Federley, Harry	   1
 Felix Alcan	   1
 Felix Hyrske	   1
-Fellman, Arno	   1
 Ferber, Augustin II	   1
 Ferd. Dümmler	   1
 Ferd. Dümmler's Verlagsbuchhandlung	   1
-Fieandt, Einar	   1
-Fieandt, H. Von	   1
 Fiedler, Gotthold Ludvig	   1
 Filosofinen tiedekunta	   1
 Filosofiska fakultetens Historisk-filologiska  sektion	   1
@@ -3873,7 +3572,7 @@ Filosofiska fakultetens Historisk-filologiska sektion	   1
 Finalands Svenska Gymnastik- & Idrotts	   1
 Finansexpeditionen	   1
 Fincelius, Hiob Wilhelm	   1
-Finelius, Karl August 1814-1894	   1
+Finelius, Karl August	   1
 Finland Brandstodsförening	   1
 Finland Steamship Co., Suomalainen Rahalähetys- ja Pilettiliike	   1
 Finlandian toimisto	   1
@@ -3973,8 +3672,6 @@ Finskö obŝestvo spasanìâ na morě	   1
 Finskt Idrottsblad	   1
 Fischer	   1
 Fiskeriförening	   1
-Fleege, Gunnar A	   1
-Flink, Johan August	   1
 Föfr	   1
 Folkbiblioteket i Åbo	   1
 Folkbiblioteket i Borgå stad	   1
@@ -4002,20 +3699,12 @@ Föreningen Verdandi	   1
 Föreningsbanken	   1
 Föreningsbankens i Finland	   1
 Förs	   1
-Forsberg, Aug B	   1
-Forsblom, A	   1
-Forsblom, Alarik	   1
 Forselius	   1
-Forsgren, Eemil 1860-1922	   1
-Forsman, Anton Oskar	   1
-Forsman, Jaakko 1839-1899	   1
-Forsman, Kaarle Valdemar	   1
-Forsman, Kaarlo Yrjö	   1
+Forsgren, Eemil	   1
+Forsman, Jaakko	   1
 Forssan kirjakauppa	   1
 Forssan työväen keskuskomitea	   1
-Forsström, O A	   1
 Forstadius	   1
-Forstén, Dagmar	   1
 Forststyrelses	   1
 Forstyrelse	   1
 Fotografiamatörklubben	   1
@@ -4038,7 +3727,6 @@ Fransiscus Gustavus Palander	   1
 Fransiscus Ludovicus Schauman	   1
 Franz Philip Paulssen	   1
 Franz Philip Paulssens änka	   1
-Fraser, Otto	   1
 Fratelli Bracali	   1
 Frecnkell, Johan Christofer	   1
 Fredericus Bergstadi	   1
@@ -4063,9 +3751,6 @@ Frenkell & sons bokhandeln	   1
 Frenkellin ja pojan kirjakauppa	   1
 Frenkellska . Söderström & Co	   1
 Frenkellska bokhandeln	   1
-Frey, Alexander	   1
-Frey, Johan A	   1
-Freyberg, A	   1
 Freyschmidt, Kaspar	   1
 Fria Missionens Exp	   1
 Frica de Regina	   1
@@ -4073,11 +3758,9 @@ Frid. Wilh. Aug. Argelander	   1
 Frider. Julius Petersén	   1
 Fridericus Berndtson	   1
 Fridericus Woldstedt	   1
-Friedmann, Hermann	   1
 Friedr. Vieveg & Sohn	   1
 Friedrich Andreas Perthes	   1
 Friedrich Nicolai	   1
-Fritius, H	   1
 Fritze & Bagge	   1
 Fritzes	   1
 Frivilliga Brand Kåren	   1
@@ -4093,8 +3776,7 @@ FSJ:s verkstäders arbetarförening	   1
 Fues	   1
 Fugas	   1
 Furis	   1
-Furuhjelm, Edvard	   1
-Furuhjelm, Ragnar 1879-1944	   1
+Furuhjelm, Ragnar	   1
 G. Alfthan	   1
 G. Arvidsson O.-Y	   1
 G. Björkman	   1
@@ -4144,7 +3826,6 @@ G.W. Enlund	   1
 G.W. Londicer	   1
 G.W. Wilen	   1
 G.W. Wilén ja kumpp	   1
-Gahmberg, Thyra	   1
 Gamlakarleby Andelsmejeri	   1
 Gamlakarleby landskommun	   1
 Gamlakarleby Segel Förening	   1
@@ -4161,7 +3842,6 @@ gedrukt bei M.C. Iversen	   1
 Gedrukt bey Friedrich Drechsler	   1
 gedrukt in der buchdrukerei der Kaiserlichen Akademie der Wissenschaften	   1
 Geitlin	   1
-Geitlin, Fritz	   1
 GEJ  ja K	   1
 GEJ ja K	   1
 Gel'singforskaâ central'naâ tipografìâ	   1
@@ -4189,17 +3869,12 @@ getrukt bey Wilhelm Christian Glasern	   1
 Giard et Brière	   1
 Gidrografičeskij departament' Morskago Ministerstva	   1
 Gieseke	   1
-Gilse Van Der Pals, Max H. Van	   1
-Gilse Van Der Pals, N. Von	   1
 Glasunovan kp	   1
 Glavnö Upravlenìe General'nago Šta	   1
 Gleditsch, Johann Friedrich I	   1
 Gleerupska universitetsbokhandeln	   1
-Glökner, D G	   1
-Godenhjelm, B F	   1
 Goldschmidt	   1
 Gollner, Johann	   1
-Göös, Hjalmar	   1
 Gornyj učiliŝe	   1
 Goschen	   1
 Göschen	   1
@@ -4207,40 +3882,23 @@ Göschen, Georg Joachim	   1
 Gosudarstvennaâ duma	   1
 Göteborgs Handels-Tidning	   1
 Gottlieb John	   1
-Gottlund, Carl Axel	   1
 Götzke, Georg	   1
-Granfelt, Axel Fredrik 1815-1892	   1
-Granö, J G	   1
+Granfelt, Axel Fredrik	   1
 Grant Richard	   1
-Grefberg, Wilhelm 1842-1886	   1
+Grefberg, Wilhelm	   1
 Greflinger, Friedrich Conrad	   1
 Griel Mavritivs Wänerberg	   1
 Griel Tuuri	   1
 Griesbach	   1
-Gröhn, E	   1
-Gröhn, H G	   1
-Grönberg, John	   1
-Gröndahl, A T	   1
 Gröndahl, A. W	   1
-Gröndahl, Hugo Walentin	   1
-Grönholm, Väinö	   1
-Grönlund, Karl	   1
-Grönroos, Hjalmar	   1
-Grönvall, Alfred Julius	   1
 Gröönroos ja K	   1
-Grotenfelt, Carl	   1
-Grotenfelt, Gösta 1855-1922	   1
-Grotenfelt, Kustavi	   1
-Groundström, Edvard	   1
+Grotenfelt, Gösta	   1
 Gubernskaâ tipografiâ	   1
 Guðm. Gamalíelsson	   1
 Gugo Štejnic = Hugo Steinitz	   1
 Guido Grönvall	   1
 Guido Hornborg	   1
 Gumerus	   1
-Gummerus, Herman	   1
-Gummerus, Jaakko	   1
-Gummerus, Julius Immanuel	   1
 Gunnar F. Kahlson	   1
 Gusev	   1
 Gust. Bergroth	   1
@@ -4263,7 +3921,6 @@ Gutenberg kp	   1
 Gutenbergs	   1
 Gygnäi galleri	   1
 Gyldendaske Bokhandel Nordisk	   1
-Gyllenbögel, E V	   1
 Gymnastikförening för fruntimmer i Helsingfors	   1
 H	   1
 H:fors Typografförening	   1
@@ -4298,20 +3955,12 @@ H.W. Marjamaan kirjapaino	   1
 Haakon Tönnessen	   1
 Haapajärven säästöpankki	   1
 Haga ungdomsförening	   1
-Hagelberg, K T	   1
-Hagelin, Sam	   1
-Häggman, Ossian	   1
-Hahl, Carl	   1
-Hainari, K	   1
 Hakala & Coumpp	   1
 Håkan Ohlssonykeri	   1
 Hakaniemen kirjakauppa oy	   1
-Hakulinen, Heleena Sofia	   1
-Hall, Lilius	   1
-Hällström, A J	   1
 Halme	   1
 Halonen	   1
-Halonen, Alex 1878-1946	   1
+Halonen, Alex	   1
 Hälsovännens expedition	   1
 Hämäläinen osakeyhtiö	   1
 Hämäläis-osakunnan kotiseutututkimusvaliokunta	   1
@@ -4346,8 +3995,6 @@ Haminan raittiusyhdistys	   1
 Haminan rautatie	   1
 Haminan sanomat	   1
 Haminan suom. kp	   1
-Hammar, Rauha	   1
-Hammarén, J E	   1
 Hammarin, Johan Petter	   1
 Hammond	   1
 Hamnkommittén	   1
@@ -4371,62 +4018,39 @@ Hangon pyhäkoulutoiminta	   1
 Hankasalmen maamiesseura	   1
 Hankkija 	   1
 Hankoniemen kp.- ja sanomal.-osakeyhtiö	   1
-Hänninen, Kaarlo	   1
-Hannula, Edvard 1859-1931	   1
+Hannula, Edvard	   1
 Hanselli	   1
 Hantverks- & Friksförening	   1
-Hårdh, Rafäl	   1
 Haridus	   1
 Harjavallan kunnallislautakunta	   1
 Harland	   1
-Härmä, F V	   1
-Harmaja, Hilja	   1
 Harper, T	   1
 Harrison and sons	   1
 Hartausviikon toimikunta	   1
 Hartknoch, Johann Friedrich	   1
 Hartvall	   1
-Hartvall, Gösta	   1
 Hasse W. Tullberg	   1
 Hasselrot, Erik	   1
 Hästavelsförening Nylands Hippos	   1
-Hastig, Johannes	   1
-Hauvonen, Nikodemus	   1
-Hedberg, John	   1
 Hedeler	   1
 Heggström	   1
-Heikel, Fredrik Hjalmar Jalmari	   1
-Heikel, Yngvar 1889-1956	   1
-Heikinheimo, Mikko	   1
-Heikkeli, Eino	   1
+Heikel, Yngvar	   1
 Heilala	   1
-Heilala, Yrjö	   1
 Heinäveden kunta	   1
 Heinemann	   1
 Heinolan Eläinsuojelus-Yhdistys	   1
 Heinolan lehti	   1
 Heinonen	   1
-Heinonen, Verner	   1
-Heinrichs, Alfred	   1
 Heinricius	   1
-Heinricius, G	   1
 Heinscheidt, Anton	   1
 Heinze	   1
-Heiskanen, Aatu	   1
 Hekivakuutusyhtiö Suomi	   1
-Helenius, A 1852-1919	   1
-Helenius, Taavetti	   1
+Helenius, A	   1
 Helge Erichsen	   1
 Helge Wilén	   1
 Helilän kauppaosuuskunta r. l., julkaisija	   1
 Helin ja K	   1
-Helle, Juhana Augustinus	   1
-Hellfors, J A	   1
-Hellström, Rafäl H	   1
-Helminen, Heimo 1878-1947	   1
-Helo, Johan	   1
-Helomaa, Juho	   1
-Helsing, Herman	   1
+Helminen, Heimo	   1
 Helsinge kommun	   1
 Helsinge svenska ungdomsföreningars centralförbund	   1
 Helsingfors accidens	   1
@@ -4543,10 +4167,8 @@ Helsingin yliopiston vapaa-ajattelijayhdistys Prometheus	   1
 Helsingin yliopiston ylioppilaskunta	   1
 Helsovårdsförening	   1
 Helving	   1
-Heman, G A	   1
 Hembygdens Vänner i Hangö	   1
 Hembygdsföreningen i Åbo	   1
-Hemmo, Kaarlo	   1
 Hempel	   1
 Hemskolexpeditionen	   1
 Hengellinen konsistorio	   1
@@ -4566,17 +4188,14 @@ Henricus Samuel Savenius	   1
 Henricus Wegelius	   1
 Henricvs Constantinvs Corander	   1
 Henrik Konstantin Korander	   1
-Henriksson, Hilja	   1
 Henry Colburn and Richard Bentley	   1
 Henry Paulin & C:ie	   1
 Henry S. Eland	   1
-Henttu, S V	   1
 Herättäjän sisälähetysyhdistys	   1
 Herder	   1
 Herman Bakman	   1
 Herman Kalliola	   1
 Hertz, Johann Georg	   1
-Hertzen, E. Von	   1
 Heurlin	   1
 Hevosjalostusliittojen edustajisto	   1
 Hevoskasvatusyhdistys	   1
@@ -4584,56 +4203,37 @@ Hevoskasvatusyhdistys Uudenmaan Hippos	   1
 Hevosmies	   1
 Heymann	   1
 Hierta	   1
-Hiilivirta, Eino	   1
 Hilda Lagerstedt	   1
 Hilda Montell	   1
-Hildén, K. Aug	   1
 Hilja Haahti	   1
 Hilja Kronqvist	   1
-Hillilä, Hugo	   1
-Hiltunen, P J	   1
-Hindersson, R	   1
 Hindmarsh, Robert	   1
-Hinkula, Matti	   1
 Hinrichs	   1
-Hintikka, E A	   1
-Hintikka, S V	   1
 Hipposyhdistys	   1
-Hirvikanta, Valde	   1
-Hirvinen, Salomon 1834-NA	   1
-Hisinger, A	   1
-Hisinger, F L	   1
+Hirvinen, Salomon	   1
 Historiallinen seura	   1
 Hj. Braxén	   1
 Hj. Braxen jakaja	   1
 Hjalmar Lax	   1
 Hjalmar Möller	   1
 Hjalmar Suomikko	   1
-Hjelt, Edv 1855-1921	   1
-Hjelt, Otto Edvard August 1823-1913	   1
-Hjelt, Vera	   1
+Hjelt, Edv	   1
+Hjelt, Otto Edvard August	   1
 Hjeltska bokhandeln	   1
-Hoffström, K A	   1
 Högforsin osuuskauppa	   1
-Högman, Volter	   1
 Högre Svenska Handelsläroverket	   1
 Högre svenska handelsläroverket i Helsingfors	   1
 Hökerberg	   1
 Holger Schildt, förlagsaktiebolag	   1
 Holger Schildt, jakaja	   1
-Hollming, Frans Victor	   1
 Hollolan kunta	   1
 Holmberg	   1
-Holmberg, M	   1
 Holmbergska bokhandel	   1
 Holmerus	   1
 Holmes & Co	   1
-Holsti, östen	   1
 Holwein, Kaspar	   1
-Homén, Olaf 1879-1949	   1
-Honkala, K F	   1
+Homén, Olaf	   1
 Honkanen	   1
-Honkanen, David Gustaf	   1
 Honkojoen kunta	   1
 Höpfner, Michaels Witwe	   1
 Hoppe	   1
@@ -4643,8 +4243,6 @@ Hörlin	   1
 Hornyánsky Viktor kiadása	   1
 Hornyánszky Viktor Kiadása	   1
 Houry, Laurent Charles d'	   1
-Hovilainen, Adiel	   1
-Hovilainen, Johan	   1
 Hromolitografìâ P. Â. Ivanova	   1
 Hugo Heller & Cie	   1
 Hugo Hurmerinta	   1
@@ -4653,15 +4251,12 @@ Hugo Winter	   1
 Hulkenroy, Mozes van	   1
 Hultman	   1
 Humanité nouvelle	   1
-Humu, Martti 1852-1915	   1
-Huotari, Anton	   1
+Humu, Martti	   1
 Hurst & Blakett	   1
 Hushållningssällskap	   1
 Husmoder i Helsingfors	   1
 Huvudstadblad	   1
 Hvita Bandet	   1
-Hyren, Frederic	   1
-Hyttinen, Juho	   1
 Hyvinge klädesfrik	   1
 Hyvinkään kirjakauppa	   1
 I. Covens et C. Mortens	   1
@@ -4684,17 +4279,13 @@ Idän suomalainen raittius yhdistys	   1
 Idän suomalainen raittiuskansan liitto	   1
 Idän Suomalaisen raittiusk. liitto	   1
 Idän uutisten kirjapaino	   1
-Idman, Gösta	   1
-Idman, Karl Gustaf	   1
 Iduna	   1
 Ignati` Meurer	   1
 Iisalmen Eläinsuojelusyhdistys	   1
 Iisalmen yhteiskoulu	   1
 Iisalmen Ylivieskan Rautatiekomitea	   1
 Ikaalisten kunta	   1
-Ikonen, Karl Leander	   1
 Ilarejo esperantista	   1
-Ilenius, Taavi	   1
 Ilmajoen kunta	   1
 Ilmajoen maamiesseura	   1
 Ilmajön kristillinen työväenyhdistys	   1
@@ -4704,10 +4295,8 @@ Ilmari Palmén jakaja	   1
 Ilmari R. Lindqvist, utgivare	   1
 Ilmarinen	   1
 Ilmoittaja sanomalehden ja kustannusliikkeen kp	   1
-Ilvonen, Eero	   1
 im Verlage des Geograph: Instituts	   1
 im Verlage des Geograph. Instituts	   1
-Immonen, Lauri	   1
 Imperatorskaâ akademìâ nauk	   1
 Imperatorskaâ akademìâ nayk	   1
 Imperatorskaja akademija nauk	   1
@@ -4727,8 +4316,7 @@ Industriidkarenes i Finland Ömsesidiga brandstodsförening	   1
 Industriidkarenes Ömsesidiga Brandstodsförening	   1
 Industriskolan i Åbo	   1
 Industriskolans i Helsingfors	   1
-Ingberg, Elin	   1
-Ingman, Lauri 1868-1934	   1
+Ingman, Lauri	   1
 Inkerin talonpoika	   1
 Institut für innere und gerichtliche Tiermedizin	   1
 Institutet för unga flikor i Borgå	   1
@@ -4748,7 +4336,6 @@ Iso-Britannia	   1
 Isohiisi, jakaja	   1
 Isojön raittiusseura	   1
 Isojön v. 1909 laulujuhlan toimikunta	   1
-Isokuortti, I	   1
 Israel Falcks änka	   1
 Itä-Hämeen kustannustoimisto	   1
 Itä-Hämeen maanviljelysseura	   1
@@ -4756,15 +4343,12 @@ Itä-Karjalan hevosjalostusyhdistysten liitto	   1
 Itä-Karjalan maanviljelysseura	   1
 Itä-Suomen hevosjalostusyhdistysten liitto	   1
 Itä-Suomen kirjapaino	   1
-Itkonen, T I	   1
 Itsenäinen kieltolakiwalitsijayhdistys	   1
 Iv. Iverus	   1
-Ivanheimo, Aleksi	   1
 Ivar Haggström	   1
 Ivar Häggström	   1
 Ivar Häggströmin kp	   1
 Iversen	   1
-Iversen, Felix	   1
 Ivstvs Theodorvs Svanström	   1
 izd. avtora	   1
 Izdanïe 'Věstnika vyborgskoj krěpostnoj artillerïi	   1
@@ -4879,20 +4463,12 @@ Jämsän Eläinsuojelus-Yhtiö	   1
 Jämsän kansanopisto	   1
 Jämsän kansanopiston toveriliitto	   1
 Janakkalan kunta	   1
-Janhunen, August	   1
-Jännes, Juho	   1
 Jansen	   1
-Janson, Georg F	   1
-Jansson, E	   1
 Jantusen paperikauppa, jakaja	   1
 Järnbrukens olyksfallförsäkringbolag	   1
 Järnvägskomité	   1
 Järnvägskomitén	   1
 Jarrold & Sons	   1
-Järvelä, G	   1
-Järveläinen, T	   1
-Järvi, T H	   1
-Järvinen, K V	   1
 Jauch, Samuel	   1
 Jauhiainen	   1
 Jernvägsmannaförening	   1
@@ -4919,6 +4495,7 @@ Johan Hagemanns änka	   1
 Johann Bussemacher	   1
 Johanna Cedervaller et Son	   1
 Johanna Cedervaller ja poika	   1
+Johannes	   1
 Johannes Albertus Söderholm	   1
 Johannes Albertus Tengén	   1
 Johannes Granö	   1
@@ -4931,10 +4508,9 @@ Johannes Matthias Sundvall	   1
 Johannes Oscar Immanuel Ranken	   1
 Johannes Reginaldus Bergstadi	   1
 Johannes Witikka	   1
-Johannes,  1862-1920	   1
 Johansson	   1
-Johansson, Erik 1867-1944	   1
-Johansson, Walter 1884-1936	   1
+Johansson, Erik	   1
+Johansson, Walter	   1
 John B. Alden	   1
 John Grieg	   1
 John M. Johnson	   1
@@ -4946,9 +4522,6 @@ John Senex	   1
 John Svanljung	   1
 John Wiley & Sons	   1
 Johnsson	   1
-Johnsson, August Mikäl	   1
-Johnsson, Oskari	   1
-Jokinen, Hofrat T E	   1
 Jones & Piggott	   1
 Jönsuun eläinsuojeluyhdistys	   1
 Jönsuun kaupungin rautatietoimikunta	   1
@@ -4967,9 +4540,7 @@ Jos. Seligmann & C	   1
 Joseph Philipp Schalbacher	   1
 Josephus Grönberg	   1
 Josephus Joachim. Alcenius	   1
-Joutseno, G	   1
 Joutsenon 'Tenho	   1
-Judén, Jesiel	   1
 Judiska skolan i Helsingfors	   1
 Juha Lehto	   1
 Juhani Koti	   1
@@ -4977,7 +4548,6 @@ Juhannustulen toimitus	   1
 Juho Hellman	   1
 Juho Kartano	   1
 Juho Tyyskä	   1
-Jukola, Jussi	   1
 Jul. Gjellerup	   1
 Jules Renouard, Libraire	   1
 Julius Ephr. Bergroth	   1
@@ -4988,7 +4558,6 @@ Julius Klinkhardt	   1
 Julius Krohn	   1
 Julius Rodzievicz	   1
 Julutställningskalenderns expedition, G.H. Lindblad	   1
-Jungell, Felix	   1
 Jurid. studentfakulteten	   1
 Juridiska fakulteten	   1
 Juridiska Fakulteten	   1
@@ -4996,11 +4565,7 @@ Juridiska förening i Finland	   1
 Juridiska föreningen i Finland	   1
 Juridiska studentfakulteten srörelse	   1
 Juridiska studentfakultetensrörelse	   1
-Jusélius, Emil	   1
-Juusela, Väinö	   1
 Juvan säästöpankki	   1
-Juvelius, J W	   1
-Juvelius, Valter H	   1
 Jyväskylä kyrka	   1
 Jyväskylän kauppalaisseura	   1
 Jyväskylän kesäyliopisto	   1
@@ -5013,7 +4578,7 @@ Jyväskylän pitäjä	   1
 Jyväskylän seminaarin kristillinen yhdistys	   1
 Jyväskylän Suomen kirjallisseura	   1
 Jyväskylän teknillinen yhdistys	   1
-K-la, J 1878-1919	   1
+K-la, J	   1
 K-oh-o	   1
 K-S. työv.sanomalehti osuuskunta	   1
 K. E: Holm	   1
@@ -5067,21 +4632,15 @@ Kaarle Ala	   1
 Kaarle Halme ja K	   1
 Kaarlo A. Helin	   1
 Kaarlo Saarnio	   1
-Kaarne, Antti	   1
-Kaasalainen, Antti	   1
 Kaatra	   1
-Kadenius, F W	   1
 Kadettkåren	   1
-Kaikkonen, Axel	   1
-Kaila, Toivo T 1884-1961	   1
-Kaitila, Wilhelm	   1
+Kaila, Toivo T	   1
 Kajaanin hevosjalostusliitto	   1
 Kajaanin kihlakunnan maanviljelysseura	   1
 Kajaanin kp	   1
 Kajaanin sanomalehti- ja kirjapaino	   1
 Kajaanin sos.-dem	   1
 Kajava, Yrjö	   1
-Kajava, Yrjö 1884-1929	   1
 Käki	   1
 Käkisalmen Eläinsuojelus-Yhdistys	   1
 Käkisalmen kirjapaino	   1
@@ -5096,19 +4655,10 @@ Kalenteri Oy	   1
 Kaleva-yhtiö	   1
 Kalevan Naiset	   1
 Kalle Sola	   1
-Kallén, I V	   1
-Kallén, Johan Viktor	   1
-Kallio, Hemmo	   1
-Kallio, O A	   1
-Kallio, Topi	   1
 Kammarexpeditionen i Kejserliga Senaten	   1
 Kampen	   1
 Kamratgillet	   1
 Kancelârìâ Sověta ministrov	   1
-Kangasvuo, Johannes	   1
-Kankaanpää, V	   1
-Kankaapää, Elias	   1
-Kanninen, Volmari	   1
 kansa	   1
 Kansainvälinen ammattiyhdistysliike	   1
 Kansainvälinen Raamatun tutkijain seura	   1
@@ -5134,30 +4684,22 @@ Kansanvalistusseuran luonnontieteellinen kirjasto	   1
 kansanvalistusseuran Uudenkaupungin haaraosasto	   1
 Kansanvalta	   1
 Kansataloudellinen yhdistys	   1
-Kantele, Wäinö Vilhelm	   1
 Karelische Buchhandlungs- und Verlagsaktiengesellschaft	   1
-Kares, K R	   1
-Karhu, Antti 1844-1926	   1
+Karhu, Antti	   1
 Karisto, jakaja	   1
 Karjalainen osakunta	   1
-Karjalainen, August	   1
-Karjalainen, Kasper	   1
 Karjalan Kirjakauppa ja Kust	   1
 Karjalan Kirjakauppa ja Kustannusliike	   1
 Karjalan kirjapaino-osakeyhtiö	   1
 Karjalan Maalaiskansan sanomalehti-osakeyhtiö	   1
 Karjalan työväen sanomalehti-osuuskunta	   1
 Karjalan ylendys-seura	   1
-Kärki, Anna	   1
-Kärki, J A	   1
 Karl Axel Gottlund	   1
 Karl J. Trübner	   1
 Karl Roine	   1
 Karola	   1
-Karsten, Henrik 1877-1959	   1
+Karsten, Henrik	   1
 Karstula	   1
-Karvonen, A	   1
-Karvonen, Juhana Jaakko	   1
 Käsiteollisuuskirjasto	   1
 Käsiteollisuuslehti	   1
 Kaskisten kp	   1
@@ -5168,9 +4710,7 @@ Kasvatus-opillinen yhtiö	   1
 Kataja, keskinäinen henkivakuutusyhtiö	   1
 Katolska kyrkan i Finland	   1
 Kauhajön nuorisoseura	   1
-Kauhanen, Walfrid	   1
 Kauhavan nuorisoseura	   1
-Kauko, Yrjö	   1
 Kauppa-asioimisto Merkur	   1
 Kauppakorkeakoulu	   1
 Kauppakorkeakoulukomitea	   1
@@ -5195,7 +4735,6 @@ Keisarillinen Aleksanterin-yliopisto	   1
 Keisarillinen kirjapaino	   1
 Keisarillinen senaatti	   1
 Keisarillinen Turun akatemia	   1
-Keisarillisen Senaatin Kirjapaino	   1
 Keisarillisen Senaatin Oikeustoimituskunta	   1
 Keisarillisen Suomen Aleksanterin yliopiston rahakinetti	   1
 Keisarillisen Suomen talousseura	   1
@@ -5212,7 +4751,6 @@ Kemin Rauhanyhdistys	   1
 Kemin työväenseura	   1
 Kemin uudessa Kirjapainossa	   1
 Kempe, Ephraim	   1
-Kemppi, Albin	   1
 Keravan työväenyhdistys	   1
 Keräystoimikunta	   1
 Keski-Hämeen rautatietoimikunta	   1
@@ -5230,21 +4768,12 @@ Keskustoimikunta	   1
 kiadja a Szent-István-Társulat	   1
 Kiadja Hornyanszky Viktor	   1
 Kieltolakikomitea	   1
-Kihlberg, Carl	   1
-Kiianlinna, Akseli Konrad	   1
-Kiianlinna, Ilmari	   1
 Kiikalan kunta	   1
 Kiikoisten kunta	   1
 Kiikoisten osuusmeijeri	   1
-Kiiskilä, John	   1
-Kiiveri, A	   1
-Kilpi, O K	   1
-Kilpi, S	   1
 Kilpinen	   1
-Kilpinen, Oskari	   1
 Kimito kommun	   1
 Kimito Ungdomsförening	   1
-Kinos, K V	   1
 Kints, Everard	   1
 Kiøbenhavnske Selskab af Lærdoms og Videnskabers Elskere	   1
 Kirchbaum	   1
@@ -5267,7 +4796,6 @@ Kirjapaino Sanan valta, jakaja	   1
 Kirjapaino-yht	   1
 Kirjapainoyhtiö Valo	   1
 Kirjapainoyhtiö Walo	   1
-Kirjarinta, Jalmari	   1
 Kirjavälitys	   1
 kirjoittaja	   1
 Kirjoittaja ja painaja	   1
@@ -5278,23 +4806,16 @@ Kisakenttä	   1
 Kisel, Gottmann Friedrich	   1
 Kittilän Alakylän kirjastoyhdistys	   1
 Kiukaisten kunta	   1
-Kivekäs, F E	   1
-Kivekäs, K F	   1
 Kivennavan osuuskauppa	   1
-Kivijärvi, Erkki 1882-1942	   1
-Kivikari, A	   1
-Kivikoski, J F	   1
-Kivinen, Pentti	   1
-Kivisalo, Otto	   1
-Kivistö, Jaakko 1871-1906	   1
+Kivijärvi, Erkki	   1
+Kivistö, Jaakko	   1
 Kivityö<<<Author>>>in liitto	   1
 Kjellbeck, Peter	   1
 Kjellberg, Anders	   1
-Kjöllerfelt, Marcus	   1
 Klassiska lyceum i Wasa	   1
 Klinkhardt & Biermann	   1
 Klokars	   1
-Knaapinen, M A 1863-1954	   1
+Knaapinen, M A	   1
 Knauer	   1
 Knigoizdatel'stvo A.E. Vineke	   1
 knigoprodavec Nepejcyn	   1
@@ -5312,15 +4833,12 @@ Koito	   1
 Koitto lehti	   1
 Koitto-lehden toimisto	   1
 Koiviston Eläinsuojelusyhdistys	   1
-Koivunen, Kustaa	   1
 Kojonjön osuusmeijeri	   1
 Kok- & Stuertskolans i Åbo	   1
 Kokemäen kunta	   1
-Kokkinen, Severin	   1
 Kokkolan kaupungin rautatiekomitea	   1
 Kokkolan kirjapaino	   1
 Kokkolan Suomalaisen yhteiskoulun 'Toverikunta	   1
-Kokkonen, Heikki	   1
 kokoaja	   1
 Kokoilia	   1
 kokoilija	   1
@@ -5343,31 +4861,12 @@ Konstitutionella Arbetareförbundet i Finland	   1
 Konstitutionella ungdomsklubben	   1
 Konstmuseum i Helsingfors	   1
 Konstnärliga ssammanslutningen, Lappalainen, Blomqvist, Malin	   1
-Koponen, Edvard	   1
-Koponen, Wilhelm	   1
 Korian osuuskauppa	   1
 Korkeakosken kauppa	   1
 Korkeasaaren eläintarha	   1
-Kormano, A	   1
-Korolev, Viktor	   1
-Koronen, J	   1
-Korpela, Kaarle	   1
-Korpela, T. Hj	   1
-Korpi, Frans	   1
-Korpimaa, Timo	   1
-Korvenkoski, Viktor	   1
-Koskela, J	   1
 Kosken Tl kunta	   1
-Koskenjaakko, A A	   1
-Koskenmaa, Erik Johan	   1
-Koski, Lahja	   1
-Koskimies, Juho Rudolf	   1
-Koskimies, K V	   1
-Koskimies, Kaarlo 1881-1951	   1
-Koskinen, Heikki	   1
-Koskinen, J E	   1
-Koskinen, Karl Jooseppi	   1
-Koskinen, Yrjö Sakari 1830-1903	   1
+Koskimies, Kaarlo	   1
+Koskinen, Yrjö Sakari	   1
 Kostitutionella Arbetare i Finland	   1
 Kostnaðarmaður Oddur Björnsson	   1
 Kotikielen seura	   1
@@ -5389,7 +4888,6 @@ Kotkan suomalainen sanomalehti	   1
 Kotkan suomalainen sanomalehti-osakeyhtiö	   1
 Kotkan työväenasuntovaliokunta	   1
 Kotkan Työväenyhdistys	   1
-Kovero, Martti	   1
 Kp. 'Sanoma	   1
 Kp. Suomi	   1
 Kp.-'Kotka	   1
@@ -5397,7 +4895,7 @@ Kp.-o.y. 'Sanoma	   1
 Kp.-o.y. Sanoma	   1
 Kp.-oy 'Sanoma	   1
 Kp.-oy. Toivo	   1
-Kramsu, Kaarlo 1855-1895	   1
+Kramsu, Kaarlo	   1
 Kreatursförsäkringsbolaget	   1
 Kreatursförsäkringsbolaget i Finland	   1
 Krist. naisyhdistys	   1
@@ -5412,10 +4910,7 @@ Kristliga förening af Unga Kvinnor, jakaja	   1
 Kristliga förening af unga qvinnor	   1
 Kristliga förening af unge män	   1
 Kröger, Aswer	   1
-Krogerus-ritoniemi, W J G	   1
-Krohn, Aune	   1
 Kronen-Verlag	   1
-Kronman, A	   1
 Kronoborgs landtbruksinstitut	   1
 Kronoby andelsmejeri	   1
 Kronoby folkhögskola	   1
@@ -5428,11 +4923,8 @@ KS kp	   1
 KS. kirjapaino	   1
 Ksiazka	   1
 Kühn, Balthasar	   1
-Kuivalainen, P	   1
 Kulhanen	   1
 Kumblin, Lars	   1
-Kumlin, Aarne	   1
-Kumpulainen, Ida Sofia	   1
 Kumpuniemi	   1
 Kun. suomalaisesa kirja-präntisä	   1
 kungliga book, hoos sal. Wankiffs änkia	   1
@@ -5473,11 +4965,8 @@ Kuopion uusi kirjapaino Jakaja	   1
 Kuparialueen raittiusliitto	   1
 Kurikan kunta	   1
 Kuriren	   1
-Kurkela, Taneli	   1
 Kurkijoen kunta	   1
 Kurkijön kunta	   1
-Kuronen, P V	   1
-Kurvinen, Esteri S	   1
 Kustaa Wiklund	   1
 Kustannus & y. Kansa	   1
 Kustannus ja kirjapaino osakeyhtiö Sampo	   1
@@ -5508,11 +4997,9 @@ Kustannusyhtiö Kirja	   1
 Kustannusyhtiö Osmo Ventola ja kumpp	   1
 Kustantamo Salama	   1
 Kutoma- ja paperiteollisuuslehti	   1
-Kuula, Matti	   1
 Kuulijakunta	   1
 Kuusamon työväenyhdistys	   1
 Kuusankosken työväenyhdistys	   1
-Kuusi, Aarne	   1
 Kuvallinen aikakauslehti Lukutupa	   1
 Kvevlaks hembygdsförening	   1
 Kvinnliga studenters kristliga förening	   1
@@ -5532,12 +5019,11 @@ Kyminlaakson työväen sanomalehti-osuuskunta	   1
 Kymintehtaalaisten osuuskaupan i. l. hallitus, julkaisija	   1
 Kymmene Interimsflottningsförening	   1
 Kynä	   1
-Kyrklund, Rafäl	   1
 Kyrkolagskomité	   1
 Kyrkolagskommittén	   1
 Kyrkslätt Skärgårds Ungdomsförening	   1
 Kytäjän osuuskauppa	   1
-L,  NA-1893	   1
+L	   1
 L:rannan tuberkulosinvastustamisyhdist	   1
 L. Enroth	   1
 L. Hagan, jakaja	   1
@@ -5558,7 +5044,6 @@ La Popular	   1
 La Societo 'La Polusstelo'	   1
 Lääkintähallitus	   1
 Lääkintölaitos	   1
-Laaksovirta, Aarne	   1
 Laatokka	   1
 Lagerlund	   1
 Lagermann	   1
@@ -5566,7 +5051,7 @@ Lagerstedt	   1
 Lägre handtverksskolan i Helsingfors	   1
 Lägre hantvärksskolan	   1
 Lähde	   1
-Lähde, Vihtori 1892-1961	   1
+Lähde, Vihtori	   1
 Lahden kansanopisto	   1
 Lahden kauppalan Eläinsuojelus Yhdistys	   1
 Lahden kirjakauppa	   1
@@ -5583,14 +5068,8 @@ Lahden uusi kp	   1
 Lähetys-seura	   1
 Lähetysyhdistys	   1
 Laihian nuorisoseura	   1
-Laiho, Antto	   1
-Laine, Eevert 1878-1960	   1
-Laine, V J	   1
-Laitinen, A A A	   1
-Laitinen, Antero Vilho	   1
-Laitinen, Artturi	   1
-Laitinen, Johannes 1869-NA	   1
-Laitinen, Taav	   1
+Laine, Eevert	   1
+Laitinen, Johannes	   1
 Lammin Eläinsuojelus-Yhdistys	   1
 Lammin Eläinsuojeluyhdistys	   1
 Lampel R. Könyvkereskedése	   1
@@ -5604,7 +5083,6 @@ Landtbruksutställningen i Åbo	   1
 Landtmannanken	   1
 Landtmätareförening	   1
 Längelmäen säästöpankki	   1
-Lankinen, J	   1
 Lännen Co-op. kustannusyhtiö	   1
 Lännen Tähti	   1
 Lännen työväen ko-op. kustannus	   1
@@ -5629,7 +5107,6 @@ Lapin Maatalousseura	   1
 Lapinlahden kunta	   1
 Lapinlahden maamiesseura	   1
 Lapinlahden osuusmeijeri	   1
-Lappala, Risto	   1
 Lappeen maamiesseura	   1
 Lappeenrannan ja Lapveden Eläinsuojelus- ja Hevosystäväin Yhdistys	   1
 Lappeenrannan käsityöläis- ja tehtailijayhdistys	   1
@@ -5645,13 +5122,7 @@ Larose	   1
 Läröverket för gossar och flickor i Helsingfors	   1
 Lars Kumblins enka	   1
 Lars Stenbäk	   1
-Larsson, L	   1
 Läse-sällskapet i Helsingfors	   1
-Lassila, D	   1
-Lassila, Kaarlo	   1
-Lassy, Ivar	   1
-Lattu, Pekka	   1
-Latvala, Jaakko Wilho	   1
 Laulunopettajayhdistys	   1
 Laur. Leonh. Lindelöf	   1
 Laurelia, Brita Christina	   1
@@ -5661,35 +5132,19 @@ Laurentius Jacobus Stenbäk	   1
 Laurentius Stenbäk	   1
 Lauri Itkonen	   1
 Lauri Mäkinen	   1
-Lauri, K A	   1
-Lavonius, Magnus Karl	   1
-Lavonius, W A	   1
 Le Monnier	   1
 Leander & Sandberg	   1
 Leffler & Sebell	   1
-Lehén, Emil	   1
 Lehmann, Zacharias Witwe	   1
-Lehtinen, Arvi	   1
-Lehtinen, Juho	   1
-Lehtinen, Taavi 1858-1933	   1
-Lehto, Frans	   1
-Lehtonen, Herman	   1
-Lehtonen, J V	   1
-Lehtonen, K V	   1
-Lehtonen, M	   1
-Lehtonen, Matti	   1
-Lehtonen, U L 1870-1927	   1
-Leidenius, Laimi	   1
+Lehtinen, Taavi	   1
+Lehtonen, U L	   1
 Leikas and C:o	   1
-Leiviskä, Iivari	   1
 Lemos, Luís José Correia de	   1
 Lempäälän kunta	   1
-Lempinen, K	   1
 Lentolehtikomitea	   1
 Leon Dekroz	   1
 Leonhard Simion	   1
-Leppälä, Juhani 1880-NA	   1
-Leppänen, Pekka	   1
+Leppälä, Juhani	   1
 Leppävirran kunta	   1
 Leppävirran sos.-dem. kunnallistoimikunta	   1
 Levittäjä: O.-Y. Waseniuksen kirjakauppa	   1
@@ -5716,44 +5171,28 @@ Liittotoimikunta	   1
 Lilius & Hertsberg	   1
 Lilius & Hertzberg Schildt	   1
 Lilius i Gercberg	   1
-Lilius, F O	   1
 Lilius' i Gertcberg	   1
 Lilja	   1
 Lilja ja Kumpp	   1
 Liljestrand	   1
 Lillie, Maren	   1
 Lillja & Coumpp	   1
-Lillqvist, Otto	   1
 Limingan kunta	   1
 Limingan Nuorisoseura	   1
 Limingan osuuskauppa	   1
-Lindberg, John Gustaf	   1
 Lindbergs	   1
 Lindborg	   1
 Lindebergin kirjakauppa	   1
-Lindeqvist, Björn	   1
-Lindeqvist, K O	   1
-Lindfors, Akseli	   1
 Lindgren ja Kumpp. kustannusliike	   1
-Lindh, Adam	   1
-Lindh, E A	   1
-Lindholm, F K E	   1
-Lindholm, K	   1
-Lindholm, K E	   1
 Lindicer, Georg Wilhelm	   1
-Lindman, Karl F	   1
-Lindman, Volmar 1861-1939	   1
+Lindman, Volmar	   1
 Lindqvist	   1
-Lindroos, Karl	   1
 Lindstedt'in antikavaarinen kirjakauppa	   1
 Lindstedts antiqv. bokhandel	   1
 Lindstedts antiqvar	   1
 Lindstedts Antiqvariska Bokhandel	   1
-Lindström, Fredr J	   1
-Lindström, Gunnar	   1
 Linnström	   1
 Linodlingskommitté	   1
-Liro, J I	   1
 Lit. Anstalt	   1
 literis Hantschenii	   1
 literis Wernerianis	   1
@@ -5764,15 +5203,11 @@ Lith.hos F. Lievendal	   1
 Litografìâ È. Arigol'da	   1
 Litografìâ F. Livendal	   1
 Litteratur	   1
-Ljungberg, Eva 1850-1919	   1
+Ljungberg, Eva	   1
 Löffler, Jacob	   1
-Löfman, O W	   1
-Lohipoika, Eetu	   1
 Loimaan ja Pöytyän säästöpankki	   1
 Loimaan lähetysyhdistys	   1
-Lojander, Konstantin Ludvig	   1
 Longmans, Green	   1
-Lönnbek, Gustaf F	   1
 Lönnroth	   1
 Lontoo, Englannin ja ulkomaan bibliaseura	   1
 Looström	   1
@@ -5782,8 +5217,6 @@ Lorenzo Sonzogno	   1
 Lork	   1
 Lotsstyrelse	   1
 Lotti Sandström bokhandel	   1
-Louhelainen, O A	   1
-Louhivuori, O W	   1
 Lounais-Hämeen sanomalehti-o.y	   1
 Lounais-Karjalan kansanopisto	   1
 Lounais-Suomen kotiteollisuusyhdistys	   1
@@ -5791,11 +5224,9 @@ Lounas Osuuskunta	   1
 Lounas oy:n kp	   1
 Lounasosuuskunnan kirjapaino	   1
 Lövegren	   1
-Lövegren, Elis	   1
 Lovisa Sparbank	   1
 LTY	   1
 Lucius, Peter I	   1
-Lujanen, Feliks	   1
 Lundblad, Johan	   1
 Lundsbergs skola	   1
 Luonnonparannus- ja terveydenhoitoyhdistys	   1
@@ -5821,10 +5252,6 @@ Luzac, Elie	   1
 Lyceum i Åbo	   1
 Lyceum i Borgå	   1
 Lydeken	   1
-Lyly, Julius Anshelm	   1
-Lyytikäinen, Kosti	   1
-Lyytinen, M	   1
-M	   1
 M. Hanemann	   1
 M. Knutzon	   1
 M. Lankinen	   1
@@ -5866,40 +5293,28 @@ Maatalousseurojen neuvojain liitto	   1
 Maatalousseurojen väliaikainen konetarkastuslaitos	   1
 Maataloustuottajain valtuuskunta	   1
 Maatalousvaliokunta	   1
-Määttälä, E	   1
 Maggie J. Walz	   1
 Magyar Tudományos Akadémia	   1
 Maire, Joannes	   1
 Maitotalouden lehti	   1
-Majander, Salomon	   1
 Majlund & Lyytinen	   1
 Majlund ja Lyytinen	   1
-Mäkelä, H O	   1
-Mäkinen, Heikki	   1
 Mäkisen Tehdasliike	   1
 Mäkisen Tehdasliike o.y	   1
 Mäkisen tehdasliike-osakeyhtiö	   1
-Maksaja, Pikku	   1
-Malén, Anton Fredrik	   1
-Malin, Artur	   1
-Malkki, Aleksanteri	   1
-Malmberg, Emil	   1
 Malmska sjukhuset	   1
-Mandellöf, Wilhelm Adrian	   1
-Manninen, Otto 1872-1950	   1
+Manninen, Otto	   1
 Mäntän Naisyhdistys	   1
 Mäntän nuorisoseura	   1
 Mantsinsaari	   1
 Mäntyharjun kunta	   1
 Manz	   1
 Margariinikomitea	   1
-Marianpoika, Kalle	   1
 Marie A. Brovn	   1
 Mariehamns badsällskap	   1
 Mariehamnsoluta nykterhetsförening	   1
 Marjamaan kp	   1
 Marjanen	   1
-Markkula, Jaakko	   1
 Marqvardska	   1
 Marthaförening	   1
 Martin & Mäkelä	   1
@@ -5921,24 +5336,19 @@ Matti Vuolukka	   1
 Matti Waronen	   1
 Mattias Selo	   1
 Mattiesen	   1
-Mattsson, Aug	   1
 Maucke, Johann Michael	   1
 Maurice Dreyfous	   1
 Max Hesse	   1
 Max Schmidt	   1
 Medlemmar i Nordiska samfund till bekämpande af det vetenskapliga djurplågeriet	   1
 Meijeriliitto Muurahainen	   1
-Melander, Wilhart	   1
 mellan K.F.U.M. & U.K.F	   1
-Mellberg, Bruno	   1
 Mellersta Kyrkslätt Ungdomsförening, utgivare	   1
 Mellersta Österbottens vandrande folkhögskola	   1
-Meno, K. Eliel	   1
 Mercator kp	   1
 Mercators Expedition	   1
 Mercure de France	   1
 Merenkulkuhallitus	   1
-Meriluoto, Aino	   1
 Merimieskoulu jakaja	   1
 Merimieslähetys-yhtiö	   1
 Merkantil kp	   1
@@ -5977,14 +5387,11 @@ Mikkelin työväen sanomalehti-o.y	   1
 Mikkelin vesijohtolaitos	   1
 Mikko Kilpiä	   1
 Mikko Tammisen valitsijoita	   1
-Mikkola, Antti	   1
-Mikkonen, Pekka	   1
 Milo	   1
 Minervan kirjakauppa	   1
 Ministerstvo inostrannyh děl	   1
 Ministerstvo narodnago prosvěŝenìâ	   1
 Ministerstvo torgovli i promyšlennosti	   1
-Minkkinen, Aapel	   1
 Minnesota Commission of Public Safety	   1
 Minnesota Loyalty Lyceum, julkaisija	   1
 Minnesotan suomalais-amerikkalainen historiallinen seura	   1
@@ -5998,9 +5405,7 @@ Missionssällskap	   1
 Modeen	   1
 Modén	   1
 Mohr, C. F	   1
-Moilanen, Kaapro	   1
 Möller	   1
-Monell, Gregorius	   1
 Mons Litleré	   1
 Morave & Scheffelt Verlag	   1
 Morthorst, Dorothea	   1
@@ -6012,23 +5417,19 @@ Mošińooliso šehangeno lja literaturi ja Suomi	   1
 Mouhijärven osuusmeijeri	   1
 Müller, Christian	   1
 Munsala församling	   1
-Munter, I J	   1
 Murros ja Riippa	   1
 Museo botanico Universitatis helsingforsiensis	   1
 Museo Botanico Universitatis Helsingforsiensis	   1
 Museum Viburgense	   1
 Musikaliska sällskap i Åbo	   1
-Mustakallio, Joh 1846-1915	   1
+Mustakallio, Joh	   1
 Mustasaaren maamiesseura	   1
 Mustasaari Djurskyddsförening	   1
 Mustiala Landtbruksinstitut	   1
-Mustonen, Iida	   1
-Muttilainen, Karl Johan	   1
 Muuruveden osuusmeijeri	   1
 Myllykorpi	   1
 Myllymäki & Martell	   1
 Mynämäen kunta	   1
-Myrberg, P J	   1
 N. Gretsch	   1
 N. Kotkavuoren välitysliike, jakaja	   1
 N. Kymmel's Sortiment	   1
@@ -6061,12 +5462,8 @@ Närpes Understödsförening för Förolykade Hästar & Nötkreatur	   1
 Närpiön kunta	   1
 Näsijärvi segelsällskap	   1
 Nauru-Jussin toimitus	   1
-Näver, Jussi	   1
 Nelson & Co	   1
-Nenye, Eemi	   1
-Neovius, Ernst Fredrik	   1
-Neovius, Otto	   1
-Nepo,  1862-1943	   1
+Nepo	   1
 Nesslin ja Helin	   1
 Nev Yorkin suom. vapaa seura	   1
 Neva	   1
@@ -6074,9 +5471,6 @@ Nicolaus Andreas Gadolin	   1
 Nicolay	   1
 Nicolle, Gabriel-Henri	   1
 Niemeyer	   1
-Niemi, Clemens	   1
-Niemi, Juho	   1
-Niemi, Vihtori	   1
 Niilo Aejmeläus	   1
 Niilo Liakka	   1
 Nikolaistads folkbibliotek	   1
@@ -6085,7 +5479,6 @@ Nilsiän kunta	   1
 Nilson	   1
 Nionde allmänna finska köpmannamötet	   1
 Nisius, Johann	   1
-Niskanen, Onni	   1
 NMKY	   1
 Nöller, Georg Matthias	   1
 Noor-Eesti	   1
@@ -6099,7 +5492,6 @@ Nordiska Kirurgiska förening	   1
 Nordiska Samfundet för bekämpande af det vetenskapliga djurplågeriet	   1
 Nordiske	   1
 Nordmann	   1
-Nordström, Anders Wilhelm	   1
 Nordströmska ykeriet	   1
 Norsted & Söner	   1
 Nourrit & Co	   1
@@ -6111,7 +5503,6 @@ Nuoren Suomen toimitus	   1
 Nuoren Suomen viikkolehtiosakeyhtiö	   1
 Nuorisoseura	   1
 Nuorisoyhdistys Vasama	   1
-Nuormaa, Severi	   1
 Nuorsosialisti osuuskunta	   1
 Nuorsuom. puol. kanslia	   1
 Nuorsuom. puol. kanslia, julkaisija	   1
@@ -6124,9 +5515,6 @@ Nuorten kristittyjen yhdistys	   1
 Nuorten miesten krist. yhdistys	   1
 Nuorten Miesten Kristillinen Yhdistys	   1
 Nuorten naisten kristillisten yhdistysten liitto	   1
-Nuotio, Teuvo	   1
-Nurhonen, Heikki	   1
-Nurminen, K J	   1
 Nusser	   1
 Nutt	   1
 Ny jaktklubben	   1
@@ -6135,18 +5523,14 @@ Nya Svenska Läroverkets i Helsingfors	   1
 Nya svenska samskolan	   1
 Nya svenska samskolan i Helsingfors	   1
 Nya universitetsklinikerna	   1
-Nybergh, Vihtori	   1
 Nyfilologiska klubben i Helsingfors	   1
 Nygrén	   1
-Nykopp, Onni	   1
 Nylands Hippos	   1
 Nylands svenska ungdomsföreningars centralutskott	   1
 Nyländska Svenska landtmannagillenas	   1
 Nystads segelförening	   1
-Nystén, E R	   1
-Nyström, Bruno	   1
+O	   1
 o ykeri	   1
-O,  1850-1913	   1
 O. Andersin'in kp	   1
 O. Börje Waldén	   1
 O. Dannholm	   1
@@ -6189,7 +5573,6 @@ Obstetrisk-gynäkologiska kliniken	   1
 Öhmanska Bokhandeln i Borgå	   1
 Ohr, Philipp von	   1
 Oikeustoimikunta	   1
-Ojanen, Matti	   1
 oksk. tipograf. i gazetnö akcionernö obŝ	   1
 Ol. Hansen	   1
 Olai, Olaus	   1
@@ -6197,11 +5580,9 @@ Olànin kirjapaino yhtiön kirjapaino, jakaja	   1
 Olavi Penttinen	   1
 Olavus Gustavus Hollmeen	   1
 Oleviku	   1
-Oli, Joka	   1
 Ollendorff	   1
 Olonekago guvernskago zemstva	   1
 Olonekö otdělenìe Karel'skago bratstva	   1
-Olsson, Karl Sixtus	   1
 Olympiska spelen is Stockholm 1912 i bild och ord	   1
 Oma Kanta	   1
 Oma voima	   1
@@ -6216,7 +5597,6 @@ Ore	   1
 Orimattilan Naisyhdistys	   1
 Orisbergs mejeriskola	   1
 Oriveden osuuskauppa	   1
-örling, E W	   1
 Osake-yhtiö Hämäläisen kp	   1
 Osake-yhtiön kp	   1
 Osakeyhtiö Kuopio	   1
@@ -6230,7 +5610,6 @@ Osmo	   1
 Österbottens svenska kontvent	   1
 Österbottniska studentlånefonden	   1
 Österman ja Sola	   1
-östman, J O	   1
 Östra Finland	   1
 Östra Finland kp	   1
 Östra Nylands folkskollärarekår	   1
@@ -6262,7 +5641,6 @@ Osuuskunta Työkansa	   1
 Osuuskunta Visa r. l	   1
 Osuusliike Elanto	   1
 Ota o.y	   1
-Ottelin, A K	   1
 Otto andersin	   1
 Otto Andersin'in kp	   1
 Otto Andersinen kp	   1
@@ -6308,7 +5686,6 @@ Oven Electric Belt	   1
 Oxford University Press	   1
 Oy. Herman Lindell	   1
 Oy. Kirjapaino Sanan valta, jakaja	   1
-P-n, J	   1
 P. A:n ja N. B	   1
 P. A. Norstedt & söner	   1
 P. Ahlgrén	   1
@@ -6334,15 +5711,11 @@ på Alb. Bonnier	   1
 på C.R. Höök	   1
 på Wasenius' & Comp	   1
 Päällikköhallitus	   1
-Paananen, Henni	   1
-Paananen, Wäinö	   1
 Pääsiäis-uutisten toimitus	   1
-Paasikivi, J K	   1
 Päätoimikunta	   1
 Paavo Väyrynen	   1
 Paavo-Kallio	   1
 Padasjoen kunta	   1
-Pahlman, Oscar	   1
 Paimion kauppaosuuskunta	   1
 Paimion kunta	   1
 Painoyht	   1
@@ -6352,24 +5725,16 @@ Päivälehden K. Y	   1
 päivälehden kp	   1
 Päivälehden kustannusyhtiö	   1
 Päivälehti kustannusyhtiö	   1
-Päivänsalo, B H	   1
-Päivärinta, Jaakko Haniel 1847-1902	   1
-Pajula, J S	   1
-Pakkala, E W	   1
+Päivärinta, Jaakko Haniel	   1
 Pakkalan osuusmeijeri-osuuskunta	   1
-Palander, Gunnar	   1
-Palander, W F 1857-1889	   1
-Palkeinen, Juho	   1
-Palmberg, Bertil Albert	   1
+Palander, W F	   1
 Palmblad & C	   1
 Palmblad, Sebell & C	   1
 Palmblad, Sebell & co	   1
 Palmén	   1
-Palmén, A J	   1
 Palo- ja hengenvakuutusosakeyhtiö Svean asiamies	   1
 Palovakuutus-osakeyhtiö Pohjola	   1
 Palovakuutus-oy	   1
-Pälsi, Sakari	   1
 Paltamon kunta	   1
 Palvelijatarliitto	   1
 Paperikauppa 'Viertola	   1
@@ -6379,19 +5744,13 @@ Paraisten kalkkivuori oy	   1
 Parikkalan osuuskauppa	   1
 Paris-Neuchatel, Attinger frères, éditeurs	   1
 Parkanon säästöpankki	   1
-Parkkila, John	   1
-Paronen, Kalle	   1
-Pärssinen, Jaakko	   1
-Partanen, Helena	   1
 Partïâ soc.-revolûcïonerov	   1
 Partïâ socialistov' revolûcïonerov	   1
-Parviainen, Johan Walter	   1
 Pastor Troitskij	   1
 Paul Dettman	   1
 Paul Knepler	   1
 Paul Wahl & Co, Elek th	   1
 Paulus Tikkanen	   1
-Paunu, U	   1
 Payot & C:ie	   1
 pecatano v tipografii A.L. Krug	   1
 Pedagogiska hushållsskolan i Helsingfors	   1
@@ -6401,16 +5760,9 @@ Pekka Brofeldt jakaja	   1
 Pelastus-armeijan päämaja	   1
 Pelastusarmeija, kansainvälinen päämaja	   1
 Pelastusarmeijan kansainvälinen päämaja	   1
-Pelkonen, Armas Lauri Kustaa	   1
-Pelkonen, E J	   1
 Pellikka	   1
 Peltomiehen toimitus	   1
-Peltonen, Aug F	   1
 Peltosalmen maanviljelyskoulu	   1
-Pennanen, A	   1
-Pennanen, Kalle	   1
-Pennanen, Matti	   1
-Pennanen, Niilo	   1
 Perä-Pohjolan hevossiitosliitto	   1
 Perä-Pohjolan ja Lapin kotiseutuyhdistys	   1
 Perä-Pohjolan ja Lapin Kotiseutuyhdistys	   1
@@ -6421,12 +5773,10 @@ Perthes & Besser	   1
 Perttelin kunta	   1
 Pertti Uotila	   1
 Perustuslaillinen klubi	   1
-Petrelius, Albert	   1
 Petrus Adolphus Aschan	   1
 Petrus Ervast	   1
 Petrus Philippus Lindforss	   1
 Petterson	   1
-Petterson, Gustaf	   1
 Pfotenhauer, Paul Günther	   1
 Ph. Reclam	   1
 Ph. U. Strengberg & Co	   1
@@ -6441,19 +5791,16 @@ Pietari Brofeldt	   1
 Pietarin suomalainen hyväätekeväisyysseura	   1
 Pietarsaaren työväen osuuskauppa	   1
 Pietarsaaren työväenyhdistys	   1
-Pietilä, Antti J 1878-1932	   1
+Pietilä, Antti J	   1
 Piiritoimikunta	   1
 Piirustuksenopettajayhdistys	   1
 Piispain kokous	   1
 Pikert	   1
 Pilpola	   1
 Pingströrelsen	   1
-Piponius, E A	   1
-Pipping, Nils	   1
 Pirkkalan kunta	   1
 Pitkänen	   1
-Pitkäniemi, F M	   1
-Planting, Birger 1886-1964	   1
+Planting, Birger	   1
 Plon etc	   1
 Plon-Nourrit	   1
 Plon-Nourrit & C:ie	   1
@@ -6461,7 +5808,6 @@ Ploompuu	   1
 Pluchart	   1
 Pluchart, Alexander	   1
 Põhjä-Liivimaa põllutõõ keskseltsi kirjastus	   1
-Pohjala, Lauri	   1
 Pohjalainen ylioppilaslainarahasto	   1
 Pohjan Leimu	   1
 Pohjan tähden kirjapaino	   1
@@ -6472,8 +5818,7 @@ Pohjanmaan kirjateollisuus-o.y. kp	   1
 Pohjanmaan kirjateollisuus-oy	   1
 Pohjanmaan työväen osuuskirjapaino	   1
 Pohjanmaan Työväen Osuuskirjapaino	   1
-Pohjanpalo, Santeri 1874-1939	   1
-Pohjanpalo, Tuomas	   1
+Pohjanpalo, Santeri	   1
 Pohjois-Hämeen Nuorisoseurain liitto	   1
 Pohjois-Hämeen sos. dem. nuoriso-osastojen piiritoimikunta	   1
 Pohjois-Karjalan kp	   1
@@ -6492,7 +5837,6 @@ Pohjolan kustannus-osakeyhtiö	   1
 Pohjolan tukkityöläisten rengas	   1
 Pojo andelsförening u.t., utgivare	   1
 Politiken	   1
-Polviainen, Jehki J	   1
 Polyteknillisen opiston kirjasto	   1
 Porilaisten kirjapaino	   1
 Porin käsityöläis- ja tehtailijayhdistys	   1
@@ -6515,9 +5859,6 @@ Posti- ja lennätinlaitoksen ylihallitus	   1
 Postisäästöpankki	   1
 Postivirkamiehet	   1
 Postparbanksstyrelse	   1
-Pötsi, A	   1
-Poukka, K A	   1
-Pouttu, Matti	   1
 Pöytyän kunta	   1
 präntätty C.E. Barkilta	   1
 präntätty Christ. Ludv. Hjeltin tykönä	   1
@@ -6556,7 +5897,6 @@ Provodnik	   1
 Przeglądu Narodovego	   1
 published for the University of London by John Murray	   1
 Puijo	   1
-Pulkkinen, Kasper	   1
 Punakaarti	   1
 Punanen kaarti	   1
 Punkalaitumen kunta	   1
@@ -6565,7 +5905,6 @@ Punkalaitumen osuuskauppa	   1
 Puromiehen kp	   1
 Pursiseura Maininki	   1
 Puttkammer & Mühlbrecht	   1
-Puukko, A F	   1
 Puumalan pitäjä	   1
 Pyh. hallitseva synoodi	   1
 Pyh. hallitsevainen Synodi	   1
@@ -6579,12 +5918,9 @@ Pyhimmän  hallitsevainen synoodi	   1
 Pyhin hallitsevainen synoodi	   1
 Pyhin Hallitsevainen Synoodi	   1
 Pyrkijäin toimitus	   1
-Pyykönen, M	   1
 Quantin	   1
 R	   1
 R-m-n	   1
-R-mari, J	   1
-R-nen, A	   1
 R. Boll	   1
 R. Drokila	   1
 R. Friedländer & Sohn	   1
@@ -6601,32 +5937,22 @@ Raamatun-komitea	   1
 Raamatuntutkijain seura	   1
 Raamatuntutkijain yhdistys	   1
 Rafäl Lindqvist	   1
-rahamsson, Gustaf Alfred	   1
-Rainio, Aksel	   1
-Rainio, R	   1
-Rainio, Yrjö	   1
-Räisänen, J W	   1
 Raittius-yhdistys Taisto	   1
 Raittiuskansan kirjapaino-o.y., jakaja	   1
 Raittiuskansan kp	   1
 Raittiusseura Vesi n:o 22	   1
 Raittiusyhdistys Alpha	   1
 Raittiusyhdistys Koitto	   1
-Räkallio, Joh	   1
 Rakennustaito	   1
 Rakentajain kustannus	   1
 Rakentajain kustannus-oy	   1
 Ramstedt	   1
 Rännäri & Bergroth	   1
-Ranta, O W	   1
-Rantakari, K N	   1
 Rantanen	   1
 Rantasalmen Eläinsuojelusyhdistys	   1
 Rantsilan kunta	   1
-Räsänen, Andreas	   1
 Ratamestari- ja esimiesyhdistyksen keskustoimikunta	   1
 Ratamestari- ja esimiesyhdistyksen Keskustoimikunta	   1
-Rauhala, K W	   1
 Rauhamaa & Co	   1
 Rauhan Sanomia'sexpedition	   1
 Rauma kirjapaino-osakeyhtiö	   1
@@ -6653,66 +5979,47 @@ Red	   1
 red. žurn. 'Znanie	   1
 Redakcïâ žurnala 'Truženik' morâ	   1
 Regnér	   1
-Rehbinder, Berndt Otto	   1
-Reima, Vilho 1867-1948	   1
+Reima, Vilho	   1
 Reiman	   1
 Reinhold Ferdinand Sahlberg	   1
 Reinhold Hausen	   1
 Reipas	   1
-Relander, H M J 1865-1947	   1
-Relander, Lauri Kristian	   1
+Relander, H M J	   1
 Remo Sandron	   1
-Renfors, Agnes	   1
-Renfors, Eskil	   1
-Renvald, V H	   1
-Renvall, Thorsten	   1
 Replot, utgivare	   1
-Repo, Vihtori	   1
 Reuter	   1
-Reuter, J N	   1
 Reviev of Reviev's Office	   1
 Revue politiqve et littéraire	   1
 Rhete, David	   1
 Rhete, Friedrich Ludwig	   1
 Richel, Johann I	   1
 Richel, Johanns Erben	   1
-Richter, E F	   1
-Richter, Frans Evert	   1
 Ridderskapet & adeln	   1
 Ridderskapet & Adeln	   1
 Ridderskapet och adeln	   1
 Riihimäen yhteiskoulu	   1
-Rikala, Kalle	   1
-Rindell, Arthur	   1
-Rinne, Juhani 1872-1950	   1
+Rinne, Juhani	   1
 Ristin voitto	   1
 Ristin Voitto	   1
-Risto, William	   1
 Rob. Salzenstein	   1
 Robert de Vaugondy	   1
 Roger	   1
 Rolf Lagerborg	   1
 Rolver	   1
 Ronelius	   1
-Ronimus, J V	   1
 Rooström	   1
 Rosenberg	   1
-Rosenberg, G	   1
-Rosenqvist, A R	   1
-Rosenqvist, G G 1855-1931	   1
-Roslöf, Karl Gustaf	   1
+Rosenqvist, G G	   1
 Rossïjskaâ socïal' demokratičeskaâ  ročaâ partïâ 'Edinstvo	   1
 Rouvasväen raamattuseura	   1
 Rovaniemen Eläinsuojelusyhdistys	   1
 Rovaniemen kunta	   1
 Rovaniemen osuuskauppa	   1
-Roy, Milja	   1
 Royal anthropological institute of Great Britain and Ireland	   1
 Rozental' i ko	   1
 Rud. Kolster	   1
 Rüdiger, Johann Andreas	   1
 Rudolphus Isrä̈l Holsti	   1
-Ruin, Waldemar	   1
 Rumpf, Christian Friedrich	   1
 Runehjelmin kustantamo	   1
 Ruokolahden osuuskauppa	   1
@@ -6724,8 +6031,7 @@ Russkoe okrainnoe obŝestvo	   1
 Russo-Franҁaise	   1
 Rütten & Löning	   1
 Ruuki, utgivare	   1
-Ruuth, J W	   1
-Ruuth, Y O 1887-1956	   1
+Ruuth, Y O	   1
 Rymättylän kunta	   1
 Rytkönen	   1
 s mellan K.F.U.M. & U.K.F	   1
@@ -6752,20 +6058,16 @@ S.S. Nuorisoliiton Turun osasto	   1
 S.T.L. Nuoriso-osastojen keskustoimikunta	   1
 S.V.R. Konduktööriyhdistys	   1
 S.V.R. Konepajojen tyäväenyhdistys	   1
-Saalasti, Filip	   1
 Saalicath, Johann Matthias	   1
-Saarenpää, Mikko 1853-1914	   1
+Saarenpää, Mikko	   1
 Saarinen	   1
-Saarni, Nestori	   1
 Sachs, Moritz	   1
 Sachse, Johann	   1
 Sågverksegaremötet	   1
 Sahanomistajayhdistys	   1
 Sahateollisuustyöväen liitto	   1
-Sahlan, Alfred	   1
 Sahlberg	   1
 Sahlström	   1
-Sainio, J A	   1
 Sairaalalääkäriyhdistys	   1
 Salama, henkivakuutusosakeyhtiö	   1
 Salamandr	   1
@@ -6777,14 +6079,9 @@ Sällskapet för nyttiga kunskapers spridande	   1
 sällskaps pro fauna et flora fennica	   1
 Sällskaps-teater i Mariehamn	   1
 Sällskapsklubben	   1
-Salmelainen, A E	   1
-Salmi, Otto	   1
 Salminen, Hanna Therman	   1
-Salminen, K A	   1
 Salmonsen	   1
-Salokangas, H J	   1
 Salomo Pirilä	   1
-Salonen, Toivo	   1
 Sammon takojat	   1
 Sampo Goal Company(Hanna )	   1
 Sampo-seura	   1
@@ -6798,8 +6095,6 @@ Samuel Joh. Gustavus Smalén	   1
 San Franciscon suomal. Evangeliska luth. seurakunta	   1
 Sanakuva	   1
 Sandbergs Bokhandel, jakaja	   1
-Sandelin, L H	   1
-Sandelin, Torsten	   1
 Sandström	   1
 Sandvikens Skeppsdoka	   1
 Sång- & musikfest	   1
@@ -6812,17 +6107,12 @@ Sanomalehti-osuusk. Ilkan kirjapaino	   1
 Sanomalehti-osuuskunta Kansan tahto	   1
 Sanomalehtiosuuskunta Ilkka	   1
 Sara Röyhy	   1
-Saraste, Rafäl Ferdinand	   1
-Sarlin-saraste, Konstantin	   1
 Satakunnan museo	   1
 Satakunnan nuorisoseurain liitto	   1
 Satakunnan Sanomat	   1
 Satakunnan sisälähetysyhdistys	   1
 Satamatyömiehen osuuskunta	   1
 Sävel - Weilin & Göös	   1
-Saviola, J	   1
-Savolin, Emil J	   1
-Savolin, M	   1
 Savon sanomat	   1
 Savon työv. sanomalehti- ja kp.-osuuskunta	   1
 Savon työväen kirjapaino	   1
@@ -6835,7 +6125,6 @@ Savonlinnan reaalilyseo	   1
 Savonlinnan työväenyhdistys	   1
 Savonlinnan tyttökoulu	   1
 Sawon siipikarjanhoitoyhdistys	   1
-Saxén, Uno	   1
 sbureauet	   1
 Scandinavian alliance mission in the Himalayas, publad	   1
 Scandinavie	   1
@@ -6849,19 +6138,13 @@ Schneidler, Jacob	   1
 Schönfels, Georg	   1
 Schreiber, Georg Friedrich	   1
 Schreiber, Th. J	   1
-Schrek, Anna	   1
 Schrödter, Christian	   1
 Schulthess & Co	   1
-Schvartzberg, Henrik	   1
-Schvartzberg, Johannes 1846-1915	   1
-Schvindt, Blenda	   1
-Schvindt, Theodor	   1
+Schvartzberg, Johannes	   1
 Scott, Foresman and company	   1
 Secreteriat der Gesellschaft	   1
 Seinäjön Eläinsuojelusyhdistys	   1
 Sekcïâ rasprosi idej narodovlastïâ pri Ispolnitel'n. komitetè	   1
-Seligson, Salomon	   1
-Selinheimo, Vilho	   1
 Seminarium	   1
 Sen-kp	   1
 Sen. kirjapaino	   1
@@ -6869,49 +6152,29 @@ Senaatin kamaritoimituskunnan elintarvikeosasto	   1
 Senaatin kp	   1
 Senatens kammarexpedition	   1
 Sentraalikirjapaino	   1
-Seppä, Toivo	   1
-Seppälä, Teofilus	   1
-Seppelin, Juho	   1
-Setälä, Vilho	   1
 Severi Savonen, jakaja	   1
 Sfinx	   1
 sförening Antroposofiska sällskap	   1
 Sibelius-seura	   1
-Sibelius, Chr	   1
-Side, Otto	   1
 Siegle, Hill & Co	   1
 Siemenroth	   1
 Sigfús Eymundsson	   1
 Sigrid Heinricius, jakaja	   1
 Siikaisten kunta	   1
 Siipikarjahoidon ystävät	   1
-Siirala, Martti 1889-1948	   1
+Siirala, Martti	   1
 Sil'berberg	   1
-Siljo, Juhani 1888-1918	   1
-Sillanpää, Elsa	   1
-Silvennoinen, Onni	   1
+Siljo, Juhani	   1
 Sim	   1
 Sim. per	   1
 Simelii arvingar	   1
 Simeliuksen leski	   1
-Simelius, Aukusti	   1
 Simelius, Johan	   1
-Simo, M	   1
-Simola, Emil J 1876-1954	   1
-Simola, Evert Frithiof	   1
-Simonen, Mikko	   1
-Sinkkonen, Olli	   1
-Sipi, Julius N	   1
-Sipponen, M	   1
-Sirén, Karl Gustaf	   1
-Sivori, Emil	   1
+Simola, Emil J	   1
 Sjöblom'in nahkateollisuus Osake-yhtiö	   1
 Sjökarteverket	   1
-Sjöman, Isak Edvard 1840-1912	   1
+Sjöman, Isak Edvard	   1
 Sjömansmissionssällkapet	   1
-Sjöstedt, Emmi Emilia Wilhelmina	   1
-Sjöstedt, Ludvig	   1
-Sjöström, Wilho	   1
 Sjukhemmet i Helsingfors	   1
 Sjuksköterskeförening i Finland	   1
 Skandinavilainen merimieskoti Lontoossa	   1
@@ -6948,19 +6211,15 @@ Société Finno-ougrienne	   1
 Société Littéraire de Finlande	   1
 Société Nouvelle	   1
 Söderhjelm & Thesleff	   1
-Söderlund, Hans	   1
 Södersröm	   1
 Söderstöm	   1
 Söderstörm	   1
 Söderström & Co jakaja	   1
-Sohlman, B	   1
-Soikkeli, Kaarle	   1
-Soini, Lauri 1875-1919	   1
-Soininen, Mikäl 1860-1924	   1
+Soini, Lauri	   1
+Soininen, Mikäl	   1
 SOK	   1
 Sokeain ystävät	   1
 Soldan	   1
-Solitander, Axel	   1
 soluta Nykterhetsförening i Ekenäs	   1
 Someron osuusmeijeri	   1
 Someron säästöpankki	   1
@@ -6972,7 +6231,6 @@ Soome Kirjanduse Seltsi	   1
 Soome-maa kirjaseltsi kirjadega trükkitud	   1
 Sööt	   1
 Sordavala Evangeliska Förening	   1
-Sörmus, Edvard	   1
 Sörnäisten ja Helsingin suomalainen nuorten naisten kristillinen yhdistys	   1
 Sörnäisten Krist. kansanopisto	   1
 Sörnäisten suomalainen seurakunta	   1
@@ -7014,7 +6272,6 @@ Sosialistinen aikakausilehti	   1
 Sotajulkaisun toimitus	   1
 Sotaväen päällikköhallitus	   1
 SÖU	   1
-Soveri, A J	   1
 Sparbanken i Åbo	   1
 Sparbanken i Hangö	   1
 Sparbankernas Central-Aktie-Bank	   1
@@ -7025,11 +6282,8 @@ Št' Otděl'nago Finlândskago Korpusa	   1
 Št' vojsk	   1
 Städel, Josias	   1
 Städernas Allmänna Brandstodsbolag i Finland	   1
-Stadigh, Väinö Erik Elias	   1
-Stadius, Uno	   1
 Stadsfullmäktige i Jakobstad	   1
 Stadsmissionen i Helsingfors	   1
-Ståhlberg, K J	   1
 Ständerbiblioteket	   1
 Starck, Daniel Benjamin	   1
 Statsarkivet	   1
@@ -7039,11 +6293,7 @@ Steffenhagen, Johann Friedrich ja poika	   1
 Steiger & Co	   1
 Sten	   1
 Sten hos G.O. Wasenius	   1
-Stenberg, Herman	   1
-Stening, Klas	   1
 Stenmans konstsalong	   1
-Stenroth, Paul Osvald	   1
-Stigell, Rich V	   1
 Stillersche Hofbuchhandlung	   1
 STL nuoriso-osasto	   1
 Stok	   1
@@ -7051,21 +6301,15 @@ Stokholms högskola	   1
 Stoll & Bader	   1
 Streker & Schröder	   1
 Streng vertraulich	   1
-Streng, Adolf V 1852-1933	   1
-Streng, Harry Johannes	   1
-Streng, W O	   1
+Streng, Adolf V	   1
 Strinnholm & Häggström	   1
 Strix & Co	   1
-Strömberg, Johan Viktor	   1
-Strömberg, Tyra	   1
-Strömborg, J E	   1
 Struck, Hieronymus Johann	   1
 Stuchs, Lorenz	   1
 Studenternas Kristliga Förening	   1
 Studentersamfund	   1
 styrelse för Finlands drogistförening	   1
 Sukevan T.Y	   1
-Suksdorff, Julia	   1
 Sulin	   1
 Sulka	   1
 Sulo A. Sinisalo	   1
@@ -7139,7 +6383,6 @@ Suomalainen raittius-ystävien yhdistys	   1
 Suomalainen seura	   1
 Suomalainen sos. kustannusyhtiö	   1
 Suomalainen vakuutusoy Providentia	   1
-Suomalainen, E W	   1
 Suomalais-Am. kustannusyhtiö	   1
 Suomalais-Amer. kustannusyhtiö	   1
 Suomalais-Amer. Kustannusyhtiö	   1
@@ -7417,17 +6660,13 @@ Suomiu literatūros draūgijos spaustuvė	   1
 Suomussalmen Eläinsuojelusyhdistys	   1
 Suonenjön Eläinsuojelusyhdistys	   1
 Suoniemen kunta	   1
-Suonivaara, K V	   1
 Sutinen	   1
 Suupohjan Kaiun kirjapaino	   1
 Suur-Savon kirjapaino	   1
 Suur-Savon nuorisoseura	   1
 Suur-Savon nuorisoseurojen keskusseura	   1
-Suursalmi, Onni	   1
-Suvanto, Ossian	   1
 Svanbäk & Co	   1
 Svanljung	   1
-Svanljung, John	   1
 Svante Dahlström	   1
 Svâtejšij Pravitel'stvennyj Sinod	   1
 Sven Rokberg	   1
@@ -7487,7 +6726,6 @@ Svenska Syförening i S:t Petersburg	   1
 Svenska Teaterförening	   1
 Svenska Teaterförening i Finland	   1
 Svensson	   1
-Svensson, Joh	   1
 Svenstalande baptistförsamlingarna i Finland	   1
 Sveriges Allmänna Konstförening	   1
 Svobodnö slovo	   1
@@ -7505,7 +6743,6 @@ Synodin kirjapaino	   1
 Systema	   1
 t af L. Veeken, trykt hos T.E. Raugel, og faäs tilkjöbs i Pilesträdet No. 111	   1
 t af V. Pios Boghandel	   1
-T-n, A	   1
 T-vo hudožestvennoj pečati	   1
 t-vo I.D. Sytina	   1
 T. Cox	   1
@@ -7515,21 +6752,15 @@ T. S. kustannusliitto	   1
 T.O. Weigel	   1
 T.S. Osuuskunta Raivaaja	   1
 Ta-tsien-lu	   1
-Taanonen, I E	   1
 Taavi Lehtinen	   1
 Tähti	   1
 Tainio	   1
 Tainionkosken V. P. K	   1
 Taiteellinen kustannusyhtymä: Lappalainen, Blomqvist, Malin	   1
-Takala, Sanfrid	   1
-Tallgren, K Z	   1
-Tallimäki, E	   1
-Talvi Oja, Kuuno A	   1
 Tammela-Hipposförening	   1
 Tammelan Eläinsuojelus Seura	   1
 Tammelan kirjakauppa, jakaja	   1
 Tammelan nuorisoseura	   1
-Tammelin, Edv	   1
 Tammerfors Linne- & Jern-Manufaktur	   1
 Tammerfors Musikaliska Förening	   1
 Tammi kauppa oy	   1
@@ -7585,18 +6816,16 @@ Tampereen työväen yhdistys	   1
 Tampereen työväenyhdistys	   1
 Tampereen Työväenyhdistys	   1
 Tampereen vapaähtoinen palokunta	   1
-Tanskanen, Johan 1851-1919	   1
+Tanskanen, Johan	   1
 Tapaturmavakuutuskomitea	   1
 Tapaturmavakuutusoy. Louhi	   1
 Tapion kirjapaino	   1
-Tarjanne, A J 1866-1946	   1
-Tarkkanen, Antti 1838-1912	   1
-Tarkkanen, Matti 1862-1938	   1
+Tarjanne, A J	   1
+Tarkkanen, Antti	   1
+Tarkkanen, Matti	   1
 Tarmo	   1
-Tarsala, Johan	   1
-Tattari, Juho	   1
 Tavastehus Sten- & ykeri	   1
-Tavaststjerna, Ilmari 1879-1932	   1
+Tavaststjerna, Ilmari	   1
 Teatern	   1
 Teemu	   1
 Tekiän kustannuksella	   1
@@ -7660,10 +6889,8 @@ Tiedemann ja kumpp	   1
 Tiedonantoja punaisille kaarteille	   1
 Tietosanakirja-Osakeyhtiö	   1
 Tikkanen	   1
-Tikkanen, J J	   1
 Tilapäistöiden kp	   1
 Tilma Hainari	   1
-Tilvis, Arvi	   1
 tip. 'Art. žurn	   1
 Tip. 'Finlândskaâ gazeta	   1
 Tip. 'Finlândskoj gazety	   1
@@ -7752,26 +6979,18 @@ Tipografii Morskago Ministerstva v'' Glavnom'' Admiraltejstv	   1
 Tipografïja 'Zadruga	   1
 Tipografija M. Korškova	   1
 Tipolitografìâ A. Lejferta	   1
-Tirkkonen, P J	   1
 Toijalan osuuskauppa	   1
 toimittaja: Walter Grönroos	   1
 Toini Strengin kirja- ja paperikauppa	   1
 Toini Strengin kirjakauppa, jakaja	   1
-Toiviainen, E	   1
 Toivo	   1
 Toivo Hiltunen	   1
 Toivo II	   1
 Toivon Tähti, jakaja	   1
-Toivonen, N J	   1
 Tolvanen	   1
-Toppola, Juhana Kustaa	   1
-Törngren, Adolf	   1
 Tornion Alkeiskoulun toverikunta	   1
 Tornion raittiuspiiri	   1
-Törnudd, Aksel 1874-1923	   1
-Törnudd, Anders Oskar	   1
-Törnudd, Sigurd	   1
-Törnvall, Bertel	   1
+Törnudd, Aksel	   1
 Torstanvs Thuro Renvall	   1
 Torsten Gustav Aminoff	   1
 Torstensson, Anders	   1
@@ -7819,18 +7038,13 @@ trykt på Direct. Lars Salvii	   1
 Trykt paa det kungliga Danske Selsk Bekostning, hos Christoph Georg Glasing	   1
 trykt udi det kungliga Wäysenhuses Bogtrykkerie af G.G. Salikath	   1
 Tuberkulosin vatustamisyhdistys	   1
-Tudeer, A E	   1
-Tudeer, L.O. Th	   1
 Tuhkanen	   1
 Tukholma	   1
 Tukkukaupan keskusliitto	   1
 Tullilaitos	   1
 Tullstorps antiqvariat	   1
 Tuomas Parila	   1
-Tuomikoski, Yrjö	   1
-Tuori, Juho	   1
 Tuorlan maanviljelyskoulu	   1
-Tupala, Otto Wilhelm	   1
 Tuplavee	   1
 Turista societo de Finnlando	   1
 Turistföeningen	   1
@@ -7870,7 +7084,6 @@ Turun tupakka	   1
 Turun vapaähtoinen palokunta	   1
 Tusby kommun	   1
 Tuulikki	   1
-Tuuri, Griel	   1
 Tuusulan pitäjä	   1
 Tvenne femteklassister	   1
 Tverskö Gubernskö Zemstvo	   1
@@ -7944,9 +7157,7 @@ Uno Guilielmus Telén	   1
 Uno Höglund	   1
 Uno v. Knorringin lähetyslaitos	   1
 Uno Wilhelmus Telén	   1
-Uoti, Johannes	   1
 Upeneeka	   1
-Uppgård, Karl	   1
 Uppsala universitet	   1
 Ur naturen	   1
 Ura	   1
@@ -7958,8 +7169,7 @@ Urheilijain Kustannusosakeyhtiö	   1
 Urheilujain kustannusoy	   1
 Urho A. Mäkinen	   1
 Urjalan 'Rauha'-yhdistys	   1
-Urkio, Kustaa	   1
-Ursin, N.R. Af 1854-1936	   1
+Ursin, N.R. Af	   1
 Uskelan kunta	   1
 Uskelan seurakunta	   1
 Uskonnollisten kirjakauppa	   1
@@ -8003,7 +7213,7 @@ Uusi kp.-osakeyhtiö	   1
 Uusi kustannusliike	   1
 Uusi paperikauppa	   1
 Uusmaalainen ylioppilasyhdistys	   1
-V,  1-NA	   1
+V	   1
 V. Andelin	   1
 V. Berezovskij	   1
 V. Berezovskìj	   1
@@ -8042,9 +7252,6 @@ Vaasan sos.-dem. nuorisoliitto	   1
 Vaasan tehdas- ja käsityöyhdistys	   1
 Vaasanläänin hätäapukomitea	   1
 Vähänkyrön osuuskauppa	   1
-Väinölä, Rudolf	   1
-Väisälä, Kalle	   1
-Väisälä, Vilho	   1
 Vakka-Suomen kirjapaino	   1
 Vakuuttaja	   1
 Vakuutustarkastaja	   1
@@ -8054,18 +7261,14 @@ Valistuksen kasvatusopillinen kirjasto	   1
 Valkeakosken osuusmeijeri	   1
 Valkealan kunta	   1
 Valkonauhan toimisto	   1
-Valmari, J	   1
 Valmistava toimikunta	   1
 Valontuote raittiusseura	   1
 Valonvalta	   1
-Valorinta, Väinö	   1
-Valpas, Edvard	   1
 Valtakunnan kauppiasliitto	   1
 Valtion verokomitea	   1
 Valtion vointarkastuslaitos	   1
 Valtioneuvosto	   1
 Valva	   1
-Valvanne, Väinö	   1
 Vammalan rukoushuoneyhdistys	   1
 Van Holkema & Warendorf	   1
 Vapaa lähetys	   1
@@ -8076,11 +7279,9 @@ Varia	   1
 Varias	   1
 Varkauden työväen säästöpankki	   1
 Varkauden työväenyhdistys	   1
-Varma, E L	   1
 Varsinais-Suomen kansanopisto	   1
 Varsinais-Suomen pienten maanv. seura	   1
 Varsinaissuomalaisen osakunnan kotiseutuvaliokunta	   1
-Vartiainen, J V	   1
 Vartija	   1
 Vartio-tornin raamattu- ja traktaattiseura	   1
 Vasa afdelning	   1
@@ -8089,9 +7290,7 @@ Vasa handelsskola	   1
 Vasa Hoppets Här	   1
 Vasa stads folkskolor	   1
 Vasenius	   1
-Vasenius, Valfrid	   1
 Vaseniuska Bokhandeln i	   1
-Vaulo, K V	   1
 Vehmaan osuuskauppa	   1
 Veit & comp	   1
 Veit & Comp	   1
@@ -8126,7 +7325,6 @@ Verneri Westerdahl	   1
 Vertraulich	   1
 Vesannon osuuskauppa	   1
 Vestankvarn landtmanna- och husmoderskola	   1
-Vestlin, Konrad	   1
 Vestra Nyland	   1
 Vetelin säästöpankki	   1
 Vetenskapliga & litterära samfunden	   1
@@ -8134,11 +7332,11 @@ Veturimiesten raittiusliitto	   1
 Viator, utgivare	   1
 Viborgsblad	   1
 Victor Hoving ent. Clouberg ja kumpp	   1
+Victor Hoving oy	   1
 Victor Palmé	   1
 Victoriano Suárez	   1
 Vidannâ Gel'singfors'kogo ukraïns'kogo tva prosvïta	   1
 Vienan Karjalaisten liitto	   1
-Vierimaa, Juho Eemil	   1
 Vihdin kansanopisto	   1
 Vihdin nuorisoseura	   1
 Vihdin sos. dem. kunnallistoimikunta	   1
@@ -8189,9 +7387,7 @@ Viktor Salminen	   1
 Viktor Wainio	   1
 Vilho Tomminen	   1
 Viljami	   1
-Viljanen, V M J	   1
-Viljomaa, Johannes Eliel	   1
-Virkkunen, Paavo 1874-1959	   1
+Virkkunen, Paavo	   1
 Virolahden säästöpankki	   1
 Virolahden W. P. K	   1
 Virtain Uurasten työväenyhdistys	   1
@@ -8216,7 +7412,6 @@ Vrethalla lantmannaskola	   1
 Vserossijskij soûz morâkov torgovago flota	   1
 VSY	   1
 Vulpius, Johann Reinhard	   1
-Vuoristo, P S	   1
 Vyborgskïj komitet' Partïi socïalistov'-revolûcïonerov	   1
 Vysočajše učreždennaâ kommissìâ dlâ proekta pravil' o porâdkě izdanìâ kasaûŝihsâ Finlândìi zakonov' obŝegosudarstvennago značenìâ	   1
 W. Carlsson	   1
@@ -8246,8 +7441,6 @@ W.O. Laurent & Co	   1
 W.S. Oy	   1
 W.S.O.Y	   1
 Wäänänen	   1
-Waaranen	   1
-Waaranen,  1849-1923	   1
 Waasan eläinsuojelus-yhdistys	   1
 Waasan kp.-osakeyhtiö	   1
 Waasan läänin Sylvia yhdistys	   1
@@ -8261,18 +7454,11 @@ Wahlström ja Widstrand	   1
 Wainio	   1
 Wäinö Stenbäk	   1
 Wäinölän puhujaseura	   1
-Wäkeväinen, M	   1
 Waljakka	   1
 Walkiakoski	   1
-Wallin, Waldemar	   1
 Walo	   1
-Walta, F	   1
-Waltari, Toimi	   1
-Waltasaari, Johannes Ludvig	   1
 Walter Nordlund	   1
 Walther League	   1
-Walton, William	   1
-Wänttinen, Ernest	   1
 Wantzel Hagelstam	   1
 Ward, Anne	   1
 Warkaus bruk	   1
@@ -8293,14 +7479,9 @@ Waseniuska Bokhandeln	   1
 Wasladet	   1
 Watch Tover Bible & Tract Society	   1
 Watkins	   1
-Wäyrynen, Johannes	   1
-Wegelius, Henrik Eliel 1853-1933	   1
-Wegelius, Johan Alarik	   1
-Wegelius, Uno	   1
+Wegelius, Henrik Eliel	   1
 Wehmaan kunta	   1
-Weibull, Walter	   1
 Weidmannsche Buchhandlung	   1
-Weikkolin, Ida	   1
 Weilin & Göös'in kirjakauppa jakaja	   1
 Weilin & Göös'ykeri	   1
 Weilin & Göösin kirjakauppa jakaja	   1
@@ -8321,7 +7502,6 @@ Western Workmen's Co-op	   1
 Western Workmen's Co-operative Publishing	   1
 Western Workmen's Pub. Co	   1
 Western Workmen's Publishing	   1
-Wettberg, Frans Emanuel	   1
 Wheeler & Wilson Manufacturing Co	   1
 White & Pike	   1
 White, Richard	   1
@@ -8331,7 +7511,6 @@ Wiborgs Läns Segelförening	   1
 Wiborgs lokalafdelning af Wiborgs läns folkhögskolesällskap	   1
 Wiborgs roddklubb	   1
 Wiborgska afdelningen	   1
-Wichmann, Einar	   1
 Widerholm, P	   1
 Wiegandt und Grieben	   1
 Wiggo Iversen	   1
@@ -8347,10 +7526,6 @@ Wiipurin nuorison raittiusseura	   1
 Wiipurin sanomain kp	   1
 Wiipurin uusi kirjapaino- ja sanomalehtiosakeyhtiö	   1
 Wiipurin uutiset	   1
-Wikander, C W	   1
-Wiklund, Johan August	   1
-Wikman, Kaarlo Oskar	   1
-Wikman, Otto	   1
 Wikstrand	   1
 Wikstrand'in kirjapaino	   1
 Wikstrand'in kp	   1
@@ -8361,17 +7536,13 @@ Wilhelm Friedrich	   1
 Wilhelm Koskenranta	   1
 Wilhelmiina	   1
 Wilhelmsson	   1
-Wiljaranta, Sulo	   1
-Wilk, A J	   1
 William Innys ... et al	   1
 William Mäki	   1
 William Wood & Co	   1
 Williams and Norgate	   1
-Wilskman, Ivar	   1
 Winnari	   1
 Wirolahden ja Miehikkälän kansanopisto-yhdistys	   1
 Wirolahden, Wirojön työväenyhdistys	   1
-Wirtanen, Frans O	   1
 Wishoff, Coenraad	   1
 Witte, Hans	   1
 Wivi Nordberg	   1
@@ -8384,11 +7555,8 @@ Work People's College	   1
 Workers Socialist	   1
 Workers Socialist Publishing Co	   1
 WS	   1
-Wulff, Th	   1
 Wuoksen kirjapaino	   1
-Wuori, Martti 1858-1934	   1
-Wuorinen, Jalo	   1
-Wuotila, Aatu	   1
+Wuori, Martti	   1
 Y. Halonen, E. Nyström, P. Pääkkönen	   1
 Y.S. Forsman	   1
 Yhdistyneet porvarilliset puolueet	   1
@@ -8397,8 +7565,6 @@ Yhdistys siipikarjahoidon ystävät	   1
 Yhdistys yleisten uittötujen valvomista varten	   1
 ykeriet Sana	   1
 Yksityinen kauppakoulu	   1
-Ylämurto, Heikki	   1
-Ylander, Johan Eliel	   1
 Yläneen kunta	   1
 Yläneen osuusliike	   1
 Yleinen kustannustoimisto	   1

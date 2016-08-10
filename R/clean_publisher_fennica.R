@@ -1,4 +1,4 @@
-#' @title Clean publisher
+#' @title Clean Fennica Publisher
 #' @description Pre-cleans publisher field
 #' @param x Vector of publisher names
 #' @param languages A vector of languages which are used in detecting relation keywords

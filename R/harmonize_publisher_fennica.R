@@ -31,7 +31,6 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   corrected_names <- publisher$name[known_indices]
 
   # Cheat list contains every bit of info from Finto XML
-  #cheat_list <- cheat_publishers()
   Finto_years <- data.frame(year_from=cheat_list$year_from, year_till=cheat_list$year_till, stringsAsFactors = FALSE)
   # NB! Add town synonyms!
   Finto_town <- publisher$town
