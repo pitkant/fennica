@@ -787,9 +787,9 @@ sessionInfo()
     ## other attached packages:
     ##  [1] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.86   
     ##  [4] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ##  [7] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
-    ## [10] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
-    ## [13] dplyr_0.5.0           fennica_0.1.43        bibliographica_0.2.28
+    ##  [7] reshape2_1.4.1        tidyr_0.5.1           fennica_0.1.43       
+    ## [10] bibliographica_0.2.28 ggplot2_2.1.0         magrittr_1.5         
+    ## [13] sorvi_0.7.47          tibble_1.1            dplyr_0.5.0          
     ## [16] devtools_1.12.0      
     ## 
     ## loaded via a namespace (and not attached):
@@ -818,13 +818,13 @@ sessionInfo()
     ##  [67] latticeExtra_0.6-28   stringi_1.1.1         maptree_1.4-7        
     ##  [70] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.1     
     ##  [73] foreach_1.4.3         permute_0.9-0         BiocGenerics_0.18.0  
-    ##  [76] boot_1.3-18           bibtex_0.4.0          chron_2.3-47         
-    ##  [79] moments_0.14          matrixStats_0.50.2    bitops_1.0-6         
+    ##  [76] bibtex_0.4.0          boot_1.3-18           chron_2.3-47         
+    ##  [79] bitops_1.0-6          moments_0.14          matrixStats_0.50.2   
     ##  [82] evaluate_0.9          lattice_0.20-33       labeling_0.3         
     ##  [85] plyr_1.8.4            gisfin_0.9.26         R6_2.1.2             
     ##  [88] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.4-1            
     ##  [91] foreign_0.8-66        withr_1.0.2           mgcv_1.8-12          
-    ##  [94] survival_2.39-5       RCurl_1.95-4.8        sp_1.2-3             
+    ##  [94] RCurl_1.95-4.8        survival_2.39-5       sp_1.2-3             
     ##  [97] nnet_7.3-12           crayon_1.3.2          rmarkdown_0.9.6.14   
     ## [100] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
     ## [103] digest_0.6.9          tm_0.6-2              stats4_3.3.1         

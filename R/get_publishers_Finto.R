@@ -30,8 +30,12 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
 
   publication_year$from[inds] <- publication_year$till[inds] <- publication_year$from[inds]
 
-  all_data <- data.frame(names = all_names, pubyear.from = publication_year$from, pubyear.till = publication_year$till, town=unknown_town, ignore=FALSE)
-  
+  all_data <- data.frame(names = all_names,
+                         pubyear.from = publication_year$publication_year_from,
+			 pubyear.till = publication_year$publication_year_till,
+			 town = unknown_town,
+			 ignore = FALSE)
+
   # Change NA to an empty string to avoid problems later
   all_data$names.orig[which(is.na(all_data$names.orig))] <- ""
   
