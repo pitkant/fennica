@@ -12,24 +12,15 @@ polish_publisher_fennica <- function (df.orig) {
 
   # TODO: Get necessary function names, tables etc. from a single csv-file!
   languages <- c("finnish", "latin", "swedish")
+  publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_from")]
+  town <- df.orig$publication_place
 
-    # FIXME : polish_years should be replaced with the newer
-    # and more generic function polish_years whenever time allows
-    
-    #publication_year <- polish_years(df.orig$publication_time)
-    publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_from")]
-    #town <- polish_place(df.orig$publication_place)
-    town <- df.orig$publication_place
-
-    # Saved to speed up analysis
-    # cheat_list <- cheat_publishers()
-    # saveRDS(cheat_list, file = "../extdata/publisher_cheatlist.Rds")
-    cheat_list <- readRDS(system.file("extdata/publisher_cheatlist.Rds",
+  # Saved to speed up analysis
+  # cheat_list <- cheat_publishers()
+  # saveRDS(cheat_list, file = "../extdata/publisher_cheatlist.Rds")
+  cheat_list <- readRDS(system.file("extdata/publisher_cheatlist.Rds",
                                        package = "fennica"))
 
-    inds <- which(!is.na(df.orig$corporate))
-    
-  
   df <- data.frame(list(row.index = 1:nrow(df.orig)))
   
   # Initiate pubs
@@ -39,7 +30,9 @@ polish_publisher_fennica <- function (df.orig) {
 		     stringsAsFactors = FALSE)
   
   # Additional harmonizing: in Fennica there's stuff in $corporate -field, which doesn't match with Finto
-  # TODO: Would be very good to separate the catalog specific parts outside of bibliographica
+  # TODO: do we really want to process all NA corporate entries, or just those
+  # where publisher field is empty ?
+  inds <- which(!is.na(df.orig$corporate))  
   additionally_harmonized <- harmonize_corporate_Finto(df.orig$corporate[inds])
   pubs$alt[inds] <- additionally_harmonized$orig
   pubs$pref[inds] <- additionally_harmonized$name
@@ -48,11 +41,8 @@ polish_publisher_fennica <- function (df.orig) {
   # The enrichment part
   # TODO: enrichments should be in a separate function for clarity, as with the other fields in the pipeline.
   # But this is ok an very useful for now  
-  enriched_pubs <- harmonize_publisher_fennica(df.orig, cheat_list=cheat_list, languages=languages)
-  
-  enriched_inds <- which(enriched_pubs$alt!="")
-  
-  # Check if this is valid
+  enriched_pubs <- harmonize_publisher_fennica(df.orig, cheat_list = cheat_list, languages = languages)
+  enriched_inds <- which(enriched_pubs$alt!="")  
   pubs$alt[enriched_inds] <- enriched_pubs$alt[enriched_inds]
   
   # CHECK THE contents of pubs$alt[1:10] !!!!
@@ -60,15 +50,18 @@ polish_publisher_fennica <- function (df.orig) {
   combined_pubs <- combine_publisher_fennica(df.orig, languages, pubs, town, publication_year, cheat_list)
   
   # Convert S.N. into NA and Author into <Author>
-  f <- system.file("extdata/NA_publishers.csv", package="bibliographica")
-  synonymes <- read.csv(file=f, sep="\t", fileEncoding="UTF-8")
-  combined_pubs$mod <- map(combined_pubs$mod, synonymes, mode="recursive")
+  f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
+  synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
+  combined_pubs$mod <- map(combined_pubs$mod, synonymes, mode = "recursive")
   
   # Last unification:
   # If author name is the same as the publisher name -> mark as self-published
   # NB! This could be more refined!
   inds <- which(df.orig$publisher==df.orig$author_name)
   combined_pubs$mod[inds] <- "<Author>"
-  
-  return(combined_pubs$mod)
+
+  pubs.polished <- combined_pubs$mod
+  pubs.polished[pubs.polished == ""] <- NA
+
+  return(pubs.polished)
 }
