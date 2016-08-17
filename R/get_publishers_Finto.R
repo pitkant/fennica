@@ -3,7 +3,6 @@
 #' @param Finto_corrected Vector of preferred names from Finto
 #' @param Finto_comp Vector of alternative names from Finto
 #' @param all_names Data frame containing all the name related fields
-#' @param known_inds Vector of already processed indices, to ignore
 #' @param Finto_town Vector of towns in Finto
 #' @param unknown_town Vector of towns from raw data
 #' @param publication_year Data frame of published_in, published_from and published_till
@@ -13,7 +12,7 @@
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_inds, Finto_town, unknown_town, publication_year, Finto_years) {
+get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, Finto_town, unknown_town, publication_year, Finto_years) {
   
   message("Starting: get_publishers_Finto")
   match_count <- 0
@@ -38,18 +37,8 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, known_i
 
   # Change NA to an empty string to avoid problems later
   all_data$names.orig[which(is.na(all_data$names.orig))] <- ""
+  unique_data <- unique(all_data)  
   
-  
-  # Add a flag for those that need not be processed at all
-  for (idx in 1:nrow(all_data)) {
-    if (idx %in% known_inds) {
-      all_data$ignore[idx] <- TRUE
-    }
-  }
-  
-  unique_data <- unique(all_data[all_data$ignore==FALSE,])
-  
-
   for (idx in 1:nrow(unique_data)) {
 
     all_names_indices <- which(all_names$orig==unique_data$names.orig[idx])

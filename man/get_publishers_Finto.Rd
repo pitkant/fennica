@@ -4,8 +4,8 @@
 \alias{get_publishers_Finto}
 \title{Get publishers Finto}
 \usage{
-get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
-  Finto_town, unknown_town, publication_year, Finto_years)
+get_publishers_Finto(Finto_corrected, Finto_comp, all_names, Finto_town,
+  unknown_town, publication_year, Finto_years)
 }
 \arguments{
 \item{Finto_corrected}{Vector of preferred names from Finto}
@@ -13,8 +13,6 @@ get_publishers_Finto(Finto_corrected, Finto_comp, all_names, known_inds,
 \item{Finto_comp}{Vector of alternative names from Finto}
 
 \item{all_names}{Data frame containing all the name related fields}
-
-\item{known_inds}{Vector of already processed indices, to ignore}
 
 \item{Finto_town}{Vector of towns in Finto}
 

@@ -18,7 +18,6 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   
   # Get Finto data from field 710a ($corporate)
   publisher <- harmonize_corporate_Finto(df.orig$corporate)
-  #town <- polish_place(df.orig$publication_place)
   town <- df.orig$publication_place
   
   # Get remaining values from other fields
@@ -52,15 +51,16 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   # Typos are allowed to a small extent
   
   message("About to start: get_publishers_Finto")
+  
+
   Finto_pubs <- get_publishers_Finto(
-                            Finto_corrected = cheat_list$pref, 
-                            Finto_comp = Finto_comp,
-                            all_names = all_names, 
-                            known_inds = inds,
-                            Finto_town = cheat_list$town,
-                            unknown_town = town,
-                            publication_year = publication_year,
-                            Finto_years = Finto_years)
+                            Finto_corrected = cheat_list$pref[-inds], 
+                            Finto_comp = Finto_comp[-inds],
+                            all_names = all_names[-inds], 
+                            Finto_town = cheat_list$town[-inds],
+                            unknown_town = town[-inds],
+                            publication_year = publication_year[-inds,],
+                            Finto_years = Finto_years[-inds,])
 
   return (Finto_pubs)
 }
