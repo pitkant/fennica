@@ -1,26 +1,28 @@
 #' @title Get publishers Finto
 #' @description Use Finto database to unify publisher names
-#' @param Finto_corrected Vector of preferred names from Finto
+#' @param cheat_list cheat_list
 #' @param Finto_comp Vector of alternative names from Finto
 #' @param all_names Data frame containing all the name related fields
-#' @param Finto_town Vector of towns in Finto
 #' @param unknown_town Vector of towns from raw data
 #' @param publication_year Data frame of published_in, published_from and published_till
-#' @param Finto_years Data frame of published_in, published_from and publishe_till
 #' @return Data frame with alt, pref and match_methods
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, Finto_town, unknown_town, publication_year, Finto_years) {
-  
+get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town, publication_year) {
+
+  Finto_corrected <- cheat_list$pref
+  Finto_town  <- cheat_list$town
+  Finto_years <- cheat_list[, c("year_from", "year_till")]
+
   message("Starting: get_publishers_Finto")
-  match_count <- 0
+  match_count    <- 0
   no_match_count <- 0
   exact_match_count <- 0
-  alt <- character(length=nrow(all_names))
-  match_methods <- character(length=nrow(all_names))
-  pref <- character(length=nrow(all_names))
+  alt <- character(length = nrow(all_names))
+  match_methods <- character(length = nrow(all_names))
+  pref <- character(length = nrow(all_names))
   idx = 1
   
   # Unify publication year
@@ -49,7 +51,7 @@ get_publishers_Finto <- function(Finto_corrected, Finto_comp, all_names, Finto_t
     
     # Filter out naughty towns
     # Phase 1. Get all the alt forms through the pref forms
-    inds <- which(Finto_town==town2)
+    inds <- which(Finto_town == town2)
     inds2 <- which(is.na(Finto_town))
     inds <- union(inds, inds2)
     valid_pref_corps <- unique(Finto_corrected[inds])

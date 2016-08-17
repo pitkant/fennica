@@ -4,23 +4,19 @@
 \alias{get_publishers_Finto}
 \title{Get publishers Finto}
 \usage{
-get_publishers_Finto(Finto_corrected, Finto_comp, all_names, Finto_town,
-  unknown_town, publication_year, Finto_years)
+get_publishers_Finto(cheat_list, Finto_comp, all_names, unknown_town,
+  publication_year)
 }
 \arguments{
-\item{Finto_corrected}{Vector of preferred names from Finto}
+\item{cheat_list}{cheat_list}
 
 \item{Finto_comp}{Vector of alternative names from Finto}
 
 \item{all_names}{Data frame containing all the name related fields}
 
-\item{Finto_town}{Vector of towns in Finto}
-
 \item{unknown_town}{Vector of towns from raw data}
 
 \item{publication_year}{Data frame of published_in, published_from and published_till}
-
-\item{Finto_years}{Data frame of published_in, published_from and publishe_till}
 }
 \value{
 Data frame with alt, pref and match_methods

@@ -49,17 +49,10 @@ polish_publisher_fennica <- function (df.orig) {
   # The combination of enriched part & the unprocessed part
   combined_pubs <- combine_publisher_fennica(df.orig, languages, pubs, town, publication_year, cheat_list)
   
-  # Convert S.N. into NA and Author into <Author>
+  # Convert S.N. into NA 
   f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
   synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
   combined_pubs$mod <- map(combined_pubs$mod, synonymes, mode = "recursive")
-  
-  # Last unification:
-  # If author name is the same as the publisher name -> mark as self-published
-  # NB! This could be more refined!
-  inds <- which(df.orig$publisher==df.orig$author_name)
-  combined_pubs$mod[inds] <- "<Author>"
-
   pubs.polished <- combined_pubs$mod
   pubs.polished[pubs.polished == ""] <- NA
 
