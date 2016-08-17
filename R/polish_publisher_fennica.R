@@ -1,27 +1,17 @@
 #' @title Polish Publisher Main
 #' @description Main handler for publisher fields.
-#' @param datasource String denoting catalog: "fennica", "kungliga"...
 #' @param df.orig Data frame with raw data
 #' @return Data frame with orig, mod
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
 #' @references See citation("bibliographica")
 #' @keywords utilities
-polish_publisher_fennica <- function (datasource, df.orig) {
+polish_publisher_fennica <- function (df.orig) {
 
   # TODO : one way to speed up is to only consider unique entries. 
 
-  enrich <- FALSE
-
   # TODO: Get necessary function names, tables etc. from a single csv-file!
-  additional_harmonizing_function <- NA
-  
-  if (datasource == "fennica") {
-    languages <- c("finnish", "latin", "swedish")
-    enrich <- TRUE
-    enrichment_function <- "harmonize_publisher_fennica"
-    additional_harmonizing_function <- "harmonize_corporate_Finto"
-    combining_function <- "combine_publisher_fennica"
+  languages <- c("finnish", "latin", "swedish")
 
     # FIXME : polish_years should be replaced with the newer
     # and more generic function polish_years whenever time allows
@@ -39,14 +29,6 @@ polish_publisher_fennica <- function (datasource, df.orig) {
 
     inds <- which(!is.na(df.orig$corporate))
     
-  } else if (datasource == "kungliga") {
-    languages <- c("swedish")
-    enrich <- FALSE
-    inds <- integer(length(0))
-    publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_from")]
-    raw_publishers <- df.orig$publisher
-    raw_publishers[which(is.na(raw_publishers))] <- df.orig$corporate[which(is.na(raw_publishers))]
-  }
   
   df <- data.frame(list(row.index = 1:nrow(df.orig)))
   
@@ -58,21 +40,15 @@ polish_publisher_fennica <- function (datasource, df.orig) {
   
   # Additional harmonizing: in Fennica there's stuff in $corporate -field, which doesn't match with Finto
   # TODO: Would be very good to separate the catalog specific parts outside of bibliographica
-  if (!is.na(additional_harmonizing_function)) {
-    additionally_harmonized <- do.call(additional_harmonizing_function, list(df.orig$corporate[inds]))
-    pubs$alt[inds] <- additionally_harmonized$orig
-    pubs$pref[inds] <- additionally_harmonized$name
-    pubs$match_method[inds] <- 4
-  }
+  additionally_harmonized <- harmonize_corporate_Finto(df.orig$corporate[inds])
+  pubs$alt[inds] <- additionally_harmonized$orig
+  pubs$pref[inds] <- additionally_harmonized$name
+  pubs$match_method[inds] <- 4
   
   # The enrichment part
   # TODO: enrichments should be in a separate function for clarity, as with the other fields in the pipeline.
   # But this is ok an very useful for now  
-  if (enrich) {
-    enriched_pubs <- do.call(enrichment_function, args=list(df.orig, cheat_list=cheat_list, languages=languages))
-  } else {
-    enriched_pubs <- data.frame(alt=character(length=0), pref=character(length=0), match_methods=character(length=0), stringsAsFactors=FALSE)
-  }
+  enriched_pubs <- harmonize_publisher_fennica(df.orig, cheat_list=cheat_list, languages=languages)
   
   enriched_inds <- which(enriched_pubs$alt!="")
   
@@ -81,23 +57,18 @@ polish_publisher_fennica <- function (datasource, df.orig) {
   
   # CHECK THE contents of pubs$alt[1:10] !!!!
   # The combination of enriched part & the unprocessed part
-  if (enrich) {
-    combined_pubs <- do.call(combining_function, args=list(df.orig, languages, pubs, town, publication_year, cheat_list))
-  } else {
-    combined_pubs <- clean_publisher(raw_publishers, languages=languages)
-    combined_pubs <- harmonize_publisher(combined_pubs, publication_year, languages=languages)
-    combined_pubs <- combined_pubs[,1:2]
-  }
+  combined_pubs <- combine_publisher_fennica(df.orig, languages, pubs, town, publication_year, cheat_list)
   
   # Convert S.N. into NA and Author into <Author>
   f <- system.file("extdata/NA_publishers.csv", package="bibliographica")
   synonymes <- read.csv(file=f, sep="\t", fileEncoding="UTF-8")
   combined_pubs$mod <- map(combined_pubs$mod, synonymes, mode="recursive")
   
-  # Last unification: If author name is the same as the publisher name -> mark as self-published
+  # Last unification:
+  # If author name is the same as the publisher name -> mark as self-published
   # NB! This could be more refined!
   inds <- which(df.orig$publisher==df.orig$author_name)
   combined_pubs$mod[inds] <- "<Author>"
   
-  return (combined_pubs)
+  return(combined_pubs$mod)
 }

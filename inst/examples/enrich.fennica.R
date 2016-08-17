@@ -71,7 +71,7 @@ inds <- which(!is.na(gendercustom))
 df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
 message("-- Fennica publishers")
-df.preprocessed$publisher <- polish_publisher_fennica(datasource = "fennica", df.orig = df.preprocessed)$mod
+df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
       
 # ----------------------------------------------------------------
  

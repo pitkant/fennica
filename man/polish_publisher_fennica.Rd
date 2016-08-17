@@ -4,11 +4,9 @@
 \alias{polish_publisher_fennica}
 \title{Polish Publisher Main}
 \usage{
-polish_publisher_fennica(datasource, df.orig)
+polish_publisher_fennica(df.orig)
 }
 \arguments{
-\item{datasource}{String denoting catalog: "fennica", "kungliga"...}
-
 \item{df.orig}{Data frame with raw data}
 }
 \value{
