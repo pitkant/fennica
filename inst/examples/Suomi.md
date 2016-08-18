@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Suomessa 1640-1917"
 author: "Niko Ilomäki"
-date: "2016-08-16"
+date: "2016-08-18"
 output: markdown_document
 ---
 
