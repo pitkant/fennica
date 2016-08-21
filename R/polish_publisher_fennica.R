@@ -24,9 +24,9 @@ polish_publisher_fennica <- function (df.orig) {
   df <- data.frame(list(row.index = 1:nrow(df.orig)))
   
   # Initiate pubs
-  pubs <- data.frame(alt=character(length=nrow(df.orig)),
-       	             pref=character(length=nrow(df.orig)),
-		     match_method=integer(length=nrow(df.orig)),
+  pubs <- data.frame(alt  = character(length=nrow(df.orig)),
+       	             pref = character(length=nrow(df.orig)),
+		     match_method = integer(length=nrow(df.orig)),
 		     stringsAsFactors = FALSE)
   
   # Additional harmonizing: in Fennica there's stuff in $corporate -field, which doesn't match with Finto

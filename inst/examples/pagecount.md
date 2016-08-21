@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-08-18"
+date: "2016-08-21"
 output: markdown_document
 ---
 

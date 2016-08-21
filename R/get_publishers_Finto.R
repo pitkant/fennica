@@ -43,10 +43,11 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
   
   for (idx in 1:nrow(unique_data)) {
 
-    all_names_indices <- which(all_names$orig==unique_data$names.orig[idx])
-    all_names_indices <- intersect(all_names_indices, which(publication_year$from==unique_data$pubyear.from[idx]))
-    all_names_indices <- intersect(all_names_indices, which(publication_year$till==unique_data$pubyear.till[idx]))
-    all_names_indices <- intersect(all_names_indices, which(unknown_town==unique_data$town[idx]))
+    # LL: what is the difference btw all_names$orig and all_data$names.orig ?
+    all_names_indices <- which(all_names$orig == unique_data$names.orig[idx])
+    all_names_indices <- intersect(all_names_indices, which(publication_year$from == unique_data$pubyear.from[idx]))
+    all_names_indices <- intersect(all_names_indices, which(publication_year$till == unique_data$pubyear.till[idx]))
+    all_names_indices <- intersect(all_names_indices, which(unknown_town == unique_data$town[idx]))
     town2 <- unique_data$town[idx]
     
     # Filter out naughty towns
@@ -55,7 +56,7 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
     inds2 <- which(is.na(Finto_town))
     inds <- union(inds, inds2)
     valid_pref_corps <- unique(Finto_corrected[inds])
-    valid_alt_names <- Finto_comp$orig[which(Finto_corrected %in% valid_pref_corps)]
+    valid_alt_names  <- Finto_comp$orig[which(Finto_corrected %in% valid_pref_corps)]
     inds <- which(Finto_comp$orig %in% valid_alt_names)
     
     # Include groups of valid companies from Finto data based on year
@@ -196,10 +197,10 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
       }
       match_methods[all_names_indices] <- match_method
       
-    }  
-    idx <- idx + 1
+    }
+        
   }
   
-  return (data.frame(alt=alt, pref=pref, match_methods=match_methods, stringsAsFactors=FALSE))
+  return (data.frame(alt = alt, pref = pref, match_methods = match_methods, stringsAsFactors = FALSE))
     
 }
