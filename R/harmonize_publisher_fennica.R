@@ -35,8 +35,8 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   all_names <- clean_publisher(publisher$name, languages=c("finnish"))
 
   # TODO: this is slow - optimize
-  Finto_comp <- extract_personal_names(cheat_list$alt, languages=c("finnish", "latin", "swedish"))
-  all_names <- extract_personal_names(all_names, c("finnish", "latin", "swedish"))
+  Finto_comp <- extract_personal_names(cheat_list$alt, languages = c("finnish", "latin", "swedish"))
+  all_names  <- extract_personal_names(all_names, c("finnish", "latin", "swedish"))
   
   # Check against Finto,
   # if there's a preferred way in outputting the publisher name
