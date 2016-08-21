@@ -42,10 +42,9 @@ polish_publisher_fennica <- function (df.orig) {
   # TODO: enrichments should be in a separate function for clarity, as with the other fields in the pipeline.
   # But this is ok an very useful for now  
   enriched_pubs <- harmonize_publisher_fennica(df.orig, cheat_list = cheat_list, languages = languages)
-  enriched_inds <- which(enriched_pubs$alt!="")  
-  pubs$alt[enriched_inds] <- enriched_pubs$alt[enriched_inds]
+  enriched_inds <- which(enriched_pubs!="")  
+  pubs$alt[enriched_inds] <- enriched_pubs[enriched_inds]
   
-  # CHECK THE contents of pubs$alt[1:10] !!!!
   # The combination of enriched part & the unprocessed part
   combined_pubs <- combine_publisher_fennica(df.orig, languages, pubs, town, publication_year, cheat_list)
   

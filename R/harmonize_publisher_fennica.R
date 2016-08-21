@@ -43,16 +43,17 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   # Included are also publication place & year
   # Typos are allowed to a small extent
   
-  message("About to start: get_publishers_Finto")  
-  Finto_pubs <- get_publishers_Finto(
+  message("About to start: get_publishers_Finto")
+  finto <- rep(NA, nrow(cheat_list))  
+  finto[-inds] <- get_publishers_Finto(
                             cheat_list[-inds,], 
                             Finto_comp = Finto_comp[-inds,],
                             all_names = all_names[-inds,], 
                             unknown_town = publisher$town[-inds],
-                            publication_year = publication_year[-inds,]
-                   )
+                            publication_year = publication_year[-inds,])$alt
 
-  return (Finto_pubs)
+  return (finto)
+
 }
 
 
