@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-08-21"
+date: "2016-08-23"
 output: markdown_document
 ---
 
@@ -55,6 +55,11 @@ Where multiple publication years are seen, the earliest occurrence is
 suggested as the first edition.
 
 This figure shows the number of first editions per decade.
+
+
+```
+## Error in paste("First editions count (", catalogue, ")", sep = ""): object 'catalogue' not found
+```
 
 <img src="figure/firsteditions-1.png" title="plot of chunk firsteditions" alt="plot of chunk firsteditions" width="280px" />
 
