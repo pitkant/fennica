@@ -4,10 +4,10 @@
 \alias{polish_publisher_fennica}
 \title{Polish Publisher Main}
 \usage{
-polish_publisher_fennica(df.orig)
+polish_publisher_fennica(df.preprocessed)
 }
 \arguments{
-\item{df.orig}{Data frame with raw data}
+\item{df.preprocessed}{Data frame with raw data}
 }
 \value{
 Data frame with orig, mod

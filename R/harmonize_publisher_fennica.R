@@ -15,7 +15,7 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   publication_year <- df.orig[, c("publication_year", "publication_year_from", "publication_year_till")]
   
   # Get Finto data from field 710a ($corporate)
-  publisher <- harmonize_corporate_Finto(df.orig$corporate)
+  publisher <- harmonize_corporate_Finto(tolower(df.orig$corporate))
   town <- df.orig$publication_place
   
   # Get remaining values from other fields

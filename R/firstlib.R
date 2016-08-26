@@ -1,4 +1,5 @@
 #' @import dplyr
+#' @importFrom bibliographica capitalize
 #' @importFrom bibliographica clean_publisher
 #' @importFrom bibliographica extract_personal_names
 #' @importFrom bibliographica harmonize_publisher

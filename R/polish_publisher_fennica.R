@@ -12,9 +12,8 @@ polish_publisher_fennica <- function (df.preprocessed) {
   df.preprocessed$publisher <- tolower(df.preprocessed$publisher)
 
   # Pick just to fields that are used in the analysis
-  df.preprocessed <- df.preprocessed[, c("publication_year", "publication_year_from", "publication_year_till", "publication_place", "corporate", "publisher")]
-
-
+  df.preprocessed <- df.preprocessed[, c("publication_year", "publication_year_from", "publication_year_till",
+  		                         "publication_place", "corporate", "publisher")]
 
   # TODO: Get necessary function names, tables etc. from a single csv-file!
   languages <- c("finnish", "latin", "swedish")
