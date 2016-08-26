@@ -785,7 +785,7 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.86   
+    ##  [1] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.87   
     ##  [4] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
     ##  [7] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
     ## [10] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
