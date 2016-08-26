@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-08-23"
+date: "2016-08-26"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 7677 [unique publishers](output.tables/publisher_accepted.csv)
+ * 9588 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 61546 documents have unambiguous publisher information (86%). 
+ * 59451 documents have unambiguous publisher information (83%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -27,7 +27,7 @@ Title count
 
 
 ```
-## Warning: Removed 4 rows containing missing values (position_stack).
+## Warning: Removed 5 rows containing missing values (position_stack).
 ```
 
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
@@ -38,17 +38,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|     paper|
-|:-------------------------------|------:|---------:|
-|<<Author>>                      |   1730|  591767.8|
-|Frenckell, Johan Christopher I  |   1744| 1361610.0|
-|Frenckell, Johan Christopher II |   2216| 2422445.8|
-|Hansson, Peter                  |   1095| 1461684.9|
-|Kämpe, Johan                    |   1033| 1129371.0|
-|Londicer, Georg Wilhelm         |   2110|  308398.6|
-|otava                           |   2176| 2016736.0|
-|söderström                      |   1198|  907538.7|
-|vsoy                            |   2906| 1834784.9|
-|Wall, Johan Larsson             |   1404| 1427113.4|
+|publisher                        | titles|     paper|
+|:--------------------------------|------:|---------:|
+|<<Author>>                       |   1730|  591767.8|
+|Edlund                           |    981| 1514267.6|
+|G. v. edlund                     |    929| 1352632.7|
+|G. v. londicer                   |   1829|  166836.7|
+|J. c. frenckell                  |   1275|  392076.0|
+|Otava                            |   2183| 2026344.4|
+|Söderström                       |   1201|  911990.9|
+|Suomalaisen kirjallisuuden seura |    874| 1242905.8|
+|Typis frenckellianis             |   1194| 1201506.9|
+|Vsoy                             |   2925| 1855620.4|
 
 
