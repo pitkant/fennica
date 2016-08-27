@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-08-26"
+date: "2016-08-27"
 output: markdown_document
 ---
 
@@ -63,16 +63,16 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |width                          |        47.6|          52.4|         37687|        310|
 |height                         |        47.6|          52.4|         37687|        351|
 |area                           |        47.6|          52.4|         37687|        816|
-|author_gender                  |        46.9|          53.1|         38196|          4|
+|author_gender                  |        46.9|          53.1|         38197|          5|
 |self_published                 |        42.8|          57.2|         41157|          2|
 |author_name                    |        36.3|          63.7|         45806|      12012|
 |author                         |        36.3|          63.7|         45806|      12076|
-|publisher                      |        17.3|          82.7|         59451|       9588|
+|publisher                      |        14.4|          85.6|         61546|       9896|
 |pagecount.orig                 |         6.8|          93.2|         67048|        978|
-|country                        |         4.3|          95.7|         68808|         34|
-|publication_place              |         4.3|          95.7|         68809|        432|
-|latitude                       |         2.0|          98.0|         70464|        199|
-|longitude                      |         2.0|          98.0|         70464|        199|
+|country                        |         4.3|          95.7|         68806|         34|
+|publication_place              |         4.3|          95.7|         68807|        432|
+|latitude                       |         2.0|          98.0|         70466|        199|
+|longitude                      |         2.0|          98.0|         70466|        199|
 |language                       |         1.0|          99.0|         71186|        259|
 |publication_year_from          |         1.0|          99.0|         71235|        357|
 |publication_year               |         0.9|          99.1|         71254|        357|

@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-08-26"
+date: "2016-08-27"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 9588 [unique publishers](output.tables/publisher_accepted.csv)
+ * 9896 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 59451 documents have unambiguous publisher information (83%). 
+ * 61546 documents have unambiguous publisher information (86%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -44,7 +44,7 @@ Title count versus paper consumption (top publishers):
 |Edlund                           |    981| 1514267.6|
 |G. v. edlund                     |    929| 1352632.7|
 |G. v. londicer                   |   1829|  166836.7|
-|J. c. frenckell                  |   1275|  392076.0|
+|J. c. frenckell                  |   1296|  413085.2|
 |Otava                            |   2183| 2026344.4|
 |Söderström                       |   1201|  911990.9|
 |Suomalaisen kirjallisuuden seura |    874| 1242905.8|

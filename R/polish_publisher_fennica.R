@@ -9,7 +9,7 @@
 polish_publisher_fennica <- function (df.preprocessed) {
 
   # TODO : one way to speed up is to only consider unique entries. 
-  df.preprocessed$publisher <- tolower(df.preprocessed$publisher)
+  # df.preprocessed$publisher <- tolower(df.preprocessed$publisher)
 
   # Pick just to fields that are used in the analysis
   df.preprocessed <- df.preprocessed[, c("publication_year", "publication_year_from", "publication_year_till",
