@@ -3,7 +3,6 @@
 export(cheat_publishers)
 export(city_geocoordinates_all)
 export(city_synonymes)
-export(clean_publisher_fennica)
 export(collect_misspellings)
 export(filter_duplicates)
 export(get_dissertation_mismatch)
