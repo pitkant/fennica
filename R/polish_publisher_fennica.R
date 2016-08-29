@@ -64,7 +64,10 @@ polish_publisher_fennica <- function (df.preprocessed) {
   unprocessed_pubs  <- harmonize_publisher(unprocessed_pubs, publication_year[keep.inds], languages = languages)
   unprocessed_towns <- df.preprocessed$publication_place[keep.inds]
   unprocessed_years <- publication_year[keep.inds,]
-  
+
+  # Otava without pubplace are here converted to NA ("")
+  # myinds <- c(18323, 18361, 18641, 44466, 44586, 47090, 47123, 47850, 52704)
+  # myinds2 <- match(myinds, keep.inds)
   preferred_pubs <- change_to_Finto_preferred(pubs = unprocessed_pubs,
   		       				 towns = unprocessed_towns,
 						 years = unprocessed_years,
@@ -84,8 +87,6 @@ polish_publisher_fennica <- function (df.preprocessed) {
   pubs.polished[pubs.polished == ""] <- NA
 
   pubs.polished.cap <- capitalize(pubs.polished)
-
-  # myinds <- c(18323, 18361, 18641, 44466, 44586, 47090, 47123, 47850, 52704); print(pubs.polished.cap[myinds])
 
   return(pubs.polished.cap)
 }
