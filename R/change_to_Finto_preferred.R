@@ -1,34 +1,47 @@
 change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
-  
-    ret <- data.frame(orig=character(nrow(pubs)), mod=character(nrow(pubs)), stringsAsFactors = FALSE)
+
+    # Remove opening brackets without closure, as grep considers that naughty
+    towns <- gsub("^[[]([^[]+)$","\\1", towns)
+    towns <- gsub("^[[](.*[^]])$","\\1", towns)
+
+    ret <- data.frame(orig = character(nrow(pubs)),
+    	   	      mod = character(nrow(pubs)),
+    	              stringsAsFactors = FALSE)
     
     na_till <- which(is.na(years$till))
     na_from <- which(is.na(years$from))
-    pubtills <- integer(length=nrow(years))
+    pubtills <- integer(length = nrow(years))
     pubtills[-na_till] <- years$till[-na_till]
-    pubtills[na_till] <- years$from[na_till]
+    pubtills[na_till]  <- years$from[na_till]
     
-    pubfroms <- integer(length=nrow(years))
+    pubfroms <- integer(length = nrow(years))
     pubfroms[-na_from] <- years$from[-na_from]
-    pubfroms[na_from] <- years$from[na_from]
-    p5 <- data.frame(orig=pubs$orig, mod=pubs$mod, town=towns, pubfrom=pubfroms, pubtill=pubtills, stringsAsFactors = FALSE)
+    pubfroms[na_from]  <- years$from[na_from]
+    
+    p5 <- data.frame(orig = pubs$orig,
+       	             mod = pubs$mod,
+		     town = towns,
+       	  	     pubfrom = pubfroms,
+		     pubtill = pubtills,
+		     stringsAsFactors = FALSE)
+
+    # Unique terms to speed up
+    id <- apply(p5, 1, function (x) {paste(x, collapse = "")})
+    p5$id <- id
     unique_pubs <- unique(p5)
     
     cheat_list$town[which(cheat_list$town=="")] <- NA
     
     for (idx in 1:nrow(unique_pubs)) {
 
-      #if ((idx %% 2500) == 1) {
-      #  print (idx)
-      #}
       pubname <- as.character(unique_pubs$mod[idx])
       pubtown <- unique_pubs$town[idx]
       pubtill <- unique_pubs$pubtill[idx]
       pubfrom <- unique_pubs$pubfrom[idx]
       
-      unique_pubs_instances <- intersect(which(pubname==p5$mod), which(pubtown==p5$town))
-      unique_pubs_instances <- intersect(which(pubtill==p5$pubfrom), unique_pubs_instances)
-      unique_pubs_instances <- intersect(which(pubtill==p5$pubtill), unique_pubs_instances)
+      unique_pubs_instances <- intersect(which(pubname==unique_pubs$mod), which(pubtown==unique_pubs$town))
+      unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubfrom), unique_pubs_instances)
+      unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubtill), unique_pubs_instances)
       
       # Default value, might be changed later on
       ret$orig[unique_pubs_instances] <- as.character(unique_pubs$orig[idx])
@@ -60,9 +73,9 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
           # if the changed name doesn't exist in the other set of names
           if ((length(tmp_inds)==1) && (pubname %in% pubs) && (!is.na(tmp_inds))) {
             
-            unique_pubs_instances <- intersect(which(pubname==p5$mod), which(pubtown==p5$town))
-            unique_pubs_instances <- intersect(which(pubtill==p5$pubfrom), unique_pubs_instances)
-            unique_pubs_instances <- intersect(which(pubtill==p5$pubtill), unique_pubs_instances)
+            unique_pubs_instances <- intersect(which(pubname==unique_pubs$mod), which(pubtown==unique_pubs$town))
+            unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubfrom), unique_pubs_instances)
+            unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubtill), unique_pubs_instances)
 
             ret$orig[unique_pubs_instances] <- as.character(unique_pubs$orig[idx])
             ret$mod[unique_pubs_instances] <- cheat_list$pref[tmp_inds]
@@ -70,6 +83,7 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
         }
       }
   }
-  
-  return (ret)
+
+  # Map back to the original domain before returning
+  return (ret[match(p5$id, unique_pubs$id),])
 }
