@@ -1,5 +1,5 @@
-#' @title Get publishers Finto
-#' @description Use Finto database to unify publisher names
+#' @title Unify Publishers with Finto
+#' @description Use Finto database to unify publisher names.
 #' @param cheat_list cheat_list
 #' @param Finto_comp Vector of alternative names from Finto
 #' @param all_names Data frame containing all the name related fields
@@ -200,7 +200,8 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
     }
         
   }
-  
+
+  message("get_publihers_Finto OK.")
   return (data.frame(alt = alt, pref = pref, match_methods = match_methods, stringsAsFactors = FALSE))
     
 }

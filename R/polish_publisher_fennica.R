@@ -58,22 +58,24 @@ polish_publisher_fennica <- function (df.preprocessed) {
 
   # TODO: Shortcut: exit if empty
   # Prepare new publisher variable, for those that haven't been processed yet
+  message("Proceeding.")
   keep.inds <- setdiff(1:nrow(df.preprocessed), enriched_inds)
   enriched_inds <- intersect(which(!is.na(pubs$alt)), which(pubs$alt != "")) 
   unprocessed_pubs  <- clean_publisher(df.preprocessed$publisher[keep.inds], languages = languages)
-  unprocessed_pubs  <- harmonize_publisher(unprocessed_pubs, publication_year[keep.inds], languages = languages)
+  unprocessed_pubs  <- harmonize_publisher(unprocessed_pubs, publication_year[keep.inds,], languages = languages)
   unprocessed_towns <- df.preprocessed$publication_place[keep.inds]
   unprocessed_years <- publication_year[keep.inds,]
 
   # Otava without pubplace are here converted to NA ("")
   # myinds <- c(18323, 18361, 18641, 44466, 44586, 47090, 47123, 47850, 52704)
   # myinds2 <- match(myinds, keep.inds)
+  message("change_to_Finto_preferred")  
   preferred_pubs <- change_to_Finto_preferred(pubs = unprocessed_pubs,
   		       				 towns = unprocessed_towns,
 						 years = unprocessed_years,
 						 cheat_list = cheat_list)$mod
   
-  # Combine the two sets of the combined publishers
+  message("Combine the two sets of the combined publishers")
   combined_pubs <- character(length = nrow(pubs))
   combined_pubs[keep.inds] <- preferred_pubs
   combined_pubs[enriched_inds] <- pubs$pref[enriched_inds]

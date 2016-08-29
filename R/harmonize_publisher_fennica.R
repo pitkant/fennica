@@ -52,6 +52,7 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
                             unknown_town = publisher$town[-inds],
                             publication_year = publication_year[-inds,])$alt
 
+  message("harmonize_publisher_fennica OK.")
   return (finto)
 
 }

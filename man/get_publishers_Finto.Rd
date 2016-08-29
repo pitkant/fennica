@@ -2,7 +2,7 @@
 % Please edit documentation in R/get_publishers_Finto.R
 \name{get_publishers_Finto}
 \alias{get_publishers_Finto}
-\title{Get publishers Finto}
+\title{Unify Publishers with Finto}
 \usage{
 get_publishers_Finto(cheat_list, Finto_comp, all_names, unknown_town,
   publication_year)
@@ -22,7 +22,7 @@ get_publishers_Finto(cheat_list, Finto_comp, all_names, unknown_town,
 Data frame with alt, pref and match_methods
 }
 \description{
-Use Finto database to unify publisher names
+Use Finto database to unify publisher names.
 }
 \author{
 Hege Roivainen \email{hege.roivainen@gmail.com}
