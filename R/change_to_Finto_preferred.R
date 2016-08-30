@@ -10,11 +10,13 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
     
     na_till <- which(is.na(years$till))
     na_from <- which(is.na(years$from))
-    pubtills <- integer(length = nrow(years))
+    #pubtills <- integer(length = nrow(years))
+    pubtills <- rep(NA, length = nrow(years))    
     pubtills[-na_till] <- years$till[-na_till]
     pubtills[na_till]  <- years$from[na_till]
     
-    pubfroms <- integer(length = nrow(years))
+    #pubfroms <- integer(length = nrow(years))
+    pubfroms <- rep(NA, length = nrow(years))    
     pubfroms[-na_from] <- years$from[-na_from]
     pubfroms[na_from]  <- years$from[na_from]
     

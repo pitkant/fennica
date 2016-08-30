@@ -41,6 +41,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |volnumber                      |       100.0|           0.0|             0|          1|
 |parts                          |        99.9|           0.1|            44|          8|
 |uncontrolled                   |        99.8|           0.2|           111|         99|
+|publisher                      |        99.7|           0.3|           190|        129|
 |successor                      |        99.4|           0.6|           404|        396|
 |publication_frequency          |        98.6|           1.4|          1001|         51|
 |width.original                 |        97.2|           2.8|          2021|        307|
@@ -64,10 +65,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |height                         |        47.6|          52.4|         37687|        351|
 |area                           |        47.6|          52.4|         37687|        816|
 |author_gender                  |        46.9|          53.1|         38197|          5|
-|self_published                 |        42.8|          57.2|         41157|          2|
+|self_published                 |        42.8|          57.2|         41158|          2|
 |author_name                    |        36.3|          63.7|         45806|      12012|
 |author                         |        36.3|          63.7|         45806|      12076|
-|publisher                      |        14.4|          85.6|         61546|       9896|
 |pagecount.orig                 |         6.8|          93.2|         67048|        978|
 |country                        |         4.3|          95.7|         68806|         34|
 |publication_place              |         4.3|          95.7|         68807|        432|

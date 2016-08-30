@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 9896 [unique publishers](output.tables/publisher_accepted.csv)
+ * 129 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 61546 documents have unambiguous publisher information (86%). 
+ * 190 documents have unambiguous publisher information (0%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -25,11 +25,6 @@ The 20 most common publishers are shown with the number of documents.
 
 Title count
 
-
-```
-## Warning: Removed 5 rows containing missing values (position_stack).
-```
-
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
 
 
@@ -38,17 +33,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                        | titles|     paper|
-|:--------------------------------|------:|---------:|
-|<<Author>>                       |   1730|  591767.8|
-|Edlund                           |    981| 1514267.6|
-|G. v. edlund                     |    929| 1352632.7|
-|G. v. londicer                   |   1829|  166836.7|
-|J. c. frenckell                  |   1296|  413085.2|
-|Otava                            |   2183| 2026344.4|
-|Söderström                       |   1201|  911990.9|
-|Suomalaisen kirjallisuuden seura |    874| 1242905.8|
-|Typis frenckellianis             |   1194| 1201506.9|
-|Vsoy                             |   2925| 1855620.4|
+|publisher                           | titles|    paper|
+|:-----------------------------------|------:|--------:|
+|Frenckell, Johan Christopher II     |     12|  6624.13|
+|Frölich, Samuel Lorenz              |     12|  7265.62|
+|Johan Christopher Frenckellin leski |      4|   834.38|
+|Mattsson, Eskil                     |      3|  2409.72|
+|Suomi Synod                         |      3|     0.00|
+|Typis Gymnasii                      |      4|  8715.97|
+|Valtionarkisto                      |      6| 99403.12|
+|Werner, Johan Henric                |      5|  5591.58|
+|Winter, Johan                       |      3|  3429.51|
+|Ziervogel, Evald                    |      4|  1579.17|
 
 
