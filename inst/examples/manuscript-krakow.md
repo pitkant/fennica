@@ -805,7 +805,7 @@ sessionInfo()
     ##  [28] formatR_1.4           acepack_1.3-3.3       htmltools_0.3.5      
     ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
     ##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
-    ##  [37] Rcpp_0.12.5           slam_0.1-35           Biobase_2.32.0       
+    ##  [37] Rcpp_0.12.7           slam_0.1-35           Biobase_2.32.0       
     ##  [40] RJSONIO_1.3-0         Biostrings_2.40.2     multtest_2.28.0      
     ##  [43] spdep_0.6-5           gdata_2.17.0          ape_3.5              
     ##  [46] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
