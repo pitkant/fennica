@@ -259,7 +259,6 @@ Map by Stamen
 - 1803-1815 Napoleonic wars
 
 ```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4, out.width="300px"}
-
 library(magrittr)
 library(ggplot2)
 library(dplyr)
