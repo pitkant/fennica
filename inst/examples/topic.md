@@ -1,7 +1,7 @@
 ---
 title: "Subject topic preprocessing summaries"
 author: "Leo Lahti"
-date: "2016-09-12"
+date: "2016-09-13"
 output: markdown_document
 ---
 
@@ -20,7 +20,7 @@ Top-20 subject topics and number of documents for each.
 
 ### Publication topic
 
-We also have the publication_topic field. The links are invalid if the lists are empty.
+The publication_topic field is also available in some catalogs. The links are invalid if the lists are empty.
 
 
 
@@ -36,4 +36,14 @@ Top-20 publication topics and number of documents for each.
 ## Error in dfs$names: $ operator is invalid for atomic vectors
 ```
 
-![plot of chunk summarytopics223](figure/summarytopics223-1.png)
+```
+## Error in p + ggtitle(paste("Top publication topics")): non-numeric argument to binary operator
+```
+
+```
+## Error in p + ylab("Documents"): non-numeric argument to binary operator
+```
+
+```
+## NULL
+```
