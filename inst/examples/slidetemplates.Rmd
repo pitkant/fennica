@@ -123,11 +123,6 @@ df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 if (!params$catalogue == "all") {
   df0 <- filter(df0, catalog == params$catalogue)
 }
-
-
-if ("paper.consumption.km2" %in% names(df0)) {
-  df0$paper <- df0$paper.consumption.km2     
-}
 ```
 
 
@@ -634,7 +629,8 @@ df <- df %>%
 # Top publishers by title count
 ntop <- 10
 top <- names(top(df, "publisher", ntop))
-df$publisher[!df$publisher %in% top] <- "Other"
+#df$publisher[!df$publisher %in% top] <- "Other"
+df <- df %>% filter(publisher %in% top)
 df$publisher <- factor(df$publisher, c(top, "Other"))
 
 # Title count per decade & publisher	
