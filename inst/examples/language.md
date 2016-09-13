@@ -21,6 +21,9 @@ Title count per language (including multi-language documents):
 
 ### Top languages
 
+Number of documents assigned with each language. For a complete list,
+see [accepted languages](output.tables/language_accepted.csv).
+
 
 |Language | Documents (n)| Fraction (%)|
 |:--------|-------------:|------------:|
