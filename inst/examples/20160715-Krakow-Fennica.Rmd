@@ -290,7 +290,7 @@ df$period <- cut(df$publication_year,
 		 )
 
 # Remove entries outside the investigated publication periods
-df <- df %>% filter(!is.na(period)) %>% group_by(period, paper)
+df <- df %>% filter(!is.na(period)) %>% group_by(period)
 df <- df %>% summarise(n = n(),
 		  paper2 = sum(paper, na.rm = TRUE)) %>%
              mutate(paper.per.title = paper2/n)		 
