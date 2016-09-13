@@ -28,22 +28,7 @@ The publication_topic field is also available in some catalogs. The links are in
   * [List of discarded publication topics](output.tables/publication_topic_discarded.csv)
   * 0 documents (NaN%) are assigned a publication topic 
 
+Top-20 publication topics and number of documents for each, in
+case the field is available:
 
-Top-20 publication topics and number of documents for each.
 
-
-```
-## Error in dfs$names: $ operator is invalid for atomic vectors
-```
-
-```
-## Error in p + ggtitle(paste("Top publication topics")): non-numeric argument to binary operator
-```
-
-```
-## Error in p + ylab("Documents"): non-numeric argument to binary operator
-```
-
-```
-## NULL
-```
