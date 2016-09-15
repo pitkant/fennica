@@ -47,8 +47,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |publication_frequency_text     |        98.6|           1.4|          1001|         34|
 |width.original                 |        97.2|           2.8|          2021|        307|
 |publication_interval_from      |        97.2|           2.8|          2027|         98|
-|publication_interval_till      |        97.2|           2.8|          2027|         99|
-|publication_year_till          |        94.8|           5.2|          3714|        188|
+|publication_interval_till      |        97.2|           2.8|          2028|         99|
+|publication_year_till          |        94.8|           5.2|          3717|        189|
 |height.original                |        93.0|           7.0|          5058|        350|
 |subject_geography              |        91.9|           8.1|          5838|        779|
 |note_granter                   |        91.9|           8.1|          5845|         98|
@@ -77,9 +77,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |latitude                       |         2.0|          98.0|         70466|        199|
 |longitude                      |         2.0|          98.0|         70466|        199|
 |language                       |         1.0|          99.0|         71186|        259|
-|publication_year_from          |         1.0|          99.0|         71227|        354|
-|publication_year               |         0.9|          99.1|         71246|        354|
-|publication_decade             |         0.9|          99.1|         71246|         43|
+|publication_year_from          |         1.0|          99.0|         71235|        354|
+|publication_year               |         0.9|          99.1|         71253|        354|
+|publication_decade             |         0.9|          99.1|         71253|         43|
 |dissertation                   |         0.0|         100.0|         71893|          3|
 |pagecount                      |         0.0|         100.0|         71896|        978|
 |title                          |         0.0|         100.0|         71916|      57062|
