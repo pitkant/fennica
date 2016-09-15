@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-09-14"
+date: "2016-09-15"
 output: markdown_document
 ---
 
@@ -22,7 +22,7 @@ Publication frequency is available for 1001 documents (1%). The links are invali
 
 [Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 
-[Publication frequency conversions](output.tables/publication_frequency_conversion.csv)
+[Publication frequency conversions](output.tables/publication_frequency_conversion_nontrivial.csv)
 
 [Publication frequency discarded](output.tables/publication_frequency_discarded.csv)
 
@@ -33,7 +33,7 @@ Publication interval is available for 3349 documents (5%).
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
-[Publication interval conversions](output.tables/publication_interval_conversion.csv)
+[Publication interval conversions](output.tables/publication_interval_conversion_nontrivial.csv)
 
 [Publication interval discarded](output.tables/publication_interval_discarded.csv)
 
@@ -58,9 +58,8 @@ This figure shows the number of first editions per decade.
 
 
 ```
-## Error in paste("First editions count (", catalog, ")", sep = ""): object 'catalog' not found
+## null device 
+##           1
 ```
-
-<img src="figure/firsteditions-1.png" title="plot of chunk firsteditions" alt="plot of chunk firsteditions" width="280px" />
 
 
