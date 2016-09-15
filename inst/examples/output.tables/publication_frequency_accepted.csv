@@ -1,39 +1,53 @@
-publication_frequency_annual	publication_frequency_text	Count
-Total count: 	71919	
-NA	yhdestä kahteen kertaa kuukaudessa	    1
-NA	yhdeksän vuodessa	    1
-NA	ilmestynyt vain kerran	    1
-NA	kaksi kertaa  viikossa	    1
-NA	ilmestymistiheys vaihtelee	    2
-NA	seitsemän numeroa	    1
-NA	vaihdellut	    2
-NA	kahdeksan-yhdeksän vuodessa	    1
-NA	vaihtelee	    1
-NA	epäsäännöllinen	   76
-NA	NA	70918
-365.0000000	päivittäin	   10
-312.0000000	kuusi viikossa	   30
-208.0000000	neljä viikossa	    2
-156.0000000	kolme viikossa	   52
-104.0000000	kaksi viikossa	   71
- 52.0000000	viikossa	  188
- 36.0000000	kolme kuukaudessa	    2
- 36.0000000	36 vuodessa	    1
- 26.0000000	toinen viikko	    4
- 26.0000000	kahdessa viikossa	   11
- 24.0000000	kaksi kuukaudessa	   66
- 18.0000000	kerran-kaksi kuukaudessa	    1
- 12.0000000	kaksitoista vuodessa	    2
- 12.0000000	kuukaudessa	  198
-  8.0000000	kahdeksan vuodessa	    1
-  6.0000000	kahdessa kuukaudessa	    2
-  6.0000000	kuusi vuodessa	   14
-  5.0000000	neljä-kuusi vuodessa	    2
-  5.0000000	viisi vuodessa	    1
-  4.0000000	neljä vuodessa	   10
-  3.0000000	kolme vuodessa	    3
-  2.0000000	kaksi vuodessa	    2
-  1.0000000	vuodessa	  230
-  0.5000000	toinen vuosi	    2
-  0.5000000	kahdessa vuodessa	    8
-  0.3333333	kolmessa vuodessa	    1
+publication_frequency_annual	publication_frequency_text	original	Count
+Total count: 	71919		
+NA	yhdestä kahteen kertaa kuukaudessa	Yhdestä kahteen kertaa kuukaudessa	    1
+NA	yhdeksän vuodessa	Yhdeksän kertaa vuodessa.	    1
+NA	ilmestynyt vain kerran	Ilmestynyt vain kerran	    1
+NA	kaksi kertaa  viikossa	Kaksi kertaa  viikossa.	    1
+NA	ilmestymistiheys vaihtelee	Ilmestymistiheys vaihtelee	    2
+NA	seitsemän numeroa	Seitsemän numeroa.	    1
+NA	vaihdellut	Vaihdellut	    2
+NA	kahdeksan-yhdeksän vuodessa	Kahdeksan-yhdeksän kertaa vuodessa	    1
+NA	epäsäännöllinen	Epäsäännöllinen	   26
+NA	vaihtelee	Vaihtelee	    1
+NA	epäsäännöllinen	Epäsäännöllinen.	   50
+NA	NA	NA	70918
+365.0000000	päivittäin	Päivittäin	    1
+365.0000000	päivittäin	Päivittäin.	    9
+312.0000000	kuusi viikossa	Kuusi kertaa viikossa.	   30
+208.0000000	neljä viikossa	Neljä kertaa viikossa.	    2
+156.0000000	kolme viikossa	Kolme kertaa viikossa.	   52
+104.0000000	kaksi viikossa	Kaksi kertaa viikossa	    3
+104.0000000	kaksi viikossa	Kaksi kertaa viikossa.	   68
+ 52.0000000	viikossa	Kerran viikossa	   48
+ 52.0000000	viikossa	Kerran viikossa.	  140
+ 36.0000000	kolme kuukaudessa	Kolme kertaa kuukaudessa.	    1
+ 36.0000000	kolme kuukaudessa	Kolme kertaa kuukaudessa	    1
+ 36.0000000	36 vuodessa	36 numeroa vuodessa	    1
+ 26.0000000	kahdessa viikossa	Kerran kahdessa viikossa.	    8
+ 26.0000000	toinen viikko	Joka toinen viikko	    4
+ 26.0000000	kahdessa viikossa	Kerran kahdessa viikossa	    3
+ 24.0000000	kaksi kuukaudessa	Kaksi kertaa kuukaudessa	   57
+ 24.0000000	kaksi kuukaudessa	Kaksi kertaa kuukaudessa.	    9
+ 18.0000000	kerran-kaksi kuukaudessa	Kerran-kaksi kuukaudessa	    1
+ 12.0000000	kaksitoista vuodessa	Kaksitoista numeroa vuodessa	    1
+ 12.0000000	kaksitoista vuodessa	Kaksitoista kertaa vuodessa	    1
+ 12.0000000	kuukaudessa	Kerran kuukaudessa.	   22
+ 12.0000000	kuukaudessa	Kerran kuukaudessa	  176
+  8.0000000	kahdeksan vuodessa	Kahdeksan numeroa vuodessa	    1
+  6.0000000	kahdessa kuukaudessa	Kerran kahdessa kuukaudessa	    2
+  6.0000000	kuusi vuodessa	Kuusi kertaa vuodessa	   14
+  5.0000000	neljä-kuusi vuodessa	Neljä-kuusi kertaa vuodessa	    2
+  5.0000000	viisi vuodessa	Viisi kertaa vuodessa	    1
+  4.0000000	neljä vuodessa	Neljä kertaa vuodessa.	    1
+  4.0000000	neljä vuodessa	Neljä kertaa vuodessa	    9
+  3.0000000	kolme vuodessa	Kolme kertaa vuodessa.	    1
+  3.0000000	kolme vuodessa	Kolme kertaa vuodessa	    2
+  2.0000000	kaksi vuodessa	Kaksi kertaa vuodessa.	    1
+  2.0000000	kaksi vuodessa	Kaksi kertaa vuodessa	    1
+  1.0000000	vuodessa	Kerran vuodessa.	   67
+  1.0000000	vuodessa	Kerran vuodessa	  163
+  0.5000000	toinen vuosi	Joka toinen vuosi	    2
+  0.5000000	kahdessa vuodessa	Kerran kahdessa vuodessa.	    5
+  0.5000000	kahdessa vuodessa	Kerran kahdessa vuodessa	    3
+  0.3333333	kolmessa vuodessa	Kerran kolmessa vuodessa.	    1
