@@ -62,8 +62,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic                  |        71.0|          29.0|         20889|       3533|
 |obl                            |        54.6|          45.4|         32687|          3|
 |holder                         |        49.5|          50.5|         36295|       2162|
-|paper                          |        47.6|          52.4|         37664|       4262|
-|paper.check                    |        47.6|          52.4|         37664|       4262|
+|paper                          |        47.6|          52.4|         37664|       4264|
+|paper.check                    |        47.6|          52.4|         37664|       4264|
 |width                          |        47.6|          52.4|         37687|        310|
 |height                         |        47.6|          52.4|         37687|        351|
 |area                           |        47.6|          52.4|         37687|        816|
@@ -71,13 +71,13 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |self_published                 |        42.8|          57.2|         41158|          2|
 |author_name                    |        36.3|          63.7|         45806|      12012|
 |author                         |        36.3|          63.7|         45806|      12076|
-|pagecount.orig                 |         6.8|          93.2|         67048|        978|
+|pagecount.orig                 |         6.8|          93.2|         67046|        978|
 |country                        |         4.3|          95.7|         68806|         34|
 |publication_place              |         4.3|          95.7|         68807|        432|
 |latitude                       |         2.0|          98.0|         70466|        199|
 |longitude                      |         2.0|          98.0|         70466|        199|
 |language                       |         1.0|          99.0|         71186|        259|
-|publication_year_from          |         1.0|          99.0|         71225|        354|
+|publication_year_from          |         1.0|          99.0|         71227|        354|
 |publication_year               |         0.9|          99.1|         71246|        354|
 |publication_decade             |         0.9|          99.1|         71246|         43|
 |dissertation                   |         0.0|         100.0|         71893|          3|
