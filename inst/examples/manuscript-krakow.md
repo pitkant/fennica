@@ -98,6 +98,8 @@ The following figure highlights publisher title count changes around 1700 drop i
 
 Here the same for the complete Fennica:
 
+    ## Warning: Unknown column 'PANEL'
+
 ![](figure_201606_Krakow/summaryTop10pubtimeline-1.png)
 
 Paper per title count ratio per publisher. \[nähdään voidaanko sanoa onko joku selkeästi asetusten julkaisija ja toisella myös kirjoja (tai asetuskokoelmia).\]
@@ -197,8 +199,6 @@ Same with selected publication places:
 
 Same with top publishers
 
-<img src="figure_201606_Krakow/topics.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-10.png" width="430px" />
-
 ### BOOKINFINLAND-DONE3
 
 Sama kuin edellä, mutta asiasanat tässä: hautajaiset;häät;juhlamenot.
@@ -212,8 +212,6 @@ Same with selected publication places:
 <img src="figure_201606_Krakow/topics2.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-6.png" width="430px" />
 
 Same with top publishers
-
-<img src="figure_201606_Krakow/topics2.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-10.png" width="430px" />
 
 ### BOOK IN FINLAND 4
 
@@ -230,8 +228,6 @@ Same with selected publication places:
 <img src="figure_201606_Krakow/topics3.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-6.png" width="430px" />
 
 Same with top publishers
-
-<img src="figure_201606_Krakow/topics3.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-10.png" width="430px" />
 
 ### BOOK IN FINLAND
 
@@ -549,7 +545,7 @@ Materials and Methods
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata 70004 and 381811 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 19668 (28.1%) and 72631 (0%) documents for Fennica and Kungliga, respectively.
+The raw data contains metadata 70002 and 381808 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 19666 (28.1%) and 72631 (0%) documents for Fennica and Kungliga, respectively.
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. \[SUMMARY FIGURE OF THE PROCESS?\]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 

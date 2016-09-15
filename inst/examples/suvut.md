@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2016-09-13"
+date: "2016-09-15"
 output: markdown_document
 ---
 
