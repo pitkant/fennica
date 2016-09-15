@@ -56,10 +56,6 @@ suggested as the first edition.
 
 This figure shows the number of first editions per decade.
 
-
-```
-## null device 
-##           1
-```
+![plot of chunk firsteditions](figure/firsteditions-1.png)
 
 
