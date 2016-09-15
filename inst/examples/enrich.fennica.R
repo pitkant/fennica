@@ -1,3 +1,4 @@
+
 message("Enriching Fennica")
 
 message("Identify issues")
@@ -6,24 +7,26 @@ df.preprocessed$issue <- is.issue(df.preprocessed)
 ## COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS
 # Recognize issues: those that have publication interval or frequency defined
 message("Combining year and interval")
-inds <- which(!is.na(df.preprocessed$publication_interval))
-interval <- polish_years(df.preprocessed$publication_interval[inds])
-
 # Assume that all cases with denoted interval have start and end year
 # If one is missing, then it means that start and end are the same year
 # therefore fill those missing entries here:s
-interval$from[is.na(interval$from)] <- interval$till[is.na(interval$from)]
-interval$till[is.na(interval$till)] <- interval$from[is.na(interval$till)]
+df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_from)] <- df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_from)]
+df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_till)] <- df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_till)]
 
 # Discard erroneous years
-interval[interval < 1400] <- NA
-interval[interval > 2000] <- NA
+df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
+df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
+df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from > 2000] <- NA
+df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
+
 
 # Compare with publication year field.
 # When the non-NA entries are unique, use the same year for all
 tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
              till0 = df.preprocessed$publication_year_till[inds],
-	     interval)
+	     from = df.preprocessed$publication_interval_from[inds],
+	     till = df.preprocessed$publication_interval_till[inds]
+)
 inds2 <- unname(which(apply(tmp, 1, function (x) {length(unique(na.omit(x)))}) == 1))
 y <- unname(apply(tmp[inds2,], 1, function (x) {unique(na.omit(x))}))
 df.preprocessed$publication_year_from[inds[inds2]] <- y
@@ -31,7 +34,9 @@ df.preprocessed$publication_year_till[inds[inds2]] <- y
 # For conflicting years, select he largest combined span
 tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
              till0 = df.preprocessed$publication_year_till[inds],
-	     interval)
+	     from = df.preprocessed$publication_interval_from[inds],
+	     till = df.preprocessed$publication_interval_till[inds]
+	     )
 mins <- unname(apply(tmp, 1, function (x) {min(x, na.rm = TRUE)}))
 maxs <- unname(apply(tmp, 1, function (x) {max(x, na.rm = TRUE)}))
 df.preprocessed$publication_year_from[inds] <- mins
@@ -70,9 +75,11 @@ gendercustom <- get_gender(firstname, gender.custom)
 inds <- which(!is.na(gendercustom))
 df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
-message("-- Fennica publishers")
-df.preprocessed.bu <- df.preprocessed
-df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
+# TODO set this in again when ready
+#message("-- Fennica publishers")
+#df.preprocessed.bu <- df.preprocessed
+#df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
+df.preprocessed$publisher <- rep(NA, nrow(df.preprocessed))
       
 # ----------------------------------------------------------------
  
