@@ -22,7 +22,6 @@ Falander, Jacobus Erici	1658	1720
 Falander, Jacobus Erici	1719	1779
 Faltin, Richard	1835	1918
 Faltin, Richard	1867	1923
-G	2	NA
 G	1662	1741
 G	1700	NA
 G	1840	1896
@@ -39,6 +38,7 @@ I	1700	1757
 I	1871	1921
 I	1894	1935
 I	NA	NA
+J	1600	1700
 J	1636	1708
 J	1700	NA
 J	1709	1788
@@ -48,9 +48,10 @@ Katila, E	1872	1945
 Katila, E	1884	1959
 Koskimies, Kaarlo	1851	1918
 Koskimies, Kaarlo	1881	1951
-L	1700	1893
+L	1600	1700
+L	1700	NA
 L	1852	1893
-L	NA	1893
+L	NA	NA
 Miödh, Abrahamus	1708	1786
 Miödh, Abrahamus	1744	1810
 Munselius, Ericus	1712	1751
@@ -59,7 +60,7 @@ Nordenskiöld, Carl Fredrik	1702	1779
 Nordenskiöld, Carl Fredrik	1756	1828
 P	1722	1939
 P	1888	1939
-P	NA	1939
+P	1939	NA
 Palander, Gabriel	1730	1800
 Palander, Gabriel	1776	1821
 Poppius, Henricus Abrahami	1649	1730
@@ -77,13 +78,11 @@ Serlachius, Johannes Johannis	1658	1729
 Serlachius, Johannes Johannis	1705	1757
 T	1700	1928
 T	1870	1928
-T	NA	1928
-T	NA	NA
+T	1928	NA
 Terserus, Johannes Elai	1605	1678
 Terserus, Johannes Elai	1612	1649
 Topelius, Zacharias	1781	1831
 Topelius, Zacharias	1818	1898
-V	1	NA
 V	1830	1907
 V	1867	1948
 V	1880	1915

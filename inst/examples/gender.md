@@ -9,7 +9,7 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 8492 unique male authors
+ * 8490 unique male authors
  
  * 929 unique female authors
  

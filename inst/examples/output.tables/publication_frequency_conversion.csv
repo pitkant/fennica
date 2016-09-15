@@ -7,8 +7,8 @@ Kaksi kertaa viikossa.	104.0000000	kaksi viikossa	 68
 Kerran vuodessa.	  1.0000000	vuodessa	 67
 Kaksi kertaa kuukaudessa	 24.0000000	kaksi kuukaudessa	 57
 Kolme kertaa viikossa.	156.0000000	kolme viikossa	 52
-Epäsäännöllinen.	NA	epäsäännöllinen	 50
 Kerran viikossa	 52.0000000	viikossa	 48
+Epäsäännöllinen.	NA	epäsäännöllinen	 36
 Kuusi kertaa viikossa.	312.0000000	kuusi viikossa	 30
 Epäsäännöllinen	NA	epäsäännöllinen	 26
 Kerran kuukaudessa.	 12.0000000	kuukaudessa	 22
@@ -23,6 +23,9 @@ Kerran kahdessa vuodessa	  0.5000000	kahdessa vuodessa	  3
 Kaksi kertaa viikossa	104.0000000	kaksi viikossa	  3
 Kerran kahdessa viikossa	 26.0000000	kahdessa viikossa	  3
 Joka toinen vuosi	  0.5000000	toinen vuosi	  2
+Epäsäännöllinen.	  1.5000000	epäsäännöllinen	  2
+Epäsäännöllinen.	  2.0000000	epäsäännöllinen	  2
+Epäsäännöllinen.	  1.0000000	epäsäännöllinen	  2
 Kolme kertaa vuodessa	  3.0000000	kolme vuodessa	  2
 Ilmestymistiheys vaihtelee	NA	vaihteleva	  2
 Neljä kertaa viikossa.	208.0000000	neljä viikossa	  2
@@ -38,8 +41,16 @@ Päivittäin	365.0000000	päivittäin	  1
 Kolme kertaa kuukaudessa.	 36.0000000	kolme kuukaudessa	  1
 Ilmestynyt vain kerran	NA	kertajulkaisu	  1
 Kaksi kertaa  viikossa.	104.0000000	kaksi viikossa	  1
+Epäsäännöllinen.	  4.3333333	epäsäännöllinen	  1
+Epäsäännöllinen.	  4.0000000	epäsäännöllinen	  1
+Epäsäännöllinen.	  3.6666667	epäsäännöllinen	  1
+Epäsäännöllinen.	  1.3333333	epäsäännöllinen	  1
+Epäsäännöllinen.	  2.5000000	epäsäännöllinen	  1
+Epäsäännöllinen.	  3.2000000	epäsäännöllinen	  1
+Epäsäännöllinen.	  0.6666667	epäsäännöllinen	  1
 Kolme kertaa kuukaudessa	 36.0000000	kolme kuukaudessa	  1
 Kerran-kaksi kuukaudessa	 18.0000000	kerran-kaksi kuukaudessa	  1
+Epäsäännöllinen.	  1.1000000	epäsäännöllinen	  1
 Kerran kolmessa vuodessa.	  0.3333333	kolmessa vuodessa	  1
 Seitsemän numeroa.	NA	seitsemän numeroa	  1
 Kaksitoista numeroa vuodessa	 12.0000000	kaksitoista vuodessa	  1
