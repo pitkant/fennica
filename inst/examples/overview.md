@@ -38,19 +38,17 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                     | missing (%)| available (%)| available (n)| unique (n)|
 |:------------------------------|-----------:|-------------:|-------------:|----------:|
+|publisher                      |       100.0|           0.0|             0|          1|
 |volnumber                      |       100.0|           0.0|             0|          1|
 |parts                          |        99.9|           0.1|            44|          8|
 |uncontrolled                   |        99.8|           0.2|           111|         99|
-|publisher                      |        99.7|           0.3|           190|        129|
 |successor                      |        99.4|           0.6|           404|        396|
-|publication_frequency_annual   |        98.7|           1.3|           914|         21|
-|publication_frequency          |        98.6|           1.4|          1001|         51|
-|publication_frequency_text     |        98.6|           1.4|          1001|         37|
-|publication_interval_till      |        98.3|           1.7|          1242|         94|
-|publication_interval_from      |        97.8|           2.2|          1560|         96|
+|publication_frequency_annual   |        98.7|           1.3|           917|         23|
+|publication_frequency_text     |        98.6|           1.4|          1001|         35|
 |width.original                 |        97.2|           2.8|          2021|        307|
-|publication_interval           |        95.3|           4.7|          3349|       2228|
-|publication_year_till          |        94.0|           6.0|          4337|        195|
+|publication_interval_from      |        97.2|           2.8|          2027|         98|
+|publication_interval_till      |        97.2|           2.8|          2027|         99|
+|publication_year_till          |        94.8|           5.2|          3714|        188|
 |height.original                |        93.0|           7.0|          5058|        350|
 |subject_geography              |        91.9|           8.1|          5838|        779|
 |note_granter                   |        91.9|           8.1|          5845|         98|
@@ -64,8 +62,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |subject_topic                  |        71.0|          29.0|         20889|       3533|
 |obl                            |        54.6|          45.4|         32687|          3|
 |holder                         |        49.5|          50.5|         36295|       2162|
-|paper                          |        47.6|          52.4|         37664|       4266|
-|paper.check                    |        47.6|          52.4|         37664|       4266|
+|paper                          |        47.6|          52.4|         37664|       4262|
+|paper.check                    |        47.6|          52.4|         37664|       4262|
 |width                          |        47.6|          52.4|         37687|        310|
 |height                         |        47.6|          52.4|         37687|        351|
 |area                           |        47.6|          52.4|         37687|        816|
@@ -79,9 +77,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |latitude                       |         2.0|          98.0|         70466|        199|
 |longitude                      |         2.0|          98.0|         70466|        199|
 |language                       |         1.0|          99.0|         71186|        259|
-|publication_year_from          |         1.0|          99.0|         71235|        357|
-|publication_year               |         0.9|          99.1|         71254|        357|
-|publication_decade             |         0.9|          99.1|         71254|         44|
+|publication_year_from          |         1.0|          99.0|         71225|        354|
+|publication_year               |         0.9|          99.1|         71246|        354|
+|publication_decade             |         0.9|          99.1|         71246|         43|
 |dissertation                   |         0.0|         100.0|         71893|          3|
 |pagecount                      |         0.0|         100.0|         71896|        978|
 |title                          |         0.0|         100.0|         71916|      57062|
@@ -135,7 +133,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |volcount                       |         0.0|         100.0|         71919|          1|
 |singlevol                      |         0.0|         100.0|         71919|          2|
 |multivol                       |         0.0|         100.0|         71919|          1|
-|issue                          |         0.0|         100.0|         71919|          2|
+|issue                          |         0.0|         100.0|         71919|          1|
 
 
 
