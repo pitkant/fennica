@@ -12,8 +12,8 @@ Päivänsalo, B H	NA	NA	 68
 Palmén, E G	NA	NA	 67
 Päivärinta, Pietari	NA	NA	 64
 Rindell, Arthur	NA	NA	 63
+J	NA	NA	 63
 Kurvinen, Pietari	NA	NA	 62
-J	NA	NA	 62
 Munster, Johannes Bernhardi	1714	NA	 58
 Talvio, Maila	NA	NA	 57
 Wilskman, Ivar	NA	NA	 56
@@ -177,7 +177,7 @@ Granfelt, A A	NA	NA	 20
 Bonsdorff, Adolf Von	NA	NA	 20
 Lilius, Axel	NA	NA	 20
 Elfving, östen	NA	NA	 20
-P	1939	NA	 20
+P	NA	1939	 20
 Smiles, Samuel	NA	NA	 19
 Lönnbeck, Gustaf F	NA	NA	 19
 Strömborg, J E	NA	NA	 19
@@ -254,6 +254,7 @@ Axelson, Väinö	NA	NA	 16
 Sankey, Ira D	NA	NA	 16
 Tšehov, Anton	NA	NA	 16
 Drummond, Henry	NA	NA	 16
+L	NA	1893	 16
 Hersleb, Peder	NA	NA	 16
 Stenbäck, Josef	NA	NA	 15
 Vakaa, Gustaf Adolf	NA	NA	 15
@@ -285,7 +286,6 @@ Torrey, R A	NA	NA	 15
 Cajander, K A	NA	NA	 15
 Thomasson, Pehr	NA	NA	 15
 Salamnius, Mattias	1691	NA	 15
-L	NA	NA	 15
 Cicero, Marcus Tullius	 106	NA	 15
 Lönneström, K	NA	NA	 14
 Tuomas	NA	NA	 14
@@ -1015,7 +1015,7 @@ Frosterus, Sigurd	NA	NA	  6
 Ahlgren, J E	NA	NA	  6
 Ohrt, F	NA	NA	  6
 Scheller, Johann Gerhard	NA	NA	  6
-T	1928	NA	  6
+T	NA	1928	  6
 Merthen, Andreas Andreae	1690	NA	  6
 Flachsenius, Olaus Johannis	NA	NA	  6
 Kotzebue, August Von	NA	NA	  6
@@ -1617,7 +1617,7 @@ Pekka	NA	NA	  4
 Kara, Jalmari	NA	NA	  4
 Claretie, Jules	NA	NA	  4
 Hoving, Johannes	NA	NA	  4
-Bowen, Emanuel	1767	NA	  4
+Bowen, Emanuel	NA	1767	  4
 Klingstedt, Timoteus Von	NA	NA	  4
 Brauner, J	NA	NA	  4
 Mylius, Georgius	NA	NA	  4
@@ -3764,7 +3764,7 @@ Bogdanoff, A	NA	NA	  2
 Baird, Robert	NA	NA	  2
 White, Bouck	NA	NA	  2
 Dornblüth, Otto	NA	NA	  2
-Moll, Herman	1732	NA	  2
+Moll, Herman	NA	1732	  2
 Valk, Gerardo	NA	NA	  2
 Ortelius, Abraham	NA	NA	  2
 Van Keulen, Gerard	NA	NA	  2
@@ -8892,7 +8892,7 @@ Barrett, Frank	NA	NA	  1
 Abrahamsson, G A	NA	NA	  1
 Asp, K	NA	NA	  1
 Mursu, Johan	NA	NA	  1
-Bowen, Thomas	1790	NA	  1
+Bowen, Thomas	NA	1790	  1
 Brion De La Tour, Louis	NA	NA	  1
 Kitchin, Thomas	NA	NA	  1
 Janvier, Jean	NA	NA	  1
@@ -9541,7 +9541,6 @@ Herman	NA	NA	  1
 Wiebe, Johan Diedrich	NA	NA	  1
 Gripenberg, Johan Wilhelm	NA	NA	  1
 Wessmann, Nicolaus	NA	NA	  1
-L	1700	NA	  1
 Lidén, Johannes Henricus	NA	NA	  1
 Loefwing, G M	NA	NA	  1
 Lönberg, Johannes	NA	NA	  1

@@ -1,29 +1,29 @@
 original	publication_frequency_annual	publication_frequency_text	Count
 Total count: 	919		
 kerran vuodessa	  1.0000000	Annual	230
-kerran kuukaudessa	 12.0000000	0.0833333333333333	198
-kerran viikossa	 52.0000000	0.0192307692307692	188
-kaksi kertaa viikossa	104.0000000	0.0192307692307692	 71
-kaksi kertaa kuukaudessa	 24.0000000	0.0833333333333333	 66
-kolme kertaa viikossa	156.0000000	0.0192307692307692	 52
-kuusi kertaa viikossa	312.0000000	0.0192307692307692	 30
+kerran kuukaudessa	 12.0000000	Monthly	198
+kerran viikossa	 52.0000000	Weekly	188
+kaksi kertaa viikossa	104.0000000	Weekly	 71
+kaksi kertaa kuukaudessa	 24.0000000	Monthly	 66
+kolme kertaa viikossa	156.0000000	Weekly	 52
+kuusi kertaa viikossa	312.0000000	Weekly	 30
 kuusi kertaa vuodessa	  6.0000000	Annual	 14
-kerran kahdessa viikossa	 26.0000000	0.0192307692307692	 11
-päivittäin	365.0000000	0.00273972602739726	 10
+kerran kahdessa viikossa	 26.0000000	Weekly	 11
+päivittäin	365.0000000	Daily	 10
 neljä kertaa vuodessa	  4.0000000	Annual	 10
 kerran kahdessa vuodessa	  0.5000000	Annual	  8
-joka toinen viikko	 26.0000000	0.0192307692307692	  4
+joka toinen viikko	 26.0000000	Weekly	  4
 kolme kertaa vuodessa	  3.0000000	Annual	  3
 joka toinen vuosi	  0.5000000	Annual	  2
-kolme kertaa kuukaudessa	 36.0000000	0.0833333333333333	  2
-neljä kertaa viikossa	208.0000000	0.0192307692307692	  2
-kerran kahdessa kuukaudessa	  6.0000000	0.0833333333333333	  2
+kolme kertaa kuukaudessa	 36.0000000	Monthly	  2
+neljä kertaa viikossa	208.0000000	Weekly	  2
+kerran kahdessa kuukaudessa	  6.0000000	Monthly	  2
 kaksi kertaa vuodessa	  2.0000000	Annual	  2
 neljä-kuusi kertaa vuodessa	  5.0000000	Annual	  2
-yhdestä kahteen kertaa kuukaudessa	 18.0000000	0.0833333333333333	  1
+yhdestä kahteen kertaa kuukaudessa	 18.0000000	Monthly	  1
 yhdeksän kertaa vuodessa	  9.0000000	Annual	  1
-kaksi kertaa  viikossa	104.0000000	0.0192307692307692	  1
-kerran-kaksi kuukaudessa	 18.0000000	0.0833333333333333	  1
+kaksi kertaa  viikossa	104.0000000	Weekly	  1
+kerran-kaksi kuukaudessa	 18.0000000	Monthly	  1
 kerran kolmessa vuodessa	  0.3333333	Annual	  1
 seitsemän numeroa	NA	numeroa	  1
 kaksitoista numeroa vuodessa	 12.0000000	Annual	  1
