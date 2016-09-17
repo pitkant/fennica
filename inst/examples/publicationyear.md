@@ -29,7 +29,7 @@ Publication frequency information is available for 1001 documents (NaN%). The li
 
 ### Publication interval
 
-Publication interval is available for 2734 documents (4%). 
+Publication interval is available for 2738 documents (4%). 
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
