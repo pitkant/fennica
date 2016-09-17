@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-09-15"
+date: "2016-09-17"
 output: markdown_document
 ---
 
@@ -18,7 +18,7 @@ Publication year is available for 71254 documents (99%). The publication years s
 
 ### Publication frequency
 
-Publication frequency information is available for 1001 documents (NaN%). The links are invalid if the lists are empty.
+Publication frequency information is available for 919 documents (NaN%). The links are invalid if the lists are empty.
 
 [Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 
