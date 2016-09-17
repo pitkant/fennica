@@ -1,34 +1,125 @@
 original	publication_frequency_annual	publication_frequency_text	Count
-Total count: 	919		
-kerran vuodessa	  1.0000000	Annual	230
-kerran kuukaudessa	 12.0000000	Monthly	198
-kerran viikossa	 52.0000000	Weekly	188
-kaksi kertaa viikossa	104.0000000	Weekly	 71
-kaksi kertaa kuukaudessa	 24.0000000	Monthly	 66
-kolme kertaa viikossa	156.0000000	Weekly	 52
-kuusi kertaa viikossa	312.0000000	Weekly	 30
-kuusi kertaa vuodessa	  6.0000000	Annual	 14
-kerran kahdessa viikossa	 26.0000000	Weekly	 11
-päivittäin	365.0000000	Daily	 10
-neljä kertaa vuodessa	  4.0000000	Annual	 10
-kerran kahdessa vuodessa	  0.5000000	Annual	  8
-joka toinen viikko	 26.0000000	Weekly	  4
-kolme kertaa vuodessa	  3.0000000	Annual	  3
-joka toinen vuosi	  0.5000000	Annual	  2
-kolme kertaa kuukaudessa	 36.0000000	Monthly	  2
-neljä kertaa viikossa	208.0000000	Weekly	  2
-kerran kahdessa kuukaudessa	  6.0000000	Monthly	  2
-kaksi kertaa vuodessa	  2.0000000	Annual	  2
-neljä-kuusi kertaa vuodessa	  5.0000000	Annual	  2
-yhdestä kahteen kertaa kuukaudessa	 18.0000000	Monthly	  1
-yhdeksän kertaa vuodessa	  9.0000000	Annual	  1
-kaksi kertaa  viikossa	104.0000000	Weekly	  1
-kerran-kaksi kuukaudessa	 18.0000000	Monthly	  1
-kerran kolmessa vuodessa	  0.3333333	Annual	  1
-seitsemän numeroa	NA	numeroa	  1
-kaksitoista numeroa vuodessa	 12.0000000	Annual	  1
-kahdeksan-yhdeksän kertaa vuodessa	  8.5000000	Annual	  1
-36 numeroa vuodessa	 36.0000000	Annual	  1
-kahdeksan numeroa vuodessa	  8.0000000	Annual	  1
-kaksitoista kertaa vuodessa	 12.0000000	Annual	  1
-viisi kertaa vuodessa	  5.0000000	Annual	  1
+Total count: 	71919		
+NA	NA	2	67480
+NA	NA	3	 3219
+kerran vuodessa	  1.0000000	Annual	  230
+kerran kuukaudessa	 12.0000000	Monthly	  198
+kerran viikossa	 52.0000000	Weekly	  188
+kaksi kertaa viikossa	104.0000000	Twice per Week	   71
+kaksi kertaa kuukaudessa	 24.0000000	Twice per Month	   66
+epäsäännöllinen	NA	2	   60
+kolme kertaa viikossa	156.0000000	2	   50
+NA	  1.0000000	2	   37
+NA	  2.0000000	2	   36
+kuusi kertaa viikossa	312.0000000	2	   28
+NA	  0.6666667	2	   22
+kuusi kertaa vuodessa	  6.0000000	2	   14
+kerran kahdessa viikossa	 26.0000000	Twice per Month	   11
+NA	  3.0000000	2	   10
+päivittäin	365.0000000	Daily	   10
+neljä kertaa vuodessa	  4.0000000	2	    9
+kerran kahdessa vuodessa	  0.5000000	Every two years	    8
+NA	  1.3333333	2	    8
+NA	  0.5000000	2	    6
+NA	  0.6000000	2	    5
+NA	  2.5000000	2	    4
+NA	  0.8333333	2	    4
+NA	  1.5000000	2	    4
+joka toinen viikko	 26.0000000	Twice per Month	    4
+NA	  6.0000000	2	    3
+kolme kertaa vuodessa	  3.0000000	2	    3
+NA	  1.6666667	2	    3
+NA	  4.0000000	2	    3
+NA	  0.8000000	2	    3
+NA	  1.1428571	2	    3
+NA	  1.0000000	3	    3
+joka toinen vuosi	  0.5000000	Every two years	    2
+NA	  0.3750000	2	    2
+epäsäännöllinen	  1.5000000	2	    2
+epäsäännöllinen	  2.0000000	2	    2
+epäsäännöllinen	  1.0000000	2	    2
+kolme kertaa kuukaudessa	 36.0000000	2	    2
+NA	  1.2000000	2	    2
+NA	  0.2307692	2	    2
+NA	  0.4000000	2	    2
+NA	  0.5625000	2	    2
+NA	  0.8750000	2	    2
+NA	  1.2500000	2	    2
+NA	  0.6250000	2	    2
+NA	  0.2857143	2	    2
+ilmestymistiheys vaihtelee	NA	2	    2
+NA	  5.0000000	2	    2
+NA	  3.5000000	2	    2
+NA	  0.7500000	2	    2
+NA	  8.0000000	2	    2
+kuusi kertaa viikossa	312.0000000	3	    2
+neljä kertaa viikossa	208.0000000	2	    2
+kolme kertaa viikossa	156.0000000	3	    2
+epäsäännöllinen	NA	3	    2
+vaihdellut	NA	2	    2
+kaksi kertaa vuodessa	  2.0000000	Twice per Year	    2
+neljä-kuusi kertaa vuodessa	  5.0000000	2	    2
+neljä kertaa vuodessa	  4.0000000	3	    1
+yhdestä kahteen kertaa kuukaudessa	 18.0000000	2	    1
+yhdeksän kertaa vuodessa	  9.0000000	2	    1
+NA	  0.3142857	2	    1
+NA	  3.0000000	3	    1
+ilmestynyt vain kerran	NA	2	    1
+kaksi kertaa  viikossa	104.0000000	Twice per Week	    1
+epäsäännöllinen	  4.3333333	2	    1
+epäsäännöllinen	  4.0000000	3	    1
+epäsäännöllinen	  3.6666667	2	    1
+epäsäännöllinen	  1.3333333	2	    1
+epäsäännöllinen	  2.5000000	2	    1
+epäsäännöllinen	  3.2000000	2	    1
+epäsäännöllinen	  0.6666667	2	    1
+NA	  0.4444444	2	    1
+NA	  0.8260870	2	    1
+NA	  0.5652174	2	    1
+NA	  1.1000000	2	    1
+NA	  0.9411765	2	    1
+NA	  2.3333333	2	    1
+NA	  1.1111111	3	    1
+NA	  2.7272727	2	    1
+NA	  1.0714286	2	    1
+NA	  0.3333333	2	    1
+NA	  0.9090909	2	    1
+kerran-kaksi kuukaudessa	 18.0000000	2	    1
+NA	  7.0000000	2	    1
+NA	 15.0000000	2	    1
+NA	  0.2727273	2	    1
+NA	  2.5714286	2	    1
+NA	  0.3478261	2	    1
+NA	  2.4000000	2	    1
+NA	  0.2352941	2	    1
+NA	  0.4615385	2	    1
+NA	 17.0000000	2	    1
+NA	  2.0000000	3	    1
+NA	  8.2000000	2	    1
+NA	  0.2000000	2	    1
+NA	  2.0833333	2	    1
+NA	  0.4285714	2	    1
+NA	  0.7391304	2	    1
+NA	  0.3000000	2	    1
+NA	  0.9166667	2	    1
+NA	  0.2500000	2	    1
+NA	  0.3500000	2	    1
+NA	  0.6363636	2	    1
+NA	  0.8571429	2	    1
+NA	  0.7000000	2	    1
+NA	  0.3125000	2	    1
+NA	  2.6666667	2	    1
+NA	  0.9444444	2	    1
+NA	  2.1428571	2	    1
+epäsäännöllinen	  1.1000000	2	    1
+kerran kolmessa vuodessa	  0.3333333	Every three years	    1
+seitsemän numeroa	NA	2	    1
+kaksitoista numeroa vuodessa	 12.0000000	Monthly	    1
+kerran kahdessa kuukaudessa	  6.0000000	2	    1
+kahdeksan-yhdeksän kertaa vuodessa	  8.5000000	2	    1
+kerran kahdessa kuukaudessa	  6.0000000	3	    1
+36 numeroa vuodessa	 36.0000000	2	    1
+kahdeksan numeroa vuodessa	  8.0000000	2	    1
+vaihtelee	NA	2	    1
+kaksitoista kertaa vuodessa	 12.0000000	Monthly	    1
+viisi kertaa vuodessa	  5.0000000	2	    1
