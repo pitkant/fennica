@@ -13,90 +13,73 @@ Three per Month	 36.0000000	    3
 Every two Weeks	 26.0000000	   15
 Twice per Month	 24.0000000	   66
 Every three Weeks	 18.0000000	    2
-NA	 17.0000000	    1
-NA	 15.0000000	    1
+Every three Weeks	 17.0000000	    1
+Every three Weeks	 15.0000000	    1
 Monthly	 12.0000000	  200
 Nine per Year	  9.0000000	    1
 Eight per Year	  8.5000000	    1
-NA	  8.2000000	    1
-NA	  8.0000000	    2
-Eight per Year	  8.0000000	    1
+Eight per Year	  8.2000000	    1
+Eight per Year	  8.0000000	    3
 NA	  7.0000000	    1
-NA	  6.0000000	    3
-Every two months	  6.0000000	   16
-NA	  5.0000000	    2
-Five per Year	  5.0000000	    3
-Irregular	  4.3333333	    1
-Irregular	  4.0000000	    1
-NA	  4.0000000	    3
-Every three Months	  4.0000000	   10
-Irregular	  3.6666667	    1
-NA	  3.5000000	    2
-Irregular	  3.2000000	    1
-Every four Months	  3.0000000	    3
-NA	  3.0000000	   11
-NA	  2.7272727	    1
-NA	  2.6666667	    1
-NA	  2.5714286	    1
-Irregular	  2.5000000	    1
-NA	  2.5000000	    4
-NA	  2.4000000	    1
-NA	  2.3333333	    1
-NA	  2.1428571	    1
-NA	  2.0833333	    1
-Irregular	  2.0000000	    2
-NA	  2.0000000	   37
-Every six Months	  2.0000000	    2
-NA	  1.6666667	    3
-Irregular	  1.5000000	    2
-NA	  1.5000000	    4
-Irregular	  1.3333333	    1
-NA	  1.3333333	    8
-NA	  1.2500000	    2
-NA	  1.2000000	    2
-NA	  1.1428571	    3
-NA	  1.1111111	    1
-NA	  1.1000000	    1
-Irregular	  1.1000000	    1
-NA	  1.0714286	    1
-Irregular	  1.0000000	    2
-NA	  1.0000000	   40
-Annual	  1.0000000	  230
-NA	  0.9444444	    1
-NA	  0.9411765	    1
-NA	  0.9166667	    1
-NA	  0.9090909	    1
-NA	  0.8750000	    2
-NA	  0.8571429	    1
-NA	  0.8333333	    4
-NA	  0.8260870	    1
-NA	  0.8000000	    3
-NA	  0.7500000	    2
-NA	  0.7391304	    1
-NA	  0.7000000	    1
-Irregular	  0.6666667	    1
-NA	  0.6666667	   22
-NA	  0.6363636	    1
-NA	  0.6250000	    2
-NA	  0.6000000	    5
-NA	  0.5652174	    1
-NA	  0.5625000	    2
-Every two Years	  0.5000000	   10
-NA	  0.5000000	    6
-NA	  0.4615385	    1
+Every two months	  6.0000000	   19
+Five per Year	  5.0000000	    5
+Every three Months	  4.3333333	    1
+Every three Months	  4.0000000	   14
+Every three Months	  3.6666667	    1
+Every three Months	  3.5000000	    2
+Every four Months	  3.2000000	    1
+Every four Months	  3.0000000	   14
+Every four Months	  2.7272727	    1
+Every four Months	  2.6666667	    1
+Every four Months	  2.5714286	    1
+Every six Months	  2.5000000	    5
+Every six Months	  2.4000000	    1
+Every six Months	  2.3333333	    1
+Every six Months	  2.1428571	    1
+Every six Months	  2.0833333	    1
+Every six Months	  2.0000000	   41
+Every six Months	  1.6666667	    3
+Every six Months	  1.5000000	    6
+Annual	  1.3333333	    9
+Annual	  1.2500000	    2
+Annual	  1.2000000	    2
+Annual	  1.1428571	    3
+Annual	  1.1111111	    1
+Annual	  1.1000000	    2
+Annual	  1.0714286	    1
+Annual	  1.0000000	  272
+Annual	  0.9444444	    1
+Annual	  0.9411765	    1
+Annual	  0.9166667	    1
+Annual	  0.9090909	    1
+Annual	  0.8750000	    2
+Annual	  0.8571429	    1
+Annual	  0.8333333	    4
+Annual	  0.8260870	    1
+Annual	  0.8000000	    3
+Annual	  0.7500000	    2
+Annual	  0.7391304	    1
+Annual	  0.7000000	    1
+Annual	  0.6666667	   23
+Annual	  0.6363636	    1
+Annual	  0.6250000	    2
+Annual	  0.6000000	    5
+Annual	  0.5652174	    1
+Annual	  0.5625000	    2
+Every two Years	  0.5000000	   16
+Every two Years	  0.4615385	    1
 NA	  0.4444444	    1
 NA	  0.4285714	    1
 NA	  0.4000000	    2
 NA	  0.3750000	    2
 NA	  0.3500000	    1
-NA	  0.3478261	    1
-NA	  0.3333333	    1
-Every three Years	  0.3333333	    1
-NA	  0.3142857	    1
-NA	  0.3125000	    1
-NA	  0.3000000	    1
-NA	  0.2857143	    2
-NA	  0.2727273	    1
+Every three Years	  0.3478261	    1
+Every three Years	  0.3333333	    2
+Every three Years	  0.3142857	    1
+Every three Years	  0.3125000	    1
+Every three Years	  0.3000000	    1
+Every three Years	  0.2857143	    2
+Every three Years	  0.2727273	    1
 NA	  0.2500000	    1
 NA	  0.2352941	    1
 NA	  0.2307692	    2
