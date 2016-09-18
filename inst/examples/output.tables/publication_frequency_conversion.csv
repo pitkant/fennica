@@ -11,16 +11,16 @@ kolme kertaa viikossa	156.0000000	Three per Week	   52
 NA	  1.0000000	Annual	   40
 NA	  2.0000000	Every six Months	   37
 kuusi kertaa viikossa	312.0000000	Six per Week	   30
-NA	  0.6666667	Annual	   22
+NA	  0.6666667	0.666666666666667	   22
 kuusi kertaa vuodessa	  6.0000000	Every two months	   14
 NA	  3.0000000	Every four Months	   11
 kerran kahdessa viikossa	 26.0000000	Every two Weeks	   11
 päivittäin	365.0000000	Daily	   10
 neljä kertaa vuodessa	  4.0000000	Every three Months	   10
 kerran kahdessa vuodessa	  0.5000000	Every two Years	    8
-NA	  1.3333333	Annual	    8
+NA	  1.3333333	1.33333333333333	    8
 NA	  0.5000000	Every two Years	    6
-NA	  0.6000000	Annual	    5
+NA	  0.6000000	0.6	    5
 NA	  2.5000000	Every six Months	    4
 NA	  0.8333333	Annual	    4
 NA	  1.5000000	Every six Months	    4
@@ -32,18 +32,18 @@ NA	  4.0000000	Every three Months	    3
 NA	  0.8000000	Annual	    3
 NA	  1.1428571	Annual	    3
 joka toinen vuosi	  0.5000000	Every two Years	    2
-NA	  0.3750000	NA	    2
+NA	  0.3750000	Every three Years	    2
 epäsäännöllinen	  1.5000000	Every six Months	    2
 epäsäännöllinen	  2.0000000	Every six Months	    2
 epäsäännöllinen	  1.0000000	Annual	    2
 kolme kertaa kuukaudessa	 36.0000000	Three per Month	    2
 NA	  1.2000000	Annual	    2
-NA	  0.2307692	NA	    2
-NA	  0.4000000	NA	    2
-NA	  0.5625000	Annual	    2
+NA	  0.2307692	0.230769230769231	    2
+NA	  0.4000000	Every three Years	    2
+NA	  0.5625000	0.5625	    2
 NA	  0.8750000	Annual	    2
 NA	  1.2500000	Annual	    2
-NA	  0.6250000	Annual	    2
+NA	  0.6250000	0.625	    2
 NA	  0.2857143	Every three Years	    2
 ilmestymistiheys vaihtelee	NA	Irregular	    2
 NA	  5.0000000	Five per Year	    2
@@ -63,13 +63,13 @@ kaksi kertaa  viikossa	104.0000000	Twice per Week	    1
 epäsäännöllinen	  4.3333333	Every three Months	    1
 epäsäännöllinen	  4.0000000	Every three Months	    1
 epäsäännöllinen	  3.6666667	Every three Months	    1
-epäsäännöllinen	  1.3333333	Annual	    1
+epäsäännöllinen	  1.3333333	1.33333333333333	    1
 epäsäännöllinen	  2.5000000	Every six Months	    1
 epäsäännöllinen	  3.2000000	Every four Months	    1
-epäsäännöllinen	  0.6666667	Annual	    1
-NA	  0.4444444	NA	    1
+epäsäännöllinen	  0.6666667	0.666666666666667	    1
+NA	  0.4444444	Every three Years	    1
 NA	  0.8260870	Annual	    1
-NA	  0.5652174	Annual	    1
+NA	  0.5652174	0.565217391304348	    1
 NA	  1.1000000	Annual	    1
 NA	  0.9411765	Annual	    1
 NA	  2.3333333	Every six Months	    1
@@ -79,27 +79,27 @@ NA	  1.0714286	Annual	    1
 NA	  0.3333333	Every three Years	    1
 NA	  0.9090909	Annual	    1
 kerran-kaksi kuukaudessa	 18.0000000	Every three Weeks	    1
-NA	  7.0000000	NA	    1
+NA	  7.0000000	Seven per Year	    1
 NA	 15.0000000	Every three Weeks	    1
 NA	  0.2727273	Every three Years	    1
 NA	  2.5714286	Every four Months	    1
 NA	  0.3478261	Every three Years	    1
 NA	  2.4000000	Every six Months	    1
-NA	  0.2352941	NA	    1
+NA	  0.2352941	0.235294117647059	    1
 NA	  0.4615385	Every two Years	    1
 NA	 17.0000000	Every three Weeks	    1
 NA	  8.2000000	Eight per Year	    1
-NA	  0.2000000	NA	    1
+NA	  0.2000000	0.2	    1
 NA	  2.0833333	Every six Months	    1
-NA	  0.4285714	NA	    1
-NA	  0.7391304	Annual	    1
+NA	  0.4285714	Every three Years	    1
+NA	  0.7391304	0.739130434782609	    1
 NA	  0.3000000	Every three Years	    1
 NA	  0.9166667	Annual	    1
-NA	  0.2500000	NA	    1
-NA	  0.3500000	NA	    1
-NA	  0.6363636	Annual	    1
+NA	  0.2500000	Every four Years	    1
+NA	  0.3500000	Every three Years	    1
+NA	  0.6363636	0.636363636363636	    1
 NA	  0.8571429	Annual	    1
-NA	  0.7000000	Annual	    1
+NA	  0.7000000	0.7	    1
 NA	  0.3125000	Every three Years	    1
 NA	  2.6666667	Every four Months	    1
 NA	  0.9444444	Annual	    1
