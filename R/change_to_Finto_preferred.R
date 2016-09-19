@@ -8,15 +8,15 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
     	   	      mod = character(nrow(pubs)),
     	              stringsAsFactors = FALSE)
     
-    na_till <- which(is.na(years$till))
-    na_from <- which(is.na(years$from))
+    na_till <- which(is.na(years$publication_year_till))
+    na_from <- which(is.na(years$publication_year_from))
     pubtills <- integer(length = nrow(years))
-    pubtills[-na_till] <- years$till[-na_till]
-    pubtills[na_till]  <- years$from[na_till]
+    pubtills[-na_till] <- years$publication_year_till[-na_till]
+    pubtills[na_till]  <- years$publication_year_from[na_till]
     
     pubfroms <- integer(length = nrow(years))
-    pubfroms[-na_from] <- years$from[-na_from]
-    pubfroms[na_from]  <- years$from[na_from]
+    pubfroms[-na_from] <- years$publication_year_from[-na_from]
+    pubfroms[na_from]  <- years$publication_year_from[na_from]
     
     p5 <- data.frame(orig = pubs$orig,
        	             mod = pubs$mod,
@@ -39,10 +39,22 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
       pubtill <- unique_pubs$pubtill[idx]
       pubfrom <- unique_pubs$pubfrom[idx]
       
-      unique_pubs_instances <- intersect(which(pubname==unique_pubs$mod), which(pubtown==unique_pubs$town))
-      unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubfrom), unique_pubs_instances)
-      unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubtill), unique_pubs_instances)
-      
+      if (is.na(pubtown)) {
+        unique_pubs_instances <- intersect(which(pubname==unique_pubs$mod), which(is.na(unique_pubs$town)))
+      } else {
+        unique_pubs_instances <- intersect(which(pubname==unique_pubs$mod), which(pubtown==unique_pubs$town))
+      }
+      if (is.na(pubfrom)) {
+        unique_pubs_instances <- intersect(which(is.na(unique_pubs$pubfrom)), unique_pubs_instances)
+      } else {
+        unique_pubs_instances <- intersect(which(pubfrom==unique_pubs$pubfrom), unique_pubs_instances)
+      }
+      if (is.na(pubtill)) {
+        unique_pubs_instances <- intersect(which(is.na(unique_pubs$pubtill)), unique_pubs_instances)
+      } else {
+        unique_pubs_instances <- intersect(which(pubtill==unique_pubs$pubtill), unique_pubs_instances)
+      }
+        
       # Default value, might be changed later on
       ret$orig[unique_pubs_instances] <- as.character(unique_pubs$orig[idx])
       ret$mod[unique_pubs_instances] <- pubname
