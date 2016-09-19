@@ -1,7 +1,11 @@
 publication_frequency_text	publication_frequency_annual	Count
 Total count: 	71919	
-Single	NA	    1
-Irregular	NA	   68
+ilmestynyt vain kerran	NA	    1
+ilmestymistiheys vaihtelee	NA	    2
+seitsemän numeroa	NA	    1
+vaihdellut	NA	    2
+vaihtelee	NA	    1
+epäsäännöllinen	NA	   62
 NA	NA	70699
 Daily	365.0000000	   10
 Six per Week	312.0000000	   30
@@ -41,8 +45,8 @@ Every six Months	  2.0000000	   41
 Every six Months	  1.6666667	    3
 Every six Months	  1.5000000	    6
 Annual	  1.3333333	    9
-1.25	  1.2500000	    2
-1.2	  1.2000000	    2
+Annual	  1.2500000	    2
+Annual	  1.2000000	    2
 Annual	  1.1428571	    3
 Annual	  1.1111111	    1
 Annual	  1.1000000	    2

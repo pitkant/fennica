@@ -29,7 +29,7 @@ Publication frequency information is available for 1220 documents (2%). The link
 
 ### Publication interval
 
-Publication interval is available for 2745 documents (4%). 
+Publication interval is available for 2753 documents (4%). 
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
