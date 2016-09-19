@@ -25,6 +25,7 @@ Imports:
     XML
 Suggests:
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 LazyLoad: yes
 RoxygenNote: 5.0.1

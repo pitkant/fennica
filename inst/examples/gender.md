@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-08-30"
+date: "2016-09-19"
 output: markdown_document
 ---
 
@@ -9,7 +9,7 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 8492 unique male authors
+ * 8490 unique male authors
  
  * 929 unique female authors
  

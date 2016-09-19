@@ -58,6 +58,7 @@ df.orig$physical_dimension <- map(df.orig$physical_dimension,
 # -------------------------------
 
 source(system.file("extdata/preprocessing.R", package = "bibliographica"))
+
 source("preprocessing.fennica.R") # Fennica-specific
 
 # -------------------------------

@@ -143,6 +143,7 @@ Cederberg, A R	NA	NA	 22
 Helsingius, Gustaf Adolf	NA	NA	 22
 Frosterus-segerstråle, Hanna	NA	NA	 22
 Schiller, Friedrich Von	NA	NA	 22
+G	NA	NA	 22
 M	NA	NA	 22
 Hacks, Alexander	1740	NA	 22
 Johnsson, August Mikael	NA	NA	 21
@@ -162,7 +163,6 @@ Cajander, A K	NA	NA	 21
 Forstén, T K	NA	NA	 21
 Verne, Jules	NA	NA	 21
 S	1700	NA	 21
-G	NA	NA	 21
 Aspelin, J R	NA	NA	 20
 Roos, Magnus Friedrich	NA	NA	 20
 Mela, Aukusti Juhana	NA	NA	 20
@@ -286,7 +286,7 @@ Torrey, R A	NA	NA	 15
 Cajander, K A	NA	NA	 15
 Thomasson, Pehr	NA	NA	 15
 Salamnius, Mattias	1691	NA	 15
-Cicero, Marcus Tullius	NA	NA	 15
+Cicero, Marcus Tullius	 106	NA	 15
 Lönneström, K	NA	NA	 14
 Tuomas	NA	NA	 14
 Arrhenius, Johan	NA	NA	 14
@@ -1015,6 +1015,7 @@ Frosterus, Sigurd	NA	NA	  6
 Ahlgren, J E	NA	NA	  6
 Ohrt, F	NA	NA	  6
 Scheller, Johann Gerhard	NA	NA	  6
+T	NA	1928	  6
 Merthen, Andreas Andreae	1690	NA	  6
 Flachsenius, Olaus Johannis	NA	NA	  6
 Kotzebue, August Von	NA	NA	  6
@@ -1247,9 +1248,7 @@ Lermontov, Mihail	NA	NA	  5
 Hilli, Fritiof	NA	NA	  5
 Delisle, Guillaume	NA	NA	  5
 Wit, Frederick De	NA	NA	  5
-T	NA	1928	  5
 Schonaeus, Cornelius	1611	NA	  5
-Chronander, Jacob Pettersson	NA	NA	  5
 Boëthius, Daniel	NA	NA	  5
 Solander, Daniel	NA	NA	  5
 Hermansson, Johannes	NA	NA	  5
@@ -1835,7 +1834,6 @@ Seyfferth, A	NA	NA	  3
 Schauman, Ossian	NA	NA	  3
 Huxley, Thomas H	NA	NA	  3
 Sibelius, Chr	NA	NA	  3
-Augustinus	NA	NA	  3
 Marinero	NA	NA	  3
 Ylänne, Yrjö	NA	NA	  3
 Wyyryläinen, David Konstantin	NA	NA	  3
@@ -2278,7 +2276,6 @@ Rothovius, Gudmundus Jacobi	1691	NA	  3
 Keckonius, Andreas Johannis	1675	NA	  3
 Nycopensis, Andreas Laurentii	1688	NA	  3
 Donatus, Aelius	 300	NA	  3
-Cato, Marcus Porcius	NA	NA	  3
 Jurvelius, Michael Jacobi	1670	NA	  3
 Hartman, Samuel Georgii	1653	NA	  3
 Hordelius, Bartholdus Johannis	1646	NA	  3
@@ -2311,6 +2308,7 @@ Fredrik, Aadolf	NA	NA	  3
 Ullén, Petrus	NA	NA	  3
 Alstrin, Ericus	NA	NA	  3
 Adlerbeth, Gudmund Jöran	NA	NA	  3
+V	NA	NA	  3
 E	1700	NA	  3
 U	NA	NA	  3
 Kepplerus, Justus	NA	NA	  3
@@ -3779,7 +3777,6 @@ Zeaeman, Georgius	NA	NA	  2
 Melanderhielm, Daniel	NA	NA	  2
 Haartman, Gustaf Jacobsson	NA	NA	  2
 Carpzovius, Johannes Benedictus	NA	NA	  2
-Stalenus, Johannes Laurentii	NA	NA	  2
 Dau, Michael	1710	NA	  2
 Arctander, Niels Lauridsen	1616	NA	  2
 Gammal, Martinus Matthiae	NA	NA	  2
@@ -3794,9 +3791,7 @@ Anglenius, Simon Caroli	1654	NA	  2
 Fattbuur, Martinus Henrici	1665	NA	  2
 Kempe, Laurentius Andreae	1669	NA	  2
 Stephanius, Stephanus Johannis	1650	NA	  2
-Pythagoras	NA	NA	  2
 Melanchthon, Philipp	NA	NA	  2
-Isocrates	NA	NA	  2
 Homeros	NA	NA	  2
 Curtius, Quintus Rufus	NA	NA	  2
 Laghe, Magnus Magni	1697	NA	  2
@@ -3876,10 +3871,9 @@ Vallerius, Haraldus	NA	NA	  2
 Fick, Johannes Ericus	NA	NA	  2
 Neikter, Jacobus Fredricus	NA	NA	  2
 De La Myle, Fredrik Ludvig	NA	NA	  2
-E-	   3	NA	  2
+E-	NA	NA	  2
 Pahlman, Adam	1793	NA	  2
 Arbin, Axel Magnus Von	NA	NA	  2
-V	NA	NA	  2
 Indreen, Nathanael	NA	NA	  2
 Ivendorff, Magnus Jacob	NA	NA	  2
 Rehbinder, Berendt Otto	1784	NA	  2
@@ -6807,7 +6801,6 @@ Rawson, Maud Stepney	NA	NA	  1
 Ravn, F Kølpin	NA	NA	  1
 Monisti	NA	NA	  1
 Rautapää, Hugo	NA	NA	  1
-T	NA	NA	  1
 Jakobson, Naima	NA	NA	  1
 Cederhvarf, Björn	NA	NA	  1
 Donner, Harry	NA	NA	  1
@@ -8365,7 +8358,6 @@ Retcliffe, John	NA	NA	  1
 St, G	NA	NA	  1
 Santeri	NA	NA	  1
 Renée, Gaston	NA	NA	  1
-G	   2	NA	  1
 Elliot, Frances	NA	NA	  1
 Eliot, Charles W	NA	NA	  1
 Heydemarck	NA	NA	  1
@@ -8563,7 +8555,6 @@ Ahrens, W	NA	NA	  1
 Lännenpää, A	NA	NA	  1
 Ahlström, J V	NA	NA	  1
 Ahlman, John E	NA	NA	  1
-V	   1	NA	  1
 Ahlfors, A K	NA	NA	  1
 Franc-nohain	NA	NA	  1
 Forstner, Günther Georg Von	NA	NA	  1
@@ -8824,8 +8815,6 @@ Haartman, C D Von	NA	NA	  1
 Gylden, N A	NA	NA	  1
 Grönlund, Carolus	NA	NA	  1
 Gröndaal, Pietari	NA	NA	  1
-Gripenberg, G A	NA	1918	  1
-Gripenberg, G A	NA	NA	  1
 Grafström, A A	NA	NA	  1
 Gossner, J	NA	NA	  1
 Gezelius, J	NA	NA	  1
@@ -9185,7 +9174,6 @@ Brodinus, Olavus	1737	NA	  1
 Brobergh, Gustavus Erici	NA	NA	  1
 Achtander, Simon Bartholli	NA	NA	  1
 Acander, Petrus Nicolai	1682	NA	  1
-Baazius, Bengt Johansson	NA	NA	  1
 Arnerus, Laurentius Olai	NA	NA	  1
 Anckaerus, Henricus Martini	1723	NA	  1
 Georgii, Sigfridus	NA	NA	  1
@@ -9227,7 +9215,6 @@ Carelius, Canutus Martini	NA	NA	  1
 Julenius, Samuel Zachariae	1717	NA	  1
 Hellenius, Petrus Jonae	1657	NA	  1
 Fleming, Claes Hermansson	1616	NA	  1
-Severus, Sulpicius	NA	NA	  1
 Sparrman, Johannes Erici	NA	NA	  1
 Collinus, Johannes Matthiae	1671	NA	  1
 Röchmann, Johannes Matthiae	1679	NA	  1
@@ -9328,7 +9315,6 @@ Alanus, Carolus Georgii	1680	NA	  1
 Strandenius, Andreas Johannis	1688	NA	  1
 Tilacaeus, Daniel	NA	NA	  1
 Blanck, Henricus Henrici	1689	NA	  1
-Albogius, Justus Erici	NA	NA	  1
 Bohkius, Franciscus	NA	NA	  1
 Kiälman, Johannes Laurentii	NA	NA	  1
 Hermigius, Gabriel Sigfridi	1674	NA	  1
@@ -9823,5 +9809,4 @@ Huss, Olaus Erici	1782	NA	  1
 Broder, Christendoms	NA	NA	  1
 Unge, Lars	1732	NA	  1
 Schalin, Laurentius	NA	NA	  1
-Borenius, Ericus Henrici	NA	NA	  1
 Krook, Johannes	1778	NA	  1

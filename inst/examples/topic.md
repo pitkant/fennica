@@ -1,17 +1,20 @@
 ---
 title: "Subject topic preprocessing summaries"
 author: "Leo Lahti"
-date: "2016-08-30"
+date: "2016-09-19"
 output: markdown_document
 ---
 
 ## Subject topics
 
+The topics are shown individually. Note that each document may have
+several assigned topics.
+
 
 
   * 3533 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
   * [List of discarded subject topics](output.tables/subject_topic_discarded.csv)
-  * 20889 documents (29%) are assigned a subject topic 
+  * 20889 documents (29%) are assigned one or more subject topics 
 
 
 Top-20 subject topics and number of documents for each.
@@ -20,7 +23,7 @@ Top-20 subject topics and number of documents for each.
 
 ### Publication topic
 
-We also have the publication_topic field. The links are invalid if the lists are empty.
+The publication_topic field is also available in some catalogs. The links are invalid if the lists are empty.
 
 
 
@@ -28,12 +31,7 @@ We also have the publication_topic field. The links are invalid if the lists are
   * [List of discarded publication topics](output.tables/publication_topic_discarded.csv)
   * 0 documents (NaN%) are assigned a publication topic 
 
+Top-20 publication topics and number of documents for each, in
+case the field is available:
 
-Top-20 publication topics and number of documents for each.
 
-
-```
-## Error in dfs$names: $ operator is invalid for atomic vectors
-```
-
-![plot of chunk summarytopics223](figure/summarytopics223-1.png)

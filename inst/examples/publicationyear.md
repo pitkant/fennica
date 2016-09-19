@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2016-08-30"
+date: "2016-09-19"
 output: markdown_document
 ---
 
@@ -18,9 +18,9 @@ Publication year is available for 71254 documents (99%). The publication years s
 
 ### Publication frequency
 
-Publication frequency is available for 1001 documents (1%). The links are invalid if the lists are empty.
+Publication frequency information is available for 1220 documents (2%). The links are invalid if the lists are empty.
 
-[Publication frequency accepted](output.tables/publication_frequency_discarded.csv)
+[Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 
 [Publication frequency conversions](output.tables/publication_frequency_conversion.csv)
 
@@ -29,11 +29,11 @@ Publication frequency is available for 1001 documents (1%). The links are invali
 
 ### Publication interval
 
-Publication interval is available for 3349 documents (5%). 
+Publication interval is available for 2745 documents (4%). 
 
-[Publication interval accepted](output.tables/publication_interval_discarded.csv)
+[Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
-[Publication interval conversions](output.tables/publication_interval_conversion.csv)
+[Publication interval conversions](output.tables/publication_interval_conversion_nontrivial.csv)
 
 [Publication interval discarded](output.tables/publication_interval_discarded.csv)
 
@@ -47,20 +47,14 @@ are multiple instances from the same earliest year, they are all
 marked as potential first editions. Later need to check if this
 information is readily available in MARC.
 
-In this data we have 58870
-unique documents with an identical title and author. Out of these,
-6152
-have multiple occurrences, sometimes with different publication years.
-Where multiple publication years are seen, the earliest occurrence is
-suggested as the first edition.
+There are 58870 unique
+documents with an identical title and author; `r
+length(which(write_xtable(df[, c("title", "author")])$Count > 1))` of
+those have multiple occurrences, sometimes with different publication
+years.  The earliest occurrence is suggested as the first edition.
 
 This figure shows the number of first editions per decade.
 
-
-```
-## Error in paste("First editions count (", catalogue, ")", sep = ""): object 'catalogue' not found
-```
-
-<img src="figure/firsteditions-1.png" title="plot of chunk firsteditions" alt="plot of chunk firsteditions" width="280px" />
+![plot of chunk firsteditions](figure/firsteditions-1.png)
 
 
