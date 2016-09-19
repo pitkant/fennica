@@ -44,7 +44,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |uncontrolled                   |        99.8|           0.2|           111|         99|
 |successor                      |        99.4|           0.6|           404|        396|
 |publication_frequency_annual   |        98.4|           1.6|          1151|         82|
-|publication_frequency_text     |        98.3|           1.7|          1207|         24|
+|publication_frequency_text     |        98.3|           1.7|          1220|         30|
 |width.original                 |        97.2|           2.8|          2021|        307|
 |publication_interval_from      |        96.2|           3.8|          2731|        107|
 |publication_interval_till      |        96.2|           3.8|          2742|        114|

@@ -40,9 +40,9 @@ Every six Months	  2.0833333	    1
 Every six Months	  2.0000000	   41
 Every six Months	  1.6666667	    3
 Every six Months	  1.5000000	    6
-1.33333333333333	  1.3333333	    9
-Annual	  1.2500000	    2
-Annual	  1.2000000	    2
+Annual	  1.3333333	    9
+1.25	  1.2500000	    2
+1.2	  1.2000000	    2
 Annual	  1.1428571	    3
 Annual	  1.1111111	    1
 Annual	  1.1000000	    2
@@ -58,19 +58,19 @@ Annual	  0.8333333	    4
 Annual	  0.8260870	    1
 Annual	  0.8000000	    3
 Annual	  0.7500000	    2
-0.739130434782609	  0.7391304	    1
-0.7	  0.7000000	    1
-0.666666666666667	  0.6666667	   23
-0.636363636363636	  0.6363636	    1
-0.625	  0.6250000	    2
-0.6	  0.6000000	    5
-0.565217391304348	  0.5652174	    1
-0.5625	  0.5625000	    2
+Every One or Two Years	  0.7391304	    1
+Every One or Two Years	  0.7000000	    1
+Every two Years	  0.6666667	   23
+Every two Years	  0.6363636	    1
+Every two Years	  0.6250000	    2
+Every two Years	  0.6000000	    5
+Every two Years	  0.5652174	    1
+Every two Years	  0.5625000	    2
 Every two Years	  0.5000000	   16
 Every two Years	  0.4615385	    1
-Every three Years	  0.4444444	    1
-Every three Years	  0.4285714	    1
-Every three Years	  0.4000000	    2
+Every two Years	  0.4444444	    1
+Every two Years	  0.4285714	    1
+Every two Years	  0.4000000	    2
 Every three Years	  0.3750000	    2
 Every three Years	  0.3500000	    1
 Every three Years	  0.3478261	    1
@@ -78,9 +78,9 @@ Every three Years	  0.3333333	    2
 Every three Years	  0.3142857	    1
 Every three Years	  0.3125000	    1
 Every three Years	  0.3000000	    1
-Every three Years	  0.2857143	    2
-Every three Years	  0.2727273	    1
+Every four Years	  0.2857143	    2
+Every four Years	  0.2727273	    1
 Every four Years	  0.2500000	    1
-0.235294117647059	  0.2352941	    1
-0.230769230769231	  0.2307692	    2
-0.2	  0.2000000	    1
+Every four Years	  0.2352941	    1
+Every four Years	  0.2307692	    2
+Every five Years	  0.2000000	    1
