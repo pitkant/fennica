@@ -90,5 +90,5 @@ polish_publisher_fennica <- function (df.preprocessed) {
 
   pubs.polished.cap <- capitalize(pubs.polished)
 
-  return(pubs.polished.cap)
+return(pubs.polished.cap)
 }

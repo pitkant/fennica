@@ -12,6 +12,7 @@
 #' @keywords utilities
 get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town, publication_year) {
 
+  message("Starting: get_publishers_Finto")
   Finto_corrected <- cheat_list$pref
   Finto_town  <- cheat_list$town
   Finto_years <- cheat_list[, c("year_from", "year_till")]
@@ -26,11 +27,20 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
   idx = 1
   
   # Unify publication year
-  inds <- which(is.na(publication_year$from))
-  inds <- intersect(inds, which(is.na(publication_year$till)))
+  # 1. both years NA
+  inds <- which(is.na(publication_year$publication_year_from))
+  inds2 <- intersect(inds, which(is.na(publication_year$publication_year_till)))
+  publication_year$publication_year_from[inds2] <- publication_year$publication_year_till[inds2] <- publication_year$publication_year[inds2]
 
-  publication_year$from[inds] <- publication_year$till[inds] <- publication_year$from[inds]
-
+  # 2. start year NA
+  inds2 <- intersect(inds, which(!is.na(publication_year$publication_year_till)))
+  publication_year$publication_year_from[inds2] <- publication_year$publication_year_till[inds2]
+  
+  # 3. end year NA
+  inds <- which(is.na(publication_year$publication_year_till))
+  inds2 <- intersect(inds, which(!is.na(publication_year$publication_year_from)))
+  publication_year$publication_year_from[inds2] <- publication_year$publication_year_till[inds2]
+  
   all_data <- data.frame(names = all_names,
                          pubyear.from = publication_year$publication_year_from,
 			 pubyear.till = publication_year$publication_year_till,
@@ -45,8 +55,8 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
 
     # LL: what is the difference btw all_names$orig and all_data$names.orig ?
     all_names_indices <- which(all_names$orig == unique_data$names.orig[idx])
-    all_names_indices <- intersect(all_names_indices, which(publication_year$from == unique_data$pubyear.from[idx]))
-    all_names_indices <- intersect(all_names_indices, which(publication_year$till == unique_data$pubyear.till[idx]))
+    all_names_indices <- intersect(all_names_indices, which(publication_year$publication_year_from == unique_data$pubyear.from[idx]))
+    all_names_indices <- intersect(all_names_indices, which(publication_year$publication_year_till == unique_data$pubyear.till[idx]))
     all_names_indices <- intersect(all_names_indices, which(unknown_town == unique_data$town[idx]))
     town2 <- unique_data$town[idx]
     
@@ -201,7 +211,7 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
         
   }
 
-  message("get_publihers_Finto OK.")
+  message("get_publishers_Finto OK.")
   return (data.frame(alt = alt, pref = pref, match_methods = match_methods, stringsAsFactors = FALSE))
     
 }
