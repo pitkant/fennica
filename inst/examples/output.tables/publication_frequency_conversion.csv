@@ -65,6 +65,7 @@ Every three Months	  4.00	Neljä kertaa vuodessa.	    1
 Every three Weeks	 17.00	NA	    1
 Every three Weeks	 15.00	NA	    1
 Every three Weeks	 18.00	Kerran-kaksi kuukaudessa	    1
+Every three Weeks	 18.00	Yhdestä kahteen kertaa kuukaudessa	    1
 Every three Years	  0.33	Kerran kolmessa vuodessa.	    1
 Every three Years	  0.31	NA	    2
 Every three Years	  0.35	NA	    2
@@ -102,7 +103,6 @@ Irregular	NA	Epäsäännöllinen	   26
 Irregular	NA	Vaihdellut	    2
 Irregular	NA	Seitsemän numeroa.	    1
 Irregular	NA	Ilmestymistiheys vaihtelee	    2
-month	NA	Yhdestä kahteen kertaa kuukaudessa	    1
 Monthly	 12.00	Kerran kuukaudessa	  176
 Monthly	 12.00	Kerran kuukaudessa.	   22
 Monthly	 12.00	Kaksitoista kertaa vuodessa	    1
