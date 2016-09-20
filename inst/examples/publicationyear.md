@@ -18,7 +18,7 @@ Publication year is available for 71254 documents (99%). The publication years s
 
 ### Publication frequency
 
-Publication frequency information is available for 1190 documents (2%). The links are invalid if the lists are empty.
+Publication frequency information is available for 1219 documents (2%). The links are invalid if the lists are empty.
 
 [Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 

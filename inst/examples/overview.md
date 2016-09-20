@@ -42,9 +42,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |volnumber                      |       100.0|           0.0|             0|          1|
 |parts                          |        99.9|           0.1|            44|          8|
 |uncontrolled                   |        99.8|           0.2|           111|         99|
-|publication_frequency_annual   |        99.7|           0.3|           246|         71|
 |successor                      |        99.4|           0.6|           404|        396|
-|publication_frequency_text     |        98.3|           1.7|          1190|         22|
+|publication_frequency_annual   |        98.4|           1.6|          1150|         82|
+|publication_frequency_text     |        98.3|           1.7|          1219|         29|
 |width.original                 |        97.2|           2.8|          2021|        307|
 |publication_interval_from      |        96.2|           3.8|          2746|        107|
 |publication_interval_till      |        96.2|           3.8|          2753|        114|
