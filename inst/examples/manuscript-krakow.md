@@ -77,9 +77,9 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015b).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015b) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015a). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -781,47 +781,47 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] fennica_0.1.43        bibliographica_0.2.28 git2r_0.15.0         
-    ##  [4] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.87   
-    ##  [7] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [10] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
-    ## [13] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
-    ## [16] dplyr_0.5.0           devtools_1.12.0      
+    ##  [1] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.87   
+    ##  [4] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
+    ##  [7] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
+    ## [10] magrittr_1.5          fennica_0.1.43        bibliographica_0.2.28
+    ## [13] sorvi_0.7.47          tibble_1.1            dplyr_0.5.0          
+    ## [16] devtools_1.12.0      
     ## 
     ## loaded via a namespace (and not attached):
-    ##   [1] Hmisc_3.17-4          plyr_1.8.4            igraph_1.0.1         
-    ##   [4] lazyeval_0.2.0        sp_1.2-3              splines_3.3.1        
-    ##   [7] digest_0.6.9          foreach_1.4.3         htmltools_0.3.5      
-    ##  [10] gender_0.5.1          GO.db_3.3.0           gdata_2.17.0         
-    ##  [13] memoise_1.0.0         tm_0.6-2              cluster_2.0.4        
-    ##  [16] doParallel_1.0.10     fastcluster_1.1.20    Biostrings_2.40.2    
-    ##  [19] matrixStats_0.50.2    gmodels_2.16.2        colorspace_1.2-6     
-    ##  [22] rgdal_1.1-10          crayon_1.3.2          RCurl_1.95-4.8       
-    ##  [25] jsonlite_1.0          roxygen2_5.0.1        impute_1.46.0        
-    ##  [28] survival_2.39-5       iterators_1.0.8       ape_3.5              
-    ##  [31] gtable_0.2.0          zlibbioc_1.18.0       XVector_0.12.0       
-    ##  [34] tgp_2.4-14            BiocGenerics_0.18.0   scales_0.4.0         
-    ##  [37] DBI_0.4-1             bibtex_0.4.0          babynames_0.2.1      
-    ##  [40] Rcpp_0.12.7           foreign_0.8-66        spdep_0.6-5          
-    ##  [43] preprocessCore_1.34.0 Formula_1.2-1         stats4_3.3.1         
-    ##  [46] httr_1.2.1            RColorBrewer_1.1-2    acepack_1.3-3.3      
-    ##  [49] gisfin_0.9.26         XML_3.98-1.4          nnet_7.3-12          
-    ##  [52] deldir_0.1-12         RJSONIO_1.3-0         dynamicTreeCut_1.63-1
-    ##  [55] labeling_0.3          AnnotationDbi_1.34.3  munsell_0.4.3        
-    ##  [58] genderdata_0.5.0      tools_3.3.1           moments_0.14         
-    ##  [61] RSQLite_1.0.0         ade4_1.7-4            evaluate_0.9         
-    ##  [64] biomformat_1.0.2      maptree_1.4-7         yaml_2.1.13          
-    ##  [67] RefManageR_0.10.13    nlme_3.1-128          slam_0.1-35          
-    ##  [70] formatR_1.4           testthat_1.0.2        stringi_1.1.1        
-    ##  [73] highr_0.6             lattice_0.20-33       Matrix_1.2-6         
-    ##  [76] vegan_2.4-0           permute_0.9-0         multtest_2.28.0      
-    ##  [79] stringdist_0.9.4.1    LearnBayes_2.15       data.table_1.9.6     
-    ##  [82] bitops_1.0-6          R6_2.1.2              latticeExtra_0.6-28  
-    ##  [85] IRanges_2.6.1         codetools_0.2-14      boot_1.3-18          
-    ##  [88] MASS_7.3-45           gtools_3.5.0          assertthat_0.1       
-    ##  [91] chron_2.3-47          rhdf5_2.16.0          rjson_0.2.15         
-    ##  [94] withr_1.0.2           S4Vectors_0.10.1      mgcv_1.8-12          
-    ##  [97] parallel_3.3.1        grid_3.3.1            rpart_4.1-10         
-    ## [100] coda_0.18-1           rmarkdown_0.9.6.14    Cairo_1.5-9          
-    ## [103] Biobase_2.32.0        NLP_0.1-9             WGCNA_1.51           
-    ## [106] lubridate_1.5.6
+    ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
+    ##   [4] babynames_0.2.1       rgdal_1.1-10          dynamicTreeCut_1.63-1
+    ##   [7] XVector_0.12.0        roxygen2_5.0.1        lubridate_1.5.6      
+    ##  [10] AnnotationDbi_1.34.3  RefManageR_0.10.13    codetools_0.2-14     
+    ##  [13] splines_3.3.1         doParallel_1.0.10     impute_1.46.0        
+    ##  [16] tgp_2.4-14            ade4_1.7-4            Formula_1.2-1        
+    ##  [19] jsonlite_1.0          Cairo_1.5-9           WGCNA_1.51           
+    ##  [22] cluster_2.0.4         GO.db_3.3.0           httr_1.2.1           
+    ##  [25] assertthat_0.1        Matrix_1.2-6          lazyeval_0.2.0       
+    ##  [28] formatR_1.4           acepack_1.3-3.3       htmltools_0.3.5      
+    ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
+    ##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
+    ##  [37] Rcpp_0.12.7           slam_0.1-35           Biobase_2.32.0       
+    ##  [40] RJSONIO_1.3-0         Biostrings_2.40.2     multtest_2.28.0      
+    ##  [43] spdep_0.6-5           gdata_2.17.0          ape_3.5              
+    ##  [46] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
+    ##  [49] fastcluster_1.1.20    gender_0.5.1          testthat_1.0.2       
+    ##  [52] gtools_3.5.0          XML_3.98-1.4          stringdist_0.9.4.1   
+    ##  [55] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
+    ##  [58] scales_0.4.0          parallel_3.3.1        biomformat_1.0.2     
+    ##  [61] genderdata_0.5.0      rhdf5_2.16.0          RColorBrewer_1.1-2   
+    ##  [64] yaml_2.1.13           memoise_1.0.0         rpart_4.1-10         
+    ##  [67] latticeExtra_0.6-28   stringi_1.1.1         maptree_1.4-7        
+    ##  [70] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.1     
+    ##  [73] foreach_1.4.3         permute_0.9-0         BiocGenerics_0.18.0  
+    ##  [76] boot_1.3-18           bibtex_0.4.0          chron_2.3-47         
+    ##  [79] bitops_1.0-6          moments_0.14          matrixStats_0.50.2   
+    ##  [82] evaluate_0.9          lattice_0.20-33       labeling_0.3         
+    ##  [85] plyr_1.8.4            gisfin_0.9.26         R6_2.1.2             
+    ##  [88] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.4-1            
+    ##  [91] foreign_0.8-66        withr_1.0.2           mgcv_1.8-12          
+    ##  [94] RCurl_1.95-4.8        survival_2.39-5       sp_1.2-3             
+    ##  [97] nnet_7.3-12           crayon_1.3.2          rmarkdown_0.9.6.14   
+    ## [100] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
+    ## [103] digest_0.6.9          tm_0.6-2              stats4_3.3.1         
+    ## [106] munsell_0.4.3
