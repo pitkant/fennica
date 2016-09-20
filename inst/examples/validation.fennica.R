@@ -18,4 +18,8 @@ df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10)
 
 
 
-
+# Publication interval must be within 1400-2000
+df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
+df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from > 2000] <- NA
+df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
+df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
