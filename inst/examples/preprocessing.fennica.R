@@ -10,6 +10,7 @@ if ("volnumber" %in% names(df.preprocessed)) {
 # Harmonize some publication place names manually
 place <- df.preprocessed$publication_place
 
+# TODO shouldnt this go to generic polish??
 df.preprocessed$publication_place <- gsub("New York NY", "New York", df.preprocessed$publication_place)
 df.preprocessed$publication_place <- gsub("Philadelphia PA", "Philadelphia", df.preprocessed$publication_place)
 

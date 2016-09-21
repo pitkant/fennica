@@ -38,7 +38,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 |field name                     | missing (%)| available (%)| available (n)| unique (n)|
 |:------------------------------|-----------:|-------------:|-------------:|----------:|
-|publisher                      |       100.0|           0.0|             0|          1|
 |volnumber                      |       100.0|           0.0|             0|          1|
 |parts                          |        99.9|           0.1|            44|          8|
 |uncontrolled                   |        99.8|           0.2|           111|         99|
@@ -69,6 +68,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |area                           |        47.6|          52.4|         37687|        816|
 |author_gender                  |        46.9|          53.1|         38197|          5|
 |self_published                 |        42.8|          57.2|         41158|          2|
+|publisher                      |        42.0|          58.0|         41724|       6772|
 |author_name                    |        36.3|          63.7|         45806|      12012|
 |author                         |        36.3|          63.7|         45806|      12071|
 |pagecount.orig                 |         6.8|          93.2|         67046|        978|

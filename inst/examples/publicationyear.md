@@ -48,8 +48,8 @@ marked as potential first editions. Later need to check if this
 information is readily available in MARC.
 
 There are 58870 unique
-documents with an identical title and author; `r
-length(which(write_xtable(df[, c("title", "author")])$Count > 1))` of
+documents with an identical title and author;
+6152 of
 those have multiple occurrences, sometimes with different publication
 years.  The earliest occurrence is suggested as the first edition.
 
