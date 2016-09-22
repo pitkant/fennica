@@ -77,9 +77,9 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015b).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015b) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015a). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -98,7 +98,155 @@ The following figure highlights publisher title count changes around 1700 drop i
 
 Here the same for the complete Fennica:
 
-    ## Warning: Unknown column 'PANEL'
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <8c>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <88>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <88>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <8c>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <82>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <8c>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <88>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <88>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <8c>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <cc>
+
+    ## Warning in grid.Call(L_textBounds, as.graphicsAnnot(x$label), x$x, x$y, :
+    ## conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v' Tipografïi
+    ## morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot substituted
+    ## for <82>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <cc>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <8c>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <cc>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <88>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <cc>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <88>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <cc>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <8c>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <cc>
+
+    ## Warning in grid.Call.graphics(L_text, as.graphicsAnnot(x$label), x$x, x
+    ## $y, : conversion failure on 'Pečatan' pri Admiraltejskoj Kollegïi v'
+    ## Tipografïi morskago šlâhetnago kadetskago Korpusa' in 'mbcsToSbcs': dot
+    ## substituted for <82>
 
 ![](figure_201606_Krakow/summaryTop10pubtimeline-1.png)
 
@@ -199,6 +347,8 @@ Same with selected publication places:
 
 Same with top publishers
 
+<img src="figure_201606_Krakow/topics.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics.per.publisher-10.png" width="430px" />
+
 ### BOOKINFINLAND-DONE3
 
 Sama kuin edellä, mutta asiasanat tässä: hautajaiset;häät;juhlamenot.
@@ -212,6 +362,8 @@ Same with selected publication places:
 <img src="figure_201606_Krakow/topics2.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.place-6.png" width="430px" />
 
 Same with top publishers
+
+<img src="figure_201606_Krakow/topics2.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics2.per.publisher-10.png" width="430px" />
 
 ### BOOK IN FINLAND 4
 
@@ -228,6 +380,8 @@ Same with selected publication places:
 <img src="figure_201606_Krakow/topics3.per.place-1.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-2.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-3.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-4.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-5.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.place-6.png" width="430px" />
 
 Same with top publishers
+
+<img src="figure_201606_Krakow/topics3.per.publisher-1.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-2.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-3.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-4.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-5.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-6.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-7.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-8.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-9.png" width="430px" /><img src="figure_201606_Krakow/topics3.per.publisher-10.png" width="430px" />
 
 ### BOOK IN FINLAND
 
@@ -781,12 +935,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] fennica_0.1.43        bibliographica_0.2.28 git2r_0.15.0         
-    ##  [4] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.87   
-    ##  [7] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
-    ## [10] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
-    ## [13] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
-    ## [16] dplyr_0.5.0           devtools_1.12.0      
+    ##  [1] knitcitations_1.0.7   stringr_1.0.0         microbiome_0.99.87   
+    ##  [4] phyloseq_1.16.2       knitr_1.13            gridExtra_2.2.1      
+    ##  [7] reshape2_1.4.1        tidyr_0.5.1           ggplot2_2.1.0        
+    ## [10] magrittr_1.5          sorvi_0.7.47          tibble_1.1           
+    ## [13] dplyr_0.5.0           fennica_0.1.43        bibliographica_0.2.28
+    ## [16] devtools_1.12.0      
     ## 
     ## loaded via a namespace (and not attached):
     ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
@@ -815,12 +969,12 @@ sessionInfo()
     ##  [70] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.1     
     ##  [73] foreach_1.4.3         permute_0.9-0         BiocGenerics_0.18.0  
     ##  [76] boot_1.3-18           bibtex_0.4.0          chron_2.3-47         
-    ##  [79] bitops_1.0-6          moments_0.14          matrixStats_0.50.2   
+    ##  [79] moments_0.14          matrixStats_0.50.2    bitops_1.0-6         
     ##  [82] evaluate_0.9          lattice_0.20-33       labeling_0.3         
     ##  [85] plyr_1.8.4            gisfin_0.9.26         R6_2.1.2             
     ##  [88] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.4-1            
     ##  [91] foreign_0.8-66        withr_1.0.2           mgcv_1.8-12          
-    ##  [94] RCurl_1.95-4.8        survival_2.39-5       sp_1.2-3             
+    ##  [94] survival_2.39-5       RCurl_1.95-4.8        sp_1.2-3             
     ##  [97] nnet_7.3-12           crayon_1.3.2          rmarkdown_0.9.6.14   
     ## [100] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
     ## [103] digest_0.6.9          tm_0.6-2              stats4_3.3.1         
