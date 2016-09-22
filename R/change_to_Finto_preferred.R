@@ -8,18 +8,17 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
     	   	      mod = character(nrow(pubs)),
     	              stringsAsFactors = FALSE)
     
-    # Commented out LL 19.9.2016 to resolve conflict
-    #na_till <- which(is.na(years$publication_year_till))
-    #na_from <- which(is.na(years$publication_year_from))
-    #pubtills <- integer(length = nrow(years))
-    #pubtills[-na_till] <- years$publication_year_till[-na_till]
-    #pubtills[na_till]  <- years$publication_year_from[na_till]
-    #pubfroms <- integer(length = nrow(years))
-    #pubfroms[-na_from] <- years$publication_year_from[-na_from]
-    #pubfroms[na_from]  <- years$publication_year_from[na_from]
-
-    # ------------------------------------------------
+<<<<<<< HEAD
+    na_till <- which(is.na(years$publication_year_till))
+    na_from <- which(is.na(years$publication_year_from))
+    pubtills <- integer(length = nrow(years))
+    pubtills[-na_till] <- years$publication_year_till[-na_till]
+    pubtills[na_till]  <- years$publication_year_from[na_till]
     
+    pubfroms <- integer(length = nrow(years))
+    pubfroms[-na_from] <- years$publication_year_from[-na_from]
+    pubfroms[na_from]  <- years$publication_year_from[na_from]
+=======
     na_till <- which(is.na(years$till))
     na_from <- which(is.na(years$from))
     #pubtills <- integer(length = nrow(years))
@@ -31,8 +30,7 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
     pubfroms <- rep(NA, length = nrow(years))    
     pubfroms[-na_from] <- years$from[-na_from]
     pubfroms[na_from]  <- years$from[na_from]
-    
-    # ----------------------------------------------
+>>>>>>> origin/master
     
     p5 <- data.frame(orig = pubs$orig,
        	             mod = pubs$mod,
