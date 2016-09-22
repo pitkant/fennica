@@ -14,7 +14,7 @@ change_to_Finto_preferred <- function (pubs, towns, years, cheat_list) {
     pubtills[-na_till] <- years$publication_year_till[-na_till]
     pubtills[na_till]  <- years$publication_year_from[na_till]
     
-    pubfroms <- rep(NA = nrow(years))
+    pubfroms <- rep(NA, nrow(years))
     pubfroms[-na_from] <- years$publication_year_from[-na_from]
     pubfroms[na_from]  <- years$publication_year_from[na_from]
     
