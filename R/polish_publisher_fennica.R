@@ -50,6 +50,7 @@ polish_publisher_fennica <- function (df.preprocessed) {
   enriched_pubs <- harmonize_publisher_fennica(df.preprocessed, cheat_list = cheat_list, languages = languages)
   enriched_inds <- which(enriched_pubs != "")  
   pubs$alt[enriched_inds] <- enriched_pubs[enriched_inds]
+  pubs$pref[enriched_inds] <- enriched_pubs[enriched_inds]
   
   # The combination of enriched part & the unprocessed part
   # combined_pubs <- combine_publisher_fennica(df.preprocessed, languages, pubs, town, publication_year, cheat_list)$mod
