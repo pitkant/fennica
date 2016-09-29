@@ -2,8 +2,8 @@
 #library(fennica)
 
 library(devtools)
-load_all("~/proj/2014-Aatelouhinta/bibliographica")
-load_all("~/proj/2014-Aatelouhinta/fennica")
+load_all("bibliographica")
+load_all()
 
 # Ensure NULL
 rm("update.fields")
