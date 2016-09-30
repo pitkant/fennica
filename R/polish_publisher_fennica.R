@@ -88,7 +88,14 @@ polish_publisher_fennica <- function (df.preprocessed) {
   # Convert S.N. into NA 
   f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
   synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
-  pubs.polished  <- map(combined_pubs, synonymes, mode = "recursive")
+  #pubs.polished  <- map(combined_pubs, synonymes, mode = "recursive")
+  # HR 20160930:
+  # function map won't work, because it doesn't support regex. 
+  # I didn't want to mess with it
+  pubs.polished <- combined_pubs
+  for (i in 1:nrow(synonymes)) {
+    pubs.polished <- str_replace(pubs.polished, paste0("^", synonymes[i, "synonyme"], "$"), synonymes[i, "name"])
+  }
   pubs.polished[pubs.polished == ""] <- NA
 
   pubs.polished.cap <- capitalize(pubs.polished)
