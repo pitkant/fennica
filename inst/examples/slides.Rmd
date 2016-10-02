@@ -62,8 +62,8 @@ print(p)
 
 ```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
 library(bibliographica)
-titlecount_timeline(subset(df0, catalog == "Fennica"), 
-          "publisher", nmin = 500, mode = "n")$plot
+timeline(subset(df0, catalog == "Fennica"), 
+          group = "publisher", nmin = 500, mode = "absolute")$plot
 ```
 
 ---
