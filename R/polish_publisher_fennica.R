@@ -36,8 +36,10 @@ polish_publisher_fennica <- function (df.preprocessed) {
   
   # Additional harmonizing: in Fennica there's stuff in $corporate
   # -field, which doesn't match with Finto
-  # Only consider those cases where publisher field is NA
-  inds <- which(!is.na(df.preprocessed$corporate) & is.na(df.preprocessed$publisher))  
+  # Used to be: Only consider those cases where publisher field is NA
+  # inds <- which(!is.na(df.preprocessed$corporate) & is.na(df.preprocessed$publisher))  
+  # Now more straight-forward approach: apply corporate info always, if it's found
+  inds <- which(!is.na(df.preprocessed$corporate))
   additionally_harmonized <- harmonize_corporate_Finto(df.preprocessed$corporate[inds])
   pubs$alt[inds] <- additionally_harmonized$orig
   pubs$pref[inds] <- additionally_harmonized$name
@@ -50,6 +52,7 @@ polish_publisher_fennica <- function (df.preprocessed) {
   enriched_pubs <- harmonize_publisher_fennica(df.preprocessed, cheat_list = cheat_list, languages = languages)
   enriched_inds <- which(enriched_pubs != "")  
   pubs$alt[enriched_inds] <- enriched_pubs[enriched_inds]
+  pubs$pref[enriched_inds] <- enriched_pubs[enriched_inds]
   
   # The combination of enriched part & the unprocessed part
   # combined_pubs <- combine_publisher_fennica(df.preprocessed, languages, pubs, town, publication_year, cheat_list)$mod
@@ -85,7 +88,14 @@ polish_publisher_fennica <- function (df.preprocessed) {
   # Convert S.N. into NA 
   f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
   synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8")
-  pubs.polished  <- map(combined_pubs, synonymes, mode = "recursive")
+  #pubs.polished  <- map(combined_pubs, synonymes, mode = "recursive")
+  # HR 20160930:
+  # function map won't work, because it doesn't support regex. 
+  # I didn't want to mess with it
+  pubs.polished <- combined_pubs
+  for (i in 1:nrow(synonymes)) {
+    pubs.polished <- str_replace(pubs.polished, paste0("^", synonymes[i, "synonyme"], "$"), synonymes[i, "name"])
+  }
   pubs.polished[pubs.polished == ""] <- NA
 
   pubs.polished.cap <- capitalize(pubs.polished)

@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-09-22"
+date: "2016-09-29"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 6772 [unique publishers](output.tables/publisher_accepted.csv)
+ * 7728 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 41724 documents have unambiguous publisher information (58%). 
+ * 61960 documents have unambiguous publisher information (86%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -27,7 +27,7 @@ Title count
 
 
 ```
-## Warning: Removed 4 rows containing missing values (position_stack).
+## Warning: Removed 5 rows containing missing values (position_stack).
 ```
 
 ![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
@@ -38,17 +38,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                        | titles|     paper|
-|:--------------------------------|------:|---------:|
-|<<Author>>                       |   1761|  704699.8|
-|<Author>                         |    842|  603606.9|
-|Edlund                           |    982| 1512432.8|
-|G.W. Edlund                      |    902| 1243270.7|
-|Kansanvalistusseura              |    594|  412947.7|
-|Karisto                          |    661|  152212.0|
-|Otava                            |   2183| 2026464.9|
-|Söderström                       |   1179|  896211.4|
-|Suomalaisen Kirjallisuuden Seura |    885| 1247245.3|
-|WSOY                             |   2828| 1743999.1|
+|publisher                       | titles|     paper|
+|:-------------------------------|------:|---------:|
+|<<Author>>                      |   1761|  704699.8|
+|Frenckell, Johan Christopher I  |   1744| 1361610.0|
+|Frenckell, Johan Christopher II |   2216| 2422445.8|
+|Hansson, Peter                  |   1095| 1468422.4|
+|Kämpe, Johan                    |   1033| 1129371.0|
+|Londicer, Georg Wilhelm         |   2110|  308398.6|
+|Otava                           |   2183| 2026464.9|
+|Söderström                      |   1179|  896211.4|
+|Wall, Johan Larsson             |   1404| 1474596.8|
+|WSOY                            |   2908| 1838063.3|
 
 
