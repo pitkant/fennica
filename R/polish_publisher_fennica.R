@@ -36,10 +36,10 @@ polish_publisher_fennica <- function (df.preprocessed) {
   
   # Additional harmonizing: in Fennica there's stuff in $corporate
   # -field, which doesn't match with Finto
-  # Used to be: Only consider those cases where publisher field is NA
-  # inds <- which(!is.na(df.preprocessed$corporate) & is.na(df.preprocessed$publisher))  
-  # Now more straight-forward approach: apply corporate info always, if it's found
-  inds <- which(!is.na(df.preprocessed$corporate))
+  # Only consider those cases where publisher field is NA
+  inds <- which(!is.na(df.preprocessed$corporate) & is.na(df.preprocessed$publisher))  
+  # Tried this, but had to revert:
+  # inds <- which(!is.na(df.preprocessed$corporate))
   additionally_harmonized <- harmonize_corporate_Finto(df.preprocessed$corporate[inds])
   pubs$alt[inds] <- additionally_harmonized$orig
   pubs$pref[inds] <- additionally_harmonized$name
