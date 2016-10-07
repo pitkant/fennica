@@ -8,6 +8,7 @@
 #' @importFrom stats na.omit
 #' @importFrom stringdist amatch
 #' @importFrom stringr str_extract
+#' @importFrom stringr str_replace
 #' @importFrom utils adist
 #' @importFrom utils read.csv
 
