@@ -40,10 +40,10 @@ add(repo, "figure/*.png", force = TRUE)
 # push(repo) # does not work ?
 #system("git push")
 
-# system("git add -f figure/*.png")
-# system("git add output.tables/*.csv")
-system("git commit -a -m'Rmd update'")
-system("git push")
+# # system("git add -f figure/*.png")
+# # system("git add output.tables/*.csv")
+# system("git commit -a -m'Rmd update'")
+# system("git push")
 
 
 
