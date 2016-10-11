@@ -81,7 +81,7 @@ source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 data.preprocessed <- preprocess_data(data.preprocessing, 
                                      df.orig,
                                      languages, 
-                                     mc.cores = 4)
+                                     mc.cores = mc.cores)
 
 rm(data.preprocessing)
 
