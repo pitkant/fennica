@@ -13,16 +13,15 @@ rm("df.orig")
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv
-today.str <- as.character(Sys.Date())
-output.folder <- paste("output.tables/", today.str, "/", sep = '')
+# today.str <- as.character(Sys.Date())
+# output.folder <- paste("output.tables/", today.str, "/", sep = '')
 # old version:
-# output.folder <- "output.tables/"
+output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
 fs <- "data/fennica.csv.gz"
 catalog <- "fennica" 
-update.fields <- NULL
 
 # Languages to consider in cleanup.
 # TODO: recognize the necessary languages automatically ?
@@ -36,6 +35,7 @@ gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv",
                               package = "bibliographica")
 
 # Remove selected fields
+update.fields <- NULL
 ignore.fields <- c("language2", "title_remainder",
                    "physical_details", "physical_accomppanied",
                    "note_general", "note_year") # Fennica
@@ -51,9 +51,6 @@ reload.data <- FALSE
 source(system.file("extdata/init.R", package = "bibliographica"))
 
 df.orig <- load_initial_datafile(fs, ignore.fields, reload.data)
-# returns: df.orig
-
-# load data for preprocessing
 data.preprocessing <- get_preprocessing_data(df.orig, 
                                              update.fields,
                                              ignore.fields)
@@ -105,13 +102,11 @@ rm(data.preprocessed)
 
 source(system.file("extdata/enrich.R", package = "bibliographica"))
 data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
-# returns list of 3 (df.preprocessed, update.fields, conversions)
-# some function(s) need df.orig. Should tidy that up? -vv
-rm(data.validated) # free up memory
+rm(data.validated)
 
-source("enrich.fennica.R")     # Fennica-specific load enrich_function
+source("enrich.fennica.R")
 data.enriched.fennica <- enrich_fennica(data.enriched)
-rm(data.enriched) # free up memory
+rm(data.enriched)
 
 source("validation.fennica.R") # Year checks: must come after enrich
 data.to.analysis.fennica <- validation_fennica(data.enriched.fennica)
