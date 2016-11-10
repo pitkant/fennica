@@ -21,12 +21,14 @@ output: markdown_document
 
 
 
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_country' not found
-```
-
 ![plot of chunk Suomi](figure_Gaudeamus/Suomi-1.png)
+
+
+
+
+
+
+![plot of chunk Kaikki](figure_Gaudeamus/Kaikki-1.png)
 
 
 
