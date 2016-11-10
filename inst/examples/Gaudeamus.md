@@ -7,13 +7,26 @@ output: markdown_document
 
 
 
+![plot of chunk Vaasa](figure_Gaudeamus/Vaasa-1.png)
+
+
+
+![plot of chunk Turku](figure_Gaudeamus/Turku-1.png)
+
+
+
+![plot of chunk Helsinki](figure_Gaudeamus/Helsinki-1.png)
+
+
+
+
+
 
 ```
-## Warning in grid.Call.graphics(L_rect, x$x, x$y, x$width, x$height,
-## resolveHJust(x$just, : semi-transparency is not supported on this device:
-## reported only once per page
+## Error in eval(expr, envir, enclos): object 'publication_country' not found
 ```
 
-![plot of chunk Gaudeamus_Vaasa](figure/Gaudeamus_Vaasa-1.png)
+![plot of chunk Suomi](figure_Gaudeamus/Suomi-1.png)
+
 
 
