@@ -14,22 +14,23 @@ dfo <- readRDS("df.Rds")
 df <- dfo
 df <- df %>% filter(!is.na(publication_year))
 tmp1 <- df %>% filter(publication_place == "Vaasa") %>%
-     	       group_by(publication_year) %>%
+     	       group_by(publication_decade, publication_year) %>%
 	       tally() %>%
 	       arrange(publication_year)
-tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
-tmp2 <- tmp1 %>% group_by(decade) %>% summarise(m = sum(n)/10)
-final <- inner_join(tmp1,tmp2)
 
-par(las=1)
-par(mgp=c(10,3,0))
-par(mar=c(7,17,6,4))
-plot(final$publication_year,final$n,cex=1.5,pch="|",cex.main=4.0,main="Julkaisutoiminta Vaasassa 1764-1917",cex.lab=4.0,xlab="",ylab="Dokumenttia / vuosi",axes=FALSE,col="black")
-lines(final$publication_year,final$m,type="l",lty=3,col="black",lwd=4)
-axis(side = 1, at = c(1764,1809,1863,1917),cex.axis=3)
-axis(side = 2, at = c(0,40,80,120,160,194),cex.axis=3)
-remove(tmp1,tmp2,final)
+#tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n)/10)
+
+years <- c(1764,1809,1863,1917)
+p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
+       geom_point() +
+       geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
+       ggtitle("Julkaisutoiminta Vaasassa 1764-1917") +
+       ylab("Dokumenttia / vuosi") +
+       scale_x_continuous(labels = years, breaks = years) +
+       xlab("Julkaisuvuosi") 
+
+print(p)
 ```
-
 
 
