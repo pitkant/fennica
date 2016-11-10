@@ -9,6 +9,7 @@ output: markdown_document
 library(dplyr)
 knitr::opts_chunk$set(fig.path = "figure_Gaudeamus/", dev="CairoPNG")
 dfo <- readRDS("df.Rds")
+theme_set(theme_bw(30))
 ```
 
 ```{r Vaasa, echo=FALSE, fig.width=20, fig.height=10}
@@ -24,14 +25,14 @@ tmp1 <- df %>% filter(publication_place == place) %>%
 	       arrange(publication_year)
 
 #tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
-tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n)/10)
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
 
 years <- c(1764,1809,1863,1917)
 p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
-       geom_point() +
+#       geom_point() +
        geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
        ggtitle("Julkaisutoiminta Vaasassa 1764-1917") +
-       ylab("Dokumenttia / vuosi") +
+       ylab("Dokumenttia (n)") +
        scale_x_continuous(labels = years, breaks = years) +
        xlab("Julkaisuvuosi") 
 
@@ -53,14 +54,14 @@ tmp1 <- df %>% filter(publication_place == place) %>%
 	       arrange(publication_year)
 
 #tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
-tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n)/10)
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
 
 years <- c(1764,1809,1863,1917)
 p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
-       geom_point() +
+#       geom_point() +
        geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
        ggtitle("Julkaisutoiminta Vaasassa 1764-1917") +
-       ylab("Dokumenttia / vuosi") +
+       ylab("Dokumenttia (n)") +
        scale_x_continuous(labels = years, breaks = years) +
        xlab("Julkaisuvuosi") 
 
@@ -82,14 +83,14 @@ tmp1 <- df %>% filter(publication_place == place) %>%
 	       arrange(publication_year)
 
 #tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
-tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n)/10)
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
 
 years <- c(1764,1809,1863,1917)
 p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
-       geom_point() +
+#       geom_point() +
        geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
        ggtitle("Julkaisutoiminta Vaasassa 1764-1917") +
-       ylab("Dokumenttia / vuosi") +
+       ylab("Dokumenttia (n)") +
        scale_x_continuous(labels = years, breaks = years) +
        xlab("Julkaisuvuosi") 
 
@@ -113,14 +114,14 @@ tmp1 <- df %>% filter(publication_country == place) %>%
 	       arrange(publication_year)
 
 #tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
-tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n)/10)
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
 
 years <- c(1764,1809,1863,1917)
 p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
-       geom_point() +
+#       geom_point() +
        geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
        ggtitle("Julkaisutoiminta Vaasassa 1764-1917") +
-       ylab("Dokumenttia / vuosi") +
+       ylab("Dokumenttia (n)") +
        scale_x_continuous(labels = years, breaks = years) +
        xlab("Julkaisuvuosi") 
 
