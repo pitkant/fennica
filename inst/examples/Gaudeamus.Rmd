@@ -56,7 +56,7 @@ tmp1 <- df %>% filter(publication_place == place) %>%
 #tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
 tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
 
-years <- c(1764,1809,1863,1917)
+years <- c(1640, 1764,1809,1863,1917)
 p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
 #       geom_point() +
        geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
@@ -117,7 +117,7 @@ tmp1 <- df %>% filter(country == place) %>%
 #tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
 tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
 
-years <- c(1764,1809,1863,1917)
+years <- c(1640, 1764,1809,1863,1917)
 p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
 #       geom_point() +
        geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
