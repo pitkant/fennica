@@ -11,27 +11,24 @@
 #' @references See citation("bibliographica")
 #' @keywords utilities
 get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town, publication_year) {
-
+  
   message("Starting: get_publishers_Finto")
   Finto_corrected <- cheat_list$pref
   Finto_town  <- cheat_list$town
   Finto_years <- cheat_list[, c("year_from", "year_till")]
-
-  message("Starting: get_publishers_Finto")
-  match_count    <- 0
-  no_match_count <- 0
-  exact_match_count <- 0
+  
   alt <- character(length = nrow(all_names))
   match_methods <- character(length = nrow(all_names))
   pref <- character(length = nrow(all_names))
   idx = 1
   
+  # Create an another pair of alt names (=Finto_comp$orig) and cheat_list
   # Unify publication year
   # 1. both years NA
   inds <- which(is.na(publication_year$publication_year_from))
   inds2 <- intersect(inds, which(is.na(publication_year$publication_year_till)))
   publication_year$publication_year_from[inds2] <- publication_year$publication_year_till[inds2] <- publication_year$publication_year[inds2]
-
+  
   # 2. start year NA
   inds2 <- intersect(inds, which(!is.na(publication_year$publication_year_till)))
   publication_year$publication_year_from[inds2] <- publication_year$publication_year_till[inds2]
@@ -43,16 +40,16 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
   
   all_data <- data.frame(names = all_names,
                          pubyear.from = publication_year$publication_year_from,
-			 pubyear.till = publication_year$publication_year_till,
-			 town = unknown_town,
-			 ignore = FALSE)
-
+                         pubyear.till = publication_year$publication_year_till,
+                         town = unknown_town,
+                         ignore = FALSE)
+  
   # Change NA to an empty string to avoid problems later
   all_data$names.orig[which(is.na(all_data$names.orig))] <- ""
   unique_data <- unique(all_data)  
   
   for (idx in 1:nrow(unique_data)) {
-
+    
     # LL: what is the difference btw all_names$orig and all_data$names.orig ?
     all_names_indices <- which(all_names$orig == unique_data$names.orig[idx])
     all_names_indices <- intersect(all_names_indices, which(publication_year$publication_year_from == unique_data$pubyear.from[idx]))
@@ -95,7 +92,7 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
       tmp_comparison <- Finto_comp$orig[inds]
       name_comp <- unique_data$names.orig[idx]
       match_method <- 1
-
+      
     } else if (unique_data$names.guessed[idx] == FALSE) {
       # 2. Check against Finto family name, if initials match exactly AND the initials aren't guessed
       tmp_comparison_inds <- which(Finto_comp$initials==unique_data$names.initials[idx])
@@ -104,7 +101,7 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
       tmp_comparison <- Finto_comp$family[inds]
       name_comp <- unique_data$names.family[idx]
       match_method <- 2
-
+      
     } else if (unique_data$names.guessed[idx] == TRUE) {
       # 3. Check against Finto full name, if initials are guessed
       tmp_comparison_inds <- which(Finto_comp$full_name==unique_data$names.full_name[idx])
@@ -119,7 +116,7 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
     # The actual comparison
     # NB! tmp_comparison is a subset of [inds], so [res] must be the same subset
     res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison, method="jw", p=0.05, maxDist=0.04)]
-
+    
     if ((is.null(res)) || (is.na(res)) || (res=="")) {
       # No results -> return the original
       res <- unique_data$names.origs[idx]
@@ -138,12 +135,12 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
       } else if (match_method==3) {
         inds <- which(Finto_comp$full_name==unique_data$names.full_name[idx])
       } else {
-      
+        
       }
       
       origs <- unique(Finto_comp$orig[inds])
       prefs <- unique(Finto_corrected[inds])
-
+      
       # Right company can't be selected from multiple variants by random
       if ((length(origs) > 1) && (length(prefs) > 1)) {
         # Hardcoded! Should be changed.
@@ -178,22 +175,14 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
           }
         }
       }
-
+      
       # Shortcut to avoid problems with short names getting irrational correspondences from Finto
       # Too generic names produce real problems: Sampsa -> Asunto Oy Sampsa; Sjöblom -> Autohuolto Sjöblom; Granlund -> Insinööritoimisto Olof Granlund
       # FIXTHIS: Gummerus -> K.J. Gummerus will be missing
-      tryCatch({
-        if (length(grep("^[[:upper:]][[:lower:]]{1,8}$", unique_data$names.orig[idx]))>0) {
-          idx <- idx + 1
-          next
-        }
-      }, error = function(err) {
-        print(idx)
-        print(unique_data$names.orig[idx])
-        print(res)
-        print(name_comp)
+      if (length(grep("^[[:upper:]][[:lower:]]{1,8}$", unique_data$names.orig[idx]))>0) {
+        idx <- idx + 1
+        next
       }
-      )
       
       if (length(na.omit(origs))==1) {
         alt[all_names_indices] <- origs
@@ -208,10 +197,10 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
       match_methods[all_names_indices] <- match_method
       
     }
-        
+    
   }
-
+  
   message("get_publishers_Finto OK.")
   return (data.frame(alt = alt, pref = pref, match_methods = match_methods, stringsAsFactors = FALSE))
-    
+  
 }

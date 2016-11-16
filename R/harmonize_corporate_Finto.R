@@ -1,3 +1,14 @@
+#' @title Unify Publishers with Finto
+#' @description Use Finto database to unify publisher names.
+#' @param cheat_list cheat_list
+#' @param Finto_comp Vector of alternative names from Finto
+#' @param all_names Data frame containing all the name related fields
+#' @param unknown_town Vector of towns from raw data
+#' @param publication_year Data frame of published_in, published_from and published_till
+#' @return Data frame with alt, pref and match_methods
+#' @export
+#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
+#' @references See citation("bibliographica")
 harmonize_corporate_Finto <- function(x) {
 
   # Split by semicolon, and select only the first part
@@ -40,7 +51,7 @@ harmonize_corporate_Finto <- function(x) {
   x <- gsub("(.*) ?\\([^)]*\\)(.*)", "\\1\\2", x)
   
   # Final touch
-  x <- remove_endings(x , c(" ", "[.]", ","))
+  x <- remove_endings(x , c(" ", "[.]", ","), random_order = TRUE)
   
   # Since Finto data is implicit about the preferred company name, we won't touch it any more
   # Just return the values
