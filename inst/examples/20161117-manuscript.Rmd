@@ -26,7 +26,8 @@ theme_set(theme_bw(26))
 dfo <- readRDS("df.Rds")
 
 # Analysis time window
-dfo <- dfo %>% filter(publication_year >= 1640 & publication_year <= 1828)
+#dfo <- dfo %>% filter(publication_year >= 1640 & publication_year <= 1828)
+dfo <- dfo %>% filter(publication_year >= 1640 & publication_year <= 1911)
 
 # Calculate title length (word count)
 dfo$title_wordcount <- sapply(strsplit(as.character(dfo$title), " "), length)
