@@ -1,6 +1,6 @@
 ---
-title: "Digital History in Finland, 1488-1828"
-author: "Leo Lahti, Jani Marjanen, Hege Roivainen, Mikko Tolonen"
+title: "Patterns in Knowledge Production in Sweden and Finland, 1640–1828"
+author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: date: "2016-11-17"
 output: markdown_document
 ---
