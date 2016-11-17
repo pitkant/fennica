@@ -8,7 +8,7 @@ output: markdown_document
 
 ```{r init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-knitr::opts_chunk$set(fig.path = "figure-2016-manuscript/")
+knitr::opts_chunk$set(fig.path = "figure-2016-manuscript/", dev="CairoPNG")
 # Set locale
 tmp <- Sys.setlocale(locale="UTF-8") 
 
@@ -34,7 +34,7 @@ dfo$title_wordcount[is.na(dfo$title)] <- NA
 ```
 
 
-```{r title_length, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+```{r title_length, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- dfo %>% group_by(publication_year) %>%
               summarize(median_title_length = median(title_wordcount),
 	      		mean_title_length = mean(title_wordcount),
@@ -55,7 +55,7 @@ grid.arrange(p1, p2, nrow = 1)
 
 
 
-```{r title_length_by_gatherings, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=8}
+```{r title_length_by_gatherings, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 top.gatherings <- setdiff(names(top(dfo, "gatherings", 5)), "NA")
 
 df <- dfo %>% filter(gatherings %in% top.gatherings) %>%
