@@ -52,10 +52,6 @@ grid.arrange(p1, p2, nrow = 1)
 ```
 
 
-
-
-
-
 ```{r title_length_by_gatherings, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 top.gatherings <- setdiff(names(top(dfo, "gatherings", 5)), "NA")
 
@@ -70,6 +66,28 @@ p <- ggplot(df, aes(x = publication_year, y = mean_title_length,
        geom_smooth() +
        scale_y_log10() +
        ggtitle("Mean title word count (top gatherings)")
+
+print(p)
+```
+
+
+
+
+
+```{r title_length_by_lang, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+top.language <- setdiff(names(top(dfo, "language", 11)), "NA")
+
+df <- dfo %>% filter(language %in% top.language) %>%
+              group_by(publication_decade, language) %>%
+              summarize(mean_title_length = mean(title_wordcount),
+	      		n = n())
+
+p <- ggplot(df, aes(x = publication_decade, y = mean_title_length,
+                     fill = language, color = language)) +
+       geom_point(aes(size = n)) +
+       geom_line() +
+       #scale_y_log10() +
+       ggtitle("Mean title word count (top language)")
 
 print(p)
 ```
