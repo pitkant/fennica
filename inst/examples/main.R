@@ -1,9 +1,9 @@
-#library(bibliographica)
-#library(fennica)
+library(bibliographica)
+library(fennica)
 
-library(devtools)
-load_all("bibliographica")
-load_all()
+#library(devtools)
+#load_all("bibliographica")
+#load_all()
 
 # Ensure NULL
 rm("update.fields")
