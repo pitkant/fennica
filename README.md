@@ -71,7 +71,7 @@ Funding:
 Special thanks:
 
   * [Finnish National library](https://www.kansalliskirjasto.fi/en/) (Fennica data collection)
-  * [Väestörekisterikeskus](http://vrk.fi/) Finnish first name-gender
+  * [Väestörekisterikeskus](http://vrk.fi/en/frontpage) Finnish first name-gender
     mappings and demographic information
   * [Maanmittauslaitos](http://mml.fi) Geographic information
   * [Tilastokeskus](http://www.tilastokeskus.fi/) Demographic information
