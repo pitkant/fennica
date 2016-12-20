@@ -111,7 +111,12 @@ rm(data.enriched)
 source("validation.fennica.R") # Year checks: must come after enrich
 data.to.analysis.fennica <- validation_fennica(data.enriched.fennica)
 
-df.preprocessed <- data.to.analysis.fennica$df.preprocessed
+# General validation for the final data one more time
+data.validated2 <- validate_preprocessed_data(data.to.analysis.fennica)
+
+# ---------------------------------------------------
+
+df.preprocessed <- data.validated2$df.preprocessed
 
 print("Saving updates on preprocessed data")
 saveRDS(df.preprocessed, "df.Rds")
