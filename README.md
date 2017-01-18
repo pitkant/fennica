@@ -58,7 +58,7 @@ Main contributors:
 
   * [Leo Lahti](https://github.com/antagomir/)
   * [Mikko Tolonen](https://github.com/orgs/rOpenGov/people/tolonen)
-  * Jani Marjanen 
+  * [Jani Marjanen](jmarjane)
   * [Hege Roivainen](hegroiva)  
   * [Niko Ilomaki](https://github.com/NVI/)
 
@@ -71,7 +71,7 @@ Funding:
 Special thanks:
 
   * [Finnish National library](https://www.kansalliskirjasto.fi/en/) (Fennica data collection)
-  * [Väestörekisterikeskus](http://vrk.fi/) Finnish first name-gender
+  * [VRK (Finnish population register)](http://vrk.fi) Finnish first name-gender
     mappings and demographic information
   * [Maanmittauslaitos](http://mml.fi) Geographic information
   * [Tilastokeskus](http://www.tilastokeskus.fi/) Demographic information

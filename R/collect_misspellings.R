@@ -26,10 +26,6 @@ collect_misspellings <- function (city, variations, all) {
     }
   }
 	
-  #for (x in variations){
-  # all <- all[which(all!=get("x"))]
-  #}
-  
   variations
 
 }

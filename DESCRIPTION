@@ -2,10 +2,10 @@ Package: fennica
 Type: Package
 Title: Finnish National Bibliography Fennica Toolkit
 Version: 0.1.43
-Date: 2016-07-12
 Authors@R: c(
-    person("Ilomaki", "Niko", email = "niko.ilomaki@helsinki.fi", role = c("aut", "cre")),
-    person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = "aut"),
+    person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
+    person("Roivainen", "Hege", role = "aut"),        
+    person("Ilomaki", "Niko", role = "ctb"),    
     person("Tolonen", "Mikko", role = "aut"))
 MailingList: rOpenGov <ropengov-forum@googlegroups.com>
 Description: Algorithms for Finnish Library Data.

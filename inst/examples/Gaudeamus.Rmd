@@ -1,0 +1,172 @@
+---
+title: "Gaudeamus Figures"
+author: "Leo Lahti and Mikko Tolonen"
+date: "`r Sys.Date()`"
+output: markdown_document
+---
+
+```{r, echo=FALSE, message=FALSE}
+library(dplyr)
+knitr::opts_chunk$set(fig.path = "figure_Gaudeamus/", dev="CairoPNG")
+dfo <- readRDS("df.Rds")
+theme_set(theme_bw(40))
+```
+
+```{r Vaasa, echo=FALSE, fig.width=20, fig.height=10}
+df <- dfo
+place <- "Vaasa"
+miny <- 1764
+maxy <- 1917
+df <- df %>% filter(!is.na(publication_year)) %>%
+             filter(publication_year >= miny & publication_year <= maxy)
+tmp1 <- df %>% filter(publication_place == place) %>%
+     	       group_by(publication_decade, publication_year) %>%
+	       tally() %>%
+	       arrange(publication_year)
+
+#tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
+
+years <- c(1764,1809,1863,1917)
+p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
+#       geom_point() +
+       geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
+       ggtitle(paste("Julkaisutoiminta Vaasassa ", miny, "-", maxy, sep = "")) +
+       ylab("Dokumenttia (n)") +
+       scale_x_continuous(labels = years, breaks = years) +
+       xlab("Julkaisuvuosi") 
+
+print(p)
+```
+
+
+
+```{r Turku, echo=FALSE, fig.width=20, fig.height=10}
+df <- dfo
+place <- "Turku"
+miny <- 1640
+maxy <- 1917
+df <- df %>% filter(!is.na(publication_year)) %>%
+             filter(publication_year >= miny & publication_year <= maxy)
+tmp1 <- df %>% filter(publication_place == place) %>%
+     	       group_by(publication_decade, publication_year) %>%
+	       tally() %>%
+	       arrange(publication_year)
+
+#tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
+
+years <- c(1640, 1764,1809,1863,1917)
+p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
+#       geom_point() +
+       geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
+       ggtitle(paste("Julkaisutoiminta Turussa ", miny, "-", maxy, sep = "")) + 
+       ylab("Dokumenttia (n)") +
+       scale_x_continuous(labels = years, breaks = years) +
+       xlab("Julkaisuvuosi") 
+
+print(p)
+```
+
+
+
+```{r Helsinki, echo=FALSE, fig.width=20, fig.height=10}
+df <- dfo
+place <- "Helsinki"
+miny <- 1746
+maxy <- 1917
+df <- df %>% filter(!is.na(publication_year)) %>%
+             filter(publication_year >= miny & publication_year <= maxy)
+tmp1 <- df %>% filter(publication_place == place) %>%
+     	       group_by(publication_decade, publication_year) %>%
+	       tally() %>%
+	       arrange(publication_year)
+
+#tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
+
+years <- c(1764,1809,1863,1917)
+p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
+#       geom_point() +
+       geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
+       ggtitle(paste("Julkaisutoiminta Helsingissä ", miny, "-", maxy, sep = "")) +        
+
+       ylab("Dokumenttia (n)") +
+       scale_x_continuous(labels = years, breaks = years) +
+       xlab("Julkaisuvuosi") 
+
+print(p)
+```
+
+
+
+
+
+```{r Suomi, echo=FALSE, fig.width=20, fig.height=10}
+df <- dfo
+place <- "Finland"
+miny <- 1640
+maxy <- 1917
+df <- df %>% filter(!is.na(publication_year)) %>%
+             filter(publication_year >= miny & publication_year <= maxy)
+tmp1 <- df %>% filter(country == place) %>%
+     	       group_by(publication_decade, publication_year) %>%
+	       tally() %>%
+	       arrange(publication_year)
+
+#tmp1$decade <- as.numeric(paste0(substr(tmp1$publication_year,1,3),"0"))
+tmp2 <- tmp1 %>% group_by(publication_decade) %>% summarise(m = sum(n))
+
+years <- c(1640, 1764,1809,1863,1917)
+p <- ggplot(tmp1, aes(x = publication_year, y = n)) +
+#       geom_point() +
+       geom_bar(aes(x = publication_decade + 5, y = m), stat = "identity", fill = "gray", alpha = 0.9, color = "black", data = tmp2) +
+       ggtitle(paste("Julkaisutoiminta Suomessa ", miny, "-", maxy, sep = "")) +               
+       ylab("Dokumenttia (n)") +
+       scale_x_continuous(labels = years, breaks = years) +
+       xlab("Julkaisuvuosi") 
+
+print(p)
+```
+
+
+
+
+
+
+```{r Kaikki, echo=FALSE, fig.width=20, fig.height=10}
+df <- dfo
+countries <- "Finland"
+places <- c("Helsinki", "Turku", "Vaasa")
+miny <- 1640
+maxy <- 1917
+df <- df %>% filter(!is.na(publication_year)) %>%
+             filter(publication_year >= miny & publication_year <= maxy)
+
+tmp1 <- df %>% filter(publication_place %in% places) %>%
+     	       group_by(publication_decade, publication_place) %>%
+	       tally()
+
+tmp2 <- df %>% filter(country %in% countries) %>%
+     	       group_by(publication_decade, country) %>%
+	       tally() %>%
+	       rename(publication_place = country)
+	       
+d <- bind_rows(tmp1, tmp2)
+d$publication_place <- factor(d$publication_place)
+
+years <- c(1640, 1764,1809,1863,1917)
+p <- ggplot(d, aes(x = publication_decade + 5, y = n, fill = publication_place, color = publication_place)) +
+      # geom_bar(stat = "identity", alpha = 0.9, color = "black", position = "dodge") +
+       geom_smooth() +       
+       ggtitle("Julkaisutoiminta 1640-1917") +
+       ylab("Dokumenttia (n)") +
+       scale_x_continuous(labels = years, breaks = years) +
+       xlab("Julkaisuvuosi") +
+       scale_y_log10()
+
+print(p)
+```
+
+
+

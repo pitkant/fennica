@@ -40,12 +40,26 @@ tärkeää. Toisaalta, analyysi saattaisi olla järkevää aloittaa
 tutkimalla sanomalehtiaineistoa itsenäisesti. Olisiko mahdollista
 viedä nämä r-ympäristöön?
 
+#-----------
 
+city_examples.R correct_misspellings - funktio olisi hyvä tehdä niin
+että kaiken saa siivotuksi noin sadan rivin sijasta yhden rivin
+komennolla joka hyödyntää valmiiksi konstruoitua paikannimien
+synonyymilistaa (synonyymilistan tuottava koodikin on hyvä olla
+saatavilla mutta lopullisissa analyyseissä voidaan käyttää suoraan
+sitä synonyymilistaa joka pistetään avoimesti saataville verkkoon).
 
+Found the following files with duplicate lower-cased file names:
+  inst/examples/output.tables/city_Altdorf.csv
+  inst/examples/output.tables/city_Berliini.csv
+  etc..
 
+-> Pidän valtavasti ideasta, että tämä synonyymitaulujen haku on
+   mahd. pitkälle automatisoitu stringmatchingillä kuten olet tehnyt. 
 
-
-
-
-
+-> Tämä on nyt output.tables-hakemistossa. Kokoa näistä yksi
+   kaupunkinimien synonyymitiedosto, jota käytetään lopullisen paketin
+   input-tiedostona kaupunkien nimien harmonisointiin. Ja
+   output.tables-hakemistoon tulostaat ne tapaukset jotka jää vielä
+   mätchäyksestä ulos (myöhempää viilausta varten).
 
