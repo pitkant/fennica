@@ -1,6 +1,7 @@
 #' @title Polish Publisher Main
 #' @description Main handler for publisher fields.
 #' @param df.preprocessed Data frame with raw data
+#' @param useShortcuts If TRUE, loads RDS instead of doing everything from scratch
 #' @return Data frame with orig, mod
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}

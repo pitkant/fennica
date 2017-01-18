@@ -3,6 +3,7 @@
 #' @param df.orig Raw data from csv
 #' @param cheat_list Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling
 #' @param languages A vector of languages which are used in detecting relation keywords
+#' @param useShortcuts If TRUE, loads RDS instead of doing everything from scratch
 #' @return Data frame with alt, pref, match_methods
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}

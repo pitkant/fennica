@@ -2,6 +2,7 @@
 #' @import dplyr
 #' @importFrom bibliographica capitalize
 #' @importFrom bibliographica clean_publisher
+#' @importFrom bibliographica clean_publisher_destructively
 #' @importFrom bibliographica extract_personal_names
 #' @importFrom bibliographica harmonize_publisher
 #' @importFrom bibliographica map
@@ -13,8 +14,10 @@
 #' @importFrom stringdist amatch
 #' @importFrom stringr str_extract
 #' @importFrom stringr str_replace
+#' @importFrom stringr str_trim
 #' @importFrom utils adist
 #' @importFrom utils read.csv
+#' @importFrom utils tail
 
 globalVariables(c("published_in","publication_place"))
 
