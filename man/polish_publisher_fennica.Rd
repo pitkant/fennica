@@ -4,10 +4,12 @@
 \alias{polish_publisher_fennica}
 \title{Polish Publisher Main}
 \usage{
-polish_publisher_fennica(df.preprocessed)
+polish_publisher_fennica(df.preprocessed, useShortcuts = FALSE)
 }
 \arguments{
 \item{df.preprocessed}{Data frame with raw data}
+
+\item{useShortcuts}{If TRUE, loads RDS instead of doing everything from scratch}
 }
 \value{
 Data frame with orig, mod

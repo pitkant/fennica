@@ -4,7 +4,8 @@
 \alias{harmonize_publisher_fennica}
 \title{Harmonize Publisher Fennica}
 \usage{
-harmonize_publisher_fennica(df.orig, cheat_list, languages = c("english"))
+harmonize_publisher_fennica(df.orig, cheat_list, languages = c("english"),
+  useShortcuts = FALSE)
 }
 \arguments{
 \item{df.orig}{Raw data from csv}
@@ -12,6 +13,8 @@ harmonize_publisher_fennica(df.orig, cheat_list, languages = c("english"))
 \item{cheat_list}{Data frame of alt, pref: alternative spellings and their counterpart the preferred spelling}
 
 \item{languages}{A vector of languages which are used in detecting relation keywords}
+
+\item{useShortcuts}{If TRUE, loads RDS instead of doing everything from scratch}
 }
 \value{
 Data frame with alt, pref, match_methods
