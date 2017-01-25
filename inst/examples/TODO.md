@@ -3,7 +3,8 @@ TODO
 
 ### To JM
 
-- Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in Stockholm, Lund and Uppsala in Kungliga.
+Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in
+Stockholm, Lund and Uppsala in Kungliga.
 
 Tämä on siis sama kuin mikä meillä on ollut jo Krakovan ja Turun esityksissä, mutta nyt pitäisi katsoa kaupunkien mukaan. Tässä on oleellista juuri se, että nähdään onko pemflettidebattien intensifoituminen nimenomaan Tukholmassa tapahtuva juttu, vai tapahtuuko se myös muualla? Tää olisi tärkein.
 
@@ -16,11 +17,10 @@ Tämä on kanssa sama kuin aikaisemmin, mutta nyt toivon kaikkia vapaudenajan va
 Tämä on tavallaan pelkkä kokonaiskuva kirjatuotannosta koko ajalta, joka on jo olemassa moneen kertaan, mutta toivoisin, että siinä voisi näyttää Turun osuuden erikseen prosentteina. Tässä saadaan hyvin näytettyä se mitä Turussa tapahtuu isonvihan aikaan ja 1809 jälkeen. Fennica on tärkeämpi, mutta minusta kannattaisi katsoa myös miltä tämä näyttää Kungligan osalta.
 
 
-
-
 ### Technical (urgent)
 
 Gender: putsattu top-20 female mukaan. (F + K)
+
 
 ### Muita Fennica tutkimuskysymyksiä
 
@@ -30,6 +30,7 @@ tekijänimille ei välttämättä osata yhdistää kirjoittajakentän kanssa
 ESTC Suomessa / Ruotsissa ? (alkaa lähteä homma vähän käsistä jos
 vielä ESTC:ä ängetään tähän samaa kässäriin tällä aikataululla eli
 jättäisin pois)
+
 
 ### Technical, less urgent
 
@@ -78,4 +79,6 @@ Found the following files with duplicate lower-cased file names:
    input-tiedostona kaupunkien nimien harmonisointiin. Ja
    output.tables-hakemistoon tulostaat ne tapaukset jotka jää vielä
    mätchäyksestä ulos (myöhempää viilausta varten).
+
+
 
