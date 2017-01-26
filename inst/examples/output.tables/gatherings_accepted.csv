@@ -1,20 +1,20 @@
 Name	Count
-Total count: 	71919
-NA	39232
-4to	15773
-8vo	 7817
-12mo	 3285
-2fo	 3195
-16mo	 1688
-1to	  496
-4long	  206
-8long	   99
-32mo	   58
+Total count (na.rm TRUE): 	70471
+NA	36359
+4to	16085
+8vo	 8029
+2fo	 3698
+12mo	 3275
+16mo	 1752
+18mo	  393
+1to	  383
+4long	  204
+8long	  122
+32mo	   96
 6to	   29
+12long	   20
 24mo	   12
-18mo	    8
 64mo	    8
-12long	    7
 2long	    4
 16long	    1
 20to	    1

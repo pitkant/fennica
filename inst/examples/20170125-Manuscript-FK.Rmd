@@ -45,7 +45,8 @@ theme_set(theme_bw(26))
 
 ```{r jm-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
 # Full combined catalogue (Fen + Kun) with marked duplicates
-df.combined.preprocessed <- readRDS("df.combined.20160715-Krakow.Rds")
+#df.combined.preprocessed <- readRDS("df.combined.20160715-Krakow.Rds")
+df.combined.preprocessed <- readRDS("df.combined.20170125.Rds")
 # Data with duplicates removed and years limited
 df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 	   			    filter(publication_year >= min.year &

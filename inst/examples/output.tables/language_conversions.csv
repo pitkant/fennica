@@ -1,74 +1,73 @@
 original	polished	Count
-Total count: 	71919	
-fin	Finnish	32707
-swe	Swedish	23476
-lat	Latin	 6587
-ger	German	 1898
-fin;swe	Finnish;Swedish	 1397
-rus	Russian	  748
-fre	French	  646
-lat;swe	Latin;Swedish	  610
-NA	NA	  579
-eng	English	  345
-lat;grc	Latin;Greek Ancient to 1453 	  272
-swe;lat	Swedish;Latin	  205
-swe;fin	Swedish;Finnish	  198
+Total count (na.rm TRUE): 	69895	
+fin	Finnish	32350
+swe	Swedish	23034
+lat	Latin	 6169
+ger	German	 1859
+fin;swe	Finnish;Swedish	 1383
+rus	Russian	  728
+fre	French	  615
+lat;swe	Latin;Swedish	  591
+eng	English	  338
+lat;grc	Latin;Greek Ancient to 1453 	  260
+swe;fin	Swedish;Finnish	  191
+swe;lat	Swedish;Latin	  178
 fin;ger	Finnish;German	  135
-u	NA	  130
-dan	Danish	  125
-lat;fre	Latin;French	  105
-fin;rus	Finnish;Russian	  101
-fin;eng	Finnish;English	   82
+u	NA	  129
+dan	Danish	  124
+lat;fre	Latin;French	  104
+fin;rus	Finnish;Russian	   99
+fin;eng	Finnish;English	   80
 lat;grc;swe	Latin;Greek Ancient to 1453 ;Swedish	   64
-fin;fre	Finnish;French	   63
-fin;lat	Finnish;Latin	   63
-swe;fre	Swedish;French	   61
+fin;lat	Finnish;Latin	   60
+swe;fre	Swedish;French	   59
+fin;fre	Finnish;French	   58
 swe;rus	Swedish;Russian	   55
-swe;ger	Swedish;German	   49
 fin;swe;rus	Finnish;Swedish;Russian	   47
-lat;ger	Latin;German	   46
+swe;ger	Swedish;German	   46
+lat;ger	Latin;German	   44
 nor	Norwegian	   40
-ita	Italian	   39
+ita	Italian	   38
 lat;swe;grc	Latin;Swedish;Greek Ancient to 1453 	   38
 est	Estonian	   37
-mul	Multiple languages	   36
+mul	Multiple languages	   34
 afa	Afroasiatic Other 	   32
-lat;fin	Latin;Finnish	   30
 hun	Hungarian	   28
+lat;fin	Latin;Finnish	   28
 fin;ger;fre	Finnish;German;French	   26
 dut	Dutch	   26
-lat;swe;fin	Latin;Swedish;Finnish	   26
 lat;fre;swe	Latin;French;Swedish	   25
 lat;swe;fre	Latin;Swedish;French	   25
-und	NA	   23
+lat;swe;fin	Latin;Swedish;Finnish	   24
 swe;eng	Swedish;English	   22
-lat;heb	Latin;Hebrew	   22
+und	NA	   21
+lat;heb	Latin;Hebrew	   20
 pol	Polish	   18
 rus;fin	Russian;Finnish	   17
 fin;swe;ger	Finnish;Swedish;German	   16
 fin;swe;ger;rus	Finnish;Swedish;German;Russian	   16
-rus;swe	Russian;Swedish	   15
 ger;fin	German;Finnish	   15
-fin;swe;eng	Finnish;Swedish;English	   14
+rus;swe	Russian;Swedish	   14
 fiu	Finno-Ugrian Other 	   14
-fin;swe;fre	Finnish;Swedish;French	   14
-grc	Greek Ancient to 1453 	   14
+fin;swe;eng	Finnish;Swedish;English	   13
 ice	Icelandic	   13
+fin;swe;fre	Finnish;Swedish;French	   13
 spa	Spanish	   13
-fin;swe;ger;fre	Finnish;Swedish;German;French	   12
 grc;lat	Greek Ancient to 1453 ;Latin	   12
+grc	Greek Ancient to 1453 	   12
 ger;lat	German;Latin	   12
 eng;rus	English;Russian	   11
 fin;swe;lat	Finnish;Swedish;Latin	   11
+fin;swe;ger;fre	Finnish;Swedish;German;French	   10
 epo	Esperanto	    9
-lat;eng	Latin;English	    9
 fin;swe;eng;ger	Finnish;Swedish;English;German	    8
 ger;fre	German;French	    8
 smi	Sami	    8
-lat;swe;ger	Latin;Swedish;German	    8
+lat;eng	Latin;English	    8
 swe;fin;rus	Swedish;Finnish;Russian	    7
 fin;epo	Finnish;Esperanto	    7
 lat;heb;swe	Latin;Hebrew;Swedish	    7
+lat;swe;ger	Latin;Swedish;German	    7
 lat;ger;swe	Latin;German;Swedish	    7
 rus;fre	Russian;French	    6
 fiu;rus	Finno-Ugrian Other ;Russian	    6
@@ -77,16 +76,14 @@ fin;est	Finnish;Estonian	    6
 gem	Germanic Other 	    5
 fin;und	Finnish;Undetermined	    5
 eng;fin	English;Finnish	    5
-ger;swe	German;Swedish	    5
 lat;heb;grc	Latin;Hebrew;Greek Ancient to 1453 	    5
 fin;eng;fre	Finnish;English;French	    4
 lav	Latvian	    4
 lit	Lithuanian	    4
-swe;lat;grc	Swedish;Latin;Greek Ancient to 1453 	    4
 swe;fin;lat	Swedish;Finnish;Latin	    4
+ger;swe	German;Swedish	    4
 swe;fin;ger	Swedish;Finnish;German	    3
 swe;dan;nor	Swedish;Danish;Norwegian	    3
-krl	Karelian	    3
 fin;gre	Finnish;Greek Modern 1453- 	    3
 ger;rus	German;Russian	    3
 fin;hun	Finnish;Hungarian	    3
@@ -97,7 +94,7 @@ grc;lat;swe	Greek Ancient to 1453 ;Latin;Swedish	    3
 lat;grc;ger	Latin;Greek Ancient to 1453 ;German	    3
 swe;ger;fre	Swedish;German;French	    3
 swe;ger;lat	Swedish;German;Latin	    3
-swe;lat;fin	Swedish;Latin;Finnish	    3
+swe;lat;grc	Swedish;Latin;Greek Ancient to 1453 	    3
 swe;lat;ger	Swedish;Latin;German	    3
 lat;ita	Latin;Italian	    3
 lat;grc;fin	Latin;Greek Ancient to 1453 ;Finnish	    3
@@ -108,10 +105,10 @@ esp	Esperanto	    2
 fin;ger;rus	Finnish;German;Russian	    2
 rus;krl	Russian;Karelian	    2
 ger;fiu	German;Finno-Ugrian Other 	    2
-nor;ger	Norwegian;German	    2
 est;fin	Estonian;Finnish	    2
 swe;fin;eng;ger	Swedish;Finnish;English;German	    2
 swe;fin;eng	Swedish;Finnish;English	    2
+krl	Karelian	    2
 eng;swe	English;Swedish	    2
 rus;chu	Russian;Church Slavic	    2
 swe;dan	Swedish;Danish	    2
@@ -139,8 +136,8 @@ lat;ita;grc;fre	Latin;Italian;Greek Ancient to 1453 ;French	    2
 lat;grc;fre	Latin;Greek Ancient to 1453 ;French	    2
 ger;swe;lat	German;Swedish;Latin	    2
 lat;ger;grc	Latin;German;Greek Ancient to 1453 	    2
-lat;grc;heb	Latin;Greek Ancient to 1453 ;Hebrew	    2
 lat;fin;swe	Latin;Finnish;Swedish	    2
+swe;lat;fin	Swedish;Latin;Finnish	    2
 smi;swe	Sami;Swedish	    2
 lat;swe;ger;fin	Latin;Swedish;German;Finnish	    2
 swe;fre;lat	Swedish;French;Latin	    2
@@ -213,7 +210,6 @@ lat;rus	Latin;Russian	    1
 lat;swe;ger;fre	Latin;Swedish;German;French	    1
 lat;gre;swe	Latin;Greek Modern 1453- ;Swedish	    1
 lat;dut	Latin;Dutch	    1
-dut;lat	Dutch;Latin	    1
 dan;lat	Danish;Latin	    1
 por	Portuguese	    1
 swe;lat;fre;grc	Swedish;Latin;French;Greek Ancient to 1453 	    1
@@ -222,7 +218,7 @@ lat;swe;eng;fre	Latin;Swedish;English;French	    1
 lat;fin;grc	Latin;Finnish;Greek Ancient to 1453 	    1
 lat;fre;swe;grc	Latin;French;Swedish;Greek Ancient to 1453 	    1
 lat;grc;swe;fin;ger;dut;ita	Latin;Greek Ancient to 1453 ;Swedish;Finnish;German;Dutch;Italian	    1
-lat;swe;ger;fre;fin;heb;grc	Latin;Swedish;German;French;Finnish;Hebrew;Greek Ancient to 1453 	    1
+lat;grc;heb	Latin;Greek Ancient to 1453 ;Hebrew	    1
 swe;mul	Swedish;Multiple languages	    1
 heb;grc;lat	Hebrew;Greek Ancient to 1453 ;Latin	    1
 lat;eng;fre;ita;dut;grc	Latin;English;French;Italian;Dutch;Greek Ancient to 1453 	    1
@@ -242,7 +238,6 @@ ita;lat	Italian;Latin	    1
 lat;fin;ger	Latin;Finnish;German	    1
 lat;grc;eng;fre;heb	Latin;Greek Ancient to 1453 ;English;French;Hebrew	    1
 lat;heb;grc;swe	Latin;Hebrew;Greek Ancient to 1453 ;Swedish	    1
-fin;lat;swe;grc;ger;heb	Finnish;Latin;Swedish;Greek Ancient to 1453 ;German;Hebrew	    1
 eng;swe;fin	English;Swedish;Finnish	    1
 fin;lat;swe	Finnish;Latin;Swedish	    1
 smi;dan	Sami;Danish	    1

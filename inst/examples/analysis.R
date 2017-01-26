@@ -20,6 +20,7 @@ knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
 knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
+knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
 knitr::knit("20170125-Fennica.Rmd", encoding="UTF-8")
 
 #rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
