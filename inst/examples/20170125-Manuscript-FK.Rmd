@@ -59,7 +59,7 @@ df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in
 Stockholm, Lund and Uppsala in Kungliga.
 
-```{r paper_per_title, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r paper_per_title, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=4}
 catalogue <- "Kungliga"
 places <- c("Stockholm", "Lund", "Uppsala")
 periods <- list(c(1757, 1765), c(1766, 1774), c(1775, 1783))
