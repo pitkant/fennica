@@ -73,21 +73,26 @@ for (i in 1:length(periods)) {
 df$period <- factor(df$period)
 
 # Selected catalogue with selected years
-df <- filter(df, catalog == catalogue & publication_place %in% places & !is.na(period)) %>%
-             group_by(period, publication_place) %>%
+df <- filter(df, catalog == catalogue & publication_place %in% places & !is.na(period) & !is.na(paper))
+
+df <- df %>% group_by(period, publication_place) %>%
              summarise(n = n(), paper = sum(paper, na.rm = TRUE)) %>%
 	     mutate(paper_per_title = paper/n)
 
 theme_set(theme_bw(20))
-p <- ggplot(df, aes(x = period, y = paper_per_title)) +
-     geom_bar(stat = "identity", position = "dodge", aes(fill = publication_place), color = "black") +
+p <- ggplot(df, aes(x = publication_place, y = paper_per_title)) +
+     geom_bar(stat = "identity", position = "dodge", aes(fill = period), color = "black") +
      ylab("Paper per title (sheets)") +
      xlab("Publication period") +
      #scale_color_manual(values = c("blue", "darkgreen")) + 
      # 	 scale_size_discrete(range = c(2, 8)) +
      guides(fill = guide_legend(reverse = TRUE, title = "Place"), color = "none") 
 print(p)
+
+kable(df)
 ```
+
+
 
 
 
@@ -193,28 +198,28 @@ Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percen
 ```{r bookprod, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 minyear <- 1640
 maxyear <- 1828 
+df <- df0 %>% filter(!is.na(publication_place)) 
+df$myplace <- df$publication_place
+df$myplace[!df$myplace == "Turku"] <- "Other"
 
-df.turku <- df0 %>% filter(publication_year >= minyear & publication_year <= maxyear) %>%
-              filter(publication_place == "Turku") %>%
-	      group_by(catalog, publication_year) %>%
-	      summarize(n.turku = n())
+df <- df %>%  filter(publication_decade >= minyear & publication_decade <= maxyear) %>%
+	      group_by(catalog, publication_decade, myplace) %>%
+	      summarize(n = n())
 
-df.all <- df0 %>% filter(publication_year >= minyear & publication_year <= maxyear) %>%
-	      group_by(catalog, publication_year) %>%
-	      summarize(n.all = n())
+pics <- list()
+for (cat in unique(df$catalog)) {
+  dfs <- subset(df, catalog == cat)
+  p <- ggplot(dfs, aes(x = publication_decade, y = n)) +
+       geom_bar(aes(fill = myplace), color = "black", stat = "identity", position = "stack") +
+       scale_fill_manual(values = c("gray", "black")) +
+       ylab("Title count") +
+       xlab("Publication decade") +
+       guides(fill = guide_legend(title = "Place")) +
+       ggtitle(cat) +
+       xlim(values = c(min(df$publication_decade), max(df$publication_decade)))
+  pics[[cat]] <- p
+}
 
-df <- full_join(df.all, df.turku) %>%
-        filter(!is.na(n.turku)) %>%
-        mutate(f.turku = n.turku/n.all)
-
-p <- ggplot(df, aes(x = publication_year, y = f.turku)) +
-       geom_line(aes(color = catalog), size = 1) +
-       scale_y_continuous(labels = scales::percent) +
-       scale_color_manual(values = c("darkblue", "red")) +
-       ylab("Percentage (%)") +
-       xlab("Publication year") +
-       guides(color = guide_legend(title = "Catalogue")) +
-       ggtitle("Documents published in Turku")
-
-print(p)
+library(gridExtra)
+grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 ```
