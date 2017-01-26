@@ -100,7 +100,7 @@ kable(df)
 
 According to Kungliga in the the long eighteenth century.
 
-```{r riksdar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r riksdar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=5}
 minyear <- 1690
 maxyear <- 1828 # or 1810
 catal <- "Kungliga"
@@ -195,7 +195,7 @@ library(reshape2)
 
 Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
 
-```{r bookprod, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r bookprod, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 minyear <- 1640
 maxyear <- 1828 
 df <- df0 %>% filter(!is.na(publication_place)) 
