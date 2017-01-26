@@ -56,7 +56,10 @@ df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 
 ### Paper consumption per title
 
-```{r paper_per_title, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8}
+Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in
+Stockholm, Lund and Uppsala in Kungliga.
+
+```{r paper_per_title, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 catalogue <- "Kungliga"
 places <- c("Stockholm", "Lund", "Uppsala")
 periods <- list(c(1757, 1765), c(1766, 1774), c(1775, 1783))
@@ -91,7 +94,6 @@ print(p)
 ### Book production and Riksdag assemblies
 
 According to Kungliga in the the long eighteenth century.
-
 
 ```{r riksdar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 minyear <- 1690
@@ -187,9 +189,6 @@ library(reshape2)
 ### Book production
 
 Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
-
-Tämä on tavallaan pelkkä kokonaiskuva kirjatuotannosta koko ajalta, joka on jo olemassa moneen kertaan, mutta toivoisin, että siinä voisi näyttää Turun osuuden erikseen prosentteina. Tässä saadaan hyvin näytettyä se mitä Turussa tapahtuu isonvihan aikaan ja 1809 jälkeen. Fennica on tärkeämpi, mutta minusta kannattaisi katsoa myös miltä tämä näyttää Kungligan osalta.
-
 
 ```{r bookprod, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 minyear <- 1640

@@ -21,6 +21,9 @@ fontsize: 13pt
 
 ### Paper consumption per title
 
+Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in
+Stockholm, Lund and Uppsala in Kungliga.
+
 ![plot of chunk paper_per_title](figure/paper_per_title-1.png)
 
 
@@ -29,15 +32,11 @@ fontsize: 13pt
 
 According to Kungliga in the the long eighteenth century.
 
-
 ![plot of chunk riksdar](figure/riksdar-1.png)
 
 
 ### Book production
 
 Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
-
-Tämä on tavallaan pelkkä kokonaiskuva kirjatuotannosta koko ajalta, joka on jo olemassa moneen kertaan, mutta toivoisin, että siinä voisi näyttää Turun osuuden erikseen prosentteina. Tässä saadaan hyvin näytettyä se mitä Turussa tapahtuu isonvihan aikaan ja 1809 jälkeen. Fennica on tärkeämpi, mutta minusta kannattaisi katsoa myös miltä tämä näyttää Kungligan osalta.
-
 
 ![plot of chunk bookprod](figure/bookprod-1.png)
