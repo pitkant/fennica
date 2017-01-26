@@ -1,0 +1,221 @@
+---
+title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
+author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
+date: "`r Sys.Date()`"
+output: 
+  beamer_presentation:
+    theme: "boxes"
+    colortheme: "orchid"
+    fonttheme: "professionalfonts"
+  pdf_document:
+fontsize: 13pt
+---
+
+
+```{r jm-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+# Default time span
+min.year <- 1488
+max.year <- 1828
+
+library(ggmap)
+library(gisfin)
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(reshape2)
+library(ggplot2)
+library(bibliographica)
+library(fennica)
+library(sorvi)
+library(devtools)
+library(magrittr)
+library(ggplot2)
+library(dplyr)
+
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(fig.path = "2017-manuscript/")
+
+# Set locale
+tmp <- Sys.setlocale(locale="UTF-8") 
+
+# Nice theme
+theme_set(theme_bw(26))
+```
+
+
+```{r jm-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+# Full combined catalogue (Fen + Kun) with marked duplicates
+df.combined.preprocessed <- readRDS("df.combined.20160715-Krakow.Rds")
+# Data with duplicates removed and years limited
+df0 <- df.combined.preprocessed %>% filter(!remove) %>%
+	   			    filter(publication_year >= min.year &
+					   publication_year <= max.year)
+```
+
+
+
+### Paper consumption per title
+
+```{r paper_per_title, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4, out.width="300px"}
+catalogue <- "Kungliga"
+places <- c("Stockholm", "Lund", "Uppsala")
+periods <- list(c(1757, 1765), c(1766, 1774), c(1775, 1783))
+
+df <- df0
+df$period <- rep(NA, nrow(df))
+for (i in 1:length(periods)) {
+  pr <- periods[[i]]
+  df$period[df$publication_year >= min(pr) & df$publication_year <= max(pr)] <- paste(min(pr), max(pr), sep = "-")
+}
+df$period <- factor(df$period)
+
+# Selected catalogue with selected years
+df <- filter(df, catalog == catalogue & publication_place %in% places & !is.na(period)) %>%
+             group_by(period, publication_place) %>%
+             summarise(n = n(), paper = sum(paper, na.rm = TRUE)) %>%
+	     mutate(paper_per_title = paper/n)
+
+theme_set(theme_bw(20))
+p <- ggplot(df, aes(x = period, y = paper_per_title)) +
+     geom_bar(stat = "identity", position = "dodge", aes(fill = publication_place), color = "black") +
+     ylab("Paper per title (sheets)") +
+     xlab("Publication period") +
+     #scale_color_manual(values = c("blue", "darkgreen")) + 
+     # 	 scale_size_discrete(range = c(2, 8)) +
+     guides(fill = guide_legend(reverse = TRUE, title = "Place"), color = "none") 
+print(p)
+```
+
+
+
+### Book production and Riksdag assemblies
+
+According to Kungliga in the the long eighteenth century.
+
+
+```{r riksdar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+minyear <- 1690
+maxyear <- 1828 # or 1810
+catal <- "Kungliga"
+
+library(magrittr)
+library(ggplot2)
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+
+  df <- df0
+  df <- subset(df, catalog == catal)
+  df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
+  
+  timeinterval <- 1
+  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
+
+  df$unity = rep(1, nrow(df))
+  publications <- tapply(df$unity, list(df$timeunit), sum)
+
+  publications[is.na(publications)] <- 0 # Set NAs to 0
+  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
+  dfm <- melt(publications) 
+  names(dfm) <- c("Time", "Documents")
+  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+  ymin = min(dfm$Documents)
+  ymax = max(dfm$Documents)
+
+  li <- list(1719, # Stockholm 20 januari 1719 1 juni 1719
+             1720,
+	     1723,
+	     c(1726, 1727),
+	     1731,
+	     1734, # Stockholm 14 maj 1734 14 december 1734
+	     c(1738, 1739),
+	     c(1740, 1741),
+	     1742,
+	     c(1746, 1747),
+	     c(1751, 1752),
+	     c(1755, 1756),
+	     c(1760, 1762),
+	     c(1765, 1766), # Stockholm 21 februari 1765 21 oktober 1766
+	     c(1769, 1770), # Norrköping & Stockholm 22 april 1769 5 februari 1770
+	     c(1771, 1772), # Stockholm 19 juni 1771 12 september 1772
+	     c(1778, 1779),
+	     1786,
+	     1789,
+	     1792, # Gävle 26 januari 1792 24 februari 1792         
+	     1800,
+	     c(1809, 1810))
+
+  rect_left <- c(min(na.omit(dfm$date)))
+  for (item in li) {
+    rect_left <- c(rect_left, min(item) - .5, max(item) + .5)
+  }
+  rect_left <- c(rect_left, max(na.omit(dfm$date)))
+
+  rectangles <- data.frame(
+    xmin = rect_left[-length(rect_left)],
+    xmax = rect_left[-1],
+    ymin = ymin,
+    ymax = ymax
+    )
+  rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
+
+ cols <- c("lightgray", "darkgray")
+ bgcol <- "white"
+ rectangles$shade[rectangles$shade == "Background"] <- bgcol
+ rectangles$shade[rectangles$shade == "Highlight"] <- rep(cols, length.out = sum(rectangles$shade == "Highlight"))
+ rectangles$shade = factor(rectangles$shade)
+
+  # Draw Figure
+  theme_set(theme_bw(20))
+  p <- ggplot()
+  p <- p + geom_rect(data = rectangles, 
+       aes(xmin=xmin, xmax=xmax, ymin=ymin, ymax=ymax, fill=shade), alpha=0.8) + 
+         scale_fill_manual(values = levels(rectangles$shade)) # + guides(fill = "none") 
+  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
+  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
+  #p <- p + scale_x_continuous(breaks=seq(min(dfm$date), max(dfm$date), 10))
+  p <- p + scale_x_continuous(breaks=scales::pretty_breaks(n = 20))  
+  p <- p + ggtitle("Publishing activity")
+  p <- p + ylab("Documents / Year")
+  p <- p + xlab("Year")
+  p <- p + ggtitle(catal)
+  p <- p + guides(fill = "none") 
+  print(p)
+```
+
+
+### Book production
+
+Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
+
+Tämä on tavallaan pelkkä kokonaiskuva kirjatuotannosta koko ajalta, joka on jo olemassa moneen kertaan, mutta toivoisin, että siinä voisi näyttää Turun osuuden erikseen prosentteina. Tässä saadaan hyvin näytettyä se mitä Turussa tapahtuu isonvihan aikaan ja 1809 jälkeen. Fennica on tärkeämpi, mutta minusta kannattaisi katsoa myös miltä tämä näyttää Kungligan osalta.
+
+
+```{r bookprod, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+minyear <- 1640
+maxyear <- 1828 
+
+df.turku <- df0 %>% filter(publication_year >= minyear & publication_year <= maxyear) %>%
+              filter(publication_place == "Turku") %>%
+	      group_by(catalog, publication_year) %>%
+	      summarize(n.turku = n())
+
+df.all <- df0 %>% filter(publication_year >= minyear & publication_year <= maxyear) %>%
+	      group_by(catalog, publication_year) %>%
+	      summarize(n.all = n())
+
+df <- full_join(df.all, df.turku) %>%
+        filter(!is.na(n.turku)) %>%
+        mutate(f.turku = n.turku/n.all)
+
+p <- ggplot(df, aes(x = publication_year, y = f.turku)) +
+       geom_line(aes(color = catalog), size = 1) +
+       scale_y_continuous(labels = scales::percent) +
+       scale_color_manual(values = c("darkblue", "red")) +
+       ylab("Percentage (%)") +
+       xlab("Publication year") +
+       guides(color = guide_legend(title = "Catalogue")) +
+       ggtitle("Documents published in Turku")
+
+print(p)
+```

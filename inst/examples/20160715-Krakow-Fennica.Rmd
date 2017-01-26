@@ -756,6 +756,7 @@ catalogue <- "Fennica"
 
 ---
 
+
 \begin{center}
 \tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
 \end{center}
