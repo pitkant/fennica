@@ -1768,11 +1768,11 @@ octavo (8vo) increase rapidly in 1700s.
 for (catal in unique(df0$catalog)) {
   dfs <- df0 %>% filter(!gatherings == "NA" & catalog == catal) 
 
-  res <- timeline(dfs, field = "titlecount", group = "gatherings", nmin = 15, mode = "absolute") 
-  print(res$plot + ggtitle(paste(catal, " (n)", sep = "")))
+  res <- plot_timeline(dfs, field = "titlecount", group = "gatherings", nmin = 15, mode = "absolute") 
+  print(res + ggtitle(paste(catal, " (n)", sep = "")))
  
-  res <- timeline(dfs, field = "titlecount", group = "gatherings", nmin = 15, mode = "relative") 
-  print(res$plot + ggtitle(paste(catal, " (%)", sep = "")))
+  res <- plot_timeline(dfs, field = "titlecount", group = "gatherings", nmin = 15, mode = "relative") 
+  print(res + ggtitle(paste(catal, " (%)", sep = "")))
 }
 ```
 
