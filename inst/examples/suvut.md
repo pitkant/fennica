@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2016-10-04"
+date: "2017-01-27"
 output: markdown_document
 ---
 
@@ -9,11 +9,11 @@ output: markdown_document
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'family_name' not found
+## Error in filter_impl(.data, dots): object 'family_name' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown variable to group by : family_name
+## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : family_name
 ```
 
 ```
@@ -29,7 +29,25 @@ output: markdown_document
 ```
 
 ```
-## Error in fortify(data): object 'df2' not found
+## Error in eval(expr, envir, enclos): object 'p' not found
 ```
 
-![plot of chunk suvut](figure/suvut-1.png)
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'p' not found
+```
+
+```
+## Error in print(p): object 'p' not found
+```
