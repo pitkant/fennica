@@ -226,6 +226,8 @@ grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 ```
 
 
+### Kungliga / Linkoping
+
 ```{r linkoping, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 minyear <- 1640
 maxyear <- 1828
@@ -247,8 +249,5 @@ dfs <- df %>% select(publication_decade, publisher) %>% unique
 p <- plot_timeline(dfs, x = "publication_decade") +
      ylab("Publisher count (n)") + ggtitle(paste("Publisher count: ", cat, "/", myplace))
 print(p)    
-
-
-
 ```
 
