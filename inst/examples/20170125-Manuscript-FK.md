@@ -58,5 +58,11 @@ Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percen
 
 ### Kungliga / Linkoping
 
-![plot of chunk linkoping](2017-manuscript/linkoping-1.png)![plot of chunk linkoping](2017-manuscript/linkoping-2.png)
+
+
+
+[Document listing for Kungliga / Linköping 1640 - 1828](output.tables/Linkoping.tab)
+
+
+![plot of chunk linkoping2](2017-manuscript/linkoping2-1.png)![plot of chunk linkoping2](2017-manuscript/linkoping2-2.png)
 

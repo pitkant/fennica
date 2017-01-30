@@ -228,7 +228,7 @@ grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 
 ### Kungliga / Linkoping
 
-```{r linkoping, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+```{r linkoping, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 minyear <- 1640
 maxyear <- 1828
 myplace <- "Linköping"
@@ -240,7 +240,13 @@ df <- df0 %>% filter(publication_place == myplace) %>%
 
 tab <- unique(df[, c("publication_year", "author", "title", "publisher")])
 write.table(tab, sep = "\t", quote = F, row.names = FALSE, file = "output.tables/Linkoping.tab")
+```
 
+
+[Document listing for `r paste(cat, "/", myplace, minyear, "-", maxyear, sep = " ")`](output.tables/Linkoping.tab)
+
+
+```{r linkoping2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 p <- plot_timeline(df, x = "publication_decade", y = "titlecount") +
      ylab("Title count (n)") + ggtitle(paste("Title count: ", cat, "/", myplace))
 print(p)
