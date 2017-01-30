@@ -1,7 +1,7 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-01-27"
+date: "2017-01-30"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -54,3 +54,7 @@ According to Kungliga in the the long eighteenth century.
 Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
 
 ![plot of chunk bookprod](2017-manuscript/bookprod-1.png)
+
+
+![plot of chunk linkoping](2017-manuscript/linkoping-1.png)![plot of chunk linkoping](2017-manuscript/linkoping-2.png)
+
