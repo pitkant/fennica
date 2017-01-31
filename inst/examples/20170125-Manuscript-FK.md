@@ -1,7 +1,7 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-01-31"
+date: "2017-02-01"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -70,5 +70,50 @@ Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percen
 ```
 ## Error: attempt to use zero-length variable name
 ```
+
+```
+## Error in read.table(file = file, header = header, sep = sep, quote = quote, : no lines available in input
+```
+
+```
+## Error in melt(pop, "Year"): object 'pop' not found
+```
+
+```
+## Error in colnames(pop) <- c("publication_decade", "publication_place", : object 'pop' not found
+```
+
+```
+## Error in as_data_frame(pop): object 'pop' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'pop' not found
+```
+
+```
+## Error in setdiff(pop$publication_place, "Year"): object 'pop' not found
+```
+
+```
+## Error in filter_impl(.data, dots): object 'cities' not found
+```
+
+```
+## Error in gsub("Linköping", "Linkoping", pop$publication_place): object 'pop' not found
+```
+
+```
+## Error in inner_join(pop, df, by = c("publication_decade", "publication_place")): object 'pop' not found
+```
+
+```
+## Error in mutate_impl(.data, dots): non-numeric argument to binary operator
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'publication_place' not found
+```
+
 ![plot of chunk percapita](2017-manuscript/percapita-1.png)
 
