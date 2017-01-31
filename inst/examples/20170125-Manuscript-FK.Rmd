@@ -257,10 +257,6 @@ dfs <- df %>% select(publication_year, publisher) %>%
 	      filter(!is.na(publisher)) %>%
               unique %>%	      
 	      arrange(publication_year)
-p <- plot_timeline(dfs, x = "publication_year", time.window = 1) +
-       ylab("Publisher count (n)") +
-       ggtitle(paste("Publisher count: ", cat, "/", myplace))
-print(p)
 kable(dfs)
 .```
 

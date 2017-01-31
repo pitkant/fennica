@@ -24,7 +24,7 @@ fontsize: 13pt
 Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in
 Stockholm, Lund and Uppsala in Kungliga.
 
-![plot of chunk paper_per_title](2017-manuscript/paper_per_title-1.png)
+![plot of chunk paper_per_title](figure/paper_per_title-1.png)
 
 |period    |publication_place |    n|      paper| paper_per_title|
 |:---------|:-----------------|----:|----------:|---------------:|
@@ -46,14 +46,14 @@ Stockholm, Lund and Uppsala in Kungliga.
 
 According to Kungliga in the the long eighteenth century.
 
-![plot of chunk riksdar](2017-manuscript/riksdar-1.png)
+![plot of chunk riksdar](figure/riksdar-1.png)
 
 
 ### Book production
 
 Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
 
-![plot of chunk bookprod](2017-manuscript/bookprod-1.png)
+![plot of chunk bookprod](figure/bookprod-1.png)
 
 
 ### Kungliga / Linkoping
@@ -70,50 +70,5 @@ Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percen
 ```
 ## Error: attempt to use zero-length variable name
 ```
-
-```
-## Error in read.table(file = file, header = header, sep = sep, quote = quote, : no lines available in input
-```
-
-```
-## Error in melt(pop, "Year"): object 'pop' not found
-```
-
-```
-## Error in colnames(pop) <- c("publication_decade", "publication_place", : object 'pop' not found
-```
-
-```
-## Error in as_data_frame(pop): object 'pop' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'pop' not found
-```
-
-```
-## Error in setdiff(pop$publication_place, "Year"): object 'pop' not found
-```
-
-```
-## Error in filter_impl(.data, dots): object 'cities' not found
-```
-
-```
-## Error in gsub("Linköping", "Linkoping", pop$publication_place): object 'pop' not found
-```
-
-```
-## Error in inner_join(pop, df, by = c("publication_decade", "publication_place")): object 'pop' not found
-```
-
-```
-## Error in mutate_impl(.data, dots): non-numeric argument to binary operator
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_place' not found
-```
-
-![plot of chunk percapita](2017-manuscript/percapita-1.png)
+![plot of chunk percapita](figure/percapita-1.png)
 
