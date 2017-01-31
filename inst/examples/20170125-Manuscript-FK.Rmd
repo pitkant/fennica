@@ -246,14 +246,66 @@ write.table(tab, sep = "\t", quote = F, row.names = FALSE, file = "output.tables
 [Document listing for `r paste(cat, "/", myplace, minyear, "-", maxyear, sep = " ")`](output.tables/Linkoping.tab)
 
 
+### Title count and publisher count in Linköping
+
 ```{r linkoping2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 p <- plot_timeline(df, x = "publication_decade", y = "titlecount") +
      ylab("Title count (n)") + ggtitle(paste("Title count: ", cat, "/", myplace))
 print(p)
 
-dfs <- df %>% select(publication_decade, publisher) %>% unique
-p <- plot_timeline(dfs, x = "publication_decade") +
+dfs <- df %>% select(publication_year, publisher) %>% unique
+p <- plot_timeline(dfs, x = "publication_year") +
      ylab("Publisher count (n)") + ggtitle(paste("Publisher count: ", cat, "/", myplace))
-print(p)    
+print(p)
+
+kable(dfs)
+```
+
+
+
+### Title count per capita
+
+The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
+
+```{r percapita, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+# Read historical population sizes
+f <- system.file("inst/extdata/population_sizes_in_cities.csv", package = "bibliographica")
+pop <- read.csv(f)
+pop <- melt(pop, "Year")
+colnames(pop) <- c("publication_decade", "publication_place", "population")
+pop <- as_data_frame(pop)
+pop$publication_place <- as.character(pop$publication_place)
+
+# Cities with population data
+cities <- setdiff(pop$publication_place, "Year")
+
+minyear <- 1640
+maxyear <- 1828
+cat <- "Kungliga"
+df <- df0 %>% filter(publication_place %in% cities) %>%
+      	      filter(catalog == cat) %>%
+              filter(publication_decade %in% pop$publication_decade) %>%
+	      select(publication_decade, publication_place) %>%	      
+	      group_by(publication_decade, publication_place) %>%
+	      summarise(n = n())
+
+# Remove special chars for compatibility (table join fails otherwise)
+pop$publication_place <- gsub("Linköping", "Linkoping", pop$publication_place)
+df$publication_place <- gsub("Linköping", "Linkoping", df$publication_place)
+
+# Join title count and population size
+dfm <- inner_join(pop, df, by = c("publication_decade", "publication_place"))
+
+# Add title count per capita
+dfm <- dfm %>% mutate(titles_per_capita = n/population)
+
+p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
+       geom_line(aes(color = publication_place), size = 1) +
+       geom_point(aes(color = publication_place), size = 2) +
+       xlab("Publication decade") +
+       ylab("Title count per capita (n)") +
+       ggtitle("Title count per capita in selected cities") +
+       guides(color = guide_legend(title = "Place", reverse = TRUE))
+print(p)       
 ```
 

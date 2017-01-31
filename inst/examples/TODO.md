@@ -1,6 +1,9 @@
 TODO
 ==========
 
+- vuotuinen kustantajataulukko
+- publisher count by year
+- Title count / asukas noissa kaupungeissa?
 
 
 
