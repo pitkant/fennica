@@ -3811,7 +3811,7 @@ p <- plot_timeline(data = df, x = "publication_decade", y = "titlecount") +
        ylab("Title count (n)") +
        ggtitle(paste("Title count: ", cat, "/", myplace))
 print(p)
-.```
+```
 
 
 ### Unique publishers in Linköping by year

@@ -24,7 +24,7 @@ fontsize: 13pt
 Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in
 Stockholm, Lund and Uppsala in Kungliga.
 
-![plot of chunk paper_per_title](figure/paper_per_title-1.png)
+![plot of chunk paper_per_title](2017-manuscript/paper_per_title-1.png)
 
 |period    |publication_place |    n|      paper| paper_per_title|
 |:---------|:-----------------|----:|----------:|---------------:|
@@ -46,14 +46,14 @@ Stockholm, Lund and Uppsala in Kungliga.
 
 According to Kungliga in the the long eighteenth century.
 
-![plot of chunk riksdar](figure/riksdar-1.png)
+![plot of chunk riksdar](2017-manuscript/riksdar-1.png)
 
 
 ### Book production
 
 Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues. 
 
-![plot of chunk bookprod](figure/bookprod-1.png)
+![plot of chunk bookprod](2017-manuscript/bookprod-1.png)
 
 
 ### Kungliga / Linkoping
@@ -66,9 +66,28 @@ Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percen
 
 ### Title count and publisher count in Linköping
 
+![plot of chunk linkoping2](2017-manuscript/linkoping2-1.png)
 
-```
-## Error: attempt to use zero-length variable name
-```
-![plot of chunk percapita](figure/percapita-1.png)
+| publication_year|publisher                   |
+|----------------:|:---------------------------|
+|             1664|Kämpe                       |
+|             1675|Daniel Kempe                |
+|             1756|Linköpings stifts tidningar |
+|             1793|Linköpings stiftsbibliotek  |
+|             1795|Björn                       |
+|             1797|Björn                       |
+|             1798|Björn                       |
+|             1809|Groth & Petre               |
+|             1810|Groth & Petre               |
+|             1815|Petre & rahamsson           |
+|             1819|Petre & rahamsson           |
+|             1827|Petre                       |
+
+
+### Title count per capita
+
+The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
+
+![plot of chunk percapita](2017-manuscript/percapita-1.png)
+
 

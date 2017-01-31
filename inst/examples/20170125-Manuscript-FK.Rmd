@@ -235,8 +235,8 @@ myplace <- "Linköping"
 cat <- "Kungliga"
 df <- df0 %>% filter(publication_place == myplace) %>%
       	      filter(catalog == cat) %>%
-              filter(publication_year >= minyear &
-	             publication_year <= maxyear) #%>%
+              filter(publication_year >= minyear &#
+	             publication_year <= maxyear) 
 
 tab <- unique(df[, c("publication_year", "author", "title", "publisher")])
 write.table(tab, sep = "\t", quote = F, row.names = FALSE, file = "output.tables/Linkoping.tab")
@@ -258,8 +258,7 @@ dfs <- df %>% select(publication_year, publisher) %>%
               unique %>%	      
 	      arrange(publication_year)
 kable(dfs)
-.```
-
+```
 
 
 ### Title count per capita
@@ -307,4 +306,5 @@ p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        guides(color = guide_legend(title = "Place", reverse = TRUE))
 print(p)       
 ```
+
 
