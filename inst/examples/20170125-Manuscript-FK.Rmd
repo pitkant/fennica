@@ -253,13 +253,16 @@ p <- plot_timeline(df, x = "publication_decade", y = "titlecount") +
      ylab("Title count (n)") + ggtitle(paste("Title count: ", cat, "/", myplace))
 print(p)
 
-dfs <- df %>% select(publication_year, publisher) %>% unique
-p <- plot_timeline(dfs, x = "publication_year") +
-     ylab("Publisher count (n)") + ggtitle(paste("Publisher count: ", cat, "/", myplace))
+dfs <- df %>% select(publication_year, publisher) %>%
+	      filter(!is.na(publisher)) %>%
+              unique %>%	      
+	      arrange(publication_year)
+p <- plot_timeline(dfs, x = "publication_year", time.window = 1) +
+       ylab("Publisher count (n)") +
+       ggtitle(paste("Publisher count: ", cat, "/", myplace))
 print(p)
-
 kable(dfs)
-```
+.```
 
 
 
