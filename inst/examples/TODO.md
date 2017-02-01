@@ -4,7 +4,9 @@ TODO
 
 ### Technical (urgent)
 
-Gender: putsattu top-20 female mukaan. (F + K)
+- Vieläkin näyttäs olevan negatiivisia pagecountteja
+
+- Gender: putsattu top-20 female mukaan. (F + K)
 
 - Data releasen yhteyteen roadmappi seuraaviin versioihin
   suunnitelluista parannuksista.
