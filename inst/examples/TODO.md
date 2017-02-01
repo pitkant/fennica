@@ -1,19 +1,6 @@
 TODO
 ==========
 
-Vuotuinen kustantajataulukko ja publisher count by year:
-
--> lisätty - huom: monilta vuosilta ei ole lainkaan kustantajatietoja,
-   näille siis ei ole merkattu mitään kustantajia kuvassa eikä
-   taulukossa
-
- 
-Title count / asukas annetuissa kaupungeissa
-
--> OK, lisätty.
-
-
-
 ### Technical (urgent)
 
 Gender: putsattu top-20 female mukaan. (F + K)

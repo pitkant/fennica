@@ -3824,7 +3824,7 @@ dfs <- df %>% select(publication_year, publisher) %>%
               unique %>%	      
 	      arrange(publication_year) 
 kable(dfs)
-.```
+```
 
 
 
