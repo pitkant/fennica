@@ -46,7 +46,7 @@ fontsize: 13pt
 
 - Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828
 
-![plot of chunk unnamed-chunk-1](20170201_manuscript/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 ---
 
@@ -88,6 +88,10 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 **Enrich data** (geocoordinates, gender, ..)
 
 
+```r
+get_country("Porvoo")
+```
+
 ```
 ## [1] "Finland"
 ```
@@ -109,7 +113,7 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 
 ### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Lund & Greifswald)
 
-![plot of chunk map1](20170201_manuscript/map1-1.png)
+![plot of chunk map1](figure/map1-1.png)
 
 Map by Stamen
 
@@ -125,7 +129,7 @@ Map by Stamen
 - 1760-1770 Pamphleteering plays a crucial role during abolished censorship
 - 1803-1815 Napoleonic wars
 
-<img src="20170201_manuscript/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
+<img src="figure/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
 
 ---
 
@@ -138,7 +142,7 @@ Map by Stamen
 
 An example how historical events, namely **parliamentary assemblies** in the Swedish case, have an effect on knowledge production.
 
-![plot of chunk riksdar5](20170201_manuscript/riksdar5-1.png)
+![plot of chunk riksdar5](figure/riksdar5-1.png)
 
 ---
 
@@ -154,7 +158,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
-![plot of chunk comparisons](20170201_manuscript/comparisons-1.png)
+![plot of chunk comparisons](figure/comparisons-1.png)
 
 ---
 
@@ -165,7 +169,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Publishers in Swedish University towns (and Finland)
 
-![plot of chunk publishers2-finland](20170201_manuscript/publishers2-finland-1.png)
+![plot of chunk publishers2-finland](figure/publishers2-finland-1.png)
 
 
 ---
@@ -177,7 +181,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Top publishers in Turku/Fennica
 
-![plot of chunk publishers4-fennica](20170201_manuscript/publishers4-fennica-1.png)
+![plot of chunk publishers4-fennica](figure/publishers4-fennica-1.png)
 
 ---
 
@@ -194,7 +198,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Different languages in Turku, Stockholm, Uppsala and Lund
 
-![plot of chunk language-perc2](20170201_manuscript/language-perc2-1.png)
+![plot of chunk language-perc2](figure/language-perc2-1.png)
 
 ---
 
@@ -205,7 +209,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 ### Topic richness per language (publications in Fennica)
 
 
-![plot of chunk topics232](20170201_manuscript/topics232-1.png)
+![plot of chunk topics232](figure/topics232-1.png)
 
 ---
 
@@ -217,7 +221,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-![plot of chunk topics12122](20170201_manuscript/topics12122-1.png)
+![plot of chunk topics12122](figure/topics12122-1.png)
 
 ---
 
@@ -229,7 +233,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 - Important role in early modern knowledge production. Language of temporary sermons in contrast to devotional literature has not been analysed in Finland (and Sweden). 
 
-![plot of chunk topics882](20170201_manuscript/topics882-1.png)
+![plot of chunk topics882](figure/topics882-1.png)
 
 ---
 
@@ -246,7 +250,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 ### Dissertation languages in Turku 1640-1828
 
-![plot of chunk disslang](20170201_manuscript/disslang-1.png)
+![plot of chunk disslang](figure/disslang-1.png)
 
 ---
 
@@ -257,7 +261,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 ### Printing by topics in different languages in Turku
 
-![plot of chunk topics-103B](20170201_manuscript/topics-103B-1.png)
+![plot of chunk topics-103B](figure/topics-103B-1.png)
 
 
 ---
@@ -270,7 +274,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 Paper consumption: different document formats over time
 
-<img src="20170201_manuscript/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" /><img src="20170201_manuscript/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" />
+<img src="figure/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" /><img src="figure/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" />
 
 ---
 
@@ -312,7 +316,7 @@ For more info, see:
 
 ### Duplicate publications in Fennica/Kungliga
 
-![plot of chunk duplicates](20170201_manuscript/duplicates-1.png)
+![plot of chunk duplicates](figure/duplicates-1.png)
 
 
 
@@ -321,13 +325,13 @@ For more info, see:
 
 
 
-![plot of chunk title_length](20170201_manuscript/title_length-1.png)
+![plot of chunk title_length](figure/title_length-1.png)
 
 
-![plot of chunk title_length_by_gatherings](20170201_manuscript/title_length_by_gatherings-1.png)
+![plot of chunk title_length_by_gatherings](figure/title_length_by_gatherings-1.png)
 
 
-![plot of chunk title_length_by_lang](20170201_manuscript/title_length_by_lang-1.png)
+![plot of chunk title_length_by_lang](figure/title_length_by_lang-1.png)
 
 
 
@@ -343,7 +347,7 @@ For more info, see:
 
 ### Title count in Linköping
 
-![plot of chunk linkoping2](20170201_manuscript/linkoping2-1.png)
+![plot of chunk linkoping2](figure/linkoping2-1.png)
 
 
 ### Unique publishers in Linköping by year
@@ -369,193 +373,73 @@ Never two publishers seen on the same year.
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
+![plot of chunk percapita](figure/percapita-1.png)
 
-```
-## Error in read.table(file = file, header = header, sep = sep, quote = quote, : no lines available in input
-```
+| publication_decade|publication_place | population|    n| titles_per_capita|
+|------------------:|:-----------------|----------:|----:|-----------------:|
+|               1650|Stockholm         |      35000|  298|         0.0085143|
+|               1690|Stockholm         |      57000|  894|         0.0156842|
+|               1730|Stockholm         |      57000| 1400|         0.0245614|
+|               1770|Stockholm         |      69000| 4862|         0.0704638|
+|               1810|Stockholm         |      65474| 5975|         0.0912576|
+|               1650|Turku             |       4184|   23|         0.0054971|
+|               1690|Turku             |       5882|   39|         0.0066304|
+|               1730|Turku             |       4353|   26|         0.0059729|
+|               1770|Turku             |       7952|   44|         0.0055332|
+|               1810|Turku             |      11387|  116|         0.0101871|
+|               1650|Uppsala           |       2216|   49|         0.0221119|
+|               1690|Uppsala           |       2487|   62|         0.0249296|
+|               1730|Uppsala           |       3774|  143|         0.0378908|
+|               1770|Uppsala           |       3859|  364|         0.0943250|
+|               1810|Uppsala           |       4076|  817|         0.2004416|
+|               1690|Lund              |       1251|   17|         0.0135891|
+|               1730|Lund              |       1530|   60|         0.0392157|
+|               1770|Lund              |       2078|   99|         0.0476420|
+|               1810|Lund              |       3100|  360|         0.1161290|
+|               1650|Gothenburg        |       2653|   35|         0.0131926|
+|               1690|Gothenburg        |       5071|   39|         0.0076908|
+|               1730|Gothenburg        |       8000|   33|         0.0041250|
+|               1770|Gothenburg        |      11143|  201|         0.0180382|
+|               1810|Gothenburg        |      14346|  366|         0.0255123|
+|               1650|Linkoping         |       1180|   22|         0.0186441|
+|               1690|Linkoping         |       1270|   29|         0.0228346|
+|               1730|Linkoping         |       1383|   34|         0.0245842|
+|               1770|Linkoping         |       2325|   52|         0.0223656|
+|               1810|Linkoping         |       3285|  133|         0.0404871|
 
-```
-## Error in melt(pop, "Year"): object 'pop' not found
-```
 
-```
-## Error in colnames(pop) <- c("publication_decade", "publication_place", : object 'pop' not found
-```
-
-```
-## Error in as_data_frame(pop): object 'pop' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'pop' not found
-```
-
-```
-## Error in setdiff(pop$publication_place, "Year"): object 'pop' not found
-```
-
-```
-## Error in filter_impl(.data, dots): object 'cities' not found
-```
-
-```
-## Error in filter_impl(.data, dots): object 'pop' not found
-```
-
-```
-## Error in list_or_dots(...): object 'df1' not found
-```
-
-```
-## Error in gsub("Linköping", "Linkoping", pop$publication_place): object 'pop' not found
-```
-
-```
-## Error in inner_join(pop, df, by = c("publication_decade", "publication_place")): object 'pop' not found
-```
-
-```
-## Error in mutate_impl(.data, dots): non-numeric argument to binary operator
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_place' not found
-```
-
-![plot of chunk percapita](20170201_manuscript/percapita-1.png)
-
-| Time| Documents| date|
-|----:|---------:|----:|
-| 1700|       264| 1700|
-| 1701|       208| 1701|
-| 1702|       144| 1702|
-| 1703|       144| 1703|
-| 1704|       115| 1704|
-| 1705|       100| 1705|
-| 1706|       154| 1706|
-| 1707|       129| 1707|
-| 1708|       141| 1708|
-| 1709|        98| 1709|
-| 1710|       162| 1710|
-| 1711|        96| 1711|
-| 1712|       110| 1712|
-| 1713|       125| 1713|
-| 1714|       174| 1714|
-| 1715|       163| 1715|
-| 1716|       162| 1716|
-| 1717|       158| 1717|
-| 1718|       204| 1718|
-| 1719|       232| 1719|
-| 1720|       314| 1720|
-| 1721|       143| 1721|
-| 1722|       165| 1722|
-| 1723|       186| 1723|
-| 1724|       153| 1724|
-| 1725|       140| 1725|
-| 1726|       165| 1726|
-| 1727|       194| 1727|
-| 1728|       180| 1728|
-| 1729|       143| 1729|
-| 1730|       173| 1730|
-| 1731|       246| 1731|
-| 1732|       173| 1732|
-| 1733|       170| 1733|
-| 1734|       219| 1734|
-| 1735|       202| 1735|
-| 1736|       176| 1736|
-| 1737|       159| 1737|
-| 1738|       231| 1738|
-| 1739|       298| 1739|
-| 1740|       269| 1740|
-| 1741|       425| 1741|
-| 1742|       349| 1742|
-| 1743|       386| 1743|
-| 1744|       330| 1744|
-| 1745|       339| 1745|
-| 1746|       373| 1746|
-| 1747|       361| 1747|
-| 1748|       402| 1748|
-| 1749|       346| 1749|
-| 1750|       314| 1750|
-| 1751|       469| 1751|
-| 1752|       346| 1752|
-| 1753|       301| 1753|
-| 1754|       295| 1754|
-| 1755|       339| 1755|
-| 1756|       537| 1756|
-| 1757|       413| 1757|
-| 1758|       375| 1758|
-| 1759|       374| 1759|
-| 1760|       415| 1760|
-| 1761|       425| 1761|
-| 1762|       472| 1762|
-| 1763|       365| 1763|
-| 1764|       359| 1764|
-| 1765|       626| 1765|
-| 1766|       707| 1766|
-| 1767|       568| 1767|
-| 1768|       645| 1768|
-| 1769|      1152| 1769|
-| 1770|       849| 1770|
-| 1771|      1233| 1771|
-| 1772|      1158| 1772|
-| 1773|       610| 1773|
-| 1774|       536| 1774|
-| 1775|       454| 1775|
-| 1776|       460| 1776|
-| 1777|       405| 1777|
-| 1778|       535| 1778|
-| 1779|       445| 1779|
-| 1780|       485| 1780|
-| 1781|       483| 1781|
-| 1782|       486| 1782|
-| 1783|       417| 1783|
-| 1784|       450| 1784|
-| 1785|       448| 1785|
-| 1786|       576| 1786|
-| 1787|       523| 1787|
-| 1788|       591| 1788|
-| 1789|       585| 1789|
-| 1790|       600| 1790|
-| 1791|       497| 1791|
-| 1792|       687| 1792|
-| 1793|       594| 1793|
-| 1794|       529| 1794|
-| 1795|       537| 1795|
-| 1796|       554| 1796|
-| 1797|       573| 1797|
-| 1798|       633| 1798|
-| 1799|       719| 1799|
-
+![plot of chunk abstitlecount](figure/abstitlecount-1.png)
 
 
 ```
-## Error in filter_impl(.data, dots): object 'cities' not found
+## Error in filter_impl(.data, dots): object 'gatherings' not found
+```
+
+![plot of chunk octavo](figure/octavo-1.png)
+
+```
+## Error in `$<-.data.frame`(`*tmp*`, "title_length", value = integer(0)): replacement has 0 rows, data has 1192
 ```
 
 ```
-## Error in list_or_dots(...): object 'df1' not found
+## Error in summarise_impl(.data, dots): object 'title_length' not found
 ```
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 1269, 0
-```
-
-![plot of chunk abstitlecount](20170201_manuscript/abstitlecount-1.png)
-
-![plot of chunk octavo](20170201_manuscript/octavo-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication_place' not found
 ```
 
-![plot of chunk octavo](20170201_manuscript/octavo-2.png)
+![plot of chunk octavo](figure/octavo-2.png)
 
 
 ## Session info
 
 This document was created with the following versions:
 
+
+```r
+sessionInfo()
+```
 
 ```
 ## R version 3.3.1 (2016-06-21)
@@ -574,52 +458,53 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] knitcitations_1.0.7   microbiome_0.99.88    phyloseq_1.16.2      
-##  [4] devtools_1.12.0       sorvi_0.7.26          stringr_1.1.0        
-##  [7] gisfin_0.9.27         R6_2.2.0              rgdal_1.2-4          
-## [10] sp_1.2-3              ggmap_2.6.1           knitr_1.15.1         
-## [13] gridExtra_2.2.1       reshape2_1.4.2        magrittr_1.5         
-## [16] fennica_0.1.43        bibliographica_0.2.31 dplyr_0.5.0          
+##  [1] bibliographica_0.2.31 knitcitations_1.0.7   microbiome_0.99.88   
+##  [4] phyloseq_1.16.2       devtools_1.12.0       sorvi_0.7.26         
+##  [7] stringr_1.1.0         gisfin_0.9.27         R6_2.2.0             
+## [10] rgdal_1.2-4           sp_1.2-3              ggmap_2.6.1          
+## [13] knitr_1.15.1          gridExtra_2.2.1       reshape2_1.4.2       
+## [16] magrittr_1.5          fennica_0.1.43        dplyr_0.5.0          
 ## [19] tidyr_0.6.0           ggplot2_2.2.0        
 ## 
 ## loaded via a namespace (and not attached):
 ##   [1] colorspace_1.3-0      rjson_0.2.15          deldir_0.1-12        
 ##   [4] babynames_0.2.1       dynamicTreeCut_1.63-1 htmlTable_1.7        
-##   [7] XVector_0.12.1        lubridate_1.6.0       AnnotationDbi_1.34.4 
-##  [10] RefManageR_0.13.1     codetools_0.2-15      splines_3.3.1        
-##  [13] doParallel_1.0.10     impute_1.46.0         robustbase_0.92-6    
-##  [16] tgp_2.4-14            ade4_1.7-4            Formula_1.2-1        
-##  [19] jsonlite_1.1          WGCNA_1.51            cluster_2.0.5        
-##  [22] GO.db_3.3.0           png_0.1-7             httr_1.2.1           
-##  [25] mapproj_1.2-4         assertthat_0.1        Matrix_1.2-7.1       
-##  [28] lazyeval_0.2.0        acepack_1.4.1         htmltools_0.3.5      
-##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
-##  [34] coda_0.18-1           gtable_0.2.0          maps_3.1.1           
-##  [37] gmodels_2.16.2        Rcpp_0.12.8           slam_0.1-38          
-##  [40] Biobase_2.32.0        RJSONIO_1.3-0         Biostrings_2.40.2    
-##  [43] multtest_2.28.0       spdep_0.6-8           gdata_2.17.0         
-##  [46] ape_3.5               preprocessCore_1.34.0 nlme_3.1-128         
-##  [49] iterators_1.0.8       tensorA_0.36          fastcluster_1.1.21   
-##  [52] gender_0.5.1          proto_1.0.0           gtools_3.5.0         
-##  [55] XML_3.98-1.5          stringdist_0.9.4.2    DEoptimR_1.0-6       
-##  [58] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
-##  [61] scales_0.4.1          parallel_3.3.1        biomformat_1.0.2     
-##  [64] genderdata_0.5.0      rhdf5_2.16.0          RColorBrewer_1.1-2   
-##  [67] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
-##  [70] latticeExtra_0.6-28   stringi_1.1.3         maptree_1.4-7        
-##  [73] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
-##  [76] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
-##  [79] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
-##  [82] bitops_1.0-6          RgoogleMaps_1.4.1     compositions_1.40-1  
-##  [85] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
-##  [88] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
-##  [91] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
-##  [94] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
-##  [97] RCurl_1.95-4.8        survival_2.40-1       nnet_7.3-12          
-## [100] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
-## [103] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
-## [106] digest_0.6.10         tm_0.6-2              stats4_3.3.1         
-## [109] munsell_0.4.3
+##   [7] XVector_0.12.1        roxygen2_5.0.1        lubridate_1.6.0      
+##  [10] AnnotationDbi_1.34.4  RefManageR_0.13.1     codetools_0.2-15     
+##  [13] splines_3.3.1         doParallel_1.0.10     impute_1.46.0        
+##  [16] robustbase_0.92-6     tgp_2.4-14            ade4_1.7-4           
+##  [19] Formula_1.2-1         jsonlite_1.1          WGCNA_1.51           
+##  [22] cluster_2.0.5         GO.db_3.3.0           png_0.1-7            
+##  [25] httr_1.2.1            mapproj_1.2-4         assertthat_0.1       
+##  [28] Matrix_1.2-7.1        lazyeval_0.2.0        acepack_1.4.1        
+##  [31] htmltools_0.3.5       tools_3.3.1           igraph_1.0.1         
+##  [34] NLP_0.1-9             coda_0.18-1           gtable_0.2.0         
+##  [37] maps_3.1.1            gmodels_2.16.2        Rcpp_0.12.8          
+##  [40] slam_0.1-38           Biobase_2.32.0        RJSONIO_1.3-0        
+##  [43] Biostrings_2.40.2     multtest_2.28.0       spdep_0.6-8          
+##  [46] gdata_2.17.0          ape_3.5               preprocessCore_1.34.0
+##  [49] nlme_3.1-128          iterators_1.0.8       tensorA_0.36         
+##  [52] fastcluster_1.1.21    gender_0.5.1          proto_1.0.0          
+##  [55] testthat_1.0.2        gtools_3.5.0          XML_3.98-1.5         
+##  [58] stringdist_0.9.4.2    DEoptimR_1.0-6        LearnBayes_2.15      
+##  [61] zlibbioc_1.18.0       MASS_7.3-45           scales_0.4.1         
+##  [64] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
+##  [67] rhdf5_2.16.0          RColorBrewer_1.1-2    memoise_1.0.0        
+##  [70] geosphere_1.5-5       rpart_4.1-10          latticeExtra_0.6-28  
+##  [73] stringi_1.1.3         maptree_1.4-7         RSQLite_1.0.0        
+##  [76] highr_0.6             S4Vectors_0.10.3      foreach_1.4.3        
+##  [79] energy_1.7-0          permute_0.9-4         BiocGenerics_0.18.0  
+##  [82] bibtex_0.4.0          boot_1.3-18           bitops_1.0-6         
+##  [85] RgoogleMaps_1.4.1     compositions_1.40-1   moments_0.14         
+##  [88] matrixStats_0.51.0    evaluate_0.10         lattice_0.20-34      
+##  [91] labeling_0.3          plyr_1.8.4            IRanges_2.6.1        
+##  [94] Hmisc_4.0-0           DBI_0.5-1             foreign_0.8-67       
+##  [97] withr_1.0.2           mgcv_1.8-16           RCurl_1.95-4.8       
+## [100] survival_2.40-1       nnet_7.3-12           tibble_1.2           
+## [103] bayesm_3.0-2          crayon_1.3.2          jpeg_0.1-8           
+## [106] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
+## [109] digest_0.6.10         tm_0.6-2              stats4_3.3.1         
+## [112] munsell_0.4.3
 ```
 
 

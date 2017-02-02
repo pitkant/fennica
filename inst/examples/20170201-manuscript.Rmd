@@ -1161,7 +1161,7 @@ The historical population sizes used in this analysis are shown in this [table](
 
 ```{r percapita, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Read historical population sizes
-f <- system.file("inst/extdata/population_sizes_in_cities.csv", package = "bibliographica")
+f <- system.file("extdata/population_sizes_in_cities.csv", package = "bibliographica")
 pop <- read.csv(f)
 pop <- melt(pop, "Year")
 colnames(pop) <- c("publication_decade", "publication_place", "population")
