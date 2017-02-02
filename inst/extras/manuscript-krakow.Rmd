@@ -3846,13 +3846,27 @@ cities <- setdiff(pop$publication_place, "Year")
 
 minyear <- 1640
 maxyear <- 1828
+
+# Take cities from Kungliga except Turku
 cat <- "Kungliga"
-df <- df0 %>% filter(publication_place %in% cities) %>%
+df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
       	      filter(catalog == cat) %>%
               filter(publication_decade %in% pop$publication_decade) %>%
 	      select(publication_decade, publication_place) %>%	      
 	      group_by(publication_decade, publication_place) %>%
 	      summarise(n = n())
+
+# Take cities from Fennica for Turku
+cat <- "Kungliga"
+df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
+      	      filter(catalog == cat) %>%
+              filter(publication_decade %in% pop$publication_decade) %>%
+	      select(publication_decade, publication_place) %>%	      
+	      group_by(publication_decade, publication_place) %>%
+	      summarise(n = n())
+
+
+df <- bind_rows(df1, df2)
 
 # Remove special chars for compatibility (table join fails otherwise)
 pop$publication_place <- gsub("Linköping", "Linkoping", pop$publication_place)
@@ -3871,9 +3885,71 @@ p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        ylab("Title count per capita (n)") +
        ggtitle("Title count per capita in selected cities") +
        guides(color = guide_legend(title = "Place", reverse = TRUE))
-print(p)       
+print(p)
+
+kable(dfm)
 ```
 
+
+```{r abstitlecount, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+# Take cities from Kungliga except Turku
+cat <- "Kungliga"
+df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
+      	      filter(catalog == cat) %>%
+	      group_by(publication_year, publication_place) %>%
+	      summarise(n = n(), paper = sum(paper, na.rm = TRUE))
+
+# Take cities from Fennica for Turku
+cat <- "Kungliga"
+df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
+      	      filter(catalog == cat) %>%
+	      group_by(publication_year, publication_place) %>%
+	      summarise(n = n(), paper = sum(paper, na.rm = TRUE))
+
+df <- bind_rows(df1, df2)
+
+p <- ggplot(df, aes(x = publication_year, y = n)) +
+       geom_line(aes(color = publication_place), size = 1) +
+       geom_point(aes(color = publication_place), size = 2) +
+       xlab("Publication year") +
+       ylab("Title count (n)") +
+       ggtitle("Absolute title count in selected cities") +
+       guides(color = guide_legend(title = "Place", reverse = TRUE))
+print(p)
+```
+
+```{r octavo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+#>2) paper consumption in octavo format books
+#>in Stockholm, Turku, Uppsala, Lund, Göteborg and Linköping
+
+dfs <- filter(df, gatherings == "8vo")
+p <- ggplot(df, aes(x = publication_year, y = paper)) +
+       geom_line(aes(color = publication_place), size = 1) +
+       geom_point(aes(color = publication_place), size = 2) +
+       xlab("Publication year") +
+       ylab("Paper (sheets)") +
+       ggtitle("Paper consumption in selected cities") +
+       guides(color = guide_legend(title = "Place", reverse = TRUE))
+print(p)
+
+#>graph of average title length in words in Stockholm, Turku, Uppsala,
+#>Lund, Göteborg and Linköping. Both according to Kungliga, but if
+#>possible Turku data from Fennica.
+
+df$title_length <- nchar(df$title)
+dfs <- df %>% group_by(publication_year) %>%
+              summarise(mean_title_length = mean(title_length, na.rm = TRUE))
+
+p <- ggplot(dfs, aes(x = publication_year, y = mean_title_length)) +
+       geom_line(aes(color = publication_place), size = 1) +
+       geom_point(aes(color = publication_place), size = 2) +
+       xlab("Publication year") +
+       ylab("Title length (characters)") +
+       ggtitle("Mean title length in selected cities") +
+       guides(color = guide_legend(title = "Place", reverse = TRUE))
+print(p)
+
+```
 
 
 ## Session info
