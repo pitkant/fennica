@@ -410,7 +410,21 @@ The historical population sizes used in this analysis are shown in this [table](
 
 ![plot of chunk abstitlecount](figure/abstitlecount-1.png)
 
+
+### Octavo analysis 
+
+Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
+Lund, Göteborg and Linköping. Again Turku from Fennica, other cities
+from Kungliga.
+
 ![plot of chunk octavo](figure/octavo-1.png)
+
+
+Average title length in words in Stockholm, Turku, Uppsala, Lund,
+Göteborg and Linköping. According to Kungliga, except Turku from
+Fennica. For octavos only,
+
+
 
 ```
 ## Error in summarise_impl(.data, dots): object 'title_length' not found
@@ -420,7 +434,7 @@ The historical population sizes used in this analysis are shown in this [table](
 ## Error in eval(expr, envir, enclos): object 'publication_place' not found
 ```
 
-![plot of chunk octavo](figure/octavo-2.png)
+![plot of chunk octavo2](figure/octavo2-1.png)
 
 
 ## Session info
