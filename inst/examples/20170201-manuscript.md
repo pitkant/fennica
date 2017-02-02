@@ -382,11 +382,11 @@ The historical population sizes used in this analysis are shown in this [table](
 |               1730|Stockholm         |      57000| 1400|         0.0245614|
 |               1770|Stockholm         |      69000| 4862|         0.0704638|
 |               1810|Stockholm         |      65474| 5975|         0.0912576|
-|               1650|Turku             |       4184|   23|         0.0054971|
-|               1690|Turku             |       5882|   39|         0.0066304|
-|               1730|Turku             |       4353|   26|         0.0059729|
-|               1770|Turku             |       7952|   44|         0.0055332|
-|               1810|Turku             |      11387|  116|         0.0101871|
+|               1650|Turku             |       4184|  497|         0.1187859|
+|               1690|Turku             |       5882|  721|         0.1225774|
+|               1730|Turku             |       4353|  555|         0.1274983|
+|               1770|Turku             |       7952| 1153|         0.1449950|
+|               1810|Turku             |      11387|  355|         0.0311759|
 |               1650|Uppsala           |       2216|   49|         0.0221119|
 |               1690|Uppsala           |       2487|   62|         0.0249296|
 |               1730|Uppsala           |       3774|  143|         0.0378908|
@@ -410,16 +410,7 @@ The historical population sizes used in this analysis are shown in this [table](
 
 ![plot of chunk abstitlecount](figure/abstitlecount-1.png)
 
-
-```
-## Error in filter_impl(.data, dots): object 'gatherings' not found
-```
-
 ![plot of chunk octavo](figure/octavo-1.png)
-
-```
-## Error in `$<-.data.frame`(`*tmp*`, "title_length", value = integer(0)): replacement has 0 rows, data has 1192
-```
 
 ```
 ## Error in summarise_impl(.data, dots): object 'title_length' not found
