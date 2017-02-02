@@ -1281,6 +1281,22 @@ print(p)
 #>Lund, Göteborg and Linköping. Both according to Kungliga, but if
 #>possible Turku data from Fennica.
 
+# Take cities from Kungliga except Turku
+cat <- "Kungliga"
+df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
+      	       filter(catalog == cat & gatherings == "8vo") %>%
+	       group_by(publication_year, publication_place) %>%
+	       summarise(n = n(), paper = sum(paper, na.rm = TRUE), mean_title_length = mean(title_length, na.rm = TRUE))
+
+# Take cities from Fennica for Turku
+cat <- "Fennica"
+df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
+      	       filter(catalog == cat & gatherings == "8vo") %>%
+	       group_by(publication_year, publication_place) %>%
+	       summarise(n = n(), paper = sum(paper, na.rm = TRUE), mean_title_length = mean(title_length, na.rm = TRUE))
+
+df <- bind_rows(df1, df2)
+
 dfs <- df %>% group_by(publication_year) %>%
               summarise(mean_title_length = mean(title_length, na.rm = TRUE))
 
