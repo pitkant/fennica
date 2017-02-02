@@ -425,15 +425,6 @@ Göteborg and Linköping. According to Kungliga, except Turku from
 Fennica. For octavos only,
 
 
-
-```
-## Error in summarise_impl(.data, dots): object 'title_length' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'publication_place' not found
-```
-
 ![plot of chunk octavo2](figure/octavo2-1.png)
 
 
