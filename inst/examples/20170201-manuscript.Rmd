@@ -1246,10 +1246,14 @@ p <- ggplot(df, aes(x = publication_year, y = n)) +
 print(p)
 ```
 
-```{r octavo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-#>2) paper consumption in octavo format books
-#>in Stockholm, Turku, Uppsala, Lund, Göteborg and Linköping
 
+### Octavo analysis 
+
+Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
+Lund, Göteborg and Linköping. Again Turku from Fennica, other cities
+from Kungliga.
+
+```{r octavo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Take cities from Kungliga except Turku
 cat <- "Kungliga"
 df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
@@ -1274,13 +1278,15 @@ p <- ggplot(df, aes(x = publication_year, y = paper)) +
        ggtitle("Paper consumption in selected cities") +
        guides(color = guide_legend(title = "Place", reverse = TRUE))
 print(p)
+```
 
-# -----------------------------------------
 
-#>graph of average title length in words in Stockholm, Turku, Uppsala,
-#>Lund, Göteborg and Linköping. Both according to Kungliga, but if
-#>possible Turku data from Fennica.
+Average title length in words in Stockholm, Turku, Uppsala, Lund,
+Göteborg and Linköping. According to Kungliga, except Turku from
+Fennica. For octavos only,
 
+
+```{r octavo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Take cities from Kungliga except Turku
 cat <- "Kungliga"
 df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
