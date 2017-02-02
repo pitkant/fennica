@@ -32,7 +32,7 @@ library(devtools)
 
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
-knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/")
+knitr::opts_chunk$set(fig.path = "20170201_manuscript/")
 
 # Set locale
 tmp <- Sys.setlocale(locale="UTF-8") 

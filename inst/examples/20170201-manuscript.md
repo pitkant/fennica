@@ -46,7 +46,7 @@ fontsize: 13pt
 
 - Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828
 
-![plot of chunk unnamed-chunk-1](slides_201606_Krakow/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](20170201_manuscript/unnamed-chunk-1-1.png)
 
 ---
 
@@ -109,7 +109,7 @@ polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
 
 ### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Lund & Greifswald)
 
-![plot of chunk map1](slides_201606_Krakow/map1-1.png)
+![plot of chunk map1](20170201_manuscript/map1-1.png)
 
 Map by Stamen
 
@@ -125,7 +125,7 @@ Map by Stamen
 - 1760-1770 Pamphleteering plays a crucial role during abolished censorship
 - 1803-1815 Napoleonic wars
 
-<img src="slides_201606_Krakow/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
+<img src="20170201_manuscript/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
 
 ---
 
@@ -138,7 +138,7 @@ Map by Stamen
 
 An example how historical events, namely **parliamentary assemblies** in the Swedish case, have an effect on knowledge production.
 
-![plot of chunk riksdar5](slides_201606_Krakow/riksdar5-1.png)
+![plot of chunk riksdar5](20170201_manuscript/riksdar5-1.png)
 
 ---
 
@@ -154,7 +154,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Turku in Sweden: proportions for title count and paper in Swedish University towns
  
-![plot of chunk comparisons](slides_201606_Krakow/comparisons-1.png)
+![plot of chunk comparisons](20170201_manuscript/comparisons-1.png)
 
 ---
 
@@ -165,7 +165,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Publishers in Swedish University towns (and Finland)
 
-![plot of chunk publishers2-finland](slides_201606_Krakow/publishers2-finland-1.png)
+![plot of chunk publishers2-finland](20170201_manuscript/publishers2-finland-1.png)
 
 
 ---
@@ -177,7 +177,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Top publishers in Turku/Fennica
 
-![plot of chunk publishers4-fennica](slides_201606_Krakow/publishers4-fennica-1.png)
+![plot of chunk publishers4-fennica](20170201_manuscript/publishers4-fennica-1.png)
 
 ---
 
@@ -194,7 +194,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 ### Different languages in Turku, Stockholm, Uppsala and Lund
 
-![plot of chunk language-perc2](slides_201606_Krakow/language-perc2-1.png)
+![plot of chunk language-perc2](20170201_manuscript/language-perc2-1.png)
 
 ---
 
@@ -205,7 +205,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 ### Topic richness per language (publications in Fennica)
 
 
-![plot of chunk topics232](slides_201606_Krakow/topics232-1.png)
+![plot of chunk topics232](20170201_manuscript/topics232-1.png)
 
 ---
 
@@ -217,7 +217,7 @@ An example how historical events, namely **parliamentary assemblies** in the Swe
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-![plot of chunk topics12122](slides_201606_Krakow/topics12122-1.png)
+![plot of chunk topics12122](20170201_manuscript/topics12122-1.png)
 
 ---
 
@@ -229,7 +229,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 - Important role in early modern knowledge production. Language of temporary sermons in contrast to devotional literature has not been analysed in Finland (and Sweden). 
 
-![plot of chunk topics882](slides_201606_Krakow/topics882-1.png)
+![plot of chunk topics882](20170201_manuscript/topics882-1.png)
 
 ---
 
@@ -246,7 +246,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 ### Dissertation languages in Turku 1640-1828
 
-![plot of chunk disslang](slides_201606_Krakow/disslang-1.png)
+![plot of chunk disslang](20170201_manuscript/disslang-1.png)
 
 ---
 
@@ -257,7 +257,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 ### Printing by topics in different languages in Turku
 
-![plot of chunk topics-103B](slides_201606_Krakow/topics-103B-1.png)
+![plot of chunk topics-103B](20170201_manuscript/topics-103B-1.png)
 
 
 ---
@@ -270,7 +270,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 Paper consumption: different document formats over time
 
-<img src="slides_201606_Krakow/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" /><img src="slides_201606_Krakow/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" />
+<img src="20170201_manuscript/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" /><img src="20170201_manuscript/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" />
 
 ---
 
@@ -312,7 +312,7 @@ For more info, see:
 
 ### Duplicate publications in Fennica/Kungliga
 
-![plot of chunk duplicates](slides_201606_Krakow/duplicates-1.png)
+![plot of chunk duplicates](20170201_manuscript/duplicates-1.png)
 
 
 
@@ -321,13 +321,13 @@ For more info, see:
 
 
 
-![plot of chunk title_length](slides_201606_Krakow/title_length-1.png)
+![plot of chunk title_length](20170201_manuscript/title_length-1.png)
 
 
-![plot of chunk title_length_by_gatherings](slides_201606_Krakow/title_length_by_gatherings-1.png)
+![plot of chunk title_length_by_gatherings](20170201_manuscript/title_length_by_gatherings-1.png)
 
 
-![plot of chunk title_length_by_lang](slides_201606_Krakow/title_length_by_lang-1.png)
+![plot of chunk title_length_by_lang](20170201_manuscript/title_length_by_lang-1.png)
 
 
 
@@ -343,7 +343,7 @@ For more info, see:
 
 ### Title count in Linköping
 
-![plot of chunk linkoping2](slides_201606_Krakow/linkoping2-1.png)
+![plot of chunk linkoping2](20170201_manuscript/linkoping2-1.png)
 
 
 ### Unique publishers in Linköping by year
@@ -422,7 +422,7 @@ The historical population sizes used in this analysis are shown in this [table](
 ## Error in eval(expr, envir, enclos): object 'publication_place' not found
 ```
 
-![plot of chunk percapita](slides_201606_Krakow/percapita-1.png)
+![plot of chunk percapita](20170201_manuscript/percapita-1.png)
 
 | Time| Documents| date|
 |----:|---------:|----:|
@@ -541,15 +541,15 @@ The historical population sizes used in this analysis are shown in this [table](
 ## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 1269, 0
 ```
 
-![plot of chunk abstitlecount](slides_201606_Krakow/abstitlecount-1.png)
+![plot of chunk abstitlecount](20170201_manuscript/abstitlecount-1.png)
 
-![plot of chunk octavo](slides_201606_Krakow/octavo-1.png)
+![plot of chunk octavo](20170201_manuscript/octavo-1.png)
 
 ```
 ## Error in eval(expr, envir, enclos): object 'publication_place' not found
 ```
 
-![plot of chunk octavo](slides_201606_Krakow/octavo-2.png)
+![plot of chunk octavo](20170201_manuscript/octavo-2.png)
 
 
 ## Session info
