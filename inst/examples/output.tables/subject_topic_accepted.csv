@@ -1,80 +1,79 @@
 Name	Count
-Total count: 	34619
-hautajaiset	1926
+Total count (na.rm TRUE): 	33369
+hautajaiset	1712
 etsintäkuulutukset	1387
-yliopistot	1242
-häät	1107
-Turku	1098
-kartat	 811
-juhlamenot	 754
-virret	 743
-dogmatiikka	 684
-arkkiveisut	 678
-historia	 563
-moraali	 455
-eksegetiikka	 411
-filosofia	 384
-kuninkaalliset	 366
+yliopistot	1192
+Turku	1049
+häät	1015
+kartat	 763
+virret	 729
+juhlamenot	 720
+arkkiveisut	 660
+dogmatiikka	 627
+historia	 548
+eksegetiikka	 402
+moraali	 398
+filosofia	 365
+kuninkaalliset	 340
 homiletiikka	 339
 eläimet	 323
-hartauskirjat	 320
-ruumissaarnat	 320
 eläinsuojelu	 316
-ruotuarmeijat	 286
+hartauskirjat	 313
+ruotuarmeijat	 285
 rikokset	 283
-katekismukset	 266
-promootiot	 266
-historialliset kartat	 236
-oikeus	 211
-kirkkohistoria	 205
-maastokartat	 195
-metafysiikka	 189
+katekismukset	 257
+ruumissaarnat	 248
+promootiot	 247
+historialliset kartat	 211
+oikeus	 202
+kirkkohistoria	 200
+maastokartat	 187
+metafysiikka	 183
 verohinnat	 183
-kaupungit	 170
 kirjallisuus	 169
-lääketiede	 164
 naiset	 164
-psykologia	 161
-fysiikka	 158
-pastoraalityöt	 156
+kaupungit	 162
+lääketiede	 161
+fysiikka	 157
+psykologia	 156
 naisen asema	 155
 naisasialiikkeet	 154
 viinanpoltto	 152
-opetus	 150
+pastoraalityöt	 150
+opetus	 149
 rukouspäivät	 149
 eläinsuojeluyhdistykset	 141
 valtiopäivät	 139
-sodat	 137
-logiikka	 135
-almanakat	 133
-hautauspuheet	 132
-saarnat	 128
-asemakaavoitus	 127
-tähtitiede	 127
-aapiset	 126
-toivotukset	 122
+almanakat	 130
+sodat	 127
+aapiset	 125
+asemakaavoitus	 125
+tähtitiede	 124
+hautauspuheet	 121
 rangaistukset	 121
-matematiikka	 115
-merikartat	 114
+saarnat	 119
 valmistus	 114
+matematiikka	 113
+merikartat	 113
 salpietari	 113
-talous	 112
-retoriikka	 106
+toivotukset	 113
+talous	 111
+logiikka	 109
 vilja	 106
-latinan kieli	 102
-verotus	 100
-heprean kieli	  98
-raamatunhistoria	  98
-oikeudet	  96
+retoriikka	 102
+verotus	  99
+heprean kieli	  97
+latinan kieli	  96
+oikeudet	  95
+raamatunhistoria	  93
 myynti	  89
 velvollisuudet	  89
-rukoukset	  88
-taistelut	  88
 Vaasa	  87
+taistelut	  86
 kemia	  84
 huutokauppa	  83
-yhteiskuntafilosofia	  83
-kreikan kieli	  81
+yhteiskuntafilosofia	  81
+kreikan kieli	  80
 luettelot	  80
 riita-asiat	  79
 rajoitukset	  77
@@ -82,19 +81,19 @@ naisasiajärjestöt	  75
 kasvitiede	  74
 papisto	  74
 raha	  73
-kasvatus	  72
-suomen kieli	  72
+rukoukset	  72
 paikallishallinto	  70
-eläintiede	  69
+kasvatus	  69
+eläintiede	  68
 Suomenlinna	  68
-synodaaliväitöskirjat	  68
 vuokraus	  68
+suomen kieli	  66
 maantiede	  64
 rekrytointi	  64
-tartuntataudit	  64
 kruununtilat	  61
-oppikirjat	  61
 ruotusotilaat	  61
+tartuntataudit	  61
+oppikirjat	  60
 kirjapainot	  59
 matkailu	  58
 ostot	  58
@@ -102,81 +101,79 @@ palkat	  57
 maanmittaus	  56
 rukous	  56
 vaatteet	  56
-teologia	  54
 lunastus	  53
 antiikki	  52
 katselmus	  52
 ratsutilat	  52
 viinat	  52
-kirkko	  51
 kyyditys	  51
-oppihistoria	  50
-Suomen sota	  50
 katovuodet	  49
 osakunnat	  49
 järjestöt	  48
+kirkko	  48
 maanviljely	  48
 maatalous	  48
+oppihistoria	  48
+Suomen sota	  48
 asiakirjat	  47
 korvaukset	  47
+synodaaliväitöskirjat	  47
+teologia	  47
 hengelliset laulut	  46
 isojako	  46
 raportit	  46
 kokoukset	  45
-koulut	  44
 kruununpolttimot	  44
 perintötilat	  44
-kielioppi	  43
-merenkulku	  43
-hovioikeudet	  42
+kielioppi	  42
+merenkulku	  42
 hevonen	  41
 kirjastot	  41
 linnut	  41
-ruotsin kieli	  41
 varusteet	  41
 eläimistö	  40
+hovioikeudet	  40
 poetiikka	  39
-rauhansopimukset	  39
-valat	  39
 yksityiskirjastot	  39
 geodesia	  38
 kasvisto	  38
 oikeudenkäynti	  38
 opaskartat	  38
+rauhansopimukset	  38
 säännöt	  38
 tuomiot	  38
+valat	  38
 veroparselit	  38
-avioliitto	  37
+koulut	  37
 köyhäinhoito	  37
 luonnontieteet	  37
 Mustasaari	  37
 sanomalehdet	  37
-tavat	  37
 valitukset	  37
-valtiofilosofia	  37
+avioliitto	  36
 pakkohuutokauppa	  36
 tienpito	  36
-eläintaudit	  35
 kalastus	  35
 kylät	  35
+tavat	  35
 viljalainat	  35
-geofysiikka	  34
-piispat	  34
-ehkäisy	  33
-kuolema	  33
+eläintaudit	  34
+ruotsin kieli	  34
 löytötavarat	  33
-opiskelijat	  33
-opiskelu	  33
-politiikka	  33
 sairaalat	  33
 virkamiehet	  33
+ehkäisy	  32
+geofysiikka	  32
+kuolema	  32
 markkinat	  32
 meteorologia	  32
-rakennukset	  32
+opiskelijat	  32
+politiikka	  32
 tullit	  32
 henkilöhistoria	  31
 kunnallishallinto	  31
 pyöräily	  31
+rakennukset	  31
 saaristolaivasto	  31
 valtiontalous	  31
 värväys	  31
@@ -184,26 +181,27 @@ elintarvikkeet	  30
 haaksirikot	  30
 kylätoiminta	  30
 luonnonhistoria	  30
-palkkiot	  30
+piispat	  30
 rautatiet	  30
 kirjat	  29
 kruununmakasiinit	  29
-liikkumisvapaus	  29
 maanpetos	  29
 matkailukartat	  29
+palkkiot	  29
 yhteiskunta	  29
 hattujen sota	  28
+liikkumisvapaus	  28
 menetelmät	  28
 ruodut	  28
+valtiofilosofia	  28
 verovilja	  28
 kielitiede	  27
-lapset	  27
 maksut	  27
 sotilaat	  27
 tuomioistuimet	  27
-viljely	  27
 hinnat	  26
 kivilajit	  26
+lapset	  26
 salapoltto	  26
 Uusikaarlepyy	  26
 asetukset	  25
@@ -218,7 +216,9 @@ alioikeudet	  24
 hyväntekeväisyys	  24
 käsityöläiset	  24
 kirkkokäsikirjat	  24
+opiskelu	  24
 tilikirjat	  24
+viljely	  24
 fossiilit	  23
 itämaiset kielet	  23
 matkakertomukset	  23
@@ -226,133 +226,128 @@ valtio	  23
 ylellisyystavarat	  23
 armeijat	  22
 kansainväliset suhteet	  22
-kirkkorakennukset	  22
 kustannukset	  22
-lait	  22
 luonnonfilosofia	  22
 sotilaskarkuruus	  22
-suomalaiset	  22
 vanha aika	  22
 varkaus	  22
 aviorikokset	  21
 elämäntaito	  21
 Hämeenlinna	  21
-kartastot	  21
 kirjastonhoitajat	  21
 kirkkokuri	  21
+kirkkorakennukset	  21
 Kokkola	  21
+lait	  21
 Lapua	  21
 löytöeläimet	  21
 luotot	  21
 mineralogia	  21
 perinnöt	  21
 rahalaitokset	  21
-suuri Pohjan sota	  21
 tuomarit	  21
-vienti	  21
 virkavirheet	  21
 elinkeinot	  20
 hallinto	  20
 hartauspuheet	  20
-koulutus	  20
-levinneisyys	  20
+kartastot	  20
 metsästys	  20
 posti	  20
-rakkaus	  20
-sisäpolitiikka	  20
+suomalaiset	  20
+suuri Pohjan sota	  20
 väärinkäyttö	  20
 verovapaus	  20
+vienti	  20
 virkatalot	  20
 eläkeläiset	  19
 eläkkeet	  19
 harjoitukset	  19
 kehittäminen	  19
+koulutus	  19
 läänit	  19
+levinneisyys	  19
 maanomistus	  19
-nimipäivät	  19
 paperi	  19
-perustuslait	  19
+rakkaus	  19
 rykmentit	  19
+sisäpolitiikka	  19
 sota	  19
 suostuntavero	  19
 väärennökset	  19
-etuoikeudet	  18
 Isokyrö	  18
-isoviha	  18
 korjaus	  18
 Kruunupyy	  18
-metsänhoito	  18
-perusoikeudet	  18
-Pori	  18
+nimipäivät	  18
+perustuslait	  18
 siviiliväestö	  18
 sotilaskuri	  18
-taide	  18
 tuonti	  18
 upseerit	  18
-väestö	  18
 vesiliikenne	  18
-Viipuri	  18
-akatemiat	  17
+etuoikeudet	  17
 hallintaoikeus	  17
 järjestötoiminta	  17
 jäsenluettelot	  17
 karjanhoito	  17
-maanmittarit	  17
+metsänhoito	  17
 oikeusjärjestelmät	  17
 paikallishistoriat	  17
+Pori	  17
 sakko	  17
 sotilastorpat	  17
+väestö	  17
 aistit	  16
 arpajaiset	  16
 hallitsijat	  16
 harhaoppisuus	  16
-kuninkaat	  16
 kuolinpesät	  16
 Kuortane	  16
 laitteet	  16
+maanmittarit	  16
 merialueet	  16
 Närpiö	  16
 ohjesäännöt	  16
 paloturvallisuus	  16
-pitäjät	  16
-saamelaiset	  16
 toimintakertomukset	  16
 valinta	  16
 etiikka	  15
-hallitusmuodot	  15
-historiankirjoitus	  15
+isoviha	  15
 kartoitus	  15
 kasvinviljely	  15
 merenmittaus	  15
+perusoikeudet	  15
 rautatieliikenne	  15
+saamelaiset	  15
 tutkimus	  15
 tutkimusmatkat	  15
+Viipuri	  15
 aateli	  14
 armahdus	  14
 henkilöstö	  14
+historiankirjoitus	  14
 maakunnat	  14
 maastamuutto	  14
+pitäjät	  14
 postiliikenne	  14
 puheet	  14
-sivistys	  14
 sotaraportit	  14
 Vähäkyrö	  14
 valtiopäivämiehet	  14
 valtiorikokset	  14
 velkakirjat	  14
+hallitusmuodot	  13
 heinä	  13
 hyötykasvit	  13
 irtolaisuus	  13
 kestikievarit	  13
 kotieläimet	  13
-luotsit	  13
+kuninkaat	  13
 meritaistelut	  13
 palovakuutus	  13
 salakuljetus	  13
 salaliitot	  13
 soutu	  13
-synti	  13
-terveydenhuolto	  13
+taide	  13
 teurastus	  13
 tupakka	  13
 ulosotto	  13
@@ -360,69 +355,71 @@ urheiluseurat	  13
 Uudenkaupungin rauha	  13
 uusivuosi	  13
 vankeinhoito	  13
-virat	  13
 eläinrääkkäys	  12
 estetiikka	  12
 ilmasto	  12
 julkiset rakennukset	  12
 komppaniat	  12
 Kuopio	  12
+luotsit	  12
 miehistö	  12
 nuoret	  12
-pikkuviha	  12
-säänennustus	  12
-saksan kieli	  12
-sanakirjat	  12
 sotavangit	  12
 sotilasrikokset	  12
-synodaalisaarnat	  12
+synti	  12
+terveydenhuolto	  12
 tiekartat	  12
 uudisraivaus	  12
 valtionhallinto	  12
 valtionvelka	  12
+virat	  12
 äänestäminen	  11
 anatomia	  11
 kaivostoiminta	  11
 kerjäläiset	  11
-kielet	  11
 kihlakunnat	  11
 kirkollisvero	  11
 Kitee	  11
 konkurssi	  11
 koululaitos	  11
 Kristiinankaupunki	  11
-lääkärit	  11
 lääkekasvit	  11
 laivanrakennus	  11
 lastenhuolto	  11
 Loviisa	  11
 noituus	  11
+pikkuviha	  11
 Porvoo	  11
 purjehdus	  11
 puutarhat	  11
-sielu	  11
+säänennustus	  11
+sanakirjat	  11
 sisävesiliikenne	  11
 sisävesiväylät	  11
+sivistys	  11
 sodanuhka	  11
-synodaalipuheet	  11
 tapakasvatus	  11
 testamentti	  11
 tontit	  11
 vientirajoitukset	  11
+akatemiat	  10
 astrologia	  10
-järvet	  10
 Kajaani	  10
 Kauhava	  10
 kiitokset	  10
+lääkärit	  10
 lahjoitukset	  10
 merivoimat	  10
-nautakarja	  10
 organisaatio	  10
 petos	  10
 pientilat	  10
 rehut	  10
 Saarijärvi	  10
+saksan kieli	  10
+sielu	  10
 sotalait	  10
+synodaalipuheet	  10
+synodaalisaarnat	  10
 syntymäpäivät	  10
 taikausko	  10
 Tampere	  10
@@ -439,21 +436,21 @@ fysiologia	   9
 Helsinki	   9
 huvit	   9
 hyönteiset	   9
-joulu	   9
+järvet	   9
 kansat	   9
+kielet	   9
 kokoontumiset	   9
 lääkkeet	   9
 laiduntaminen	   9
 lainsäädäntö	   9
 linnoitukset	   9
 luominen	   9
-maaherrat	   9
 Maalahti	   9
 matkaoppaat	   9
+nautakarja	   9
 numismatiikka	   9
 pahoinpitely	   9
 postitoimipaikat	   9
-rajat	   9
 rakentaminen	   9
 rautatieasemat	   9
 sensuuri	   9
@@ -467,7 +464,6 @@ ajanlasku	   8
 asevoimat	   8
 eläinkokeet	   8
 juutalaiset	   8
-kaavoitus	   8
 kansainvälinen perintöoikeus	   8
 käräjät	   8
 kasvit	   8
@@ -487,7 +483,6 @@ mytologia	   8
 ominaisuudet	   8
 omistusoikeus	   8
 pappissääty	   8
-peruna	   8
 Porvoon valtiopäivät	   8
 rakuunat	   8
 rauhanaate	   8
@@ -496,21 +491,21 @@ saaristot	   8
 sotatoimet	   8
 sotavahingot	   8
 suola	   8
-suvut	   8
 tasa-arvo	   8
 tullivalvonta	   8
 työvoima	   8
-uskonto	   8
 valmistevero	   8
 vesistöt	   8
 avioliitto-oikeus	   7
 elämäkerrat	   7
-hallintoalueet	   7
 hiippakunnat	   7
 itsehoito	   7
+joulu	   7
+kaavoitus	   7
 Kemi	   7
 Lappeenranta	   7
 Laukaa	   7
+maaherrat	   7
 maanjako	   7
 metallit	   7
 mittaus	   7
@@ -522,15 +517,17 @@ oikeustapaukset	   7
 palkolliset	   7
 petoeläimet	   7
 puutarhaviljely	   7
+rajat	   7
 Rauma	   7
 ruuti	   7
 siveellisyys	   7
 suot	   7
+suvut	   7
 tienrakennus	   7
-tuberkuloosi	   7
 turvallisuus	   7
 uskomukset	   7
 uskonnot	   7
+uskonto	   7
 velat	   7
 velkaantuminen	   7
 Viitasaari	   7
@@ -570,7 +567,6 @@ paperinvalmistus	   6
 pellava	   6
 perintöoikeus	   6
 Piikkiö	   6
-poliittiset järjestelmät	   6
 puutavara	   6
 rauta	   6
 sairaalahoito	   6
@@ -588,27 +584,23 @@ uudisasukkaat	   6
 vankilat	   6
 varallisuus	   6
 värvätyt	   6
-vertaileva kielitiede	   6
 villa	   6
-alkuperä	   5
 arvonimet	   5
 asiamiehet	   5
 avustukset	   5
 edut	   5
 geologia	   5
 hakuteokset	   5
+hallintoalueet	   5
 ihmeet	   5
 jäsenyys	   5
 juhlat	   5
 kansainväliset sopimukset	   5
 käsitteet	   5
-keisarit	   5
 keittäjät	   5
 kiinteistöt	   5
-korkeussuhteet	   5
 kristinusko	   5
 kruunajaiset	   5
-kuolleisuus	   5
 kymmenykset	   5
 lennätinliikenne	   5
 Lohtaja	   5
@@ -618,33 +610,33 @@ messu	   5
 metsätalous	   5
 mielikuvitus	   5
 musiikki	   5
-papit	   5
+peruna	   5
+poliittiset järjestelmät	   5
 porvaristo	   5
-professorit	   5
 pyhäpäivät	   5
-raittius	   5
 rälssitilat	   5
-rauha	   5
 rauhanjärjestöt	   5
 sääilmiöt	   5
 samojedit	   5
 sotalaivasto	   5
 sotaoikeus	   5
 sotaväki	   5
-superintendentit	   5
 talonpojat	   5
 talousjärjestelmät	   5
 tarkastus	   5
 tehtaat	   5
+tuberkuloosi	   5
 ulkomaankauppa	   5
 vakuudet	   5
 valtiovarainhallinto	   5
 vankeus	   5
 värit	   5
 venäjän kieli	   5
+vertaileva kielitiede	   5
 Virrat	   5
 aikakauslehdet	   4
 ajanmittaus	   4
+alkuperä	   4
 apurahat	   4
 arviointi	   4
 avustuskassat	   4
@@ -659,14 +651,15 @@ isänmaallisuus	   4
 kahvi	   4
 kansakoulu	   4
 kansanvalistus	   4
-kappalaiset	   4
 kätilöt	   4
 käytännöllinen teologia	   4
 kehruu	   4
+keisarit	   4
 kenraalikuvernöörit	   4
 kirkon työntekijät	   4
 kodinhoito	   4
 kokoelmat	   4
+korkeussuhteet	   4
 korko	   4
 kotirauha	   4
 kruununmaksut	   4
@@ -675,6 +668,7 @@ kruununvoudit	   4
 kulotus	   4
 kulutus	   4
 kuningattaret	   4
+kuolleisuus	   4
 Kustaa III:n sota	   4
 lahjonta	   4
 lainkäyttö	   4
@@ -689,12 +683,12 @@ merimiehet	   4
 mitalit	   4
 oikeusfilosofia	   4
 oikeuslaitos	   4
-oikeustiede	   4
 ojitus	   4
 opettajat	   4
 orjuus	   4
 padot	   4
 pakolaiset	   4
+papit	   4
 pappilat	   4
 perintä	   4
 perunkirjoitus	   4
@@ -702,7 +696,7 @@ perustamiskirjat	   4
 pitäjänmakasiinit	   4
 pormestarit	   4
 pöytäkirjat	   4
-presidentit	   4
+professorit	   4
 puusto	   4
 puutarhanhoito	   4
 rahat	   4
@@ -712,7 +706,6 @@ ritarikunnat	   4
 ruoka	   4
 ruotujakolaitos	   4
 rupla	   4
-sairaanhoito	   4
 sakramentit	   4
 satamat	   4
 seksuaalirikokset	   4
@@ -721,7 +714,6 @@ sillat	   4
 sivistyneistö	   4
 sopimukset	   4
 sotahistoria	   4
-sotataito	   4
 Suomi	   4
 takaajat	   4
 talonrakennus	   4
@@ -748,7 +740,6 @@ yhteiskuntajärjestelmät	   4
 Ähtäri	   3
 Alavus	   3
 aliupseerit	   3
-alueet	   3
 ammattikuntalaitos	   3
 anomukset	   3
 arvoitukset	   3
@@ -784,10 +775,10 @@ kansanopetus	   3
 kansanopistot	   3
 kansanrunous	   3
 kansantalous	   3
+kappalaiset	   3
 käsikirjat	   3
 kaskiviljely	   3
 kasvivärjäys	   3
-kauppiaat	   3
 keisarinnat	   3
 Keuruu	   3
 kevät	   3
@@ -795,7 +786,6 @@ kiertokirjeet	   3
 kinkerit	   3
 kirjakaupat	   3
 kirjallisuudenhistoria	   3
-kirkkoherrat	   3
 kirkolliset toimitukset	   3
 kirkon hallinto	   3
 kisällit	   3
@@ -819,6 +809,7 @@ metsänomistus	   3
 moottoriajoneuvot	   3
 museot	   3
 nuottijulkaisut	   3
+oikeustiede	   3
 omaisuudensuoja	   3
 ortodoksinen kirkko	   3
 päätökset	   3
@@ -831,20 +822,21 @@ perintövero	   3
 pietismi	   3
 potaska	   3
 puhe	   3
+raittius	   3
+rauha	   3
 rautaruukit	   3
 ravinto	   3
 rikkomukset	   3
-roomalaiskatolinen kirkko	   3
-ruotsinkieliset	   3
 Ruovesi	   3
-saamen kieli	   3
+sairaanhoito	   3
 samarialaiset	   3
 sillanrakennus	   3
 sisarukset	   3
+sotataito	   3
 sukellus	   3
 sukulaiset	   3
 Sulva	   3
-suomenkieliset	   3
+superintendentit	   3
 talonpoikaissääty	   3
 taloushistoria	   3
 Tammisaari	   3
@@ -877,6 +869,7 @@ virsikirjat	   3
 yksilönsuoja	   3
 Alajärvi	   2
 alkoholi	   2
+alueet	   2
 apteekkarit	   2
 asusteet	   2
 automerkit	   2
@@ -913,7 +906,6 @@ itsevaltius	   2
 Jalasjärvi	   2
 jalokivet	   2
 jalostus	   2
-järvenlasku	   2
 jesuiitat	   2
 joenperkaus	   2
 juhlapäivät	   2
@@ -923,7 +915,6 @@ Juva	   2
 kaivosteollisuus	   2
 Kalajoki	   2
 kalat	   2
-kalenterit	   2
 kanavat	   2
 Kangasniemi	   2
 kankaanpainanta	   2
@@ -937,8 +928,8 @@ kartanpiirustus	   2
 kartografia	   2
 Kastelholman linna	   2
 kasvimaat	   2
-katteet	   2
 Kauhajoki	   2
+kauppiaat	   2
 käytösoppaat	   2
 kehräämöt	   2
 kesäkisat	   2
@@ -947,6 +938,7 @@ kieli	   2
 kiinnitys	   2
 kilpailut	   2
 kilpaurheilu	   2
+kirkkoherrat	   2
 kirkkomusiikki	   2
 Kirkkonummi	   2
 klassiset kielet	   2
@@ -1019,17 +1011,20 @@ polemiikki	   2
 posliini	   2
 postimaksut	   2
 Pöytyä	   2
+presidentit	   2
 puutarhaneuvonta	   2
 puuvilla	   2
 pyöräilyreitit	   2
-raatimiehet	   2
 Rantasalmi	   2
 rehtorit	   2
 rengit	   2
 Ristiina	   2
+roomalaiskatolinen kirkko	   2
 rovastikunnat	   2
 rummut	   2
+ruotsinkieliset	   2
 rutto	   2
+saamen kieli	   2
 säästäminen	   2
 sadonkorjuu	   2
 sadut	   2
@@ -1055,6 +1050,7 @@ sukupolvenvaihdos	   2
 sukupuolimoraali	   2
 suomalais-ugrilaiset kansat	   2
 suomalaisuus	   2
+suomenkieliset	   2
 takaus	   2
 talletukset	   2
 talousoikeus	   2
@@ -1074,7 +1070,6 @@ todistukset	   2
 tullilaitos	   2
 tunnustuskirjat	   2
 tuomiokunnat	   2
-Turkin sota	   2
 Turun ja Porin lääni	   2
 työläiset	   2
 työllistäminen	   2
@@ -1091,7 +1086,6 @@ välineet	   2
 valo	   2
 valtio-oppi	   2
 vanhemmat	   2
-vanheneminen	   2
 vanhuus	   2
 varallisuusrikokset	   2
 väriainekasvit	   2
@@ -1099,12 +1093,10 @@ verotulot	   2
 veroviranomaiset	   2
 Vesilahti	   2
 vesirakennus	   2
-vesistöjärjestelyt	   2
 Viipurin linna	   2
 virallisjulkaisut	   2
 virolaiset	   2
 voi	   2
-vuodenajat	   2
 yhdistys- ja vakuuskirja	   2
 yhteismaa	   2
 1770-luku	   1
@@ -1236,6 +1228,7 @@ kaislat	   1
 kaivokset	   1
 Käkisalmi	   1
 kalastusalueet	   1
+kalenterit	   1
 kalkki	   1
 Kalvola	   1
 Kangasala	   1
@@ -1262,7 +1255,7 @@ käsityö	   1
 kaskut	   1
 kasvitaudit	   1
 katolisuus	   1
-katot	   1
+katteet	   1
 Kaukola	   1
 kauneudenhoito	   1
 kaunokirjallisuus	   1
@@ -1296,8 +1289,8 @@ kirjapainotaito	   1
 kirjeenvaihto	   1
 kirjoittaminen	   1
 kirjurit	   1
-kirkkolait	   1
 kirkko-oikeus	   1
+kirkkolait	   1
 kirkolliset vaalit	   1
 kirkolliskokoukset	   1
 kirkon kasvatustoiminta	   1
@@ -1331,7 +1324,6 @@ kuljetuspalvelut	   1
 kunnossapito	   1
 kuntaliitokset	   1
 kuolemattomuus	   1
-kuppa	   1
 kuppaus	   1
 kuriirit	   1
 kurinpitomenettely	   1
@@ -1365,7 +1357,6 @@ lastenkirjallisuus	   1
 lastensuojelu	   1
 latinankielinen kirjallisuus	   1
 legendat	   1
-leipominen	   1
 lennätin	   1
 Leppävirta	   1
 leviäminen	   1
@@ -1382,7 +1373,6 @@ lisääntyminen	   1
 logaritmitaulut	   1
 Lohja	   1
 loma	   1
-lukihäiriöt	   1
 lukkarit	   1
 luonnonvaraiset eläimet	   1
 luostarilaitos	   1
@@ -1399,7 +1389,6 @@ maalaustaide	   1
 maalit	   1
 maanlait	   1
 maanparannus	   1
-maanpinnan korkeus	   1
 maantieteelliset koordinaatit	   1
 maassamuutto	   1
 maataloustuotteet	   1
@@ -1490,7 +1479,6 @@ ortodoksisuus	   1
 ositus	   1
 Ostrobotnia	   1
 ottovanhemmat	   1
-paavit	   1
 Padasjoki	   1
 paholainen	   1
 paikallisliikenne	   1
@@ -1508,10 +1496,8 @@ parkitus	   1
 patologia	   1
 patsaat	   1
 pellonraivaus	   1
-pelti	   1
 perhoset	   1
 perilliset	   1
-Pernaja	   1
 Perniö	   1
 persoonallisuuden piirteet	   1
 petsaus	   1
@@ -1542,7 +1528,6 @@ psykoosit	   1
 psyykkisesti sairaat	   1
 puhdistus	   1
 puheenjohtajat	   1
-puhehäiriöt	   1
 puhelinliikenne	   1
 puhevammaiset	   1
 pukeutuminen	   1
@@ -1552,6 +1537,7 @@ Pyhän Yrjön sääntökunta	   1
 pyhiinvaellukset	   1
 pyynti	   1
 Raahe	   1
+raatimiehet	   1
 rahankeräys	   1
 raitioliikenne	   1
 raittiuskasvatus	   1
@@ -1595,10 +1581,8 @@ saaliit	   1
 saaret	   1
 saatananpalvonta	   1
 saatavat	   1
-sahatavara	   1
 sahaus	   1
 sähkönjakelu	   1
-saksankieliset	   1
 Säkylä	   1
 salakauppa	   1
 salametsästys	   1
@@ -1616,7 +1600,6 @@ siirtomaat	   1
 silkki	   1
 silmät	   1
 silmätaudit	   1
-Sipoo	   1
 sisävedet	   1
 sitaatit	   1
 Siuntio	   1
@@ -1632,7 +1615,6 @@ sotilasalueet	   1
 sotilaspuvut	   1
 Stettinin rauha	   1
 sukupolvet	   1
-sukupuolitaudit	   1
 sukututkimus	   1
 sulatot	   1
 sunnuntai	   1
@@ -1677,6 +1659,7 @@ tullirikokset	   1
 tulot	   1
 tunteet	   1
 turkikset	   1
+Turkin sota	   1
 Turun linna	   1
 Turun tuomiokirkko	   1
 turvallisuuspolitiikka	   1
@@ -1699,7 +1682,6 @@ vaakunat	   1
 vaalipiirit	   1
 vaatturit	   1
 väestötiede	   1
-vähemmistökielet	   1
 vahingonkorvaus	   1
 väitöskirjat	   1
 vakuutus	   1
@@ -1707,13 +1689,13 @@ valaanpyynti	   1
 valimot	   1
 valitusoikeus	   1
 vallankaappaukset	   1
-valtakunnankanslerit	   1
 valtaneuvokset	   1
 valtio-oikeus	   1
 valtiot	   1
 valtiovierailut	   1
 vanginvartijat	   1
 vangit	   1
+vanheneminen	   1
 vapaaherrat	   1
 vapaakappaleet	   1
 väriaineet	   1
@@ -1728,7 +1710,6 @@ vegetarismi	   1
 vehkat	   1
 velallinen	   1
 Venäjä	   1
-venäjänkieliset	   1
 venäläiset	   1
 veneenrakennus	   1
 veneet	   1
@@ -1746,6 +1727,7 @@ virkarikokset	   1
 virkasäännöt	   1
 virvoitusjuomat	   1
 voitot	   1
+vuodenajat	   1
 vuokrasopimukset	   1
 vuoret	   1
 vuotuisjuhlat	   1

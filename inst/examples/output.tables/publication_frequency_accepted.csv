@@ -1,86 +1,85 @@
 publication_frequency_text	publication_frequency_annual	Count
-Total count: 	71919	
-Single	NA	    1
-Irregular	NA	   68
-NA	NA	70699
-Daily	365.0000000	   10
-Six per Week	312.0000000	   30
-Four per Week	208.0000000	    2
-Three per Week	156.0000000	   52
-Two per Week	104.0000000	   72
-Weekly	 52.0000000	  188
-Three per Month	 36.0000000	    3
-Every two Weeks	 26.0000000	   15
-Every two Weeks	 24.0000000	   66
-Every three Weeks	 18.0000000	    2
-Every three Weeks	 17.0000000	    1
-Every three Weeks	 15.0000000	    1
-Monthly	 12.0000000	  200
-Nine per Year	  9.0000000	    1
-Nine per Year	  8.5000000	    1
-Eight per Year	  8.2000000	    1
-Eight per Year	  8.0000000	    3
-Seven per Year	  7.0000000	    1
-Every two Months	  6.0000000	   19
-Five per Year	  5.0000000	    5
-Every three Months	  4.3333333	    1
-Every three Months	  4.0000000	   14
-Every three Months	  3.6666667	    1
-Every three Months	  3.5000000	    2
-Every four Months	  3.2000000	    1
-Every four Months	  3.0000000	   14
-Every four Months	  2.7272727	    1
-Every four Months	  2.6666667	    1
-Every four Months	  2.5714286	    1
-Every four Months	  2.5000000	    5
-Two per Year	  2.4000000	    1
-Two per Year	  2.3333333	    1
-Two per Year	  2.1428571	    1
-Two per Year	  2.0833333	    1
-Two per Year	  2.0000000	   41
-Two per Year	  1.6666667	    3
-Two per Year	  1.5000000	    6
-Annual	  1.3333333	    9
-Annual	  1.2500000	    2
-Annual	  1.2000000	    2
-Annual	  1.1428571	    3
-Annual	  1.1111111	    1
-Annual	  1.1000000	    2
-Annual	  1.0714286	    1
-Annual	  1.0000000	  272
-Annual	  0.9444444	    1
-Annual	  0.9411765	    1
-Annual	  0.9166667	    1
-Annual	  0.9090909	    1
-Annual	  0.8750000	    2
-Annual	  0.8571429	    1
-Annual	  0.8333333	    4
-Annual	  0.8260870	    1
-Annual	  0.8000000	    3
-Annual	  0.7500000	    2
-Every two Years	  0.7391304	    1
-Every two Years	  0.7000000	    1
-Every two Years	  0.6666667	   23
-Every two Years	  0.6363636	    1
-Every two Years	  0.6250000	    2
-Every two Years	  0.6000000	    5
-Every two Years	  0.5652174	    1
-Every two Years	  0.5625000	    2
-Every two Years	  0.5000000	   16
-Every two Years	  0.4615385	    1
-Every two Years	  0.4444444	    1
-Every two Years	  0.4285714	    1
-Every three Years	  0.4000000	    2
-Every three Years	  0.3750000	    2
-Every three Years	  0.3500000	    1
-Every three Years	  0.3478261	    1
-Every three Years	  0.3333333	    2
-Every three Years	  0.3142857	    1
-Every three Years	  0.3125000	    1
-Every three Years	  0.3000000	    1
-Every four Years	  0.2857143	    2
-Every four Years	  0.2727273	    1
-Every four Years	  0.2500000	    1
-Every four Years	  0.2352941	    1
-Every four Years	  0.2307692	    2
-Every five Years	  0.2000000	    1
+Total count (na.rm TRUE): 	1218	
+Single	NA	  1
+Irregular	NA	 68
+Daily	365.0000000	 10
+Six per Week	312.0000000	 30
+Four per Week	208.0000000	  2
+Three per Week	156.0000000	 52
+Two per Week	104.0000000	 72
+Weekly	 52.0000000	188
+Three per Month	 36.0000000	  3
+Every two Weeks	 26.0000000	 15
+Every two Weeks	 24.0000000	 66
+Every three Weeks	 18.0000000	  2
+Every three Weeks	 17.0000000	  1
+Every three Weeks	 15.0000000	  1
+Monthly	 12.0000000	199
+Nine per Year	  9.0000000	  1
+Nine per Year	  8.5000000	  1
+Eight per Year	  8.2000000	  1
+Eight per Year	  8.0000000	  3
+Seven per Year	  7.0000000	  1
+Every two Months	  6.0000000	 19
+Five per Year	  5.0000000	  5
+Every three Months	  4.3333333	  1
+Every three Months	  4.0000000	 14
+Every three Months	  3.6666667	  1
+Every three Months	  3.5000000	  2
+Every four Months	  3.2000000	  1
+Every four Months	  3.0000000	 14
+Every four Months	  2.7272727	  1
+Every four Months	  2.6666667	  1
+Every four Months	  2.5714286	  1
+Every four Months	  2.5000000	  5
+Two per Year	  2.4000000	  1
+Two per Year	  2.3333333	  1
+Two per Year	  2.1428571	  1
+Two per Year	  2.0833333	  1
+Two per Year	  2.0000000	 41
+Two per Year	  1.6666667	  3
+Two per Year	  1.5000000	  6
+Annual	  1.3333333	  9
+Annual	  1.2500000	  2
+Annual	  1.2000000	  2
+Annual	  1.1428571	  3
+Annual	  1.1111111	  1
+Annual	  1.1000000	  2
+Annual	  1.0714286	  1
+Annual	  1.0000000	271
+Annual	  0.9444444	  1
+Annual	  0.9411765	  1
+Annual	  0.9166667	  1
+Annual	  0.9090909	  1
+Annual	  0.8750000	  2
+Annual	  0.8571429	  1
+Annual	  0.8333333	  4
+Annual	  0.8260870	  1
+Annual	  0.8000000	  3
+Annual	  0.7500000	  2
+Every two Years	  0.7391304	  1
+Every two Years	  0.7000000	  1
+Every two Years	  0.6666667	 23
+Every two Years	  0.6363636	  1
+Every two Years	  0.6250000	  2
+Every two Years	  0.6000000	  5
+Every two Years	  0.5652174	  1
+Every two Years	  0.5625000	  2
+Every two Years	  0.5000000	 16
+Every two Years	  0.4615385	  1
+Every two Years	  0.4444444	  1
+Every two Years	  0.4285714	  1
+Every three Years	  0.4000000	  2
+Every three Years	  0.3750000	  2
+Every three Years	  0.3500000	  1
+Every three Years	  0.3478261	  1
+Every three Years	  0.3333333	  2
+Every three Years	  0.3142857	  1
+Every three Years	  0.3125000	  1
+Every three Years	  0.3000000	  1
+Every four Years	  0.2857143	  2
+Every four Years	  0.2727273	  1
+Every four Years	  0.2500000	  1
+Every four Years	  0.2352941	  1
+Every four Years	  0.2307692	  2
+Every five Years	  0.2000000	  1

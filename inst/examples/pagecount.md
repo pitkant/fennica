@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-10-04"
+date: "2017-01-26"
 output: markdown_document
 ---
 
@@ -10,52 +10,110 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count missing and estimated for 4850 documents (6.7%).
+  * Page count available for 70460 documents in total (100%), including both readily available and estimated page counts.
 
-  * Page count missing and could not be estimated for 23 documents (0%).
+  * Page count readily available for 65678 documents (93.2%). 
 
-  * Page count updated for 0 documents.
+  * Page count estimated for 4782 documents (6.8%).
+
+  * Page count missing and could not be estimated for 11 documents (0%).
+
+  * Page count updated for 882 documents in the validation phase.
   
-  * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversion_nontrivial.csv)
+  * [Conversions from raw data to final page count estimates](output.tables/pagecount_conversions.csv)
 
-<!--[Page conversions from raw data to final page count estimates with volume info](output.tables/page_conversion_table_full.csv)-->
+  * [Augmented pagecounts](output.tables/pagecount_discarded.csv) For these cases the page count is missing (or discarded) in the original data, and estimated based on median page counts for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where page count info was available.
 
-  * [Discarded pagecount info](output.tables/pagecount_discarded.csv) For these cases the missing/discarded page count was estimated based on average page count estimates for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where original pagecount info is available.
-
-  * [Automated tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv)
+  * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
 
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 4850 documents that have missing pagecount info in the original data):
+
+## Average page counts
+
+Mean and median page counts calculated based on the documents where
+the page count information was readily available. Also see the
+correponding numerical tables with page count estimates:
+
+ * [Single volume](mean_pagecounts_singlevol.csv)
+ * [Multi-volume](mean_pagecounts_multivol.csv)
+ * [Issue](mean_pagecounts_issue.csv)
+
+These estimates are used to fill in page count info for the remaining
+documents where page count info is missing.
+
+The multi-volume documents average page counts are given per volume.
+
+The page count estimates are calculated without plates. Plate
+information is added separately for each document on top of the page
+count estimate.
+
+
+
+
+```
+## Error in pics[[3]]: subscript out of bounds
+```
+
+
+
+### Document size distribution
+
+![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
+
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 4782 documents that have missing pagecount info in the original data):
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
-<!--
 
-## Average page counts (only works in CERL now)
+## Documents with missing pages over years 
 
-Multi-volume documents average page counts are given per volume.
+![plot of chunk missingpages](figure/pagecount-missingpages-1.png)![plot of chunk missingpages](figure/pagecount-missingpages-2.png)
 
 
-|doc.dimension | mean.pages.singlevol| median.pages.singlevol| n.singlevol|mean.pages.multivol |median.pages.multivol | n.multivol|mean.pages.issue |median.pages.issue | n.issue|
-|:-------------|--------------------:|----------------------:|-----------:|:-------------------|:---------------------|----------:|:----------------|:------------------|-------:|
-|2fo           |                12.42|                      4|        3194|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|4long         |                71.57|                     26|         206|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|4to           |                31.14|                     10|       15773|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|6to           |                99.97|                     64|          29|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|8long         |               210.27|                    112|          99|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|8vo           |                99.11|                     50|        7817|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|12long        |               388.14|                    244|           7|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|12mo          |               111.50|                     68|        3285|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|16long        |               159.00|                    159|           1|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|16mo          |               105.51|                     48|        1688|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|18mo          |               244.88|                    199|           8|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|20to          |               209.00|                    209|           1|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|24mo          |               302.00|                    184|          12|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|32mo          |               228.05|                     94|          58|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|64mo          |                91.50|                    112|           8|NA                  |NA                    |         NA|NA               |NA                 |      NA|
-|NA            |               108.27|                     60|       39232|NA                  |NA                    |         NA|NA               |NA                 |      NA|
+## Estimated paper consumption
 
-![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
+Note: there are 33911 documents that have some dimension info but sheet area information could not be calculated. 
 
--->
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+
+![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
+
+
+
+![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-2.png)
+
+![plot of chunk paperconsumption2](figure/pagecount-paperconsumption2-1.png)
+
+
+
+## Pamphlets vs. Books
+
+![plot of chunk doctypes](figure/pagecount-doctypes-1.png)![plot of chunk doctypes](figure/pagecount-doctypes-2.png)
+
+
+![plot of chunk doctypes2](figure/pagecount-doctypes2-1.png)![plot of chunk doctypes2](figure/pagecount-doctypes2-2.png)
+
+
+
+## Nature of the documents over time
+
+Estimated paper consumption by document size
+
+![plot of chunk 20150611paris-paper6](figure/pagecount-20150611paris-paper6-1.png)
+
+
+Gatherings height: does it change over time? How increased printing activity is related to book size trends? Alternatively, we could use area (height x width), or median over time. Note that only original (not augmented) dimension info is being used here.
+
+![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-1.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-2.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-3.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-4.png)
+
+
+Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
+
+![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-4.png)
+
+
+Same for documents that have a sufficient number of pages:
+
+![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
+

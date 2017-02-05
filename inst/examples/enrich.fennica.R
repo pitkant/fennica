@@ -84,7 +84,7 @@ enrich_fennica <- function(data.enriched) {
   # TODO set this in again when ready
   #message("-- Fennica publishers")
   #df.preprocessed.bu <- df.preprocessed
-  df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
+  # LL 25.1.2017 temporary df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
   #df.preprocessed$publisher <- rep(NA, nrow(df.preprocessed))
         
   # ----------------------------------------------------------------

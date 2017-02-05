@@ -71,9 +71,6 @@ print(p)
 ```
 
 
-
-
-
 ```{r title_length_by_lang, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 top.language <- setdiff(names(top(dfo, "language", 11)), "NA")
 
@@ -91,10 +88,6 @@ p <- ggplot(df, aes(x = publication_decade, y = mean_title_length,
 
 print(p)
 ```
-
-
-
-
 
 
 

@@ -89,8 +89,6 @@ data.preprocessed <- preprocessing_fennica(data.preprocessed)
 #           VALIDATE PREPROCESSED DATA
 # ----------------------------------------------------
 
-source(system.file("extdata/validation.R", package = "bibliographica"))
-
 data.validated <- validate_preprocessed_data(data.preprocessed)
 rm(data.preprocessed)
 
@@ -98,9 +96,6 @@ rm(data.preprocessed)
 #           ENRICH VALIDATED DATA
 # ----------------------------------------------------
 
-# print(dirname(sys.frame(1)$ofile))
-
-source(system.file("extdata/enrich.R", package = "bibliographica"))
 data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
 rm(data.validated)
 
