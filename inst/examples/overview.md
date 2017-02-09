@@ -77,7 +77,7 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |self_published                 |        42.9|          57.1|         40262|          2|
 |author_name                    |        36.5|          63.5|         44725|      11621|
 |author                         |        36.5|          63.5|         44729|      11684|
-|publisher                      |        13.8|          86.2|         60741|      12973|
+|publisher                      |        13.6|          86.4|         60866|       6918|
 |pagecount.orig                 |         6.8|          93.2|         65678|        980|
 |country                        |         4.1|          95.9|         67556|         33|
 |publication_place              |         4.1|          95.9|         67557|        425|
@@ -151,8 +151,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells   909172  48.6    1770749  94.6  1770749  94.6
-## Vcells 20509829 156.5   48411287 369.4 48294802 368.5
+## Ncells   920491  49.2    1770749  94.6  1770749  94.6
+## Vcells 20595823 157.2   47752292 364.4 47738728 364.3
 ```
 
 

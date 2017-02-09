@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 12973 [unique publishers](output.tables/publisher_accepted.csv)
+ * 6918 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60741 documents have unambiguous publisher information (86%). 
+ * 60866 documents have unambiguous publisher information (86%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -33,17 +33,17 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher            | titles|     paper|
-|:--------------------|------:|---------:|
-|[G. W. Londicer]     |   1823|  329244.4|
-|[J. C. Frenckell]    |   1204|  332478.4|
-|Edlund               |    965| 1541736.4|
-|G. W. Edlund         |    896| 1302284.9|
-|Karisto              |    662|  161144.3|
-|Otava                |   2166| 1991411.0|
-|Söderström           |   1188|  943227.8|
-|Tekijä               |   1545|  496877.7|
-|typis Frenckellianis |   1175| 1213455.1|
-|WSOY                 |   2896| 1889274.5|
+|publisher                       | titles|     paper|
+|:-------------------------------|------:|---------:|
+|<Author>                        |   2593| 1317483.5|
+|Frenckell, Johan Christopher I  |   1739| 1458747.7|
+|Frenckell, Johan Christopher II |   2206| 2623550.6|
+|G.W. Edlund                     |    984| 1430899.5|
+|Kämpe, Johan                    |    985| 1554506.8|
+|Londicer, Georg Wilhelm         |   2106|  592616.7|
+|Otava                           |   2189| 2017674.9|
+|Söderström                      |   1204|  943434.8|
+|Wall, Johan Larsson             |   1266| 2210292.0|
+|WSOY                            |   2882| 1862844.8|
 
 
