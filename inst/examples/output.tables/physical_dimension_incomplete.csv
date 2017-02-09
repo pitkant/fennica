@@ -1,7 +1,7 @@
 original	gatherings	width	height	obl	Count
-Total count: 	34232				
-NA	NA	NA	NA	NA	33978
-[?:o].	NA	NA	NA	NA	   78
+Total count (na.rm TRUE): 	33911				
+NA	NA	NA	NA	NA	33663
+[?:o].	NA	NA	NA	NA	   72
 6:o.	6to	NA	NA	 0	   29
 poikittais-1:o [1/2:o?].	NA	NA	NA	NA	   29
 poikittais-1:o [-1/2:o?].	NA	NA	NA	NA	   28
@@ -29,7 +29,6 @@ Koko vaihtelee.	NA	NA	NA	NA	    2
 4o.	NA	NA	NA	NA	    1
 cm.	NA	NA	NA	NA	    1
 1907.	NA	NA	NA	NA	    1
-1912.	NA	NA	NA	NA	    1
 1915.	NA	NA	NA	NA	    1
 12:o (=8:o)	NA	NA	NA	NA	    1
 16:oo.	NA	NA	NA	NA	    1
@@ -62,5 +61,6 @@ cm.	NA	NA	NA	NA	    1
 poikittais-1:o 1/2:o?].	NA	NA	NA	NA	    1
 poikittais-1:o [1/2:o].	NA	NA	NA	NA	    1
 2:o2.	NA	NA	NA	NA	    1
+4:o 2 [4?] kuvaliitettä.	NA	NA	NA	NA	    1
 1/2:o [1:o?].	NA	NA	NA	NA	    1
 8:o [16:o?].	NA	NA	NA	NA	    1

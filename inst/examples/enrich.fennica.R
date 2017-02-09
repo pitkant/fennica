@@ -82,8 +82,8 @@ enrich_fennica <- function(data.enriched) {
   df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
   # TODO set this in again when ready
-  #message("-- Fennica publishers")
-  #df.preprocessed.bu <- df.preprocessed
+  message("-- Fennica publishers")
+  df.preprocessed.bu <- df.preprocessed
   df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
   #df.preprocessed$publisher <- rep(NA, nrow(df.preprocessed))
         

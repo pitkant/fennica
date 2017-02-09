@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2016-10-04"
+date: "2017-01-26"
 output: markdown_document
 ---
 
@@ -9,15 +9,15 @@ output: markdown_document
 
 ## Document size comparisons
 
-  * Some dimension info is provided in the original raw data for altogether 37941 documents (52.8%) but could not be interpreted for 5254 documents (ie. dimension info was successfully estimated for 86.2 % of the documents where this field was not empty).
+  * Some dimension info is provided in the original raw data for altogether 36808 documents (52.2%) but could not be interpreted for 2696 documents (ie. dimension info was successfully estimated for 92.7 % of the documents where this field was not empty).
 
-  * Document size (area) info was obtained in the final preprocessed data for altogether 37687 documents (52%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](output.tables/physical_dimension_incomplete.csv)
+  * Document size (area) info was obtained in the final preprocessed data for altogether 36560 documents (52%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](output.tables/physical_dimension_incomplete.csv)
 
-  * Document gatherings info is originally available for 32687 documents (45%), and further estimated up to 32687 documents (45%) in the final preprocessed data.
+  * Document gatherings info is originally available for 31676 documents (45%), and further estimated up to 34112 documents (48%) in the final preprocessed data.
 
-  * Document height info is originally available for 5058 documents (7%), and further estimated up to 37687 documents (52%) in the final preprocessed data.
+  * Document height info is originally available for 4950 documents (7%), and further estimated up to 36560 documents (52%) in the final preprocessed data.
 
-  * Document width info is originally available for 2021 documents (3%), and further estimated up to 37687 documents (52%) in the final preprocessed data.
+  * Document width info is originally available for 1950 documents (3%), and further estimated up to 36560 documents (52%) in the final preprocessed data.
 
 
 These tables can be used to verify the accuracy of the conversions from the raw data to final estimates:
@@ -62,10 +62,12 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 
 
 ```
-## Error: Unknown column 'percentage'
+## NULL
 ```
 
-<img src="figure/dimension-compbyformat-1.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" /><img src="figure/dimension-compbyformat-2.png" title="plot of chunk compbyformat" alt="plot of chunk compbyformat" width="430px" />
+```
+## NULL
+```
 
 
 ### Title count versus paper consumption

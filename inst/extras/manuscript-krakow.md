@@ -77,9 +77,9 @@ Wittman, Reinhard, Was there a reading revolution at the end of the eighteenth c
 
 Aatehistoria ja digitaalisten aineistojen mahdollisuudet (Tolonen and Lahti, 2015)
 
-We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015).
+We have prepared open data analytical ecosystem for in-depth analysis of such data collections (Lahti, Ilomäki, and Tolonen, 2015a).
 
-You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015). Such citations will be automatically numbered and collected in references section.
+You can cite with the DOI (the citation info will then be collected automatically): (Lahti, Ilomäki, and Tolonen, 2015a) or alternatively add new references to the [bib file](bibliography.bib) and then cite using the key with (Lahti, Ilomäki, and Tolonen, 2015b). Such citations will be automatically numbered and collected in references section.
 
 -   Knowledge production has been approached largely through a national perspective, here we shift focus by combining materials from Sweden and Finland and by specifically looking at cities as sites for knowledge production. Cities are to this effect seen as partly supplementing, partly competing intellectual centres.
 
@@ -549,7 +549,7 @@ Materials and Methods
 
 We obtained Fennica and Kungliga library catalogues from..
 
-The raw data contains metadata 70001 and 381807 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 19670 (28.1%) and 72760 (0%) documents for Fennica and Kungliga, respectively.
+The raw data contains metadata 70018 and 381830 documents in Fennica and Kungliga, respectively. We limited the present analysis in the time interval 1488-1828, yielding a subset of 18909 (27%) and 72237 (0%) documents for Fennica and Kungliga, respectively.
 
 We have prepared open data analytical ecosystem for in-depth analysis of such data collections ([Lahti, Ilomaki, Tolonen (2015)](http://doi.org/10.18352/lq.10112)). In summary, the data analytical ecosystem does .. Reading, parsing, cleaning up, enriching, summarizing, analysis, visualization, figures and tables.. \[SUMMARY FIGURE OF THE PROCESS?\]. Full source code to reproduce these analyses are available via Github ([Fennica](https://github.com/rOpenGov/fennica/); [Kungliga](https://github.com/rOpenGov/kungliga/)).
 
@@ -734,17 +734,20 @@ References
 
 ### References
 
+    ## Warning in parse_Rd(Rd, encoding = encoding, fragment = fragment, ...): <connection>:7: unexpected END_OF_INPUT '
+    ## '
+
 \[1\] H. Wickham. *ggplot2: Elegant Graphics for Data Analysis*. Springer-Verlag New York, 2009. ISBN: 978-0-387-98140-6. &lt;URL: <http://ggplot2.org>&gt;.
 
-\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
+\[2\] L. Lahti, N. Ilomäki and M. Tolonen. "A quantitative study of history in the English short-title catalogue (ESTC) 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), pp. 87-116. ISSN: 2213-056X. &lt;URL: <http://liber.library.uu.nl/index.php/lq/article/view/10112>&gt;.
 
-\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <http://dx.doi.org/10.18352/lq.10112>&gt;.
+\[3\] L. Lahti, N. Ilomäki and M. Tolonen. "A Quantitative Study of History in the English Short-Title Catalogue (ESTC), 1470-1800". In: *LIBER Quarterly* 25.2 (Dec. 2015), p. 87. DOI: 10.18352/lq.10112. &lt;URL: <https://doi.org/10.18352%2Flq.10112>}.&gt;
 
 \[4\] M. Tolonen and L. Lahti. "Aatehistoria ja digitaalisten aineistojen mahdollisuudet". In: *Ennen & Nyt 2* 2 (Aug. 2015). &lt;URL: <http://www.ennenjanyt.net/2015/08/aatehistoria-ja-digitaalisten-aineistojen-mahdollisuudet>&gt;.
 
-\[5\] R Core Team. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing. Vienna, Austria, 2016. <URL: https://www.R-project.org/>.
+\[5\] R Core Team. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing. Vienna, Austria, 2016. &lt;URL: <https://www.R-project.org/>&gt;.
 
-\[6\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.5.1. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
+\[6\] H. Wickham. *tidyr: Easily Tidy Data with `spread()` and `gather()` Functions*. R package version 0.6.0. 2016. &lt;URL: <https://CRAN.R-project.org/package=tidyr>&gt;.
 
 \[7\] H. Wickham and R. Francois. *dplyr: A Grammar of Data Manipulation*. R package version 0.5.0. 2016. &lt;URL: <https://CRAN.R-project.org/package=dplyr>&gt;.
 
@@ -759,72 +762,132 @@ The most active known female authors based on the title count:
 
 ------------------------------------------------------------------------
 
+### Paper consumption per title
+
+Paper consumption per title in 1757–1765, 1766–1774, and 1775–1783 in Stockholm, Lund and Uppsala in Kungliga.
+
+![](figure_201606_Krakow/paper_per_title-1.png)
+
+| period    | publication\_place |     n|      paper|  paper\_per\_title|
+|:----------|:-------------------|-----:|----------:|------------------:|
+| 1757-1765 | Lund               |    66|   182302.4|           2762.158|
+| 1757-1765 | Stockholm          |  1965|  3928816.9|           1999.398|
+| 1757-1765 | Uppsala            |   186|   332394.4|           1787.066|
+| 1766-1774 | Lund               |    70|   123315.2|           1761.646|
+| 1766-1774 | Stockholm          |  4460|  5900643.2|           1323.014|
+| 1766-1774 | Uppsala            |   370|   592958.8|           1602.591|
+| 1775-1783 | Lund               |    85|   141228.8|           1661.516|
+| 1775-1783 | Stockholm          |  2269|  5337406.6|           2352.317|
+| 1775-1783 | Uppsala            |   207|   461441.3|           2229.185|
+
+### Book production and Riksdag assemblies
+
+According to Kungliga in the the long eighteenth century.
+
+![](figure_201606_Krakow/riksdar-1.png)
+
+### Book production
+
+Book production by year in Turku in Fennica and Kungliga 1640–1828 as a percentage of all books in the catalogues.
+
+![](figure_201606_Krakow/bookprod-1.png)
+
+### Kungliga / Linkoping
+
+[Document listing for Kungliga / Linköping 1640 - 1828](output.tables/Linkoping.tab)
+
+### Title count in Linköping
+
+![](figure_201606_Krakow/linkoping2-1.png)
+
+### Unique publishers in Linköping by year
+
+Never two publishers seen on the same year.
+
+|  publication\_year| publisher                   |
+|------------------:|:----------------------------|
+|               1664| Kämpe                       |
+|               1675| \[Daniel Kempe\]            |
+|               1756| Linköpings stifts tidningar |
+|               1793| Linköpings stiftsbibliotek  |
+|               1797| Björn                       |
+|               1809| Groth & Petré               |
+|               1810| Groth & Petré               |
+|               1815| Petre och Abrahamsson       |
+|               1819| Petre och Abrahamsson       |
+
+### Title count per capita
+
+The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
+
+![](figure_201606_Krakow/percapita-1.png)
+
 Session info
 ------------
 
 This document was created with the following versions:
 
-``` r
-sessionInfo()
-```
-
     ## R version 3.3.1 (2016-06-21)
     ## Platform: x86_64-pc-linux-gnu (64-bit)
-    ## Running under: Ubuntu 16.04.1 LTS
+    ## Running under: Ubuntu 16.10
     ## 
     ## locale:
     ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-    ##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
-    ##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
-    ##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
+    ##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+    ##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+    ##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
     ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-    ## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
+    ## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
     ## 
     ## attached base packages:
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## other attached packages:
-    ##  [1] git2r_0.15.0          knitcitations_1.0.7   stringr_1.0.0        
-    ##  [4] microbiome_0.99.87    phyloseq_1.16.2       knitr_1.13           
-    ##  [7] gridExtra_2.2.1       reshape2_1.4.1        tidyr_0.5.1          
-    ## [10] ggplot2_2.1.0         magrittr_1.5          sorvi_0.7.46         
-    ## [13] tibble_1.0            dplyr_0.5.0           fennica_0.1.43       
-    ## [16] bibliographica_0.2.28 devtools_1.12.0      
+    ##  [1] bibliographica_0.2.31 microbiome_0.99.88    phyloseq_1.16.2      
+    ##  [4] devtools_1.12.0       gisfin_0.9.27         R6_2.2.0             
+    ##  [7] rgdal_1.2-4           sp_1.2-3              ggmap_2.6.1          
+    ## [10] sorvi_0.7.26          stringr_1.1.0         knitcitations_1.0.7  
+    ## [13] knitr_1.15.1          gridExtra_2.2.1       reshape2_1.4.2       
+    ## [16] magrittr_1.5          fennica_0.1.43        dplyr_0.5.0          
+    ## [19] tidyr_0.6.0           ggplot2_2.2.0        
     ## 
     ## loaded via a namespace (and not attached):
-    ##   [1] colorspace_1.2-6      rjson_0.2.15          deldir_0.1-12        
-    ##   [4] babynames_0.2.1       rgdal_1.1-10          dynamicTreeCut_1.63-1
-    ##   [7] XVector_0.12.0        roxygen2_5.0.1        lubridate_1.5.6      
-    ##  [10] AnnotationDbi_1.34.3  RefManageR_0.10.13    codetools_0.2-14     
-    ##  [13] splines_3.3.1         doParallel_1.0.10     impute_1.46.0        
-    ##  [16] tgp_2.4-14            ade4_1.7-4            Formula_1.2-1        
-    ##  [19] jsonlite_1.0          Cairo_1.5-9           WGCNA_1.51           
-    ##  [22] cluster_2.0.4         GO.db_3.3.0           httr_1.2.0           
-    ##  [25] assertthat_0.1        Matrix_1.2-6          lazyeval_0.2.0       
-    ##  [28] formatR_1.4           acepack_1.3-3.3       htmltools_0.3.5      
-    ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
-    ##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
-    ##  [37] Rcpp_0.12.5           slam_0.1-35           Biobase_2.32.0       
-    ##  [40] RJSONIO_1.3-0         Biostrings_2.40.2     multtest_2.28.0      
-    ##  [43] spdep_0.6-5           gdata_2.17.0          ape_3.5              
-    ##  [46] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
-    ##  [49] fastcluster_1.1.20    gender_0.5.1          testthat_1.0.2       
-    ##  [52] gtools_3.5.0          XML_3.98-1.4          stringdist_0.9.4.1   
-    ##  [55] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
-    ##  [58] scales_0.4.0          parallel_3.3.1        biomformat_1.0.2     
-    ##  [61] genderdata_0.5.0      rhdf5_2.16.0          RColorBrewer_1.1-2   
-    ##  [64] yaml_2.1.13           memoise_1.0.0         rpart_4.1-10         
-    ##  [67] latticeExtra_0.6-28   stringi_1.1.1         maptree_1.4-7        
-    ##  [70] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.1     
-    ##  [73] foreach_1.4.3         permute_0.9-0         BiocGenerics_0.18.0  
-    ##  [76] boot_1.3-18           bibtex_0.4.0          chron_2.3-47         
-    ##  [79] moments_0.14          matrixStats_0.50.2    bitops_1.0-6         
-    ##  [82] evaluate_0.9          lattice_0.20-34       labeling_0.3         
-    ##  [85] plyr_1.8.4            gisfin_0.9.26         R6_2.1.2             
-    ##  [88] IRanges_2.6.1         Hmisc_3.17-4          DBI_0.5-1            
-    ##  [91] foreign_0.8-66        withr_1.0.2           mgcv_1.8-15          
-    ##  [94] survival_2.39-5       RCurl_1.95-4.8        sp_1.2-3             
-    ##  [97] nnet_7.3-12           crayon_1.3.2          rmarkdown_0.9.6.14   
-    ## [100] grid_3.3.1            data.table_1.9.6      vegan_2.4-0          
-    ## [103] digest_0.6.9          tm_0.6-2              stats4_3.3.1         
-    ## [106] munsell_0.4.3
+    ##   [1] colorspace_1.3-0      rjson_0.2.15          deldir_0.1-12        
+    ##   [4] babynames_0.2.1       dynamicTreeCut_1.63-1 rprojroot_1.1        
+    ##   [7] htmlTable_1.7         XVector_0.12.1        roxygen2_5.0.1       
+    ##  [10] AnnotationDbi_1.34.4  lubridate_1.6.0       RefManageR_0.13.1    
+    ##  [13] codetools_0.2-15      splines_3.3.1         doParallel_1.0.10    
+    ##  [16] robustbase_0.92-6     impute_1.46.0         tgp_2.4-14           
+    ##  [19] ade4_1.7-4            Formula_1.2-1         jsonlite_1.1         
+    ##  [22] Cairo_1.5-9           WGCNA_1.51            cluster_2.0.5        
+    ##  [25] GO.db_3.3.0           png_0.1-7             mapproj_1.2-4        
+    ##  [28] httr_1.2.1            backports_1.0.4       assertthat_0.1       
+    ##  [31] Matrix_1.2-7.1        lazyeval_0.2.0        acepack_1.4.1        
+    ##  [34] htmltools_0.3.5       tools_3.3.1           igraph_1.0.1         
+    ##  [37] NLP_0.1-9             coda_0.18-1           gtable_0.2.0         
+    ##  [40] maps_3.1.1            gmodels_2.16.2        Rcpp_0.12.8          
+    ##  [43] slam_0.1-38           Biobase_2.32.0        Biostrings_2.40.2    
+    ##  [46] RJSONIO_1.3-0         multtest_2.28.0       spdep_0.6-8          
+    ##  [49] preprocessCore_1.34.0 gdata_2.17.0          ape_3.5              
+    ##  [52] nlme_3.1-128          iterators_1.0.8       tensorA_0.36         
+    ##  [55] fastcluster_1.1.21    gender_0.5.1          proto_1.0.0          
+    ##  [58] testthat_1.0.2        gtools_3.5.0          XML_3.98-1.5         
+    ##  [61] stringdist_0.9.4.2    DEoptimR_1.0-6        LearnBayes_2.15      
+    ##  [64] zlibbioc_1.18.0       MASS_7.3-45           scales_0.4.1         
+    ##  [67] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
+    ##  [70] rhdf5_2.16.0          RColorBrewer_1.1-2    yaml_2.1.14          
+    ##  [73] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
+    ##  [76] maptree_1.4-7         latticeExtra_0.6-28   stringi_1.1.3        
+    ##  [79] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
+    ##  [82] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
+    ##  [85] BiocGenerics_0.18.0   boot_1.3-18           bibtex_0.4.0         
+    ##  [88] moments_0.14          compositions_1.40-1   RgoogleMaps_1.4.1    
+    ##  [91] bitops_1.0-6          matrixStats_0.51.0    evaluate_0.10        
+    ##  [94] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
+    ##  [97] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
+    ## [100] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
+    ## [103] survival_2.40-1       RCurl_1.95-4.8        nnet_7.3-12          
+    ## [106] bayesm_3.0-2          tibble_1.2            crayon_1.3.2         
+    ## [109] rmarkdown_1.2.9000    jpeg_0.1-8            grid_3.3.1           
+    ## [112] data.table_1.10.0     vegan_2.4-1           digest_0.6.10        
+    ## [115] tm_0.6-2              stats4_3.3.1          munsell_0.4.3
