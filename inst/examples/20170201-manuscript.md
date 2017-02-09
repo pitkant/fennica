@@ -1,7 +1,7 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-02-05"
+date: "2017-02-09"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -458,7 +458,7 @@ sessionInfo()
 ##  [4] sp_1.2-3              ggmap_2.6.1           stringr_1.1.0        
 ##  [7] microbiome_0.99.88    phyloseq_1.16.2       knitr_1.15.1         
 ## [10] gridExtra_2.2.1       reshape2_1.4.2        tidyr_0.6.0          
-## [13] ggplot2_2.2.0         magrittr_1.5          sorvi_0.7.26         
+## [13] ggplot2_2.2.1         magrittr_1.5          sorvi_0.7.26         
 ## [16] dplyr_0.5.0           devtools_1.12.0       fennica_0.1.43       
 ## [19] bibliographica_0.2.31
 ## 
@@ -474,7 +474,7 @@ sessionInfo()
 ##  [25] Matrix_1.2-7.1        lazyeval_0.2.0        acepack_1.4.1        
 ##  [28] htmltools_0.3.5       tools_3.3.1           igraph_1.0.1         
 ##  [31] NLP_0.1-9             coda_0.18-1           gtable_0.2.0         
-##  [34] gmodels_2.16.2        maps_3.1.1            Rcpp_0.12.8          
+##  [34] gmodels_2.16.2        maps_3.1.1            Rcpp_0.12.9          
 ##  [37] slam_0.1-38           Biobase_2.32.0        Biostrings_2.40.2    
 ##  [40] multtest_2.28.0       spdep_0.6-8           gdata_2.17.0         
 ##  [43] ape_3.5               preprocessCore_1.34.0 nlme_3.1-128         
@@ -496,7 +496,7 @@ sessionInfo()
 ##  [91] mgcv_1.8-16           survival_2.40-1       nnet_7.3-12          
 ##  [94] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
 ##  [97] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
-## [100] digest_0.6.10         tm_0.6-2              stats4_3.3.1         
+## [100] digest_0.6.12         tm_0.6-2              stats4_3.3.1         
 ## [103] munsell_0.4.3
 ```
 
