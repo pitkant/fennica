@@ -1,9 +1,9 @@
 original	gatherings.original	width.original	height.original	obl.original	gatherings	width	height	obl	area	Count
-NA	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	33663
-4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	14924
-8:o.	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	 7102
+NA	NA	NA	NA	FALSE	NA	NA	NA	NA	NA	33662
+4:o.	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	14920
+8:o.	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	 7100
 12:o.	12mo	NA	NA	FALSE	12mo	 12.5	 19.0	 0	  237.50	 3101
-2:o.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	 2081
+2:o.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	 2069
 16:o.	16mo	NA	NA	FALSE	16mo	 12.0	 15.0	 0	  180.00	 1647
 fol.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	  772
 20 cm.	NA	NA	 20.0	FALSE	NA	 13.0	 20.0	NA	  260.00	  358
@@ -14,7 +14,7 @@ fol.	2fo	NA	NA	FALSE	2fo	 30.0	 45.0	 0	 1350.00	  772
 24 cm.	NA	NA	 24.0	FALSE	4to	 19.0	 24.0	 0	  456.00	  226
 21 cm.	NA	NA	 21.0	FALSE	NA	 14.0	 21.0	NA	  294.00	  225
 4:o +	4long	NA	NA	FALSE	4long	 27.0	 35.0	 0	  945.00	  197
-[4:o].	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	  190
+[4:o].	4to	NA	NA	FALSE	4to	 22.0	 28.0	 0	  616.00	  189
 stor 8:o.	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	  187
 25 cm.	NA	NA	 25.0	FALSE	4to	 19.0	 25.0	 0	  475.00	  185
 [8:o].	8vo	NA	NA	FALSE	8vo	 13.0	 19.0	 0	  247.00	  172

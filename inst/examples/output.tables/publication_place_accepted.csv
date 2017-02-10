@@ -1,5 +1,5 @@
 publication_place	country	Count	Percentage
-Total count (na.rm TRUE): 	67557		
+Total count (na.rm TRUE): 	67540		
 Aabenraa	Denmark	    2	0
 Aalborg	Denmark	    2	0
 Aarhus	Denmark	    2	0
@@ -108,7 +108,7 @@ Heinola	Finland	   33	0.05
 Helmstedt	Germany	    2	0
 Helsingborg	Sweden	    2	0
 Helsingør	Denmark	    1	0
-Helsinki	Finland	26784	39.65
+Helsinki	Finland	26784	39.66
 Hinnerjoki	Finland	    1	0
 Hirvensalmi	Finland	    1	0
 Houghton Mi	USA	    1	0
@@ -346,7 +346,7 @@ Sortavala	Russia	  546	0.81
 St Louis Kaunti Mi	USA	    1	0
 St Petersburg	Russia	  620	0.92
 Stade	Germany	    1	0
-Stockholm	Sweden	 3881	5.74
+Stockholm	Sweden	 3875	5.74
 Stockton	England	    2	0
 Stralsund	Germany	    2	0
 Strängnäs	Sweden	   24	0.04
@@ -379,19 +379,19 @@ Trondheim	Norway	    1	0
 Tsing-shin	China	    1	0
 Tübingen	Germany	    7	0.01
 Turenki	Finland	   16	0.02
-Turku	Finland	13121	19.42
+Turku	Finland	13117	19.42
 Turtle Lake Wi	USA	    1	0
 Tuusula	Finland	    1	0
 Tyrnävä	Finland	    1	0
 Tyrvää	Finland	    4	0.01
 Ulm	Germany	    1	0
-Uppsala	Sweden	  706	1.05
+Uppsala	Sweden	  705	1.04
 Urjala	Finland	    2	0
 Utrecht	Netherlands	    8	0.01
 Uusikaarlepyy	Finland	   23	0.03
 Uusikaupunki	Finland	   58	0.09
 Uusikirkko	Finland	    1	0
-Vaasa	Finland	 3494	5.17
+Vaasa	Finland	 3488	5.16
 Vainikkala	Finland	    1	0
 Valamo	Finland	    1	0
 Valkjärvi	Finland	    1	0

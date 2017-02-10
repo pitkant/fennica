@@ -1,7 +1,6 @@
 Name	Count
 Anna	101
 Hanna	100
-Elis	73
 Hilja	70
 Anni	68
 Maria	65
@@ -40,11 +39,9 @@ Johanna	17
 Laura	17
 Ingeborg Maria	16
 Ira D	16
-Y K	16
 Amanda Lydia	15
 Gertrud	15
 Harriet	15
-T De Witt	15
 Alexandra	14
 Elin Oihonna	14
 Fanny	14
@@ -71,16 +68,13 @@ Nanny	11
 Olga	11
 Sofie	11
 Luise	10
-Adi	9
 Berta	9
 Cornelia	9
 Elise	9
 Elli	9
 Florence L	9
-Honoré De	9
 Ina	9
 Clara	8
-Edmondo De	8
 Elna	8
 Elsa	8
 Ester	8
@@ -92,13 +86,13 @@ Matilde	8
 Mimmi	8
 Ottilia	8
 Venny	8
-Y W	8
 Cecilia	7
 Elizabeth	7
 Emmi	7
 Jessie	7
 Rosina	7
 Signe	7
+Toini	7
 Amalia	6
 Aune	6
 Emily	6
@@ -106,7 +100,6 @@ Frances Hodgson	6
 Helena Petrovna	6
 Mabel	6
 Saimi	6
-Siviä	6
 Tyra	6
 Wivi	6
 Yolanda	6
@@ -117,23 +110,22 @@ Amanda	5
 Amy	5
 Anja	5
 Frances Ridley	5
-François René De	5
 Gustava	5
 Hedvig Charlotta	5
 Helene	5
 Laimi	5
+Louisa M	5
 Lydia	5
 Mayne	5
 Paula Af	5
 Ruth	5
 Wilhelmiina	5
-Y O	5
 Ain'elisabet	4
 Augusta	4
 Aura	4
 Barbara H	4
 Catherine	4
-Ch E De	4
+Dagmar	4
 Edith	4
 Fannie E	4
 Greta	4
@@ -147,13 +139,14 @@ Liina	4
 Liisi	4
 Louise	4
 Marie Sophie	4
+Marta A	4
+Mildred	4
 Nataly Von	4
 Sofia	4
 Anna Julia Irene	3
 Anna-maria	3
 Anne Charlotte	3
 Auli	3
-Bernardin De	3
 Camille	3
 Charlotta	3
 Ebba	3
@@ -192,7 +185,6 @@ Agda	2
 Agnes Von	2
 Alba	2
 Alva	2
-Amelie De	2
 Angel	2
 Anna Catharina	2
 Anna Kristina Magdalena	2
@@ -208,7 +200,6 @@ Caroline	2
 Catri	2
 Charlotta Maria	2
 Dorothy	2
-E De	2
 Eleonora	2
 Elin Adèle	2
 Elinor	2
@@ -217,13 +208,13 @@ Ellida	2
 Ellinor	2
 Elviira	2
 Emelie	2
-Émile De	2
 Emma	2
 Emmy	2
+Ethel M	2
 Ethel S	2
-Étienne Bourgevin Vialart De	2
 Etti	2
 Eufemia Von	2
+Ewa M	2
 Felice	2
 Fiona	2
 Flora Helena	2
@@ -233,26 +224,22 @@ Hagar	2
 Hanna Lydia	2
 Hanna-helena	2
 Helene Von	2
-Helge	2
+Helle	2
 Henriette	2
 Iida	2
 Impi	2
 Ingeborg Von	2
 Ingegerd	2
-Ingemund	2
 Ingrid	2
 K Ad	2
-Karl Elis Leonard Von	2
 Kerttu Fredrika	2
 Kristina	2
 Lahja	2
-Léon De	2
 Ljudmila	2
 Lu	2
 Lyydi	2
 Mandi	2
 Marie Von	2
-Märta	2
 Naemi	2
 Natta	2
 Olive	2
@@ -270,17 +257,13 @@ Tilma	2
 Tuovi	2
 Valma Maria	2
 Vivan	2
-Y H	2
 Ada	1
 Adelaide Von	1
-Adèle De	1
 Adelheid	1
 Adolfina Amanda	1
 Agatha Elisabeth Von	1
 Aili	1
-Aladar	1
-Alb Lindsay Von	1
-Alfred Elis	1
+Alfhild	1
 Aline	1
 Alma Aleksandra	1
 Alma Siviä	1
@@ -291,22 +274,24 @@ Anna-liisa	1
 Annette Von	1
 Anni Af	1
 Anni Anna Katarina	1
+Anni M	1
+Armi	1
 Betty Marie	1
-Carl Elis	1
 Carmen	1
 Carol Frid	1
 Carol Frider	1
 Carolina Fredrika Theresia	1
+Charlotte M	1
 Christine	1
 Dinah Maria	1
-E Y	1
 Edel	1
 Edva	1
 Eeva	1
 Eila	1
+Eine	1
 Eleanor H	1
+Eleanor M	1
 Elfrida	1
-Elia	1
 Eliina	1
 Elin Maria	1
 Elisabeth Maria	1
@@ -320,6 +305,7 @@ Emmi Emilia Wilhelmina	1
 Emmuska	1
 Esteri S	1
 Estrid	1
+Eva M	1
 Eva Ottilia	1
 Eveliina	1
 F Marion	1
@@ -327,6 +313,8 @@ Fannie	1
 Fanny Lovisa	1
 Febe	1
 Felicia Buttz	1
+Florence A	1
+Florence M	1
 Frances	1
 Frederika	1
 Fredrika Lovisa	1
@@ -334,14 +322,14 @@ Fredrika Wilhelmina	1
 Gemma	1
 Geraldine	1
 Gudda	1
-Gyula	1
-H De Vere	1
 Hanna Kiwi	1
 Harriet Cornelia	1
 Hedvig Von	1
 Hedwig	1
+Heine	1
 Heleena Sofia	1
 Helena Tuomaantytär	1
+Helene A	1
 Hellen	1
 Helmi Lydia	1
 Henni	1
@@ -353,10 +341,10 @@ Inge	1
 Ingrid Af	1
 Ingrid Mathilda	1
 Inkeri	1
-Ioann	1
 Irja	1
 Isa	1
 Isabella	1
+Jadwiga	1
 Janet	1
 Jeanna	1
 Jemiina	1
@@ -366,18 +354,18 @@ Johanna Ottilia	1
 Josephine	1
 Julia Kristina	1
 Julie	1
-Kaarl	1
 Kaino W	1
 Karen	1
 Karoliina	1
 Kate	1
 Kate Richards	1
 Kyllikki	1
-L De	1
 Lahja Hyvä	1
 Lempi	1
+Line	1
 Lolo	1
 Lotten	1
+M:me Ferdinand	1
 Magdalena	1
 Magdalena Charlotta	1
 Maija	1
@@ -388,7 +376,6 @@ Margit	1
 Marguerite	1
 Maria Wilhelmina	1
 Marianne	1
-Marie De	1
 Marie Jeanne	1
 Marie Louise	1
 Marika	1
@@ -406,31 +393,21 @@ Naima	1
 Nanna V	1
 Natalia	1
 Neiti	1
-Nicol Freder	1
 Olaug Marie	1
 Olga Von	1
 Olympe	1
-Oscar Elis Leonard	1
 Pi	1
 Renate	1
-Renne	1
 Riikka	1
-Roine	1
 Siiri	1
 Sonja	1
 Sophia Johansdotter	1
-Synnöve	1
 Taimi	1
 Terese	1
 Thora	1
 Ulla	1
-Valérie De	1
 Violet	1
 Vivi	1
-Wilh Carol	1
 Wilhelmina	1
 Wilhelmine Von	1
-Y	1
-Y Y	1
-Yngve	1
 Yvonnne	1

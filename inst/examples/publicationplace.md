@@ -7,8 +7,8 @@ output: markdown_document
 
 ### Publication places
 
- * 425 [publication places](output.tables/publication_place_accepted.csv); available for 67557 documents (96%). 
- * 33 [publication countries](output.tables/country_accepted.csv); available for 67556 documents (96%).
+ * 425 [publication places](output.tables/publication_place_accepted.csv); available for 67540 documents (96%). 
+ * 33 [publication countries](output.tables/country_accepted.csv); available for 67539 documents (96%).
  * 98% of the documents could be matched to geographic coordinates (based on the [Geonames](http://download.geonames.org/export/dump/) database). See the [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv). Altogether ``1.99``% of the documents have missing geocoordinates.
  * [Places with unknown publication country](output.tables/publication_place_missingcountry.csv) (can be added to [country mappings](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * [Ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 
@@ -30,8 +30,8 @@ The complete list is available [here](output.tables/country_accepted.csv).
 
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
-|Finland |         57540|         81.7|
-|Sweden  |          4919|          7.0|
+|Finland |         57530|         81.7|
+|Sweden  |          4912|          7.0|
 |Russia  |          2423|          3.4|
 |USA     |           813|          1.2|
 |Germany |           745|          1.1|

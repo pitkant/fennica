@@ -8,11 +8,11 @@ output: markdown_document
 
 ### Publishers
 
- * 6918 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8440 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60866 documents have unambiguous publisher information (86.4%). This includes self-published documents; the author name is used as the publisher in those cases (if known).
+ * 60812 documents have unambiguous publisher information (86.3%). This includes self-published documents; the author name is used as the publisher in those cases (if known).
 
- * 0 documents are identified as self-published (0%). 
+ * 2554 documents are identified as self-published (3.6%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -37,12 +37,12 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles|     paper|
 |:-------------------------------|------:|---------:|
-|<Author>                        |   2593| 1317483.5|
-|Frenckell, Johan Christopher I  |   1739| 1458747.7|
-|Frenckell, Johan Christopher II |   2206| 2623550.6|
+|Frenckell, Johan Christopher I  |   1738| 1458278.9|
+|Frenckell, Johan Christopher II |   2205| 2622613.1|
 |G.W. Edlund                     |    984| 1430899.5|
+|Hansson, Peter                  |    982| 1612252.9|
 |Kämpe, Johan                    |    985| 1554506.8|
-|Londicer, Georg Wilhelm         |   2106|  592616.7|
+|Londicer, Georg Wilhelm         |   2100|  590734.4|
 |Otava                           |   2189| 2017674.9|
 |Söderström                      |   1204|  943434.8|
 |Wall, Johan Larsson             |   1266| 2210292.0|

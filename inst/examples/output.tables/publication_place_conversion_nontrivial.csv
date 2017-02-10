@@ -1,9 +1,9 @@
 original	polished	Count
-Total count (na.rm TRUE): 	36883	
+Total count (na.rm TRUE): 	36871	
 Helsingfors	Helsinki	11690
 Aboae	Turku	 4659
 [Vasa]	Vaasa	 2312
-Åbo	Turku	 2114
+Åbo	Turku	 2111
 [Åbo]	Turku	 2029
 [Aboae]	Turku	 1216
 Turusa	Turku	  848
@@ -22,14 +22,14 @@ Vasa	Vaasa	  203
 [Wasa]	Vaasa	  181
 Helsingforsiae	Helsinki	  173
 Wiipuri	Vyborg	  172
-Wasasa	Vaasa	  164
+Wasasa	Vaasa	  162
 Hancock (Mich.)	Hancock Mi	  158
-Holmiae	Stockholm	  156
+Holmiae	Stockholm	  155
 Wiborg	Vyborg	  145
 Tammerfors	Tampere	  142
 Ekenäs	Tammisaari	  140
 Gel'singfors'	Helsinki	  137
-Wasa	Vaasa	  128
+Wasa	Vaasa	  124
 Porvoossa	Porvoo	  121
 Upsala	Uppsala	  112
 Fitchburg (Mass.)	Fitchburg Ma	  105
@@ -60,8 +60,8 @@ Hämeenlinnassa	Hämeenlinna	   45
 Sanktpeterburg'	St Petersburg	   45
 Brooklyn (N.Y.)	New York	   45
 Pietari	St Petersburg	   44
-Tryckt i Upsala	Uppsala	   43
 Dorpati	Tartu	   42
+Tryckt i Upsala	Uppsala	   42
 Fredrikshamn	Hamina	   40
 Wiipurissa	Vyborg	   39
 [Upsaliae]	Uppsala	   38
@@ -1091,7 +1091,6 @@ Vilnae	Vilnius	    1
 Gedrukkt Azu bo [sic]	Turku	    1
 Imprimebat Aboae	Turku	    1
 [Strängnäs]	Strängnäs	    1
-[In Stockholm]	Stockholm	    1
 Tryckti [sic] Vpsala	Uppsala	    1
 Alten Stettin	Altenstein	    1
 Abóa [Turku]	Turku	    1

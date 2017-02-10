@@ -1,9 +1,9 @@
 original	polished	Count
-Total count (na.rm TRUE): 	69895	
-fin	Finnish	32350
-swe	Swedish	23034
-lat	Latin	 6169
-ger	German	 1859
+Total count (na.rm TRUE): 	69875	
+fin	Finnish	32347
+swe	Swedish	23019
+lat	Latin	 6168
+ger	German	 1858
 fin;swe	Finnish;Swedish	 1383
 rus	Russian	  728
 fre	French	  615

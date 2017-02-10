@@ -1,10 +1,10 @@
 Name	Count
-Total count (na.rm TRUE): 	33369
-hautajaiset	1712
+Total count (na.rm TRUE): 	33344
+hautajaiset	1702
 etsintäkuulutukset	1387
-yliopistot	1192
-Turku	1049
-häät	1015
+yliopistot	1190
+Turku	1047
+häät	1010
 kartat	 763
 virret	 729
 juhlamenot	 720
@@ -23,7 +23,7 @@ ruotuarmeijat	 285
 rikokset	 283
 katekismukset	 257
 ruumissaarnat	 248
-promootiot	 247
+promootiot	 245
 historialliset kartat	 211
 oikeus	 202
 kirkkohistoria	 200
@@ -676,7 +676,6 @@ lämpötila	   4
 lautamiehet	   4
 lintutiede	   4
 maalajit	   4
-maito	   4
 maustekasvit	   4
 mekaniikka	   4
 merimiehet	   4
@@ -754,7 +753,6 @@ bibliografiat	   3
 diplomatia	   3
 ehtoollinen	   3
 eläkekassat	   3
-elintarvikehygienia	   3
 esteellisyys	   3
 helmet	   3
 hoito	   3
@@ -983,6 +981,7 @@ maanviljelijät	   2
 maanvuokraus	   2
 maaoikeus	   2
 maistraatit	   2
+maito	   2
 malaria	   2
 matkailureitit	   2
 melonta	   2
@@ -1144,6 +1143,7 @@ eläintenoikeusliikkeet	   1
 eläkkeelle siirtyminen	   1
 elekieli	   1
 Elimäki	   1
+elintarvikehygienia	   1
 elvytys	   1
 enkelit	   1
 ennustaminen	   1
