@@ -113,15 +113,6 @@ get_country("Porvoo")
 
 ### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Lund & Greifswald)
 
-
-```
-## Error in readPNG(tmp): file is not in PNG format
-```
-
-```
-## Error in ggmap(mymap): object 'mymap' not found
-```
-
 ![plot of chunk map1](figure/map1-1.png)
 
 Map by Stamen

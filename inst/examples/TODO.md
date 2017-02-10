@@ -4,6 +4,15 @@ TODO
 
 ### Technical (urgent)
 
+- Apply publisher polishing also for the corporate field (at least in Fennica)?
+
+- Use corporate field for NA publishers ?
+   #if ("corporate" %in% names(df.orig)) {
+   #  message("Augmenting missing publisher entries with the corporate field")
+   #  inds <- which(is.na(df.orig$publisher))
+   #  df.orig$publisher[inds] <- df.orig$corporate[inds]
+   #}
+
 - Vieläkin näyttäs olevan negatiivisia pagecountteja
 
 - Gender: putsattu top-20 female mukaan. (F + K)

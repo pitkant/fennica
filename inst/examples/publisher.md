@@ -49,3 +49,22 @@ Title count versus paper consumption (top publishers):
 |WSOY                            |   2882| 1862844.8|
 
 
+### Corporates
+
+Summaries of the corporate field.
+
+ * 1404 [unique corporates](output.tables/corporate_accepted.csv)
+
+ * 19529 documents have unambiguous corporate information (27.7%). 
+
+ * [Discarded corporate entries](output.tables/corporate_discarded.csv)
+
+ * [Conversions from original to final names](output.tables/corporate_conversion_nontrivial.csv) (only non-trivial conversions shown)
+
+
+The 20 most common corporates are shown with the number of documents. 
+
+![plot of chunk summarycorporate2](figure/summarycorporate2-1.png)
+
+
+
