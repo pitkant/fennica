@@ -115,7 +115,9 @@ get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town
     
     # The actual comparison
     # NB! tmp_comparison is a subset of [inds], so [res] must be the same subset
-    res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison, method="jw", p=0.05, maxDist=0.04)]
+    maxDist <- ceiling(0.1 * nchar(name_comp))
+    res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison, method="dl", maxDist=maxDist)]
+    #res <- Finto_comp$orig[inds][amatch(name_comp, tmp_comparison, method="jw", p=0.05, maxDist=0.04)]
     
     if ((is.null(res)) || (is.na(res)) || (res=="")) {
       # No results -> return the original
