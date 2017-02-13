@@ -4,6 +4,8 @@ TODO
 
 ### Technical
 
+- Self published: add summaries also for these to publisher.Rmd
+
 - Gender: putsattu top-20 female mukaan. (F + K). Gender-mäppien
   viimeistely. After Krakow.
 
