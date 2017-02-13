@@ -27,11 +27,6 @@ fontsize: 13pt
 
 ### Fig 2: Title count over time
 
-
-```
-## Error in eval(expr, envir, enclos): could not find function "ggitle"
-```
-
 ![plot of chunk unnamed-chunk-1](20170201_manuscript/unnamed-chunk-1-1.png)
 
 ---

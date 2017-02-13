@@ -98,7 +98,7 @@ p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) +
        ylab("Documents (n)") + xlab("Publication year") +
        scale_color_manual(values = c("blue", "darkgreen")) + 
        guides(color = guide_legend(reverse = TRUE, title = "")) +
-       ggitle("Title count")
+       ggtitle("Title count")
 print(p)
 ```
 
