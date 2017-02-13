@@ -113,10 +113,11 @@ print(p)
 
 Paper consumption for various document formats over time.
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=4, fig.show="hold", out.width="400px"}
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, fig.show="hold", out.width="400px"}
 for (catal in unique(df0$catalog)) {
-  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
-  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n())
+
+  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 20)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
   df2$gatherings <- factor(df2$gatherings, levels = levels(df0$gatherings))
@@ -139,6 +140,7 @@ for (catal in unique(df0$catalog)) {
        	          fill = "none", # guide_legend(title = "Gatherings"),
        	          color = "none" # guide_legend(title = "Gatherings")
 		  )
+  #p <- p + facet_grid(. ~ catalog)		  
   p <- p + ggtitle(catal)
   print(p)
 }
@@ -861,7 +863,7 @@ p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
        geom_line(aes(linetype = publication_place), size = 1) +
        geom_point(aes(shape = publication_place), size = 5) +
        xlab("Publication year") +
-       ylab("Title length (characters)") +
+       ylab("Title length (words)") +
        ggtitle("Octavo: mean title length") +
        guides(shape = guide_legend(title = "Place")) +
        guides(linetype= guide_legend(title = "Place"))        
