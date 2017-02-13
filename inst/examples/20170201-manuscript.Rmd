@@ -63,7 +63,7 @@ df0$title_length <- nchar(df0$title)
 ---
 
 
-### Fig. 1: Number of publication places per decade
+### Fig. 1: Number of publication places over time
 
 ```{r places_per_decade, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
 library(dplyr)
@@ -85,7 +85,7 @@ print(p)
 ---
 
 
-### Fig 2: Number of documents per decade
+### Fig 2: Title count over time
 
 ```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
 library(dplyr)
@@ -102,7 +102,6 @@ print(p)
 ```
 
 ---
-
 
 ### Fig 3: Rise of the Octavo
 
@@ -169,7 +168,9 @@ print(p)
 ---
 
 
-### Fig 5: Turku in Sweden: proportions for title count and paper in Swedish University towns
+### Fig 5: Turku as Swedish university town
+
+Proportions for title count and paper in Swedish University towns
  
 ```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
 pics <- list()
@@ -285,7 +286,7 @@ print(p)
 ---
 
 
-### Fig. 7: Riksdagar Kungliga
+### Fig. 7: Riksdagar: Kungliga
 
 ```{r riksdar_kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 
@@ -393,8 +394,7 @@ library(reshape2)
 
 
 
-### Fig. 8: Riksdagar Fennica
-
+### Fig. 8: Riksdagar: Fennica
 
 ```{r riksdar_fennica, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 minyear <- 1760
@@ -500,8 +500,7 @@ library(reshape2)
 ---
 
 
-### Fig 9A: Fennica - Publishers in Swedish University towns (and Finland)
-
+### Fig 9A: Fennica: Publishers in Swedish University towns (and Finland)
 
 ```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
@@ -566,7 +565,7 @@ print(p)
 
 
 
-### Fig 9B: Kungliga - Publishers in Swedish University towns (and Finland)
+### Fig 9B: Kungliga: Publishers in Swedish University towns (and Finland)
 
 
 ```{r kungliga9b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
@@ -631,7 +630,9 @@ print(p)
 ```
 
 
-### Fig 10: Publications in Vaasa in Fennica, 1750-1828, with percentage of all books that were not published by the printing house of the court
+### Fig 10: Publications in Vaasa in Fennica, 1750-1828
+
+With percentage of all books that were not published by the printing house of the court.
 
 
 ```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
@@ -714,7 +715,7 @@ print(p)
 
 
 
-### IMAGE 12: Title count per capita
+### Fig. 12: Title count per capita
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
@@ -781,7 +782,7 @@ kable(dfm)
 
 
 
-### Fig 13 Octavo paper consumption
+### Fig. 13: Octavo paper consumption
 
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
@@ -817,7 +818,7 @@ print(p)
 
 ---
 
-### Fig 14: Octavo title length
+### Fig. 14: Octavo title length (word count)
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund,
 Göteborg and Linköping. According to Kungliga, except Turku from
@@ -855,7 +856,7 @@ print(p)
 ---
 
 
-### Fig 15: Different languages in Turku, Stockholm, Uppsala and Lund
+### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
 
 ```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=12}
 pics <- list()
@@ -923,7 +924,7 @@ rm(pics)
 ---
 
 
-### Fig 16: Topic richness per language (publications in Fennica)
+### Fig. 16: Topic richness per language (Fennica)
 
 ```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 catalogue <- "Fennica"
@@ -953,7 +954,7 @@ print(p)
 ---
 
 
-### Fig 17: Temporary sermons in Latin and Swedish
+### Fig. 17: Temporary sermons in Latin and Swedish
 
 ```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
   sel <- c("hautajaiset", "häät", "juhlamenot")
@@ -1001,7 +1002,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 
 
-### Fig 18: Devotional literature (catechisms, hymns, prayers, etc.) 
+### Fig. 18: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
@@ -1054,7 +1055,7 @@ catalogue <- "Fennica"
 ---
 
 
-### Fig 19: Publisher per city over time
+### Fig. 19: Publisher per city over time
 
 ```{r publishersper, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 # Selected catalogue with selected decades
