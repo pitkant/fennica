@@ -65,7 +65,7 @@ df0$title_length <- nchar(df0$title)
 
 ### Fig. 1: Number of publication places over time
 
-```{r places_per_decade, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
+```{r places_per_decade, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
 library(dplyr)
 library(ggplot2)
 theme_set(theme_bw(20))
@@ -75,10 +75,10 @@ df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>%
 p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) + 
        geom_point() + 
        geom_line() + 
-       ylab("Publication places (n)") + xlab("Publication year") +
+       ylab("Places (n)") + xlab("Publication year") +
        scale_color_manual(values = c("blue", "darkgreen")) + 
        guides(color = guide_legend(reverse = TRUE, title = "")) +
-       ggtitle("Number of unique publication places")
+       ggtitle("Unique publication places")
 print(p)
 ```
 
@@ -87,7 +87,7 @@ print(p)
 
 ### Fig 2: Title count over time
 
-```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
+```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
 library(dplyr)
 library(ggplot2)
 theme_set(theme_bw(20))
@@ -97,7 +97,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) +
        geom_line() + 
        ylab("Documents (n)") + xlab("Publication year") +
        scale_color_manual(values = c("blue", "darkgreen")) + 
-       guides(color = guide_legend(reverse = TRUE, title = "")) #+ 
+       guides(color = guide_legend(reverse = TRUE, title = "")) +
+       ggitle("Title count")
 print(p)
 ```
 
@@ -107,7 +108,7 @@ print(p)
 
 Paper consumption for various document formats over time.
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=9, fig.show="hold"}
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=9, fig.show="hold", out.width="240px"}
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
@@ -126,8 +127,10 @@ for (catal in unique(df0$catalog)) {
   p <- p + ggtitle("Paper consumption in time by gatherings")
   p <- p + xlab("Year")
   p <- p + ylab("Paper consumption")
-  p <- p + guides(linetype = guide_legend(keywidth = 5),
-       	          shape = guide_legend(keywidth = 5))
+  p <- p + guides(linetype = guide_legend(keywidth = 5, title = "Gatherings"),
+       	          shape = guide_legend(keywidth = 5, title = "Gatherings"),
+       	          fill = "none" 
+		  )
   p <- p + ggtitle(catal)
   print(p)
 }
@@ -157,10 +160,15 @@ df <- dfo %>% filter(language %in% top.language) %>%
 
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length,
                      fill = language, color = language)) +
-       geom_point(aes(size = n)) +
-       geom_line() +
-       #scale_y_log10() +
-       ggtitle("Mean title word count (top language)")
+       geom_point(aes(size = n, shape = language)) +
+       geom_line(aes(linetype = language)) +
+       guides(
+            color = guide_legend(title = "Language"),
+            shape = guide_legend(title = "Language")
+	    ) +
+       ylab("Title length (word count)") +
+       xlab("Publication decade") +
+       ggtitle("Title length")
 
 print(p)
 ```
@@ -239,7 +247,7 @@ rm(pics)
 ### Fig 6: Publishing activity over time
 
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4, out.width="300px"}
+```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
 library(magrittr)
 library(ggplot2)
 library(dplyr)
@@ -288,7 +296,7 @@ print(p)
 
 ### Fig. 7: Riksdagar: Kungliga
 
-```{r riksdar_kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r riksdar_kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 
 minyear <- 1700
 maxyear <- 1800
@@ -384,7 +392,7 @@ library(reshape2)
   p <- p + ggtitle("Publishing activity")
   p <- p + ylab("Documents / Year")
   p <- p + xlab("Year")
-  p <- p + ggtitle(paste(catal,"Riksplaces"))
+  p <- p + ggtitle(catal)
   print(p)
 
 
@@ -396,7 +404,7 @@ library(reshape2)
 
 ### Fig. 8: Riksdagar: Fennica
 
-```{r riksdar_fennica, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r riksdar_fennica, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 minyear <- 1760
 maxyear <- 1860
 catal <- "Fennica"
@@ -766,15 +774,15 @@ dfm <- inner_join(pop, df, by = c("publication_decade", "publication_place"))
 dfm <- dfm %>% mutate(titles_per_capita = n/population)
 
 p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
-       geom_line(aes(color = publication_place), size = 1) +
-       geom_point(aes(color = publication_place), size = 2) +
+       geom_line(aes(linetype = publication_place), size = 1) +
+       geom_point(aes(shape = publication_place), size = 5) +
        xlab("Publication decade") +
        ylab("Title count per capita (n)") +
-       ggtitle("Title count per capita in selected cities") +
+       ggtitle("Title count per capita") +
        guides(color = guide_legend(title = "Place", reverse = TRUE))
 print(p)
 
-kable(dfm)
+#kable(dfm)
 ```
 
 ---
@@ -806,11 +814,11 @@ df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
 df <- bind_rows(df1, df2)
 
 p <- ggplot(df, aes(x = publication_decade, y = paper)) +
-       geom_line(aes(color = publication_place), size = 1) +
-       geom_point(aes(color = publication_place), size = 2) +
+       geom_line(aes(linetype = publication_place), size = 1) +
+       geom_point(aes(shape = publication_place), size = 2) +
        xlab("Publication year") +
        ylab("Paper (sheets)") +
-       ggtitle("Paper consumption in selected cities") +
+       ggtitle("Octavo: paper consumption") +
        guides(color = guide_legend(title = "Place", reverse = TRUE))
 print(p)
 ```
@@ -844,8 +852,8 @@ df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
 df <- bind_rows(df1, df2)
 
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
-       geom_line(aes(color = publication_place), size = 1) +
-       geom_point(aes(color = publication_place), size = 2) +
+       geom_line(aes(linetype = publication_place), size = 1) +
+       geom_point(aes(shape = publication_place), size = 5) +
        xlab("Publication year") +
        ylab("Title length (characters)") +
        ggtitle("Mean title length in selected cities") +
@@ -903,8 +911,10 @@ for (catalogue in c("Fennica", "Kungliga")) {
   colnames(dff) <- c("publication_place", "publication_decade", "language", "f")
 
   for (myplace in myplaces) {
-    p <- ggplot(subset(dff, publication_place == myplace), aes(x = publication_decade, y = f)) +
-      geom_bar(position = "stack", stat = "identity", aes(fill = language)) + 
+    p <- ggplot(subset(dff, publication_place == myplace),
+      aes(x = publication_decade, y = f)) +
+      geom_bar(position = "stack", stat = "identity",
+      			aes(fill = language), color = "black") + 
       xlab("Publication year") +
       ylab("Title count frequency (%)") +
       ggtitle(paste(myplace, "/", catalogue)) +
@@ -942,11 +952,11 @@ df$language <- factor(df$language, levels = langs2)
 
 p <- ggplot(df, aes(x = publication_year, y = n, shape = language)) +
        geom_line(size = 1, aes(linetype = language)) +
-       geom_point(size = 5) +
+       geom_point(size = 4) +
        scale_color_brewer(palette="Greys") +
        scale_fill_brewer(palette="Greys") +                     
        geom_smooth(color = "black") +       
-       ylab("Documents (n)") + xlab("Publication year")
+       ylab("Title count (n)") + xlab("Publication year")
 
 print(p)
 ```
@@ -990,8 +1000,8 @@ dfl$language <- factor(dfl$language, levels = langs)
 
   # PAPER CONSUMPTION
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
+       geom_point(aes(shape = language), size = 5) +
+       geom_line(aes(linetype = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Temporary Sermons (", catalogue, ")", sep = ""))
@@ -999,7 +1009,6 @@ dfl$language <- factor(dfl$language, levels = langs)
 ```
 
 ---
-
 
 
 ### Fig. 18: Devotional literature (catechisms, hymns, prayers, etc.) 
@@ -1042,13 +1051,11 @@ catalogue <- "Fennica"
   # PAPER CONSUMPTION
   theme_set(theme_bw(20))
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
-       geom_point(aes(col = language, shape = language), size = 5) +
-       geom_line(aes(col = language, shape = language)) +       
-       #geom_smooth(aes(fill = language, color = language)) + 
+       geom_point(aes(shape = language), size = 5) +
+       geom_line(aes(linetype = language)) +       
        xlab("Publication year") +
        ylab("Paper consumption") +
        ggtitle(paste("Devotional Literature (", catalogue, ")", sep = ""))
-       #ggtitle(paste("Devotional literature" (", catalogue, ")", sep = "")) 
   print(p)
 ```
 

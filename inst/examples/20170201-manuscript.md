@@ -18,25 +18,29 @@ fontsize: 13pt
 ---
 
 
-### Fig. 1: Number of publication places per decade
+### Fig. 1: Number of publication places over time
 
 ![plot of chunk places_per_decade](20170201_manuscript/places_per_decade-1.png)
 
 ---
 
 
-### Fig 2: Number of documents per decade
+### Fig 2: Title count over time
+
+
+```
+## Error in eval(expr, envir, enclos): could not find function "ggitle"
+```
 
 ![plot of chunk unnamed-chunk-1](20170201_manuscript/unnamed-chunk-1-1.png)
 
 ---
 
+### Fig 3: Rise of the Octavo
 
-### Fig 3: Rise of the octavo sized book as vehicle of Enlightenment
+Paper consumption for various document formats over time.
 
-Paper consumption: different document formats over time
-
-![plot of chunk LIBER-13](20170201_manuscript/LIBER-13-1.png)![plot of chunk LIBER-13](20170201_manuscript/LIBER-13-2.png)
+<img src="20170201_manuscript/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="240px" /><img src="20170201_manuscript/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="240px" />
 
 ---
 
@@ -48,7 +52,9 @@ Paper consumption: different document formats over time
 ---
 
 
-### Fig 5: Turku in Sweden: proportions for title count and paper in Swedish University towns
+### Fig 5: Turku as Swedish university town
+
+Proportions for title count and paper in Swedish University towns
  
 ![plot of chunk comparisons](20170201_manuscript/comparisons-1.png)
 
@@ -58,12 +64,12 @@ Paper consumption: different document formats over time
 ### Fig 6: Publishing activity over time
 
 
-<img src="20170201_manuscript/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
+![plot of chunk publishingovertime](20170201_manuscript/publishingovertime-1.png)
 
 ---
 
 
-### Fig. 7: Riksdagar Kungliga
+### Fig. 7: Riksdagar: Kungliga
 
 ![plot of chunk riksdar_kungliga](20170201_manuscript/riksdar_kungliga-1.png)
 
@@ -71,28 +77,28 @@ Paper consumption: different document formats over time
 
 
 
-### Fig. 8: Riksdagar Fennica
-
+### Fig. 8: Riksdagar: Fennica
 
 ![plot of chunk riksdar_fennica](20170201_manuscript/riksdar_fennica-1.png)
 
 ---
 
 
-### Fig 9A: Fennica - Publishers in Swedish University towns (and Finland)
-
+### Fig 9A: Fennica: Publishers in Swedish University towns (and Finland)
 
 ![plot of chunk publishers2-finland](20170201_manuscript/publishers2-finland-1.png)
 
 
 
-### Fig 9B: Kungliga - Publishers in Swedish University towns (and Finland)
+### Fig 9B: Kungliga: Publishers in Swedish University towns (and Finland)
 
 
 ![plot of chunk kungliga9b](20170201_manuscript/kungliga9b-1.png)
 
 
-### Fig 10: Publications in Vaasa in Fennica, 1750-1828, with percentage of all books that were not published by the printing house of the court
+### Fig 10: Publications in Vaasa in Fennica, 1750-1828
+
+With percentage of all books that were not published by the printing house of the court.
 
 
 ![plot of chunk publishers4-fennica](20170201_manuscript/publishers4-fennica-1.png)
@@ -108,50 +114,18 @@ Paper consumption: different document formats over time
 
 
 
-### IMAGE 12: Title count per capita
+### Fig. 12: Title count per capita
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
 ![plot of chunk percapita](20170201_manuscript/percapita-1.png)
-
-| publication_decade|publication_place | population|    n| titles_per_capita|
-|------------------:|:-----------------|----------:|----:|-----------------:|
-|               1650|Stockholm         |      35000|  298|         0.0085143|
-|               1690|Stockholm         |      57000|  894|         0.0156842|
-|               1730|Stockholm         |      57000| 1400|         0.0245614|
-|               1770|Stockholm         |      69000| 4862|         0.0704638|
-|               1810|Stockholm         |      65474| 5975|         0.0912576|
-|               1650|Turku             |       4184|  497|         0.1187859|
-|               1690|Turku             |       5882|  721|         0.1225774|
-|               1730|Turku             |       4353|  555|         0.1274983|
-|               1770|Turku             |       7952| 1153|         0.1449950|
-|               1810|Turku             |      11387|  354|         0.0310881|
-|               1650|Uppsala           |       2216|   49|         0.0221119|
-|               1690|Uppsala           |       2487|   62|         0.0249296|
-|               1730|Uppsala           |       3774|  143|         0.0378908|
-|               1770|Uppsala           |       3859|  364|         0.0943250|
-|               1810|Uppsala           |       4076|  817|         0.2004416|
-|               1690|Lund              |       1251|   17|         0.0135891|
-|               1730|Lund              |       1530|   60|         0.0392157|
-|               1770|Lund              |       2078|   99|         0.0476420|
-|               1810|Lund              |       3100|  360|         0.1161290|
-|               1650|Gothenburg        |       2653|   35|         0.0131926|
-|               1690|Gothenburg        |       5071|   39|         0.0076908|
-|               1730|Gothenburg        |       8000|   33|         0.0041250|
-|               1770|Gothenburg        |      11143|  201|         0.0180382|
-|               1810|Gothenburg        |      14346|  366|         0.0255123|
-|               1650|Linkoping         |       1180|   22|         0.0186441|
-|               1690|Linkoping         |       1270|   29|         0.0228346|
-|               1730|Linkoping         |       1383|   34|         0.0245842|
-|               1770|Linkoping         |       2325|   52|         0.0223656|
-|               1810|Linkoping         |       3285|  133|         0.0404871|
 
 ---
 
 
 
 
-### Fig 13 Octavo paper consumption
+### Fig. 13: Octavo paper consumption
 
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
@@ -162,7 +136,7 @@ Kungliga.
 
 ---
 
-### Fig 14: Octavo title length
+### Fig. 14: Octavo title length (word count)
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund,
 Göteborg and Linköping. According to Kungliga, except Turku from
@@ -173,29 +147,28 @@ Fennica. Only for octavo.
 ---
 
 
-### Fig 15: Different languages in Turku, Stockholm, Uppsala and Lund
+### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
 
 ![plot of chunk language-perc2](20170201_manuscript/language-perc2-1.png)
 
 ---
 
 
-### Fig 16: Topic richness per language (publications in Fennica)
+### Fig. 16: Topic richness per language (Fennica)
 
 ![plot of chunk topics232](20170201_manuscript/topics232-1.png)
 
 ---
 
 
-### Fig 17: Temporary sermons in Latin and Swedish
+### Fig. 17: Temporary sermons in Latin and Swedish
 
 ![plot of chunk topics882](20170201_manuscript/topics882-1.png)
 
 ---
 
 
-
-### Fig 18: Devotional literature (catechisms, hymns, prayers, etc.) 
+### Fig. 18: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
@@ -204,7 +177,7 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 ---
 
 
-### Fig 19: Publisher per city over time
+### Fig. 19: Publisher per city over time
 
 ![plot of chunk publishersper](20170201_manuscript/publishersper-1.png)
 
