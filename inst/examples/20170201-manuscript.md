@@ -20,14 +20,14 @@ fontsize: 13pt
 
 ### Fig. 1: Number of publication places over time
 
-![plot of chunk places_per_decade](20170201_manuscript/places_per_decade-1.png)
+![plot of chunk places_per_decade](figure/places_per_decade-1.png)
 
 ---
 
 
 ### Fig 2: Title count over time
 
-![plot of chunk unnamed-chunk-1](20170201_manuscript/unnamed-chunk-1-1.png)
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 ---
 
@@ -35,14 +35,14 @@ fontsize: 13pt
 
 Paper consumption for various document formats over time.
 
-<img src="20170201_manuscript/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="400px" /><img src="20170201_manuscript/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="400px" />
+<img src="figure/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="400px" /><img src="figure/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="400px" />
 
 ---
 
 
 ### Fig 4: Average title length (word count)
 
-![plot of chunk title_length_by_lang](20170201_manuscript/title_length_by_lang-1.png)
+![plot of chunk title_length_by_lang](figure/title_length_by_lang-1.png)
 
 ---
 
@@ -51,7 +51,7 @@ Paper consumption for various document formats over time.
 
 Proportions for title count and paper in Swedish University towns
  
-![plot of chunk comparisons](20170201_manuscript/comparisons-1.png)
+![plot of chunk comparisons](figure/comparisons-1.png)
 
 ---
 
@@ -59,14 +59,14 @@ Proportions for title count and paper in Swedish University towns
 ### Fig 6: Publishing activity over time
 
 
-![plot of chunk publishingovertime](20170201_manuscript/publishingovertime-1.png)
+![plot of chunk publishingovertime](figure/publishingovertime-1.png)
 
 ---
 
 
 ### Fig. 7: Riksdagar: Kungliga
 
-![plot of chunk riksdar_kungliga](20170201_manuscript/riksdar_kungliga-1.png)
+![plot of chunk riksdar_kungliga](figure/riksdar_kungliga-1.png)
 
 ---
 
@@ -74,21 +74,21 @@ Proportions for title count and paper in Swedish University towns
 
 ### Fig. 8: Riksdagar: Fennica
 
-![plot of chunk riksdar_fennica](20170201_manuscript/riksdar_fennica-1.png)
+![plot of chunk riksdar_fennica](figure/riksdar_fennica-1.png)
 
 ---
 
 
 ### Fig 9A: Fennica: Publishers in Swedish University towns (and Finland)
 
-![plot of chunk publishers2-finland](20170201_manuscript/publishers2-finland-1.png)
+![plot of chunk publishers2-finland](figure/publishers2-finland-1.png)
 
 
 
 ### Fig 9B: Kungliga: Publishers in Swedish University towns (and Finland)
 
 
-![plot of chunk kungliga9b](20170201_manuscript/kungliga9b-1.png)
+![plot of chunk kungliga9b](figure/kungliga9b-1.png)
 
 
 ### Fig 10: Publications in Vaasa in Fennica, 1750-1828
@@ -96,14 +96,14 @@ Proportions for title count and paper in Swedish University towns
 With percentage of all books that were not published by the printing house of the court.
 
 
-![plot of chunk publishers4-fennica](20170201_manuscript/publishers4-fennica-1.png)
+![plot of chunk publishers4-fennica](figure/publishers4-fennica-1.png)
 
 ---
 
 
 ### Fig 11: Top publishers in Turku/Fennica
 
-![plot of chunk publishers-fennica-11](20170201_manuscript/publishers-fennica-11-1.png)
+![plot of chunk publishers-fennica-11](figure/publishers-fennica-11-1.png)
 
 ---
 
@@ -113,7 +113,7 @@ With percentage of all books that were not published by the printing house of th
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-![plot of chunk percapita](20170201_manuscript/percapita-1.png)
+![plot of chunk percapita](figure/percapita-1.png)
 
 ---
 
@@ -126,7 +126,7 @@ Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
 Kungliga.
 
-![plot of chunk octavo](20170201_manuscript/octavo-1.png)
+![plot of chunk octavo](figure/octavo-1.png)
 
 
 ---
@@ -137,28 +137,28 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund,
 Göteborg and Linköping. According to Kungliga, except Turku from
 Fennica. Only for octavo.
 
-![plot of chunk octavo2](20170201_manuscript/octavo2-1.png)
+![plot of chunk octavo2](figure/octavo2-1.png)
 
 ---
 
 
 ### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
 
-![plot of chunk language-perc2](20170201_manuscript/language-perc2-1.png)
+![plot of chunk language-perc2](figure/language-perc2-1.png)
 
 ---
 
 
 ### Fig. 16: Topic richness per language (Fennica)
 
-![plot of chunk topics232](20170201_manuscript/topics232-1.png)
+![plot of chunk topics232](figure/topics232-1.png)
 
 ---
 
 
 ### Fig. 17: Temporary sermons in Latin and Swedish
 
-![plot of chunk topics882](20170201_manuscript/topics882-1.png)
+![plot of chunk topics882](figure/topics882-1.png)
 
 ---
 
@@ -167,14 +167,14 @@ Fennica. Only for octavo.
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-![plot of chunk topics12122](20170201_manuscript/topics12122-1.png)
+![plot of chunk topics12122](figure/topics12122-1.png)
 
 ---
 
 
 ### Fig. 19: Publisher per city over time
 
-![plot of chunk publishersper](20170201_manuscript/publishersper-1.png)
+![plot of chunk publishersper](figure/publishersper-1.png)
 
 
 
@@ -182,6 +182,10 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 This document was created with the following versions:
 
+
+```r
+sessionInfo()
+```
 
 ```
 ## R version 3.3.1 (2016-06-21)
@@ -232,21 +236,21 @@ This document was created with the following versions:
 ##  [61] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
 ##  [64] scales_0.4.1          parallel_3.3.1        biomformat_1.0.2     
 ##  [67] genderdata_0.5.0      rhdf5_2.16.0          RColorBrewer_1.1-2   
-##  [70] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
-##  [73] latticeExtra_0.6-28   stringi_1.1.3         maptree_1.4-7        
-##  [76] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
-##  [79] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
-##  [82] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
-##  [85] bitops_1.0-6          RgoogleMaps_1.4.1     compositions_1.40-1  
-##  [88] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
-##  [91] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
-##  [94] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
-##  [97] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
-## [100] RCurl_1.95-4.8        survival_2.40-1       nnet_7.3-12          
-## [103] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
-## [106] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
-## [109] digest_0.6.12         tm_0.6-2              stats4_3.3.1         
-## [112] munsell_0.4.3
+##  [70] yaml_2.1.14           memoise_1.0.0         geosphere_1.5-5      
+##  [73] rpart_4.1-10          latticeExtra_0.6-28   stringi_1.1.3        
+##  [76] maptree_1.4-7         RSQLite_1.0.0         highr_0.6            
+##  [79] S4Vectors_0.10.3      foreach_1.4.3         energy_1.7-0         
+##  [82] permute_0.9-4         BiocGenerics_0.18.0   bibtex_0.4.0         
+##  [85] boot_1.3-18           bitops_1.0-6          RgoogleMaps_1.4.1    
+##  [88] compositions_1.40-1   moments_0.14          matrixStats_0.51.0   
+##  [91] evaluate_0.10         lattice_0.20-34       labeling_0.3         
+##  [94] plyr_1.8.4            IRanges_2.6.1         Hmisc_4.0-0          
+##  [97] DBI_0.5-1             foreign_0.8-67        withr_1.0.2          
+## [100] mgcv_1.8-16           RCurl_1.95-4.8        survival_2.40-1      
+## [103] nnet_7.3-12           tibble_1.2            bayesm_3.0-2         
+## [106] jpeg_0.1-8            grid_3.3.1            data.table_1.10.0    
+## [109] vegan_2.4-1           digest_0.6.12         tm_0.6-2             
+## [112] stats4_3.3.1          munsell_0.4.3
 ```
 
 
