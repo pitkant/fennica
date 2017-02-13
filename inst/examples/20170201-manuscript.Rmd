@@ -77,8 +77,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n, shape = catalog, linetype = c
        geom_line(size = 1) + 
        ylab("Places (n)") + xlab("Publication year") +
        scale_color_manual(values = c("blue", "darkgreen")) + 
-       guides(shape = guide_legend(title = "Catalog")) +
-       guides(linetype = guide_legend(title = "Catalog")) +       
+       guides(shape = guide_legend(title = "Catalog", reverse = TRUE)) +
+       guides(linetype = guide_legend(title = "Catalog", reverse = TRUE)) +       
        ggtitle("Unique publication places")
 print(p)
 ```
@@ -110,7 +110,7 @@ print(p)
 
 Paper consumption for various document formats over time.
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=8, fig.height=5, fig.show="hold", out.width="400px"}
+```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=7, fig.height=4, fig.show="hold", out.width="400px"}
 for (catal in unique(df0$catalog)) {
   df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
