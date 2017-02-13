@@ -104,9 +104,9 @@ print(p)
 ---
 
 
-### Fig 3: Rise of the octavo sized book as vehicle of Enlightenment
+### Fig 3: Rise of the Octavo
 
-Paper consumption: different document formats over time
+Paper consumption for various document formats over time.
 
 ```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=9, fig.show="hold"}
 for (catal in unique(df0$catalog)) {

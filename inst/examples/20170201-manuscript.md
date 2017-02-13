@@ -1,7 +1,7 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-02-10"
+date: "2017-02-13"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -18,362 +18,101 @@ fontsize: 13pt
 ---
 
 
-## From particular data to global perspective?
+### Fig. 1: Number of publication places per decade
 
-**Idea**: Study early modern knowledge production, all of it (1470-1830)  
-
-**How?** Combine library catalogues (Fennica, Kungliga, ESTC, CERL HPB database)  
-
-**Important**: cleaning up the data (90% of the effort!) and considering how particular data collections (Finnish National Bibliography, English Short-Title Catalogue etc.) have been formed.  
-
-**How to fail**: take worldcat or similar combination of datasets and analyse it as a whole without cleaning it up first.  
-
-**Overcoming a national gaze** by focus on knowledge production through more complex cross-national network of cities
-
----
-
-### Data: bibliographic catalogues 1640-1828  
-
-**Fennica** Finnish National bibliography
-
-- 18533 documents 1640-1828
-
-**Kungliga**  Swedish National bibliography
-
-- 68850 documents 1640-1828
-
-**Why this project?**
-
-- Visible roots of the diversity of "Finnishness" reflected in knowledge production, 1640-1828
-
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
+![plot of chunk places_per_decade](20170201_manuscript/places_per_decade-1.png)
 
 ---
 
 
-## Methods: Open data analytical ecosystem
+### Fig 2: Number of documents per decade
 
-**Customized** our dedicated R packages for bibliographic analysis combine flexibility with automation
-
-**Automated** scales well with new data and unforeseen changes; a million documents cleaned up in 30 minutes
-
-**Open source** fully transparent and reproducible data analytics: https://github.com/rOpenGov/fennica
-
-**Research potential** greatly underestimated; world is full of metadata collections
-
-![Data Science Workflow](data-science.png)  
-\tiny{(Figure by Hadley Wickham)}
-
+![plot of chunk unnamed-chunk-1](20170201_manuscript/unnamed-chunk-1-1.png)
 
 ---
 
 
-
-## Preprocess & Enrich
-
-
-
-**Clean up messy entries**
-
-
-```r
-polish_physical_extent("iii-xxiv, 118, [2] p.")$pagecount
-```
-
-```
-## [1] 142
-```
-
-
-**Enrich data** (geocoordinates, gender, ..)
-
-
-```r
-get_country("Porvoo")
-```
-
-```
-## [1] "Finland"
-```
-
-- Parse, clean up, enrich, summarise, analyze, visualize, report..
-
----
-
-\begin{center}
-\Large{1. General trends and political events}
-\end{center}
-
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{General trends \& political events}}
-\end{center}
-
-### Turku as a Swedish University Town among Uppsala, Tartu and Stockholm (+ Lund & Greifswald)
-
-![plot of chunk map1](figure/map1-1.png)
-
-Map by Stamen
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{General trends \& political events}}
-\end{center}
-
-### Publishing activity over time
-
-- 1700-1721 Great Northern War & Fennica drop during "the Great Wrath"
-- 1760-1770 Pamphleteering plays a crucial role during abolished censorship
-- 1803-1815 Napoleonic wars
-
-<img src="figure/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
-
----
-
-
-\begin{center}
-\tiny{\textcolor{gray}{General trends \& political events}}
-\end{center}
-
-### Swedish knowledge production & cycles of representation
-
-An example how historical events, namely **parliamentary assemblies** in the Swedish case, have an effect on knowledge production.
-
-![plot of chunk riksdar5](figure/riksdar5-1.png)
-
----
-
-\begin{center}
-\Large{2. Publishers in Sweden and Turku}
-\end{center}
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{Publishers in Sweden and Turku}}
-\end{center}
-
-### Turku in Sweden: proportions for title count and paper in Swedish University towns
- 
-![plot of chunk comparisons](figure/comparisons-1.png)
-
----
-
-
-\begin{center}
-\tiny{\textcolor{gray}{Publishers in Sweden and Turku}}
-\end{center}
-
-### Publishers in Swedish University towns (and Finland)
-
-![plot of chunk publishers2-finland](figure/publishers2-finland-1.png)
-
-
----
-
-
-\begin{center}
-\tiny{\textcolor{gray}{Publishers in Sweden and Turku}}
-\end{center}
-
-### Top publishers in Turku/Fennica
-
-![plot of chunk publishers4-fennica](figure/publishers4-fennica-1.png)
-
----
-
-\begin{center}
-\Large{3. Languages and religious texts in Finland}
-\end{center}
-
----
-
-
-\begin{center}
-\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
-\end{center}
-
-### Different languages in Turku, Stockholm, Uppsala and Lund
-
-![plot of chunk language-perc2](figure/language-perc2-1.png)
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
-\end{center}
-
-### Topic richness per language (publications in Fennica)
-
-
-![plot of chunk topics232](figure/topics232-1.png)
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
-\end{center}
-
-### Devotional literature (catechisms, hymns, prayers, etc.) 
-
-Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
-
-![plot of chunk topics12122](figure/topics12122-1.png)
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{Languages \& religious texts in Finland}}
-\end{center}
-
-### Temporary sermons in Latin and Swedish
-
-- Important role in early modern knowledge production. Language of temporary sermons in contrast to devotional literature has not been analysed in Finland (and Sweden). 
-
-![plot of chunk topics882](figure/topics882-1.png)
-
----
-
-\begin{center}
-\Large{4. University curriculum and Enlightenment in Finland}
-\end{center}
-
----
-
-
-\begin{center}
-\tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
-\end{center}
-
-### Dissertation languages in Turku 1640-1828
-
-![plot of chunk disslang](figure/disslang-1.png)
-
----
-
-
-\begin{center}
-\tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
-\end{center}
-
-### Printing by topics in different languages in Turku
-
-![plot of chunk topics-103B](figure/topics-103B-1.png)
-
-
----
-
-\begin{center}
-\tiny{\textcolor{gray}{University curriculum \& Enlightenment in Finland}}
-\end{center}
-
-### Rise of the octavo sized book as vehicle of Enlightenment
+### Fig 3: Rise of the octavo sized book as vehicle of Enlightenment
 
 Paper consumption: different document formats over time
 
-<img src="figure/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" /><img src="figure/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="160px" />
-
----
-
-##Thanks !
-
-Institutional support:
-
-- Academy of Finland
-- University of Helsinki
-- Digitalia / The Regional Council of South Savo
-
-Data providers:
-
-- National Library of Finland
-- National Library of Sweden
-
-Code infrastructure:
-
-- Github
-- R project
-
-For more info, see: 
-
-- \textcolor{blue}{https://github.com/rOpenGov/fennica}
-
-\begin{figure}
-\begin{tabular}{cccccc}
-\includegraphics[width=2cm,height=2cm]{aka.png}&
-\includegraphics[width=1cm,height=1cm]{HY-CC.png}&
-\includegraphics[width=1cm,height=1cm]{kansalliskirjasto.png}&
-\includegraphics[width=1cm,height=1cm]{kungliga.png}&
-\includegraphics[width=1cm,height=1cm]{github-logo.png}&
-\includegraphics[width=1cm,height=1cm]{Rlogo.png}
-\end{tabular}
-\end{figure}
+![plot of chunk LIBER-13](20170201_manuscript/LIBER-13-1.png)![plot of chunk LIBER-13](20170201_manuscript/LIBER-13-2.png)
 
 ---
 
 
-### Duplicate publications in Fennica/Kungliga
+### Fig 4: Average title length (word count)
 
-![plot of chunk duplicates](figure/duplicates-1.png)
+![plot of chunk title_length_by_lang](20170201_manuscript/title_length_by_lang-1.png)
 
-
-
-
+---
 
 
+### Fig 5: Turku in Sweden: proportions for title count and paper in Swedish University towns
+ 
+![plot of chunk comparisons](20170201_manuscript/comparisons-1.png)
+
+---
 
 
-![plot of chunk title_length](figure/title_length-1.png)
+### Fig 6: Publishing activity over time
 
 
-![plot of chunk title_length_by_gatherings](figure/title_length_by_gatherings-1.png)
+<img src="20170201_manuscript/publishingovertime-1.png" title="plot of chunk publishingovertime" alt="plot of chunk publishingovertime" width="300px" />
+
+---
 
 
-![plot of chunk title_length_by_lang](figure/title_length_by_lang-1.png)
+### Fig. 7: Riksdagar Kungliga
 
+![plot of chunk riksdar_kungliga](20170201_manuscript/riksdar_kungliga-1.png)
 
-
-
-
-### Kungliga / Linkoping
-
-
-
-
-[Document listing for Kungliga / Linköping 1640 - 1828](output.tables/Linkoping.tab)
-
-
-### Title count in Linköping
-
-![plot of chunk linkoping2](figure/linkoping2-1.png)
-
-
-### Unique publishers in Linköping by year
-
-Never two publishers seen on the same year.
-
-
-| publication_year|publisher                   |
-|----------------:|:---------------------------|
-|             1664|Kämpe                       |
-|             1675|[Daniel Kempe]              |
-|             1756|Linköpings stifts tidningar |
-|             1793|Linköpings stiftsbibliotek  |
-|             1797|Björn                       |
-|             1809|Groth & Petré               |
-|             1810|Groth & Petré               |
-|             1815|Petre och Abrahamsson       |
-|             1819|Petre och Abrahamsson       |
+---
 
 
 
-### Title count per capita
+### Fig. 8: Riksdagar Fennica
+
+
+![plot of chunk riksdar_fennica](20170201_manuscript/riksdar_fennica-1.png)
+
+---
+
+
+### Fig 9A: Fennica - Publishers in Swedish University towns (and Finland)
+
+
+![plot of chunk publishers2-finland](20170201_manuscript/publishers2-finland-1.png)
+
+
+
+### Fig 9B: Kungliga - Publishers in Swedish University towns (and Finland)
+
+
+![plot of chunk kungliga9b](20170201_manuscript/kungliga9b-1.png)
+
+
+### Fig 10: Publications in Vaasa in Fennica, 1750-1828, with percentage of all books that were not published by the printing house of the court
+
+
+![plot of chunk publishers4-fennica](20170201_manuscript/publishers4-fennica-1.png)
+
+---
+
+
+### Fig 11: Top publishers in Turku/Fennica
+
+![plot of chunk publishers-fennica-11](20170201_manuscript/publishers-fennica-11-1.png)
+
+---
+
+
+
+### IMAGE 12: Title count per capita
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-![plot of chunk percapita](figure/percapita-1.png)
+![plot of chunk percapita](20170201_manuscript/percapita-1.png)
 
 | publication_decade|publication_place | population|    n| titles_per_capita|
 |------------------:|:-----------------|----------:|----:|-----------------:|
@@ -386,7 +125,7 @@ The historical population sizes used in this analysis are shown in this [table](
 |               1690|Turku             |       5882|  721|         0.1225774|
 |               1730|Turku             |       4353|  555|         0.1274983|
 |               1770|Turku             |       7952| 1153|         0.1449950|
-|               1810|Turku             |      11387|  355|         0.0311759|
+|               1810|Turku             |      11387|  354|         0.0310881|
 |               1650|Uppsala           |       2216|   49|         0.0221119|
 |               1690|Uppsala           |       2487|   62|         0.0249296|
 |               1730|Uppsala           |       3774|  143|         0.0378908|
@@ -407,35 +146,74 @@ The historical population sizes used in this analysis are shown in this [table](
 |               1770|Linkoping         |       2325|   52|         0.0223656|
 |               1810|Linkoping         |       3285|  133|         0.0404871|
 
+---
 
-![plot of chunk abstitlecount](figure/abstitlecount-1.png)
 
 
-### Octavo analysis 
+
+### Fig 13 Octavo paper consumption
 
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
-Lund, Göteborg and Linköping. Again Turku from Fennica, other cities
-from Kungliga.
+Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
+Kungliga.
 
-![plot of chunk octavo](figure/octavo-1.png)
+![plot of chunk octavo](20170201_manuscript/octavo-1.png)
 
+
+---
+
+### Fig 14: Octavo title length
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund,
 Göteborg and Linköping. According to Kungliga, except Turku from
-Fennica. For octavos only,
+Fennica. Only for octavo.
+
+![plot of chunk octavo2](20170201_manuscript/octavo2-1.png)
+
+---
 
 
-![plot of chunk octavo2](figure/octavo2-1.png)
+### Fig 15: Different languages in Turku, Stockholm, Uppsala and Lund
+
+![plot of chunk language-perc2](20170201_manuscript/language-perc2-1.png)
+
+---
+
+
+### Fig 16: Topic richness per language (publications in Fennica)
+
+![plot of chunk topics232](20170201_manuscript/topics232-1.png)
+
+---
+
+
+### Fig 17: Temporary sermons in Latin and Swedish
+
+![plot of chunk topics882](20170201_manuscript/topics882-1.png)
+
+---
+
+
+
+### Fig 18: Devotional literature (catechisms, hymns, prayers, etc.) 
+
+Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
+
+![plot of chunk topics12122](20170201_manuscript/topics12122-1.png)
+
+---
+
+
+### Fig 19: Publisher per city over time
+
+![plot of chunk publishersper](20170201_manuscript/publishersper-1.png)
+
 
 
 ## Session info
 
 This document was created with the following versions:
 
-
-```r
-sessionInfo()
-```
 
 ```
 ## R version 3.3.1 (2016-06-21)
@@ -454,50 +232,53 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] gisfin_0.9.27         R6_2.2.0              rgdal_1.2-4          
-##  [4] sp_1.2-3              ggmap_2.6.1           stringr_1.1.0        
-##  [7] microbiome_0.99.88    phyloseq_1.16.2       knitr_1.15.1         
-## [10] gridExtra_2.2.1       reshape2_1.4.2        tidyr_0.6.0          
-## [13] ggplot2_2.2.1         magrittr_1.5          sorvi_0.7.26         
-## [16] dplyr_0.5.0           devtools_1.12.0       fennica_0.1.43       
-## [19] bibliographica_0.2.31
+##  [1] knitcitations_1.0.7   microbiome_0.99.88    phyloseq_1.16.2      
+##  [4] knitr_1.15.1          rmarkdown_1.2.9000    gridExtra_2.2.1      
+##  [7] magrittr_1.5          devtools_1.12.0       sorvi_0.7.26         
+## [10] fennica_0.1.43        bibliographica_0.2.31 reshape2_1.4.2       
+## [13] tidyr_0.6.0           stringr_1.1.0         gisfin_0.9.27        
+## [16] R6_2.2.0              rgdal_1.2-4           sp_1.2-3             
+## [19] ggmap_2.6.1           ggplot2_2.2.1         dplyr_0.5.0          
 ## 
 ## loaded via a namespace (and not attached):
-##   [1] colorspace_1.3-0      deldir_0.1-12         rjson_0.2.15         
-##   [4] babynames_0.2.1       dynamicTreeCut_1.63-1 htmlTable_1.7        
-##   [7] XVector_0.12.1        AnnotationDbi_1.34.4  codetools_0.2-15     
-##  [10] splines_3.3.1         doParallel_1.0.10     impute_1.46.0        
-##  [13] robustbase_0.92-6     tgp_2.4-14            ade4_1.7-4           
-##  [16] Formula_1.2-1         jsonlite_1.1          Cairo_1.5-9          
-##  [19] WGCNA_1.51            cluster_2.0.5         GO.db_3.3.0          
-##  [22] png_0.1-7             mapproj_1.2-4         assertthat_0.1       
-##  [25] Matrix_1.2-7.1        lazyeval_0.2.0        acepack_1.4.1        
-##  [28] htmltools_0.3.5       tools_3.3.1           igraph_1.0.1         
-##  [31] NLP_0.1-9             coda_0.18-1           gtable_0.2.0         
-##  [34] gmodels_2.16.2        maps_3.1.1            Rcpp_0.12.9          
-##  [37] slam_0.1-38           Biobase_2.32.0        Biostrings_2.40.2    
-##  [40] multtest_2.28.0       spdep_0.6-8           gdata_2.17.0         
-##  [43] ape_3.5               preprocessCore_1.34.0 nlme_3.1-128         
-##  [46] iterators_1.0.8       tensorA_0.36          fastcluster_1.1.21   
-##  [49] gender_0.5.1          proto_1.0.0           gtools_3.5.0         
-##  [52] XML_3.98-1.5          stringdist_0.9.4.2    DEoptimR_1.0-6       
-##  [55] LearnBayes_2.15       zlibbioc_1.18.0       MASS_7.3-45          
-##  [58] scales_0.4.1          parallel_3.3.1        biomformat_1.0.2     
-##  [61] genderdata_0.5.0      rhdf5_2.16.0          RColorBrewer_1.1-2   
-##  [64] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
-##  [67] latticeExtra_0.6-28   stringi_1.1.3         maptree_1.4-7        
-##  [70] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
-##  [73] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
-##  [76] BiocGenerics_0.18.0   boot_1.3-18           RgoogleMaps_1.4.1    
-##  [79] compositions_1.40-1   moments_0.14          matrixStats_0.51.0   
-##  [82] evaluate_0.10         lattice_0.20-34       labeling_0.3         
-##  [85] plyr_1.8.4            IRanges_2.6.1         Hmisc_4.0-0          
-##  [88] DBI_0.5-1             foreign_0.8-67        withr_1.0.2          
-##  [91] mgcv_1.8-16           survival_2.40-1       nnet_7.3-12          
-##  [94] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
-##  [97] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
-## [100] digest_0.6.12         tm_0.6-2              stats4_3.3.1         
-## [103] munsell_0.4.3
+##   [1] colorspace_1.3-0      rjson_0.2.15          deldir_0.1-12        
+##   [4] babynames_0.2.1       dynamicTreeCut_1.63-1 rprojroot_1.1        
+##   [7] htmlTable_1.7         XVector_0.12.1        lubridate_1.6.0      
+##  [10] AnnotationDbi_1.34.4  RefManageR_0.13.1     codetools_0.2-15     
+##  [13] splines_3.3.1         doParallel_1.0.10     robustbase_0.92-6    
+##  [16] impute_1.46.0         tgp_2.4-14            ade4_1.7-4           
+##  [19] Formula_1.2-1         jsonlite_1.1          WGCNA_1.51           
+##  [22] cluster_2.0.5         GO.db_3.3.0           png_0.1-7            
+##  [25] httr_1.2.1            mapproj_1.2-4         backports_1.0.4      
+##  [28] assertthat_0.1        Matrix_1.2-7.1        lazyeval_0.2.0       
+##  [31] acepack_1.4.1         htmltools_0.3.5       tools_3.3.1          
+##  [34] igraph_1.0.1          NLP_0.1-9             coda_0.18-1          
+##  [37] gtable_0.2.0          maps_3.1.1            gmodels_2.16.2       
+##  [40] Rcpp_0.12.9           slam_0.1-38           Biobase_2.32.0       
+##  [43] RJSONIO_1.3-0         Biostrings_2.40.2     multtest_2.28.0      
+##  [46] spdep_0.6-8           gdata_2.17.0          ape_3.5              
+##  [49] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
+##  [52] tensorA_0.36          fastcluster_1.1.21    gender_0.5.1         
+##  [55] proto_1.0.0           gtools_3.5.0          XML_3.98-1.5         
+##  [58] stringdist_0.9.4.2    DEoptimR_1.0-6        LearnBayes_2.15      
+##  [61] zlibbioc_1.18.0       MASS_7.3-45           scales_0.4.1         
+##  [64] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
+##  [67] rhdf5_2.16.0          RColorBrewer_1.1-2    yaml_2.1.14          
+##  [70] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
+##  [73] maptree_1.4-7         latticeExtra_0.6-28   stringi_1.1.3        
+##  [76] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
+##  [79] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
+##  [82] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
+##  [85] bitops_1.0-6          moments_0.14          RgoogleMaps_1.4.1    
+##  [88] compositions_1.40-1   matrixStats_0.51.0    evaluate_0.10        
+##  [91] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
+##  [94] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
+##  [97] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
+## [100] RCurl_1.95-4.8        survival_2.40-1       nnet_7.3-12          
+## [103] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
+## [106] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
+## [109] digest_0.6.12         tm_0.6-2              stats4_3.3.1         
+## [112] munsell_0.4.3
 ```
 
 
