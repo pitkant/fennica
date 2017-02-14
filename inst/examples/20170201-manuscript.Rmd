@@ -164,7 +164,7 @@ for (catal in unique(df00$catalog)) {
 ```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # Analysis time window
 df <- df0 %>% filter(publication_year >= 1640 & publication_year <= 1911) %>%
-              group_by(publication_decade) %>%
+              group_by(catalog, publication_decade) %>%
               summarize(mean_title_length = mean(title_length_wordcount),
 	      		n = n())
 
@@ -175,7 +175,7 @@ for (catal in unique(df$catalog)) {
        geom_line(size = 1) +
        ylab("Title length (word count)") +
        xlab("Publication decade") +
-       ggtitle(paste("Title length (", catal, ")", sep = ""))
+       ggtitle(paste("Mean title length (", catal, ")", sep = ""))
 
   print(p)
 }
@@ -387,7 +387,6 @@ library(reshape2)
                1823-.5, 1823+.5, #
                1828-.5, 1830+.5, #
 
-
                max(na.omit(dfm$date)))
   rectangles <- data.frame(
     xmin = rect_left[-length(rect_left)],
@@ -397,7 +396,6 @@ library(reshape2)
     )
 
   rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
-
   riksplace <- c(rep("Unknown", 2), "Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", rep("Unknown", 3), "Gävle", rep("Unknown", 7))
   #cols <- c("white", "Purple", "yellow", "orange", "darkgray")
   cols <- c("white", "lightgray", "gray", "darkgray")
@@ -478,7 +476,26 @@ library(reshape2)
                1713-.5, 1714+.5, #
 	       
                1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
+               1720-.5, 1720+.5, # Stockholm 20 januari 1719 1 juni 1719
+               1723-.5, 1723+.5, # Stockholm 20 januari 1719 1 juni 1719
+
+               1726-.5, 1727+.5, # Stockholm 20 januari 1719 1 juni 1719
+
+               1731-.5, 1731+.5, # Stockholm 20 januari 1719 1 juni 1719	       	       
+	       
                1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
+
+               1738-.5, 1739+.5, #
+
+               1740-.5, 1741+.5, #
+
+               1742-.5, 1743+.5, #
+               1746-.5, 1747+.5, #
+
+               1751-.5, 1752+.5, #
+               1755-.5, 1756+.5, #
+               1760-.5, 1762+.5, #
+	       
                1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
                1769-.5, 1770+.5, # Norrköping & Stockholm 22 april 1769 5 februari 1770
                1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
@@ -506,15 +523,15 @@ library(reshape2)
     ymax = ymax
     )
 
-  rectangles$shade <- rep(c("Background", "Highlight"),
-  		          length = nrow(rectangles))
-
+  rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
   riksplace <- c(rep("Unknown", 2), "Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", rep("Unknown", 3), "Gävle", rep("Unknown", 7))
-  cols <- c("white", "gray", "darkgray")
+  cols <- c("white", "lightgray", "gray", "darkgray")
+  rectangles$shade[rectangles$shade == "Highlight"] <- rep(cols, length(which(rectangles$shade == "Highlight")))
+  rectangles$shade <- factor(rectangles$shade)  
+
   rectangles$place <- rectangles$shade
   rectangles$place[rectangles$place == "Highlight"] <- riksplace
   rectangles$place[rectangles$place == "Background"] <- "" 
-  rectangles$shade <- factor(rectangles$shade)
 
   # Draw Figure
   theme_set(theme_bw(20))
@@ -523,7 +540,7 @@ library(reshape2)
            aes(xmin=xmin, xmax=xmax,
 	       ymin=ymin, ymax=ymax,
 	       fill=shade), alpha=0.8) +
-         scale_fill_manual(values = cols) +
+         scale_fill_brewer(palette="Greys") +
 	 guides(fill = "none")
 
   p <- p + geom_text(data = rectangles, angle = 90, aes(x=xmin + .5, y=.9*ymax, label=place), size = 6)
@@ -590,7 +607,7 @@ npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npu
 
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
-       geom_bar(stat = "identity", position = "stack",
+       geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +
@@ -654,7 +671,7 @@ npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npu
 
 theme_set(theme_bw(20))
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
-       geom_bar(stat = "identity", position = "stack",
+       geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +
@@ -669,8 +686,6 @@ print(p)
 
 
 ### Fig 10: Publications in Vaasa in Fennica, 1750-1828
-
-With percentage of all books that were not published by the printing house of the court.
 
 
 ```{r Fig10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
@@ -688,6 +703,7 @@ df <- df0 %>% filter(catalog == catalogue & publication_place == place) %>%
 p <- ggplot(df, aes(x = publication_year, y = n)) +
      geom_bar(stat = "identity") +
      ggtitle("") +
+     scale_x_continuous(breaks = seq(minyear, maxyear, 5)) +
      xlab("Publication year") +
      ylab("Title count")
 
@@ -845,8 +861,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n)) +
        geom_line(aes(linetype = publication_place), size = 1) +
        geom_point(aes(shape = publication_place), size = 5) +
        xlab("Publication decade") +
-       ylab("Title count per capita (n)") +
-       ggtitle("Title count per capita") +
+       ylab("Title count (n)") +
+       ggtitle("Title count (absolute)") +
        guides(shape = guide_legend(title = "Place")) +
        guides(linetype = guide_legend(title = "Place")) 
 print(p)
@@ -926,14 +942,14 @@ df <- bind_rows(df1, df2)
 df$publication_place[!df$publication_place == "Stockholm"] <- "Other"
 
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
-       geom_line(aes(linetype = publication_place), size = 1) +
-       geom_point(aes(shape = publication_place), size = 5) +
+       geom_bar(aes(fill = publication_place), position = "dodge", stat = "identity") +
        xlab("Publication year") +
        ylab("Title length (words)") +
        ggtitle("Mean title length") +
-       guides(shape = guide_legend(title = "Place")) +
-       guides(linetype= guide_legend(title = "Place"))        
+       scale_fill_manual(values = c("darkgray", "black")) +
+       guides(fill = guide_legend(title = "Place", reverse = TRUE))        
 print(p)
+
 ```
 
 ---

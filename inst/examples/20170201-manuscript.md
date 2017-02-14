@@ -42,7 +42,7 @@ Paper consumption for various document formats over time.
 
 ### Fig 4: Average title length (word count)
 
-
+![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)![plot of chunk Fig4](20170201_manuscript/Fig4-2.png)
 
 ---
 
@@ -94,8 +94,6 @@ All towns from Kungliga.
 
 
 ### Fig 10: Publications in Vaasa in Fennica, 1750-1828
-
-With percentage of all books that were not published by the printing house of the court.
 
 
 ![plot of chunk Fig10](20170201_manuscript/Fig10-1.png)
