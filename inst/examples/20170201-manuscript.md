@@ -42,7 +42,7 @@ Paper consumption for various document formats over time.
 
 ### Fig 4: Average title length (word count)
 
-![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)![plot of chunk Fig4](20170201_manuscript/Fig4-2.png)
+![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)
 
 ---
 
@@ -56,7 +56,7 @@ Proportions for title count and paper in Swedish University towns
 ---
 
 
-### Fig 6: Publishing activity over time
+### Fig 6: Publishing activity over time (Kungliga)
 
 ![plot of chunk Fig6](20170201_manuscript/Fig6-1.png)
 

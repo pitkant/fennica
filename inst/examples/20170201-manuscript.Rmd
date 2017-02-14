@@ -168,17 +168,20 @@ df <- df0 %>% filter(publication_year >= 1640 & publication_year <= 1911) %>%
               summarize(mean_title_length = mean(title_length_wordcount),
 	      		n = n())
 
-for (catal in unique(df$catalog)) {
-  dfs <- subset(df, catalog == catal)
-  p <- ggplot(dfs, aes(x = publication_decade, y = mean_title_length)) +
-       geom_point(aes(size = n), size = 5) +
-       geom_line(size = 1) +
+
+
+  p <- ggplot(df, aes(x = publication_decade, y = mean_title_length, fill = catalog)) +
+       geom_bar(stat = "identity", color = "black", position = "dodge") +
+       #geom_point(aes(size = n), size = 5) +
+       #geom_line(size = 1) +
+       scale_fill_manual(values = c("darkgray", "black")) +
+       guides(fill = guide_legend(title = "Place", reverse = TRUE)) +       
        ylab("Title length (word count)") +
        xlab("Publication decade") +
        ggtitle(paste("Mean title length (", catal, ")", sep = ""))
 
   print(p)
-}
+
 ```
 
 ---
@@ -253,7 +256,7 @@ rm(pics)
 ---
 
 
-### Fig 6: Publishing activity over time
+### Fig 6: Publishing activity over time (Kungliga)
 
 ```{r Fig6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
 library(magrittr)
@@ -272,6 +275,7 @@ df$period <- cut(df$publication_year,
 df$period <- gsub("\\[", "", df$period)
 df$period <- gsub("\\)", "", df$period)
 df$period <- gsub(",", ",", df$period)
+df$period <- gsub("\\]", ",", df$period)
 
 # Remove entries outside the investigated publication periods
 df.all <- df %>% filter(!is.na(period)) %>%
@@ -543,7 +547,7 @@ library(reshape2)
          scale_fill_brewer(palette="Greys") +
 	 guides(fill = "none")
 
-  p <- p + geom_text(data = rectangles, angle = 90, aes(x=xmin + .5, y=.9*ymax, label=place), size = 6)
+  # p <- p + geom_text(data = rectangles, angle = 90, aes(x=xmin + .5, y=.9*ymax, label=place), size = 6)
 	     
   p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
   p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
@@ -705,7 +709,7 @@ p <- ggplot(df, aes(x = publication_year, y = n)) +
      ggtitle("") +
      scale_x_continuous(breaks = seq(minyear, maxyear, 5)) +
      xlab("Publication year") +
-     ylab("Title count")
+     ylab("Title count (n)")
 
 print(p)
 ```
