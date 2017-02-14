@@ -1,7 +1,7 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-02-13"
+date: "2017-02-14"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -20,14 +20,14 @@ fontsize: 13pt
 
 ### Fig. 1: Number of publication places over time
 
-![plot of chunk places_per_decade](figure/places_per_decade-1.png)
+![plot of chunk Fig1](20170201_manuscript/Fig1-1.png)
 
 ---
 
 
 ### Fig 2: Title count over time
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
+![plot of chunk Fig2](20170201_manuscript/Fig2-1.png)
 
 ---
 
@@ -35,14 +35,14 @@ fontsize: 13pt
 
 Paper consumption for various document formats over time.
 
-<img src="figure/LIBER-13-1.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="400px" /><img src="figure/LIBER-13-2.png" title="plot of chunk LIBER-13" alt="plot of chunk LIBER-13" width="400px" />
+<img src="20170201_manuscript/Fig3-1.png" title="plot of chunk Fig3" alt="plot of chunk Fig3" width="400px" /><img src="20170201_manuscript/Fig3-2.png" title="plot of chunk Fig3" alt="plot of chunk Fig3" width="400px" />
 
 ---
 
 
 ### Fig 4: Average title length (word count)
 
-![plot of chunk title_length_by_lang](figure/title_length_by_lang-1.png)
+
 
 ---
 
@@ -51,43 +51,46 @@ Paper consumption for various document formats over time.
 
 Proportions for title count and paper in Swedish University towns
  
-![plot of chunk comparisons](figure/comparisons-1.png)
+![plot of chunk Fig5](20170201_manuscript/Fig5-1.png)
 
 ---
 
 
 ### Fig 6: Publishing activity over time
 
-![plot of chunk publishingovertime](figure/publishingovertime-1.png)
+![plot of chunk Fig6](20170201_manuscript/Fig6-1.png)
 
 ---
 
 
-### Fig. 7: Publishing activity and riksdagar: Kungliga
+### Fig. 7A: Publishing activity and riksdagar: Kungliga
 
-![plot of chunk riksdar_kungliga](figure/riksdar_kungliga-1.png)
-
----
-
-
-
-### Fig. 8: Publishing activity and riksdagar: Fennica
-
-![plot of chunk riksdar_fennica](figure/riksdar_fennica-1.png)
+![plot of chunk Fig7A](20170201_manuscript/Fig7A-1.png)
 
 ---
 
 
-### Fig 9A: Fennica: Publishers in Swedish University towns (and Finland)
 
-![plot of chunk publishers2-finland](figure/publishers2-finland-1.png)
+### Fig. 7B: Publishing activity and riksdagar: Fennica
+
+![plot of chunk Fig7B](20170201_manuscript/Fig7B-1.png)
+
+---
+
+
+### Fig 8: Publishers in Swedish University towns (Fennica)
+
+Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
+
+![plot of chunk Fig8](20170201_manuscript/Fig8-1.png)
 
 
 
-### Fig 9B: Kungliga: Publishers in Swedish University towns (and Finland)
+### Fig 9: Publishers in Swedish University towns (Kungliga)
 
+All towns from Kungliga.
 
-![plot of chunk kungliga9b](figure/kungliga9b-1.png)
+![plot of chunk Fig9](20170201_manuscript/Fig9-1.png)
 
 
 ### Fig 10: Publications in Vaasa in Fennica, 1750-1828
@@ -95,14 +98,14 @@ Proportions for title count and paper in Swedish University towns
 With percentage of all books that were not published by the printing house of the court.
 
 
-![plot of chunk publishers4-fennica](figure/publishers4-fennica-1.png)
+![plot of chunk Fig10](20170201_manuscript/Fig10-1.png)
 
 ---
 
 
 ### Fig 11: Top publishers in Turku/Fennica
 
-![plot of chunk publishers-fennica-11](figure/publishers-fennica-11-1.png)
+![plot of chunk Fig11](20170201_manuscript/Fig11-1.png)
 
 ---
 
@@ -112,68 +115,73 @@ With percentage of all books that were not published by the printing house of th
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-![plot of chunk percapita](figure/percapita-1.png)
+![plot of chunk Fig12](20170201_manuscript/Fig12-1.png)
+
+---
+
+
+
+### Fig. 13: Title count (absolute)
+
+![plot of chunk Fig13](20170201_manuscript/Fig13-1.png)
 
 ---
 
 
 
 
-### Fig. 13: Octavo paper consumption
+### Fig. 14: Octavo paper consumption
 
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
 Kungliga.
 
-![plot of chunk octavo](figure/octavo-1.png)
+![plot of chunk Fig14](20170201_manuscript/Fig14-1.png)
 
 
 ---
 
-### Fig. 14: Octavo title length (word count)
+
+### Fig. 15: Octavo title length (word count)
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund,
 Göteborg and Linköping. According to Kungliga, except Turku from
-Fennica. Only for octavo.
+Fennica. 
 
-![plot of chunk octavo2](figure/octavo2-1.png)
-
----
-
-
-### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
-
-![plot of chunk language-perc2](figure/language-perc2-1.png)
+![plot of chunk Fig15](20170201_manuscript/Fig15-1.png)
 
 ---
 
 
-### Fig. 16: Topic richness per language (Fennica)
+### Fig 16: Language use in Turku, Stockholm, Uppsala and Lund
 
-![plot of chunk topics232](figure/topics232-1.png)
-
----
-
-
-### Fig. 17: Temporary sermons in Latin and Swedish
-
-![plot of chunk topics882](figure/topics882-1.png)
+![plot of chunk Fig16](20170201_manuscript/Fig16-1.png)
 
 ---
 
 
-### Fig. 18: Devotional literature (catechisms, hymns, prayers, etc.) 
+### Fig. 17: Topic richness per language (Fennica)
+
+![plot of chunk Fig17](20170201_manuscript/Fig17-1.png)
+
+---
+
+
+### Fig. 18: Temporary sermons in Latin and Swedish
+
+
+![plot of chunk Fig18](20170201_manuscript/Fig18-1.png)
+
+---
+
+
+### Fig. 19: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-![plot of chunk topics12122](figure/topics12122-1.png)
+![plot of chunk Fig19](20170201_manuscript/Fig19-1.png)
 
 ---
-
-
-### Fig. 19: Publisher per city over time
-
-![plot of chunk publishersper](figure/publishersper-1.png)
 
 
 
@@ -181,10 +189,6 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 This document was created with the following versions:
 
-
-```r
-sessionInfo()
-```
 
 ```
 ## R version 3.3.1 (2016-06-21)

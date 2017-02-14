@@ -55,12 +55,13 @@ theme_set(theme_bw(26))
 df.combined.preprocessed <- readRDS("df.combined.Rds")
 # Data with duplicates removed
 df.full <- df.combined.preprocessed %>% filter(!remove)
+# Calculate title length (nchar and word count)
+df.full$title_length_nchar <- nchar(df.full$title)
+df.full$title_length_wordcount <- sapply(strsplit(df.full$title, " "), length)
+df.full$title_length_wordcount[is.na(df.full$title)] <- NA
+
 # Data with years limited as well
 df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
-# Calculate title length (nchar and word count)
-df0$title_length_nchar <- nchar(df0$title)
-df0$title_length_wordcount <- sapply(strsplit(df0$title, " "), length)
-df0$title_length_wordcount[is.na(df0$title)] <- NA
 ```
 
 ---
@@ -68,7 +69,7 @@ df0$title_length_wordcount[is.na(df0$title)] <- NA
 
 ### Fig. 1: Number of publication places over time
 
-```{r places_per_decade, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
+```{r Fig1, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
 library(dplyr)
 library(ggplot2)
 theme_set(theme_bw(20))
@@ -91,7 +92,7 @@ print(p)
 
 ### Fig 2: Title count over time
 
-```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
+```{r Fig2, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
 library(dplyr)
 library(ggplot2)
 theme_set(theme_bw(20))
@@ -113,14 +114,23 @@ print(p)
 
 Paper consumption for various document formats over time.
 
-```{r LIBER-13, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, fig.show="hold", out.width="400px"}
-for (catal in unique(df0$catalog)) {
-  df2 <- subset(df0, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n())
+```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, fig.show="hold", out.width="400px"}
+
+
+for (catal in unique(df00$catalog)) {
+
+  if (catal == "Kungliga") {
+    df00 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
+  } else if (catal == "Fennica") {
+    df00 <- df.full %>% filter(publication_year >= min.year & publication_year <= 1900)
+  }
+
+  df2 <- subset(df00, catalog == catal) %>% group_by(publication_decade, gatherings) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n())
 
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 20)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
-  df2$gatherings <- factor(df2$gatherings, levels = levels(df0$gatherings))
+  df2$gatherings <- factor(df2$gatherings, levels = levels(df.full$gatherings))
 
   p <- ggplot(df2, aes(y = paper,
                        x = publication_decade,
@@ -151,31 +161,24 @@ for (catal in unique(df0$catalog)) {
 
 ### Fig 4: Average title length (word count)
 
-```{r title_length_by_lang, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
-dfo <- df0
-
+```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 # Analysis time window
-dfo <- dfo %>% filter(publication_year >= 1640 & publication_year <= 1911)
-
-top.language <- setdiff(names(top(dfo, "language", 11)), "NA")
-
-df <- dfo %>% filter(language %in% top.language) %>%
-              group_by(publication_decade, language) %>%
+df <- df0 %>% filter(publication_year >= 1640 & publication_year <= 1911) %>%
+              group_by(publication_decade) %>%
               summarize(mean_title_length = mean(title_length_wordcount),
 	      		n = n())
 
-p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
-       geom_point(aes(size = n, shape = language), size = 5) +
-       geom_line(aes(linetype = language), size = 1) +
-       guides(
-            shape = guide_legend(title = "Language"),
-            linetype = guide_legend(title = "Language")
-	    ) +
+for (catal in unique(df$catalog)) {
+  dfs <- subset(df, catalog == catal)
+  p <- ggplot(dfs, aes(x = publication_decade, y = mean_title_length)) +
+       geom_point(aes(size = n), size = 5) +
+       geom_line(size = 1) +
        ylab("Title length (word count)") +
        xlab("Publication decade") +
-       ggtitle("Title length")
+       ggtitle(paste("Title length (", catal, ")", sep = ""))
 
-print(p)
+  print(p)
+}
 ```
 
 ---
@@ -185,7 +188,7 @@ print(p)
 
 Proportions for title count and paper in Swedish University towns
  
-```{r comparisons, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
+```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -252,7 +255,7 @@ rm(pics)
 
 ### Fig 6: Publishing activity over time
 
-```{r publishingovertime, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
+```{r Fig6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
 library(magrittr)
 library(ggplot2)
 library(dplyr)
@@ -304,9 +307,9 @@ print(p)
 ---
 
 
-### Fig. 7: Publishing activity and riksdagar: Kungliga
+### Fig. 7A: Publishing activity and riksdagar: Kungliga
 
-```{r riksdar_kungliga, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+```{r Fig7A, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 
 minyear <- 1700
 maxyear <- 1830
@@ -346,7 +349,26 @@ library(reshape2)
                1713-.5, 1714+.5, #
 	       
                1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
+               1720-.5, 1720+.5, # Stockholm 20 januari 1719 1 juni 1719
+               1723-.5, 1723+.5, # Stockholm 20 januari 1719 1 juni 1719
+
+               1726-.5, 1727+.5, # Stockholm 20 januari 1719 1 juni 1719
+
+               1731-.5, 1731+.5, # Stockholm 20 januari 1719 1 juni 1719	       	       
+	       
                1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
+
+               1738-.5, 1739+.5, #
+
+               1740-.5, 1741+.5, #
+
+               1742-.5, 1743+.5, #
+               1746-.5, 1747+.5, #
+
+               1751-.5, 1752+.5, #
+               1755-.5, 1756+.5, #
+               1760-.5, 1762+.5, #
+	       
                1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
                1769-.5, 1770+.5, # Norrköping & Stockholm 22 april 1769 5 februari 1770
                1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
@@ -378,11 +400,14 @@ library(reshape2)
 
   riksplace <- c(rep("Unknown", 2), "Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", rep("Unknown", 3), "Gävle", rep("Unknown", 7))
   #cols <- c("white", "Purple", "yellow", "orange", "darkgray")
-  cols <- c("white", "gray", "darkgray")
+  cols <- c("white", "lightgray", "gray", "darkgray")
+  rectangles$shade[rectangles$shade == "Highlight"] <- rep(cols, length(which(rectangles$shade == "Highlight")))
+  rectangles$shade <- factor(rectangles$shade)  
+
   rectangles$place <- rectangles$shade
   rectangles$place[rectangles$place == "Highlight"] <- riksplace
   rectangles$place[rectangles$place == "Background"] <- "" 
-  rectangles$shade <- factor(rectangles$shade)
+
 
   # Draw Figure
   theme_set(theme_bw(20))
@@ -391,10 +416,11 @@ library(reshape2)
            aes(xmin=xmin, xmax=xmax,
 	       ymin=ymin, ymax=ymax,
 	       fill=shade), alpha=0.8) +
-         scale_fill_manual(values = cols) +
+         #scale_fill_manual(values = cols) +
+         scale_fill_brewer(palette="Greys") +
 	 guides(fill = "none")
 
-  p <- p + geom_text(data = rectangles, angle = 90, aes(x=xmin + .5, y=.9*ymax, label=place), size = 6)
+  # p <- p + geom_text(data = rectangles, angle = 90, aes(x=xmin + .5, y=.9*ymax, label=place), size = 6)
 	     
   p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
   p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
@@ -403,15 +429,16 @@ library(reshape2)
   p <- p + xlab("Year")
   p <- p + ggtitle(paste(catal, " ", minyear, "-", maxyear, sep = ""))
   print(p)
+
 ```
 
 ---
 
 
 
-### Fig. 8: Publishing activity and riksdagar: Fennica
+### Fig. 7B: Publishing activity and riksdagar: Fennica
 
-```{r riksdar_fennica, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+```{r Fig7B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 minyear <- 1760
 maxyear <- 1860
 catal <- "Fennica"
@@ -514,9 +541,11 @@ library(reshape2)
 ---
 
 
-### Fig 9A: Fennica: Publishers in Swedish University towns (and Finland)
+### Fig 8: Publishers in Swedish University towns (Fennica)
 
-```{r publishers2-finland, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
+
+```{r Fig8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
 catal <- "Fennica"
 df <- df %>%
@@ -535,7 +564,6 @@ df <- df %>%
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
 npub$publication_place <- factor(npub$publication_place, levels = top)
 npub.fennica <- npub
-
 
 df <- df0
 catalogue <- "Kungliga"
@@ -566,23 +594,21 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +
-       scale_fill_brewer(palette="Spectral") +       
+       scale_fill_brewer(palette="Greys") +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        ggtitle(catal)       
        #ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
 
-
 print(p)
-
-
 ```
 
 
 
-### Fig 9B: Kungliga: Publishers in Swedish University towns (and Finland)
+### Fig 9: Publishers in Swedish University towns (Kungliga)
 
+All towns from Kungliga.
 
-```{r kungliga9b, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+```{r Fig9, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
 df <- df0
 catal <- "Kungliga"
 df <- df %>%
@@ -632,15 +658,13 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +
-       scale_fill_brewer(palette="Spectral") +       
+       scale_fill_brewer(palette="Greys") +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        ggtitle(catal)
        #ggtitle(paste("Unique publishers in selected publication places (", catalogue, ")"))
 
 
 print(p)
-
-
 ```
 
 
@@ -649,29 +673,23 @@ print(p)
 With percentage of all books that were not published by the printing house of the court.
 
 
-```{r publishers4-fennica, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+```{r Fig10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
 library(dplyr)
-catalogue = "Fennica"
+catalogue <- "Fennica"
 place <- "Vaasa"
 minyear <- 1750
 maxyear <- 1828
 
 df <- df0 %>% filter(catalog == catalogue & publication_place == place) %>%	
-        filter(publication_year >= minyear & publication_year <= maxyear) 
+        filter(publication_year >= minyear & publication_year <= maxyear) %>%
+	group_by(publication_year) %>% 
+	tally()
 
-p <- ggplot() + ggtitle("Fig 10: to be added")
-
-# TITLE COUNT
-#theme_set(theme_bw(20))
-#p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
-#      geom_point(aes(size = n)) + 
-#      #geom_line(aes(color = publisher), size = 2) +
-#      #geom_smooth(aes(fill = publisher)) +
-#      # geom_bar(stat = "identity", position = "stack", aes(fill = publisher)) #+ 
-#       xlab("Year") +
-#       ylab("") +
-#       guides(size = guide_legend(title = "Title count (n)"))
-#       #ggtitle(paste("Title count per publisher (", place, "/", catalogue, ")"#, sep = ""))
+p <- ggplot(df, aes(x = publication_year, y = n)) +
+     geom_bar(stat = "identity") +
+     ggtitle("") +
+     xlab("Publication year") +
+     ylab("Title count")
 
 print(p)
 ```
@@ -681,7 +699,7 @@ print(p)
 
 ### Fig 11: Top publishers in Turku/Fennica
 
-```{r publishers-fennica-11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+```{r Fig11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
 library(dplyr)
 place <- "Turku"
 catalogue = "Fennica"
@@ -733,7 +751,7 @@ print(p)
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-```{r percapita, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r Fig12, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Read historical population sizes
 f <- system.file("extdata/population_sizes_in_cities.csv", package = "bibliographica")
 pop <- read.csv(f)
@@ -796,14 +814,56 @@ print(p)
 
 
 
+### Fig. 13: Title count (absolute)
 
-### Fig. 13: Octavo paper consumption
+```{r Fig13, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+minyear <- 1640
+maxyear <- 1828
+
+# Take cities from Kungliga except Turku
+cat <- "Kungliga"
+df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
+      	      filter(catalog == cat) %>%
+              filter(publication_decade %in% pop$publication_decade) %>%
+	      select(publication_decade, publication_place) %>%	      
+	      group_by(publication_decade, publication_place) %>%
+	      summarise(n = n())
+
+# Take cities from Fennica for Turku
+cat <- "Fennica"
+df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
+      	      filter(catalog == cat) %>%
+              filter(publication_decade %in% pop$publication_decade) %>%
+	      select(publication_decade, publication_place) %>%	      
+	      group_by(publication_decade, publication_place) %>%
+	      summarise(n = n())
+
+
+df <- bind_rows(df1, df2)
+
+p <- ggplot(df, aes(x = publication_decade, y = n)) +
+       geom_line(aes(linetype = publication_place), size = 1) +
+       geom_point(aes(shape = publication_place), size = 5) +
+       xlab("Publication decade") +
+       ylab("Title count per capita (n)") +
+       ggtitle("Title count per capita") +
+       guides(shape = guide_legend(title = "Place")) +
+       guides(linetype = guide_legend(title = "Place")) 
+print(p)
+```
+
+---
+
+
+
+
+### Fig. 14: Octavo paper consumption
 
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
 Kungliga.
 
-```{r octavo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r Fig14, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Take cities from Kungliga except Turku
 cat <- "Kungliga"
 df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
@@ -834,37 +894,43 @@ print(p)
 
 ---
 
-### Fig. 14: Octavo title length (word count)
+
+### Fig. 15: Octavo title length (word count)
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund,
 Göteborg and Linköping. According to Kungliga, except Turku from
-Fennica. Only for octavo.
+Fennica. 
 
-```{r octavo2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
+```{r Fig15, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Take cities from Kungliga except Turku
 cat <- "Kungliga"
-df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
-      	       filter(catalog == cat & gatherings == "8vo") %>%
+
+df00 <- df.full %>% filter(publication_year >= 1640 & publication_year <= 1850)
+
+df1 <- df00 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
+      	       filter(catalog == cat) %>%
 	       group_by(publication_decade, publication_place) %>%
 	       summarise(n = n(), paper = sum(paper, na.rm = TRUE), 
 	         mean_title_length = mean(title_length_wordcount, na.rm = TRUE))
 
 # Take cities from Fennica for Turku
 cat <- "Fennica"
-df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
-      	       filter(catalog == cat & gatherings == "8vo") %>%
+df2 <- df00 %>% filter(publication_place %in% "Turku") %>%
+      	       filter(catalog == cat) %>%
 	       group_by(publication_decade, publication_place) %>%
 	       summarise(n = n(), paper = sum(paper, na.rm = TRUE), 
                  mean_title_length = mean(title_length_wordcount, na.rm = TRUE))
 
 df <- bind_rows(df1, df2)
 
+df$publication_place[!df$publication_place == "Stockholm"] <- "Other"
+
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
        geom_line(aes(linetype = publication_place), size = 1) +
        geom_point(aes(shape = publication_place), size = 5) +
        xlab("Publication year") +
        ylab("Title length (words)") +
-       ggtitle("Octavo: mean title length") +
+       ggtitle("Mean title length") +
        guides(shape = guide_legend(title = "Place")) +
        guides(linetype= guide_legend(title = "Place"))        
 print(p)
@@ -873,9 +939,9 @@ print(p)
 ---
 
 
-### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
+### Fig 16: Language use in Turku, Stockholm, Uppsala and Lund
 
-```{r language-perc2, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=12}
+```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=12}
 pics <- list()
 theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
@@ -944,9 +1010,9 @@ rm(pics)
 ---
 
 
-### Fig. 16: Topic richness per language (Fennica)
+### Fig. 17: Topic richness per language (Fennica)
 
-```{r topics232, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
+```{r Fig17, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 catalogue <- "Fennica"
 df <- filter(df0, catalog == "Fennica") %>%
   filter(publication_year >= 1640 & publication_year <= 1828) %>%
@@ -977,9 +1043,10 @@ print(p)
 ---
 
 
-### Fig. 17: Temporary sermons in Latin and Swedish
+### Fig. 18: Temporary sermons in Latin and Swedish
 
-```{r topics882, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+
+```{r Fig18, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
   sel <- c("hautajaiset", "häät", "juhlamenot")
   catalogue <- "Fennica"
   df <- df0
@@ -1027,11 +1094,11 @@ dfl$language <- factor(dfl$language, levels = langs)
 ---
 
 
-### Fig. 18: Devotional literature (catechisms, hymns, prayers, etc.) 
+### Fig. 19: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
+```{r Fig19, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
 
@@ -1079,40 +1146,6 @@ print(p)
 ```
 
 ---
-
-
-### Fig. 19: Publisher per city over time
-
-```{r publishersper, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
-# Selected catalogue with selected decades
-catalogue <- "Fennica"
-
-df <- filter(df0, catalog == catalogue &
-     		    publication_decade >= 1640 &
-		    publication_decade <= 1828)
-
-top.places <- names(top(df, "publication_place", 5))
-
-df <- df %>%
-      filter(publication_place %in% top.places) %>% 
-      group_by(publication_decade, publication_place) %>%
-      summarise(n = length(unique(na.omit(publisher))))
-
-  theme_set(theme_bw(20))
-  p <- ggplot(df, aes(x = publication_decade, y = n, shape = publication_place)) +
-       geom_point(size = 5) +
-       geom_line(size = 1, aes(linetype = publication_place)) +
-       scale_color_brewer(palette="Greys") +
-       #scale_fill_brewer(palette="Greys") +                     
-       xlab("Publication year") +
-       ylab("Publishers (n)") +
-       guides(shape = guide_legend("Place")) +
-       guides(linetype = guide_legend("Place")) +
-       ggtitle(paste(catalogue))
-  print(p)
-
-
-```
 
 
 
