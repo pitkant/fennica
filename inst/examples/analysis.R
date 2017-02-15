@@ -19,7 +19,10 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 #knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
 #knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
+# Manuscript 2/2017 Figures
 knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
+render("20170201-manuscript.Rmd")
+
 #RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
 #RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
 #RM rmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
