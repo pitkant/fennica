@@ -1,5 +1,5 @@
 ---
-title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
+title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "`r Sys.Date()`"
 output: 
@@ -170,7 +170,7 @@ print(pics[[2]])
 
 Loess smoothing.
 
-```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=16}
+```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=11}
 df <- df.full %>% filter(publication_year >= 1640 &
                          publication_year <= 1911) %>%
               group_by(catalog, publication_year) %>%
@@ -199,7 +199,7 @@ grid.arrange(pics[[1]], pics[[2]], nrow = 1)
 
 Proportions for title count and paper in Swedish University towns
  
-```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=16, fig.height=8}
+```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=14, fig.height=6}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -266,7 +266,7 @@ rm(pics)
 
 ### Fig 6: Publishing activity over time (Kungliga)
 
-```{r Fig6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
+```{r Fig6, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=4}
 library(magrittr)
 library(ggplot2)
 library(dplyr)
@@ -321,7 +321,7 @@ print(p)
 
 ### Fig. 7: Publishing activity and riksdagar: Kungliga
 
-```{r Fig7, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+```{r Fig7, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=4}
 
 minyear <- 1700
 maxyear <- 1830
@@ -449,7 +449,7 @@ library(reshape2)
 
 Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
 
-```{r Fig8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+```{r Fig8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=12}
 df <- df0
 catal <- "Fennica"
 df <- df %>%
@@ -512,7 +512,7 @@ print(p)
 
 All towns from Kungliga.
 
-```{r Fig9, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
+```{r Fig9, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=12}
 df <- df0
 catal <- "Kungliga"
 df <- df %>%
@@ -846,7 +846,7 @@ print(p)
 
 ### Fig 16: Language use in Turku, Stockholm, Uppsala and Lund
 
-```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=7}
+```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
 pics <- list()
 theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
@@ -917,7 +917,7 @@ rm(pics)
 
 ### Fig. 17: Topic richness per language (Fennica)
 
-```{r Fig17, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
+```{r Fig17, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, fig.show="hold"}
 catalogue <- "Fennica"
 df <- filter(df0, catalog == "Fennica") %>%
   filter(publication_year >= 1640 & publication_year <= 1828) %>%
@@ -951,7 +951,7 @@ print(p)
 ### Fig. 18: Temporary sermons in Latin and Swedish
 
 
-```{r Fig18, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+```{r Fig18, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
   sel <- c("hautajaiset", "häät", "juhlamenot")
   catalogue <- "Fennica"
   df <- df0

@@ -1,5 +1,5 @@
 ---
-title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
+title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
 date: "2017-02-15"
 output: 
