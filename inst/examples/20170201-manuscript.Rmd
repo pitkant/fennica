@@ -10,7 +10,7 @@ output:
 fontsize: 13pt
 ---
 
-```{r 201606krakow-init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+```{r init, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
 # Default time span
 min.year <- 1488
 max.year <- 1828
@@ -150,7 +150,6 @@ for (catal in unique(df00$catalog)) {
        	          fill = "none", # guide_legend(title = "Gatherings"),
        	          color = "none" # guide_legend(title = "Gatherings")
 		  )
-  #p <- p + facet_grid(. ~ catalog)		  
   p <- p + ggtitle(catal)
   print(p)
 }
@@ -159,29 +158,30 @@ for (catal in unique(df00$catalog)) {
 ---
 
 
-### Fig 4: Average title length (word count)
+### Fig 4: Median title length (word count)
 
-```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=15}
-# Analysis time window
-df <- df0 %>% filter(publication_year >= 1640 & publication_year <= 1911) %>%
-              group_by(catalog, publication_decade) %>%
-              summarize(mean_title_length = mean(title_length_wordcount),
+Loess smoothing.
+
+```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=14, fig.width=7}
+df <- df.full %>% filter(publication_year >= 1640 &
+                         publication_year <= 1911) %>%
+              group_by(catalog, publication_year) %>%
+              summarize(title_length = median(title_length_wordcount),
 	      		n = n())
 
+pics <- list()
+for (catal in unique(df$catalog)) {
+  pics[[catal]] <- ggplot(subset(df, catalog == catal), aes(x = publication_year, y = title_length)) +
+       geom_point(aes(size = n)) +
+       geom_smooth(color = "black") +
+       ggtitle(paste("Mean title length (", catal, ")", sep = "")) + 
+       xlab("Publication year") +
+       ylab("Title length (word count)")
+}     
 
 
-  p <- ggplot(df, aes(x = publication_decade, y = mean_title_length, fill = catalog)) +
-       geom_bar(stat = "identity", color = "black", position = "dodge") +
-       #geom_point(aes(size = n), size = 5) +
-       #geom_line(size = 1) +
-       scale_fill_manual(values = c("darkgray", "black")) +
-       guides(fill = guide_legend(title = "Place", reverse = TRUE)) +       
-       ylab("Title length (word count)") +
-       xlab("Publication decade") +
-       ggtitle(paste("Mean title length (", catal, ")", sep = ""))
-
-  print(p)
-
+library(gridExtra)
+grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 ```
 
 ---
@@ -311,9 +311,9 @@ print(p)
 ---
 
 
-### Fig. 7A: Publishing activity and riksdagar: Kungliga
+### Fig. 7: Publishing activity and riksdagar: Kungliga
 
-```{r Fig7A, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
+```{r Fig7, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
 
 minyear <- 1700
 maxyear <- 1830
@@ -432,131 +432,6 @@ library(reshape2)
   p <- p + ggtitle(paste(catal, " ", minyear, "-", maxyear, sep = ""))
   print(p)
 
-```
-
----
-
-
-
-### Fig. 7B: Publishing activity and riksdagar: Fennica
-
-```{r Fig7B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=5}
-minyear <- 1760
-maxyear <- 1860
-catal <- "Fennica"
-
-df00 <- df.full %>% filter(publication_year >= minyear & publication_year <= maxyear)
-
-library(magrittr)
-library(ggplot2)
-library(dplyr)
-library(ggplot2)
-library(reshape2)
-
-  # Use timeinterval year intervals
-  dfsel <- subset(df00, catalog == catal)
-
-  df <- df00
-  df <- subset(df, catalog == catal)
-  df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
-  df <- subset(dfsel, publication_year >= minyear & publication_year <= maxyear)
-
-  timeinterval <- 1
-  df$timeunit <- round(df$publication_year/timeinterval)*timeinterval 
-
-  df$unity <- rep(1, nrow(df))
-  publications <- tapply(df$unity, list(df$timeunit), sum)
-
-  publications[is.na(publications)] <- 0 # Set NAs to 0
-  publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
-  dfm <- melt(publications) 
-  names(dfm) <- c("Time", "Documents")
-  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
-  ymin <- min(dfm$Documents)
-  ymax <- max(dfm$Documents)
-
-  rect_left <- c(min(na.omit(dfm$date)),
-               1710-.5, 1710+.5, #
-               1713-.5, 1714+.5, #
-	       
-               1719-.5, 1719+.5, # Stockholm 20 januari 1719 1 juni 1719
-               1720-.5, 1720+.5, # Stockholm 20 januari 1719 1 juni 1719
-               1723-.5, 1723+.5, # Stockholm 20 januari 1719 1 juni 1719
-
-               1726-.5, 1727+.5, # Stockholm 20 januari 1719 1 juni 1719
-
-               1731-.5, 1731+.5, # Stockholm 20 januari 1719 1 juni 1719	       	       
-	       
-               1734-.5, 1734+.5, # Stockholm 14 maj 1734 14 december 1734
-
-               1738-.5, 1739+.5, #
-
-               1740-.5, 1741+.5, #
-
-               1742-.5, 1743+.5, #
-               1746-.5, 1747+.5, #
-
-               1751-.5, 1752+.5, #
-               1755-.5, 1756+.5, #
-               1760-.5, 1762+.5, #
-	       
-               1765-.5, 1766+.5, # Stockholm 21 februari 1765 21 oktober 1766
-               1769-.5, 1770+.5, # Norrköping & Stockholm 22 april 1769 5 februari 1770
-               1771-.5, 1772+.5, # Stockholm 19 juni 1771 12 september 1772
-
-               1778-.5, 1779+.5, #
-               1786-.5, 1786+.5, #
-               1789-.5, 1789+.5, #
-
-               1792-.5, 1792+.5, # Gävle 26 januari 1792 24 februari 1792
-
-               1800-.5, 1800+.5, #
-               1809-.5, 1810+.5, #
-               1812-.5, 1812+.5, #
-               1815-.5, 1815+.5, #
-               1817-.5, 1818+.5, #
-               1823-.5, 1823+.5, #
-               1828-.5, 1830+.5, #
-
-               max(na.omit(dfm$date)))
-	       
-  rectangles <- data.frame(
-    xmin = rect_left[-length(rect_left)],
-    xmax = rect_left[-1],
-    ymin = ymin,
-    ymax = ymax
-    )
-
-  rectangles$shade <- rep(c("Background", "Highlight"), length = nrow(rectangles))
-  riksplace <- c(rep("Unknown", 2), "Stockholm", "Stockholm", "Stockholm", "Norrköping", "Stockholm", rep("Unknown", 3), "Gävle", rep("Unknown", 7))
-  cols <- c("white", "lightgray", "gray", "darkgray")
-  rectangles$shade[rectangles$shade == "Highlight"] <- rep(cols, length(which(rectangles$shade == "Highlight")))
-  rectangles$shade <- factor(rectangles$shade)  
-
-  rectangles$place <- rectangles$shade
-  rectangles$place[rectangles$place == "Highlight"] <- riksplace
-  rectangles$place[rectangles$place == "Background"] <- "" 
-
-  # Draw Figure
-  theme_set(theme_bw(20))
-  p <- ggplot() +
-         geom_rect(data = rectangles, 
-           aes(xmin=xmin, xmax=xmax,
-	       ymin=ymin, ymax=ymax,
-	       fill=shade), alpha=0.8) +
-         scale_fill_brewer(palette="Greys") +
-	 guides(fill = "none")
-
-  # p <- p + geom_text(data = rectangles, angle = 90, aes(x=xmin + .5, y=.9*ymax, label=place), size = 6)
-	     
-  p <- p + geom_line(data = dfm, aes(x = date, y = Documents), col = "black")
-  p <- p + geom_point(data = dfm, aes(x = date, y = Documents), col = "black")
-  p <- p + scale_x_continuous(breaks=seq(min(dfm$date), max(dfm$date), 10))
-  p <- p + ylab("Title count (n)")
-  p <- p + xlab("Year")
-  p <- p + ggtitle(paste(catal, " ", minyear, "-", maxyear, sep = ""))  
-  p <- p + xlim(c(minyear, maxyear))
-  print(p)
 ```
 
 ---

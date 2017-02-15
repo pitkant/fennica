@@ -1,7 +1,7 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-02-14"
+date: "2017-02-15"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -40,7 +40,9 @@ Paper consumption for various document formats over time.
 ---
 
 
-### Fig 4: Average title length (word count)
+### Fig 4: Median title length (word count)
+
+Loess smoothing.
 
 ![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)
 
@@ -63,17 +65,9 @@ Proportions for title count and paper in Swedish University towns
 ---
 
 
-### Fig. 7A: Publishing activity and riksdagar: Kungliga
+### Fig. 7: Publishing activity and riksdagar: Kungliga
 
-![plot of chunk Fig7A](20170201_manuscript/Fig7A-1.png)
-
----
-
-
-
-### Fig. 7B: Publishing activity and riksdagar: Fennica
-
-![plot of chunk Fig7B](20170201_manuscript/Fig7B-1.png)
+![plot of chunk Fig7](20170201_manuscript/Fig7-1.png)
 
 ---
 
@@ -236,21 +230,22 @@ This document was created with the following versions:
 ##  [58] stringdist_0.9.4.2    DEoptimR_1.0-6        LearnBayes_2.15      
 ##  [61] zlibbioc_1.18.0       MASS_7.3-45           scales_0.4.1         
 ##  [64] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
-##  [67] rhdf5_2.16.0          RColorBrewer_1.1-2    memoise_1.0.0        
-##  [70] geosphere_1.5-5       rpart_4.1-10          latticeExtra_0.6-28  
-##  [73] stringi_1.1.3         maptree_1.4-7         RSQLite_1.0.0        
-##  [76] highr_0.6             S4Vectors_0.10.3      foreach_1.4.3        
-##  [79] energy_1.7-0          permute_0.9-4         BiocGenerics_0.18.0  
-##  [82] bibtex_0.4.0          boot_1.3-18           bitops_1.0-6         
-##  [85] RgoogleMaps_1.4.1     compositions_1.40-1   moments_0.14         
-##  [88] matrixStats_0.51.0    evaluate_0.10         lattice_0.20-34      
-##  [91] labeling_0.3          plyr_1.8.4            IRanges_2.6.1        
-##  [94] Hmisc_4.0-0           DBI_0.5-1             foreign_0.8-67       
-##  [97] withr_1.0.2           mgcv_1.8-16           RCurl_1.95-4.8       
-## [100] survival_2.40-1       nnet_7.3-12           tibble_1.2           
-## [103] bayesm_3.0-2          jpeg_0.1-8            grid_3.3.1           
-## [106] data.table_1.10.0     vegan_2.4-1           digest_0.6.12        
-## [109] tm_0.6-2              stats4_3.3.1          munsell_0.4.3
+##  [67] rhdf5_2.16.0          RColorBrewer_1.1-2    yaml_2.1.14          
+##  [70] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
+##  [73] latticeExtra_0.6-28   stringi_1.1.3         maptree_1.4-7        
+##  [76] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
+##  [79] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
+##  [82] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
+##  [85] bitops_1.0-6          RgoogleMaps_1.4.1     compositions_1.40-1  
+##  [88] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
+##  [91] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
+##  [94] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
+##  [97] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
+## [100] RCurl_1.95-4.8        survival_2.40-1       nnet_7.3-12          
+## [103] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
+## [106] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
+## [109] digest_0.6.12         tm_0.6-2              stats4_3.3.1         
+## [112] munsell_0.4.3
 ```
 
 
