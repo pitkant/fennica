@@ -114,9 +114,8 @@ print(p)
 
 Paper consumption for various document formats over time.
 
-```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, fig.show="hold", out.width="400px"}
-
-
+```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, fig.show="hold"}
+pics <- list()
 for (catal in unique(df00$catalog)) {
 
   if (catal == "Kungliga") {
@@ -141,7 +140,6 @@ for (catal in unique(df00$catalog)) {
          aes(color = highlight, fill = highlight))
   p <- p + scale_color_manual(values = c("darkgreen", "darkgray"))
   p <- p + scale_fill_manual(values = c("darkgreen", "darkgray"))  	 
-  p <- p + ggtitle("Paper consumption in time by gatherings")
   p <- p + xlab("Year")
   p <- p + ylab("Paper (sheets)")
   p <- p + ylim(c(0, max(na.omit(df2$paper))))
@@ -150,9 +148,19 @@ for (catal in unique(df00$catalog)) {
        	          fill = "none", # guide_legend(title = "Gatherings"),
        	          color = "none" # guide_legend(title = "Gatherings")
 		  )
-  p <- p + ggtitle(catal)
-  print(p)
+  p <- p + ggtitle(paste("Paper consumption (", catal, ")", sep = ""))
+  pics[[catal]] <- p
 }
+```
+
+```{r Fig3A, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5}
+print(pics[[1]])
+```
+
+---
+
+```{r Fig3B, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5}
+print(pics[[2]])
 ```
 
 ---
@@ -162,7 +170,7 @@ for (catal in unique(df00$catalog)) {
 
 Loess smoothing.
 
-```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=14, fig.width=7}
+```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=7, fig.width=16}
 df <- df.full %>% filter(publication_year >= 1640 &
                          publication_year <= 1911) %>%
               group_by(catalog, publication_year) %>%
@@ -181,7 +189,7 @@ for (catal in unique(df$catalog)) {
 
 
 library(gridExtra)
-grid.arrange(pics[[1]], pics[[2]], nrow = 2)
+grid.arrange(pics[[1]], pics[[2]], nrow = 1)
 ```
 
 ---
@@ -191,7 +199,7 @@ grid.arrange(pics[[1]], pics[[2]], nrow = 2)
 
 Proportions for title count and paper in Swedish University towns
  
-```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=18, fig.height=10}
+```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=16, fig.height=8}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -498,7 +506,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
 print(p)
 ```
 
-
+---
 
 ### Fig 9: Publishers in Swedish University towns (Kungliga)
 
@@ -563,11 +571,13 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
 print(p)
 ```
 
+---
+
 
 ### Fig 10: Publications in Vaasa in Fennica, 1750-1828
 
 
-```{r Fig10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+```{r Fig10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 library(dplyr)
 catalogue <- "Fennica"
 place <- "Vaasa"
@@ -594,7 +604,7 @@ print(p)
 
 ### Fig 11: Top publishers in Turku/Fennica
 
-```{r Fig11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=6, fig.width=12}
+```{r Fig11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
 library(dplyr)
 place <- "Turku"
 catalogue = "Fennica"
@@ -836,7 +846,7 @@ print(p)
 
 ### Fig 16: Language use in Turku, Stockholm, Uppsala and Lund
 
-```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=12}
+```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=14, fig.height=7}
 pics <- list()
 theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")

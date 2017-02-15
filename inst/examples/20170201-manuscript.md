@@ -35,7 +35,13 @@ fontsize: 13pt
 
 Paper consumption for various document formats over time.
 
-<img src="20170201_manuscript/Fig3-1.png" title="plot of chunk Fig3" alt="plot of chunk Fig3" width="400px" /><img src="20170201_manuscript/Fig3-2.png" title="plot of chunk Fig3" alt="plot of chunk Fig3" width="400px" />
+
+
+![plot of chunk Fig3A](20170201_manuscript/Fig3A-1.png)
+
+---
+
+![plot of chunk Fig3B](20170201_manuscript/Fig3B-1.png)
 
 ---
 
@@ -78,13 +84,15 @@ Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tart
 
 ![plot of chunk Fig8](20170201_manuscript/Fig8-1.png)
 
-
+---
 
 ### Fig 9: Publishers in Swedish University towns (Kungliga)
 
 All towns from Kungliga.
 
 ![plot of chunk Fig9](20170201_manuscript/Fig9-1.png)
+
+---
 
 
 ### Fig 10: Publications in Vaasa in Fennica, 1750-1828
