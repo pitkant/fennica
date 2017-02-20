@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-02-15"
+date: "2017-02-20"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -207,53 +207,50 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] rmarkdown_1.2.9000    knitcitations_1.0.7   microbiome_0.99.88   
-##  [4] phyloseq_1.16.2       devtools_1.12.0       sorvi_0.7.26         
-##  [7] stringr_1.1.0         gisfin_0.9.27         R6_2.2.0             
-## [10] rgdal_1.2-4           sp_1.2-3              ggmap_2.6.1          
-## [13] knitr_1.15.1          gridExtra_2.2.1       reshape2_1.4.2       
-## [16] magrittr_1.5          fennica_0.1.43        bibliographica_0.2.31
-## [19] dplyr_0.5.0           tidyr_0.6.0           ggplot2_2.2.1        
+##  [1] rmarkdown_1.2.9000    gisfin_0.9.27         R6_2.2.0             
+##  [4] rgdal_1.2-4           sp_1.2-3              ggmap_2.6.1          
+##  [7] stringr_1.1.0         microbiome_0.99.88    phyloseq_1.16.2      
+## [10] knitr_1.15.1          gridExtra_2.2.1       reshape2_1.4.2       
+## [13] tidyr_0.6.0           ggplot2_2.2.1         magrittr_1.5         
+## [16] sorvi_0.7.26          dplyr_0.5.0           devtools_1.12.0      
+## [19] fennica_0.1.43        bibliographica_0.2.31
 ## 
 ## loaded via a namespace (and not attached):
-##   [1] colorspace_1.3-0      rjson_0.2.15          deldir_0.1-12        
+##   [1] colorspace_1.3-0      deldir_0.1-12         rjson_0.2.15         
 ##   [4] babynames_0.2.1       rprojroot_1.1         dynamicTreeCut_1.63-1
-##   [7] htmlTable_1.7         XVector_0.12.1        lubridate_1.6.0      
-##  [10] AnnotationDbi_1.34.4  RefManageR_0.13.1     codetools_0.2-15     
-##  [13] splines_3.3.1         doParallel_1.0.10     impute_1.46.0        
-##  [16] robustbase_0.92-6     tgp_2.4-14            ade4_1.7-4           
-##  [19] Formula_1.2-1         jsonlite_1.1          WGCNA_1.51           
-##  [22] cluster_2.0.5         GO.db_3.3.0           png_0.1-7            
-##  [25] httr_1.2.1            mapproj_1.2-4         backports_1.0.4      
-##  [28] assertthat_0.1        Matrix_1.2-7.1        lazyeval_0.2.0       
-##  [31] acepack_1.4.1         htmltools_0.3.5       tools_3.3.1          
-##  [34] igraph_1.0.1          NLP_0.1-9             coda_0.18-1          
-##  [37] gtable_0.2.0          maps_3.1.1            gmodels_2.16.2       
-##  [40] Rcpp_0.12.9           slam_0.1-38           Biobase_2.32.0       
-##  [43] RJSONIO_1.3-0         Biostrings_2.40.2     multtest_2.28.0      
-##  [46] spdep_0.6-8           gdata_2.17.0          ape_3.5              
-##  [49] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
-##  [52] tensorA_0.36          fastcluster_1.1.21    gender_0.5.1         
-##  [55] proto_1.0.0           gtools_3.5.0          XML_3.98-1.5         
-##  [58] stringdist_0.9.4.2    DEoptimR_1.0-6        LearnBayes_2.15      
-##  [61] zlibbioc_1.18.0       MASS_7.3-45           scales_0.4.1         
-##  [64] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
-##  [67] rhdf5_2.16.0          RColorBrewer_1.1-2    yaml_2.1.14          
-##  [70] memoise_1.0.0         geosphere_1.5-5       rpart_4.1-10         
-##  [73] latticeExtra_0.6-28   stringi_1.1.3         maptree_1.4-7        
-##  [76] RSQLite_1.0.0         highr_0.6             S4Vectors_0.10.3     
-##  [79] foreach_1.4.3         energy_1.7-0          permute_0.9-4        
-##  [82] BiocGenerics_0.18.0   bibtex_0.4.0          boot_1.3-18          
-##  [85] bitops_1.0-6          RgoogleMaps_1.4.1     compositions_1.40-1  
-##  [88] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
-##  [91] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
-##  [94] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
-##  [97] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
-## [100] RCurl_1.95-4.8        survival_2.40-1       nnet_7.3-12          
-## [103] tibble_1.2            bayesm_3.0-2          jpeg_0.1-8           
-## [106] grid_3.3.1            data.table_1.10.0     vegan_2.4-1          
-## [109] digest_0.6.12         tm_0.6-2              stats4_3.3.1         
-## [112] munsell_0.4.3
+##   [7] htmlTable_1.7         XVector_0.12.1        AnnotationDbi_1.34.4 
+##  [10] codetools_0.2-15      splines_3.3.1         doParallel_1.0.10    
+##  [13] impute_1.46.0         robustbase_0.92-6     tgp_2.4-14           
+##  [16] ade4_1.7-4            Formula_1.2-1         jsonlite_1.1         
+##  [19] Cairo_1.5-9           WGCNA_1.51            cluster_2.0.5        
+##  [22] GO.db_3.3.0           png_0.1-7             mapproj_1.2-4        
+##  [25] backports_1.0.4       assertthat_0.1        Matrix_1.2-7.1       
+##  [28] lazyeval_0.2.0        acepack_1.4.1         htmltools_0.3.5      
+##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
+##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
+##  [37] maps_3.1.1            Rcpp_0.12.9           slam_0.1-38          
+##  [40] Biobase_2.32.0        Biostrings_2.40.2     multtest_2.28.0      
+##  [43] spdep_0.6-8           gdata_2.17.0          ape_3.5              
+##  [46] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
+##  [49] tensorA_0.36          fastcluster_1.1.21    gender_0.5.1         
+##  [52] proto_1.0.0           gtools_3.5.0          XML_3.98-1.5         
+##  [55] stringdist_0.9.4.2    DEoptimR_1.0-6        LearnBayes_2.15      
+##  [58] zlibbioc_1.18.0       MASS_7.3-45           scales_0.4.1         
+##  [61] parallel_3.3.1        biomformat_1.0.2      genderdata_0.5.0     
+##  [64] rhdf5_2.16.0          RColorBrewer_1.1-2    memoise_1.0.0        
+##  [67] geosphere_1.5-5       rpart_4.1-10          latticeExtra_0.6-28  
+##  [70] stringi_1.1.3         maptree_1.4-7         RSQLite_1.0.0        
+##  [73] highr_0.6             S4Vectors_0.10.3      foreach_1.4.3        
+##  [76] energy_1.7-0          permute_0.9-4         BiocGenerics_0.18.0  
+##  [79] boot_1.3-18           RgoogleMaps_1.4.1     compositions_1.40-1  
+##  [82] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
+##  [85] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
+##  [88] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
+##  [91] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
+##  [94] survival_2.40-1       nnet_7.3-12           tibble_1.2           
+##  [97] bayesm_3.0-2          jpeg_0.1-8            grid_3.3.1           
+## [100] data.table_1.10.0     vegan_2.4-1           digest_0.6.12        
+## [103] tm_0.6-2              stats4_3.3.1          munsell_0.4.3
 ```
 
 

@@ -20,6 +20,7 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 #knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 # Manuscript 2/2017 Figures
+library(rmarkdown)
 knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
 render("20170201-manuscript.Rmd")
 

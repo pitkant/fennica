@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Turussa 1640-1917"
 author: "Niko Ilomäki"
-date: "2017-02-13"
+date: "2017-02-20"
 output: markdown_document
 ---
 
