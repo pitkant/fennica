@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-02-20"
+date: "2017-02-21"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -36,12 +36,21 @@ fontsize: 13pt
 Paper consumption for various document formats over time.
 
 
+```
+## Error in unique(df00$catalog): object 'df00' not found
+```
 
-![plot of chunk Fig3A](20170201_manuscript/Fig3A-1.png)
+
+```
+## Error in pics[[1]]: subscript out of bounds
+```
 
 ---
 
-![plot of chunk Fig3B](20170201_manuscript/Fig3B-1.png)
+
+```
+## Error in pics[[2]]: subscript out of bounds
+```
 
 ---
 
@@ -207,17 +216,17 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] rmarkdown_1.2.9000    gisfin_0.9.27         R6_2.2.0             
+##  [1] devtools_1.12.0       gisfin_0.9.27         R6_2.2.0             
 ##  [4] rgdal_1.2-4           sp_1.2-3              ggmap_2.6.1          
-##  [7] stringr_1.1.0         microbiome_0.99.88    phyloseq_1.16.2      
-## [10] knitr_1.15.1          gridExtra_2.2.1       reshape2_1.4.2       
-## [13] tidyr_0.6.0           ggplot2_2.2.1         magrittr_1.5         
-## [16] sorvi_0.7.26          dplyr_0.5.0           devtools_1.12.0      
-## [19] fennica_0.1.43        bibliographica_0.2.31
+##  [7] rmarkdown_1.2.9000    stringr_1.1.0         sorvi_0.7.26         
+## [10] microbiome_0.99.88    phyloseq_1.16.2       knitr_1.15.1         
+## [13] gridExtra_2.2.1       reshape2_1.4.2        magrittr_1.5         
+## [16] fennica_0.1.43        bibliographica_0.2.31 dplyr_0.5.0          
+## [19] tidyr_0.6.0           ggplot2_2.2.1        
 ## 
 ## loaded via a namespace (and not attached):
 ##   [1] colorspace_1.3-0      deldir_0.1-12         rjson_0.2.15         
-##   [4] babynames_0.2.1       rprojroot_1.1         dynamicTreeCut_1.63-1
+##   [4] babynames_0.2.1       dynamicTreeCut_1.63-1 rprojroot_1.1        
 ##   [7] htmlTable_1.7         XVector_0.12.1        AnnotationDbi_1.34.4 
 ##  [10] codetools_0.2-15      splines_3.3.1         doParallel_1.0.10    
 ##  [13] impute_1.46.0         robustbase_0.92-6     tgp_2.4-14           
@@ -246,7 +255,7 @@ This document was created with the following versions:
 ##  [82] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
 ##  [85] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
 ##  [88] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
-##  [91] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
+##  [91] withr_1.0.2           foreign_0.8-67        mgcv_1.8-16          
 ##  [94] survival_2.40-1       nnet_7.3-12           tibble_1.2           
 ##  [97] bayesm_3.0-2          jpeg_0.1-8            grid_3.3.1           
 ## [100] data.table_1.10.0     vegan_2.4-1           digest_0.6.12        

@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-02-20"
+date: "2017-02-21"
 output: markdown_document
 ---
 
@@ -150,9 +150,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings                     |         0.0|         100.0|         70451|         18|
 
 ```
-##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   5117054  273.3    8273852  441.9   8273852  441.9
-## Vcells 227244415 1733.8  366159851 2793.6 366158269 2793.6
+##            used  (Mb) gc trigger  (Mb) max used  (Mb)
+## Ncells   853379  45.6    1442291  77.1  1442291  77.1
+## Vcells 14516693 110.8   41707324 318.3 41706352 318.2
 ```
 
 
