@@ -216,13 +216,13 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] devtools_1.12.0       gisfin_0.9.27         R6_2.2.0             
-##  [4] rgdal_1.2-4           sp_1.2-3              ggmap_2.6.1          
-##  [7] rmarkdown_1.2.9000    stringr_1.1.0         sorvi_0.7.26         
-## [10] microbiome_0.99.88    phyloseq_1.16.2       knitr_1.15.1         
-## [13] gridExtra_2.2.1       reshape2_1.4.2        magrittr_1.5         
-## [16] fennica_0.1.43        bibliographica_0.2.31 dplyr_0.5.0          
-## [19] tidyr_0.6.0           ggplot2_2.2.1        
+##  [1] gisfin_0.9.27         R6_2.2.0              rgdal_1.2-4          
+##  [4] sp_1.2-3              ggmap_2.6.1           rmarkdown_1.2.9000   
+##  [7] stringr_1.1.0         microbiome_0.99.88    phyloseq_1.16.2      
+## [10] knitr_1.15.1          gridExtra_2.2.1       reshape2_1.4.2       
+## [13] tidyr_0.6.0           ggplot2_2.2.1         magrittr_1.5         
+## [16] sorvi_0.7.26          dplyr_0.5.0           devtools_1.12.0      
+## [19] fennica_0.1.43        bibliographica_0.2.31
 ## 
 ## loaded via a namespace (and not attached):
 ##   [1] colorspace_1.3-0      deldir_0.1-12         rjson_0.2.15         
@@ -238,8 +238,8 @@ This document was created with the following versions:
 ##  [31] tools_3.3.1           igraph_1.0.1          NLP_0.1-9            
 ##  [34] coda_0.18-1           gtable_0.2.0          gmodels_2.16.2       
 ##  [37] maps_3.1.1            Rcpp_0.12.9           slam_0.1-38          
-##  [40] Biobase_2.32.0        Biostrings_2.40.2     multtest_2.28.0      
-##  [43] spdep_0.6-8           gdata_2.17.0          ape_3.5              
+##  [40] Biobase_2.32.0        Biostrings_2.40.2     spdep_0.6-8          
+##  [43] multtest_2.28.0       gdata_2.17.0          ape_3.5              
 ##  [46] preprocessCore_1.34.0 nlme_3.1-128          iterators_1.0.8      
 ##  [49] tensorA_0.36          fastcluster_1.1.21    gender_0.5.1         
 ##  [52] proto_1.0.0           gtools_3.5.0          XML_3.98-1.5         
@@ -255,7 +255,7 @@ This document was created with the following versions:
 ##  [82] moments_0.14          matrixStats_0.51.0    evaluate_0.10        
 ##  [85] lattice_0.20-34       labeling_0.3          plyr_1.8.4           
 ##  [88] IRanges_2.6.1         Hmisc_4.0-0           DBI_0.5-1            
-##  [91] withr_1.0.2           foreign_0.8-67        mgcv_1.8-16          
+##  [91] foreign_0.8-67        withr_1.0.2           mgcv_1.8-16          
 ##  [94] survival_2.40-1       nnet_7.3-12           tibble_1.2           
 ##  [97] bayesm_3.0-2          jpeg_0.1-8            grid_3.3.1           
 ## [100] data.table_1.10.0     vegan_2.4-1           digest_0.6.12        
