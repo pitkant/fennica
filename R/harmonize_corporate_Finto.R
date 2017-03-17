@@ -7,7 +7,11 @@
 #' @references See citation("bibliographica")
 harmonize_corporate_Finto <- function(x) {
 
+  
   # Split by semicolon, and select only the first part
+  # But first, an exception: select the 2nd part if publisher is like this:
+  # "Ruotsi.;Frenckell, Johan Christopher I (kirjapaino, Turku, 1761-1779)"
+  x <- gsub("Ruotsi[.]?;([^;]*)", "\\1", x)
   # This behaviour might change later, but now we'll stick with just one publisher per library item
   x <- gsub("([^;]*);.*", "\\1", x)
   

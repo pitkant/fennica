@@ -14,7 +14,8 @@ polish_publisher_fennica <- function (df.preprocessed, useShortcuts=FALSE) {
   # Pick just those fields that are used in the analysis
   df.preprocessed <- df.preprocessed[, c("publication_year", "publication_year_from", "publication_year_till",
                                          "publication_place", "corporate", "publisher")]
-  
+
+    
   # TODO: Get necessary function names, tables etc. from a single csv-file!
   languages <- c("finnish", "latin", "swedish")
   publication_year <- df.preprocessed[, c("publication_year", "publication_year_from", "publication_year_till")]
@@ -59,6 +60,7 @@ polish_publisher_fennica <- function (df.preprocessed, useShortcuts=FALSE) {
   # Those values will be double checked against Finto; this could be fixed later
   inds_corporate_not_finto <- intersect(which(!is.na(df.preprocessed$corporate)), which(!enriched_pubs %in% cheat_list$pref))
   # As $publisher is a factor, the new levels must be set in place as well
+  
   levs <- unique(c(levels(df.preprocessed$publisher), levels(df.preprocessed$corporate[inds_corporate_not_finto])))
   levels(df.preprocessed$publisher) <- levs
   df.preprocessed$publisher[inds_corporate_not_finto] <- df.preprocessed$corporate[inds_corporate_not_finto]
