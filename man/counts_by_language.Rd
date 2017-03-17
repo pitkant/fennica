@@ -19,11 +19,10 @@ Plot publication year counts by language
 \examples{
 \dontrun{counts_by_language(df,"finnish","lang_finnish")}
 }
-\author{
-Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
-}
 \references{
 See citation("fennica")
 }
+\author{
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
+}
 \keyword{utilities}
-

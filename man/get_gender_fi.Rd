@@ -34,11 +34,10 @@ are added after the download as some names occur for both genders.
 \examples{
 tab <- get_gender_fi()
 }
-\author{
-Leo Lahti \email{leo.lahti@iki.fi}
-}
 \references{
 See cite("fennica")
 }
+\author{
+Leo Lahti \email{leo.lahti@iki.fi}
+}
 \keyword{data}
-

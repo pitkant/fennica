@@ -15,11 +15,10 @@ Plot publication year counts
 \examples{
 \dontrun{counts_total(df)}
 }
-\author{
-Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
-}
 \references{
 See citation("fennica")
 }
+\author{
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
+}
 \keyword{utilities}
-

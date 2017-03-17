@@ -24,11 +24,10 @@ Data frame with alt, pref and match_methods
 \description{
 Use Finto database to unify publisher names.
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}
 \keyword{utilities}
-

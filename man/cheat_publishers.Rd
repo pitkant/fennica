@@ -12,10 +12,9 @@ Data frame with possible publisher form and the preferred output
 \description{
 Get publisher list from an xml file
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
-
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}

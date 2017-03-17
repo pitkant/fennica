@@ -339,7 +339,6 @@ library(reshape2)
   df <- df0
   df = subset(df, catalog == catal)
   df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
-  
   df <- subset(dfsel, publication_year >= minyear & publication_year <= maxyear)
 
   timeinterval <- 1
@@ -352,7 +351,7 @@ library(reshape2)
   publications <- publications/timeinterval # Instead of decadal sum, use average annual output 
   dfm <- melt(publications) 
   names(dfm) <- c("Time", "Documents")
-  dfm <- transform(dfm, date = as.numeric(as.character(Time)))
+  dfm <- base::transform(dfm, date = as.numeric(as.character(Time)))
   ymin = min(dfm$Documents)
   ymax = max(dfm$Documents)
 

@@ -25,11 +25,10 @@ Harmonizes publisher names and enriches them with Finto information.
 \examples{
 # harmonize_publisher_fennica(df.orig, cheat_list, languages=c("finnish", "swedish", "latin"))
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}
 \keyword{utilities}
-

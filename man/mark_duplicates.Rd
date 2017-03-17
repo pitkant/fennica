@@ -18,11 +18,10 @@ Data frame
 \description{
 Tag entries to be removed.
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}
 \keyword{utilities}
-

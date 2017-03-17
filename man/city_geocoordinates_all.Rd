@@ -23,11 +23,10 @@ TODO
 \examples{
 \dontrun{TODO}
 }
-\author{
-Aaro Salosensaari \email{aaro.salosensaari@helsinki.fi}
-}
 \references{
 See citation("fennica")
 }
+\author{
+Aaro Salosensaari \email{aaro.salosensaari@helsinki.fi}
+}
 \keyword{utilities}
-

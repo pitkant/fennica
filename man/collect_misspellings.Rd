@@ -22,11 +22,10 @@ Use Levenshtein distance iteratively to find plausible misspellings
 \examples{
 \dontrun{all <- collect_misspellings("Turku",c("Turku","Turkue"), c("Turku","Aboensis"))}
 }
-\author{
-Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
-}
 \references{
 See citation("fennica")
 }
+\author{
+Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
+}
 \keyword{utilities}
-

@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-02-21"
+date: "2017-03-17"
 output: markdown_document
 ---
 
@@ -75,7 +75,18 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 Note: there are 33910 documents that have some dimension info but sheet area information could not be calculated. 
 
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+
+```
+## Error in eval(expr, envir, enclos): could not find function "regression_plot"
+```
+
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)
+
+```
+## Error in eval(expr, envir, enclos): could not find function "regression_plot"
+```
+
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
 

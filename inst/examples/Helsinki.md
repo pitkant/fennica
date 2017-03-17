@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Helsingissä 1746-1917"
 author: "Niko Ilomäki"
-date: "2017-02-21"
+date: "2017-03-17"
 output: markdown_document
 ---
 
@@ -9,11 +9,11 @@ output: markdown_document
 
 
 ```
-## Error in filter_impl(.data, dots): object 'published_in' not found
+## Error in eval(expr, envir, enclos): object 'published_in' not found
 ```
 
 ```
-## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : published_in
+## Error in eval(expr, envir, enclos): unknown variable to group by : published_in
 ```
 
 ```

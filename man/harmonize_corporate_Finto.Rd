@@ -15,10 +15,9 @@ Data frame with orig, name, town, year_from and year_till
 \description{
 Use Finto database to unify publisher names.
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
-
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}

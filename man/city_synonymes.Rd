@@ -29,11 +29,10 @@ This generates an augmented synonyme table including all variants indicated by t
 \examples{
 \dontrun{all <- city_synonymes(c("Turku","Turkue", "Tampere", "Helsinki"), synonymes)}
 }
-\author{
-Leo Lahti and Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
-}
 \references{
 See citation("fennica")
 }
+\author{
+Leo Lahti and Niko Ilomaki \email{niko.ilomaki@helsinki.fi}
+}
 \keyword{utilities}
-

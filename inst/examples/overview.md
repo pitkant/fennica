@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-02-21"
+date: "2017-03-17"
 output: markdown_document
 ---
 
@@ -76,8 +76,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |area                           |        48.1|          51.9|         36541|        764|
 |author_name                    |        36.5|          63.5|         44705|      11621|
 |author                         |        36.5|          63.5|         44705|      11682|
-|self_published                 |        20.2|          79.8|         56251|          3|
-|publisher                      |        13.7|          86.3|         60812|       8461|
+|self_published                 |        20.2|          79.8|         56229|          3|
+|publisher                      |        13.7|          86.3|         60824|       8043|
 |country                        |         4.1|          95.9|         67539|         33|
 |publication_place              |         4.1|          95.9|         67540|        425|
 |latitude                       |         2.0|          98.0|         69048|        195|
@@ -151,8 +151,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells   920999  49.2    1770749  94.6  1770749  94.6
-## Vcells 22375138 170.8   47755648 364.4 47737343 364.3
+## Ncells   922084  49.3    2164898 115.7  2164898 115.7
+## Vcells 22373312 170.7   47739303 364.3 47735488 364.2
 ```
 
 

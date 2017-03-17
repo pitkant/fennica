@@ -1,4 +1,3 @@
-
 #' @import dplyr
 #' @importFrom bibliographica capitalize
 #' @importFrom bibliographica clean_publisher

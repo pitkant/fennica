@@ -17,11 +17,10 @@ Data frame with orig, mod
 \description{
 Main handler for publisher fields.
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}
 \keyword{utilities}
-

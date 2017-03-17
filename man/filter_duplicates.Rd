@@ -18,11 +18,10 @@ Data frame
 \description{
 Filters duplicates from df.preprocessed
 }
-\author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
-}
 \references{
 See citation("bibliographica")
 }
+\author{
+Hege Roivainen \email{hege.roivainen@gmail.com}
+}
 \keyword{utilities}
-

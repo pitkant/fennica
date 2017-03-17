@@ -1,18 +1,18 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-02-21"
+date: "2017-03-17"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8461 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8043 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60812 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 60824 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
- * 2706 documents are identified as self-published (3.8%). 
+ * 1864 documents are identified as self-published (2.6%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -37,10 +37,10 @@ Title count versus paper consumption (top publishers):
 
 |publisher                        | titles|     paper|
 |:--------------------------------|------:|---------:|
-|Frenckell, Johan Christopher I   |   1738| 1458278.9|
+|Frenckell, Johan Christopher I   |   1740| 1460952.5|
 |Frenckell, Johan Christopher II  |   2205| 2622613.1|
 |Hansson, Peter                   |    982| 1612252.9|
-|Kämpe, Johan                     |    985| 1554506.8|
+|Kämpe, Johan                     |    986| 1556110.9|
 |Londicer, Georg Wilhelm          |   2100|  590734.4|
 |Otava                            |   2189| 2017674.9|
 |Söderström                       |   1203|  943434.8|
