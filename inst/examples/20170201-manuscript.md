@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
-date: "2017-03-17"
+date: "2017-03-21"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -81,19 +81,6 @@ Proportions for title count and paper in Swedish University towns
 
 
 ### Fig. 7: Publishing activity and riksdagar: Kungliga
-
-
-```
-## Error in transform(dfm, date = as.numeric(as.character(Time))): unused argument (date = as.numeric(as.character(Time)))
-```
-
-```
-## Error in seq.default(min(dfm$date), max(dfm$date), 10): 'from' cannot be NA, NaN or infinite
-```
-
-```
-## Error in (function (..., row.names = NULL, check.rows = FALSE, check.names = TRUE, : arguments imply differing number of rows: 0, 129
-```
 
 ![plot of chunk Fig7](20170201_manuscript/Fig7-1.png)
 

@@ -1,18 +1,18 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-03-17"
+date: "2017-03-21"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8043 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8510 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60824 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 60810 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
- * 1864 documents are identified as self-published (2.6%). 
+ * 2706 documents are identified as self-published (3.8%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -42,7 +42,7 @@ Title count versus paper consumption (top publishers):
 |Hansson, Peter                   |    982| 1612252.9|
 |Kämpe, Johan                     |    986| 1556110.9|
 |Londicer, Georg Wilhelm          |   2100|  590734.4|
-|Otava                            |   2189| 2017674.9|
+|Otava                            |   2188| 2017674.9|
 |Söderström                       |   1203|  943434.8|
 |Suomalaisen Kirjallisuuden Seura |    973| 1390833.1|
 |Wall, Johan Larsson              |   1266| 2210292.0|

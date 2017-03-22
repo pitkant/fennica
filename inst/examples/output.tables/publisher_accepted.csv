@@ -1,8 +1,8 @@
 publisher	self_published	Count
-Total count (na.rm TRUE): 	60851	
+Total count (na.rm TRUE): 	60849	
 WSOY	FALSE	2882
 Frenckell, Johan Christopher II	FALSE	2205
-Otava	FALSE	2189
+Otava	FALSE	2188
 Londicer, Georg Wilhelm	FALSE	2100
 Frenckell, Johan Christopher I	FALSE	1740
 Wall, Johan Larsson	FALSE	1266
@@ -12,9 +12,8 @@ Hansson, Peter	FALSE	 982
 Suomalaisen Kirjallisuuden Seura	FALSE	 973
 Edlund	FALSE	 968
 Merckell, Jacob	FALSE	 960
-G.W. Edlund Förlag Förlag	FALSE	 918
+G.W. Edlund	FALSE	 944
 Winter, Johan	FALSE	 884
-Författare Förlag	FALSE	 842
 Karisto	FALSE	 662
 Kansanvalistusseura	FALSE	 623
 J.C. Frenckell ja poika	FALSE	 518
@@ -27,18 +26,18 @@ Weilin & Göös	FALSE	 435
 Gummerus	FALSE	 433
 Johan Christopher Frenckellin leski	FALSE	 427
 Kirja	FALSE	 345
-Frenckell'in kp	FALSE	 338
+Frenckell	FALSE	 338
 Suomen lähetysseura	FALSE	 307
 Wilén	FALSE	 257
 Helios	FALSE	 255
 Isak Julin	FALSE	 247
 Finska Vetenskapssocieteten	FALSE	 241
-K.E. Holm Förlag	FALSE	 229
+K.E. Holm	FALSE	 229
 Henric Christopher Merckellin leski	FALSE	 228
 Senaten	FALSE	 224
 Londicerin leski	NA	 214
 Holm	FALSE	 213
-Edlundska bokhandel	FALSE	 202
+Edlundska bokhandel 	FALSE	 202
 Suomen luth. evank.-yhdistys	FALSE	 194
 Schildt	FALSE	 191
 Suomalainen Tiedeakatemia	FALSE	 182
@@ -51,7 +50,7 @@ Fougt, Elsa	FALSE	 162
 Werner, Johan Henric	FALSE	 161
 Salvius, Lars	FALSE	 155
 W. Toivonen	FALSE	 151
-Rauman kp	FALSE	 149
+Rauman Kirjapaino	FALSE	 149
 Kansa	FALSE	 148
 Työväen sanomalehti	FALSE	 146
 Merckell, Henric Christopher	FALSE	 144
@@ -64,21 +63,21 @@ Universitet	NA	 125
 Werner Söderström	FALSE	 123
 Suomen Historiallinen seura	FALSE	 120
 Lilius & Hertzberg	FALSE	 120
-Finska Litteratur-sällskaps Tryckeri	FALSE	 120
-Otto Andersinin kp	FALSE	 117
+Finska Litteratur-sällskaps tryckeri	FALSE	 120
+Otto Andersin	FALSE	 117
 Merckell, Henric Christopher	 TRUE	 116
 Meurer, Ignatius	FALSE	 115
-Kuopion uusi kp	FALSE	 111
-Utgifvaren Förlag	FALSE	 109
+Kuopion uusi Kirjapaino	FALSE	 111
+Utgifvaren	FALSE	 109
 Valistus	FALSE	 108
 G.W. Wilén	FALSE	 108
 Teosofinen kirjakauppa	FALSE	 106
-KS kp	FALSE	 105
+KS	FALSE	 105
 Clouberg	FALSE	 105
 Suomalais-amerikkalainen kustannus	FALSE	 105
 Carlbohm, Arvid	FALSE	 101
 Finsk-ugriska sällskap	FALSE	 100
-Beijer Förlag	FALSE	 100
+Beijer	FALSE	 100
 Sortavalan evank. seura	FALSE	  99
 Björckman, Anders	FALSE	  98
 U.W. Telén & Co	FALSE	  96
@@ -88,13 +87,13 @@ Pellervo	FALSE	  91
 Suomentaja	FALSE	  91
 Voen. Top. Depo	NA	  87
 Boman ja Karlsson	FALSE	  87
-Akademiska bokhandel	FALSE	  86
-Tryckt hos P.A. Norstedt & Söner	FALSE	  84
+Akademiska bokhandel	FALSE	  87
+P.A. Norstedt & Söner	FALSE	  84
 Vihtori Kosonen	FALSE	  84
 Karjalan kirjakauppa	FALSE	  82
 Weilin ja Göös	FALSE	  82
 Societas geographica Fenniae	FALSE	  80
-Suomi Kustannus	FALSE	  80
+Suomi	FALSE	  80
 Finska Missionssällskap	FALSE	  79
 Suomen Naisyhdistys	FALSE	  75
 Vogel, Johann	FALSE	  75
@@ -120,16 +119,16 @@ Keyser, Henric II	FALSE	  60
 Lillja	FALSE	  59
 Satakunnan kirjakauppa	FALSE	  59
 Sampo	FALSE	  59
-Aikain Vartija Förlag	FALSE	  58
+Aikain Vartija	FALSE	  58
 Wickström	FALSE	  57
 Simelius	FALSE	  55
-Albert Bonnier Förlag	FALSE	  55
+Albert Bonnier	FALSE	  55
 Suomen kirkon sisälähetysseura	FALSE	  55
 U.W. Telén	FALSE	  54
-Holger Schildt Förlag	FALSE	  54
+Holger Schildt	FALSE	  54
 Sortavalan evankelinen seura	FALSE	  54
 Johan Höjers encka	FALSE	  54
-Tryckt hos N.M. Lindh	FALSE	  53
+N.M. Lindh	FALSE	  53
 Fougt, Henrik I	FALSE	  53
 Lutherilainen Evankeliumi	FALSE	  52
 Herättäjä	FALSE	  52
@@ -148,29 +147,30 @@ U.W. Telén ja K	FALSE	  46
 K. Malmström	FALSE	  46
 Kaleva	FALSE	  46
 Lähetyskirjakauppa	FALSE	  46
-Waseniuska bokhandel	FALSE	  45
+Waseniuska bokhandel 	FALSE	  45
 Toivonen	FALSE	  44
 Wankijff, Nils	FALSE	  44
 Peter Hanssons enckia	FALSE	  44
 Societas pro fauna et flora Fennica	FALSE	  43
 Kurvinen, Pietari	 TRUE	  43
-Työmiehen Kustannus	FALSE	  43
+Työmiehen kustannus	FALSE	  43
 Sällskap Pellervo	FALSE	  42
 Tampereen työväen sanomalehti	FALSE	  42
 Eberdt, Johan Georg	FALSE	  42
 Vårt Land	FALSE	  41
-G.W. Edlundin Kustannus	FALSE	  41
-Tampereen kustannus	FALSE	  41
+G.W. Edlundin kustannus	FALSE	  41
+Tampereen Kirjapaino	FALSE	  41
 Kansan lehti	FALSE	  40
 OWB	FALSE	  39
 Gust. Ronelius	FALSE	  39
+NA	 TRUE	  39
 Finlands Svenska Nykterhetsförbund	FALSE	  39
 Suomen muinaismuisto-yhdistys	FALSE	  39
 Wasenius	FALSE	  39
 Osuuskunta Wäinämöinen	FALSE	  38
 Alfred Lagerbom	FALSE	  38
 Akateeminen kirjakauppa	FALSE	  37
-Työväen kustannus	FALSE	  37
+Työväen kp	FALSE	  37
 Curio, Henric	FALSE	  37
 Finska vetenskapsspcieteten	FALSE	  36
 Emil Hagelberg	FALSE	  35
@@ -181,22 +181,22 @@ Pelastusarmeijan päämaja	FALSE	  34
 Hämäläinen	FALSE	  34
 Öfverstyrelse för landtmäteriet	NA	  33
 Aschan	FALSE	  33
-Hagelstam Förlag	FALSE	  33
+Hagelstam	FALSE	  33
 Osuuskunta Kehitys	FALSE	  33
 Holmberg, Johan Christopher	FALSE	  33
 C.W. Gyldén	FALSE	  32
+Juteini, Jaakko (1781-1855)	 TRUE	  32
 GEJ	FALSE	  32
-Zilliacus Tryckeri	FALSE	  32
+Zilliacus	FALSE	  32
 Suomen metsänhoitoyhdistys Tapio	FALSE	  32
 Stolpe, Carl	FALSE	  32
 Naisasialiitto Unioni	FALSE	  31
 Société néophilologique	FALSE	  31
-Päivälehden kustannus	FALSE	  31
+Päivälehden kp	FALSE	  31
 Pekka Brofeldt	FALSE	  31
 Nordström, Anders Jacobsson	FALSE	  31
-Juteini, Jaakko (1781-1855)	 TRUE	  30
 Frenckelliläinen Kirjapaino	FALSE	  30
-G.M. Giescke Förlag	FALSE	  30
+G.M. Giescke	FALSE	  30
 J.C. Frenckell & Son	FALSE	  30
 Rauhan sanomat	FALSE	  30
 Suomen metsänhoitoyhdistys	FALSE	  30
@@ -216,13 +216,12 @@ Minerva	FALSE	  28
 Suomalainen puolue	FALSE	  28
 Hämeen sanomain Kirjapaino	FALSE	  28
 Wahlström & Widstrand	FALSE	  28
-Suom. sos. Kustannus	FALSE	  28
+Suom. sos. kustannus	FALSE	  28
 Edman, Johan Fredrik	FALSE	  28
 Finsk qvinnoförening	FALSE	  27
 Gyldendalske Boghandel Nordisk Forlag	FALSE	  27
 Statens kommission för huslig ekonomi	FALSE	  27
 M.V. Vuolukka	FALSE	  27
-NA	 TRUE	  27
 Nuorten miesten kristillinen yhdistys	FALSE	  27
 Suomen Eläinsuojelusyhdistys	FALSE	  27
 Pyh. Sergein ja Hermanin veljeyskunta	FALSE	  27
@@ -232,14 +231,13 @@ Hesselberg, Peter	FALSE	  27
 Höjer, Johan	FALSE	  27
 G.E. Euren	FALSE	  26
 Luth. Evangeliska-förening	FALSE	  26
-Jyväskylän kustannusliike	FALSE	  26
+Jyväskylän Kirjapaino	FALSE	  26
 C.J. Bergström	FALSE	  26
 Suomen kirkkohistoriallinen seura	FALSE	  26
 Valtion kotitaloustoimikunta	FALSE	  26
-G.W. Edlund	FALSE	  26
-Helsingin Kustannus	FALSE	  26
+Helsingin kustannus	FALSE	  26
 Lange, Johan Georg II	FALSE	  26
-Etelä-Savon kustannus	FALSE	  25
+Etelä-Savon Kirjapaino	FALSE	  25
 KS. kp	FALSE	  25
 Duodecim-seura	FALSE	  25
 Suomen Matkailijayhdistys	FALSE	  25
@@ -248,15 +246,15 @@ Pyhän Sergein ja Hermanin veljeyskunta	FALSE	  24
 Suomen Keisarillinen Aleksanterin yliopisto	FALSE	  24
 J.W. Lillja	FALSE	  24
 Chr. Evangeliska Barck	FALSE	  24
-Karjalan kp	FALSE	  24
+Karjalan Kirjapaino	FALSE	  24
 Lindh, Johan Peter	FALSE	  24
 Grefing, Lorentz Ludvig	FALSE	  24
 C.G. Clouberg	FALSE	  23
-Oulun kp	FALSE	  23
+Oulun Kirjapaino	FALSE	  23
 Uudenmaan Eläinsuojeluyhdistys	FALSE	  23
 Finsk militär tidskrift	FALSE	  23
 Helsingfors-Posten	FALSE	  23
-Pohjalaisen kp	FALSE	  23
+Pohjalaisen Kirjapaino	FALSE	  23
 Maanmittaushallitus	FALSE	  23
 Andersin	FALSE	  23
 Tuberkulosin vastustamisyhdistys	FALSE	  23
@@ -271,7 +269,7 @@ G.L. Söderström	FALSE	  22
 Finska Sjömansmissionssällskap	FALSE	  22
 Suomen sos.-dem. nuorisoliitto	FALSE	  22
 Pyhäkouluyhdistys	FALSE	  22
-Urheilijain Kustannus	FALSE	  22
+Urheilijain kustannus	FALSE	  22
 Sanoma	FALSE	  22
 Keyser, Henric I	FALSE	  22
 Bergbom	FALSE	  21
@@ -283,25 +281,26 @@ J.F. Granlund	FALSE	  21
 Norstedt	FALSE	  20
 Ruotsi	NA	  20
 Deleen, Carl	FALSE	  20
+Boije, Rolf	 TRUE	  20
 P.R. Wiitanen	FALSE	  20
-Juridiska Studentfakulteten Förlag	FALSE	  20
+Juridiska Studentfakulteten	FALSE	  20
 Uususkonnollinen kustannusliike	FALSE	  20
 Almqvist & Wiksell	FALSE	  20
-Työmies Kustannus	FALSE	  20
+Työmies kustannus	FALSE	  20
 Englannin ja ulkomaan bibliaseura	NA	  20
 G.O. Wasenius	FALSE	  20
 Teollisuushallitus	FALSE	  20
 Lindeberg	FALSE	  19
 Wesander	FALSE	  19
 Bergdahl	FALSE	  19
-Joensuun kp	FALSE	  19
-F. Tilgmann Förlag	FALSE	  19
+Joensuun Kirjapaino	FALSE	  19
+F. Tilgmann	FALSE	  19
 Hagelstams bokhandel	FALSE	  19
 Huvudstadsblad	FALSE	  19
 Suomen luotsi- ja majakkalaitoksen ylihallitus	FALSE	  19
 W. Bensow	FALSE	  19
 Suomalaisen puolueen kanslia	FALSE	  19
-J. Länkelä Förlag	FALSE	  19
+J. Länkelä	FALSE	  19
 Luukkonen ja Kumpp	FALSE	  19
 Akademiska bokhandel, jakaja	FALSE	  19
 Finska Statsjärnvägarna	FALSE	  19
@@ -310,7 +309,7 @@ Försäkring Kaleva	FALSE	  19
 Suomen matkailijayhdistys	NA	  19
 Finska pappersindustriidkarene Förbund	FALSE	  19
 H. Nurhonen	FALSE	  19
-Osmo	FALSE	  19
+ Osmo	FALSE	  19
 Martta-yhdistys	FALSE	  19
 Raivaajan Kirjapaino	FALSE	  19
 Tietosanakirja	FALSE	  19
@@ -358,9 +357,9 @@ Kansallismielinen nuorisoliitto	FALSE	  17
 Uotinen, Mikko	 TRUE	  17
 Savon työväen sanomalehti-osuuskunta	FALSE	  17
 Suomen osuuskauppojen keskusosuuskunta	FALSE	  17
-Työkansan Kustannus	FALSE	  17
+Työkansan kustannus	FALSE	  17
 Tanner, A F	 TRUE	  17
-Suomalais-luterilainen Kustannusliike	FALSE	  17
+Suomalais-luterilainen kustannusliike	FALSE	  17
 Laurentsson, Amund	FALSE	  17
 Zetterberg, Anders	FALSE	  17
 Bärlund	FALSE	  16
@@ -368,8 +367,7 @@ Pipliaseuran Kirjapaino	FALSE	  16
 Kirjoittaja	FALSE	  16
 Pohjalainen osakunta	FALSE	  16
 Frälsningsarmén	FALSE	  16
-Ammattilaisten kp	FALSE	  16
-Turun kustannusliike	FALSE	  16
+Ammattilaisten Kirjapaino	FALSE	  16
 Finska konstförening	FALSE	  16
 Förening för bekämpandet af tuberkulosen	FALSE	  16
 Karjalan veljeskunta	FALSE	  16
@@ -384,17 +382,18 @@ Vakaa, Gustaf Adolf	 TRUE	  15
 Öhman	FALSE	  15
 Ljus	FALSE	  15
 Svenska folkpartiet	FALSE	  15
-F. & G. Beijer Förlag	FALSE	  15
+F. & G. Beijer	FALSE	  15
 Suomalaisen puolueen naisvaliokunta	FALSE	  15
 K. Kaatra	FALSE	  15
+Turun Kirjapaino	FALSE	  15
 Lutherska evangeliförening i Finland	FALSE	  15
 Tytty Lagerstedt	FALSE	  15
 K. Valovuori	FALSE	  15
 Akateeminen kirjakauppa, jakaja	FALSE	  15
 B.B. Bergdahl	FALSE	  15
-Sortavalan kp	FALSE	  15
+Sortavalan Kirjapaino	FALSE	  15
 Helsingin yliopisto	NA	  15
-Tarmo	FALSE	  15
+ Tarmo	FALSE	  15
 Imperatorskaâ Akademìâ nauk	FALSE	  15
 Billingsley, Johan	FALSE	  15
 J. Karsten	FALSE	  14
@@ -403,8 +402,9 @@ Backman	FALSE	  14
 Kyrkomötet	NA	  14
 Sammon kp	FALSE	  14
 GEJ. ja K	FALSE	  14
+Rosenqvist, G G (1855-1931)	 TRUE	  14
 Finska Metallindustrins Arbetsgifvareförbund	FALSE	  14
-Öfversättaren Förlag	FALSE	  14
+Öfversättaren	FALSE	  14
 Terveydenhoitoyhdistys	FALSE	  14
 H.W. Marjamaa	FALSE	  14
 Siirtolaisen kp	FALSE	  14
@@ -412,7 +412,7 @@ Centraltryckeriet	FALSE	  14
 Suomen Evangeliska lut. pyhäkouluyhdistys	FALSE	  14
 Suomen valtionrautatiet	FALSE	  14
 F.W. Unggrens Tryckeri	FALSE	  14
-Frenckellska Tryckeri Förlag	FALSE	  14
+Frenckellska Tryckeri	FALSE	  14
 Typis academiae	FALSE	  14
 Kewät	NA	  13
 Konkordia-liitto	FALSE	  13
@@ -426,8 +426,9 @@ Finska Historiska Samfundet	FALSE	  13
 Oulun läänin talousseura	FALSE	  13
 Länsisuomalaisten esitelmätoimikunta	FALSE	  13
 W. Söderström	FALSE	  13
+Svensson, Joh	 TRUE	  13
 Finska Sparbanksförening	FALSE	  13
-K. F. U. K	FALSE	  13
+K. F. U. M	FALSE	  13
 Waseniuska bokhandel, jakaja	FALSE	  13
 Statsrådet	FALSE	  13
 Fr. Vieweg & Sohn	FALSE	  13
@@ -435,10 +436,12 @@ B.E. Martin	FALSE	  13
 Finlands Svenska Arbetareförbund	FALSE	  13
 Turun kaupungin historiallinen museo	FALSE	  13
 Suomalais-lut. kustannusliike	FALSE	  13
+Bonsdorff, Adolf Von	 TRUE	  13
+Boldt, Alexander (1873-1956)	 TRUE	  13
 Haataja, Kyösti	 TRUE	  13
 O.y. Valistus	FALSE	  13
 Säde	FALSE	  13
-Pohjolan Kustannus	FALSE	  13
+Pohjolan kustannus	FALSE	  13
 Suomen pyhäkouluyhdistys	FALSE	  13
 Finska Forstsamfund	FALSE	  13
 Olán	FALSE	  13
@@ -446,7 +449,7 @@ G.A. Ekholm	FALSE	  13
 O.B. Blomfelt	FALSE	  13
 Savon työväen sanomalehti- ja Kirjapaino-osuuskunta	FALSE	  13
 Osuuskunta Veljeys	FALSE	  13
-Mercator Tryckeri	FALSE	  13
+Mercator	FALSE	  13
 O.W. Backman	FALSE	  13
 S.l	FALSE	  13
 Pečatano v' Glavnom' Gidrografičeskom' Upravlenìi Morskogo Ministerstva	NA	  12
@@ -461,6 +464,7 @@ C.A. Gottlund	FALSE	  12
 Savo-karjalainen osakunta	NA	  12
 W. ja G	FALSE	  12
 P.H. Beijer	FALSE	  12
+Neovius, L (1850-1916)	 TRUE	  12
 Breitkopf & Härtel	FALSE	  12
 Missionsbokhandel	FALSE	  12
 S. Hirzel	FALSE	  12
@@ -475,7 +479,6 @@ Arvi A. Karisto	FALSE	  12
 Suomalainen teologinen kirjallisuusseura	FALSE	  12
 Lindstedt	FALSE	  12
 Suomen kuuromykkäin liitto	FALSE	  12
-Bonsdorff, Adolf Von	 TRUE	  12
 Helluntaiherätys	FALSE	  12
 Etelä-Pohjanmaan nuorisoseura	FALSE	  12
 Vilho Leikas & Co	FALSE	  12
@@ -509,16 +512,14 @@ Suomen maatalousseurojen keskusliitto	FALSE	  11
 N.P. Karbasnikoff	NA	  11
 Constance Ullner	FALSE	  11
 Suomen maantieteellinen seura	FALSE	  11
-Gutenberg kp	FALSE	  11
+Gutenberg	FALSE	  11
 Nylands & Tavastehus läns Landtbrukssällskap	FALSE	  11
-Boldt, Alexander (1873-1956)	 TRUE	  11
-Tryckeri Sana	FALSE	  11
+Sana	FALSE	  11
 Lahden kaupunki	NA	  11
 Vaasan paino	FALSE	  11
 O. Palander	FALSE	  11
 Eero Erkko	FALSE	  11
-Suomen talousseura	FALSE	  11
-Kullervo	FALSE	  11
+ Kullervo	FALSE	  11
 Suomen vakuutusyhdistys	FALSE	  11
 Hantsch, Georg	FALSE	  11
 Pauli, Johannes	FALSE	  11
@@ -529,9 +530,10 @@ Christ. Ludv. Hjelt	FALSE	  10
 Nylenius	FALSE	  10
 Blomfelt	FALSE	  10
 Hj. Hagelberg	FALSE	  10
+Werkko, Kaarle	 TRUE	  10
 Föreningen Brage	NA	  10
 Sortavalan Eläinsuojelus-Yhdistys	FALSE	  10
-Ekenäs missionsbokhandel Förlag	FALSE	  10
+Ekenäs missionsbokhandel	FALSE	  10
 Henkivakuutus Suomi	FALSE	  10
 Uusmaalainen ylioppilas-yhdistys	FALSE	  10
 Historiska Samfundet	FALSE	  10
@@ -541,7 +543,7 @@ Reino Drockila	FALSE	  10
 Finska Sågvärksägarne	FALSE	  10
 S. Karger	FALSE	  10
 Macmillan	FALSE	  10
-Helsingfors Bokhandel	FALSE	  10
+Helsingfors Bokhandel 	FALSE	  10
 Nuorsuomalaisen puolueen kanslia	FALSE	  10
 E.E. Sundvall	FALSE	  10
 Finska kyrkohistoriska samfund	FALSE	  10
@@ -549,20 +551,22 @@ Frälsningsarméns högkvarter	FALSE	  10
 Ilkka	FALSE	  10
 Turun kaupunki	NA	  10
 Suomen rakennusmestariliitto	FALSE	  10
+Ervast, Pekka (1875-1934)	 TRUE	  10
 Suomalainen sosialistinen kustannus	FALSE	  10
 Helsingin kaupungin sähkölaitos	NA	  10
+Liipola, Heikki	 TRUE	  10
 Sosialidemokratinen naisliitto	FALSE	  10
 Turun lähetysyhdistys	FALSE	  10
 Tampereen kaupunki	FALSE	  10
 Suomalainen kansallis-raittius-veljeysseura	FALSE	  10
 Otto Andersin'in kustannusliike	FALSE	  10
-Keski-Suomen kustannusliike	FALSE	  10
+Keski-Suomen Kirjapaino	FALSE	  10
 Kurikka, Matti (1863-1915)	 TRUE	  10
 Theodor Sederholm	FALSE	  10
 Suomen pelastusarmeija	NA	  10
 Pohjois-Karjalan maanviljelysseura	FALSE	  10
 J.F. Hellman	FALSE	  10
-Tampereen sanomain kustannus	FALSE	  10
+Tampereen sanomain	FALSE	  10
 Möllemann, Stephan	FALSE	  10
 Röpke, Carl Johansson	FALSE	  10
 Horrn, Johan Laurentius II	FALSE	  10
@@ -581,21 +585,21 @@ Werkko	FALSE	   9
 Pihl	FALSE	   9
 Pettersson	FALSE	   9
 Alopaeus	FALSE	   9
-Werkko, Kaarle	 TRUE	   9
 Matkailutoimisto Finlandia	NA	   9
 Valtionarkisto	NA	   9
 Svenska folkskolans vänner	FALSE	   9
 G. Smidt	FALSE	   9
 Luth. Evank.-yhdistys	FALSE	   9
 Finlands Svenska Nykterhetsförbunds Expedition	FALSE	   9
+Lindman, Volmar (1861-1939)	 TRUE	   9
 Waseniuksen kirjakauppa	FALSE	   9
-Hämeenlinnan uusi kp	FALSE	   9
+Hämeenlinnan uusi Kirjapaino	FALSE	   9
 Kejserliga Alexanders-Universitetet	FALSE	   9
 Finlandia	NA	   9
 Turun kansakoulujohtokunta	FALSE	   9
 Universitetet	FALSE	   9
 Suomalainen Kansa	FALSE	   9
-Agricola Kustannus	FALSE	   9
+Agricola	FALSE	   9
 Finska Kyrkans Inremissionssällskap	FALSE	   9
 Medicinalstyrelse	FALSE	   9
 Suomen naisyhdistys	NA	   9
@@ -606,16 +610,15 @@ Kalenteri	NA	   9
 Seurasaaren ulkomuseo	FALSE	   9
 Suomen maantieteellinen yhdistys	FALSE	   9
 Valtion historiallinen museo	FALSE	   9
-Ervast, Pekka (1875-1934)	 TRUE	   9
 Pyhin hallitseva synoodi	FALSE	   9
 Georg Müller	FALSE	   9
 S. O. K	FALSE	   9
-Meteor	NA	   9
+ Meteor	NA	   9
 Forstén, T K	 TRUE	   9
 Viipurin kaupunki	NA	   9
 Kansantaloudellinen yhdistys	FALSE	   9
 Helsingin suomalainen kirjakauppa	FALSE	   9
-Viipurin uusi kp	FALSE	   9
+Viipurin uusi Kirjapaino	FALSE	   9
 Vapaa ajatus	FALSE	   9
 Kalke, Kosti (1858-1938)	 TRUE	   9
 Lankinen	FALSE	   9
@@ -634,6 +637,7 @@ Nya teatern i Helsingfors	FALSE	   8
 A.C. Öhman	FALSE	   8
 Kungliga fält-tryckeriet	FALSE	   8
 Alfthan	FALSE	   8
+Gottlund, Carl Axel (1796-1875)	 TRUE	   8
 Widerholm	FALSE	   8
 Omalla kustannuksella	FALSE	   8
 Weurlander	FALSE	   8
@@ -648,6 +652,7 @@ Kajaanin Kirjapaino	FALSE	   8
 Kansainvälinen kirja- ja lähetysyhdistys	FALSE	   8
 NAZ	FALSE	   8
 Kansan kuvalehden kustannus	FALSE	   8
+Hellström, F E	 TRUE	   8
 Befälhafvarestyrelse	NA	   8
 Satakunnan maanviljelysseura	FALSE	   8
 Wiipurin Sanomain Kirjapaino	FALSE	   8
@@ -665,6 +670,7 @@ Jahnsson, Yrjö	 TRUE	   8
 Söderström, jakaja	FALSE	   8
 Suomen taideyhdistys	NA	   8
 Suomalainen työväenliitto	FALSE	   8
+Skutnabb, Akseli	 TRUE	   8
 Geologiska kommissionen i Finland	FALSE	   8
 Tapio	FALSE	   8
 Salama	FALSE	   8
@@ -672,7 +678,7 @@ Brandkårsförbund i Finland	FALSE	   8
 Lax, Hj	 TRUE	   8
 Rauhan sanomain kustannustoimi	FALSE	   8
 Kahilus, J	 TRUE	   8
-Östra Finland kp	FALSE	   8
+Östra Finlandin kp	FALSE	   8
 Suomen työväensuojelus- ja sosialivakuutusyhdistys	FALSE	   8
 Elanto	FALSE	   8
 Partanen, L W	 TRUE	   8
@@ -711,6 +717,7 @@ Eriksson	FALSE	   7
 Öhrnberg	FALSE	   7
 Grönroos	FALSE	   7
 Julin	FALSE	   7
+Tammelander, Mathilda Emilia	 TRUE	   7
 Malmström	FALSE	   7
 Jaakko Hissa	FALSE	   7
 Helsingin Sentr.-kp	FALSE	   7
@@ -718,35 +725,37 @@ Helsingin Sentr.-kp	FALSE	   7
 Geografiska förening	FALSE	   7
 Sen. kp	FALSE	   7
 Bäckman kp	FALSE	   7
-Kejserliga Finska Hushållningssällskap	FALSE	   7
+Finska Hushållningssällskap	FALSE	   7
 H.T. Bärlund	FALSE	   7
-C.E. Fritzes hofbokhandel	FALSE	   7
 Clouberg & Co	FALSE	   7
 Hblad uusi kp	FALSE	   7
-Tidnings- & Tryckeri	FALSE	   7
+Tidnings- & tryckeri	FALSE	   7
 Internat. Traktat- & missionsförening	FALSE	   7
+Bergroth, Gustaf Elis	 TRUE	   7
 Statistiska centralbyrån i Finland	FALSE	   7
 Gustav Fischer	FALSE	   7
 Schuster & Loeffler	FALSE	   7
+Ohls, P E	 TRUE	   7
 Alex. F. Lindberg	FALSE	   7
 Åhlén & Åkerlund	FALSE	   7
 Kirkollinen kirja- ja paperikauppa	FALSE	   7
+Willgren, Karl	 TRUE	   7
 Keski-Suomen maanviljelysseura	FALSE	   7
-Boije, Rolf	 TRUE	   7
+Keisarillinen Suomen talousseura	FALSE	   7
 Kamaritoimituskunta	FALSE	   7
 Tuhkanen, Johan Henrik (1851-1932)	 TRUE	   7
-Vellamo	FALSE	   7
-Kejserliga Alexanders-universitetet i Finland	NA	   7
+ Vellamo	FALSE	   7
+Alexanders-universitetet i Finland	NA	   7
 Helsingin kaupunginvaltuuston työväenasiain lautakunta	FALSE	   7
 Sosialidemokratinen puolue	FALSE	   7
 M.W. Wuolukka	FALSE	   7
-Skutnabb, Akseli	 TRUE	   7
-Uusi kustannusliike	FALSE	   7
+Uusi Kirjapaino	FALSE	   7
 Finlands Svenska Ungdomsförbund	FALSE	   7
 Evangeliska luth. Söndagsskoleförening i Finland	FALSE	   7
 Kokoilija	FALSE	   7
 Nyländska Jaktklubben	NA	   7
 Suomen nuorten miesten kristillinen yhdistys	FALSE	   7
+Neovius-nevanlinna, L (1850-1916)	 TRUE	   7
 Turistförening i Finland	FALSE	   7
 Finska statsjärnvägarne	FALSE	   7
 Hembygdsforskningens vänner i Lojo	FALSE	   7
@@ -756,14 +765,14 @@ Suomen maalaisväestön liitto	NA	   7
 Länsi-Suomen karjanjalostusyhdistys	FALSE	   7
 Keisarillisen senaatin Kirjapaino	FALSE	   7
 Pelastus-armeija	NA	   7
-Sanan valta	FALSE	   7
+Kirjapaino Sanan valta	FALSE	   7
 Öflund & Pettersson	FALSE	   7
 Statens historiska museum	FALSE	   7
 Tieto	FALSE	   7
 Isak Julinin kustannusliike	FALSE	   7
 Evank. kustannusliike	FALSE	   7
 V. Nieminen	NA	   7
-Aura	FALSE	   7
+ Aura	FALSE	   7
 Lainopillinen ylioppilastiedekunta	FALSE	   7
 U.W. Telen	FALSE	   7
 Maalaisliitto	FALSE	   7
@@ -799,7 +808,6 @@ Tipografìâ A.S. Suvorina	FALSE	   6
 Gottlund	FALSE	   6
 Haeggström	FALSE	   6
 Frenckell ja poika	FALSE	   6
-Gottlund, Carl Axel (1796-1875)	 TRUE	   6
 Koskinen, Yrjö Sakari (1830-1903)	 TRUE	   6
 Granlund	FALSE	   6
 Lång & Ståhlberg	FALSE	   6
@@ -822,6 +830,7 @@ V. Petterson	FALSE	   6
 Geografiska förening i Finland	FALSE	   6
 A. Backman	FALSE	   6
 J. Jernström	FALSE	   6
+C.E. Fritzes hofbokhandel	FALSE	   6
 Helsingfors stad	FALSE	   6
 Nuorten naisten kristillinen yhdistys	NA	   6
 Internationella Traktat- & missionsförening	FALSE	   6
@@ -829,10 +838,14 @@ Sigurdur Jónsson	FALSE	   6
 Krogerus, V J G	 TRUE	   6
 C.E. Fritze	FALSE	   6
 Studentfylkingen	FALSE	   6
+Strömberg, Tyra	 TRUE	   6
 Suomen kuuromykkäinliitto	NA	   6
+Nordmann, Petrus (1858-1923)	 TRUE	   6
 F. Frommann	FALSE	   6
-Ekenäs tryckeri Förlag	FALSE	   6
+Fransiska, 	 TRUE	   6
 Svenska K. F. U. M	FALSE	   6
+Lagerborg, Rolf	 TRUE	   6
+Nylander, Lennart	 TRUE	   6
 Prometheus	FALSE	   6
 Åbo avdelning Förlag	NA	   6
 Pyh. Hallitsevainen Synoodi	NA	   6
@@ -847,7 +860,7 @@ Försäkringsförening i Finland	FALSE	   6
 Kataja	FALSE	   6
 Handelstryckeriet	FALSE	   6
 Frams byrå	FALSE	   6
-Päivälehti kustannus	FALSE	   6
+Päivälehti	FALSE	   6
 Viipurin työväen sanomalehti-osuuskunta	FALSE	   6
 Svenska Nykterhetsförlag	FALSE	   6
 Suomen metallityöntekijäin liitto	FALSE	   6
@@ -864,7 +877,8 @@ A. Apostol	FALSE	   6
 Pohjanmaan työväen osuuskp	FALSE	   6
 Puoluetoimikunta	FALSE	   6
 Helsingin kaupungin kaasulaitos	NA	   6
-Lahden uusi kp	FALSE	   6
+Lahden uusi Kirjapaino	FALSE	   6
+Thesleff, L	 TRUE	   6
 Voinvientiosuusliike Valio	FALSE	   6
 Suomen sahateollisuustyöväenliitto	FALSE	   6
 Tampereen kustannustoimisto	NA	   6
@@ -879,8 +893,8 @@ Turun pipliaseura	FALSE	   6
 Hämäläis-osakunta	FALSE	   6
 Joel Björklund & Co	FALSE	   6
 Suomalais-am. kustannus	FALSE	   6
-J.W. Lillja & Co förlag	FALSE	   6
-Pohjois-Karjalan kp	FALSE	   6
+J.W. Lillja & Co	FALSE	   6
+Pohjois-Karjalan Kirjapaino	FALSE	   6
 Elämä osuuskunta	FALSE	   6
 H.C. Friis	FALSE	   6
 Suomen evankelis-luterilainen pyhäkouluyhdistys	FALSE	   6
@@ -896,7 +910,7 @@ Wilcke, Johann Georg	FALSE	   6
 Helsing, Olof Olofsson	FALSE	   6
 Selow, Peter van	FALSE	   6
 Helsing, Anund Olofsson	FALSE	   6
-Kungliga Tryckeriet	FALSE	   6
+Kungliga tryckeriet	FALSE	   6
 Weppling, Johann	FALSE	   6
 Anders Björckmans enka	FALSE	   6
 Keysers arvingar	FALSE	   6
@@ -929,9 +943,9 @@ Majlund	FALSE	   5
 Lagerbom	FALSE	   5
 Ekholm	FALSE	   5
 A.W. Lindgren	FALSE	   5
-Auralehden	FALSE	   5
+Auralehden 	FALSE	   5
 J.C. Lagerspetz	FALSE	   5
-Turun Kirjapainon	FALSE	   5
+Turun Kirjapainon 	FALSE	   5
 Sen kp	NA	   5
 Suomen metalliteollisuuden työnantajaliitto	NA	   5
 Suomen kennelklubi	NA	   5
@@ -942,35 +956,47 @@ Suomen taiteilijaseura	NA	   5
 Suomen työväenpuolue	FALSE	   5
 Liljeroos, J E	 TRUE	   5
 P. Nordmann	FALSE	   5
-Bergroth, Gustaf Elis	 TRUE	   5
 Itä-Hämeen maalaisseura	FALSE	   5
+Sievers, Richard	 TRUE	   5
+Renvall, Tancred T	 TRUE	   5
+Pellikka, Johan	 TRUE	   5
 Uudenmaan ja Hämeen läänien maanviljelysseura	NA	   5
 Suomen vientiyhdistys	NA	   5
 Joh. Svensson	FALSE	   5
 Mustasaari Landtmannagille	FALSE	   5
+Hagfors, K J	 TRUE	   5
 O.L. Svanbäck'in kp	FALSE	   5
 O. Grönroos	FALSE	   5
 Emil Sonck	NA	   5
+Hurtig, Karl	 TRUE	   5
+Freudenthal, Edla	 TRUE	   5
 G.W. Edlund'in kustannuksella	FALSE	   5
+Stenij, Edv (1857-1925)	 TRUE	   5
 P. Ahlgren	FALSE	   5
 O.J. Dahlberg	FALSE	   5
 Puoluehallinto	FALSE	   5
 Macmillan & Co	FALSE	   5
 Fiskeriförening i Finland	FALSE	   5
 Antti Hautala	FALSE	   5
+Vasenius, Valfrid	 TRUE	   5
 Porin kaupunki	FALSE	   5
 Rahkonen, Juho	 TRUE	   5
-Hugo Geber Förlag	FALSE	   5
+Hugo Geber	FALSE	   5
+Reuter, Jonatan	 TRUE	   5
 Finska Seglareförbund	FALSE	   5
 Itä-Suomen karjanjalostusyhdistys	FALSE	   5
 Kouluylihallitus	FALSE	   5
 Kerkkonen, Kaarlo (1869-1928)	 TRUE	   5
+Ekenäs tryckeri	FALSE	   5
+Lindelöf, L	 TRUE	   5
 Suomen evank. seura	NA	   5
 Suomen rautatieläisten liitto	FALSE	   5
 Septem	NA	   5
 Oulun läänin eteläinen vaalipiiri	NA	   5
+Boldt, Georg	 TRUE	   5
 Daniel Henkikäsi, Numero	 TRUE	   5
 O.y. Weilin & Göös	FALSE	   5
+Boisman, A W (1851-1922)	 TRUE	   5
 Invaliditeettivakuutuskomitea	FALSE	   5
 Jokamiehen viikkolehti	FALSE	   5
 Industriidkarenes i Finland Ömsesidiga Brandstodsförening	FALSE	   5
@@ -978,6 +1004,7 @@ J. Simelius	FALSE	   5
 Torpparien keskustoimikunta	FALSE	   5
 A.B. Ljus	FALSE	   5
 Nylands fruktodlareförening	FALSE	   5
+Svanljung, John	 TRUE	   5
 Suomen yleinen työnantajaliitto	NA	   5
 Finlands Hypoteksförening	FALSE	   5
 Tampereen antikvaarinen kirjakauppa	FALSE	   5
@@ -989,13 +1016,14 @@ Kansallis-osake-pankki	FALSE	   5
 Konstförening i Åbo	NA	   5
 Suomen pipliaseura	FALSE	   5
 Pohjan Tähden kp	FALSE	   5
+Renvall, Thorsten	 TRUE	   5
 Suomen nuorison liitto	NA	   5
 Förbund mellan K.F.U.M. & U.K.F. i Finland	FALSE	   5
-Neovius-nevanlinna, L (1850-1916)	 TRUE	   5
+Mäkinen, Antti (1857-1936)	 TRUE	   5
 Paraisten kalkkivuori	FALSE	   5
 Gösta Nordberg	FALSE	   5
 Ylioppilaiden raittiusyhdistys	FALSE	   5
-Kaakkois-Karjalan kp	FALSE	   5
+Kaakkois-Karjalan Kirjapaino	FALSE	   5
 Kotkan työväenyhdistys	FALSE	   5
 Työläisnaisen osuuskunta	FALSE	   5
 Koitto	NA	   5
@@ -1005,7 +1033,7 @@ Suomen Rauhanliitto	FALSE	   5
 Hakaniemen kirjakauppa	FALSE	   5
 Suomen tehdas- ja sekatyöväenliitto	FALSE	   5
 Kirjakustantamo Into	FALSE	   5
-Robert Edgren Förlag	FALSE	   5
+Robert Edgren	FALSE	   5
 Suomen tilastollinen päätoimisto	FALSE	   5
 Henkivakuutus Salama	FALSE	   5
 Raittiusjärjestöjen keskustoimisto	FALSE	   5
@@ -1016,12 +1044,12 @@ Maataloustuottajain valtuuskunnan tilastotoimisto	FALSE	   5
 Suomen ayrshireyhdistys	FALSE	   5
 Asp, Gustaf Edvard (1866-1952)	 TRUE	   5
 Suom. Kirj. seura	FALSE	   5
-Liipola, Heikki	 TRUE	   5
 Osuuskunta 'Kristillinen työkansa	FALSE	   5
 Suomalaisuuden liitto	FALSE	   5
 Karjalan sivistysseura	NA	   5
 Suomen tie- ja vesirakennusten ylihallituksen hydrografinen toimisto	FALSE	   5
-Rakentajain Kustannus	FALSE	   5
+Rakentajain kustannus	FALSE	   5
+Rekonen, Aatu	 TRUE	   5
 Röyhy, Sara	 TRUE	   5
 Aug. Edwards	FALSE	   5
 Kirjatoimi	FALSE	   5
@@ -1041,7 +1069,7 @@ Kyläkirjaston Kuvalehti	FALSE	   5
 Uoti ja Grönroos	FALSE	   5
 Helsingin kaupunkilähetys	FALSE	   5
 Typis Frenckellianis	FALSE	   5
-Tryckt, hos ... Jacob Merckell	FALSE	   5
+Tryckt hos ... Jacob Merckell	FALSE	   5
 Van Selow, Peter	FALSE	   5
 Günther, Christopher	FALSE	   5
 Kankel, Johan	FALSE	   5
@@ -1068,7 +1096,7 @@ C.F. Berling	FALSE	   4
 Frenckell & sons bokhandel	FALSE	   4
 På eget förlag	FALSE	   4
 W. Lundeqvist	FALSE	   4
-F. Liewendals lith. Tryckeri	NA	   4
+F. Liewendals lith. tryckeri	NA	   4
 Plon	FALSE	   4
 Bertrand	FALSE	   4
 Longman	FALSE	   4
@@ -1083,12 +1111,13 @@ Finska studentafdelningarnas etnografiska museum	NA	   4
 Simelii	FALSE	   4
 Tekijän kustannuksella	FALSE	   4
 Sjöblom	FALSE	   4
+Alopaeus, Carl Henrik (1825-1892)	 TRUE	   4
 Jahnsson	FALSE	   4
 Kaselius	NA	   4
 Sohm, Peter	FALSE	   4
 Kloström	FALSE	   4
 Philipp Reclam jun	FALSE	   4
-Senaatin Kirjapaino	FALSE	   4
+Keisarillinen Senaatin Kirjapaino	FALSE	   4
 Druckerei der Finnischen Litteraturgesellschaft	FALSE	   4
 V. Weurlander	FALSE	   4
 Syrén	FALSE	   4
@@ -1101,46 +1130,50 @@ Giescke	FALSE	   4
 Friis	FALSE	   4
 Majlund ja Lyytisen Kirjapaino	FALSE	   4
 Kastegren	FALSE	   4
-Tammelander, Mathilda Emilia	 TRUE	   4
 Heino, K	 TRUE	   4
 K. Suomen Talousseura	FALSE	   4
 Willjamson, William	 TRUE	   4
+Kihlman, Alfred Oswald	 TRUE	   4
 Erinäisten rautatiesuuntien taloudellista tutkimusta varten asetettu komitea	NA	   4
 M. Lindroth	FALSE	   4
 Edlundska bokhandeln	NA	   4
 Pedagogiska förening i Finland	FALSE	   4
 Fr. ja P	FALSE	   4
+Heikel, Viktor (1842-1927)	 TRUE	   4
 Toimittajat	NA	   4
 Savolainen, Abraham	 TRUE	   4
-Sanomal.- ja kp	FALSE	   4
 Erkko	FALSE	   4
 Aug. Kajetskij	NA	   4
 Universitas Helsingforsiensis	NA	   4
 G.E. Jansson ja K	FALSE	   4
 Suomen Valtio	FALSE	   4
-Etelä-Suomen kp	NA	   4
+Etelä-Suomen Kirjapaino	NA	   4
 Forsman, Juho Rudolf	 TRUE	   4
 Yhdistys siipikarjanhoidon ystävät Turussa	FALSE	   4
-A. Kasurisen kp	NA	   4
+A. Kasurisen Kirjapaino	NA	   4
 Kejserliga Alexanders Universitetet i Helsingfors	NA	   4
 Lindstedt antikvar. bokhandel	FALSE	   4
-Hurtig, Karl	 TRUE	   4
+Schultén, M W Af	 TRUE	   4
 Polyteknikkojen yhdistys	NA	   4
 Kuopion uusi Kirjapaino, jakaja	FALSE	   4
+Helsingius, Gustaf Adolf	 TRUE	   4
+Järvinen, Kyösti (1869-1957)	 TRUE	   4
 Polytypos	FALSE	   4
 Ständerbiblioteket	NA	   4
 Heikel, Axel O (1851-1924)	 TRUE	   4
 Samson & Wallin	FALSE	   4
-Fröken C. Mechelin	FALSE	   4
+Kronman, A	 TRUE	   4
+Fröken C. Mechelin 	FALSE	   4
 Finska evangeliska sällskap	FALSE	   4
 Edv. Helin	FALSE	   4
 Herman Edgrens bokhandel	FALSE	   4
-K.B. Boström Förlag	FALSE	   4
+K.B. Boström	FALSE	   4
 Pietarsaaren kaupunki	NA	   4
 I. Rosqvist	NA	   4
 Minervas bokhandel	FALSE	   4
 H. Welter	FALSE	   4
 J.A. Barth	FALSE	   4
+Grönholm, Väinö	 TRUE	   4
 Lilius & Hertzberg, jakaja	FALSE	   4
 Finska Veterinärförening	NA	   4
 Postsparbanksstyrelse	FALSE	   4
@@ -1151,7 +1184,7 @@ Fraser, Georg (1849-1937)	 TRUE	   4
 Åbo Underrättelser	FALSE	   4
 Finska Sågverksegareförening	FALSE	   4
 Wiipurin kaupunki	FALSE	   4
-Tammisaaren kp	FALSE	   4
+Tammisaaren Kirjapaino	FALSE	   4
 G.E. Asp	NA	   4
 Åbo stads historiska museum	NA	   4
 Hugo Forsström	FALSE	   4
@@ -1159,7 +1192,9 @@ Kaarlo Halme	FALSE	   4
 Renvall, Heikki (1872-1955)	 TRUE	   4
 Schultz	FALSE	   4
 Landtbruksstyrelses landtbruksekonomiska afdelning	FALSE	   4
+Stenberg, E A	 TRUE	   4
 Svenska teosofiska Förlag	FALSE	   4
+Sjöström, Alfred	 TRUE	   4
 Georg Merseburger	FALSE	   4
 Nykterhetssällskapens Centralbyrå	FALSE	   4
 Lohjan pitäjänkertomus	FALSE	   4
@@ -1171,10 +1206,12 @@ Paul Parey	FALSE	   4
 H. Aschehoug & Co	FALSE	   4
 Helsingfors Stads Gasverk	NA	   4
 Meteorologiska Centralanstalte	FALSE	   4
+Mandelin, Erik (1887-1953)	 TRUE	   4
 Oesterheld & Co	FALSE	   4
 Methuen & Co	FALSE	   4
 Finska Sortimentsbokhandlareförening	FALSE	   4
 Armand Colin	FALSE	   4
+Lindén, K E	 TRUE	   4
 Sällskap M. M	FALSE	   4
 Sampsa	FALSE	   4
 Hjalmar Lax	FALSE	   4
@@ -1182,9 +1219,9 @@ Suomen luotsi- ja majakkalaitos	NA	   4
 Kosonen	FALSE	   4
 Liittohallinto	FALSE	   4
 Allmänna Finska Arbetsgifvareförbund	FALSE	   4
+Elfving, Fredrik (1854-1942)	 TRUE	   4
 Arbetet Förlag	FALSE	   4
 Förening Ålands Vänner	FALSE	   4
-Nylander, Lennart	 TRUE	   4
 Åbo nation	NA	   4
 Kp. Polytypos	NA	   4
 Lainvalmistelukunta	NA	   4
@@ -1192,9 +1229,8 @@ Centralstyrelses för hästavelsförbunden i Finland	NA	   4
 öhrlund, Saimi	 TRUE	   4
 Närpes Folkhögskolas Elevförbund	NA	   4
 Helsingin N. M. K. Y	FALSE	   4
-Boldt, Georg	 TRUE	   4
 Wesala, Kaarlo	 TRUE	   4
-Oulun uusi kp	FALSE	   4
+Oulun uusi Kirjapaino	FALSE	   4
 Pohjan Tähti	FALSE	   4
 Waaranen, K A (1849-1923)	 TRUE	   4
 Hydrografiska Byrån vid Öfverstyrelse för väg- & vattenbyggnaderna i Finland	FALSE	   4
@@ -1209,7 +1245,7 @@ Statistiska byrån vid landtbruksproducenternas delegation	FALSE	   4
 Social-demokratiska partiet	FALSE	   4
 Roneliuksen kirjakauppa	FALSE	   4
 Otto Harrassowitz	FALSE	   4
-Merkurius Kustannus	NA	   4
+Merkurius	NA	   4
 Finska Arbetsgifvareförbund	NA	   4
 Björck & Börjesson	FALSE	   4
 Lärobokskommitténs förslag	FALSE	   4
@@ -1226,15 +1262,17 @@ Kommunala centralbyrån i Finland	FALSE	   4
 Satakuntalainen osakunta	FALSE	   4
 Pyrkijä	FALSE	   4
 Ruotsalainen, Armas	 TRUE	   4
+Rosenqvist, I A	 TRUE	   4
 Kp. 'Sanoma	FALSE	   4
 Raunio, Abel Fabian	 TRUE	   4
 Eget förlag	FALSE	   4
 Lahden kp	FALSE	   4
-J.A. Lindblad Förlag	FALSE	   4
+Palmgren, Rolf	 TRUE	   4
+J.A. Lindblad	FALSE	   4
 Finska historiska samfund	FALSE	   4
 Nurho, Juho	 TRUE	   4
-Kansallis Kirjapaino	FALSE	   4
-Bröderna Lagerström Förlag	FALSE	   4
+KansallisKirjapaino	FALSE	   4
+Bröderna Lagerström	FALSE	   4
 Nevanlinna, O (1867-1927)	 TRUE	   4
 Th. Wulff	FALSE	   4
 Hannes Sjöblom	FALSE	   4
@@ -1266,10 +1304,12 @@ Yhteiskunnallinen keskusliitto ja keskustoimisto	NA	   4
 Henkivakuutusyhtiö Salama	FALSE	   4
 Geologinen toimisto	NA	   4
 Mikkelin työväen sanomalehti-osuuskunta	FALSE	   4
+Setälä, E N (1864-1935)	 TRUE	   4
 Sos.-dem. naisliitto	FALSE	   4
 Tampereen kansallisKirjapaino	FALSE	   4
+Roine, Reinhold (1866-1937)	 TRUE	   4
 Kirja-Aitta	FALSE	   4
-Otto Andersin kp	FALSE	   4
+Otto Anders	FALSE	   4
 Suomen voimistelu- ja urheiluliitto	NA	   4
 Sos.-dem. nuorisoliitto	FALSE	   4
 Into	FALSE	   4
@@ -1292,7 +1332,6 @@ Kallio, J E	 TRUE	   4
 Suomalainen kirjakauppa	FALSE	   4
 Suomen vapaalähetys	FALSE	   4
 Lännen työväen kustannus	FALSE	   4
-Rekonen, Aatu	 TRUE	   4
 Suomi Synod	NA	   4
 Oulun kaupunki	FALSE	   4
 Lindh, Nils Magnus	FALSE	   4
@@ -1303,11 +1342,12 @@ Gyldendalske boghandel	FALSE	   4
 Uleåborgs tryckeri	FALSE	   4
 J.W. Nessler	FALSE	   4
 Suomen evankelis-luterilainen kirkko	NA	   4
-Wasa Tryckeribolag Förlag	FALSE	   4
+Wasa tryckeribolag	FALSE	   4
 Mauritz Thiesen	FALSE	   4
 Littera	FALSE	   4
 Sydvästra Finlands svenska folkhögskola	NA	   4
-Skandinaviska Förlagsexpeditionen	FALSE	   4
+Suomen talousseura	NA	   4
+Skandinaviska förlagsexpeditionen	FALSE	   4
 Suomen metsästysyhdistys	NA	   4
 J. Krohn	FALSE	   4
 Suomen metsäyhdistys	FALSE	   4
@@ -1383,6 +1423,7 @@ Familj-journalens Tryckeri	NA	   3
 Chapman and Hall	FALSE	   3
 Norman	FALSE	   3
 Société Finlandaise de Littérature	FALSE	   3
+österviking, 	 TRUE	   3
 Gubernskaâ tipografìâ	FALSE	   3
 Ridderskapet & adeln	NA	   3
 Tipografìâ Finlândskoj gazety	FALSE	   3
@@ -1391,6 +1432,7 @@ Tipografìâ I.N. Skorohodova	FALSE	   3
 Voennaâ tipografìâ	FALSE	   3
 Ries & Erler	FALSE	   3
 Bohlin	FALSE	   3
+Schultén, Aug Af	 TRUE	   3
 Suomen Biblia-Seura	NA	   3
 Breitkopf	FALSE	   3
 Wikberg	FALSE	   3
@@ -1403,8 +1445,8 @@ P.M.F. Lundberg	FALSE	   3
 Huhtin	FALSE	   3
 Imperatorskìj senat	NA	   3
 Gebethner i Wolff	FALSE	   3
-Alopaeus, Carl Henrik (1825-1892)	 TRUE	   3
 Gummerus, K J (1840-1898)	 TRUE	   3
+Wainio, Edvard August	 TRUE	   3
 Suomen Evankeliumi Seura	FALSE	   3
 Hajander	FALSE	   3
 Westbeck	FALSE	   3
@@ -1418,6 +1460,7 @@ Suomen talous-seura	FALSE	   3
 Laitinen, Aatu (1853-1923)	 TRUE	   3
 Ollgren	FALSE	   3
 Kuopion isänmaallinen seura	FALSE	   3
+Ongelin, Hanna (1848-1893)	 TRUE	   3
 Alexander Ferdinand Borenius	FALSE	   3
 Oskar Aukusti Frithiof Blomstedt	FALSE	   3
 Henrik Renqvist	FALSE	   3
@@ -1429,30 +1472,31 @@ Summa, Vilho	 TRUE	   3
 Privata reallyceum i Fredrikshamn	FALSE	   3
 KansanKirjapaino	FALSE	   3
 G.W. Edlundin kustantama	FALSE	   3
-Pellikka, Johan	 TRUE	   3
 Kansankirjallisuus	FALSE	   3
+Palmén, E G	 TRUE	   3
 Suomen taideteollisuusyhdistys	NA	   3
 Flodin	FALSE	   3
 Wirkki	FALSE	   3
 Michelson	FALSE	   3
 Leppänen	NA	   3
 Åbo Tidningin Kirjapaino	FALSE	   3
-Tryckt hos C.A. Londicer	FALSE	   3
+C.A. Londicer	FALSE	   3
 Grenzius, Michael Gerhard	FALSE	   3
 Killinen, Tilta Josefina	 TRUE	   3
 Modén	FALSE	   3
+Weikkolin, Ida	 TRUE	   3
 Ylioppilaskunnan laulajat	NA	   3
 Wasa musikaliska förening	FALSE	   3
-Auran kp	FALSE	   3
+Auran Kirjapaino	FALSE	   3
 Holmberg, G O	 TRUE	   3
 Grahn, Olof	NA	   3
 Segerstedt, Albrecht Julius	NA	   3
 In officina Frenckelliana	FALSE	   3
 Juho Häkkänen	FALSE	   3
 Lapsenpäästölaitos	FALSE	   3
-Kihlman, Alfred Oswald	 TRUE	   3
 Valtionrautatiet	NA	   3
 A. Grönberg	FALSE	   3
+Sanomal.- ja kp.	FALSE	   3
 G.W. Edlundin kirjak	FALSE	   3
 J. Malm	FALSE	   3
 Vihlman, Ivar	 TRUE	   3
@@ -1462,6 +1506,7 @@ Kehittäjän kannatus	NA	   3
 C.E. Holmberg	FALSE	   3
 Väinö Andelin	FALSE	   3
 J. Simeliuksen perilliset	FALSE	   3
+Hemmer, Helga	 TRUE	   3
 Ukkonen, Aksel	 TRUE	   3
 Murén, Emil (1854-1912)	 TRUE	   3
 Tikkanen, L J	 TRUE	   3
@@ -1470,7 +1515,6 @@ K. Rantakari	FALSE	   3
 Frivilliga brandkåren i Borgå	NA	   3
 Privata reallyceum	FALSE	   3
 Oskari Kilpinen	NA	   3
-Renvall, Tancred T	 TRUE	   3
 Mustialan maanviljelys- ja meijeriopisto	NA	   3
 Axel Bergbom	FALSE	   3
 Pappeinkokous	FALSE	   3
@@ -1496,6 +1540,7 @@ Dannholm, Fredrik Oskar (1847-1930)	 TRUE	   3
 T. Fisher Unwin	FALSE	   3
 Filosofiska fakultetens Fysisk-matematiska Sektion	NA	   3
 Ernst Hofmann	FALSE	   3
+Tallqvist, Knut	 TRUE	   3
 Kuopion läänin maanviljelysseura	FALSE	   3
 V. Petterson & Co	FALSE	   3
 Helander, B H	 TRUE	   3
@@ -1506,40 +1551,52 @@ Luth. evangeliiförening	NA	   3
 Ilmajoen maamiesseura	FALSE	   3
 Otava station, författare	FALSE	   3
 Aktiebol. Handelstryckeriet	FALSE	   3
+Marinero, 	 TRUE	   3
+Ramsay, August	 TRUE	   3
 Lübcke & Hartmann	FALSE	   3
 Förff	FALSE	   3
-Helsingius, Gustaf Adolf	 TRUE	   3
+Lönnbeck, Waldemar	 TRUE	   3
 C.W.K. Gleerup	FALSE	   3
 Suomen vaatturityönantajain liitto	NA	   3
+Lagerblad, Elis (1845-1928)	 TRUE	   3
 Williamson, William	 TRUE	   3
+Torborg, 	 TRUE	   3
+Hernberg, Alarik	 TRUE	   3
+Jansson, E	 TRUE	   3
 J. Holt	FALSE	   3
 Oma Apu	FALSE	   3
 Unionen	FALSE	   3
+Sonck, Emil	 TRUE	   3
 V. Pios Boghandel	FALSE	   3
 Suomen ylioppilaskirjasto	NA	   3
 Otava, jakaja	NA	   3
 Polytekniska institutet	FALSE	   3
 David Nutt	FALSE	   3
 Helsingin musiikkiopisto	NA	   3
+Saxén, Ralf	 TRUE	   3
+Runeberg, J W	 TRUE	   3
+Nylander, John William	 TRUE	   3
+Ruin, Waldemar	 TRUE	   3
 Ferdinand Enke	FALSE	   3
 Granfelt, O Hj	 TRUE	   3
+Hjelt, Arthur	 TRUE	   3
 Raumo Tryckeri	FALSE	   3
 Svanbäck	FALSE	   3
 Oskar Dannholm	FALSE	   3
 P. Hanstein	FALSE	   3
 Gadolin, A W	 TRUE	   3
 Gymnastikförening för fruntimmer	FALSE	   3
-Stenij, Edv (1857-1925)	 TRUE	   3
 A. Christianson	FALSE	   3
 Helsingin moottoritehdas Erkko & Markoff	FALSE	   3
-Varias Tryckeri	FALSE	   3
+Varias	FALSE	   3
 Suomen kansallismuseo	FALSE	   3
-Sjöström, Alfred	 TRUE	   3
 Finlândskoe obŝestvo turistov	FALSE	   3
 Werner Klinkhardt	FALSE	   3
+Estlander, Ernst	 TRUE	   3
 Suomal. sosialistinen kustannus	FALSE	   3
 Etzold & Co	FALSE	   3
 Wilhelm Braumüller	FALSE	   3
+Wilhelmsson, John	 TRUE	   3
 Gösta Sundman	FALSE	   3
 Giard & Brière	FALSE	   3
 Åbo samskola	FALSE	   3
@@ -1547,6 +1604,8 @@ Svenska studentförening	FALSE	   3
 Kp. Valo	FALSE	   3
 Wiipurin evank.-lut. nuorisoyhdistys	FALSE	   3
 Mayer & Müller	FALSE	   3
+Sucksdorff, Vilh (1851-1934)	 TRUE	   3
+Sucksdorff, Julia	 TRUE	   3
 Direktionen för Runebergs hem	FALSE	   3
 Konstflitförening	FALSE	   3
 I. F. K	NA	   3
@@ -1554,9 +1613,10 @@ Slöjdförening	NA	   3
 Ilarejo Esperantista	FALSE	   3
 Agrikultur-ekonomiska försöksanstalte i Finland	FALSE	   3
 S.V.R. Konepajoen työväenyhdistys	NA	   3
+Puukko, A F	 TRUE	   3
+Reuter, O M (1850-1913)	 TRUE	   3
 Hemskoleexpeditionen	FALSE	   3
 Finska skolstatens pensionskassa	FALSE	   3
-Neovius, L (1850-1916)	 TRUE	   3
 Nevalinna, L	 TRUE	   3
 Neovius, Adolf	 TRUE	   3
 Mäkisen Tehdasliike	FALSE	   3
@@ -1574,10 +1634,12 @@ Nylands Djurskyddsförening	NA	   3
 G.E.C. Gad	FALSE	   3
 Suomen maataloustieteellinen seura	FALSE	   3
 Stadsmissionen	FALSE	   3
-K. F. U. K:s bokhandel	FALSE	   3
+K. F. U. K:s bokhandel 	FALSE	   3
 Kvinnosaksförbund Unionen	FALSE	   3
+Ljungberg, Eva (1850-1919)	 TRUE	   3
 Sociala Centralförbund	NA	   3
 Landtbruks- & hushållningssällskapen	NA	   3
+Karsten, Walter	 TRUE	   3
 J.A. Cederberg	FALSE	   3
 J.C. Hinrichs'sche Buchhandlung	FALSE	   3
 Hämeen kirjakauppa	FALSE	   3
@@ -1591,6 +1653,7 @@ Salon Strindberg	NA	   3
 Eklund, Hjalmar	 TRUE	   3
 Suomalaisen Kansan romaanikirjasto	FALSE	   3
 Aikakauslehti Lukutupa	FALSE	   3
+Otava, kustannus	FALSE	   3
 Åbo akademikommitté	NA	   3
 Socialdemokratiska Partibyrån	NA	   3
 Ahlaisten kunta	NA	   3
@@ -1609,6 +1672,7 @@ Amos Anderson	FALSE	   3
 Savon työväen sanomal.-osuuskunta	FALSE	   3
 W. Engelmann	FALSE	   3
 Halme, August	 TRUE	   3
+Gummerus, Jaakko	 TRUE	   3
 Varsinaissuomalainen osakunta	NA	   3
 Turun Evangeliska luth. seura	NA	   3
 Iwar Hæggström	FALSE	   3
@@ -1644,7 +1708,6 @@ Salenius, J M	 TRUE	   3
 Svenska andelsförl	FALSE	   3
 Hyvinkään lähetysyhdistys	FALSE	   3
 Tullihallitus	FALSE	   3
-Rosenqvist, I A	 TRUE	   3
 Verlag für Fachliteratur	FALSE	   3
 Pätiälä, H J (1880-1950)	 TRUE	   3
 Oulun l. etel. vaalip. sos.-dem. piiritoimikunta	FALSE	   3
@@ -1654,13 +1717,11 @@ Finska Grafiska Industrins Arbetsgifvareförbund	NA	   3
 Lind, Karl Johan	 TRUE	   3
 Suomalainen sanomalehtimiesliitto	FALSE	   3
 Palomaa, Veikko	 TRUE	   3
-Palmgren, Rolf	 TRUE	   3
 Ojansuu, Heikki	 TRUE	   3
 Haminan kaupunki	FALSE	   3
 A.B. Ateneum	FALSE	   3
 E.V. Ponkala	FALSE	   3
 Raahen porvari- ja kauppakoulu	FALSE	   3
-Mäkinen, Antti (1857-1936)	 TRUE	   3
 Centrallaget för handelslagen i Finland m.b.t	NA	   3
 Tilastokomitea	NA	   3
 Suomen sairaanhoitajataryhdistys	FALSE	   3
@@ -1681,7 +1742,6 @@ Kyminlaakson työväen sanomalehti- ja Kirjapaino-osuuskunta	FALSE	   3
 Vasama	FALSE	   3
 Tilastokeskus	FALSE	   3
 Vuolle-apiala, Jalmari	 TRUE	   3
-Thesleff, L	 TRUE	   3
 Pellavanviljelyskomitea	FALSE	   3
 B.G. Teubner	FALSE	   3
 Käkisalmen kaupunki	FALSE	   3
@@ -1690,13 +1750,12 @@ Otto Wikman	FALSE	   3
 Sim. per. kp	FALSE	   3
 Suomen kristillinen ylioppilasliitto	FALSE	   3
 Ilmonen, S	 TRUE	   3
-Setälä, E N (1864-1935)	 TRUE	   3
 Sosialistin kp	FALSE	   3
+Snellman, Walter J	 TRUE	   3
 Maanviljelys-taloudellinen koelaitos Suomessa	FALSE	   3
 Pohjois-Hämeen nuorisoseurain liitto	FALSE	   3
 Ruuth, Martti	 TRUE	   3
 Keräystoimikunta vähävaraisten keuhkotautisten hyväksi	FALSE	   3
-Roine, Reinhold (1866-1937)	 TRUE	   3
 Elia,  (1875-1934)	 TRUE	   3
 Sulo Toivonen	FALSE	   3
 Herman Lindell	FALSE	   3
@@ -1714,7 +1773,7 @@ Kirja Tieto	FALSE	   3
 Alex Halonen	FALSE	   3
 Kotimaisen teollisuuden edistämiskomitea	FALSE	   3
 Akseli Kivialho	FALSE	   3
-Pohjanmaan kirjateollisuus kp	FALSE	   3
+Pohjanmaan kirjateollisuus	FALSE	   3
 Savon työväen kp	FALSE	   3
 Kuopion maanviljelysseura	NA	   3
 Godenhjelm, Hugo	 TRUE	   3
@@ -1726,7 +1785,7 @@ Suomen opiskelevan nuorison raittiusliitto	FALSE	   3
 Yhdistyneet edistyspuolueet	FALSE	   3
 Suomen kotiteollisuusvaltuuskunta	NA	   3
 Keskinäinen henkivakuutusyhtiö Suomi	FALSE	   3
-Vapaus	FALSE	   3
+ Vapaus	FALSE	   3
 Agronoominen yhdistys	FALSE	   3
 A. Maunula	FALSE	   3
 Veljekset Jokinen	FALSE	   3
@@ -1739,7 +1798,7 @@ Eläinsuojelustoimisto	FALSE	   3
 Amerikan suom. sos. kustannusliikkeet	FALSE	   3
 Ehdoton raittiusseura	FALSE	   3
 Keski-Suomen nuorisoseura	FALSE	   3
-Suomalainen Kirjapaino	FALSE	   3
+Suomalainen	FALSE	   3
 Suomen säästöpankkien valtuuskunta	FALSE	   3
 Oman Kannan Kirjapaino	FALSE	   3
 Suomen Käsityön ystävät	FALSE	   3
@@ -1753,12 +1812,12 @@ E. Nervander	FALSE	   3
 M. Lankinen	NA	   3
 Johanna Cederwaller et Son	FALSE	   3
 O. Ansas	NA	   3
-Gust. Bergrothin kp	NA	   3
-Kotka Tryckeri	NA	   3
+Gust. Bergroth	NA	   3
+Kotka	NA	   3
 Johanna Cederwaller ja poika	FALSE	   3
 Jakobstads tryckeri- & tidning	NA	   3
 Jac. Ahrenberg	NA	   3
-Hangö-bladets tryckeri	NA	   3
+Hangö-bladets tryckeri 	NA	   3
 Reinhold Roine	NA	   3
 Verneri Vesterdahl	FALSE	   3
 Turun työväen sanomalehti	NA	   3
@@ -1768,7 +1827,7 @@ Suomalaisen Työväenliiton Kirjapaino ja Sanomalehti	NA	   3
 Koulutoimen ylihallitus	NA	   3
 Suomalainen lääkäriseura Duodecim	NA	   3
 Aikain vartija	NA	   3
-Valonvalta	FALSE	   3
+ Valonvalta	FALSE	   3
 Sampo, keskinäinen vakuutuslaitos	NA	   3
 Helsingfors trägårdsgille	FALSE	   3
 Suomen teollisuusvaltuuskunta	NA	   3
@@ -1823,7 +1882,7 @@ Brodin, P. A	FALSE	   3
 Norberg, Samuel	FALSE	   3
 Mortier, Pierre II	FALSE	   3
 Georg Wilhelm Londicerildä	FALSE	   3
-Tryckt hos direct. & kungliga Tryckeri i stor-förstendömet Finland, Jacob Merckell	NA	   3
+Jacob Merckell	NA	   3
 Im verlage des Geogr. Instituts	FALSE	   2
 Wolmar Styrbjörn Schildt	FALSE	   2
 Carolus Isaacus Nordlund	FALSE	   2
@@ -1872,7 +1931,7 @@ Helsingfors' lycei konvent	NA	   2
 P. Sjögren	FALSE	   2
 Lionel Booth	FALSE	   2
 C.W. Edlund Förlag	FALSE	   2
-Elméns & Granbergs Tryckeri	FALSE	   2
+Elméns & Granbergs tryckeri	FALSE	   2
 Saksa	NA	   2
 Tryckt hos P. Sohm	FALSE	   2
 Zacharias Hæggström	FALSE	   2
@@ -1902,10 +1961,11 @@ Merikarttalaitos	NA	   2
 Österbottniska afdelningen	NA	   2
 Vestfinska afdelningen	NA	   2
 G.W. Wilén & Co	FALSE	   2
-Kivipaino	FALSE	   2
+Kivipaino 	FALSE	   2
 Ernest Leroux	FALSE	   2
 A. Hartlebens Verlag	FALSE	   2
 Maisonneuve	FALSE	   2
+Swan, Carl Gustaf	 TRUE	   2
 Frenckell ja pojan kirjakauppa	FALSE	   2
 V.R. Kockström	FALSE	   2
 Finska Litteratursällskap i Wiborg	FALSE	   2
@@ -1928,6 +1988,7 @@ Gebrüdern Bornträger	FALSE	   2
 P.B. Eklund	FALSE	   2
 Looström & Komp	FALSE	   2
 Z. Haeggström	FALSE	   2
+Lundahl, L	 TRUE	   2
 Gust. Rylander	FALSE	   2
 A.G. Hellsten	FALSE	   2
 Åbo tidnings & tryckeri	FALSE	   2
@@ -1936,6 +1997,7 @@ Rudolph Hartman	FALSE	   2
 Ed. Wartig	FALSE	   2
 Carl B. Lorck	FALSE	   2
 Förening för Konstfliten i Finland	FALSE	   2
+Malmström, Karl Robert	 TRUE	   2
 H. Hagerup	FALSE	   2
 Emil Barth	FALSE	   2
 Th. Michaelsen & Tillge	FALSE	   2
@@ -1945,7 +2007,7 @@ The Socialist publishing company	FALSE	   2
 Evankelinen lähetysyhdistys	NA	   2
 Amerikan suomalainen kansallis-raittius-veljeysseura	NA	   2
 Nord Western Mining Journal	FALSE	   2
-F. Tilgmanns bok- & stentryckeri samt kemigrafi	FALSE	   2
+ F. Tilgmanns bok- & stentryckeri samt kemigrafi	FALSE	   2
 Ruben	FALSE	   2
 Seligmann	FALSE	   2
 Cowie	FALSE	   2
@@ -1975,8 +2037,11 @@ Sigfrid Flodin Förlag	FALSE	   2
 Litogr	NA	   2
 Palmblad, Sebell & C	FALSE	   2
 Welter	FALSE	   2
+Rancken, J Oskar I (1824-1895)	 TRUE	   2
+Vesten, Tyr	 TRUE	   2
 Hæggström	FALSE	   2
-Tryckt hos N.H. Thomson	FALSE	   2
+I-n, G	 TRUE	   2
+N.H. Thomson	FALSE	   2
 Tipografiâ štaba otděl'nago korpusa vnutrennej straži	FALSE	   2
 K. È. Gol'm	FALSE	   2
 Ministerstvo putej soobŝenìâ	FALSE	   2
@@ -1999,10 +2064,12 @@ Thiesen	FALSE	   2
 Satakunta bokhandel	FALSE	   2
 G.L. Aschan	FALSE	   2
 Samuel Rumstedt	FALSE	   2
+Selander, Edvard	 TRUE	   2
 Engelmann	FALSE	   2
 Hörberg	FALSE	   2
 J. Cedervaller ja P	FALSE	   2
 Looström	FALSE	   2
+Strömborg, J E	 TRUE	   2
 Schöneman, Gustaf Oskar (1839-1894)	 TRUE	   2
 Ståhlberg	FALSE	   2
 J. Cedervaller poikineen	FALSE	   2
@@ -2023,7 +2090,6 @@ Marelius	FALSE	   2
 Wolff	FALSE	   2
 Grönholm	FALSE	   2
 1 osa	FALSE	   2
-Wainio, Edvard August	 TRUE	   2
 Sandelin	FALSE	   2
 A.W. Jahnsson	NA	   2
 Fellman, Jacob (1795-1875)	 TRUE	   2
@@ -2040,6 +2106,7 @@ Tuuri	FALSE	   2
 Sentraali-Kirjapaino	FALSE	   2
 Lievendal	FALSE	   2
 A.N. Winell	FALSE	   2
+Pipping, Hugo	 TRUE	   2
 Fabritius	FALSE	   2
 Aron Gustaf Borg	FALSE	   2
 J.M. Salenius	FALSE	   2
@@ -2050,6 +2117,7 @@ Fontell	FALSE	   2
 Saukko	FALSE	   2
 Viborgs FBK	NA	   2
 Helwing	FALSE	   2
+A, 	 TRUE	   2
 Helsingin räätäliammattiyhdistys	FALSE	   2
 Suomen syklistiliitto	NA	   2
 Maaseututeaatteri	NA	   2
@@ -2062,11 +2130,9 @@ Helsingfors lyceum	FALSE	   2
 Wäinämöinen	FALSE	   2
 Varsinais-Suomen suomenmielisten ylioppilaitten yhdistys	NA	   2
 Heyno	FALSE	   2
-Ramsay, August	 TRUE	   2
 Privata svenskspråkiga läroverket i Kuopio	NA	   2
 Korsholms jordbruksskola	NA	   2
 Ponnistus	FALSE	   2
-Palmén, E G	 TRUE	   2
 Warén	FALSE	   2
 Leander	FALSE	   2
 Helsingfors centraltryckeri & bokbinder	FALSE	   2
@@ -2083,7 +2149,6 @@ Mäkinen	FALSE	   2
 Korpela, Kalle	 TRUE	   2
 Schünmann, Johann Joachim Christian	FALSE	   2
 Berling, Carl Fredrik	FALSE	   2
-Järvinen, Kyösti (1869-1957)	 TRUE	   2
 Suomalainen, K (1850-1907)	 TRUE	   2
 J.W. Pihl	FALSE	   2
 Finlands svenska Marthaförbund	NA	   2
@@ -2101,13 +2166,13 @@ Tampereen reaalilyseon toverikunta	NA	   2
 Lindgren, Anton Wilhelm (1831-1902)	 TRUE	   2
 Suoman Evank. seura	FALSE	   2
 Relander, Konrad	 TRUE	   2
+Lindroos, Karl	 TRUE	   2
 Kraft, Per	FALSE	   2
 Nordin, Carl Gustaf	FALSE	   2
 Gressel, Johann Hermann Hinrich	FALSE	   2
 Wirtamo ja Markkula	FALSE	   2
 Kansankp	FALSE	   2
 Järvinen, Nestor	 TRUE	   2
-Hemmer, Helga	 TRUE	   2
 A. Hackman	FALSE	   2
 Hangon kaupunki	NA	   2
 Emil Öhman	FALSE	   2
@@ -2123,9 +2188,10 @@ P. Nicolay	FALSE	   2
 G.W. Wílen	NA	   2
 Erikson, Maria	 TRUE	   2
 Telén ja K	FALSE	   2
-Wickstrand'in kp	FALSE	   2
+Wickstrand	FALSE	   2
 G. Tuuri	FALSE	   2
 Matti Helenius	NA	   2
+Holmberg, Mårten	 TRUE	   2
 Eetu, 	 TRUE	   2
 Kommunalförvaltningen i Sibbo	NA	   2
 Suomalainen kirjallisuus-seura Viipurissa	NA	   2
@@ -2134,6 +2200,7 @@ Uniooni	NA	   2
 Kokkolan paperikauppa	NA	   2
 Olánin kirjakauppa	FALSE	   2
 Edquist	FALSE	   2
+Hildén, K Aug	 TRUE	   2
 Barnbördshuset	FALSE	   2
 Boström	FALSE	   2
 A. Skutnabb	FALSE	   2
@@ -2142,6 +2209,7 @@ Senwall, Kaarlo Vilho	 TRUE	   2
 E. Björkell	FALSE	   2
 Kommunala sjukhuset i Åbo	NA	   2
 Viipurin palvelijataryhdistys	NA	   2
+Gripenberg, G A (1854-1918)	 TRUE	   2
 Emil Lyytikäinen	FALSE	   2
 Ronkainen, H	 TRUE	   2
 Eläinsuojeluskonttori	FALSE	   2
@@ -2150,13 +2218,13 @@ Nylands fiskarförbund	NA	   2
 Emil Tilvis	FALSE	   2
 M.E. Forsström	FALSE	   2
 K.S. Kirjapaino	FALSE	   2
-Kp	FALSE	   2
 E.R. Krist. naisyhdistys	NA	   2
 Pedag. förening i Finland	FALSE	   2
 Finska folkskolemötet	NA	   2
 Axel Fröberg	NA	   2
 G. Th. Jacob	NA	   2
 Länkelä, Jaakko	 TRUE	   2
+Fabritius, Ernst (1842-1899)	 TRUE	   2
 L.W. Partanen	FALSE	   2
 Kehittäjän kannatusyhditys	NA	   2
 Suomen sanomalehtimiesyhdistys	NA	   2
@@ -2172,9 +2240,10 @@ Säästöpankkien tarkastaja	NA	   2
 Svenska reallyceum i Helsingfors	NA	   2
 Koivistoinen, Joh	 TRUE	   2
 O. Wennberg ja K	FALSE	   2
-E. Wahlstein'in Kirjapaino	NA	   2
+E. Wahlstein'in	NA	   2
 Suomen sosiaalidemokraattinen puoluehallinto	FALSE	   2
 J. Nylenius	FALSE	   2
+Johansson, Erik (1867-1944)	 TRUE	   2
 G.E. Jansson & kumpp. Kirjapaino	FALSE	   2
 Suomen puuseppien ammattiyhdistys	NA	   2
 T,  (NA-1928)	 TRUE	   2
@@ -2186,6 +2255,7 @@ Hildén, Konr	 TRUE	   2
 J-n, Herman	 TRUE	   2
 William Ruth	FALSE	   2
 H. Haessel	NA	   2
+Aurén, P W (1826-1896)	 TRUE	   2
 Zigenarmissionen Förlag	FALSE	   2
 Jalander, Y W	 TRUE	   2
 Öfverstyrelse	NA	   2
@@ -2195,7 +2265,7 @@ Hagelstam'in kirjakauppa	FALSE	   2
 Suomalainen Kansalliskirjakauppa	FALSE	   2
 Vuoksi	FALSE	   2
 Turun tuomiokapituli	FALSE	   2
-Åsvikin kp	FALSE	   2
+Åsvik	FALSE	   2
 A. O	FALSE	   2
 Filosofiska fakultetens Historisk-filologiska sektion	NA	   2
 K.W. Hiersemann	FALSE	   2
@@ -2203,31 +2273,49 @@ C. & E. Gernandt Förlagsaktiebol	FALSE	   2
 Alb. Cammermeyer	FALSE	   2
 C. & E. Gernandt	FALSE	   2
 Tampereen reaalilyseo	FALSE	   2
-Otava, kustannus	NA	   2
 Svenska fruntimmersskolan	NA	   2
+Yrjö-koskinen, Yrjö Sakari (1830-1903)	 TRUE	   2
 F. Örfattaren	FALSE	   2
+Stadius, Uno	 TRUE	   2
 Stenografiska förening	FALSE	   2
+Oker-blom, Max (1863-1917)	 TRUE	   2
+Sjöström, J A	 TRUE	   2
+Aimonen, Anton (1857-1927)	 TRUE	   2
 G.O. Holmberg	FALSE	   2
 Svenska kvinnoförbundet	NA	   2
 N. Öhrnberg'in välitysliike	NA	   2
 Hulda Liljeström	FALSE	   2
 Frans Heinonen	NA	   2
+Sibelius, Chr	 TRUE	   2
 Suomen jalkinetyöläisten liitto	NA	   2
 Uuno A. Varis	FALSE	   2
 Hortling, Ivar	 TRUE	   2
+Sahlan, Alfred	 TRUE	   2
 Beijer Förlagsaktiebol	FALSE	   2
+Olander, O	 TRUE	   2
+Karola, 	 TRUE	   2
+Rosberg, Johan Evert	 TRUE	   2
 Suomen muurarien liitto	NA	   2
-Hernberg, Alarik	 TRUE	   2
+L-r-l, 	 TRUE	   2
 Franckellska bokhandel	FALSE	   2
 Väänänen, Matti	 TRUE	   2
+Plathan, Arthur	 TRUE	   2
+Laurén, Walter	 TRUE	   2
 Tidning 'Vårt Land	NA	   2
+Palustris, Myosotis	 TRUE	   2
 Fr. Skoglund	FALSE	   2
 Verner Humble	NA	   2
+Lillqvist, Otto	 TRUE	   2
+Hidén, Carolus	 TRUE	   2
+Karvonen, J J	 TRUE	   2
+Karsten, T E	 TRUE	   2
 Utgg	FALSE	   2
 O.V. Böhmert	FALSE	   2
 Förening Fjäderfäskötselns vänner	FALSE	   2
+Haartman, B Von	 TRUE	   2
 Heikel, Gunnar	 TRUE	   2
 Vennola, J H	 TRUE	   2
+Edvin, 	 TRUE	   2
 Oulun Kristillinen työväenyhdistys	FALSE	   2
 Fornminnesförening	NA	   2
 Loimaan nuorisoseura	NA	   2
@@ -2235,14 +2323,20 @@ Suomen terveydenhoitoyhdistys	NA	   2
 Uno Knorrings fond Förlag	NA	   2
 Société nouvelle de librairie et d'édition	FALSE	   2
 Finlands allmänna slöjdförening	FALSE	   2
+Carlstedt, A V	 TRUE	   2
 J.F. Bergmann	FALSE	   2
 J. Valmari	FALSE	   2
+Fagerlund, L W	 TRUE	   2
 Suomenkielisten teknikkojen seura	FALSE	   2
 Nuorsuomalaisten puoluekanslia	NA	   2
+Born, Viktor Magnus Von	 TRUE	   2
 Lindebergska bokhandel	NA	   2
 K.F. Hjelt	FALSE	   2
 V. Pettersson & Cos tryckeriaktiebol	FALSE	   2
+Aspelin, Eliel	 TRUE	   2
+Wiik, Fredrik Johan	 TRUE	   2
 Arbetets vänners västra filial	FALSE	   2
+Appelberg, K A	 TRUE	   2
 Typpö, Leonard	 TRUE	   2
 Tunkelo, E A (1870-1953)	 TRUE	   2
 Borgå Lycei konvent	NA	   2
@@ -2251,12 +2345,19 @@ Svenska teaterföreningen i Finland	NA	   2
 Kommunal centralbyrå	NA	   2
 Suomen ayrshirekarjan siitosyhdistys	NA	   2
 J.W. Cappelen	FALSE	   2
+Uschakoff, I	 TRUE	   2
+Rosberg, J E	 TRUE	   2
+Tikkanen, J J	 TRUE	   2
 Perä-Pohjolan maanviljelysseura	NA	   2
+Richter, F E	 TRUE	   2
 R. Saxén	NA	   2
 Alfred Sjöström	FALSE	   2
+Sirén, Osvald	 TRUE	   2
 Nordiska museet	FALSE	   2
+Grönroos, Hjalmar	 TRUE	   2
+Schauman, Georg (1870-1930)	 TRUE	   2
 Suomen nahkurityöntekijät	NA	   2
-Svenska Landtbrukssällskapens i Finland Förbund	FALSE	   2
+Svenska Landtbrukssällskapens i Finland	FALSE	   2
 Suomen nahkatyöntekijäin liitto	NA	   2
 Naantalin kaupunki	NA	   2
 Nylands svenska ungdomsförbund	NA	   2
@@ -2266,18 +2367,22 @@ Emil Strauss	FALSE	   2
 Tallqvist, Hj	 TRUE	   2
 Suomen maakauppiaat	NA	   2
 Maataloushallitus	NA	   2
+Nygren, A J	 TRUE	   2
 Västra Nylands folkhögskola	FALSE	   2
-A. Tavaststjerna	NA	   2
+A. Tavaststjerna 	NA	   2
+Homén, Theodor	 TRUE	   2
 Alfred Janssen	FALSE	   2
+Homén, E A	 TRUE	   2
 Société finno-ougrienne	FALSE	   2
 Hedvig Sohlberg	FALSE	   2
 Verlag der Arbeiter-Versorgung	FALSE	   2
 Heurlinska skolan	NA	   2
 Kurkijoen kunta	NA	   2
-Juridiska studentfakulteten Förlagsrörelse	FALSE	   2
+Juridiska studentfakulteten förlagsrörelse	FALSE	   2
 Nyblins Magasin	NA	   2
 Kuopion läänin läntisen vaalipiirin sosialidemokraattinen piirijärjestö	NA	   2
 Suomen perustuslaillinen työväenliitto	NA	   2
+Lindman, Karl F	 TRUE	   2
 Hälsovännen	FALSE	   2
 Kiskon kunta	NA	   2
 Polyteknikernas förening	NA	   2
@@ -2286,49 +2391,68 @@ Keisarillisen Senaatin valtiovaraintoimituskunta	NA	   2
 V. Giard & E. Brière	FALSE	   2
 Kuopion teollisuuskoulu	FALSE	   2
 Osuuskassojen keskuslainarahasto	NA	   2
+Häggman, Ossian	 TRUE	   2
+Hartwall, Gösta	 TRUE	   2
+Hahl, Carl	 TRUE	   2
 Nya bokhandel	FALSE	   2
 Milo'ske Boghandel	FALSE	   2
+Gustafsson, F (1853-1924)	 TRUE	   2
 J.E. Jarl	FALSE	   2
 Atelier Apollo	NA	   2
+Krogius, Ali	 TRUE	   2
 G. Reimer	FALSE	   2
 Finsk Musikrevy	FALSE	   2
 Suomalaisen puolueen asettama komitea	NA	   2
 Sociala Centralbyrån	NA	   2
+Cedercreutz, Axel	 TRUE	   2
+Granlund, J A	 TRUE	   2
 Helsingfors botaniska bytesförening	NA	   2
 Hangö stad	NA	   2
 A. Tiderman	FALSE	   2
 Finska Täljsten	FALSE	   2
 Finska Ecklesiastikstatens enke- & pupillkassa	NA	   2
 Sunila, J E	 TRUE	   2
+Forselles, Arthur Af	 TRUE	   2
 Mart	FALSE	   2
 Sosialidemokratinen eduskuntaryhmä	FALSE	   2
+Savolin, Emil J	 TRUE	   2
 Savolainen, Aaro Iivari	 TRUE	   2
 Herättäjä-yhdistys	NA	   2
 Sandman, Gustaf Zachris	 TRUE	   2
 Saffären Express	FALSE	   2
 Svanbäck & komp	FALSE	   2
-Klein Förlag	FALSE	   2
+Engeström, Fredrik Von	 TRUE	   2
+Klein	FALSE	   2
+Dannholm, Oskar (1847-1930)	 TRUE	   2
 Svenska fruntimmersskolan i Wiborg	FALSE	   2
 Fjäderfäskötselns Vänner	NA	   2
 J.C. Hinrichs	FALSE	   2
 Helsingfors Frivilliga Brandkår	FALSE	   2
+Crohns, Hjalmar	 TRUE	   2
 Sahlstén, P A	 TRUE	   2
 Borgå folkhögskola	FALSE	   2
+Aan, 	 TRUE	   2
 Sampo-seura	FALSE	   2
 Helsingfors Centraltryckeri & bokbinderi	FALSE	   2
 Söderström & Co, jakaja	FALSE	   2
 Pohjalainen valtuuskunta	NA	   2
+östling, G J	 TRUE	   2
 Édition Atar	FALSE	   2
-Gösta Malmgren	FALSE	   2
+Gösta Malmgren 	FALSE	   2
 Sivunen, S	 TRUE	   2
 S. Dahlström	NA	   2
 Otto Wigand	NA	   2
+äyräpää, Matti (1852-1928)	 TRUE	   2
+äimä, F	 TRUE	   2
+Wendt, Georg Von	 TRUE	   2
 Centrallaget för Handelslagen i Finlnd	NA	   2
 Veit & Co	FALSE	   2
 Päiviö, Väinö	 TRUE	   2
 Puupponen, Jaakko	 TRUE	   2
+Ylander, Johan Eliel	 TRUE	   2
 Finska Sparbanksdelegationen	FALSE	   2
 Turistförenings i Finland Åbo-filial	NA	   2
+Rindell, Arthur	 TRUE	   2
 Wasa Segelförening	NA	   2
 Juridiska fakulteten	FALSE	   2
 Ylioppilaiden keskusteluseura	FALSE	   2
@@ -2336,6 +2460,7 @@ F. Didot & C:ie	FALSE	   2
 Ponkala, E W (1862-1943)	 TRUE	   2
 Index	NA	   2
 Hvita Bandet	NA	   2
+Waenerberg, Georg (1865-1941)	 TRUE	   2
 J. Looström & Komp	FALSE	   2
 Finska Jaktförening	NA	   2
 Förening U. V	NA	   2
@@ -2346,8 +2471,10 @@ I. Lattu	FALSE	   2
 Finska Fjäderfä- & Biskötselförening	NA	   2
 Suomen rakennusmestarit	NA	   2
 Philipp Reclam	FALSE	   2
+Tawaststjerna, Ilmari (1879-1932)	 TRUE	   2
 Oulun läänin eteläisen vaalipiirin sosialidemokraattinen piiritoimikunta	NA	   2
 Studentkåren	NA	   2
+Slotte, K F	 TRUE	   2
 Helsingfors Stentryckeri	NA	   2
 Akademiska Sångförening	FALSE	   2
 Pyhin hallitsevainen synoodi	FALSE	   2
@@ -2366,8 +2493,10 @@ Stadens eget förlag	FALSE	   2
 Västfinska Ungdomsförbund	FALSE	   2
 Augustana Book Concern	FALSE	   2
 Finska Kyrkohistoriska Samfundet	FALSE	   2
+C, 	 TRUE	   2
 Yrjö Weilin & Co	FALSE	   2
 Primula	NA	   2
+Rosenberg, G	 TRUE	   2
 Finska Sjöräddningssällskap	NA	   2
 Bernard Grasset	FALSE	   2
 Juho Nurhonen	FALSE	   2
@@ -2395,6 +2524,7 @@ Kansan novellikirjasto	FALSE	   2
 Nordisk kirurgisk förening	NA	   2
 Landtbruksutställning	NA	   2
 Förbunds mellan K. F. U. M. & U. K. F. förlag	FALSE	   2
+Numers, Gustaf Von (1848-1913)	 TRUE	   2
 Olsens Boghandel	FALSE	   2
 Kirjapaino	FALSE	   2
 Suomen leipurityöntekijäin liitto	NA	   2
@@ -2403,24 +2533,29 @@ Ilmoitustoimisto Hermes	NA	   2
 Harrison & Sons	FALSE	   2
 Schleicher	FALSE	   2
 Aikain Vartija Förlags A. B	FALSE	   2
+Moring, K A	 TRUE	   2
 Mellersta Nylands folkhögskola	NA	   2
 Suomen meijeriliitto	NA	   2
+Pajula, J S	 TRUE	   2
 Magistraten	NA	   2
 Handelsgillet	FALSE	   2
 Keravuori, Elin	 TRUE	   2
 Ålands Missionförening	NA	   2
 Likbränningsförening	NA	   2
 Borgå Lyceum	FALSE	   2
+Lundell, Oscar	 TRUE	   2
 E. Rytkönen	FALSE	   2
-Maanviljelyskirjasto	NA	   2
+ Maanviljelyskirjasto	NA	   2
 Weilin & Göösin kirjakauppa	FALSE	   2
 Turun kansalaisjärjestö	NA	   2
+Lindström, Ludvig	 TRUE	   2
 Maanviljelysvirkamiehet	NA	   2
 Maanviljelyslyseo	NA	   2
 Karttunen, Uuno (1874-1959)	 TRUE	   2
 Fyren	FALSE	   2
 Viipurin läänin maatalouskomisioni	NA	   2
-Luth. evank	FALSE	   2
+Luth. evank.	FALSE	   2
+Lövegren, Elis	 TRUE	   2
 J, 	 TRUE	   2
 J. Hörning	FALSE	   2
 Landtdagsbiblioteket	NA	   2
@@ -2441,6 +2576,7 @@ Verlagsbuchhandlung Bethel	FALSE	   2
 E. Pierson	FALSE	   2
 Henkivakuutus Kaleva	FALSE	   2
 Konstitutionella Arbetareförbund i Finland	NA	   2
+Faust,  (1879-1918)	 TRUE	   2
 Lappeenrannan vapaaehtoinen palosammutuskunta	FALSE	   2
 Suomen opettajayhdistys	FALSE	   2
 J.C.B. Mohr	FALSE	   2
@@ -2448,13 +2584,15 @@ Ilmajoen kunta	FALSE	   2
 Helios, jakaja	FALSE	   2
 Nuorten valistusliitto	NA	   2
 Socialdemokratiska Partiet	FALSE	   2
-Helsingfors Finska Bokhandel	FALSE	   2
+Helsingfors Finska Bokhandel, 	FALSE	   2
 Leikku, J	 TRUE	   2
+Karsten, Anton	 TRUE	   2
 Wiborgs Konstvänner	NA	   2
 Ekström, F W	 TRUE	   2
 Atte Mantere	FALSE	   2
 Haapajärven kunta	NA	   2
 J.M. Dent	NA	   2
+Ehrström, Robert	 TRUE	   2
 Mustalaislähetyksen keskustoimisto	FALSE	   2
 Lina Enroth	NA	   2
 N.F. Höjer	FALSE	   2
@@ -2471,15 +2609,20 @@ Häkkinen, Samuel (1858-1918)	 TRUE	   2
 Käsityönopettajat	NA	   2
 G, 	 TRUE	   2
 Viipurin sosialidemokratinen agitationipiiri	FALSE	   2
+Clopatt, Arthur	 TRUE	   2
 Tampereen piirin naisten agitatsionikomitea	FALSE	   2
 J. Ehrlich	FALSE	   2
 J.O. Kuosmanen	FALSE	   2
+Holmberg, M	 TRUE	   2
 Handtverks- & fabriksförening	FALSE	   2
 Suomalais-Amerikkalainen kustannusyhtiön kp	FALSE	   2
 Byman, Walter	 TRUE	   2
+Hertzen, E Von	 TRUE	   2
 Yrjö-koskinen, E S (1858-1916)	 TRUE	   2
 Kuparialueen raittiusliitto	NA	   2
 Rautatiekomitea	FALSE	   2
+Brenner, Magnus (1843-1930)	 TRUE	   2
+Wulff, Th	 TRUE	   2
 Borgå gymnasister	NA	   2
 Suomal. sos. kustannus	FALSE	   2
 Heikel, Karl Abiel (1846-1919)	 TRUE	   2
@@ -2488,19 +2631,21 @@ Vagabond, 	 TRUE	   2
 Suomalaisen puolueen kanslia, jakaja	FALSE	   2
 Voss	FALSE	   2
 A. Rauhamaa	FALSE	   2
-Willgren, Karl	 TRUE	   2
 The Robert Clarke Company	NA	   2
 Wilkman, A J	 TRUE	   2
-Nutid Förlag	FALSE	   2
+Nutid	FALSE	   2
+Vestlin, Konrad	 TRUE	   2
 Limingan kansanopistolaisliitto	NA	   2
 Haimila, E	 TRUE	   2
-Boisman, A W (1851-1922)	 TRUE	   2
+Söderlund, Hans	 TRUE	   2
 Koti ja yhteiskunta	FALSE	   2
 Wegelius, K A (1864-1939)	 TRUE	   2
 Gylling, Edvard	 TRUE	   2
 Osuuskunta	FALSE	   2
+Sääf, Knut	 TRUE	   2
 Varteva, Kaarle	 TRUE	   2
 Gösta Grotenfelt	FALSE	   2
+Grotenfelt, Gösta (1855-1922)	 TRUE	   2
 Björkenheim, Edv A	 TRUE	   2
 P. Virkkunen	FALSE	   2
 Helsingin kaupungin poliisilaitos	FALSE	   2
@@ -2508,6 +2653,7 @@ F.S. Eljas Pauanne	FALSE	   2
 Lounais-Suomen maanviljelysseura	FALSE	   2
 Gagneur, Bernhard	 TRUE	   2
 Uskela, Kaarlo	 TRUE	   2
+Ursin, N R Af (1854-1936)	 TRUE	   2
 Finska Statsjärnvägarnes ekonomi	NA	   2
 Työväen kirjakauppa	FALSE	   2
 Nutiden	FALSE	   2
@@ -2529,11 +2675,12 @@ S. Renvall	FALSE	   2
 Satamatyömiehen osuuskunta	FALSE	   2
 Arkitektklubben	NA	   2
 Teräsvuori, Kaarlo	 TRUE	   2
-Aika	FALSE	   2
+ Aika	FALSE	   2
 Osuuskunta Sanoma	FALSE	   2
 Aukusti Kivikari	FALSE	   2
 Tanttu, Antti (1884-1962)	 TRUE	   2
 Sorvalin työväenyhdistys	FALSE	   2
+Varma, E L	 TRUE	   2
 Nuorsuom.puol.kanslia	FALSE	   2
 Tampereen Sanomain kirjasto	FALSE	   2
 Förbund mellan K.F.U.M. & U.K.F. förlag	FALSE	   2
@@ -2548,7 +2695,7 @@ Suomen luth. evank. pyhäkouluyhdistys	FALSE	   2
 Kansanopistonopettajain yhdistys	NA	   2
 Vasa svenska lycei konvent	NA	   2
 Aksel Paul	FALSE	   2
-Akademischen buchhandlung	FALSE	   2
+Akademischen buchhandlung 	FALSE	   2
 Luonnonystäväin yhdistys	FALSE	   2
 Kansan näytelmäkirjasto	FALSE	   2
 Finlands medicinalväxtodlings- & insamlingsandelslag	FALSE	   2
@@ -2574,6 +2721,7 @@ Weilin	FALSE	   2
 Veit & Comp	FALSE	   2
 Tidskriften Hemma & ute	FALSE	   2
 Porin kotiseutuyhdistys	FALSE	   2
+Reuter, J N	 TRUE	   2
 Eskil Renfors	FALSE	   2
 Kymmene	FALSE	   2
 Ömsesidiga livförsäkringsbolaget Suomi	FALSE	   2
@@ -2585,6 +2733,7 @@ Raamatunkäännöskomitea	NA	   2
 Sos.-dem. raittiusliitto	FALSE	   2
 Mikkelin työväenyhdistys	FALSE	   2
 J. Heilala	NA	   2
+Poukka, K A	 TRUE	   2
 Fria missionen i Finland	FALSE	   2
 Teknillinen aikakauslehti Konetyömies	FALSE	   2
 Sos.dem piiritoimikunta	NA	   2
@@ -2601,6 +2750,7 @@ Arkki	FALSE	   2
 Tähti	FALSE	   2
 Christian Endeavor liitto	NA	   2
 Nuorisoseura Vesa	NA	   2
+Niskanen, Onni	 TRUE	   2
 Määttälä, Evert	 TRUE	   2
 Mäkinen, Lauri (1877-1935)	 TRUE	   2
 Vapaa lähetys	FALSE	   2
@@ -2622,6 +2772,7 @@ Lahden seudun nuorisoseurojen liitto	FALSE	   2
 Suomalaisen sosialistijärjestön toimeenpaneva komitea	FALSE	   2
 Levander, K M	 TRUE	   2
 Weilin & Kumpp	FALSE	   2
+Leiviskä, Iivari	 TRUE	   2
 Matti Lehmus	FALSE	   2
 Luvian kunta	NA	   2
 J. Tuori	FALSE	   2
@@ -2654,7 +2805,7 @@ Sosialidemokratinen puoluetoimikunta	NA	   2
 Uusi aika	NA	   2
 W. Soy	NA	   2
 Kallio, Elin Oihonna (1859-1927)	 TRUE	   2
-Kyminlaakson työväen kp	NA	   2
+Kyminlaakson työväen Kirjapaino	NA	   2
 Juuse Blom	NA	   2
 J. Honkanen	FALSE	   2
 Jokinen, William (1889-1958)	 TRUE	   2
@@ -2665,6 +2816,7 @@ Eläinsuojelusyhdistys	FALSE	   2
 J.F. Olans bokhandel & bokbinderi	NA	   2
 Maakauppiaslehti	FALSE	   2
 Uurtaja	FALSE	   2
+Tudeer, L O Th	 TRUE	   2
 V. T	FALSE	   2
 Isohiisi, jakaja	FALSE	   2
 Nyblinin myymälä	FALSE	   2
@@ -2672,6 +2824,7 @@ Ikonen, Leander	 TRUE	   2
 Timm, Allan	 TRUE	   2
 G.W. Sohlberg	FALSE	   2
 E. W	FALSE	   2
+Hjelt, Edv (1855-1921)	 TRUE	   2
 Suomen urheiluaitta	FALSE	   2
 Heurlin, Paula Af	 TRUE	   2
 Tallgren, A M (1885-1945)	 TRUE	   2
@@ -2687,7 +2840,6 @@ Hallstén, Onni	 TRUE	   2
 Halinen, Helena	 TRUE	   2
 Hakkarainen, A	 TRUE	   2
 Sosialidemokratinen raittiusliitto	NA	   2
-Snellman, Walter J	 TRUE	   2
 Hyvärinen, M F	 TRUE	   2
 Sjöblom, Frida	 TRUE	   2
 H. Edgrenin kirjakauppa	FALSE	   2
@@ -2709,6 +2861,7 @@ Colliander, Yolanda	 TRUE	   2
 Colliander, O I	 TRUE	   2
 Suomalainen kirjakauppa, jakaja	FALSE	   2
 Perälä, Lauri	 TRUE	   2
+Charpentier, Axel (1865-1949)	 TRUE	   2
 Cederberg, A R	 TRUE	   2
 Heikinheimo, Olli (1882-1973)	 TRUE	   2
 Suvilumi, Joonas	 TRUE	   2
@@ -2719,7 +2872,7 @@ Laatija, Lapatossun	 TRUE	   2
 Pelastusarmeija, kansainvälinen päämaja	FALSE	   2
 Keski-Savon kansanopisto	FALSE	   2
 Pekka Lattu	FALSE	   2
-Työkansan k	FALSE	   2
+Työkansan k.	FALSE	   2
 Helsingin suomalainen kirjakauppa, jakaja	FALSE	   2
 Ristin voitto	FALSE	   2
 Lakimies, 	 TRUE	   2
@@ -2738,6 +2891,8 @@ Maalaisliiton keskushallinto	FALSE	   2
 Kalevalaseura	NA	   2
 Suomen vegetarinen yhdistys	NA	   2
 Erio	FALSE	   2
+Leidenius, Laimi	 TRUE	   2
+Lehtonen, U L (1870-1927)	 TRUE	   2
 Amerikan suomalaisten lasten ja nuorison kirjallisuuden kustannusliike	FALSE	   2
 Ulvilan kunta	NA	   2
 Lehto, Juho	 TRUE	   2
@@ -2764,7 +2919,7 @@ Keski-Suomen hevosjalostusyhdistysten liitto	NA	   2
 Keski-Pohjanmaan hevosjalostusliitto	NA	   2
 Suomen lähetysseuran laestadiolaisen haaraosaston päätoimikunta	NA	   2
 Järvinen, Eero (1860-NA)	 TRUE	   2
-Edlundin Kustannus	FALSE	   2
+Edlundin kustannus	FALSE	   2
 Suomen Kansallisteatteri	FALSE	   2
 Karvian kunta	NA	   2
 Suomen paperiteollisuustyöväen liitto	NA	   2
@@ -2786,6 +2941,7 @@ Suomen vankius	FALSE	   2
 Uusi ruotsalainen yhteiskoulu	FALSE	   2
 Wilho Leikas	FALSE	   2
 Lampinen, Niilo E	 TRUE	   2
+Forsman, Kaarle Valdemar	 TRUE	   2
 Kirjapainoyhtiö Valo	FALSE	   2
 Työläiskynäilijäin kustannusliike	FALSE	   2
 Wahlström	FALSE	   2
@@ -2855,7 +3011,7 @@ Aleksandra Gripenberg	NA	   2
 Pinsebevægelsen i Norge	NA	   2
 Santeri Pohjanpalo	NA	   2
 N.J. Laamanen	NA	   2
-Ja Kirjapaino Sampo	FALSE	   2
+ ja Kirjapaino Sampo	FALSE	   2
 Suomen Valokuvaus-kauppa	NA	   2
 A. Bärlund	FALSE	   2
 Suomen graafillisen teollisuuden harjoittajain liitto	NA	   2
@@ -3291,11 +3447,12 @@ Lith.hos F. Liewendal	NA	   1
 Lahden Kirjapaino- ja sanomalehti-o.-y	FALSE	   1
 Stentr. hos G.O. Wasenius	NA	   1
 D. van Nostrand	NA	   1
+Schybergson, Carl Magnus	 TRUE	   1
 Historische Gesellschaft	NA	   1
 Valtakunnan kauppiasliitto	NA	   1
 Jules Renouard, Libraire	FALSE	   1
 Marquardska tryckeriet	FALSE	   1
-Nordin & Josephson, i	FALSE	   1
+Nordin & Josephson, i 	FALSE	   1
 Forening af Officerer	FALSE	   1
 Verlagsanstalt F. Bruckmann	NA	   1
 I. Ladyschnikow Verlag	NA	   1
@@ -3333,6 +3490,7 @@ Chez Levrault, Schoell et Comp. libraires, Rue de Seine	FALSE	   1
 In der Vossischen Buchhandlung	FALSE	   1
 Printed for Joseph Mawman	FALSE	   1
 Voenno-Topografičeskago Upravleniâ General'nago Štaba	NA	   1
+Proteus,  (1884-1918)	 TRUE	   1
 Propilei	FALSE	   1
 Ministerstvo torgovli i promyšlennosti	NA	   1
 Möller	FALSE	   1
@@ -3406,7 +3564,7 @@ Sklad Głowny w Księgarni Spółki Wydawniczej Polskiej	FALSE	   1
 G. V. Èdlund	FALSE	   1
 Kokoaja	NA	   1
 J.A. Palmén	FALSE	   1
-Vaseniuska bokhandel i	FALSE	   1
+Vaseniuska bokhandel i 	FALSE	   1
 Comité permanent international des Assurances sociales	FALSE	   1
 Tip. štaba 22 arm. korpusa	FALSE	   1
 V. Kiršbaum	FALSE	   1
@@ -3440,6 +3598,7 @@ Carl Schneiner	NA	   1
 J.G. Cotta	FALSE	   1
 Fischer	FALSE	   1
 Finska telegramsbyråns annonsafdelning	NA	   1
+Frosterus, Adolf Emil	 TRUE	   1
 H. Em. Aspelin	FALSE	   1
 Adolphus Fredricus Kepplerus	FALSE	   1
 Nu	FALSE	   1
@@ -3449,7 +3608,7 @@ Wahlström & Låstbom	FALSE	   1
 Kemin uudessa Kirjapainossa	FALSE	   1
 Secreteriat der Gesellschaft	NA	   1
 Alli Trygg-Helenius	NA	   1
-Nordblad	FALSE	   1
+Nordblad 	FALSE	   1
 Tampereen sokeain yhdistys	NA	   1
 Przeglądu Narodowego	FALSE	   1
 K. Werkko	NA	   1
@@ -3461,7 +3620,7 @@ University Press	FALSE	   1
 Siemenroth	FALSE	   1
 Von Veit	FALSE	   1
 Stock	FALSE	   1
-Fritzes	FALSE	   1
+Fritzes 	FALSE	   1
 Akademiska Förlag	FALSE	   1
 Van Holkema & Warendorf	FALSE	   1
 Salmonsen	FALSE	   1
@@ -3474,7 +3633,7 @@ Henri Charles-Lavauzelle	FALSE	   1
 Société Nouvelle	NA	   1
 Larose	FALSE	   1
 Harrison and sons	NA	   1
-Karlstedts bokhandel	FALSE	   1
+Karlstedts bokhandel 	FALSE	   1
 Russo-Franҁaise	FALSE	   1
 Alcan	FALSE	   1
 Union pour la vérité	NA	   1
@@ -3504,7 +3663,9 @@ Länsisuomalainen ylioppilas-osakunta	NA	   1
 J.E. Ahlqvist	NA	   1
 Charles Deleen et J.G. Forsgren	FALSE	   1
 Porter & Coates	FALSE	   1
+Topelius, Zacharias (1818-1898)	 TRUE	   1
 Wasenius & Komp	FALSE	   1
+Söderlund, J W	 TRUE	   1
 F.H. Morin	FALSE	   1
 The Finnish Publishing Co	NA	   1
 Oskari Lahti	FALSE	   1
@@ -3669,7 +3830,6 @@ Svenska historiska förening	FALSE	   1
 Generalstabens litografiska anstalt	NA	   1
 DYK'sche Buchhandlung	FALSE	   1
 L.J. Hierta	FALSE	   1
-Aspelin, Eliel	 TRUE	   1
 Andr. Fred. Høst & søns	FALSE	   1
 P. Aschan & Co	FALSE	   1
 Bard, Marquardt & Co	FALSE	   1
@@ -3683,6 +3843,7 @@ Amerikan suomalainen musiikki-yhdistys	NA	   1
 Arthus Bertrand	FALSE	   1
 Suomen Ew. Luth. pyhäkouluyhdistys	NA	   1
 Mercure de France	FALSE	   1
+Cygnaeus, Fredrik (1807-1881)	 TRUE	   1
 Adolf Johnson	FALSE	   1
 La España editorial	NA	   1
 John Grieg	NA	   1
@@ -3717,15 +3878,19 @@ Holmbergska bokhandel	FALSE	   1
 John Tolvanen	NA	   1
 V' Universitetskoj Tipografìi	FALSE	   1
 J. Rodwell, and A. Arch	FALSE	   1
+C.E. Fritzes kungliga hofbokhandel	NA	   1
 Th. Stolpe Förlag	FALSE	   1
 F. Bruckman	NA	   1
 Angelo Usigli Editore	NA	   1
 Öfverstyrelse för lots- & fyinrättningen i Finland	NA	   1
 Olympiska spelen is Stockholm 1912 i bild & ord	NA	   1
 Colombo Coen	FALSE	   1
+Emlekyl, 	 TRUE	   1
 K.R. Bookströms bookhandel	FALSE	   1
 L.L. Laurén	FALSE	   1
 Ivar Haggström	FALSE	   1
+F,  (1845-1916)	 TRUE	   1
+Kristanja, 	 TRUE	   1
 L.J. Hjerta	NA	   1
 W. Einhorn	FALSE	   1
 Buchdrückerei des typografischen Vereinn	FALSE	   1
@@ -3832,6 +3997,7 @@ Hoppe	FALSE	   1
 Nusser	FALSE	   1
 Sampson Low	FALSE	   1
 Scheffenhagen	NA	   1
+Wagnsson, Gustaf	 TRUE	   1
 Zawadzkiego	FALSE	   1
 Goschen	FALSE	   1
 Braumüller	FALSE	   1
@@ -3929,7 +4095,7 @@ Die Finnische Litteratur-Gesellschaft	FALSE	   1
 Druck und Verlag von B.G. Teubner	FALSE	   1
 G. Masson	NA	   1
 J.F. Grönroos' konkursmassas tryckeri	FALSE	   1
-Kuopio	FALSE	   1
+ Kuopio	FALSE	   1
 F. Tilgmanns bok & stentryckeri	FALSE	   1
 Skandinavisk musikforlag	FALSE	   1
 Quantin	NA	   1
@@ -3955,12 +4121,18 @@ Gröndahl, A. W	FALSE	   1
 Widerholm, P	FALSE	   1
 G.O. Wasenii officin	NA	   1
 Cederwaller, Anders	FALSE	   1
+Väkeväinen, M	 TRUE	   1
 Åbo sjömans- & inre mission	NA	   1
 Förening Verdandi	NA	   1
+Vendell, Herman (1853-1907)	 TRUE	   1
+Wartiainen, August	 TRUE	   1
 Missionssällskap	FALSE	   1
 Watkins	FALSE	   1
+Stålhandske, Gustaf	 TRUE	   1
+Spoof, Axel R (1845-1930)	 TRUE	   1
 Senatens kammarexpedition	FALSE	   1
 Uppsala universitet	FALSE	   1
+Schauman, B O (1821-1895)	 TRUE	   1
 Boldt	NA	   1
 Favorin	NA	   1
 Arppe	NA	   1
@@ -3968,6 +4140,7 @@ Helsingfors Bibelsällskap	NA	   1
 J. Simelü arfv. boktryskeri	NA	   1
 Abo Tryckeri	NA	   1
 Gel'singforsskaâ organizacìâ Rossìjskoj socìal'-demokratičeskìi rabočìi partìi	NA	   1
+Nordenskiöld, Karl (1837-1889)	 TRUE	   1
 Forselius	FALSE	   1
 Société d'Éditions Scientifiques	FALSE	   1
 Böckerman	FALSE	   1
@@ -3977,8 +4150,10 @@ Svâtejšij Pravitel'stvennyj Sinod	NA	   1
 Britanskoe i inostrannoe biblejskoe obŝestvo	NA	   1
 Tipo-litografìâ S.M. Pavlova	NA	   1
 Reuter	FALSE	   1
+Lagus, Wilhelm	 TRUE	   1
 Knauer	FALSE	   1
 Jääskis kommun	NA	   1
+Janne, 	 TRUE	   1
 Åbo Tryckeri	FALSE	   1
 Eckhéll	FALSE	   1
 Tverskoe Gubernskoe Zemstvo	FALSE	   1
@@ -3998,6 +4173,7 @@ Tipografìâ V.O. Kiršbauma	FALSE	   1
 Nyfilologiska klubben i Helsingfors	NA	   1
 Tipografìâ Departamenta vněšnej torgovli	FALSE	   1
 P.A. Rahmanov	FALSE	   1
+Forsberg, A W	 TRUE	   1
 Knigoprodavec Nepejcyn	FALSE	   1
 Tipografìâ Imperatorskoj rossìjskoj akademìi	FALSE	   1
 V' tipografìi naslědnikov' vdovy Simelìus	NA	   1
@@ -4077,21 +4253,30 @@ Gosudarstvennaâ duma	NA	   1
 Simeliuksen leski	NA	   1
 Russkoe okrainnoe obŝestvo	NA	   1
 Painoyhtymä	FALSE	   1
+Bäck, Johannes (1850-1901)	 TRUE	   1
+Brummer, C M E	 TRUE	   1
+Broberg, K T	 TRUE	   1
 Paino	NA	   1
 Forstadius	NA	   1
+Appelqvist, Hj	 TRUE	   1
 Svenska litteratussällskap	NA	   1
+öhberg, Alfred	 TRUE	   1
 Hedeler	FALSE	   1
 Owen Electric Belt	FALSE	   1
 Helsovårdsförening	FALSE	   1
 Fratelli Bracali	FALSE	   1
 Librairie Guillaumin et Cie	FALSE	   1
 Costenoble	FALSE	   1
+Wennerström, O W	 TRUE	   1
+Weckman, Wald	 TRUE	   1
 G.V. Edlund	FALSE	   1
 Sandström	FALSE	   1
+Wallensköld, A	 TRUE	   1
 Aftonposten	FALSE	   1
 Fastighetsegareförening	NA	   1
 Landtmätareförening	NA	   1
 Klockars	NA	   1
+Tigerstedt, E S	 TRUE	   1
 Ullner	FALSE	   1
 Kirjapaino-yht	FALSE	   1
 Lillja & Kumpp	FALSE	   1
@@ -4103,10 +4288,17 @@ A. Mannisen perill	FALSE	   1
 Keisarillisen Tieto-Akademian Kirjaräntti	NA	   1
 Lilja ja Kumpp	NA	   1
 Sööt	FALSE	   1
+Ståhlberg, Karl Emil	 TRUE	   1
 Hilda Montell	NA	   1
+Stenius, Einar	 TRUE	   1
 Svensson	FALSE	   1
+G,  (1840-1896)	 TRUE	   1
+Smirnoff, Georg (1840-1896)	 TRUE	   1
+Smirnoff, Alexandra	 TRUE	   1
 C.F. Sjöblom	FALSE	   1
+Segerstråle, J V	 TRUE	   1
 Alf. Hölder	FALSE	   1
+Schauman, Ossian	 TRUE	   1
 Ramstedt	FALSE	   1
 Zilliaci	FALSE	   1
 Nutt	FALSE	   1
@@ -4116,8 +4308,11 @@ Metzger & Wittig	FALSE	   1
 Wasenii	FALSE	   1
 Hörlin	FALSE	   1
 Verlag von Wilhelm Engelmann	FALSE	   1
+Samberg, J Wilh	 TRUE	   1
 Deutsche Schriftstellergenossenschaft	FALSE	   1
 Niemeyer	FALSE	   1
+Stadsbo, 	 TRUE	   1
+Rosendahl, Axel (1868-1939)	 TRUE	   1
 Öhmanska bokhandel i Borgå	FALSE	   1
 Lähetys-seura	FALSE	   1
 Wilk, A J	 TRUE	   1
@@ -4127,7 +4322,6 @@ A.E. Rongainen ja Fr. Ahlqvist	FALSE	   1
 Fahler	FALSE	   1
 Tanskanen, Johan (1851-1919)	 TRUE	   1
 Ahlqvist	FALSE	   1
-Strömborg, J E	 TRUE	   1
 Veljesten Krug'in kp	FALSE	   1
 Sirén, Karl Gustaf	 TRUE	   1
 Schvindt, Theodor	 TRUE	   1
@@ -4160,12 +4354,12 @@ M.F. Huhtin	FALSE	   1
 Grefberg, Wilhelm (1842-1886)	 TRUE	   1
 Kirjoittaja ja painaja	FALSE	   1
 Liljestrand	FALSE	   1
+ kp	FALSE	   1
 M.C. Iverseldä	NA	   1
 Kun. suomalaisesa kirja-präntisä	NA	   1
 A. Cedervaller poikineen	NA	   1
 Geitlin	FALSE	   1
 Paavo-Kallio	FALSE	   1
-Yrjö-koskinen, Yrjö Sakari (1830-1903)	 TRUE	   1
 Z. U. N	FALSE	   1
 Bonsdorff	FALSE	   1
 Emil Hagelberg'in kustannuksella	NA	   1
@@ -4202,7 +4396,6 @@ Oulun läänin talous-seura	NA	   1
 Lydecken	NA	   1
 Monell, Gregorius	 TRUE	   1
 Akkanen	FALSE	   1
-C, 	 TRUE	   1
 Kulhanen	FALSE	   1
 H. K ja W. L	FALSE	   1
 Lindh, Adam	 TRUE	   1
@@ -4219,13 +4412,11 @@ Danielson, Joh Rich	 TRUE	   1
 Cederberg	FALSE	   1
 Waaranen	FALSE	   1
 Suom. Bibliaseura	NA	   1
-äyräpää, Matti (1852-1928)	 TRUE	   1
 Yrjö-koskinen, Y K	 TRUE	   1
 Viipurin nais-yhdistys	NA	   1
 Wäkeväinen, M	 TRUE	   1
 Kuulijakunta	FALSE	   1
 Wegelius, Henrik Eliel (1853-1933)	 TRUE	   1
-Vasenius, Valfrid	 TRUE	   1
 Kaustell	FALSE	   1
 Tuuri, Gabriel	 TRUE	   1
 Arvo	FALSE	   1
@@ -4244,7 +4435,7 @@ Jyväskylän Suomen kirjallisseura	FALSE	   1
 Johanna Cedervaller ja poika	FALSE	   1
 Henrik Konstantin Korander	FALSE	   1
 Saarinen	FALSE	   1
-Kasvatus-opillinen	FALSE	   1
+Kasvatus-opillinen 	FALSE	   1
 Imperatorskaja akademija nauk	NA	   1
 Puijo	FALSE	   1
 Wiik	FALSE	   1
@@ -4252,7 +4443,6 @@ W. Carlsson	FALSE	   1
 Dunajeff	FALSE	   1
 Hellstén	NA	   1
 Palander, W F (1857-1889)	 TRUE	   1
-Pajula, J S	 TRUE	   1
 Olsson, Karl Sixtus	 TRUE	   1
 Nordström, Anders Wilhelm	 TRUE	   1
 Rauman Kirjapaino-oske	NA	   1
@@ -4261,7 +4451,6 @@ Rantanen	FALSE	   1
 Lyly, Julius Anshelm	 TRUE	   1
 Pilpola	FALSE	   1
 Heinonen	FALSE	   1
-Lindroos, Karl	 TRUE	   1
 Lindh, E A	 TRUE	   1
 Lindeqvist, K O	 TRUE	   1
 Turun merimies-lähetys	FALSE	   1
@@ -4279,7 +4468,6 @@ Johnsson, August Mikael	 TRUE	   1
 Emilia, 	 TRUE	   1
 Lagerlund	NA	   1
 Hinkula, Matti	 TRUE	   1
-Hildén, K Aug	 TRUE	   1
 Suomen metsänhoito-yhdistys	FALSE	   1
 Helenius, Taavetti	 TRUE	   1
 Helenius, A (1852-1919)	 TRUE	   1
@@ -4289,11 +4477,15 @@ Hyvinkään kirjakauppa	FALSE	   1
 Grotenfelt, Kustavi	 TRUE	   1
 Granfelt, Axel Fredrik (1815-1892)	 TRUE	   1
 General landtmäteri kontoret	NA	   1
+Reitz, Franz	 TRUE	   1
 Aalto	FALSE	   1
 Forsström, O A	 TRUE	   1
 Alkio, 	 TRUE	   1
 Waseniuska bokhandel distr	NA	   1
+Pätiälä, Fredrik Joel	 TRUE	   1
+Pippingsköld, J (1825-1892)	 TRUE	   1
 Hierta	FALSE	   1
+Pipping, W	 TRUE	   1
 O. P	FALSE	   1
 Mons Litleré	FALSE	   1
 Verlag des Bibliographischen Bureaus	FALSE	   1
@@ -4301,6 +4493,8 @@ Collin, Otto (1850-1924)	 TRUE	   1
 Doin	FALSE	   1
 Carberg	FALSE	   1
 Holmberg	NA	   1
+Palmberg, A	 TRUE	   1
+Palander, Edvard Wilhelm	 TRUE	   1
 W.R. Nygren	FALSE	   1
 A.O. Törnudd	FALSE	   1
 Uno Cygnaeus	FALSE	   1
@@ -4311,6 +4505,7 @@ Turun Piplia-seura	NA	   1
 Helsingin Pipliaseura	NA	   1
 Kirjall.-Seura Viipurissa	FALSE	   1
 K. Göös ja K	FALSE	   1
+Fr, 	 TRUE	   1
 Edvin Avellan	FALSE	   1
 Johan Albert Bergman	FALSE	   1
 Christ. Evangeliska Barck	FALSE	   1
@@ -4363,17 +4558,15 @@ Kristillinen kustannustoimisto	NA	   1
 Finska cyclistförbund	NA	   1
 Wuoksen Kirjapaino	NA	   1
 Eero S	NA	   1
-A, 	 TRUE	   1
 Nuorten miesten kristillinen yhdistys Suomessa	NA	   1
 Suomen kirjanpainajayhdistys	NA	   1
 Turun metsästyksenhoitoyhdistys	NA	   1
-Suomal. Kirj. Seur. Kirjapainon	FALSE	   1
+Suomal. Kirj. Seur. Kirjapainon 	FALSE	   1
 Tarsala, Johan	 TRUE	   1
 Rauma Kirjapaino	FALSE	   1
 Suomen naisten voimisteluliitto	NA	   1
 Ständerhusdelegationen	NA	   1
 E.A. Majlund & kumpp	NA	   1
-Svensson, Joh	 TRUE	   1
 Wasastjerna	NA	   1
 Suomen nuorison liiton toimikunta	NA	   1
 Candolin, Einar	 TRUE	   1
@@ -4384,7 +4577,6 @@ Suomalaisten merimiesten ulkomaan satamissa sielunhoito	NA	   1
 Fängelseförenings i Finland centralbestyrelse	NA	   1
 Stenroth, Paul Osvald	 TRUE	   1
 Svenska klassiska lyceum i Wiborg	NA	   1
-Stadius, Uno	 TRUE	   1
 Wasa fruntimmersskola	NA	   1
 Realskolan i Helsingfors	NA	   1
 Real- & elementarskolan i Lovisa	NA	   1
@@ -4406,7 +4598,6 @@ Schwartzberg, Johannes (1846-1915)	 TRUE	   1
 Wiipurin laivanpäällysmiesyhdistys	FALSE	   1
 Kilpinen	NA	   1
 Sainio, J A	 TRUE	   1
-Sahlan, Alfred	 TRUE	   1
 Saalasti, Filip	 TRUE	   1
 Roy, Milja	 TRUE	   1
 Heinze	FALSE	   1
@@ -4425,7 +4616,7 @@ Tuorlan maanviljelyskoulu	NA	   1
 Guvernören i Nylands län	NA	   1
 Guvernören i Kuopio län	NA	   1
 Helsingin rahatoimikamari	NA	   1
-J.C. Lagerspetz' bokhandel	NA	   1
+J.C. Lagerspetz' bokhandel, 	NA	   1
 Pennanen, A	 TRUE	   1
 Wasa-Posten	NA	   1
 Ossian Häggman	NA	   1
@@ -4461,7 +4652,6 @@ Viipurin rahatoimikamari	NA	   1
 Kejserliga Senaten för Finland	NA	   1
 Lujanen, Feliks	 TRUE	   1
 Lojander, Konstantin Ludvig	 TRUE	   1
-Lillqvist, Otto	 TRUE	   1
 Marjanen	FALSE	   1
 Urjalan 'Rauha'-yhdistys	FALSE	   1
 Suomen lutherilainen evank. -yhdistys	FALSE	   1
@@ -4477,11 +4667,9 @@ Lappeenrannan Kirjapaino	FALSE	   1
 Grönlund, Karl	 TRUE	   1
 Wickstedt	NA	   1
 Kajaanin kp	NA	   1
-Kronman, A	 TRUE	   1
 Alava	FALSE	   1
 Hämeenkyrön ja Wiljakkalan maataloudellinen yhdistys	NA	   1
 Karvonen, Juhana Jaakko	 TRUE	   1
-Karola, 	 TRUE	   1
 Kansanopistoseura	NA	   1
 Helsingin Kansanopisto-seura	NA	   1
 Helsingin naisvoimistelu-yhdistys	FALSE	   1
@@ -4495,17 +4683,16 @@ Nagu Lantmannagille	NA	   1
 Knut Hallberg	NA	   1
 Högre svenska handelsläroverket i Helsingfors	NA	   1
 Yleisen kansakoulun opettaja-yhdistys	FALSE	   1
-Weikkolin, Ida	 TRUE	   1
 Matti Waronen	FALSE	   1
 O.R. Blom	NA	   1
 Wallin, Väinö (1869-1947)	 TRUE	   1
 Aksel Schultz	NA	   1
 Evankeliumiyhdistys	FALSE	   1
-Auran uusi	FALSE	   1
+Auran uusi 	FALSE	   1
 F.A. Ottelin	NA	   1
 Raamatun-komitea	NA	   1
 Wickstrand'in Kirjapaino	NA	   1
-Hankoniemen kp.- ja sanomal	FALSE	   1
+Hankoniemen kp.- ja sanomal.	FALSE	   1
 Kvevlaks hembygdsförening	NA	   1
 Helsingfors segelsällskap	NA	   1
 Wiggo Iversen	FALSE	   1
@@ -4518,6 +4705,7 @@ Helsinge svenska ungdomsföreningars centralförbund	NA	   1
 Lindstedtin antikvaarinen kirjak	FALSE	   1
 L. Fisk	NA	   1
 Svenska gillet i Finland	NA	   1
+Nordman, E Aug	 TRUE	   1
 Finlands allmänna läkareförbund	NA	   1
 Tuberkuloosin vastustamisyhdistys	NA	   1
 Ålands nykterhetsförbund	NA	   1
@@ -4530,13 +4718,15 @@ Suomen terveydenhoito-yhdistys	NA	   1
 Tampereen Naisyhdistys	NA	   1
 Pyhimmän hallitsevainen synoodi	FALSE	   1
 Snellman, A H (1864-1924)	 TRUE	   1
+Neovius, Arvid	 TRUE	   1
 Helin ja K	FALSE	   1
 Ingman, Lauri (1868-1934)	 TRUE	   1
 Nikolaistads folkbibliotek	NA	   1
+Nicolson, William	 TRUE	   1
 Neovius, Otto	 TRUE	   1
 Löfman, O W	 TRUE	   1
 Lindebergin kirjakauppa	FALSE	   1
-Waasan kp	FALSE	   1
+Waasan kp.	FALSE	   1
 Suomen kettuterrieriyhdistys	NA	   1
 Tammelin, Edv	 TRUE	   1
 Bokhandelstidning för Finland	NA	   1
@@ -4556,6 +4746,8 @@ Suomalainen teolooginen kirjallisuuden seura	FALSE	   1
 P. Ahlgrén	FALSE	   1
 E. Hbg ja K	FALSE	   1
 Juho Tyyskä	NA	   1
+Mickwitz, Gerda Von	 TRUE	   1
+Modeen, Hjalmar	 TRUE	   1
 Kejserliga senaten, justeringskommissionen	NA	   1
 Finansexpeditionen	FALSE	   1
 Th. Clayhills	FALSE	   1
@@ -4565,11 +4757,12 @@ C.E. Bck	NA	   1
 Varsinais-Suomen pienten maanv. seura	FALSE	   1
 G.E. Ekblom	FALSE	   1
 Simonen, Mikko	 TRUE	   1
-Viipurin uusi kp.- ja sanomal	FALSE	   1
+Viipurin uusi kp.- ja sanomal. 	FALSE	   1
 Bensow	NA	   1
 Yhdistys lastenhoidon edistämiseksi	NA	   1
 Schwartzberg, Henrik	 TRUE	   1
 Söndagskoleblad	FALSE	   1
+Löfström, Theodor	 TRUE	   1
 Kansakirjasto	FALSE	   1
 Finsk farmaceutisk tidskrift	FALSE	   1
 Hårdh, Rafael	 TRUE	   1
@@ -4582,6 +4775,8 @@ Lindholm, F K E	 TRUE	   1
 A. Lilius	FALSE	   1
 Honkanen, David Gustaf	 TRUE	   1
 A. Kaustell	FALSE	   1
+Louise, 	 TRUE	   1
+Londen, Oskar	 TRUE	   1
 Hollming, Frans Victor	 TRUE	   1
 G. Svahn	NA	   1
 Göschen, Georg Joachim	FALSE	   1
@@ -4593,6 +4788,8 @@ Simelius, Johan	NA	   1
 Bruzelius, Emanuel	NA	   1
 Kungliga Finska Hushållningssällskapet	FALSE	   1
 G.A. Finne	NA	   1
+Lindholm, Artur J	 TRUE	   1
+Lindén, Georg	 TRUE	   1
 Kuopion Puutarhayhdistys	FALSE	   1
 J. Fr. Johansson	FALSE	   1
 A. Palander	FALSE	   1
@@ -4609,10 +4806,11 @@ Kastegrén	FALSE	   1
 Järvinen, K V	 TRUE	   1
 WS	FALSE	   1
 Tampereen Kirjapainajainyhdistys	NA	   1
-Uudenkaupungin kp	FALSE	   1
+Uudenkaupungin kp.	FALSE	   1
 Tepukka, 	 TRUE	   1
 Haminan kaupunginkirjasto	NA	   1
 Björneborgs folkbibliotek	NA	   1
+Lemström, Selim (1838-1904)	 TRUE	   1
 Kronoborgs landtbruksinstitut	FALSE	   1
 Finlands natur & folk	FALSE	   1
 Förening för Finlands kyrkohistoria	FALSE	   1
@@ -4640,7 +4838,9 @@ Finska grafiska industrins arbetsgivareförbund	NA	   1
 Helle, Juhana Augustinus	 TRUE	   1
 Kihlberg, Carl	 TRUE	   1
 Maria sjukhus i Helsingfors	NA	   1
+Kurtén, Lennart	 TRUE	   1
 Helsingfors stads Epidemisjukhus	NA	   1
+Kurtén, Karl	 TRUE	   1
 Schlüterin kirjakauppa	NA	   1
 Gummerus, Julius Immanuel	 TRUE	   1
 Handelsförening i Björneborg	NA	   1
@@ -4672,6 +4872,9 @@ Koronen, J	 TRUE	   1
 Suomen maalarien liitto	NA	   1
 Vierimaa, Juho Eemil	 TRUE	   1
 Ulosantaja	FALSE	   1
+Kolster, Rud	 TRUE	   1
+Komppa, Gust	 TRUE	   1
+Klockars, Johannes (1867-1932)	 TRUE	   1
 Wiborgska afdelningen	NA	   1
 Helsingfors arbetareförening	NA	   1
 Ura, 	 TRUE	   1
@@ -4684,10 +4887,9 @@ P. A:n ja N. B	FALSE	   1
 Waljakka	FALSE	   1
 Blom	FALSE	   1
 Nesslin ja Helin	FALSE	   1
-Ja kp. Sampo	FALSE	   1
+ ja kp. Sampo	FALSE	   1
 Weini & Göös	FALSE	   1
 R-m-n, 	 TRUE	   1
-Aurén, P W (1826-1896)	 TRUE	   1
 Kemin pitäjä	NA	   1
 Wiborgs lokalafdelning af Wiborgs läns folkhögskolesällskap	FALSE	   1
 Handelsförening i Brahestad	NA	   1
@@ -4711,15 +4913,20 @@ K. E: Holm	FALSE	   1
 Suomen laivanpäällystöliitto	NA	   1
 Suomen kuljettaja- ja lämmittäjäyhdistys	NA	   1
 Finlands svenska ungdomsförbund	NA	   1
+Jahnsson, A W (1841-1894)	 TRUE	   1
+Iverus, Iv	 TRUE	   1
 Wasablad	FALSE	   1
 Virolahden säästöpankki	NA	   1
+Ignatius, K E F	 TRUE	   1
 O. Kaipainen	FALSE	   1
 Suupohjan Kaiun Kirjapaino	NA	   1
 Uno v. Knorringin lähetyslaitos	FALSE	   1
 K. Lönnqvist	FALSE	   1
 Söderhjelm & Thesleff	NA	   1
+Hougberg, Emil	 TRUE	   1
 Suomen maamittariyhdistys	FALSE	   1
 Tuori, Juho	 TRUE	   1
+Hjelmman, J V	 TRUE	   1
 Kalle Sola	NA	   1
 Gymnastikförening för fruntimmer i Helsingfors	NA	   1
 Kimito kommun	NA	   1
@@ -4733,6 +4940,8 @@ Boehm, Emil	 TRUE	   1
 Otto Andersinin kirjakauppa	FALSE	   1
 Karjalan Kirjakauppa ja Kust	FALSE	   1
 Sällskaps pro fauna et flora fennica	FALSE	   1
+Hertz, Ericus	 TRUE	   1
+Henriksson, K H	 TRUE	   1
 Teosofinen yhdistys	FALSE	   1
 Bergström, C J	 TRUE	   1
 Axel Paul	NA	   1
@@ -4755,26 +4964,32 @@ U.W. Telen ja K	FALSE	   1
 E.W. Telén ja K	FALSE	   1
 Matti Mikkonen	FALSE	   1
 C.H. Hirschberg	NA	   1
-Sibelius, Chr	 TRUE	   1
 Bäckman'in Kirjapaino	FALSE	   1
+Hagfors, Edwin	 TRUE	   1
 F.O. Lampola	FALSE	   1
+Hagelstam, Jarl (1860-1935)	 TRUE	   1
 Wasa evangeliska sällskap	FALSE	   1
 Åbo Fruntimmers-bibelförening	FALSE	   1
 Seppelin, Juho	 TRUE	   1
 Viipurin Evangeliska-lut. nuorisoyhdistys	FALSE	   1
 Uudenkaupungin sanomalehti- ja Kirjapaino	NA	   1
-G.L. Grönlund	FALSE	   1
+G.L. Grönlund 	FALSE	   1
 T-n, A	 TRUE	   1
-Onni Corander	FALSE	   1
+Onni Corander 	FALSE	   1
 Jukola, Jussi	 TRUE	   1
 M.N. Kasanskij	NA	   1
 Helsingfors vattenverk	FALSE	   1
+Hackman, Victor	 TRUE	   1
+H-a, A	 TRUE	   1
 John Wiley & Sons	FALSE	   1
 A. Lempinen	FALSE	   1
 Waasan eläinsuojelus-yhdistys	NA	   1
 Schwindt, Blenda	 TRUE	   1
+Gripenberg, R	 TRUE	   1
 Suomen vankeinhoitohallitus	NA	   1
 Julius Rodziewicz	FALSE	   1
+Granström, Arthur	 TRUE	   1
+Granit, J M	 TRUE	   1
 Suomen rautatiehallitus	NA	   1
 J. & K. Höglund	FALSE	   1
 Jac Ahrengren	NA	   1
@@ -4786,7 +5001,7 @@ Kaarle Halme ja K	FALSE	   1
 Österman ja Sola	FALSE	   1
 Isojoen raittiusseura	NA	   1
 Tiedemann ja kumpp	NA	   1
-C.A. Furstenborg	FALSE	   1
+C.A. Furstenborg 	FALSE	   1
 Biet-lehden toimitus	NA	   1
 Wiegandt und Grieben	FALSE	   1
 Svenska Österbottens ungdomsförbund	NA	   1
@@ -4797,9 +5012,7 @@ Matti Lindström	NA	   1
 Suomen työväen puoluehallinto	NA	   1
 Svenska klubben i Helsingfors	NA	   1
 Räisänen, J W	 TRUE	   1
-Rosenqvist, G G (1855-1931)	 TRUE	   1
 Niilo Liakka	FALSE	   1
-Ruin, Waldemar	 TRUE	   1
 U. von Knorringin lähetyslaitos	FALSE	   1
 Kejserliga finska hushållssällskap	NA	   1
 Svenska folkpartiet i östra Helsingfors	NA	   1
@@ -4827,6 +5040,7 @@ Raittius-yhdistys Taisto	NA	   1
 Suomen sahateollisuusmiesten yhdistys	NA	   1
 Borgå missionsbokhandel	FALSE	   1
 T. F. R	FALSE	   1
+Frosterus, Benj	 TRUE	   1
 Vähäväkisten osuusliike	NA	   1
 Palander, Gunnar	 TRUE	   1
 Paasikivi, J K	 TRUE	   1
@@ -4839,9 +5053,12 @@ Pohjala, Lauri	 TRUE	   1
 Tampereen musikaalinen seura	FALSE	   1
 Daniel Nyblin	NA	   1
 Pohjois-Karjalan osuusmeijeriliitto	NA	   1
+Sanomal.- ja kp. 	NA	   1
 Waatturin toimitus	FALSE	   1
+Turun kp. 	NA	   1
 Kokouksen toimikunta	NA	   1
 A. Sixtus Lindholm	NA	   1
+Kp.	NA	   1
 Suomalaisen puolueen piiritoimikunta	NA	   1
 Ylioppilaiden yhteinen kansanvalistuskomitea	NA	   1
 Kanninen, Volmari	 TRUE	   1
@@ -4872,24 +5089,26 @@ Svenska landsmålsförening i Helsingfors	NA	   1
 Lyytikäinen, Kosti	 TRUE	   1
 The Finnish Tourist Association	NA	   1
 Erland Villehad Gyllenbögel	FALSE	   1
+Ekholm, Karl	 TRUE	   1
 G.E. Liljeström	FALSE	   1
 Tampereen kaupungin Talonomistajainyhdistys	NA	   1
 Rob. Salzenstein	NA	   1
 Frans Sjöberg	NA	   1
+Eskelin, Karolina	 TRUE	   1
 Diakonisshuset i Helsingfors	NA	   1
 J. Ponsimaa	FALSE	   1
 J.E. Liljeroos	FALSE	   1
 E.W. Örling	FALSE	   1
 Filosofinen tiedekunta	NA	   1
-Lindman, Karl F	 TRUE	   1
 A. Karén	FALSE	   1
 Vihtori Simonen	FALSE	   1
 Suur-Savon nuorisoseura	NA	   1
 Suur-Savon nuorisoseurojen keskusseura	NA	   1
 Gustaf Stenvik	FALSE	   1
-Ljungberg, Eva (1850-1919)	 TRUE	   1
 Järveläinen, T	 TRUE	   1
+Donner, J O E	 TRUE	   1
 Lilius, F O	 TRUE	   1
+Chydenius, Jakob Wilhelm	 TRUE	   1
 Fiskeriförening	FALSE	   1
 Leppänen, Pekka	 TRUE	   1
 Viipurin suomalaisen reaalilyseon toverikunta	NA	   1
@@ -4903,6 +5122,7 @@ Lankinen, J	 TRUE	   1
 W. luhterilais-evank. nuorisoyhdistyksen lähetti J. T	NA	   1
 Suomen rauhanliitto	NA	   1
 Paul Dettman	FALSE	   1
+Collan, Valter	 TRUE	   1
 Fr. Bagge	FALSE	   1
 Jul. Gjellerup	FALSE	   1
 Åbo teater	FALSE	   1
@@ -4937,6 +5157,7 @@ Koskinen, Heikki	 TRUE	   1
 J. Kosk	NA	   1
 Suomen evank. luth. nuorisoyhdistys	NA	   1
 Lägre handtverksskolan i Helsingfors	NA	   1
+Blomqvist, A W	 TRUE	   1
 Handelsinstitutet i Helsingfors	NA	   1
 Tampereen nuorisoseura	NA	   1
 Fröken Forsmans svenska flickskola i Helsingfors	NA	   1
@@ -4946,7 +5167,9 @@ Stillersche Hofbuchhandlung	FALSE	   1
 Jännes, Juho	 TRUE	   1
 Kokkinen, Severin	 TRUE	   1
 Raittiusyhdistys Koitto	NA	   1
+Bergstedt, Karl	 TRUE	   1
 Sjömansmissionssällkapet	FALSE	   1
+Becker, Adolf Von	 TRUE	   1
 Jyväskylä kyrka	NA	   1
 K.L. Kivekäs	FALSE	   1
 Hilja Haahti	FALSE	   1
@@ -4974,7 +5197,6 @@ Suomen räätäliyhdistys	NA	   1
 Emil Finnroth	NA	   1
 Akateemisten vapaaehtoisten lähetysliitto	FALSE	   1
 Skandinavilainen merimieskoti Lontoossa	FALSE	   1
-Johansson, Erik (1867-1944)	 TRUE	   1
 A.W. Kaskinen	FALSE	   1
 Suomen evank.- yhdistys	FALSE	   1
 A. Liljeström	FALSE	   1
@@ -4989,7 +5211,7 @@ Jungell, Felix	 TRUE	   1
 Joensuun eläinsuojeluyhdistys	FALSE	   1
 Isokuortti, I	 TRUE	   1
 Savonlinnan hiippakunta	NA	   1
-Kp.- ja sanomal	NA	   1
+Kp.- ja sanomal.	NA	   1
 Tre fattiga studenter	NA	   1
 Tampereen uutisten	NA	   1
 Jyväskylän lyseon toverikunta	NA	   1
@@ -4998,7 +5220,6 @@ Helsingin nuorisoseura	NA	   1
 Suomen nuorten miesten kristillisten yhdistysten liitto	NA	   1
 Hämeenlinnan V. P. K	FALSE	   1
 Valpas, Edvard	 TRUE	   1
-Häggman, Ossian	 TRUE	   1
 Maanviljelys- ja talousseurain sihteerit	NA	   1
 Suomen viides yleinen kirkolliskokous	FALSE	   1
 Haminan raittiusyhdistys	NA	   1
@@ -5034,7 +5255,6 @@ Johansson, Walter (1884-1936)	 TRUE	   1
 Jokinen, Hofrat T E	 TRUE	   1
 Nya Svenska Läroverkets i Helsingfors	FALSE	   1
 Salems sjömanskyrka Förlag	FALSE	   1
-Jansson, E	 TRUE	   1
 S. Lagerstam	FALSE	   1
 O. Wennberg	FALSE	   1
 Suomen tuberkuloosin vastustamisyhdistys	NA	   1
@@ -5069,6 +5289,7 @@ Postisäästöpankki	NA	   1
 Svenska lyceets i Uleåborg konvent	NA	   1
 Keisarillisen Suomen talousseura	NA	   1
 H. Simonis Empis	FALSE	   1
+Ahlstrand, M W	 TRUE	   1
 A. Wuorinen	FALSE	   1
 Emil Suvainto	FALSE	   1
 Kokkolan Kirjapaino	FALSE	   1
@@ -5111,7 +5332,9 @@ Nordiske Forlag	FALSE	   1
 Bröderna Palmgren	NA	   1
 Alb. Gammermeyers Boghandel	FALSE	   1
 C. Bertelsmann	FALSE	   1
-Hälsovännens expedition	FALSE	   1
+Hälsovännens expedition 	FALSE	   1
+Thurman, J	 TRUE	   1
+Lilius-thillots, 	 TRUE	   1
 Idman, Karl Gustaf	 TRUE	   1
 Idman, Gösta	 TRUE	   1
 Fruntimmersbibelförening i Åbo	NA	   1
@@ -5124,41 +5347,63 @@ P. Nikolay	FALSE	   1
 Hästafvelsförening Nylands Hippos	FALSE	   1
 Georg Bondi	FALSE	   1
 Hämäläinen, J	 TRUE	   1
+Wasastjerna, Torsten	 TRUE	   1
+Trygg, Alli	 TRUE	   1
 J. Oksanen	FALSE	   1
 R. Friese	FALSE	   1
+Turpeinen, Otto	 TRUE	   1
+Wallgren, Axel	 TRUE	   1
 Hällström, A J	 TRUE	   1
 Georg	FALSE	   1
 Svenska Lyceets i Uleåborg	FALSE	   1
 Jyväskylän teknillinen yhdistys	FALSE	   1
 Ny jaktklubben	NA	   1
 Tidning Åland	NA	   1
+Wichmann, Yrjö	 TRUE	   1
 S. Monten	FALSE	   1
 A. Hirchwald	FALSE	   1
 F. Hey'l	NA	   1
+Tallqvist, T W	 TRUE	   1
+Törnudd, Alvar	 TRUE	   1
+Söderhjelm, Alma	 TRUE	   1
 Yleinen osuuskauppojen liitto	NA	   1
 Osuuskunta Oma Apu	NA	   1
+Synnerberg, Carl (1837-1915)	 TRUE	   1
 Industriskolan i Åbo	NA	   1
+Westlin, F R	 TRUE	   1
 Lindstedts antikvar	FALSE	   1
+Svanström, Kristina	 TRUE	   1
 Suomen nahanjalostustyöntekiäin liitto	NA	   1
+Sundholm, Albert	 TRUE	   1
 Kristliga förening af unge män	FALSE	   1
-G.W. Edlunds bokhn	NA	   1
+G.W. Edlunds bokhn. 	NA	   1
 Evert Böcker	NA	   1
-Otto Ekroos	FALSE	   1
+Otto Ekroos 	FALSE	   1
+åkerhielm, K O	 TRUE	   1
 Folkskoland Vänner	NA	   1
+Stolt, Gustaf Selim	 TRUE	   1
+Stenroos, K E	 TRUE	   1
 Folkhögskolan i Borgå	FALSE	   1
 Laihian nuorisoseura	NA	   1
 Kuopion maalaiskunta	NA	   1
 Koitto-lehden toimisto	NA	   1
+Solstrand, P	 TRUE	   1
+Otto, C M	 TRUE	   1
 Teknikern	FALSE	   1
 Alfthan, Axel (1862-1934)	 TRUE	   1
-Aan, 	 TRUE	   1
 Sampo, keskinäinen vakuutus	NA	   1
-Aimonen, Anton (1857-1927)	 TRUE	   1
+S-n, H (1879-1932)	 TRUE	   1
+Sederholm, C R (1818-1903)	 TRUE	   1
 Friedrich Andreas Perthes	FALSE	   1
-Finlands djurskydd & djurvård Förlag, n:o 3	FALSE	   1
+Palmén, K E	 TRUE	   1
+Palander, Hugo	 TRUE	   1
+ Finlands djurskydd & djurvård Förlag, n:o 3	FALSE	   1
 Suomen kelloseppäin liitto	NA	   1
 Viborgsblad	FALSE	   1
+Savander, Otto	 TRUE	   1
 Tidning Aftonposten	FALSE	   1
+Sandelin, S S	 TRUE	   1
+Sandelin, E	 TRUE	   1
 Helsingin käsityö- ja tehdasyhdistys	FALSE	   1
 Jyväskylän pitäjä	NA	   1
 Suomen kaakeli-, fajanssi- ja uunintekijäin liitto	NA	   1
@@ -5177,9 +5422,12 @@ Ailio, Julius	 TRUE	   1
 Aktiengesellschaftsdruckerei	NA	   1
 Ahonius, Karl Severin	 TRUE	   1
 Abrahamsson, Gustaf Alfred	 TRUE	   1
+Serlachius, Allan	 TRUE	   1
 C.A. Heinze	NA	   1
 Björneborgs stad	FALSE	   1
+Silfvast, J	 TRUE	   1
 Leonhard Simion	FALSE	   1
+Sivén, V O	 TRUE	   1
 Homén, Olaf (1879-1949)	 TRUE	   1
 Holsti, östen	 TRUE	   1
 Unitas	NA	   1
@@ -5187,22 +5435,25 @@ Hoffström, K A	 TRUE	   1
 Käkisalmen työväen sanomalehti	FALSE	   1
 Fredrik Mandellöf	NA	   1
 Hjelt, Otto Edvard August (1823-1913)	 TRUE	   1
-äimä, F	 TRUE	   1
 A. Töpelmann	FALSE	   1
 A. Deichert	FALSE	   1
 Kansan Kuvalehti	FALSE	   1
+Melander, Gustaf (1861-1938)	 TRUE	   1
 Kadettkåren	NA	   1
 Missionsällskap	NA	   1
 Järnbrukens olycksfallförsäkringbolag	NA	   1
+Möller, William	 TRUE	   1
 Nionde allmänna finska köpmannamötet	NA	   1
 Hisinger, F L	 TRUE	   1
 Hisinger, A	 TRUE	   1
 L. Hagan, jakaja	NA	   1
+Rosenqvist, Emil	 TRUE	   1
 Hindersson, R	 TRUE	   1
 Hintikka, E A	 TRUE	   1
 Tidning för mjölkhushållning	FALSE	   1
 Hiilivirta, Eino	 TRUE	   1
 Helsingfors Stadsfullmäktige	FALSE	   1
+Reuter, Enzio	 TRUE	   1
 Kristliga förening af Unga Kvinnor, jakaja	FALSE	   1
 Eyre & Spottiswoode	NA	   1
 M. Lyytinen & K:i	FALSE	   1
@@ -5210,9 +5461,9 @@ Heinäveden kunta	NA	   1
 Söndagsskoleförening	FALSE	   1
 Salomo Pirilä	NA	   1
 Kokkolan Suomalaisen yhteiskoulun 'Toverikunta	NA	   1
+Rancken, Einar	 TRUE	   1
 Ylioppilaskunta	NA	   1
 Suomalaisten osakuntien yhteinen kansanvalistustoimikunta	NA	   1
-Ylander, Johan Eliel	 TRUE	   1
 Almqvist & Wiksell, jakaja	FALSE	   1
 Jurid. studentfakulteten Förlag	FALSE	   1
 K. Silander	NA	   1
@@ -5220,17 +5471,26 @@ K. Vanamo	NA	   1
 Af Käsiteollisuus	NA	   1
 Juvan säästöpankki	FALSE	   1
 Joh. Gust. Wikeström, jakaja	NA	   1
+Petts, Kalle	 TRUE	   1
+Petrelius, Johan Teodor	 TRUE	   1
 G. de Malherbe	NA	   1
+Paul, Aksel	 TRUE	   1
 C. & E. Germandt Förlagsaktieblad	FALSE	   1
+Parviainen, Walter	 TRUE	   1
+Parmanen, W	 TRUE	   1
+Numers, G Von (1863-1948)	 TRUE	   1
 Viipurin kauppa- ja tehdasyhdistys	NA	   1
 Viipurin läntisen vaalipiirin sosialidemokratinen vaalipiiritoimikunta	NA	   1
 Viipurin l. länt. vaalipiirin sos.-dem. piiritoimikunta	NA	   1
 Yläneen kunta	NA	   1
+Lutoslawski, Wincenty	 TRUE	   1
 Helsingfors Yrkes- & Industriidkareförbund	NA	   1
 Trädgårdsodlingens Vänner	NA	   1
 Länsi-Suomen piirin yksityisoppikoulunopettajat	NA	   1
 Wuotila, Aatu	 TRUE	   1
+Laurén, Ludvig (1860-1909)	 TRUE	   1
 Lappfjärds ungdomsförening	NA	   1
+Mechelin, L	 TRUE	   1
 Anton Wakkuri	NA	   1
 Förbund	NA	   1
 J.A. Falk	FALSE	   1
@@ -5245,6 +5505,8 @@ Helo, Johan	 TRUE	   1
 F. Berger	FALSE	   1
 Milo	FALSE	   1
 Wilskman, Ivar	 TRUE	   1
+Lindeberg, J W	 TRUE	   1
+Limnell, Axel R	 TRUE	   1
 Viljomaa, Johannes Eliel	 TRUE	   1
 Viljanen, V M J	 TRUE	   1
 J.F. Olàn'in kirjakauppa, jakaja	FALSE	   1
@@ -5253,15 +5515,24 @@ Länsi-Suomen kp	FALSE	   1
 Wiklund, Johan August	 TRUE	   1
 Wikman, Kaarlo Oskar	 TRUE	   1
 Viipurin työväenteatteri	FALSE	   1
+H-e, Assessorskan	 TRUE	   1
 Metodistförsaml: Förlagsexp	FALSE	   1
+Krohn, Ilmari	 TRUE	   1
 Methodist Book-Room	FALSE	   1
+Kræmer, Alexis V	 TRUE	   1
+Herlin, Rafael	 TRUE	   1
 Kuopion kauppakoulu	FALSE	   1
+Hellens, O Von	 TRUE	   1
 Titulus	NA	   1
-Adolf Gumerus	FALSE	   1
+Heikel, Ivar A	 TRUE	   1
+Adolf Gumerus 	FALSE	   1
 Uleåborgs stads sparbank	FALSE	   1
+Karlsson, Gustaf Calixtus	 TRUE	   1
 Svenska samskolans i Kuopio konvent	NA	   1
+Hedengren, Johannes	 TRUE	   1
 Aug. Eklöf	FALSE	   1
 Sparbanken i Åbo	FALSE	   1
+J-s, August	 TRUE	   1
 M. Hanemann	NA	   1
 Finlands statsarkiv	FALSE	   1
 Sundhedsbladet Förlag	FALSE	   1
@@ -5270,35 +5541,49 @@ Julhälsnings redaktion	FALSE	   1
 Ad. Bergman	FALSE	   1
 Internationella T. & M.-förening Förlagsexp	NA	   1
 Kronoby folkhögskola	FALSE	   1
+Kilpeläinen, Adolphus S	 TRUE	   1
 Kuopion suomalaisen yhteiskoulun toverikunta	NA	   1
 Viipurin antikvaarinen kirjakauppa	FALSE	   1
-Elo	FALSE	   1
+ Elo	FALSE	   1
 Aakkoset	FALSE	   1
 Heinonen, Verner	 TRUE	   1
 K.J. Nilsson	NA	   1
 Iv. Iverus	FALSE	   1
+Hahl, Jalmari	 TRUE	   1
 Heikel, Yngvar (1889-1956)	 TRUE	   1
 Helsingin kaupungin historiallinen museo	NA	   1
+Ilmoni, T O	 TRUE	   1
 Framtiden	FALSE	   1
 G.A. Hidén	NA	   1
 Steiger & Co	FALSE	   1
 Uudenmaan läänin vaalipiirin sosialidemokraattinen piirijärjestö	NA	   1
 Ljus' förlag	FALSE	   1
+Hällstén, K	 TRUE	   1
+Hällberg, Karl V	 TRUE	   1
 Weibull, Walter	 TRUE	   1
 G. Svanljung	NA	   1
+Hultin, Arvid	 TRUE	   1
 Mustiala Landtbruksinstitut	FALSE	   1
+Hult, Ragnar (1857-1899)	 TRUE	   1
+Gratschoff, Louis	 TRUE	   1
+Hoving, Johannes	 TRUE	   1
+Granström, Axel	 TRUE	   1
 Oulun diakonissakoti	FALSE	   1
 Hedberg, John	 TRUE	   1
+Granfelt, George Fredrik	 TRUE	   1
+Holmberg, Werner	 TRUE	   1
+Holmberg, Carl Emil	 TRUE	   1
 Suomen työväen Kirjapaino- ja sanomalehtiliikkeet	NA	   1
+Glöckner, J G	 TRUE	   1
 N. Kymmels Sortiment	FALSE	   1
 Suomen työväen apukassojen keskustoimikunta	NA	   1
 G.W. Edlund Förlagsaktibolag	FALSE	   1
+Hirn, Karl E	 TRUE	   1
 Nuorsuomalaiset	NA	   1
 Vestra Nyland	FALSE	   1
 VSY	NA	   1
 Viipurin työväen sanomalehti	FALSE	   1
 Tuusulan pitäjä	NA	   1
-Hartwall, Gösta	 TRUE	   1
 Ilmari Kiianlinna	NA	   1
 Teknillinen aikakauslehti konemies	NA	   1
 Valtion vointarkastuslaitos	NA	   1
@@ -5309,24 +5594,34 @@ Touristenverein in Finland, Filiale Hangö	NA	   1
 Komitén för 13-maj-festen A. Fabritius	NA	   1
 Turistförenings i Finland Hangö filial	NA	   1
 Waltasaari, Johannes Ludvig	 TRUE	   1
-Pastor Troitskij	NA	   1
+Pastor Troitskij 	NA	   1
 Hangö Branch of the Finnish Tourist-Association	NA	   1
 Ylioppilaiden lähetysyhdistys	NA	   1
+Dahlbo, Johan	 TRUE	   1
 Svenska klassiska lyceum i Åbo	FALSE	   1
 Hushållningssällskap	FALSE	   1
 F. kadettkårens kansli	NA	   1
+Viking, Harald	 TRUE	   1
+Collan, Walter	 TRUE	   1
 John Svanljung	NA	   1
 Rud. Kolster	NA	   1
 Finska ångfartygsaktiebol	NA	   1
 W. Hagelstam & U. Wasastjerna	NA	   1
 Euterpe	FALSE	   1
 Hälsovårdsnämden	FALSE	   1
+Sundman, Karl F	 TRUE	   1
 Björneborgs tidning	FALSE	   1
-Helsingfors accidenstryckeri	FALSE	   1
-Gunnar F. Kahlson	NA	   1
-Tullstorps antikvariat	FALSE	   1
+Helsingfors accidenstryckeri 	FALSE	   1
+Snellman, Paavo	 TRUE	   1
+Stadigt, V E E	 TRUE	   1
+Sparre, Louis	 TRUE	   1
+Gunnar F. Kahlson 	NA	   1
+Cannelin, Thomas	 TRUE	   1
+Tullstorps antikvariat 	FALSE	   1
 Tampereen antikvariska kirjakauppa, jakaja	FALSE	   1
 Nourrit & Co	FALSE	   1
+Faltin, Richard (1867-1923)	 TRUE	   1
+Fager, Paul	 TRUE	   1
 S. Wetterhoff-Asp	NA	   1
 Georg Wigand	FALSE	   1
 Ph. Reclam	FALSE	   1
@@ -5334,19 +5629,27 @@ Suomen allianssilähetyksen toimisto, jakaja	FALSE	   1
 H. Hillger	FALSE	   1
 Suomen Postisäästöpankinhallitus	FALSE	   1
 Tampereen työväen kp	NA	   1
+Brander, Seb	 TRUE	   1
 Fr. C. Mechelin	FALSE	   1
 Wilh. Bille Förlagsaktiebol	FALSE	   1
 Suomen kirkon sisälähetysseura, jakaja	NA	   1
 V. Castegren	NA	   1
 Uusfilolooginen yhdistys	NA	   1
+Boldt, Jean	 TRUE	   1
 Uppgård, Karl	 TRUE	   1
+Boije, O A	 TRUE	   1
+Blomqvist, Edv	 TRUE	   1
 Johannes,  (1862-1920)	 TRUE	   1
+Backman, Woldemar	 TRUE	   1
+Blomgren, Gösta	 TRUE	   1
+Björkstén, Max	 TRUE	   1
 Finska missionsskpt	NA	   1
 E. Lagus	FALSE	   1
 Törnudd, Sigurd	 TRUE	   1
 Törngren, Adolf	 TRUE	   1
 Tamp. Kaupunkilähetys	NA	   1
 Suomen sos.-dem. puoluetoimikunta	NA	   1
+Wichmann, Ossian	 TRUE	   1
 Librairie universelle	FALSE	   1
 Forlagskonsortiet	FALSE	   1
 Domkapitlet	NA	   1
@@ -5359,18 +5662,22 @@ Severi Savonen, jakaja	NA	   1
 Suomen Sos. dem. puoluetoimikunta	FALSE	   1
 Tupala, Otto Wilhelm	 TRUE	   1
 Raittiuskansan Kirjapaino, jakaja	NA	   1
+Alfthan, K Von	 TRUE	   1
 Seminarium	NA	   1
 A. Måsbäck	NA	   1
 J. Engelhorn	FALSE	   1
 Konstmuseum i Helsingfors	NA	   1
 Svenstalande baptistförsamlingarna i Finland	NA	   1
+Wessel, Emil	 TRUE	   1
 Conr. Freeses bokhandel	FALSE	   1
 Alston Rivers	FALSE	   1
 Helsingfors Roddklubb	NA	   1
 Rütten & Loening	FALSE	   1
 Osuuskunta Kehityksen kp	NA	   1
 Hämeen kustannusliike	NA	   1
+Zilliacus, Emil	 TRUE	   1
 Eduskunnan kirjasto	NA	   1
+Valbäck, F J	 TRUE	   1
 Lappeenrannan työväenyhdistys	FALSE	   1
 Öfvers	FALSE	   1
 Axel Söderlund, utgivare	NA	   1
@@ -5380,16 +5687,20 @@ N. M. K. Y:n rautatieläisten haaraosasto	FALSE	   1
 Toppola, Juhana Kustaa	 TRUE	   1
 Suomalainen kansanrunousseminaari	NA	   1
 Hammar, Rauha	 TRUE	   1
-Hahl, Carl	 TRUE	   1
+Wirkberg, John	 TRUE	   1
 Suom. sosialist. kustannus	FALSE	   1
+Willebrand, W Von	 TRUE	   1
+Willebrand, K R Von	 TRUE	   1
+Wilenius, K G	 TRUE	   1
 Kvinnliga studenters kristliga förening	FALSE	   1
 M. Wuolukka	FALSE	   1
+Wiklund, C L	 TRUE	   1
+Rosenlew, Wilhelm	 TRUE	   1
 Prior	FALSE	   1
 Rauman rautatie	NA	   1
 Toiviainen, E	 TRUE	   1
 Työväenyhdistys	FALSE	   1
-Tikkanen, J J	 TRUE	   1
-V.B. Meinander	NA	   1
+V.B. Meinander 	NA	   1
 K-oh-o, 	 TRUE	   1
 Pääsiäis-uutisten toimitus	NA	   1
 Gyllenbögel, E V	 TRUE	   1
@@ -5397,13 +5708,16 @@ Pyhäin Sergein ja Hermanin veljeskunta	NA	   1
 Charles Emil Boldt	NA	   1
 Suomen kommunistinen puolue	NA	   1
 Tie- ja vesirakennusinsinöörit	NA	   1
+Trygg-helenius, Alli	 TRUE	   1
 Helsingfors Djurskyddsförening	NA	   1
 S:t Katarina Svenska församlings kyrkoskola i Petrograd	NA	   1
+C-r-t-r, 	 TRUE	   1
 Labor	FALSE	   1
 Jarrold & Sons	FALSE	   1
 Teatern Förlag	FALSE	   1
 Fröléen & Co	FALSE	   1
 Pirkkalan kunta	NA	   1
+öholm, Lars W	 TRUE	   1
 F. Wunder	FALSE	   1
 Tryckeri- & tidning	NA	   1
 Luzac & Co	FALSE	   1
@@ -5413,9 +5727,11 @@ Maskinistförenings i Finland utlåtande	NA	   1
 Från utskottet n:o 2	NA	   1
 Lägre hantvärksskolan	NA	   1
 Replot, utgivare	FALSE	   1
+Rein, Gabriel (1800-1867)	 TRUE	   1
 J.H. Ed. Hertz	FALSE	   1
 Sveriges Allmänna Konstförening	FALSE	   1
 Varia	FALSE	   1
+Rein, Edv	 TRUE	   1
 Husmoderförbund i Helsingfors	FALSE	   1
 Paul Wahl & Co, Elektr. Abth	NA	   1
 Oulun piirin hevosjalostusliitto	NA	   1
@@ -5423,20 +5739,22 @@ Gummerus, Herman	 TRUE	   1
 Åbo Branch of the Touring Club in Finland	NA	   1
 Ekenäs Pappers- & Missionsbokhandel	NA	   1
 Juridiska förening i Finland	FALSE	   1
+Therman, Einar	 TRUE	   1
 Suomen osuuskauppojen palvelushenkilöiden liitto	NA	   1
-Grönroos, Hjalmar	 TRUE	   1
-Grönholm, Väinö	 TRUE	   1
 Helsingfors sparbank	FALSE	   1
+Tegengren, Gustav	 TRUE	   1
+Tavaststjerna, Onni	 TRUE	   1
 Grönberg, John	 TRUE	   1
 Folkskollärarinneseminarium i Ekenäs	NA	   1
 Finska grundlagskomitén	FALSE	   1
 De Blindas Vänner	FALSE	   1
+Schneider, Guido	 TRUE	   1
 Sordavala Evangeliska Förening	FALSE	   1
 Finska industrimagasinet	NA	   1
 Joutsenon 'Tenho	NA	   1
+Paatero, Paavo	 TRUE	   1
 Suomen tehdastyöväki	NA	   1
 Finnish Publishing Company	NA	   1
-Tawaststjerna, Ilmari (1879-1932)	 TRUE	   1
 Nauru-Jussi	NA	   1
 Nakkilan kunta	NA	   1
 Suomen kemistiseura	NA	   1
@@ -5444,12 +5762,14 @@ Keski-Suomen työväen kirjakauppa	NA	   1
 Keski-Suomen Työwäen Sanomalehti-, Kirjapaino- ja Kirjakauppa Osuuskunta	NA	   1
 Vihdin kansanopisto	FALSE	   1
 Grotenfelt, Carl	 TRUE	   1
+Sandelin, J W	 TRUE	   1
 Miesylioppilaiden kristillinen yhdistys	NA	   1
 Karl Roine	NA	   1
 Lentolehtikomitea	FALSE	   1
 Åbo stads folkskolor	NA	   1
 Meijeriliitto Muurahainen	NA	   1
 J. Frimodt	FALSE	   1
+Lilius, Albert	 TRUE	   1
 Läntisen Viipurin läänin hevosjalostusyhdistysten liitto	NA	   1
 Suomen yleinen lääkäriliitto	NA	   1
 Pohjan Leimu	NA	   1
@@ -5461,38 +5781,53 @@ Komiténs för undervisning i huslig ekonomi	FALSE	   1
 Maarian kunta	NA	   1
 Schulthess & Co	FALSE	   1
 Suomen Säästöpankkimiehet	NA	   1
-Lotti Sandström bokhandel	FALSE	   1
+Lotti Sandström bokhandel 	FALSE	   1
 Effingham Wilson	FALSE	   1
 Iduna	FALSE	   1
 Sigrid Heinricius, jakaja	NA	   1
 Tammela-Hipposförening	FALSE	   1
 Det Nordiske Forlag	FALSE	   1
+Runeberg, J	 TRUE	   1
 K. Iwar Nordlund	FALSE	   1
+Malmgren, Signe	 TRUE	   1
 Leppävirran kunta	NA	   1
+Hornborg, A F	 TRUE	   1
+Vipunen, Antero (1858-1923)	 TRUE	   1
 Suomen suutarit	NA	   1
+Löfqvist, Reguel	 TRUE	   1
 Lempäälän kunta	NA	   1
 K. Kekoni	FALSE	   1
+Ekenäs tryckeri,	FALSE	   1
 R. Friedländer & Sohn in Komm	FALSE	   1
 Laulunopettajayhdistys	NA	   1
+Panelius, Aina	 TRUE	   1
 Helsingfors Gårdsägareförening	FALSE	   1
 Forssan työväen keskuskomitea	NA	   1
 Föreningsbanken	FALSE	   1
+Neovius, O	 TRUE	   1
 Helsingfors Centraltryckeri	FALSE	   1
 Suomi ystäväin keskustoimikunta	NA	   1
 Suomalais-luterilainen Kustannusliikkeen Kirjapaino	NA	   1
 Svenska folkskolan i Temmerfors	NA	   1
 Svenska samskolan	NA	   1
+Lybecker, Fanny	 TRUE	   1
+Luther, A	 TRUE	   1
 Red	NA	   1
+Hjelt, August	 TRUE	   1
 A. Deichert'sche Verlagsbuchhandlung Nachf	FALSE	   1
 A. Deichert Nachf	FALSE	   1
 Svenska Syförening i S:t Petersburg	FALSE	   1
+Hirn, T (1874-1951)	 TRUE	   1
 Ungdomsklubben inom Svenska arbetarförening i Vasa	NA	   1
 K. Fazer	FALSE	   1
 Glöckner, D G	 TRUE	   1
 A. Söderlund	FALSE	   1
+Hermanson, Robert	 TRUE	   1
 Lahden lehden kp	NA	   1
 Gilse Van Der Pals, N Von	 TRUE	   1
 Suomen yleinen vanginvartijayhdistys	NA	   1
+Karsten, Rafael (1879-1956)	 TRUE	   1
+Karsten, Hugo	 TRUE	   1
 Gilse Van Der Pals, Max H Van	 TRUE	   1
 K.G. Alkman	FALSE	   1
 Suomen teollisuushallitus	FALSE	   1
@@ -5501,24 +5836,31 @@ Kullaan kunta	NA	   1
 Ota	NA	   1
 J.L. Boehm	NA	   1
 Osuuskunta Elämä	NA	   1
+Jägerroos, B H	 TRUE	   1
+Johansson, Severin	 TRUE	   1
 Postivirkamiehet	NA	   1
+Mellin, Georg	 TRUE	   1
 Ruuki, utgivare	FALSE	   1
+Jaakkola, K	 TRUE	   1
 Mikkelin kauppa-apulaisyhdistys	NA	   1
 Finlands social-demokratiska ungdomsförbund	NA	   1
 Kosken Tl kunta	NA	   1
 Suomen palloliitto	NA	   1
 Vyborgskïj komitet' Partïi socïalistov'-revolûcïonerov	NA	   1
+Lindroth, J Ivar	 TRUE	   1
 Antellska delegationen	FALSE	   1
 Izdanïe 'Věstnika vyborgskoj krěpostnoj artillerïi	FALSE	   1
 Helsingfors musikförening & musikinstitut	NA	   1
+Hellsten, A F	 TRUE	   1
 Suomen metalliteollisuuden harjoittajain liitto	NA	   1
 Izdanïe Literaturnago otděla Gel'singforskago Matrosskago Kluba	FALSE	   1
-N. Öhrnberg	FALSE	   1
+N. Öhrnberg 	FALSE	   1
 Fredrikshamns Sparbank	FALSE	   1
 Vasa handelsskola	FALSE	   1
+Mattsson, G	 TRUE	   1
 Geitlin, Fritz	 TRUE	   1
 Henry Paulin & C:ie	FALSE	   1
-Ekman Förlagsexpedition	FALSE	   1
+ Ekman Förlagsexpedition	FALSE	   1
 Redakcïâ žurnala Truženik morâ	FALSE	   1
 A. Heleniu Förlag	NA	   1
 Helsingfors Elektriska Belysning	NA	   1
@@ -5526,21 +5868,27 @@ Kauvatsan kunta	NA	   1
 Lovisa Sparbank	FALSE	   1
 W. Junk	FALSE	   1
 The Electrician	FALSE	   1
+Leontjeff, V	 TRUE	   1
 Keskushallitus	NA	   1
 Gamlakarleby Svenska Förening	NA	   1
 Kimito Ungdomsförening	NA	   1
 Gamlakarleby Segel Förening	NA	   1
+Laurila, K S	 TRUE	   1
 Gahmberg, Thyra	 TRUE	   1
 Reinhold Hausen	FALSE	   1
 Ekenäs absoluta nykterhetsförening	FALSE	   1
 Kauppakorkeakoulu	NA	   1
 Mantsinsaari	NA	   1
+Lang, J L	 TRUE	   1
 Fröleen & Co	FALSE	   1
 Tipografïja 'Zadruga	FALSE	   1
 Stadsfullmäktige i Jakobstad	NA	   1
+Kauffmann, Hermann	 TRUE	   1
 Kansanvalistusseuran luonnontieteellinen kirjasto	NA	   1
 Kansanvalistusseuran käsiteollisuuskirjasto	NA	   1
+Landtman, Gunnar (1878-1940)	 TRUE	   1
 Hälsovårdsnämnden i Övermark	NA	   1
+Hackman, Oskar	 TRUE	   1
 Kajaanin hevosjalostusliitto	NA	   1
 Suomen kaakeli- ja uunintekijäin liitto	NA	   1
 Jakobstads kommunala reglementen	NA	   1
@@ -5562,37 +5910,46 @@ Suomalainen maaseututeatteri	NA	   1
 Tidskriften Koti ja Yhteiskunta	FALSE	   1
 Tekniska högskolan i Finland	NA	   1
 Philipp Kosack	FALSE	   1
+Cederström, Emil	 TRUE	   1
 Svenska partiet	NA	   1
+Castrén, Gunnar	 TRUE	   1
 Helsingfors' kommunala sjukhus	NA	   1
 Svenska Folkpartiets organisation i Helsingfors	NA	   1
+Gebhard, Hannes	 TRUE	   1
 Nordiska Samfundet för bekämpande af det vetenskapliga djurplågeriet	FALSE	   1
 Finska Bryggeri-industriförening	NA	   1
+Calonius, Allan	 TRUE	   1
+Cajander, A K	 TRUE	   1
 P.J. Bögelund	FALSE	   1
 Meths barnförening	FALSE	   1
+Hultman, Oskar	 TRUE	   1
 Kotka stad Förlag	FALSE	   1
 Suolahden nuorisoseura	NA	   1
 Suojelukasvatusyhdistys	NA	   1
 Drätselkammaren i Wasa	NA	   1
 Allmänna Brandkårsförbund	NA	   1
+Knape, Ernst V	 TRUE	   1
 Kronoby kommun	FALSE	   1
+Krs,  (1867-1932)	 TRUE	   1
 Folkhögskolan i Kronoby	FALSE	   1
 Ervast	FALSE	   1
+Keto, Edvard	 TRUE	   1
 G.E. Edlund	NA	   1
+Svenske, Jerker	 TRUE	   1
 Merimieskoulu	FALSE	   1
 A. Haapanen	NA	   1
+Forselles, Jenny Af	 TRUE	   1
 Partïâ soc.-revolûcïonerov	NA	   1
 F.G. Petersons bokhandel	FALSE	   1
-Sucksdorff, Julia	 TRUE	   1
 Uudenkirkon Vl kunta	NA	   1
 O. W. M: Förlag	NA	   1
-Strömberg, Tyra	 TRUE	   1
-Edmund Brusiins bokhandel	NA	   1
+Edmund Brusiins bokhandel 	NA	   1
 Esbo Ungdomsförening	NA	   1
 C. Freese	NA	   1
-Savolin, Emil J	 TRUE	   1
 Toini Strengin kirjakauppa, jakaja	FALSE	   1
 Suomen sisälähetysseura	NA	   1
 Stening, Klas	 TRUE	   1
+Brotherus, K R	 TRUE	   1
 Librairie Fischbacher	FALSE	   1
 H. Seeman Nachf	FALSE	   1
 Ilmajoen kristillinen työväenyhdistys	FALSE	   1
@@ -5606,14 +5963,20 @@ Emil Wahlsteinin kp	NA	   1
 Itä-Karjalan hevosjalostusyhdistysten liitto	NA	   1
 Itä-Suomen hevosjalostusyhdistysten liitto	NA	   1
 F. Hofmeister	NA	   1
+Erikson, Emil	 TRUE	   1
 Saraste, Rafael Ferdinand	 TRUE	   1
 Osuusliike Elanto	NA	   1
+Borg, Väinö	 TRUE	   1
 Stadigh, Väinö Erik Elias	 TRUE	   1
 Sandelin, L H	 TRUE	   1
 Nuorsuom. puol. kanslia, julkaisija	NA	   1
 Marthaförening	NA	   1
+Borenius, C E	 TRUE	   1
+Bonsdorff, W	 TRUE	   1
 San Franciscon suomal. Evangeliska luth. seurakunta	NA	   1
 Vilho Tomminen	NA	   1
+Elmgren, Rob	 TRUE	   1
+Elmgren, Aug	 TRUE	   1
 Salokangas, H J	 TRUE	   1
 Svanbäck & Co	FALSE	   1
 Suomen sos.dem. nuorisoliiton toimikunta	NA	   1
@@ -5622,19 +5985,25 @@ Hämeenlinnan lyseo	FALSE	   1
 Tammerfors Musikaliska Förening	NA	   1
 Viktor Salminen	FALSE	   1
 Partïâ socialistov' revolûcïonerov	NA	   1
+Ekman, Oskar	 TRUE	   1
 Kehitys	FALSE	   1
 Bryggeriindustriförening	NA	   1
 H. Klingstén	NA	   1
 Strecker & Schröder	FALSE	   1
 Furuhjelm, Ragnar (1879-1944)	 TRUE	   1
+Andersson, Oscar	 TRUE	   1
 Furis, 	 TRUE	   1
+Ehrnrooth, Ernst	 TRUE	   1
+Edgren, Klas Kristian	 TRUE	   1
 Christian Endeavor-förbund	FALSE	   1
+Drake, Knut	 TRUE	   1
 Suomen laulun arpajaistoimikunta	FALSE	   1
 Nacìonal'nyj muzej Finlândìi	NA	   1
 Föfr	FALSE	   1
 Izdanïe Hristïanskago kružka po izučenïû i izslědovanïû Svâŝ. Pisan	FALSE	   1
 Furuhjelm, Edvard	 TRUE	   1
 Förening 'Hand i hand	NA	   1
+Alcenius, Otto (1838-1913)	 TRUE	   1
 Maatalouskirjasto	FALSE	   1
 Veturimiesten raittiusliitto	FALSE	   1
 Svenska Normallyceums i Helsingfors	NA	   1
@@ -5644,7 +6013,7 @@ Kristliga förening af unga kvinnor	NA	   1
 Vidannâ Gel'singfors'kogo ukraïns'kogo tva prosvïta	FALSE	   1
 Tampereen kaupunginvaltuusto	FALSE	   1
 Svenska förbunds verksamhet	NA	   1
-W. Karsten	NA	   1
+W. Karsten 	NA	   1
 Carl Konegen	FALSE	   1
 Porvoo	FALSE	   1
 Friedmann, Hermann	 TRUE	   1
@@ -5654,13 +6023,15 @@ The Pilgram Press	FALSE	   1
 Frey, Alexander	 TRUE	   1
 K.F. Hellgren	FALSE	   1
 Hugo Heller & Cie	FALSE	   1
+Bergholm, Hjalmar	 TRUE	   1
 Fraser, Otto	 TRUE	   1
 Sjöstedt, Ludvig	 TRUE	   1
 Sjöstedt, Emmi Emilia Wilhelmina	 TRUE	   1
 Izdanïe S. Sobčinskago i Plevkovskago kontora	NA	   1
 Lampel R. Könyvkereskedése	FALSE	   1
+Bengelsdorff, Gunnar H	 TRUE	   1
 Sjöman, Isak Edvard (1840-1912)	 TRUE	   1
-Sjöblom'in nahkateollisuus	NA	   1
+Sjöblom'in nahkateollisuus 	NA	   1
 SÖU	NA	   1
 Finlands Allmänna Svenska Folkskollärare- & lärarinneförening	NA	   1
 Lutherska Söndagsskoleförening i Finland	FALSE	   1
@@ -5669,9 +6040,11 @@ Uleåborgs Tidning	NA	   1
 Mikkelin Työväen sanomalehti- ja Kirjapaino-osuuskunta	FALSE	   1
 Åländska studentgillet	NA	   1
 Helsingfors norra svenska församling	NA	   1
-F. Timber	NA	   1
+F. Timber 	NA	   1
+åkerblom, K V	 TRUE	   1
 Wiipurin koulunuorisoliitto	NA	   1
 Finlands skolungdom	FALSE	   1
+ågren, Robert	 TRUE	   1
 Handelsförening	NA	   1
 Kirjapaino 'Sanan Valta', jakaja	FALSE	   1
 Rossïjskaâ socïal' demokratičeskaâ rabočaâ partïâ 'Edinstvo	NA	   1
@@ -5711,11 +6084,11 @@ Tipografija M. Korškova	FALSE	   1
 Fleege, Gunnar A	 TRUE	   1
 Izdatel'stvo Petrogradskago komiteta Partïi socïalistov'-revolûcïonerob	NA	   1
 Päivänsalo, B H	 TRUE	   1
-Rosenberg, G	 TRUE	   1
 Nuorsuomalaisten vaalitoimikunta	NA	   1
 Tipografïâ M. Gorškova	FALSE	   1
 Oulun Kirjapaino-, kirjansitomo- ja kirjakauppa	FALSE	   1
 Joh. Parcinski	FALSE	   1
+Wegelius, Walter	 TRUE	   1
 Gebrüder Jänecke	FALSE	   1
 Mariehamns absoluta nykterhetsförening	NA	   1
 Varsinais-Suomen kansanopisto	FALSE	   1
@@ -5724,9 +6097,10 @@ Finska Svinafvelsförening	NA	   1
 Ronimus, J V	 TRUE	   1
 Sekcïâ rasprositr. idej narodovlastïâ pri Ispolnitel'n. komitetè	FALSE	   1
 Finska Stats Järnvägarnas Verkstäders arbetarförening	NA	   1
-Puukko, A F	 TRUE	   1
 Tipografïâ Imperatorskago finlândskago senata	NA	   1
 Vasa afdelning	NA	   1
+Tallbacka, Edv	 TRUE	   1
+Ylppö, Arvo	 TRUE	   1
 Evangeliskt Veckoblads Exp	NA	   1
 Ångfartyg Bore	NA	   1
 Utställningskommittén	NA	   1
@@ -5736,44 +6110,62 @@ R-mari, J	 TRUE	   1
 Wuorinen, Jalo	 TRUE	   1
 Pulkkinen, Kasper	 TRUE	   1
 Lahden seudun nuorisoseura	FALSE	   1
-Rindell, Arthur	 TRUE	   1
 Rikala, Kalle	 TRUE	   1
+Söderholm, Gösta	 TRUE	   1
 O.y. Kirja-Aitta	FALSE	   1
+Söderholm, A	 TRUE	   1
 Akc. obŝ. gagnesskïj knižnyj magazin	FALSE	   1
+Wasenius, Hannes	 TRUE	   1
 Finska Revisorsförenings lagförslag	NA	   1
 Champion	FALSE	   1
 Högman, Volter	 TRUE	   1
+Wasastjerna, Sigrid	 TRUE	   1
 Turun Kirjapaino- ja sanomalehti	FALSE	   1
 O,  (1850-1913)	 TRUE	   1
+Wrede, R A	 TRUE	   1
 Tampereen sentraaliKirjapaino	FALSE	   1
 Turista societo de Finnlando	NA	   1
 Pouttu, Matti	 TRUE	   1
 E,  (1881-1968)	 TRUE	   1
+Söderhjelm, Henning (1888-1967)	 TRUE	   1
 Itä-Karjalan maanviljelysseura	FALSE	   1
 Litteraturförlag	FALSE	   1
 O. Börje Waldén	FALSE	   1
 Finska Alliansmissionens Expedition	FALSE	   1
+Wirén, Edvin	 TRUE	   1
 Finskt Idrottsblad	NA	   1
 Gebauer & Hetschcke	FALSE	   1
+Winqvist, Gustaf	 TRUE	   1
 Polviainen, Jehki J	 TRUE	   1
 Reima, Vilho (1867-1948)	 TRUE	   1
+Wilskman, Atle	 TRUE	   1
 Dulau & Co	FALSE	   1
+Willebrand, Herman Von	 TRUE	   1
+Wahl, Walter	 TRUE	   1
 Andelslaget Kirjapainotaito	NA	   1
+Wilenius, Wald	 TRUE	   1
 Sällskaps-teater i Mariehamn	NA	   1
+Wikman, Anders	 TRUE	   1
 Fazer	NA	   1
 H. Leoke	FALSE	   1
 Pitkäniemi, F M	 TRUE	   1
+Wichmann, S E	 TRUE	   1
 Wiborgs Läns Segelförening	NA	   1
+Wetterstrand, G A	 TRUE	   1
 Piponius, E A	 TRUE	   1
 Rehbinder, Berndt Otto	 TRUE	   1
 Plon-Nourrit & C:ie	FALSE	   1
+Törne, P O Von	 TRUE	   1
 Kuopion Asioimistoimisto, kustannusosasto	NA	   1
+Såltin, Gunnar	 TRUE	   1
 Suomen Evangeliskaluth. nuorukais-yhdistys	FALSE	   1
+Movitz,  (1849-1917)	 TRUE	   1
 Antero Taivalkoski	FALSE	   1
 W. Skogstedt, jakaja	NA	   1
 Kokousta valmistava valiokunta	NA	   1
 Kuopion N. M. K. Y	FALSE	   1
 Finska Industridelegationens Centralkommitté	NA	   1
+Tigerstedt, Robert	 TRUE	   1
 Turistföeningen	NA	   1
 Finska Förlagsförening	NA	   1
 Finska Evangeliska Luth. Församlingen i San Francisco	NA	   1
@@ -5786,14 +6178,18 @@ Svenska Teaterförening i Finland	NA	   1
 Svenska Lyceum i Uleåborg	NA	   1
 Pietilä, Antti J (1878-1932)	 TRUE	   1
 Eos expedition	FALSE	   1
+Tschepurnoff, A	 TRUE	   1
 Rantakari, K N	 TRUE	   1
 Vetenskapliga & litterära samfunden	NA	   1
 Humu, Martti (1852-1915)	 TRUE	   1
 D. Appleton and Company	FALSE	   1
+Tigerstedt, Carl	 TRUE	   1
 Eggers u. C:o	FALSE	   1
 Sö̈derström	FALSE	   1
 Yritys	NA	   1
 Bibelsällskap	NA	   1
+Thesleff, Rolf	 TRUE	   1
+Therman, Ernst	 TRUE	   1
 Åbo Svenska Arbetareförenings Ungdomsklubb	NA	   1
 Teosofiska Samfundets Finska Sektions	NA	   1
 H.T.Y. Liikeapulais-a.o	FALSE	   1
@@ -5802,28 +6198,41 @@ Gesellschaft für vervielfältigende Kunst	FALSE	   1
 Rainio, Yrjö	 TRUE	   1
 Rainio, R	 TRUE	   1
 Pennanen, Matti	 TRUE	   1
+Taskinen, K	 TRUE	   1
 J.F. Olans bokhandel	NA	   1
 Peltonen, Aug F	 TRUE	   1
-Mercators Expedition	FALSE	   1
+Tanner, V (1881-1948)	 TRUE	   1
+Tandefelt, Heikki	 TRUE	   1
+Tallqvist, J V	 TRUE	   1
+Mercators Expedition 	FALSE	   1
 O.J. Tallgren	FALSE	   1
 H. K. Y:n siviililatojain-osasto	NA	   1
 Paunu, U	 TRUE	   1
 Aug. Mattsson	NA	   1
 La Societo 'La Polusstelo	FALSE	   1
 Helsingfors Dövstumförening	FALSE	   1
+Sundwall, Johannes (1765-1825)	 TRUE	   1
 Dieterich'sche Verlagsbuchhandlung	FALSE	   1
+Stackelberg, Nathanael Von	 TRUE	   1
 Lauri Itkonen	FALSE	   1
 Karl J. Trübner	FALSE	   1
 Förening Djurvännerna	NA	   1
+Sundell, I A	 TRUE	   1
 Skandinavisk Förlag	FALSE	   1
 Sparbanken i Hangö	NA	   1
+Soveri, Henricus F	 TRUE	   1
 De Blinda Förbund i Finland, utgivare	NA	   1
+Kösse, 	 TRUE	   1
 Centralstyrelse för Finlands Svenska Arbetarförbund, utgivare	NA	   1
 Socialdemokratiska partiet i Finland	FALSE	   1
 Parviainen, Johan Walter	 TRUE	   1
 Finlands Svenska Ungdomsförbunds Expedition	NA	   1
 Paronen, Kalle	 TRUE	   1
+Renkonen, W O	 TRUE	   1
+Streng, Osv (1872-1951)	 TRUE	   1
+Streng, Emmy	 TRUE	   1
 Salminen, Hanna Therman	NA	   1
+Stenholm, Alex	 TRUE	   1
 Klinkhardt & Biermann	FALSE	   1
 Helsingin Diakonissalaitoksesta	FALSE	   1
 Finlands svenska folkskollärarekår	NA	   1
@@ -5831,37 +6240,59 @@ Finlands Svenska Fiskericentralförbund	NA	   1
 Rauhan Sanomia Förlagsexpedition	FALSE	   1
 Sikar Förlag	FALSE	   1
 Sågverksegaremötet	NA	   1
+Simolin, Albin	 TRUE	   1
+Silfverberg, K W (1883-1965)	 TRUE	   1
 Vasa Hoppets Här	NA	   1
 E. Marlborough & Co	FALSE	   1
 Finlands Allmänna Slöjdförenings yrkesskola	NA	   1
 A. Lagergréen	NA	   1
+Serenius, Bengt	 TRUE	   1
 Veckans Krönikas Red	NA	   1
+Selander, Adèle	 TRUE	   1
 Förlagsförening Antroposofiska sällskap	FALSE	   1
+Segerstråle, Albert	 TRUE	   1
 Paananen, Henni	 TRUE	   1
 Hevosjalostusliittojen edustajisto	NA	   1
 Fieandt, Einar	 TRUE	   1
 Casa Editrice Romana	FALSE	   1
 Sigfús Eymundsson	FALSE	   1
+Schvindt, V	 TRUE	   1
 Hollolan kunta	NA	   1
-Hermes	NA	   1
+ Hermes	NA	   1
 G. D. von Essen	FALSE	   1
+Schildt, Holger	 TRUE	   1
+Sjöström, Lennart	 TRUE	   1
+Sjöros, Bruno	 TRUE	   1
 Harjavallan kunnallislautakunta	NA	   1
 Hankasalmen maamiesseura	NA	   1
 F.W. Edlund	NA	   1
 Björn Schauman	FALSE	   1
 Hämeenlinna	FALSE	   1
+Schauman, Björn	 TRUE	   1
+Schauman, A	 TRUE	   1
+Saxén, Bruno	 TRUE	   1
 Fennia	NA	   1
 Suomalaisen puol. kanslia	NA	   1
 Helsingin Kisa-veikot	NA	   1
+Sjöblom, J Ch	 TRUE	   1
+Sjöblom, Irene	 TRUE	   1
+Sandelin, A E	 TRUE	   1
+Saltzman, Fredrik (1881-1973)	 TRUE	   1
+Salonius, A H	 TRUE	   1
+Salonen, Hugo T	 TRUE	   1
 Tavastehus Sten- & Tryckeri	FALSE	   1
 Angelniemen kunta	NA	   1
 Korkeasaaren eläintarha	NA	   1
 Stockholms högskola	FALSE	   1
+Rancken, Dodo	 TRUE	   1
 Näver, Jussi	 TRUE	   1
 John Petterson	FALSE	   1
 O. Leiner	FALSE	   1
 Handelstr	NA	   1
+Råbergh, Herman (1838-1920)	 TRUE	   1
+Rautakoski, A E	 TRUE	   1
 Helge Wilén	FALSE	   1
+Ramsay, Henrik	 TRUE	   1
 Iisalmen Ylivieskan Rautatiekomitea	FALSE	   1
 Yrjö Weilin & Kumpp. kans	NA	   1
 Missions-Standaret Förlag	FALSE	   1
@@ -5870,14 +6301,20 @@ Industriidkarenes Ömsesidiga Brandstodsförening	FALSE	   1
 Internationella Bibelstudiesällskap	FALSE	   1
 Kyrkslätt Skärgårds Ungdomsförening	NA	   1
 Svenska Samskolans i Tavastehus konvent, utgivare	NA	   1
+Qvist, Johannes	 TRUE	   1
 Massif	NA	   1
+Pärnänen, J A	 TRUE	   1
+Pirilä, P W	 TRUE	   1
 Lindbergs Tryckeri	FALSE	   1
 Stadsmissionen i Helsingfors	FALSE	   1
 Gamlakarleby landskommun	FALSE	   1
 Viator, utgivare	NA	   1
 C.A.V. Lundholm	FALSE	   1
-Fria Missionens	FALSE	   1
+Fria Missionens 	FALSE	   1
+Rohrbach, A E	 TRUE	   1
+Rohde, Otto	 TRUE	   1
 Facklans Expedition	FALSE	   1
+Rosenqvist, V T	 TRUE	   1
 A.V. Carlsson	FALSE	   1
 Helsingfors stads socialnämnd	NA	   1
 Nuotio, Teuvo	 TRUE	   1
@@ -5886,6 +6323,7 @@ Carl Winter	FALSE	   1
 R. Friedländer & Sohn	FALSE	   1
 Universität Basel	FALSE	   1
 Nuormaa, Severi	 TRUE	   1
+Putkisto, K I	 TRUE	   1
 Österbottens svenska kontventförbund	NA	   1
 Chiswick Press	NA	   1
 Soc.-dem. kvinnorepresentantmötet	NA	   1
@@ -5897,12 +6335,13 @@ Kymmene Interimsflottningsförening	NA	   1
 Chelius & Comp	FALSE	   1
 W.O. Laurent & Co	FALSE	   1
 W. Versluys	FALSE	   1
-F. T. M. förening	NA	   1
+F.T.M. förening	NA	   1
 Lit. Anstalt	FALSE	   1
 Finlands Förare- & Eldareförening	NA	   1
 Finska Förare- & Eldareförening	NA	   1
 Finalands Svenska Gymnastik- & Idrottsförbund	NA	   1
 Finlands Socialdemokratiska Ungdomsförbund	NA	   1
+Nylander, Hannes	 TRUE	   1
 Akaan kunnallis- ja köyhäinhoitohallitus	NA	   1
 Suomalainen evank.-luteeril. kustannusliike	FALSE	   1
 Niemi, Juho	 TRUE	   1
@@ -5974,13 +6413,17 @@ Suomen tilintarkastajainyhdistys	NA	   1
 Fieandt, H Von	 TRUE	   1
 Metodist-Episkopal-Kyrkan	NA	   1
 Lappfjärds folkhögskola	NA	   1
+Nyborg, Carl Adolf Af	 TRUE	   1
 Lantbrukssällskap utställning	NA	   1
 Minkkinen, Aapel	 TRUE	   1
+Nyberg, Paul	 TRUE	   1
 Landtbruks-, fiskeri- & slöjdutställningen	NA	   1
 Kronoby hushålls- & trädgårdsskola	NA	   1
 K.F. Hushållningssällskaps Handarbetsskola	NA	   1
 F.Å.A	NA	   1
 Sibelius-seura	NA	   1
+Nordström, Gunnar (1881-1923)	 TRUE	   1
+Nordström, Ernst	 TRUE	   1
 Aftonbladet & Dagen	FALSE	   1
 Tekniska Högskolans Studentförenings Arbetskomité, utgivare	NA	   1
 LTY	NA	   1
@@ -5990,27 +6433,38 @@ Augustana Library	FALSE	   1
 Kuopion sos.-dem. nuorisopiirijärjestö	NA	   1
 Fruntimmersförening i Jakobstad	FALSE	   1
 Barnskyddsförening i Åbo	FALSE	   1
+Nordenstreng, Sigurd	 TRUE	   1
 Elanders tryckeri	FALSE	   1
+Nordberg, Wivi	 TRUE	   1
+Nikander, Gabriel	 TRUE	   1
+Palomaa, M H	 TRUE	   1
 Förbund för Inhemskt Arbete	FALSE	   1
 O. Johnsson	NA	   1
 Kieltolakikomitea	NA	   1
+Palmén, John	 TRUE	   1
 Suomen Säästöpankkiyhdistyksen valtuusto	NA	   1
 Palmberg, Bertil Albert	 TRUE	   1
 Suomen itsenäisyysyhdistys	NA	   1
 Ol. Hansen	FALSE	   1
 Francesco Perrella	FALSE	   1
+Neovius, Werner	 TRUE	   1
 Tervolan työv.-yhd. Suvannon osasto	FALSE	   1
 Ilmari Palmén	NA	   1
 Payot & C:ie	FALSE	   1
+Neovius, Harald	 TRUE	   1
 Paul Knepler	FALSE	   1
 Näsijärvi segelsällskap	NA	   1
 Finska Bryggeriförening	NA	   1
 Svenska Folkskolans Vänners bespisningskommitté, utgivare	NA	   1
 Evangeliska Missionsförbund	NA	   1
+Mölsé, Wilhelm	 TRUE	   1
 Axel Berndtson	FALSE	   1
 Museum Viburgense	NA	   1
 Suomen metallivalajat	NA	   1
+Nyström, Solmu	 TRUE	   1
 Svenska Järn- & Metallarbetare F. A	NA	   1
+Nyström, Gunnar	 TRUE	   1
+Nyman, Primus (1887-1947)	 TRUE	   1
 Suomela & Surakka	FALSE	   1
 Nyländska afdelningen	NA	   1
 Rolf Lagerborg	NA	   1
@@ -6027,24 +6481,33 @@ Ottelin, A K	 TRUE	   1
 Hartwall	NA	   1
 Carl Winters Universitätsbuchhandlung	FALSE	   1
 Ungdomsförening Framåt	NA	   1
+Mxn, Mz	 TRUE	   1
 Metodist-kyrkans Evangeliska Ungdomsförbund	NA	   1
 A.B. Merkurius	NA	   1
 Salama, henkivakuutus	NA	   1
 Lappeen maamiesseura	NA	   1
 Kerkkola, I E (1873-1943)	 TRUE	   1
 Sjuksköterskeförening i Finland	FALSE	   1
+Långfors, Arthur	 TRUE	   1
 Librairie Paul Geuthner	FALSE	   1
 Librairie E. Champion	FALSE	   1
 Librairie Honoré Champion	FALSE	   1
+Liljeqvist, Oscar	 TRUE	   1
+Liljefors, Axel	 TRUE	   1
+Liljeblom, E	 TRUE	   1
+Mechelin, Adolf	 TRUE	   1
 Perttelin kunta	NA	   1
 Deutscher Verein in Tammerfors	NA	   1
 Helsingfors-logen Vågen Förlag	FALSE	   1
 Malkki, Aleksanteri	 TRUE	   1
 Hurst & Blackett	FALSE	   1
+Lönnqvist, Bernt	 TRUE	   1
 Metsämiehet	NA	   1
 Dövstumskolan i Jakobstad	FALSE	   1
+Lunelund, Harald	 TRUE	   1
 Librairie générale de droit et de jurisprudence	NA	   1
 Padasjoen kunta	NA	   1
+Lundqvist, Ernst Aug	 TRUE	   1
 Helsingfors Handelsbiträdeförening	FALSE	   1
 Tammerfors Linne- & Jern-Manufaktur	FALSE	   1
 Arne Cederholm	FALSE	   1
@@ -6065,18 +6528,29 @@ Kokemäen kunta	NA	   1
 Maanvuokraajain edustajakokous	NA	   1
 E, 	 TRUE	   1
 Marjamaan kp	FALSE	   1
+Lavonius, Herman	 TRUE	   1
+Laurent, L	 TRUE	   1
+Laurent, K A	 TRUE	   1
 Maanlunastusvaliokunta	NA	   1
+Lindqvist, Bruno	 TRUE	   1
 M	 TRUE	   1
 Kiukaisten kunta	NA	   1
 Uusi paperikauppa	NA	   1
 Kuopion läänin maamiesseura	NA	   1
 A.V. Ruusuvaara	NA	   1
+Lindgren, Aug	 TRUE	   1
 Karjalainen osakunta	NA	   1
-Lövegren, Elis	 TRUE	   1
+Langenskiöld, Fabian	 TRUE	   1
+Lindén, Aleksander	 TRUE	   1
+Lindborg, Karl Johan	 TRUE	   1
+Lindberg, Werner Th	 TRUE	   1
 Åbo Frivilliga Brandkår	FALSE	   1
+Lindberg, Björn	 TRUE	   1
+Lindberg, Axel	 TRUE	   1
 Dansk konstutställning	NA	   1
 Eero Huima	FALSE	   1
 Kankaapää, Elias	 TRUE	   1
+Landén, Ab	 TRUE	   1
 Konst- & Konstindustriförenings i Björneborg	NA	   1
 Förening Sjömanshemmet i Mariehamn	FALSE	   1
 S.P.Y. Helsingfors afdelning, utgivare	FALSE	   1
@@ -6087,6 +6561,7 @@ Landtbruksmötet å Malm	NA	   1
 Landtbruksmötet & -utställningen i Kuopio	NA	   1
 Handtverksutställningen i Wasa	NA	   1
 Suomen teknillisten ylioppilaiden maanmittariklubi	NA	   1
+Karttunen, Liisi	 TRUE	   1
 A.B. Herman Lindell	NA	   1
 Weidmannsche Buchhandlung	FALSE	   1
 Janakkalan kunta	NA	   1
@@ -6095,6 +6570,7 @@ Kajawa, Yrjö	 TRUE	   1
 Luteerilainen kirjainkustannus	FALSE	   1
 R. Tuomi	FALSE	   1
 Absoluta Nykterhetsförening i Ekenäs	NA	   1
+Kurimo, Anna	 TRUE	   1
 Statsarkivet	FALSE	   1
 Tampereen luonnontieteellinen yhdistys	FALSE	   1
 Kumlin, Aarne	 TRUE	   1
@@ -6108,20 +6584,21 @@ Sanomalehden Keski-Suomi	FALSE	   1
 Sosialistin kirjap.-osuuskunta	FALSE	   1
 Fabritius, H	 TRUE	   1
 Kaatra	FALSE	   1
-Tampereen pellava ja rauta-teollisuus	FALSE	   1
+Tampereen pellava ja rauta-teollisuus 	FALSE	   1
 Juvelius, J W	 TRUE	   1
 Fruntimmers Bibelförening	NA	   1
 Georg Fraser	NA	   1
+Kovero, Ilmari	 TRUE	   1
 Finlands Järnvägsmannakår	FALSE	   1
+Korhonen, W W	 TRUE	   1
+Koponen, Alb	 TRUE	   1
 Liro, J I	 TRUE	   1
 Kaasalainen, Antti	 TRUE	   1
 Lindström, Gunnar	 TRUE	   1
 Lindstedt, Wilhelm (1838-1915)	 TRUE	   1
 Kuopion läänin hevosystäväin-seura	FALSE	   1
 Suomen Krist. työv. liitto	FALSE	   1
-Lindman, Volmar (1861-1939)	 TRUE	   1
 Kaarne, Antti	 TRUE	   1
-Faust,  (1879-1918)	 TRUE	   1
 Tampereen säästöpankki	FALSE	   1
 J.U. Kern	FALSE	   1
 Lahden Puutarhaseura	FALSE	   1
@@ -6142,18 +6619,21 @@ Nuoren Suomen toimitus	NA	   1
 Viipurin läänin läntisen vaalipiirin sos. dem. piiritoimikunta	NA	   1
 Kjöllerfelt, Marcus	 TRUE	   1
 Evangeliska Luth. Söndagsskoleförening	FALSE	   1
+Kettunen, Lauri (1885-1963)	 TRUE	   1
 H. Kala	FALSE	   1
 Finska tandläkaresällskap	NA	   1
+Katara, Pekka (1882-1971)	 TRUE	   1
 Floks, 	 TRUE	   1
 Elving, H	 TRUE	   1
 Lempinen, K	 TRUE	   1
-Elfving, Fredrik (1854-1942)	 TRUE	   1
 Th. Weber	FALSE	   1
 Heinolan lehti	NA	   1
 Suomen pelastusarmeijan päämaja	NA	   1
 Kuopion diakonaattitoimikunta	FALSE	   1
 Suomen lääkäriliitto	NA	   1
 Honkojoen kunta	NA	   1
+Karlsson, Karl Axel	 TRUE	   1
+Kankaanpää, Väinö	 TRUE	   1
 Helsingin maalariammattiyhdistys	FALSE	   1
 Sven Strindbergs Konstsalong	NA	   1
 August Kauhanen	FALSE	   1
@@ -6166,11 +6646,13 @@ Jos. R. Vilímek	NA	   1
 Karstula	FALSE	   1
 Remo Sandron	NA	   1
 Masereeuw & Bouten	NA	   1
-Ehrström, Robert	 TRUE	   1
 Aron Isakoff	FALSE	   1
 Finska Brandstodsbolaget för landet	FALSE	   1
+Kalima, Tauno (1881-1951)	 TRUE	   1
+Kalima, Jalo (1884-1952)	 TRUE	   1
 Lauri, K A	 TRUE	   1
 Förs	FALSE	   1
+Kaila, Lauri G G	 TRUE	   1
 Turun läänin etel. vaalipiirin sos. dem	FALSE	   1
 Lassila, D	 TRUE	   1
 Larsson, L	 TRUE	   1
@@ -6208,7 +6690,6 @@ Colliander, A N	 TRUE	   1
 Kärki, Anna	 TRUE	   1
 Den internationella kommittén för fysisk	FALSE	   1
 Suomalaisen puolueen piiritoimikunta Turun läänin eteläisessä vaalipiirissä	FALSE	   1
-Clopatt, Arthur	 TRUE	   1
 Kirkollinen kirjakauppa	FALSE	   1
 Finlands Handelsresandeförening	NA	   1
 Hugo Hurmerinta	FALSE	   1
@@ -6224,11 +6705,10 @@ Helsingin yliopiston ylioppilaskunta	NA	   1
 Kurvinen, Esteri S	 TRUE	   1
 Kuronen, P V	 TRUE	   1
 Osuuskunta 'Oma Apu	FALSE	   1
-Holmberg, M	 TRUE	   1
 Turun Evangeliska luth. nuorukaisyhdistys	FALSE	   1
 Leikas and C:o	FALSE	   1
 Põhjä-Liiwimaa põllutõõ keskseltsi kirjastus	FALSE	   1
-& y. Kansa	FALSE	   1
+ & y. Kansa	FALSE	   1
 Castrén, Ola	 TRUE	   1
 Hjelt, Vera	 TRUE	   1
 Wenemaa sots.-dem. tööliste partei Helsingi eestlaste organisatsioni wäljaanne	NA	   1
@@ -6240,7 +6720,6 @@ Art. Institut Orell Füssli	FALSE	   1
 Suom. sos. kustanus	FALSE	   1
 Kuokkalan rukoushuoneyhdistys	NA	   1
 Kansan ääni	NA	   1
-Hertzen, E Von	 TRUE	   1
 J. Rahkonen	FALSE	   1
 Warkaus bruk	NA	   1
 Buch, Kurt	 TRUE	   1
@@ -6265,9 +6744,7 @@ Broman, Fred H G	 TRUE	   1
 Brotherus, Hj V	 TRUE	   1
 Osuuskunta Työläisnainen	FALSE	   1
 Brenner, Widar (1887-1932)	 TRUE	   1
-Brenner, Magnus (1843-1930)	 TRUE	   1
 Hj. Braxén	FALSE	   1
-Wulff, Th	 TRUE	   1
 Metallikonttori	FALSE	   1
 Kyminlaakson työväen sanomalehti-osuuskunta	FALSE	   1
 Suom. evank.-lut. kustannusliike	NA	   1
@@ -6296,7 +6773,8 @@ Uudenmaan vaalipiirin sos.-dem. piiritoimikunta	FALSE	   1
 Wiljaranta, Sulo	 TRUE	   1
 Osuuskunta Kristillinen työkansa r. l	FALSE	   1
 Kutoma- ja paperiteollisuuslehti	NA	   1
-Sandvikens Skeppsdocka	NA	   1
+Terhola, Lauri	 TRUE	   1
+ Sandvikens Skeppsdocka	NA	   1
 Velj. Shapshal	NA	   1
 Rauman osuuskauppa	FALSE	   1
 Matkailijayhdistyksen Viitasaaren jäsenet	NA	   1
@@ -6311,7 +6789,6 @@ Sosialistin Kirjapaino-osuuskunta I. L	FALSE	   1
 Sörnäs svenska församling	NA	   1
 Wichmann, Einar	 TRUE	   1
 Hammarén, J E	 TRUE	   1
-Vestlin, Konrad	 TRUE	   1
 Halonen, Alex (1878-1946)	 TRUE	   1
 Reipas	FALSE	   1
 Jyväskylän kauppalaisseura	FALSE	   1
@@ -6319,9 +6796,9 @@ Oulun suomalainen yksityislyseo	FALSE	   1
 Oulun Vapaaehtoinen Palosammutuskunta	FALSE	   1
 Wirolahden, Wirojoen työväenyhdistys	FALSE	   1
 Musikaliska sällskap i Åbo	NA	   1
-Söderlund, Hans	 TRUE	   1
 Helsingfors telefonförening	FALSE	   1
 Mikkelin hevosjalostusliitto	NA	   1
+Tawaststjerna, A	 TRUE	   1
 Hagelberg, K T	 TRUE	   1
 Raekallio, Joh	 TRUE	   1
 Docentförening	NA	   1
@@ -6338,14 +6815,12 @@ Vaulo, K V	 TRUE	   1
 Suomen metallityöntekijä	FALSE	   1
 Vera Ostroumoff	FALSE	   1
 Seligson, Salomon	 TRUE	   1
-Gummerus, Jaakko	 TRUE	   1
 Landtmannabanken	FALSE	   1
 Blomberg, K G	 TRUE	   1
 E. Mendelin	NA	   1
 Varkauden työväenyhdistys	NA	   1
 Kuopion maanviljelysnäyttely v. 1906	FALSE	   1
 Työväen sanomalehti osuuskunta	NA	   1
-Grotenfelt, Gösta (1855-1922)	 TRUE	   1
 Svensk-finska nykterhets-förbund i Amerika	NA	   1
 Björkman, Hj	 TRUE	   1
 Walton, William	 TRUE	   1
@@ -6368,7 +6843,7 @@ Suomen sokeain liitto	NA	   1
 S. P. Y:n Helsingin osasto	FALSE	   1
 Godenhjelm, B F	 TRUE	   1
 Kuopion työväen osuuskauppayhdistys	FALSE	   1
-Walkiakoski	NA	   1
+ Walkiakoski	NA	   1
 Kymi	FALSE	   1
 Wilhelm Koskenranta	FALSE	   1
 American Unitarian Association	NA	   1
@@ -6396,12 +6871,11 @@ Uskelan kunta	NA	   1
 Folkbiblioteket i Ekenäs	NA	   1
 Folkbiblioteket i Borgå stad	NA	   1
 Biaudet, Henry	 TRUE	   1
-Ursin, N R Af (1854-1936)	 TRUE	   1
 Borgå järnväg	NA	   1
 Finska sparbankförening	NA	   1
 Finlandian toimisto	NA	   1
 Pohjois-Hämeen sos. dem. nuoriso-osastojen piiritoimikunta	FALSE	   1
-Widell' ja Kumpp	FALSE	   1
+ Widell' ja Kumpp	FALSE	   1
 Fellman, Arno	 TRUE	   1
 Finlands svenska publicistförbund	NA	   1
 H. Klingsten	FALSE	   1
@@ -6420,6 +6894,7 @@ Fredrik Uusitalo	FALSE	   1
 Viipurin työväen sanomal. ja kp.-osuuskunta	NA	   1
 Tyrjän Nuorisoseura	NA	   1
 Eronen, Oliwer	 TRUE	   1
+Sjöström, Bertil	 TRUE	   1
 Hangö segelförening	NA	   1
 Konduktööri Erikson	NA	   1
 Farmaceutiska förening	NA	   1
@@ -6484,7 +6959,6 @@ Kommandiittiyhtiö O. Räisänen ja Kumpp	FALSE	   1
 Verlag von J. Engelhorn Nachf	FALSE	   1
 Viktor Wainio	FALSE	   1
 Pieksämäen kunta	FALSE	   1
-Akademiska bokhandel, i	FALSE	   1
 Ab. Systema	NA	   1
 Az Athenaeum irod. és nyomdai r.-t. kiadása	FALSE	   1
 Naisvaliokunnan kirjasia	FALSE	   1
@@ -6497,7 +6971,6 @@ Brandförsäkring Fennia	NA	   1
 O.y. F. Tilgmann	FALSE	   1
 Sparbankernas Central-Aktie-Bank	NA	   1
 H, 	 TRUE	   1
-Varma, E L	 TRUE	   1
 Tampereen teknillinen opisto	NA	   1
 Tampereen Reaalilyseon toverikunta	NA	   1
 Finska Skeppsbefälsförbund	NA	   1
@@ -6525,7 +6998,6 @@ J. Engelhorns Nachf	FALSE	   1
 Hakala & Kumpp	NA	   1
 Eläinsuojelusseura	FALSE	   1
 Hevoskasvatusyhdistys	FALSE	   1
-Svanljung, John	 TRUE	   1
 Vesannon osuuskauppa	FALSE	   1
 Suvanto, Ossian	 TRUE	   1
 Suvanne, Em (1869-1949)	 TRUE	   1
@@ -6549,6 +7021,7 @@ Anderson, Amos	 TRUE	   1
 Suomen juustonvalmistajayhdistys	NA	   1
 Constable	FALSE	   1
 STL nuoriso-osasto	NA	   1
+Mannermaa, K H	 TRUE	   1
 F. Sundman	NA	   1
 Työväen osuusKirjapaino	FALSE	   1
 Mellberg, Bruno	 TRUE	   1
@@ -6574,12 +7047,13 @@ Streng, Adolf V (1852-1933)	 TRUE	   1
 Streng, Harry Johannes	 TRUE	   1
 Ahlqvist, Ellen	 TRUE	   1
 Svenska Reallyceum i Åbo	FALSE	   1
-Björneborgs nya bokhandel	FALSE	   1
+Björneborgs nya bokhandel 	FALSE	   1
 Stigell, Rich V	 TRUE	   1
 Tero	FALSE	   1
 F.P.F:s Helsingfors avdelning, utgivare	FALSE	   1
 Noor-Eesti väljaanne	FALSE	   1
 H:fors Typografförening	NA	   1
+Lundqvist, J	 TRUE	   1
 Helsingin kuuromykkäinyhdistys	FALSE	   1
 Luonnonparannus- ja terveydenhoitoyhdistys	FALSE	   1
 Kotkan kaupungin valtuusto	NA	   1
@@ -6632,11 +7106,12 @@ Aarne Pietinen	FALSE	   1
 Kaskö andelshandel m.b.t., utgivare	NA	   1
 Farmaceuternas pensionskassa i Finland	FALSE	   1
 Schreck, Anna	 TRUE	   1
+Kaila, Eino (1890-1958)	 TRUE	   1
 Saxén, Uno	 TRUE	   1
 Savonlinnan työväenyhdistys	NA	   1
 Karsten, Henrik (1877-1959)	 TRUE	   1
 G.W. Edlund'in kustannustoimisto	FALSE	   1
-Frenckellska tryckeriab. Söderström & Co	FALSE	   1
+Frenckellska tryckeriab. Söderström & Co,	FALSE	   1
 Emil J. Savolin	FALSE	   1
 Tampereen puuvillateollisuus	FALSE	   1
 Stenmans konstsalong	NA	   1
@@ -6694,9 +7169,7 @@ Herättäjän sisälähetysyhdistys	NA	   1
 Kristliga arbetarförbund	FALSE	   1
 Rinne, Juhani (1872-1950)	 TRUE	   1
 O.F. Rae	NA	   1
-Reuter, J N	 TRUE	   1
 Repo, Vihtori	 TRUE	   1
-Renvall, Thorsten	 TRUE	   1
 N.B. Grotenfelt	FALSE	   1
 Esteri S. Kurvinen	NA	   1
 Renvald, V H	 TRUE	   1
@@ -6734,13 +7207,13 @@ Oriveden osuuskauppa	FALSE	   1
 Aarnisalo, Otto	 TRUE	   1
 Esbo segelförening	NA	   1
 Andelslaget Varuboden	FALSE	   1
-Poukka, K A	 TRUE	   1
 Understödsfonden för Belgiens barn	FALSE	   1
 Statsvetenskaplig tidskrift expedition	FALSE	   1
 Verlag Friedrich Andreas Perthes A.-G	FALSE	   1
 Undervisningsmaterialie centralen	FALSE	   1
 Porin maaseurakunnan kunnallislautakunta	NA	   1
 Nepo,  (1862-1943)	 TRUE	   1
+Engelberg, Kaarlo	 TRUE	   1
 Haapajärven säästöpankki	FALSE	   1
 Vaasan tehdas- ja käsityöyhdistys	FALSE	   1
 Strix & Co Förlag	NA	   1
@@ -6820,9 +7293,9 @@ Streng vertraulich	NA	   1
 Kajaanin sanomalehti- ja Kirjapaino	FALSE	   1
 Suomalainen, 	 TRUE	   1
 Kuopion läänin itäinen vaalipiiri	NA	   1
-Niskanen, Onni	 TRUE	   1
 Nilsiän kunta	NA	   1
 Maatalouskoulujen opettajayhdistyksen Etelä-Suomen piiri	FALSE	   1
+Burjam, F	 TRUE	   1
 Nenye, Eemi	 TRUE	   1
 Nauru-lippaan toimitus	NA	   1
 Etelä-Saimaan raittiuspiiritoimikunta	FALSE	   1
@@ -6830,6 +7303,7 @@ Määttälä, E	 TRUE	   1
 Mäkinen, Heikki	 TRUE	   1
 Oma voima	FALSE	   1
 Wihtori Kosonen	FALSE	   1
+Brotherus, Sven	 TRUE	   1
 Mynämäen kunta	NA	   1
 Djurskyddslitteratur i Helsingfors	FALSE	   1
 Mustonen, Iida	 TRUE	   1
@@ -6892,7 +7366,6 @@ Leppälä, Juhani (1880-NA)	 TRUE	   1
 Posti- ja lennätinlaitoksen ylihallitus	NA	   1
 Osuuskauppa Visa	FALSE	   1
 Lemin julkaisutoimikunta	NA	   1
-Leiviskä, Iivari	 TRUE	   1
 Voim. ja urheiluseura 'Jyry	FALSE	   1
 Tornion raittiuspiiri	FALSE	   1
 Suomen matkailuyhdistys	NA	   1
@@ -7029,7 +7502,6 @@ Lappeenrannan kaupunki	FALSE	   1
 Länsi-pohjan osuuskauppa	FALSE	   1
 Järvelä, G	 TRUE	   1
 Maanviljelysharjoitteluvaliokunta	NA	   1
-Tudeer, L O Th	 TRUE	   1
 Vihdin sos. dem. kunnallistoimikunta	FALSE	   1
 V. Kosonen ja K:ni	FALSE	   1
 Finnish Daily Publishing Company	FALSE	   1
@@ -7069,7 +7541,6 @@ Honkala, K F	 TRUE	   1
 Lääkintölaitos	FALSE	   1
 Osuuskauppa Mäki-Matti	FALSE	   1
 Systema	NA	   1
-Hjelt, Edv (1855-1921)	 TRUE	   1
 Someron osuusmeijeri	FALSE	   1
 Tattari, Juho	 TRUE	   1
 Suomen sos.-dem. nuorisoliiton toimikunnan julkaisu	NA	   1
@@ -7080,6 +7551,7 @@ Pohjoismaisen yhdistyksen tieteellisen eläinrääkkäyksen vastustamiseksi jäs
 Vaasan sos.-dem. nuorisoliitto	NA	   1
 Tarkkanen, Antti (1838-1912)	 TRUE	   1
 Kotimaa	FALSE	   1
+Hellman, Frithiof	 TRUE	   1
 Piiritoimikunta	NA	   1
 Uudenmaan yhdistyneiden suomalaisten puolueiden vaalitoimisto	NA	   1
 Liittotoimikunta	NA	   1
@@ -7230,7 +7702,6 @@ Palovakuutus Pohjola	FALSE	   1
 Helsingin Suomalainen kirjakauppa, levittäjä	FALSE	   1
 Heiskanen, Aatu	 TRUE	   1
 Suomalainen kalustokauppa P. Sidorow	NA	   1
-Charpentier, Axel (1865-1949)	 TRUE	   1
 Naisten ääni	FALSE	   1
 Castrén, Jalmar (1873-1946)	 TRUE	   1
 Tampereen kirjaltajayhdistys	FALSE	   1
@@ -7305,7 +7776,7 @@ Sanomalehtiosuuskunta Ilkka	FALSE	   1
 K.A. Waaranen	FALSE	   1
 Päivälehden K. Y	NA	   1
 Alexejeff, Th	 TRUE	   1
-Maamiesten kauppa	NA	   1
+Maamiesten kauppa 	NA	   1
 Eduskuntaryhmä	NA	   1
 Jalmar Lax	FALSE	   1
 Maakauppiaitten osuus	NA	   1
@@ -7332,8 +7803,6 @@ S. P. Y:n Helsingin osaston julkaisema	FALSE	   1
 Palovakuutus	FALSE	   1
 Oulun kaupungin ja maalaiskunnan säästöpankki Sampo	FALSE	   1
 Suomen Kuljetustyöntekijäin Liiton Helsingin Liikeapulaisosasto N:o 19	NA	   1
-Leidenius, Laimi	 TRUE	   1
-Lehtonen, U L (1870-1927)	 TRUE	   1
 Europaeus, Aarne	 TRUE	   1
 Lehtonen, K V	 TRUE	   1
 Lehtonen, Herman	 TRUE	   1
@@ -7363,7 +7832,7 @@ Kotkan työväenasuntovaliokunta	NA	   1
 Kotkan liikeapulaisyhditys	NA	   1
 Lauri Mäkinen	NA	   1
 Satakuntalaisen Osakunnan kotiseutututkimuskomitea	NA	   1
-Elektrometallurgiska	NA	   1
+Elektrometallurgiska 	NA	   1
 Ekström, N	 TRUE	   1
 Suomen sukeltajain liitto	FALSE	   1
 Laine, Eevert (1878-1960)	 TRUE	   1
@@ -7386,7 +7855,7 @@ Valkeakosken osuusmeijeri	FALSE	   1
 Koskela, J	 TRUE	   1
 A.E. Roni	NA	   1
 Kurikan kunta	NA	   1
-Hasse W. Tullberg	NA	   1
+ Hasse W. Tullberg	NA	   1
 Työväen sanomal	NA	   1
 Konepajojen työväenyhdistys	NA	   1
 Danielson-kalmari, J R	 TRUE	   1
@@ -7490,6 +7959,7 @@ Suomen sähkösanomatoimiston ilmoitusosasto	NA	   1
 Ore	NA	   1
 Turku	NA	   1
 Länsi-piirin piirikomitea	NA	   1
+Voss-schrader, A	 TRUE	   1
 Deutschlands Grossloge II	FALSE	   1
 Luth.evankeliumiyhdistys	NA	   1
 Sarlin, K K	 TRUE	   1
@@ -7503,7 +7973,6 @@ Kormano, A	 TRUE	   1
 Suomen evank. lähetysyhdistys	NA	   1
 Pohjola sanoman Kirjapaino	FALSE	   1
 Karolina Utriainen	FALSE	   1
-Forsman, Kaarle Valdemar	 TRUE	   1
 KFUK	NA	   1
 H. Haatanen	NA	   1
 Joensuun kaupungin rautatietoimikunta	FALSE	   1
@@ -7523,7 +7992,7 @@ Stoll & Bader	FALSE	   1
 Académie des Sciences de St. Pétersbourg	FALSE	   1
 Työväen-Opisto	NA	   1
 Western Workmens Publishing	FALSE	   1
-Fritzes hofbokhandel	NA	   1
+Fritzes hofbokhandel 	NA	   1
 Librairie de A. Courcier	FALSE	   1
 Kotikirjaston Kirjapaino	FALSE	   1
 A. Svedberg	NA	   1
@@ -7776,7 +8245,7 @@ Arbetare- & nykterhetsorgan för Södra Finland	NA	   1
 Sven Rockberg	NA	   1
 G. Lönnqvist	NA	   1
 Leonard Lund	NA	   1
-Kauppakirjasto	NA	   1
+ Kauppakirjasto	NA	   1
 Suomen esperantoliitto	NA	   1
 Farmaceutiska förening i Finland	NA	   1
 Anton Lindberg	NA	   1
@@ -7935,7 +8404,6 @@ Tidemansson, Torbjörn	NA	   1
 Meissner, Wolfgangs Erben	FALSE	   1
 Sachs, Moritz	FALSE	   1
 Daniel Medelplan	NA	   1
-Ob raram materiam et defectum exemplarium  Christoph. Enoch Buchta	FALSE	   1
 Balhorn, Johann II	FALSE	   1
 Caillo de Varennes, Jeanne	FALSE	   1
 Stuchs, Lorenz	NA	   1
@@ -8038,7 +8506,6 @@ Jacob Johann Köhlers Witwe	NA	   1
 Georg Wilhelm Londicer och Björckegrens änka	NA	   1
 Berling, Carl Gustaf	FALSE	   1
 Gollner, Johann	FALSE	   1
-Joh. Christoph. Frenckell, regis Acad. typogr	FALSE	   1
 Svenska Patriotiska sällskap	FALSE	   1
 Handelssocieteten i Lovisa	FALSE	   1
 Tryckt hos kungliga Acad. boktryckaren Joh. Christopher Frenckell	NA	   1
