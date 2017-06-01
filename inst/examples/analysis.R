@@ -3,7 +3,7 @@ source("analysis.init.R")
 source("analysis.run.R")
 
 # Combine Fennica + Kungliga and mark duplicates
-source("analysis.combined.R") # SLOW, only run once
+source("analysis.combined.R")
 
 # Duplicate analyses / HR
 # may have to be updated after the latest code changes
@@ -24,10 +24,13 @@ library(rmarkdown)
 knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
 render("20170201-manuscript.Rmd")
 
+
 #RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
 #RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
 #RM rmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
+#knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
+rmarkdown::render("201705-Gaudeamus.Rmd") 
 
 #rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 

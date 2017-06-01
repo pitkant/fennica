@@ -1,7 +1,7 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2017-03-21"
+date: "2017-06-01"
 output: markdown_document
 ---
 
@@ -9,15 +9,15 @@ output: markdown_document
 
 
 ```
-## Error in eval(expr, envir, enclos): object 'family_name' not found
+## Error in filter_impl(.data, dots): object 'family_name' not found
 ```
 
 ```
-## Error in eval(expr, envir, enclos): unknown variable to group by : family_name
+## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : family_name
 ```
 
 ```
-## Error in eval(expr, envir, enclos): object 'df2' not found
+## Error in eval(lhs, parent, parent): object 'df2' not found
 ```
 
 ```
