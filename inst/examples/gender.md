@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-06-01"
+date: "2017-06-30"
 output: markdown_document
 ---
 

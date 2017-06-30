@@ -353,11 +353,11 @@ Peter Paul	16
 Bengt	15
 Eirik	15
 Gustaf Von	15
-Jacobus Jacobi	15
-Johannes Abrahami	15
-Johann Wolfgang Von	15
-Joseph	15
 J Oskar I	15
+Jacobus Jacobi	15
+Johann Wolfgang Von	15
+Johannes Abrahami	15
+Joseph	15
 Laurentius Johannes	15
 Marcus Tullius	15
 Pierre	15
@@ -420,9 +420,9 @@ Georges	12
 Iivari	12
 Israel Johannes	12
 Janne	12
-Johannes Henrici	12
 Johan Rudolf	12
 Johan Viktor	12
+Johannes Henrici	12
 Karl August	12
 Mattias	12
 Stefan	12
@@ -472,9 +472,9 @@ Georg August	10
 George Fredrik	10
 Henric Jacob	10
 Isaacus Petri	10
-Johannes Petri	10
-Johann Jakob	10
 Johan Petter	10
+Johann Jakob	10
+Johannes Petri	10
 Karl Fredrik	10
 Kasperi	10
 Magnus Jacob	10
@@ -511,9 +511,9 @@ Holger	9
 Isak Johan	9
 Jacobus Henrici	9
 James Fenimore	9
+Johan Samuel	9
 Johannes Erlandi	9
 Johannes Johanneksenpoika	9
-Johan Samuel	9
 Kaarlo Aukusti	9
 Olof Abrahamsson	9
 Olof Olofsson	9
@@ -522,11 +522,11 @@ Simo	9
 Viktor Magnus Von	9
 Walter Von	9
 Zacharias Joachim	9
+A Th	8
 Aadolf	8
 Aaro	8
 Alfons	8
 Are	8
-A Th	8
 Berndt Adolf	8
 Carolus Evert	8
 Christian August	8
@@ -593,23 +593,23 @@ Jacobus Andreae	7
 Jan Amos	7
 Johan Christoffer	7
 Johan Hansson	7
-Johannes Adamus	7
-Johannes Laurentii	7
+Johan Svensson	7
 Johann Georg	7
 Johann Gottfried Carl Christian	7
 Johann Heinrich	7
-Johan Svensson	7
+Johannes Adamus	7
+Johannes Laurentii	7
 John R	7
 Jonas Andreae	7
 Jukka	7
+K Aug	7
 Kaapo	7
 Kaarlo Juho	7
 Karl E	7
 Kasimir Agathon	7
-K Aug	7
 Kristian Gottlieb	7
-Lafcadio	7
 L O Th	7
+Lafcadio	7
 Nathanael	7
 Nicholas	7
 Nicolas	7
@@ -635,8 +635,8 @@ Alku	6
 Andreas Johannis	6
 Arnold	6
 August Ferdinand	6
-Augustin Eugène	6
 August Von	6
+Augustin Eugène	6
 Bengt Carl	6
 Carl Magnus	6
 Carolus Fridericus	6
@@ -671,9 +671,9 @@ Johan August	6
 Johan Georg	6
 Johan Mattsson	6
 Johan Michael	6
+Johann Gerhard	6
 Johannes Gabriel	6
 Johannes Magnus	6
-Johann Gerhard	6
 John Stuart	6
 Justus	6
 Kaarlo Juhana	6
@@ -754,10 +754,10 @@ Joachim	5
 Johan Adrian	5
 Johan Eriksson	5
 Johan Kristian	5
-Johannes Caroli	5
-Johannes Gustavus	5
 Johann Friedrich	5
 Johann Peter Ludwig	5
+Johannes Caroli	5
+Johannes Gustavus	5
 Jon	5
 Jonas Albert	5
 Jöran Wilhelm	5
@@ -799,8 +799,8 @@ Vasili	5
 Verner Von	5
 Viljo J	5
 Volmari	5
-Waldemar Hermann	5
 W Van Der	5
+Waldemar Hermann	5
 Yrjö Esaias	5
 Zacharias Gabrielis	5
 Aarno	4
@@ -835,12 +835,12 @@ Ernst Aug	4
 Ernst August	4
 Evg	4
 Filaret	4
+Fr Vilho	4
 Francesco	4
 Frans Albert	4
 Frans Gideon	4
 Fredrik Ignatius	4
 Fridericus Samuelis	4
-Fr Vilho	4
 Gaius	4
 Georgius Nicolai	4
 Guillaume	4
@@ -865,6 +865,7 @@ Johan David	4
 Johan Engelbert	4
 Johan Gustaf	4
 Johann August	4
+Johann Jacob	4
 Johannes Andreae	4
 Johannes Arvidi	4
 Johannes Nestor	4
@@ -872,7 +873,6 @@ Johannes Nicolai	4
 Johannes Olai	4
 Johannes Simonis	4
 Johannes Svenonis	4
-Johann Jacob	4
 Josua	4
 Juhana	4
 Julius Efraim	4
@@ -930,9 +930,9 @@ Amos R	3
 Anders Kreunpoika	3
 Anders Victor	3
 Anders Wilhelm	3
+Andr Sch	3
 Andreas Erici	3
 Andreas Petri	3
-Andr Sch	3
 Anthony	3
 Antti Fredrik	3
 Arthur M	3
@@ -944,8 +944,8 @@ Carl Adolf Af	3
 Carl Evert	3
 Carl Gustaf Von	3
 Carl Michael	3
-Carlo	3
 Carl Petter	3
+Carlo	3
 Carolus Birgerus	3
 Carolus Henricus	3
 Carolus Johannis	3
@@ -976,8 +976,8 @@ Erland	3
 Ernesti	3
 Ernst Edv	3
 Esbjörn Christian	3
-Fabian Casimir	3
 F Max	3
+Fabian Casimir	3
 Frans Leonard	3
 Frans Ludvig	3
 Fredrich Larsson	3
@@ -1000,6 +1000,7 @@ Guido	3
 Gustaf Adolph	3
 Gustaf Johannes	3
 Gustav Adolph	3
+H Theodor	3
 Hannu	3
 Hans Von	3
 Heino	3
@@ -1017,7 +1018,6 @@ Herman Emanuel	3
 Herman Fredrik	3
 Herman Hermansson	3
 Hjalmar Von	3
-H Theodor	3
 Hugo Richard	3
 Ilo	3
 Isaacus Jacobi	3
@@ -1031,6 +1031,7 @@ Jacobus Nicolai	3
 Jacques	3
 Jean Baptiste Benoit	3
 Joachim Heinrich	3
+Joh Georg	3
 Johan Christian	3
 Johan Eberhard Von	3
 Johan Erik	3
@@ -1038,10 +1039,9 @@ Johan Fredrik Af	3
 Johan Friedrich	3
 Johan Jacob	3
 Johan Johansson	3
-Johannes Bartholdi	3
 Johan Petersson	3
 Johan Walter	3
-Joh Georg	3
+Johannes Bartholdi	3
 John Angell	3
 John B	3
 John Strange	3
@@ -1050,38 +1050,38 @@ Jonathan	3
 Juhana Fredrik	3
 Juhana Henrik	3
 Juhana Jaakko	3
+Jul Wilh	3
 Julius Ernst Wilhelm	3
 Julius Immanuel	3
-Jul Wilh	3
 Juudas	3
+K Axel	3
 Kaarle Alfred	3
 Kaarle Valdemar	3
 Karl Heinrich Von	3
 Kasper	3
 Kauko	3
-K Axel	3
 Kristian Mandrup	3
 Lars Christersson	3
 Laurentius Jonae	3
 Leon	3
 Leon H	3
 Louis-antoine	3
+M Henr	3
 Marcel	3
 Marcus Aurelius	3
 Marcus Porcius	3
 Martinus Erici	3
 Matti E	3
 Max Alfrid Wilhelm	3
-M Henr	3
 Mikko V	3
 Murenius'	3
+N Karl	3
 Natanael	3
 Nicolaus Nicolai	3
 Niels	3
 Nikolaus Zu	3
 Nils Abraham	3
 Nils Nilsson	3
-N Karl	3
 Ola	3
 Oscar Leonard	3
 Oskar August	3
@@ -1092,9 +1092,9 @@ Otto P	3
 Otto Von	3
 Otto Wille	3
 Palle	3
+Paul Von	3
 Pauli	3
 Paulus	3
-Paul Von	3
 Per åke	3
 Peter Lorentz	3
 Peter Von	3
@@ -1124,8 +1124,8 @@ Vsevolod	3
 Werner Olympius	3
 Wilhelm Erik	3
 Wilhelm Fredrik	3
-Wolfgang	3
 Wolf Von Der	3
+Wolfgang	3
 Xavier	3
 Zakarias	3
 Aarne I	2
@@ -1164,9 +1164,9 @@ Arvid Mortimer	2
 Atri S	2
 Aug A	2
 Aug F	2
+Aug Von	2
 August Edvard	2
 August Gottlieb	2
-Aug Von	2
 Austin	2
 Axel Daniel	2
 Axel Germund	2
@@ -1223,6 +1223,8 @@ David Johan	2
 Dietericus Johannes	2
 Donald Mackenzie	2
 E Arnold	2
+E Phillips	2
+E Walter A	2
 Edgar Allan	2
 Eduard Von	2
 Edv A	2
@@ -1238,15 +1240,14 @@ Elias Petri	2
 Emil Edv	2
 Engelbrekt	2
 Enrico	2
-E Phillips	2
 Er Aug	2
-Erich Johansson	2
 Eric Johan	2
 Eric O W	2
-Ericus Henrici	2
-Ericus Jacobi	2
 Eric V	2
 Eric Von	2
+Erich Johansson	2
+Ericus Henrici	2
+Ericus Jacobi	2
 Erik Gustaf	2
 Erik Julius	2
 Erik Oskar	2
@@ -1260,12 +1261,11 @@ Evald	2
 Evert Frithiof	2
 Evert Von	2
 Evert Woldemar	2
-E Walter A	2
 Ewert	2
 Ewgenij	2
+F Herbert	2
 Fedor	2
 Feliks	2
-F Herbert	2
 Folke	2
 Francis	2
 Francis E	2
@@ -1280,9 +1280,9 @@ Fredric	2
 Fredric Joachim	2
 Fredrik Georg	2
 Fredrik Ludvig	2
+Fried Wilh Aug	2
 Friedrich Anton Heller Von	2
 Friedrich Christoph	2
-Fried Wilh Aug	2
 Frode	2
 Gabriel Jönsson	2
 Georg F	2
@@ -1300,9 +1300,9 @@ Gustaf A	2
 Gustaf Arthur	2
 Gustaf Calixtus	2
 Gustaf Jacobsson	2
+Gustav Zu	2
 Gustavus Henricus	2
 Gustavus Johannes	2
-Gustav Zu	2
 Hampus	2
 Hans Georg Adolph	2
 Hans Lassen	2
@@ -1325,6 +1325,9 @@ Ilmari R	2
 Isac	2
 Israel Nicolai	2
 Ivarus Udalricus	2
+J Alfred	2
+J Ivar	2
+J Wilh	2
 Jacob Axelsson	2
 Jacob Magnus	2
 Jacobus Fredricus	2
@@ -1332,13 +1335,12 @@ Jacobus Gabrielis	2
 Jacobus Matthiae	2
 Jacobus Michaelis	2
 Jacobus Zachariae	2
-J Alfred	2
 Jali	2
 Jalmar	2
 James Oliver	2
-J Ivar	2
 Joachimus	2
 Joakim Jostsson	2
+Joh:s	2
 Johan A	2
 Johan Adam	2
 Johan Alarik	2
@@ -1352,6 +1354,10 @@ Johan Gustafsson	2
 Johan Isak	2
 Johan Ismael	2
 Johan Martin	2
+Johan Philip	2
+Johan Theophilus	2
+Johann Matthias Christoph	2
+Johann Peter	2
 Johannes Alexander	2
 Johannes Benedicti	2
 Johannes Benedictus	2
@@ -1363,14 +1369,9 @@ Johannes Jacobus	2
 Johannes Matthiae	2
 Johannes Sunonis	2
 Johannes V	2
-Johann Matthias Christoph	2
-Johann Peter	2
-Johan Philip	2
-Johan Theophilus	2
 John D	2
 John S C	2
 John Vine	2
-Joh:s	2
 Jonas Laurentii	2
 Jonas Petri	2
 Joonas	2
@@ -1381,7 +1382,6 @@ Juhani Nikolai	2
 Juho Eemil	2
 Juho Emil	2
 Juho Werner	2
-J Wilh	2
 Kaarle Emil	2
 Kaarlo Fredrik	2
 Kaarlo Hemmo	2
@@ -1413,6 +1413,7 @@ Lennart Johan	2
 Leopold Von	2
 Lorentz Wilhelm	2
 Lucas Lucii	2
+M Wilh	2
 Magnus Josephi	2
 Magnus Karl	2
 Magnus Laurentii	2
@@ -1430,7 +1431,6 @@ Mihkel	2
 Mikael Von	2
 Moritz Von	2
 Morris	2
-M Wilh	2
 Nathan	2
 Nestori	2
 Niels Lauridsen	2
@@ -1448,11 +1448,11 @@ Oskar Immanuel	2
 Ossip	2
 Otto Carl Von	2
 Otto Ferdinand	2
-Otto-i	2
 Otto Jonatan	2
 Otto M	2
 Otto Th	2
 Otto Ulricus	2
+Otto-i	2
 Paul Oskar	2
 Paul Richard	2
 Paulus Petri	2
@@ -1467,6 +1467,7 @@ Petrus Jacobi	2
 Philipp Jakob	2
 Phillips	2
 Quintus Rufus	2
+R Van Der	2
 Rabindranath	2
 Rafael Ferdinand	2
 Reidar Th	2
@@ -1474,7 +1475,6 @@ Richard Harding	2
 Richard Henry	2
 Rietrik	2
 Robert Kemp	2
-R Van Der	2
 Sakari Adolf	2
 Samuel Eriksson	2
 Samuel Friedrich Nathanael	2
@@ -1507,6 +1507,7 @@ Truls Johan	2
 Ulrik	2
 Uno Henrik Berndt	2
 Urho	2
+V Pasi	2
 Valter A	2
 Valter B	2
 Valter W	2
@@ -1517,18 +1518,18 @@ Viki	2
 Viking	2
 Vilkku	2
 Voldemar	2
-V Pasi	2
 Walter A	2
 Walter Thomas	2
 Weikko Otto	2
 Widar	2
 Wilfred	2
 Wilhelm Reinhold	2
-Wilhelmus Wilhelmi	2
 Wilhelm Von	2
+Wilhelmus Wilhelmi	2
 William Alfred	2
 William Barnes	2
 William T	2
+A Henry Savage	1
 Aage	1
 Aapel	1
 Aarne R	1
@@ -1538,12 +1539,12 @@ Aaron Nicolai	1
 Abner E	1
 Abraham Edvard	1
 Abraham J	1
+Abraham Wilhelm	1
 Abrahamus Abrahami	1
 Abrahamus Fredricus	1
 Abrahamus Fridericus	1
 Abrahamus Henrici	1
 Abrahamus Wilhelmus	1
-Abraham Wilhelm	1
 Abram	1
 Adam Adamsson	1
 Adam Gustaf	1
@@ -1560,22 +1561,21 @@ Adolph Johan	1
 Adolphus Fridericus	1
 Adolphus Magnus	1
 Aeschillus Svenonis	1
-A Henry Savage	1
 Aimo Lauri Vilho	1
 Aksel G S	1
 Akseli Edv	1
 Alain René	1
+Alb Lindsay Von	1
 Albin Fredrik	1
 Albion W	1
-Alb Lindsay Von	1
 Aleksei Antipovitsh	1
 Aleksi A	1
+Alex Fr	1
 Alexander Ferdinand	1
 Alexander Fridericus	1
 Alexander Maccallum	1
 Alexander Mårtensson	1
 Alexander Von	1
-Alex Fr	1
 Alfred Elis	1
 Alfred Julius	1
 Alfred Michael Von	1
@@ -1665,9 +1665,9 @@ Axel Abrahamus	1
 Axel Af	1
 Axel August	1
 Axel B	1
-Axelius Josias	1
 Axel V	1
 Axel W	1
+Axelius Josias	1
 Bengt Johansson	1
 Bengt Oskar	1
 Benito	1
@@ -1690,6 +1690,8 @@ Bracebridge	1
 Bror	1
 Bror Justus Achilles	1
 Buster	1
+C August	1
+C Valerius	1
 Calr Georg	1
 Carit	1
 Carl Abraham	1
@@ -1698,8 +1700,8 @@ Carl Andreas	1
 Carl Axel Johan	1
 Carl Carlsson Von	1
 Carl Christersson	1
-Carl Christopher	1
 Carl Christoph Julius	1
+Carl Christopher	1
 Carl D	1
 Carl Du	1
 Carl Edvard	1
@@ -1744,7 +1746,6 @@ Carolus Robertus	1
 Carolus Samuel	1
 Casper	1
 Catulle	1
-C August	1
 Charles B	1
 Charles Boileau	1
 Charles E	1
@@ -1760,9 +1761,9 @@ Christian Ernst	1
 Christian Gotthilf	1
 Christian L	1
 Christian Ludvig	1
+Christian Von	1
 Christianus Ehrenfr	1
 Christianus Rudolphus	1
-Christian Von	1
 Christopher Newman	1
 Claes Fredric	1
 Claes Joh	1
@@ -1774,7 +1775,6 @@ Claudius	1
 Claudius Erici	1
 Claudius Johannis	1
 Claudius Törneri	1
-C Valerius	1
 Cyril G	1
 Daniel Casper	1
 Daniel Christopher	1
@@ -1798,8 +1798,11 @@ Dmitri	1
 Dodo	1
 Don	1
 E Alexander	1
-Earl	1
 E Aug	1
+E Gunnar	1
+E Headon	1
+E Th	1
+Earl	1
 Ebbe	1
 Edmund	1
 Edvard Engelbert	1
@@ -1815,22 +1818,20 @@ Eemili E	1
 Eero Juho	1
 Eero K	1
 Efraim	1
-E Gunnar	1
-E Headon	1
 Einari	1
 Eino Iivari	1
 Eli	1
+Eli F	1
 Elia	1
 Elias Andreae	1
 Elias Erici	1
 Elias Jacobsson	1
 Elie	1
 Eliel Jonathan	1
-Eli F	1
+Em Mart Luth	1
 Emil Af	1
 Emil August	1
 Emil Wilh	1
-Em Mart Luth	1
 Enoch Konrad	1
 Ensio	1
 Ensiö Matthias	1
@@ -1838,15 +1839,15 @@ Erasmus	1
 Eric Adolf	1
 Eric Af	1
 Eric Andersson	1
-Erich Erichsson	1
 Eric Ludolph	1
 Eric O	1
+Eric Wilhelm	1
+Erich Erichsson	1
 Ericus Andreae	1
 Ericus Claudii	1
 Ericus Jacobus	1
 Ericus Nicolai	1
 Ericus Thomae	1
-Eric Wilhelm	1
 Erik Eerikki	1
 Erik Frederik Barth	1
 Erik Johansson	1
@@ -1864,13 +1865,12 @@ Ernst Arthur	1
 Ernst Arvid	1
 Ernst E	1
 Ernst Samuel	1
-Ernstv	1
 Ernst Wilhelm	1
 Ernst William	1
+Ernstv	1
 Esa Eetu	1
 Esaias Esaiae	1
 Eskil	1
-E Th	1
 Etienne	1
 Eugen Von	1
 Evert Carlsson	1
@@ -1883,8 +1883,8 @@ Felix M	1
 Ferdinand August	1
 Ferencz	1
 Fjalar	1
-Franciscus Johannes	1
 Francis Henry	1
+Franciscus Johannes	1
 Francois	1
 Francois Louis	1
 François Pierre Guillaume	1
@@ -1903,13 +1903,13 @@ Franz Joachim Von	1
 Franz Oskar	1
 Fred	1
 Fred D	1
+Fred H G	1
+Fred Joh	1
 Freder	1
 Frederick A	1
 Frederick Winslow	1
 Fredericus Ferdinand	1
 Frederik Van	1
-Fred H G	1
-Fred Joh	1
 Fredricus	1
 Fredrik Adolf	1
 Fredrik Hjalmar Jalmari	1
@@ -1919,14 +1919,15 @@ Fridericus Reginaldus	1
 Fridericus Wilhelmus	1
 Fridolf A	1
 Fried	1
-Friedebert	1
 Fried Joh	1
+Friedebert	1
 Friedrich Adolph	1
-Friedrich-carl	1
 Friedrich Eberhard Von	1
+Friedrich-carl	1
 Frith	1
 Frithiof	1
 Fritjof	1
+G Th	1
 Gabriel Bernhard	1
 Gabriel Didriksson	1
 Gabriel Henrici	1
@@ -1943,26 +1944,26 @@ Georg Carl Von	1
 Georg Caspar	1
 Georg Christian	1
 Georg Conrad	1
+Georg Ernst	1
+Georg Frans	1
+Georg Freder	1
+Georg Fredrik	1
+Georg Hieronymus Konrad	1
+Georg Richard	1
+Georg W A	1
+Georg Wilhelm	1
 George Cram	1
 George Francklin	1
 George G	1
 George H	1
 George Horace	1
 George R	1
-Georg Ernst	1
 George S	1
-Georges-louis	1
 George W	1
-Georg Frans	1
-Georg Freder	1
-Georg Fredrik	1
-Georg Hieronymus Konrad	1
+Georges-louis	1
 Georgi	1
 Georgios	1
 Georgius Andreae	1
-Georg Richard	1
-Georg W A	1
-Georg Wilhelm	1
 Gerhard Anton Von	1
 Germundus Fridericus	1
 Göran Haraldsson	1
@@ -1972,10 +1973,10 @@ Graham	1
 Grant	1
 Gregori Adolfson	1
 Gregorius A	1
-G Th	1
 Gudmund Eriksson	1
 Gunnar A	1
 Günther Georg Von	1
+Gust Magnus	1
 Gustaf Arvid Selim	1
 Gustaf Danielsson	1
 Gustaf Emil Af	1
@@ -1995,7 +1996,7 @@ Gustavus Aron Andreae	1
 Gustavus Christophori	1
 Gustavus Daniel	1
 Gustavus Magnus	1
-Gust Magnus	1
+H G Th	1
 Haakon	1
 Hampus Adolf Von	1
 Hannu Viktor	1
@@ -2005,8 +2006,8 @@ Hans Henrik Von	1
 Hanssu	1
 Harald Eriksson	1
 Harald Naphthali	1
-Haraldus Johannis	1
 Harald Whitmore	1
+Haraldus Johannis	1
 Harold Whitmore	1
 Harras Henrik	1
 Harry H	1
@@ -2020,8 +2021,9 @@ Hellmuth	1
 Hendrik	1
 Hendrikki	1
 Henningus Paulus	1
-Henrick	1
+Henr R	1
 Henric Larsson	1
+Henrick	1
 Henricus Adrian	1
 Henricus Claudii	1
 Henricus Esaiae	1
@@ -2035,9 +2037,8 @@ Henrik Claesson	1
 Henrik Eriksson	1
 Henrik Johannes	1
 Henrik Johansson	1
-Henriko	1
 Henrik Tomas	1
-Henr R	1
+Henriko	1
 Henry Arthur	1
 Henry Wadsworth	1
 Herbert N	1
@@ -2045,11 +2046,10 @@ Herman H	1
 Herman Harris	1
 Herman Henric	1
 Herman Johansson	1
-Hermannus Caroli	1
-Hermann Wilhelm	1
 Herman Theodor Von	1
 Herman Von	1
-H G Th	1
+Hermann Wilhelm	1
+Hermannus Caroli	1
 Hilding	1
 Hippolyte	1
 Hjalmar Johan	1
@@ -2077,6 +2077,11 @@ Israel Gustaf	1
 Israel Matthiae	1
 Isted	1
 Ivarus Ivari	1
+J Edv	1
+J Logan	1
+J M Van Stipriaan	1
+J Norman	1
+J Th	1
 Jacob B	1
 Jacob F	1
 Jacob Henric Af	1
@@ -2108,7 +2113,6 @@ Jean Baptiste Bourguignon	1
 Jean François Alfred	1
 Jean Nicolas	1
 Jean Paul	1
-J Edv	1
 Jehki J	1
 Jens Kragh	1
 Jeppe	1
@@ -2117,9 +2121,6 @@ Jerker	1
 Jesper	1
 Jevdokim	1
 Jevgeni	1
-J Logan	1
-J M Van Stipriaan	1
-J Norman	1
 Joachim Adolf	1
 Joachim Joachimsson Von	1
 Joachimus Andreas	1
@@ -2127,6 +2128,10 @@ Joachimus Johannis	1
 Joachimus Von	1
 Joannes Henricus	1
 Joh Adam	1
+Joh Christian Aug	1
+Joh Emil	1
+Joh Heinrich	1
+Joh Henr	1
 Johan Albrekt	1
 Johan Alexander	1
 Johan Andreas	1
@@ -2154,10 +2159,24 @@ Johan L	1
 Johan Lorentz	1
 Johan Mag	1
 Johan Magnus	1
+Johan Nestor	1
+Johan Nilsson	1
+Johan Peter	1
+Johan Reinhold	1
+Johan Sigurd	1
+Johan Teodor	1
+Johan Theophil	1
+Johan Ulrik Sebastian	1
+Johan Von	1
+Johan Wilhelmsson	1
 Johann Carl	1
 Johann Christ	1
 Johann Christopher	1
 Johann Elias	1
+Johann Georg Von	1
+Johann Gottfried Von	1
+Johann Matthias	1
+Johann Zur	1
 Johannes Adolphus	1
 Johannes Andreas	1
 Johannes Bernhardi	1
@@ -2183,25 +2202,7 @@ Johannes Michaelis	1
 Johannes Nicolaus	1
 Johannes O	1
 Johannes Tobiae	1
-Johan Nestor	1
 Johannes Zacharias	1
-Johann Georg Von	1
-Johann Gottfried Von	1
-Johan Nilsson	1
-Johann Matthias	1
-Johann Zur	1
-Johan Peter	1
-Johan Reinhold	1
-Johan Sigurd	1
-Johan Teodor	1
-Johan Theophil	1
-Johan Ulrik Sebastian	1
-Johan Von	1
-Johan Wilhelmsson	1
-Joh Christian Aug	1
-Joh Emil	1
-Joh Heinrich	1
-Joh Henr	1
 John E	1
 John G	1
 John Gustaf	1
@@ -2226,7 +2227,6 @@ Joseph Medill	1
 Joseph Victor Von	1
 Joseph Von	1
 Jovard	1
-J Th	1
 Juan	1
 Juhana Augustinus	1
 Juhana Kustaa	1
@@ -2243,6 +2243,10 @@ Julius Gustaf	1
 Julius Johannes	1
 Julius N	1
 Justus Erici	1
+K Aug R	1
+K Edv	1
+K Eliel	1
+K Uno	1
 Kaarl	1
 Kaarle Abel	1
 Kaarle Reinhold	1
@@ -2262,7 +2266,6 @@ Karl A	1
 Karl Axel	1
 Karl Bernard Filonegros	1
 Karl Emil Fabian	1
-Karl-erik	1
 Karl Fridolf	1
 Karl Friedrich	1
 Karl Gabriel	1
@@ -2282,12 +2285,10 @@ Karl Sixtus	1
 Karl Theodor Von	1
 Karl V	1
 Karl W E	1
+Karl-erik	1
 Kasper Waldemar	1
 Kaudsites	1
-K Aug R	1
 Kauno Edvard	1
-K Edv	1
-K Eliel	1
 Kjeld Nicolai Gotthard	1
 Klarry	1
 Klas Kristian	1
@@ -2306,7 +2307,6 @@ Kristian Frederik Vilhelm	1
 Kristian Gustaf	1
 Kristofer Lorents Hornemann	1
 Kristoffer	1
-K Uno	1
 Kustaa Bernhard	1
 Lambert	1
 Lampertus	1
@@ -2325,11 +2325,11 @@ Laurentius Henrici	1
 Laurentius Laurentii	1
 Laurentius Matthiae	1
 Laurentius Nicolai	1
-Laurids	1
 Lauri E	1
 Lauri G G	1
 Lauri J	1
 Lauri Olli	1
+Laurids	1
 Lawrence	1
 Lennart T	1
 Leo M	1
@@ -2369,11 +2369,11 @@ Marius	1
 Mark Guy	1
 Mårten Gabriel Leijonsköld	1
 Mårten Knutsson	1
+Martin Von	1
 Martinus Andreae	1
 Martinus Henrici	1
 Martinus Laurentii	1
 Martinus Olai	1
-Martin Von	1
 Martti V	1
 Mathaeus	1
 Mathias Caroli	1
@@ -2405,17 +2405,17 @@ Morten Christian	1
 Mortimer	1
 Moses	1
 Mund	1
-Nathanael Von	1
 Nathan Benedicti	1
+Nathanael Von	1
 Nathaniel William	1
 Nestor Maximilian	1
 Nic	1
+Nicol Freder	1
 Nicolaus Christophori	1
 Nicolaus Henr	1
 Nicolaus Henrici	1
 Nicolaus Johannes	1
 Nicolaus Petrus	1
-Nicol Freder	1
 Niels Johannes	1
 Niilo Ferdinand	1
 Nikolai Von	1
@@ -2459,13 +2459,13 @@ Otto V	1
 Owen	1
 Paolo	1
 Paolo Emilio	1
-Paul-eric	1
 Paul G	1
 Paul J	1
 Paul Osvald	1
-Paulus Gustavus	1
 Paul Werner	1
 Paul Wilhelm Von	1
+Paul-eric	1
+Paulus Gustavus	1
 Pavali	1
 Pehr Eberhard	1
 Pehr Johan Harald Thorsten	1
@@ -2483,10 +2483,10 @@ Peter Håkanson	1
 Peter Johan	1
 Peter Nikolajevitsh	1
 Peter Outzen	1
-Petersen Georg	1
 Peter Sergejevitsch	1
 Peter Simonsson	1
 Peter Wilhelm	1
+Petersen Georg	1
 Petrus Andreas	1
 Petrus Ericus Andreae	1
 Petrus Josephi	1
@@ -2500,10 +2500,11 @@ Petter Otto	1
 Philipp Friedrich Wilhelm	1
 Phillips E	1
 Phineas Taylor	1
-Pierre-charles	1
 Pierre Charles	1
 Pierre Paul	1
+Pierre-charles	1
 Prosper-olivier	1
+R P Augustin	1
 Rabbe	1
 Raf	1
 Rainer	1
@@ -2517,9 +2518,9 @@ Reinhold Johan	1
 Reino	1
 Renne	1
 Richard August	1
+Richard Von	1
 Richardus Gjedde	1
 Richardus Richardi	1
-Richard Von	1
 Richert Gerhard Halfred Von	1
 Rickard Abr	1
 Robert Ames	1
@@ -2531,7 +2532,6 @@ Roland	1
 Roland E	1
 Rolf J	1
 Roopert	1
-R P Augustin	1
 Ruben	1
 Rudolf Hans	1
 Rudolf Von	1
@@ -2554,8 +2554,8 @@ Samuel Wilh	1
 Samuel Wilhelmus	1
 Sanfrid	1
 Sauli	1
-Sergej	1
 Serge Mikhailovitsh	1
+Sergej	1
 Severus	1
 Sigfrid Oskar Immanuel	1
 Sigfridus Svenonis	1
@@ -2577,8 +2577,8 @@ Sulpicius	1
 Svaami	1
 Svante Christersson	1
 Sven Christiernsson	1
-Sveno Olai	1
 Sven Petter	1
+Sveno Olai	1
 Sverker	1
 Sylvester Johannis	1
 Tahwo	1
@@ -2591,8 +2591,8 @@ Theobald	1
 Theodor Arnold Valentin	1
 Theodor Friedrich Max	1
 Theodor Magnus	1
-Theodorus	1
 Theodor Waldemar	1
+Theodorus	1
 Thomas Bailey	1
 Thomas Skat	1
 Thomas Timotheus	1
@@ -2602,10 +2602,10 @@ Thos	1
 Titus	1
 Tobias Tobiae	1
 Toimi Armas	1
+Tor Von	1
 Torb	1
 Tore	1
 Torkel	1
-Tor Von	1
 Traiano	1
 Tristan	1
 Tuomas Alexander	1
@@ -2636,40 +2636,40 @@ Villadtz	1
 Vincent	1
 Vittorio	1
 Volmar T	1
+W Clark	1
+W Elwin	1
+W H Van	1
+W Pasi	1
 Wäinö Vilhelm	1
 Walfrid	1
 Walter L	1
-W Clark	1
-W Elwin	1
 Wentzel Friedrich	1
 Werner Hans Frederik	1
-Werneri	1
 Werner Mikael	1
 Werner Th	1
 Werner Theodor Joseph	1
-W H Van	1
+Werneri	1
 Wihtori	1
 Wildrich	1
 Wilh Carol	1
 Wilhelm Adrian	1
 Wilhelm F	1
+Wilhelm Walter	1
 Wilhelmus	1
 Wilhelmus Hermanni	1
 Wilhelmus Joh	1
-Wilhelm Walter	1
+Will Levington	1
 William Clark	1
 William Ellery	1
 William J	1
 William Makepeace	1
 William Thurston	1
-Will Levington	1
 Wilson	1
 Winston S	1
 Wolfgang Amadeus	1
 Wolfgangus	1
 Wolmar Onni	1
 Wolter	1
-W Pasi	1
 Yann	1
 Yngve	1
 Yrjö Hesekiel	1

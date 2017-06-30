@@ -1,7 +1,7 @@
 ---
 title: "Julkaisutoiminta Helsingissä 1746-1917"
 author: "Niko Ilomäki"
-date: "2017-06-01"
+date: "2017-06-30"
 output: markdown_document
 ---
 
@@ -9,11 +9,11 @@ output: markdown_document
 
 
 ```
-## Error in filter_impl(.data, dots): object 'published_in' not found
+## Error in filter_impl(.data, quo): Evaluation error: object 'published_in' not found.
 ```
 
 ```
-## Error in resolve_vars(new_groups, tbl_vars(.data)): unknown variable to group by : published_in
+## Error in grouped_df_impl(data, unname(vars), drop): Column `published_in` is unknown
 ```
 
 ```
