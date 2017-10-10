@@ -1,6 +1,6 @@
 ---
 title: "Printing in a Periphery: a Quantitative Study of Finnish Knowledge Production, 1640-1828"
-author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
+author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
 date: "`r Sys.Date()`"
 output: 
   beamer_presentation:
