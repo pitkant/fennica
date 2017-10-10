@@ -24,8 +24,6 @@ library(rmarkdown)
 knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
 render("20170201-manuscript.Rmd")
 
-stop("OK")
-
 #RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
 #RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
 #RM rmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft

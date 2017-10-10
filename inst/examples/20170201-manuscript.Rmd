@@ -1,6 +1,6 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
-author: "Mikko Tolonen, Jani Marjanen, Hege Roivainen, Leo Lahti"
+author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
 date: "`r Sys.Date()`"
 output: 
   beamer_presentation:
@@ -72,7 +72,8 @@ df0 <- df.full %>% filter(publication_year >= min.year & publication_year <= max
 ```{r Fig1, message=FALSE, warning=FALSE, fig.width=10, fig.height=4, echo=FALSE}
 library(dplyr)
 library(ggplot2)
-theme_set(theme_bw(20))
+# theme_set(theme_bw(20))
+
 df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>%
               group_by(catalog, publication_decade) %>%
 	      summarise(n = length(unique(na.omit(publication_place))))
