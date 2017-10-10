@@ -211,37 +211,38 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] devtools_1.13.3       gisfin_0.9.27         R6_2.2.2             
-##  [4] rgdal_1.2-13          sp_1.2-5              ggmap_2.6.1          
-##  [7] rmarkdown_1.6.0.9001  stringr_1.2.0         sorvi_0.8.13         
-## [10] tibble_1.3.4          microbiome_0.99.87    phyloseq_1.21.0      
-## [13] bindrcpp_0.2          gridExtra_2.3         reshape2_1.4.2       
-## [16] magrittr_1.5          fennica_0.1.43        bibliographica_0.2.32
-## [19] dplyr_0.7.4           tidyr_0.7.1           ggplot2_2.2.1        
-## [22] knitr_1.17           
+##  [1] viridis_0.4.0         viridisLite_0.2.0     devtools_1.13.3      
+##  [4] stringr_1.2.0         gisfin_0.9.27         R6_2.2.2             
+##  [7] rgdal_1.2-13          sp_1.2-5              ggmap_2.6.1          
+## [10] ggthemes_3.4.0        rmarkdown_1.6.0.9001  sorvi_0.8.13         
+## [13] tibble_1.3.4          microbiome_0.99.87    phyloseq_1.21.0      
+## [16] bindrcpp_0.2          knitr_1.17            gridExtra_2.3        
+## [19] reshape2_1.4.2        magrittr_1.5          fennica_0.1.43       
+## [22] bibliographica_0.2.32 dplyr_0.7.4           tidyr_0.7.1          
+## [25] ggplot2_2.2.1        
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] nlme_3.1-131        RColorBrewer_1.1-2  gmodels_2.16.2     
-##  [4] rprojroot_1.2       tools_3.4.2         backports_1.1.1    
-##  [7] vegan_2.4-4         lazyeval_0.2.0      BiocGenerics_0.23.3
-## [10] mgcv_1.8-22         colorspace_1.3-2    permute_0.9-4      
-## [13] ade4_1.7-8          withr_2.0.0         tidyselect_0.2.0   
-## [16] compiler_3.4.2      Biobase_2.37.2      Cairo_1.5-9        
-## [19] expm_0.999-2        NLP_0.1-11          labeling_0.3       
-## [22] slam_0.1-40         scales_0.5.0        tm_0.7-1           
-## [25] digest_0.6.12       stringdist_0.9.4.6  XVector_0.17.1     
-## [28] jpeg_0.1-8          pkgconfig_2.0.1     htmltools_0.3.6    
-## [31] highr_0.6           maps_3.2.0          rlang_0.1.2        
-## [34] bindr_0.1           jsonlite_1.5        gtools_3.5.0       
-## [37] spdep_0.6-15        biomformat_1.5.0    geosphere_1.5-5    
-## [40] Matrix_1.2-11       Rcpp_0.12.13        munsell_0.4.3      
-## [43] S4Vectors_0.15.11   ape_4.1             proto_1.0.0        
-## [46] yaml_2.1.14         stringi_1.1.5       MASS_7.3-47        
-## [49] zlibbioc_1.23.0     rhdf5_2.21.6        plyr_1.8.4         
-## [52] grid_3.4.2          gdata_2.18.0        parallel_3.4.2     
-## [55] gender_0.5.1.9000   deldir_0.1-14       lattice_0.20-35    
-## [58] Biostrings_2.45.4   splines_3.4.2       multtest_2.33.0    
-## [61] mapproj_1.2-5       igraph_1.1.2        boot_1.3-20        
+##  [1] nlme_3.1-131        gmodels_2.16.2      rprojroot_1.2      
+##  [4] tools_3.4.2         backports_1.1.1     vegan_2.4-4        
+##  [7] lazyeval_0.2.0      BiocGenerics_0.23.3 mgcv_1.8-22        
+## [10] colorspace_1.3-2    permute_0.9-4       ade4_1.7-8         
+## [13] withr_2.0.0         tidyselect_0.2.0    compiler_3.4.2     
+## [16] Biobase_2.37.2      Cairo_1.5-9         expm_0.999-2       
+## [19] NLP_0.1-11          labeling_0.3        slam_0.1-40        
+## [22] scales_0.5.0        tm_0.7-1            digest_0.6.12      
+## [25] stringdist_0.9.4.6  XVector_0.17.1      jpeg_0.1-8         
+## [28] pkgconfig_2.0.1     htmltools_0.3.6     highr_0.6          
+## [31] maps_3.2.0          rlang_0.1.2         bindr_0.1          
+## [34] jsonlite_1.5        gtools_3.5.0        spdep_0.6-15       
+## [37] biomformat_1.5.0    geosphere_1.5-5     Matrix_1.2-11      
+## [40] Rcpp_0.12.13        munsell_0.4.3       S4Vectors_0.15.11  
+## [43] ape_4.1             proto_1.0.0         yaml_2.1.14        
+## [46] stringi_1.1.5       MASS_7.3-47         zlibbioc_1.23.0    
+## [49] rhdf5_2.21.6        plyr_1.8.4          grid_3.4.2         
+## [52] gdata_2.18.0        parallel_3.4.2      gender_0.5.1.9000  
+## [55] deldir_0.1-14       lattice_0.20-35     Biostrings_2.45.4  
+## [58] splines_3.4.2       multtest_2.33.0     mapproj_1.2-5      
+## [61] tcltk_3.4.2         igraph_1.1.2        boot_1.3-20        
 ## [64] rjson_0.2.15        codetools_0.2-15    stats4_3.4.2       
 ## [67] LearnBayes_2.15     XML_3.98-1.9        glue_1.1.1         
 ## [70] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4  
