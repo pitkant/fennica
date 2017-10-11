@@ -238,7 +238,7 @@ for (catal in unique(df$catalog)) {
        geom_point(aes(size = n)) +
        geom_smooth(color = "black") +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
-       scale_y_continuous(limits = c(0, max(df$title_length))) +
+       scale_y_continuous(limits = c(0, max(na.omit(df$title_length)))) +
        ggtitle(paste("Mean title length (", catal, ")", sep = "")) + 
        xlab("Publication year") +
        ylab("Title length (words)")
@@ -559,8 +559,8 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ylab("Unique publishers (n)") +
        scale_fill_stata() +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +   
-       ggtitle(paste("Unique publishers (", catal, ")", sep = ""))
+       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 1)) +   
+       ggtitle(paste("Publishers (", catal, ")", sep = ""))
 
 print(p)
 ```
@@ -616,7 +616,7 @@ npub <- npub %>% arrange(publication_place)
 npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npub$publication_place)))
 
 theme_set(theme_bw(20))
-brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 5)  
+brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 1)  
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
@@ -625,7 +625,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        scale_fill_stata() +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2, start = min(npub$publication_decade))) + 
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
-       ggtitle(paste("Unique publishers (", catal, ")", sep = ""))       
+       ggtitle(paste("Publishers (", catal, ")", sep = ""))       
 
 print(p)
 ```
@@ -883,13 +883,16 @@ df00 <- df.full %>% filter(publication_year >= 1640 & publication_year <= 1850)
 
 df1 <- df00 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
       	       filter(catalog == cat) %>%
-	       group_by(publication_decade, publication_place) %>%
-	       summarise(n = n(), paper = sum(paper, na.rm = TRUE), 
+	       group_by(publication_decade, publication_place)
+
+df1$publication_place[!df1$publication_place == "Stockholm"] <- "Other"
+df1$publication_place <- droplevels(factor(df1$publication_place))
+
+df1 <- df1 %>% summarise(n = n(), paper = sum(paper, na.rm = TRUE), 
 	         mean_title_length = mean(title_length_wordcount, na.rm = TRUE))
 
 # Take cities from Fennica for Turku
 cat <- "Fennica"
-
 
 df2 <- df00 %>% filter(publication_place %in% "Turku") %>%
       	       filter(catalog == cat) %>%
@@ -1027,8 +1030,9 @@ p <- ggplot(df, aes(x = publication_year, y = n, shape = language)) +
        scale_color_stata() +
        # scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2, start = century(min(brs)) + 40)) +                 
-       ylab("Title count (n)") +
-       xlab("Year")
+       ylab("Subject topics (n)") +
+       xlab("Year") +
+       ggtitle(paste("Topic richness (", catalogue, ")", sep = ""))     
 
 print(p)
 ```
@@ -1084,7 +1088,7 @@ dfl$language <- factor(dfl$language, levels = langs)
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = 1600)) +
        scale_y_continuous(label = scientific_10) + 
        scale_color_stata() +
-       ggtitle(catalogue)       
+       ggtitle(paste("Temporary sermons (", catalogue, ")", sep = ""))
   print(p)
 ```
 
@@ -1142,7 +1146,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +       
        scale_y_continuous(label = scientific_10) + 
-       ggtitle(catalogue)
+       ggtitle(paste("Devotional literature (", catalogue, ")", sep = ""))       
 
 print(p)
 ```
