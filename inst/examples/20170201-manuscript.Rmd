@@ -94,7 +94,7 @@ p <- ggplot(df, aes(x = publication_decade, y = n,
        color = catalog, shape = catalog)) + 
        geom_point(size = 4) + 
        geom_line(size = 1) + 
-       ylab("Places (n)") + xlab("Publication year") +
+       ylab("Places (n)") + xlab("Year") +
        # scale_color_manual(values = c("blue", "darkgreen")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) + 
        guides(linetype = "none") +
@@ -125,7 +125,7 @@ p <- ggplot(df, aes(x = publication_decade, y = n,
 		    color = catalog)) + 
        geom_point(size = 4) + 
        geom_line(size = 1) + 
-       ylab("Title count (n)") + xlab("Publication year") +
+       ylab("Title count (n)") + xlab("Year") +
        #scale_color_manual(values = c("blue", "darkgreen")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +
        scale_y_continuous(breaks = brsy, labels = brsy) +
@@ -241,7 +241,7 @@ for (catal in unique(df$catalog)) {
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 2), limits = c(0, max(na.omit(df$title_length)))) +
        ggtitle(paste("Average title length (", catal, ")", sep = "")) + 
-       xlab("Publication year") +
+       xlab("Year") +
        ylab("Title length (words)")
 }     
 
@@ -278,7 +278,7 @@ print(p)
 
 Proportions for title count and paper in Swedish University towns
  
-```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=15, fig.height=7}
 pics <- list()
 for (catalogue in na.omit(unique(df0$catalog))) {
 
@@ -315,7 +315,7 @@ for (varname in c("n", "paper", "publishers")) {
   p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", color = "black",
        aes(fill = publication_place)) + 
-     xlab("Publication year") +
+     xlab("Year") +
      scale_fill_stata() 
      if (varname == "n") {
        p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
@@ -577,8 +577,8 @@ brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
-       xlab("Publication year") +
-       ylab("Unique publishers (n)") +
+       xlab("Year") +
+       ylab("Publishers (n)") +
        scale_fill_stata() +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +   
@@ -646,7 +646,7 @@ brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
-       xlab("Publication year") +
+       xlab("Year") +
        ylab("Publishers (n)") +
        scale_fill_stata() +
        scale_x_continuous(breaks = brs,
@@ -681,7 +681,7 @@ p <- ggplot(df, aes(x = publication_year, y = n)) +
      geom_bar(stat = "identity") +
      ggtitle("") +
      scale_x_continuous(breaks = brs, labels = insert_minor(brs, 10)) +
-     xlab("Publication year") +
+     xlab("Year") +
      ylab("Title count (n)")
 
 print(p)
@@ -792,7 +792,7 @@ labs <- brs; labs[!brs %in% df$publication_decade] <- ""
 p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(shape = publication_place, color = publication_place), size = 5) +
-       xlab("Publication decade") +
+       xlab("Year") +
        ylab("Title count per capita (n)") +
        scale_color_stata() +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
@@ -841,12 +841,12 @@ labs <- brs; labs[!brs %in% df$publication_decade] <- ""
 p <- ggplot(df, aes(x = publication_decade, y = n)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(color = publication_place, shape = publication_place), size = 5) +
-       xlab("Publication decade") +
+       xlab("Year") +
        ylab("Title count (n)") +
        ggtitle("Title count (absolute)") +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = labs) +
-       scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 2)) +                                  
+       scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 1)) +                                  
        guides(shape = guide_legend(title = "Place")) +
        guides(color = guide_legend(title = "Place")) +
        scale_color_stata()
@@ -884,7 +884,7 @@ brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = paper)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(color = publication_place, shape = publication_place), size = 5) +
-       xlab("Publication year") +
+       xlab("Year") +
        ylab("Paper (sheets)") +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_y_continuous(label = scientific_10) +
@@ -944,7 +944,7 @@ brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
        geom_bar(color = "black",
          aes(fill = publication_place), position = "dodge", stat = "identity") +
-       xlab("Publication year") +
+       xlab("Year") +
        ylab("Title length (words)") +
        ggtitle("Mean title length") +
        scale_fill_stata() +
@@ -960,7 +960,7 @@ print(p)
 
 ### Fig 16: Language use in Turku, Stockholm, Uppsala and Lund
 
-```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6}
+```{r Fig16, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
 pics <- list()
 theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
@@ -1013,7 +1013,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
       aes(x = publication_decade, y = f)) +
       geom_bar(position = "stack", stat = "identity",
       			aes(fill = language), color = "black") + 
-      xlab("Publication year") +
+      xlab("Year") +
       ylab("Title count (%)") +
       ggtitle(paste(myplace, "/", catalogue)) +
       scale_fill_stata() +
@@ -1112,7 +1112,7 @@ dfl$language <- factor(dfl$language, levels = langs)
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(shape = language, color = language), size = 5) +
         geom_line(aes(color = language), size = 1) +       
-       xlab("Publication year") +
+       xlab("Year") +
        ylab("Paper (sheets)") +
        guides(shape = guide_legend(title = "Language"),
               color = guide_legend(title = "Language")) +
