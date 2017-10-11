@@ -174,7 +174,6 @@ for (catal in unique(df00$catalog)) {
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
   df2$gatherings <- factor(df2$gatherings, levels = levels(df.full$gatherings))
 
-  #brs <- seq(min(df2$publication_decade), max(df2$publication_decade), 10)
   brs <- seq(min(df2$publication_decade), max(df2$publication_decade), 10)  
 
   p <- ggplot(df2, aes(y = paper,
@@ -207,8 +206,8 @@ for (catal in unique(df00$catalog)) {
 
   p <- p + ggtitle(paste("Paper consumption (", catal, ")", sep = "")) +
          scale_x_continuous(breaks = brs,
-	   labels = insert_minor(brs, 5, start = 1500)) + 
-         scale_y_continuous(breaks = seq(0, max(df2$paper), 2e6), label = scientific_10) 
+	   labels = insert_minor(brs, 5, start = ifelse(catal == "Fennica", 1500, 1550))) + 
+         scale_y_continuous(breaks = seq(0, max(df2$paper), 2e6), label = scientific_10)
 
   pics[[catal]] <- p
 }
@@ -249,7 +248,7 @@ for (catal in unique(df$catalog)) {
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 2), limits = c(0, max(na.omit(df$title_length)))) +
        ggtitle(paste("Median title length (", catal, ")", sep = "")) + 
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Title length (words)")
 }     
 
@@ -741,7 +740,9 @@ p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) + 
       xlab("Decade") +
       ylab("") +
-      guides(size = guide_legend(title = "Title count (n)"))
+      guides(size = guide_legend(title = "Title count (n)")) +
+      ggtitle(paste("Top publishers in", place, "(", catalogue, ")", sep = ""))
+      
 print(p)
 ```
 
