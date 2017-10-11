@@ -211,15 +211,15 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] bibliographica_0.2.32 viridis_0.4.0         viridisLite_0.2.0    
-##  [4] devtools_1.13.3       stringr_1.2.0         gisfin_0.9.27        
-##  [7] R6_2.2.2              rgdal_1.2-13          sp_1.2-5             
-## [10] ggmap_2.6.1           ggthemes_3.4.0        rmarkdown_1.6.0.9001 
-## [13] sorvi_0.8.13          tibble_1.3.4          microbiome_0.99.87   
-## [16] phyloseq_1.21.0       bindrcpp_0.2          knitr_1.17           
-## [19] gridExtra_2.3         reshape2_1.4.2        magrittr_1.5         
-## [22] fennica_0.1.43        dplyr_0.7.4           tidyr_0.7.1          
-## [25] ggplot2_2.2.1        
+##  [1] bibliographica_0.2.32 testthat_1.0.2        viridis_0.4.0        
+##  [4] viridisLite_0.2.0     devtools_1.13.3       stringr_1.2.0        
+##  [7] gisfin_0.9.27         R6_2.2.2              rgdal_1.2-13         
+## [10] sp_1.2-5              ggmap_2.6.1           ggthemes_3.4.0       
+## [13] rmarkdown_1.6.0.9001  sorvi_0.8.13          tibble_1.3.4         
+## [16] microbiome_0.99.87    phyloseq_1.21.0       bindrcpp_0.2         
+## [19] knitr_1.17            gridExtra_2.3         reshape2_1.4.2       
+## [22] magrittr_1.5          fennica_0.1.43        dplyr_0.7.4          
+## [25] tidyr_0.7.1           ggplot2_2.2.1        
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] nlme_3.1-131        gmodels_2.16.2      rprojroot_1.2      
@@ -247,11 +247,11 @@ This document was created with the following versions:
 ## [67] rjson_0.2.15        codetools_0.2-15    stats4_3.4.2       
 ## [70] LearnBayes_2.15     XML_3.98-1.9        glue_1.1.1         
 ## [73] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4  
-## [76] png_0.1-7           foreach_1.4.3       testthat_1.0.2     
-## [79] RgoogleMaps_1.4.1   gtable_0.2.0        purrr_0.2.3        
-## [82] assertthat_0.2.0    roxygen2_6.0.1      coda_0.19-1        
-## [85] survival_2.41-3     genderdata_0.5.0    iterators_1.0.8    
-## [88] memoise_1.1.0       IRanges_2.11.18     cluster_2.0.6
+## [76] png_0.1-7           foreach_1.4.3       RgoogleMaps_1.4.1  
+## [79] gtable_0.2.0        purrr_0.2.3         assertthat_0.2.0   
+## [82] roxygen2_6.0.1      coda_0.19-1         survival_2.41-3    
+## [85] genderdata_0.5.0    iterators_1.0.8     memoise_1.1.0      
+## [88] IRanges_2.11.18     cluster_2.0.6
 ```
 
 
