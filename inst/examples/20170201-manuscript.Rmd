@@ -702,7 +702,7 @@ print(p)
 
 ### Fig 11: Top publishers in Turku/Fennica
 
-```{r Fig11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=10}
+```{r Fig11, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=12}
 library(dplyr)
 place <- "Turku"
 catalogue = "Fennica"
@@ -741,7 +741,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
       xlab("Decade") +
       ylab("") +
       guides(size = guide_legend(title = "Title count (n)")) +
-      ggtitle(paste("Top publishers in", place, "(", catalogue, ")", sep = ""))
+      ggtitle(paste("Top publishers in ", place, " (", catalogue, ")", sep = ""))
       
 print(p)
 ```
