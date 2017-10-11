@@ -50,7 +50,7 @@ Paper consumption for various document formats over time.
 
 Loess smoothing.
 
-
+![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)
 
 ---
 

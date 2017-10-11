@@ -96,7 +96,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n,
        color = catalog, shape = catalog)) + 
        geom_point(size = 4) + 
        geom_line(size = 1) + 
-       ylab("Places (n)") + xlab("Year") +
+       ylab("Places (n)") +
+       xlab("Decade") +
        # scale_color_manual(values = c("blue", "darkgreen")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) + 
        guides(linetype = "none") +
@@ -127,7 +128,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n,
 		    color = catalog)) + 
        geom_point(size = 4) + 
        geom_line(size = 1) + 
-       ylab("Title count (n)") + xlab("Year") +
+       ylab("Title count (n)") +
+       xlab("Decade") +
        #scale_color_manual(values = c("blue", "darkgreen")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +
        scale_y_continuous(breaks = brsy, labels = brsy) +
@@ -193,7 +195,7 @@ for (catal in unique(df00$catalog)) {
   
   #   scale_color_stata() +
   #   scale_fill_stata() +
-  p <- p + xlab("Year")
+  p <- p + xlab("Decade")
   p <- p + ylab("Paper (sheets)")
   p <- p + ylim(c(0, max(na.omit(df2$paper))))
 
@@ -274,7 +276,7 @@ legend_b <- get_legend(pics[[1]] + theme(legend.position="right"))
 # add the legend underneath the row we made earlier. Give it 10% of the height
 # of one plot (via rel_heights).
 p <- plot_grid( prow, legend_b, ncol = 2, rel_widths = c(1, .2))
-# print(p)
+print(p)
 ```
 
 ---
@@ -321,7 +323,7 @@ for (varname in c("n", "paper", "publishers")) {
   p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", color = "black",
        aes(fill = publication_place)) + 
-     xlab("Year") +
+     xlab("Decade") +
      scale_fill_stata() 
      if (varname == "n") {
        p <- p + ggtitle(paste("Title count (", catalogue, ")", sep = "")) + 
@@ -583,7 +585,7 @@ brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Publishers (n)") +
        scale_fill_stata() +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
@@ -652,7 +654,7 @@ brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Publishers (n)") +
        scale_fill_stata() +
        scale_x_continuous(breaks = brs,
@@ -737,7 +739,7 @@ brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
       geom_point(aes(size = n)) +
       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) + 
-      xlab("Year") +
+      xlab("Decade") +
       ylab("") +
       guides(size = guide_legend(title = "Title count (n)"))
 print(p)
@@ -801,7 +803,7 @@ labs <- brs; labs[!brs %in% df$publication_decade] <- ""
 p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(shape = publication_place, color = publication_place), size = 5) +
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Title count per capita (n)") +
        scale_color_stata() +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
@@ -850,7 +852,7 @@ labs <- brs; labs[!brs %in% df$publication_decade] <- ""
 p <- ggplot(df, aes(x = publication_decade, y = n)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(color = publication_place, shape = publication_place), size = 5) +
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Title count (n)") +
        ggtitle("Title count (absolute)") +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
@@ -893,7 +895,7 @@ brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = paper)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(color = publication_place, shape = publication_place), size = 5) +
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Paper (sheets)") +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_y_continuous(label = scientific_10) +
@@ -929,7 +931,7 @@ brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
        geom_bar(color = "black",
          aes(fill = publication_place), position = "dodge", stat = "identity") +
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Title length (words)") +
        ggtitle("Average title length") +
        scale_fill_stata() +
@@ -996,7 +998,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
       aes(x = publication_decade, y = f)) +
       geom_bar(position = "stack", stat = "identity",
       			aes(fill = language), color = "black") + 
-      xlab("Year") +
+      xlab("Decade") +
       ylab("Title count (%)") +
       ggtitle(paste(myplace, "/", catalogue)) +
       scale_fill_stata() +
@@ -1095,7 +1097,7 @@ dfl$language <- factor(dfl$language, levels = langs)
   p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(shape = language, color = language), size = 5) +
         geom_line(aes(color = language), size = 1) +       
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Paper (sheets)") +
        guides(shape = guide_legend(title = "Language"),
               color = guide_legend(title = "Language")) +
@@ -1153,7 +1155,7 @@ brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(shape = language, color = language), size = 5) +
        geom_line(aes(color = language), size = 1) +       
-       xlab("Year") +
+       xlab("Decade") +
        ylab("Paper (sheets)") +
        guides(shape = guide_legend(title = "Language"), color = guide_legend(title = "Language")) +
        scale_color_stata() +
