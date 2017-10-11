@@ -74,7 +74,8 @@ library(dplyr)
 library(ggplot2)
 library(ggthemes)
 # theme_set(theme_bw(20))
-theme_set(theme_linedraw(20))
+#theme_set(theme_linedraw(20))
+theme_set(theme_light(20))
 
 df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>%
               group_by(catalog, publication_decade) %>%
@@ -141,6 +142,13 @@ print(p)
 Paper consumption for various document formats over time.
 
 ```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5, fig.show="hold"}
+
+library(scales)
+scientific_10 <- function(x) {
+  parse(text=gsub("\\+", "", gsub("e", " %*% 10^", scientific_format()(x))))
+}
+
+
 pics <- list()
 for (catal in unique(df00$catalog)) {
 
@@ -185,7 +193,8 @@ for (catal in unique(df00$catalog)) {
     linetype = guide_legend(keywidth = 5, title = "Gatherings", reverse = TRUE)) 
 
   p <- p + ggtitle(paste("Paper consumption (", catal, ")", sep = "")) +
-         scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(df2$publication_decade) + 50)) 
+         scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(df2$publication_decade) + 50)) + 
+         scale_y_continuous(breaks = seq(0, max(df2$paper), 2e6), label = scientific_10) 
 
   pics[[catal]] <- p
 }
@@ -322,13 +331,7 @@ df$period <- cut(df$publication_year,
 		 include.lowest = TRUE,
 		 right = FALSE
 		 )
-df$period <- gsub("\\[", "", df$period)
-df$period <- gsub("\\)", "", df$period)
-df$period <- gsub(",", ",", df$period)
-df$period <- gsub("\\]", "", df$period)
-df$period <- gsub("\\,", "-", df$period)
-
-
+df$period <- format_period(df$period)
 
 # Remove entries outside the investigated publication periods
 df.all <- df %>% filter(!is.na(period)) %>%
@@ -348,8 +351,6 @@ df.all$publication_place <- "All"
 df <- bind_rows(df.all, df.cities) %>%
         filter(publication_place %in% c("Stockholm", "Uppsala", "Lund", "All"))
 
-df$period <- format_period(df$period)
-
 p <- ggplot(df,
        aes(fill = period, y = paper.per.title, x = publication_place)) + 
        geom_bar(stat = "identity", color = "black", position = "dodge") +
@@ -359,7 +360,7 @@ p <- ggplot(df,
        scale_fill_stata() +       
        guides(fill = guide_legend(title = "Period")) +
        ylab("Paper (sheets)") + xlab("") +
-       ggtitle("Paper consumption per title")
+       ggtitle("Average paper consumption per title")
 
 print(p)
 ```
@@ -485,7 +486,7 @@ library(reshape2)
   p <- p + scale_x_continuous(breaks=brs, labels = insert_minor(brs, 2))
   p <- p + ylab("Title count (n)")
   p <- p + xlab("Year")
-  p <- p + ggtitle(paste(catal, " ", minyear, "-", maxyear, sep = ""))
+  p <- p + ggtitle(paste("Title count (", catal, " ", minyear, "-", maxyear, ")", sep = ""))
   print(p)
 
 ```
@@ -550,7 +551,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        scale_fill_stata() +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +   
-       ggtitle(catal)       
+       ggtitle(paste("Unique publishers (", catal, ")", sep = ""))
 
 print(p)
 ```
@@ -606,14 +607,14 @@ npub <- npub %>% arrange(publication_place)
 npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npub$publication_place)))
 
 theme_set(theme_bw(20))
-brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)  
+brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 5)  
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
        ylab("Unique publishers (n)") +
        scale_fill_stata() +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 1)) + 
+       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2, start = min(npub$publication_decade))) + 
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        ggtitle(catal)
 
@@ -847,8 +848,9 @@ p <- ggplot(df, aes(x = publication_decade, y = paper)) +
        geom_point(aes(color = publication_place, shape = publication_place), size = 5) +
        xlab("Publication year") +
        ylab("Paper (sheets)") +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +   
-       ggtitle("Octavo: paper consumption") +
+       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
+       scale_y_continuous(label = scientific_10) +
+       ggtitle("Paper consumption on Octavo") +
        guides(shape = guide_legend(title = "Place"), color = guide_legend(title = "Place")) +
        scale_color_stata()
 print(p)
@@ -887,10 +889,12 @@ df2 <- df00 %>% filter(publication_place %in% "Turku") %>%
 df <- bind_rows(df1, df2)
 
 df$publication_place[!df$publication_place == "Stockholm"] <- "Other"
+df$publication_place <- droplevels(factor(df$publication_place))
+
 brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
-       geom_bar(color = "black", aes(fill = publication_place),
-         position = "dodge", stat = "identity") +
+       geom_bar(color = "black",
+         aes(fill = publication_place), position = "dodge", stat = "identity") +
        xlab("Publication year") +
        ylab("Title length (words)") +
        ggtitle("Mean title length") +
@@ -951,11 +955,12 @@ for (catalogue in c("Fennica", "Kungliga")) {
   dff <- melt(dff, id = c("publication_place", "publication_decade"))
   colnames(dff) <- c("publication_place", "publication_decade", "language", "f")
 
-  brs <- seq(min(dff$publication_decade), max(dff$publication_decade), 10)
-
   for (myplace in myplaces) {
 
-    p <- ggplot(subset(dff, publication_place == myplace),
+  dfss <- subset(dff, publication_place == myplace)
+  brs <- seq(min(dfss$publication_decade), max(dfss$publication_decade), 10)
+
+   p <- ggplot(dfss,
       aes(x = publication_decade, y = f)) +
       geom_bar(position = "stack", stat = "identity",
       			aes(fill = language), color = "black") + 
@@ -1019,9 +1024,7 @@ print(p)
 
 ### Fig. 18: Temporary sermons in Latin and Swedish
 
-
 ```{r Fig18, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
-
 sel <- c("hautajaiset", "häät", "juhlamenot")
 catalogue <- "Fennica"
 df <- df0
@@ -1064,7 +1067,8 @@ dfl$language <- factor(dfl$language, levels = langs)
        guides(shape = guide_legend(title = "Language"),
               color = guide_legend(title = "Language")) +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +       
+       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
+       scale_y_continuous(label = scientific_10) + 
        scale_color_stata() +
        ggtitle(catalogue)       
   print(p)
@@ -1121,7 +1125,9 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        guides(shape = guide_legend(title = "Language"), color = guide_legend(title = "Language")) +
        scale_color_stata() +
        # scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +      
+       #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
+       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +       
+       scale_y_continuous(label = scientific_10) + 
        ggtitle(catalogue)
 
 print(p)
