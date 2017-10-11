@@ -199,7 +199,7 @@ for (catal in unique(df00$catalog)) {
 
   p <- p + ggtitle(paste("Paper consumption (", catal, ")", sep = "")) +
          scale_x_continuous(breaks = brs,
-	   labels = insert_minor(brs, 5, start = century(min(df2$publication_decade)))) + 
+	   labels = insert_minor(brs, 5, start = 1500)) + 
          scale_y_continuous(breaks = seq(0, max(df2$paper), 2e6), label = scientific_10) 
 
   pics[[catal]] <- p
@@ -223,7 +223,7 @@ print(pics[[2]])
 
 Loess smoothing.
 
-```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=11}
+```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=12}
 df <- df.full %>% filter(publication_year >= 1640 &
                          publication_year <= 1911) %>%
               group_by(catalog, publication_year) %>%
@@ -232,21 +232,43 @@ df <- df.full %>% filter(publication_year >= 1640 &
 
 pics <- list()
 brs <- seq(min(decade(df$publication_year)), max(decade(df$publication_year)), 10)
+brsy <- seq(0, round(max(na.omit(df$title_length)), -1), 10)
 for (catal in unique(df$catalog)) {
   pics[[catal]] <- ggplot(subset(df, catalog == catal),
        aes(x = publication_year, y = title_length)) +
        geom_point(aes(size = n)) +
        geom_smooth(color = "black") +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
-       scale_y_continuous(limits = c(0, max(na.omit(df$title_length)))) +
-       ggtitle(paste("Mean title length (", catal, ")", sep = "")) + 
+       scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 2), limits = c(0, max(na.omit(df$title_length)))) +
+       ggtitle(paste("Average title length (", catal, ")", sep = "")) + 
        xlab("Publication year") +
        ylab("Title length (words)")
 }     
 
 
-library(gridExtra)
-grid.arrange(pics[[1]], pics[[2]], nrow = 1)
+#library(gridExtra)
+#grid.arrange(pics[[1]], pics[[2]], nrow = 1)
+
+library(cowplot)
+# arrange the three plots in a single row
+prow <- plot_grid(
+           pics[[1]] + theme(legend.position="none"),
+           pics[[2]] + theme(legend.position="none"),
+           align = 'vh',
+           labels = c("A", "B"),
+           hjust = -1,
+           nrow = 1
+           )
+
+# extract the legend from one of the plots
+# (clearly the whole thing only makes sense if all plots
+# have the same legend, so we can arbitrarily pick one.)
+legend_b <- get_legend(pics[[1]] + theme(legend.position="right"))
+
+# add the legend underneath the row we made earlier. Give it 10% of the height
+# of one plot (via rel_heights).
+p <- plot_grid( prow, legend_b, ncol = 2, rel_widths = c(1, .2))
+print(p)
 ```
 
 ---
@@ -559,7 +581,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        ylab("Unique publishers (n)") +
        scale_fill_stata() +       
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 1)) +   
+       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +   
        ggtitle(paste("Publishers (", catal, ")", sep = ""))
 
 print(p)
@@ -607,23 +629,28 @@ df <- df %>%
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
 npub$publication_place <- factor(npub$publication_place, levels = top)
 npub.kungliga <- npub
-
 npub <- bind_rows(npub.fennica, npub.kungliga)
 
 # Order by total publishing activity
-npub$publication_place <- factor(npub$publication_place, levels = (npub %>% group_by(publication_place) %>% summarise(total = sum(n)) %>% arrange(desc(total)))$publication_place)
+npub$publication_place <- factor(npub$publication_place,
+                                 levels = (npub %>%
+				             group_by(publication_place) %>%
+					     summarise(total = sum(n)) %>%
+					     arrange(desc(total)))$publication_place)
 npub <- npub %>% arrange(publication_place)
-npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npub$publication_place)))
+npub$publication_place <- factor(npub$publication_place,
+                                 levels = rev(unique(npub$publication_place)))
 
 theme_set(theme_bw(20))
-brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 1)  
+brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)  
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
        xlab("Publication year") +
-       ylab("Unique publishers (n)") +
+       ylab("Publishers (n)") +
        scale_fill_stata() +
-       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2, start = min(npub$publication_decade))) + 
+       scale_x_continuous(breaks = brs,
+           labels = insert_minor(brs, 5, start = min(npub$publication_decade))) + 
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        ggtitle(paste("Publishers (", catal, ")", sep = ""))       
 
@@ -648,7 +675,7 @@ df <- df0 %>% filter(catalog == catalogue & publication_place == place) %>%
 	group_by(publication_year) %>% 
 	tally()
 
-brs <- seq(min(decade(df$publication_year)), max(decade(df$publication_year)), 1)
+brs <- seq(min(df$publication_year), max(df$publication_year), 1)
 
 p <- ggplot(df, aes(x = publication_year, y = n)) +
      geom_bar(stat = "identity") +
@@ -809,6 +836,7 @@ df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
 
 df <- bind_rows(df1, df2)
 brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
+brsy <- seq(0, max(df$n), 1e3)
 labs <- brs; labs[!brs %in% df$publication_decade] <- ""
 p <- ggplot(df, aes(x = publication_decade, y = n)) +
        geom_line(aes(color = publication_place), size = 1) +
@@ -817,7 +845,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n)) +
        ylab("Title count (n)") +
        ggtitle("Title count (absolute)") +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
-       scale_x_continuous(breaks = brs, labels = labs) +                           
+       scale_x_continuous(breaks = brs, labels = labs) +
+       scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 2)) +                                  
        guides(shape = guide_legend(title = "Place")) +
        guides(color = guide_legend(title = "Place")) +
        scale_color_stata()
@@ -888,7 +917,9 @@ df1 <- df00 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
 df1$publication_place[!df1$publication_place == "Stockholm"] <- "Other"
 df1$publication_place <- droplevels(factor(df1$publication_place))
 
-df1 <- df1 %>% summarise(n = n(), paper = sum(paper, na.rm = TRUE), 
+df1 <- df1 %>%
+	       group_by(publication_decade, publication_place) %>% 
+  	       summarise(n = n(), paper = sum(paper, na.rm = TRUE), 
 	         mean_title_length = mean(title_length_wordcount, na.rm = TRUE))
 
 # Take cities from Fennica for Turku
@@ -907,6 +938,7 @@ df2 <- df2 %>%
                  mean_title_length = mean(title_length_wordcount, na.rm = TRUE))
 
 df <- bind_rows(df1, df2)
+df$publication_place <- factor(df$publication_place)
 
 brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
@@ -1099,7 +1131,7 @@ dfl$language <- factor(dfl$language, levels = langs)
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-```{r Fig19, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
+```{r Fig19, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, fig.show="hold"}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
 
@@ -1137,8 +1169,8 @@ theme_set(theme_bw(20))
 brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        geom_point(aes(shape = language, color = language), size = 5) +
-       geom_line(aes(color = language)) +       
-       xlab("Publication year") +
+       geom_line(aes(color = language), size = 1) +       
+       xlab("Year") +
        ylab("Paper (sheets)") +
        guides(shape = guide_legend(title = "Language"), color = guide_legend(title = "Language")) +
        scale_color_stata() +

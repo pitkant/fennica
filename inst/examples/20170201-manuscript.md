@@ -50,7 +50,7 @@ Paper consumption for various document formats over time.
 
 Loess smoothing.
 
-![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)
+![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)![plot of chunk Fig4](20170201_manuscript/Fig4-2.png)
 
 ---
 
@@ -210,47 +210,48 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] scales_0.5.0          bibliographica_0.2.32 testthat_1.0.2       
-##  [4] viridis_0.4.0         viridisLite_0.2.0     devtools_1.13.3      
-##  [7] stringr_1.2.0         gisfin_0.9.27         R6_2.2.2             
-## [10] rgdal_1.2-13          sp_1.2-5              ggmap_2.6.1          
-## [13] ggthemes_3.4.0        rmarkdown_1.6.0.9001  sorvi_0.8.13         
-## [16] tibble_1.3.4          microbiome_0.99.87    phyloseq_1.21.0      
-## [19] bindrcpp_0.2          knitr_1.17            gridExtra_2.3        
-## [22] reshape2_1.4.2        magrittr_1.5          fennica_0.1.43       
-## [25] dplyr_0.7.4           tidyr_0.7.1           ggplot2_2.2.1        
+##  [1] cowplot_0.8.0         scales_0.5.0          bibliographica_0.2.32
+##  [4] testthat_1.0.2        viridis_0.4.0         viridisLite_0.2.0    
+##  [7] devtools_1.13.3       stringr_1.2.0         gisfin_0.9.27        
+## [10] R6_2.2.2              rgdal_1.2-13          sp_1.2-5             
+## [13] ggmap_2.6.1           ggthemes_3.4.0        rmarkdown_1.6.0.9001 
+## [16] sorvi_0.8.13          tibble_1.3.4          microbiome_0.99.87   
+## [19] phyloseq_1.21.0       bindrcpp_0.2          knitr_1.17           
+## [22] gridExtra_2.3         reshape2_1.4.2        magrittr_1.5         
+## [25] fennica_0.1.43        dplyr_0.7.4           tidyr_0.7.1          
+## [28] ggplot2_2.2.1        
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] nlme_3.1-131        gmodels_2.16.2      rprojroot_1.2      
-##  [4] tools_3.4.2         backports_1.1.1     vegan_2.4-4        
-##  [7] lazyeval_0.2.0      BiocGenerics_0.23.3 mgcv_1.8-22        
-## [10] colorspace_1.3-2    permute_0.9-4       ade4_1.7-8         
-## [13] withr_2.0.0         tidyselect_0.2.0    compiler_3.4.2     
-## [16] Biobase_2.37.2      Cairo_1.5-9         expm_0.999-2       
-## [19] xml2_1.1.1          NLP_0.1-11          labeling_0.3       
-## [22] slam_0.1-40         tm_0.7-1            commonmark_1.4     
-## [25] digest_0.6.12       stringdist_0.9.4.6  XVector_0.17.1     
-## [28] jpeg_0.1-8          pkgconfig_2.0.1     htmltools_0.3.6    
-## [31] highr_0.6           maps_3.2.0          rlang_0.1.2        
-## [34] bindr_0.1           jsonlite_1.5        gtools_3.5.0       
-## [37] spdep_0.6-15        biomformat_1.5.0    geosphere_1.5-5    
-## [40] Matrix_1.2-11       Rcpp_0.12.13        munsell_0.4.3      
-## [43] S4Vectors_0.15.11   ape_4.1             proto_1.0.0        
-## [46] yaml_2.1.14         stringi_1.1.5       MASS_7.3-47        
-## [49] zlibbioc_1.23.0     rhdf5_2.21.6        plyr_1.8.4         
-## [52] grid_3.4.2          gdata_2.18.0        parallel_3.4.2     
-## [55] gender_0.5.1.9000   crayon_1.3.4        deldir_0.1-14      
-## [58] lattice_0.20-35     Biostrings_2.45.4   splines_3.4.2      
-## [61] multtest_2.33.0     mapproj_1.2-5       tcltk_3.4.2        
-## [64] igraph_1.1.2        boot_1.3-20         rjson_0.2.15       
-## [67] codetools_0.2-15    stats4_3.4.2        LearnBayes_2.15    
-## [70] XML_3.98-1.9        glue_1.1.1          babynames_0.3.0    
-## [73] evaluate_0.10.1     data.table_1.10.4   png_0.1-7          
-## [76] foreach_1.4.3       RgoogleMaps_1.4.1   gtable_0.2.0       
-## [79] purrr_0.2.3         assertthat_0.2.0    roxygen2_6.0.1     
-## [82] coda_0.19-1         survival_2.41-3     genderdata_0.5.0   
-## [85] iterators_1.0.8     memoise_1.1.0       IRanges_2.11.18    
-## [88] cluster_2.0.6
+##  [1] colorspace_1.3-2    rjson_0.2.15        deldir_0.1-14      
+##  [4] babynames_0.3.0     rprojroot_1.2       XVector_0.17.1     
+##  [7] roxygen2_6.0.1      xml2_1.1.1          codetools_0.2-15   
+## [10] splines_3.4.2       ade4_1.7-8          jsonlite_1.5       
+## [13] Cairo_1.5-9         cluster_2.0.6       png_0.1-7          
+## [16] mapproj_1.2-5       compiler_3.4.2      backports_1.1.1    
+## [19] assertthat_0.2.0    Matrix_1.2-11       lazyeval_0.2.0     
+## [22] htmltools_0.3.6     tools_3.4.2         igraph_1.1.2       
+## [25] NLP_0.1-11          coda_0.19-1         gtable_0.2.0       
+## [28] glue_1.1.1          maps_3.2.0          gmodels_2.16.2     
+## [31] Rcpp_0.12.13        slam_0.1-40         Biobase_2.37.2     
+## [34] Biostrings_2.45.4   multtest_2.33.0     spdep_0.6-15       
+## [37] gdata_2.18.0        ape_4.1             nlme_3.1-131       
+## [40] iterators_1.0.8     gender_0.5.1.9000   proto_1.0.0        
+## [43] gtools_3.5.0        XML_3.98-1.9        stringdist_0.9.4.6 
+## [46] LearnBayes_2.15     zlibbioc_1.23.0     MASS_7.3-47        
+## [49] parallel_3.4.2      biomformat_1.5.0    genderdata_0.5.0   
+## [52] rhdf5_2.21.6        expm_0.999-2        yaml_2.1.14        
+## [55] memoise_1.1.0       geosphere_1.5-5     stringi_1.1.5      
+## [58] highr_0.6           S4Vectors_0.15.11   foreach_1.4.3      
+## [61] permute_0.9-4       BiocGenerics_0.23.3 boot_1.3-20        
+## [64] RgoogleMaps_1.4.1   rlang_0.1.2         pkgconfig_2.0.1    
+## [67] commonmark_1.4      evaluate_0.10.1     lattice_0.20-35    
+## [70] purrr_0.2.3         bindr_0.1           labeling_0.3       
+## [73] tidyselect_0.2.0    plyr_1.8.4          IRanges_2.11.18    
+## [76] withr_2.0.0         mgcv_1.8-22         survival_2.41-3    
+## [79] crayon_1.3.4        jpeg_0.1-8          grid_3.4.2         
+## [82] data.table_1.10.4   vegan_2.4-4         digest_0.6.12      
+## [85] tm_0.7-1            stats4_3.4.2        munsell_0.4.3      
+## [88] tcltk_3.4.2
 ```
 
 
