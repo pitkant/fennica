@@ -207,24 +207,20 @@ for (catal in unique(df00$catalog)) {
     linetype = guide_legend(keywidth = 5, title = "Gatherings", reverse = TRUE)) 
 
   p <- p + #ggtitl(paste("Paper consumption (", catal, ")", sep = "")) +
-         ggtitle(paste("Figure 3", c("A", "B")[which(unique(df00$catalog) == catal)], sep = "")) +       
+         #ggtitle(paste("Figure 3", c("A", "B")[which(unique(df00$catalog) == catal)], sep = "")) +
+         ggtitle(paste(c("A", "B")[which(unique(df00$catalog) == catal)], sep = "")) +       	 
          scale_x_continuous(breaks = brs,
 	   labels = insert_minor(brs, 5, start = ifelse(catal == "Fennica", 1500, 1550))) + 
          scale_y_continuous(breaks = seq(0, max(df2$paper), 2e6), label = scientific_10)
 
   pics[[catal]] <- p
 }
+
+
+grid.arrange(pics[[1]], pics[[2]], top = "Figure 3", layout_matrix = matrix(c(1,2), nrow = 2, byrow=TRUE))
 ```
 
-```{r Fig3A, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5}
-print(pics[[1]])
-```
 
----
-
-```{r Fig3B, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=9, fig.height=5}
-print(pics[[2]])
-```
 
 ---
 
@@ -277,7 +273,7 @@ legend_b <- get_legend(pics[[1]] + theme(legend.position="right"))
 # add the legend underneath the row we made earlier. Give it 10% of the height
 # of one plot (via rel_heights).
 p <- plot_grid( prow, legend_b, ncol = 2, rel_widths = c(1, .2))
-print(p)
+#print(p)
 ```
 
 ---
@@ -753,9 +749,9 @@ p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
       xlab("Decade") +
       ylab("") +
       guides(size = guide_legend(title = "Title count (n)")) +
-      #ggtitle("Figure 11")      
+      ggtitle("Figure 11")      
       #ggtitle(paste("Top publishers in ", place, " (", catalogue, ")", sep = ""))
-      ggtitle(paste("Figure 11: ", place, " (", catalogue, ")", sep = ""))      
+      #ggtitle(paste("Figure 11: ", place, " (", catalogue, ")", sep = ""))      
       
 print(p)
 ```
