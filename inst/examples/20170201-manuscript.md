@@ -35,7 +35,7 @@ fontsize: 13pt
 
 Paper consumption for various document formats over time.
 
-![plot of chunk Fig3](20170201_manuscript/Fig3-1.png)![plot of chunk Fig3](20170201_manuscript/Fig3-2.png)
+![plot of chunk Fig3](20170201_manuscript/Fig3-1.png)
 
 
 
@@ -46,7 +46,7 @@ Paper consumption for various document formats over time.
 
 Loess smoothing.
 
-![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)![plot of chunk Fig4](20170201_manuscript/Fig4-2.png)
+![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)
 
 ---
 
