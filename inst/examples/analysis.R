@@ -32,7 +32,6 @@ render("20170201-manuscript.Rmd")
 rmarkdown::render("201705-Gaudeamus.Rmd") 
 
 #rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
-
 #library(rmarkdown)
 #rmarkdown::render("slidetemplates.Rmd", params = list(min.year = 1488, max.year = 1828, data = "df.combined.Rds"))
 #rmarkdown::render("slidetemplates.Rmd", params = "ask")
