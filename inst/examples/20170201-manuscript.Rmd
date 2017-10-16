@@ -234,6 +234,7 @@ print(pics[[2]])
 Loess smoothing.
 
 ```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=4, fig.width=12}
+cols <- list(Fennica = "blue", Kungliga = "darkred")
 df <- df.full %>% filter(publication_year >= 1640 &
                          publication_year <= 1911) %>%
               group_by(catalog, publication_year) %>%
@@ -251,14 +252,11 @@ for (catal in unique(df$catalog)) {
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 2), limits = c(0, max(na.omit(df$title_length)))) +
        #ggtitl(paste("Median title length (", catal, ")", sep = "")) +
-       ggtitle("Figure 4") +
        xlab("Decade") +
        ylab("Title length (words)")
 }     
 
-
-#library(gridExtra)
-#grid.arrange(pics[[1]], pics[[2]], nrow = 1)
+pics[[unique(df$catalog)[[1]]]] <- pics[[unique(df$catalog)[[1]]]] + labs(title = "Figure 4")
 
 library(cowplot)
 # arrange the three plots in a single row
@@ -329,16 +327,13 @@ for (varname in c("n", "paper", "publishers")) {
      xlab("Decade") +
      scale_fill_stata() 
      if (varname == "n") {
-       p <- p + #ggtitl(paste("Title count (", catalogue, ")", sep = "")) + 
-                ylab("Title count (%)") 
+       p <- p + labs(subtitle = paste("Title count (", catalogue, ")", sep = ""), y = "Title count (%)")
      }
      if (varname == "paper") {
-       p <- p + #ggtitl(paste("Paper (", catalogue, ")", sep = "")) +
-                ylab("Paper (%)")        
+       p <- p + labs(subtitle = paste("Paper (", catalogue, ")", sep = ""), y = "Paper (%)")
      }
      if (varname == "publishers") {
-       p <- p + #ggtitl(paste("Publishers (", catalogue, ")", sep = "")) +
-                       ylab("Publishers (%)")
+       p <- p + labs(subtitle = paste("Publishers (", catalogue, ")", sep = ""), y = "Publishers (%)")
      }     
   p <- p + guides(fill = guide_legend(title = "")) 
   p <- p + scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(dff$publication_decade)) + 50))
@@ -348,8 +343,8 @@ for (varname in c("n", "paper", "publishers")) {
 }
 }
 library(gridExtra)
-pics[[1]] <- pics[[1]] + ggtitle("Figure 5") 
-grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], nrow = 2)
+#pics[[1]] <- pics[[1]] + ggtitle("Figure 5") 
+grid.arrange(pics[[1]], pics[[2]], pics[[4]], pics[[5]], top = "Figure 5", layout_matrix = matrix(c(1,2,3,4), nrow = 2, byrow=TRUE))
 rm(pics)
 ```
 
@@ -760,7 +755,7 @@ p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
       guides(size = guide_legend(title = "Title count (n)")) +
       #ggtitle("Figure 11")      
       #ggtitle(paste("Top publishers in ", place, " (", catalogue, ")", sep = ""))
-      ggtitle(paste("Figure 11:", place, " (", catalogue, ")", sep = ""))      
+      ggtitle(paste("Figure 11: ", place, " (", catalogue, ")", sep = ""))      
       
 print(p)
 ```
@@ -1021,12 +1016,7 @@ for (catalogue in c("Fennica", "Kungliga")) {
       geom_bar(position = "stack", stat = "identity",
       			aes(fill = language), color = "black") + 
       xlab("Decade") +
-      ylab("Title count (%)") 
-      #ggtitle(paste(myplace, "/", catalogue)) +
-      if (cnt == 0) {
-        p <- p + labs(title = "Figure 16")
-	cnt <- 1
-      }
+      ylab("Title count (%)")
       
       p <- p + labs(subtitle = paste(myplace, "/", catalogue)) +                 
       scale_fill_stata() +
@@ -1038,9 +1028,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
   }
 }
 
-grid.arrange(pics[[1]],
-             pics[[8]], pics[[9]], pics[[10]], 
-             nrow = 2)
+grid.arrange(pics[[1]], pics[[8]], pics[[9]], pics[[10]], top = "Figure 16", layout_matrix = matrix(c(1,2,3,4), nrow = 2, byrow=TRUE))
+
 rm(pics)
 ```
 
