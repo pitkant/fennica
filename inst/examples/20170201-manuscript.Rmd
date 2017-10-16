@@ -150,7 +150,7 @@ print(p)
 
 Paper consumption for various document formats over time.
 
-```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=16, fig.height=5, fig.show="hold"}
+```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=20, fig.height=5, fig.show="last"}
 library(scales)
 scientific_10 <- function(x) {
   parse(text=gsub("\\+", "", gsub("e", " %*% 10^", scientific_format()(x))))
