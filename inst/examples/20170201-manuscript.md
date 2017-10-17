@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
-date: "2017-10-17"
+date: "2017-10-18"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -34,23 +34,6 @@ fontsize: 13pt
 ### Fig 3: Rise of the Octavo
 
 Paper consumption for various document formats over time.
-
-
-```
-## Error in unique(df00$catalog): object 'df00' not found
-```
-
-```
-## Error in pics[[1]]: subscript out of bounds
-```
-
-```
-## Error in pics[[1]]: subscript out of bounds
-```
-
-```
-## Error in plot_grid(prow, legend_b, ncol = 2, rel_widths = c(1, 0.2)): object 'prow' not found
-```
 
 ![plot of chunk Fig3](20170201_manuscript/Fig3-1.png)
 
@@ -222,14 +205,14 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] cowplot_0.8.0         scales_0.5.0          ggthemes_3.4.0       
-##  [4] devtools_1.13.3       stringr_1.2.0         gisfin_0.9.27        
-##  [7] R6_2.2.2              rgdal_1.2-13          sp_1.2-5             
-## [10] ggmap_2.6.1           rmarkdown_1.6.0.9001  sorvi_0.8.13         
-## [13] tibble_1.3.4          microbiome_0.99.89    phyloseq_1.21.0      
+##  [1] cowplot_0.8.0         ggthemes_3.4.0        devtools_1.13.3      
+##  [4] stringr_1.2.0         gisfin_0.9.27         R6_2.2.2             
+##  [7] rgdal_1.2-13          sp_1.2-5              ggmap_2.6.1          
+## [10] rmarkdown_1.6.0.9001  scales_0.5.0          sorvi_0.8.13         
+## [13] tibble_1.3.4          microbiome_0.99.88    phyloseq_1.21.0      
 ## [16] bindrcpp_0.2          knitr_1.17            gridExtra_2.3        
 ## [19] reshape2_1.4.2        magrittr_1.5          fennica_0.1.43       
-## [22] bibliographica_0.2.32 dplyr_0.7.4           tidyr_0.7.1          
+## [22] bibliographica_0.2.32 dplyr_0.7.4           tidyr_0.7.2          
 ## [25] ggplot2_2.2.1        
 ## 
 ## loaded via a namespace (and not attached):
@@ -237,7 +220,7 @@ This document was created with the following versions:
 ##  [4] tools_3.4.2         backports_1.1.1     vegan_2.4-4        
 ##  [7] lazyeval_0.2.0      BiocGenerics_0.23.3 mgcv_1.8-22        
 ## [10] colorspace_1.3-2    permute_0.9-4       ade4_1.7-8         
-## [13] withr_2.0.0         tidyselect_0.2.0    compiler_3.4.2     
+## [13] withr_2.0.0         tidyselect_0.2.2    compiler_3.4.2     
 ## [16] Biobase_2.37.2      Cairo_1.5-9         expm_0.999-2       
 ## [19] NLP_0.1-11          labeling_0.3        slam_0.1-40        
 ## [22] tm_0.7-1            digest_0.6.12       stringdist_0.9.4.6 

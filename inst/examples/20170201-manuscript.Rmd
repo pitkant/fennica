@@ -160,7 +160,7 @@ scientific_10 <- function(x) {
 common.gatherings <- setdiff(names(which(table(df.full$gatherings) > 500)), "NA")
 
 pics <- list()
-for (catal in unique(df00$catalog)) {
+for (catal in unique(df.full$catalog)) {
 
   if (catal == "Kungliga") {
     df00 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
