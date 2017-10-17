@@ -35,7 +35,24 @@ fontsize: 13pt
 
 Paper consumption for various document formats over time.
 
-![plot of chunk Fig3](20170201_manuscript/Fig3-1.png)![plot of chunk Fig3](20170201_manuscript/Fig3-2.png)
+
+```
+## Error in unique(df00$catalog): object 'df00' not found
+```
+
+```
+## Error in pics[[1]]: subscript out of bounds
+```
+
+```
+## Error in pics[[1]]: subscript out of bounds
+```
+
+```
+## Error in plot_grid(prow, legend_b, ncol = 2, rel_widths = c(1, 0.2)): object 'prow' not found
+```
+
+![plot of chunk Fig3](20170201_manuscript/Fig3-1.png)
 
 
 
@@ -46,7 +63,7 @@ Paper consumption for various document formats over time.
 
 Loess smoothing.
 
-![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)![plot of chunk Fig4](20170201_manuscript/Fig4-2.png)
+![plot of chunk Fig4](20170201_manuscript/Fig4-1.png)
 
 ---
 
@@ -230,20 +247,20 @@ This document was created with the following versions:
 ## [34] gtools_3.5.0        spdep_0.6-15        biomformat_1.5.0   
 ## [37] geosphere_1.5-5     Matrix_1.2-11       Rcpp_0.12.13       
 ## [40] munsell_0.4.3       S4Vectors_0.15.11   ape_4.1            
-## [43] proto_1.0.0         yaml_2.1.14         stringi_1.1.5      
-## [46] MASS_7.3-47         zlibbioc_1.23.0     rhdf5_2.21.6       
-## [49] plyr_1.8.4          grid_3.4.2          gdata_2.18.0       
-## [52] parallel_3.4.2      gender_0.5.1.9000   deldir_0.1-14      
-## [55] lattice_0.20-35     Biostrings_2.45.4   splines_3.4.2      
-## [58] multtest_2.33.0     mapproj_1.2-5       igraph_1.1.2       
-## [61] boot_1.3-20         rjson_0.2.15        codetools_0.2-15   
-## [64] stats4_3.4.2        LearnBayes_2.15     XML_3.98-1.9       
-## [67] glue_1.1.1          babynames_0.3.0     evaluate_0.10.1    
-## [70] data.table_1.10.4   png_0.1-7           foreach_1.4.3      
-## [73] RgoogleMaps_1.4.1   gtable_0.2.0        purrr_0.2.3        
-## [76] assertthat_0.2.0    coda_0.19-1         survival_2.41-3    
-## [79] genderdata_0.5.0    iterators_1.0.8     memoise_1.1.0      
-## [82] IRanges_2.11.18     cluster_2.0.6
+## [43] proto_1.0.0         stringi_1.1.5       MASS_7.3-47        
+## [46] zlibbioc_1.23.0     rhdf5_2.21.6        plyr_1.8.4         
+## [49] grid_3.4.2          gdata_2.18.0        parallel_3.4.2     
+## [52] gender_0.5.1.9000   deldir_0.1-14       lattice_0.20-35    
+## [55] Biostrings_2.45.4   splines_3.4.2       multtest_2.33.0    
+## [58] mapproj_1.2-5       igraph_1.1.2        boot_1.3-20        
+## [61] rjson_0.2.15        codetools_0.2-15    stats4_3.4.2       
+## [64] LearnBayes_2.15     XML_3.98-1.9        glue_1.1.1         
+## [67] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4  
+## [70] png_0.1-7           foreach_1.4.3       RgoogleMaps_1.4.1  
+## [73] gtable_0.2.0        purrr_0.2.3         assertthat_0.2.0   
+## [76] coda_0.19-1         survival_2.41-3     genderdata_0.5.0   
+## [79] iterators_1.0.8     memoise_1.1.0       IRanges_2.11.18    
+## [82] cluster_2.0.6
 ```
 
 
