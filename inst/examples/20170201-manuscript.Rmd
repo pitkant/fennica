@@ -565,8 +565,11 @@ df <- df %>%
 library(bibliographica)
 
 top <- c("Turku", "Vaasa", "Vyborg")
+df <- filter(df, !is.na(publication_place))
+df$publication_place[!df$publication_place %in% top] <- "Other/Fennica"
+top <- c(top, "Other/Fennica")
 df <- df %>%	
-        filter(publication_place %in% top) %>%	
+        #filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
 	
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
@@ -581,8 +584,11 @@ df <- df %>%
 
 # Selected publication places
 top <- c("Stockholm", "Lund", "Uppsala", "Greifswald", "Tartu")
+df <- filter(df, !is.na(publication_place))
+df$publication_place[!df$publication_place %in% top] <- "Other/Kungliga"
+top <- c(top, "Other/Kungliga")
 df <- df %>%	
-        filter(publication_place %in% top) %>%	
+        #filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
 	
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
@@ -623,15 +629,18 @@ df <- df0
 catal <- "Kungliga"
 df <- df %>%
         filter(catalog == catal) %>%
-	filter(country == "Finland" | publication_place == "Vyborg") %>%
+	#filter(country == "Finland" | publication_place == "Vyborg") %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
 
 # Top publication places
 library(bibliographica)
 
 top <- c("Turku", "Vaasa", "Vyborg")
+df <- filter(df, !is.na(publication_place))
+df$publication_place[!df$publication_place %in% top] <- "Other/Fennica"
+top <- c(top, "Other/Fennica")
 df <- df %>%	
-        filter(publication_place %in% top) %>%	
+        #filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
 	
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
@@ -647,6 +656,9 @@ df <- df %>%
 
 # Selected publication places
 top <- c("Stockholm", "Lund", "Uppsala", "Greifswald", "Tartu")
+df <- filter(df, !is.na(publication_place))
+df$publication_place[!df$publication_place %in% top] <- "Other/Kungliga"
+top <- c(top, "Other/Kungliga")
 df <- df %>%	
         filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
