@@ -625,6 +625,7 @@ print(p)
 All towns from Kungliga.
 
 ```{r Fig9, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=12}
+
 df <- df0
 catal <- "Kungliga"
 df <- df %>%
@@ -663,20 +664,36 @@ df <- df %>%
         filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
 	
-npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
+npub <- unique(df) %>% group_by(publication_decade, publication_place) %>%
+                       tally()
 npub$publication_place <- factor(npub$publication_place, levels = top)
 npub.kungliga <- npub
 npub <- bind_rows(npub.fennica, npub.kungliga)
 
 # Order by total publishing activity
-npub$publication_place <- factor(npub$publication_place,
-                                 levels = (npub %>%
-				             group_by(publication_place) %>%
-					     summarise(total = sum(n)) %>%
-					     arrange(desc(total)))$publication_place)
+npub$publication_place <- as.character((npub$publication_place))
+
+
+
+npub <- npub %>% group_by(publication_decade, publication_place) %>%
+                       summarise(n = sum(n))
+
+
+levs <- npub %>%
+  group_by(publication_place) %>%				             
+  summarise(total = sum(n)) %>%					     
+  arrange(desc(total))
+levs <- levs$publication_place
+
+
+
+npub$publication_place <- factor(npub$publication_place, levs)
 npub <- npub %>% arrange(publication_place)
 npub$publication_place <- factor(npub$publication_place,
                                  levels = rev(unique(npub$publication_place)))
+
+
+
 
 theme_set(theme_bw(20))
 brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)  
@@ -690,9 +707,10 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
            labels = insert_minor(brs, 2, start = min(npub$publication_decade))) + 
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        ggtitle("Figure 9")       
-       #ggtitl(paste("Publishers (", catal, ")", sep = ""))       
 
 print(p)
+
+
 ```
 
 ---
