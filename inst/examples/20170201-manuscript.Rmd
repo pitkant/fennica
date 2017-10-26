@@ -637,8 +637,8 @@ library(bibliographica)
 
 top <- c("Turku", "Vaasa", "Vyborg")
 df <- filter(df, !is.na(publication_place))
-df$publication_place[!df$publication_place %in% top] <- "Other/Fennica"
-top <- c(top, "Other/Fennica")
+df$publication_place[!df$publication_place %in% top] <- "Other"
+top <- c(top, "Other")
 df <- df %>%	
         #filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
@@ -657,8 +657,8 @@ df <- df %>%
 # Selected publication places
 top <- c("Stockholm", "Lund", "Uppsala", "Greifswald", "Tartu")
 df <- filter(df, !is.na(publication_place))
-df$publication_place[!df$publication_place %in% top] <- "Other/Kungliga"
-top <- c(top, "Other/Kungliga")
+df$publication_place[!df$publication_place %in% top] <- "Other"
+top <- c(top, "Other")
 df <- df %>%	
         filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
