@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
-date: "2017-10-18"
+date: "2017-10-26"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -205,11 +205,11 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] cowplot_0.8.0         ggthemes_3.4.0        devtools_1.13.3      
-##  [4] stringr_1.2.0         gisfin_0.9.27         R6_2.2.2             
-##  [7] rgdal_1.2-13          sp_1.2-5              ggmap_2.6.1          
-## [10] rmarkdown_1.6.0.9001  scales_0.5.0          sorvi_0.8.13         
-## [13] tibble_1.3.4          microbiome_0.99.88    phyloseq_1.21.0      
+##  [1] cowplot_0.8.0         scales_0.5.0          ggthemes_3.4.0       
+##  [4] devtools_1.13.3       stringr_1.2.0         gisfin_0.9.27        
+##  [7] R6_2.2.2              rgdal_1.2-13          sp_1.2-5             
+## [10] ggmap_2.6.1           rmarkdown_1.6.0.9001  sorvi_0.8.13         
+## [13] tibble_1.3.4          microbiome_0.99.90    phyloseq_1.21.0      
 ## [16] bindrcpp_0.2          knitr_1.17            gridExtra_2.3        
 ## [19] reshape2_1.4.2        magrittr_1.5          fennica_0.1.43       
 ## [22] bibliographica_0.2.32 dplyr_0.7.4           tidyr_0.7.2          
@@ -230,20 +230,20 @@ This document was created with the following versions:
 ## [34] gtools_3.5.0        spdep_0.6-15        biomformat_1.5.0   
 ## [37] geosphere_1.5-5     Matrix_1.2-11       Rcpp_0.12.13       
 ## [40] munsell_0.4.3       S4Vectors_0.15.11   ape_4.1            
-## [43] proto_1.0.0         stringi_1.1.5       MASS_7.3-47        
-## [46] zlibbioc_1.23.0     rhdf5_2.21.6        plyr_1.8.4         
-## [49] grid_3.4.2          gdata_2.18.0        parallel_3.4.2     
-## [52] gender_0.5.1.9000   deldir_0.1-14       lattice_0.20-35    
-## [55] Biostrings_2.45.4   splines_3.4.2       multtest_2.33.0    
-## [58] mapproj_1.2-5       igraph_1.1.2        boot_1.3-20        
-## [61] rjson_0.2.15        codetools_0.2-15    stats4_3.4.2       
-## [64] LearnBayes_2.15     XML_3.98-1.9        glue_1.1.1         
-## [67] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4  
-## [70] png_0.1-7           foreach_1.4.3       RgoogleMaps_1.4.1  
-## [73] gtable_0.2.0        purrr_0.2.3         assertthat_0.2.0   
-## [76] coda_0.19-1         survival_2.41-3     genderdata_0.5.0   
-## [79] iterators_1.0.8     memoise_1.1.0       IRanges_2.11.18    
-## [82] cluster_2.0.6
+## [43] proto_1.0.0         stringi_1.1.5       yaml_2.1.14        
+## [46] MASS_7.3-47         zlibbioc_1.23.0     rhdf5_2.21.6       
+## [49] plyr_1.8.4          grid_3.4.2          gdata_2.18.0       
+## [52] parallel_3.4.2      gender_0.5.1.9000   deldir_0.1-14      
+## [55] lattice_0.20-35     Biostrings_2.45.4   splines_3.4.2      
+## [58] multtest_2.33.0     mapproj_1.2-5       igraph_1.1.2       
+## [61] boot_1.3-20         rjson_0.2.15        codetools_0.2-15   
+## [64] stats4_3.4.2        LearnBayes_2.15     XML_3.98-1.9       
+## [67] glue_1.1.1          babynames_0.3.0     evaluate_0.10.1    
+## [70] data.table_1.10.4-2 png_0.1-7           foreach_1.4.3      
+## [73] RgoogleMaps_1.4.1   gtable_0.2.0        purrr_0.2.3        
+## [76] assertthat_0.2.0    coda_0.19-1         survival_2.41-3    
+## [79] genderdata_0.5.0    iterators_1.0.8     memoise_1.1.0      
+## [82] IRanges_2.11.18     cluster_2.0.6
 ```
 
 
