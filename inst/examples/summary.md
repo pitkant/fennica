@@ -15,15 +15,15 @@ Fields of special interest. Real success percentage (proportion of successful co
 
 ## Publisher
 
-[Self-published accepted](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
+[Self-published accepted](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
 
-[Self-published raw fields](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/self_published_rawfields.csv) (Check that the self-publication is a correct classification for these docs)
+[Self-published raw fields](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/self_published_rawfields.csv) (Check that the self-publication is a correct classification for these docs)
 
 We also have corporate info available ?
 
-[Accepted corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
+[Accepted corporate info](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
 
-[Discarded corporate info](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/corporate_discarded.csv)
+[Discarded corporate info](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/corporate_discarded.csv)
 
 
 
@@ -37,7 +37,7 @@ Top-20 geographical places are shown together with the number of documents assig
 
 
 
-[Complete geoplace listing](https://github.com/rOpenGov/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)
+[Complete geoplace listing](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/geoplaces.csv)
 
 
 

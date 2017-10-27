@@ -61,7 +61,7 @@ fontsize: 13pt
 
 **Automated** scales well with new data and unforeseen changes; a million documents cleaned up in 30 minutes
 
-**Open source** fully transparent and reproducible data analytics: https://github.com/rOpenGov/fennica
+**Open source** fully transparent and reproducible data analytics: https://github.com/COMHIS/fennica
 
 **Research potential** greatly underestimated; world is full of metadata collections
 
@@ -308,7 +308,7 @@ Code infrastructure:
 
 For more info, see: 
 
-- \textcolor{blue}{https://github.com/rOpenGov/fennica}
+- \textcolor{blue}{https://github.com/COMHIS/fennica}
 
 \begin{figure}
 \begin{tabular}{cccccc}

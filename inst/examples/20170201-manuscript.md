@@ -110,7 +110,7 @@ All towns from Kungliga.
 
 ### Fig. 12: Title count per capita
 
-The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
+The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
 ![plot of chunk Fig12](20170201_manuscript/Fig12-1.png)
 

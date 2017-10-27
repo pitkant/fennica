@@ -564,7 +564,7 @@ print(p)
 Publisher title count changes around 1700 with a nearly detrimental drop in Turku, significant publishing place in Finland at the time.
 
 ```{r drop1700B, echo=FALSE, message=FALSE, warning=FALSE, fig.width=15, fig.height=7}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/drop1700B-1.png
+# https://github.com/COMHIS/fennica/blob/master/inst/examples/figure_201606_Krakow/drop1700B-1.png
 
 catalogue <- "Fennica"
 place <- "Turku"
@@ -814,7 +814,7 @@ print(p)
 - Form of literature denoting the advancement of reading in Finland in the nineteenth century. It has been unclear when does it show up as a relevant category.
 
 ```{r topics12122, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=6, fig.show="hold"}
-# https://github.com/rOpenGov/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
+# https://github.com/COMHIS/fennica/blob/master/inst/examples/figure_201606_Krakow/topics-2.png
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
 catalogue <- "Fennica"
 

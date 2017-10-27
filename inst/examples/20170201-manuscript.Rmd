@@ -811,7 +811,7 @@ print(p)
 
 ### Fig. 12: Title count per capita
 
-The historical population sizes used in this analysis are shown in this [table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
+The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
 ```{r Fig12, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5}
 # Read historical population sizes
