@@ -1,19 +1,19 @@
 Package: fennica
 Type: Package
 Title: Finnish National Bibliography Fennica Toolkit
-Version: 0.1.43
+Version: 0.1.44
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
     person("Roivainen", "Hege", role = "aut"),        
     person("Ilomaki", "Niko", role = "ctb"),    
     person("Tolonen", "Mikko", role = "aut"))
-MailingList: rOpenGov <ropengov-forum@googlegroups.com>
+MailingList: comhis <comhis-forum@googlegroups.com>
 Description: Algorithms for Finnish Library Data.
 License: BSD_2_clause + file LICENSE
 VignetteBuilder: knitr
 Encoding: UTF-8
-BugReports: https://github.com/ropengov/fennica/issues
-URL: http://github.com/ropengov/fennica
+BugReports: https://github.com/comhis/fennica/issues
+URL: http://github.com/comhis/fennica
 Depends:
     R (>= 3.1.3)
 Imports:
