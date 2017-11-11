@@ -3,7 +3,6 @@
 #' @importFrom bibliographica clean_publisher
 #' @importFrom bibliographica clean_publisher_destructively
 #' @importFrom bibliographica extract_personal_names
-#' @importFrom bibliographica harmonize_publisher
 #' @importFrom bibliographica map
 #' @importFrom bibliographica remove_endings
 #' @importFrom graphics plot

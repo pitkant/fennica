@@ -7,7 +7,7 @@ combine_publisher_fennica <- function(df.preprocessed, languages=c("english"), p
   # TODO: Shortcut: exit if empty
   
   unprocessed_pubs <- clean_publisher(df.preprocessed$publisher[-enriched_inds], languages = languages)
-  unprocessed_pubs <- harmonize_publisher(unprocessed_pubs, publication_year[-enriched_inds], languages = languages)
+  unprocessed_pubs <- harmonize_publisher_fennica2(unprocessed_pubs, publication_year[-enriched_inds], languages = languages)
   unprocessed_towns <- df.preprocessed$publication_place[-enriched_inds]
   unprocessed_years <- publication_year[-enriched_inds,]
   
