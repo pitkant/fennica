@@ -1,7 +1,6 @@
 #' @import dplyr
 #' @importFrom bibliographica capitalize
 #' @importFrom bibliographica clean_publisher
-#' @importFrom bibliographica clean_publisher_destructively
 #' @importFrom bibliographica extract_personal_names
 #' @importFrom bibliographica harmonize_for_comparison
 #' @importFrom bibliographica map

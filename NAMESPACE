@@ -3,6 +3,7 @@
 export(cheat_publishers)
 export(city_geocoordinates_all)
 export(city_synonymes)
+export(clean_publisher_destructively)
 export(collect_misspellings)
 export(counts_by_language)
 export(counts_by_town)
