@@ -91,7 +91,7 @@ harmonize_publisher_fennica2 <- function(x, publication_year, languages=c("engli
   publication_year$publication_year_from[idx] <- publication_year$publication_year_from[idx]
   publication_year$publication_year_till[idx] <- publication_year$publication_year_till[idx]
 
-  # Get the publisher name forms into a table
+  message("Get the publisher name forms into a table")
   x   <- cbind.data.frame(publisher=q)
   id  <- apply(x, 1, function (x) {paste(x, collapse = "-")})
   ido <- rev(sort(table(id)))
@@ -103,6 +103,7 @@ harmonize_publisher_fennica2 <- function(x, publication_year, languages=c("engli
   total <- sum(tab[,2])
 
   # TODO vectorization of for loops with sapply could speed up considerably
+  message("For looping")
   for (pub in unique(q)) {
     inds <- which(q == pub)
     min_year <- min(publication_year$publication_year_from[inds], na.rm = TRUE)
@@ -142,7 +143,7 @@ harmonize_publisher_fennica2 <- function(x, publication_year, languages=c("engli
   # Build the stop mechanism
   # NB! Hardcoded for Finnish. Language specific handling required.
   # TODO vectorization of for loops with sapply could speed up considerably
-  f <- "fi_publisher_caveat.csv"
+  f <- system.file("extdata/fi_publisher_caveat.csv", package = "fennica")
   caveats <- read.csv(f, sep = "\t", fileEncoding = "UTF-8")
   cav <- data.frame(name1=character(nrow(caveats)*2), name2=character(nrow(caveats)*2), stringsAsFactors=FALSE)
   for (i in 1:nrow(caveats)) {
@@ -175,7 +176,7 @@ harmonize_publisher_fennica2 <- function(x, publication_year, languages=c("engli
   language <- "finnish"
   
   if (language=="finnish") {
-    f <- "fi_publisher_with_placeholders.csv"
+    f <- system.file("extdata/fi_publisher_with_placeholders.csv", package = "fennica")
   } else if (language=="swedish") {
     # TODO    
   } else if (language=="english") {
