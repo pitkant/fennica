@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
-date: "2017-10-26"
+date: "2017-11-13"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -206,14 +206,14 @@ This document was created with the following versions:
 ## 
 ## other attached packages:
 ##  [1] cowplot_0.8.0         scales_0.5.0          ggthemes_3.4.0       
-##  [4] devtools_1.13.3       stringr_1.2.0         gisfin_0.9.27        
-##  [7] R6_2.2.2              rgdal_1.2-13          sp_1.2-5             
-## [10] ggmap_2.6.1           rmarkdown_1.6.0.9001  sorvi_0.8.13         
-## [13] tibble_1.3.4          microbiome_0.99.90    phyloseq_1.21.0      
-## [16] bindrcpp_0.2          knitr_1.17            gridExtra_2.3        
-## [19] reshape2_1.4.2        magrittr_1.5          fennica_0.1.43       
-## [22] bibliographica_0.2.32 dplyr_0.7.4           tidyr_0.7.2          
-## [25] ggplot2_2.2.1        
+##  [4] gisfin_0.9.27         R6_2.2.2              rgdal_1.2-13         
+##  [7] sp_1.2-5              ggmap_2.6.1           rmarkdown_1.6.0.9001 
+## [10] stringr_1.2.0         microbiome_1.1.10003  phyloseq_1.21.0      
+## [13] knitr_1.17            gridExtra_2.3         reshape2_1.4.2       
+## [16] tidyr_0.7.2           bindrcpp_0.2          ggplot2_2.2.1        
+## [19] magrittr_1.5          sorvi_0.8.13          tibble_1.3.4         
+## [22] dplyr_0.7.4           devtools_1.13.3       fennica_0.1.44       
+## [25] bibliographica_0.2.37
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] nlme_3.1-131        gmodels_2.16.2      rprojroot_1.2      
@@ -230,7 +230,7 @@ This document was created with the following versions:
 ## [34] gtools_3.5.0        spdep_0.6-15        biomformat_1.5.0   
 ## [37] geosphere_1.5-5     Matrix_1.2-11       Rcpp_0.12.13       
 ## [40] munsell_0.4.3       S4Vectors_0.15.11   ape_4.1            
-## [43] proto_1.0.0         stringi_1.1.5       yaml_2.1.14        
+## [43] proto_1.0.0         yaml_2.1.14         stringi_1.1.5      
 ## [46] MASS_7.3-47         zlibbioc_1.23.0     rhdf5_2.21.6       
 ## [49] plyr_1.8.4          grid_3.4.2          gdata_2.18.0       
 ## [52] parallel_3.4.2      gender_0.5.1.9000   deldir_0.1-14      

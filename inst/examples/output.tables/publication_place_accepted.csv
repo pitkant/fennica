@@ -83,7 +83,7 @@ Göttingen	Germany	    9	0.01
 Greifswald	Germany	   19	0.03
 Gutersloh	Germany	    1	0
 Haapajärvi	Finland	    5	0.01
-Haaparanta	Finland	    8	0.01
+Haaparanta	Sweden	    8	0.01
 Haarlem	Netherlands	    6	0.01
 Haderslev	Denmark	    1	0
 Halberstadt	Germany	    1	0
@@ -99,7 +99,7 @@ Hannover	Germany	    2	0
 Harbor Oh	USA	    2	0
 Harjavalta	Finland	    1	0
 Härnösand	Sweden	    8	0.01
-Haunia	Finland	    3	0
+Haunia	Copenhagen	    3	0
 Heidelberg	Germany	    9	0.01
 Heilbronn	Germany	    1	0
 Heinäjoki	Finland	    1	0
@@ -129,7 +129,7 @@ Isafjördur	Iceland	    6	0.01
 Ishpeming Mi	USA	    7	0.01
 Isokyrö	Finland	    8	0.01
 Jaakkima	Finland	    2	0
-Jääski	Russia	    1	0
+Jääski	Finland	    1	0
 Jacobson Mi	USA	    1	0
 Jalasjärvi	Finland	    1	0
 Jämsä	Finland	    5	0.01
@@ -230,7 +230,7 @@ Mäntyharju	Finland	    1	0
 Marburg	Germany	    4	0.01
 Mariehamn	Finland	   66	0.1
 Marttila	Finland	    1	0
-Messina	Finland	    1	0
+Messina	Italy	    1	0
 Mikkeli	Finland	  240	0.36
 Milan	Italy	    5	0.01
 Milwaukee Wi	USA	    1	0
@@ -293,7 +293,7 @@ Pietarsaari	Finland	   76	0.11
 Pihlava	Finland	    2	0
 Piikkiö	Finland	    6	0.01
 Pinjainen	Finland	    1	0
-Pistoia	Finland	    1	0
+Pistoia	Italy	    1	0
 Pori	Finland	  713	1.06
 Port Arthur On	Canada	   28	0.04
 Portland Or	USA	    1	0
@@ -352,7 +352,7 @@ Stralsund	Germany	    2	0
 Strängnäs	Sweden	   24	0.04
 Strasbourg	France	    7	0.01
 Stuttgart	Germany	   20	0.03
-Sudbury On	USA	    1	0
+Sudbury On	Canada	    1	0
 Sundsvall	Sweden	    1	0
 Suomussalmi	Finland	    2	0
 Suonenjoki	Finland	    1	0
@@ -408,7 +408,7 @@ Vilnius	Lithuania	    6	0.01
 Virginia Mn	USA	    1	0
 Virolahti	Finland	    2	0
 Visingsborg	Sweden	    5	0.01
-Vyborg	Russia	 1207	1.79
+Vyborg	Finland	 1207	1.79
 Warsaw	Poland	    9	0.01
 Weida	Germany	    1	0
 Weimar	Germany	    9	0.01

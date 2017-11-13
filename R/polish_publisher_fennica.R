@@ -96,7 +96,7 @@ polish_publisher_fennica <- function (df.preprocessed, useShortcuts=FALSE) {
   # ----------------------------------------------------------------------------------
   
   # Convert S.N. into NA 
-  f <- system.file("extdata/NA_publishers.csv", package = "bibliographica")
+  f <- system.file("extdata/NA_publishers.csv", package = "fennica")
   synonymes <- read.csv(file = f, sep = "\t", fileEncoding = "UTF-8", as.is = TRUE)
 
   # HR 20160930:

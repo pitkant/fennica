@@ -1,16 +1,13 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-10-27"
+date: "2017-11-13"
 output: markdown_document
 ---
 
 # Preprocessing summary
 
-The data spanning years 1488-1955 has been
-included and contains 70451 documents (also other
-filter may apply depending on the data collection, see the source code
-for details.
+The data spanning years 1488-1955 has been included and contains 70451 documents (also other filter may apply depending on the data collection, see the source code for details.
 
 
 
@@ -76,9 +73,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |area                           |        48.1|          51.9|         36541|        764|
 |author_name                    |        36.5|          63.5|         44705|      11621|
 |author                         |        36.5|          63.5|         44705|      11682|
-|self_published                 |        20.2|          79.8|         56251|          3|
-|publisher                      |        13.7|          86.3|         60824|       7974|
-|country                        |         4.1|          95.9|         67539|         33|
+|self_published                 |        20.2|          79.8|         56211|          3|
+|publisher                      |        13.7|          86.3|         60824|       8042|
+|country                        |         4.1|          95.9|         67539|         34|
 |publication_place              |         4.1|          95.9|         67540|        425|
 |latitude                       |         2.0|          98.0|         69048|        195|
 |longitude                      |         2.0|          98.0|         69048|        195|
@@ -150,9 +147,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings                     |         0.0|         100.0|         70451|         18|
 
 ```
-##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells   981502  52.5    1770749  94.6  1770749  94.6
-## Vcells 14981693 114.4   42290529 322.7 42280257 322.6
+##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells   5256492  280.8    8273852  441.9   8273852  441.9
+## Vcells 237849362 1814.7  441174406 3365.9 441115635 3365.5
 ```
 
 

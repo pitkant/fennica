@@ -1,9 +1,9 @@
 Name	Count	Percentage
 Total count (na.rm TRUE): 	67539	
-Finland	57530	85.18
-Sweden	 4912	 7.27
-Russia	 2423	 3.59
-USA	  813	 1.20
+Finland	58725	86.95
+Sweden	 4920	 7.28
+Russia	 1215	 1.80
+USA	  812	 1.20
 Germany	  745	 1.10
 Estonia	  251	 0.37
 England	  183	 0.27
@@ -12,8 +12,8 @@ Denmark	  141	 0.21
 Netherlands	   81	 0.12
 Norway	   48	 0.07
 Latvia	   46	 0.07
-Italy	   36	 0.05
-Canada	   33	 0.05
+Italy	   38	 0.06
+Canada	   34	 0.05
 Hungary	   28	 0.04
 Poland	   24	 0.04
 Austria	   21	 0.03
@@ -23,6 +23,7 @@ Belgium	    7	 0.01
 Spain	    7	 0.01
 Ukraine	    7	 0.01
 Lithuania	    6	 0.01
+Copenhagen	    3	 0.00
 Czech Republic	    3	 0.00
 Romania	    2	 0.00
 Argentina	    1	 0.00

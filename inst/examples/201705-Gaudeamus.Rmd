@@ -9,7 +9,8 @@ fontsize: 13pt
 
 ```{r init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
 # Data files
-input.data.file <- "df.combined.Gaudeamus2017.Rds"
+#input.data.file <- "df.combined.Gaudeamus2017.Rds"
+input.data.file <- "df.combined.20170125.Rds"
 
 # Default time span
 library(ggmap)
