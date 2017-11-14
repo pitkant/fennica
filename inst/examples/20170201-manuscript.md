@@ -167,20 +167,12 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 ### Fig 16: Language use in Turku, Stockholm, Uppsala and Lund
 
-
-```
-## Error: Insufficient values in manual scale. 8 needed but only 0 provided.
-```
+![plot of chunk Fig16](20170201_manuscript/Fig16-1.png)
 
 ---
 
 
 ### Fig. 17: Topic richness per language (Fennica)
-
-
-```
-## Error: Insufficient values in manual scale. 4 needed but only 0 provided.
-```
 
 ![plot of chunk Fig17](20170201_manuscript/Fig17-1.png)
 
@@ -188,11 +180,6 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 
 ### Fig. 18: Temporary sermons in Latin and Swedish
-
-
-```
-## Error: Insufficient values in manual scale. 7 needed but only 0 provided.
-```
 
 ![plot of chunk Fig18](20170201_manuscript/Fig18-1.png)
 
