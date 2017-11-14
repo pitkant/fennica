@@ -148,8 +148,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1070925  57.2    2164898 115.7  2164898 115.7
-## Vcells 22965853 175.3   56152227 428.5 55161824 420.9
+## Ncells   983893  52.6    1770749  94.6  1770749  94.6
+## Vcells 14987120 114.4   37171028 283.6 37155743 283.5
 ```
 
 
