@@ -31,7 +31,6 @@ library(devtools)
 #library(ggthemr)
 
 cities <- c(
-	      "Greifswald",
 	      "Lund",
 	      "Other",
 	      "Stockholm",
@@ -40,7 +39,8 @@ cities <- c(
 	      "Uppsala",
 	      "Vyborg",
 	      "Gothenburg",
-	      "Linköping"
+	      "Linköping",
+	      "Greifswald"	      
 	    )
 city.colors <- stata_pal("s2color")(length(city.colors))
 names(city.colors) <- cities
@@ -53,7 +53,7 @@ languages <- c(
 	      "Hebrew",
 	      "Latin",
 	      "Other",
-	      "Russian2"
+	      "Russian"
 	    )
 lang.colors <- stata_pal("s2color")(length(city.colors))
 names(lang.colors) <- languages
