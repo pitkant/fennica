@@ -1,7 +1,7 @@
 ---
 title: "Publication year summaries"
 author: "Leo Lahti"
-date: "2017-11-13"
+date: "2017-11-14"
 output: markdown_document
 ---
 
