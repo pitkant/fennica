@@ -1,4 +1,4 @@
-x1Fennica: analysis of the Finnish national bibliography
+Fennica: analysis of the Finnish national bibliography
 ============================================
 
 This repository contains automated analysis of the Finnish national bibliography, [Fennica](http://www.kansalliskirjasto.fi/kirjastoala/fennica.html). Fennica includes bibliographic metadata for over 70,000 documents between 1488-1955, representing the publishing activity in Finland during that period. This is analyzed in parallel with [Kungliga](https://github.com/comhis/kungliga), a related collection of bibliographic metadata from the Swedish National library.

@@ -30,6 +30,35 @@ library(devtools)
 # devtools::install_github('cttobin/ggthemr')
 #library(ggthemr)
 
+cities <- c(
+	      "Greifswald",
+	      "Lund",
+	      "Other",
+	      "Stockholm",
+	      "Tartu",
+	      "Turku",
+	      "Uppsala",
+	      "Vyborg",
+	      "Gothenburg",
+	      "Linkoping"
+	    )
+city.colors <- stata_pal("s2color")(length(city.colors))
+names(city.colors) <- cities
+
+languages <- c(
+	      "Finnish",
+	      "Swedish",
+	      "French",
+	      "German",
+	      "Hebrew",
+	      "Latin",
+	      "Other",
+	      "Russian2"
+	    )
+lang.colors <- stata_pal("s2color")(length(city.colors))
+names(lang.colors) <- languages
+
+
 knitr::opts_chunk$set(echo = FALSE)
 #knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
 knitr::opts_chunk$set(fig.path = "20170201_manuscript/")
@@ -340,7 +369,7 @@ for (varname in c("n", "paper", "publishers")) {
      geom_bar(position = "stack", stat = "identity", color = "black",
        aes(fill = publication_place)) + 
      xlab("Decade") +
-     scale_fill_stata() 
+     #scale_fill_stata() 
      if (varname == "n") {
        p <- p + labs(subtitle = paste("Title count (", catalogue, ")", sep = ""), y = "Title count (%)")
      }
@@ -352,6 +381,7 @@ for (varname in c("n", "paper", "publishers")) {
      }     
   p <- p + guides(fill = guide_legend(title = "")) 
   p <- p + scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(dff$publication_decade)) + 50))
+  p <- p + scale_fill_manual(values = city.colors[as.character(levels(dff$publication_place))])
 
   pics[[paste(catalogue, varname, sep = "-")]] <- p
 
@@ -408,7 +438,8 @@ p <- ggplot(df,
        #scale_x_discrete(labels = c("1757-1765", "1766-1774", "1775-1783")) +
        #scale_fill_manual(values = c("darkgreen", "darkgray"))
        #scale_fill_brewer(palette="Greys") +
-       scale_fill_stata() +       
+       scale_fill_stata() +
+       #scale_fill_manual(values = city.colors[as.character(levels(df$publication_place))]) + 
        guides(fill = guide_legend(title = "Period")) +
        ylab("Paper (sheets)") + xlab("") +
        ggtitle("Figure 6") 
@@ -554,6 +585,9 @@ library(reshape2)
 Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
 
 ```{r Fig8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.height=5, fig.width=12}
+# Top publication places
+library(bibliographica)
+
 df <- df0
 catal <- "Fennica"
 df <- df %>%
@@ -561,17 +595,15 @@ df <- df %>%
 	filter(country == "Finland" | publication_place == "Vyborg") %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
 
-# Top publication places
-library(bibliographica)
-
 top <- c("Turku", "Vaasa", "Vyborg")
 df <- filter(df, !is.na(publication_place))
-df$publication_place[!df$publication_place %in% top] <- "Other/Fennica"
-top <- c(top, "Other/Fennica")
+df$publication_place[!df$publication_place %in% top] <- "Other"
+top <- c(top, "Other")
 df <- df %>%	
         #filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
-	
+df.fennica <- df
+
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
 npub$publication_place <- factor(npub$publication_place, levels = top)
 npub.fennica <- npub
@@ -580,17 +612,19 @@ df <- df0
 catalogue <- "Kungliga"
 df <- df %>%
         filter(catalog == catalogue) %>%
-        filter(publication_year >= 1640 & publication_year <= 1828)
+        filter(publication_year >= 1640 & publication_year <= 1828) %>%
+        filter(country == "Sweden" | publication_place %in% c("Greifswald", "Tartu"))	
 
 # Selected publication places
 top <- c("Stockholm", "Lund", "Uppsala", "Greifswald", "Tartu")
 df <- filter(df, !is.na(publication_place))
-df$publication_place[!df$publication_place %in% top] <- "Other/Kungliga"
-top <- c(top, "Other/Kungliga")
+df$publication_place[!df$publication_place %in% top] <- "Other"
+top <- c(top, "Other")
 df <- df %>%	
         #filter(publication_place %in% top) %>%	
         select(publication_decade, publication_place, publisher)
-	
+df.kungliga <- df
+
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
 npub$publication_place <- factor(npub$publication_place, levels = top)
 npub.kungliga <- npub
@@ -602,6 +636,17 @@ npub$publication_place <- factor(npub$publication_place, levels = (npub %>% grou
 npub <- npub %>% arrange(publication_place)
 npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npub$publication_place)))
 
+rminds <- c()
+for (dec in npub$publication_decade) {
+  inds <- which(npub$publication_decade == dec & npub$publication_place == "Other")
+  # Combine the counts for the other place
+  if (length(inds) == 2) {
+    npub[inds[[1]], "n"] <- sum(npub[inds,"n"])
+    rminds <- c(rminds, inds[[2]])
+  }
+}
+npub <- npub[-rminds, ]
+
 theme_set(theme_bw(20))
 brs <- seq(min(npub$publication_decade), max(npub$publication_decade), 10)  
 p <- ggplot(npub, aes(x = publication_decade, y = n)) +
@@ -609,7 +654,8 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        		    aes(fill = publication_place)) + 
        xlab("Decade") +
        ylab("Publishers (n)") +
-       scale_fill_stata() +       
+       #scale_fill_stata() +
+       scale_fill_manual(values = city.colors[as.character(levels(npub$publication_place))]) +        
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +
        ggtitle("Figure 8")
@@ -702,7 +748,8 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        		    aes(fill = publication_place)) + 
        xlab("Decade") +
        ylab("Publishers (n)") +
-       scale_fill_stata() +
+       #scale_fill_stata() +
+       scale_fill_manual(values = city.colors[as.character(levels(npub$publication_place))]) +               
        scale_x_continuous(breaks = brs,
            labels = insert_minor(brs, 2, start = min(npub$publication_decade))) + 
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
@@ -865,7 +912,8 @@ p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        geom_point(aes(shape = publication_place, color = publication_place), size = 5) +
        xlab("Decade") +
        ylab("Title count per capita (n)") +
-       scale_color_stata() +
+       #scale_color_stata() +
+       scale_color_manual(values = city.colors[as.character(levels(dfm$publication_place))]) +                      
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = labs) +                    
        #ggtitle("Title count per capita") +
@@ -922,7 +970,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n)) +
        scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 1)) +                                  
        guides(shape = guide_legend(title = "Place")) +
        guides(color = guide_legend(title = "Place")) +
-       scale_color_stata()
+       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) 
+       #scale_color_stata()
 print(p)
 ```
 
@@ -964,7 +1013,8 @@ p <- ggplot(df, aes(x = publication_decade, y = paper)) +
        #ggtitle("Paper consumption (Octavo)") +
        ggtitle("Figure 14") +                     
        guides(shape = guide_legend(title = "Place"), color = guide_legend(title = "Place")) +
-       scale_color_stata()
+       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) 
+       #scale_color_stata()
 print(p)
 ```
 
@@ -996,7 +1046,8 @@ p <- ggplot(df, aes(x = publication_decade, y = mean_title_length)) +
        ylab("Title length (words)") +
        #ggtitle("Average title length") +
        ggtitle("Figure 15") +                            
-       scale_fill_stata() +
+       #scale_fill_stata() +
+       scale_fill_manual(values = city.colors[as.character(levels(df$publication_place))]) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        guides(fill = guide_legend(title = "Place", reverse = TRUE))        
 print(p)
@@ -1064,7 +1115,8 @@ for (catalogue in c("Fennica", "Kungliga")) {
       ylab("Title count (%)")
       
       p <- p + labs(subtitle = paste(myplace, "/", catalogue)) +                 
-      scale_fill_stata() +
+      #scale_fill_stata() +
+      scale_fill_manual(values = lang.colors[as.character(levels(dfss$publication_place))]) +      
       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +  
       #scale_fill_brewer(palette="Greys") +       
       guides(fill = guide_legend(title = "")) 
@@ -1102,11 +1154,13 @@ p <- ggplot(df, aes(x = publication_decade, y = n, shape = language)) +
        geom_line(size = 1, aes(color = language)) +
        geom_point(size = 4, aes(color = language)) +
        scale_color_brewer(palette="Greys") +
-       scale_fill_brewer(palette="Greys") +                     
+       scale_fill_brewer(palette="Greys") +
+       #scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +
        # geom_smooth(color = "black") +
        guides(shape = guide_legend(title = "Language"),
               color = guide_legend(title = "Language")) +
-       scale_color_stata() +
+       #scale_color_stata() +
+       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +             
        # scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2, start = century(min(brs)) + 40)) +                 
        ylab("Subject topics (n)") +
@@ -1167,7 +1221,8 @@ dfl$language <- factor(dfl$language, levels = langs)
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = 1600)) +
        scale_y_continuous(label = scientific_10) + 
-       scale_color_stata() +
+       #scale_color_stata() +
+       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +  
        ggtitle("Figure 18")
        #ggtitle(paste("Temporary sermons (", catalogue, ")", sep = ""))
   print(p)
@@ -1222,7 +1277,8 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        xlab("Decade") +
        ylab("Paper (sheets)") +
        guides(shape = guide_legend(title = "Language"), color = guide_legend(title = "Language")) +
-       scale_color_stata() +
+       #scale_color_stata() +
+       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +         
        # scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +       
