@@ -40,7 +40,7 @@ cities <- c(
 	      "Uppsala",
 	      "Vyborg",
 	      "Gothenburg",
-	      "Linkoping"
+	      "Linköping"
 	    )
 city.colors <- stata_pal("s2color")(length(city.colors))
 names(city.colors) <- cities
@@ -916,7 +916,8 @@ p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        xlab("Decade") +
        ylab("Title count per capita (n)") +
        #scale_color_stata() +
-       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +                      
+       #scale_color_manual(values = city.colors[as.character(levels(dfm$publication_place))]) +
+       scale_color_manual(values = city.colors[match(unique(dfm$publication_place), names(city.colors))]) +              
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = labs) +                    
        #ggtitle("Title count per capita") +
@@ -961,20 +962,20 @@ df <- bind_rows(df1, df2)
 brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 brsy <- seq(0, round(max(df$n), -3), 1e3)
 labs <- brs; labs[!brs %in% df$publication_decade] <- ""
+#df$publication_place <- factor(df$publication_place, levels = levels(df0$publication_place))
+
 p <- ggplot(df, aes(x = publication_decade, y = n)) +
        geom_line(aes(color = publication_place), size = 1) +
        geom_point(aes(color = publication_place, shape = publication_place), size = 5) +
        xlab("Decade") +
        ylab("Title count (n)") +
-       #ggtitle("Title count (absolute)") +
        ggtitle("Figure 13") +              
-       #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        scale_x_continuous(breaks = brs, labels = labs) +
        scale_y_continuous(breaks = brsy, labels = insert_minor(brsy, 1)) +
-       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +       
+       scale_color_manual(values = city.colors[match(unique(df$publication_place), names(city.colors))]) +       
        guides(shape = guide_legend(title = "Place")) +
        guides(color = guide_legend(title = "Place")) 
-       #scale_color_stata()
+
 print(p)
 ```
 
@@ -1014,7 +1015,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_y_continuous(label = scientific_10) +
        ggtitle("Figure 14") +
-       scale_color_manual(values = city.colors[as.character(levels(df$publication_place))]) +       
+       scale_color_manual(values = city.colors[match(unique(df$publication_place), names(city.colors))]) +       
        guides(shape = guide_legend(title = "Place"), color = guide_legend(title = "Place")) 
        #scale_color_stata()
 print(p)
@@ -1279,7 +1280,8 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        ylab("Paper (sheets)") +
        guides(shape = guide_legend(title = "Language"), color = guide_legend(title = "Language")) +
        #scale_color_stata() +
-       scale_color_manual(values = lang.colors[as.character(levels(df$language))]) +         
+       #scale_color_manual(values = lang.colors[as.character(levels(df$language))]) +
+       scale_color_manual(values = lang.colors[match(unique(df$language), names(lang.colors))]) +              
        # scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(brs)) + 50)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +       
