@@ -47,12 +47,12 @@ names(city.colors) <- cities
 
 languages <- c(
 	      "Finnish",
+	      "Other",
 	      "Swedish",
 	      "French",
 	      "German",
 	      "Hebrew",
 	      "Latin",
-	      "Other",
 	      "Russian"
 	    )
 lang.colors <- stata_pal("s2color")(length(city.colors))
@@ -619,7 +619,7 @@ df <- df %>%
         filter(country == "Sweden" | publication_place %in% c("Greifswald", "Tartu"))	
 
 # Selected publication places
-top <- c("Stockholm", "Lund", "Uppsala", "Greifswald", "Tartu")
+top <- c("Stockholm", "Lund", "Uppsala", "Greifswald")
 df <- filter(df, !is.na(publication_place))
 df$publication_place[!df$publication_place %in% top] <- "Other"
 top <- c(top, "Other")
