@@ -18,7 +18,7 @@ fontsize: 13pt
 ---
 
 
-### Fig. 1: Number of publication places over time
+### Fig 1: Number of publication places over time
 
 ![plot of chunk Fig1](20170201_manuscript/Fig1-1.png)
 
@@ -69,7 +69,7 @@ Proportions for title count and paper in Swedish University towns
 ---
 
 
-### Fig. 7: Publishing activity and riksdagar: Kungliga
+### Fig 7: Publishing activity and riksdagar: Kungliga
 
 ![plot of chunk Fig7](20170201_manuscript/Fig7-1.png)
 
@@ -110,7 +110,7 @@ All towns from Kungliga.
 
 
 
-### Fig. 12: Title count per capita
+### Fig 12: Title count per capita
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
@@ -120,7 +120,7 @@ The historical population sizes used in this analysis are shown in this [table](
 
 
 
-### Fig. 13: Title count (absolute)
+### Fig 13: Title count (absolute)
 
 ![plot of chunk Fig13](20170201_manuscript/Fig13-1.png)
 
@@ -129,7 +129,7 @@ The historical population sizes used in this analysis are shown in this [table](
 
 
 
-### Fig. 14: Octavo paper consumption
+### Fig 14: Octavo paper consumption
 
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
@@ -141,7 +141,7 @@ Kungliga.
 ---
 
 
-### Fig. 15: Octavo title length (word count)
+### Fig 15: Octavo title length (word count)
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and Linköping. According to Kungliga, except Turku from Fennica. 
 
@@ -157,21 +157,21 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 ---
 
 
-### Fig. 17: Topic richness per language (Fennica)
+### Fig 17: Topic richness per language (Fennica)
 
 ![plot of chunk Fig17](20170201_manuscript/Fig17-1.png)
 
 ---
 
 
-### Fig. 18: Temporary sermons in Latin and Swedish
+### Fig 18: Temporary sermons in Latin and Swedish
 
 ![plot of chunk Fig18](20170201_manuscript/Fig18-1.png)
 
 ---
 
 
-### Fig. 19: Devotional literature (catechisms, hymns, prayers, etc.) 
+### Fig 19: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
