@@ -371,7 +371,7 @@ for (varname in c("n", "paper", "publishers")) {
   p <- ggplot(dff, aes(x = publication_decade, y = f)) +
      geom_bar(position = "stack", stat = "identity", color = "black",
        aes(fill = publication_place)) + 
-     xlab("Decade") +
+     xlab("Decade") 
      #scale_fill_stata() 
      if (varname == "n") {
        p <- p + labs(subtitle = paste("Title count (", catalogue, ")", sep = ""), y = "Title count (%)")
@@ -382,9 +382,9 @@ for (varname in c("n", "paper", "publishers")) {
      if (varname == "publishers") {
        p <- p + labs(subtitle = paste("Publishers (", catalogue, ")", sep = ""), y = "Publishers (%)")
      }     
-  p <- p + guides(fill = guide_legend(title = "")) 
   p <- p + scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(dff$publication_decade)) + 50))
   p <- p + scale_fill_manual(values = city.colors[as.character(levels(dff$publication_place))])
+  p <- p + guides(fill = guide_legend(title = "")) 
 
   pics[[paste(catalogue, varname, sep = "-")]] <- p
 

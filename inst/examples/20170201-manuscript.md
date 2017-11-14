@@ -57,14 +57,7 @@ Loess smoothing.
 
 Proportions for title count and paper in Swedish University towns
  
-
-```
-## Error: Don't know how to add o to a plot
-```
-
-```
-## Error in pics[[1]]: subscript out of bounds
-```
+![plot of chunk Fig5](20170201_manuscript/Fig5-1.png)
 
 ---
 
