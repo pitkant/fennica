@@ -35,7 +35,9 @@ fontsize: 13pt
 
 Paper consumption for various document formats over time.
 
-![plot of chunk Fig3](20170201_manuscript/Fig3-1.png)![plot of chunk Fig3](20170201_manuscript/Fig3-2.png)
+
+
+
 
 
 
