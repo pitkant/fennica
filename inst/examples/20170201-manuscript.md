@@ -114,11 +114,6 @@ All towns from Kungliga.
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-
-```
-## Error: Insufficient values in manual scale. 6 needed but only 0 provided.
-```
-
 ![plot of chunk Fig12](20170201_manuscript/Fig12-1.png)
 
 ---
@@ -126,11 +121,6 @@ The historical population sizes used in this analysis are shown in this [table](
 
 
 ### Fig. 13: Title count (absolute)
-
-
-```
-## Error: Insufficient values in manual scale. 6 needed but only 0 provided.
-```
 
 ![plot of chunk Fig13](20170201_manuscript/Fig13-1.png)
 
@@ -144,11 +134,6 @@ The historical population sizes used in this analysis are shown in this [table](
 Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
 Kungliga.
-
-
-```
-## Error: Insufficient values in manual scale. 6 needed but only 0 provided.
-```
 
 ![plot of chunk Fig14](20170201_manuscript/Fig14-1.png)
 
@@ -190,11 +175,6 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-
-```
-## Error: Insufficient values in manual scale. 7 needed but only 0 provided.
-```
-
 ![plot of chunk Fig19](20170201_manuscript/Fig19-1.png)
 
 ---
@@ -231,7 +211,7 @@ This document was created with the following versions:
 ##  [4] knitcitations_1.0.9   cowplot_0.8.0         scales_0.5.0         
 ##  [7] ggthemes_3.4.0        gisfin_0.9.27         R6_2.2.2             
 ## [10] rgdal_1.2-13          sp_1.2-5              ggmap_2.6.1          
-## [13] rmarkdown_1.6.0.9001  stringr_1.2.0         microbiome_1.1.10004 
+## [13] rmarkdown_1.6.0.9001  stringr_1.2.0         microbiome_1.1.10006 
 ## [16] phyloseq_1.21.0       knitr_1.17            gridExtra_2.3        
 ## [19] reshape2_1.4.2        tidyr_0.7.2           bindrcpp_0.2         
 ## [22] ggplot2_2.2.1         magrittr_1.5          sorvi_0.8.13         
