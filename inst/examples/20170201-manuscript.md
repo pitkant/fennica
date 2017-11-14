@@ -11,21 +11,6 @@ fontsize: 13pt
 ---
 
 
-```
-## Error in stata_pal("s2color"): could not find function "stata_pal"
-```
-
-```
-## Error in names(city.colors) <- cities: object 'city.colors' not found
-```
-
-```
-## Error in stata_pal("s2color"): could not find function "stata_pal"
-```
-
-```
-## Error in names(lang.colors) <- languages: object 'lang.colors' not found
-```
 
 
 
@@ -72,10 +57,7 @@ Loess smoothing.
 
 Proportions for title count and paper in Swedish University towns
  
-
-```
-## Error in f(...): object 'city.colors' not found
-```
+![plot of chunk Fig5](20170201_manuscript/Fig5-1.png)
 
 ---
 
@@ -97,11 +79,6 @@ Proportions for title count and paper in Swedish University towns
 ### Fig 8: Publishers in Swedish University towns (Fennica)
 
 Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
-
-
-```
-## Error in f(...): object 'city.colors' not found
-```
 
 ![plot of chunk Fig8](20170201_manuscript/Fig8-1.png)
 
@@ -130,11 +107,6 @@ Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tart
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-
-```
-## Error in f(...): object 'city.colors' not found
-```
-
 ![plot of chunk Fig11](20170201_manuscript/Fig11-1.png)
 
 ---
@@ -142,11 +114,6 @@ The historical population sizes used in this analysis are shown in this [table](
 
 
 ### Fig 12: Title count (absolute)
-
-
-```
-## Error in f(...): object 'city.colors' not found
-```
 
 ![plot of chunk Fig12](20170201_manuscript/Fig12-1.png)
 
@@ -161,11 +128,6 @@ Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
 Kungliga.
 
-
-```
-## Error in f(...): object 'city.colors' not found
-```
-
 ![plot of chunk Fig13](20170201_manuscript/Fig13-1.png)
 
 
@@ -176,11 +138,6 @@ Kungliga.
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and Linköping. According to Kungliga, except Turku from Fennica. 
 
-
-```
-## Error in f(...): object 'city.colors' not found
-```
-
 ![plot of chunk Fig14](20170201_manuscript/Fig14-1.png)
 
 ---
@@ -188,20 +145,12 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 ### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
 
-
-```
-## Error in f(...): object 'lang.colors' not found
-```
+![plot of chunk Fig15](20170201_manuscript/Fig15-1.png)
 
 ---
 
 
 ### Fig 16: Topic richness per language (Fennica)
-
-
-```
-## Error in f(...): object 'lang.colors' not found
-```
 
 ![plot of chunk Fig16](20170201_manuscript/Fig16-1.png)
 
@@ -209,11 +158,6 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 
 ### Fig 17: Temporary sermons in Latin and Swedish
-
-
-```
-## Error in f(...): object 'lang.colors' not found
-```
 
 ![plot of chunk Fig17](20170201_manuscript/Fig17-1.png)
 
@@ -223,11 +167,6 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 ### Fig 18: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
-
-
-```
-## Error in f(...): object 'lang.colors' not found
-```
 
 ![plot of chunk Fig18](20170201_manuscript/Fig18-1.png)
 
@@ -286,20 +225,20 @@ This document was created with the following versions:
 ## [34] gtools_3.5.0        spdep_0.6-15        biomformat_1.5.0   
 ## [37] geosphere_1.5-5     Matrix_1.2-11       Rcpp_0.12.13       
 ## [40] munsell_0.4.3       S4Vectors_0.15.11   ape_4.1            
-## [43] proto_1.0.0         stringi_1.1.5       MASS_7.3-47        
-## [46] zlibbioc_1.23.0     rhdf5_2.21.6        plyr_1.8.4         
-## [49] grid_3.4.2          gdata_2.18.0        parallel_3.4.2     
-## [52] gender_0.5.1.9000   deldir_0.1-14       lattice_0.20-35    
-## [55] Biostrings_2.45.4   splines_3.4.2       multtest_2.33.0    
-## [58] mapproj_1.2-5       igraph_1.1.2        boot_1.3-20        
-## [61] rjson_0.2.15        codetools_0.2-15    stats4_3.4.2       
-## [64] LearnBayes_2.15     XML_3.98-1.9        glue_1.1.1         
-## [67] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4-2
-## [70] png_0.1-7           foreach_1.4.3       RgoogleMaps_1.4.1  
-## [73] gtable_0.2.0        purrr_0.2.3         assertthat_0.2.0   
-## [76] coda_0.19-1         survival_2.41-3     genderdata_0.5.0   
-## [79] iterators_1.0.8     memoise_1.1.0       IRanges_2.11.18    
-## [82] cluster_2.0.6
+## [43] proto_1.0.0         yaml_2.1.14         stringi_1.1.5      
+## [46] MASS_7.3-47         zlibbioc_1.23.0     rhdf5_2.21.6       
+## [49] plyr_1.8.4          grid_3.4.2          gdata_2.18.0       
+## [52] parallel_3.4.2      gender_0.5.1.9000   deldir_0.1-14      
+## [55] lattice_0.20-35     Biostrings_2.45.4   splines_3.4.2      
+## [58] multtest_2.33.0     mapproj_1.2-5       igraph_1.1.2       
+## [61] boot_1.3-20         rjson_0.2.15        codetools_0.2-15   
+## [64] stats4_3.4.2        LearnBayes_2.15     XML_3.98-1.9       
+## [67] glue_1.1.1          babynames_0.3.0     evaluate_0.10.1    
+## [70] data.table_1.10.4-2 png_0.1-7           foreach_1.4.3      
+## [73] RgoogleMaps_1.4.1   gtable_0.2.0        purrr_0.2.3        
+## [76] assertthat_0.2.0    coda_0.19-1         survival_2.41-3    
+## [79] genderdata_0.5.0    iterators_1.0.8     memoise_1.1.0      
+## [82] IRanges_2.11.18     cluster_2.0.6
 ```
 
 
