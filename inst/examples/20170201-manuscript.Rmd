@@ -66,7 +66,7 @@ names(lang.colors) <- languages
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "20170201_manuscript/", dpi = 300)
 #knitr::opts_chunk$set(dev = "cairo_postscript") # Embed fonts
-knitr::opts_chunk$set(dev = "svg") # Embed fonts
+knitr::opts_chunk$set(dev = c("svg", "png")) # Embed fonts
 knitr::opts_chunk$set(out.width = "17cm") # Default size 8.5cm ie 3.35 inch) per col
 knitr::opts_chunk$set(out.format = "latex")
 
