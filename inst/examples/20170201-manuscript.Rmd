@@ -8,8 +8,6 @@ output:
     colortheme: "orchid"
     fonttheme: "professionalfonts"
     dev: "png"
-  pdf_document:
-    dev: "svg"
 fontsize: 12pt
 ---
 
@@ -29,10 +27,6 @@ library(bibliographica)
 library(fennica)
 library(sorvi)
 library(devtools)
-# install_github("ropengov/gisfin")
-# devtools::install_github('cttobin/ggthemr')
-#library(ggthemr)
-#knitr::opts_chunk$set(fig.path = "slides_201606_Krakow/", dev="CairoPNG")
 
 cities <- c(
 	      "Lund",

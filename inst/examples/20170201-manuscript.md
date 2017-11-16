@@ -8,8 +8,6 @@ output:
     colortheme: "orchid"
     fonttheme: "professionalfonts"
     dev: "png"
-  pdf_document:
-    dev: "svg"
 fontsize: 12pt
 ---
 
