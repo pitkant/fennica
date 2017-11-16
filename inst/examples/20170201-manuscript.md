@@ -10,7 +10,8 @@ output:
     dev: "png"
   pdf_document:
     dev: "svg"
-    out.width=17cm
+    out.width: "17cm"
+
 fontsize: 12pt
 ---
 
