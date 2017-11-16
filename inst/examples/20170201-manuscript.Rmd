@@ -66,17 +66,6 @@ knitr::opts_chunk$set(out.format = "latex")
 
 # Set locale
 tmp <- Sys.setlocale(locale="UTF-8") 
-
-# Nice theme
-# theme_set(theme_bw(26))
-
-# Nice default themes
-# https://github.com/cttobin/ggthemr#palettes
-#ggthemr('fresh', text_size = 20)
-# ggthemr('greyscale', text_size = 20)
-#ggthemr('light', text_size = 20)
-# ggthemr('pale', text_size = 20)
-#ggthemr_reset() # Reset theme
 ```
 
 
@@ -828,7 +817,7 @@ p <- ggplot(dfm, aes(x = publication_decade, y = titles_per_capita)) +
        #scale_color_manual(values = city.colors[as.character(levels(dfm$publication_place))]) +
        scale_color_manual(values = city.colors[match(unique(dfm$publication_place), names(city.colors))]) +              
        #scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +
-       scale_x_continuous(breaks = brs, labels = labs) 
+       scale_x_continuous(breaks = brs, labels = labs) +
        #ggtitle("Title count per capita") +
        # ggtitle("Figure 11") +       
        guides(shape = guide_legend(title = "Place")) +

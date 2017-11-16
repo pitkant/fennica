@@ -108,11 +108,6 @@ Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tart
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-
-```
-## Error in guides(shape = guide_legend(title = "Place")) + guides(color = guide_legend(title = "Place")): non-numeric argument to binary operator
-```
-
 <img src="20170201_manuscript/Figure_11-1.svg" title="plot of chunk Figure_11" alt="plot of chunk Figure_11" width="17cm" />
 
 ---
@@ -234,20 +229,20 @@ This document was created with the following versions:
 ## [40] biomformat_1.5.0    geosphere_1.5-5     Matrix_1.2-11      
 ## [43] Rcpp_0.12.13        munsell_0.4.3       S4Vectors_0.15.11  
 ## [46] RefManageR_0.14.20  ape_4.1             proto_1.0.0        
-## [49] stringi_1.1.5       MASS_7.3-47         zlibbioc_1.23.0    
-## [52] rhdf5_2.21.6        plyr_1.8.4          grid_3.4.2         
-## [55] gdata_2.18.0        parallel_3.4.2      gender_0.5.1.9000  
-## [58] crayon_1.3.4        deldir_0.1-14       lattice_0.20-35    
-## [61] Biostrings_2.45.4   splines_3.4.2       multtest_2.33.0    
-## [64] mapproj_1.2-5       igraph_1.1.2        boot_1.3-20        
-## [67] rjson_0.2.15        codetools_0.2-15    stats4_3.4.2       
-## [70] LearnBayes_2.15     XML_3.98-1.9        glue_1.1.1         
-## [73] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4-2
-## [76] png_0.1-7           foreach_1.4.3       RgoogleMaps_1.4.1  
-## [79] gtable_0.2.0        purrr_0.2.3         assertthat_0.2.0   
-## [82] coda_0.19-1         survival_2.41-3     genderdata_0.5.0   
-## [85] iterators_1.0.8     memoise_1.1.0       IRanges_2.11.18    
-## [88] cluster_2.0.6
+## [49] yaml_2.1.14         stringi_1.1.5       MASS_7.3-47        
+## [52] zlibbioc_1.23.0     rhdf5_2.21.6        plyr_1.8.4         
+## [55] grid_3.4.2          gdata_2.18.0        parallel_3.4.2     
+## [58] gender_0.5.1.9000   crayon_1.3.4        deldir_0.1-14      
+## [61] lattice_0.20-35     Biostrings_2.45.4   splines_3.4.2      
+## [64] multtest_2.33.0     mapproj_1.2-5       igraph_1.1.2       
+## [67] boot_1.3-20         rjson_0.2.15        codetools_0.2-15   
+## [70] stats4_3.4.2        LearnBayes_2.15     XML_3.98-1.9       
+## [73] glue_1.1.1          babynames_0.3.0     evaluate_0.10.1    
+## [76] data.table_1.10.4-2 png_0.1-7           foreach_1.4.3      
+## [79] RgoogleMaps_1.4.1   gtable_0.2.0        purrr_0.2.3        
+## [82] assertthat_0.2.0    coda_0.19-1         survival_2.41-3    
+## [85] genderdata_0.5.0    iterators_1.0.8     memoise_1.1.0      
+## [88] IRanges_2.11.18     cluster_2.0.6
 ```
 
 
