@@ -10,8 +10,6 @@ output:
     dev: "png"
   pdf_document:
     dev: "svg"
-    out.width: "17cm"
-
 fontsize: 12pt
 ---
 
@@ -25,14 +23,14 @@ fontsize: 12pt
 
 ### Fig 1: Number of publication places over time
 
-<img src="20170201_manuscript/Figure_1-1.png" title="plot of chunk Figure_1" alt="plot of chunk Figure_1" width="17cm" />
+<img src="20170201_manuscript/Figure_1-1.svg" title="plot of chunk Figure_1" alt="plot of chunk Figure_1" width="17cm" />
 
 ---
 
 
 ### Fig 2: Title count over time
 
-<img src="20170201_manuscript/Figure_2-1.png" title="plot of chunk Figure_2" alt="plot of chunk Figure_2" width="17cm" />
+<img src="20170201_manuscript/Figure_2-1.svg" title="plot of chunk Figure_2" alt="plot of chunk Figure_2" width="17cm" />
 
 ---
 
@@ -53,7 +51,7 @@ Paper consumption for various document formats over time.
 
 Loess smoothing.
 
-<img src="20170201_manuscript/Figure_4-1.png" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" /><img src="20170201_manuscript/Figure_4-2.png" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" />
+<img src="20170201_manuscript/Figure_4-1.svg" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" /><img src="20170201_manuscript/Figure_4-2.svg" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" />
 
 ---
 
@@ -62,21 +60,21 @@ Loess smoothing.
 
 Proportions for title count and paper in Swedish University towns
  
-<img src="20170201_manuscript/Figure_5-1.png" title="plot of chunk Figure_5" alt="plot of chunk Figure_5" width="17cm" />
+<img src="20170201_manuscript/Figure_5-1.svg" title="plot of chunk Figure_5" alt="plot of chunk Figure_5" width="17cm" />
 
 ---
 
 
 ### Fig 6: Publishing activity over time (Kungliga)
 
-<img src="20170201_manuscript/Figure_6-1.png" title="plot of chunk Figure_6" alt="plot of chunk Figure_6" width="17cm" />
+<img src="20170201_manuscript/Figure_6-1.svg" title="plot of chunk Figure_6" alt="plot of chunk Figure_6" width="17cm" />
 
 ---
 
 
 ### Fig 7: Publishing activity and riksdagar: Kungliga
 
-<img src="20170201_manuscript/Figure_7-1.png" title="plot of chunk Figure_7" alt="plot of chunk Figure_7" width="17cm" />
+<img src="20170201_manuscript/Figure_7-1.svg" title="plot of chunk Figure_7" alt="plot of chunk Figure_7" width="17cm" />
 
 ---
 
@@ -85,7 +83,7 @@ Proportions for title count and paper in Swedish University towns
 
 Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
 
-<img src="20170201_manuscript/Figure_8-1.png" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
+<img src="20170201_manuscript/Figure_8-1.svg" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
 
 ---
 
@@ -94,7 +92,7 @@ Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tart
 ### Fig 9: Publications in Vaasa in Fennica, 1750-1828
 
 
-<img src="20170201_manuscript/Figure_9-1.png" title="plot of chunk Figure_9" alt="plot of chunk Figure_9" width="17cm" />
+<img src="20170201_manuscript/Figure_9-1.svg" title="plot of chunk Figure_9" alt="plot of chunk Figure_9" width="17cm" />
 
 
 ---
@@ -102,7 +100,7 @@ Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tart
 
 ### Fig 10: Top publishers in Turku/Fennica
 
-<img src="20170201_manuscript/Figure_10-1.png" title="plot of chunk Figure_10" alt="plot of chunk Figure_10" width="17cm" />
+<img src="20170201_manuscript/Figure_10-1.svg" title="plot of chunk Figure_10" alt="plot of chunk Figure_10" width="17cm" />
 
 ---
 
@@ -117,7 +115,7 @@ The historical population sizes used in this analysis are shown in this [table](
 ## Error in guides(shape = guide_legend(title = "Place")) + guides(color = guide_legend(title = "Place")): non-numeric argument to binary operator
 ```
 
-<img src="20170201_manuscript/Figure_11-1.png" title="plot of chunk Figure_11" alt="plot of chunk Figure_11" width="17cm" />
+<img src="20170201_manuscript/Figure_11-1.svg" title="plot of chunk Figure_11" alt="plot of chunk Figure_11" width="17cm" />
 
 ---
 
@@ -125,7 +123,7 @@ The historical population sizes used in this analysis are shown in this [table](
 
 ### Fig 12: Title count (absolute)
 
-<img src="20170201_manuscript/Figure_12-1.png" title="plot of chunk Figure_12" alt="plot of chunk Figure_12" width="17cm" />
+<img src="20170201_manuscript/Figure_12-1.svg" title="plot of chunk Figure_12" alt="plot of chunk Figure_12" width="17cm" />
 
 ---
 
@@ -138,7 +136,7 @@ Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from Fennica, other cities from
 Kungliga.
 
-<img src="20170201_manuscript/Figure_13-1.png" title="plot of chunk Figure_13" alt="plot of chunk Figure_13" width="17cm" />
+<img src="20170201_manuscript/Figure_13-1.svg" title="plot of chunk Figure_13" alt="plot of chunk Figure_13" width="17cm" />
 
 
 ---
@@ -148,28 +146,28 @@ Kungliga.
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and Linköping. According to Kungliga, except Turku from Fennica. 
 
-<img src="20170201_manuscript/Figure_14-1.png" title="plot of chunk Figure_14" alt="plot of chunk Figure_14" width="17cm" />
+<img src="20170201_manuscript/Figure_14-1.svg" title="plot of chunk Figure_14" alt="plot of chunk Figure_14" width="17cm" />
 
 ---
 
 
 ### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
 
-<img src="20170201_manuscript/Figure_15-1.png" title="plot of chunk Figure_15" alt="plot of chunk Figure_15" width="17cm" />
+<img src="20170201_manuscript/Figure_15-1.svg" title="plot of chunk Figure_15" alt="plot of chunk Figure_15" width="17cm" />
 
 ---
 
 
 ### Fig 16: Topic richness per language (Fennica)
 
-<img src="20170201_manuscript/Figure_16-1.png" title="plot of chunk Figure_16" alt="plot of chunk Figure_16" width="17cm" />
+<img src="20170201_manuscript/Figure_16-1.svg" title="plot of chunk Figure_16" alt="plot of chunk Figure_16" width="17cm" />
 
 ---
 
 
 ### Fig 17: Temporary sermons in Latin and Swedish
 
-<img src="20170201_manuscript/Figure_17-1.png" title="plot of chunk Figure_17" alt="plot of chunk Figure_17" width="17cm" />
+<img src="20170201_manuscript/Figure_17-1.svg" title="plot of chunk Figure_17" alt="plot of chunk Figure_17" width="17cm" />
 
 ---
 
@@ -178,7 +176,7 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-<img src="20170201_manuscript/Figure_18-1.png" title="plot of chunk Figure_18" alt="plot of chunk Figure_18" width="17cm" />
+<img src="20170201_manuscript/Figure_18-1.svg" title="plot of chunk Figure_18" alt="plot of chunk Figure_18" width="17cm" />
 
 ---
 
