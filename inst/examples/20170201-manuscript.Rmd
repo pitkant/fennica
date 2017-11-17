@@ -58,11 +58,10 @@ names(lang.colors) <- languages
 
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "20170201_manuscript/", dpi = 300)
-knitr::opts_chunk$set(dev = c("png", "jpeg"))
+knitr::opts_chunk$set(dev = c("png", "jpeg", "cairo_ps"))
 #knitr::opts_chunk$set(dev = "cairo_pdf") # Embed fonts
 #knitr::opts_chunk$set(dev = "cairo_ps") # Embed fonts
-# knitr::opts_chunk$set(dev = c("png")) # Embed fonts
-# knitr::opts_chunk$set(out.width = "10cm") # Default size 8.5cm ie 3.35 inch) per col
+knitr::opts_chunk$set(out.width = "17cm") # Default size 8.5cm ie 3.35 inch) per col
 knitr::opts_chunk$set(out.format = "latex")
 
 # Set locale
@@ -91,7 +90,7 @@ cols <- list(Fennica = "blue", Kungliga = "darkred")
 
 ### Fig 1: Number of publication places over time
 
-```{r Figure_1, message=FALSE, warning=FALSE, fig.width=11, fig.height=5, echo=FALSE}
+```{r Figure_1, message=FALSE, warning=FALSE, fig.width=13, fig.height=5, echo=FALSE}
 
 library(dplyr)
 library(ggplot2)
