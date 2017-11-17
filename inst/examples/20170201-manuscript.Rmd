@@ -62,7 +62,7 @@ knitr::opts_chunk$set(dev = c("png", "jpeg"))
 #knitr::opts_chunk$set(dev = "cairo_pdf") # Embed fonts
 #knitr::opts_chunk$set(dev = "cairo_ps") # Embed fonts
 # knitr::opts_chunk$set(dev = c("png")) # Embed fonts
-knitr::opts_chunk$set(out.width = "10cm") # Default size 8.5cm ie 3.35 inch) per col
+# knitr::opts_chunk$set(out.width = "10cm") # Default size 8.5cm ie 3.35 inch) per col
 knitr::opts_chunk$set(out.format = "latex")
 
 # Set locale
