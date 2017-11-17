@@ -58,7 +58,7 @@ names(lang.colors) <- languages
 
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "20170201_manuscript/", dpi = 300)
-knitr::opts_chunk$set(dev = "jpeg", quality = 100) 
+knitr::opts_chunk$set(dev = c("png", "jpeg"))
 #knitr::opts_chunk$set(dev = "cairo_pdf") # Embed fonts
 #knitr::opts_chunk$set(dev = "cairo_ps") # Embed fonts
 # knitr::opts_chunk$set(dev = c("png")) # Embed fonts
