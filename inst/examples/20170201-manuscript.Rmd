@@ -740,14 +740,16 @@ print(p)
 ```{r Figure_10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
 library(dplyr)
 place <- "Turku"
-catalogue = "Fennica"
-df = df0
+catalogue <- "Fennica"
+df <- df0
 
-df <- df %>% filter(catalog == catalogue & publication_place == place)
+df <- df %>% filter(catalog == catalogue & publication_place == place) %>%
+             filter(!is.na(publisher))
+
 
 df <- df %>%	
-  filter(publication_year >= 1640 & publication_year <= 1828)%>%
-        select(publication_decade, publisher, paper)
+  filter(publication_year >= 1640 & publication_year <= 1828) %>%
+        select(publication_decade, publication_year, publisher, paper) 
 
 # Group small publishers
 # Top publishers by title count
@@ -759,20 +761,29 @@ df$publisher <- factor(df$publisher, c(top, "Other"))
 # Title count per decade & publisher	
 npub <- df %>% group_by(publication_decade, publisher) %>% tally() %>% arrange(n)
 
+# Title count per year & publisher	
+npub0 <- df %>% group_by(publication_year, publisher) %>% tally() %>% arrange(n)
+
 # Translate
 npub$publisher <- gsub("ja poika", "and son", npub$publisher)
 npub$publisher <- gsub("J.C. Frenckell and son", "Frenckell, Johan Christopher & Son", npub$publisher)
 npub$publisher <- gsub("Frenckellin leski", "Frenckell's widow", npub$publisher)
 npub$publisher <- gsub("Johan Christopher Frenckell's widow", "Frenckell, Johan Christopher's widow", npub$publisher)
 
-#npub$publisher <- factor(npub$publisher, levels = (npub %>% group_by(publisher) %>% summarise(total = sum(n)) %>% arrange(total))$publisher)
-# Sort by biggest publication decade
-#ord <- (npub %>% group_by(publisher) %>% summarise(decade = publication_decade[[which.max(n)]]) %>% arrange(decade))$publisher
 
-ord <- as.character((npub %>% group_by(publisher) %>% 
-                        summarise(decade = median(publication_decade)) %>% 
-                        arrange(decade))$publisher)
+# Translate
+npub0$publisher <- gsub("ja poika", "and son", npub0$publisher)
+npub0$publisher <- gsub("J.C. Frenckell and son", "Frenckell, Johan Christopher & Son", npub0$publisher)
+npub0$publisher <- gsub("Frenckellin leski", "Frenckell's widow", npub0$publisher)
+npub0$publisher <- gsub("Johan Christopher Frenckell's widow", "Frenckell, Johan Christopher's widow", npub0$publisher)
+
+# Order by average publication year
+ord <- as.character((npub0 %>% group_by(publisher) %>% 
+                        summarise(year = mean(publication_year)) %>% 
+                        arrange(year))$publisher)
+#ord <- ord[c(1:7, 9, 8, 10:11)]	
 npub$publisher <- factor(npub$publisher, levels = c("Other", setdiff(ord, "Other")))
+
 
 # TITLE COUNT
 #theme_set(theme_bw(20))
