@@ -332,6 +332,7 @@ rm(p)
 rm(prow)
 rm(legend_b)
 pics <- list()
+
 for (catalogue in na.omit(unique(df0$catalog))) {
 
 df <- df0 %>% filter(catalog == catalogue)%>%
@@ -395,10 +396,10 @@ library(gridExtra)
 library(cowplot)
 # arrange the three plots in a single row
 prow <- plot_grid(
-           pics[[1]] + theme(legend.position="none"),
-           pics[[2]] + theme(legend.position="none"),
-           pics[[3]] + theme(legend.position="none"),
-           pics[[4]] + theme(legend.position="none"),	   
+           pics[["Fennica-n"]] + theme(legend.position="none"),
+           pics[["Fennica-paper"]] + theme(legend.position="none"),
+           pics[["Kungliga-n"]] + theme(legend.position="none"),
+           pics[["Kungliga-paper"]] + theme(legend.position="none"),
            align = 'vh',
            # labels = c("A", "B", "", ""),
 	   # label_size = 25,	   
@@ -765,6 +766,9 @@ ord <- as.character((npub %>% group_by(publisher) %>%
                         arrange(decade))$publisher)
 npub$publisher <- factor(npub$publisher, levels = c("Other", setdiff(ord, "Other")))
 
+# Translate
+npub$publisher <- gsub("ja poika", "and son", npub$publisher)
+npub$publisher <- gsub("Frenckellin leski", "Frenckell's widow", npub$publisher)
 
 # TITLE COUNT
 #theme_set(theme_bw(20))
@@ -1060,10 +1064,10 @@ for (catalogue in c("Fennica", "Kungliga")) {
 library(cowplot)
 # arrange the three plots in a single row
 prow <- plot_grid(
-           pics[[1]] + theme(legend.position="none"),
-           pics[[2]] + theme(legend.position="none"),
-           pics[[3]] + theme(legend.position="none"),
-           pics[[4]] + theme(legend.position="none"),	   
+           pics[["Fennica-Turku"]] + theme(legend.position="none"),
+           pics[["Kungliga-Stockholm"]] + theme(legend.position="none"),
+           pics[["Kungliga-Uppsala"]] + theme(legend.position="none"),
+           pics[["Kungliga-Lund"]] + theme(legend.position="none"),	   	  
            align = 'vh',
            # labels = c("A", "B", "", ""),
 	   # label_size = 25,	   
