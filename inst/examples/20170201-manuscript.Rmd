@@ -758,17 +758,21 @@ df$publisher <- factor(df$publisher, c(top, "Other"))
 
 # Title count per decade & publisher	
 npub <- df %>% group_by(publication_decade, publisher) %>% tally() %>% arrange(n)
+
+# Translate
+npub$publisher <- gsub("ja poika", "and son", npub$publisher)
+npub$publisher <- gsub("J.C. Frenckell and son", "Frenckell, Johan Christopher & Son", npub$publisher)
+npub$publisher <- gsub("Frenckellin leski", "Frenckell's widow", npub$publisher)
+npub$publisher <- gsub("Johan Christopher Frenckell's widow", "Frenckell, Johan Christopher's widow", npub$publisher)
+
 #npub$publisher <- factor(npub$publisher, levels = (npub %>% group_by(publisher) %>% summarise(total = sum(n)) %>% arrange(total))$publisher)
 # Sort by biggest publication decade
 #ord <- (npub %>% group_by(publisher) %>% summarise(decade = publication_decade[[which.max(n)]]) %>% arrange(decade))$publisher
+
 ord <- as.character((npub %>% group_by(publisher) %>% 
                         summarise(decade = median(publication_decade)) %>% 
                         arrange(decade))$publisher)
 npub$publisher <- factor(npub$publisher, levels = c("Other", setdiff(ord, "Other")))
-
-# Translate
-npub$publisher <- gsub("ja poika", "and son", npub$publisher)
-npub$publisher <- gsub("Frenckellin leski", "Frenckell's widow", npub$publisher)
 
 # TITLE COUNT
 #theme_set(theme_bw(20))
