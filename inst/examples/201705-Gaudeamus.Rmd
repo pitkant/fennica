@@ -270,5 +270,11 @@ p <- ggplot(df2, aes(x = publication_decade)) +
    guides(fill = guide_legend(keywidth=1, title = "Julkaisupaikka")) +
    theme(legend.position = c(0.16, .7)) 
 print(p)
+
+table_hs <- df2 %>% group_by(publication_decade, publication_place) %>%
+                    tally() %>%
+		    spread(publication_place, n, fill = 0)
+library(openxlsx)		    
+openxlsx::write.xlsx(table_hs, file = "Table_HS_20180107.xlsx")
 ```
 
