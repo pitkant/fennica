@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-11-20"
+date: "2018-01-10"
 output: markdown_document
 ---
 
@@ -24,9 +24,6 @@ The data spanning years 1488-1955 has been included and contains 70451 documents
   * [Document and subject topics](topic.md)
   * [Languages](language.md)
 
-## Field conversions
-
-This documents the conversions from raw data to the final preprocessed version (accepted, discarded, conversions). Only some of the key tables are explicitly linked below. The complete list of all summary tables is [here](output.tables/).
 
 ## Annotated documents
 
@@ -73,8 +70,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |area                           |        48.1|          51.9|         36541|        764|
 |author_name                    |        36.5|          63.5|         44705|      11621|
 |author                         |        36.5|          63.5|         44705|      11682|
-|self_published                 |        20.2|          79.8|         56211|          3|
-|publisher                      |        13.7|          86.3|         60824|       8042|
+|self_published                 |        20.2|          79.8|         56191|          3|
+|publisher                      |        13.7|          86.3|         60833|       8132|
 |country                        |         4.1|          95.9|         67539|         34|
 |publication_place              |         4.1|          95.9|         67540|        425|
 |latitude                       |         2.0|          98.0|         69048|        195|
@@ -148,10 +145,20 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells   981541  52.5    1770749  94.6  1770749  94.6
-## Vcells 14981924 114.4   42290867 322.7 42280492 322.6
+## Ncells  4000824 213.7    6487074 346.5  6487074 346.5
+## Vcells 28663219 218.7   66679709 508.8 66679709 508.8
 ```
 
+
+## Field conversions
+
+This documents the conversions from raw data to the final preprocessed version (accepted, discarded, conversions). Only some of the key tables are explicitly linked below. The complete list of all summary tables is [here](output.tables/).
+
+Brief description of the fields:
+
+ * [Description of the original MARC fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames.csv)
+
+ * [Description of the preprocessed fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames_polished.csv)
 
 
 ## Histograms of all entries for numeric variables

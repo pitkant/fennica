@@ -1,18 +1,18 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-11-20"
+date: "2018-01-10"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8042 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8132 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60824 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 60833 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
- * 1864 documents are identified as self-published (2.6%). 
+ * 1909 documents are identified as self-published (2.7%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -35,18 +35,18 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                        | titles|     paper|
-|:--------------------------------|------:|---------:|
-|Frenckell, Johan Christopher I   |   1740| 1460952.5|
-|Frenckell, Johan Christopher II  |   2205| 2622613.1|
-|Hansson, Peter                   |    982| 1612252.9|
-|Kämpe, Johan                     |    986| 1556110.9|
-|Londicer, Georg Wilhelm          |   2100|  590734.4|
-|Otava                            |   2191| 2025350.7|
-|Söderström                       |   1203|  943434.8|
-|Suomalaisen Kirjallisuuden Seura |    973| 1390833.1|
-|Wall, Johan Larsson              |   1266| 2210292.0|
-|WSOY                             |   2882| 1862844.8|
+|publisher                       | titles|     paper|
+|:-------------------------------|------:|---------:|
+|Edlund                          |   1066| 1906547.7|
+|Frenckell, Johan Christopher I  |   1742| 1463305.3|
+|Frenckell, Johan Christopher II |   2205| 2622613.1|
+|Hansson, Peter                  |    982| 1612252.9|
+|Kämpe, Johan                    |    987| 1556538.7|
+|Londicer, Georg Wilhelm         |   2100|  590734.4|
+|Otava                           |   2188| 2011285.5|
+|Söderström                      |   1207|  947046.8|
+|Wall, Johan Larsson             |   1266| 2210292.0|
+|WSOY                            |   2881| 1861956.8|
 
 
 ### Corporates

@@ -1,7 +1,7 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2017-11-20"
+date: "2018-01-10"
 output: markdown_document
 ---
 
@@ -12,7 +12,7 @@ output: markdown_document
  * 4210 multilingual documents (5.98%)  
  * 727 docs (1.03%) with empty or [unrecognized language](output.tables/language_discarded.csv)
 
-Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/language_abbreviations.csv).
+Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/language_abbreviations.csv).
 
 Title count per language (including multi-language documents):
 

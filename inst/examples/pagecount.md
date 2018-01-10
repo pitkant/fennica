@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2017-11-20"
+date: "2018-01-10"
 output: markdown_document
 ---
 
@@ -24,7 +24,7 @@ output: markdown_document
 
   * [Augmented pagecounts](output.tables/pagecount_discarded.csv) For these cases the page count is missing (or discarded) in the original data, and estimated based on median page counts for [single volume](mean_pagecounts_singlevol.csv), [multi-volume](mean_pagecounts_multivol.csv) and [issues](mean_pagecounts_issue.csv), calculated from those documents where page count info was available.
 
-  * [Automated unit tests for page count conversions](https://github.com/rOpenGov/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
+  * [Automated unit tests for page count conversions](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/tests_polish_physical_extent.csv) - these are used to control that the page count conversions remain correct when changes are made to the cleanup routines
 
 
 
@@ -75,18 +75,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 Note: there are 33910 documents that have some dimension info but sheet area information could not be calculated. 
 
-
-```
-## Error in regression_plot(paper ~ publication_year, df2): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)
-
-```
-## Error in regression_plot(n ~ publication_year, df2): could not find function "regression_plot"
-```
-
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
 ![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
 
