@@ -26,10 +26,11 @@ render("20170201-manuscript.Rmd")
 
 #RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
 #RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
-#RM rmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
+#RMrmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 #knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
-rmarkdown::render("201705-Gaudeamus.Rmd") 
+#rmarkdown::render("201705-Gaudeamus.Rmd", output_format="pdf_document")
+#rmarkdown::render("201705-Gaudeamus.Rmd") 
 
 #rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 #library(rmarkdown)
