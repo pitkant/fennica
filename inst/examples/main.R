@@ -5,12 +5,6 @@ library(fennica)
 #load_all("bibliographica")
 #load_all()
 
-# Ensure NULL
-rm("update.fields")
-rm("ignore.fields")
-rm("df.preprocessed")
-rm("df.orig")
-
 # I/O definitions
 # make daily output folders TODO convert into function -vv
 # today.str <- as.character(Sys.Date())
@@ -20,7 +14,7 @@ output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
-fs <- "data/fennica.csv.gz"
+fs <- "data/fennica_parsed.csv.gz"
 catalog <- "fennica" 
 
 # Languages to consider in cleanup.
@@ -47,7 +41,10 @@ ignore.fields <- c("language2", "title_remainder",
 #            LOAD DATA FOR PREPROCESSING
 # ----------------------------------------------------
 
-reload.data <- FALSE
+reload.data <- FALSE # Set this to TRUE to regenerate df.raw.Rds
+if (!"df.raw.Rds" %in% dir()) {
+  reload.data <- TRUE
+}
 source(system.file("extdata/init.R", package = "bibliographica"))
 
 df.orig <- load_initial_datafile(fs, ignore.fields, reload.data)

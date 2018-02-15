@@ -17,7 +17,7 @@ if (file.exists("df.combined.Rds") &&
   message("Creating df.combined.Rds by combining df.Rds-files from Kungliga & Fennica")
 
   message("Reading the data")
-  fen <- readRDS("fennica.Rds") # symbolic link to fennica/inst/examples/fennica.Rds 
+  fen <- readRDS("fennica.Rds") # symbolic link to fennica/inst/examples/df.Rds 
   kun <- readRDS("kungliga.Rds")  # symbolic link to kungliga/df.Rds 
   
   message("Binding & adding extra fields")
