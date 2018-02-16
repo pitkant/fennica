@@ -66,23 +66,7 @@ df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 
 - `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year <= 1828))` documents 1640-1828
 
-```{r Gaudeamus-lineplot, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
-library(dplyr)
-library(ggplot2)
-theme_set(theme_bw(20))
-df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>%
-              group_by(catalog, publication_decade) %>% tally()
-p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) + 
-       geom_point() + 
-       geom_line() + 
-       ylab("Documents (n)") + xlab("Publication year") +
-       scale_color_manual(values = c("blue", "darkgreen")) +
-       guides(color = guide_legend(reverse = TRUE, title = "")) #+ 
-print(p)
 
-```
-
----
 
 
 ### Rise of the octavo sized book as vehicle of Enlightenment
@@ -100,7 +84,9 @@ for (catal in unique(df0$catalog)) {
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
-    
+
+  # df2$gatherings
+
   p <- ggplot(df2, aes(y = paper,
                        x = publication_decade,
 		       shape = gatherings
