@@ -10,7 +10,7 @@ for (catal in unique(df0$catalog)) {
                  group_by(publication_decade, gatherings) %>% 
 		 summarise(paper2 = sum(paper, na.rm = TRUE)/1e6, n = n()) 
   df2$paper <- df2$paper2; df2$paper2 <- NULL # Rename
-  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
+  df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 20)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
   df2$highlight <- factor(df2$highlight)
@@ -31,11 +31,10 @@ for (catal in unique(df0$catalog)) {
   p <- p + scale_fill_manual(values = c("black", "lightgray"))  	 
   p <- p + xlab("Vuosi")
   p <- p + ylab("Paperinkulutus (miljoonia arkkeja)")
-  p <- p + guides(linetype = guide_legend(keywidth = 5, title = "Koko"),
-       	             shape = guide_legend(keywidth = 5, title = "Koko"),
-		      fill = guide_legend(title = "Korostus"),
-		     color = guide_legend(title = "Korostus")
-		     )
+  p <- p + guides(linetype = guide_legend(keywidth = 5, title = "Koko", nrow = 2, title.position = "top"),
+       	             shape = guide_legend(keywidth = 5, title = "Koko", nrow = 2, title.position = "top"),
+		      fill = guide_legend(title = "Korostus", nrow = 2, title.position = "top"),
+		     color = guide_legend(title = "Korostus", nrow = 2, title.position = "top"))
   p <- p + ylim(c(0, max(df2$paper, na.rm = TRUE)))
   p <- p + ggtitle(catal)
   p <- p + theme(plot.title = element_text(hjust = 0))
