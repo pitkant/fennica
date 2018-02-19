@@ -48,6 +48,7 @@ if (!"df.raw.Rds" %in% dir()) {
 source(system.file("extdata/init.R", package = "bibliographica"))
 
 df.orig <- load_initial_datafile(fs, ignore.fields, reload.data)
+
 data.preprocessing <- get_preprocessing_data(df.orig, 
                                              update.fields,
                                              ignore.fields)
