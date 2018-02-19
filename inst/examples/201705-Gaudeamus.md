@@ -1,13 +1,12 @@
 ---
 title: "Gaudeamus 2017 Figures"
 author: "Mikko Tolonen, Leo Lahti"
-date: "2018-02-15"
+date: "2018-02-19"
 output:
   beamer_presentation:
     dev: cairo_pdf  
   pdf_document:
     dev: cairo_pdf
-    latexenginge: pdflatex
     keep_tex: yes
 fontsize: 13pt
 ---
@@ -17,6 +16,9 @@ fontsize: 13pt
 
 
 
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 ---
 
@@ -31,9 +33,7 @@ fontsize: 13pt
 
 - 70070 documents 1640-1828
 
-![plot of chunk lineplot](figure/lineplot-1.png)
 
----
 
 
 ### Rise of the octavo sized book as vehicle of Enlightenment

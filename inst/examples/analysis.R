@@ -7,6 +7,7 @@ source("analysis.combined.R")
 
 # Duplicate analyses / HR
 # may have to be updated after the latest code changes
+# but very slow
 # source("analysis.combined.run.R")
 
 # Custom analyses
@@ -28,9 +29,13 @@ render("20170201-manuscript.Rmd")
 #RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
 #RMrmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
 #knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
-#knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
+
+# Gaudeamus
+knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
 #rmarkdown::render("201705-Gaudeamus.Rmd", output_format="pdf_document")
 #rmarkdown::render("201705-Gaudeamus.Rmd") 
+source("Figure3.R")
+
 
 #rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 #library(rmarkdown)
