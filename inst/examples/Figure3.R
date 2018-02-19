@@ -13,6 +13,7 @@ for (catal in unique(df0$catalog)) {
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
+  df2$highlight <- factor(df2$highlight)
 
   df2$gatherings_abbr <- capitalize(map_gatherings(df2$gatherings, from = "Standard", to = "Name"))
 
@@ -24,14 +25,15 @@ for (catal in unique(df0$catalog)) {
   p <- p + geom_smooth(method = "loess", size = 1,
              aes(color = highlight, 
 	          fill = highlight, 
-		  linetype = gatherings_abbr), color = "black")
+		  linetype = gatherings_abbr,
+		  group = gatherings_abbr), color = "black")
   p <- p + scale_color_manual(values = c("black", "lightgray"))
   p <- p + scale_fill_manual(values = c("black", "lightgray"))  	 
   p <- p + xlab("Vuosi")
   p <- p + ylab("Paperinkulutus (miljoonia arkkeja)")
   p <- p + guides(linetype = guide_legend(keywidth = 5, title = "Koko"),
        	             shape = guide_legend(keywidth = 5, title = "Koko"),
-		     fill = guide_legend(title = "Korostus"),
+		      fill = guide_legend(title = "Korostus"),
 		     color = guide_legend(title = "Korostus")
 		     )
   p <- p + ylim(c(0, max(df2$paper, na.rm = TRUE)))
