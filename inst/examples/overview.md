@@ -144,19 +144,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |gatherings                     |         100.0|         70451|         0.0|         18|
 
 ```
-<<<<<<< HEAD
-##             used   (Mb) gc trigger   (Mb)  max used   (Mb)
-## Ncells   3039102  162.4    4703850  251.3   4703850  251.3
-## Vcells 200036317 1526.2  317733634 2424.2 300605384 2293.5
-||||||| merged common ancestors
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1002818  53.6    1770749  94.6  1770749  94.6
-## Vcells 15017181 114.6   43454662 331.6 43422118 331.3
-=======
-##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells   983359  52.6    1770749  94.6  1770749  94.6
-## Vcells 14979717 114.3   44242503 337.6 44221082 337.4
->>>>>>> 9e2c5ad18b234a320ef0f658e2027095fcf46058
+## Ncells  1247364  66.7    2164898 115.7  2164898 115.7
+## Vcells 15205231 116.1   44346510 338.4 44318149 338.2
 ```
 
 

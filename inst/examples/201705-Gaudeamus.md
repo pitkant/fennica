@@ -16,9 +16,6 @@ fontsize: 13pt
 
 
 
-```
-## Error in gzfile(file, "rb"): cannot open the connection
-```
 
 ---
 
