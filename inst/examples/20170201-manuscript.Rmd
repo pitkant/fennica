@@ -63,8 +63,11 @@ names(lang.colors) <- languages
 
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(fig.path = "20170201_manuscript/", dpi = 300)
-knitr::opts_chunk$set(dev = c("png", "jpeg", "cairo_ps"))
-#knitr::opts_chunk$set(dev = "cairo_pdf") # Embed fonts
+#knitr::opts_chunk$set(dev = c("png", "jpeg", "cairo_ps"))
+# knitr::opts_chunk$set(dev = "Cairo")
+#knitr::opts_chunk$set(dev = "CairoPDF")
+knitr::opts_chunk$set(dev = "CairoPS")
+# knitr::opts_chunk$set(dev = "cairo_pdf") # Embed fonts
 #knitr::opts_chunk$set(dev = "cairo_ps") # Embed fonts
 knitr::opts_chunk$set(out.width = "17cm") # Default size 8.5cm ie 3.35 inch) per col
 knitr::opts_chunk$set(out.format = "latex")
@@ -223,10 +226,10 @@ for (catal in unique(df.full$catalog)) {
   p <- p + ylim(c(0, max(na.omit(df2$paper))))
 	 
   p <- p + guides(
-       color = guide_legend(keywidth = 5, title = "Gatherings"),
-        fill = guide_legend(keywidth = 5, title = "Gatherings"),     
-       shape = guide_legend(keywidth = 5, title = "Gatherings", reverse = TRUE),
-    linetype = guide_legend(keywidth = 5, title = "Gatherings", reverse = TRUE)) 
+       color = guide_legend(keywidth = 5, title = "Quires"),
+        fill = guide_legend(keywidth = 5, title = "Quires"),     
+       shape = guide_legend(keywidth = 5, title = "Quires", reverse = TRUE),
+    linetype = guide_legend(keywidth = 5, title = "Quires", reverse = TRUE)) 
 
   p <- p + 
          scale_x_continuous(breaks = brs,
