@@ -1,5 +1,5 @@
 original	polished	Count
-Total count (na.rm TRUE): 	36871	
+Total count (na.rm TRUE): 	36872	
 Helsingfors	Helsinki	11690
 Aboae	Turku	 4659
 [Vasa]	Vaasa	 2312
@@ -582,6 +582,7 @@ Helsingfors ;;Stockholm	Helsinki	    1
 Stockholm ;;Helsingfors :;København	Stockholm	    1
 Upsalassa	Uppsala	    1
 Käkisalmi : [s.n.]	Käkisalmi	    1
+Ûr'ev''	R ev	    1
 Jyväkylä	Jyväskylä	    1
 [Kristinestad?] : [s.n.]	Kristiinankaupunki	    1
 Chicago ;;New york	Chicago IL	    1

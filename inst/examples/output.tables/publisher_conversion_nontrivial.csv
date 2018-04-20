@@ -1,5 +1,5 @@
 original	polished	Count
-Total count (na.rm TRUE): 	38573	
+Total count (na.rm TRUE): 	38541	
 Otava	Otava 	2157
 [G. W. Londicer]	Londicer, Georg Wilhelm	1821
 Söderström	Söderström 	1185
@@ -89,6 +89,7 @@ Författaren	Författarens förlag	  39
 Työmiehen kustannusyhtiö	Työmiehen Kustannus	  39
 tryckt hos Lars Salvius	Salvius, Lars	  39
 tryckt af Georg Wilhelm Londicer	Londicer, Georg Wilhelm	  39
+N. M. Lindh	Tryckt hos N.M. Lindh	  38
 Albert Bonnier	Albert Bonniers förlag	  38
 excud. Joh. Kaempe, Reg. Acad. typ.	Kämpe, Johan	  38
 excud. Joh. Kiaempe, Reg. Acad. typ.	Kämpe, Johan	  38
@@ -98,7 +99,6 @@ Wickström	Wickström 	  37
 prändätty Johan Christopher Frenckellildä	Frenckell, Johan Christopher I	  37
 tryckt hos directeuren och kongl. boktr. i stor-förstendömet Finland, Jacob Merckell	Merckell, Jacob	  37
 excud. Joh. Kiaempe, Reg. Acad. typogr.	Kämpe, Johan	  37
-N. M. Lindh	Tryckt hos N.M. Lindh	  36
 Lillja :;Wilén	Wilén	  36
 prändätty, directeurildä ja cuningalliselda kirjan präntäjäldä, Jacob Merckellildä	Merckell, Jacob	  36
 prändätty Cuning:sesa suomalaisesa präntisä	Carlbohm, Johan Arvid	  35
@@ -469,7 +469,7 @@ Nyländska afdelningen	Nylands nation	   8
 [författare]	Författarens förlag	   8
 [Föreningen för främjande af allmännyttig byggnadsverksamhet]	Föreningen för främjande af allmännyttig byggnadsverksamhet	   8
 F. W. Unggrens boktryckeri	F.W. Unggrens boktryckeri	   8
-[Finska kyrkohistoriska samfundet] :;J. Gummerus, jakaja	J. Gummerus	   8
+[Finska kyrkohistoriska samfundet] :;J. Gummerus, jakaja	J. Gummerus, jakaja	   8
 Finska Litteratursällskapet	Finska LitteratursällskapetTryckeri	   8
 Waseniuska Bokhandeln, distr.	Waseniuska Bokhandeln 	   8
 Tekijä	Jahnsson, Yrjö	   8
@@ -643,7 +643,6 @@ Tekijä	Krogerus, V J G	   6
 [Raittiuden ystävät]	Raittiuden ystävät	   6
 K. F. U. M.	K. F. U. M	   6
 Frenckellska Tryckeri-Aktiebolaget	Frenckellska Tryckeri-Aktiebolagets förlag	   6
-Helios i distr	Helios 	   6
 Tekijä	Kurikka, Matti (1863-1915)	   6
 Svenska K. F. U. M.	Svenska K. F. U. M	   6
 K. F. U. K.	K. F. U. M	   6
@@ -915,7 +914,6 @@ Finsk Kvinnoförening	Finsk qvinnoförening	   4
 Suomalainen kirjallisuuden seura	Suomalaisen Kirjallisuuden Seura	   4
 G. W. Edlund'in kustannuksella	G.W. Edlund'in kustannuksella	   4
 Yrjö Weilin, distr.	Yrjö Weilin 	   4
-J. Gummerus i distr	J. Gummerus	   4
 Tekijä	Fraser, Georg (1849-1937)	   4
 [G. E. Asp]	G.E. Asp	   4
 [Finska Skogsvårdsföreningen Tapio]	Finska Skogsvårdsföreningen Tapio	   4
@@ -1685,7 +1683,6 @@ F. Liewendals lith. tryckeri	F. Liewendals lith.Tryckeri	   2
 J. J. Kloströms boktryckeri	J.J. Kloströms boktryckeri	   2
 Er. Meuller	Character(0)	   2
 Cammermayer	Cammermeyer	   2
-N. M. Lindh	Lindh, Nils Magnus	   2
 Cederwaller	Cedervaller	   2
 A. E. Modeen	A.E. Modeen	   2
 [N. A. Zilliakus]	N.A. Zilliacus	   2
@@ -1750,7 +1747,7 @@ P. M. F. Lundberg	P.M.F. Lundberg	   2
 Tekijä	Carlsson, A W	   2
 P. Widerholmin perill. :;Tekijä	Kivi, Aleksis (1834-1872)	   2
 Frenckelliläinen kirjap. :;Granlund	Granlund	   2
-[s.n.],;J. C. Frenckellin ja pojan kirjapainossa)	J.C. Frenckellin ja pojan Kirjapainossa	   2
+[s.n.],;J. C. Frenckellin ja pojan kirjapainossa)	;J.C. Frenckellin ja pojan Kirjapainossa	   2
 Marelius :;Rongainen	Rongainen	   2
 Suomalaisen kirjallisuuden seura :;Suomentaja	Suomentaja	   2
 Weilin ja Göös :;Lutherilainen Evankeliumi-yhtiö	Lutherilainen Evankeliumi	   2
@@ -2998,7 +2995,6 @@ Gust. Bergroth	G. Bergroth	   1
 Pohjoismaiden Soutuliitto :;Helsingin Soutuklubi	Helsingin Soutuklubi	   1
 Suomen Höyrylaiva Oy	Suomen höyrylaiva	   1
 Kalenteri Oy	Kalenteri	   1
-forlagt af L. Veeken, trykt hos T. E. Raugel, og faaes tilkjøbs i Pilestraedet No. 111	Förlagt af L. Veeken, trykt hos T.E. Raugel, og faaes tilkjøbs i Pilestraedet No. 111	   1
 Tilastollinen toimisto	Tilastollinen päätoimisto	   1
 A. N. Winell	A.N. Winell	   1
 A. Val'ter', Â. Rapa i ko. ;;Akademiska bokhandeln	A. Val'ter', Â. Rapa i ko	   1
@@ -3011,7 +3007,7 @@ tryckt hos directeuren Joh. A. Carlbohm	Carlbohm, Johan Arvid	   1
 [Suomen Biblia-Seura]	Suomen Biblia-Seura	   1
 K. A. H.	K. A. H	   1
 präntätty C. E. Barckilta	Präntätty C.E. Barckilta	   1
-[s.n.],;J. Karstenin tykönä	J. Karstenin tykönä	   1
+[s.n.],;J. Karstenin tykönä	;J. Karstenin tykönä	   1
 Suomen ewank. seura	Suomen evank. seura	   1
 [Raphael Fredericus Mansner]	Raphael Fredericus Mansner	   1
 [Antonius Lindh]	Antonius Lindh	   1
@@ -3027,7 +3023,7 @@ J. C. Frenckell & sons förlag	J.C. Frenckell & Son	   1
 G. L. Söderström,;G. L. Söderström'in kirjapainossa)	G.L. Söderström'in Kirjapainossa	   1
 [R. Montgomery]	R. Montgomery	   1
 Tipografiâ Û. N. Èrlih'	Tipografiâ Û. N. Èrlih	   1
-[s.n.],;J. C. Frenckellin ja pojan luona)	J.C. Frenckellin ja pojan luona	   1
+[s.n.],;J. C. Frenckellin ja pojan luona)	;J.C. Frenckellin ja pojan luona	   1
 prentijuwum Chr. Ludw. Hjelt	Christian Ludvig Hjelt	   1
 E. I. Fesenko	E.I. Fesenko	   1
 Mäkisen tehdasliike-osakeyhtiö	Mäkisen tehdasliike-osake	   1
@@ -3171,7 +3167,6 @@ tip. 'Art. žurn.'	Tip. 'Art. žurn	   1
 S.-Peterburg'	S.-Peterburg	   1
 L. L. Lauren	L.L. Lauren	   1
 C. A. Leffler	C.A. Leffler	   1
-Lilius i Gercberg'	Lilius i Gercberg	   1
 K. Mattisen'	K. Mattisen	   1
 Tip. Imp. akad. nauk	Tip. Imp. Akademiska nauk	   1
 Imperatorskaâ AkademÏâ nauk	Imperatorskaâ Akademìâ nauk	   1
@@ -3193,7 +3188,7 @@ t-vo I. D. Sytina	T-vo I.D. Sytina	   1
 Izdanìe A. S. Suvorina	Izdanìe A.S. Suvorina	   1
 Tipografìâ Imperatorskoj Akademìi Nauk'	Tipografìâ Imperatorskoj Akademìi nauk	   1
 red. žurn. 'Znanie'	Red. žurn. 'Znanie	   1
-Lilkus' i Gercberg'	Lilius i Gercberg	   1
+Lilkus' i Gercberg'	Lilkus' i Gercberg	   1
 P. P. Sojkin	P.P. Sojkin	   1
 Finlandia	Matkailutoimisto Finlandia	   1
 [Voenno-Topografičeskoe Depo]	Voenno-Topografičeskoe Depo	   1
@@ -3250,7 +3245,6 @@ Anna Gros, distr.	Föreningen för Österbottens Historiska Museum	   1
 Svenska andelsförl.	Svenska andelsförlaget	   1
 Nordblad, distr.	Nordblad 	   1
 s.l.	S.l	   1
-s.l.]	S.l	   1
 Suomen sahateollisuustyöväen liitto	Suomen sahateollisuustyöväenliitto	   1
 Giard et Brière	Giard & Brière	   1
 Tipografìâ M. M. Stasûleviča	Tipografìâ M.M. Stasûleviča	   1
@@ -3420,7 +3414,7 @@ A. W. Gröndahl & A. C. Öhman	A.W. Gröndahl & A.C. Öhman	   1
 Tip. N. A. Cillìakusa	Tip. N.A. Cillìakusa	   1
 Gazetnoe i knigopečatnoe akcìonernoe obŝestvo gazety Èstra Nûland'	Gazetnoe i knigopečatnoe akcìonernoe obŝestvo gazety Èstra Nûland	   1
 Narodnoe Akcìonernoe Obŝestvo 'Bure'	Narodnoe Akcìonernoe Obŝestvo 'Bure	   1
-Lilius' i Gertcberg'	Lilius i Gercberg	   1
+Lilius' i Gertcberg'	Lilkus' i Gercberg	   1
 Izdanìe radakcii 'Ukazatelâ dač' v' Finlândìi'	Izdanìe radakcii 'Ukazatelâ dač' v' Finlândìi	   1
 Tipografìâ gazety 'Novosti'	Tipografìâ gazety 'Novosti	   1
 Gebrüder Borntræger	Gebrüdern Bornträger	   1
@@ -3697,7 +3691,6 @@ Tipografìâ I. V. Leont'eva	Obŝestvo revnitelej russkago istoričeskago pr
 Tipografìâ gazety 'Rossìâ'	Tipografìâ gazety 'Rossìâ	   1
 Georgìj Fraser'	Georgìj Fraser	   1
 [Finska Litteratur-sällskapet]	Suomalaisen Kirjallisuuden Seura	   1
-[s.n.]̂	̂	   1
 Tipografìâ I. K. Frenkelâ i syna	Tipografìâ I.K. Frenkelâ i syna	   1
 Verner' Sederstrem'	Verner' Sederstrem	   1
 Tipografìâ 'Rossìâ'	Tipografìâ 'Rossìâ	   1
@@ -3959,7 +3952,7 @@ Keis. Tieto-akademian kirjapräntissä	Keisarillinen Tieto-akademian kirjaränti
 trükitud PA. ja C:i kirjadega [Aschan]	Trükitud PA. ja C:i kirjadega	   1
 Karsten :;Aschan	Aschan	   1
 V. Weurlander,;Paino-yhtiön kirjapainossa)	Paino Kirjapainossa	   1
-J. C. Frenckellin ja Pojan kirjapainossa	J.C. Frenckellin ja pojan Kirjapainossa	   1
+J. C. Frenckellin ja Pojan kirjapainossa	J.C. Frenckellin ja Pojan Kirjapainossa	   1
 [Holm]	Holm	   1
 Aug. Deubner	Character(0)	   1
 Senaatin kp.	Senaatin kp	   1
@@ -4690,7 +4683,6 @@ Hbl	Suomen matkailijayhdistys	   1
 C. A. Furstenborg, distr.	C.A. Furstenborg 	   1
 Nordin & Josephson, distr.	Nordin & Josephson 	   1
 [Pedag. fören. i Finland]	Pedag. föreningen i Finland	   1
-[Frivilliga brandkårens i Borgå]	Frivilliga brandkåren i Borgå	   1
 Ekenäs missionbokhandel	Ekenäs missionsbokhandels förlag	   1
 SÖU	Svenska Österbottens ungdomsförbund	   1
 E. Lyytikäinen	Emil Lyytikäinen	   1
@@ -4948,7 +4940,6 @@ E. Wirkin kp.	E. Wirkin kp	   1
 B. B. Bergdahl	Herättäjä-yhdistys	   1
 Kuopion uusi kp.	Edistysseura	   1
 Työväen kp.	Fredriksbergin työväenyhdistys	   1
-[Jordbrukarenes i Finland Central-Andelslag]	Jordbrukarenes i Finland Central-Andelslag	   1
 S. S. Nuorisoliiton Turun osasto	S.S. Nuorisoliiton Turun osasto	   1
 Suomen vapaa lähetys	Suomen vapaalähetys	   1
 F. Heinonen	Frans Heinonen	   1
@@ -4972,7 +4963,6 @@ Gröönroos ja K.	Gröönroos ja K	   1
 SVR	S.V.R. Konepajoen työväenyhdistys	   1
 [Tampereen sanomat]	Tampereen sanomat	   1
 Tekijä	Ingberg, Elin	   1
-[Industriskolans i Helsingfors]	Industriskolans i Helsingfors	   1
 Tekijä	Forsman, Kaarlo Yrjö	   1
 [tekijä]	Forsman, Anton Oskar	   1
 Utgifvarne	Utgifvarens förlag	   1
@@ -5039,7 +5029,6 @@ Tekijä	Hämäläinen, J	   1
 [Närpes folkhögskolas elevförbund]	Närpes Folkhögskolas Elevförbund	   1
 [Tekijä]	Hällström, A J	   1
 [Wasa Segelföreningen]	Wasa Segelföreningen	   1
-[Svenska Lyceets i Uleåborg]	Svenska Lyceets i Uleåborg	   1
 V. Petterson & C:os tryckeriaktiebolag, distr.	V. Petterson & Co	   1
 [Tidningen Åland]	Tidningen Åland	   1
 Franckellska bokh.	Franckellska bokhandel	   1
@@ -5277,7 +5266,6 @@ V. Petterssons & C:os tryckeriaktiebol.	V. Pettersson & Cos tryckeriaktiebol	   
 Snmky	Suomen nuorten miesten kristillinen yhdistys	   1
 Tekijä	Johannes,  (1862-1920)	   1
 Metsänhoitoyhdistys Tapio	Suomen metsänhoitoyhdistys Tapio	   1
-[E. Lagus i distr.]	E. Lagus	   1
 Tekijä	Törnudd, Sigurd	   1
 Tekijä	Törngren, Adolf	   1
 [Suomen sos.-dem. puoluetoimikunta]	Suomen sos.-dem. puoluetoimikunta	   1
@@ -5353,7 +5341,6 @@ P. A. Norstedt & Söners förlag	Tryckt hos P.A. Norstedt & Söner	   1
 Pelastusarmeijan päämaja	Suomen pelastusarmeija	   1
 Söderström	Finska grundlagskomitén	   1
 Minervas bokhandel, distr.	Minervas bokhandel 	   1
-[Svenska Landtbrukssällskapens i Finland]	Svenska Landtbrukssällskapens i Finland Förbund	   1
 [Joutsenon 'Tenho']	Joutsenon 'Tenho	   1
 [Suomen tehdastyöväki]	Suomen tehdastyöväki	   1
 Finska-ugriska Sällskapet	Finsk-ugriska Sällskapet	   1
@@ -5441,7 +5428,6 @@ Etelä-Savon Kirjapaino	Etelä-Savon kustannus	   1
 Tekijä	Geitlin, Fritz	   1
 O. Dannholm	Oskar Dannholm	   1
 Ekenäs tryckeriaktiebolag	Ekenäs tryckeris förlag	   1
-Industriidkarenas i Finland Ömsesidiga Brandstodsförening	Industriidkarenes i Finland Ömsesidiga Brandstodsförening	   1
 [Suomen lähetysseura]	Suomen lähetysseura	   1
 [Liittohallinto]	Liittohallinto	   1
 [Suomen Kristillinen Työväenliitto]	Suomen Kristillinen työväenliitto	   1
@@ -5556,7 +5542,6 @@ Varias	Varia	   1
 Föfr.	Föfr	   1
 Tekijä	Furuhjelm, Edvard	   1
 Föreningen 'Hand i hand'	Föreningen 'Hand i hand	   1
-[Svenska Normallyceums i Helsingfors]	Svenska Normallyceums i Helsingfors	   1
 Tekijä	Soikkeli, Kaarle	   1
 [tekijä]	Soikkeli, Kaarle	   1
 [Tervolan kirkonkylän nuorisoseura]	Tervolan kirkonkylän nuorisoseura	   1
@@ -5609,7 +5594,6 @@ Tekijä :;Frenckellin kirjakauppa, jakaja	Frenckellin kirjakauppa, jakaja	   1
 [Svenska Folkpartiets kretsstyrelse]	Svenska Folkpartiets kretsstyrelse	   1
 K. F. Puromies [jakaja]	K.F. Puromies	   1
 Zemlâ narodu'	Zemlâ narodu	   1
-[Turistföreningens i Finland Åbo-filial]	Turistföreningens i Finland Åbo-filial	   1
 [Kamratgillet]	Kamratgillet	   1
 Puromiehen kp.	Puromiehen kp	   1
 Tekijä	Fleege, Gunnar A	   1
@@ -5626,7 +5610,6 @@ Tekijä	Ronimus, J V	   1
 Tekijä	Puukko, A F	   1
 [Finska Sparbanksdelegationen]	Finska Sparbanksdelegationen	   1
 [Ångfartygs Aktiebolaget Bore]	Ångfartygs Aktiebolaget Bore	   1
-[Turistföreningens i Finland Åbofilial]	Turistföreningens i Finland Åbo-filial	   1
 [Utställningskommittén]	Utställningskommittén	   1
 [Åbo Biologiska Museum]	Åbo Biologiska Museum	   1
 [Tidning för musik]	Tidning för musik	   1
@@ -5752,11 +5735,9 @@ Högholmens djurgårds verksamhet	Korkeasaaren eläintarha	   1
 Tekijä	Näver, Jussi	   1
 S. V. R. Konepajojen tyäväenyhdistys	S.V.R. Konepajoen työväenyhdistys	   1
 Handelstr.	Handelstr	   1
-[Industriidkarenes i Finland Ömsesidiga brandstodsförening]	Industriidkarenes i Finland Ömsesidiga Brandstodsförening	   1
 Yrjö Weilin & Kumpp. o.y. kans.	Yrjö Weilin & Coumpp. kans	   1
 [Primula]	Primula	   1
 K. J. Gummerus	Teknillinen korkeakoulu	   1
-[Svenska Samskolans i Tavastehus konvent, utg.]	Svenska Samskolans i Tavastehus konvent, utgivare	   1
 [Gamlakarleby landskommun]	Gamlakarleby landskommun	   1
 Viator, utg.	Viator, utgivare	   1
 C. A. V. Lundholm	C.A.V. Lundholm	   1
@@ -5955,7 +5936,6 @@ Tekijä	Lövegren, Elis	   1
 [Dansk konstutställning]	Dansk konstutställning	   1
 [Finska bildhuggareförbundet]	Finska bildhuggareförbundet	   1
 Tekijä	Kankaapää, Elias	   1
-[Konst- och Konstindustriföreningens i Björneborg]	Konst- & Coonstindustriföreningens i Björneborg	   1
 S. P. Y. Helsingfors afdelning, utg.	S.P.Y. Helsingfors afdelning, utgivare	   1
 [Slöjdutställningen i Kuopio]	Slöjdutställningen i Kuopio	   1
 Finlands Svenska Nykterhetsförbunds Expedition i distr	Finlands Svenska Nykterhetsförbunds Expedition	   1
@@ -6283,7 +6263,6 @@ Sosialistin kirjapaino osuusk.	Sosialistin Kirjapaino osuusk	   1
 Tekijä	Tuomikoski, Yrjö	   1
 [T. S.]	T. S	   1
 Suomalaisen kansan kp.	Suomalaisen kansan kp	   1
-[Kock- och Stuertskolans i Åbo]	Kock- & Stuertskolans i Åbo	   1
 [Suomen Eläinsuojelustoimisto]	Suomen Eläinsuojelutoimisto	   1
 [Gamlakarleby Andelsmejeri]	Gamlakarleby Andelsmejeri	   1
 [Finska Missionssällskapets Laestadianska Filialafdelning]	Finska Missionssällskapets Laestadianska Filialafdelning	   1
@@ -6577,7 +6556,6 @@ Finska skogsvårdsföreningen  Tapio	Finska Skogsvårdsföreningen Tapio	   1
 [Finska grafiska industrins arbetsgifvareförbund]	Finska Grafiska Industrins Arbetsgifvareförbund	   1
 [Perä-Pohjolan kansanopisto]	Perä-Pohjolan kansanopisto	   1
 Sjukhusläkareföreningen i Finland	Sairaalalääkäriyhdistys	   1
-[Föreningsbankens i Finland]	Föreningsbankens i Finland	   1
 Föreningen för arbetarskydd och socialförsäkring i Finland	Föreningen för arbetareskydd & socialförsäkring i Finland	   1
 [Rauman kaupunki]	Rauman kaupunki	   1
 [Föreningen Fylgia]	Föreningen Fylgia	   1
@@ -6632,7 +6610,6 @@ Urheilijain kustannusosakeyhtiö	Urheilijain Kustannusosake	   1
 Ilmari R. Lindqvist, utg.	Ilmari R. Lindqvist, utgivare	   1
 Otto andersin	Otto Andersinin kp	   1
 Aikain vartijan kustannus	Aikain Vartijas förlag	   1
-Lutherska evangeliföreningens i Finland förlag	Lutherska evangeliföreningen i Finland	   1
 Tekijä	Moilanen, Kaapro	   1
 Suom. ev. luth. pyhäkouluyhdistys	Suomen Evangeliska lut. pyhäkouluyhdistys	   1
 [Newa]	Neva	   1
@@ -7412,7 +7389,6 @@ excudebat Petrus Wald acad. typogr.	Wald, Peder Eriksson	   1
 hos K. Acad. boktryckaren Joh. C. Frenckells enka	Johan Christopher Frenckellin leski	   1
 tryckt hos Joh. Laur. Horrn, kongl. consist. och gymn. boktr.	Horrn, Johan Laurentius II	   1
 [in Erlegung Martin Hallervorden, Buchhändlern zu Köningsberg in Preussen. Gedruckt bey Johann Andre]	In Erlegung Martin Hallervorden, Buchhändlern zu Köningsberg in Preussen. Gedruckt bey Johann Andre	   1
-[chez la veuve Olivier de Varennes, au Palais dans la Salle royale, au Vase d'or]	Chez la veuve Olivier de Varennes, au Palais dans la Salle royale, au Vase d'or	   1
 [by Jan ten Hoorn, boekverkooper, over't Oude Heeren Logement]	By Jan ten Hoorn, boekverkooper, over't Oude Heeren Logement	   1
 [tryckt på direct. Lars Salvii förlag]	Tryckt på direct. Lars Salvii förlag	   1
 typis Joann. Christian. Dietrich	Dieterich, Johann Christian	   1
@@ -7437,7 +7413,6 @@ tryckt och uplagd uti Kongl. Finska Boktryckeriet, hos Joh. Arv. Carlbohm	J.A. C
 printed for R. Griffith, in St. Paul's Church-yard	Printed for R. Griffith, in St. Pauls Church-yard	   1
 Trykt paa det Kongl. Danske Selskab Bekostning, hos Christoph Georg Glasing	Trykt paa det kungliga Danske Selskab Bekostning, hos Christoph Georg Glasing	   1
 by Jan ten Hoorn, boekverkooper, overʼt Oude Heeren Logement	By Jan ten Hoorn, boekverkooper, over't Oude Heeren Logement	   1
-chez la veuve Olivier de Varennes, au Palais, dans la Salle royale, au Vase dʼor	Chez la veuve Olivier de Varennes, au Palais dans la Salle royale, au Vase d'or	   1
 chez H. G. Löhner. MDCCXLVI	Chez H.G. Löhner. MDCCXLVI	   1
 tryckte hos And. Jac. Nordström	Tryckt hos A.J. Nordström	   1
 T. Cox ...	T. Cox	   1

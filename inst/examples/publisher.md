@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-02-15"
+date: "2018-04-20"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8132 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8109 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60833 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 60779 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
  * 1909 documents are identified as self-published (2.7%). 
 
@@ -27,7 +27,7 @@ The 20 most common publishers are shown with the number of documents.
 
 Title count
 
-![plot of chunk summaryTop10pubtimeline](figure/summaryTop10pubtimeline-1.png)
+
 
 
 

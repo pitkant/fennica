@@ -14,7 +14,7 @@ output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
-fs <- "data/fennica_parsed.csv.gz"
+fs <- "data/unified/fennica_parsed.csv.gz"
 catalog <- "fennica" 
 
 # Languages to consider in cleanup.

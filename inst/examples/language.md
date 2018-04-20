@@ -1,16 +1,18 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2018-02-15"
+date: "2018-04-20"
 output: markdown_document
 ---
 
 ## Language
 
- * 39 [unique languages](output.tables/language_accepted.csv)
- * The languages may come in [combinations](output.tables/language_conversions.csv)
- * 4210 multilingual documents (5.98%)  
- * 727 docs (1.03%) with empty or [unrecognized language](output.tables/language_discarded.csv)
+ * 40 [unique languages](output.tables/language_accepted.csv)
+ * 34 [unique primary languages](output.tables/language_accepted.csv)  
+ * 66276 single-language documents (94.07%)
+ * 4175 multilingual documents (5.93%) 
+ * [Conversions from raw to preprocessed language entries](output.tables/language_conversions.csv) 
+ * 727 documents (1.03%) with [unrecognized language](output.tables/language_discarded.csv)
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/language_abbreviations.csv).
 
@@ -21,16 +23,20 @@ Title count per language (including multi-language documents):
 
 ### Top languages
 
-Number of documents assigned with each language. For a complete list,
+Number of documents assigned with each language (top-10). For a complete list,
 see [accepted languages](output.tables/language_accepted.csv).
 
 
-|Language | Documents (n)| Fraction (%)|
-|:--------|-------------:|------------:|
-|Finnish  |         34732|         46.6|
-|Swedish  |         26050|         34.9|
-|Latin    |          7814|         10.5|
-|German   |          2303|          3.1|
-|Russian  |          1057|          1.4|
-|French   |          1027|          1.4|
+|Language        |Documents (n) |Fraction (%) |
+|:---------------|:-------------|:------------|
+|Finnish         |32348         |45.9         |
+|Swedish         |23019         |32.7         |
+|Latin           |6168          |8.8          |
+|German          |1859          |2.6          |
+|Finnish;Swedish |1383          |2            |
+|Russian         |729           |1            |
+|Undetermined    |727           |1            |
+|French          |615           |0.9          |
+|Latin;Swedish   |591           |0.8          |
+|English         |338           |0.5          |
 
