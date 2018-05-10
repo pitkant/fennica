@@ -17,18 +17,18 @@ knitr::knit("Suomi.Rmd", encoding="UTF-8")
 knitr::knit("Turku.Rmd", encoding="UTF-8")
 knitr::knit("Vaasa.Rmd", encoding="UTF-8")
 knitr::knit("suvut.Rmd", encoding="UTF-8")
-#knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
-#knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
+# knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
+# knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 # Manuscript 2/2017 Figures
 library(rmarkdown)
 knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
 render("20170201-manuscript.Rmd")
 
-#RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
-#RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
-#RMrmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
-#knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
+# RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
+# RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
+# RMrmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
+# knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
 # -------------------
 # Gaudeamus
@@ -36,17 +36,16 @@ knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
 #rmarkdown::render("201705-Gaudeamus.Rmd", output_format="pdf_document")
 #rmarkdown::render("201705-Gaudeamus.Rmd") 
 source("Figure3.R")
+
 # -------------------
 
-
-#rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
-#library(rmarkdown)
-#rmarkdown::render("slidetemplates.Rmd", params = list(min.year = 1488, max.year = 1828, data = "df.combined.Rds"))
-#rmarkdown::render("slidetemplates.Rmd", params = "ask")
-#rmarkdown::render("flexdashboard.Rmd")
-
+# rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
+# library(rmarkdown)
+# rmarkdown::render("slidetemplates.Rmd", params = list(min.year = 1488, max.year = 1828, data = "df.combined.Rds"))
+# rmarkdown::render("slidetemplates.Rmd", params = "ask")
+# rmarkdown::render("flexdashboard.Rmd")
 # rmarkdown::render("slides.Rmd") # Another Slide draft, to bw combined
-#rmarkdown::render("test.Rmd") # For interactive testing
+# rmarkdown::render("test.Rmd") # For interactive testing
 
 # Push changes to github
 # https://github.com/ropensci/git2r

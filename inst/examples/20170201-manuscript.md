@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
-date: "2018-04-20"
+date: "2018-05-10"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -183,7 +183,59 @@ This document was created with the following versions:
 
 
 ```
-## Error in system(paste(which, shQuote(names[i])), intern = TRUE, ignore.stderr = TRUE): cannot popen '/usr/bin/which 'uname' 2>/dev/null', probable reason 'Cannot allocate memory'
+## R version 3.5.0 (2018-04-23)
+## Platform: x86_64-pc-linux-gnu (64-bit)
+## Running under: Ubuntu 18.04 LTS
+## 
+## Matrix products: default
+## BLAS: /home/lei/bin/R-3.5.0/lib/libRblas.so
+## LAPACK: /home/lei/bin/R-3.5.0/lib/libRlapack.so
+## 
+## locale:
+##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+##  [1] fennica_0.1.45        bibliographica_0.2.42 gridExtra_2.3        
+##  [4] magrittr_1.5          cowplot_0.9.2         scales_0.5.0.9000    
+##  [7] bindrcpp_0.2.2        devtools_1.13.5       sorvi_0.7.26         
+## [10] reshape2_1.4.3        tidyr_0.8.0           dplyr_0.7.4          
+## [13] stringr_1.3.0         gisfin_0.9.27         R6_2.2.2             
+## [16] rgdal_1.2-20          sp_1.2-7              ggmap_2.6.1          
+## [19] ggplot2_2.2.1         ggthemes_3.5.0        rmarkdown_1.9        
+## 
+## loaded via a namespace (and not attached):
+##  [1] maps_3.3.0         gender_0.5.2       splines_3.5.0     
+##  [4] gtools_3.5.0       assertthat_0.2.0   expm_0.999-2      
+##  [7] highr_0.6          slam_0.1-43        yaml_2.1.19       
+## [10] LearnBayes_2.15.1  pillar_1.2.2       backports_1.1.2   
+## [13] lattice_0.20-35    glue_1.2.0         digest_0.6.15     
+## [16] RColorBrewer_1.1-2 colorspace_1.3-2   htmltools_0.3.6   
+## [19] Matrix_1.2-14      plyr_1.8.4         tm_0.7-3          
+## [22] XML_3.98-1.11      pkgconfig_2.0.1    gmodels_2.16.2    
+## [25] purrr_0.2.4        stringdist_0.9.4.7 gdata_2.18.0      
+## [28] jpeg_0.1-8         genderdata_0.5.0   tibble_1.4.2      
+## [31] withr_2.1.2        lazyeval_0.2.1     NLP_0.1-11        
+## [34] proto_1.0.0        deldir_0.1-15      memoise_1.1.0     
+## [37] evaluate_0.10.1    nlme_3.1-137       MASS_7.3-50       
+## [40] xml2_1.2.0         Cairo_1.5-9        data.table_1.11.2 
+## [43] tools_3.5.0        geosphere_1.5-7    RgoogleMaps_1.4.1 
+## [46] munsell_0.4.3      babynames_0.3.0    compiler_3.5.0    
+## [49] tinytex_0.5        rlang_0.2.0.9001   grid_3.5.0        
+## [52] rjson_0.2.18       labeling_0.3       testthat_2.0.0    
+## [55] boot_1.3-20        gtable_0.2.0       roxygen2_6.0.1    
+## [58] knitr_1.20         bindr_0.1.1        commonmark_1.5    
+## [61] rprojroot_1.3-2    spdep_0.7-7        stringi_1.2.2     
+## [64] parallel_3.5.0     Rcpp_0.12.16       mapproj_1.2.6     
+## [67] png_0.1-7          spData_0.2.8.3     tidyselect_0.2.4  
+## [70] coda_0.19-1
 ```
 
 

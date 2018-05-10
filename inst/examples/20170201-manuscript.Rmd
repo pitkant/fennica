@@ -198,7 +198,8 @@ for (catal in unique(df.full$catalog)) {
 
   df2 <- subset(df00, catalog == catal) %>%
            group_by(publication_decade, gatherings) %>%
-	   summarize(paper = sum(paper, na.rm = TRUE), n = n())
+	   summarize(paper = sum(paper, na.rm = TRUE)/1e6, n = n())
+  # Million sheets	   
 
   #df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 20)), "NA"))
   df2 <- filter(df2, gatherings %in% common.gatherings)  
@@ -222,8 +223,8 @@ for (catal in unique(df.full$catalog)) {
   p <- p + scale_fill_manual(values = c("darkgreen", "darkgray"))
   p <- p + scale_color_manual(values = c("darkgreen", "darkgray"))
   p <- p + xlab("Decade")
-  p <- p + ylab("Paper (sheets)")
-  p <- p + ylim(c(0, max(na.omit(df2$paper))))
+  p <- p + ylab("Paper (million sheets)")
+  # p <- p + ylim(c(0, max(na.omit(df00$paper))))
 	 
   p <- p + guides(
        color = guide_legend(keywidth = 5, title = "Quires"),
@@ -234,7 +235,9 @@ for (catal in unique(df.full$catalog)) {
   p <- p + 
          scale_x_continuous(breaks = brs,
 	   labels = insert_minor(brs, 5, start = ifelse(catal == "Fennica", 1500, 1550))) + 
-         scale_y_continuous(breaks = seq(0, max(df2$paper), 2e6), label = scientific_10) #+
+         scale_y_continuous(breaks = seq(0, 6.8, 1), limits = c(0, 6.8))
+         #scale_y_continuous(breaks = seq(0, max(df00$paper, na.rm = TRUE), 1000))
+	                    # label = scientific_10)
 
   pics[[catal]] <- p
 }
