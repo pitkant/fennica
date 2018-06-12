@@ -2,10 +2,15 @@
 title: "Gaudeamus 2017 Figures"
 author: "Mikko Tolonen, Leo Lahti"
 date: "`r Sys.Date()`"
-output: 
-  beamer_presentation
+output:
+  beamer_presentation:
+    dev: cairo_pdf  
+  pdf_document:
+    dev: cairo_pdf
+    keep_tex: yes
 fontsize: 13pt
 ---
+
 
 ```{r init, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
 # Data files
@@ -25,9 +30,10 @@ library(sorvi)
 library(devtools)
 knitr::opts_chunk$set(echo = FALSE)
 # knitr::opts_chunk$set(fig.path = "figure-201705-Gaudeamus/")
-##knitr::opts_chunk$set(fig.path = "slides_201606_Krakow", dev="CairoPNG")
-knitr::opts_chunk$set(fig.path = "figure-201705-Gaudeamus/", dev="CairoJPEG")
-
+# knitr::opts_chunk$set(fig.path = "slides_201606_Krakow", dev="CairoPNG")
+# knitr::opts_chunk$set(fig.path = "figure-201705-Gaudeamus/", dev="CairoJPEG")
+knitr::opts_chunk$set(fig.path = "figure-201705-Gaudeamus/", dev="CairoPDF")
+ 
 # Set locale
 tmp <- Sys.setlocale(locale="UTF-8") 
 
@@ -40,7 +46,6 @@ theme_set(theme_bw(26))
 # Full combined catalogue (Fen + Kun) with marked duplicates
 df.combined.preprocessed <- readRDS(input.data.file)
 # Data with duplicates removed and years limited
-
 min.year <- 1488
 max.year <- 1828
 df0 <- df.combined.preprocessed %>% filter(!remove) %>%
@@ -61,28 +66,14 @@ df0 <- df.combined.preprocessed %>% filter(!remove) %>%
 
 - `r nrow(subset(df0, catalog == "Kungliga" & publication_year >= 1640 & publication_year <= 1828))` documents 1640-1828
 
-```{r, message=FALSE, warning=FALSE, fig.width=10, fig.height=3, echo=FALSE}
-library(dplyr)
-library(ggplot2)
-theme_set(theme_bw(20))
-df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>% group_by(catalog, publication_decade) %>% tally()
-p <- ggplot(df, aes(x = publication_decade, y = n, color = catalog)) + 
-       geom_point() + 
-       geom_line() + 
-       ylab("Documents (n)") + xlab("Publication year") +
-       scale_color_manual(values = c("blue", "darkgreen")) +
-       guides(color = guide_legend(reverse = TRUE, title = "")) #+ 
-print(p)
-```
 
----
 
 
 ### Rise of the octavo sized book as vehicle of Enlightenment
 
 Paper consumption: document formats over time
 
-```{r Gaudeamus-3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=13, dev="CairoJPEG"}
+```{r Gaudeamus-3, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=13, dev="CairoPDF"}
 theme_set(theme_bw(22))
 pics <- list()
 for (catal in unique(df0$catalog)) {
@@ -93,7 +84,9 @@ for (catal in unique(df0$catalog)) {
   df2 <- filter(df2, gatherings %in% setdiff(names(which(table(df2$gatherings) >= 15)), "NA"))
   df2$highlight <- rep("Other", nrow(df2))
   df2$highlight[df2$gatherings == "8vo"] <- "Octavo"
-    
+
+  # df2$gatherings
+
   p <- ggplot(df2, aes(y = paper,
                        x = publication_decade,
 		       shape = gatherings
@@ -146,7 +139,7 @@ print(p)
 
 
 
-```{r Gaudeamus-Vaasa, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoJPEG"}
+```{r Gaudeamus-Vaasa, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoPDF"}
 library(dplyr)
 theme_set(theme_bw(22))
 
@@ -172,7 +165,7 @@ print(p)
 
 
 
-```{r Gaudeamus-Turku, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoJPEG"}
+```{r Gaudeamus-Turku, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoPDF"}
 library(dplyr)
 theme_set(theme_bw(22))
 df2 <- df.combined.preprocessed %>% filter(!is.na(publication_decade)) %>% 
@@ -198,7 +191,7 @@ print(p)
 
 
 
-```{r Gaudeamus-Helsinki, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoJPEG"}
+```{r Gaudeamus-Helsinki, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoPDF"}
 library(dplyr)
 theme_set(theme_bw(22))
 df2 <- df.combined.preprocessed %>% filter(!is.na(publication_decade)) %>% 
@@ -224,7 +217,7 @@ print(p)
 
 
 
-```{r Gaudeamus-Suomi, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoJPEG"}
+```{r Gaudeamus-Suomi, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoPDF"}
 library(dplyr)
 theme_set(theme_bw(22))
 df2 <- df.combined.preprocessed %>% filter(!is.na(publication_decade)) %>% 
@@ -249,7 +242,7 @@ print(p)
 
 
 
-```{r Gaudeamus-Suomi2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoJPEG"}
+```{r Gaudeamus-Suomi2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=11, fig.height=6, dev="CairoPDF"}
 library(dplyr)
 theme_set(theme_bw(22))
 df2 <- df.combined.preprocessed
@@ -271,10 +264,11 @@ p <- ggplot(df2, aes(x = publication_decade)) +
    theme(legend.position = c(0.16, .7)) 
 print(p)
 
+library(tidyr)
 table_hs <- df2 %>% group_by(publication_decade, publication_place) %>%
                     tally() %>%
 		    spread(publication_place, n, fill = 0)
 library(openxlsx)		    
-openxlsx::write.xlsx(table_hs, file = "Table_HS_20180107.xlsx")
+# openxlsx::write.xlsx(table_hs, file = "Table_HS_20180107.xlsx")
 ```
 

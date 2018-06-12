@@ -1,426 +1,426 @@
-publication_place	country	Count	Percentage
-Total count (na.rm TRUE): 	67540		
-Aabenraa	Denmark	    2	0
-Aalborg	Denmark	    2	0
-Aarhus	Denmark	    2	0
-Akureyri	Iceland	    1	0
-Alfend	NA	    1	0
-Almena Wi	USA	    2	0
-Altdorf	Germany	    3	0
-Altenstein	Germany	    2	0
-Amersfoort	Netherlands	    1	0
-Amsterdam	Netherlands	   46	0.07
-Ancona	Italy	    1	0
-Anttola	Finland	    1	0
-Antwerp	Belgium	    4	0.01
-Archangelsk	Russia	    5	0.01
-Arezzo	Italy	    1	0
-Ashtabula Oh	USA	   28	0.04
-Askersund	Sweden	    1	0
-Astoria Or	USA	   25	0.04
-Augsburg	Germany	    8	0.01
-Barcelona	Spain	    3	0
-Basel	Switzerland	    4	0.01
-Bergen	Norway	    6	0.01
-Berlin	Germany	  156	0.23
-Bern	Switzerland	    5	0.01
-Bielefeld	Germany	    1	0
-Birmingham	England	    1	0
-Björkboda	Finland	    1	0
-Bonn	Germany	    6	0.01
-Boston Ma	USA	    2	0
-Brändö	Finland	    1	0
-Braniewo	Poland	    3	0
-Braunschweig	Germany	   16	0.02
-Bremen	Germany	    1	0
-Breslau	Poland	    2	0
-Bridgeport Ct	USA	    1	0
-Brisbane	Australia	    1	0
-Brunn	Germany	    1	0
-Brussels	Belgium	    3	0
-Budapest	Hungary	   28	0.04
-Buenos Aires	Argentina	    1	0
-Calcutta	India	    1	0
-Calumet Mi	USA	   35	0.05
-Cambridge	England	    5	0.01
-Chicago IL	USA	   20	0.03
-Chisholm MN	USA	    2	0
-Cincinnati Oh	USA	    3	0
-Clear Creek UT	USA	    1	0
-Cleveland Oh	USA	    2	0
-Cluj-Napoca	Romania	    1	0
-Cologne	Germany	    2	0
-Copenhagen	Denmark	  128	0.19
-Dessau	Germany	    2	0
-Dieren	Netherlands	    1	0
-Dordrecht	Netherlands	    1	0
-Dresden	Germany	   20	0.03
-Duluth MN	USA	   40	0.06
-Edinburgh	Scotland	    1	0
-Elbingen	Germany	    1	0
-Ely Mi	USA	    1	0
-Erfurt	Germany	    2	0
-Erlangen	Germany	    1	0
-Espoo	Finland	    4	0.01
-Eura	Finland	    7	0.01
-Eveleth Mi	USA	    1	0
-Exeter	England	    1	0
-Falun	Sweden	    5	0.01
-Firenze	Italy	    7	0.01
-Fitchburg Ma	USA	  133	0.2
-Forssa	Finland	   10	0.01
-Frankfurt	Germany	   14	0.02
-Freiburg im Breisgau	Germany	    2	0
-Fürth	Germany	    2	0
-Gdańsk	Poland	    1	0
-Geneva	Switzerland	    2	0
-Gera	Germany	    1	0
-Gießen	Germany	    8	0.01
-Godby	Finland	    1	0
-Gotha	Germany	    4	0.01
-Gothenburg	Sweden	   29	0.04
-Göttingen	Germany	    9	0.01
-Greifswald	Germany	   19	0.03
-Gutersloh	Germany	    1	0
-Haapajärvi	Finland	    5	0.01
-Haaparanta	Sweden	    8	0.01
-Haarlem	Netherlands	    6	0.01
-Haderslev	Denmark	    1	0
-Halberstadt	Germany	    1	0
-Halle	Germany	   11	0.02
-Hamburg	Germany	   16	0.02
-Hämeenkyrö	Finland	    2	0
-Hämeenlinna	Finland	 1407	2.08
-Hamina	Finland	  160	0.24
-Hancock Mi	USA	  210	0.31
-Hanko	Finland	   85	0.13
-Hanna WY	USA	    1	0
-Hannover	Germany	    2	0
-Harbor Oh	USA	    2	0
-Harjavalta	Finland	    1	0
-Härnösand	Sweden	    8	0.01
-Haunia	Copenhagen	    3	0
-Heidelberg	Germany	    9	0.01
-Heilbronn	Germany	    1	0
-Heinäjoki	Finland	    1	0
-Heinävesi	Finland	    2	0
-Heinola	Finland	   33	0.05
-Helmstedt	Germany	    2	0
-Helsingborg	Sweden	    2	0
-Helsingør	Denmark	    1	0
-Helsinki	Finland	26784	39.66
-Hinnerjoki	Finland	    1	0
-Hirvensalmi	Finland	    1	0
-Houghton Mi	USA	    1	0
-Hull	England	    1	0
-Huopalahti	Finland	    2	0
-Hvitträsk	Finland	    1	0
-Hyvinkää	Finland	   16	0.02
-Iisalmi	Finland	   13	0.02
-Ikaalinen	Finland	    2	0
-Ilmajoki	Finland	    2	0
-Imatra	Finland	    1	0
-Impilahti	Finland	    1	0
-Inari	Finland	    1	0
-Inkeri	Russia	    1	0
-Inkoo	Finland	    1	0
-Ironwood Mi	USA	   13	0.02
-Isafjördur	Iceland	    6	0.01
-Ishpeming Mi	USA	    7	0.01
-Isokyrö	Finland	    8	0.01
-Jaakkima	Finland	    2	0
-Jääski	Finland	    1	0
-Jacobson Mi	USA	    1	0
-Jalasjärvi	Finland	    1	0
-Jämsä	Finland	    5	0.01
-Janakkala	Finland	    2	0
-Jelgava	Latvia	    6	0.01
-Jena	Germany	   21	0.03
-Joensuu	Finland	  126	0.19
-Jönköping	Sweden	    5	0.01
-Juva	Finland	    3	0
-Jyväskylä	Finland	 1031	1.53
-Kainuu	Finland	    3	0
-Kajaani	Finland	   42	0.06
-Käkisalmi	Finland	   62	0.09
-Kaleva Mi	USA	   50	0.07
-Kallislahti	Finland	    1	0
-Kangasala	Finland	    1	0
-Kaprio	Finland	    1	0
-Karhula	Finland	    2	0
-Karjaa	Finland	   14	0.02
-Karjalohja	Finland	    4	0.01
-Karlskrona	Sweden	    8	0.01
-Karlstad	Sweden	    3	0
-Karstula	Finland	    2	0
-Kaskinen	Finland	   18	0.03
-Kauhajoki	Finland	    1	0
-Kausala	Finland	    1	0
-Kauvatsa	Finland	    3	0
-Kazan	Russia	    2	0
-Keltto	Finland	    1	0
-Kemi	Finland	   38	0.06
-Kettuvaara	Finland	    1	0
-Kharkiv	Ukraine	    3	0
-Kiel	Germany	    4	0.01
-Kiiminki	Finland	    2	0
-Kirchhain	Germany	    1	0
-Kirkkonummi	Finland	    2	0
-Kirov	Russia	    1	0
-Kirvu	Finland	    1	0
-Kivennapa	Finland	    1	0
-Kodisjoki	Finland	    1	0
-Koivisto	Finland	    2	0
-Koivulahti	Finland	    1	0
-Kokemäki	Finland	    1	0
-Kokkola	Finland	  107	0.16
-Koningsberg	Germany	    5	0.01
-Köping	Sweden	    2	0
-Korsnäs	Finland	    1	0
-Kotka	Finland	  175	0.26
-Kouvola	Finland	    4	0.01
-Krakow	Poland	    3	0
-Kristiinankaupunki	Finland	   55	0.08
-Kruunupyy	Finland	   21	0.03
-Kuopio	Finland	 1550	2.29
-Kuortane	Finland	    4	0.01
-Kurkijoki	Finland	    1	0
-Kuusankoski	Finland	    1	0
-Kylmäkoski	Finland	    1	0
-Kymenlaakso	Finland	    1	0
-Kyrö	Finland	    1	0
-La Chapelle-Montligeon	France	    1	0
-Lahti	Finland	  160	0.24
-Laihia	Finland	   10	0.01
-Laihiala	Finland	    1	0
-Laitila	Finland	    4	0.01
-Lammi	Finland	    1	0
-Landskrona	Sweden	    1	0
-Lappeenranta	Finland	   56	0.08
-Lapua	Finland	   31	0.05
-Lausanne	Switzerland	    1	0
-Le Mans	France	    1	0
-Leeuwarden	Netherlands	    3	0
-Leiden	Netherlands	   10	0.01
-Leipzig	Germany	  193	0.29
-Letchworth	England	    1	0
-Liepaja	Latvia	    1	0
-Linköping	Sweden	   19	0.03
-Lisbon	Portugal	    1	0
-Litoměrice	Czech Republic	    1	0
-Liverpool	England	    1	0
-Ljungsbro	Sweden	    1	0
-Lohja	Finland	    3	0
-Lohtaja	Finland	    1	0
-Loimaa	Finland	    1	0
-Loimijoki	Finland	    1	0
-London	England	  165	0.24
-Loviisa	Finland	   29	0.04
-Lübeck	Germany	   11	0.02
-Luleå	Sweden	    2	0
-Lund	Sweden	   51	0.08
-Maaninka	Finland	    1	0
-Maastricht	Netherlands	    2	0
-Macon	France	    1	0
-Madrid	Spain	    4	0.01
-Magdeburg	Germany	    1	0
-Malmö	Sweden	    4	0.01
-Mänttä-Vilppula	Finland	    1	0
-Mäntyharju	Finland	    1	0
-Marburg	Germany	    4	0.01
-Mariehamn	Finland	   66	0.1
-Marttila	Finland	    1	0
-Messina	Italy	    1	0
-Mikkeli	Finland	  240	0.36
-Milan	Italy	    5	0.01
-Milwaukee Wi	USA	    1	0
-Minneapolis Mn	USA	    2	0
-Montpellier	France	    1	0
-Montreal	Canada	    2	0
-Moscow	Russia	   38	0.06
-München	Germany	   22	0.03
-Mustasaari	Finland	    2	0
-Mustiala	Finland	    2	0
-Mustio	Finland	    1	0
-Naantali	Finland	    2	0
-Nanaimo BC	Canada	    1	0
-Naples	Italy	    3	0
-Närpiö	Finland	    2	0
-Narva	Estonia	    6	0.01
-Neuchatel	Switzerland	    1	0
-New Haven Ct	USA	    2	0
-New York	USA	  167	0.25
-New York Mills Mn	USA	   10	0.01
-Nizza	Italy	    1	0
-Nokia	Finland	    1	0
-Noormarkku	Finland	    1	0
-Nora	Sweden	    1	0
-Norrköping	Sweden	   10	0.01
-Nummela	Finland	    1	0
-Nurmijärvi	Finland	    1	0
-Nürnberg	Germany	   12	0.02
-Nyköping	Sweden	    2	0
-Nytorp	Sweden	    5	0.01
-Odense	Denmark	    5	0.01
-Odessa	Ukraine	    4	0.01
-Oniipa	Namibia	    1	0
-Oradea	Romania	    1	0
-Örebro	Sweden	   95	0.14
-Orimattila	Finland	    1	0
-Orismala	Finland	    1	0
-Orivesi	Finland	    4	0.01
-Oslo	Norway	   36	0.05
-Otava	Finland	    1	0
-Ottawa	Canada	    2	0
-Oulainen	Finland	    1	0
-Oulu	Finland	  652	0.97
-Oxford	England	    4	0.01
-Padua	Italy	    1	0
-Paimio	Finland	    1	0
-Pännäinen	Finland	    1	0
-Parainen	Finland	    6	0.01
-Parikkala	Finland	    3	0
-Paris	France	  148	0.22
-Parkano	Finland	   20	0.03
-Pärnu	Estonia	    9	0.01
-Perho	Finland	    1	0
-Perkjärvi	Finland	    1	0
-Pernaja	Finland	    6	0.01
-Petäjävesi	Finland	    2	0
-Philadelphia Pa	USA	    2	0
-Pieksämäki	Finland	    1	0
-Pietarsaari	Finland	   76	0.11
-Pihlava	Finland	    2	0
-Piikkiö	Finland	    6	0.01
-Pinjainen	Finland	    1	0
-Pistoia	Italy	    1	0
-Pori	Finland	  713	1.06
-Port Arthur On	Canada	   28	0.04
-Portland Or	USA	    1	0
-Porvoo	Finland	 3745	5.54
-Poznań	Poland	    1	0
-Prague	Czech Republic	    1	0
-Purleigh	England	    1	0
-Quedlinburg	Germany	    1	0
-Quincy Ma	USA	    7	0.01
-Raahe	Finland	   30	0.04
-Rääkkylä	Finland	    1	0
-Räisälä	Finland	    1	0
-Raisio	Finland	    1	0
-Rantasalmi	Finland	    1	0
-Rauma	Finland	  251	0.37
-Rautalampi	Finland	    1	0
-Rautio	Finland	    1	0
-Ravenna	Italy	    1	0
-Red Jacket Mi	USA	    2	0
-Red Lodge MT	USA	    1	0
-Regensburg	Germany	    2	0
-Reykjavik	Iceland	    6	0.01
-Riga	Latvia	   39	0.06
-Rock Island IL	USA	    3	0
-Rock Springs WY	USA	    1	0
-Rome	Italy	    8	0.01
-Rostock	Germany	   50	0.07
-Rotterdam	Netherlands	    1	0
-Rovaniemi	Finland	    4	0.01
-Sääksmäki	Finland	    3	0
-Saarijärvi	Finland	    2	0
-Sairala	Finland	   12	0.02
-Säkkijärvi	Finland	    1	0
-Sakkola	Finland	    1	0
-Salo	Finland	    8	0.01
-Sandstone Mi	USA	    1	0
-Sarvilahti	Finland	    1	0
-Sauvo	Finland	    1	0
-Savonlinna	Finland	   95	0.14
-Schwerin	Germany	    1	0
-Seattle WA	USA	    4	0.01
-Seinäjoki	Finland	    4	0.01
-Siena	Italy	    1	0
-Simola	Finland	    1	0
-Sipoo	Finland	    2	0
-Skara	Sweden	   23	0.03
-Smithville Mn	USA	    2	0
-Smolensk	Russia	    1	0
-Sortavala	Russia	  546	0.81
-St Louis Kaunti Mi	USA	    1	0
-St Petersburg	Russia	  620	0.92
-Stade	Germany	    1	0
-Stockholm	Sweden	 3875	5.74
-Stockton	England	    2	0
-Stralsund	Germany	    2	0
-Strängnäs	Sweden	   24	0.04
-Strasbourg	France	    7	0.01
-Stuttgart	Germany	   20	0.03
-Sudbury On	Canada	    1	0
-Sundsvall	Sweden	    1	0
-Suomussalmi	Finland	    2	0
-Suonenjoki	Finland	    1	0
-Superior Wi	USA	   14	0.02
-Szczecin	Poland	    3	0
-Taipalsaari	Finland	    1	0
-Tallinn	Estonia	   51	0.08
-Tammela	Finland	    1	0
-Tammisaari	Finland	  162	0.24
-Tampere	Finland	 2461	3.64
-Tartu	Estonia	  183	0.27
-Telč	Czech Republic	    1	0
-Terijoki	Finland	    8	0.01
-Terni	Finland	    1	0
-Tervonsalmi	Finland	    1	0
-The Hague	Netherlands	    2	0
-Toholampi	Finland	    1	0
-Tomsk	Russia	    1	0
-Torgelow	Germany	    1	0
-Tornio	Finland	   11	0.02
-Trieste	Italy	    2	0
-Tromsö	Norway	    5	0.01
-Trondheim	Norway	    1	0
-Tsing-shin	China	    1	0
-Tübingen	Germany	    7	0.01
-Turenki	Finland	   16	0.02
-Turku	Finland	13117	19.42
-Turtle Lake Wi	USA	    1	0
-Tuusula	Finland	    1	0
-Tyrnävä	Finland	    1	0
-Tyrvää	Finland	    4	0.01
-Ulm	Germany	    1	0
-Uppsala	Sweden	  705	1.04
-Urjala	Finland	    2	0
-Utrecht	Netherlands	    8	0.01
-Uusikaarlepyy	Finland	   23	0.03
-Uusikaupunki	Finland	   58	0.09
-Uusikirkko	Finland	    1	0
-Vaasa	Finland	 3488	5.16
-Vainikkala	Finland	    1	0
-Valamo	Finland	    1	0
-Valkjärvi	Finland	    1	0
-Vammala	Finland	    1	0
-Vantaa	Finland	    1	0
-Västerås	Sweden	   25	0.04
-Venice	Italy	    2	0
-Verona	Italy	    1	0
-Vicenza	Italy	    2	0
-Vienna	Austria	   21	0.03
-Viitasaari	Finland	    2	0
-Viljandi	Estonia	    2	0
-Vilnius	Lithuania	    6	0.01
-Virginia Mn	USA	    1	0
-Virolahti	Finland	    2	0
-Visingsborg	Sweden	    5	0.01
-Vyborg	Finland	 1207	1.79
-Warsaw	Poland	    9	0.01
-Weida	Germany	    1	0
-Weimar	Germany	    9	0.01
-Wiesbaden	Germany	    7	0.01
-Wismar	Germany	    1	0
-Wittenberg	Germany	   35	0.05
-Worcester Ma	USA	    8	0.01
-Wurzburg	Germany	    1	0
-Ylimarkku	Finland	    1	0
-Ylistaro	Finland	    2	0
-Ylivieska	Finland	    1	0
-York	England	    1	0
-Ypäjä	Finland	    2	0
-Żary	Poland	    2	0
-Zürich	Germany	    7	0.01
+Name	Count
+Total count (na.rm TRUE): 	67540
+Helsinki	26784
+Turku	13117
+Stockholm	 3875
+Porvoo	 3745
+Vaasa	 3488
+Tampere	 2461
+Kuopio	 1550
+Hämeenlinna	 1407
+Vyborg	 1207
+Jyväskylä	 1031
+Pori	  713
+Uppsala	  705
+Oulu	  652
+St Petersburg	  620
+Sortavala	  546
+Rauma	  251
+Mikkeli	  240
+Hancock Mi	  210
+Leipzig	  193
+Tartu	  183
+Kotka	  175
+New York	  167
+London	  165
+Tammisaari	  162
+Hamina	  160
+Lahti	  160
+Berlin	  156
+Paris	  148
+Fitchburg Ma	  133
+Copenhagen	  128
+Joensuu	  126
+Kokkola	  107
+Örebro	   95
+Savonlinna	   95
+Hanko	   85
+Pietarsaari	   76
+Mariehamn	   66
+Käkisalmi	   62
+Uusikaupunki	   58
+Lappeenranta	   56
+Kristiinankaupunki	   55
+Lund	   51
+Tallinn	   51
+Kaleva Mi	   50
+Rostock	   50
+Amsterdam	   46
+Kajaani	   42
+Duluth MN	   40
+Riga	   39
+Kemi	   38
+Moscow	   38
+Oslo	   36
+Calumet Mi	   35
+Wittenberg	   35
+Heinola	   33
+Lapua	   31
+Raahe	   30
+Gothenburg	   29
+Loviisa	   29
+Ashtabula Oh	   28
+Budapest	   28
+Port Arthur On	   28
+Astoria Or	   25
+Västerås	   25
+Strängnäs	   24
+Skara	   23
+Uusikaarlepyy	   23
+München	   22
+Jena	   21
+Kruunupyy	   21
+Vienna	   21
+Chicago IL	   20
+Dresden	   20
+Parkano	   20
+Stuttgart	   20
+Greifswald	   19
+Linköping	   19
+Kaskinen	   18
+Braunschweig	   16
+Hamburg	   16
+Hyvinkää	   16
+Turenki	   16
+Frankfurt	   14
+Karjaa	   14
+Superior Wi	   14
+Iisalmi	   13
+Ironwood Mi	   13
+Nürnberg	   12
+Sairala	   12
+Halle	   11
+Lübeck	   11
+Tornio	   11
+Forssa	   10
+Laihia	   10
+Leiden	   10
+New York Mills Mn	   10
+Norrköping	   10
+Göttingen	    9
+Heidelberg	    9
+Pärnu	    9
+Warsaw	    9
+Weimar	    9
+Augsburg	    8
+Gießen	    8
+Haaparanta	    8
+Härnösand	    8
+Isokyrö	    8
+Karlskrona	    8
+Rome	    8
+Salo	    8
+Terijoki	    8
+Utrecht	    8
+Worcester Ma	    8
+Eura	    7
+Firenze	    7
+Ishpeming Mi	    7
+Quincy Ma	    7
+Strasbourg	    7
+Tübingen	    7
+Wiesbaden	    7
+Zürich	    7
+Bergen	    6
+Bonn	    6
+Haarlem	    6
+Isafjördur	    6
+Jelgava	    6
+Narva	    6
+Parainen	    6
+Pernaja	    6
+Piikkiö	    6
+Reykjavik	    6
+Vilnius	    6
+Archangelsk	    5
+Bern	    5
+Cambridge	    5
+Falun	    5
+Haapajärvi	    5
+Jämsä	    5
+Jönköping	    5
+Koningsberg	    5
+Milan	    5
+Nytorp	    5
+Odense	    5
+Tromsö	    5
+Visingsborg	    5
+Antwerp	    4
+Basel	    4
+Espoo	    4
+Gotha	    4
+Karjalohja	    4
+Kiel	    4
+Kouvola	    4
+Kuortane	    4
+Laitila	    4
+Madrid	    4
+Malmö	    4
+Marburg	    4
+Odessa	    4
+Orivesi	    4
+Oxford	    4
+Rovaniemi	    4
+Seattle WA	    4
+Seinäjoki	    4
+Tyrvää	    4
+Altdorf	    3
+Barcelona	    3
+Braniewo	    3
+Brussels	    3
+Cincinnati Oh	    3
+Haunia	    3
+Juva	    3
+Kainuu	    3
+Karlstad	    3
+Kauvatsa	    3
+Kharkiv	    3
+Krakow	    3
+Leeuwarden	    3
+Lohja	    3
+Naples	    3
+Parikkala	    3
+Rock Island IL	    3
+Sääksmäki	    3
+Szczecin	    3
+Aabenraa	    2
+Aalborg	    2
+Aarhus	    2
+Almena Wi	    2
+Altenstein	    2
+Boston Ma	    2
+Breslau	    2
+Chisholm MN	    2
+Cleveland Oh	    2
+Cologne	    2
+Dessau	    2
+Erfurt	    2
+Freiburg im Breisgau	    2
+Fürth	    2
+Geneva	    2
+Hämeenkyrö	    2
+Hannover	    2
+Harbor Oh	    2
+Heinävesi	    2
+Helmstedt	    2
+Helsingborg	    2
+Huopalahti	    2
+Ikaalinen	    2
+Ilmajoki	    2
+Jaakkima	    2
+Janakkala	    2
+Karhula	    2
+Karstula	    2
+Kazan	    2
+Kiiminki	    2
+Kirkkonummi	    2
+Koivisto	    2
+Köping	    2
+Luleå	    2
+Maastricht	    2
+Minneapolis Mn	    2
+Montreal	    2
+Mustasaari	    2
+Mustiala	    2
+Naantali	    2
+Närpiö	    2
+New Haven Ct	    2
+Nyköping	    2
+Ottawa	    2
+Petäjävesi	    2
+Philadelphia Pa	    2
+Pihlava	    2
+Red Jacket Mi	    2
+Regensburg	    2
+Saarijärvi	    2
+Sipoo	    2
+Smithville Mn	    2
+Stockton	    2
+Stralsund	    2
+Suomussalmi	    2
+The Hague	    2
+Trieste	    2
+Urjala	    2
+Venice	    2
+Vicenza	    2
+Viitasaari	    2
+Viljandi	    2
+Virolahti	    2
+Ylistaro	    2
+Ypäjä	    2
+Żary	    2
+Akureyri	    1
+Alfend	    1
+Amersfoort	    1
+Ancona	    1
+Anttola	    1
+Arezzo	    1
+Askersund	    1
+Bielefeld	    1
+Birmingham	    1
+Björkboda	    1
+Brändö	    1
+Bremen	    1
+Bridgeport Ct	    1
+Brisbane	    1
+Brunn	    1
+Buenos Aires	    1
+Calcutta	    1
+Clear Creek UT	    1
+Cluj-Napoca	    1
+Dieren	    1
+Dordrecht	    1
+Edinburgh	    1
+Elbingen	    1
+Ely Mi	    1
+Erlangen	    1
+Eveleth Mi	    1
+Exeter	    1
+Gdańsk	    1
+Gera	    1
+Godby	    1
+Gutersloh	    1
+Haderslev	    1
+Halberstadt	    1
+Hanna WY	    1
+Harjavalta	    1
+Heilbronn	    1
+Heinäjoki	    1
+Helsingør	    1
+Hinnerjoki	    1
+Hirvensalmi	    1
+Houghton Mi	    1
+Hull	    1
+Hvitträsk	    1
+Imatra	    1
+Impilahti	    1
+Inari	    1
+Inkeri	    1
+Inkoo	    1
+Jääski	    1
+Jacobson Mi	    1
+Jalasjärvi	    1
+Kallislahti	    1
+Kangasala	    1
+Kaprio	    1
+Kauhajoki	    1
+Kausala	    1
+Keltto	    1
+Kettuvaara	    1
+Kirchhain	    1
+Kirov	    1
+Kirvu	    1
+Kivennapa	    1
+Kodisjoki	    1
+Koivulahti	    1
+Kokemäki	    1
+Korsnäs	    1
+Kurkijoki	    1
+Kuusankoski	    1
+Kylmäkoski	    1
+Kymenlaakso	    1
+Kyrö	    1
+La Chapelle-Montligeon	    1
+Laihiala	    1
+Lammi	    1
+Landskrona	    1
+Lausanne	    1
+Le Mans	    1
+Letchworth	    1
+Liepaja	    1
+Lisbon	    1
+Litoměrice	    1
+Liverpool	    1
+Ljungsbro	    1
+Lohtaja	    1
+Loimaa	    1
+Loimijoki	    1
+Maaninka	    1
+Macon	    1
+Magdeburg	    1
+Mänttä-Vilppula	    1
+Mäntyharju	    1
+Marttila	    1
+Messina	    1
+Milwaukee Wi	    1
+Montpellier	    1
+Mustio	    1
+Nanaimo BC	    1
+Neuchatel	    1
+Nizza	    1
+Nokia	    1
+Noormarkku	    1
+Nora	    1
+Nummela	    1
+Nurmijärvi	    1
+Oniipa	    1
+Oradea	    1
+Orimattila	    1
+Orismala	    1
+Otava	    1
+Oulainen	    1
+Padua	    1
+Paimio	    1
+Pännäinen	    1
+Perho	    1
+Perkjärvi	    1
+Pieksämäki	    1
+Pinjainen	    1
+Pistoia	    1
+Portland Or	    1
+Poznań	    1
+Prague	    1
+Purleigh	    1
+Quedlinburg	    1
+Rääkkylä	    1
+Räisälä	    1
+Raisio	    1
+Rantasalmi	    1
+Rautalampi	    1
+Rautio	    1
+Ravenna	    1
+Red Lodge MT	    1
+Rock Springs WY	    1
+Rotterdam	    1
+Säkkijärvi	    1
+Sakkola	    1
+Sandstone Mi	    1
+Sarvilahti	    1
+Sauvo	    1
+Schwerin	    1
+Siena	    1
+Simola	    1
+Smolensk	    1
+St Louis Kaunti Mi	    1
+Stade	    1
+Sudbury On	    1
+Sundsvall	    1
+Suonenjoki	    1
+Taipalsaari	    1
+Tammela	    1
+Telč	    1
+Terni	    1
+Tervonsalmi	    1
+Toholampi	    1
+Tomsk	    1
+Torgelow	    1
+Trondheim	    1
+Tsing-shin	    1
+Turtle Lake Wi	    1
+Tuusula	    1
+Tyrnävä	    1
+Ulm	    1
+Uusikirkko	    1
+Vainikkala	    1
+Valamo	    1
+Valkjärvi	    1
+Vammala	    1
+Vantaa	    1
+Verona	    1
+Virginia Mn	    1
+Weida	    1
+Wismar	    1
+Wurzburg	    1
+Ylimarkku	    1
+Ylivieska	    1
+York	    1
