@@ -1,7 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
-date: "2018-02-15"
+date: "2018-04-20"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -183,65 +183,66 @@ This document was created with the following versions:
 
 
 ```
-## R version 3.4.3 (2017-11-30)
+## R version 3.5.0 RC (2018-04-16 r74618)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Ubuntu 17.10
 ## 
 ## Matrix products: default
-## BLAS: /home/lei/bin/R-3.4.3/lib/libRblas.so
-## LAPACK: /home/lei/bin/R-3.4.3/lib/libRlapack.so
+## BLAS: /usr/local/lib/R/lib/libRblas.so
+## LAPACK: /usr/local/lib/R/lib/libRlapack.so
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-##  [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
-##  [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-## [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] cowplot_0.9.2         scales_0.5.0.9000     devtools_1.13.4      
-##  [4] gisfin_0.9.27         R6_2.2.2              rgdal_1.2-16         
-##  [7] sp_1.2-7              ggmap_2.6.1           ggthemes_3.4.0       
-## [10] rmarkdown_1.8         stringr_1.2.0         sorvi_0.7.26         
-## [13] microbiome_1.1.10008  phyloseq_1.23.1       bindrcpp_0.2         
-## [16] knitr_1.19            gridExtra_2.3         reshape2_1.4.3       
-## [19] magrittr_1.5          fennica_0.1.45        bibliographica_0.2.39
-## [22] dplyr_0.7.4           tidyr_0.8.0           ggplot2_2.2.1.9000   
+##  [1] cowplot_0.9.2         scales_0.5.0.9000     gisfin_0.9.27        
+##  [4] R6_2.2.2              rgdal_1.2-18          sp_1.2-7             
+##  [7] ggmap_2.6.1           ggthemes_3.4.2        rmarkdown_1.9        
+## [10] stringr_1.3.0         microbiome_1.1.10012  phyloseq_1.23.1      
+## [13] knitr_1.20            gridExtra_2.3         reshape2_1.4.3       
+## [16] tidyr_0.8.0           bindrcpp_0.2.2        ggplot2_2.2.1        
+## [19] magrittr_1.5          sorvi_0.7.26          dplyr_0.7.4          
+## [22] devtools_1.13.5       fennica_0.1.45        bibliographica_0.2.42
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] nlme_3.1-131        gmodels_2.16.2      RColorBrewer_1.1-2 
-##  [4] rprojroot_1.3-2     tools_3.4.3         backports_1.1.2    
-##  [7] vegan_2.4-6         spData_0.2.7.0      lazyeval_0.2.1     
-## [10] BiocGenerics_0.24.0 mgcv_1.8-23         colorspace_1.3-2   
-## [13] permute_0.9-4       ade4_1.7-10         withr_2.1.1.9000   
-## [16] tidyselect_0.2.3    compiler_3.4.3      Biobase_2.38.0     
+##  [1] nlme_3.1-137        gmodels_2.16.2      RColorBrewer_1.1-2 
+##  [4] rprojroot_1.3-2     tools_3.5.0         backports_1.1.2    
+##  [7] vegan_2.5-1         spData_0.2.8.3      lazyeval_0.2.1     
+## [10] BiocGenerics_0.25.3 mgcv_1.8-23         colorspace_1.3-2   
+## [13] permute_0.9-4       ade4_1.7-11         withr_2.1.2        
+## [16] tidyselect_0.2.4    compiler_3.5.0      Biobase_2.39.2     
 ## [19] Cairo_1.5-9         expm_0.999-2        xml2_1.2.0         
 ## [22] NLP_0.1-11          labeling_0.3        slam_0.1-42        
-## [25] tm_0.7-3            digest_0.6.15       stringdist_0.9.4.6 
-## [28] XVector_0.18.0      jpeg_0.1-8          pkgconfig_2.0.1    
-## [31] htmltools_0.3.6     highr_0.6           maps_3.2.0         
-## [34] rlang_0.1.6.9003    bindr_0.1           jsonlite_1.5       
-## [37] gtools_3.5.0        spdep_0.7-4         biomformat_1.6.0   
-## [40] geosphere_1.5-7     Matrix_1.2-12       Rcpp_0.12.15       
-## [43] munsell_0.4.3       S4Vectors_0.16.0    ape_5.0            
-## [46] proto_1.0.0         stringi_1.1.6       MASS_7.3-48        
-## [49] zlibbioc_1.24.0     rhdf5_2.22.0        plyr_1.8.4         
-## [52] grid_3.4.3          gdata_2.18.0        parallel_3.4.3     
-## [55] gender_0.5.1        deldir_0.1-14       lattice_0.20-35    
-## [58] Biostrings_2.46.0   splines_3.4.3       multtest_2.34.0    
-## [61] mapproj_1.2-5       pillar_1.1.0        igraph_1.1.2       
-## [64] boot_1.3-20         rjson_0.2.15        codetools_0.2-15   
-## [67] stats4_3.4.3        LearnBayes_2.15     XML_3.98-1.9       
-## [70] glue_1.2.0          babynames_0.3.0     evaluate_0.10.1    
-## [73] data.table_1.10.4-3 png_0.1-7           foreach_1.4.4      
-## [76] RgoogleMaps_1.4.1   gtable_0.2.0        purrr_0.2.4        
-## [79] assertthat_0.2.0    coda_0.19-1         survival_2.41-3    
-## [82] genderdata_0.5.0    tibble_1.4.2        iterators_1.0.9    
-## [85] memoise_1.1.0       IRanges_2.12.0      cluster_2.0.6
+## [25] tm_0.7-3            digest_0.6.15       stringdist_0.9.4.7 
+## [28] XVector_0.19.9      jpeg_0.1-8          pkgconfig_2.0.1    
+## [31] htmltools_0.3.6     maps_3.3.0          highr_0.6          
+## [34] rlang_0.2.0.9001    bindr_0.1.1         jsonlite_1.5       
+## [37] gtools_3.5.0        spdep_0.7-7         biomformat_1.7.0   
+## [40] geosphere_1.5-7     Matrix_1.2-14       Rcpp_0.12.16       
+## [43] munsell_0.4.3       S4Vectors_0.17.42   Rhdf5lib_1.1.5     
+## [46] proto_1.0.0         ape_5.1             stringi_1.1.7      
+## [49] MASS_7.3-49         zlibbioc_1.25.0     rhdf5_2.23.8       
+## [52] Rtsne_0.13          plyr_1.8.4          grid_3.5.0         
+## [55] gdata_2.18.0        parallel_3.5.0      gender_0.5.2       
+## [58] deldir_0.1-15       lattice_0.20-35     Biostrings_2.47.12 
+## [61] splines_3.5.0       multtest_2.35.0     mapproj_1.2.6      
+## [64] pillar_1.2.1        igraph_1.2.1        boot_1.3-20        
+## [67] rjson_0.2.15        codetools_0.2-15    stats4_3.5.0       
+## [70] LearnBayes_2.15.1   XML_3.98-1.11       glue_1.2.0         
+## [73] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4-3
+## [76] png_0.1-7           foreach_1.4.4       RgoogleMaps_1.4.1  
+## [79] gtable_0.2.0        purrr_0.2.4         assertthat_0.2.0   
+## [82] coda_0.19-1         survival_2.42-3     genderdata_0.5.0   
+## [85] tibble_1.4.2        iterators_1.0.9     memoise_1.1.0      
+## [88] IRanges_2.13.28     cluster_2.0.7-1
 ```
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Gaudeamus 2017 Figures"
 author: "Mikko Tolonen, Leo Lahti"
-date: "2018-02-19"
+date: "2018-04-20"
 output:
   beamer_presentation:
     dev: cairo_pdf  
@@ -16,6 +16,9 @@ fontsize: 13pt
 
 
 
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 ---
 
