@@ -17,8 +17,8 @@ if (file.exists("df.combined.Rds") &&
   message("Creating df.combined.Rds by combining df.Rds-files from Kungliga & Fennica")
 
   message("Reading the data")
-  fen <- readRDS("fennica.Rds") # symbolic link to fennica/inst/examples/df.Rds 
-  kun <- readRDS("kungliga.Rds")  # symbolic link to kungliga/df.Rds 
+  fen <- readRDS("data/unified/polished/df.Rds") # symbolic link to fennica/inst/examples/df.Rds 
+  kun <- readRDS("data_kungliga/unified/polished/df.Rds")  # symbolic link to kungliga/df.Rds 
   
   message("Binding & adding extra fields")
   # LL: I chanced df0 naming to df000 since df0 is the name of a critical base data set
