@@ -33,7 +33,7 @@ if (file.exists("df.combined.Rds") &&
   df.combined.preprocessed <- mark_duplicates(df000)
 
   message("Save combined data")  			   
-  saveRDS(object = df.combined.preprocessed, file = "df.combined.Rds")
+  saveRDS(object = df.combined.preprocessed, file = "data/unified/df.combined.Rds")
   
 }
 

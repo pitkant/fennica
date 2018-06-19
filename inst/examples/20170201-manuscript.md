@@ -1,11 +1,7 @@
 ---
 title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
-<<<<<<< HEAD
-date: "2018-04-20"
-=======
-date: "2018-05-10"
->>>>>>> 4abdd937b6fd3616ba4f23f3afc3d0b2cbd1d665
+date: "2018-06-19"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -19,6 +15,9 @@ fontsize: 12pt
 
 
 
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 ---
 
@@ -83,6 +82,15 @@ Proportions for title count and paper in Swedish University towns
 ### Fig 8: Publishers in Swedish University towns (Fennica)
 
 Turku, Vaasa and Vyborg from Fennica; Stockholm, Lund, Uppsala, Greifswald, Tartu from Kungliga.
+
+
+```
+## Error in filter_impl(.data, quo): Evaluation error: object 'country' not found.
+```
+
+```
+## Error in filter_impl(.data, quo): Evaluation error: object 'country' not found.
+```
 
 <img src="20170201_manuscript/Figure_8-1.eps" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
 
@@ -150,6 +158,13 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 ### Fig 15: Language use in Turku, Stockholm, Uppsala and Lund
 
 
+```
+## Error in filter_impl(.data, quo): Argument 2 filter condition does not evaluate to a logical vector
+```
+
+```
+## Error in pics[[1]]: subscript out of bounds
+```
 
 
 <img src="20170201_manuscript/Figure_15-1.eps" title="plot of chunk Figure_15" alt="plot of chunk Figure_15" width="17cm" />
@@ -159,12 +174,46 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 ### Fig 16: Topic richness per language (Fennica)
 
+
+```
+## Error in .f(.x[[i]], ...): object 'language' not found
+```
+
+```
+## Error in grouped_df_impl(data, unname(vars), drop): Column `language` is unknown
+```
+
+```
+## Error in `$<-.data.frame`(`*tmp*`, language, value = character(0)): replacement has 0 rows, data has 18828
+```
+
+```
+## Error in `$<-.data.frame`(`*tmp*`, language, value = structure(integer(0), .Label = c("Finnish", : replacement has 0 rows, data has 18828
+```
+
+```
+## Error in FUN(X[[i]], ...): object 'language' not found
+```
+
 <img src="20170201_manuscript/Figure_16-1.eps" title="plot of chunk Figure_16" alt="plot of chunk Figure_16" width="17cm" />
 
 ---
 
 
 ### Fig 17: Temporary sermons in Latin and Swedish
+
+
+```
+## Error in filter_impl(.data, quo): Argument 2 filter condition does not evaluate to a logical vector
+```
+
+```
+## Error in UseMethod("group_by_"): no applicable method for 'group_by_' applied to an object of class "list"
+```
+
+```
+## Error in FUN(X[[i]], ...): object 'language' not found
+```
 
 <img src="20170201_manuscript/Figure_17-1.eps" title="plot of chunk Figure_17" alt="plot of chunk Figure_17" width="17cm" />
 
@@ -174,6 +223,19 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 ### Fig 18: Devotional literature (catechisms, hymns, prayers, etc.) 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
+
+
+```
+## Error in filter_impl(.data, quo): Argument 2 filter condition does not evaluate to a logical vector
+```
+
+```
+## Error in UseMethod("group_by_"): no applicable method for 'group_by_' applied to an object of class "NULL"
+```
+
+```
+## Error in FUN(X[[i]], ...): object 'language' not found
+```
 
 <img src="20170201_manuscript/Figure_18-1.eps" title="plot of chunk Figure_18" alt="plot of chunk Figure_18" width="17cm" />
 
@@ -187,111 +249,66 @@ This document was created with the following versions:
 
 
 ```
-<<<<<<< HEAD
-## R version 3.5.0 RC (2018-04-16 r74618)
-=======
 ## R version 3.5.0 (2018-04-23)
->>>>>>> 4abdd937b6fd3616ba4f23f3afc3d0b2cbd1d665
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Ubuntu 18.04 LTS
 ## 
 ## Matrix products: default
-<<<<<<< HEAD
 ## BLAS: /usr/local/lib/R/lib/libRblas.so
 ## LAPACK: /usr/local/lib/R/lib/libRlapack.so
-=======
-## BLAS: /home/lei/bin/R-3.5.0/lib/libRblas.so
-## LAPACK: /home/lei/bin/R-3.5.0/lib/libRlapack.so
->>>>>>> 4abdd937b6fd3616ba4f23f3afc3d0b2cbd1d665
 ## 
 ## locale:
 ##  [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
-##  [3] LC_TIME=de_BE.UTF-8        LC_COLLATE=en_US.UTF-8    
-##  [5] LC_MONETARY=de_BE.UTF-8    LC_MESSAGES=en_US.UTF-8   
-##  [7] LC_PAPER=de_BE.UTF-8       LC_NAME=C                 
+##  [3] LC_TIME=sv_SE.UTF-8        LC_COLLATE=en_US.UTF-8    
+##  [5] LC_MONETARY=sv_SE.UTF-8    LC_MESSAGES=en_US.UTF-8   
+##  [7] LC_PAPER=sv_SE.UTF-8       LC_NAME=C                 
 ##  [9] LC_ADDRESS=C               LC_TELEPHONE=C            
-## [11] LC_MEASUREMENT=de_BE.UTF-8 LC_IDENTIFICATION=C       
+## [11] LC_MEASUREMENT=sv_SE.UTF-8 LC_IDENTIFICATION=C       
 ## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-<<<<<<< HEAD
-##  [1] cowplot_0.9.2         scales_0.5.0.9000     gisfin_0.9.27        
-##  [4] R6_2.2.2              rgdal_1.2-18          sp_1.2-7             
-##  [7] ggmap_2.6.1           ggthemes_3.4.2        rmarkdown_1.9        
-## [10] stringr_1.3.0         microbiome_1.1.10012  phyloseq_1.23.1      
-## [13] knitr_1.20            gridExtra_2.3         reshape2_1.4.3       
-## [16] tidyr_0.8.0           bindrcpp_0.2.2        ggplot2_2.2.1        
-## [19] magrittr_1.5          sorvi_0.7.26          dplyr_0.7.4          
-## [22] devtools_1.13.5       fennica_0.1.45        bibliographica_0.2.42
+##  [1] cowplot_0.9.2         scales_0.5.0          Cairo_1.5-9          
+##  [4] gisfin_0.9.27         R6_2.2.2              rgdal_1.3-2          
+##  [7] sp_1.3-1              ggmap_2.6.1           ggthemes_3.5.0       
+## [10] rmarkdown_1.10        stringr_1.3.1         microbiome_1.2.1     
+## [13] phyloseq_1.24.0       knitr_1.20            gridExtra_2.3        
+## [16] reshape2_1.4.3        tidyr_0.8.1           bindrcpp_0.2.2       
+## [19] ggplot2_2.2.1         magrittr_1.5          sorvi_0.7.26         
+## [22] dplyr_0.7.5           devtools_1.13.5       fennica_0.1.45       
+## [25] bibliographica_0.2.44
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] nlme_3.1-137        gmodels_2.16.2      RColorBrewer_1.1-2 
 ##  [4] rprojroot_1.3-2     tools_3.5.0         backports_1.1.2    
-##  [7] vegan_2.5-1         spData_0.2.8.3      lazyeval_0.2.1     
-## [10] BiocGenerics_0.25.3 mgcv_1.8-23         colorspace_1.3-2   
+##  [7] vegan_2.5-2         spData_0.2.8.3      lazyeval_0.2.1     
+## [10] BiocGenerics_0.26.0 mgcv_1.8-23         colorspace_1.3-2   
 ## [13] permute_0.9-4       ade4_1.7-11         withr_2.1.2        
-## [16] tidyselect_0.2.4    compiler_3.5.0      Biobase_2.39.2     
-## [19] Cairo_1.5-9         expm_0.999-2        xml2_1.2.0         
-## [22] NLP_0.1-11          labeling_0.3        slam_0.1-42        
-## [25] tm_0.7-3            digest_0.6.15       stringdist_0.9.4.7 
-## [28] XVector_0.19.9      jpeg_0.1-8          pkgconfig_2.0.1    
-## [31] htmltools_0.3.6     maps_3.3.0          highr_0.6          
-## [34] rlang_0.2.0.9001    bindr_0.1.1         jsonlite_1.5       
-## [37] gtools_3.5.0        spdep_0.7-7         biomformat_1.7.0   
-## [40] geosphere_1.5-7     Matrix_1.2-14       Rcpp_0.12.16       
-## [43] munsell_0.4.3       S4Vectors_0.17.42   Rhdf5lib_1.1.5     
-## [46] proto_1.0.0         ape_5.1             stringi_1.1.7      
-## [49] MASS_7.3-49         zlibbioc_1.25.0     rhdf5_2.23.8       
-## [52] Rtsne_0.13          plyr_1.8.4          grid_3.5.0         
-## [55] gdata_2.18.0        parallel_3.5.0      gender_0.5.2       
-## [58] deldir_0.1-15       lattice_0.20-35     Biostrings_2.47.12 
-## [61] splines_3.5.0       multtest_2.35.0     mapproj_1.2.6      
-## [64] pillar_1.2.1        igraph_1.2.1        boot_1.3-20        
-## [67] rjson_0.2.15        codetools_0.2-15    stats4_3.5.0       
-## [70] LearnBayes_2.15.1   XML_3.98-1.11       glue_1.2.0         
-## [73] babynames_0.3.0     evaluate_0.10.1     data.table_1.10.4-3
-## [76] png_0.1-7           foreach_1.4.4       RgoogleMaps_1.4.1  
-## [79] gtable_0.2.0        purrr_0.2.4         assertthat_0.2.0   
-## [82] coda_0.19-1         survival_2.42-3     genderdata_0.5.0   
-## [85] tibble_1.4.2        iterators_1.0.9     memoise_1.1.0      
-## [88] IRanges_2.13.28     cluster_2.0.7-1
-=======
-##  [1] fennica_0.1.45        bibliographica_0.2.42 gridExtra_2.3        
-##  [4] magrittr_1.5          cowplot_0.9.2         scales_0.5.0.9000    
-##  [7] bindrcpp_0.2.2        devtools_1.13.5       sorvi_0.7.26         
-## [10] reshape2_1.4.3        tidyr_0.8.0           dplyr_0.7.4          
-## [13] stringr_1.3.0         gisfin_0.9.27         R6_2.2.2             
-## [16] rgdal_1.2-20          sp_1.2-7              ggmap_2.6.1          
-## [19] ggplot2_2.2.1         ggthemes_3.5.0        rmarkdown_1.9        
-## 
-## loaded via a namespace (and not attached):
-##  [1] maps_3.3.0         gender_0.5.2       splines_3.5.0     
-##  [4] gtools_3.5.0       assertthat_0.2.0   expm_0.999-2      
-##  [7] highr_0.6          slam_0.1-43        yaml_2.1.19       
-## [10] LearnBayes_2.15.1  pillar_1.2.2       backports_1.1.2   
-## [13] lattice_0.20-35    glue_1.2.0         digest_0.6.15     
-## [16] RColorBrewer_1.1-2 colorspace_1.3-2   htmltools_0.3.6   
-## [19] Matrix_1.2-14      plyr_1.8.4         tm_0.7-3          
-## [22] XML_3.98-1.11      pkgconfig_2.0.1    gmodels_2.16.2    
-## [25] purrr_0.2.4        stringdist_0.9.4.7 gdata_2.18.0      
-## [28] jpeg_0.1-8         genderdata_0.5.0   tibble_1.4.2      
-## [31] withr_2.1.2        lazyeval_0.2.1     NLP_0.1-11        
-## [34] proto_1.0.0        deldir_0.1-15      memoise_1.1.0     
-## [37] evaluate_0.10.1    nlme_3.1-137       MASS_7.3-50       
-## [40] xml2_1.2.0         Cairo_1.5-9        data.table_1.11.2 
-## [43] tools_3.5.0        geosphere_1.5-7    RgoogleMaps_1.4.1 
-## [46] munsell_0.4.3      babynames_0.3.0    compiler_3.5.0    
-## [49] tinytex_0.5        rlang_0.2.0.9001   grid_3.5.0        
-## [52] rjson_0.2.18       labeling_0.3       testthat_2.0.0    
-## [55] boot_1.3-20        gtable_0.2.0       roxygen2_6.0.1    
-## [58] knitr_1.20         bindr_0.1.1        commonmark_1.5    
-## [61] rprojroot_1.3-2    spdep_0.7-7        stringi_1.2.2     
-## [64] parallel_3.5.0     Rcpp_0.12.16       mapproj_1.2.6     
-## [67] png_0.1-7          spData_0.2.8.3     tidyselect_0.2.4  
-## [70] coda_0.19-1
->>>>>>> 4abdd937b6fd3616ba4f23f3afc3d0b2cbd1d665
+## [16] tidyselect_0.2.4    compiler_3.5.0      Biobase_2.40.0     
+## [19] expm_0.999-2        xml2_1.2.0          NLP_0.1-11         
+## [22] labeling_0.3        slam_0.1-43         tm_0.7-3           
+## [25] digest_0.6.15       stringdist_0.9.5.1  XVector_0.20.0     
+## [28] jpeg_0.1-8          pkgconfig_2.0.1     htmltools_0.3.6    
+## [31] maps_3.3.0          highr_0.7           rlang_0.2.1        
+## [34] bindr_0.1.1         jsonlite_1.5        gtools_3.5.0       
+## [37] spdep_0.7-7         biomformat_1.8.0    geosphere_1.5-7    
+## [40] Matrix_1.2-14       Rcpp_0.12.17        munsell_0.4.3      
+## [43] S4Vectors_0.18.3    Rhdf5lib_1.2.1      proto_1.0.0        
+## [46] ape_5.1             stringi_1.2.2       MASS_7.3-50        
+## [49] zlibbioc_1.26.0     rhdf5_2.24.0        plyr_1.8.4         
+## [52] grid_3.5.0          gdata_2.18.0        parallel_3.5.0     
+## [55] gender_0.5.2        deldir_0.1-15       lattice_0.20-35    
+## [58] Biostrings_2.48.0   splines_3.5.0       multtest_2.36.0    
+## [61] mapproj_1.2.6       pillar_1.2.3        igraph_1.2.1       
+## [64] boot_1.3-20         rjson_0.2.20        codetools_0.2-15   
+## [67] stats4_3.5.0        LearnBayes_2.15.1   XML_3.98-1.11      
+## [70] glue_1.2.0          babynames_0.3.0     evaluate_0.10.1    
+## [73] data.table_1.11.4   png_0.1-7           foreach_1.4.4      
+## [76] RgoogleMaps_1.4.2   gtable_0.2.0        purrr_0.2.5        
+## [79] assertthat_0.2.0    coda_0.19-1         survival_2.42-3    
+## [82] genderdata_0.5.0    tibble_1.4.2        iterators_1.0.9    
+## [85] memoise_1.1.0       IRanges_2.14.10     cluster_2.0.7-1
 ```
 
 

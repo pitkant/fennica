@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing summary"
 author: "Leo Lahti"
-date: "July 2, 2016"
+date: "Tue Jun 19 16:14:07 2018"
 ---
 
 # Fennica summary
@@ -13,7 +13,7 @@ Fields of special interest. Real success percentage (proportion of successful co
 
 
 ```
-## Error in FUN(X[[i]], ...): object 'country' not found
+## Error in .f(.x[[i]], ...): object 'country' not found
 ```
 
 ```

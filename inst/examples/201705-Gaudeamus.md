@@ -1,7 +1,7 @@
 ---
 title: "Gaudeamus 2017 Figures"
 author: "Mikko Tolonen, Leo Lahti"
-date: "2018-04-20"
+date: "2018-06-19"
 output:
   beamer_presentation:
     dev: cairo_pdf  
