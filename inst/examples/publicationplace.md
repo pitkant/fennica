@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-19"
+date: "2018-06-21"
 output: markdown_document
 ---
 
@@ -21,8 +21,8 @@ Top-20 publication places are shown together with the number of documents.
 
 ### Publication countries	
 
- * 34 [unique publication countries](output.tables/publication_country_accepted.csv); available for 67539 documents (96%).
- * 2 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (0.5% of the unique places; can be added to [country mappings](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv))
+ * 34 [unique publication countries](output.tables/publication_country_accepted.csv); available for 67535 documents (96%).
+ * 5 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (1.2% of the unique places; can be added to [country mappings](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * 6 [potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv).
 
 
@@ -38,8 +38,8 @@ Top-20 publication places are shown together with the number of documents.
 
 ### Geocoordinates
 
- * NaN% of the documents were matched to geographic coordinates (based on [Geonames](http://download.geonames.org/export/dump/)).
- * 0 unique places (0% of all unique places and NaN% of all documents) are missing geocoordinates. See [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv).
+ * 95.8% of the documents were matched to geographic coordinates (based on [Geonames](http://download.geonames.org/export/dump/)).
+ * 12 unique places (2.8% of all unique places and 4.16% of all documents) are missing geocoordinates. See [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv).
  
 
 ### Publication geography
