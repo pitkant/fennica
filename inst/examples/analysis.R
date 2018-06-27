@@ -2,9 +2,6 @@
 source("analysis.init.R")
 source("analysis.run.R")
 
-# source("prepare_fnd_data_for_ccq2019.R")
-
-
 # Combine Fennica + Kungliga and mark duplicates
 source("analysis.combined.R")
 

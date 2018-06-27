@@ -125,4 +125,14 @@ saveRDS(df.preprocessed, "data/unified/polished/df.Rds")
 
 # ---------------------------------
 
+# Data releases
+
+# CCQ 2019 data release - run separately
+# source("prepare_fnd_data_for_ccq2019.R")
+
+# -----------------------------------
+
 source("analysis.R")  # Summary md docs
+
+#---------------------------------
+
