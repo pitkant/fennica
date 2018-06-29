@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing summary"
 author: "Leo Lahti"
-date: "Thu Jun 21 18:05:04 2018"
+date: "Wed Jun 27 19:28:30 2018"
 ---
 
 # Fennica summary
