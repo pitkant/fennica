@@ -5,8 +5,10 @@ library(dplyr)
 # its components (ie. updated after the latest changes).
 # Otherwise update.
 if (file.exists("df.combined.Rds") &&
+
     (as.numeric(file.info("df.combined.Rds")$mtime - file.info("fennica.Rds")$mtime)) > 0 &&
     (as.numeric(file.info("df.combined.Rds")$mtime - file.info("kungliga.Rds")$mtime)) > 0)
+    
    {
   
   message("Opening df.combined.Rds")

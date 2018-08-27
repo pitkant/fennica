@@ -1,5 +1,5 @@
 ---
-title: "Patterns in Knowledge Production: Political Ruptures and Imperial Dynamics Shaping Public Discourse in Sweden and Finland, 1640–1828"
+title: "A Quantitative Approach to Book Printing in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen"
 date: "`r Sys.Date()`"
 output: 
@@ -78,7 +78,7 @@ tmp <- Sys.setlocale(locale="UTF-8")
 ```
 
 
-```{r 201606krakow-init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
+```{r init2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, cache=TRUE}
 # Full combined catalogue (Fen + Kun) with marked duplicates
 df.combined.preprocessed <- readRDS("df.combined.Rds")
 # Data with duplicates removed
@@ -95,12 +95,9 @@ cols <- list(Fennica = "blue", Kungliga = "darkred")
 ```
 
 ---
-
-
 ### Fig 1: Number of publication places over time
 
 ```{r Figure_1, message=FALSE, warning=FALSE, echo=FALSE}
-
 library(dplyr)
 library(ggplot2)
 # theme_set(theme_bw(20))
@@ -1273,6 +1270,16 @@ print(p)
 ---
 
 
+### Data statistics
+
+
+```{r stats, echo=FALSE, message=FALSE, warning=FALSE}
+library(skimr)
+
+s <- skim(subset(df0, catalog == "Fennica")[, c("publication_year", "publication_place", "gatherings", "title", "pagecount", "publisher", "language", "subject_topic")])
+
+kable(s)
+```
 
 ## Session info
 

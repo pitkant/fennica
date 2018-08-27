@@ -1,5 +1,3 @@
-
-
 message("Filtering out rows with remove-tags")
 # This is the real removal
 # Fast to run, so just run before analysis and do not save
@@ -55,9 +53,3 @@ duplicates <- filter_duplicates(df.combined.preprocessed)
 fields <- c("catalog", "author", "short_title", "title", "dissertation", "publication_place", "publication_year")
 duplicates <- duplicates[,fields][order(duplicates$publication_year, duplicates$short_title, duplicates$publication_place, duplicates$catalog),]
 write.table(duplicates, paste0(output.folder, "duplicates.csv"), quote = FALSE, sep = "\t", row.names = FALSE)
-
-
-
-
-
-
