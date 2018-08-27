@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing summary"
 author: "Leo Lahti"
-date: "July 2, 2016"
+date: "Wed Jun 27 19:28:30 2018"
 ---
 
 # Fennica summary
@@ -10,6 +10,71 @@ date: "July 2, 2016"
 
 
 Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+
+```
+## Error in .f(.x[[i]], ...): object 'country' not found
+```
+
+```
+## Error in apply(dfs, 2, function(x) {: object 'dfs' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'success' not found
+```
+
+```
+## Error in plot.window(xlim, ylim, log = log, ...): need finite 'ylim' values
+```
 
 ![plot of chunk missing2](figure/missing2-1.png)
 

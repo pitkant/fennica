@@ -1,12 +1,21 @@
 ---
 title: "Julkaisutoiminta Suomessa 1640-1917"
 author: "Niko Ilomäki"
-date: "2018-02-15"
+date: "2018-06-27"
 output: markdown_document
 ---
 
 
 
+
+```
+## Warning in gzfile(file, "rb"): cannot open compressed file 'df.Rds',
+## probable reason 'No such file or directory'
+```
+
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 ```
 ## Error in filter_impl(.data, quo): Evaluation error: object 'published_in' not found.

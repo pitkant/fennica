@@ -14,7 +14,7 @@ output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
-fs <- "data/fennica_parsed.csv.gz"
+fs <- "data/unified/fennica_parsed.csv.gz"
 catalog <- "fennica" 
 
 # Languages to consider in cleanup.
@@ -121,8 +121,18 @@ data.enriched2 <- enrich_preprocessed_data(data.validated2, df.orig)
 df.preprocessed <- data.enriched2$df.preprocessed
 
 print("Saving updates on preprocessed data")
-saveRDS(df.preprocessed, "df.Rds")
+saveRDS(df.preprocessed, "data/unified/polished/df.Rds")
 
 # ---------------------------------
 
+# Data releases
+
+# CCQ 2019 data release - run separately
+# source("prepare_fnd_data_for_ccq2019.R")
+
+# -----------------------------------
+
 source("analysis.R")  # Summary md docs
+
+#---------------------------------
+

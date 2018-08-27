@@ -8,7 +8,9 @@ source("analysis.combined.R")
 # Duplicate analyses / HR
 # may have to be updated after the latest code changes
 # but very slow
-# source("analysis.combined.run.R")
+# TODO develop cache system or similar
+source("analysis.combined.run.R")
+warning("Check analysis.combined.run.R")
 
 # Custom analyses
 knitr::knit("summary.Rmd", encoding="UTF-8")
@@ -21,9 +23,9 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 # knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
 # Manuscript 2/2017 Figures
-library(rmarkdown)
-knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
-render("20170201-manuscript.Rmd")
+#library(rmarkdown)
+#knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
+#render("20170201-manuscript.Rmd")
 
 # RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
 # RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
@@ -31,11 +33,12 @@ render("20170201-manuscript.Rmd")
 # knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
 # -------------------
+
 # Gaudeamus
-knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
+# knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
 #rmarkdown::render("201705-Gaudeamus.Rmd", output_format="pdf_document")
 #rmarkdown::render("201705-Gaudeamus.Rmd") 
-source("Figure3.R")
+#source("Figure3.R")
 
 # -------------------
 
@@ -61,7 +64,6 @@ source("Figure3.R")
 # # system("git add output.tables/*.csv")
 # system("git commit -a -m'Rmd update'")
 # system("git push")
-
 
 
 

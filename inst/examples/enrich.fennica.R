@@ -101,6 +101,24 @@ enrich_fennica <- function(data.enriched) {
 
   # ----------------------------------------------------------------------
 
+  # Updated geomappings. This is now based on the polished place names.
+  # TODO check if original raw data has any country information
+  # Iiron mappaykset
+  geoinfo <- read.csv("geo/Fennica.Places.csv", fileEncoding = "latin1")
+  # Quick manual fixes
+  df.preprocessed$publication_place <- gsub("Żary", "Zary", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Gdańsk", "Gdansk", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Poznań", "Poznan", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Telč", "Telc", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Litoměrice", "Litomerice", df.preprocessed$publication_place)        
+  # not1 <- setdiff(df.preprocessed$publication_place, geoinfo$publication_place); not2 <- setdiff(geoinfo$publication_place, df.preprocessed$publication_place)
+  inds <- match(df.preprocessed$publication_place, geoinfo$publication_place)
+  df.preprocessed$publication_country <- factor(geoinfo[inds, "country"])
+  df.preprocessed$longitude <- geoinfo[inds, "longitude"]
+  df.preprocessed$latitude <- geoinfo[inds, "latitude"]  
+ 
+  # ----------------------------------------------------------------------
+
   data.enriched <- list(df.preprocessed = df.preprocessed,
                         update.fields = update.fields,
                         conversions = conversions)

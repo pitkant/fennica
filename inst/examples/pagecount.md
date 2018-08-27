@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-02-15"
+date: "2018-06-27"
 output: markdown_document
 ---
 
@@ -58,10 +58,7 @@ count estimate.
 
 ### Document size distribution
 
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
+![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 0 documents that have missing pagecount info in the original data):
 
@@ -71,7 +68,7 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 ```
 
 ```
-## Error in FUN(X[[i]], ...): object '.group' not found
+## Error in FUN(X[[i]], ...): object 'documents' not found
 ```
 
 <img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
@@ -122,20 +119,10 @@ Gatherings height: does it change over time? How increased printing activity is 
 
 Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
 
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
-
-![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)
+![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-4.png)
 
 
 Same for documents that have a sufficient number of pages:
 
-
-```
-## Error in FUN(X[[i]], ...): object '.group' not found
-```
-
-![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)
+![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
 
