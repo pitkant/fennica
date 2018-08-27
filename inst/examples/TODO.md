@@ -4,6 +4,9 @@ TODO
 
 ### Technical
 
+- Onko primaarikieli luotettava; näitä voisi testata joko
+  manuaalisesti, tai sitten vertaamalla otsikon kieleen tms.
+
 - Self published: add summaries also for these to publisher.Rmd
 
 - Gender: putsattu top-20 female mukaan. (F + K). Gender-mäppien
