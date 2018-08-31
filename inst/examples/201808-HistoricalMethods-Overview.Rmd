@@ -28,6 +28,8 @@ fen <- subset(df0, catalog == "Fennica")
 kun <- subset(df0, catalog == "Kungliga")
 cats <- list(Fennica = fen, Kungliga = kun)
 
+selected.fields <- c("publication_year", "publication_place", "gatherings", "title", "pagecount", "publisher", "language", "Subject")
+
 for (cat in unique(df0$catalog)) {
 
   dd <- subset(df0, catalog == cat)[, selected.fields]
@@ -221,7 +223,7 @@ print(p)
 
 ### Subject
 
-Number of unique and all genres per catalogue.
+Number of unique and all subject topics per catalogue.
 
 ```{r genre, echo=FALSE, message=FALSE, warning=FALSE}
 df <- df0 %>% group_by(catalog) %>%
@@ -232,17 +234,17 @@ kable(df)
 ```
 
 
-The most common genres in Fennica:
+The most common subject topics in Fennica:
 
 ```{r genres_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, "Subject", 10, "data.frame"), digits = 1)
+kable(top(fen, "Subject", 10, "data.frame", round = 1))
 ```
 
 
-The most common genres in Kungliga:
+The most common subject topics in Kungliga:
 
 ```{r genres_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, "Subject", 10, "data.frame"), digits = 1)
+kable(top(kun, "Subject", 10, "data.frame", round = 1))
 ```
 
 
@@ -265,14 +267,14 @@ kable(df, digits = 1)
 The most common publishers in Fennica:
 
 ```{r publishers_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame"), digits = 1)
+kable(top(fen, field, 10, "data.frame", round = 1))
 ```
 
 
 The most common publishers in Kungliga:
 
 ```{r publishers_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame"), digits = 1)
+kable(top(kun, field, 10, "data.frame", round = 1))
 ```
 
 
@@ -297,14 +299,14 @@ kable(df, digits = 1)
 The most common authors in Fennica:
 
 ```{r authors_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame"), digits = 1)
+kable(top(fen, field, 10, "data.frame", round = 1))
 ```
 
 
 The most common authors in Kungliga:
 
 ```{r authors_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame"), digits = 1)
+kable(top(kun, field, 10, "data.frame", round = 1))
 ```
 
 
@@ -372,13 +374,13 @@ kable(df)
 The most common languages in Fennica:
 
 ```{r languages_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame"), digits = 1)
+kable(top(fen, field, 10, "data.frame", round = 1))
 ```
 
 The most common languages in Kungliga:
 
 ```{r languages_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame"), digits = 1)
+kable(top(kun, field, 10, "data.frame", round = 1))
 ```
 
 
@@ -402,13 +404,13 @@ kable(df)
 The most common publication places in Fennica:
 
 ```{r places_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame"), digits = 1)
+kable(top(fen, field, 10, "data.frame", round = 1))
 ```
 
 The most common publication places in Kungliga:
 
 ```{r places_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame"), digits = 1)
+kable(top(kun, field, 10, "data.frame", round = 1))
 ```
 
 

@@ -42,6 +42,12 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 
 # -------------------
 
+# Historical Methods 2018 Marjanen et al.
+
+# rmarkdown::render("201808-HistoricalMethods-Overview.Rmd", output_format = "pdf_document") 
+
+# -------------------
+
 # rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 # library(rmarkdown)
 # rmarkdown::render("slidetemplates.Rmd", params = list(min.year = 1488, max.year = 1828, data = "df.combined.Rds"))
