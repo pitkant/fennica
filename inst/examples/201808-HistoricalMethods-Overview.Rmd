@@ -43,6 +43,27 @@ for (cat in unique(df0$catalog)) {
 ```
 
 
+Records in the final data set used in the analyses:
+
+ * Fennica: ```r nrow(subset(df0, catalog == "Fennica"))```
+ * Kungliga: ```r nrow(subset(df0, catalog == "Kungliga"))```
+
+
+
+Data availability for the key fields analyzed in this work (%):
+
+```{r complete, echo=FALSE, message=FALSE, warning=FALSE}
+w <- data.frame(Field = map_fieldnames(colnames(dd)),
+                Fennica = d$Fennica$Complete,
+	        Kungliga = d$Kungliga$Complete) %>%
+	     arrange(desc(Fennica))
+
+kable(w)
+```
+
+
+
+
 The following table indicates the MARC fields for each data type. The
 language information was picked from the MARC fields 008lang and 041a
 for Kungliga and Fennica, respectively.
@@ -146,26 +167,291 @@ kable(df)
 ```
 
 
-### Total overview
-
-Records in the final data set used in the analyses (years ```r min(df0$publication_year)```-```r max(df0$publication_year)```):
-
- * Fennica: ```r nrow(subset(df0, catalog == "Fennica"))```
- * Kungliga: ```r nrow(subset(df0, catalog == "Kungliga"))```
 
 
+### Author
 
-Percentage of non-empty entries for each field (per catalogue).
+Number of unique authors and all documents with author information:
 
-```{r complete, echo=FALSE, message=FALSE, warning=FALSE}
-w <- data.frame(Field = map_fieldnames(colnames(dd)),
-           Fennica = d$Fennica$Complete,
-	   Kungliga = d$Kungliga$Complete) %>%
-	     arrange(desc(Fennica))
-
-kable(w)
+```{r author, echo=FALSE, message=FALSE, warning=FALSE}
+field <- "author"
+df <- df0
+df$field <- df[[field]]
+df <- df %>% group_by(catalog) %>%
+              summarise(Unique = length(unique(field)),
+	                All = sum(!is.na(field)))
+colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+kable(df, digits = 1)
 ```
 
+
+The most common authors in Fennica:
+
+```{r authors_fen, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(fen, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("author", "Author", colnames(tab))
+kable(tab)
+```
+
+
+The most common authors in Kungliga:
+
+```{r authors_kun, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(kun, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("author", "Author", colnames(tab))
+kable(tab)
+```
+
+
+### Format (Gatherings)
+
+Proportion (%) of unique gatherings and all documents with gatherings information:
+
+```{r gatherings, echo=FALSE, message=FALSE, warning=FALSE}
+field <- "gatherings"
+df <- df0
+df$field <- df[[field]]
+df <- df %>% group_by(catalog, gatherings) %>%
+              summarise(n = n())
+df <- spread(df, catalog, n, fill = 0)
+colnames(df) <- c("Gatherings", "Fennica", "Kungliga")
+df$Gatherings <- as.character(df$Gatherings)
+df$Gatherings <- gsub("NA", "Missing", df$Gatherings)
+
+df2 <- df
+df2$Fennica <- round(100 * df2$Fennica / nrow(fen), 1)
+df2$Kungliga <- round(100 * df2$Kungliga / nrow(kun), 1)
+
+kable(df2)
+```
+
+
+
+
+
+
+### Publisher
+
+Number of unique publishers and all documents with publisher information:
+
+```{r publisher, echo=FALSE, message=FALSE, warning=FALSE}
+field <- "publisher"
+df <- df0
+df$field <- df[[field]]
+df <- df %>% group_by(catalog) %>%
+              summarise(Unique = length(unique(field)),
+	                All = sum(!is.na(field)))
+colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+kable(df, digits = 1)
+```
+
+
+The most common publishers in Fennica:
+
+```{r publishers_fen, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(fen, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("publisher", "Publisher", colnames(tab))
+kable(tab)
+```
+
+
+The most common publishers in Kungliga:
+
+```{r publishers_kun, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(kun, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("publisher", "Publisher", colnames(tab))
+kable(tab)
+```
+
+
+### Pages
+
+Page count variation per gatherings. The variants have been combined (2long/2to; 4long/4to; 8long/8vo; 12long/12mo). Documents with missing gatherings are not shown.
+
+```{r pagecount, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, figh.height=1}
+df <- df0
+df$gatherings <- gsub("^2long", "2fo", df$gatherings)
+df$gatherings <- gsub("4long", "4to", df$gatherings)
+df$gatherings <- gsub("8long", "8vo", df$gatherings)
+df$gatherings <- gsub("12long", "12mo", df$gatherings)
+df <- df[which(!df$gatherings == "NA"), ]
+df <- subset(df, !is.na(pagecount))
+df$gatherings <- order_gatherings(df$gatherings)
+
+cols <- default_colors("gatherings", levels(df$gatherings))
+
+p <- ggplot(df) +
+       geom_histogram(aes(x = pagecount,
+		    group = gatherings,       
+                    #y = ..count../sum(..count..),
+                    fill = gatherings),
+                    color = "black",
+		    alpha = 0.5
+		    ) + 
+       labs(x = "Page count (n)",
+            y = "Frequency (n)") +
+       scale_x_log10(breaks = c(1, 10, 100, 1000)) +
+       scale_y_log10(breaks = c(1, 10, 100, 1000)) +
+       scale_fill_manual(values = unname(cols)) +       
+       facet_grid(catalog ~ gatherings) +
+       guides(fill = "none") + 
+       labs(y = "Frequency (n)") +
+       theme(
+         axis.text = element_text(size=10)
+             )
+print(p)
+```
+
+
+### Paper consumption
+
+Paper consumption estimates per gatherings (sheets per document). The variants have been combined (2long/2to; 4long/4to; 8long/8vo; 12long/12mo). Documents with missing page count estimates are not shown.
+
+```{r paper, echo=FALSE, message=FALSE, warning=FALSE, fig.width=20, figh.height=1}
+x <- c(.01, .1, 1, 10, 100, 1000)
+df <- df0
+df$gatherings <- gsub("^2long", "2fo", df$gatherings)
+df$gatherings <- gsub("4long", "4to", df$gatherings)
+df$gatherings <- gsub("8long", "8vo", df$gatherings)
+df$gatherings <- gsub("12long", "12mo", df$gatherings)
+df <- df[which(!df$gatherings == "NA"), ]
+df <- subset(df, !is.na(paper))
+df$gatherings <- order_gatherings(df$gatherings)
+cols <- default_colors("gatherings", levels(df$gatherings))
+
+p <- ggplot(df) +
+       geom_histogram(aes(x = paper/1e3, # Remove print run estimates
+		    group = gatherings,       
+                    fill = gatherings),
+                    color = "black",
+		    alpha = 0.5
+		    ) +
+       scale_fill_manual(values = unname(cols)) + 		    
+       labs(x = "Paper per document (sheets)",
+            y = "Frequency (n)") +
+       scale_y_log10(breaks = c(1, 10, 100, 1000)) +
+       scale_x_log10(breaks = x,
+           labels=scales::trans_format('log10', scales::math_format(10^.x))) + 
+       facet_grid(catalog ~ gatherings) +
+       guides(fill = "none") + 
+       labs(y = "Frequency (n)") +
+       theme(
+         axis.text = element_text(size=10)
+             ) 
+
+print(p)
+
+```
+
+
+
+
+### Publication year
+
+```{r year, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, figh.height=3}
+p <- ggplot(df0) +
+       geom_histogram(aes(x = publication_year)) + 
+       labs(x = "Publication year",
+            y = "Frequency (n)") +
+       # scale_x_log10(breaks = c(1, 10, 100, 1000)) +       
+       facet_grid(. ~ catalog)
+print(p)
+```
+
+
+### Language
+
+Number of unique languages and all documents with language information.
+
+```{r languages , echo=FALSE, message=FALSE, warning=FALSE}
+field <- "language"
+df <- df0
+df$field <- df[[field]]
+df <- df %>% group_by(catalog) %>%
+              summarise(Unique = length(unique(field)),
+	                All = sum(!is.na(field)))
+colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+colnames(df) <- gsub("language", "Language", colnames(df))
+kable(df)
+```
+
+
+The most common languages in Fennica:
+
+```{r languages_fen, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(fen, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("language", "Language", colnames(tab))
+kable(tab)
+```
+
+The most common languages in Kungliga:
+
+```{r languages_kun, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(kun, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("language", "Language", colnames(tab))
+kable(tab)
+```
+
+
+### Publication place
+
+Number of unique publication places and all documents with publication place information.
+
+```{r places, echo=FALSE, message=FALSE, warning=FALSE}
+field <- "publication_place"
+df <- df0
+df$field <- df[[field]]
+
+df <- df %>% group_by(catalog) %>%
+              summarise(Unique = length(unique(field)),
+	                All = sum(!is.na(field)))
+colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+kable(df)
+```
+
+
+The most common publication places in Fennica:
+
+```{r places_fen, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(fen, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("publication_place", "Publication place", colnames(tab))
+kable(tab)
+```
+
+The most common publication places in Kungliga:
+
+```{r places_kun, echo=FALSE, message=FALSE, warning=FALSE}
+tab <- top(kun, field, 10, "data.frame", round = 1)
+colnames(tab) <- gsub("publication_place", "Publication place", colnames(tab))
+kable(tab)
+```
+
+
+### Subject
+
+Number of unique and all subject topics per catalogue.
+
+```{r genre, echo=FALSE, message=FALSE, warning=FALSE}
+df <- df0 %>% group_by(catalog) %>%
+              summarise(Unique = length(unique(Subject)),
+	                All = sum(!is.na(Subject)))
+colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+kable(df)
+```
+
+
+The most common subject topics in Fennica:
+
+```{r genres_fen, echo=FALSE, message=FALSE, warning=FALSE}
+kable(top(fen, "Subject", 10, "data.frame", round = 1))
+```
+
+
+The most common subject topics in Kungliga:
+
+```{r genres_kun, echo=FALSE, message=FALSE, warning=FALSE}
+kable(top(kun, "Subject", 10, "data.frame", round = 1))
+```
 
 
 
@@ -217,226 +503,6 @@ p <- ggplot(df) +
        facet_grid(. ~ catalog)
 print(p)
 ```
-
-
-
-
-### Subject
-
-Number of unique and all subject topics per catalogue.
-
-```{r genre, echo=FALSE, message=FALSE, warning=FALSE}
-df <- df0 %>% group_by(catalog) %>%
-              summarise(Unique = length(unique(Subject)),
-	                All = sum(!is.na(Subject)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
-kable(df)
-```
-
-
-The most common subject topics in Fennica:
-
-```{r genres_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, "Subject", 10, "data.frame", round = 1))
-```
-
-
-The most common subject topics in Kungliga:
-
-```{r genres_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, "Subject", 10, "data.frame", round = 1))
-```
-
-
-### Publisher
-
-Number of unique and all publishers per catalogue.
-
-```{r publisher, echo=FALSE, message=FALSE, warning=FALSE}
-field <- "publisher"
-df <- df0
-df$field <- df[[field]]
-df <- df %>% group_by(catalog) %>%
-              summarise(Unique = length(unique(field)),
-	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
-kable(df, digits = 1)
-```
-
-
-The most common publishers in Fennica:
-
-```{r publishers_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame", round = 1))
-```
-
-
-The most common publishers in Kungliga:
-
-```{r publishers_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame", round = 1))
-```
-
-
-
-
-### Author
-
-Number of unique and all authors per catalogue.
-
-```{r author, echo=FALSE, message=FALSE, warning=FALSE}
-field <- "author"
-df <- df0
-df$field <- df[[field]]
-df <- df %>% group_by(catalog) %>%
-              summarise(Unique = length(unique(field)),
-	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
-kable(df, digits = 1)
-```
-
-
-The most common authors in Fennica:
-
-```{r authors_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame", round = 1))
-```
-
-
-The most common authors in Kungliga:
-
-```{r authors_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame", round = 1))
-```
-
-
-
-### Pages
-
-Page count variation.
-
-```{r pagecount, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, figh.height=3}
-p <- ggplot(df0) +
-       geom_histogram(aes(x = pagecount)) + 
-       labs(x = "Page count (n)",
-            y = "Frequency (n)") +
-       scale_x_log10(breaks = c(1, 10, 100, 1000)) +       
-       facet_grid(. ~ catalog)
-print(p)
-```
-
-
-### Paper consumption
-
-Paper consumption estimates.
-
-```{r paper, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, figh.height=3}
-p <- ggplot(df0) +
-       geom_histogram(aes(x = paper)) + 
-       labs(x = "Paper (sheets)",
-            y = "Frequency (n)") +
-       scale_x_log10(breaks = c(1, 10, 100, 1000)) +       
-       facet_grid(. ~ catalog)
-print(p)
-```
-
-
-### Publication year
-
-```{r year, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, figh.height=3}
-p <- ggplot(df0) +
-       geom_histogram(aes(x = publication_year)) + 
-       labs(x = "Publication year",
-            y = "Frequency (n)") +
-       scale_x_log10(breaks = c(1, 10, 100, 1000)) +       
-       facet_grid(. ~ catalog)
-print(p)
-```
-
-
-### Language
-
-Number of unique and all languages per catalogue.
-
-```{r languages , echo=FALSE, message=FALSE, warning=FALSE}
-field <- "language"
-df <- df0
-df$field <- df[[field]]
-df <- df %>% group_by(catalog) %>%
-              summarise(Unique = length(unique(field)),
-	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
-colnames(df) <- gsub("language", "Language", colnames(df))
-kable(df)
-```
-
-
-The most common languages in Fennica:
-
-```{r languages_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame", round = 1))
-```
-
-The most common languages in Kungliga:
-
-```{r languages_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame", round = 1))
-```
-
-
-### Publication place
-
-Number of unique and all publication places per catalog.
-
-```{r places, echo=FALSE, message=FALSE, warning=FALSE}
-field <- "publication_place"
-df <- df0
-df$field <- df[[field]]
-
-df <- df %>% group_by(catalog) %>%
-              summarise(Unique = length(unique(field)),
-	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
-kable(df)
-```
-
-
-The most common publication places in Fennica:
-
-```{r places_fen, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(fen, field, 10, "data.frame", round = 1))
-```
-
-The most common publication places in Kungliga:
-
-```{r places_kun, echo=FALSE, message=FALSE, warning=FALSE}
-kable(top(kun, field, 10, "data.frame", round = 1))
-```
-
-
-
-### Format (Gatherings)
-
-Percent of unique and all gatherings per catalogue.
-
-```{r gatherings, echo=FALSE, message=FALSE, warning=FALSE}
-field <- "gatherings"
-df <- df0
-df$field <- df[[field]]
-df <- df %>% group_by(catalog, gatherings) %>%
-              summarise(n = n())
-df <- spread(df, catalog, n, fill = 0)
-colnames(df) <- c("Gatherings", "Fennica", "Kungliga")
-df$Gatherings <- as.character(df$Gatherings)
-df$Gatherings <- gsub("NA", "Missing", df$Gatherings)
-
-df2 <- df
-df2$Fennica <- round(100 * df2$Fennica / nrow(fen), 1)
-df2$Kungliga <- round(100 * df2$Kungliga / nrow(kun), 1)
-
-kable(df2)
-```
-
 
 
 
