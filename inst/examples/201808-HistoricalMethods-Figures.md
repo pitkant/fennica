@@ -19,14 +19,14 @@ fontsize: 12pt
 ---
 ### Fig 1: Number of publication places over time
 
-<img src="20170201_manuscript/Figure_1-1.eps" title="plot of chunk Figure_1" alt="plot of chunk Figure_1" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_1-1.eps" title="plot of chunk Figure_1" alt="plot of chunk Figure_1" width="17cm" />
 
 ---
 
 
 ### Fig 2: Title count over time
 
-<img src="20170201_manuscript/Figure_2-1.eps" title="plot of chunk Figure_2" alt="plot of chunk Figure_2" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_2-1.eps" title="plot of chunk Figure_2" alt="plot of chunk Figure_2" width="17cm" />
 
 ---
 
@@ -36,7 +36,7 @@ Paper consumption for various document formats over time.
 
 
 
-<img src="20170201_manuscript/Figure_3-1.eps" title="plot of chunk Figure_3" alt="plot of chunk Figure_3" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_3-1.eps" title="plot of chunk Figure_3" alt="plot of chunk Figure_3" width="17cm" />
 
 
 
@@ -45,7 +45,7 @@ Paper consumption for various document formats over time.
 
 ### Fig 4: Median title length (word count)
 
-<img src="20170201_manuscript/Figure_4-1.eps" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_4-1.eps" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" />
 
 ---
 
@@ -56,20 +56,20 @@ Proportions for title count and paper in Swedish University towns
  
 
 
-<img src="20170201_manuscript/Figure_5-1.eps" title="plot of chunk Figure_5" alt="plot of chunk Figure_5" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_5-1.eps" title="plot of chunk Figure_5" alt="plot of chunk Figure_5" width="17cm" />
 
 ---
 
 ### Fig 6: Publishing activity over time (SNB)
 
-<img src="20170201_manuscript/Figure_6-1.eps" title="plot of chunk Figure_6" alt="plot of chunk Figure_6" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_6-1.eps" title="plot of chunk Figure_6" alt="plot of chunk Figure_6" width="17cm" />
 
 ---
 
 
 ### Fig 7: Publishing activity and riksdagar: SNB
 
-<img src="20170201_manuscript/Figure_7-1.eps" title="plot of chunk Figure_7" alt="plot of chunk Figure_7" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_7-1.eps" title="plot of chunk Figure_7" alt="plot of chunk Figure_7" width="17cm" />
 
 ---
 
@@ -78,7 +78,7 @@ Proportions for title count and paper in Swedish University towns
 
 Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu from SNB.
 
-<img src="20170201_manuscript/Figure_8-1.eps" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_8-1.eps" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
 
 ---
 
@@ -87,7 +87,7 @@ Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu fr
 ### Fig 9: Publications in Vaasa in FNB, 1750-1828
 
 
-<img src="20170201_manuscript/Figure_9-1.eps" title="plot of chunk Figure_9" alt="plot of chunk Figure_9" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_9-1.eps" title="plot of chunk Figure_9" alt="plot of chunk Figure_9" width="17cm" />
 
 
 ---
@@ -95,7 +95,7 @@ Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu fr
 
 ### Fig 10: Top publishers in Turku/FNB
 
-<img src="20170201_manuscript/Figure_10-1.eps" title="plot of chunk Figure_10" alt="plot of chunk Figure_10" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_10-1.eps" title="plot of chunk Figure_10" alt="plot of chunk Figure_10" width="17cm" />
 
 ---
 
@@ -105,7 +105,7 @@ Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu fr
 
 The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
-<img src="20170201_manuscript/Figure_11-1.eps" title="plot of chunk Figure_11" alt="plot of chunk Figure_11" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_11-1.eps" title="plot of chunk Figure_11" alt="plot of chunk Figure_11" width="17cm" />
 
 ---
 
@@ -113,7 +113,7 @@ The historical population sizes used in this analysis are shown in this [table](
 
 ### Fig 12: Title count (absolute)
 
-<img src="20170201_manuscript/Figure_12-1.eps" title="plot of chunk Figure_12" alt="plot of chunk Figure_12" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_12-1.eps" title="plot of chunk Figure_12" alt="plot of chunk Figure_12" width="17cm" />
 
 ---
 
@@ -126,16 +126,7 @@ Paper consumption in octavo format books in Stockholm, Turku, Uppsala,
 Lund, Göteborg and Linköping. Turku is from FNB, other cities from
 SNB.
 
-
-```
-## Error in seq.default(min(df$publication_decade), max(df$publication_decade), : 'from' must be a finite number
-```
-
-```
-## Error in f(..., self = self): Breaks and labels are different lengths
-```
-
-<img src="20170201_manuscript/Figure_13-1.eps" title="plot of chunk Figure_13" alt="plot of chunk Figure_13" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_13-1.eps" title="plot of chunk Figure_13" alt="plot of chunk Figure_13" width="17cm" />
 
 
 ---
@@ -145,7 +136,7 @@ SNB.
 
 Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and Linköping. According to SNB, except Turku from FNB. 
 
-<img src="20170201_manuscript/Figure_14-1.eps" title="plot of chunk Figure_14" alt="plot of chunk Figure_14" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_14-1.eps" title="plot of chunk Figure_14" alt="plot of chunk Figure_14" width="17cm" />
 
 ---
 
@@ -155,21 +146,21 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 
 
-<img src="20170201_manuscript/Figure_15-1.eps" title="plot of chunk Figure_15" alt="plot of chunk Figure_15" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_15-1.eps" title="plot of chunk Figure_15" alt="plot of chunk Figure_15" width="17cm" />
 
 ---
 
 
 ### Fig 16: Topic richness per language (FNB)
 
-<img src="20170201_manuscript/Figure_16-1.eps" title="plot of chunk Figure_16" alt="plot of chunk Figure_16" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_16-1.eps" title="plot of chunk Figure_16" alt="plot of chunk Figure_16" width="17cm" />
 
 ---
 
 
 ### Fig 17: Temporary sermons in Latin and Swedish
 
-<img src="20170201_manuscript/Figure_17-1.eps" title="plot of chunk Figure_17" alt="plot of chunk Figure_17" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_17-1.eps" title="plot of chunk Figure_17" alt="plot of chunk Figure_17" width="17cm" />
 
 ---
 
@@ -178,170 +169,11 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 Form of literature denoting the advancement of reading in Finland in the 19th century. It has been unclear when devotional literature  shows up as a relevant category.
 
-<img src="20170201_manuscript/Figure_18-1.eps" title="plot of chunk Figure_18" alt="plot of chunk Figure_18" width="17cm" />
+<img src="figures_HistoricalMethods2018/Figure_18-1.eps" title="plot of chunk Figure_18" alt="plot of chunk Figure_18" width="17cm" />
 
 ---
 
 
-### Data statistics
-
-
-
-\begin{tabular}{l|l|l|l|r|l}
-\hline
-variable & type & stat & level & value & formatted\\
-\hline
-publication\_year & numeric & missing & .all & 0.00000 & 0\\
-\hline
-publication\_year & numeric & complete & .all & 18544.00000 & 18544\\
-\hline
-publication\_year & numeric & n & .all & 18544.00000 & 18544\\
-\hline
-publication\_year & numeric & mean & .all & 1750.95664 & 1750.96\\
-\hline
-publication\_year & numeric & sd & .all & 50.53667 & 50.54\\
-\hline
-publication\_year & numeric & p0 & .all & 1640.00000 & 1640\\
-\hline
-publication\_year & numeric & p25 & .all & 1705.00000 & 1705\\
-\hline
-publication\_year & numeric & p50 & .all & 1766.00000 & 1766\\
-\hline
-publication\_year & numeric & p75 & .all & 1792.00000 & 1792\\
-\hline
-publication\_year & numeric & p100 & .all & 1828.00000 & 1828\\
-\hline
-publication\_year & numeric & hist & .all & NA & ▂▃▃▂▃▆▇▃\\
-\hline
-publication\_place & character & missing & .all & 1134.00000 & 1134\\
-\hline
-publication\_place & character & complete & .all & 17410.00000 & 17410\\
-\hline
-publication\_place & character & n & .all & 18544.00000 & 18544\\
-\hline
-publication\_place & character & min & .all & 3.00000 & 3\\
-\hline
-publication\_place & character & max & .all & 13.00000 & 13\\
-\hline
-publication\_place & character & empty & .all & 0.00000 & 0\\
-\hline
-publication\_place & character & n\_unique & .all & 80.00000 & 80\\
-\hline
-gatherings & factor & missing & .all & 374.00000 & 374\\
-\hline
-gatherings & factor & complete & .all & 18170.00000 & 18170\\
-\hline
-gatherings & factor & n & .all & 18544.00000 & 18544\\
-\hline
-gatherings & factor & n\_unique & .all & 10.00000 & 10\\
-\hline
-gatherings & factor & top\_counts & 4to & 11798.00000 & 4to: 11798\\
-\hline
-gatherings & factor & top\_counts & 8to & 3167.00000 & 8to: 3167\\
-\hline
-gatherings & factor & top\_counts & 2to & 2492.00000 & 2to: 2492\\
-\hline
-gatherings & factor & top\_counts & 12to & 447.00000 & 12t: 447\\
-\hline
-gatherings & factor & top\_counts & NA & 374.00000 & NA: 374\\
-\hline
-gatherings & factor & top\_counts & 16to & 161.00000 & 16t: 161\\
-\hline
-gatherings & factor & top\_counts & 1to & 82.00000 & 1to: 82\\
-\hline
-gatherings & factor & top\_counts & 18to & 9.00000 & 18t: 9\\
-\hline
-gatherings & factor & top\_counts & 64to & 6.00000 & 64t: 6\\
-\hline
-gatherings & factor & top\_counts & 32to & 5.00000 & 32t: 5\\
-\hline
-gatherings & factor & top\_counts & 24to & 3.00000 & 24t: 3\\
-\hline
-gatherings & factor & top\_counts & 6to & 0.00000 & 6to: 0\\
-\hline
-gatherings & factor & top\_counts & 48to & 0.00000 & 48t: 0\\
-\hline
-gatherings & factor & ordered & .all & 0.00000 & FALSE\\
-\hline
-title & character & missing & .all & 0.00000 & 0\\
-\hline
-title & character & complete & .all & 18544.00000 & 18544\\
-\hline
-title & character & n & .all & 18544.00000 & 18544\\
-\hline
-title & character & min & .all & 1.00000 & 1\\
-\hline
-title & character & max & .all & 1137.00000 & 1137\\
-\hline
-title & character & empty & .all & 0.00000 & 0\\
-\hline
-title & character & n\_unique & .all & 15281.00000 & 15281\\
-\hline
-pagecount & numeric & missing & .all & 1.00000 & 1\\
-\hline
-pagecount & numeric & complete & .all & 18543.00000 & 18543\\
-\hline
-pagecount & numeric & n & .all & 18544.00000 & 18544\\
-\hline
-pagecount & numeric & mean & .all & 35.71547 & 35.72\\
-\hline
-pagecount & numeric & sd & .all & 90.39484 & 90.39\\
-\hline
-pagecount & numeric & p0 & .all & 1.00000 & 1\\
-\hline
-pagecount & numeric & p25 & .all & 4.00000 & 4\\
-\hline
-pagecount & numeric & p50 & .all & 10.00000 & 10\\
-\hline
-pagecount & numeric & p75 & .all & 32.00000 & 32\\
-\hline
-pagecount & numeric & p100 & .all & 1804.00000 & 1804\\
-\hline
-pagecount & numeric & hist & .all & NA & ▇▁▁▁▁▁▁▁\\
-\hline
-publisher & character & missing & .all & 1297.00000 & 1297\\
-\hline
-publisher & character & complete & .all & 17247.00000 & 17247\\
-\hline
-publisher & character & n & .all & 18544.00000 & 18544\\
-\hline
-publisher & character & min & .all & 3.00000 & 3\\
-\hline
-publisher & character & max & .all & 279.00000 & 279\\
-\hline
-publisher & character & empty & .all & 0.00000 & 0\\
-\hline
-publisher & character & n\_unique & .all & 522.00000 & 522\\
-\hline
-language & character & missing & .all & 43.00000 & 43\\
-\hline
-language & character & complete & .all & 18501.00000 & 18501\\
-\hline
-language & character & n & .all & 18544.00000 & 18544\\
-\hline
-language & character & min & .all & 4.00000 & 4\\
-\hline
-language & character & max & .all & 65.00000 & 65\\
-\hline
-language & character & empty & .all & 0.00000 & 0\\
-\hline
-language & character & n\_unique & .all & 131.00000 & 131\\
-\hline
-subject\_topic & character & missing & .all & 884.00000 & 884\\
-\hline
-subject\_topic & character & complete & .all & 17660.00000 & 17660\\
-\hline
-subject\_topic & character & n & .all & 18544.00000 & 18544\\
-\hline
-subject\_topic & character & min & .all & 4.00000 & 4\\
-\hline
-subject\_topic & character & max & .all & 184.00000 & 184\\
-\hline
-subject\_topic & character & empty & .all & 0.00000 & 0\\
-\hline
-subject\_topic & character & n\_unique & .all & 2934.00000 & 2934\\
-\hline
-\end{tabular}
 
 ## Session info
 
@@ -369,15 +201,15 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] bibliographica_0.2.46 stringi_1.2.4         Cairo_1.5-9          
-##  [4] openxlsx_4.1.0        extrafont_0.17        testthat_2.0.0       
-##  [7] viridis_0.5.1         viridisLite_0.3.0     knitcitations_1.0.8  
-## [10] microbiome_1.1.10017  phyloseq_1.25.2       knitr_1.20           
-## [13] rmarkdown_1.10        gridExtra_2.3         magrittr_1.5         
-## [16] cowplot_0.9.3         scales_1.0.0          sorvi_0.7.26         
-## [19] reshape2_1.4.3        gisfin_0.9.27         R6_2.2.2             
-## [22] rgdal_1.3-3           sp_1.3-1              ggmap_2.6.1          
-## [25] ggthemes_4.0.0        fennica_0.1.45        bindrcpp_0.2.2       
+##  [1] fennica_0.1.45        bibliographica_0.2.46 stringi_1.2.4        
+##  [4] Cairo_1.5-9           openxlsx_4.1.0        extrafont_0.17       
+##  [7] testthat_2.0.0        viridis_0.5.1         viridisLite_0.3.0    
+## [10] knitcitations_1.0.8   microbiome_1.1.10017  phyloseq_1.25.2      
+## [13] knitr_1.20            rmarkdown_1.10        gridExtra_2.3        
+## [16] magrittr_1.5          cowplot_0.9.3         scales_1.0.0         
+## [19] sorvi_0.7.26          reshape2_1.4.3        gisfin_0.9.27        
+## [22] R6_2.2.2              rgdal_1.3-3           sp_1.3-1             
+## [25] ggmap_2.6.1           ggthemes_4.0.0        bindrcpp_0.2.2       
 ## [28] forcats_0.3.0         stringr_1.3.1         dplyr_0.7.6          
 ## [31] purrr_0.2.5           readr_1.1.1           tidyr_0.8.1          
 ## [34] tibble_1.4.2          tidyverse_1.2.1       ggplot2_3.0.0        

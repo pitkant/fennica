@@ -62,13 +62,8 @@ lang.colors <- stata_pal("s2color")(length(city.colors))
 names(lang.colors) <- languages
 
 knitr::opts_chunk$set(echo = FALSE)
-knitr::opts_chunk$set(fig.path = "20170201_manuscript/", dpi = 300)
-#knitr::opts_chunk$set(dev = c("png", "jpeg", "cairo_ps"))
-# knitr::opts_chunk$set(dev = "Cairo")
-#knitr::opts_chunk$set(dev = "CairoPDF")
+knitr::opts_chunk$set(fig.path = "figures_HistoricalMethods2018/", dpi = 300)
 knitr::opts_chunk$set(dev = "CairoPS")
-# knitr::opts_chunk$set(dev = "cairo_pdf") # Embed fonts
-#knitr::opts_chunk$set(dev = "cairo_ps") # Embed fonts
 knitr::opts_chunk$set(out.width = "17cm") # Default size 8.5cm ie 3.35 inch) per col
 knitr::opts_chunk$set(out.format = "latex")
 knitr::opts_chunk$set(fig.width=13.5,fig.height=8)
