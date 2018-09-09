@@ -22,11 +22,6 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 # knitr::knit("20151209-HelsinkiDH.Rmd", encoding="UTF-8")
 # knitr::knit("20160303-Krakow.Rmd", encoding="UTF-8")
 
-# Manuscript 2/2017 Figures
-#library(rmarkdown)
-#knitr::knit("20170201-manuscript.Rmd", encoding="UTF-8")
-#render("20170201-manuscript.Rmd")
-
 # RM knitr::knit("20161117-manuscript.Rmd", encoding="UTF-8")
 # RM knitr::knit("20170125-Manuscript-FK.Rmd", encoding="UTF-8")
 # RMrmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
@@ -42,9 +37,16 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 
 # -------------------
 
+# Manuscript 2/2017 Figures
 # Historical Methods 2018 Marjanen et al.
 
-# rmarkdown::render("201808-HistoricalMethods-Overview.Rmd", output_format = "pdf_document") 
+#library(rmarkdown)
+#knitr::knit("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
+#render("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
+# output_format = "pdf_document"
+
+# Supplement
+# rmarkdown::render("201808-HistoricalMethods-Supplement.Rmd", output_format = "pdf_document") 
 
 # -------------------
 
