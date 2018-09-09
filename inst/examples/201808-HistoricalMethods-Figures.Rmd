@@ -257,8 +257,8 @@ for (catal in unique(df.full$catalog)) {
 library(cowplot)
 # arrange the three plots in a single row
 prow <- plot_grid(
-           pics[[1]] + theme(legend.position="none"),
-           pics[[2]] + theme(legend.position="none"),
+           pics[[1]] + theme(legend.position="none") + ylim(c(0, 7)),
+           pics[[2]] + theme(legend.position="none") + ylim(c(0, 7)),
            align = 'vh',
            labels = c("A", "B"),
 	   label_size = 25,	   
