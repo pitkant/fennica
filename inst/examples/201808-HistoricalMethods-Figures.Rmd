@@ -79,6 +79,8 @@ df.combined.preprocessed <- readRDS("df.combined.Rds")
 
 # Data with duplicates removed
 df.full <- df.combined.preprocessed %>% filter(!remove)
+df.full <- df.full %>% mutate(Catalogue = catalog)
+
 
 # Calculate title length (nchar and word count)
 df.full$title_length_nchar <- nchar(df.full$title)
@@ -86,6 +88,7 @@ df.full$title_length_wordcount <- sapply(strsplit(df.full$title, " "), length)
 df.full$title_length_wordcount[is.na(df.full$title)] <- NA
 
 # Data with years limited as well
+df.full.1911 <- df.full %>% filter(publication_year >= min.year & publication_year <= 1911)
 df.full <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
 
 # Fix author names
@@ -99,10 +102,9 @@ df.full$gatherings <- map_gatherings(df.full$gatherings, "Standard", "Short")
 df.full$language_primary <- sub(";.*", "", df.full$language)
 
 # Change catalog name
-df.full$catalog <- gsub("Fennica", "FNB", df.full$catalog)
-df.full$catalog <- gsub("Kungliga", "SNB", df.full$catalog)
-df.full$catalog <- factor(df.full$catalog)
-
+df.full$Catalogue <- gsub("Fennica", "FNB", df.full$Catalogue)
+df.full$Catalogue <- gsub("Kungliga", "SNB", df.full$Catalogue)
+df.full$Catalogue <- factor(df.full$Catalogue)
 
 df0 <- df.full
 cols <- list(FNB = "blue", SNB = "darkred")
@@ -119,7 +121,7 @@ library(ggplot2)
 theme_set(theme_light(25))
 
 df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>%
-              group_by(catalog, publication_decade) %>%
+              group_by(Catalogue, publication_decade) %>%
 	      summarise(n = length(unique(na.omit(publication_place))))
 
 insert_minor <- function(major, n, start = NULL) {
@@ -132,7 +134,7 @@ insert_minor <- function(major, n, start = NULL) {
 brs <- seq(min(df$publication_decade), max(df$publication_decade), 10)
 
 p <- ggplot(df, aes(x = publication_decade, y = n,
-       color = catalog, shape = catalog)) + 
+       color = Catalogue, shape = Catalogue)) + 
        geom_point(size = 4) + 
        geom_line(size = 1) + 
        ylab("Places (n)") +
@@ -140,8 +142,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n,
        # scale_color_manual(values = c("blue", "darkgreen")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) + 
        guides(linetype = "none") +
-       guides(shape = guide_legend(title = "Catalog", reverse = TRUE),
-              color = guide_legend(title = "Catalog", reverse = TRUE)) +              
+       guides(shape = guide_legend(title = "Catalogue", reverse = TRUE),
+              color = guide_legend(title = "Catalogue", reverse = TRUE)) +              
        #ggtitl("Unique publication places") +
        # ggtitle("Figure 1") +       
        scale_color_stata() +
@@ -160,12 +162,12 @@ library(dplyr)
 library(ggplot2)
 #theme_set(theme_bw(20))
 df <- df0 %>% filter(publication_year >=1640 & publication_year <=1828) %>%
-        group_by(catalog, publication_decade) %>% tally()
+        group_by(Catalogue, publication_decade) %>% tally()
 
 brsy <- seq(0, 1e4, 2000)
 p <- ggplot(df, aes(x = publication_decade, y = n,
-                    shape = catalog,
-		    color = catalog)) + 
+                    shape = Catalogue,
+		    color = Catalogue)) + 
        geom_point(size = 4) + 
        geom_line(size = 1) + 
        ylab("Title count (n)") +
@@ -174,8 +176,8 @@ p <- ggplot(df, aes(x = publication_decade, y = n,
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +
        scale_y_continuous(breaks = brsy, labels = brsy) +
        guides(
-         shape = guide_legend(title = "Catalog", reverse = TRUE),
-         color = guide_legend(title = "Catalog", reverse = TRUE)	 
+         shape = guide_legend(title = "Catalogue", reverse = TRUE),
+         color = guide_legend(title = "Catalogue", reverse = TRUE)	 
        ) +
        #ggtitl("Title count") +
        # ggtitle("Figure 2") +              
@@ -195,19 +197,19 @@ scientific_10 <- function(x) {
   parse(text=gsub("\\+", "", gsub("e", " %*% 10^", scientific_format()(x))))
 }
 
-
 common.gatherings <- setdiff(names(which(table(df.full$gatherings) > 500)), "NA")
 
 pics <- list()
-for (catal in unique(df.full$catalog)) {
+for (catal in unique(df.full$Catalogue)) {
 
+  # NOTE: IN FNB we show longer period
   if (catal == "SNB") {
-    df00 <- df.full %>% filter(publication_year >= min.year & publication_year <= max.year)
+    df00 <- df.full # df.full.1911 %>% filter(publication_year >= min.year & publication_year <= max.year)
   } else if (catal == "FNB") {
-    df00 <- df.full %>% filter(publication_year >= min.year & publication_year <= 1900)
+    df00 <- df.full.1911 #%>% filter(publication_year >= min.year & publication_year <= 1900)
   }
 
-  df2 <- subset(df00, catalog == catal) %>%
+  df2 <- subset(df00, Catalogue == catal) %>%
            group_by(publication_decade, gatherings) %>%
 	   summarize(paper = sum(paper, na.rm = TRUE)/1e6, n = n())
   # Million sheets	   
@@ -257,8 +259,8 @@ for (catal in unique(df.full$catalog)) {
 library(cowplot)
 # arrange the three plots in a single row
 prow <- plot_grid(
-           pics[[1]] + theme(legend.position="none") + ylim(c(0, 7)),
-           pics[[2]] + theme(legend.position="none") + ylim(c(0, 7)),
+           pics[[1]] + theme(legend.position="none"), #+ ylim(c(0, 7)),
+           pics[[2]] + theme(legend.position="none"), #+ ylim(c(0, 7)),
            align = 'vh',
            labels = c("A", "B"),
 	   label_size = 25,	   
@@ -292,17 +294,17 @@ print(p)
 
 ```{r Figure_4, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE, fig.show="last", fig.width=27, fig.height=10}
 cols <- list(FNB = "blue", SNB = "darkred")
-df <- df.full %>% filter(publication_year >= 1640 &
-                         publication_year <= 1911) %>%
-              group_by(catalog, publication_year) %>%
+
+df <- df.full.1911 %>% 
+              group_by(Catalogue, publication_year) %>%
               summarize(title_length = median(title_length_wordcount),
 	      		n = n())
 
 pics <- list()
 brs <- seq(min(decade(df$publication_year)), max(decade(df$publication_year)), 10)
 brsy <- seq(0, round(max(na.omit(df$title_length)), -1), 10)
-for (catal in unique(df$catalog)) {
-  pics[[catal]] <- ggplot(subset(df, catalog == catal),
+for (catal in unique(df$Catalogue)) {
+  pics[[catal]] <- ggplot(subset(df, Catalogue == catal),
        aes(x = publication_year, y = title_length)) +
        geom_point(aes(size = n)) +
        geom_smooth(color = cols[[catal]], fill = cols[[catal]]) +
@@ -349,9 +351,9 @@ rm(prow)
 rm(legend_b)
 pics <- list()
 
-for (catalogue in na.omit(unique(df0$catalog))) {
+for (Catalogue in na.omit(unique(df0$Catalogue))) {
 
-df <- df0 %>% filter(catalog == catalogue)%>%
+df <- df0 %>% filter(Catalogue == Catalogue)%>%
         filter(publication_year >= 1640 & publication_year <= 1828)
 places <- c("Stockholm", "Uppsala", "Lund", "Greifswald", "Tartu", "Turku")
 df$publication_place[!df$publication_place %in% places] <- "Other"
@@ -387,19 +389,19 @@ for (varname in c("n", "paper", "publishers")) {
      xlab("Decade") 
      #scale_fill_stata() 
      if (varname == "n") {
-       p <- p + labs(subtitle = paste("Title count (", catalogue, ")", sep = ""), y = "Title count (%)")
+       p <- p + labs(subtitle = paste("Title count (", Catalogue, ")", sep = ""), y = "Title count (%)")
      }
      if (varname == "paper") {
-       p <- p + labs(subtitle = paste("Paper (", catalogue, ")", sep = ""), y = "Paper (%)")
+       p <- p + labs(subtitle = paste("Paper (", Catalogue, ")", sep = ""), y = "Paper (%)")
      }
      if (varname == "publishers") {
-       p <- p + labs(subtitle = paste("Publishers (", catalogue, ")", sep = ""), y = "Publishers (%)")
+       p <- p + labs(subtitle = paste("Publishers (", Catalogue, ")", sep = ""), y = "Publishers (%)")
      }     
   p <- p + scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5, start = century(min(dff$publication_decade)) + 50))
   p <- p + scale_fill_manual(values = city.colors[as.character(levels(dff$publication_place))])
   p <- p + guides(fill = guide_legend(title = "")) 
 
-  pics[[paste(catalogue, varname, sep = "-")]] <- p
+  pics[[paste(Catalogue, varname, sep = "-")]] <- p
 
 }
 }
@@ -445,7 +447,7 @@ library(ggplot2)
 library(dplyr)
 v <- seq(1500, 1800, 100)
 # theme_set(theme_bw(20))
-df <- df0 %>% filter(catalog == "SNB")
+df <- df0 %>% filter(Catalogue == "SNB")
 
 # Add indicator of the publication period
 df$period <- cut(df$publication_year,
@@ -507,10 +509,10 @@ library(ggplot2)
 library(reshape2)
 
   # Use timeinterval year intervals
-  dfsel <- dplyr::filter(df0, catalog == catal)
+  dfsel <- dplyr::filter(df0, Catalogue == catal)
 
   df <- df0
-  df <- dplyr::filter(df, catalog == catal)
+  df <- dplyr::filter(df, Catalogue == catal)
   df <- subset(df, publication_year >= minyear & publication_year <= maxyear)
   df <- subset(dfsel, publication_year >= minyear & publication_year <= maxyear)
 
@@ -633,7 +635,7 @@ library(bibliographica)
 df <- df0
 catal <- "FNB"
 df <- df %>%
-        filter(catalog == catal) %>%
+        filter(Catalogue == catal) %>%
 	filter(country == "Finland" | publication_place == "Vyborg") %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
 
@@ -643,7 +645,7 @@ df$publication_place[!df$publication_place %in% top] <- "Other"
 top <- c(top, "Other")
 df <- df %>%	
         #filter(publication_place %in% top) %>%	
-        select(publication_decade, publication_place, publisher)
+        select(publication_decade, publication_place)
 df.fennica <- df
 
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
@@ -651,9 +653,9 @@ npub$publication_place <- factor(npub$publication_place, levels = top)
 npub.fennica <- npub
 
 df <- df0
-catalogue <- "SNB"
+Catalogue <- "SNB"
 df <- df %>%
-        filter(catalog == catalogue) %>%
+        filter(Catalogue == Catalogue) %>%
         filter(publication_year >= 1640 & publication_year <= 1828) %>%
         filter(country == "Sweden" | publication_place %in% c("Greifswald", "Tartu"))	
 
@@ -664,7 +666,7 @@ df$publication_place[!df$publication_place %in% top] <- "Other"
 top <- c(top, "Other")
 df <- df %>%	
         #filter(publication_place %in% top) %>%	
-        select(publication_decade, publication_place, publisher)
+        select(publication_decade, publication_place)
 df.kungliga <- df
 
 npub <- unique(df) %>% group_by(publication_decade, publication_place) %>% tally()
@@ -674,7 +676,10 @@ npub.kungliga <- npub
 npub <- bind_rows(npub.fennica, npub.kungliga)
 
 # Order by total publishing activity
-npub$publication_place <- factor(npub$publication_place, levels = (npub %>% group_by(publication_place) %>% summarise(total = sum(n)) %>% arrange(desc(total)))$publication_place)
+npub$publication_place <- factor(npub$publication_place, levels = (npub %>%
+                            group_by(publication_place) %>%
+			    summarise(total = sum(n)) %>
+			    % arrange(desc(total)))$publication_place)
 npub <- npub %>% arrange(publication_place)
 npub$publication_place <- factor(npub$publication_place, levels = rev(unique(npub$publication_place)))
 
@@ -695,13 +700,12 @@ p <- ggplot(npub, aes(x = publication_decade, y = n)) +
        geom_bar(stat = "identity", position = "stack", color = "black",
        		    aes(fill = publication_place)) + 
        xlab("Decade") +
-       ylab("Publishers (n)") +
+       ylab("Title count (n)") +
        #scale_fill_stata() +
        scale_fill_manual(values = city.colors[as.character(levels(npub$publication_place))]) +        
        guides(fill = guide_legend(reverse = FALSE, title = "")) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) 
-       # ggtitle("Figure 8")
-       #ggtitl(paste("Publishers (", catal, ")", sep = ""))
+
 
 print(p)
 ```
@@ -715,12 +719,12 @@ print(p)
 
 ```{r Figure_9, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
 library(dplyr)
-catalogue <- "FNB"
+Catalogue <- "FNB"
 place <- "Vaasa"
 minyear <- 1750
 maxyear <- 1828
 
-df <- df0 %>% filter(catalog == catalogue & publication_place == place) %>%	
+df <- df0 %>% filter(Catalogue == Catalogue & publication_place == place) %>%	
         filter(publication_year >= minyear & publication_year <= maxyear) %>%
 	group_by(publication_year) %>% 
 	tally()
@@ -742,7 +746,7 @@ p <- ggplot(df, aes(x = publication_year, y = n)) +
      xlab("Year") +
      ylab("Title count (n)") 
      # ggtitle("Figure 9")
-     #ggtitle(paste("Publications in Vaasa (", catalogue, ")", sep = ""))
+     #ggtitle(paste("Publications in Vaasa (", Catalogue, ")", sep = ""))
 
 print(p)
 ```
@@ -756,10 +760,10 @@ print(p)
 ```{r Figure_10, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
 library(dplyr)
 place <- "Turku"
-catalogue <- "FNB"
+Catalogue <- "FNB"
 df <- df0
 
-df <- df %>% filter(catalog == catalogue & publication_place == place) %>%
+df <- df %>% filter(Catalogue == Catalogue & publication_place == place) %>%
              filter(!is.na(publisher))
 
 
@@ -811,8 +815,8 @@ p <- ggplot(npub, aes(x = publication_decade, y = publisher)) +
       ylab("") +
       guides(size = guide_legend(title = "Title count (n)")) 
       # ggtitle("Figure 10")      
-      #ggtitle(paste("Top publishers in ", place, " (", catalogue, ")", sep = ""))
-      #ggtitle(paste("Figure 10: ", place, " (", catalogue, ")", sep = ""))      
+      #ggtitle(paste("Top publishers in ", place, " (", Catalogue, ")", sep = ""))
+      #ggtitle(paste("Figure 10: ", place, " (", Catalogue, ")", sep = ""))      
       
 print(p)
 ```
@@ -843,7 +847,7 @@ maxyear <- 1828
 # Take cities from SNB except Turku
 cat <- "SNB"
 df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
-      	      filter(catalog == cat) %>%
+      	      filter(Catalogue == cat) %>%
               filter(publication_decade %in% pop$publication_decade) %>%
 	      select(publication_decade, publication_place) %>%	      
 	      group_by(publication_decade, publication_place) %>%
@@ -852,7 +856,7 @@ df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
 # Take cities from FNB for Turku
 cat <- "FNB"
 df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
-      	      filter(catalog == cat) %>%
+      	      filter(Catalogue == cat) %>%
               filter(publication_decade %in% pop$publication_decade) %>%
 	      select(publication_decade, publication_place) %>%	      
 	      group_by(publication_decade, publication_place) %>%
@@ -904,7 +908,7 @@ maxyear <- 1828
 # Take cities from SNB except Turku
 cat <- "SNB"
 df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
-      	      filter(catalog == cat) %>%
+      	      filter(Catalogue == cat) %>%
               filter(publication_decade %in% pop$publication_decade) %>%
 	      select(publication_decade, publication_place) %>%	      
 	      group_by(publication_decade, publication_place) %>%
@@ -913,7 +917,7 @@ df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
 # Take cities from FNB for Turku
 cat <- "FNB"
 df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
-      	      filter(catalog == cat) %>%
+      	      filter(Catalogue == cat) %>%
               filter(publication_decade %in% pop$publication_decade) %>%
 	      select(publication_decade, publication_place) %>%	      
 	      group_by(publication_decade, publication_place) %>%
@@ -956,14 +960,14 @@ SNB.
 # Take cities from SNB except Turku
 cat <- "SNB"
 df1 <- df0 %>% filter(publication_place %in% setdiff(cities, "Turku")) %>%
-      	       filter(catalog == cat & gatherings == "8vo") %>%
+      	       filter(Catalogue == cat & gatherings == "8vo") %>%
 	       group_by(publication_decade, publication_place) %>%
 	       summarise(n = n(), paper = sum(paper, na.rm = TRUE))
 
 # Take cities from FNB for Turku
 cat <- "FNB"
 df2 <- df0 %>% filter(publication_place %in% "Turku") %>%
-      	       filter(catalog == cat & gatherings == "8vo") %>%
+      	       filter(Catalogue == cat & gatherings == "8vo") %>%
 	       group_by(publication_decade, publication_place) %>%
 	       summarise(n = n(), paper = sum(paper, na.rm = TRUE))
 
@@ -994,8 +998,8 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 ```{r Figure_14, echo=FALSE, message=FALSE, warning=FALSE}
 # Take cities from SNB except Turku
 df00 <- df.full %>% filter(publication_year >= 1640 & publication_year <= 1850)
-df1 <- df00 %>% filter((publication_place %in% setdiff(cities, "Turku") & catalog == "SNB") |
-                       (publication_place %in% "Turku" & catalog == "FNB")) 
+df1 <- df00 %>% filter((publication_place %in% setdiff(cities, "Turku") & Catalogue == "SNB") |
+                       (publication_place %in% "Turku" & Catalogue == "FNB")) 
 df1$publication_place[!df1$publication_place == "Stockholm"] <- "Other"
 df1$publication_place <- droplevels(as.factor(as.character(df1$publication_place)))
 
@@ -1028,10 +1032,9 @@ pics <- list()
 #theme_set(theme_bw(20))
 myplaces <- c("Turku", "Greifswald", "Stockholm", "Uppsala", "Lund")
 cnt <- 0
-for (catalogue in c("FNB", "SNB")) {
+for (Catalogue in c("FNB", "SNB")) {
 
-  df <- df0 %>% filter(catalog == catalogue) %>%
-        filter(publication_year >= 1600 & publication_year <= 1828)
+  df <- df0 %>% filter(Catalogue == Catalogue) 
 
   langs <- c("Finnish", "Swedish", "Latin", "German",
            "Russian", "French", "Hebrew", "Other")
@@ -1079,13 +1082,13 @@ for (catalogue in c("FNB", "SNB")) {
       xlab("Decade") +
       ylab("Title count (%)")
       
-      p <- p + labs(subtitle = paste(myplace, "/", catalogue)) +                 
+      p <- p + labs(subtitle = paste(myplace, "/", Catalogue)) +                 
       #scale_fill_stata() +
       scale_fill_manual(values = lang.colors[as.character(levels(dfss$language))]) +      
       scale_x_continuous(breaks = brs, labels = insert_minor(brs, 5)) +  
       #scale_fill_brewer(palette="Greys") +       
       guides(fill = guide_legend(title = "")) 
-    pics[[paste(catalogue, myplace, sep = "-")]] <- p
+    pics[[paste(Catalogue, myplace, sep = "-")]] <- p
   }
 }
 
@@ -1125,8 +1128,8 @@ print(p)
 ### Fig 16: Topic richness per language (FNB)
 
 ```{r Figure_16, echo=FALSE, message=FALSE, warning=FALSE, fig.show="hold"}
-catalogue <- "FNB"
-df <- filter(df0, catalog == "FNB") %>%
+Catalogue <- "FNB"
+df <- filter(df0, Catalogue == "FNB") %>%
   filter(publication_year >= 1640 & publication_year <= 1828) %>%
   select(publication_decade, language, subject_topic)
 df <- unique(df)
@@ -1155,7 +1158,7 @@ p <- ggplot(df, aes(x = publication_decade, y = n, shape = language)) +
        ylab("Subject topics (n)") +
        xlab("Decade") 
        # ggtitle("Figure 16")
-       #ggtitle(paste("Topic richness (", catalogue, ")", sep = ""))     
+       #ggtitle(paste("Topic richness (", Catalogue, ")", sep = ""))     
 
 print(p)
 ```
@@ -1167,12 +1170,12 @@ print(p)
 
 ```{r Figure_17, echo=FALSE, message=FALSE, warning=FALSE}
 sel <- c("hautajaiset", "häät", "juhlamenot")
-catalogue <- "FNB"
+Catalogue <- "FNB"
 df <- df0
 df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)
 
-# Selected catalogue with selected topics
-df <- df %>% filter(catalog == catalogue & hit)
+# Selected Catalogue with selected topics
+df <- df %>% filter(Catalogue == Catalogue & hit)
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
   otherlang <- otherlang[otherlang!="language.Multiple languages"]
@@ -1213,7 +1216,7 @@ dfl$language <- factor(dfl$language, levels = langs)
        #scale_color_stata() +
        scale_color_manual(values = lang.colors[as.character(levels(df$language))]) 
        # ggtitle("Figure 17")
-       #ggtitle(paste("Temporary sermons (", catalogue, ")", sep = ""))
+       #ggtitle(paste("Temporary sermons (", Catalogue, ")", sep = ""))
   print(p)
 ```
 
@@ -1226,16 +1229,16 @@ Form of literature denoting the advancement of reading in Finland in the 19th ce
 
 ```{r Figure_18, echo=FALSE, message=FALSE, warning=FALSE, fig.show="hold"}
 sel <- c("virret","arkkiveisut","hartauskirjat","katekismukset","rukouspäivät","saarnat","aapiset","rukoukset","rukous","hengelliset laulut","hartauspuheet","virsikirjat")
-catalogue <- "FNB"
+Catalogue <- "FNB"
 
-  # Selected catalogue with selected years
-  df <- filter(df0, catalog == catalogue &
+  # Selected Catalogue with selected years
+  df <- filter(df0, Catalogue == Catalogue &
      		    publication_year >= 1640 &
 		    publication_year <= 1828)
 
   # Selected topics
   df$hit <- apply((sapply(sel, function (x) {grepl(x, tolower(df$subject_topic))})), 1, any)  
-  df <- df %>% filter(catalog == catalogue & hit)
+  df <- df %>% filter(Catalogue == Catalogue & hit)
 
   lang <- paste("language.", langs, sep = "")
   otherlang <- setdiff(names(df)[grep("lang.", names(df))], lang)
@@ -1274,7 +1277,7 @@ p <- ggplot(df, aes(x = publication_decade, y = paper, group = language)) +
        scale_x_continuous(breaks = brs, labels = insert_minor(brs, 2)) +       
        scale_y_continuous(label = scientific_10) 
        # ggtitle("Figure 18")       
-       # ggtitle(paste("Devotional literature (", catalogue, ")", sep = ""))       
+       # ggtitle(paste("Devotional literature (", Catalogue, ")", sep = ""))       
 
 #print(p + theme_light(scalingfactor))
 print(p)

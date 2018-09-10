@@ -1,7 +1,7 @@
 ---
 title: "A Quantitative Approach to Book Printing in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen (2018)"
-date: "2018-09-09"
+date: "2018-09-10"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -35,6 +35,17 @@ fontsize: 12pt
 Paper consumption for various document formats over time.
 
 
+```
+## Error in seq.default(min(df2$publication_decade), max(df2$publication_decade), : 'from' must be a finite number
+```
+
+```
+## Error in pics[[1]]: subscript out of bounds
+```
+
+```
+## Error in pics[[1]]: subscript out of bounds
+```
 
 <img src="figures_HistoricalMethods2018/Figure_3-1.eps" title="plot of chunk Figure_3" alt="plot of chunk Figure_3" width="17cm" />
 
@@ -45,7 +56,14 @@ Paper consumption for various document formats over time.
 
 ### Fig 4: Median title length (word count)
 
-<img src="figures_HistoricalMethods2018/Figure_4-1.eps" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" />
+
+```
+## Error: Aesthetics must be either length 1 or the same as the data (80): colour, fill
+```
+
+```
+## Error: Aesthetics must be either length 1 or the same as the data (80): colour, fill
+```
 
 ---
 
@@ -78,7 +96,13 @@ Proportions for title count and paper in Swedish University towns
 
 Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu from SNB.
 
-<img src="figures_HistoricalMethods2018/Figure_8-1.eps" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
+
+```
+## Error: <text>:50:55: unexpected input
+## 49:                             group_by(publication_place) %>%
+## 50:                             summarise(total = sum(n)) %>
+##                                                           ^
+```
 
 ---
 
