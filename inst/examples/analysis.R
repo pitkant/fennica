@@ -43,7 +43,7 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 #library(rmarkdown)
 #knitr::knit("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
 #rmarkdown::render("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
-#rmarkdown::render("201808-HistoricalMethods-Supplement.Rmd", output_format = "pdf_document") 
+#rmarkdown::render("201808-HistoricalMethods-Supplement.Rmd", output_format = "pdf_document", encoding="UTF-8") 
 
 # -------------------
 

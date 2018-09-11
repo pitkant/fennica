@@ -38,6 +38,9 @@ for (cat in unique(df0$Catalogue)) {
   dd <- subset(df0, Catalogue == cat)[, selected.fields]
 
   complete <- round(100 * colMeans(!is.na(dd)), 1)
+  
+  # complete <- gsub("^100$", "100.0", complete)
+  # complete <- 100 * colMeans(!is.na(dd))
   unique <- apply(dd, 2, function (x) {length(unique(x))})
 
   d[[cat]] <- data.frame(Field = colnames(dd), Complete = complete, Unique = unique)
@@ -67,11 +70,17 @@ colnames(w) <- c("Field", "FNB (%)", "SNB (%)")
 # kable(w)
 
 # Add Footnote
+w[,2] <- as.character(w[,2])
+w[,3] <- as.character(w[,3])
 w[which(w$Field == "Topic"), "SNB (%)"] <- paste0(as.character(w[which(w$Field == "Topic"), "SNB (%)"]), "*")
 w[which(w$Field == "Publisher"), "SNB (%)"] <- paste0(as.character(w[which(w$Field == "Publisher"), "SNB (%)"]), "*")
-
+w[,3] <- gsub("100", "100.0", w[,3])
+w[,3] <- gsub("^94$", "94.0", w[,3])
+w[,2] <- gsub("100", "100.0", w[,2])
+w[,2] <- gsub("^98$", "98.0", w[,2])
+w[,2] <- gsub("^93$", "98.0", w[,2])
 kable <- knitr::kable
-knitr::kable(w, format = "markdown")
+knitr::kable(w, format = "markdown", digits = 1)
 
 #%>% kable_styling(latex_options = c("striped", "hold_position"))
 
