@@ -1,7 +1,7 @@
 ---
 title: "A Quantitative Approach to Book Printing in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen (2018)"
-date: "2018-09-10"
+date: "2018-09-11"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -35,17 +35,6 @@ fontsize: 12pt
 Paper consumption for various document formats over time.
 
 
-```
-## Error in seq.default(min(df2$publication_decade), max(df2$publication_decade), : 'from' must be a finite number
-```
-
-```
-## Error in pics[[1]]: subscript out of bounds
-```
-
-```
-## Error in pics[[1]]: subscript out of bounds
-```
 
 <img src="figures_HistoricalMethods2018/Figure_3-1.eps" title="plot of chunk Figure_3" alt="plot of chunk Figure_3" width="17cm" />
 
@@ -56,14 +45,7 @@ Paper consumption for various document formats over time.
 
 ### Fig 4: Median title length (word count)
 
-
-```
-## Error: Aesthetics must be either length 1 or the same as the data (80): colour, fill
-```
-
-```
-## Error: Aesthetics must be either length 1 or the same as the data (80): colour, fill
-```
+<img src="figures_HistoricalMethods2018/Figure_4-1.eps" title="plot of chunk Figure_4" alt="plot of chunk Figure_4" width="17cm" />
 
 ---
 
@@ -96,13 +78,7 @@ Proportions for title count and paper in Swedish University towns
 
 Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu from SNB.
 
-
-```
-## Error: <text>:50:55: unexpected input
-## 49:                             group_by(publication_place) %>%
-## 50:                             summarise(total = sum(n)) %>
-##                                                           ^
-```
+<img src="figures_HistoricalMethods2018/Figure_8-1.eps" title="plot of chunk Figure_8" alt="plot of chunk Figure_8" width="17cm" />
 
 ---
 
@@ -225,48 +201,48 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] fennica_0.1.45        bibliographica_0.2.46 stringi_1.2.4        
-##  [4] Cairo_1.5-9           openxlsx_4.1.0        extrafont_0.17       
-##  [7] testthat_2.0.0        viridis_0.5.1         viridisLite_0.3.0    
-## [10] knitcitations_1.0.8   microbiome_1.1.10017  phyloseq_1.25.2      
-## [13] knitr_1.20            rmarkdown_1.10        gridExtra_2.3        
-## [16] magrittr_1.5          cowplot_0.9.3         scales_1.0.0         
-## [19] sorvi_0.7.26          reshape2_1.4.3        gisfin_0.9.27        
-## [22] R6_2.2.2              rgdal_1.3-3           sp_1.3-1             
-## [25] ggmap_2.6.1           ggthemes_4.0.0        bindrcpp_0.2.2       
-## [28] forcats_0.3.0         stringr_1.3.1         dplyr_0.7.6          
-## [31] purrr_0.2.5           readr_1.1.1           tidyr_0.8.1          
-## [34] tibble_1.4.2          tidyverse_1.2.1       ggplot2_3.0.0        
-## [37] skimr_1.0.3           kableExtra_0.9.0      devtools_1.13.6      
+##  [1] bibliographica_0.2.46 stringi_1.2.4         Cairo_1.5-9          
+##  [4] openxlsx_4.1.0        extrafont_0.17        testthat_2.0.0       
+##  [7] viridis_0.5.1         viridisLite_0.3.0     knitcitations_1.0.8  
+## [10] microbiome_1.1.10017  phyloseq_1.25.2       knitr_1.20           
+## [13] gridExtra_2.3         magrittr_1.5          cowplot_0.9.3        
+## [16] scales_1.0.0          bindrcpp_0.2.2        forcats_0.3.0        
+## [19] purrr_0.2.5           readr_1.1.1           tibble_1.4.2         
+## [22] tidyverse_1.2.1       skimr_1.0.3           kableExtra_0.9.0     
+## [25] sorvi_0.7.26          fennica_0.1.45        devtools_1.13.6      
+## [28] reshape2_1.4.3        tidyr_0.8.1           dplyr_0.7.6          
+## [31] stringr_1.3.1         gisfin_0.9.27         R6_2.2.2             
+## [34] rgdal_1.3-3           sp_1.3-1              ggmap_2.6.1          
+## [37] ggplot2_3.0.0         ggthemes_4.0.0        rmarkdown_1.10       
 ## 
 ## loaded via a namespace (and not attached):
-##   [1] readxl_1.1.0        backports_1.1.2     igraph_1.2.2       
-##   [4] plyr_1.8.4          lazyeval_0.2.1      splines_3.5.1      
+##   [1] readxl_1.1.0        backports_1.1.2     plyr_1.8.4         
+##   [4] igraph_1.2.2        lazyeval_0.2.1      splines_3.5.1      
 ##   [7] digest_0.6.15       foreach_1.4.4       htmltools_0.3.6    
 ##  [10] gender_0.5.2        fansi_0.2.3         gdata_2.18.0       
-##  [13] memoise_1.1.0       cluster_2.0.7-1     tm_0.7-5           
+##  [13] memoise_1.1.0       tm_0.7-5            cluster_2.0.7-1    
 ##  [16] Biostrings_2.48.0   modelr_0.1.2        gmodels_2.18.1     
 ##  [19] extrafontdb_1.0     jpeg_0.1-8          colorspace_1.3-2   
-##  [22] rvest_0.3.2         haven_1.1.2         xfun_0.3           
+##  [22] rvest_0.3.2         xfun_0.3            haven_1.1.2        
 ##  [25] crayon_1.3.4        jsonlite_1.5        roxygen2_6.1.0     
-##  [28] bindr_0.1.1         survival_2.42-6     ape_5.1            
-##  [31] iterators_1.0.10    glue_1.3.0          gtable_0.2.0       
-##  [34] zlibbioc_1.26.0     XVector_0.20.0      Rttf2pt1_1.3.7     
-##  [37] Rhdf5lib_1.2.1      BiocGenerics_0.26.0 maps_3.3.0         
+##  [28] bindr_0.1.1         survival_2.42-6     iterators_1.0.10   
+##  [31] ape_5.1             glue_1.3.0          gtable_0.2.0       
+##  [34] zlibbioc_1.26.0     XVector_0.20.0      Rhdf5lib_1.2.1     
+##  [37] Rttf2pt1_1.3.7      BiocGenerics_0.26.0 maps_3.3.0         
 ##  [40] bibtex_0.4.2        babynames_0.3.0     Rcpp_0.12.18       
 ##  [43] spData_0.2.9.0      spdep_0.7-7         mapproj_1.2.6      
 ##  [46] stats4_3.5.1        httr_1.3.1          RColorBrewer_1.1-2 
 ##  [49] geosphere_1.5-7     pkgconfig_2.0.1     XML_3.98-1.12      
-##  [52] deldir_0.1-15       utf8_1.1.4          tidyselect_0.2.4   
-##  [55] labeling_0.3        rlang_0.2.1         munsell_0.5.0      
+##  [52] deldir_0.1-15       utf8_1.1.4          labeling_0.3       
+##  [55] tidyselect_0.2.4    rlang_0.2.1         munsell_0.5.0      
 ##  [58] genderdata_0.5.0    cellranger_1.1.0    tools_3.5.1        
 ##  [61] cli_1.0.0           ade4_1.7-11         broom_0.5.0        
-##  [64] biomformat_1.8.0    evaluate_0.11       yaml_2.2.0         
+##  [64] evaluate_0.11       biomformat_1.8.0    yaml_2.2.0         
 ##  [67] RefManageR_1.2.0    zip_1.0.0           RgoogleMaps_1.4.2  
 ##  [70] nlme_3.1-137        slam_0.1-43         xml2_1.2.0         
 ##  [73] compiler_3.5.1      rstudioapi_0.7      png_0.1-7          
 ##  [76] highr_0.7           lattice_0.20-35     Matrix_1.2-14      
-##  [79] commonmark_1.5      permute_0.9-4       vegan_2.5-2        
+##  [79] commonmark_1.5      vegan_2.5-2         permute_0.9-4      
 ##  [82] multtest_2.36.0     stringdist_0.9.5.1  pillar_1.3.0       
 ##  [85] LearnBayes_2.15.1   data.table_1.11.4   IRanges_2.14.10    
 ##  [88] codetools_0.2-15    boot_1.3-20         MASS_7.3-50        

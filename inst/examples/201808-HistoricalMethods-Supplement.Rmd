@@ -27,15 +27,15 @@ df0 <- df.full
 
 d <- list()
 
-fen <- subset(df0, catalog == "FNB")
-kun <- subset(df0, catalog == "SNB")
+fen <- subset(df0, Catalogue == "FNB")
+kun <- subset(df0, Catalogue == "SNB")
 cats <- list(FNB = fen, SNB = kun)
 
 selected.fields <- c("author", "publication_year", "publication_place", "gatherings", "title", "pagecount", "publisher", "language_primary", "Topic")
 
-for (cat in unique(df0$catalog)) {
+for (cat in unique(df0$Catalogue)) {
 
-  dd <- subset(df0, catalog == cat)[, selected.fields]
+  dd <- subset(df0, Catalogue == cat)[, selected.fields]
 
   complete <- round(100 * colMeans(!is.na(dd)), 1)
   unique <- apply(dd, 2, function (x) {length(unique(x))})
@@ -50,8 +50,8 @@ for (cat in unique(df0$catalog)) {
 
 Records in the final data set used in the analyses:
 
- * FNB: ```r nrow(subset(df0, catalog == "FNB"))```
- * SNB: ```r nrow(subset(df0, catalog == "SNB"))```
+ * FNB: ```r nrow(subset(df0, Catalogue == "FNB"))```
+ * SNB: ```r nrow(subset(df0, Catalogue == "SNB"))```
 
 
 
@@ -93,10 +93,10 @@ Number of unique authors and all documents with author information:
 field <- "author"
 df <- df0
 df$field <- df[[field]]
-df <- df %>% group_by(catalog) %>%
+df <- df %>% group_by(Catalogue) %>%
               summarise(Unique = length(unique(field)),
 	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+colnames(df) <- gsub("Catalogue", "Catalogue", colnames(df))
 knitr::kable(df, digits = 1, format = "markdown")
 ```
 
@@ -121,7 +121,7 @@ knitr::kable(tab, format = "markdown")
 
 ### Languages
 
-In FNB, we have identified ```r sum(subset(df0, catalog == "FNB")$multilingual)``` multilingual documents in the investigated time period. In SNB, the multilingual documents have not been analyzed yet. We use the primary language of the document for summaries.
+In FNB, we have identified ```r sum(subset(df0, Catalogue == "FNB")$multilingual)``` multilingual documents in the investigated time period. In SNB, the multilingual documents have not been analyzed yet. We use the primary language of the document for summaries.
 
 Number of identified primary languages and all documents with language information.
 
@@ -130,10 +130,10 @@ Number of identified primary languages and all documents with language informati
 field <- "language_primary"
 df <- df0
 df$field <- df[[field]]
-df <- df %>% group_by(catalog) %>%
+df <- df %>% group_by(Catalogue) %>%
               summarise(Unique = length(unique(field)),
 	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+colnames(df) <- gsub("Catalogue", "Catalogue", colnames(df))
 colnames(df) <- gsub("language", "Language", colnames(df))
 knitr::kable(df, format = "markdown")
 ```
@@ -159,12 +159,12 @@ knitr::kable(tab, format = "markdown")
 
 ### Formats (Gatherings)
 
-Proportion (%) of gatherings in the FNB and SNB catalogues. The gatherings with a prevalence less than 1% in both catalogues have been combined into the "Other" category.
+Proportion (%) of gatherings in the FNB and SNB Catalogues. The gatherings with a prevalence less than 1% in both Catalogues have been combined into the "Other" category.
 
 ```{r gatherings, echo=FALSE, message=FALSE, warning=FALSE}
-df <- df0 %>% group_by(catalog, gatherings) %>%
+df <- df0 %>% group_by(Catalogue, gatherings) %>%
               summarise(n = n())
-df <- spread(df, catalog, n, fill = 0)
+df <- spread(df, Catalogue, n, fill = 0)
 colnames(df) <- c("Gatherings", "FNB", "SNB")
 df$Gatherings <- as.character(df$Gatherings)
 df$Gatherings <- gsub("NA", "Missing", df$Gatherings)
@@ -221,7 +221,7 @@ p <- ggplot(df) +
        scale_x_log10(breaks = c(1, 10, 100, 1000)) +
        scale_y_log10(breaks = c(1, 10, 100, 1000)) +
        scale_fill_manual(values = unname(cols)) +       
-       facet_grid(catalog ~ gatherings) +
+       facet_grid(Catalogue ~ gatherings) +
        guides(fill = "none") + 
        labs(y = "Frequency (n)") +
        theme(axis.text = element_text(size=12))
@@ -240,10 +240,10 @@ field <- "publication_place"
 df <- df0
 df$field <- df[[field]]
 
-df <- df %>% group_by(catalog) %>%
+df <- df %>% group_by(Catalogue) %>%
               summarise(Unique = length(unique(field)),
 	                All = sum(!is.na(field)))
-colnames(df) <- gsub("catalog", "Catalogue", colnames(df))
+colnames(df) <- gsub("Catalogue", "Catalogue", colnames(df))
 knitr::kable(df, format = "markdown")
 ```
 
@@ -272,9 +272,9 @@ Title count per decade for FNB and SNB.
 ```{r year, echo=FALSE, message=FALSE, warning=FALSE, fig.width=9, figh.height=4, out.width = "300px"}
 theme_set(theme_bw(20))
 df <- df0
-names(df) <- gsub("catalog", "Catalog", names(df))
-df <- df %>% group_by(Catalog, publication_decade) %>% tally()
-p <- ggplot(df, aes(x = publication_decade, y = n, fill = Catalog)) +
+names(df) <- gsub("Catalogue", "Catalogue", names(df))
+df <- df %>% group_by(Catalogue, publication_decade) %>% tally()
+p <- ggplot(df, aes(x = publication_decade, y = n, fill = Catalogue)) +
        geom_bar(color = "black",
          position = "dodge", stat = "identity") +
        guides(fill = guide_legend(reverse = TRUE)) +
@@ -289,7 +289,7 @@ print(p)
 
 ### Publishers
 
-In FNB, the data includes ```r  length(unique(subset(df0, catalog == "FNB")$publisher))``` unique publishers, and ```r  round(100 * mean(!is.na(subset(df0, catalog == "FNB")$publisher), na.rm = TRUE))```% of the documents have publisher information. We have not analyzed publishers in SNB, where the availability of harmonized publisher information is currently low (```r  round(100 * mean(!is.na(subset(df0, catalog == "SNB")$publisher), na.rm = TRUE))```%). 
+In FNB, the data includes ```r  length(unique(subset(df0, Catalogue == "FNB")$publisher))``` unique publishers, and ```r  round(100 * mean(!is.na(subset(df0, Catalogue == "FNB")$publisher), na.rm = TRUE))```% of the documents have publisher information. We have not analyzed publishers in SNB, where the availability of harmonized publisher information is currently low (```r  round(100 * mean(!is.na(subset(df0, Catalogue == "SNB")$publisher), na.rm = TRUE))```%). 
 
 The most common publishers in FNB (the total count and percentage of all documents are shown):
 
@@ -305,7 +305,7 @@ knitr::kable(tab, format = "markdown")
 
 ### Topics
 
-We use here the term "Topic" for the "Topical term" MARC field 650a for brevity. In FNB, the data includes ```r  length(unique(subset(df0, catalog == "FNB")$Topic))``` unique topics. ```r  round(100 * mean(!is.na(subset(df0, catalog == "FNB")$Topic), na.rm = TRUE))```% of the documents have topic information. We have not analyzed topics in SNB, where the availability of harmonized topics is currently low (```r  round(100 * mean(!is.na(subset(df0, catalog == "SNB")$Topic), na.rm = TRUE))```%). 
+We use here the term "Topic" for the "Topical term" MARC field 650a for brevity. In FNB, the data includes ```r  length(unique(subset(df0, Catalogue == "FNB")$Topic))``` unique topics. ```r  round(100 * mean(!is.na(subset(df0, Catalogue == "FNB")$Topic), na.rm = TRUE))```% of the documents have topic information. We have not analyzed topics in SNB, where the availability of harmonized topics is currently low (```r  round(100 * mean(!is.na(subset(df0, Catalogue == "SNB")$Topic), na.rm = TRUE))```%). 
 
 The most common topics in FNB (English translation in parentheses):
 
