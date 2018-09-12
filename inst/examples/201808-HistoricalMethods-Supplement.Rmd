@@ -151,6 +151,7 @@ knitr::kable(df, format = "markdown")
 The most common (primary) languages in FNB:
 
 ```{r languages_fen, echo=FALSE, message=FALSE, warning=FALSE}
+map <- bibliographica::map
 tab <- top(fen, field, 10, "data.frame", round = 1)
 colnames(tab) <- gsub("language_primary", map("language_primary", fieldname_table(), from = "Data", to = "Name"), colnames(tab))
 knitr::kable(tab, format = "markdown")

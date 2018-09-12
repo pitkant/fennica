@@ -40,9 +40,8 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 # Manuscript 2/2017 Figures
 # Historical Methods 2018 Marjanen et al.
 
-#library(rmarkdown)
+#library(rmarkdown); library(knitr)
 #knitr::knit("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
-#rmarkdown::render("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
 #rmarkdown::render("201808-HistoricalMethods-Supplement.Rmd", output_format = "pdf_document", encoding="UTF-8") 
 
 # -------------------
