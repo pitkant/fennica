@@ -1,7 +1,7 @@
 ---
 title: "A Quantitative Approach to Book Printing in Sweden and Finland, 1640–1828"
 author: "Mikko Tolonen, Leo Lahti, Hege Roivainen, Jani Marjanen (2018)"
-date: "2018-09-12"
+date: "2018-09-13"
 output: 
   beamer_presentation:
     theme: "boxes"
@@ -201,46 +201,37 @@ This document was created with the following versions:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] fennica_0.1.45        bibliographica_0.2.46 forcats_0.3.0        
-##  [4] purrr_0.2.5           readr_1.1.1           tibble_1.4.2         
-##  [7] tidyverse_1.2.1       skimr_1.0.3           kableExtra_0.9.0     
-## [10] knitr_1.20            gridExtra_2.3         magrittr_1.5         
-## [13] cowplot_0.9.3         scales_1.0.0          bindrcpp_0.2.2       
-## [16] sorvi_0.7.26          devtools_1.13.6       reshape2_1.4.3       
-## [19] tidyr_0.8.1           dplyr_0.7.6           stringr_1.3.1        
-## [22] gisfin_0.9.27         R6_2.2.2              rgdal_1.3-3          
-## [25] sp_1.3-1              ggmap_2.6.1           ggplot2_3.0.0        
-## [28] ggthemes_4.0.0        rmarkdown_1.10       
+##  [1] gridExtra_2.3         magrittr_1.5          scales_1.0.0         
+##  [4] sorvi_0.7.26          stringr_1.3.1         gisfin_0.9.27        
+##  [7] R6_2.2.2              rgdal_1.3-3           sp_1.3-1             
+## [10] ggmap_2.6.1           ggthemes_4.0.0        fennica_0.1.45       
+## [13] bibliographica_0.2.46 devtools_1.13.6       reshape2_1.4.3       
+## [16] tidyr_0.8.1           bindrcpp_0.2.2        dplyr_0.7.6          
+## [19] cowplot_0.9.3         ggplot2_3.0.0        
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] nlme_3.1-137       lubridate_1.7.4    httr_1.3.1        
-##  [4] gmodels_2.18.1     RColorBrewer_1.1-2 rprojroot_1.3-2   
-##  [7] tools_3.5.1        backports_1.1.2    spData_0.2.9.0    
-## [10] lazyeval_0.2.1     colorspace_1.3-2   withr_2.1.2       
-## [13] tidyselect_0.2.4   compiler_3.5.1     cli_1.0.0         
-## [16] rvest_0.3.2        Cairo_1.5-9        expm_0.999-2      
-## [19] xml2_1.2.0         NLP_0.1-11         labeling_0.3      
-## [22] slam_0.1-43        tm_0.7-5           commonmark_1.5    
-## [25] digest_0.6.15      stringdist_0.9.5.1 jpeg_0.1-8        
-## [28] pkgconfig_2.0.1    htmltools_0.3.6    highr_0.7         
-## [31] maps_3.3.0         readxl_1.1.0       rlang_0.2.1       
-## [34] rstudioapi_0.7     bindr_0.1.1        jsonlite_1.5      
-## [37] gtools_3.8.1       spdep_0.7-7        geosphere_1.5-7   
-## [40] Matrix_1.2-14      Rcpp_0.12.18       munsell_0.5.0     
-## [43] proto_1.0.0        stringi_1.2.4      yaml_2.2.0        
-## [46] MASS_7.3-50        plyr_1.8.4         grid_3.5.1        
-## [49] parallel_3.5.1     gdata_2.18.0       gender_0.5.2      
-## [52] crayon_1.3.4       deldir_0.1-15      lattice_0.20-35   
-## [55] haven_1.1.2        splines_3.5.1      mapproj_1.2.6     
-## [58] hms_0.4.2          pillar_1.3.0       boot_1.3-20       
-## [61] rjson_0.2.20       LearnBayes_2.15.1  XML_3.98-1.12     
-## [64] glue_1.3.0         babynames_0.3.0    evaluate_0.11     
-## [67] modelr_0.1.2       data.table_1.11.4  png_0.1-7         
-## [70] cellranger_1.1.0   testthat_2.0.0     RgoogleMaps_1.4.2 
-## [73] gtable_0.2.0       assertthat_0.2.0   xfun_0.3          
-## [76] broom_0.5.0        coda_0.19-1        roxygen2_6.1.0    
-## [79] viridisLite_0.3.0  genderdata_0.5.0   tinytex_0.6       
-## [82] memoise_1.1.0
+##  [1] maps_3.3.0         splines_3.5.1      gender_0.5.2      
+##  [4] gtools_3.8.1       assertthat_0.2.0   expm_0.999-2      
+##  [7] highr_0.7          LearnBayes_2.15.1  slam_0.1-43       
+## [10] pillar_1.3.0       lattice_0.20-35    glue_1.3.0        
+## [13] digest_0.6.15      RColorBrewer_1.1-2 colorspace_1.3-2  
+## [16] Matrix_1.2-14      plyr_1.8.4         tm_0.7-5          
+## [19] XML_3.98-1.12      pkgconfig_2.0.1    gmodels_2.18.1    
+## [22] purrr_0.2.5        gdata_2.18.0       stringdist_0.9.5.1
+## [25] jpeg_0.1-8         tibble_1.4.2       genderdata_0.5.0  
+## [28] withr_2.1.2        lazyeval_0.2.1     proto_1.0.0       
+## [31] NLP_0.1-11         crayon_1.3.4       deldir_0.1-15     
+## [34] memoise_1.1.0      evaluate_0.11      nlme_3.1-137      
+## [37] MASS_7.3-50        xml2_1.2.0         Cairo_1.5-9       
+## [40] tools_3.5.1        data.table_1.11.4  geosphere_1.5-7   
+## [43] RgoogleMaps_1.4.2  munsell_0.5.0      babynames_0.3.0   
+## [46] compiler_3.5.1     rlang_0.2.1        grid_3.5.1        
+## [49] rjson_0.2.20       labeling_0.3       boot_1.3-20       
+## [52] testthat_2.0.0     gtable_0.2.0       roxygen2_6.1.0    
+## [55] knitr_1.20         bindr_0.1.1        commonmark_1.5    
+## [58] spdep_0.7-7        stringi_1.2.4      parallel_3.5.1    
+## [61] Rcpp_0.12.18       mapproj_1.2.6      png_0.1-7         
+## [64] spData_0.2.9.0     tidyselect_0.2.4   coda_0.19-1
 ```
 
 

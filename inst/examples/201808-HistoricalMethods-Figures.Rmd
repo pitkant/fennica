@@ -945,7 +945,7 @@ Average title length in words in Stockholm, Turku, Uppsala, Lund, Göteborg and 
 
 ```{r Figure_14, echo=FALSE, message=FALSE, warning=FALSE}
 # Take cities from SNB except Turku
-df00 <- df.full %>% filter(publication_year >= 1640 & publication_year <= 1850)
+df00 <- df.full.1911 %>% filter(publication_year >= 1640 & publication_year <= 1850)
 df1 <- df00 %>% filter((publication_place %in% setdiff(cities, "Turku") & Catalogue == "SNB") |
                        (publication_place %in% "Turku" & Catalogue == "FNB")) 
 df1$publication_place[!df1$publication_place == "Stockholm"] <- "Other"
