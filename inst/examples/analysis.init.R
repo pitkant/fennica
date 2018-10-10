@@ -14,10 +14,10 @@ library(knitr)
 #timespan <- c(1400, 1920)
 #timespan <- c(1470, 1828)
 #timespan <- c(-Inf, Inf)
-datafile <- "df.Rds"
-datafile.orig <- "df.raw.Rds"
+datafile <- "data/unified/polished/df.Rds"
+datafile.orig <- "data/unified/polished/df.raw.Rds"
 ntop <- 20
-author <- "Lahti, Marjanen, Roivainen, Tolonen"
+author <- "Helsinki Computational History Group (COMHIS)"
 
 # Already in main.R but it must
 # be possible to run analysis.R

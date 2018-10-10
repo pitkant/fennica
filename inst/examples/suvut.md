@@ -1,12 +1,16 @@
 ---
 title: "Suvut"
 author: "Niko Ilomäki"
-date: "2018-02-15"
+date: "2018-06-27"
 output: markdown_document
 ---
 
 
 
+
+```
+## Error in gzfile(file, "rb"): cannot open the connection
+```
 
 ```
 ## Error in filter_impl(.data, quo): Evaluation error: object 'family_name' not found.

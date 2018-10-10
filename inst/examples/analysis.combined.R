@@ -5,8 +5,10 @@ library(dplyr)
 # its components (ie. updated after the latest changes).
 # Otherwise update.
 if (file.exists("df.combined.Rds") &&
+
     (as.numeric(file.info("df.combined.Rds")$mtime - file.info("fennica.Rds")$mtime)) > 0 &&
     (as.numeric(file.info("df.combined.Rds")$mtime - file.info("kungliga.Rds")$mtime)) > 0)
+    
    {
   
   message("Opening df.combined.Rds")
@@ -17,8 +19,8 @@ if (file.exists("df.combined.Rds") &&
   message("Creating df.combined.Rds by combining df.Rds-files from Kungliga & Fennica")
 
   message("Reading the data")
-  fen <- readRDS("fennica.Rds") # symbolic link to fennica/inst/examples/df.Rds 
-  kun <- readRDS("kungliga.Rds")  # symbolic link to kungliga/df.Rds 
+  fen <- readRDS("data/unified/polished/df.Rds") # symbolic link to fennica/inst/examples/df.Rds 
+  kun <- readRDS("data_kungliga/unified/polished/df.Rds")  # symbolic link to kungliga/df.Rds 
   
   message("Binding & adding extra fields")
   # LL: I chanced df0 naming to df000 since df0 is the name of a critical base data set
@@ -33,7 +35,7 @@ if (file.exists("df.combined.Rds") &&
   df.combined.preprocessed <- mark_duplicates(df000)
 
   message("Save combined data")  			   
-  saveRDS(object = df.combined.preprocessed, file = "df.combined.Rds")
+  saveRDS(object = df.combined.preprocessed, file = "data/unified/df.combined.Rds")
   
 }
 
