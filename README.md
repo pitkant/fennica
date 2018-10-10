@@ -16,7 +16,7 @@ The data is summarized in the following automatically generated files:
  * A Quantitative Approach to Book Printing in Sweden and Finland, 1640–1828 [Source code for the figures](https://github.com/COMHIS/fennica/blob/master/inst/examples/201808-HistoricalMethods-Figures.Rmd)
  * Knowledge production in Finland 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/comhis/fennica/blob/master/inst/examples/20160715-Krakow-Fennica.pdf)) and [code](inst/examples/20160715-Krakow-Fennica.pdf)
  * [Analyses on specific publication places and other topics](https://github.com/comhis/fennica/tree/master/inst/examples) (see the .md files) 
- * [Figures and analyses for CCQ2019](https://gitlab.com/COMHIS/CCQ2018/blob/master/fennica.md)
+ * [Figures and analyses for CCQ2019](https://gitlab.com/COMHIS/CCQ2018/blob/master/Figures.pdf)
 
 The analyses cover several steps including XML parsing, data
 harmonization, removing unrecognized entries, enriching and organizing
