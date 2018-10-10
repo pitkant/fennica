@@ -10,10 +10,6 @@ output: markdown_document
 ## Error in eval(expr, envir, enclos): object 'opts_chunk' not found
 ```
 
-```
-## Error in exists(df.gatherings): object 'df.gatherings' not found
-```
-
 
 ## Page counts
 
@@ -58,7 +54,7 @@ count estimate.
 
 
 ```
-## Error in grid.arrange(pics[[1]], pics[[2]], pics[[3]], pics[[4]], nrow = 1): could not find function "grid.arrange"
+## Error in pics[[3]]: subscript out of bounds
 ```
 
 
@@ -67,7 +63,7 @@ count estimate.
 
 ![plot of chunk pagecountstat](figure/pagecountstat-1.png)
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 18136 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 0 documents that have missing pagecount info in the original data):
 
 <img src="figure/size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/size-estimated-3.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
@@ -91,7 +87,7 @@ Paper consumption histogram;
 
 ## Estimated paper consumption
 
-Note: there are 13668 documents that have some dimension info but sheet area information could not be calculated. 
+Note: there are 33910 documents that have some dimension info but sheet area information could not be calculated. 
 
 ![plot of chunk paperconsumption](figure/paperconsumption-1.png)![plot of chunk paperconsumption](figure/paperconsumption-2.png)
 
