@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing summary"
 author: "Leo Lahti"
-date: "Wed Oct 10 22:27:53 2018"
+date: "Wed Oct 10 22:30:04 2018"
 ---
 
 # Fennica summary
@@ -13,7 +13,7 @@ Fields of special interest. Real success percentage (proportion of successful co
 
 
 ```
-## Error in .f(.x[[i]], ...): object 'country' not found
+## Error in real.success[["country"]] <- success$country/original.nonNA$publication_place: replacement has length zero
 ```
 
 ![plot of chunk missing2](figure/missing2-1.png)
