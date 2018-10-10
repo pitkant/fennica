@@ -27,15 +27,11 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 # RMrmarkdown::render("manuscript-krakow.Rmd") # Manuscript draft
 # knitr::knit("manuscript-krakow.Rmd", encoding="UTF-8")
 
-# -------------------
-
 # Gaudeamus
 # knitr::knit("201705-Gaudeamus.Rmd", encoding="UTF-8")
 #rmarkdown::render("201705-Gaudeamus.Rmd", output_format="pdf_document")
 #rmarkdown::render("201705-Gaudeamus.Rmd") 
 #source("Figure3.R")
-
-# -------------------
 
 # Manuscript 2/2017 Figures
 # Historical Methods 2018 Marjanen et al.
@@ -43,8 +39,6 @@ knitr::knit("suvut.Rmd", encoding="UTF-8")
 #library(rmarkdown); library(knitr)
 #knitr::knit("201808-HistoricalMethods-Figures.Rmd", encoding="UTF-8")
 #rmarkdown::render("201808-HistoricalMethods-Supplement.Rmd", output_format = "pdf_document", encoding="UTF-8") 
-
-# -------------------
 
 # rmarkdown::render("20160715-Krakow-Fennica.Rmd") # Krakow 7/2016 slides frozen.
 # library(rmarkdown)
