@@ -6,9 +6,6 @@ output: markdown_document
 ---
 
 
-```
-## Error in eval(expr, envir, enclos): object 'opts_chunk' not found
-```
 
 
 ## Page counts
@@ -61,50 +58,50 @@ count estimate.
 
 ### Document size distribution
 
-![plot of chunk pagecountstat](figure/pagecountstat-1.png)
+![plot of chunk pagecountstat](figure/pagecount-pagecountstat-1.png)
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 0 documents that have missing pagecount info in the original data):
 
-<img src="figure/size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/size-estimated-3.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-3.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 Paper consumption histogram;
 
 
-<img src="figure/sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
+<img src="figure/pagecount-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
 
 <!--
 
 ### Title count versus paper consumption
 
-![plot of chunk title_vs_paper](figure/title_vs_paper-1.png)
+![plot of chunk title_vs_paper](figure/pagecount-title_vs_paper-1.png)
 
 
 ## Documents with missing pages over years 
 
-![plot of chunk missingpages](figure/missingpages-1.png)![plot of chunk missingpages](figure/missingpages-2.png)
+![plot of chunk missingpages](figure/pagecount-missingpages-1.png)![plot of chunk missingpages](figure/pagecount-missingpages-2.png)
 
 
 ## Estimated paper consumption
 
 Note: there are 33910 documents that have some dimension info but sheet area information could not be calculated. 
 
-![plot of chunk paperconsumption](figure/paperconsumption-1.png)![plot of chunk paperconsumption](figure/paperconsumption-2.png)
+![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 
-![plot of chunk paperconsumption2b](figure/paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/paperconsumption2b-2.png)
+![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-1.png)![plot of chunk paperconsumption2b](figure/pagecount-paperconsumption2b-2.png)
 
 
 
-![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecounts-gatherings-relab-2.png)
+![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-2.png)
 
-![plot of chunk paperconsumption2](figure/paperconsumption2-1.png)
+![plot of chunk paperconsumption2](figure/pagecount-paperconsumption2-1.png)
 
 ## Pamphlets vs. Books
 
-![plot of chunk doctypes](figure/doctypes-1.png)![plot of chunk doctypes](figure/doctypes-2.png)
+![plot of chunk doctypes](figure/pagecount-doctypes-1.png)![plot of chunk doctypes](figure/pagecount-doctypes-2.png)
 
 
-![plot of chunk doctypes2](figure/doctypes2-1.png)![plot of chunk doctypes2](figure/doctypes2-2.png)
+![plot of chunk doctypes2](figure/pagecount-doctypes2-1.png)![plot of chunk doctypes2](figure/pagecount-doctypes2-2.png)
 
 
 
@@ -112,22 +109,22 @@ Note: there are 33910 documents that have some dimension info but sheet area inf
 
 Estimated paper consumption by document size
 
-![plot of chunk 20150611paris-paper6](figure/20150611paris-paper6-1.png)
+![plot of chunk 20150611paris-paper6](figure/pagecount-20150611paris-paper6-1.png)
 
 
 Gatherings height: does it change over time? How increased printing activity is related to book size trends? Alternatively, we could use area (height x width), or median over time. Note that only original (not augmented) dimension info is being used here.
 
-![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-1.png)![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-2.png)![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-3.png)![plot of chunk pagecounts-gatsize](figure/pagecounts-gatsize-4.png)
+![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-1.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-2.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-3.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-4.png)
 
 
 Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.
 
-![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecounts-gatsize2-4.png)
+![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-1.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-2.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-3.png)![plot of chunk pagecounts-gatsize2](figure/pagecount-pagecounts-gatsize2-4.png)
 
 
 Same for documents that have a sufficient number of pages:
 
-![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecounts-gatsize3-4.png)
+![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
 
 -->
 
