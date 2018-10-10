@@ -15,7 +15,6 @@ The data is summarized in the following automatically generated files:
  * Presentation slide templates ([PDF](https://github.com/comhis/fennica/blob/master/inst/examples/slidetemplates.pdf)) and [code](inst/examples/slidetemplates.Rmd)
  * A Quantitative Approach to Book Printing in Sweden and Finland, 1640–1828 [Source code for the figures](https://github.com/COMHIS/fennica/blob/master/inst/examples/201808-HistoricalMethods-Figures.Rmd)
  * Knowledge production in Finland 1470-1828: Digital Humanities 2016 conference presentation slides ([PDF](https://github.com/comhis/fennica/blob/master/inst/examples/20160715-Krakow-Fennica.pdf)) and [code](inst/examples/20160715-Krakow-Fennica.pdf)
-<--! * [Digital History in Finland](https://github.com/comhis/fennica/blob/master/inst/examples/20151209-HelsinkiDH.md) Seminar in University of Helsinki, Dec 9, 2015-->
  * [Analyses on specific publication places and other topics](https://github.com/comhis/fennica/tree/master/inst/examples) (see the .md files) 
  * [Figures and analyses for CCQ2019](https://gitlab.com/COMHIS/CCQ2018/blob/master/fennica.md)
 
