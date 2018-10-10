@@ -31,7 +31,7 @@ original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publi
 # of non-NA entries in the original data:
 real.success <- c()
 real.success[["publication_place"]] <- success$publication_place/original.nonNA$publication_place
-real.success[["country"]] <- success$country/original.nonNA$publication_place
+real.success[["publication_country"]] <- success$publication_country/original.nonNA$publication_place
 real.success[["publication_year"]] <- success$publication_year/original.nonNA$publication_time
 real.success[["publication_year_from"]] <- success$publication_year_from/original.nonNA$publication_time
 real.success[["publication_year_till"]] <- success$publication_year_till/original.nonNA$publication_time
