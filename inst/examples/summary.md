@@ -1,22 +1,20 @@
 ---
 title: "Preprocessing summary"
 author: "Leo Lahti"
-date: "Wed Oct 10 22:24:29 2018"
+date: "Wed Oct 10 22:27:53 2018"
 ---
 
 # Fennica summary
 
 
-```
-## Error in gzfile(file, "rb"): cannot open the connection
-```
-
-```
-## Error in gzfile(file, "rb"): cannot open the connection
-```
 
 
 Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+
+```
+## Error in .f(.x[[i]], ...): object 'country' not found
+```
 
 ![plot of chunk missing2](figure/missing2-1.png)
 
@@ -38,7 +36,7 @@ We also have corporate info available ?
 
 
 
-Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5692 documents (8%). There are 634 unique geographical places.
+Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5838 documents (8%). There are 645 unique geographical places.
 
 ![plot of chunk geo2](figure/geo2-1.png)
 
