@@ -18,7 +18,7 @@ df <- readRDS("data/unified/polished/df.Rds")
 ```
 
 
-```{r gap, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
+```{r gap, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=5}
 theme_set(theme_bw(20))
 dfs <- df %>% filter(language_primary == "Swedish") %>%
        	      group_by(publication_decade) %>%
