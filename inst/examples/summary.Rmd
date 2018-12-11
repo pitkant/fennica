@@ -23,7 +23,7 @@ conversions <- readRDS("conversions.Rds")
 Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
 
 ```{r missing2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
-dfs <- df %>% select(author, publication_place, country, publication_year, publication_year_from, publication_year_till, corporate, area, pagecount, gatherings, width, height, paper, publisher, self_published)
+dfs <- df %>% select(author, publication_place, publication_country, publication_year, publication_year_from, publication_year_till, corporate, area, pagecount, gatherings, width, height, paper, publisher, self_published)
 success <- as.data.frame(t(apply(dfs, 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
 original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publication_time, corporate, physical_extent, physical_dimension, publisher, author_name), 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
 
@@ -31,7 +31,7 @@ original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place, publi
 # of non-NA entries in the original data:
 real.success <- c()
 real.success[["publication_place"]] <- success$publication_place/original.nonNA$publication_place
-real.success[["country"]] <- success$country/original.nonNA$publication_place
+real.success[["publication_country"]] <- success$publication_country/original.nonNA$publication_place
 real.success[["publication_year"]] <- success$publication_year/original.nonNA$publication_time
 real.success[["publication_year_from"]] <- success$publication_year_from/original.nonNA$publication_time
 real.success[["publication_year_till"]] <- success$publication_year_till/original.nonNA$publication_time

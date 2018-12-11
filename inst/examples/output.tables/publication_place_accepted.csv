@@ -1,5 +1,5 @@
 Name	Count
-Total count (na.rm TRUE): 	67541
+Total count (na.rm TRUE): 	67540
 Helsinki	26784
 Turku	13117
 Stockholm	 3875
@@ -248,7 +248,7 @@ Viljandi	    2
 Virolahti	    2
 Ylistaro	    2
 Ypäjä	    2
-Zary	    2
+Żary	    2
 Akureyri	    1
 Alfend	    1
 Amersfoort	    1
@@ -276,7 +276,7 @@ Ely Mi	    1
 Erlangen	    1
 Eveleth Mi	    1
 Exeter	    1
-Gdansk	    1
+Gdańsk	    1
 Gera	    1
 Godby	    1
 Gutersloh	    1
@@ -329,7 +329,7 @@ Le Mans	    1
 Letchworth	    1
 Liepaja	    1
 Lisbon	    1
-Litomerice	    1
+Litoměrice	    1
 Liverpool	    1
 Ljungsbro	    1
 Lohtaja	    1
@@ -368,11 +368,10 @@ Pieksämäki	    1
 Pinjainen	    1
 Pistoia	    1
 Portland Or	    1
-Poznan	    1
+Poznań	    1
 Prague	    1
 Purleigh	    1
 Quedlinburg	    1
-R ev	    1
 Rääkkylä	    1
 Räisälä	    1
 Raisio	    1
@@ -399,7 +398,7 @@ Sundsvall	    1
 Suonenjoki	    1
 Taipalsaari	    1
 Tammela	    1
-Telc	    1
+Telč	    1
 Terni	    1
 Tervonsalmi	    1
 Toholampi	    1

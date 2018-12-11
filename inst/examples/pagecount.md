@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-27"
+date: "2018-10-10"
 output: markdown_document
 ---
 
@@ -62,17 +62,19 @@ count estimate.
 
 Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 0 documents that have missing pagecount info in the original data):
 
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-3.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
-```
-## Error in grouped_indices_grouped_df_impl(.data): Column `pagecount` is unknown
-```
 
-```
-## Error in FUN(X[[i]], ...): object 'documents' not found
-```
+Paper consumption histogram;
 
-<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
+<img src="figure/pagecount-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
+
+<!--
+
+### Title count versus paper consumption
+
+![plot of chunk title_vs_paper](figure/pagecount-title_vs_paper-1.png)
 
 
 ## Documents with missing pages over years 
@@ -93,8 +95,6 @@ Note: there are 33910 documents that have some dimension info but sheet area inf
 ![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-1.png)![plot of chunk pagecounts-gatherings-relab](figure/pagecount-pagecounts-gatherings-relab-2.png)
 
 ![plot of chunk paperconsumption2](figure/pagecount-paperconsumption2-1.png)
-
-
 
 ## Pamphlets vs. Books
 
@@ -125,4 +125,6 @@ Page counts: does it change over time? Also suggested we could calculate some ki
 Same for documents that have a sufficient number of pages:
 
 ![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-1.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-2.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-3.png)![plot of chunk pagecounts-gatsize3](figure/pagecount-pagecounts-gatsize3-4.png)
+
+-->
 
