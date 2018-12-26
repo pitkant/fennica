@@ -1,7 +1,6 @@
-original	polished	Count
-Total count (na.rm TRUE): 	4468	
-Turun akatemia	Turku	4464
-Suomen yliopisto	Helsinki	   1
-Turun akatemia,;Turun akatemia	Turku	   1
-HY	Helsinki	   1
-Dorpat	Tartto	   1
+original polished n
+Turun akatemia Turku 4464
+Dorpat Tartto 1
+HY Helsinki 1
+Suomen yliopisto Helsinki 1
+Turun akatemia,;Turun akatemia Turku 1

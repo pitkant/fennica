@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
-author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-27"
+author: "Helsinki Computational History Group (COMHIS)"
+date: "2018-12-26"
 output: markdown_document
 ---
 
@@ -32,7 +32,7 @@ Authors with ambiguous living year information - can we spot here
 cases where these are clearly known identical or distinct authors?
 Should also add living year information from supporting sources later.
 
-9429 [authors with missing life years](output.tables/authors_missing_lifeyears.csv) (Life year info can be augmented [here](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/author_info.csv))
+9430 [authors with missing life years](output.tables/authors_missing_lifeyears.csv) (Life year info can be augmented [here](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/author_info.csv))
 
 95 [authors with ambiguous life years](output.tables/author_life_ambiguous.csv) Some of these might be synonymous and could be added to [author synonyme list](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/ambiguous-authors.csv) (the first term will be selected for the final data)
 
@@ -46,7 +46,7 @@ Ordered by productivity (number of documents))
 
 ### Author age
 
-15629 documents (22%) have author age at the publication year. These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
+15628 documents (22%) have author age at the publication year. These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
 
 
 ![plot of chunk author_age](figure_slides/author_age-1.png)

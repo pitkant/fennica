@@ -1,14 +1,14 @@
 ---
 title: "Publisher preprocessing summary"
-author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-27"
+author: "Helsinki Computational History Group (COMHIS)"
+date: "2018-12-26"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8109 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8108 [unique publishers](output.tables/publisher_accepted.csv)
 
  * 60779 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
@@ -43,7 +43,7 @@ Title count versus paper consumption (top publishers):
 |Hansson, Peter                  |    982| 1612252.9|
 |Kämpe, Johan                    |    987| 1556538.7|
 |Londicer, Georg Wilhelm         |   2100|  590734.4|
-|Otava                           |   2188| 2011285.5|
+|Otava                           |   2188| 2002856.3|
 |Söderström                      |   1207|  947046.8|
 |Wall, Johan Larsson             |   1266| 2210292.0|
 |WSOY                            |   2881| 1861956.8|

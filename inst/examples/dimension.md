@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
-author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-27"
+author: "Helsinki Computational History Group (COMHIS)"
+date: "2018-12-26"
 output: markdown_document
 ---
 
@@ -9,11 +9,11 @@ output: markdown_document
 
 ## Document size comparisons
 
-  * Some dimension info is provided in the original raw data for altogether 36789 documents (52.2%) but could not be interpreted for 2696 documents (ie. dimension info was successfully estimated for 92.7 % of the documents where this field was not empty).
+  * Some dimension info is provided in the original raw data for altogether 0 documents (0%) but could not be interpreted for 0 documents (ie. dimension info was successfully estimated for NaN % of the documents where this field was not empty).
 
-  * Document size (area) info was obtained in the final preprocessed data for altogether 36541 documents (52%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](output.tables/physical_dimension_incomplete.csv)
+  * Document size (area) info was obtained in the final preprocessed data for altogether 36541 documents (52%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
 
-  * Document gatherings info is originally available for 31657 documents (45%), and further estimated up to 34093 documents (48%) in the final preprocessed data.
+  * Document gatherings info is originally available for NA documents (NA%), and further estimated up to NA documents (NA%) in the final preprocessed data.
 
   * Document height info is originally available for 4950 documents (7%), and further estimated up to 36541 documents (52%) in the final preprocessed data.
 
@@ -22,7 +22,7 @@ output: markdown_document
 
 These tables can be used to verify the accuracy of the conversions from the raw data to final estimates:
 
-  * [Dimension conversions from raw data to final estimates](output.tables/conversions_physical_dimension.csv)
+  * [Dimension conversions from raw data to final estimates](conversions_physical_dimension.csv)
 
   * [Automated tests for dimension conversions](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/tests_dimension_polish.csv)
 
@@ -38,7 +38,7 @@ The estimated dimensions are based on the following auxiliary information sheets
 
 
   
-<!--[Discarded dimension info](output.tables/dimensions_discarded.csv)-->
+<!--[Discarded dimension info](dimensions_discarded.csv)-->
 
 Left: final gatherings vs. final document dimension (width x height). Right: original gatherings versus original heights where both are available. The point size indicates the number of documents for each case. The red dots indicate the estimated height that is used when only gathering information is available. 
 

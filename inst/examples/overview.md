@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
-author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-27"
+author: "Helsinki Computational History Group (COMHIS)"
+date: "2018-12-26"
 output: markdown_document
 ---
 
@@ -55,32 +55,34 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |note_510c                    |           9.1|          6382|        90.9|       6201|
 |note_source                  |          15.8|         11136|        84.2|       4657|
 |title_uniform                |          16.9|         11883|        83.1|       8674|
-|author_age                   |          22.2|         15629|        77.8|         90|
-|author_death                 |          25.1|         17684|        74.9|        364|
-|author_birth                 |          25.3|         17851|        74.7|        340|
+|author_age                   |          22.2|         15628|        77.8|         90|
+|author_death                 |          25.1|         17683|        74.9|        364|
+|author_birth                 |          25.3|         17850|        74.7|        340|
 |first_edition                |          26.8|         18858|        73.2|          3|
 |corporate                    |          27.7|         19529|        72.3|       1404|
 |subject_topic                |          28.4|         20002|        71.6|       3480|
+|gatherings.original          |          44.9|         31656|        55.1|         17|
 |author_gender                |          46.7|         32868|        53.3|          5|
-|obl                          |          48.4|         34093|        51.6|          3|
+|gatherings                   |          48.4|         34092|        51.6|         17|
 |holder                       |          50.6|         35616|        49.4|       2136|
-|paper                        |          51.9|         36530|        48.1|       4240|
-|print_area                   |          51.9|         36530|        48.1|       4240|
+|paper                        |          51.5|         36279|        48.5|       4220|
+|print_area                   |          51.5|         36279|        48.5|       4220|
 |width                        |          51.9|         36541|        48.1|        295|
 |height                       |          51.9|         36541|        48.1|        336|
 |area                         |          51.9|         36541|        48.1|        764|
 |author_name                  |          63.5|         44705|        36.5|      11621|
 |author                       |          63.5|         44705|        36.5|      11682|
-|self_published               |          79.7|         56154|        20.3|          3|
-|publisher                    |          86.3|         60779|        13.7|       8109|
+|self_published               |          79.7|         56158|        20.3|          3|
+|publisher                    |          86.3|         60779|        13.7|       8108|
 |longitude                    |          95.8|         67523|         4.2|        383|
 |latitude                     |          95.8|         67523|         4.2|        380|
 |publication_country          |          95.9|         67535|         4.1|         34|
 |publication_place            |          95.9|         67541|         4.1|        426|
+|obl                          |          96.5|         67973|         3.5|          3|
+|pagecount                    |          97.3|         68582|         2.7|        980|
+|pagecount.orig               |          97.3|         68582|         2.7|        980|
 |dissertation                 |         100.0|         70430|         0.0|          3|
 |publication_year_from        |         100.0|         70433|         0.0|        357|
-|pagecount                    |         100.0|         70440|         0.0|        980|
-|pagecount.orig               |         100.0|         70440|         0.0|        980|
 |title                        |         100.0|         70448|         0.0|      55862|
 |pagecount.sheet              |         100.0|         70449|         0.0|        783|
 |synodal                      |         100.0|         70450|         0.0|          3|
@@ -93,7 +95,6 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |pagecount.plate              |         100.0|         70451|         0.0|         56|
 |pagecount.arabic             |         100.0|         70451|         0.0|        835|
 |pagecount.roman              |         100.0|         70451|         0.0|        109|
-|gatherings.original          |         100.0|         70451|         0.0|         18|
 |obl.original                 |         100.0|         70451|         0.0|          2|
 |original_row                 |         100.0|         70451|         0.0|      70451|
 |pagecount_from               |         100.0|         70451|         0.0|          1|
@@ -104,12 +105,11 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |singlevol                    |         100.0|         70451|         0.0|          2|
 |multivol                     |         100.0|         70451|         0.0|          1|
 |issue                        |         100.0|         70451|         0.0|          1|
-|gatherings                   |         100.0|         70451|         0.0|         18|
 
 ```
-##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1189992  63.6    3320491 177.4  4266470 227.9
-## Vcells 19374311 147.9   45939542 350.5 38191748 291.4
+##            used  (Mb) gc trigger   (Mb)  max used   (Mb)
+## Ncells 11007642 587.9   19426350 1037.5  19426350 1037.5
+## Vcells 69639682 531.4  125239284  955.5 125227037  955.5
 ```
 
 
@@ -121,15 +121,12 @@ Brief description of the fields:
 
  * [Description of the original MARC fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames.csv)
 
- * [Description of the preprocessed fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames_polished.csv)
+ * [Description of the preprocessed fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldname_table.csv)
 
 
 ## Histograms of all entries for numeric variables
 
-
-```
-## Error in freq && !equidist: invalid 'x' type in 'x && y'
-```
+<img src="figure/summary-histograms-1.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-2.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-3.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-4.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-5.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-6.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-7.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-8.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-9.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-10.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-11.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-12.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-13.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-14.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-15.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-16.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-17.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-18.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-19.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-20.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-21.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-22.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-23.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-24.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-25.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-26.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-27.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-28.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-29.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" /><img src="figure/summary-histograms-30.png" title="plot of chunk summary-histograms" alt="plot of chunk summary-histograms" width="200px" />
 
 
 ## Histograms of the top entries for factor variables

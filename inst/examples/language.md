@@ -1,7 +1,7 @@
 ---
 title: "Language summaries"
 author: "Leo Lahti"
-date: "2018-06-27"
+date: "2018-12-26"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ output: markdown_document
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/language_abbreviations.csv).
 
-Title count per language (including multi-language documents):
+Title count per language (including multi-language documents; note the log10 scale):
 
 ![plot of chunk summarylang](figure/summarylang-1.png)
 

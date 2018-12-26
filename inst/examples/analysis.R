@@ -1,7 +1,3 @@
-# Initialize
-source("analysis.init.R")
-source("analysis.run.R")
-
 # Combine Fennica + Kungliga and mark duplicates
 source("analysis.combined.R")
 

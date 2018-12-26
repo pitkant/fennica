@@ -1,7 +1,7 @@
 ---
 title: "Publication place preprocessing summary"
-author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-06-27"
+author: "Helsinki Computational History Group (COMHIS)"
+date: "2018-12-26"
 output: markdown_document
 ---
 

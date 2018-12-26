@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
-author: "Lahti, Marjanen, Roivainen, Tolonen"
-date: "2018-10-10"
+author: "Helsinki Computational History Group (COMHIS)"
+date: "2018-12-26"
 output: markdown_document
 ---
 
@@ -10,13 +10,13 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 70440 documents in total (100%), including both readily available and estimated page counts.
+  * Page count available for 68582 documents in total (97.3%), including both readily available and estimated page counts.
 
-  * Page count readily available for 70440 documents (100%). 
+  * Page count readily available for 68582 documents (97.3%). 
 
   * Page count estimated for 0 documents (0%).
 
-  * Page count missing and could not be estimated for 11 documents (0%).
+  * Page count missing and could not be estimated for 1869 documents (2.7%).
 
   * Page count updated for 0 documents in the validation phase.
   
@@ -84,7 +84,7 @@ Paper consumption histogram;
 
 ## Estimated paper consumption
 
-Note: there are 33910 documents that have some dimension info but sheet area information could not be calculated. 
+Note: there are 29 documents that have some dimension info but sheet area information could not be calculated. 
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
 

@@ -1,9 +1,7 @@
-library(bibliographica)
+library(devtools)
+load_all("~/Rpackages/bibliographica")
+#library(bibliographica)
 library(fennica)
-
-#library(devtools)
-#load_all("bibliographica")
-#load_all()
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv
@@ -21,9 +19,6 @@ catalog <- "fennica"
 # TODO: recognize the necessary languages automatically ?
 languages <- c("finnish", "latin", "swedish")
 
-# Cores for parallelization
-mc.cores <- 3
-
 # Limit to Finnish/Swedish name-gender mappings for Fennica
 gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv",
                               package = "bibliographica")
@@ -33,9 +28,6 @@ update.fields <- NULL
 ignore.fields <- c("language2", "title_remainder",
                    "physical_details", "physical_accomppanied",
                    "note_general", "note_year") # Fennica
-
-# update.fields <- setdiff(names(df.preprocessed), "publisher")
-# update.fields <- c("language")
 
 # ----------------------------------------------------
 #            LOAD DATA FOR PREPROCESSING
@@ -47,7 +39,7 @@ if (!"df.raw.Rds" %in% dir()) {
 }
 source(system.file("extdata/init.R", package = "bibliographica"))
 
-df.orig <- load_initial_datafile(fs, ignore.fields, reload.data)
+df.orig <- load_initial_datafile(fs, reload.data)
 
 data.preprocessing <- get_preprocessing_data(df.orig, 
                                              update.fields,
@@ -75,8 +67,8 @@ source(system.file("extdata/preprocessing.R", package = "bibliographica"))
 
 data.preprocessed <- preprocess_data(data.preprocessing, 
                                      df.orig,
-                                     languages, 
-                                     mc.cores = mc.cores)
+                                     languages
+                                     )
 
 rm(data.preprocessing)
 
@@ -131,7 +123,12 @@ saveRDS(df.preprocessed, "data/unified/polished/df.Rds")
 
 # -----------------------------------
 
-source("analysis.R")  # Summary md docs
+# Summary analyses
+source("analysis.init.R")
+source("analysis.run.R")
+
+# Specific analyses (to be updated)
+# source("analysis.R")  # Summary md docs
 
 #---------------------------------
 
