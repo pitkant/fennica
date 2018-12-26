@@ -1,11 +1,10 @@
 Package: fennica
 Type: Package
 Title: Finnish National Bibliography Fennica Toolkit
-Version: 0.1.45
+Version: 0.2.1
 Authors@R: c(
     person("Lahti", "Leo", email = "leo.lahti@iki.fi", role = c("aut", "cre")),
     person("Roivainen", "Hege", role = "aut"),        
-    person("Ilomaki", "Niko", role = "ctb"),    
     person("Tolonen", "Mikko", role = "aut"))
 MailingList: comhis <comhis-forum@googlegroups.com>
 Description: Algorithms for Finnish Library Data.
@@ -28,4 +27,4 @@ Suggests:
     rmarkdown,
     testthat
 LazyLoad: yes
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0
