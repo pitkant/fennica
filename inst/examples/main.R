@@ -1,7 +1,8 @@
 library(devtools)
 load_all("~/Rpackages/bibliographica")
+load_all("~/Rpackages/fennica")
 #library(bibliographica)
-library(fennica)
+#library(fennica)
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv

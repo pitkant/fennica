@@ -78,6 +78,7 @@ polish_publisher_fennica <- function (df.preprocessed, useShortcuts=FALSE) {
   # HR 2017-03-21: Don't do sv_publisher -conversions in clean_publisher(),
   # as it's done in harmonize_publisher in a more controlled way
   unprocessed_pubs  <- clean_publisher(df.preprocessed$publisher[keep.inds], languages = c())
+save(df.preprocessed, file = "~/tmp/tmp.RData")    
   unprocessed_pubs  <- harmonize_publisher_fennica2(unprocessed_pubs, publication_year[keep.inds,], languages = languages)
   unprocessed_towns <- df.preprocessed$publication_place[keep.inds]
   unprocessed_years <- publication_year[keep.inds,]
