@@ -1,13 +1,13 @@
 ---
 title: "Publication place preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2018-12-27"
+date: "2019-06-08"
 output: markdown_document
 ---
 
 ### Publication places
 
- * 426 [unique publication places](output.tables/publication_place_accepted.csv); available for 67541 documents (96%).
+ * 427 [unique publication places](output.tables/publication_place_accepted.csv); available for 67540 documents (96%).
  * 0 [ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 
  * 0 [unknown place names](output.tables/publication_place_todo.csv) These terms do not map to any known place on the [synonyme list](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv); either because they require further cleaning or have not yet been encountered in the analyses. Terms that are clearly not place names can be added to [stopwords](inst/extdata/stopwords_for_place.csv); borderline cases that are not accepted as place names can be added as NA on the [synonyme list](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv).
  * 31 [discarded place names](output.tables/publication_place_discarded.csv) These terms are potential place names but with a closer check have been explicitly rejected on the [synonyme list](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv)
@@ -21,17 +21,17 @@ Top-20 publication places are shown together with the number of documents.
 
 ### Publication countries	
 
- * 34 [unique publication countries](output.tables/publication_country_accepted.csv); available for 67535 documents (96%).
+ * 34 [unique publication countries](output.tables/publication_country_accepted.csv); available for 67534 documents (96%).
  * 5 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (1.2% of the unique places; can be added to [country mappings](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv))
  * 6 [potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/reg2country.csv).
 
 
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
-|Finland |         58725|         83.4|
+|Finland |         58723|         83.4|
 |Sweden  |          4920|          7.0|
 |Russia  |          1215|          1.7|
-|USA     |           812|          1.2|
+|USA     |           813|          1.2|
 |Germany |           745|          1.1|
 |Estonia |           251|          0.4|
 

@@ -1,7 +1,7 @@
 ---
 title: "Author preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2018-12-27"
+date: "2019-06-08"
 output: markdown_document
 ---
 
@@ -46,7 +46,7 @@ Ordered by productivity (number of documents))
 
 ### Author age
 
-15628 documents (22%) have author age at the publication year. These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
+15629 documents (22%) have author age at the publication year. These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
 
 
 ![plot of chunk author_age](figure_slides/author_age-1.png)

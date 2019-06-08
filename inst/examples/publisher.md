@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2018-12-27"
+date: "2019-06-08"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8108 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8110 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60779 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 60778 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
  * 1909 documents are identified as self-published (2.7%). 
 
@@ -40,7 +40,7 @@ Title count versus paper consumption (top publishers):
 |Edlund                          |   1066| 1906547.7|
 |Frenckell, Johan Christopher I  |   1742| 1463305.3|
 |Frenckell, Johan Christopher II |   2205| 2622613.1|
-|Hansson, Peter                  |    982| 1612252.9|
+|Hansson, Peter                  |    981| 1603815.4|
 |Kämpe, Johan                    |    987| 1556538.7|
 |Londicer, Georg Wilhelm         |   2100|  590734.4|
 |Otava                           |   2188| 2002856.3|
@@ -53,7 +53,7 @@ Title count versus paper consumption (top publishers):
 
 Summaries of the corporate field.
 
- * 1404 [unique corporates](output.tables/corporate_accepted.csv)
+ * 1405 [unique corporates](output.tables/corporate_accepted.csv)
 
  * 19529 documents have unambiguous corporate information (27.7%). 
 

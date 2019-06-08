@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2018-12-27"
+date: "2019-06-08"
 output: markdown_document
 ---
 
@@ -15,7 +15,7 @@ output: markdown_document
 
   * Document gatherings info is originally available for NA documents (NA%), and further estimated up to NA documents (NA%) in the final preprocessed data.
 
-  * Document height info is originally available for 4950 documents (7%), and further estimated up to 36541 documents (52%) in the final preprocessed data.
+  * Document height info is originally available for 4951 documents (7%), and further estimated up to 36541 documents (52%) in the final preprocessed data.
 
   * Document width info is originally available for 1950 documents (3%), and further estimated up to 36541 documents (52%) in the final preprocessed data.
 

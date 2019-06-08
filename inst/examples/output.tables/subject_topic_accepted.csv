@@ -9,7 +9,7 @@ Wall, Johan Larsson FALSE 1266
 Söderström  FALSE 1207
 Edlund FALSE 1066
 Kämpe, Johan FALSE 987
-Hansson, Peter FALSE 982
+Hansson, Peter FALSE 981
 Merckell, Jacob FALSE 960
 G.W. Edlunds Förlag FALSE 919
 Suomalaisen Kirjallisuuden Seura FALSE 899
@@ -93,12 +93,12 @@ Suomi Kustannus FALSE 80
 Vihtori Kosonen FALSE 80
 Tryckt hos P.A. Norstedt & Söner FALSE 78
 Weilin ja Göös FALSE 78
-Finska Missionssällskapet FALSE 77
 Rauman kp FALSE 77
 Suomen Naisyhdistys FALSE 75
 Vogel, Johann FALSE 75
 Suomen merimieslähetysseura FALSE 74
 Yrjö Weilin & Coumpp FALSE 74
+Finska Missionssällskapet FALSE 73
 Mattsson, Eskil FALSE 73
 Akademiska Bokhandeln, jakaja FALSE 72
 Nya Pressen FALSE 70
@@ -1112,6 +1112,7 @@ Falck, Israel FALSE 4
 Finska Arbetsgifvareförbund NA 4
 Finska evangeliska sällskapet FALSE 4
 Finska historiska samfundet FALSE 4
+Finska Missions-sällskapet NA 4
 Finska Sågverksegareföreningen FALSE 4
 Finska Seglareförbundet FALSE 4
 Finska sjömansmissionen FALSE 4
@@ -1865,7 +1866,6 @@ A. Tiderman FALSE 2
 A.E. Modeen FALSE 2
 A.G. Hellsten FALSE 2
 A.I. Arwidsson NA 2
-A.N. Winell FALSE 2
 A.W. Gröndahl FALSE 2
 A.W. Jahnsson NA 2
 Aavikko, Armas (1885-NA) TRUE 2
@@ -2782,7 +2782,7 @@ Sydän-Suomen kp NA 2
 Sylviaföreningen FALSE 2
 Sysmän kunta NA 2
 T-vo R. Golike i A. Vil'borg FALSE 2
-T,  (NA-1928) TRUE 2
+T,  (NA-1999) TRUE 2
 Taiteilijaseura FALSE 2
 Tallgren, A M (1885-1945) TRUE 2
 Tallqvist, Hj TRUE 2
@@ -3097,6 +3097,7 @@ A.G. Väänäsen kp FALSE 1
 A.G. Wäänänen FALSE 1
 A.G. Weilin FALSE 1
 A.J. Frosterus NA 1
+A.N. Winell FALSE 1
 A.O. Törnudd FALSE 1
 A.P. Huldbergin tykönä FALSE 1
 A.R. Wellroos NA 1
@@ -3611,6 +3612,7 @@ Chez Levrault, Schoell et Comp. libraires, Rue de Seine FALSE 1
 Chez Levrault, Schoell, et Compagnie, libraires, Rue de Seine FALSE 1
 Chez Pierre Schenk FALSE 1
 Chez Piget, ... Durand, ... MDCCXLIV FALSE 1
+Child Evangelism Fellowship NA 1
 Chiswick Press NA 1
 Chr. Sjöblom ja T.V. Toivio NA 1
 Christ Ludv. Hjelt FALSE 1
@@ -5520,7 +5522,7 @@ Kyrkolagskomité NA 1
 Kyrkolagskommittén NA 1
 Kyrkslätt Skärgårds Ungdomsförening NA 1
 Kytäjän osuuskauppa NA 1
-L,  (NA-1893) TRUE 1
+L,  (NA-1999) TRUE 1
 L:rannan tuberkulosinvastustamisyhdist FALSE 1
 L. Enroth NA 1
 L. Fisk NA 1

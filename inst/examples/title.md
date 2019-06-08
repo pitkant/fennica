@@ -1,15 +1,15 @@
 ---
 title: "Title summaries"
 author: "Leo Lahti"
-date: "2018-12-27"
+date: "2019-06-08"
 output: markdown_document
 ---
 
 
 ### Titles
 
- * 55862 [unique titles](output.tables/title_accepted.csv)
- * 70448 documents (100%) have a title
+ * 55861 [unique titles](output.tables/title_accepted.csv)
+ * 70447 documents (100%) have a title
  * [Discarded titles](output.tables/title_discarded.csv)
 
 Top-20 titles are shown together with the number of documents.

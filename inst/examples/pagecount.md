@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2018-12-27"
+date: "2019-06-08"
 output: markdown_document
 ---
 
@@ -10,9 +10,9 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 68582 documents in total (97.3%), including both readily available and estimated page counts.
+  * Page count available for 68581 documents in total (97.3%), including both readily available and estimated page counts.
 
-  * Page count readily available for 68582 documents (97.3%). 
+  * Page count readily available for 68581 documents (97.3%). 
 
   * Page count estimated for 0 documents (0%).
 
@@ -49,10 +49,7 @@ count estimate.
 
 
 
-
-```
-## Error in pics[[3]]: subscript out of bounds
-```
+![plot of chunk size-pagecountsmulti2](figure/pagecount-size-pagecountsmulti2-1.png)
 
 
 
