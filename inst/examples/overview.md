@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2019-06-09"
+date: "2019-11-09"
 output: markdown_document
 ---
 
@@ -107,9 +107,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 |issue                        |         100.0|         70450|         0.0|          1|
 
 ```
-##            used (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1120931 59.9    1766938  94.4  1766938  94.4
-## Vcells 12492967 95.4   28708948 219.1 28690019 218.9
+##            used  (Mb) gc trigger  (Mb) max used  (Mb)
+## Ncells  1418585  75.8    3965152 211.8  4956441 264.8
+## Vcells 20462207 156.2   43227140 329.8 43210034 329.7
 ```
 
 

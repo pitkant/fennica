@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2019-06-09"
+date: "2019-11-09"
 output: markdown_document
 ---
 
@@ -48,11 +48,11 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|NA        |         37582|        53.35|
 |          |           150|         0.21|
 |ambiguous |            13|         0.02|
 |female    |          2879|         4.09|
 |male      |         29826|        42.34|
+|NA        |         37582|        53.35|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 

@@ -1,7 +1,7 @@
 ---
 title: "Pagecount preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2019-06-09"
+date: "2019-11-09"
 output: markdown_document
 ---
 
@@ -76,7 +76,14 @@ Paper consumption histogram;
 
 ## Documents with missing pages over years 
 
-![plot of chunk missingpages](figure/pagecount-missingpages-1.png)![plot of chunk missingpages](figure/pagecount-missingpages-2.png)
+![plot of chunk missingpages](figure/pagecount-missingpages-1.png)
+
+```
+## png 
+##   2
+```
+
+![plot of chunk missingpages](figure/pagecount-missingpages-2.png)
 
 
 ## Estimated paper consumption
