@@ -12,7 +12,7 @@ Every two Weeks 24 66
 Every three Weeks 18 2
 Every three Weeks 17 1
 Every three Weeks 15 1
-Monthly 12 197
+Monthly 12 198
 Monthly 12 2
 Nine per Year 9 1
 Nine per Year 8.5 1
@@ -41,12 +41,12 @@ Two per Year 1.66666666666667 3
 Two per Year 1.5 6
 Annual 1.33333333333333 9
 Annual 1.25 2
-Annual 1.2 2
+Annual 1.2 1
 Annual 1.14285714285714 3
 Annual 1.11111111111111 1
 Annual 1.1 2
 Annual 1.07142857142857 1
-Annual 1 271
+Annual 1 270
 Annual 0.944444444444444 1
 Annual 0.941176470588235 1
 Annual 0.916666666666667 1
@@ -84,5 +84,5 @@ Every four Years 0.25 1
 Every four Years 0.235294117647059 1
 Every four Years 0.230769230769231 2
 Every five Years 0.2 1
-Irregular NA 68
+Irregular NA 67
 Single NA 1

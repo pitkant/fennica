@@ -1,17 +1,17 @@
 Name	Count
-Total count (na.rm TRUE): 	19529
-Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814)	2196
-Londicer, Georg Wilhelm (kirjapaino, Vaasa, 1776-1804)	2099
+Total count (na.rm TRUE): 	19544
+Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814)	2199
+Londicer, Georg Wilhelm (kirjapaino, Vaasa, 1776-1804)	2102
 Frenckell, Johan Christopher I (kirjapaino, Turku, 1761-1779)	1735
 Wall, Johan Larsson (kirjapaino, Turku, 1679-1710)	1266
-Kämpe, Johan (kirjapaino, Turku, 1729-1753)	 983
-Hansson, Peter (kirjapaino, Turku, 1654-1679)	 979
-Winter, Johan (kirjapaino, Turku, 1669-1705)	 884
-Merckell, Jacob (kirjapaino, Turku, 1750-1761)	 701
-J. C. Frenckell ja poika (kirjapaino, Turku, 1814-1856)	 500
+Kämpe, Johan (kirjapaino, Turku, 1729-1753)	 986
+Hansson, Peter (kirjapaino, Turku, 1654-1679)	 980
+Winter, Johan (kirjapaino, Turku, 1669-1705)	 885
+Merckell, Jacob (kirjapaino, Turku, 1750-1761)	 703
+J. C. Frenckell ja poika (kirjapaino, Turku, 1814-1856)	 501
 Londicer, Carl Anton (kirjapaino, Vaasa, 1807-1838)	 500
-Wald, Peder Eriksson (kirjapaino, Turku, 1642-1653)	 473
-Carlbohm, Johan Arvid (kirjapaino, Tukholma, 1769-1812)	 450
+Wald, Peder Eriksson (kirjapaino, Turku, 1642-1653)	 474
+Carlbohm, Johan Arvid (kirjapaino, Tukholma, 1769-1812)	 452
 Johan Christopher Frenckellin leski (kirjapaino, Turku, 1779-1785)	 426
 Merckell, Jacob (kirjapaino, Tukholma, 1747-1763)	 236
 Londicerin leski (kirjapaino, Vaasa, 1804-1807)	 214
@@ -26,7 +26,7 @@ Meurer, Ignatius (kirjapaino, Tukholma, 1612-1672)	 115
 Werner, Johan Henric (kirjapaino, Uppsala, 1701-1733)	 105
 Henric Christopher Merckellin leski (kirjapaino, Turku, 1730-1742)	 104
 Carlbohm, Arvid (kirjapaino, Tukholma, 1763-1769)	 101
-Merckell, Henric Christopher (kirjapaino, Tukholma, 1710-1730)	  95
+Merckell, Henric Christopher (kirjapaino, Tukholma, 1710-1730)	  96
 Björckman, Anders (kirjapaino, Turku, 1711-1713)	  76
 Vogel, Johann (kirjapaino, Tartto, 1644-1656)	  75
 Mattsson, Eskil (kirjapaino, Uppsala, 1613-1650)	  73
@@ -57,11 +57,11 @@ Höjer, Johan (kirjapaino, Uppsala, 1733-1738)	  27
 Keyser, Henric II (kirjapaino, Uppsala, 1685-1695)	  27
 Lange, Johan Georg II (kirjapaino, Tukholma, 1758-1792)	  26
 Grefing, Lorentz Ludvig (kirjapaino, Tukholma, 1739-1769)	  24
-Gutterwitz, Andreas (kirjapaino, Tukholma, 1582-1610)	  23
 Björckman, Anders (kirjapaino, Tukholma, 1720-1728)	  22
-Kansanvalistusseura.	  22
+Gutterwitz, Andreas (kirjapaino, Tukholma, 1582-1610)	  22
 Keyser, Henric I (kirjapaino, Tukholma, 1633-1663)	  22
 Nylands nation(Helsingin yliopisto)	  22
+Kansanvalistusseura.	  21
 Maanmittaushallitus.	  21
 Raittiuden ystävät.	  21
 Deleen, Carl (kirjapaino, Tukholma, 1802-1846)	  20
@@ -107,7 +107,6 @@ Röpke, Carl Johansson (kirjapaino, Tukholma, 1738-1746)	  10
 Suomen osuuskauppojen keskusosuuskunta.	  10
 Wennberg, Lars (kirjapaino, Tukholma, 1772-1779)	  10
 Förr detta Grefingska tryckeriet (kirjapaino, Tukholma, 1769-1772)	   9
-Suomen naisyhdistys.	   9
 Valtionarkisto.	   9
 Enaeus, Olaus (kirjapaino, Tukholma, 1694-1710)	   8
 Johan Edmans enka (kirjapaino, Uppsala, 1791-1794)	   8
@@ -116,6 +115,7 @@ Leverentz, Frans Jakob (kirjapaino, Skara, 1792-1816)	   8
 Nya teatern i Helsingfors.	   8
 Schneider, Benjamin Gottlieb (kirjapaino, Tukholma, 1726-1738)	   8
 Schröder, Gerhard (kirjapaino, Riika, 1625-1657)	   8
+Suomen naisyhdistys.	   8
 Svenska folkskolans vänner.	   8
 Viipurin kaupunki.	   8
 Werner Söderström osakeyhtiö.	   8
@@ -150,7 +150,6 @@ Nuorten naisten kristillinen yhdistys.	   6
 Osuuskunta Veljeys.	   6
 Selow, Peter van (kirjapaino, Tukholma, 1628-1649)	   6
 Suomen eläinsuojelusyhdistys.	   6
-Suomen evankelis-luterilainen pyhäkouluyhdistys.	   6
 Suomen historiallinen seura.	   6
 Suomen kuuromykkäinliitto.	   6
 Suomen kylvösiemenyhdistys.	   6
@@ -222,6 +221,7 @@ Suomalainen kansallis-raittius-veljeysseura.	   4
 Suomalainen työväenliitto.	   4
 Suomen asiain erityinen neuvottelukunta.	   4
 Suomen evankelis-luterilainen kirkko.	   4
+Suomen evankelis-luterilainen pyhäkouluyhdistys.	   4
 Suomen Keisarillinen Aleksanterin yliopisto.	   4
 Suomen kirkon sisälähetysseura.	   4
 Suomen luotsi- ja majakkalaitos.	   4
@@ -775,6 +775,7 @@ Jämsän kansanopisto.	   1
 Janakkalan kunta.	   1
 Jauch, Samuel (kirjapaino, Lyypekki, 1608-1627)	   1
 Joensuun Kalevaiset.	   1
+Joensuun lyseon toverikunta.	   1
 Joensuun vapaaehtoinen palokunta.	   1
 Johan Christopher Frenckellin leski (kirjapaino, Turku, 1779-1785);Frenckell, Johan Christopher II (kirjapaino, Turku, 1785-1814)	   1
 Jordbrukarenas allmänna förbund.	   1
@@ -815,9 +816,9 @@ Kempe, Ephraim (kirjapaino, Linköping, 1688-1700)	   1
 Keski-Pohjanmaan hevosjalostusliitto.	   1
 Keski-Savon kansanopiston toveriliitto.	   1
 Keski-Suomen hevosjalostusyhdistysten liitto.	   1
-Keskusmetsäseura Tapio.;Keskusmetsälautakunta Tapio.;Metsäkeskus Tapio.;Metsätalouden kehittämiskeskus Tapio.	   1
 Kieltolakikomitea.	   1
 Kimito kommun.	   1
+Kints, Everard (kirjapaino, Liège, 1732-1762)	   1
 Kiøbenhavnske Selskab af Lærdoms og Videnskabers Elskere.;Salicath, Gerhard Giese (kirjapaino, Kööpenhamina, 1765-1781)	   1
 Kirja, kustannusosakeyhtiö	   1
 Kirja, kustannusosakeyhtiö.	   1
@@ -937,6 +938,7 @@ Merurer, Ignatius	   1
 Metsähallitus.	   1
 Meyer, Johann Caspar (kirjapaino, Leipzig, 1682-1706)	   1
 Michael Laurelii enckia (kirjapaino, Tukholma, 1719-1720)	   1
+Michigan college of mining and technology.	   1
 Miesylioppilaiden kristillinen yhdistys.	   1
 Mikkelin eläinsuojelusyhdistys.	   1
 Mikkelin hevosjalostusliitto.	   1
@@ -1158,7 +1160,6 @@ Suomen kirjanpainajayhdistys.	   1
 Suomen kirjatyöntekijäin liitto.	   1
 Suomen kirkkohistoriallinen seura.	   1
 Suomen kivityöntekijät.	   1
-Suomen kommunistinen puolue.	   1
 Suomen kotiseutututkimuksen keskusvaliokunta.	   1
 Suomen koulunuorisoliitto.	   1
 Suomen kristillinen ylioppilasliitto.	   1
@@ -1376,6 +1377,7 @@ Vysočajše učreždennaâ kommissìâ dlâ proekta pravil' o porâdke�
 Waasan eläinsuojelus-yhdistys.	   1
 Wald, Peder Eriksson (kirjapaino, Turku, 1642-1653);Hansson, Peter (kirjapaino, Turku, 1654-1679)	   1
 Waljakka.	   1
+Walther League.	   1
 Ward, Anne (kirjapaino, York, 1759-1789)	   1
 Wasa fruntimmersskola.	   1
 Wasa läns landtmäteriförening.	   1

@@ -1,19 +1,19 @@
 Name	Count
-Total count (na.rm TRUE): 	67540
-Helsinki	26784
-Turku	13116
-Stockholm	 3875
-Porvoo	 3745
-Vaasa	 3488
-Tampere	 2461
+Total count (na.rm TRUE): 	67572
+Helsinki	26778
+Turku	13128
+Stockholm	 3880
+Porvoo	 3742
+Vaasa	 3491
+Tampere	 2462
 Kuopio	 1550
 Hämeenlinna	 1407
-Vyborg	 1207
-Jyväskylä	 1031
+Vyborg	 1211
+Jyväskylä	 1030
 Pori	  713
 Uppsala	  705
-Oulu	  652
-St Petersburg	  620
+Oulu	  651
+St Petersburg	  621
 Sortavala	  546
 Rauma	  251
 Mikkeli	  240
@@ -21,8 +21,8 @@ Hancock Mi	  210
 Leipzig	  193
 Tartu	  183
 Kotka	  175
+London	  168
 New York	  167
-London	  165
 Tammisaari	  162
 Hamina	  160
 Lahti	  160
@@ -30,7 +30,7 @@ Berlin	  156
 Paris	  148
 Fitchburg Ma	  133
 Copenhagen	  128
-Joensuu	  126
+Joensuu	  127
 Kokkola	  107
 Örebro	   95
 Savonlinna	   95
@@ -45,12 +45,12 @@ Lund	   51
 Tallinn	   51
 Kaleva Mi	   50
 Rostock	   50
-Amsterdam	   46
+Amsterdam	   48
 Kajaani	   42
 Duluth MN	   40
+Moscow	   39
 Riga	   39
 Kemi	   38
-Moscow	   38
 Oslo	   36
 Calumet Mi	   35
 Wittenberg	   35
@@ -68,16 +68,17 @@ Strängnäs	   24
 Skara	   23
 Uusikaarlepyy	   23
 München	   22
+Chicago IL	   21
 Jena	   21
 Kruunupyy	   21
 Vienna	   21
-Chicago IL	   20
 Dresden	   20
 Parkano	   20
 Stuttgart	   20
 Greifswald	   19
 Linköping	   19
 Kaskinen	   18
+Nürnberg	   17
 Braunschweig	   16
 Hamburg	   16
 Hyvinkää	   16
@@ -87,22 +88,21 @@ Karjaa	   14
 Superior Wi	   14
 Iisalmi	   13
 Ironwood Mi	   13
-Nürnberg	   12
 Sairala	   12
 Halle	   11
-Lübeck	   11
 Tornio	   11
 Forssa	   10
 Laihia	   10
 Leiden	   10
+Lübeck	   10
 New York Mills Mn	   10
 Norrköping	   10
+Augsburg	    9
 Göttingen	    9
 Heidelberg	    9
 Pärnu	    9
 Warsaw	    9
 Weimar	    9
-Augsburg	    8
 Gießen	    8
 Haaparanta	    8
 Härnösand	    8
@@ -204,6 +204,7 @@ Harbor Oh	    2
 Heinävesi	    2
 Helmstedt	    2
 Helsingborg	    2
+Houghton Mi	    2
 Huopalahti	    2
 Ikaalinen	    2
 Ilmajoki	    2
@@ -213,6 +214,7 @@ Karhula	    2
 Karstula	    2
 Kazan	    2
 Kiiminki	    2
+Kirkkonummi	    2
 Koivisto	    2
 Köping	    2
 Luleå	    2
@@ -289,7 +291,6 @@ Heinäjoki	    1
 Helsingør	    1
 Hinnerjoki	    1
 Hirvensalmi	    1
-Houghton Mi	    1
 Hull	    1
 Hvitträsk	    1
 Imatra	    1
@@ -308,7 +309,6 @@ Kausala	    1
 Keltto	    1
 Kettuvaara	    1
 Kirchhain	    1
-Kirkkonummi	    1
 Kirov	    1
 Kirvu	    1
 Kivennapa	    1
@@ -328,6 +328,7 @@ Landskrona	    1
 Lausanne	    1
 Le Mans	    1
 Letchworth	    1
+Liège	    1
 Liepaja	    1
 Lisbon	    1
 Litomerice	    1
@@ -420,6 +421,7 @@ Vammala	    1
 Vantaa	    1
 Verona	    1
 Virginia Mn	    1
+Watton Mi	    1
 Weida	    1
 Wismar	    1
 Wurzburg	    1

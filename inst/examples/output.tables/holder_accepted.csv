@@ -1,6 +1,6 @@
 Name	Count
-Total count (na.rm TRUE): 	35615
-FI-H	11484
+Total count (na.rm TRUE): 	35624
+FI-H	11498
 FI-Suom. kaunok. 3	 1173
 FI-Suom. kaunokirj. 1	  917
 FI-Suom. kaunok. 4	  771
@@ -12,7 +12,7 @@ FI-Suom. kaunok. 2	  399
 FI-Matematiikka	  389
 FI-Lahetys	  387
 FI-Siv.seur.: Kansanvalistusseura 3	  354
-FI-Laäketiede 3	  351
+FI-Laäketiede 3	  350
 FI-Yl. hist.	  341
 FI-Suom. lastenkirj. 5	  339
 FI-Maanviljelys 2B	  330
@@ -22,7 +22,7 @@ FI-Amerikka 3	  255
 FI-Teollisuus 3	  249
 FI-K.Hbrtauskirj	  241
 FI-Maantiede 1	  210
-FI-Lakitiede 3	  198
+FI-Lakitiede 3	  197
 FI-Kasvatusoppi 3	  180
 FI-K.Suom.kaunok.	  177
 FI-Raamatunhist.	  177
@@ -45,7 +45,7 @@ FI-Elamisentaito	  126
 FI-Suom. kiel. 3	  116
 FI-K.Laäketiede	  106
 FI-Eksegetiikka	  103
-FI-Saarnakirj.	  102
+FI-Saarnakirj.	  101
 FI-Suom. kaunok. 6	   94
 FI-Tiet. seur.: Svenska litt. sallsk.	   93
 FI-Germ. kielit.	   89
@@ -92,9 +92,9 @@ FI-Ruots. kaunokirj. 2	   51
 FI-K.Lahetys	   50
 FI-Siv.seur.: Kansanvalistusseura 4	   50
 FI-Metsanhoito 3	   49
-FI-Naisasia 2	   49
 FI-K.Heng.laulukirj.	   48
 FI-Kielitiede: Tulkkikirjat	   48
+FI-Naisasia 2	   48
 FI-Lainvalm.kunta 2	   47
 FI-Amerikka 3.	   46
 FI-Ruots.kaunok. 1.	   46
@@ -112,8 +112,8 @@ FI-Siv.seur.: Svenska folkskolans vanner	   42
 FI-Yl.lukemistot 2	   42
 FI-Ruots. lastenkirj. 3	   41
 FI-Vierask. kaunokirj. 1	   41
-FI-Fol. A	   40
 FI-Musiikki 4	   40
+FI-Fol. A	   39
 FI-K. Teologia	   39
 FI-Ruots. kaunokirj. 4	   39
 FI-Sanakirjat	   39
@@ -172,7 +172,6 @@ FI-Kauppa 3	   25
 FI-Maantiede 1 , Bidrag	   25
 FI-Pienkarjanhoito 2	   25
 FI-Rautatiet 4	   25
-FI-Alkukoulut 3	   24
 FI-Heng. seurat 1	   24
 FI-Maantiede 2.	   24
 FI-Naisasia 2, Foreningen Marthas	   24
@@ -181,6 +180,7 @@ FI-Raamatut 5	   24
 FI-Tiet. seur.: Suom.-ugril. seura	   24
 FI-Tiet. seur.: Vanamo	   24
 FI-Alkukoulut 2	   23
+FI-Alkukoulut 3	   23
 FI-Heng. laulukirj. 1.	   23
 FI-K. Maanviljelys 2	   23
 FI-K. Matematiikka	   23
@@ -738,6 +738,7 @@ FI-Puolueet: Suomal.	    2
 FI-Puolustus 6 A	    2
 FI-Puutarhanhoito 2	    2
 FI-Raamatunhist. , Aarnisalo	    2
+FI-Raamatut 5.	    2
 FI-Raittius 2 , Smaskrifter	    2
 FI-Raittius 2 ,Raittiuden	    2
 FI-Rautatiet 8	    2
@@ -1756,7 +1757,6 @@ FI-Raamatut 4;FI-Raamatut 5	    1
 FI-Raamatut 4ps	    1
 FI-Raamatut 5 , Esran	    1
 FI-Raamatut 5 , Jobs	    1
-FI-Raamatut 5.	    1
 FI-Raamatut 5. , Matteus	    1
 FI-Raamatut 5., Johanneksen evankeliumi	    1
 FI-Raamatut 5., Lukas	    1

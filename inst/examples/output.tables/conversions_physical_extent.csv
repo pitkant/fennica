@@ -2287,6 +2287,10 @@ S. [49-50] 51-66 66 NA 1
 [8] s. 8 NA 1
 [4] s. 4 NA 1
 [6] s. 6 NA 1
+[12] s. (s. [12] tyhjä) 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
 [12] s. 12 NA 1
 [4] s. 4 NA 1
 [4] s. 4 NA 1
@@ -2555,6 +2559,7 @@ S. [49-50] 51-66 66 NA 1
 [24] s. 24 NA 1
 [1-3] 4-40 s. 40 NA 1
 [1-3] 4-15 [16] s. 16 NA 1
+[1-2] 3-62 [63-64] s. 64 NA 1
 [1-3] 4-428 [429-430] s. 430 NA 1
 [1-3] 4-428 [429-432] s. 432 NA 1
 [1-3] 4-428 [429-430] s. 430 NA 1
@@ -2650,6 +2655,7 @@ S. 105-255, [1] s. 152 NA 1
 [15], 63 s. 78 NA 1
 [4], 52 s. 56 NA 1
 53, [3] s. 56 NA 1
+[1-2] 3-48 s. 48 NA 1
 [1-3] 4-56 s. 56 NA 1
 [16] s. 16 NA 1
 [4] s. 4 NA 1
@@ -2723,6 +2729,7 @@ S. 105-255, [1] s. 152 NA 1
 [1-8] 9-95 [96] s. (s. [96] tyhjä) 192 NA 1
 [1-8] 9-95 [96] s. (s. [96] tyhjä) 192 NA 1
 [2], [1-3] 4-152 s. 154 NA 1
+[16] s. 16 NA 1
 [16] s. 16 NA 1
 [16] s. 16 NA 1
 [16] s. 16 NA 1
@@ -2915,6 +2922,8 @@ S. 105-255, [1] s. 152 NA 1
 [16] s. 16 NA 1
 [16] s. 16 NA 1
 [16] s. 16 NA 1
+[16] s. 16 NA 1
+[16] s. 16 NA 1
 [1] 2-6 s. 6 NA 1
 [2], 29, [1] s. 32 NA 1
 [1] lehti 72 NA 1
@@ -2995,6 +3004,7 @@ S. 105-255, [1] s. 152 NA 1
 [8] s. 8 NA 1
 16 s. 16 NA 1
 [1-3] 4-68 s. 68 NA 1
+[4] s. (s. [4] tyhjä) 4 NA 1
 [8] s. 8 NA 1
 [1-3] 4-48 s. 48 NA 1
 [6], [1] 2-238 s. 244 NA 1
@@ -3466,6 +3476,7 @@ Arkit: [36], [1] 2-1168 s. 1204 NA 1
 8 s. 8 NA 1
 [1-3] 4-15 [16] s. 16 NA 1
 [8] s. 8 NA 1
+1 lehti 72 NA 1
 [8] s. (s. [8] tyhjä) 8 NA 1
 [4] s. 4 NA 1
 [12] s. 12 NA 1
@@ -10102,6 +10113,7 @@ NA NA NA 1
 [8] s. 8 NA 1
 [8] s. 8 NA 1
 1 lehti (verso tyhjä) 72 NA 1
+1 lehti (verso tyhjä) 72 NA 1
 [8] s. 8 NA 1
 [4] s. 4 NA 1
 [4] s. 4 NA 1
@@ -10293,6 +10305,7 @@ NA NA NA 1
 [8] s. 8 NA 1
 [8] s. 8 NA 1
 [30] s. 30 NA 1
+[?] s. NA NA 1
 [?] s. NA NA 1
 [4] s. 4 NA 1
 [1] lehti (verso tyhjä) 72 NA 1
@@ -10493,6 +10506,7 @@ NA NA NA 1
 1 lehti 72 NA 1
 1 lehti 72 NA 1
 [8] s. 8 NA 1
+1 arkki 2 NA 1
 [10-?] s. 10 NA 1
 [4], [1] 2-155 155 [po. 156] s. 160 NA 1
 [1-3] 4-64 s. 64 NA 1
@@ -10727,6 +10741,8 @@ NA NA NA 1
 [8] s. 8 NA 1
 [8] s. 8 NA 1
 [8] s. 8 NA 1
+[8] s. 8 NA 1
+[8?] s. 8 NA 1
 [8] s. 8 NA 1
 [8] s. 8 NA 1
 [8] s. 8 NA 1
@@ -11155,6 +11171,7 @@ S. [?], [943-?] 943 NA 1
 [16], 48 s. 64 NA 1
 [28] s. 28 NA 1
 [22] s. 22 NA 1
+[40?] s. 40 NA 1
 [120] s. 120 NA 1
 [4], 20 s. 24 NA 1
 [64] s. 64 NA 1
@@ -13598,7 +13615,7 @@ S. [56], 1-375 [376] s. (useita sivunumerointivirheitä) 56 NA 1
 [1] lehti 72 NA 1
 [3], 41, [3] 47 NA 1
 [8], 1-142 142-175 [po. 143-176] s. 184 NA 1
-[?] s. 127 NA 1
+[?] s. 124 NA 1
 [1] lehti 72 NA 1
 [?] s. 95 NA 1
 [24] s. 24 NA 1
@@ -14453,7 +14470,6 @@ S. [17]-30, [2] s. 16 NA 1
 2 lehteä 4 NA 1
 5 lehteä 10 NA 1
 4 lehteä 8 NA 1
-1 lehti (verso tyhjä) 72 NA 1
 1 lehti (verso tyhjä) 72 NA 1
 1 lehti (verso tyhjä) 72 NA 1
 1 lehti (verso tyhjä) 72 NA 1
@@ -15403,7 +15419,6 @@ NA NA NA 1
 [8] s. 8 NA 1
 [4] s. 4 NA 1
 [8] s. 8 NA 1
-[4] s. (s. [2] tyhjä) 4 NA 1
 [4] s. 4 NA 1
 [8] s. 8 NA 1
 [4] s. 4 NA 1
@@ -15719,7 +15734,6 @@ NA NA NA 1
 [12] s. 12 NA 1
 [8] s. 8 NA 1
 [18] s. 18 NA 1
-267 numeroimatonta lehteä 534 NA 1
 [16], 1-440 s. 456 NA 1
 [22] s. 22 NA 1
 [4], [20], [24], [24], [16], [24], [24], [24], [20], [16], [20], [20], [20], [12], [16], [16] s. 300 NA 1
@@ -15759,6 +15773,7 @@ IV, XXII, [6] s. 28 NA 1
 [4] s. 4 NA 1
 [2] s. 2 NA 1
 [8] s. 8 NA 1
+1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
@@ -15940,6 +15955,8 @@ XXVI, 387 s. 413 NA 1
 20 s. 20 NA 1
 20 s. 20 NA 1
 [2], 46 s. 48 NA 1
+[16] s. 16 NA 1
+[...?] 147-166 [...?] 27-184 [...?] s. 184 NA 1
 [32]  s. 32 NA 1
 [12] s. 12 NA 1
 [44] s. 44 NA 1
@@ -16321,6 +16338,8 @@ S. 124-459 336 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
 [2], 36 s. 38 NA 1
 [4], 24 s. 28 NA 1
 [26] s. 26 NA 1
@@ -16354,12 +16373,22 @@ S. 124-459 336 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
 1 kartta kahdella lehdellä 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
+1 kartta 2 NA 1
+1 kartta 2 NA 1
 1 kartta kahdella lehdellä 2 NA 1
+1 kartta 2 NA 1
 NA NA NA 1
 NA 70 NA 1
 NA NA NA 1
@@ -17389,7 +17418,6 @@ VI, 83, VI, 128  s. 134 NA 1
 22 s. 22 NA 1
 173, [3] s. 176 NA 1
 105, [1] s. 106 NA 1
-NA NA NA 1
 [2], 21 s. 23 NA 1
 41 s. 41 NA 1
 32 s. 32 NA 1
@@ -18167,7 +18195,7 @@ NA NA NA 1
 NA NA NA 1
 144 s. 144 NA 1
 NA NA NA 1
-NA 127 NA 1
+NA 124 NA 1
 39 s. 39 NA 1
 31 s. 31 NA 1
 [8], 483 s. 491 NA 1
@@ -22550,7 +22578,6 @@ NA NA NA 1
 14 s. 14 NA 1
 112 s. 112 NA 1
 215 s. 215 NA 1
-[4], 958 s. 962 NA 1
 16 s. 16 NA 1
 [8], 317 s., muotokuva 325 NA 1
 12 s. 12 NA 1
@@ -24446,7 +24473,6 @@ S. 241-253. 13 NA 1
 55 s. 55 NA 1
 55 s. 55 NA 1
 8 s. 8 NA 1
-VII, 780 s., 14 kuvalehteä 815 NA 1
 24 s. 24 NA 1
 105 s. 105 NA 1
 196, [1] s. 197 NA 1
@@ -24985,7 +25011,6 @@ VI, 207 s. 213 NA 1
 15 s. 15 NA 1
 16 s. 16 NA 1
 14 s. 14 NA 1
-NA 95 NA 1
 47 s. 47 NA 1
 95 s. 95 NA 1
 84 s. 84 NA 1
@@ -28889,7 +28914,6 @@ VI, 48, 228, IV s. 234 NA 1
 288 s. 288 NA 1
 27 s. 27 NA 1
 [4], 32 s. 36 NA 1
-VIII, 735 s. 743 NA 1
 92, [1] s. 93 NA 1
 32 s. 32 NA 1
 264 s. 264 NA 1
@@ -32039,7 +32063,7 @@ S. 65-127. 63 NA 1
 Näytenumero, 4 n:roa eli [88] s. NA NA 1
 29 s. 29 NA 1
 12 n:roa eli [278] s. NA NA 1
-NA 70 NA 1
+NA NA NA 1
 112, [2], 49, [2] s., 1 plankarta 116 NA 1
 V, [1] s., s. 1-224. 230 NA 1
 [4] s., s. 225-456. 236 NA 1
@@ -39735,7 +39759,6 @@ XXX, [2], 162, [2], 230 s., 3 pl. 270 NA 1
 8 s. 8 NA 1
 19, [2] s. 21 NA 1
 16 s. 16 NA 1
-NA 70 NA 1
 111 s. 111 NA 1
 47 s. 47 NA 1
 12 s. 12 NA 1
@@ -44944,7 +44967,6 @@ VI, 234 s. 240 NA 1
 44 s. 44 NA 1
 84 s. 84 NA 1
 10 s. 10 NA 1
-NA 95 NA 1
 NA NA NA 1
 24 s. 24 NA 1
 6 s. 6 NA 1
@@ -46101,7 +46123,6 @@ XVI, 820 s. 836 NA 1
 135 s. 135 NA 1
 S. 1-160 160 NA 1
 XVI, 645, [1] s. 662 NA 1
-XVI, 791      s. 807 NA 1
 67 s. 67 NA 1
 [2], 131 s. 133 NA 1
 VII, 256 s. 263 NA 1
@@ -49049,7 +49070,6 @@ S. 673-979 307 NA 1
 19 s. 19 NA 1
 400 s. 400 NA 1
 20 s. 20 NA 1
-4 nid. (218 s.) 218 NA 1
 163 s. 163 NA 1
 4 nid. (204 s.) 204 NA 1
 119 s. 119 NA 1
@@ -49714,7 +49734,6 @@ NA NA NA 1
 /listredo. NA NA 1
 4 s. 4 NA 1
 106 s. 106 NA 1
-NA NA NA 1
 [4], 71 s. 75 NA 1
 IX, 115 s. 124 NA 1
 VIII, 102 s., 1 karttal. 112 NA 1
@@ -50917,6 +50936,8 @@ S. [2], 11-21 [22] s. 24 NA 1
 [A2] B-C2 D1. [14] s. 70 NA 1
 1 lehti (verso tyhjä) 72 NA 1
 [2], [1] 2-29 [30] s. 61 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
 1 lehti 72 NA 1
 1 lehti 72 NA 1
 [4], [1-3] 4-38 [39-40] s. (s. [39] tyhjä) 83 NA 1
@@ -50987,6 +51008,8 @@ XXII, 318 s. 340 NA 1
 [1-3] 4-48 s. 48 NA 1
 [1-3] 4-70 s. 70 NA 1
 [?] s. 95 NA 1
+[1-3] 4-442 [443-444] s. 444 NA 1
+[1-3] 4-432[+?] s. 432 NA 1
 [1-3] 4-32 s. 32 NA 1
 [1-3] 4-180 s. 180 NA 1
 [2], [1] 2-126 s. 128 NA 1
@@ -51909,7 +51932,6 @@ NA 95 NA 1
 273 s. 273 NA 1
 NA 70 NA 1
 NA NA NA 1
-NA 95 NA 1
 NA 95 NA 1
 NA 95 NA 1
 NA 95 NA 1
@@ -62744,6 +62766,7 @@ S. 189-195. 7 NA 1
 26 s. 26 NA 1
 290 s. 290 NA 1
 30 s. 30 NA 1
+6 vihkoa, 96 s. 96 NA 1
 44 s. 44 NA 1
 36 s. 36 NA 1
 [V], 125 s. 130 NA 1
@@ -65352,6 +65375,7 @@ NA NA NA 1
 77 s. 77 NA 1
 XCI, 405 s., 10 karttalehteä. 516 NA 1
 [33] lehteä (23 taitettuina) 89 NA 1
+171 s., kartta 173 NA 1
 [36] s., [12] kuvas. 36 NA 1
 104 s., 1 kartta. 106 NA 1
 78 s. 78 NA 1
@@ -66394,7 +66418,7 @@ NA NA NA 1
 Del. 1-3 (207, 120, 88 s.) 207 NA 1
 29 s. 29 NA 1
 6 s. 6 NA 1
-Sect. 1-3, Suppl. (262, 179, 102, 117 s.) 262 NA 1
+Sect. 1-3, Suppl. (262, 179, 102, 117 s.) NA NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
@@ -67569,6 +67593,7 @@ NA 95 NA 1
 NA 95 NA 1
 S. 353-376 24 NA 1
 117 s. 117 NA 1
+NA 70 NA 1
 14 s. 14 NA 1
 23 s. 23 NA 1
 22 s. 22 NA 1
@@ -68554,7 +68579,6 @@ V [ie. IV], 205, [1] s., [4] karttalehteä (taitettuina) 218 NA 1
 1 kartta 2 NA 1
 1 kartasto ([4] s., [55] karttalehteä taitettuina) 114 NA 1
 S. 152-164, [2] 15 NA 1
-NA NA NA 1
 98 s. 98 NA 1
 74, [2] s. 76 NA 1
 35, [1] s. 36 NA 1
@@ -68631,7 +68655,7 @@ NA 70 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
-1 kartta neljällä lehdellä NA NA 1
+1 kartta neljällä lehdellä 70 NA 1
 NA NA NA 1
 1 kartta 2 NA 1
 NA 70 NA 1
@@ -68671,6 +68695,7 @@ NA NA NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
 1 kartta 2 NA 1
+NA 95 NA 1
 1 kartta 2 NA 1
 [1], 101 s. 102 NA 1
 1 kartta 2 NA 1
@@ -68836,6 +68861,7 @@ XVIII ilmoitussivua, 183 s., 29 ilmoitussivua, [4] s. 187 NA 1
 NA NA NA 1
 IV, 8, 256, [4] s. 264 NA 1
 XXXIV ilmoitussivua, 133 s., XXIV-L ilmoitussivua 157 NA 1
+NA 70 NA 1
 NA NA NA 1
 NA NA NA 1
 1 kartta 2 NA 1
@@ -68863,6 +68889,7 @@ IX, 44 s. 53 NA 1
 V, 25 s. 30 NA 1
 19 s. 19 NA 1
 87 s. 87 NA 1
+72 s. 72 NA 1
 [11] s. 11 NA 1
 16 s. 16 NA 1
 35 s. 35 NA 1
@@ -68872,6 +68899,7 @@ V, 25 s. 30 NA 1
 20 s. 20 NA 1
 32 s. 32 NA 1
 [4] s. 4 NA 1
+[1], 50, [5] s. 56 NA 1
 22, [1] s. 23 NA 1
 8 s. 8 NA 1
 8 s. 8 NA 1
@@ -68904,6 +68932,14 @@ VII, 191 s. 198 NA 1
 9 s. 9 NA 1
 15, [1] s. 16 NA 1
 [1] s., 24 kuvalehteä 49 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
+[12] s. 12 NA 1
 59, [1] s. 60 NA 1
 24 s. 24 NA 1
 4 lehteä 8 NA 1
@@ -68925,6 +68961,7 @@ VII, 191 s. 198 NA 1
 16 s. 16 NA 1
 [2], 16 s., [2] kuvalehteä 22 NA 1
 22 s. 22 NA 1
+32 s. 32 NA 1
 8 s. 8 NA 1
 66 s. 66 NA 1
 [2], 46 s. 48 NA 1
@@ -69011,10 +69048,12 @@ NA NA NA 1
 [1] s., s. 13-24 13 NA 1
 [1], 44 s. 45 NA 1
 [1], 65 s. 66 NA 1
+1 kartta 2 NA 1
 91 s. 91 NA 1
 7, [1] s. 8 NA 1
 24 s. 24 NA 1
 23 s. 23 NA 1
+NA NA NA 1
 NA NA NA 1
 39 s. 39 NA 1
 NA NA NA 1

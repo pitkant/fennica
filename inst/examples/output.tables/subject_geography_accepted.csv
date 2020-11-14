@@ -1,8 +1,8 @@
 Name	Count
-Total count (na.rm TRUE): 	5692
+Total count (na.rm TRUE): 	5706
 Vaasan lääni	904
 Ruotsi	875
-Suomi	678
+Suomi	679
 Turun ja Porin lääni	411
 Turku	173
 Helsinki	146
@@ -17,8 +17,8 @@ Ruotsi;Venäjä	 51
 Kyminkartanon lääni	 34
 Tartto	 33
 Oulun lääni	 31
+Eurooppa	 30
 Uudenmaan ja Hämeen lääni	 30
-Eurooppa	 29
 Suomenlahti	 28
 Uusimaa	 26
 Pietarsaari	 25
@@ -29,6 +29,7 @@ Suomi;Ruotsi	 23
 Lapväärtti	 22
 Tampere	 22
 Venäjä	 21
+Suomi;Ruotsi;Norja;Tanska	 20
 Pohjanlahti	 19
 Itämeri	 18
 Kaskinen	 18
@@ -44,7 +45,6 @@ Vaasa	 15
 Häme	 14
 Wittenberg	 14
 Kreikka;Ruotsi	 13
-Suomi;Ruotsi;Norja;Tanska	 13
 Suomi;Venäjä	 13
 Göteborg	 12
 Kuopion lääni	 12
@@ -93,6 +93,7 @@ Lapua	  5
 Linköping	  5
 Mustasaari	  5
 Mynämäki	  5
+Pietari	  5
 Saksa	  5
 Savon ja Karjalan lääni	  5
 Suomenlahti;Pohjanlahti;Itämeri	  5
@@ -106,7 +107,6 @@ Jokioinen	  4
 Kotka	  4
 Kulosaari;Helsinki	  4
 Naantali	  4
-Pietari	  4
 Porin lääni	  4
 Pultava	  4
 Ruotsi;Saksa	  4
@@ -154,6 +154,7 @@ Suomenlahti;Itämeri	  3
 Suomi;Ruotsi;Karjala;Baltia	  3
 Suomi;Ruotsi;Norja;Islanti	  3
 Suomi;Ruotsi;Norja;Karjala;Kuolan niemimaa	  3
+Suomi;Ruotsi;Norja;Tanska;Baltia	  3
 Suomi;Turun ja Porin lääni	  3
 Tallinna	  3
 Tammisaari	  3
@@ -196,6 +197,7 @@ Kyrö	  2
 Laatokka	  2
 Lappajärvi	  2
 Lappee;Lappeenranta	  2
+Lappi;Suomi;Ruotsi;Norja	  2
 Maaria	  2
 Mikkeli;Suomi	  2
 Närpiö;Tukholma	  2
@@ -225,8 +227,8 @@ Siikajoki	  2
 Skara	  2
 Stralsund;Ruotsi;Saksa	  2
 Suomenlinna	  2
+Suomi;Karjala;Inkeri	  2
 Suomi;Kreikka	  2
-Suomi;Ruotsi;Norja;Tanska;Baltia	  2
 Suomi;Ruotsi;Norja;Tanska;Pohjois-Eurooppa	  2
 Suomi;Tallinna	  2
 Suomi;Vanha Suomi	  2
@@ -426,7 +428,6 @@ Länsipohja;Härnösand	  1
 Länsipohja;Pohjanmaa	  1
 Lappee;Lappeenranta;Lemi;Luumäki	  1
 Lappeenranta;Lappee;Lapvesi	  1
-Lappi;Suomi;Ruotsi;Norja	  1
 Lapua;Ilmola	  1
 Lapuan kihlakunta;Vaasan lääni	  1
 Lapväärtti;Kälviä	  1
@@ -638,13 +639,13 @@ Suomenlahti;Suursaari	  1
 Suomenlinna;Helsinki	  1
 Suomi;Etelä-Suomi;Inkeri;Viro;Suomenlahti	  1
 Suomi;Kainuu;Pohjanmaa	  1
-Suomi;Karjala;Inkeri	  1
 Suomi;Karjala;Venäjä;Inkeri;Viro	  1
 Suomi;Kuopion lääni;Oulun lääni	  1
 Suomi;Oulun lääni	  1
 Suomi;Pohjanmaa	  1
 Suomi;Pohjois-Suomi	  1
 Suomi;Ruotsi;Lappi	  1
+Suomi;Ruotsi;Norja	  1
 Suomi;Ruotsi;Norja;Baltia	  1
 Suomi;Ruotsi;Norja;Lappi	  1
 Suomi;Ruotsi;Norja;Tanska;Islanti	  1

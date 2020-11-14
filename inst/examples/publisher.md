@@ -1,16 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2019-11-09"
+date: "2020-11-14"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8110 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8120 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60778 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 60810 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
  * 1909 documents are identified as self-published (2.7%). 
 
@@ -37,25 +37,25 @@ Title count versus paper consumption (top publishers):
 
 |publisher                       | titles|     paper|
 |:-------------------------------|------:|---------:|
-|Edlund                          |   1066| 1906547.7|
-|Frenckell, Johan Christopher I  |   1742| 1463305.3|
-|Frenckell, Johan Christopher II |   2205| 2622613.1|
-|Hansson, Peter                  |    981| 1603815.4|
-|Kämpe, Johan                    |    987| 1556538.7|
-|Londicer, Georg Wilhelm         |   2100|  590734.4|
-|Otava                           |   2188| 2002856.3|
-|Söderström                      |   1207|  947046.8|
+|Edlund                          |   1066| 1814256.9|
+|Frenckell, Johan Christopher I  |   1742| 1462097.8|
+|Frenckell, Johan Christopher II |   2208| 2626298.5|
+|Hansson, Peter                  |    982| 1612030.7|
+|Kämpe, Johan                    |    990| 1558465.1|
+|Londicer, Georg Wilhelm         |   2103|  591634.4|
+|Otava                           |   2187| 1767032.7|
+|Söderström                      |   1207|  852544.8|
 |Wall, Johan Larsson             |   1266| 2210292.0|
-|WSOY                            |   2881| 1861956.8|
+|WSOY                            |   2878| 1722436.1|
 
 
 ### Corporates
 
 Summaries of the corporate field.
 
- * 1405 [unique corporates](output.tables/corporate_accepted.csv)
+ * 1407 [unique corporates](output.tables/corporate_accepted.csv)
 
- * 19529 documents have unambiguous corporate information (27.7%). 
+ * 19544 documents have unambiguous corporate information (27.7%). 
 
  * [Discarded corporate entries](output.tables/corporate_discarded.csv)
 

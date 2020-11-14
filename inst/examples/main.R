@@ -1,8 +1,8 @@
 library(devtools)
-load_all("~/Rpackages/bibliographica")
-load_all("~/Rpackages/fennica")
-#library(bibliographica)
-#library(fennica)
+#load_all("~/Rpackages/bibliographica")
+#load_all("~/Rpackages/fennica")
+library(bibliographica)
+library(fennica)
 
 # I/O definitions
 # make daily output folders TODO convert into function -vv
@@ -13,7 +13,7 @@ output.folder <- "output.tables/"
 dir.create(output.folder)
 
 # List preprocessed data files
-fs <- "data/unified/fennica_parsed.csv.gz"
+fs <- "fennica_parsed.csv.gz"
 catalog <- "fennica" 
 
 # Languages to consider in cleanup.
@@ -63,13 +63,26 @@ df.orig$physical_dimension <- map(df.orig$physical_dimension,
 
 # -------------------------------
 
-# load preprocessing function
-source(system.file("extdata/preprocessing.R", package = "bibliographica"))
+df.preprocessed <- data.preprocessing$df.preprocessed
+update.fields   <- data.preprocessing$update.fields
+conversions     <- data.preprocessing$conversions
 
-data.preprocessed <- preprocess_data(data.preprocessing, 
-                                     df.orig,
-                                     languages
-                                     )
+message("Preprocess selected original fields")
+res <- polish_all(df.orig,
+      fields = update.fields, 
+      conversions = conversions,
+      languages = languages)
+
+conversions <- res$conversions
+preprocessing.times <- res$preprocessing.times
+df.preprocessed <- res$df.preprocessed  
+
+saveRDS(df.preprocessed, "data/unified/polished/df0.Rds", compress = TRUE)  
+saveRDS(conversions, "conversions.Rds", compress = TRUE)
+
+data.preprocessed <- list(df.preprocessed = df.preprocessed,
+                            update.fields = update.fields,
+                            conversions = conversions) 
 
 rm(data.preprocessing)
 

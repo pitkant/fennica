@@ -1,9 +1,9 @@
 publication_frequency_text publication_frequency_annual n
-Annual 1 271
-Monthly 12 199
+Annual 1 270
+Monthly 12 200
 Weekly 52 188
 Two per Week 104 72
-Irregular NA 68
+Irregular NA 67
 Every two Weeks 24 66
 Three per Week 156 52
 Two per Year 2 41
@@ -39,7 +39,6 @@ Annual 0.75 2
 Annual 0.88 2
 Annual 0.94 2
 Annual 1.1 2
-Annual 1.2 2
 Annual 1.25 2
 Every three Months 3.5 2
 Every three Weeks 18 2
@@ -61,6 +60,7 @@ Annual 0.91 1
 Annual 0.92 1
 Annual 1.07 1
 Annual 1.11 1
+Annual 1.2 1
 Two per Year 2.08 1
 Two per Year 2.14 1
 Two per Year 2.33 1

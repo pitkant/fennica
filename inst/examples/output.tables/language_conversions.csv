@@ -1,21 +1,21 @@
 Name	Count
-Total count (na.rm TRUE): 	69874
-fin	32347
-swe	23018
-lat	 6168
-ger	 1858
-fin;swe	 1383
-rus	  728
-fre	  615
+Total count (na.rm TRUE): 	69911
+fin	32355
+swe	23022
+lat	 6180
+ger	 1857
+fin;swe	 1382
+rus	  730
+fre	  617
 lat;swe	  591
-eng	  339
+eng	  344
 lat;grc	  260
-swe;fin	  191
+swe;fin	  194
 swe;lat	  178
 fin;ger	  135
 u	  129
 dan	  124
-lat;fre	  104
+lat;fre	  105
 fin;rus	   99
 fin;eng	   80
 lat;grc;swe	   64
@@ -54,10 +54,10 @@ fin;swe;fre	   13
 ice	   13
 spa	   13
 ger;lat	   12
+grc	   12
 grc;lat	   12
 eng;rus	   11
 fin;swe;lat	   11
-grc	   11
 fin;swe;ger;fre	   10
 epo	    9
 fin;swe;eng;ger	    8
@@ -88,6 +88,7 @@ fin;nor	    3
 fin;swe;eng;rus	    3
 ger;rus	    3
 grc;lat;swe	    3
+krl	    3
 lat;ara;swe	    3
 lat;ger;fre	    3
 lat;grc;fin	    3
@@ -122,7 +123,6 @@ ger;fiu	    2
 ger;lat;est	    2
 ger;swe;lat	    2
 grc;swe	    2
-krl	    2
 krl;rus	    2
 lat;fin;swe	    2
 lat;ger;grc	    2

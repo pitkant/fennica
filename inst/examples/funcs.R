@@ -1,3 +1,6 @@
+
+
+
 geobox <- function (region) {
 
   if (length(region) == 1 && region == "Europe.main") {

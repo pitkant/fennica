@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2019-11-09"
+date: "2020-11-14"
 output: markdown_document
 ---
 
@@ -11,13 +11,13 @@ output: markdown_document
 
   * Some dimension info is provided in the original raw data for altogether 0 documents (0%) but could not be interpreted for 0 documents (ie. dimension info was successfully estimated for NaN % of the documents where this field was not empty).
 
-  * Document size (area) info was obtained in the final preprocessed data for altogether 36541 documents (52%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
+  * Document size (area) info was obtained in the final preprocessed data for altogether 0 documents (NaN%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
 
-  * Document gatherings info is originally available for NA documents (NA%), and further estimated up to NA documents (NA%) in the final preprocessed data.
+  * Document gatherings info is originally available for 0 documents (NaN%), and further estimated up to 0 documents (NaN%) in the final preprocessed data.
 
-  * Document height info is originally available for 4951 documents (7%), and further estimated up to 36541 documents (52%) in the final preprocessed data.
+  * Document height info is originally available for 0 documents (NaN%), and further estimated up to 0 documents (NaN%) in the final preprocessed data.
 
-  * Document width info is originally available for 1950 documents (3%), and further estimated up to 36541 documents (52%) in the final preprocessed data.
+  * Document width info is originally available for 0 documents (NaN%), and further estimated up to 0 documents (NaN%) in the final preprocessed data.
 
 
 These tables can be used to verify the accuracy of the conversions from the raw data to final estimates:
@@ -91,9 +91,11 @@ Here we use the original data only:
 Only the most frequently occurring gatherings are listed here:
 
 
+Table: Average document dimensions
+
 |gatherings.original | mean.width| median.width| mean.height| median.height|  n|
 |:-------------------|----------:|------------:|-----------:|-------------:|--:|
-|4to                 |         21|           21|       21.95|         21.95| 19|
+|4to                 |        NaN|          NaN|       21.72|         21.72| 18|
 |8vo                 |        NaN|          NaN|       18.83|         18.83| 12|
 
 -->

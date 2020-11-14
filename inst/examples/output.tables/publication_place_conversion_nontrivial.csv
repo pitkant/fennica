@@ -1,16 +1,16 @@
 original polished n
-Helsingfors Helsinki 11690
+Helsingfors Helsinki 11688
 Aboae Turku 4659
 [Vasa] Vaasa 2312
-Åbo Turku 2111
-[Åbo] Turku 2029
-[Aboae] Turku 1216
-Turusa Turku 848
+Åbo Turku 2112
+[Åbo] Turku 2030
+[Aboae] Turku 1222
+Turusa Turku 849
 Stockholmisa Stockholm 712
-Viipuri Vyborg 574
+Viipuri Vyborg 578
 [Helsinki] Helsinki 543
 Borgå Porvoo 516
-Helsingissä Helsinki 476
+Helsingissä Helsinki 475
 [Helsingfors] Helsinki 413
 Upsaliae Uppsala 343
 Tryckt i Åbo Turku 239
@@ -21,11 +21,11 @@ Vasa Vaasa 203
 [Wasa] Vaasa 181
 Helsingforsiae Helsinki 173
 Wiipuri Vyborg 172
-Wasasa Vaasa 162
+Wasasa Vaasa 164
 Hancock (Mich.) Hancock Mi 158
 Holmiae Stockholm 155
 Wiborg Vyborg 145
-Tammerfors Tampere 142
+Tammerfors Tampere 143
 Ekenäs Tammisaari 140
 Gel'singfors' Helsinki 137
 Wasa Vaasa 124
@@ -42,10 +42,10 @@ Tryckt i Stockholm Stockholm 64
 Stokholmisa Stockholm 61
 [Vaasa] Vaasa 58
 Jakobstad Pietarsaari 57
+[S.-Peterburg'] St Petersburg 56
 Tavastehus Hämeenlinna 56
-[S.-Peterburg'] St Petersburg 55
+Tukholma Stockholm 56
 St. Petersburg St Petersburg 55
-Tukholma Stockholm 54
 Stockholmis Stockholm 53
 Kjøbenhavn Copenhagen 52
 [Oulu] Oulu 51
@@ -67,12 +67,12 @@ Wiipurissa Vyborg 39
 Stockholmisa ja Turusa Stockholm 38
 [Sanktpeterburg'] St Petersburg 37
 [Tukholma] Stockholm 37
+[Aboae?] Turku 34
 Prändätty Turusa Turku 34
-[Aboae?] Turku 33
 [Turusa] Turku 33
+Moskva Moscow 32
 Turussa Turku 32
 [Stockholmisa] Stockholm 31
-Moskva Moscow 31
 Duluth (Minn.) Duluth MN 28
 Kristiania Oslo 28
 Nikolainkaupunki Vaasa 28
@@ -97,10 +97,10 @@ Tryckt i Abo Turku 21
 [Kuopio] Kuopio 20
 München München 20
 Sordavala Sortavala 20
+[Amsterdam] Amsterdam 19
 A Paris Paris 19
 Abo Turku 19
 Präntätty Turusa Turku 19
-[Amsterdam] Amsterdam 18
 [Wasasa] Vaasa 18
 Port Arthur (Ont.) Port Arthur On 18
 Präntätty Stockholmis Stockholm 18
@@ -128,6 +128,7 @@ Chicago Chicago IL 13
 Hancock, Mich. Hancock Mi 13
 Karis Karjaa 13
 Wittebergae Wittenberg 13
+[London] London 12
 Götheborg Gothenburg 12
 Kuopiossa Kuopio 12
 Turengi Turenki 12
@@ -145,14 +146,14 @@ Hancock, Michigan Hancock Mi 10
 Ironwood (Mich.) Ironwood Mi 10
 Turuusa Turku 10
 [Berlin] Berlin 9
-[London] London 9
+[Turku?] Turku 9
 Brooklyn New York 9
 Helsinki ;;Viipuri Helsinki 9
 Tryckt i Wiborg Vyborg 9
+Tukholmassa Stockholm 9
 Witebergae Wittenberg 9
 [Hämeenlinna] Hämeenlinna 8
 [Leipzig] Leipzig 8
-[Turku?] Turku 8
 [Wiborg] Vyborg 8
 Ashtabula, (Ohio) Ashtabula Oh 8
 Hämeenlinna ;;Tampere Hämeenlinna 8
@@ -166,10 +167,11 @@ Rostochi Rostock 8
 S.-Peterburg St Petersburg 8
 St. Pétersbourg St Petersburg 8
 Tryckt i Vpsala Uppsala 8
-Tukholmassa Stockholm 8
 Viipurissa Vyborg 8
 Vpsaliae Uppsala 8
+[Nürnberg] Nürnberg 7
 [Wiipuri] Vyborg 7
+A Amsterdam Amsterdam 7
 Arosiae Västerås 7
 Astoria (Ore.) Astoria Or 7
 Copenhague Copenhagen 7
@@ -177,7 +179,6 @@ Göteborg Gothenburg 7
 Gryphiswaldiae Greifswald 7
 I Stockholm Stockholm 7
 Impr. Aboae Turku 7
-Lübeck Lübeck 7
 Mikkelissä Mikkeli 7
 Porissa Pori 7
 Roma Rome 7
@@ -190,14 +191,15 @@ Zürich Zürich 7
 [Rostochii] Rostock 6
 [Ubsaliae] Uppsala 6
 [Waasa] Vaasa 6
-A Amsterdam Amsterdam 6
 Brooklyn, N.Y. New York 6
 Haparanda Haaparanta 6
 Hernösand Härnösand 6
 Ísafjördur Isafjördur 6
 Ishpeming (Mich.) Ishpeming Mi 6
 Lincopiae Linköping 6
+Lübeck Lübeck 6
 New York Mills (Minn.) New York Mills Mn 6
+Norimbergae Nürnberg 6
 Petrograd St Petersburg 6
 Raumo Rauma 6
 Sortawala Sortavala 6
@@ -208,9 +210,11 @@ Warszawa Warsaw 6
 Westerås Västerås 6
 Wiburg Vyborg 6
 Worcester (Mass.) Worcester Ma 6
+[Augsburg] Augsburg 5
 [Gel'singfors'] Helsinki 5
 [Lund] Lund 5
 [Stockholmis] Stockholm 5
+[Tukholma?] Stockholm 5
 [Uppsala] Uppsala 5
 Calumet, (Mich.) Calumet Mi 5
 Christiania Oslo 5
@@ -231,11 +235,9 @@ Tryckt i Wasa Vaasa 5
 Upsalae Uppsala 5
 Wästerås Västerås 5
 Wilno Vilnius 5
-[Augsburg] Augsburg 4
 [Budapest] Budapest 4
 [Dorpati Livonorum] Tartu 4
 [Hancock (Mich.)] Hancock Mi 4
-[Nürnberg] Nürnberg 4
 [Nytorp] Nytorp 4
 [Präntätty Turusa] Turku 4
 [Savonlinna] Savonlinna 4
@@ -260,7 +262,6 @@ Köpenhamn Copenhagen 4
 Kotkassa Kotka 4
 Lahtis Lahti 4
 Lvgdvni Batavorvm Leiden 4
-Norimbergae Nürnberg 4
 Pernau Pernaja 4
 Peterburis St Petersburg 4
 Piotrogród St Petersburg 4
@@ -297,7 +298,6 @@ Upsaliae impressum Uppsala 4
 [Stockholmisa ja Turusa] Stockholm 3
 [Tartto ] Tartu 3
 [Tryckt j Stockholm] Stockholm 3
-[Tukholma?] Stockholm 3
 [Turusa prändätty] Turku 3
 [Wiburgi?] Vyborg 3
 [Wittebergae] Wittenberg 3
@@ -458,6 +458,7 @@ Karkku Tyrvää 2
 Kazan' Kazan 2
 Kjobenhavn Copenhagen 2
 Kobenhavn Copenhagen 2
+Kyrkslätt Kirkkonummi 2
 Lahdessa Lahti 2
 Lapualla Lapua 2
 Lipsiae Leipzig 2
@@ -668,6 +669,7 @@ Wittenbergae Wittenberg 2
 [Vicenza] Vicenza 1
 [Vyborg'] Vyborg 1
 [Warschau?] Warsaw 1
+[Wasa?] Vaasa 1
 [Wasasa Vaasa 1
 [Wasasa.] Vaasa 1
 [Wiborg?] Vyborg 1
@@ -686,6 +688,7 @@ A Amsterdam et a Leipzig Amsterdam 1
 à Berlin Berlin 1
 A Copenhague Copenhagen 1
 A Francfort et Leipzig Frankfurt 1
+A Liege Liège 1
 A Londres London 1
 a Maestricht Maastricht 1
 A Maestricht Maastricht 1
@@ -698,6 +701,7 @@ Abae [sic] Turku 1
 Å̊bo Turku 1
 Abo [!] Turku 1
 Abo [sic] Turku 1
+Abóa [Turku] Turku 1
 Aboáe Turku 1
 Åboae Turku 1
 Aboae Fennorum Turku 1
@@ -750,6 +754,7 @@ Carls-crona Karlskrona 1
 Carlstad Karlstad 1
 Chicago ;;New york Chicago IL 1
 Chicago (IL) Chicago IL 1
+Chigaco (Ill.) Chicago IL 1
 Christianstad Copenhagen 1
 Cincinati Cincinnati Oh 1
 Clear Creek (Utah) Clear Creek UT 1
@@ -863,6 +868,7 @@ Helsinki Otava Helsinki 1
 Holmiae recusa Stockholm 1
 Holmías Stockholm 1
 Houghton (MI) Houghton Mi 1
+Houghton (Mich.) Houghton Mi 1
 I Strengnäs Strängnäs 1
 I Vpsala Uppsala 1
 Impressum Athenis Auräicis [sic] Turku 1
@@ -915,7 +921,6 @@ Kuopio linnas Kuopio 1
 Kvevlaks Koivulahti 1
 Kymi Kymenlaakso 1
 Kyôpenhaminassa Copenhagen 1
-Kyrkslätt Kirkkonummi 1
 La Haye The Hague 1
 Leibzig Leipzig 1
 Leipsic Leipzig 1
@@ -1216,6 +1221,7 @@ Wasasa prändättyt Vaasa 1
 Wasasa, prändätty Vaasa 1
 Wästeråhs Västerås 1
 Wastudesta prändätty Turusa Turku 1
+Watton, Mich. Watton Mi 1
 Westeråhs Västerås 1
 Wiborgh Vyborg 1
 Wien ;;Leipzig Vienna 1

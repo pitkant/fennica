@@ -1,5 +1,5 @@
 Name	Count
-Total count (na.rm TRUE): 	11837
+Total count (na.rm TRUE): 	11840
 bonsdorff, e (1842-1936)	133
 grotenfelt, gösta (1855-1922)	119
 reuter, o m (1850-1913)	 83
@@ -49,9 +49,9 @@ björnson, björnstjerne	 27
 heilala, yrjö	 27
 k, (1846-1937)	 27
 lindelöf, l	 27
-lindeqvist, k o	 27
 spurgeon, c h	 27
 waaranen, k a (1849-1923)	 27
+lindeqvist, k o	 26
 ståhlberg, k j	 26
 åström, n	 25
 beck, j t	 25
@@ -92,7 +92,7 @@ aspelin, j r	 20
 elfving, östen	 20
 kauppis-heikki, (1862-1920)	 20
 levander, k m	 20
-p, (na-1999)	 20
+p, (na-1939)	 20
 s, (1700-na)	 20
 voionmaa, väinö (1869-1947)	 20
 freudenthal, a o (1836-1911)	 19
@@ -125,6 +125,7 @@ hirn, yrjö	 16
 kahilus, j	 16
 kipling, rudyard	 16
 koskenniemi, v a	 16
+l, (na-1893)	 16
 laurell, axelius adolphus (1801-1852)	 16
 moody, d l	 16
 neovius, l (1850-1916)	 16
@@ -138,7 +139,6 @@ cajander, k a	 15
 kallio, o a	 15
 kivirikko, k e	 15
 komppa, gust	 15
-l, (na-1999)	 15
 melander, k r	 15
 relander, o	 15
 sundell, a f	 15
@@ -422,7 +422,7 @@ snellman, k	  6
 stall, sylvanus	  6
 streng, osv (1872-1951)	  6
 suomalainen, e w	  6
-t, (na-1999)	  6
+t, (na-1928)	  6
 tallqvist, t w	  6
 tuhkanen, o	  6
 veijon-veikko,	  6
@@ -504,6 +504,7 @@ salava, a	  5
 salokannel, h (1880-1966)	  5
 savela, h	  5
 selander, wäinö	  5
+seutter, matthaeus (1678-1756)	  5
 siltala, a j	  5
 simons, a m	  5
 sohm, rudolph	  5
@@ -611,7 +612,6 @@ s-n, l	  4
 saelan, thiodolf	  4
 salonen, b f	  4
 saxon, j l	  4
-seutter, matthaeus (1678-1756)	  4
 silfvenius, a j	  4
 simpson, a b	  4
 sohlman, s a	  4
@@ -712,6 +712,7 @@ hammarsten, fr	  3
 hammarström, r	  3
 harmou, l l	  3
 hartwall, gösta	  3
+hast, hermannus rudolphus (1756-1821)	  3
 havulinna, j w	  3
 hedberg, f g	  3
 heikel, j a	  3
@@ -1059,7 +1060,6 @@ hårdh, r	  2
 härmä, f v	  2
 haruzin, n n	  2
 hasselblatt, i w	  2
-hast, hermannus rudolphus (1756-1821)	  2
 hastings, h l	  2
 hector, d s	  2
 hedberg, a r	  2
@@ -3427,6 +3427,7 @@ smith, j g	  1
 smith, uriah	  1
 smo, (1875-1919)	  1
 snd, a	  1
+šnejerson, i	  1
 snellman, a e	  1
 snellmann, gerhardus johannis (1724-1771)	  1
 snoilsky, c	  1
