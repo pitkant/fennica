@@ -4,8 +4,10 @@
 \alias{mark_duplicates}
 \title{Mark Duplicates}
 \usage{
-mark_duplicates(df, field_names = c("short_title", "publication_place",
-  "publication_year"))
+mark_duplicates(
+  df,
+  field_names = c("short_title", "publication_place", "publication_year")
+)
 }
 \arguments{
 \item{df}{Data frame of combined catalogs}

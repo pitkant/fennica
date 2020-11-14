@@ -4,8 +4,12 @@
 \alias{harmonize_publisher_fennica}
 \title{Harmonize Publisher Fennica}
 \usage{
-harmonize_publisher_fennica(df.orig, cheat_list,
-  languages = c("english"), useShortcuts = FALSE)
+harmonize_publisher_fennica(
+  df.orig,
+  cheat_list,
+  languages = c("english"),
+  useShortcuts = FALSE
+)
 }
 \arguments{
 \item{df.orig}{Raw data from csv}

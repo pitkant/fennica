@@ -4,8 +4,10 @@
 \alias{filter_duplicates}
 \title{Filter duplicates}
 \usage{
-filter_duplicates(df.preprocessed, field_names = c("short_title",
-  "publication_place", "publication_year"))
+filter_duplicates(
+  df.preprocessed,
+  field_names = c("short_title", "publication_place", "publication_year")
+)
 }
 \arguments{
 \item{df.preprocessed}{Data frame of combined catalogs}

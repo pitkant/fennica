@@ -4,8 +4,7 @@
 \alias{harmonize_publisher_fennica2}
 \title{Harmonize Publisher}
 \usage{
-harmonize_publisher_fennica2(x, publication_year,
-  languages = c("english"))
+harmonize_publisher_fennica2(x, publication_year, languages = c("english"))
 }
 \arguments{
 \item{x}{A vector of publisher names}

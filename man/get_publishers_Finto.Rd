@@ -4,8 +4,13 @@
 \alias{get_publishers_Finto}
 \title{Unify Publishers with Finto}
 \usage{
-get_publishers_Finto(cheat_list, Finto_comp, all_names, unknown_town,
-  publication_year)
+get_publishers_Finto(
+  cheat_list,
+  Finto_comp,
+  all_names,
+  unknown_town,
+  publication_year
+)
 }
 \arguments{
 \item{cheat_list}{cheat_list}
