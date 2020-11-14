@@ -1,9 +1,8 @@
-<<<<<<< HEAD
+fennica_parsed.csv.gz
 *.log
 ||||||| merged common ancestors
 =======
 fennica.csv.gz
->>>>>>> c76bac3a85a74a46f06611abc6d083b8fbdcc669
 eps*
 bibliographica
 figure_flex
