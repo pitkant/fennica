@@ -1,10 +1,6 @@
-enrich_fennica <- function(data.enriched) {
+message("Enriching Fennica")
 
-  df.preprocessed <- data.enriched$df.preprocessed
-  update.fields <-   data.enriched$update.fields
-  conversions <-     data.enriched$conversions
-
-  message("Enriching Fennica")
+df.preprocessed <- data.enriched
 
   message("Identify issues")
   df.preprocessed$issue <- is.issue(df.preprocessed)
@@ -119,9 +115,4 @@ enrich_fennica <- function(data.enriched) {
  
   # ----------------------------------------------------------------------
 
-  data.enriched <- list(df.preprocessed = df.preprocessed,
-                        update.fields = update.fields,
-                        conversions = conversions)
-
-  return (data.enriched)
-}
+data.enriched.fennica <- df.preprocessed

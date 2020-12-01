@@ -1,93 +1,30 @@
-library(devtools)
-#load_all("~/Rpackages/bibliographica")
-#load_all("~/Rpackages/fennica")
-library(bibliographica)
-library(fennica)
-
-# I/O definitions
-# make daily output folders TODO convert into function -vv
-# today.str <- as.character(Sys.Date())
-# output.folder <- paste("output.tables/", today.str, "/", sep = '')
-# old version:
-output.folder <- "output.tables/"
-dir.create(output.folder)
-
-# List preprocessed data files
-fs <- "fennica_parsed.csv.gz"
-catalog <- "fennica" 
-
-# Languages to consider in cleanup.
-# TODO: recognize the necessary languages automatically ?
-languages <- c("finnish", "latin", "swedish")
-
-# Limit to Finnish/Swedish name-gender mappings for Fennica
-gendermap.file <- system.file("extdata/gendermap_finnish_swedish.csv",
-                              package = "bibliographica")
-
-# Remove selected fields
-update.fields <- NULL
-ignore.fields <- c("language2", "title_remainder",
-                   "physical_details", "physical_accomppanied",
-                   "note_general", "note_year") # Fennica
+source("init.R")
 
 # ----------------------------------------------------
 #            LOAD DATA FOR PREPROCESSING
 # ----------------------------------------------------
 
-reload.data <- FALSE # Set this to TRUE to regenerate df.raw.Rds
-if (!"df.raw.Rds" %in% dir()) {
-  reload.data <- TRUE
-}
-source(system.file("extdata/init.R", package = "bibliographica"))
+df.orig <- read_bibliographic_metadata(fs, verbose = TRUE, sep = "|")
+# FIXME move this to preprocessing part
+# Modify the original data if needed 
+# Finnish/Swedish specific fixes 
+# In Finnish texts s. is used instead of p.
 
-df.orig <- load_initial_datafile(fs, reload.data)
-
-data.preprocessing <- get_preprocessing_data(df.orig, 
-                                             update.fields,
-                                             ignore.fields)
+update.fields <- names(df.orig) # Update all fields
+# Remove specified fields
+ignore.fields <- c("language2", "title_remainder",
+                       "physical_details", "physical_accomppanied",
+                       "note_general", "note_year", "original_row") # Fennica
+update.fields <- setdiff(update.fields, ignore.fields)
 
 # ----------------------------------------------------
 #           PREPROCESS DATA
 # ----------------------------------------------------
 
-# Modify the original data if needed 
-# Finnish/Swedish specific fixes 
-# In Finnish texts s. is used instead of p.
-f <- system.file("extdata/translation_fi_en_pages.csv", package = "bibliographica")
-synonyms <- read.csv(f, sep = ";") 
-df.orig$physical_dimension <- map(df.orig$physical_dimension,
-          synonyms, mode = "recursive")
-
-# Test with small data test set
-# df.orig <- df.orig[sample(1:nrow(df.orig), 1e4),]
-
-# -------------------------------
-
-df.preprocessed <- data.preprocessing$df.preprocessed
-update.fields   <- data.preprocessing$update.fields
-conversions     <- data.preprocessing$conversions
-
 message("Preprocess selected original fields")
-res <- polish_all(df.orig,
-      fields = update.fields, 
-      conversions = conversions,
-      languages = languages)
-
-conversions <- res$conversions
-preprocessing.times <- res$preprocessing.times
-df.preprocessed <- res$df.preprocessed  
-
+source("polish_all.R")
 saveRDS(df.preprocessed, "data/unified/polished/df0.Rds", compress = TRUE)  
 saveRDS(conversions, "conversions.Rds", compress = TRUE)
-
-data.preprocessed <- list(df.preprocessed = df.preprocessed,
-                            update.fields = update.fields,
-                            conversions = conversions) 
-
-rm(data.preprocessing)
-
-source("preprocessing.fennica.R") # Fennica-specific
-data.preprocessed <- preprocessing_fennica(data.preprocessed)
 
 # ----------------------------------------------------
 #           VALIDATE PREPROCESSED DATA
@@ -96,8 +33,7 @@ data.preprocessed <- preprocessing_fennica(data.preprocessed)
 # NOTE: for Fennica this validation is repeated also a second time after
 # the fennica-specific parts. It might be sufficient to skip this first round
 # and get the same results but cant say without checking more carefully
-data.validated <- validate_preprocessed_data(data.preprocessed)
-rm(data.preprocessed)
+data.validated <- validate_preprocessed_data(df.preprocessed)
 
 # ----------------------------------------------------
 #           ENRICH VALIDATED DATA
@@ -107,14 +43,11 @@ rm(data.preprocessed)
 # the fennica-specific parts. It might be sufficient to skip this first round
 # and get the same results but cant say without checking more carefully
 data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
-rm(data.validated)
-
 source("enrich.fennica.R")
-data.enriched.fennica <- enrich_fennica(data.enriched)
+rm(data.validated)
 rm(data.enriched)
 
 source("validation.fennica.R") # Year checks: must come after enrich
-data.to.analysis.fennica <- validation_fennica(data.enriched.fennica)
 
 # General validation and enrichment for the final data one more time
 # (for instance, publisher field needs Fennica-specific modifications above
@@ -124,12 +57,9 @@ data.enriched2 <- enrich_preprocessed_data(data.validated2, df.orig)
 
 # ---------------------------------------------------
 
-df.preprocessed <- data.enriched2$df.preprocessed
-
 print("Saving updates on preprocessed data")
+df.preprocessed <- data.enriched2
 saveRDS(df.preprocessed, "data/unified/polished/df.Rds")
-
-# ---------------------------------
 
 # Data releases
 # CCQ 2019 data release - run separately

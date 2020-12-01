@@ -1,9 +1,5 @@
 
-validation_fennica <- function(data.enriched.fennica) {
-
-  df.preprocessed <- data.enriched.fennica$df.preprocessed
-  update.fields <-   data.enriched.fennica$update.fields
-  conversions <-     data.enriched.fennica$conversions
+  df.preprocessed <- data.enriched.fennica
 
   # Manually checked for Fennica - 3 publications before 1400;
   # in all cases it seems that this is misspelling and the original year cant be inferred from the entry
@@ -31,10 +27,4 @@ validation_fennica <- function(data.enriched.fennica) {
   df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
   df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
 
-  data.validated.fennica <- list(df.preprocessed = df.preprocessed,
-                            update.fields = update.fields,
-                            conversions = conversions)
-
-  return (data.validated.fennica)
-
-}
+  data.to.analysis.fennica <- data.validated.fennica <- df.preprocessed

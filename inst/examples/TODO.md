@@ -4,6 +4,8 @@ TODO
 
 ### Technical
 
+- Paikkatiedot: Billnäs -> Karjaa?
+
 - Onko primaarikieli luotettava; näitä voisi testata joko
   manuaalisesti, tai sitten vertaamalla otsikon kieleen tms.
 
