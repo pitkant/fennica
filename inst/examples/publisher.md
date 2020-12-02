@@ -28,6 +28,12 @@ The 20 most common publishers are shown with the number of documents.
 Title count
 
 
+```
+## Note: Using an external vector in selections is ambiguous.
+## ℹ Use `all_of(field)` instead of `field` to silence this message.
+## ℹ See <https://tidyselect.r-lib.org/reference/faq-external-vector.html>.
+## This message is displayed once per session.
+```
 
 
 
