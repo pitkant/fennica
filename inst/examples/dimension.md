@@ -1,7 +1,7 @@
 ---
 title: "Document dimension preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2020-11-14"
+date: "2020-12-02"
 output: markdown_document
 ---
 
@@ -43,6 +43,17 @@ The estimated dimensions are based on the following auxiliary information sheets
 Left: final gatherings vs. final document dimension (width x height). Right: original gatherings versus original heights where both are available. The point size indicates the number of documents for each case. The red dots indicate the estimated height that is used when only gathering information is available. 
 
 
+
+```
+## Error: Problem with `filter()` input `..1`.
+## ✖ object 'paper' not found
+## ℹ Input `..1` is `!is.na(paper) & !is.na(gatherings)`.
+```
+
+```
+## Error in `[.data.frame`(dfs, , c("gatherings", "paper")): undefined columns selected
+```
+
 <img src="figure/dimension-summary-1.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" /><img src="figure/dimension-summary-2.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" /><img src="figure/dimension-summary-3.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" />
 
 
@@ -50,7 +61,12 @@ Left: Document dimension histogram (surface area);
 Middle: Paper consumption histogram;
 Right: title count per gatherings.
 
-<img src="figure/dimension-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" /><img src="figure/dimension-sizes-2.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" /><img src="figure/dimension-sizes-3.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
+
+```
+## Error in FUN(X[[i]], ...): object 'paper' not found
+```
+
+<img src="figure/dimension-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" /><img src="figure/dimension-sizes-2.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
 
 ### Gatherings timelines
 
@@ -73,6 +89,18 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 ### Title count versus paper consumption
 
 
+
+
+```
+## Error: Problem with `summarise()` input `p`.
+## ✖ object 'paper' not found
+## ℹ Input `p` is `sum(paper, na.rm = TRUE)`.
+## ℹ The error occurred in group 1: publication_year = 1522.
+```
+
+```
+## Error in ggplot(d, aes(y = n, x = p)): object 'd' not found
+```
 
 ![plot of chunk title_vs_paper](figure/dimension-title_vs_paper-1.png)
 

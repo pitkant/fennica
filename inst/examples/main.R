@@ -23,6 +23,7 @@ update.fields <- setdiff(update.fields, ignore.fields)
 
 message("Preprocess selected original fields")
 source("polish_all.R")
+
 saveRDS(df.preprocessed, "data/unified/polished/df0.Rds", compress = TRUE)  
 saveRDS(conversions, "conversions.Rds", compress = TRUE)
 
@@ -74,5 +75,4 @@ source("analysis.run.R")
 # Specific analyses (to be updated)
 # source("analysis.R")  # Summary md docs
 
-#---------------------------------
 

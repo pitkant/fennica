@@ -1,20 +1,20 @@
 Name	Count
-Total count (na.rm TRUE): 	5666
-Turku	4720
-Upsala	 221
+Total count (na.rm TRUE): 	5845
+Turku	4866
+Upsala	 230
 Helsingin yliopisto	 212
-Uppsala	 155
-Tartto	  59
+Uppsala	 160
+Tartto	  71
 Helsingin yliopisto.	  40
 Helsingfors universitet.	  33
 Rostock	  21
 Suomen Keisarillinen Aleksanterin yliopisto.	  21
+Wittenberg	  15
 Lund	  13
-Wittenberg	  13
 Universität Leipzig.	  10
 Jena	   9
+Pärnu	   8
 Greifswald	   7
-Pärnu	   7
 Suomen Keisarillinen Aleksanterin yliopisto	   6
 Suomen keisarillinen Aleksanterin yliopisto.	   6
 [Helsingin yliopisto].	   4
@@ -30,6 +30,7 @@ Marburg	   3
 Suomen yliopisto.	   3
 Uppsala universitet	   3
 Uppsala.	   3
+Viipuri	   3
 Helsinki	   2
 Keisarillinen Suomen Aleksanterin yliopisto.	   2
 Kejserliga Alexanders-universitetet i Finland.	   2
@@ -42,6 +43,7 @@ Bern.	   1
 Friedrich-Wilhelms-Universität zu Berlin.	   1
 Giessen.	   1
 Göteborgs högskola.	   1
+Gymnasium of Strängnäs	   1
 Helsingfors : Kejserliga Alexanders-Universitetet i Finland	   1
 Helsingfors Universität.	   1
 Helsingfors universitet	   1
@@ -91,7 +93,7 @@ Université de Montpellier.	   1
 Université de Paris.	   1
 Université de Tubingen.	   1
 Universitetet i Helsingfors.	   1
+Upsala : Upsalan yliopisto	   1
 Upsala universitet.	   1
-Viipuri	   1
 Wittenberg.	   1
 Wittenbergae : Academia Wittenbergensis	   1

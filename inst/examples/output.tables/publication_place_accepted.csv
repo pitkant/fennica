@@ -1,28 +1,28 @@
 Name	Count
-Total count (na.rm TRUE): 	67572
-Helsinki	26778
-Turku	13128
-Stockholm	 3880
-Porvoo	 3742
-Vaasa	 3491
+Total count (na.rm TRUE): 	68351
+Helsinki	26781
+Turku	13662
+Stockholm	 3985
+Porvoo	 3744
+Vaasa	 3497
 Tampere	 2462
-Kuopio	 1550
+Kuopio	 1551
 Hämeenlinna	 1407
-Vyborg	 1211
+Vyborg	 1223
 Jyväskylä	 1030
+Uppsala	  752
 Pori	  713
-Uppsala	  705
 Oulu	  651
-St Petersburg	  621
+St Petersburg	  622
 Sortavala	  546
 Rauma	  251
 Mikkeli	  240
+Tartu	  217
 Hancock Mi	  210
 Leipzig	  193
-Tartu	  183
-Kotka	  175
+Kotka	  176
 London	  168
-New York	  167
+New York NY	  167
 Tammisaari	  162
 Hamina	  160
 Lahti	  160
@@ -40,32 +40,32 @@ Mariehamn	   66
 Käkisalmi	   62
 Uusikaupunki	   58
 Lappeenranta	   56
+Rostock	   56
 Kristiinankaupunki	   55
 Lund	   51
 Tallinn	   51
 Kaleva Mi	   50
-Rostock	   50
 Amsterdam	   48
 Kajaani	   42
+Riga	   42
 Duluth MN	   40
 Moscow	   39
-Riga	   39
+Wittenberg	   39
 Kemi	   38
 Oslo	   36
 Calumet Mi	   35
-Wittenberg	   35
 Heinola	   33
 Lapua	   31
+Gothenburg	   30
 Raahe	   30
-Gothenburg	   29
 Loviisa	   29
 Ashtabula Oh	   28
 Budapest	   28
 Port Arthur On	   28
+Skara	   28
+Strängnäs	   26
 Astoria Or	   25
 Västerås	   25
-Strängnäs	   24
-Skara	   23
 Uusikaarlepyy	   23
 München	   22
 Chicago IL	   21
@@ -73,14 +73,14 @@ Jena	   21
 Kruunupyy	   21
 Vienna	   21
 Dresden	   20
+Greifswald	   20
 Parkano	   20
 Stuttgart	   20
-Greifswald	   19
 Linköping	   19
 Kaskinen	   18
+Hamburg	   17
 Nürnberg	   17
 Braunschweig	   16
-Hamburg	   16
 Hyvinkää	   16
 Turenki	   16
 Frankfurt	   14
@@ -88,19 +88,19 @@ Karjaa	   14
 Superior Wi	   14
 Iisalmi	   13
 Ironwood Mi	   13
+Leiden	   12
 Sairala	   12
 Halle	   11
+Pärnu	   11
 Tornio	   11
 Forssa	   10
 Laihia	   10
-Leiden	   10
 Lübeck	   10
 New York Mills Mn	   10
 Norrköping	   10
 Augsburg	    9
 Göttingen	    9
 Heidelberg	    9
-Pärnu	    9
 Warsaw	    9
 Weimar	    9
 Gießen	    8
@@ -116,6 +116,7 @@ Worcester Ma	    8
 Eura	    7
 Firenze	    7
 Ishpeming Mi	    7
+Pernaja	    7
 Quincy Ma	    7
 Strasbourg	    7
 Tübingen	    7
@@ -126,9 +127,9 @@ Bonn	    6
 Haarlem	    6
 Isafjördur	    6
 Jelgava	    6
+Koningsberg	    6
 Narva	    6
 Parainen	    6
-Pernaja	    6
 Piikkiö	    6
 Reykjavik	    6
 Vilnius	    6
@@ -139,7 +140,6 @@ Falun	    5
 Haapajärvi	    5
 Jämsä	    5
 Jönköping	    5
-Koningsberg	    5
 Milan	    5
 Nytorp	    5
 Odense	    5
@@ -163,13 +163,16 @@ Oxford	    4
 Rovaniemi	    4
 Seattle WA	    4
 Seinäjoki	    4
+Szczecin	    4
 Tyrvää	    4
 Altdorf	    3
+Altenstein	    3
 Barcelona	    3
 Braniewo	    3
 Brussels	    3
 Cincinnati Oh	    3
 Haunia	    3
+Helmstedt	    3
 Juva	    3
 Kainuu	    3
 Karlstad	    3
@@ -182,12 +185,10 @@ Naples	    3
 Parikkala	    3
 Rock Island IL	    3
 Sääksmäki	    3
-Szczecin	    3
 Aabenraa	    2
 Aalborg	    2
 Aarhus	    2
 Almena Wi	    2
-Altenstein	    2
 Boston Ma	    2
 Breslau	    2
 Chisholm MN	    2
@@ -202,7 +203,6 @@ Hämeenkyrö	    2
 Hannover	    2
 Harbor Oh	    2
 Heinävesi	    2
-Helmstedt	    2
 Helsingborg	    2
 Houghton Mi	    2
 Huopalahti	    2
@@ -256,6 +256,7 @@ Amersfoort	    1
 Ancona	    1
 Anttola	    1
 Arezzo	    1
+Arnstadt	    1
 Askersund	    1
 Bielefeld	    1
 Birmingham	    1

@@ -1,18 +1,17 @@
-message("Enriching Fennica")
-
 df.preprocessed <- data.enriched
 
-  message("Identify issues")
-  df.preprocessed$issue <- is.issue(df.preprocessed)
+message("Identify issues")
+df.preprocessed$issue <- is.issue(df.preprocessed)
 
-  ## COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS
-  # Recognize issues: those that have publication interval or frequency defined
-  message("Combining year and interval")
-  # Assume that all cases with denoted interval have start and end year
-  # If one is missing, then it means that start and end are the same year
-  # therefore fill those missing entries here:s
-  df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_from)] <- df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_from)]
-  df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_till)] <- df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_till)]
+## COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS
+# Recognize issues: those that have publication interval or frequency defined
+message("Combining year and interval")
+
+# Assume that all cases with denoted interval have start and end year
+# If one is missing, then it means that start and end are the same year
+# therefore fill those missing entries here:s
+df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_from)] <- df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_from)]
+df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_till)] <- df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_till)]
 
   # Discard erroneous years
   df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
@@ -77,26 +76,11 @@ df.preprocessed <- data.enriched
   inds <- which(!is.na(gendercustom))
   df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
-  message("-- Fennica publishers")
+message("-- Fennica publishers")
   df.preprocessed.bu <- df.preprocessed
   df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
-  #df.preprocessed$publisher <- rep(NA, nrow(df.preprocessed))
         
   # ----------------------------------------------------------------
-   
-  # Recognize synonymes with string matching;
-  # this step can be skipped after the synonyme list is fixed
-  # source("city_synonyme_list_update.R", encoding = "UTF-8") 
-  # This was combined with ESTC generic list to simplify
-  # TODO Think how to split and generalize
-  # Finally manual harmonization for the remaining place names
-  # Now all synonymes moved in ESTC
-  #f <- system.file("extdata/publication_place_synonymes_fennica.csv", package = "fennica")
-  #sn <- read.csv(f, sep = ";")
-  #df.preprocessed$publication_place <- sorvi::harmonize_names(df.preprocessed$publication_place, synonymes = sn, check.synonymes = FALSE)$name
-
-  # ----------------------------------------------------------------------
-
   # Updated geomappings. This is now based on the polished place names.
   # TODO check if original raw data has any country information
   # Iiron mappaykset

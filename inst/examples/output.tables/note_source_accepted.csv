@@ -1,44 +1,45 @@
 Name	Count
-Total count (na.rm TRUE): 	11145
-Lidén,;Vallinkoski	2411
-Marklin,;Vallinkoski	1459
-Melander	 609
-Pipping,;Rämä	 361
+Total count (na.rm TRUE): 	11724
+Lidén,;Vallinkoski	2499
+Marklin,;Vallinkoski	1473
+Melander	 672
+Pipping,;Rämä	 365
 Lidén,;Marklin,;Vallinkoski	 114
 Pipping	 114
 Vallinkoski II	  96
 Liden,;Vallinkoski	  94
-Leinberg	  78
-Vallinkoski	  65
-Collijn IV	  55
+Leinberg	  82
+Vallinkoski	  67
+Collijn IV	  62
+Stiernman,;Lidén,;Vallinkoski	  50
 Rämä	  49
-Stiernman,;Lidén,;Vallinkoski	  43
-Lidén,;Leinberg	  37
-Melander,;SKB	  31
+Lidén,;Leinberg	  40
+Melander,;SKB	  37
 Bring 1958	  30
+Lidén,;Stiernman,;Vallinkoski	  29
 Marklin,;Leinberg	  25
 Lidén,;Vallinkoski,;SKB	  24
 Marklin,;Vallinkoski,;Pipping	  23
 Elmgren I	  22
-Lidén,;Stiernman,;Vallinkoski	  22
+Lidén	  22
+Ei Melander	  19
 Elmgren I s. 127	  19
 Elmgren II	  19
-Lidén	  19
 Marklin II	  18
 Lidén,;SKB,;Vallinkoski	  17
-Ei Melander	  16
+Stiernman,;Melander	  16
 Marklin	  15
 Marklin II,;Vallinkoski	  15
+Lidén,;Stiernman,;Suomen kansallisbibliografia 1488-1700,;Vallinkoski	  14
 Marklin,;Pipping,;Vallinkoski	  14
 Collijn IV p. 1064	  13
 Kaarna & Winter 1005	  13
+Melander,;Suomen kansallisbibliografia 1488-1700	  13
 Lidén I,;Leinberg	  12
-Lidén,;Stiernman,;Suomen kansallisbibliografia 1488-1700,;Vallinkoski	  12
+Bring 1961	  11
 Kaarna & Winter 1225	  11
-Melander,;Suomen kansallisbibliografia 1488-1700	  11
 Pipping,;Suomen almanakan juhlakirja,;Rämä	  11
 Stiernman,;Collijn IV,;Vallinkoski,;SKB	  11
-Bring 1961	  10
 Lidén,;Pipping,;Rämä,;Vallinkoski	  10
 Pipping,;Lidén,;Vallinkoski,;Rämä	  10
 Sainio	  10
@@ -49,7 +50,11 @@ Lidén 113	   9
 Melander,;Rämä	   9
 Pipping,;Rämä,;Kirjapainotaito Suomessa. 2 / Carl-Rudolf Gardberg	   9
 Pipping,;Vasenius,;Kilpi,;Collijn II,;Rämä,;Suomen kansallisbibliografia 1488-1700	   9
+Stiernman,;Lidén,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   9
+Collijn IV,;SKB	   8
+Collijn IV,;Suomen kansallisbibliografia 1488-1700	   8
 Lidén,;Vallinkoski,;Pipping,;Rämä	   8
+Stiernman,;Marklin,;Vallinkoski	   8
 Collijn IV p. 312	   7
 Collijn IV p. 313	   7
 Elmgren II s. 8	   7
@@ -57,17 +62,13 @@ Elmgren s. 55. - Collijn IV p. 1073	   7
 Hultin II	   7
 Lidén;Vallinkoski	   7
 Marklin;Vallinkoski	   7
-Stiernman,;Marklin,;Vallinkoski	   7
-Stiernman,;Melander	   7
 Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius	   7
 Bygdén I	   6
-Collijn IV,;SKB	   6
-Collijn IV,;Suomen kansallisbibliografia 1488-1700	   6
 Elmgren I s. 131	   6
 Leinberg,;Marklin	   6
 SKB,;Vallinkoski	   6
-Stiernman,;Lidén,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   6
 Bygdén	   5
+Collijn III,;Melander,;SKB	   5
 Collijn IV p. 1065	   5
 Elmgren I s. 123	   5
 Elmgren I s. 124	   5
@@ -82,12 +83,13 @@ Pipping,;Rämä,;Tuomas Ragvaldinpoika : hengellinen arkkivirsirunoilija / Pekka
 Rämä 618/619. Lisä	   5
 Collijn II	   4
 Collijn III	   4
-Collijn III,;Melander,;SKB	   4
 Collijn IV p. 1031	   4
+Collijn IV p. 23	   4
 Collijn IV p. 273	   4
 Collijn IV p. 311	   4
 Collijn IV p. 314	   4
 Collijn IV p. 610	   4
+Collijn IV p. 763	   4
 Collijn IV,;Vallinkoski	   4
 Elmgren I s. 133	   4
 Elmgren I s. 136	   4
@@ -104,10 +106,13 @@ Liden,;Marklin,;Vallinkoski	   4
 Lidén,;Pipping,;Vallinkoski	   4
 Lidèn,;SKB,;Vallinkoski	   4
 Lidén,;Vallinkoski,;Pipping	   4
+Marklin a;Vallinkoski	   4
 Marklin I,;Vallinkoski	   4
+Marklin,;Stiernman,;Vallinkoski	   4
 Marklin,;Vallinkoski,;SKB	   4
 Pipping,;Collijn IV,;Rämä,;SKB	   4
 Pipping,;Collijn IV,;Rämä,;Suomen kansallisbibliografia 1488-1700	   4
+Pipping,;Melander,;Rämä	   4
 Pipping,;Rämä,;Forfatterlexikon omfattende Danmark, Norge og Island tindtil 1814 / H. Ehrencron-Müller. Bd. VII. 1929	   4
 Pipping,;Rämä,;Rukoilevaisten kirjoja / Osmo Tiililä	   4
 Stiernman,;Collijn IV	   4
@@ -118,12 +123,13 @@ Collijn III,;Melander	   3
 Collijn IV p. 151	   3
 Collijn IV p. 153-154	   3
 Collijn IV p. 167	   3
-Collijn IV p. 23	   3
 Collijn IV p. 272	   3
 Collijn IV p. 274	   3
 Collijn IV p. 315	   3
+Collijn IV p. 451	   3
 Collijn IV p. 837	   3
 Collijn IV,;Stiernman,;Vallinkoski	   3
+Collijn IV;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   3
 Elmgren I s. 130	   3
 Elmgren I s. 134	   3
 Elmgren II s. 17	   3
@@ -132,15 +138,17 @@ Elmgren II s. 28	   3
 Elmgren II s. 4	   3
 Finlands botaniska litteratur till och med år 1900 / Th. Saelan	   3
 Leinberg 193	   3
+Liden	   3
 Lidén I	   3
 Lidèn,;Vallinkoski,;SKB	   3
-Marklin a;Vallinkoski	   3
-Marklin,;Stiernman,;Vallinkoski	   3
 Pipping,;Hultin II	   3
+Pipping,;Rämä,;SKB	   3
 Pipping;Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius;Suomen kirjalilijat 1809-1916	   3
 SAJ s. 311	   3
 SAJ s. 312	   3
 SAJ s. 313	   3
+Stiernman	   3
+Stiernman,;Collijn IV,;SKB	   3
 Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén	   3
 Svenskt boklexikon, åren 1830-1865 / Hjalmar Linnström	   3
 Vallinkoski,;SKB	   3
@@ -160,6 +168,7 @@ Collijn IV p. 237-238	   2
 Collijn IV p. 249	   2
 Collijn IV p. 263	   2
 Collijn IV p. 265-266	   2
+Collijn IV p. 266	   2
 Collijn IV p. 269-270	   2
 Collijn IV p. 310-311	   2
 Collijn IV p. 318	   2
@@ -177,6 +186,7 @@ Collijn IV p. 882	   2
 Collijn IV p. 929	   2
 Collijn IV p. 988	   2
 Collijn IV p. 996	   2
+Collijn IV,;Leinberg Or.,;Sainio,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   2
 Collijn IV,;Suomen almanakan juhlakirja,;SKB	   2
 Collijn IV,;Suomen almanakan juhlakirja,;Suomen kansallisbibliografia 1488-1700	   2
 Collijn IV;Suomen kansallisbibliografia 1488-1700	   2
@@ -186,6 +196,7 @@ Elmgren I s. 125	   2
 Elmgren I s. 128	   2
 Elmgren I s. 135	   2
 Elmgren I s. 137	   2
+Elmgren I s. 88	   2
 Elmgren II s. 10	   2
 Elmgren II s. 16	   2
 Elmgren II s. 24	   2
@@ -195,9 +206,10 @@ Hultin I,;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / Tuija Lain
 Katalog öfver den svenska litteraturen i Finland 1896-1900 / H. Bergroth	   2
 Lagus 12	   2
 Leinberg 194	   2
+Leinberg 197	   2
 Leinberg 22	   2
-Liden	   2
 Lidén,;Suomen kansallisbibliografia 1488-1700,;Vallinkoski	   2
+Lidèn,;Vallinkoski	   2
 Marklin 33	   2
 Marklin,;Leinberg,;Pipping	   2
 Melander 1546	   2
@@ -210,6 +222,7 @@ Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713	   2
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Stiernman;Suomen kansallisbibliografia 1488-1700	   2
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   2
 Melander,;Stiernman	   2
+Melander.	   2
 Ofärdsårens politiska litteratur / Ernst Estlander	   2
 Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   2
 Pipping 1147. - Rämä 1147-1148	   2
@@ -227,6 +240,8 @@ Pipping 357 a) d. - Rämä 357 a) d	   2
 Pipping 357 bb. - Rämä 357 bb	   2
 Pipping 357 c) x. - Rämä 357 c) x	   2
 Pipping 357 cc. - Rämä 357 cc	   2
+Pipping 622. - Rämä 620-622 b	   2
+Pipping 676 a. - Rämä 676 a-678 a	   2
 Pipping 733. - Rämä 732-733	   2
 Pipping 809. - Rämä 808-811	   2
 Pipping 85. - Rämä 85	   2
@@ -235,7 +250,6 @@ Pipping,;Hultin I,;Rämä,;Suomen kansallisbibliografia 1488-1700	   2
 Pipping,;Rämä,;Ei Hultin	   2
 Pipping,;Rämä,;Hultin I	   2
 Pipping,;Rämä,;Hultin II	   2
-Pipping,;Rämä,;SKB	   2
 Pipping;Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius	   2
 Rämä [357 bb:1]	   2
 Rämä 578:1[:1]	   2
@@ -243,19 +257,21 @@ Rämä,;Pipping	   2
 Recke-Napiersky 4, s. 357	   2
 Samlade skrifter. 1 / Clas Livijn,;Svenskt biografiskt lexikon. Bd 16, Fich-Gehlin,;Bref från fälttågen i Tyskland och Norge 1813 och 1814 / Clas Livijn	   2
 Stiernman 74-75	   2
-Stiernman,;Collijn IV,;SKB	   2
 Stiernman,;Collijn IV,;Suomen kansallisbibliografia 1488-1700	   2
 Stiernman,;Lidén,;Marklin,;Vallinkoski	   2
 Stiernman,;Melander,;SKB	   2
 Stiernman,;Pipping,;Collijn IV,;Rämä	   2
+Stiernman,;Pipping,;Melander,;Rämä	   2
 Stiernman,;Pipping,;Rämä,;Rukoilevaisten kirjoja / Osmo Tiililä	   2
 Suomalainen kirjallisuus 1911-1915 / Simo Pakarinen	   2
+Suomalaiset ja inkeriläiset ylioppilaat Tarton ja Tarton-Pärnun yliopistossa v. 1632-1710 / A. R. Cederberg	   2
 Suomen aikakauslehdistön bibliografia 1782-1955 / Kurikka & Takkala	   2
 Suomen kirjailijat 1809-1916	   2
 ... Si quid in rebus humanis lacrimis & planctu prosequi decet, ... Serenissimus ille atque potentissimus princeps ac Dominus Carolus XI. ... Amor suorum atque deliciae, felicitas & gaudium integrum! ipse, inquam, proh fata! fatali falce dejectus jacet. ... Ubi crastina luce vir plurimum reverendus & clarissimus, Dn. Laurentius Molin, S. theol. licent. & prof. publ. ... vir celeberrimus, Dn. Michael Dau, eloq. utriusque prof., tertia vero die, quae erit Saturni, vir celeberrimus, Dn. Daniel Sarcovius, log. & metaph. prof. ord. ... hic ligata oratione, ... praeter hos vero vir juvenis pereximius atquq doctiss. Dn. Arvidus Mollerus, regiae in hac urbe scholae rector designatus, & nobiliss. juvenis, Henricus Johannes Freytag, nobilis Livonus, ... Dab. Dorpati, d. XXIV. Novemb. anno reparatae salutis, M. DC. XCVII. Gabriel Skragge, Orient. & Gr. ling. prof. h. tp. rect. acad.;Leinberg Or.,;Melander	   1
 [Pipping 604 f:1]	   1
 [Rämä 1453 b:3?]	   1
 Alopaeus, Magnus Jacob. Borgå gymnasii historia. IV,;Vallinkoski	   1
+Bibliogr.: Lidén 28	   1
 Bibliogr.: Qvigstad F. 3.??	   1
 Bibliographie der lappischen Litteratur / J. Qvigstad und K. B. Wiklund,;Collijn IV	   1
 Bibliotheca Danica	   1
@@ -370,6 +386,7 @@ Bygdén;Vallinkoski II	   1
 Bygdn I p. 829. - Collijn IV p. 519	   1
 Bygdn II p. 877. - Collijn IV p. 271, 647. - SAJ s. 305. - SKB 2715	   1
 Catalogue général des livres imprimés de la Bibliothèque nationale. Auteurs. Tome CI,;Suomen kansallisbibliografia 1488-1700	   1
+Cederberg 1939, s. 90	   1
 Collijn I,;Manuale seu exequiale Aboense 1522. - Helsinki, 1980	   1
 Collijn II s. 442. - Rämä 14/15. Lisä. - SKB 1068	   1
 Collijn II,;Kilpi,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
@@ -378,13 +395,17 @@ Collijn II,;Melander	   1
 Collijn III s. 117-118	   1
 Collijn III s. 12. - Melander 21	   1
 Collijn III s. 120	   1
+Collijn III s. 246-247. - Melander 34	   1
 Collijn III s. 250	   1
+Collijn III s. 250-252. - Melander 33	   1
+Collijn III s. 274. - Melander 35	   1
 Collijn III s. 53. Melander 27. - SKB 1042	   1
 Collijn IV p. 1	   1
 Collijn IV p. 1031-1032	   1
 Collijn IV p. 1031-32	   1
 Collijn IV p. 1063-1064	   1
 Collijn IV p. 1067	   1
+Collijn IV p. 1068	   1
 Collijn IV p. 109	   1
 Collijn IV p. 109-110. - SKB 676	   1
 Collijn IV p. 115	   1
@@ -409,11 +430,11 @@ Collijn IV p. 22	   1
 Collijn IV p. 22-23	   1
 Collijn IV p. 220-221	   1
 Collijn IV p. 23. - SKB 322	   1
+Collijn IV p. 234. - Suomen kansallisbibliografia 1488-1700, 1017	   1
 Collijn IV p. 237-238 589 37	   1
 Collijn IV p. 262. - SAJ s. 305. - SKB 1118	   1
 Collijn IV p. 263-264	   1
 Collijn IV p. 263. - SAJ s. 307. - SKB 1198	   1
-Collijn IV p. 266	   1
 Collijn IV p. 269-270. - SKB 1289	   1
 Collijn IV p. 270. - SAJ s. 299. - SKB 1297	   1
 Collijn IV p. 271	   1
@@ -435,6 +456,7 @@ Collijn IV p. 313-314	   1
 Collijn IV p. 315-316	   1
 Collijn IV p. 315. - SKB 1465	   1
 Collijn IV p. 338. - SKB 1648	   1
+Collijn IV p. 362	   1
 Collijn IV p. 363-364	   1
 Collijn IV p. 363. - SKB 1853	   1
 Collijn IV p. 363. - SKB 1854	   1
@@ -443,16 +465,26 @@ Collijn IV p. 371	   1
 Collijn IV p. 373-374. - SKB 1903	   1
 Collijn IV p. 389	   1
 Collijn IV p. 398	   1
+Collijn IV p. 432	   1
 Collijn IV p. 442-443	   1
+Collijn IV p. 443	   1
 Collijn IV p. 445-446. - Vallinkoski 2043 ff. - SKB 2115	   1
+Collijn IV p. 451. - SAJ s. 306. - SKB 2128	   1
+Collijn IV p. 451. - SAJ s. 306. - SKB 2129	   1
+Collijn IV p. 451. - SAJ s. 307. - SKB 2130	   1
+Collijn IV p. 460	   1
+Collijn IV p. 471	   1
 Collijn IV p. 475	   1
+Collijn IV p. 477	   1
 Collijn IV p. 49. - Rämä [131 h:1]	   1
 Collijn IV p. 49. - Rämä [131 h:2]	   1
 Collijn IV p. 497-498	   1
+Collijn IV p. 497. - SKB 2273	   1
 Collijn IV p. 498	   1
 Collijn IV p. 504-505	   1
 Collijn IV p. 519. - SAJ s. 307-308. - SKB 2393	   1
 Collijn IV p. 522. - SAJ s. 307. - SKB 2420	   1
+Collijn IV p. 522. - SKB 2417	   1
 Collijn IV p. 527	   1
 Collijn IV p. 547	   1
 Collijn IV p. 574, 702. - Rämä 35/36. Lisä	   1
@@ -463,22 +495,28 @@ Collijn IV p. 608-609	   1
 Collijn IV p. 612	   1
 Collijn IV p. 616	   1
 Collijn IV p. 620. - SKB 2654	   1
+Collijn IV p. 625	   1
+Collijn IV p. 63. - SKB 637	   1
 Collijn IV p. 702	   1
 Collijn IV p. 713	   1
 Collijn IV p. 714. - Melander 78	   1
 Collijn IV p. 721	   1
 Collijn IV p. 74	   1
+Collijn IV p. 755-756	   1
 Collijn IV p. 76	   1
-Collijn IV p. 763	   1
 Collijn IV p. 764	   1
+Collijn IV p. 773	   1
 Collijn IV p. 780-781	   1
 Collijn IV p. 846. - Stiernman s. 73, n:o 41. - Suomen kansallisbibliografia 1488-1700, 3382	   1
 Collijn IV p. 849	   1
 Collijn IV p. 855. - SKB 2421	   1
 Collijn IV p. 864	   1
+Collijn IV p. 865	   1
 Collijn IV p. 865-866	   1
+Collijn IV p. 878	   1
 Collijn IV p. 886-887	   1
 Collijn IV p. 897-98	   1
+Collijn IV p. 9	   1
 Collijn IV p. 902-903	   1
 Collijn IV p. 91, 612	   1
 Collijn IV p. 912. - SAJ s. 308. - SKB 3722	   1
@@ -495,8 +533,14 @@ Collijn IV p. 955-956	   1
 Collijn IV p. 984. - SAJ s. 308. - SKB 4245	   1
 Collijn IV p. 996. - SKB 4276	   1
 Collijn IV p. 996. - SKB 4277	   1
+Collijn IV,;Leinberg	   1
+Collijn IV,;Leinberg Or.,;Sainio,;SKB	   1
+Collijn IV,;Leinberg, K. G. Orationes academicae Fennorum extra patriam habitae,;Sainio, Matti A. Dissertationen und Orationen der Universität Dorpat 1632-1656,;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV,;Leinberg,;Sainio,;SKB,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
+Collijn IV,;Melander,;Scarin, Algothus. Wirmoensis in Finlandia territorii memorabilia	   1
+Collijn IV,;Pipping,;Rämä	   1
 Collijn IV,;Pipping,;Rämä,;SKB	   1
+Collijn IV,;Sainio	   1
 Collijn IV,;SKB,;Stiernman,;Vallinkoski	   1
 Collijn IV,;SKB,;Vallinkoski	   1
 Collijn IV,;Stiernman,;Vallinkoski,;SKB	   1
@@ -504,11 +548,11 @@ Collijn IV,;Stiernman,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV,;Vallinkoski,;SKB	   1
 Collijn IV;Lempiäinen 1988	   1
 Collijn IV;Öfversigt af Finlands litteratur ifrån år 1542 till 1770 / Sven Gabriel Elmgren;Suomen kansallisbibliografia 1488-1700	   1
-Collijn IV;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV;Stiernman;Suomen kansallisbibliografia 1488-1700	   1
 Collijn IV;Svenskt anonym- och pseudonym-lexikon / Leonard Bygdén	   1
 Collijn,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Collin IV p. 726. - Melander 111(2)	   1
+Collinjn IV sp. 328-329. - Ei Melander	   1
 Ei Hultin	   1
 Ei Leinberg	   1
 Ei Leinberg.	   1
@@ -532,11 +576,11 @@ Elmgren I s. 132	   1
 Elmgren I s. 135. - Bring 1958 309:1	   1
 Elmgren I s. 137:1724	   1
 Elmgren I s. 82	   1
-Elmgren I s. 88	   1
 Elmgren I ss. 122, 137	   1
 Elmgren I,;Bring 1961	   1
 Elmgren I,;Pipping	   1
 Elmgren II s. 17. - Vallinkoski II	   1
+Elmgren II s. 19	   1
 Elmgren II s. 20	   1
 Elmgren II s. 21. - Bygdén II p. 582	   1
 Elmgren II s. 24. - Vallinkoski II	   1
@@ -566,11 +610,14 @@ Lagus 14	   1
 Leinberg 18	   1
 Leinberg 192	   1
 Leinberg 196	   1
-Leinberg 197	   1
 Leinberg 198	   1
+Leinberg 199	   1
 Leinberg 20	   1
+Leinberg 201	   1
 Leinberg 202	   1
 Leinberg 21	   1
+Leinberg 210	   1
+Leinberg 212	   1
 Leinberg 213	   1
 Leinberg 213 [b]	   1
 Leinberg 214	   1
@@ -578,21 +625,34 @@ Leinberg 214 [b]	   1
 Leinberg 215	   1
 Leinberg 230	   1
 Leinberg 24. - Collijn IV p. 281	   1
+Leinberg 25	   1
+Leinberg 25. - Collijn IV p. 440	   1
+Leinberg 26. - Collijn IV p. 851	   1
 Leinberg 27	   1
+Leinberg 28	   1
+Leinberg 29	   1
 Leinberg 30	   1
+Leinberg 31	   1
+Leinberg 31. - Collijn IV p. 258	   1
 Leinberg 34	   1
+Leinberg 35	   1
 Leinberg 36	   1
 Leinberg 43	   1
+Leinberg 45	   1
 Leinberg 48	   1
+Leinberg 49	   1
 Leinberg 50	   1
+Leinberg 55	   1
 Leinberg 6	   1
 Leinberg 72 [b]	   1
+Leinberg Or.	   1
 Leinberg Or. 46. - Collijn IV p. 919	   1
 Leinberg Or.,;Collijn IV	   1
 Leinberg Or.,;Collijn IV,;NUC Pre-1956 imprints	   1
 Leinberg Orat.,;Melander,;SKB	   1
 Leinberg,;Collijn III	   1
 Leinberg,;Collijn IV	   1
+Leinberg,;Lidén,;Pipping,;Rämä	   1
 Leinberg,;Melander	   1
 Leinberg,;Sainio	   1
 Leinberg,;SKB	   1
@@ -602,6 +662,7 @@ Lidén ?. - Leinberg 109	   1
 Lidén ?9. - Leinberg 101	   1
 Lidén 1. - Leinberg 118 [b]	   1
 Lidén 1. - Leinberg 48	   1
+Lidén 1. - Leinberg 70	   1
 Lidén 1. - Leinberg 72	   1
 Lidén 1. - Leinberg 74 & 79	   1
 Lidén 1. - Leinberg 96 [c]	   1
@@ -612,6 +673,7 @@ Lidén 10. - Leinberg 80	   1
 Lidén 100. - Leinberg 89 [b]	   1
 Lidén 101. - Leinberg 44	   1
 Lidén 102	   1
+Liden 11	   1
 Lidén 11. - Leinberg 74	   1
 Lidén 11. - Leinberg 92	   1
 Lidén 110. - Vallinkoski 1974	   1
@@ -633,8 +695,10 @@ Lidén 121. - Leinberg 67 [b]	   1
 Lidén 13. - Leinberg 49	   1
 Lidén 131. - Leinberg 110	   1
 Lidén 137. - Leinberg 113	   1
+Liden 14	   1
 Lidén 140. - Leinberg 114	   1
 Lidén 140. - Vallinkoski 2004	   1
+Liden 15	   1
 Lidén 15. - Leinberg 111	   1
 Lidén 15. - Leinberg 95	   1
 Lidén 154. - Leinberg 117	   1
@@ -644,6 +708,8 @@ Liden 17	   1
 Lidèn 17. - Marklin 17. - Vallinkoski 17. - SKB 47	   1
 Lidén 173. - Leinberg 119	   1
 Lidén 175. - Leinberg 119 [b]	   1
+Lidén 178. - Leinberg 80 [b]	   1
+Liden 18	   1
 Lidén 18. - Marklin 18. - Vallinkoski 941	   1
 Lidèn 18. - Vallinkoski 18. - SKB 48	   1
 Lidén 18. - Vallinkoski 1882	   1
@@ -651,6 +717,7 @@ Lidén 180. - Leinberg 55	   1
 Lidén 182. - Leinberg 124	   1
 Lidén 182. - Leinberg 56	   1
 Lidén 186. - Leinberg 125	   1
+Liden 19	   1
 Lidén 19. - Marklin 19. - Vallinkoski 942	   1
 Liden 2	   1
 Lidén 2. - Leinberg 63 [b]	   1
@@ -660,12 +727,17 @@ Lidén 209. - Leinberg 149 [b]	   1
 Lidén 21. - Leinberg 110 [b]	   1
 Liden 22	   1
 Lidén 22. - Marklin 22. - Vallinkoski 945	   1
+Lidén 226. - Leinberg 94	   1
 Liden 23	   1
+Liden 24	   1
 Lidén 24. - Leinberg 121	   1
 Lidén 24. - Marklin 24. - Vallinkoski 947	   1
 Lidén 24. - Vallinkoski 3693	   1
+Liden 25	   1
 Lidén 25. - Leinberg 58	   1
+Liden 26	   1
 Lidén 26. - Marklin 26. - Vallinkoski 949	   1
+Lidén 278. - Leinberg 99 [b]	   1
 Lidén 28	   1
 Lidén 28. - Marklin 28. - Vallinkoski 951	   1
 Lidén 29	   1
@@ -673,15 +745,22 @@ Lidén 29. - Leinberg 107 [b]	   1
 Lidén 29. - Leinberg 76	   1
 Lidén 29. - Leinberg 76 [b]	   1
 Lidén 29. - Marklin 29. - Vallinkoski 952	   1
+Lidén 297. - Leinberg 104	   1
 Lidén 3. - Leinberg 71	   1
+Lidén 30	   1
 Lidén 31	   1
 Lidén 31;Vallinkoski 2412	   1
 Lidén 31. - Leinberg 47	   1
 Lidén 31. - Marklin 31. - Vallinkoski 954	   1
+Lidén 311. - Leinberg 107	   1
 Lidén 32	   1
 Lidén 33. - Leinberg 96 [b]	   1
+Lidén 335. - Leinberg 104 [b]	   1
+Lidén 337. - Leinberg 103 [b]	   1
 Lidén 34;Vallinkoski 1090	   1
 Lidén 34. - Leinberg 102	   1
+Lidén 34. - Leinberg 70 [b]	   1
+Lidén 35	   1
 Lidén 35. - Vallinkoski 3704	   1
 Lidén 36	   1
 Lidén 37	   1
@@ -708,6 +787,7 @@ Lidén 52	   1
 Lidén 55. - Leinberg 106	   1
 Lidén 57. - Leinberg 68 [b]	   1
 Lidén 58. - Leinberg 60	   1
+Liden 6	   1
 Lidén 6. - Leinberg 103	   1
 Lidén 6. - Leinberg 50	   1
 Lidén 6. - Leinberg 87	   1
@@ -736,6 +816,7 @@ Lidén 85. - Leinberg 98	   1
 Liden 87. - Vallinkoski 4404	   1
 Liden 88. - Vallinkoski 4405	   1
 Liden 89. - Vallinkoski 4406	   1
+Liden 9	   1
 Lidèn 9. - Marklin 9. - Vallinkoski 9. - SKB 39	   1
 Liden 90. - Vallinkoski 4407	   1
 Lidén 92. - Vallinkoski 1956	   1
@@ -779,6 +860,7 @@ Lidén I;Suomen kansallisbibliografia 1488-1700	   1
 Lidén II	   1
 Lidén III,;Collijn IV	   1
 Lidén III,;Collijn IV,;Vallinkoski	   1
+Lidén Orat.,;Collijn III,;Melander,;SKB	   1
 Lidén Orat.,;Melander	   1
 Lidèn,;Marklin,;Vallinkoski,;SKB	   1
 Lidén,;Marklin,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
@@ -787,7 +869,7 @@ Lidén,;SKB,;Stiernman,;Vallinkoski	   1
 Liden,;SKB,;Vallinkoski	   1
 Lidén,;Stiernman,;Vallinkoski,;Suomen kansallisbibliografia 1488-1700	   1
 lidén,;Vallinkoski	   1
-Lidèn,;Vallinkoski	   1
+Lidén,;Vallinkoski 2696	   1
 Lidén,;Vallinkoski,;Rämä	   1
 Lidén,;Vallinkoski,;Rämä, Irja. Lisäyksiä Fredrik Wilhelm Pippingin bibliografiaan Luettelo suomeksi präntätyistä kirjoista	   1
 Lidén,;Vallinkoski,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
@@ -885,6 +967,7 @@ Lidn 9. - Vallinkoski 740	   1
 Lidn 92. - Marklin 92. - Vallinkoski 3761	   1
 Lidn 93. - Marklin 93. - Vallinkoski 3762	   1
 Lidn. - Marklin. - Vallinkoski 2059	   1
+Lidn. - Marklin. - Vallinkoski 4450a	   1
 Lidn. - Marklin. - Vallinkoski 931	   1
 Lidn. - Marklin. - Vallinkoski 932	   1
 Lidn. - Marklin. - Vallinkoski 934	   1
@@ -956,6 +1039,7 @@ Marklin 18b. - Vallinkoski 3961	   1
 Marklin 19b. - Vallinkoski 4023	   1
 Marklin 2. - Leinberg 133 [d]	   1
 Marklin 2. - Leinberg 155	   1
+Marklin 2. - Vallinkoski 1832	   1
 Marklin 2. - Vallinkoski 2142	   1
 Marklin 21	   1
 Marklin 21b. - Vallinkoski 3965	   1
@@ -1058,11 +1142,14 @@ Melander 1014	   1
 Melander 1015	   1
 Melander 1016	   1
 Melander 1018. - SKB 98	   1
+Melander 1019	   1
+Melander 1023	   1
 Melander 1024	   1
 Melander 1028	   1
 Melander 1030	   1
 Melander 1031	   1
 Melander 1032	   1
+Melander 1034	   1
 Melander 1040	   1
 Melander 1041	   1
 Melander 1044	   1
@@ -1070,11 +1157,13 @@ Melander 1046	   1
 Melander 1047	   1
 Melander 1049	   1
 Melander 1050	   1
+Melander 1051	   1
 Melander 1053	   1
 Melander 1055	   1
 Melander 1057	   1
 Melander 1059	   1
 Melander 1061. - SKB 146	   1
+Melander 1062	   1
 Melander 1064	   1
 Melander 1065	   1
 Melander 1069	   1
@@ -1082,9 +1171,11 @@ Melander 1073	   1
 Melander 1074. - SKB 132	   1
 Melander 1076	   1
 Melander 1077	   1
+Melander 1078	   1
 Melander 108	   1
 Melander 1080	   1
 Melander 1081	   1
+Melander 1082	   1
 Melander 1084	   1
 Melander 1085	   1
 Melander 1086	   1
@@ -1100,8 +1191,10 @@ Melander 1099	   1
 Melander 1100	   1
 Melander 1100(2)	   1
 Melander 1102	   1
+Melander 1103	   1
 Melander 1104. - SKB 141	   1
 Melander 1105	   1
+Melander 1106	   1
 Melander 1107	   1
 Melander 1109	   1
 Melander 111	   1
@@ -1114,16 +1207,23 @@ Melander 1115	   1
 Melander 1117	   1
 Melander 1119	   1
 Melander 1121	   1
+Melander 1122	   1
 Melander 1123	   1
+Melander 1129	   1
 Melander 1130	   1
 Melander 1131	   1
 Melander 1133	   1
+Melander 1134	   1
 Melander 1135	   1
+Melander 1136	   1
+Melander 1137	   1
 Melander 114. - SKB 1940	   1
 Melander 1142. - SKB 143	   1
 Melander 1143	   1
 Melander 1144	   1
 Melander 1145	   1
+Melander 1146	   1
+Melander 1148	   1
 Melander 1151	   1
 Melander 1152	   1
 Melander 1153	   1
@@ -1131,10 +1231,15 @@ Melander 1154	   1
 Melander 1155	   1
 Melander 1156	   1
 Melander 1157. - SKB 103	   1
+Melander 1158	   1
 Melander 116(2)	   1
+Melander 1160	   1
+Melander 1161	   1
 Melander 1163. - SKB 97	   1
+Melander 1163(2)	   1
 Melander 1164. - Rämä 277/278. Lisä	   1
 Melander 1166	   1
+Melander 1167	   1
 Melander 1168	   1
 Melander 1169. - SKB 150	   1
 Melander 117	   1
@@ -1158,8 +1263,10 @@ Melander 1194	   1
 Melander 1195	   1
 Melander 1196	   1
 Melander 12. - SKB 1920	   1
+Melander 1201	   1
 Melander 1202	   1
 Melander 1204	   1
+Melander 1205	   1
 Melander 1206	   1
 Melander 1207	   1
 Melander 1209	   1
@@ -1179,6 +1286,7 @@ Melander 1227	   1
 Melander 1228	   1
 Melander 1229(2)	   1
 Melander 1231	   1
+Melander 1232	   1
 Melander 1233	   1
 Melander 1235	   1
 Melander 1239	   1
@@ -1189,12 +1297,17 @@ Melander 125. - SKB 15	   1
 Melander 1251	   1
 Melander 1252	   1
 Melander 1253	   1
+Melander 1254	   1
 Melander 1255	   1
 Melander 1256	   1
+Melander 1257	   1
 Melander 1258	   1
+Melander 1259(2)	   1
 Melander 1261	   1
 Melander 1262. - SKB 81	   1
+Melander 1265	   1
 Melander 1266	   1
+Melander 1267	   1
 Melander 1269	   1
 Melander 127	   1
 Melander 1271	   1
@@ -1203,6 +1316,7 @@ Melander 1273	   1
 Melander 1274. - SKB 1	   1
 Melander 1275	   1
 Melander 1276	   1
+Melander 1276(2)	   1
 Melander 1277	   1
 Melander 1278	   1
 Melander 1279	   1
@@ -1214,7 +1328,10 @@ Melander 1285	   1
 Melander 1286	   1
 Melander 1287	   1
 Melander 1287(2)	   1
+Melander 1289	   1
 Melander 129	   1
+Melander 1290	   1
+Melander 1292	   1
 Melander 1293	   1
 Melander 1295	   1
 Melander 1297	   1
@@ -1227,18 +1344,25 @@ Melander 1304	   1
 Melander 1305	   1
 Melander 1306	   1
 Melander 1307	   1
+Melander 1308	   1
 Melander 1309	   1
 Melander 131	   1
+Melander 1310	   1
 Melander 1311	   1
 Melander 1312. - SKB 154	   1
 Melander 1313	   1
 Melander 1314	   1
+Melander 1316	   1
 Melander 1318	   1
 Melander 1319	   1
 Melander 1320	   1
+Melander 1322	   1
+Melander 1323	   1
+Melander 1324	   1
 Melander 1325	   1
 Melander 1327. - SKB 133	   1
 Melander 1328	   1
+Melander 1329	   1
 Melander 1330	   1
 Melander 1331	   1
 Melander 1331(2). - SKB 22	   1
@@ -1255,8 +1379,11 @@ Melander 1350	   1
 Melander 1353	   1
 Melander 1355	   1
 Melander 1357	   1
+Melander 1358	   1
 Melander 1359	   1
+Melander 136(2)	   1
 Melander 1360	   1
+Melander 1363	   1
 Melander 1365	   1
 Melander 1366	   1
 Melander 1367(2)	   1
@@ -1278,18 +1405,24 @@ Melander 1385	   1
 Melander 1386	   1
 Melander 1387	   1
 Melander 1388	   1
+Melander 139. - SKB 2387	   1
+Melander 1390	   1
 Melander 1391	   1
 Melander 1394a	   1
 Melander 1395	   1
 Melander 140. - SKB 3222	   1
 Melander 1400	   1
+Melander 1401	   1
 Melander 1402	   1
 Melander 1403	   1
 Melander 1407	   1
 Melander 1408	   1
 Melander 1409	   1
+Melander 1410	   1
 Melander 1411	   1
+Melander 1412	   1
 Melander 1413	   1
+Melander 1414	   1
 Melander 1415. - SKB 147	   1
 Melander 1419	   1
 Melander 142 a	   1
@@ -1305,8 +1438,10 @@ Melander 1432	   1
 Melander 1434a	   1
 Melander 1435	   1
 Melander 1436	   1
+Melander 144 a. - SKB 2389	   1
 Melander 1442	   1
 Melander 1444	   1
+Melander 1445	   1
 Melander 1446	   1
 Melander 1447	   1
 Melander 1448	   1
@@ -1324,6 +1459,7 @@ Melander 1463	   1
 Melander 1464	   1
 Melander 1465	   1
 Melander 1466	   1
+Melander 1467	   1
 Melander 1468	   1
 Melander 1469	   1
 Melander 1471	   1
@@ -1335,6 +1471,8 @@ Melander 1477	   1
 Melander 1477²	   1
 Melander 1478	   1
 Melander 1479	   1
+Melander 1480	   1
+Melander 1481	   1
 Melander 1481(2)	   1
 Melander 1482	   1
 Melander 1482(3)	   1
@@ -1352,21 +1490,28 @@ Melander 1496	   1
 Melander 1497	   1
 Melander 15	   1
 Melander 15(2)	   1
+Melander 150. - SKB 2219	   1
+Melander 1500	   1
 Melander 1501	   1
 Melander 1503	   1
 Melander 1504	   1
 Melander 1505	   1
 Melander 1506	   1
+Melander 1507	   1
 Melander 1508	   1
+Melander 1509	   1
 Melander 151(2)	   1
 Melander 1511	   1
 Melander 1513	   1
+Melander 1514	   1
 Melander 1515	   1
 Melander 1517	   1
 Melander 1518	   1
 Melander 1519	   1
 Melander 1520	   1
 Melander 1521	   1
+Melander 1523. - Rämä 318/319. Lisä	   1
+Melander 1525	   1
 Melander 1526	   1
 Melander 1528	   1
 Melander 1529	   1
@@ -1374,6 +1519,7 @@ Melander 1531	   1
 Melander 1534	   1
 Melander 1535	   1
 Melander 1536	   1
+Melander 1538	   1
 Melander 154	   1
 Melander 1545	   1
 Melander 1547	   1
@@ -1394,16 +1540,22 @@ Melander 157	   1
 Melander 1572	   1
 Melander 1573	   1
 Melander 1574	   1
+Melander 1576	   1
 Melander 1577	   1
 Melander 1578	   1
+Melander 1579	   1
 Melander 1580	   1
 Melander 1581	   1
 Melander 1583	   1
 Melander 1588(2)	   1
+Melander 1591	   1
 Melander 1592 a	   1
 Melander 1592 d	   1
 Melander 1594 b	   1
+Melander 1599	   1
+Melander 1600	   1
 Melander 1605. - Rämä 331/332. Lisä	   1
+Melander 1606	   1
 Melander 1608	   1
 Melander 1609	   1
 Melander 1610	   1
@@ -1418,6 +1570,8 @@ Melander 1619	   1
 Melander 162	   1
 Melander 1621	   1
 Melander 1622	   1
+Melander 1623	   1
+Melander 1625	   1
 Melander 1626	   1
 Melander 1627	   1
 Melander 1628	   1
@@ -1427,17 +1581,21 @@ Melander 1633	   1
 Melander 1634	   1
 Melander 1635	   1
 Melander 1638	   1
+Melander 164	   1
 Melander 1640	   1
 Melander 1642	   1
 Melander 1643	   1
 Melander 1645	   1
 Melander 1645(2)	   1
+Melander 1646	   1
 Melander 1647	   1
+Melander 1648	   1
 Melander 1649	   1
 Melander 1650	   1
 Melander 1651	   1
 Melander 1654	   1
 Melander 1655	   1
+Melander 1656	   1
 Melander 1659	   1
 Melander 1661	   1
 Melander 1664	   1
@@ -1445,6 +1603,7 @@ Melander 1666	   1
 Melander 1667	   1
 Melander 1669	   1
 Melander 167	   1
+Melander 1670	   1
 Melander 1672	   1
 Melander 1673	   1
 Melander 1674	   1
@@ -1453,8 +1612,10 @@ Melander 1676	   1
 Melander 1677	   1
 Melander 1678	   1
 Melander 1679	   1
+Melander 1681	   1
 Melander 1683	   1
 Melander 1684	   1
+Melander 1685	   1
 Melander 1686	   1
 Melander 1689	   1
 Melander 169	   1
@@ -1464,9 +1625,11 @@ Melander 1693	   1
 Melander 1695	   1
 Melander 1696	   1
 Melander 1697	   1
+Melander 1698	   1
 Melander 1699	   1
 Melander 170(2)	   1
 Melander 1700	   1
+Melander 1700(2)	   1
 Melander 1701	   1
 Melander 1701(2)	   1
 Melander 1704	   1
@@ -1484,6 +1647,7 @@ Melander 1715	   1
 Melander 1716	   1
 Melander 1717	   1
 Melander 1717(2)	   1
+Melander 172	   1
 Melander 1720	   1
 Melander 1721	   1
 Melander 1722	   1
@@ -1491,11 +1655,15 @@ Melander 1726	   1
 Melander 1727	   1
 Melander 1728	   1
 Melander 1730	   1
+Melander 1731 b	   1
+Melander 1731c	   1
+Melander 1732 a	   1
 Melander 1736	   1
 Melander 1737	   1
 Melander 1738	   1
 Melander 1739	   1
 Melander 1742	   1
+Melander 1743	   1
 Melander 1744	   1
 Melander 1746	   1
 Melander 1748	   1
@@ -1529,6 +1697,7 @@ Melander 1793	   1
 Melander 1794	   1
 Melander 1798	   1
 Melander 1799	   1
+Melander 180. - SKB 2388	   1
 Melander 1800	   1
 Melander 1801	   1
 Melander 1805	   1
@@ -1546,6 +1715,8 @@ Melander 1823	   1
 Melander 1824	   1
 Melander 1825	   1
 Melander 1828	   1
+Melander 1829	   1
+Melander 183	   1
 Melander 1830	   1
 Melander 1831	   1
 Melander 1832	   1
@@ -1573,6 +1744,7 @@ Melander 1867	   1
 Melander 1868	   1
 Melander 1869	   1
 Melander 187 a, 187 b. - SKB 3669	   1
+Melander 1872	   1
 Melander 1873	   1
 Melander 1874	   1
 Melander 1875	   1
@@ -1584,7 +1756,9 @@ Melander 1881	   1
 Melander 1882	   1
 Melander 1883	   1
 Melander 1886	   1
+Melander 1887	   1
 Melander 1889	   1
+Melander 1890	   1
 Melander 1893	   1
 Melander 1894	   1
 Melander 1895	   1
@@ -1598,6 +1772,7 @@ Melander 1902	   1
 Melander 1903	   1
 Melander 1904	   1
 Melander 1905	   1
+Melander 1906	   1
 Melander 1907	   1
 Melander 1908	   1
 Melander 1910	   1
@@ -1608,20 +1783,25 @@ Melander 1915	   1
 Melander 1917	   1
 Melander 1918	   1
 Melander 1919	   1
+Melander 1920	   1
+Melander 1921	   1
 Melander 1922	   1
 Melander 1924	   1
 Melander 1926	   1
 Melander 1927	   1
 Melander 1928	   1
+Melander 1932	   1
 Melander 1933	   1
 Melander 1934	   1
 Melander 1935	   1
 Melander 1936	   1
+Melander 1939	   1
 Melander 194. - SKB 2862	   1
 Melander 1940	   1
 Melander 1941	   1
 Melander 1942	   1
 Melander 1944	   1
+Melander 1946	   1
 Melander 1947	   1
 Melander 1948	   1
 Melander 1950	   1
@@ -1641,6 +1821,7 @@ Melander 197	   1
 Melander 1971	   1
 Melander 1972	   1
 Melander 1973	   1
+Melander 1974	   1
 Melander 1975	   1
 Melander 1977	   1
 Melander 1978	   1
@@ -1650,6 +1831,7 @@ Melander 1981	   1
 Melander 1982	   1
 Melander 1983	   1
 Melander 1984	   1
+Melander 1985	   1
 Melander 1987	   1
 Melander 1988	   1
 Melander 1989	   1
@@ -1661,6 +1843,8 @@ Melander 1994	   1
 Melander 1995	   1
 Melander 1996	   1
 Melander 1997	   1
+Melander 1999	   1
+Melander 2000	   1
 Melander 2001 a	   1
 Melander 2001 b	   1
 Melander 2002	   1
@@ -1670,6 +1854,8 @@ Melander 2006	   1
 Melander 2008	   1
 Melander 2009	   1
 Melander 2010	   1
+Melander 2012	   1
+Melander 2013	   1
 Melander 2014	   1
 Melander 2016	   1
 Melander 2018	   1
@@ -1686,6 +1872,7 @@ Melander 2036	   1
 Melander 2037	   1
 Melander 2038	   1
 Melander 2040	   1
+Melander 2041	   1
 Melander 2043	   1
 Melander 2044	   1
 Melander 2045	   1
@@ -1696,6 +1883,7 @@ Melander 2052	   1
 Melander 2053	   1
 Melander 2054	   1
 Melander 2055	   1
+Melander 2062	   1
 Melander 2064	   1
 Melander 2065	   1
 Melander 2068	   1
@@ -1718,10 +1906,12 @@ Melander 2089	   1
 Melander 2090	   1
 Melander 2093	   1
 Melander 2094	   1
+Melander 2095	   1
 Melander 2098	   1
 Melander 2099	   1
 Melander 2100	   1
 Melander 2101	   1
+Melander 2102	   1
 Melander 2106	   1
 Melander 2107	   1
 Melander 211. - SKB 803	   1
@@ -1732,6 +1922,7 @@ Melander 2115 a	   1
 Melander 2115 b	   1
 Melander 2116	   1
 Melander 2117	   1
+Melander 2118	   1
 Melander 2119	   1
 Melander 2120	   1
 Melander 2122	   1
@@ -1746,19 +1937,23 @@ Melander 2135	   1
 Melander 2136	   1
 Melander 2137	   1
 Melander 2139	   1
+Melander 214 b	   1
 Melander 214(2)	   1
 Melander 2140	   1
 Melander 2141	   1
 Melander 2142	   1
 Melander 2143	   1
 Melander 215. - SKB 2496	   1
+Melander 216. - SKB 262	   1
 Melander 217. - SKB 3306	   1
 Melander 218	   1
+Melander 220	   1
 Melander 225	   1
 Melander 227	   1
 Melander 228	   1
 Melander 229	   1
 Melander 230(2)	   1
+Melander 233	   1
 Melander 234 a, 234 b. - SKB 317	   1
 Melander 239. - SKB 4291	   1
 Melander 243. - SKB 4290	   1
@@ -1784,6 +1979,7 @@ Melander 284	   1
 Melander 286	   1
 Melander 288	   1
 Melander 290	   1
+Melander 293	   1
 Melander 296	   1
 Melander 298	   1
 Melander 302	   1
@@ -1793,6 +1989,7 @@ Melander 313	   1
 Melander 314	   1
 Melander 315	   1
 Melander 323	   1
+Melander 324	   1
 Melander 325. - Rämä 74/75. Lisä: 1	   1
 Melander 326	   1
 Melander 327	   1
@@ -1810,28 +2007,36 @@ Melander 349	   1
 Melander 350	   1
 Melander 352	   1
 Melander 354	   1
+Melander 356. - Rämä 75/76. Lisä	   1
 Melander 361	   1
 Melander 362	   1
 Melander 364	   1
 Melander 365	   1
 Melander 368	   1
 Melander 369. - Rämä 81/82. Lisä: 1	   1
+Melander 370	   1
 Melander 371. - Rämä 81/82. Lisä: 2	   1
 Melander 372	   1
+Melander 374	   1
 Melander 377	   1
 Melander 378	   1
+Melander 379	   1
 Melander 381	   1
 Melander 382	   1
+Melander 386	   1
 Melander 387	   1
 Melander 388	   1
 Melander 389	   1
 Melander 391	   1
 Melander 392	   1
 Melander 393	   1
+Melander 395	   1
 Melander 396. - Rämä 92 b/93. Lisä	   1
 Melander 397	   1
+Melander 398	   1
 Melander 400	   1
 Melander 401	   1
+Melander 402	   1
 Melander 403	   1
 Melander 407	   1
 Melander 407(2)	   1
@@ -1840,13 +2045,17 @@ Melander 409	   1
 Melander 412	   1
 Melander 415	   1
 Melander 416	   1
+Melander 418	   1
 Melander 419	   1
 Melander 420a ja 420b	   1
+Melander 421	   1
+Melander 422	   1
 Melander 424	   1
 Melander 425	   1
 Melander 428. - SKB 17	   1
 Melander 429	   1
 Melander 435. - Rämä 99/100. Lisä	   1
+Melander 436. - Rämä 100/101. Lisä	   1
 Melander 437	   1
 Melander 438	   1
 Melander 44. - SKB 1325	   1
@@ -1858,33 +2067,44 @@ Melander 444	   1
 Melander 445	   1
 Melander 446	   1
 Melander 447	   1
+Melander 448	   1
 Melander 449(2)	   1
 Melander 450	   1
 Melander 451	   1
 Melander 452	   1
+Melander 454	   1
 Melander 455	   1
 Melander 456	   1
 Melander 457	   1
+Melander 458	   1
 Melander 459	   1
 Melander 460	   1
 Melander 461	   1
 Melander 463	   1
 Melander 464	   1
 Melander 466	   1
+Melander 467	   1
 Melander 468	   1
 Melander 469	   1
 Melander 47	   1
+Melander 471	   1
 Melander 473 a ja 473 b	   1
+Melander 475	   1
 Melander 477	   1
 Melander 479	   1
 Melander 48	   1
 Melander 481	   1
 Melander 482	   1
 Melander 483	   1
+Melander 484	   1
+Melander 485	   1
 Melander 486	   1
+Melander 487. - Rämä 109/110. Lisä	   1
 Melander 489	   1
+Melander 490	   1
 Melander 492	   1
 Melander 494(2)	   1
+Melander 496. - SKB 158	   1
 Melander 497	   1
 Melander 501	   1
 Melander 502	   1
@@ -1892,6 +2112,7 @@ Melander 503, 790, 830, 840, 936b	   1
 Melander 504	   1
 Melander 505	   1
 Melander 506	   1
+Melander 507	   1
 Melander 509	   1
 Melander 512	   1
 Melander 513	   1
@@ -1912,26 +2133,38 @@ Melander 55 b. - SKB 3144	   1
 Melander 550	   1
 Melander 552	   1
 Melander 554	   1
+Melander 558	   1
+Melander 559	   1
 Melander 561	   1
 Melander 562	   1
 Melander 566	   1
 Melander 567	   1
 Melander 57. - SKB 3145	   1
 Melander 576	   1
+Melander 577	   1
 Melander 581	   1
+Melander 584	   1
 Melander 592	   1
 Melander 593	   1
+Melander 595	   1
 Melander 596(2)	   1
 Melander 599	   1
 Melander 6. - SKB 828	   1
 Melander 601	   1
+Melander 604	   1
 Melander 607	   1
 Melander 608	   1
+Melander 61. - SKB 3383	   1
 Melander 611	   1
 Melander 614	   1
+Melander 616	   1
 Melander 617	   1
+Melander 618	   1
+Melander 619	   1
 Melander 62. - SKB 1311	   1
 Melander 620	   1
+Melander 622	   1
+Melander 63. - SKB 1009	   1
 Melander 630	   1
 Melander 632	   1
 Melander 633	   1
@@ -1951,11 +2184,14 @@ Melander 656	   1
 Melander 657	   1
 Melander 659	   1
 Melander 660	   1
+Melander 662	   1
 Melander 663	   1
+Melander 664	   1
 Melander 665	   1
 Melander 665(2)	   1
 Melander 666	   1
 Melander 667	   1
+Melander 671	   1
 Melander 672. - SKB 152	   1
 Melander 674	   1
 Melander 674(2)	   1
@@ -1967,6 +2203,7 @@ Melander 682	   1
 Melander 683	   1
 Melander 686	   1
 Melander 687	   1
+Melander 689	   1
 Melander 690	   1
 Melander 691	   1
 Melander 694. - SKB 102	   1
@@ -1974,9 +2211,12 @@ Melander 695	   1
 Melander 696	   1
 Melander 698	   1
 Melander 699	   1
+Melander 70. - SKB 1007	   1
 Melander 702	   1
 Melander 703	   1
 Melander 705	   1
+Melander 706	   1
+Melander 707	   1
 Melander 708a ja 708b	   1
 Melander 709	   1
 Melander 711	   1
@@ -1987,8 +2227,12 @@ Melander 718	   1
 Melander 719	   1
 Melander 720	   1
 Melander 722	   1
+Melander 724	   1
+Melander 725	   1
 Melander 727	   1
+Melander 728	   1
 Melander 729	   1
+Melander 73 a ja 73 b. - SKB 2062	   1
 Melander 731	   1
 Melander 733	   1
 Melander 735	   1
@@ -2002,11 +2246,14 @@ Melander 744. - Rämä 197/198. Lisä: 1	   1
 Melander 745	   1
 Melander 747	   1
 Melander 749. - SKB 110	   1
+Melander 75	   1
 Melander 750	   1
+Melander 753	   1
 Melander 755	   1
 Melander 756	   1
 Melander 758	   1
 Melander 759	   1
+Melander 76. - SKB 1011	   1
 Melander 763	   1
 Melander 764	   1
 Melander 765. - Rämä 197/198. Lisä: 2	   1
@@ -2025,12 +2272,15 @@ Melander 787	   1
 Melander 787(2)	   1
 Melander 788	   1
 Melander 789	   1
+Melander 79 b	   1
 Melander 790	   1
+Melander 793	   1
 Melander 794	   1
 Melander 795	   1
 Melander 797	   1
 Melander 798	   1
 Melander 799	   1
+Melander 79a	   1
 Melander 8(1)	   1
 Melander 800	   1
 Melander 801	   1
@@ -2045,6 +2295,7 @@ Melander 808	   1
 Melander 809	   1
 Melander 81	   1
 Melander 810	   1
+Melander 813	   1
 Melander 814	   1
 Melander 815	   1
 Melander 816	   1
@@ -2064,6 +2315,7 @@ Melander 833	   1
 Melander 834	   1
 Melander 835	   1
 Melander 836	   1
+Melander 838	   1
 Melander 839	   1
 Melander 842	   1
 Melander 843	   1
@@ -2072,8 +2324,11 @@ Melander 849	   1
 Melander 85, 107 ja 109(2)	   1
 Melander 850	   1
 Melander 851. - SKB 72	   1
+Melander 852	   1
 Melander 853	   1
 Melander 854	   1
+Melander 855	   1
+Melander 856	   1
 Melander 859	   1
 Melander 860	   1
 Melander 861	   1
@@ -2082,6 +2337,7 @@ Melander 864	   1
 Melander 866	   1
 Melander 868	   1
 Melander 869	   1
+Melander 870	   1
 Melander 871	   1
 Melander 874	   1
 Melander 875	   1
@@ -2090,18 +2346,30 @@ Melander 878	   1
 Melander 879	   1
 Melander 880	   1
 Melander 881	   1
+Melander 881(2)	   1
+Melander 886	   1
+Melander 890	   1
 Melander 893	   1
+Melander 895	   1
+Melander 898	   1
+Melander 90	   1
 Melander 900	   1
 Melander 902	   1
 Melander 903	   1
+Melander 904	   1
 Melander 906	   1
 Melander 911	   1
+Melander 915	   1
+Melander 917	   1
 Melander 918	   1
 Melander 920. - SKB 93	   1
 Melander 921	   1
 Melander 922	   1
 Melander 923	   1
+Melander 924	   1
+Melander 925	   1
 Melander 927	   1
+Melander 929	   1
 Melander 930	   1
 Melander 931	   1
 Melander 932. - SKB 139	   1
@@ -2118,12 +2386,15 @@ Melander 943	   1
 Melander 944	   1
 Melander 946	   1
 Melander 947	   1
+Melander 948	   1
 Melander 95. - SKB 2379	   1
 Melander 950. - SKB 80	   1
+Melander 951	   1
 Melander 953	   1
 Melander 960	   1
 Melander 961	   1
 Melander 962	   1
+Melander 964	   1
 Melander 966	   1
 Melander 968	   1
 Melander 969	   1
@@ -2131,6 +2402,7 @@ Melander 970	   1
 Melander 972	   1
 Melander 972(2)	   1
 Melander 976	   1
+Melander 978	   1
 Melander 979	   1
 Melander 979(2)	   1
 Melander 984	   1
@@ -2141,6 +2413,7 @@ Melander 992	   1
 Melander 994	   1
 Melander 996	   1
 Melander 997	   1
+Melander 999	   1
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Holmberg, Eric. Program utgivna vid Åbo akademi,;Suomen kansallisbibliografia 1488-1700	   1
 Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Melander,;Program utgivna vid Åbo akademi / Eric Holmberg,;Suomen kansallisbibliografia 1488-1700	   1
@@ -2149,10 +2422,10 @@ Melander,;Rämä.	   1
 Melander,;SKB 11	   1
 Melander,;Stiernman,;Suomen kansallisbibliografia 1488-1700	   1
 Melander,;Tartu ülikooli trükikoda 1632-1710 / Ene-Lille Jaanson	   1
-Melander.	   1
 Meyer 666	   1
 Ofärdsårens politiska litteratur : (ur 'Kagalens' arkiv II) / Ernst Estlander	   1
 Öfversigt af Finlands litteratur ifrån år 1542 till 1770 / Sven Gabriel Elmgren	   1
+Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
 Pipp. 1961. - Rämä 1954-1961	   1
 Pipping - Rämä	   1
 Pipping [1603 a(2)]. - Rämä 1599-1620	   1
@@ -2270,6 +2543,7 @@ Pipping 1094. - Rämä 1093-1100	   1
 Pipping 1095. - Rämä 1093-1100	   1
 Pipping 1096. - Rämä 1093-1100	   1
 Pipping 1099. - Rämä 1093-1100	   1
+Pipping 110. - Rämä 110-112. - Collijn IV p. 764	   1
 Pipping 1100. - Rämä 1093-1100	   1
 Pipping 1102. - Rämä 1101-1109	   1
 Pipping 1103. - Rämä 1101-1109	   1
@@ -2498,6 +2772,7 @@ Pipping 1304. - Rämä 1301-1305	   1
 Pipping 1305. - Rämä 1301-1305	   1
 Pipping 1306. - Rämä 1306-1308	   1
 Pipping 1307. - Rämä 1306-1308	   1
+Pipping 1308. - Rämä 1306-1308	   1
 Pipping 131 f. - Collijn IV p. 49. - Rämä 131 f	   1
 Pipping 131 g. - Rämä 131 g-h	   1
 Pipping 131 h. - Rämä 131 g-h	   1
@@ -2690,6 +2965,7 @@ Pipping 1437 a. - Rämä 1436-1437	   1
 Pipping 1437. - Rämä (toim.) 1436-1437	   1
 Pipping 1438. - Rämä 1438-1448	   1
 Pipping 1439. - Rämä 1438-1448	   1
+Pipping 144. - Melander 536. - Rämä 144	   1
 Pipping 1440. - Rämä 1438-1448	   1
 Pipping 1441. - Rämä 1438-1448	   1
 Pipping 1443. - Rämä 1438-1448	   1
@@ -2891,6 +3167,7 @@ Pipping 160 c. - Rämä 160 b-c	   1
 Pipping 160 d. - Rämä 160 d	   1
 Pipping 160 e. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 35	   1
 Pipping 160. - Rämä 160	   1
+Pipping 1600. - Rämä 1599-1620	   1
 Pipping 1601. - Rämä 1599-1620	   1
 Pipping 1602 a. - Rämä 1599-1620	   1
 Pipping 1603. - Rämä (toim.) 1599-1620	   1
@@ -3356,6 +3633,7 @@ Pipping 288 f. - Rämä 288 f-i	   1
 Pipping 288 g. - Rämä 288 g	   1
 Pipping 288 h. - Rämä 288 h	   1
 Pipping 288 i. - Rämä 288 i	   1
+Pipping 288, Pipping 288 a. - Rämä 288, Rämä 288 a	   1
 Pipping 289. - Hultin I s. 161. - Rämä 289. - SKB 2774	   1
 Pipping 2894. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 72	   1
 Pipping 29. - Collijn IV p. 702. - Rämä 29	   1
@@ -3399,6 +3677,7 @@ Pipping 332. - Rämä 332	   1
 Pipping 333. - Melander 1593. - Rämä 333	   1
 Pipping 334. - Rämä 334	   1
 Pipping 335. - Melander 1629. - Rämä 335	   1
+Pipping 336 a. - Hultin I s. 16. - Rämä 336 a-338. - SKB 333	   1
 Pipping 336. - Hultin I s. 16. - Rämä 336	   1
 Pipping 337. - Rämä 336 a-338	   1
 Pipping 338. - Rämä 336 a-338	   1
@@ -3501,8 +3780,11 @@ Pipping 358 k. - Rämä 358 f-l	   1
 Pipping 358 l. - Rämä 358 f-l	   1
 Pipping 358. - Rämä 358	   1
 Pipping 359 (mahd. sama kuin Pipping 4060). - Rämä 359 ja 4060	   1
+Pipping 36 a. - Collijn IV p. 842. - Rämä 36 a	   1
+Pipping 36. - Rämä 36	   1
 Pipping 362	   1
 Pipping 363 a. - Melander 1732 b. - Rämä 363 a	   1
+Pipping 363. - Melander 1732 b. - Rämä 363	   1
 Pipping 364. - Rämä 364	   1
 Pipping 366. - Rämä 366	   1
 Pipping 367. - Rämä 367	   1
@@ -3524,6 +3806,7 @@ Pipping 376. - Rämä 376	   1
 Pipping 377. - Rämä 377	   1
 Pipping 379 = Pipping 378. - Rämä 379	   1
 Pipping 38 a. - Hultin I s. 62. - Collijn IV p. 399. - Rämä 38 a. - 1934	   1
+Pipping 38. - Hultin I s. 61. - Collijn IV p. 399. - Rämä 38. - SKB 1933	   1
 Pipping 380. - SAJ s. 309. - Rämä 380	   1
 Pipping 381. - Rämä 381	   1
 Pipping 382. - Rämä 382-384	   1
@@ -3615,6 +3898,7 @@ Pipping 427. - SAJ s. 310. - Rämä 427	   1
 Pipping 428. - Rämä 428	   1
 Pipping 429. - Rämä 428-430	   1
 Pipping 43. - Collijn IV p. 431-432. - Rämä 43	   1
+Pipping 43. - Collijn IV p. 740. - Rämä 43	   1
 Pipping 430. - Rämä 428-430	   1
 Pipping 431. - Rämä 431-433	   1
 Pipping 434. - Rämä 434	   1
@@ -3876,6 +4160,8 @@ Pipping 619. - Rämä 619	   1
 Pipping 62. - Collijn IV p. 698. - Rämä 61-64	   1
 Pipping 620 a. - Rämä 620-622 b	   1
 Pipping 620. - Rämä 620-622 b	   1
+Pipping 622 a. - Rämä 620-622 b	   1
+Pipping 622 c. - Rämä 622 c	   1
 Pipping 622 f. - Rämä 622 e-g	   1
 Pipping 622 g. - Rämä 622 e-g	   1
 Pipping 623. - SAJ s. 317. - Rämä 623-638	   1
@@ -3934,6 +4220,7 @@ Pipping 672. - Rämä 669-676	   1
 Pipping 673. - Rämä 669-676	   1
 Pipping 674. - Rämä 669-676	   1
 Pipping 675. - Rämä 669-676	   1
+Pipping 677. - Rämä 676 a-678 a	   1
 Pipping 678 a. - Rämä 676 a-678 a	   1
 Pipping 678 b. - Rämä 678 b	   1
 Pipping 678 e. - Rämä 678 e	   1
@@ -4008,6 +4295,7 @@ Pipping 711 c. - Rämä 711 c	   1
 Pipping 711. - Rämä 711	   1
 Pipping 712 b. - Rämä 712 b	   1
 Pipping 712 d. - Suomalainen kirjallisuus 1544-1877 / Valfrid Vasenius, s. 54	   1
+Pipping 712. - Rämä 712	   1
 Pipping 713. - SAJ s. 319. - Rämä 713-730	   1
 Pipping 714. - Rämä 713-730	   1
 Pipping 715. - Rämä 713-730	   1
@@ -4015,6 +4303,7 @@ Pipping 716. - Rämä 713-730	   1
 Pipping 717. - Rämä 713-730	   1
 Pipping 718. - Rämä 713-730	   1
 Pipping 719. - Rämä 713-730	   1
+Pipping 72. - Melander 240. - Rämä 72. - SKB 3138	   1
 Pipping 720. - Rämä 713-730	   1
 Pipping 721. - Rämä 713-730	   1
 Pipping 722. - Rämä 713-730	   1
@@ -4030,6 +4319,7 @@ Pipping 735. - Rämä 735	   1
 Pipping 736. - Rämä 736	   1
 Pipping 738. - Rämä 738-760	   1
 Pipping 739. - Rämä 738-760	   1
+Pipping 74. - Collijn IV p. 756. - Rämä 74	   1
 Pipping 740. - Rämä 730-760	   1
 Pipping 741. - Rämä 738-760	   1
 Pipping 742. - Rämä 738-760	   1
@@ -4262,6 +4552,7 @@ Pipping 964. - Rämä 958-964	   1
 Pipping 967. - Rämä 967-972	   1
 Pipping 968. - Rämä 967-972	   1
 Pipping 969. - Rämä 967-972	   1
+Pipping 97. - Collijn IV p. 2. - Rämä 97. - Vasenius s. 72. - SKB 5	   1
 Pipping 970. - Rämä 967-972	   1
 Pipping 973. - Rämä 973-973 a	   1
 Pipping 975. - SAJ s. 321. - Rämä 974-975	   1
@@ -4308,7 +4599,7 @@ Pipping,;Hultin I,;Henrik Renqvist julkaisijana ja kirjakauppiaana 1815-1866 / T
 Pipping,;Hultin I,;Kirjallinen kuukauslehti. 1868 : 7	   1
 Pipping,;Hultin III	   1
 Pipping,;Lidén,;Vallinkoski	   1
-Pipping,;Melander,;Rämä	   1
+Pipping,;Melander,;Rämä,;Vasenius,;SKB	   1
 Pipping,;Rämä 472	   1
 Pipping,;Rämä,;Bring 1958	   1
 Pipping,;Rämä,;Gabriel Nikander. Myr- och sjömalmsmältning i äldre tider, julkaisussa Historisk tidskrift för Finland ; 1928	   1
@@ -4398,10 +4689,12 @@ Rämä [529:1]	   1
 Rämä [541 a:1]	   1
 Rämä [565 e:1]	   1
 Rämä [566 n:1]. - Ei Hultin	   1
+Rämä [575.]	   1
 Rämä [581 f:1]	   1
 Rämä [594 b:1]	   1
 Rämä [604 b:1]	   1
 Rämä [604 h:1]	   1
+Rämä [622 b:1]	   1
 Rämä [666:1]	   1
 Rämä [695 e:1]	   1
 Rämä [709 d:1]	   1
@@ -4452,6 +4745,7 @@ Rämä 651/652. Lisä: 1	   1
 Rämä 651/652. Lisä: 2	   1
 Rämä 655/656. Lisä	   1
 Rämä 663/664. Lisä	   1
+Rämä 667/668. Lisä	   1
 Rämä 668/669. Lisä: 1	   1
 Rämä 690/691. Lisä: 2	   1
 Rämä 703/704	   1
@@ -4464,6 +4758,7 @@ Rämä 989/990. Lisä	   1
 Rämä,;Hultin	   1
 Rämä,;Hultin I	   1
 Rämä,;Kirjapainotaito Suomessa. 2 / Carl-Rudolf Gardberg	   1
+Rämä,;SKB	   1
 Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Rämä. [133 ä:1]	   1
 Recke-Napiersky 4, s. 494	   1
@@ -4485,18 +4780,19 @@ SKB	   1
 SKB 142	   1
 SKB 155	   1
 SKB 156	   1
+SKB 157	   1
 SKB 1740	   1
 SKB 2410	   1
 SKB 2411. - Melander 936 a	   1
 SKB 2412. - Melander 936 b	   1
 SKB 343	   1
+SKB 8	   1
 SKB 94	   1
 SKB,;Lidén,;Vallinkoski	   1
 SKB,;Rämä,;SKB	   1
 Specimen historiae litterariae Fennicae / Petrus Joh. Alopaeus	   1
 Stienrman s. 100-101. - Melander 967	   1
 Stierman s. 69, 74, 98. - Pipping 176. - Collijn IV sp. 1022. - Rämä 176	   1
-Stiernman	   1
 Stiernman p. 30;Pipping 64;Collijn IV column 338-339;Rämä 61-64	   1
 Stiernman s. 100. - Melander 1159	   1
 Stiernman s. 103-104? - Melander 1190	   1
@@ -4504,12 +4800,17 @@ Stiernman s. 103-104. - Melander 908	   1
 Stiernman s. 104, 111. - Melander 1199. - Suomen kansallisbibliografia 1488-1700, 3065	   1
 Stiernman s. 106. - Collijn IV p. 305-306. - SKB 1381	   1
 Stiernman s. 106. - Melander 762	   1
+Stiernman s. 107. - Melander 1560	   1
+Stiernman s. 107. - Melander 710	   1
+Stiernman s. 108. - Melander 775	   1
 Stiernman s. 110-111. - Melander 857	   1
 Stiernman s. 111. - Melander 1620	   1
 Stiernman s. 112, 114. - Melander 1484	   1
 Stiernman s. 112, 114. - Melander 1706	   1
 Stiernman s. 112. - Pipping 214. - Melander 812a ja 812b. - Rämä 214	   1
 Stiernman s. 115. - Melander 975	   1
+Stiernman s. 116. - Melander 916	   1
+Stiernman s. 117. - Melander 909	   1
 Stiernman s. 12, 14. - Melander 1537	   1
 Stiernman s. 126. - Melander 1354	   1
 Stiernman s. 137. - Melander 1498a	   1
@@ -4524,24 +4825,35 @@ Stiernman s. 26. - Melander 557	   1
 Stiernman s. 26. - Melander 754	   1
 Stiernman s. 26. - Melander 982	   1
 Stiernman s. 27. - Melander 1006	   1
+Stiernman s. 31:4. - Melander 232	   1
 Stiernman s. 31. - Lidn 27. - Vallinkoski 4309	   1
 Stiernman s. 37. - Melander 210. - SKB 3217	   1
 Stiernman s. 37. - Melander 235 a, 235 b. - SKB 3218	   1
 Stiernman s. 42	   1
+Stiernman s. 43. - Melander 583	   1
+Stiernman s. 44. - Melander 276. - SKB 639	   1
+Stiernman s. 44. - Melander 373	   1
 Stiernman s. 46-47. - Melander 406	   1
 Stiernman s. 48. - Melander 292	   1
 Stiernman s. 49. - Melander 508	   1
 Stiernman s. 49. - Melander 556	   1
 Stiernman s. 49. - Melander 569	   1
+Stiernman s. 50. - Melander 519	   1
+Stiernman s. 51. - Pipping 276. - Melander 1029. - Rämä 276-277	   1
+Stiernman s. 52	   1
+Stiernman s. 53-54. - Melander 568. - Pipping 163. - Vasenius s. 72. - Rämä 161-163. -  SKB 6	   1
 Stiernman s. 54-55. - Melander 1288	   1
 Stiernman s. 54. - Pipping 213. - Melander 811. - Rämä 213	   1
 Stiernman s. 56. - Melander 413	   1
 Stiernman s. 59, 91-92, 102. - Melander 791	   1
 Stiernman s. 59. - Melander 426	   1
 Stiernman s. 60. - Melander 423	   1
+Stiernman s. 61. - Melander 439	   1
+Stiernman s. 61. - Melander 564	   1
 Stiernman s. 64:4. - Collijn IV p. 618	   1
 Stiernman s. 64. - Melander 476	   1
 Stiernman s. 64. - Melander 580	   1
+Stiernman s. 64. - Pipping 107. - Melander 480. - Rämä 106-109	   1
 Stiernman s. 65, n:o 2. - Pipping 202 i. - Rukoilevaisten kirjoja / Osmo Tiililä, s. 32.	   1
 Stiernman s. 65. - Collijn IV p. 911. - SKB 3721	   1
 Stiernman s. 65. - Melander 1042	   1
@@ -4563,6 +4875,7 @@ Stiernman s. 69, 75. - Melander 771	   1
 Stiernman s. 69, 75. - Pipping 202. - Rämä 202. - SKB 3375	   1
 Stiernman s. 69, 77. - Collijn IV p. 315	   1
 Stiernman s. 69, 77. - Collijn IV p. 848	   1
+Stiernman s. 71:7. - Collijn IV p. 554. - SKB 2524	   1
 Stiernman s. 72. - Pipping 131 a. - Rämä 131 a-e	   1
 Stiernman s. 74-75	   1
 Stiernman s. 74. - Pipping 131 b. - Rämä 131 a-e	   1
@@ -4581,6 +4894,7 @@ Stiernman s. 77, 80. - Melander 912	   1
 Stiernman s. 77, 80. - Melander 928	   1
 Stiernman s. 77:126. - Pipping 249. - Rämä 249	   1
 Stiernman s. 83. - Collijn IV p. 110. - SKB 683	   1
+Stiernman s. 83. - Melander 661	   1
 Stiernman s. 84, 87. - Melander 1087a	   1
 Stiernman s. 84, 88. - Melander 1140	   1
 Stiernman s. 84, 88. - Melander 1399	   1
@@ -4615,6 +4929,8 @@ Stiernman s. 98-99? - Melander 894	   1
 Stiernman s. 98. - Pipping 157. - Collijn IV p. 575. - Rämä 157	   1
 Stiernman s. 98. - Pipping 272. - Rämä 272	   1
 Stiernman s. 98. - Pipping 300. - Rämä 300	   1
+Stiernman s. 99. - Melander 623	   1
+Stiernman s. 99. - Melander 704	   1
 Stiernman,;Collijn IV;Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman,;Lidén III,;Collijn IV,;Vallinkoski,;SKB	   1
 Stiernman,;Melander, Toini. Personskrifter hänförande sig till Finland 1562-1713,;Suomen kansallisbibliografia 1488-1700	   1
@@ -4625,6 +4941,7 @@ Stiernman,;Pipping,;Rämä,;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman,;Vallinkoski	   1
 Stiernman;Collijn IV;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman;Melander;Suomen kansallisbibliografia 1488-1700	   1
+Stiernman;Orationes academicae Fennorum extra patriam habitae / K. G. Leinberg;Dissertationen und Orationen der Universität Dorpat 1632-1656 / Matti A. Sainio;Suomen kansallisbibliografia 1488-1700	   1
 Stiernman;Personskrifter hänförande sig till Finland 1562-1713 / Toini Melander;Suomen kansallisbibliografia 1488-1700	   1
 Suomalainen kirjallisuus 1544-1877	   1
 Suomalainen kirjallisuus 1886-1891 / Valfrid Vasenius	   1

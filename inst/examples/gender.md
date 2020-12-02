@@ -1,7 +1,7 @@
 ---
 title: "Gender preprocessing overview"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2020-11-14"
+date: "2020-12-02"
 output: markdown_document
 ---
 
@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 6873 unique male authors
+ * 7181 unique male authors
  
- * 891 unique female authors
+ * 892 unique female authors
  
- * 29842 documents (42.3%) with a male author
+ * 30520 documents (42.8%) with a male author
  
- * 2878 documents (4.1%) with a female author
+ * 2879 documents (4%) with a female author
  
- * 37619 documents (53.4%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 37748 documents (52.9%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -48,11 +48,11 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|          |           150|         0.21|
+|          |           154|         0.22|
 |ambiguous |            13|         0.02|
-|female    |          2878|         4.08|
-|male      |         29842|        42.34|
-|NA        |         37606|        53.35|
+|female    |          2879|         4.04|
+|male      |         30520|        42.80|
+|NA        |         37735|        52.92|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 

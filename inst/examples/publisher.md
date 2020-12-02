@@ -1,18 +1,18 @@
 ---
 title: "Publisher preprocessing summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2020-11-14"
+date: "2020-12-02"
 output: markdown_document
 ---
 
 
 ### Publishers
 
- * 8120 [unique publishers](output.tables/publisher_accepted.csv)
+ * 8130 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60810 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 61566 documents have unambiguous publisher information (86.3%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
- * 1909 documents are identified as self-published (2.7%). 
+ * 1792 documents are identified as self-published (2.5%). 
 
  * [Discarded publisher entries](output.tables/publisher_discarded.csv)
 
@@ -35,27 +35,27 @@ Title count versus paper consumption (top publishers):
 
 ![plot of chunk publishertitlespapers](figure/publishertitlespapers-1.png)
 
-|publisher                       | titles|     paper|
-|:-------------------------------|------:|---------:|
-|Edlund                          |   1066| 1814256.9|
-|Frenckell, Johan Christopher I  |   1742| 1462097.8|
-|Frenckell, Johan Christopher II |   2208| 2626298.5|
-|Hansson, Peter                  |    982| 1612030.7|
-|Kämpe, Johan                    |    990| 1558465.1|
-|Londicer, Georg Wilhelm         |   2103|  591634.4|
-|Otava                           |   2187| 1767032.7|
-|Söderström                      |   1207|  852544.8|
-|Wall, Johan Larsson             |   1266| 2210292.0|
-|WSOY                            |   2878| 1722436.1|
+|publisher                       | titles| paper|
+|:-------------------------------|------:|-----:|
+|Edlund                          |   1067|     0|
+|Frenckell, Johan Christopher I  |   1748|     0|
+|Frenckell, Johan Christopher II |   2215|     0|
+|Hansson, Peter                  |   1095|     0|
+|Kämpe, Johan                    |   1035|     0|
+|Londicer, Georg Wilhelm         |   2109|     0|
+|Otava                           |   2187|     0|
+|Söderström                      |   1207|     0|
+|Wall, Johan Larsson             |   1404|     0|
+|WSOY                            |   2880|     0|
 
 
 ### Corporates
 
 Summaries of the corporate field.
 
- * 1407 [unique corporates](output.tables/corporate_accepted.csv)
+ * 1415 [unique corporates](output.tables/corporate_accepted.csv)
 
- * 19544 documents have unambiguous corporate information (27.7%). 
+ * 20305 documents have unambiguous corporate information (28.5%). 
 
  * [Discarded corporate entries](output.tables/corporate_discarded.csv)
 

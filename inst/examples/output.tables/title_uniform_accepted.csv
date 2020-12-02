@@ -1,5 +1,5 @@
 Name	Count
-Total count (na.rm TRUE): 	11892
+Total count (na.rm TRUE): 	12194
 Meditationes sancti evangelii.	103
 Meditationes sanctarum epistolarum.	 77
 Chronicon episcoporum Finlandensium.	 56
@@ -99,10 +99,13 @@ Yxi laulu laulettawa.	  6
 Aeneis	  5
 Borgå gymnasii historia.	  5
 De centonibus poëticis.	  5
+De justitia	  5
 De poësi Fennica.	  5
 De prisco in patria servorum jure.	  5
 De revelatione.	  5
 De stellis	  5
+De temperantia	  5
+De terra	  5
 De tonis combinationis.	  5
 De typho contagioso.	  5
 De urbe Uloa.	  5
@@ -146,7 +149,7 @@ De Curonibus saeculis XII et XIII Fenniam infestantibus.	  4
 De differentia notionum instrumentalium et realium.	  4
 De elocutione oratoris sacri.	  4
 De facultate in homine imaginativa.	  4
-De justitia	  4
+De gratitudine	  4
 De magia naturali	  4
 De meritis litterariis Lomonossovii.	  4
 De ministerio ecclesiastico	  4
@@ -155,7 +158,6 @@ De poesi gentium septentrionalium antiquissima.	  4
 De principiorum chymicorum natura et indole	  4
 De rerum Fennicarum scriptoribus ante conditam Academiam Aboënsem.	  4
 De Tavastia.	  4
-De temperantia	  4
 De transmutatione specierum in regno vegetabili.	  4
 De usu et applicatione historiae ad vitam civilem.	  4
 Ergasterion virtutum	  4
@@ -223,10 +225,13 @@ Uplysningar i swenska historien.	  4
 Utkast till en systematisk uppställning af de till Finlands pastoral-lagfarenhet hörande ämnen i läran om giftermål.	  4
 Vaticinia Jesaiae in Idumaeos latine versa.	  4
 Vaticinium Nahumi latine et fennice redditum, notisque illustratum.	  4
+Walitus wirsi, Suomen surkeudest.	  4
 Wie Heinrich von Eichenfels zur Erkenntniss Gottes kam	  4
+Yxikertaiset kysymyxet.	  4
 Aapinen.	  3
 Actiones humanae earumque praecipuae affectiones	  3
 Ad mineralogiam Fennicam momenta.	  3
+Angelographia	  3
 Anmärkningar angående thermometrars förfärdigande och bruk.	  3
 Anzeigung vnd Bekantnus des Glaubens vnnd der Lere, so die adpellirenden Stende key	  3
 Aphorismorum chemicorum centuria.	  3
@@ -239,12 +244,15 @@ Commentatio in stilum, ejusque triplicem characterem	  3
 Consecutio et ministerium sensus accentuum Sacri Codicis hebraei	  3
 Conspectus rei diplomaticae Svecanae.	  3
 De angaris.	  3
+De angelis	  3
 De angelis imperiorum, ex Dan. X. 13, 20	  3
 De arte poëtica.	  3
 De avibus	  3
 De baptismo (1648)	  3
+De causa interna formali	  3
 De coena Domini	  3
 De columbis	  3
+De conjugio	  3
 De crimine conatus.	  3
 De cupro albo Sinensi.	  3
 De denario Beati Petri.	  3
@@ -264,16 +272,20 @@ De Laro ridibundo periculum ornithologicum.	  3
 De libero arbitrio	  3
 De libris deperditis in Sacro Veteris Testamenti codice citatis.	  3
 De loco	  3
+De magistratu politico	  3
+De modestia	  3
 De modestia et magnanimitate	  3
 De mundo (1674)	  3
 De nomenclatura salium.	  3
 De nova facie orbis Europaei circa saeculum reformationis exorta.	  3
 De orthoëpia & orthographia linguae fennicae.	  3
+De pace	  3
 De peccato originis	  3
 De potissimis fluviorum universi orbis	  3
 De praedictionibus politicis.	  3
 De praejudiciis oeconomiae noxiis.	  3
 De professoribus Regiae Academiae Aboënsis, ab hujus natalibus primum designatis.	  3
+De providentia divina	  3
 De prudentia	  3
 De ratione vivendi scholae Italicae.	  3
 De regimine et constitutione reipublicae litterariae.	  3
@@ -283,7 +295,6 @@ De sacra Scriptura	  3
 De scholis prophetarum probabilia.	  3
 De sensibus hominis	  3
 De sermone (1697)	  3
-De terra	  3
 De theopneustía Scripturae Sacrae.	  3
 De tympanis magicis	  3
 Deorum cum mortalibus immediate habita commercia ex Homero illustrata.	  3
@@ -441,9 +452,7 @@ Utkast til predikningar.	  3
 Vårt land	  3
 Vaticinium Michae fennice versum notisque illustratum sistens.	  3
 Wähä catechismus (1654)	  3
-Walitus wirsi, Suomen surkeudest.	  3
 Wirmoensis in Finlandia territorii memorabilia.	  3
-Yxikertaiset kysymyxet.	  3
 'Papa hat's erlaubt'	  2
 A Falu Roszsza	  2
 Ad naturam de philosophia in genere et practica in specie, summo bono civili, actionibus itidem humanis, selectiora nonnulla depromens	  2
@@ -456,6 +465,7 @@ Anámnesis Platonica	  2
 Andelig hierteväckare	  2
 Animadversiones anatomico-physiologicae.	  2
 Aphorismi miscellanei ad ideam eruditi pertinentia tractantes.	  2
+Artes liberales	  2
 Asetus (1747-12-14)	  2
 Autuuden opin ja jumalisuden historia lapsille	  2
 Autuuden oppi (1807)	  2
@@ -480,6 +490,7 @@ Cogitationes politicae de hodierna artium elegantum constitutione.	  2
 Cognatio artis atque naturae	  2
 Cognoscibile philosophicum praecisivum	  2
 Comparatio, inter Iphigeniam in Aulide, Euripidis et Racinii.	  2
+Concordia eaque inter fratres praecipuè rara	  2
 Conspectus scientiae pastoralis, in usum Seminarii theologici.	  2
 Continuatio articulorum fidei non-fundamentalium.	  2
 Corani Sura LVII arabice et suethice.	  2
@@ -489,8 +500,10 @@ De abstractione et conceptu, eorumque usu	  2
 De actionum humanarum principiis	  2
 De actu & potentia	  2
 De aestu maris reciproco	  2
+De Alandia, Maris Baltici insula.	  2
 De alimentorum et morum nexu	  2
 De ambiguis pontificum Romanorum de litterarum flore promovendo meritis	  2
+De amicitia	  2
 De analogia terminorum sacra.	  2
 De anima Christi	  2
 De anima humana	  2
@@ -502,17 +515,21 @@ De antiquo et hodierno, regni Sveciae imperio	  2
 De appetitu sensitivo	  2
 De arbore virtutis.	  2
 De arte picem destillandi in Ostrobotnia	  2
+De atheis	  2
 De atmosphaera Veneris.	  2
 De atomis	  2
 De attributis legis naturalis.	  2
 De auro	  2
+De bello	  2
 De bibliotheca ordinanda.	  2
 De Bircarlis.	  2
 De bonis operibus	  2
 De calore plantarum proprio.	  2
 De castitate	  2
 De causa exemplari	  2
+De causa materiali	  2
 De causis corruptae justitiae, ex occasione verborum Cornelii Taciti lib. II. Annalium ubi L. Piso ambitum fori, corrupta judicia, saevitiam oratorum increpat	  2
+De causis in genere	  2
 De caussa electricitatis.	  2
 De caussis florescentis & marcescentis reipublicae litterariae.	  2
 De certamine Davidis cum Goliatho, I Sam. XVII. cap. commemorato.	  2
@@ -520,6 +537,7 @@ De cetis	  2
 De charactere viri fortis	  2
 De Cicerone historico.	  2
 De circulis sphaerae in genere, et in specie de cingulo mundi	  2
+De coelo ejusquè affectionibus	  2
 De comitiis Romanorum.	  2
 De commodis et incommodis diversarum formarum regiminis.	  2
 De communione bonorum.	  2
@@ -529,6 +547,7 @@ De consiliario	  2
 De consilio divino, ex psalmo LXXIII: 24	  2
 De convallariae specie vulgo Lilium convallium dicta.	  2
 De conviviis sacris, Svet. gilden, in Svecia.	  2
+De creatione	  2
 De crimine atheismi.	  2
 De declinationibus Fennicis.	  2
 De decrementis aquarum in Sinu Bothnico	  2
@@ -538,7 +557,9 @@ De Deo et s.s. Trinitate	  2
 De desponsatione fidelium cum Christo	  2
 De Diana Ephesia	  2
 De dictione extemporanea	  2
+De dira illa vitae humanae peste voluptate	  2
 De disciplina morali veterum Hyperboreorum.	  2
+De dissentaneis in genere et de diversis, oppositis & disparatis in specie	  2
 De distinctione	  2
 De diversis modis tractandi disciplinam moralem in academiis.	  2
 De diversis philosophorum methodis in demonstranda existentia Dei.	  2
@@ -546,6 +567,7 @@ De divina providentia, sive rerum creatarum sustentatione et gubernatione	  2
 De duratione	  2
 De ecclesia	  2
 De ecclesiis Careliae Svecicae Graecam religionem profitentibus.	  2
+De eiusdem natura et constitutione	  2
 De elementis in genere et specie	  2
 De eloquentia, e republica in scholam relegata.	  2
 De epigrammate.	  2
@@ -557,6 +579,8 @@ De expansione hydrargyri a calorico.	  2
 De expiatione Jesu Christi vicaria.	  2
 De Fennonibus Vermelandiae	  2
 De fertilitate terrae Canaan.	  2
+De fide salvifica	  2
+De fideli patriota	  2
 De formandis notionibus et judiciis per experientiam.	  2
 De fulmine	  2
 De fundamentis precariis potestatis, praecipue civilis, pontificis Romani.	  2
@@ -565,6 +589,7 @@ De gemino Messia.	  2
 De gente qvaenorum.	  2
 De genuinis divinae revelationis certitudinem ejusdem apodicticam evincentibus.	  2
 De Germania magna.	  2
+De gloria coronae haereditariae prae electiva	  2
 De guardia Davidis	  2
 De habitu artium elegantiorum ad rempublicam.	  2
 De habitu virtutis comparando.	  2
@@ -580,11 +605,13 @@ De imagine et exemplari	  2
 De immutabilitate juris naturae	  2
 De incarnatione Filii Dei.	  2
 De indifferentismo religionum.	  2
+De inferno et vita aeterna	  2
 De institutione publica juventutis patriae, ante tempora R. Gustavi Adolphi.	  2
 De insufficientia religionis naturalis.	  2
 De integritate vocis Kaári Psalm. XXII.17	  2
 De invenienda correctione meridiei.	  2
 De invenienda longitudine loci ex observata distantia lunae a stella quadam.	  2
+De invidia	  2
 De itinere Israëlitarum per Arabiae deserta et angelo ductore.	  2
 De Jonae	  2
 De judiciis in genere.	  2
@@ -596,6 +623,7 @@ De jurisdictione	  2
 De justificatione hominis peccatoris coram Deo	  2
 De justificatione hominis peccatoris coram Deo, ad amussim aphorismi apostolici Rom: 3:24.25.	  2
 De justo ex fide vivente Rom. I:17, Gal. III:11, Hebr. X:38, Coll. Habac. II:4.	  2
+De legatis	  2
 De legatis eorumque sanctitate.	  2
 De legibus	  2
 De legibus in genere	  2
@@ -619,7 +647,6 @@ De meridiano ejusque officiis praecipuis	  2
 De metamorphosi Nebucadnezaris	  2
 De methodo docendi dialogistica.	  2
 De miraculis	  2
-De modestia	  2
 De modo philosophiam tractandi moralem.	  2
 De modo reducendi distantias lunae a stellis pro longitudine geographica invenienda.	  2
 De monarchae seu regis constitutione & inauguratione	  2
@@ -632,6 +659,8 @@ De motibus liturgicis in Svecia.	  2
 De mundo (1681)	  2
 De mundo sapientiae divinae speculo.	  2
 De natura	  2
+De natura accidentis in genere	  2
+De natura axiomatum	  2
 De natura et constitutione philosophiae practicae.	  2
 De natura et indole theologiae naturalis.	  2
 De natura metallorum.	  2
@@ -659,6 +688,7 @@ De parelio	  2
 De parodia.	  2
 De paroecia Alandiae Lemland, eique annexa Lumparland.	  2
 De peccatis post mortem.	  2
+De peccato originali	  2
 De pericopa prima capitis decimi Johannis, inprimis voce thyrorô.	  2
 De personata felicitate civili.	  2
 De philosophia in genere.	  2
@@ -668,6 +698,7 @@ De pietate philosophica.	  2
 De potentia Dei	  2
 De praecipuis insitionis variolarum tutoriarum in Finlandia fatis.	  2
 De praedestinatione (1644)	  2
+De praedestinatione (1658)	  2
 De praejudiciis eruditorum circa scientias.	  2
 De praesenti reipublicae literariae flore.	  2
 De praestantia historiae sacrae prae profana.	  2
@@ -681,7 +712,6 @@ De processu cognitionis humanae	  2
 De pronuntiatione oratoria.	  2
 De propagatione luminis.	  2
 De providentia Dei circa exstructionem templorum Svio-Gothicorum admodum conspicua.	  2
-De providentia divina	  2
 De publica juventutis institutione	  2
 De pugnis literatorum ridiculis.	  2
 De quadratis laterum trianguli rectanguli	  2
@@ -693,6 +723,7 @@ De resolutione montium in diluvio universali.	  2
 De respectu parentelae.	  2
 De retrogradatione aliisque apparentiis motus planetarum.	  2
 De ritibus constitutionis regum in Israel	  2
+De ritu excommunicationis intra et extra ecclesiam	  2
 De Roma aeterna.	  2
 De sacerdote chemico.	  2
 De sacris ethnicorum ab Hebraeis	  2
@@ -724,6 +755,7 @@ De speciebus mundi	  2
 De statu exinanitionis Christi Jesu	  2
 De stellis, & earum affectionibus	  2
 De studio novitatis in philosophia	  2
+De subjecto et adiuncto	  2
 De subsidiis et insidiis studiorum	  2
 De substantia	  2
 De successione ab intestato	  2
@@ -748,6 +780,7 @@ De usu mythologiae hodierno.	  2
 De usu organorum in templis	  2
 De usu parallelismi auctorum Graecorum verbalis in Novo Testamento.	  2
 De vera et mosaica lectione nominis tui gloriosi Jehovah	  2
+De vera notitia sui	  2
 De veritate	  2
 De veritate aestetica.	  2
 De vero et genuino sensu verborum apostoli Phil. 2. v. 9	  2
@@ -781,8 +814,10 @@ Disquisitio: an homines per naturam propendeant in vitia?.	  2
 Domus a Deo Israëlitis factae.	  2
 Dubia de principiis philosophiae recentioris	  2
 Dubrovskij	  2
+Ebrietas	  2
 Ecrit de sa majeste le roi de Suède à s.m. l'empereur de toutes les russies	  2
 Eenige Berichten omtrent het Noorden en Nord-Oosten van Europa.	  2
+ei tiedossa	  2
 Elegantioris latinitatis theoria e Cicerone & Quintiliano.	  2
 Emendatio quorundam locorum versionis Sacri Codicis svecanae.	  2
 En glad gutt	  2
@@ -799,6 +834,7 @@ Ethicae praecipua praecepta & nobiliores plerasque controversias brevibus suis c
 Etymologia hominis et definitio	  2
 Eventus stultorum magister.	  2
 Examen corporum simplicium	  2
+Exercitationes academicae.	  2
 Exercitationes miscellaneae mathematico-physicae.	  2
 Existentia divinae revelationis argumentis, cum philosophicis tum historico philologicis, breviter probatam sistens.	  2
 Fabulae Aesopiae	  2
@@ -1331,6 +1367,7 @@ Lasten paras tawara (1784)	  2
 Lasten paras tawara (1914)	  2
 Lasten-biblia (1741)	  2
 Le grand Meaulnes	  2
+Libertas civilis	  2
 Lingvarum ebraeae et finnicae convenientia	  2
 Listki iz' nastoâŝago i prošlago Finlândìi	  2
 Little lord Fauntleroy	  2
@@ -1386,6 +1423,7 @@ Ornitho-theologia.	  2
 Parannuxen lijtto cansoile (1744)	  2
 Perì tês etymótetos, orthoepeías kaì emfaséos tû šilo	  2
 Personalia eller wyrdesam berättelse om Carl den XI:tes lefwerne samt död	  2
+Poenitentia ethnicorum, secundum principia philosophiae	  2
 Positiones nonnullae theoreticae, ut & practicae, duabus sectionibus inclusas, cum succinctâ earundem explicatione, complectens	  2
 Postilla.	  2
 Praeparamenta boni politici	  2
@@ -1416,6 +1454,7 @@ Schedion zoologicum de ira.	  2
 Sciagraphia studii medici.	  2
 Se pyhä ewangeliumillinen walkeus.	  2
 Sen, wirhen ja ristin alla hamast lapsudesta ja nuorudesta, rasitetun weisu.	  2
+Sidzte-ähretienst, eller lijk-sermon, öfwer Iacop Madsson Österman	  2
 Similitudines nonnullae Sacri Codicis e regno animali.	  2
 Sionin juhla-wirret (1852)	  2
 Sista talet	  2
@@ -1424,6 +1463,7 @@ Sonn- und Festtags-Predigten über die Evangelia	  2
 Specimen academicum, ignem magnalium divinorum praeconem exhibens.	  2
 Specimen Alcorani arabice et latine.	  2
 Spravki o 'konstitucìi' Finlândìi	  2
+Stimuli investigandi Gog in Magog, Ezek. XXXVIII et XXXIX	  2
 Strödde chemiske anmärkningar, i jurisprudentia opificiaria.	  2
 Strödde chemiske anmärkningar, til uplysning i svenska lagfarenheten.	  2
 Suomalaisten alammaisimmat walitus-runot (n. 1800)	  2
@@ -1452,6 +1492,7 @@ Theoremata nonnulla miscellanea (1685-03-07)	  2
 Theoremata nonnulla psychologica exhibens	  2
 Theoremata nonnulla, e latissimo scientiarum mathematicarum campo, collecta	  2
 Theoremata quaedam miscellanea (1646)	  2
+Theoremata quaedam philosophica (1647)	  2
 Theoremata quatuor selectiora	  2
 Theoremata tria miscellanea	  2
 Theoria celeberrimi a Goethe de coloribus physiologicis.	  2
@@ -1463,6 +1504,7 @@ Tractatus R. Maimonidis de sepultura animalium, veteribus Hebraeis usitata	  2
 Tria magna moralia.	  2
 Triga reqvisitorum eruditionis comparandae	  2
 Trigas thesium physicarum	  2
+Triumphus generosi animi, seu contemptus invidiae & calumniae	  2
 Tympanum schamanico-lapponicum in museo historico Lundensi.	  2
 Undersökning om lagskipningen uti Finland i de äldre tider.	  2
 Unitas transcendentalis succinctam exhibens theorian	  2
@@ -1484,6 +1526,7 @@ Yxi christillinen saarna (1768)	  2
 Yxi hengellinen wirsi (1789)	  2
 Yxi uusi hengellinen wirsi (1749)	  2
 Yxikertainen selitys (1784)	  2
+Yxikertaiset kysymyxet	  2
 'That Rascal Pat'	  1
 'The Chronicles of the Imp'	  1
 'The Conflict in the 'Heavenlies''	  1
@@ -1505,6 +1548,7 @@ A. Fryxell ja hänen kertomuksensa Ruotsin historiasta	  1
 Ab Aeschylo accesserunt momenta tragoediae Graecae secundum Aristotelem in libro Poëtices, c. IV	  1
 Abckiria (1596)	  1
 Abendteuer des Entspekter Bräsig	  1
+Aboa vetus et nova	  1
 Aboriginum Scandianorum praecipui vitae sustinendae modi.	  1
 Abstracta disputationis idea	  1
 Account of Sweden	  1
@@ -1547,10 +1591,13 @@ Almanakka (1650)	  1
 Almanakka (1660)	  1
 Almanakka (1664)	  1
 Almanakka (1665)	  1
+Almanakka (1666)	  1
+Almanakka (1669)	  1
 Almanakka (1671)	  1
 Almanakka (1672)	  1
 Almanakka (1674)	  1
 Almanakka (1676)	  1
+Almanakka (1678)	  1
 Almanakka (1681)	  1
 Almanakka (1684)	  1
 Almanakka (1700)	  1
@@ -1697,6 +1744,7 @@ Aphorismi X	  1
 Aphorismorum trias	  1
 Aphorismos quosdam philosophicos	  1
 Aphorismos varii argumenti continens	  1
+Apografè Augusti oecumenica.	  1
 Apologeticus Dei	  1
 Apotheoseos veteris et recentioris parallelismum exhibens	  1
 Apotheosis gentilium, occasione verborum Eclog. IV. Virg. vers. 15	  1
@@ -1723,7 +1771,6 @@ Armon järjestys autuutehen (1809)	  1
 Armon järjestys autuutehen (1865)	  1
 Ars poetica	  1
 Ars poëtica	  1
-Artes liberales	  1
 Artificium Delilae mysticum	  1
 Asâ	  1
 Asetus (1734-12-12)	  1
@@ -1798,6 +1845,7 @@ Brevis conspectus theoriae mentis humanae revelatione excultae	  1
 Brevis controversiae de Hebraismis Novi Testamenti conspectus	  1
 Brevis eisagoge ad studium juris civilis sveco-romani; cum collatione utriusque, secundum tria objecta	  1
 Brevis introductio ad historiam politicam in usum incipientium adcurata	  1
+Brevis tês polypragmosynes delineatio	  1
 Brevis typhi epidemici quibusdam Ostrobothniae plagis grassantis historia	  1
 Brevissimam delineationem indolis philosophiae Epicteticae sistens	  1
 Bruden på Omberg	  1
@@ -1847,7 +1895,11 @@ Caussae sterilitatis agrorum	  1
 Cautelae quaedam photometricae	  1
 Cécile	  1
 Cento satyricus in hodiernos motus septentrionis concinnatus	  1
+Certitudinis, potiorum qvorundam, ex principiis primis practicis promanantium, officiorum, sciagraphicum specimen	  1
 Četyre brata	  1
+Character boni judicis	  1
+Character seditiosi civis.	  1
+Charitas christianae	  1
 Chemia optica	  1
 Christelige tal och betraktelser.	  1
 Christelige tanke-almanach (1808)	  1
@@ -1880,6 +1932,8 @@ Circa pietatem philosophicam Herrnhutiorum, observationes elenchticae nonnullae	
 Circulus artium	  1
 Circumcisio ritualis	  1
 Civis Svecici de praesenti regni Sveciae statu judicium	  1
+Clementia	  1
+Coena dominica	  1
 Collegium ethicum (1649)	  1
 Collegium ethicum (1655)	  1
 Collegium logicum	  1
@@ -1887,6 +1941,7 @@ Colloquia minora (1687)	  1
 Colloquia minora (1694)	  1
 Colloquia selectiora	  1
 Coming back with the Spitball	  1
+Commendatio latinae linguae	  1
 Commentariolus in Urbani Hiärnes Pharmacopoeam portatilem minorem.	  1
 Commentarius in s. Pauli apost. epistolam ad Hebraeos	  1
 Commentationes in Aëtii Amideni medici Anekdota.	  1
@@ -1902,6 +1957,7 @@ Concilium Hierosolymitanum	  1
 Conclusiones quaedam, e florilegio philosophico	  1
 Concordia	  1
 Concordiam sive discordem concordiam et concordem discordiam philosophiae cum Sacra Scriptura haud obscurè arguens	  1
+Conjugium Hoscheae, Cap. 1. v. 2.	  1
 Consideratio finium in rerum natura	  1
 Consilium Dei circa salutem nostram, evidens in decreto passionis Jesu	  1
 Consolatio	  1
@@ -1914,6 +1970,7 @@ Corporis naturalis affectiones generales	  1
 Corpus angelicum, seu de corporibus angelorum assumptitiis disputatio	  1
 Crisis modesta in loca quaedam scriptorum theologicorum	  1
 Crux eruditorum origo mali	  1
+Cultura morumq[ue] concinitas	  1
 Cur pauciora nostro aevo, quam olim, sint prodigia?	  1
 Cura summi imperantis circa cultum divinum	  1
 Cursory remarks made in a tour through some of the Northern parts of Europe, particularly Copenhagen, Stockholm and Petersburgh	  1
@@ -1934,11 +1991,13 @@ De aberrationibus philosophiae, a summis plerumque ingeniis profectis	  1
 De abstractione	  1
 De abusu setaceorum in vulneribus glutinandis.	  1
 De abysso animae	  1
+De academiarum & scholarum encomio	  1
 De academiis earumque statu & juribus	  1
 De accidentibus terrae	  1
 De accismo	  1
 De acedia vitanda et diligentia amplectenda	  1
 De acerbissima ac cruenta Salvatoris nostri Jesu Christi, pro genere humano passione	  1
+De acerbissima passione Salvatoris domini nostri Jesu Christi	  1
 De acido carbonico	  1
 De actione morali	  1
 De actione oratoria	  1
@@ -1982,14 +2041,12 @@ De agapis veterum christianorum	  1
 De agno paschali Hebraeorum	  1
 De agricultura Tavastensium	  1
 De agricultura veterum Sveo-Gothorum	  1
-De Alandia, Maris Baltici insula.	  1
 De Alandia.	  1
 De Albio Tibullo Ovidii elegia latine et svetice	  1
 De allegatione scripturarum.	  1
 De allegoria.	  1
 De alumine	  1
 De ambiguitate sermonis latini ex defectu articuli	  1
-De amicitia	  1
 De amicitia ejusque, civili in societate, usu vero honestoque	  1
 De ammud anan we-esh seu columna nubis et ignis, Israëlitarum duce in deserto, Exod. 14. v. 19. 20.	  1
 De amnestia	  1
@@ -2001,7 +2058,6 @@ De amplitudine lingvae fennicae	  1
 De analogo rationis	  1
 De analysi ferri	  1
 De anathemate votivo Pauli Rom. IX. 3.	  1
-De angelis	  1
 De angelographia	  1
 De angelophania ad sepulcrum Christi	  1
 De angelorum generatione	  1
@@ -2012,6 +2068,7 @@ De anima hominis	  1
 De anima humana separata a corpore	  1
 De anima humana theoremata quaedam exhibens selectiora	  1
 De anima in genere (1643)	  1
+De anima in genere (1646)	  1
 De anima in genere (1652)	  1
 De anima mundi	  1
 De anima rationali	  1
@@ -2022,9 +2079,12 @@ De anima vegetativa	  1
 De anima vivente brutorum	  1
 De animae humanae propagatione	  1
 De animae immortalitate	  1
+De animae ortu	  1
 De animalibus hybridis	  1
 De annis Achaziae, parente suo aetate non majoris, ad 2. Chron. XXII: 2. 2. Chr. XXI. 5. 20. & 2. Reg. VIII: 26.	  1
 De anno suscepti a rege Erico Sancto imperii et expeditionis in Fenniam motae	  1
+De annonae saevitia ac fame, ejusque praesagiis, causis, effectis, atque remediis	  1
+De anomia Persarum defuncto rege permissa	  1
 De anthropognosia morali	  1
 De anthropologia	  1
 De anthropomorphismo	  1
@@ -2040,6 +2100,8 @@ De aqua magnalium divinorum praecone	  1
 De aqua medicata Kuppisensi	  1
 De aquis supra coelestibus	  1
 De aquis supracoelestibus	  1
+De arbitris pacis	  1
+De archivis veterum	  1
 De arcto musices cum ingenio humano nexu, ejusque ad hoc excolendum momento.	  1
 De arcubus luminosis in coelo conspectis	  1
 De ardua et difficultatis plena eruditionis consecutione	  1
@@ -2053,6 +2115,7 @@ De arte natandi	  1
 De articulis fidei.	  1
 De artificio, quo in nutriendo fetu humano utitur natura	  1
 De artificiosa foecundatione immersiva seminum vegetabilium	  1
+De artium liberalium utilitate	  1
 De ascensu vaporum	  1
 De Askmannis, ultima, in exteros, Scandianorum colonia.	  1
 De asparago	  1
@@ -2069,6 +2132,7 @@ De aula	  1
 De Aulo Licinio Archia poëta	  1
 De auro e septentrione Job. XXXVII: v. 22	  1
 De aurora	  1
+De autarkeia morali	  1
 De authentia vocis kav, Psalm. XIX:5. hujusque convenientia cum voce fthóngos, a Sancto Paulo, ex LXX. interpretibus, adducta Rom. X:18, idoneis argumentis demonstrata	  1
 De autodidactis	  1
 De axiomate in genere	  1
@@ -2076,16 +2140,18 @@ De axiomatica generali	  1
 De balteo sacerdotum Hebraeorum	  1
 De baptismo (1750)	  1
 De barbarie	  1
-De bello	  1
 De bello ejusdemque causis	  1
 De bello ejusque causis	  1
 De bello ejusque requisitis	  1
 De bello, ejusdemque requisitis	  1
 De benedictione divina Ischmaëli data	  1
 De beneficijs divinis	  1
+De Bethlehemo	  1
 De bibliothecis in genere	  1
 De bibliothecis medii aevi in Sviogothia	  1
+De bío teleío [kreikkaa] sive vita perfecta	  1
 De Birgero Jarl juniori	  1
+De bonarum literarum diligentia	  1
 De bonis operibvs	  1
 De bonitate Dei circa necessitates physicas hominum, in diversis terrae zonis habitantium	  1
 De bonitate divina in malis physicis conspicua	  1
@@ -2097,6 +2163,7 @@ De borbonia	  1
 De Borea-Fennia.	  1
 De bronchitide acuta	  1
 De bysso	  1
+De caduceatoris nostri Christi Jesu cruciatibus amarissimis	  1
 De Cajania	  1
 De calido innato	  1
 De calla	  1
@@ -2107,16 +2174,23 @@ De candela sub aquis ardente	  1
 De cane rhetorico	  1
 De cantico Israëlitarum ad Beerah, numer. XXI. 17. 18.	  1
 De cantu cycnorum	  1
+De capta classe danica	  1
 De captivo gentilium lumine sive insufficientia naturalis religionis ad salutem, contra insanam Edoardi Herberti baronis Angli	  1
 De cardinali virtute justitia	  1
 De carentia juris in bestiis	  1
 De caryophyllis aromaticis	  1
 De casu necessitatis	  1
 De caudis cometarum	  1
+De causa efficiente	  1
+De causa efficiente in genere et de procreante & conservante, solitariâ & sociâ in specie	  1
+De causa finali	  1
+De causa interna materiali	  1
 De causa peccati	  1
+De causa per se et per accidens	  1
 De causa rapidae propagationis fanaticismi in sympathia animorum humanorum quaerenda	  1
 De causis et constitutione lingvae sacrae graecae	  1
 De causis et effectis logice consideratis generatim	  1
+De causis internis corporis naturalis	  1
 De causis mutationis decimae quartae lunae paschalis	  1
 De causis variantium sententiarum, in foro philosophico	  1
 De caussa elasticitatis	  1
@@ -2132,6 +2206,7 @@ De caussis, cur in individiam adducta sit metaphysica.	  1
 De caussis, ob quas Gustavo I:mo contra Christiernum II:dum opitulati fuering Lubecenses	  1
 De cauta in mendicos beneficentia	  1
 De cautelis civitatum	  1
+De celeberrima Carelorum civitate Wiburgo	  1
 De celeritate soni in aëre atmosphaerico propagati	  1
 De centro oscillationis.	  1
 De ceremoniis civilibus et decoro	  1
@@ -2144,11 +2219,14 @@ De chao	  1
 De characteribus literarum	  1
 De characteribus verae religionis	  1
 De charismate regio strumas curandi	  1
+De chior bemaroth hatzobheoth	  1
 De chrestomathiis lexicisque scholasticis rite instituendis et adhibendis	  1
 De christianismo imperatoris Constantini I. Magni	  1
+De Christo	  1
 De Christo a Judaeis male intellecto Joh. X. 30-38.	  1
 De christo calvinianorum	  1
 De Christo celso, conservatore benigno	  1
+De Christo passo conservatore	  1
 De Christo resurrectionem suam praedicente	  1
 De Christo, fanaticis, inprimis Jo. Conr. Dippelio, oppositae	  1
 De Cicerone poëta	  1
@@ -2156,7 +2234,9 @@ De cichorio	  1
 De cilicismis Sancto Paulo impactis	  1
 De circuli quadratura et vero mundi systemate, adversus Copernicum redivivum [Lipstorpii]	  1
 De circulo sphaerae maximo zodiaco	  1
+De circumstantiis actionum humanarum	  1
 De cirsocele	  1
+De civitate (1642)	  1
 De civitate (1682)	  1
 De Claudio etrusco	  1
 De coenae sacrae mutilatione, coniugio sacerdotum et missae sacrificio	  1
@@ -2205,7 +2285,6 @@ De confoederatione gentium	  1
 De confusione lingvarum	  1
 De conglaciatione	  1
 De conjugiis non liberis	  1
-De conjugio	  1
 De conjugio, praesertim ministrorum verbi, & spiritualibus Christi & ecclesiae nuptijs, quarum illi sunt conciliatores	  1
 De connectendis principiis ideae Dei.	  1
 De connubio rationis et experientiae	  1
@@ -2229,6 +2308,7 @@ De contentionibus, propter Lapponiam motis.	  1
 De contingentia rerum	  1
 De contractibus, in qvibus obtinet retractus consangvinitatis	  1
 De contractu locationis conductionis.	  1
+De contrariis in genere et in specie	  1
 De controversia: an resurrectio Christi pertineat ad opus redemptionis nostrae	  1
 De controversia: an resurrectio Christi pertineat ad opus redemptionis nostrae? nec ne?	  1
 De convenientia et differentia miraculi et mysterii	  1
@@ -2236,16 +2316,17 @@ De convenientia inter legem civilem patriae et naturalem.	  1
 De convenientia inter sacra veterum Graecorum & Romano-catholicorum	  1
 De convenientia linguarum hebraeae et fennicae.	  1
 De convenientia lingvae Graecae cum Ebraea.	  1
+De convenientia lingvae sveo-gothicae cum latina	  1
 De convenientia lingvarum hebraeae atque graecae	  1
 De conventu Danaholmensi	  1
 De conversione, Dei triunius auxilio	  1
 De conviviis Romanorum nec non aliorum	  1
 De coronatione seu inauguratione regia, ejusque antecedentibus & consequentibus	  1
+De corpore humano	  1
 De corporibvs mvndi totivs primariis	  1
 De corporis naturalis interno principio altero, forma nempe substantiali, cumprimis utrum substantiae nomine verè & absque errore compellari possit ac debeat	  1
 De corrigendis erroribus instrumenti culminatorii	  1
 De cosmogonia Ovidiana commentatio philosophica	  1
-De creatione	  1
 De creatione et de providentia Dei	  1
 De credulitate, in studio historico vitanda	  1
 De crimine effractionis furandi.	  1
@@ -2253,7 +2334,9 @@ De crimine laesae majestatis	  1
 De crimine laesi numinis quantum illud rationis lumine notatur	  1
 De crimine violati juramenti regii.	  1
 De criterio veritatis	  1
+De cruce piorum, et Dei invocatione	  1
 De cultu Dei externo natura demonstrato	  1
+De cultu Dei naturali	  1
 De cultu Dei rationali	  1
 De cultu Dei, prout ex lumine naturae haberi potest	  1
 De cultura ingenii	  1
@@ -2267,6 +2350,7 @@ De Daniele propheta.	  1
 De Dario Medo, ultimo Babyloniorum rege	  1
 De Davide, aquam Bethlehemiticam appetente, 2. Sam. XXIII: v. 16.	  1
 De declinatione nominum, inprimis Fennicorum.	  1
+De decretis & operibus Dei in genere, & in specie de creatione	  1
 De decretis Dei	  1
 De defectu virium humanarum in rebus veram hominis felicitatem concernentibus	  1
 De defensione Jehosuae, contra Satanam	  1
@@ -2280,6 +2364,10 @@ De delicto fabricatorum turris Babelicae, Gen. XI: 3,4.	  1
 De delinquentium ad publicam ignominiam expositione	  1
 De demonstratione exsistentiae et attributorum Dei a posteriori sive ex operibus in regno naturae	  1
 De demonstratione oratoria	  1
+De Deo ejusq[ue] triplici cognitione	  1
+De Deo et mysterio S.S. Trinitatis	  1
+De Deo ter opt. max. uno in essentia trino in personis	  1
+De Deo uno & trino	  1
 De Deo uno et trino	  1
 De Deo uno et Trino	  1
 De dependentia causarum secundarum â causa prima in fieri, esse et operari	  1
@@ -2309,6 +2397,7 @@ De diversitate animalium existentiam divinam adstruente	  1
 De diversitate legum naturalium	  1
 De diverso gustu reipublicae literariae.	  1
 De diverso hominum, post hanc vitam statu, quam ex artic. XVII. Augustan. confessionis	  1
+De divini verbi sufficientia	  1
 De divisibilitate compositorum in infinitum	  1
 De divisione civili veteris imperii Sviogothici	  1
 De divisione demonstrationis in Dioti & Oti	  1
@@ -2333,6 +2422,7 @@ De duce belli	  1
 De duobus illis luminaribus magnis Mosaicis, eorumque eclipsibus	  1
 De duplici illa structura, ut et igne opus probaturo quorum mentionem apostolus facit I. ad Cor. III: com. 12, 13.	  1
 De duplici iride observata a clarissimo Petro Schisslero die XV. Febr. anni currentis	  1
+De dysphemia in dictione et scriptione vitanda	  1
 De ecclesia filii Dei in terris	  1
 De ecclesia militante in genere	  1
 De echo	  1
@@ -2356,6 +2446,7 @@ De elementis sigillorum Novi Testamenti	  1
 De elementorum natura in genere	  1
 De elephantis et eorundem ad bellum apparatu	  1
 De elicienda in foro criminali reorum confessione	  1
+De eloquente	  1
 De eloquentia	  1
 De eloquentia laconica	  1
 De eloquentia regis Salomonis	  1
@@ -2367,7 +2458,9 @@ De emendatione oeconomiae patriae per exempla	  1
 De eminentia	  1
 De emolumento ex itinere per provincias patriae instituto.	  1
 De encephalitidis diagnosi	  1
+De encomio Aboae	  1
 De encomio Calmariae	  1
+De encomio officii saderdotalis	  1
 De ente increato, in spatiis imaginariis	  1
 De enthusiasmo	  1
 De enthusiasmo poëtico	  1
@@ -2469,6 +2562,7 @@ De fortitudine (1654)	  1
 De fortitudine (1661)	  1
 De fortitudine (1669)	  1
 De fortitudine (1681)	  1
+De fortitudine bellica Gothorum	  1
 De fortitudine et temperantia	  1
 De fortuna et casu	  1
 De Francisci I. Galliae regis in literas meritis	  1
@@ -2481,6 +2575,7 @@ De fundamento amoris erga Deum	  1
 De fundamento cultus Dei naturalis	  1
 De fundamento cultus divini, occasione dicti Mal. I:6.	  1
 De fundamento decimarum ecclesiasticarum	  1
+De fundamento honestatis	  1
 De fundamento obligationis pactorum perfectae	  1
 De fundamento telluris; ex occasione Job. XXVI. v. 7.	  1
 De fundamento virtutis.	  1
@@ -2511,6 +2606,7 @@ De gloria brutorum, sive sensibus internis	  1
 De gloria Dei ex justa consideratione fertilitatis terrae	  1
 De glorificatorum visione Dei beatifica	  1
 De gloriosa Christi resurrectione	  1
+De gloriosa domini et Salvatoris nostri Jesu Christi è mortuis resurrectione	  1
 De go'el	  1
 De gradibus academicis	  1
 De gradibus cognitionis humanae	  1
@@ -2518,7 +2614,6 @@ De granatis, complectens analysin granati Orijerviensis	  1
 De gratia Dei	  1
 De gratia Dei (1706)	  1
 De gratia et libero arbitrio	  1
-De gratitudine	  1
 De gratitudine ejusq[ue] objectis	  1
 De gravitate	  1
 De gravitate ignis	  1
@@ -2531,6 +2626,7 @@ De halcyone	  1
 De Hannibale Italia expulso	  1
 De harmonia fructificationis plantarum cum generatione animalium	  1
 De harmonia inter publicam et privatam salutem in civitate	  1
+De harmonia praescientiae divinae cum contingentia rerum	  1
 De helsosamma ords eftersyn	  1
 De heromechanicis seu vulgatis miraculis mundialibus	  1
 De hippophaë	  1
@@ -2540,6 +2636,7 @@ De historia religionis christianae in Svecia	  1
 De historicis R. Gustavi primi	  1
 De hodierna sentiendi circa sacra libertate in Germania	  1
 De homagio (1685)	  1
+De homine in statu integritatis constituto	  1
 De homine microcosmo	  1
 De homine quaestiones nonnullae	  1
 De homine secundum tres status hujus vitae considerato	  1
@@ -2547,9 +2644,11 @@ De hominis in hoc mortalitatis orbe summo bono et beatitudine civili	  1
 De hominis in utero formatione	  1
 De hominis libero arbitrio	  1
 De honestate morali	  1
+De honore	  1
 De honoribus heroicis	  1
 De hordei in borealibus terris culti cito maturescendi habitu, et in re nostra rustica usu	  1
 De horizonte ejusque officiis praecipuis	  1
+De humilitate amplectenda	  1
 De Hunnis	  1
 De hypothesi diminutionis aquarum.	  1
 De hypothesibus astronomicis	  1
@@ -2562,6 +2661,7 @@ De igne	  1
 De ignorantia atque errore non excusante	  1
 De iis quae in religione christiana ignorantur	  1
 De iis, quae homines contagio pestilentiali magis obnoxios faciunt	  1
+De imagine Dei	  1
 De immortalitate animae rationalis	  1
 De immunitate religionis a coactione	  1
 De impedimentis eruditionis	  1
@@ -2586,7 +2686,6 @@ De indole θεοπνευστιας Scripturae Sacrae.	  1
 De induciis	  1
 De indulgentiis	  1
 De infantibus supposititiis	  1
-De inferno et vita aeterna	  1
 De infinitate extenso perperam tributa	  1
 De inflammatione conglutinante	  1
 De inflexionibus laminarum elasticarum.	  1
@@ -2604,6 +2703,7 @@ De initiis rei literariae in Svethia	  1
 De initiis religionis christianae in imperio Rossico	  1
 De injuria	  1
 De injuriis regni papistici in principes regnumqve Sveciae	  1
+De innata sciendi cupiditate	  1
 De innato sciendi desiderio	  1
 De innocentia suspecta	  1
 De inquisitione sagarum in Svecia, an. MDCLXVIII - MDCLXXVII	  1
@@ -2624,6 +2724,7 @@ De interpolatione pro determinanda vitri dilatatione a calorico	  1
 De interpolatione pro inveniendo loco lunae ex ephemeridibus	  1
 De interpretatione juris naturalis	  1
 De interpretatione philosophica.	  1
+De interusuriis simplicibus est rite determinandis	  1
 De intrinseca musculorum corporis humani fabrica	  1
 De invenienda apparente lunae diametro ex data ejus parallaxi	  1
 De invenienda area curvae	  1
@@ -2635,7 +2736,6 @@ De invenienda lege expansionis vaporum aqvae in diversis caloris temperaturis.	 
 De invenienda parallaxi altitudinis, ex datis parallaxi sideris horizontali et vera ejus a zenith distantia	  1
 De invenienda sectione conica circa focum datum, per data tria puncta transeunte	  1
 De inveniendo momento culminationis solis vel stellae cujusdam ex observatis duabus vel pluribus ipsius altitudinibus	  1
-De invidia	  1
 De invidia virtutis charactere	  1
 De invocatione Dei	  1
 De iride	  1
@@ -2645,7 +2745,9 @@ De Isocrate, oratore Graeco.	  1
 De itinere Martis	  1
 De Jacobo minore, justo, apostolo; ejusque Epistola canonica	  1
 De jejuniis Hebraeorum	  1
+De Jesu Christi truculento mortis agone	  1
 De Jesu Christo in coelum sublato	  1
+De Johan. Angelo Arcimboldo	  1
 De Josepho ex Arimathaea	  1
 De judiciis	  1
 De judiciis mortalium circa fata magnorum virorum, ductu capitum IX. & X. lib. I. Annalium C. Cornelii Taciti suntomos congestus	  1
@@ -2655,10 +2757,12 @@ De juramentis	  1
 De jure episcopali	  1
 De jure gentium circa pestem	  1
 De jure haereditatis privatae in republica pernecessario	  1
+De jure naturae et gentium	  1
 De jure pharaonum in Israelitas	  1
 De jure poenarum	  1
 De jure principis circa conscientiam civium erroneam	  1
 De jure principis in suae ditionis monasteria	  1
+De jure regio	  1
 De jure sacro Sveo-Gothis kyrke-ordning nuncupato	  1
 De jure sepulturae	  1
 De jure summorum imperantium in bona civium	  1
@@ -2685,8 +2789,8 @@ De laniena Stockholmiensi an. MDXX	  1
 De lapidibus viventibus, I. Pet. II:5	  1
 De lapsu generis humani in quantum ex lumine naturae constat	  1
 De laudatione funebri	  1
-De legatis	  1
 De lege ceremoniali ad Christum paedagogo, Gal. III. 24	  1
+De lege et evangelio	  1
 De lege fidei gloriationem excludente Rom. III. 27	  1
 De lege Jehovae syllabizanda, Ps. I:2	  1
 De lege morali	  1
@@ -2699,6 +2803,8 @@ De legitima vocatione ad munus in republica	  1
 De legum & juris fontibus, utilitate, necessitate et dignitate	  1
 De legum civilium necessitate in republica	  1
 De legum naturalium necessitate	  1
+De legum utilitate	  1
+De liberalitate incolarum inclytae & gloriosae Sueonum urbis Gevaliae in Gestricia	  1
 De liberis regum et principum Sveciae naturalibus	  1
 De libero arbitrio ex articulo XVIII. Augustanae Confessionis	  1
 De libero arbitrio hominis, quatenus actiones civiles spectat	  1
@@ -2717,6 +2823,7 @@ De limitata regiminis forma	  1
 De limitibus aequationum	  1
 De limitibus atmosphaerae terrestris	  1
 De lineis curvis parallelis.	  1
+De lingua eruditorum vernacula	  1
 De lingua Novi Testamenti graeca	  1
 De lingua phoenicio-punica.	  1
 De linguarum usu historico	  1
@@ -2738,6 +2845,7 @@ De Lovisa	  1
 De loxodromiis in superficie ellipsoidica	  1
 De luce	  1
 De lucta facultatis appetitivae inferioris et superioris	  1
+De lucta rectae rationis & adpetitus, poëtico-moraliter	  1
 De lucula barometri	  1
 De lumine boreali.	  1
 De luxu	  1
@@ -2750,7 +2858,6 @@ De magia numerorum	  1
 De magis adoratoribus	  1
 De magistratu	  1
 De magistratu et potestate ecclesiastica	  1
-De magistratu politico	  1
 De magistratu politico in communi	  1
 De magnanimitate et modestia	  1
 De magnetismo polorum cogitatum	  1
@@ -2769,6 +2876,7 @@ De Marco Attilio Regulo	  1
 De Marco Tullio Cicerone, ut politico, non plane imitando	  1
 De margema Prov: 26: 8.	  1
 De mari ejusque salsedine	  1
+De mariolatria Romanensium	  1
 De maro	  1
 De martyrio Christi pro veritate, Joh. XVIII:37.	  1
 De martyrio philosophi	  1
@@ -2791,6 +2899,7 @@ De mensura et mensurato	  1
 De mensura felicitatis	  1
 De mensura libertatis.	  1
 De mensura moralitatis	  1
+De mente composita & tranquilla	  1
 De mente humana sive de attributis et aliqvibus ejusdem affectionibus	  1
 De meo et tuo Platonico	  1
 De meritis et fatis Johannis et Arnoldi, Messeniorum.	  1
@@ -2831,10 +2940,13 @@ De mixtione	  1
 De modestia & magnanimitate; nec non liberalitate & magnificentia	  1
 De modis subsistendi	  1
 De modo in judiciis, per svioniam procedendi	  1
+De modo repetendae lectionis	  1
 De modo, quo voluntas divina sit investiganda	  1
 De momento ortus fidei salvificae	  1
 De monarchia	  1
 De monarchia Dei universali	  1
+De monarchia papali	  1
+De monasteriis	  1
 De monstro humano bicipite & bicorpore, truncis ad anteriora coalitis artubusque duplicatis	  1
 De monte cuprifero Tilaswuori	  1
 De montibus ignivomis	  1
@@ -2853,7 +2965,9 @@ De morbis plantarum	  1
 De morbis viarum lacrimalium cognoscendis et curandis.	  1
 De moribus gentium ex lingua earundem aestimandis.	  1
 De moribus oratoris	  1
+De moribus variarum aetatum	  1
 De moriobus veterum Helsingorum, ex occasione legum eorum provincialium	  1
+De morte	  1
 De mortibus persecutorum	  1
 De mortis genere gloriosae memoriae regis Gustavi Adolphi	  1
 De Mose vitulum aureum potabilem reddente, Exod. XXXII:20.	  1
@@ -2862,6 +2976,7 @@ De motu et quiete	  1
 De motu projectilium in aëre	  1
 De mundo (1643)	  1
 De mundo (1651)	  1
+De mundo (1657)	  1
 De mundo (1661)	  1
 De mundo (1685)	  1
 De mundo ejusque partibus	  1
@@ -2871,6 +2986,7 @@ De mutationibus voluminis aquae destillatae	  1
 De mutato a R. Carolo XI systemate Sveciae politico	  1
 De mysteriis naturae articuli, ex determinata maxime philosophiae notione concepti	  1
 De mythologia falso praesumpta Gen. III.	  1
+De nato Jesu Christo	  1
 De natua ac definitione philosphiae	  1
 De natura acidi carbonici	  1
 De natura acidi nitrici	  1
@@ -2880,8 +2996,10 @@ De natura acidorum	  1
 De natura atque origine Imbrium	  1
 De natura carbonis vegetabilis	  1
 De natura coeli	  1
+De natura comparatorum	  1
 De natura et causis justificationis	  1
 De natura et constitutione metaphysicae	  1
+De natura et constitutione syllogismi	  1
 De natura et constitutione theologiae	  1
 De natura et fundamentis logicae	  1
 De natura ethicae	  1
@@ -2897,6 +3015,7 @@ De natura, origine, et veritate axiomatum, imprimis ultimorum principiorum cogni
 De naturali auscultatione	  1
 De naturali Dei notitia	  1
 De naturali titulorum juris Svecici consecutione	  1
+De naufragio	  1
 De navigatione per flumina & lacus patriae.	  1
 De nece accersita	  1
 De necessaria atque essentiali boni malique moralis differentia	  1
@@ -2924,9 +3043,11 @@ De nobilitate, demortuis collata	  1
 De nobis in Deo existentibus	  1
 De noctisurgio	  1
 De nomenclatura salium	  1
+De nomine Jesu	  1
 De nomine sefer	  1
 De nomine, grammatico-pragmatica	  1
 De non excidenda arbore fructifera Deutr. XX: 19	  1
+De non negligenda temporis occasione	  1
 De non-reo confitente	  1
 De norma et judice controversiarum philosophicarum	  1
 De notione carbonii	  1
@@ -2955,11 +3076,13 @@ De nummis Arabicis in patria repertis	  1
 De nummis quibusdam antiquis, in Finlandia haud ita pridem repertis	  1
 De nuptiis consobrinorum	  1
 De nutrimento plantarum	  1
+De obedientia	  1
 De oblectatione et appetitu mentis, de fine in media translato	  1
 De obligarione civis ad capessendam rempublicam	  1
 De obligatione acquirendi cognitionem philosophicam	  1
 De obligatione christiani adjungendum se certae cuidam ecclesiae particulari	  1
 De obligatione erga posteros	  1
+De obligatione juris naturalis	  1
 De obligatione reciproca parentum & liberorum ad alimenta praestanda	  1
 De obligationibus ex contractu vel quasi contractu	  1
 De obscuritate orationis	  1
@@ -2967,6 +3090,7 @@ De observantia	  1
 De observationibus barometricis ope thermometri corrigendis	  1
 De observationibus d'Alemberti in disquisitionem Newtonianae legis refractionis Klingenstjernianam	  1
 De occasione foederum regis Erici XIV cum Russia	  1
+De occasione oportune oblata	  1
 De occasione temporis	  1
 De occasu imperiorum	  1
 De oceano	  1
@@ -2991,6 +3115,7 @@ De oneribus publicis Sveciae, sub imperio R. Gustavi Adolphi	  1
 De onomatopoëia linguae graecae.	  1
 De operationibus mentis separatae	  1
 De ophiolatria gentilium	  1
+De Ophir Salomonis	  1
 De Ophir Salomonis, sive ejus negotiatione Indica	  1
 De opinione	  1
 De optima historiam universalem, praesertim antiquam, proponendi methodo	  1
@@ -3007,6 +3132,7 @@ De originaria corporum mineralium electricitate	  1
 De originariis naturae humanae initiis, facultatem appetendi respicientibus.	  1
 De origine [et] propagatione litterarum.	  1
 De origine ac religione Fennonum	  1
+De origine ac religione Fennorum (1728--1733)	  1
 De origine animae humanae	  1
 De origine colorum	  1
 De origine et natura nitri	  1
@@ -3019,13 +3145,13 @@ De origine obligationis	  1
 De origine salium alkalinorum	  1
 De origine, progressibus et indole, educandi systematis Bell-Lancasteriano nomine appellati.	  1
 De originibus priscae gentis Varegorum	  1
+De ortis in genere et conjugatis, notatione, distributione et definitione in specie	  1
 De ortu et indole idealismi Fichtii.	  1
 De ortu petrificatorum	  1
 De ortu statvs politici	  1
 De oscillis Baccho suspendi solitis	  1
 De ossibus humanis	  1
 De Ostrobotnia	  1
-De pace	  1
 De pactis antenuptialibus VIII. cap. GB.	  1
 De palo Paulino II. Corinth. XII: v. VII	  1
 De pancratio, gymnici apud veteres Graecos ludi genere	  1
@@ -3044,10 +3170,12 @@ De paschate Christi ultimo.	  1
 De passione Christi	  1
 De patientia	  1
 De patientia Stoicorum	  1
+De Patmo Johannis theologi, Apoc. cap. I.v.9	  1
 De patrocinio caussae injustae.	  1
+De paupertate ejusq[ue] utilitate	  1
 De peccato (1603)	  1
 De peccato (1661)	  1
-De peccato originali	  1
+De peccato (1669)	  1
 De peccato originali et actuali	  1
 De peccato philosophico	  1
 De pelluciditate corporum specifica	  1
@@ -3073,6 +3201,7 @@ De perversa educatione liberorum ejusqve malis	  1
 De perverso famae studio	  1
 De petitione Naamanis Syri, II. Reg. cap. V. vers. 18.	  1
 De philautia breviter expendens	  1
+De philautia sana	  1
 De philosophia christiana	  1
 De philosophia in genere	  1
 De philosophia in genere complectens	  1
@@ -3080,6 +3209,7 @@ De philosophia in genere, ejusq[ue] in theologia usu	  1
 De philosophia populari complexa	  1
 De philosophiae ac philosophantium hostibus schediasma	  1
 De philosophiae in theologia tum usu tum abusu	  1
+De philosophiae natura	  1
 De philosophica eclectica	  1
 De philosopho modesto	  1
 De Philota, Parmenionis filio	  1
@@ -3088,6 +3218,7 @@ De phosphatibus ferri	  1
 De phraseologia Novi Testamenti	  1
 De phylacteriis Judaeorum diaskepsis philologica	  1
 De physica Mosaica Comeniana	  1
+De physica natura & constitutione	  1
 De pietate in patriam	  1
 De pietate parentum et liberorum reciproca	  1
 De pietate philosophica	  1
@@ -3122,6 +3253,8 @@ De praecipuis caussis corruptorvm morum in ecclesia evangelica	  1
 De praecipuis dialectis lingvae fennicae.	  1
 De praecipuis pravae voluntatis caussis	  1
 De praecipuo, hominibus in terra, a Deo proposito fine.	  1
+De praecursore domini Johanne Baptista	  1
+De praedestinatione (1660)	  1
 De praedestinatione ad vitam aeternam	  1
 De praedestinatione fidelium ad vitam aeternam, et reprobatione infidelium	  1
 De praedestinatione filiorvm Dei	  1
@@ -3158,6 +3291,7 @@ De primis initiis Biörneburgi	  1
 De primis originibus artis musicae exhibens	  1
 De primis scientiae naturalis initiis.	  1
 De primis Sveciae, sub R. Gustavo I., extra septentionem initis foederibus	  1
+De primogenitura ejusque praerogativis	  1
 De principii rationis sufficientis adplicatione ad regnum materiale & immateriale	  1
 De principiis juris naturae, in primo librorum de legibus, a Cicerone definitis	  1
 De principiis moralitatis.	  1
@@ -3171,16 +3305,19 @@ De principio ethices Kantianae	  1
 De principio idealismi transcendentalis Schellingiani.	  1
 De principio obsequii legibus	  1
 De principio ultimo officiorum hominis	  1
+De probabilitate morali	  1
 De probabilitate resurrectionis mortuorum ex ratione	  1
 De problemate catenario	  1
 De processu judiciali hodierno Sveciae regni	  1
 De processu summario	  1
 De progressu cognitionis plantarum cryptogamicarum.	  1
 De projectione corporum.	  1
+De promulgatione legis naturae	  1
 De propositionibus exponibilibus	  1
 De proselytis Ebraeorum	  1
 De proverbiis fennicis.	  1
 De providentia Dei (1596)	  1
+De providentia Dei (1656)	  1
 De providentia fatali	  1
 De prudenti veritatis communicatione	  1
 De prudentia Gustavi I:mi, religionem in Svecia reformantis, non mere politica	  1
@@ -3195,6 +3332,8 @@ De quadrupedibus	  1
 De quaestionibus jurisprudentiae naturalis otiosis.	  1
 De quantitate et densitate materiae	  1
 De quibus	  1
+De quibusdam antiquitatibus Abogicis, urbisque situatione	  1
+De quotidiano conscientiae examine	  1
 De qvotidiano vitae examine	  1
 De radice, causis, et vinculis, societatis humanae	  1
 De radicibus plantarum	  1
@@ -3239,13 +3378,18 @@ De ritibus ecclesiasticis	  1
 De ritu gerendi gladios in pace	  1
 De rore	  1
 De ruboris musculorum pretio, vario habitu, sede et origine	  1
+De s.s. studio theologico	  1
 De sabbatho gentilium	  1
 De sacellis sepulcralibus, in templo cathedrali Aboënsi obviis	  1
+De sacra coena	  1
 De sacramentis	  1
 De sacramentis in genere	  1
 De sacramento Romanensium confirmationis	  1
 De sacris ignium apud gentiles	  1
 De sacris, antiquorum Hyperboreorum	  1
+De sacro coronationis ritu	  1
+De sacro imperantium unctionis ritu	  1
+De sacrorum exercitiorum necessitate et utilitate	  1
 De sacrosancta et individua Trinitate	  1
 De sacrosancta scriptura	  1
 De sale calcis murario	  1
@@ -3254,6 +3398,7 @@ De salibus alcalinis	  1
 De salmonum natura	  1
 De salsedine maris	  1
 De salute gentilium aeterna	  1
+De salutifera incarnatione	  1
 De salutis certitudine	  1
 De Salvatoris Christi incarnatione	  1
 De Salvatoris Jesu Christi benefactis	  1
@@ -3270,6 +3415,7 @@ De Saturno, an rex fuerit aboriginum disquiritur	  1
 De satyris	  1
 De scepticismo historico.	  1
 De scepticismo philosophico.	  1
+De scholis	  1
 De scientia Dei media	  1
 De scientia naturali, ejusque methodo	  1
 De scientiae naturalis prooemio inquisitiones tres	  1
@@ -3288,6 +3434,7 @@ De sectis Judaeorum	  1
 De šekinā	  1
 De seminibus plantarum	  1
 De sensibus (1655)	  1
+De sensibus brutorum	  1
 De sensibus externis	  1
 De sensu hominis morali	  1
 De sensu in genere	  1
@@ -3316,6 +3463,7 @@ De solaris globi structura inenarrabili	  1
 De solduriis	  1
 De sole	  1
 De solemni legis promulgatione Sinaica	  1
+De solemnitate ludorum saecularium apud Romanos	  1
 De solitudine christiana	  1
 De sortilegio, quam occasione verborum Cornelii Taciti Lib. de moribus Germanorum, cap. X.	  1
 De speciebus solutionis chemicae	  1
@@ -3346,19 +3494,23 @@ De status conjugalis indole imperii	  1
 De stella marte	  1
 De stellis cadentibus	  1
 De stimulis sapientiae pensum primum	  1
+De stratagematibus	  1
 De studio concordiae amando	  1
 De studio et flore poeseos in patria juvando.	  1
 De studio historiae patriae in scholis Finlandiae colendo	  1
 De studio historico	  1
 De studio linguae hebraeae maturius inchoando	  1
 De studio matheseos maturius inchoando	  1
+De studio pietatis amplectendo	  1
 De studio theologico recte inchoando et feliciter absolvendo	  1
 De studiosis Svecis in seminariis jesuitarum versus finem seculi XVI	  1
+De studiosorum privilegiis	  1
 De stylo philosophico	  1
 De styrace	  1
 De subditis eorumqve officiis praecipuis	  1
 De subjecto juris naturalis	  1
 De subsidiis memoriae	  1
+De substantia creata in genere	  1
 De substantia singulari ejusque subsistendi modis, nec non de ratione cur aliquid sit dicaturque singulare	  1
 De successionis defectu	  1
 De sudore lapidum	  1
@@ -3380,9 +3532,11 @@ De summo bono civili	  1
 De summo bono Democriti	  1
 De summo bono practico	  1
 De superbia	  1
+De superbia fugienda	  1
 De superficie telluris	  1
 De superstitione, emendationis morum pronuba	  1
 De superstitionibus in patria	  1
+De Sveciae patriae nostrae dulcissimae amore	  1
 De Sveonum cum gentibus Europaeis, secundum leges & pacta, commerciis	  1
 De Sveonum in Livoniam meritis	  1
 De syllogismo	  1
@@ -3391,12 +3545,14 @@ De symbolis	  1
 De syncretismo haeretico (1706)	  1
 De syncretismo philosophico	  1
 De tabellario	  1
+De taciturnitate	  1
 De tactu	  1
 De targumim	  1
 De teleologiae naturalis ad theologiam constituendam insufficientia.	  1
 De templis	  1
 De tempore	  1
 De tempore (1661)	  1
+De temporis usu legitimo	  1
 De tenacitate argillae.	  1
 De tenebris Aegyptiacis	  1
 De terafim occasione loc. Gen. XXXI. 19.	  1
@@ -3423,12 +3579,14 @@ De titulis regum ecclesiasticis	  1
 De tonitru factitio Viburgensi	  1
 De tonitru magnalium divinorum praecone.	  1
 De topasio caeruleo Brasiliensi	  1
+De toto et partibus	  1
 De traditionibus christianorum sacris.	  1
 De trajectoriis.	  1
 De transactionibus pacis	  1
 De transitu resipiscentium e statu servitutis in statum libertatis.	  1
 De transmutatione aquae in terram	  1
 De transpiratione plantarum	  1
+De tribus aetatis humanae periodis concertatio	  1
 De tribus gradibus persvasionis (des Fürwahrhaltens): credere, opinari, scire	  1
 De tribus sectis veterum Judaeorum, Pharisaeis scil. Saducaeis ac Hessaeis	  1
 De trifolio aquatico	  1
@@ -3436,6 +3594,7 @@ De triplici juris objecto	  1
 De Troja non capta.	  1
 De tropaeolo	  1
 De tumultu rustico Ostrobotniae civium, klubbe-kriget vulgo dicto.	  1
+De Turca reportatam	  1
 De Turcis, antiquissimis Scandiae populis	  1
 De tussilagine commentarii botanici.	  1
 De tutela pupillorum, praecipuisque tuendi modis	  1
@@ -3455,6 +3614,7 @@ De universali hominum ad salutem aeternam vocatione	  1
 De urbe Torna	  1
 De usu acidi nitrici siphylide curanda	  1
 De usu artium dicendi	  1
+De usu atque applicatione grammatices latinae	  1
 De usu atqve abusu campanarum	  1
 De usu calcis in agris et pratis	  1
 De usu calculorum	  1
@@ -3487,6 +3647,7 @@ De usu scientiae naturalis in oeconomia	  1
 De usu scripturae sacrae in ecclesia catholica duobus primis post Christum natum saeculis	  1
 De usu Stellae polaris ad inveniendum tempus verum	  1
 De usu studii historici infantibus inculcandi	  1
+De usu symbolorum circa geometrica theoremata ac problemata demonstranda	  1
 De usu, quem praestat cognitio logices et metaphysices oratori sacro	  1
 De usu, quem praestat oeconomia in interpretanda. Scriptura Sacra	  1
 De usu, quem praestat zoologia, in hermeneutica sacra	  1
@@ -3500,6 +3661,7 @@ De utilitate fluente ex consideratione immortalitatis animae	  1
 De utilitate matheseos in oeconomia	  1
 De utilitate observationum meteorologicarum in physica	  1
 De utilitate ventorum	  1
+De utroq[ue] L. J. & M. Bruto libertatis Romanae vindice acerrimo.	  1
 De Väinämöine priscorum Fennorum numine.	  1
 De vanitate	  1
 De vaporibus	  1
@@ -3514,6 +3676,7 @@ De velocitate luminis	  1
 De venenis	  1
 De Venere in sole visa die 6 Junii anni 1761	  1
 De ventriculis cerebri	  1
+De vera ac christiana patientia sub cruce retinenda	  1
 De vera et genuina notione virtutis christianae	  1
 De vera fidei Christianae notione et indole	  1
 De vera generatione filiorum Dei vanam spuriarum trigam excludente	  1
@@ -3537,12 +3700,14 @@ De vero juris naturalis fundamento	  1
 De vero theologiae naturalis fundamento	  1
 De versione vulgata pontificiorum	  1
 De vestalibvs Romanorvm	  1
+De vestibus Israelitarum in deserto non attritis Deut. 8: v. 4	  1
 De vi cognitionis physicae ad superstitionem minuendam	  1
 De vi et efficacia verbi divini	  1
 De vi inertiae	  1
 De vi linguae in gentis ingenium	  1
 De vi vocabuli πνευματος, I Petr. III:18.	  1
 De via Octavii Caesaris Augusti ad imperium	  1
+De vindice legati delinqventis competente	  1
 De vindicta generosa	  1
 De virtute a virtutibus distinguenda	  1
 De virtute evangelii Christi, Rom. I: 16	  1
@@ -3551,17 +3716,20 @@ De virtute heroica (1639)	  1
 De virtute heroica (1681)	  1
 De virtute Mahumedis, aquam ex arena vel petra eliciendi	  1
 De virtute morali in genere (1654-05-??)	  1
+De virtute morali in genere (1654-05-10)	  1
 De virtute morali in genere (1655)	  1
 De virtute morali in genere (1659)	  1
 De virtute morali in genere (1672)	  1
 De virtute morali politico necessaria	  1
 De virtute non senescente	  1
+De virtutibus heroicis	  1
 De virtutibus homileticis in genere	  1
 De virtutis moralis natura in genere, pietate et justitia in specie	  1
 De virtutum regina fortitudine	  1
 De visu	  1
 De vita & beatitudine aeterna	  1
 De vita & morte	  1
+De vita academica recte instituenda	  1
 De vita Dei	  1
 De vita foetus in utero materno	  1
 De vita hominis	  1
@@ -3576,19 +3744,23 @@ De vitio subreptionis in experiundo	  1
 De vitiositate morali in communi	  1
 De viva cognitione boni & mali	  1
 De vivacitate patriarcharum	  1
+De vocatorum justificatione per fidem	  1
 De vocis keratíōn significatu, Luc. XV. 16	  1
 De voluntate humana	  1
 De voluntate perficienda	  1
+De votis monachorum	  1
 De voto & facto Jephtae ad Judic. XI:v. 30	  1
 De voto in genere, et speciatim de voto temerario	  1
 De vulnere ventriculi lethali	  1
 De vulneribus Christi	  1
 De zelo pastoris evangelici	  1
+De zoopaedia morali	  1
 De παρουσια Christi secundum apostolum Paulum	  1
 De χειροθεσιαι consecratoria	  1
 Decas positionum philosophicarum (1653)	  1
 Decas positionum philosophicarum (1667)	  1
 Decas thesium theologicarum selectarum	  1
+Deleniatio passionis et mortis, Redemptoris nostri Jesu Christi	  1
 Demonstratio formularum, quae in Actis Stockholmensibus hujus anni pag. 67 et seqq. comparent	  1
 Demosthenis orationes tres Olynthiacae.	  1
 Den fullständiga kontoristen	  1
@@ -3612,6 +3784,7 @@ Der Stiftungsfest	  1
 Der Wirr-warr	  1
 Descriptio historiaque insectorum quorundam	  1
 Descriptio monstri anatomicam proponens	  1
+Descriptio Neostadii	  1
 Descriptio organica linearum curvarum.	  1
 Descriptio organicae linearum curvarum.	  1
 Descriptio paroeciae Cuopio.	  1
@@ -3720,7 +3893,7 @@ Duae positiones	  1
 Dubia nonnulla circa argumenta compressibilitatem aquae concernentia	  1
 Dvorânskoe gnezdo	  1
 Dym	  1
-Ebrietas	  1
+Ebrietatis incommoda	  1
 Eclipseos lunaris natura	  1
 Ecloga I. P. Virgilii Maronis	  1
 Educatio juventutis publica in scholis inferioribus.	  1
@@ -3728,7 +3901,6 @@ Educatio publica praestantissimum est vitiorum submovendorum auxilium	  1
 Een christeligh predikan	  1
 Een historia om Jerusalems jemmerligha förstörning	  1
 Een skön och lustigh wijsa (1681)	  1
-ei tiedossa	  1
 Eläinden tauti-kirja (1788)	  1
 Eläinden tauti-kirja (1803)	  1
 Elegidion, in funus ...	  1
@@ -3797,6 +3969,7 @@ Ett rätt barna-klenodium (1761)	  1
 Ett rätt barna-klenodium (1773)	  1
 Eugénie Grandet	  1
 Evas första bal	  1
+Eversio Sodomae & Gomorrhae, ductu versuum 23. & 24. cap. 19. Gen.	  1
 Evighetsljus på mörka moln	  1
 Ex antiquitatibus ecclesiasticis depromtae	  1
 Ex philologia sacra & philosophia depromptarum	  1
@@ -3813,12 +3986,14 @@ Examen monadum Leibnitianarum quoad elementa corporum	  1
 Examen opinionis gentilium de ortu hominum	  1
 Examen propositionis comparativae, quae a Christo legitur instituta inter camelum & divitem Matth. XIX. Marc. X. Luc. XVIII.	  1
 Examen verborum Christi: Joh. I. 47. ecce Nathanael verè Israelita	  1
+Excellens orator	  1
 Excommunicatione Hebraeorum	  1
 Exercitatio in nosocomio.	  1
 Exercitationes philologicae in Matthaei evangelium.	  1
 Exercitio medica.	  1
 Existentia Dei ex generatione animalium evolvens.	  1
 Existentia peccati, occasione dicti Rom. II: 15.	  1
+Explicatio Catecheseos minoris d. Lutheri	  1
 Explicatio phoenomeni optici, quo objecta aquae submersa duplicata conspiciuntur.	  1
 Expositio quorundam locorum Hafenrefferi, in quibus jam ortis novis controversiis, in suo Compendio theologico, vel a se ipso, vel ab aliis theologis evangelico-lutheranis dissentire videatur	  1
 Faber fortunae, sive disputatio moralis de ambitu vitae	  1
@@ -3889,6 +4064,7 @@ Fundamenta ornithologica	  1
 Fyratijo tree andelige betrachtelser (1676)	  1
 Gabriele	  1
 Galérslafven	  1
+Ganss König. Ein kurtzweylig Gedicht, von der Martins Ganss	  1
 Gaudium christiano-catholicum (1666)	  1
 Gaudium christiano-catholicum.	  1
 Geistliche Schatzkammer der Gläubigen	  1
@@ -3901,6 +4077,7 @@ Genuinae macrocosmi cunae	  1
 Germinal	  1
 Gigantomakhía	  1
 Gjennem Lorgnetten	  1
+Gogitationes subitaneae circa conservationem sui	  1
 Goral Jehova Prov. XVI.33	  1
 Grafwen i Perho	  1
 Grammatica graeca (1647)	  1
@@ -3923,6 +4100,7 @@ Grammaticae latinae rudimenta (1669)	  1
 Grammaticae latinae rudimenta (1684)	  1
 Grammaticae latinae rudimenta (1688)	  1
 Grammatices latinae elementa	  1
+Gratitudinis natura	  1
 Graziella	  1
 Guds Børns daglige Adgang til Naade-Stolen	  1
 Guds oförskylda nåd i Christo	  1
@@ -3946,7 +4124,9 @@ Halullisten sieluin kysymys (1798)	  1
 Halullisten sieluin kysymys (1822)	  1
 Halullisten sieluin kysymys (1829)	  1
 Hans Dampf in allen Gassen	  1
+Hatan damim hoc est, sponsum sanguinum Zipporae, Exod. IV. v. 25.	  1
 Health for little folks	  1
+Hebraeorum regis Davidis ingenium, dotes, fata, gloria	  1
 Heller Glaubensspiegel	  1
 Helsningsord till presterskapet i Borgå stift	  1
 Hemma på Gretaby	  1
@@ -4034,9 +4214,11 @@ Idea perfectae humanitatis humanitatis definitura	  1
 Idea pharmacopoeae reformatae	  1
 Idiotismos lingvae Romanae, in textu sacro Testamenti Novi se offerentes	  1
 Idyllion anacreontium	  1
+Ignis sacer	  1
 Il Kalevala o la poesia tradizionale dei Finni	  1
 Il Trovatore	  1
 Ilias	  1
+Ilo-laulu Jesuxesta (1690)	  1
 Ilo-laulu Jesuxesta (1706)	  1
 Ilo-laulu Jesuxesta (1736)	  1
 Ilo-laulu Jesuxesta (1772)	  1
@@ -4084,12 +4266,14 @@ Initia rhetorica (1805)	  1
 Insecta Svecica.	  1
 Insecta, piscatoribus in maritimis Finlandiae oris, noxia	  1
 Instabilitas et miseria humanae vitae	  1
+Institutio bonorum principum	  1
 Institutio interpretis Novi Testamenti	  1
 Institutio juventutis	  1
 Institutio ministri ecclesiae ministerio renuntiantis	  1
 Institutiones logicae	  1
 Institutiones oratoriae	  1
 Institutiones pneumaticae	  1
+Insula Wisingiana	  1
 Insula Wisingianae	  1
 Intellectus esse natura priorem voluntate	  1
 Interpres oraculorum Dei sive lingva primigenia	  1
@@ -4123,6 +4307,7 @@ Jesajae caput VII:mum versum et animadversionibus explicatum	  1
 Jesuxen Christuxen rakkauden hartaat tutkistelemiset (1799)	  1
 Jesuxen Christuxen rakkauden hartaat tutkistelemiset (1808)	  1
 Jiu-jitsu combat tricks	  1
+Johannes Baptista	  1
 Jom Kippur	  1
 Joseph pater Aegyptiacus.	  1
 Josephus	  1
@@ -4145,6 +4330,8 @@ Jumalan lasten jokapäiwäinen edeskäyminen (1786)	  1
 Jumalan lasten jokapäiwäinen edeskäyminen (1800 tai 1801)	  1
 Jumalan lasten jokapäiwäinen edeskäyminen (1906)	  1
 Jumalan pyhästä laista.	  1
+Jurisprudentia	  1
+Jus regium, occasione verborum	  1
 Justitia corona virtutum	  1
 K. Davids poenitentz (1620)	  1
 K. Davids poenitentz (1640)	  1
@@ -4177,6 +4364,8 @@ Kaxi murhellista wijsua (1780)	  1
 Kaxi murhellista wijsua.	  1
 Kaxitoista kymmendä christillisyden muisto-sanaa (1777)	  1
 Kaxitoista kymmendä christillisyden muisto-sanaa (1785)	  1
+Kehoitus ja neuwo (1787)	  1
+Kehoitus ja neuwo (1788)	  1
 Kejsaren, storfursten Alexander II:s minne den 29 april 1894	  1
 Kenn-Zeichen der Wahren Wiedergeburth und Erneurung des Geistes, von einen einfältigen .... durch die Gnade Gottes Hocherleuchteten Bauersmann vormahls beschrieben ...	  1
 Kiertokirje (1646-11-01)	  1
@@ -7251,8 +7440,10 @@ La bête humaine	  1
 La colombe	  1
 La Conquète du pain	  1
 La dame aux camélias	  1
+Laboris praestantia necessitas ac utilitas	  1
 Lamicum carmen Abu-Ismaelis Tograi, latine explicatum.	  1
 Landets politiska frågor.	  1
+Lapis lydius philosophiae practicae; sive de principiis regulativis in philosophiâ practicâ observandis	  1
 Lapis lydius politicus	  1
 Läran om staten	  1
 Lärobok i allmänna geografin.	  1
@@ -7318,10 +7509,14 @@ Lasten-biblia (1759)	  1
 Lasten-biblia (1768)	  1
 Lasten-biblia (1775)	  1
 Laus eruditionis	  1
+Laus et delineatio Smolandiae	  1
+Laus Holmiae	  1
 Laus literarum	  1
 Laus manus	  1
 Laus navigationis	  1
+Laus Ost-Bothniacae regionis	  1
 Laus studiorum	  1
+Laus supremi regii	  1
 Le carillonneur	  1
 Le dernier jour d'un confamné	  1
 Le mariage de Loti	  1
@@ -7338,17 +7533,22 @@ Les forceurs de blocus	  1
 Les fourberies de Scapin	  1
 Les treize journées ou la Finlande.	  1
 Les treize journées, ou la Finlande	  1
+Lethala	  1
 Lettera di Francesco Piranesi al signor generale d. Giovanni Acton	  1
 Lettre d'un ami de Dantzig à son ami de Königsberg relativement à l'affaire de Willmanstrand	  1
 Lex naturalis est indispensabile	  1
+Lex sumptuaria	  1
 Lexicon graeco-latinum (1649)	  1
 Lexicon graeco-latinum (1686)	  1
+Lexicon latino-scondicum (1632)	  1
 Libellus aureus (1665)	  1
 Libellus aureus (1670)	  1
 Libellus aureus (1693)	  1
 Liber ecclesiastae, gemina versione et notis illustratus.	  1
 Liber studiosus	  1
+Liberalitas	  1
 Liberalitatis encomium	  1
+Liberalitatis laus	  1
 Libertas civium, quatenus ex recta civitatis administratione resultat	  1
 Libra aequitatis, ad pendenda parentum et liberorum officia	  1
 Life on the Mississippi	  1
@@ -7497,15 +7697,18 @@ Luettelo (1827)	  1
 Luftballongens uppfinning, samt lyckliga och olyckliga luftseglingar	  1
 Luna recte dici luminare magnum	  1
 Lunulae quaedam circulares quadrabiles	  1
+Lutherus heros	  1
 Luwun-laskun oppi-kirja.	  1
 Lyhy mutta tarpellinen neuwo (1794)	  1
 Lyhy mutta tarpellinen neuwo (1806)	  1
 Lyhy mytta tarpellinen neuwo (1796)	  1
 Lyhy mytta tarpellinen neuwo (1801)	  1
+Lyhykäinen kirjoitus, potatoesten eli maan päronain wiljelemisestä (1776)	  1
 Lyhyt mutta tarpeellinen neuvo (1851)	  1
 Lytrodoxia Jesu	  1
 Magia naturalis, seu de qualitatibus occultis	  1
 Magister philosophus secundum instituta Pythagorae	  1
+Magnalia Gustavi Primi, magni illius Svecor. Gothor. monarchae historico-politice	  1
 Magnanimitas	  1
 Magnes rerum naturalium	  1
 Maisterindiplomi (1738-07-05)	  1
@@ -7516,16 +7719,19 @@ Man and the spiritual world	  1
 Manipulus disputationum theologicarum	  1
 Manipulus disputationum theologicarum.	  1
 Manipulus ethicus.	  1
+Mansuetudo	  1
 Manuductio ad studium juris Sveco-Romani	  1
 Mare aeneum Salomoneum, cum selectis q̳ibusdam aphorismis, historicè & mathematicè explicatum	  1
 Materia emptionis-venditionis	  1
 Mechaniska häf-tyget wiggens egenskaper	  1
 Medicina ars nobilissima	  1
+Meditatio mortis	  1
 Meditationes nonnullae miscellaneae aphorismis comprehensae	  1
 Meditationes quaedam morales circa considerationem corporum caelestium	  1
 Meditationes quasdam circa institutionem juventutis	  1
 Meditationes sacrae	  1
 Menniskohjertat, ett Herrans tempel eller en djefvulens boning	  1
+Menniskornas allmänne usselheet	  1
 Mercator eruditus	  1
 Merikartta	  1
 Merkværdige exempler paa de hellige martyrers svare lidelser og seyerrige troe og taalmodighed udi de ti store forfølgelser	  1
@@ -7550,6 +7756,7 @@ Miten voitaisiin välttää eläinrääkkäystä metsäajoissa?	  1
 Momenta quaedam ad illustrationem veteris historiae Rossicae pertinentia	  1
 Momenta quaedam praecipua locorum et temporum, in historia literarum et artium observanda	  1
 Mon frère Yves	  1
+Monarchia	  1
 Money-diggers	  1
 Monita quaedam philosophica circa studium virtutis hominibus instillandum	  1
 Monomakhian veterum Hyperboreorum	  1
@@ -7705,6 +7912,7 @@ Om förmon af kopp-ympningens widtagande i Finland	  1
 Om försiktighet vid finance-verks inrättande uti samhällen	  1
 Om gipsen	  1
 Om gräswäxtens aftagande på wåra ängar, och dess botemedel	  1
+Om Gudz sons Christi Jesu mandoms annammelse	  1
 Om häck-planteringen	  1
 Om Hollola socken	  1
 Om hushållningens hinder och hjelp i Kimi-Lappmarck	  1
@@ -7811,6 +8019,7 @@ Opera (1805)	  1
 Operationes intellectus humani quatenus sunt objectum logices	  1
 Opisanìe finlândskoj vojny na suhom' puti i na morě v' 1808 i 1809 godah'	  1
 Opiskelijaluettelo (1818)	  1
+Oracula sibyllina	  1
 Orationes quedam selectae (1669)	  1
 Orationes quedam selectae (1686)	  1
 Orbis sensualium pictus	  1
@@ -7843,6 +8052,7 @@ Pakolaiset	  1
 Paliggenesia Matth. XIX. 28. philologica excussa dissertatione	  1
 Palingenesia zoologica	  1
 Pamâti finlândskago general'-gubernatora Nikolaâ Ivanoviča Bobrikova	  1
+Papae et papalium Romanensium tenebras	  1
 Paradies-Gärtlein	  1
 Paradisin yrti-tarha (1764)	  1
 Paradisin yrti-tarha (1775)	  1
@@ -7853,6 +8063,7 @@ Paradisin yrti-tarha (1863)	  1
 Paradisus leviter delineatus	  1
 Parlamentarismus und Demokratie	  1
 Particula historiae hominis moralis, ex Homero illustrata.	  1
+Passio se on meidän Herran Jesuxen Christuxen pijnan historia (1636)	  1
 Passio se on meidän Herran Jesuxen Christuxen pijnan historia (1690)	  1
 Pastor Hebraeus leviter delineatus	  1
 Paul et Virginie	  1
@@ -7867,6 +8078,7 @@ Perbreves commonitiones (1689)	  1
 Perfectio brutorum	  1
 Perì tês psykhogonías	  1
 Perì tês tôn nekrôn anastáseos [kreikkaa]	  1
+Perì thaumasíu tû anthrópu kaì tôn kólon autû morfómatos [kreikkaa]	  1
 Perì tôn angélon tôn te kalôn kaì tôn kakôn [kreikkaa]	  1
 Perì tôn klimakterôn e etôn klimakterikôn	  1
 Perì toû Krónou angylometéo	  1
@@ -7892,6 +8104,7 @@ Physiologia systematis ossium.	  1
 Piae cantiones	  1
 Piae cantiones ecclesiasticae et scholasticae veterum episcoporum	  1
 Pienembi catechismus (1628)	  1
+Pietatis officia	  1
 Pietatis studium	  1
 Pikovaâ dama	  1
 Pilgrims-sånger på vägen till det himmelska Zion	  1
@@ -7899,13 +8112,13 @@ Placówka	  1
 Poemata (1646)	  1
 Poemata (1676)	  1
 Poëmata heroico-miscellania.	  1
-Poenitentia ethnicorum, secundum principia philosophiae	  1
 Poetiske dikter.	  1
 Politica praecepta ad statum imperii Gothico-Svetici accommodata	  1
 Politica, ad modernum imperij Sueo-gothici statum accomodata	  1
 Porthan'in kuwapatsaan paljastettua	  1
 Portula lingvae latinae	  1
 Positiones	  1
+Positiones maximè controversas	  1
 Positiones miscellas	  1
 Positiones nonnullae graviores, e fragrantissimo scientiarum viridario carptim collectas exhibens	  1
 Positiones nonnullae miscellaneae	  1
@@ -7941,6 +8154,8 @@ Praecipuae caussae raritatis pecuniae in Europa	  1
 Praejudicia hominum nostri circa decorum	  1
 Praenotiones problematis, quo potuerit modo homo a deo desciscere, ipsamque problematis solutionem	  1
 Praesagia tempestatum, guae collecta sunt in Carelia	  1
+Praesentia regis in bello	  1
+Praestantia et antiqvitas juris	  1
 Praestantia plantarum indigenarum prae exoticis	  1
 Praestantiam hominis prae brutis disquirens.	  1
 Praxin juris naturae civilis	  1
@@ -7991,6 +8206,7 @@ Quaedam rationum pondera pro positiva et reali qualitatum physicarum, in sphaera
 Quaestio: an disputando eliciatur veritas? Praelucente praesertim historia ecclesiastica, sistens	  1
 Quaestio: an homines renati sint filii Dei naturales? nuper in controversiam vocata in Livonia	  1
 Quaestio: an mons Sevo in Scandinavia quaerendus sit, exhibens	  1
+Quaestio: an philosophia felicitatem quoque aeternam respiciat	  1
 Quaestio: an possit Simson Christi typus haberi	  1
 Quaestio: quid Moses de diis gentium senserit.	  1
 Quaestio: quis per mesíten, loco ad Gal. III: 19, 20. intelligatur, evolvens	  1
@@ -8006,6 +8222,7 @@ Quaestiones nonnullas homicidium et defensionem sui necessariam concernentes	  1
 Quaestiones physicae	  1
 Quaestiones pneumaticae	  1
 Quaestiones praestantiorum philosophicarum	  1
+Quaestiones quaedam philosophicae	  1
 Quaestiones selectiores nonnullae practicae	  1
 Quaestiones selectiorum philosophicarum	  1
 Quantitates quasdam pro locis quibusdam et speculis astronomicis constantes, ad computandas occultationes stellarum et eclipses solis idoneas	  1
@@ -8143,6 +8360,7 @@ Socrates philosophiam e coelo devocans.	  1
 Solidae & sine fuco virtutis lineamenta quaedam exhibens	  1
 Soloecismi quidam politici circa reformationem Lutheri commissi	  1
 Somnium Scipionis	  1
+Sororium disciplinarum vinculum	  1
 Sotilaan päiwäkirja eli kertomuksia sodasta Wenäjän ja Turkin välillä ww. 1877-78	  1
 Späda barns nödiga ans och skötsel, alla christeliga föräldrar åliggande	  1
 Species intelligibilis	  1
@@ -8174,9 +8392,11 @@ Striden om Finland 1808-1809	  1
 Strödda anmärkningar uti philosophien	  1
 Strödda besvarade lagfrågor.	  1
 Studii oeconomici in virtutum culturam influxum, paucis ostensura	  1
+Studiosus miles	  1
 Studium oeconomiae et historiae naturalis informatori necessarium, exhibens	  1
 Stultitia atheismi, psalmo XIV: v. I. innixa	  1
 Subitanea quaedam notationes, eademque miscellanea	  1
+Successio electionis	  1
 Sudermanniae descriptio	  1
 Sudermanniae laus ac deleniationem	  1
 Summa doctrinae christianae	  1
@@ -8194,7 +8414,11 @@ Suomi ennen ja nyt	  1
 Super beqarim i. e. pastoribus, seu re pastoritia veterum	  1
 Super eloquentia	  1
 Sur la pierre blanche	  1
+Suru suuri suomalaisen (1742)	  1
+Suru suuri suomalaisen (1743)	  1
 Suru-runot suomalaiset (1778)	  1
+Suru-runot suomalaiset.	  1
+Surun surkian, waiwan waikian (1697)	  1
 Surun surkian, waiwan waikian (1722)	  1
 Svar på Ehrenswärds förklaring	  1
 Svar på Kongl. Finska fästnings-commissionens förfrågningar	  1
@@ -8289,6 +8513,9 @@ The White Sister	  1
 Themata nonnulla theoretica simul ac practica duabus sectionibus inclusa	  1
 Theologia Aristotelis	  1
 Theologia naturalis ut practica	  1
+Theologiae natura & constitutio	  1
+Theoremata aliquot miscellanea	  1
+Theoremata aliquot philosophica (1650)	  1
 Theoremata aliquot philosophica (1658)	  1
 Theoremata aliquot selectiora	  1
 Theoremata exhibens generalia inveniendis residuis, ex divisione numerorum oriundis, inservientia	  1
@@ -8311,6 +8538,7 @@ Theoremata nonnulla philosophica (1668)	  1
 Theoremata nonnulla philosophica miscellanea	  1
 Theoremata nonnulla propaideutika, quibus encyclopaediam disciplinarum istarum generalem complectitur	  1
 Theoremata nonnulla, tam theoretica quam practica	  1
+Theoremata quaedam	  1
 Theoremata quaedam de metallis continens	  1
 Theoremata quaedam ethica selectiora	  1
 Theoremata quaedam mathematica	  1
@@ -8395,6 +8623,7 @@ Theses philologico-theologico-polemicae	  1
 Theses philosophicae (1678)	  1
 Theses philosophicae (1735)	  1
 Theses philosophicae (1738)	  1
+Theses philosophicae (1746)	  1
 Theses philosophicae (1748)	  1
 Theses philosophicae (1750)	  1
 Theses philosophicae (1754)	  1
@@ -8457,12 +8686,14 @@ Tractatus pacis Cardisensis, secundum exemplum manu scriptum Russicum in Bibliot
 Traditio manualis leviter delineata	  1
 Tranquillitas mentis, providentia divina rite institutae	  1
 Transitus Veneris per solem	  1
+Trenne klag- och tröste-sånger (1690)	  1
 Trenne klag- och tröste-sånger (1698)	  1
 Trenne samtal emellan en lärare och dess åhörare	  1
 Trenta per cento	  1
 Triga positionum philosophicarum	  1
 Triga quaestionum miscellanearum	  1
 Triumphus Christi	  1
+Tsemah tenore Esaj. 4:v.2. Jerem. 23:v.5. Zach. 3:v.8.	  1
 Tutkistelemus (1800)	  1
 Tutkistelemus (1803)	  1
 Tutkistelemus (1866)	  1
@@ -8507,6 +8738,7 @@ Usus scientiae naturalis in theologia revelata	  1
 Usus, quem theologo studium praestat historicum	  1
 Utilitas & officia boni consiliari	  1
 Utilitas montium in oeconomia	  1
+Utilitas pacis	  1
 Utilitates fluentes ex inito natorum denatorumque calculo	  1
 Utilitates, qvae ex commerciis & coloniis in calidioribus mundi partibus patriae adfluerent	  1
 Utkast til en blomstergård af inhemska wäxter	  1
@@ -8524,10 +8756,13 @@ Vaticinium Michae fennice versum notisque illustratum.	  1
 Vaticinium Salvatoris, interitum reipublicae Judaicae, ultimum suum adventum & consummationem rerum praedicentis	  1
 Vegas färd kring Asien och Europa	  1
 Venäläisten oikeuksista Suomessa : tarkastelu Keisarikunnan Ministerineuvoston ehdotuksesta 'muiden Venäjän alamaisten saattamisesta oikeuksien puolesta yhdenvertaisiksi Suomen kansalaisten kanssa'	  1
+Vera amicitia	  1
 Vera insectorum vulgo sponte nascentium genesis	  1
 Vera notio et indoles regni Dei e sermonibus Christi	  1
+Verae nobilitatis investigatio	  1
 Verba Davidis Ps. XXXVII. v. 25	  1
 Veris voluptates	  1
+Veritas	  1
 Veritas christianae religionis aphorismis nonnullis adserta	  1
 Veritas religionis evangelicae ex scriptis gentilium adserta	  1
 Veritas sacrae scripturae rationibus philosophicis demonstrata	  1
@@ -8545,6 +8780,7 @@ Vindiciae veterum druidum Hyperboreorum	  1
 Vindicias Providentiae divinae contra exceptiones deistarum, continens	  1
 Virittäjä : II	  1
 Virtus obedientiae	  1
+Virtus prosopopeiae in oratione	  1
 Virtutum intellectualium brevis delineatio	  1
 Vita & merita Thorstani Ståhlhandske	  1
 Vitae excellentium imperatorum (1685)	  1
@@ -8561,6 +8797,7 @@ Vocum latinarum sylloge (1688)	  1
 Voluptas	  1
 Vom Hans, der nicht arbeiten will	  1
 Von der Freiheit eines christen Menschen	  1
+Votum pro aeternitate Christinae	  1
 Vthläggning öfwer söndagz-evangelierne	  1
 Vulgaria quaedam pluviarum praesagia expositura	  1
 Vulgaria quaedam tempestatis serenae praesagia continens	  1
@@ -8575,6 +8812,7 @@ Wähä catechismus (1668)	  1
 Wähä catechismus (1670)	  1
 Wähä catechismus (1682)	  1
 Wähäisten lasten, ja myös muitten, ... opetus-wirsi.	  1
+Walitus wirsi, Suomen surkeudest (1734 tai aik.)	  1
 Wälmente kundgiörelse om Nådendahls hälso-brunn	  1
 Wanhat ja uudet hengelliset wirret (1805)	  1
 Wanhat ja uudet hengelliset wirret (1831)	  1
@@ -8608,6 +8846,7 @@ Ylösrakendawainen lasten kirja	  1
 Yxi christillinen saarna (1778)	  1
 Yxi hengellinen wirsi (1801)	  1
 Yxi hengellinen wirsi.	  1
+Yxi Jumalan armon cautta, catuwainen rippi-lapsi (1747)	  1
 Yxi Jumalan armon cautta, catuwainen rippi-lapsi (1767)	  1
 Yxi Jumalan armon cautta, catuwainen rippi-lapsi (1773)	  1
 Yxi Jumalan armon cautta, catuwainen rippi-lapsi (1780)	  1
@@ -8657,7 +8896,11 @@ Yxikertainen selitys (1802)	  1
 Yxikertainen selitys (1803)	  1
 Yxikertainen selitys (1806)	  1
 Yxikertainen selitys (1854)	  1
-Yxikertaiset kysymyxet	  1
+Yxikertaiset kysymyxet (1739--1747)	  1
+Yxikertaiset kysymyxet (1739)	  1
+Yxikertaiset kysymyxet (1748)	  1
+Yxikertaiset kysymyxet (1750)	  1
+Yxikertaiset kysymyxet (1752)	  1
 Yxikertaiset kysymyxet (1759)	  1
 Yxikertaiset kysymyxet (1769)	  1
 Za chlebem	  1
