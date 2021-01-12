@@ -18,8 +18,8 @@ catalog <- "fennica"
 languages <- c("finnish", "latin", "swedish")
 
 # List the preprocessed data file and read the data
-df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, sep = "|")
-# df.orig <- df.orig[sample(nrow(df.orig), 1000),]
+#df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, sep = "|")
+#df.orig <- df.orig[sample(nrow(df.orig), 1000),]
 
 
 # FIXME Failing fields commented out for now - fix later
@@ -32,8 +32,8 @@ update.fields <- c(
       "title_uniform",         
       "title",                
       "publication_time",      
-      # "physical_extent",       
-      # "physical_dimension",
+      #"physical_extent",       
+      #"physical_dimension",
       "publication_frequency", 
       "publication_interval",  
       "note_dissertation",    
@@ -41,12 +41,12 @@ update.fields <- c(
       "note_source",           
       "note_510c",            
       "subject_topic",         
-      # "subject_geography",     
+      "subject_geography",     
       "corporate",            
       "uncontrolled",          
       "successor",             
-      "holder"# ,              
-      # "publisher"
+      "holder",              
+      "publisher"
       )
 
 df.orig <- df.orig[, update.fields]
