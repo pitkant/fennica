@@ -59,7 +59,7 @@ df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_inte
 
   message("Custom gender information for Fennica")
   # For author names, use primarily the Finnish names database
-  # hence use it to replace the genders assigned earlier by bibliographica
+  # hence use it to replace the genders assigned earlier 
   library(fennica)
   firstname <- pick_firstname(df.preprocessed$author_name, format = "last, first")
 
@@ -76,6 +76,10 @@ df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_inte
   inds <- which(!is.na(gendercustom))
   df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
+
+skip <- TRUE
+# FIXME add this
+if (!skip) {
 message("-- Fennica publishers")
   df.preprocessed.bu <- df.preprocessed
   df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
@@ -98,5 +102,7 @@ message("-- Fennica publishers")
   df.preprocessed$latitude <- geoinfo[inds, "latitude"]  
  
   # ----------------------------------------------------------------------
+
+}
 
 data.enriched.fennica <- df.preprocessed

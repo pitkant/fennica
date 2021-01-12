@@ -28,7 +28,7 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 library(ggplot2)
-library(bibliographica)
+
 library(fennica)
 library(sorvi)
 library(devtools)
@@ -603,7 +603,7 @@ Turku, Vaasa and Vyborg from FNB; Stockholm, Lund, Uppsala, Greifswald, Tartu fr
 
 ```{r Figure_8, echo=FALSE, message=FALSE, warning=FALSE, cache=FALSE}
 # Top publication places
-library(bibliographica)
+
 df <- df0
 catal <- "FNB"
 df <- df %>%
@@ -791,11 +791,11 @@ print(p)
 
 ### Fig 11: Title count per capita
 
-The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/population_sizes_in_cities.csv).
+The historical population sizes used in this analysis are shown in this [table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/population_sizes_in_cities.csv).
 
 ```{r Figure_11, echo=FALSE, message=FALSE, warning=FALSE}
 # Read historical population sizes
-f <- system.file("extdata/population_sizes_in_cities.csv", package = "bibliographica")
+f <- system.file("extdata/population_sizes_in_cities.csv", package = "fennica")
 pop <- read.csv(f)
 pop <- melt(pop, "Year")
 colnames(pop) <- c("publication_decade", "publication_place", "population")

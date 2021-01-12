@@ -2,7 +2,7 @@ df <- readRDS("df.Rds")
 
 inds <- grep("\\.\\.\\.", df$title)
 
-library(bibliographica)
+# library(bibliographica)
 library(dplyr)
 
 # ----------------------------------

@@ -2,7 +2,22 @@
 tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
 
 # Clean up - remove overlaps - is all needed
-summaries <- c("summary", "overview", "author", "publicationplace", "publisher", "documents", "size", "gender", "topic", "language", "title", "publicationyear", "pagecount", "dimension", "physical_dimension", "Paper")
+summaries <- c("summary",
+               "overview",
+	       "author",
+	       "publicationplace",
+	       # "publisher",
+	       "documents",
+	       "size",
+	       "gender",
+	       "topic",
+	       "language",
+	       "title",
+	       "publicationyear",
+	       "pagecount",
+	       "dimension",
+	       "physical_dimension",
+	       "Paper")
 
 df <- df.preprocessed
 
@@ -11,12 +26,10 @@ outputs <- c()
 
 # Generate the markdown summaries
 for (id in summaries) {
-this.folder <- getwd()
-outputs[[id]] <- knit(input = system.file(paste("extdata/", id, ".Rmd", sep = ""),
-  	       	package = "bibliographica"),
-       output = paste(id, ".md", sep = "")) # envir = globalenv()
-       gc()
-  }
+  this.folder <- getwd()
+  outputs[[id]] <- knit(input = paste(id, ".Rmd", sep = ""), 
+                        output = paste(id, ".md", sep = ""))
+}
 
 
 

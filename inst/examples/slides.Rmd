@@ -61,7 +61,7 @@ print(p)
 **Fast time line analysis**
 
 ```{r, fig.width=15, fig.height=5, message=FALSE, warning=FALSE}
-library(bibliographica)
+#
 timeline(subset(df0, catalog == "Fennica"), 
           group = "publisher", nmin = 500, mode = "absolute")$plot
 ```
@@ -263,7 +263,7 @@ theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
-  top.authors <- names(bibliographica::top(df, field = "author", n = 10))
+  top.authors <- names(comhis::top(df, field = "author", n = 10))
   dfs <- df %>% filter(author %in% top.authors) %>%
          group_by(author, publication_decade) %>%
          tally() %>%

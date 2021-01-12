@@ -24,7 +24,7 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 library(ggplot2)
-library(bibliographica)
+
 library(fennica)
 library(sorvi)
 library(devtools)

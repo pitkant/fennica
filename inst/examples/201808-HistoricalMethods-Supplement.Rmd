@@ -13,7 +13,7 @@ analyzed in the main text.
 library(devtools)
 #install_github("haozhu233/kableExtra")
 library(kableExtra)
-load_all("~/Rpackages/bibliographica")
+# load_all("~/Rpackages/bibliographica")
 load_all("~/Rpackages/fennica")
 library(skimr)
 library(ggplot2)
@@ -151,7 +151,7 @@ knitr::kable(df, format = "markdown")
 The most common (primary) languages in FNB:
 
 ```{r languages_fen, echo=FALSE, message=FALSE, warning=FALSE}
-map <- bibliographica::map
+map <- comhis::map
 tab <- top(fen, field, 10, "data.frame", round = 1)
 colnames(tab) <- gsub("language_primary", map("language_primary", fieldname_table(), from = "Data", to = "Name"), colnames(tab))
 knitr::kable(tab, format = "markdown")

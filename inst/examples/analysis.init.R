@@ -1,7 +1,6 @@
 library(ggplot2)
 library(tidyr)
 library(dplyr)
-library(bibliographica)
 library(fennica)
 library(magrittr)
 library(reshape2)
@@ -14,15 +13,14 @@ library(knitr)
 #timespan <- c(1400, 1920)
 #timespan <- c(1470, 1828)
 #timespan <- c(-Inf, Inf)
-datafile <- "data/unified/polished/df.Rds"
-datafile.orig <- "data/unified/polished/df.raw.Rds"
+datafile <- "df.Rds"
+datafile.orig <- "df.raw.Rds"
 ntop <- 20
 author <- "Helsinki Computational History Group (COMHIS)"
 
 # Already in main.R but it must
 # be possible to run analysis.R
 # independently, therefore redefined here.
-
 output.folder <- "output.tables/"
 
 # ---------------------------------

@@ -1,21 +1,8 @@
+# ----------------------------------------------------
+#            INITIALIZE AND LOAD DATA
+# ----------------------------------------------------
+
 source("init.R")
-
-# ----------------------------------------------------
-#            LOAD DATA FOR PREPROCESSING
-# ----------------------------------------------------
-
-df.orig <- read_bibliographic_metadata(fs, verbose = TRUE, sep = "|")
-# FIXME move this to preprocessing part
-# Modify the original data if needed 
-# Finnish/Swedish specific fixes 
-# In Finnish texts s. is used instead of p.
-
-update.fields <- names(df.orig) # Update all fields
-# Remove specified fields
-ignore.fields <- c("language2", "title_remainder",
-                       "physical_details", "physical_accomppanied",
-                       "note_general", "note_year", "original_row") # Fennica
-update.fields <- setdiff(update.fields, ignore.fields)
 
 # ----------------------------------------------------
 #           PREPROCESS DATA
@@ -24,7 +11,9 @@ update.fields <- setdiff(update.fields, ignore.fields)
 message("Preprocess selected original fields")
 source("polish_all.R")
 
-saveRDS(df.preprocessed, "data/unified/polished/df0.Rds", compress = TRUE)  
+# Store the processed data
+saveRDS(df.preprocessed, "df0.Rds", compress = TRUE)
+saveRDS(df.orig, "df.raw.Rds", compress = TRUE)  
 saveRDS(conversions, "conversions.Rds", compress = TRUE)
 
 # ----------------------------------------------------
@@ -60,19 +49,20 @@ data.enriched2 <- enrich_preprocessed_data(data.validated2, df.orig)
 
 print("Saving updates on preprocessed data")
 df.preprocessed <- data.enriched2
-saveRDS(df.preprocessed, "data/unified/polished/df.Rds")
-
-# Data releases
-# CCQ 2019 data release - run separately
-# source("prepare_fnd_data_for_ccq2019.R")
-
-# -----------------------------------
+saveRDS(df.preprocessed, "df.Rds")
 
 # Summary analyses
 source("analysis.init.R")
-source("analysis.run.R")
+# source("analysis.run.R")
+
+# ---------------------------------------------------
 
 # Specific analyses (to be updated)
 # source("analysis.R")  # Summary md docs
+
+# Data releases
+# CCQ 2019 data release - run separately
+# source("CCQ_2019/prepare_fnd_datax_for_ccq2019.R")
+
 
 

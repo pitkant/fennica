@@ -19,7 +19,7 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 library(ggplot2)
-library(bibliographica)
+
 library(fennica)
 library(sorvi)
 library(devtools)
@@ -401,7 +401,7 @@ df <- df %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
 
 # Top publication places
-library(bibliographica)
+
 
 top <- c("Turku", "Vaasa", "Vyborg")
 df <- df %>%	
@@ -1154,7 +1154,7 @@ theme_set(theme_bw(20))
 for (catalogue in c("Fennica", "Kungliga")) {
   df <- filter(df0, catalog == catalogue) %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
-  top.authors <- names(bibliographica::top(df, field = "author", n = 10))
+  top.authors <- names(comhis::top(df, field = "author", n = 10))
   dfs <- df %>% filter(author %in% top.authors) %>%
          group_by(author, publication_decade) %>%
          tally() %>%

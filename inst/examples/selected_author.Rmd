@@ -13,7 +13,7 @@ library(tidyr)
 library(dplyr)
 library(reshape2)
 library(estc)
-library(bibliographica)
+
 library(dplyr)
 
 dfa <- dplyr::filter(df.preprocessed, author %in% selected.author)

@@ -9,7 +9,7 @@ output: markdown_document
 library(stringr)
 library(dplyr)
 library(ggplot2)
-library(bibliographica)
+
 library(fennica)
 library(sorvi)
 df <- readRDS("df.Rds")

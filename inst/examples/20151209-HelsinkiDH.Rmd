@@ -12,7 +12,7 @@ This markdown document contains presentation material for [Digital History in Fi
 library(stringr)
 library(dplyr)
 library(ggplot2)
-library(bibliographica)
+
 library(fennica)
 library(sorvi)
 

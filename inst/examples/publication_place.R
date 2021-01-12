@@ -1,4 +1,3 @@
-    # Polish the given field
-    df.tmp <- polish_field(df.orig, df.preprocessed, field, verbose = FALSE,
-                           languages = languages)
+tab <- polish_place(df.orig[[field]], remove.unknown = FALSE, verbose = verbose)
+df.tmp <- data.frame(publication_place = tab)
 

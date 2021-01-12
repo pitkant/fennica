@@ -4,6 +4,8 @@ TODO
 
 ### Technical
 
+- Check data/unified/polished/ & ~/data/comhis/Fennica/unified & gitlab@gitlab.utu.fi:leolahti/comhis.git
+
 - Paikkatiedot: Billnäs -> Karjaa?
 
 - Onko primaarikieli luotettava; näitä voisi testata joko

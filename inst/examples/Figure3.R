@@ -1,8 +1,6 @@
-
 library(ggplot2)
 library(dplyr)
 library(Cairo)
-library(bibliographica)
 theme_set(theme_bw(22))
 pics <- list()
 for (catal in unique(df0$catalog)) {

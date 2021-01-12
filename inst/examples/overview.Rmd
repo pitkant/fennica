@@ -57,9 +57,9 @@ This documents the conversions from raw data to the final preprocessed version (
 
 Brief description of the fields:
 
- * [Description of the original MARC fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldnames.csv)
+ * [Description of the original MARC fields](https://github.com/COMHIS/fennica/blob/master/inst/extdata/fieldnames.csv)
 
- * [Description of the preprocessed fields](https://github.com/COMHIS/bibliographica/blob/master/inst/extdata/fieldname_table.csv)
+ * [Description of the preprocessed fields](https://github.com/COMHIS/fennica/blob/master/inst/extdata/fieldname_table.csv)
 
 
 ## Histograms of all entries for numeric variables

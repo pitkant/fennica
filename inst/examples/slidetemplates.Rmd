@@ -83,7 +83,7 @@ library(dplyr)
 library(tidyr)
 library(reshape2)
 library(ggplot2)
-library(bibliographica)
+
 library(fennica)
 library(sorvi)
 library(devtools)
@@ -195,7 +195,7 @@ print(p)
 ## Automated algorithms for data clean-up
 
 ```{r, message=FALSE, warning=FALSE, echo=FALSE}
-library(bibliographica, quiet = TRUE)
+
 ```
 
 **Clean up messy entries**
@@ -555,7 +555,7 @@ df <- df0 %>%
         filter(publication_year >= 1640 & publication_year <= 1828)
 
 # Top publication places
-library(bibliographica)
+
 
 top <- c("Turku", "Vaasa", "Vyborg")
 df <- df %>%	
