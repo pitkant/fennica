@@ -12,9 +12,9 @@ several assigned topics.
 
 
 
-  * 3533 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
+  * 0 [unique accepted subject topics](output.tables/subject_topic_accepted.csv)
   * [List of discarded subject topics](output.tables/subject_topic_discarded.csv)
-  * 20889 documents (29%) are assigned one or more subject topics 
+  * 0 documents (NaN%) are assigned one or more subject topics 
 
 
 Top-50 subject topics and number of documents for each.

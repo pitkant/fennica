@@ -7,12 +7,12 @@ output: markdown_document
 
 ## Language
 
- * 40 [unique languages](output.tables/language_accepted.csv)
- * 34 [unique primary languages](output.tables/language_accepted.csv)  
- * 67623 single-language documents (94.03%)
- * 4296 multilingual documents (5.97%) 
+ * 12 [unique languages](output.tables/language_accepted.csv)
+ * 10 [unique primary languages](output.tables/language_accepted.csv)  
+ * 942 single-language documents (94.77%)
+ * 52 multilingual documents (5.23%) 
  * [Conversions from raw to preprocessed language entries](output.tables/language_conversions.csv) 
- * 733 documents (1.02%) with [unrecognized language](output.tables/language_discarded.csv)
+ * 7 documents (0.7%) with [unrecognized language](output.tables/language_discarded.csv)
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/language_abbreviations.csv).
 
@@ -32,14 +32,14 @@ see [accepted languages](output.tables/language_accepted.csv).
 
 |Language        |Documents (n) |Fraction (%) |
 |:---------------|:-------------|:------------|
-|Finnish         |32708         |45.5         |
-|Swedish         |23476         |32.6         |
-|Latin           |6587          |9.2          |
-|German          |1899          |2.6          |
-|Finnish;Swedish |1397          |1.9          |
-|Russian         |749           |1            |
-|Undetermined    |733           |1            |
-|French          |646           |0.9          |
-|Latin;Swedish   |610           |0.8          |
-|English         |345           |0.5          |
+|Finnish         |426           |42.9         |
+|Swedish         |363           |36.5         |
+|Latin           |92            |9.3          |
+|German          |20            |2            |
+|Finnish;Swedish |13            |1.3          |
+|Russian         |12            |1.2          |
+|French          |11            |1.1          |
+|Latin;Swedish   |10            |1            |
+|Undetermined    |7             |0.7          |
+|Swedish;Finnish |5             |0.5          |
 

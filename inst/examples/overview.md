@@ -7,7 +7,7 @@ output: markdown_document
 
 # Preprocessing summary
 
-The data spanning years 11-&infin; has been included and contains 71919 documents (also other filter may apply depending on the data collection, see the source code for details.
+The data spanning years 1582-1917 has been included and contains 994 documents (also other filter may apply depending on the data collection, see the source code for details.
 
 
 
@@ -27,8 +27,8 @@ The data spanning years 11-&infin; has been included and contains 71919 document
 
 ## Annotated documents
 
-  * 71919 documents in the original raw data
-  * 71919 documents in the final preprocessed data (100%)
+  * 1000 documents in the original raw data
+  * 1000 documents in the final preprocessed data (100%)
 
 Fraction of documents with data:
 
@@ -49,13 +49,13 @@ Same in exact numbers: documents with available/missing entries, and number of u
 ```
 
 ```
-## Error in `[.default`(tab, , c(1, 3, 2, 4, 5)): incorrect number of dimensions
+## Error in tab[, c(1, 3, 2, 4, 5)]: incorrect number of dimensions
 ```
 
 ```
-##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1509821  80.7    5040977 269.3  6301221 336.6
-## Vcells 22743233 173.6   36158350 275.9 35483435 270.8
+##            used (Mb) gc trigger  (Mb) max used  (Mb)
+## Ncells  1688361 90.2    4663866 249.1  5829832 311.4
+## Vcells 11566360 88.3   27950433 213.3 27950433 213.3
 ```
 
 

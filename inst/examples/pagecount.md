@@ -10,11 +10,11 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 67076 documents in total (93.3%), including both readily available and estimated page counts.
+  * Page count available for 926 documents in total (93.2%), including both readily available and estimated page counts.
 
   * Page count readily available for 0 documents (0%). 
 
-  * Page count estimated for 67076 documents (93.3%).
+  * Page count estimated for 926 documents (93.2%).
 
   * Page count missing and could not be estimated for 0 documents (0%).
 
@@ -136,7 +136,7 @@ count estimate.
 ## Error in FUN(X[[i]], ...): object 'doctype' not found
 ```
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 67076 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 926 documents that have missing pagecount info in the original data):
 
 
 ```
@@ -154,11 +154,11 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 ## Error: Problem with `summarise()` input `na`.
 ## ✖ object 'pagecount.orig' not found
 ## ℹ Input `na` is `sum(is.na(pagecount.orig) | (!pagecount.orig == pagecount))`.
-## ℹ The error occurred in group 1: publication_decade = 10, gatherings = "4to".
+## ℹ The error occurred in group 1: publication_decade = 1580, gatherings = "2fo".
 ```
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, na, value = logical(0)): replacement has 0 rows, data has 98
+## Error in `$<-.data.frame`(`*tmp*`, na, value = logical(0)): replacement has 0 rows, data has 64
 ```
 
 ```
@@ -170,14 +170,14 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 
 ## Estimated paper consumption
 
-Note: there are 29 documents that have some dimension info but sheet area information could not be calculated. 
+Note: there are 0 documents that have some dimension info but sheet area information could not be calculated. 
 
 
 ```
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 11.
+## ℹ The error occurred in group 1: publication_year = 1582.
 ```
 
 ```
@@ -199,7 +199,7 @@ Note: there are 29 documents that have some dimension info but sheet area inform
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 11, gatherings = "8vo".
+## ℹ The error occurred in group 1: publication_year = 1582, gatherings = "2fo".
 ```
 
 ```
@@ -225,7 +225,7 @@ Note: there are 29 documents that have some dimension info but sheet area inform
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_decade = 10, gatherings = "4to".
+## ℹ The error occurred in group 1: publication_decade = 1580, gatherings = "2fo".
 ```
 
 ```
@@ -253,7 +253,7 @@ Note: there are 29 documents that have some dimension info but sheet area inform
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_decade = 10.
+## ℹ The error occurred in group 1: publication_decade = 1580.
 ```
 
 ```
@@ -271,7 +271,7 @@ Note: there are 29 documents that have some dimension info but sheet area inform
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 11, type = "book".
+## ℹ The error occurred in group 1: publication_year = 1582, type = "pamphlet".
 ```
 
 ```
@@ -290,7 +290,7 @@ Note: there are 29 documents that have some dimension info but sheet area inform
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_decade = 10, length = "(0,32]".
+## ℹ The error occurred in group 1: publication_decade = 1580, length = "(0,32]".
 ```
 
 ```
@@ -315,7 +315,7 @@ Estimated paper consumption by document size
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 11, gatherings = "8vo".
+## ℹ The error occurred in group 1: publication_year = 1582, gatherings = "2fo".
 ```
 
 ```

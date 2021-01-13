@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing summary"
 author: "Leo Lahti"
-date: "Wed Jan 13 12:20:32 2021"
+date: "Wed Jan 13 13:10:39 2021"
 ---
 
 # Fennica summary
@@ -97,7 +97,12 @@ We also have corporate info available ?
 
 
 
-Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 5838 documents (8%). There are 645 unique geographical places.
+Top-20 geographical places are shown together with the number of documents assigned to that region. Geography information is available for 0 documents (NaN%). There are 0 unique geographical places.
+
+
+```
+## Error in plot.window(xlim, ylim, log = log, ...): need finite 'xlim' values
+```
 
 ![plot of chunk geo2](figure/geo2-1.png)
 
