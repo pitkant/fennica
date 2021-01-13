@@ -7,12 +7,12 @@ output: markdown_document
 
 ## Language
 
- * 12 [unique languages](output.tables/language_accepted.csv)
- * 10 [unique primary languages](output.tables/language_accepted.csv)  
- * 942 single-language documents (94.77%)
- * 52 multilingual documents (5.23%) 
+ * 40 [unique languages](output.tables/language_accepted.csv)
+ * 34 [unique primary languages](output.tables/language_accepted.csv)  
+ * 67046 single-language documents (94.03%)
+ * 4255 multilingual documents (5.97%) 
  * [Conversions from raw to preprocessed language entries](output.tables/language_conversions.csv) 
- * 7 documents (0.7%) with [unrecognized language](output.tables/language_discarded.csv)
+ * 731 documents (1.03%) with [unrecognized language](output.tables/language_discarded.csv)
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/language_abbreviations.csv).
 
@@ -32,14 +32,14 @@ see [accepted languages](output.tables/language_accepted.csv).
 
 |Language        |Documents (n) |Fraction (%) |
 |:---------------|:-------------|:------------|
-|Finnish         |426           |42.9         |
-|Swedish         |363           |36.5         |
-|Latin           |92            |9.3          |
-|German          |20            |2            |
-|Finnish;Swedish |13            |1.3          |
-|Russian         |12            |1.2          |
-|French          |11            |1.1          |
-|Latin;Swedish   |10            |1            |
-|Undetermined    |7             |0.7          |
-|Swedish;Finnish |5             |0.5          |
+|Finnish         |32396         |45.4         |
+|Swedish         |23301         |32.7         |
+|Latin           |6575          |9.2          |
+|German          |1868          |2.6          |
+|Finnish;Swedish |1382          |1.9          |
+|Undetermined    |731           |1            |
+|Russian         |731           |1            |
+|French          |621           |0.9          |
+|Latin;Swedish   |610           |0.9          |
+|English         |344           |0.5          |
 

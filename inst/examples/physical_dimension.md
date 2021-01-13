@@ -9,15 +9,15 @@ output: markdown_document
 
 ## Document size comparisons
 
-  * Some dimension info is provided in the original raw data for altogether 530 documents (53%) but could not be interpreted for 223 documents (ie. dimension info was successfully estimated for 57.9 % of the documents where this field was not empty).
+  * Some dimension info is provided in the original raw data for altogether 37941 documents (52.8%) but could not be interpreted for 11460 documents (ie. dimension info was successfully estimated for 69.8 % of the documents where this field was not empty).
 
-  * Document size (area) info was obtained in the final preprocessed data for altogether 501 documents (50%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
+  * Document size (area) info was obtained in the final preprocessed data for altogether 35417 documents (50%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
 
-  * Document gatherings info is originally available for 461 documents (46%), and further estimated up to 482 documents (48%) in the final preprocessed data.
+  * Document gatherings info is originally available for 32465 documents (46%), and further estimated up to 33888 documents (48%) in the final preprocessed data.
 
-  * Document height info is originally available for 40 documents (4%), and further estimated up to 501 documents (50%) in the final preprocessed data.
+  * Document height info is originally available for 3013 documents (4%), and further estimated up to 35417 documents (50%) in the final preprocessed data.
 
-  * Document width info is originally available for 0 documents (0%), and further estimated up to 501 documents (50%) in the final preprocessed data.
+  * Document width info is originally available for 0 documents (0%), and further estimated up to 35417 documents (50%) in the final preprocessed data.
 
 
 These tables can be used to verify the accuracy of the conversions from the raw data to final estimates:
@@ -95,5 +95,7 @@ Table: Average document dimensions
 
 |gatherings.original | mean.width| median.width| mean.height| median.height|  n|
 |:-------------------|----------:|------------:|-----------:|-------------:|--:|
+|4to                 |        NaN|          NaN|       21.72|         21.72| 18|
+|8vo                 |        NaN|          NaN|       18.83|         18.83| 12|
 
 -->

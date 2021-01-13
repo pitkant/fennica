@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 363 [unique publishers](output.tables/publisher_accepted.csv)
+ * 7054 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 842 documents have unambiguous publisher information (84.7%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 61594 documents have unambiguous publisher information (86.4%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
  * 0 documents are identified as self-published (0%). 
 
@@ -62,9 +62,9 @@ Title count versus paper consumption (top publishers):
 
 Summaries of the corporate field.
 
- * 83 [unique corporates](output.tables/corporate_accepted.csv)
+ * 1415 [unique corporates](output.tables/corporate_accepted.csv)
 
- * 292 documents have unambiguous corporate information (29.4%). 
+ * 20305 documents have unambiguous corporate information (28.5%). 
 
  * [Discarded corporate entries](output.tables/corporate_discarded.csv)
 
