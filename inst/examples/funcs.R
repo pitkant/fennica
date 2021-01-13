@@ -48,7 +48,7 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
     if (verbose) { message(paste("Reading special char table", f)) }
     # Harmonize places with synonyme table
     f <- system.file("extdata/replace_special_chars.csv",
-		package = "bibliographica")
+		package = "fennica")
     spechars <- suppressWarnings(read_mapping(f, sep = ";", mode = "table", include.lowercase = TRUE))
 
     if (verbose) { message(paste("Reading publication place synonyme table", f)) }
@@ -545,8 +545,118 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 
   }
 
+  ###########################################################################################
+
+  ###########################################################################################
+
+  message("Identify issues")
+  df.preprocessed$issue <- is.issue(df.preprocessed)
+
+  ## COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS
+  # Recognize issues: those that have publication interval or frequency defined
+  message("Combining year and interval")
+
+  # Assume that all cases with denoted interval have start and end year
+  # If one is missing, then it means that start and end are the same year
+  # therefore fill those missing entries here:s
+  df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_from)] <- df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_from)]
+  df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_till)] <- df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_till)]
+
+  # Discard erroneous years
+  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
+  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
+  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from > 2000] <- NA
+  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
+
+  inds <- which(is.na(df.preprocessed$publication_year))
+
+  # Compare with publication year field.
+  # When the non-NA entries are unique, use the same year for all
+  tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
+               till0 = df.preprocessed$publication_year_till[inds],
+               from = df.preprocessed$publication_interval_from[inds],
+               till = df.preprocessed$publication_interval_till[inds]
+               )
+  inds2 <- unname(which(apply(tmp, 1, function (x) {length(unique(na.omit(x)))}) == 1))
+  y <- unname(apply(tmp[inds2,], 1, function (x) {unique(na.omit(x))}))
+  df.preprocessed$publication_year_from[inds[inds2]] <- y
+  df.preprocessed$publication_year_till[inds[inds2]] <- y
+  # For conflicting years, select he largest combined span
+  tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
+               till0 = df.preprocessed$publication_year_till[inds],
+               from = df.preprocessed$publication_interval_from[inds],
+               till = df.preprocessed$publication_interval_till[inds]
+               )
+  mins <- unname(apply(tmp, 1, function (x) {min(x, na.rm = TRUE)}))
+  maxs <- unname(apply(tmp, 1, function (x) {max(x, na.rm = TRUE)}))
+  df.preprocessed$publication_year_from[inds] <- mins
+  df.preprocessed$publication_year_till[inds] <- maxs
+
+  # ------------------------------------------------------
+
+  message("Updating publication times")
+
+  # Use from field; if from year not available, then use till year
+  df.preprocessed$publication_year <- df.preprocessed$publication_year_from
+  inds <- which(is.na(df.preprocessed$publication_year))
+  df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[inds]
+
+  # publication_decade
+  df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
+
+  # ------------------------------------------------------
+
+  message("Custom gender information for Fennica")
+  # For author names, use primarily the Finnish names database
+  # hence use it to replace the genders assigned earlier 
+  library(fennica)
+  firstname <- pick_firstname(df.preprocessed$author_name, format = "last, first")
+
+  # Let us Finnish gender mappings override others
+  gender.fi <- get_gender_fi()[, c("name", "gender")] # Finnish
+  genderfi <- get_gender(firstname, gender.fi)
+  inds <- which(!is.na(genderfi))
+  df.preprocessed$author_gender[inds] <- genderfi[inds]
+
+  # Let us Fennica custom gender mappings override others
+  gender.custom <- read_mapping("custom_gender_fennica.csv", sep = "\t",
+               from = "name", to = "gender", mode = "table")
+  gendercustom <- get_gender(firstname, gender.custom)
+  inds <- which(!is.na(gendercustom))
+  df.preprocessed$author_gender[inds] <- gendercustom[inds]
+
+
+  skip <- TRUE
+  # FIXME add this
+  #if (!skip) {
+  message("-- Fennica publishers")
+  df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
+        
+  # ----------------------------------------------------------------
+  # Updated geomappings. This is now based on the polished place names.
+  # TODO check if original raw data has any country information
+  # Iiron mappaykset
+  geoinfo <- read.csv("geo/Fennica.Places.csv", fileEncoding = "latin1")
+  # Quick manual fixes
+  df.preprocessed$publication_place <- gsub("Żary", "Zary", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Gdańsk", "Gdansk", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Poznań", "Poznan", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Telč", "Telc", df.preprocessed$publication_place)
+  df.preprocessed$publication_place <- gsub("Litoměrice", "Litomerice", df.preprocessed$publication_place)        
+  # not1 <- setdiff(df.preprocessed$publication_place, geoinfo$publication_place); not2 <- setdiff(geoinfo$publication_place, df.preprocessed$publication_place)
+  inds <- match(df.preprocessed$publication_place, geoinfo$publication_place)
+  df.preprocessed$publication_country <- factor(geoinfo[inds, "country"])
+  df.preprocessed$longitude <- geoinfo[inds, "longitude"]
+  df.preprocessed$latitude <- geoinfo[inds, "latitude"]  
+ 
+  # ----------------------------------------------------------------------
+
+  #}
+
   message("Enrichment OK")
   return(df.preprocessed)
+
+
 }
 
 
@@ -560,6 +670,38 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 #' @examples # \dontrun{validate_preprocessed_data(data.preprocessed)}
 #' @keywords utilities
 validate_preprocessed_data <- function(df, max.pagecount = 5000) {
+
+  # TODO perhaps separate validators for different fields
+  df.preprocessed <- df
+
+  # Manually checked for Fennica - 3 publications before 1400;
+  # in all cases it seems that this is misspelling and the original year cant be inferred from the entry
+  max.year <- as.numeric(format(Sys.time(), "%Y")) # this.year
+  min.year <- 1400
+  df.preprocessed$publication_year_from[which(df.preprocessed$publication_year_from > max.year)] <- NA
+  df.preprocessed$publication_year_from[which(df.preprocessed$publication_year_from < min.year)] <- NA
+  df.preprocessed$publication_year_till[which(df.preprocessed$publication_year_till > max.year)] <- NA
+  df.preprocessed$publication_year_till[which(df.preprocessed$publication_year_till < min.year)] <- NA
+
+  # Subsequent correction to the publication year fields
+  print("Publication times")
+  # Use from field; if from year not available, then use till year
+  df.preprocessed$publication_year <- df.preprocessed$publication_year_from
+  inds <- which(is.na(df.preprocessed$publication_year))
+  df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[inds]
+  # publication_decade
+  df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
+
+  # Publication interval must be within 1400-2000
+  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
+  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from > 2000] <- NA
+  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
+  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
+
+  data.to.analysis.fennica <- data.validated.fennica <- df.preprocessed
+  df <- data.to.analysis.fennica
+
+  ############################################################################  
 
   # Consider all fields if update.fields is not specifically defined
   update.fields <- names(df)
@@ -711,12 +853,13 @@ polish_publication_frequency <- function(x) {
 }
 
 
+
 polish_publication_frequencies <- function (x) {
 
   # Convert with different languages. Use the one with least NAs
   # not an optimal hack but works for the time being..
   tmps <- list()
-  tmps[["English"]] <- suppressWarnings(polish_publication_frequency_english(x))
+  # tmps[["English"]] <- suppressWarnings(polish_publication_frequency_english(x))
   tmps[["Swedish"]] <- suppressWarnings(polish_publication_frequency_swedish(x))  
   tmps[["Finnish"]] <- suppressWarnings(polish_publication_frequency_finnish(x))
   lang <- names(which.min(sapply(tmps, function (tmp) {sum(is.na(tmp))})))
@@ -750,7 +893,6 @@ polish_publication_frequencies <- function (x) {
 #' @description Harmonize publication frequencies for English data.
 #' @param x publication frequency field (a vector) 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples \dontrun{df <- polish_publication_frequency_english("weekly")}
 #' @keywords utilities
 polish_publication_frequency_english <- function(x) {
@@ -821,8 +963,7 @@ polish_publication_frequency_english <- function(x) {
   unit <- rep(NA, length = length(x))  
 
   # English
-  f <- system.file("extdata/numbers_english.csv", package = "bibliographica")
-  #f <- "~/Rpackages/bibliographica/inst/extdata/numbers_english.csv"
+  f <- system.file("extdata/numbers_english.csv", package = "comhis")
   char2num <- read_mapping(f, sep = ",", mode = "table", from = "character", to = "numeric")
   x <- map(x, synonymes = char2num, from = "character", to = "numeric", mode = "match")
 
@@ -1160,7 +1301,7 @@ polish_publication_frequency_english <- function(x) {
 #' @description Harmonize publication frequencies for Swedish data.
 #' @param x publication frequency field (a vector) 
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
+#' @references See citation("fennica")
 #' @examples \dontrun{df <- polish_publication_frequency_swedish("1 nr/ar")}
 #' @keywords utilities
 polish_publication_frequency_swedish <- function(x) {
@@ -1175,7 +1316,7 @@ polish_publication_frequency_swedish <- function(x) {
   unit <- rep(NA, length = length(x))  
 
   # Swedish
-  f <- system.file("extdata/numbers_swedish.csv", package = "bibliographica")
+  f <- system.file("extdata/numbers_swedish.csv", package = "fennica")
   char2num <- read_mapping(f, sep = ",", mode = "table", from = "character", to = "numeric")
   x <- map(x, synonymes = char2num, from = "character", to = "numeric", mode = "match")
   
@@ -1360,7 +1501,6 @@ polish_publication_frequency_swedish <- function(x) {
 #' @description Harmonize publication frequencies for Finnish data.
 #' @param x publication frequency field (a vector) 1
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples \dontrun{df <- polish_publication_frequency_finnish("Kerran vuodessa")}
 #' @keywords utilities
 polish_publication_frequency_finnish <- function(x) {
@@ -1369,7 +1509,7 @@ polish_publication_frequency_finnish <- function(x) {
   unit <- rep(NA, length = length(x))  
 
   # Finnish
-  f <- system.file("extdata/numbers_finnish.csv", package = "bibliographica")
+  f <- system.file("extdata/numbers_finnish.csv", package = "fennica")
   char2num <- read_mapping(f, sep = ",", mode = "table", from = "character", to = "numeric")
   x <- map(x, synonymes = char2num, from = "character", to = "numeric", mode = "match")
 
@@ -1657,7 +1797,6 @@ read_bibliographic_metadata <- function (file, verbose = FALSE, sep = "|") {
 #' @param x Page number field. Vector or factor of strings.
 #' @return Volume information
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples \dontrun{pick_multivolume("v.1-3, 293")}
 #' @keywords utilities
 pick_multivolume <- function (x) {
@@ -2337,7 +2476,6 @@ polish_signature_statement_pagecount <- function (s) {
 #' @param x A character vector that may contain dimension information
 #' @return The character vector with dimension information removed
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples # remove_dimension("4to 40cm", sheet_sizes())
 #' @keywords internal
 remove_dimension <- function (x, terms) {
@@ -4322,11 +4460,10 @@ author_unique <- function (df, format = "last, first", initialize.first = FALSE)
 #' @return Author gender information
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples
 #'   \dontrun{
 #'     gendermap <- read_mapping(system.file("extdata/gendermap.csv",
-#'       package = "bibliographica"), sep = "\t", from = "name", to = "gender")
+#'       package = "fennica"), sep = "\t", from = "name", to = "gender")
 #'     get_gender(c("armi", "julius"), gendermap)
 #' }
 #' @keywords utilities
@@ -4482,7 +4619,6 @@ enrich_years <- function(df.preprocessed, df.orig) {
 #' @param df data.frame with the fields: author, title, publication_year
 #' @return Logical vector indicating the potential first editions
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @export
 #' @examples \dontrun{fed <- is_first_edition(df)}
 #' @keywords utilities
@@ -4526,7 +4662,6 @@ is_first_edition <- function (df) {
 #' @return Output of the polished field
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
 #' @details The function considers self published documents those that have 'author' (or similar) in the publisher field, and those where the publisher is unknown.
-#' @examples \dontrun{a <- polish_field(df, "title")}
 #' @export
 #' @keywords utilities
 self_published <- function (df) {
@@ -6196,7 +6331,6 @@ augment_dimension_table <- function (dim.tab, dim.info = NULL, sheet.dim.tab = N
 #' @param sheet.dimension.table Given mappings for sheet dimensions
 #' @return Augmented dimension vector
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @export
 #' @seealso augment_dimension_table
 #' @examples \dontrun{
@@ -6246,7 +6380,6 @@ fill_dimensions <- function (x, dimension.table = NULL, sheet.dimension.table = 
 #' 	  If not given, the table given by sheet_sizes() is used by default.
 #' @return Augmented dimension information
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples # estimate_document_dimensions(gatherings = 2, height = 44)
 #' @keywords utilities
 estimate_document_dimensions <- function (gatherings = NA, height = NA, width = NA, obl = NULL, dimension.table = NULL, sheet.dimension.table = NULL) {
@@ -6333,9 +6466,6 @@ estimate_document_dimensions <- function (gatherings = NA, height = NA, width = 
 
     # Only gatherings given
     ind <- which(as.character(sheet.dimension.table$gatherings) == gatherings)
-    #if (length(ind) == 0) {
-      # warning(paste("gatherings", gatherings, "not available in bibliographica::sheet_area conversion table"))
-    #}
       
     width <- sheet.dimension.table[ind, "width"]
     height <- sheet.dimension.table[ind, "height"]
@@ -6435,7 +6565,7 @@ enrich_geo <- function(x) {
   # Use some manually fetched data
   load(system.file("extdata/geonames.RData", package = "fennica"))
   load(system.file("extdata/places.geonames.RData", package = "fennica"))
-  geoc <- bibliographica::get_geocoordinates(df$place,
+  geoc <- get_geocoordinates(df$place,
             geonames, places.geonames)
   geoc$place <- df$place
 
@@ -6445,3 +6575,193 @@ enrich_geo <- function(x) {
 
   return (df)
 }
+
+
+#' @title Get Geocoordinates
+#' @description Map geographic places to geocoordinates.
+#' @param x A vector of publication place names
+#' @param geonames geonames
+#' @param places.geonames places.geonames
+#' @return data.frame with latitude and longitude
+#' @export
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @examples \dontrun{x2 <- get_geocoordinates("Berlin")}
+#' @details Experimental.
+#' @keywords utilities
+get_geocoordinates <- function (x, geonames, places.geonames) {
+
+  places <- asciiname <- country.code <- admin1 <- NULL
+
+  pubplace.orig <- as.character(x)
+  pubplace <- pubplace.uniq <- unique(pubplace.orig)
+
+  # print("Match to geonames")
+  geocoordinates <- geonames[match(places.geonames, geonames$asciiname), ]
+  geocoordinates$latitude <- as.numeric(as.character(geocoordinates$latitude))
+  geocoordinates$longitude <- as.numeric(as.character(geocoordinates$longitude))
+  rownames(geocoordinates) <- places
+
+  # TODO investigate opportunities to have identifiers for all major cities
+  # Fill in manually the largest publication places that could not be uniquely matched to a location
+  # and are hence still missing the coordinates
+  #top <- rev(sort(table(subset(df, publication_place %in% names(which(is.na(places.geonames)))$publication_place)))
+
+  message("Manual matching")
+  place <- "London"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  place <- "Edinburgh"
+  f <- geonames[intersect(grep("Edinburgh", geonames$alternatenames), which(geonames$country.code == "GB")),]
+  geocoordinates[place,] <- f
+
+  place <- "Dublin"
+  f <- filter(geonames, asciiname == place & country.code == "IE")	
+  geocoordinates[place,] <- f
+
+  place <- "Philadelphia Pa"
+  f <- filter(geonames, asciiname == "Philadelphia" & admin1 == "PA")
+  geocoordinates[place,] <- f
+
+  place <- "Boston"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  # TODO geonames matching might be improved if country code would be included
+  # in the matching in the first place and not afterwards manually - to be implemented?
+  place <- "Boston Ma"
+  f <- filter(geonames, asciiname == "Boston" & country.code == "US")
+  geocoordinates[place,] <- f
+
+  # TODO Many options - in general check all with Mikko
+  place <- "Oxford"
+  f <- filter(geonames, asciiname == place & admin1 == "NY")
+  geocoordinates[place,] <- f
+
+  place <- "New York N.Y"
+  f <- geonames[intersect(grep("New York", geonames$alternatenames), which(geonames$feature.code == "PPL")),]
+  geocoordinates[place,] <- f
+
+  place <- "York"
+  f <- geonames[intersect(grep("York", geonames$alternatenames), which(geonames$country.code == "GB" & geonames$admin2 == "H3")),]
+  geocoordinates[place, ] <- f
+
+  place <- "Glasgow"
+  f <- geonames[intersect(grep("Glasgow", geonames$alternatenames), which(geonames$country.code == "GB" & geonames$admin1 == "ENG")),]
+  geocoordinates[place,] <- f
+
+  place <- "York"
+  f <- geonames[intersect(grep("York", geonames$alternatenames), which(geonames$country.code == "GB" & geonames$admin2 == "H3")),]
+  geocoordinates[place,] <- f
+
+  place <- "Cambridge"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  # Checked manually
+  place <- "Providence R.I"
+  geocoordinates[place, ] <- rep(NA, ncol(geocoordinates))
+  geocoordinates[place, c("latitude", "longitude")] <- c(41.8384163, -71.4256989)
+
+  place <- "Hartford Ct"
+  f <- geonames[intersect(grep("Hartford", geonames$alternatenames), which(geonames$admin1 == "MA")),]
+  geocoordinates[place,] <- f
+
+  place <- "Amsterdam"
+  f <- filter(geonames, asciiname == place & country.code == "NL")
+  geocoordinates[place,] <- f
+
+  place <- "Bristol"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  place <- "Norwich"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  place <- "Newcastle"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  place <- "Aberdeen"
+  f <- filter(geonames, asciiname == place & country.code == "GB")
+  geocoordinates[place,] <- f
+
+  place <- "Watertown Ma"
+  f <- filter(geonames, asciiname == "Watertown" & admin1 == "MA")
+  geocoordinates[place,] <- f
+
+  place <- "Paris"	 
+  f <- filter(geonames, asciiname == place & country.code == "FR")
+  geocoordinates[place,] <- f
+
+  place <- "Baltimore Md" 
+  f <- filter(geonames, asciiname == "Baltimore")
+  geocoordinates[place,] <- f
+
+  message("Read custom mappings from file")
+  # FIXME integrate all into a single place - country - geocoordinates file
+  # that will be used in place - country and place - coordinate mappings
+  # systematically
+  f <- system.file("extdata/geocoordinates.csv", package = "fennica")
+  geotab <- read.csv(f, sep = "\t")
+  rownames(geotab) <- geotab$place
+  coms <- intersect(geotab$place, rownames(geocoordinates))
+  geocoordinates[coms, c("latitude", "longitude")] <- geotab[coms, c("latitude", "longitude")]
+
+  # print("FIXME move to tidy data principles ie. geographic info are in their own data frames..")
+  latitude <- as.numeric(as.character(geocoordinates[as.character(pubplace), "latitude"]))
+  longitude <- as.numeric(as.character(geocoordinates[as.character(pubplace), "longitude"]))
+
+  skip <- T
+  if (!skip) {
+
+  # Places with missing geocoordinates
+  absent <- rownames(geocoordinates[is.na(geocoordinates$latitude), ])
+  missing <- sort(unique(rownames(geocoordinates[is.na(geocoordinates$latitude), ])))
+
+  # print("List all potential hits in geonames")
+  hits <- list()
+  if (length(missing) > 0) {
+    for (place in missing) {
+      # print(place)
+      inds <- unique(c(grep(place, geonames$name), grep(place, geonames$asiiname), grep(place, geonames$alternatenames)))
+
+      # Cambridge Ma -> Cambridge
+      spl <- unlist(strsplit(place, " "))
+      spl <- spl[-length(spl)]
+      place2 <- paste(spl, collapse = " ")
+      inds2 <- unique(c(grep(place2, geonames$name), grep(place2, geonames$asiiname), grep(place2, geonames$alternatenames)))
+      inds <- unique(c(inds, inds2))
+
+      hits[[place]] <- geonames[inds,]
+    }
+  }
+
+  message("Places with no hit whatsoever in geonames")
+  absent <- NULL 
+  if (length(hits) > 0) {
+    absent <- names(which(sapply(hits, function (x) {nrow(x) == 0})))
+  }
+
+  }
+
+  tmpdf <- quickdf(list(latitude = latitude, longitude = longitude))
+
+  # Now for missing geocoordinates try further custom data
+  nainds <- is.na(tmpdf$latitude) | is.na(tmpdf$longitude)
+  missing.geoc <- pubplace.uniq[nainds]
+
+  f2 <- system.file("extdata/geoc_Kungliga.Rds", package = "fennica")
+  f3 <- system.file("extdata/geoc_Finland.Rds", package = "fennica")    
+  f2r <- readRDS(f2)
+  f3r <- readRDS(f2)
+  gctmp <- unique(bind_rows(f2r, f3r))
+  tmpdf$latitude[nainds]  <- gctmp$lat[match(missing.geoc, gctmp$publication_place)]
+  tmpdf$longitude[nainds] <- gctmp$lon[match(missing.geoc, gctmp$publication_place)]
+
+  # Map back to the original domain
+  return(tmpdf[match(pubplace.orig, pubplace.uniq),])
+
+}
+

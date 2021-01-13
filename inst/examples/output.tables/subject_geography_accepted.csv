@@ -1,11 +1,11 @@
 Name	Count
-Total count (na.rm TRUE): 	5785
-Ruotsi	906
+Total count (na.rm TRUE): 	5838
+Ruotsi	907
 Vaasan lääni	904
-Suomi	683
+Suomi	695
 Turun ja Porin lääni	412
 Turku	180
-Helsinki	146
+Helsinki	155
 Kreikka	 93
 Pohjoismaat	 92
 Rooman valtakunta	 81
@@ -16,38 +16,38 @@ Pohjanmaa	 61
 Ruotsi;Venäjä	 51
 Tartto	 39
 Kyminkartanon lääni	 34
-Eurooppa	 31
+Eurooppa	 33
 Oulun lääni	 31
 Uudenmaan ja Hämeen lääni	 30
 Suomenlahti	 28
+Viipuri	 27
 Uusimaa	 26
-Viipuri	 26
 Pietarsaari	 25
 Ilmola	 24
+Suomi;Ruotsi	 24
 Ruotsi;Suomi	 23
-Suomi;Ruotsi	 23
 Lapväärtti	 22
 Tampere	 22
-Venäjä	 21
+Venäjä	 22
 Suomi;Ruotsi;Norja;Tanska	 20
 Pohjanlahti	 19
+Ahvenanmaa	 18
 Itämeri	 18
 Kaskinen	 18
-Ahvenanmaa	 17
 Porvoo	 17
 Hamina	 16
 Narva	 16
 Oulu	 16
+Vaasa	 16
 Heinola	 15
 Karjala	 15
 Laihia	 15
 Lappi	 15
-Vaasa	 15
 Häme	 14
+Suomi;Venäjä	 14
 Wittenberg	 14
 Göteborg	 13
 Kreikka;Ruotsi	 13
-Suomi;Venäjä	 13
 Kuopion lääni	 12
 Pohjois-Amerikka	 12
 Preussi	 12
@@ -66,6 +66,7 @@ Mikkeli	  8
 Rostock	  8
 Vänersborg	  8
 Hämeen lääni	  7
+Kulosaari;Helsinki	  7
 Pohjanmaa;Länsipohja	  7
 Rauma	  7
 Ruotsi;Pietarsaari	  7
@@ -106,12 +107,12 @@ Greifswald	  4
 Hattula;Hämeenlinna	  4
 Jokioinen	  4
 Kotka	  4
-Kulosaari;Helsinki	  4
 Naantali	  4
 Porin lääni	  4
 Pultava	  4
 Ruotsi;Saksa	  4
 Savo;Karjala	  4
+Suomenlahti;Itämeri	  4
 Turku;Ruotsi	  4
 Uppsala;Ruotsi	  4
 Venäjä;Suomi	  4
@@ -128,6 +129,7 @@ Itägöötanmaa	  3
 Itämeri;Suomenlahti	  3
 Itämeri;Suomenlahti;Pohjanlahti	  3
 Kajaani	  3
+Kangasala	  3
 Keski-Suomi	  3
 Kirkkonummi	  3
 Klissov	  3
@@ -143,6 +145,7 @@ Lohtaja	  3
 Lontoo	  3
 Maksamaa	  3
 Naantali;Raisio	  3
+Parainen	  3
 Ruotsi;Puola	  3
 Ruotsi;Tartto	  3
 Ruotsi;Tukholma	  3
@@ -151,7 +154,6 @@ Savo	  3
 Savonlinna	  3
 Strängnäs	  3
 Suomenlahti;Helsinki	  3
-Suomenlahti;Itämeri	  3
 Suomi;Ruotsi;Karjala;Baltia	  3
 Suomi;Ruotsi;Norja;Islanti	  3
 Suomi;Ruotsi;Norja;Karjala;Kuolan niemimaa	  3
@@ -161,6 +163,7 @@ Tallinna	  3
 Tammisaari	  3
 Tartto;Ruotsi	  3
 Tornio;Haaparanta	  3
+Uskela	  3
 Uudenmaan lääni;Hämeen lääni	  3
 Uusikaarlepyy	  3
 Vähäkyrö	  3
@@ -188,7 +191,6 @@ Itämeri;Selkämeri;Ahvenanmeri	  2
 Kainuu	  2
 Käkisalmi	  2
 Kalmari	  2
-Kangasala	  2
 Keitele	  2
 Kelviö	  2
 Kemi	  2
@@ -208,7 +210,6 @@ Näsijärvi	  2
 Nyköping	  2
 Oulujärvi	  2
 Oulun lääni;Kuopion lääni	  2
-Parainen	  2
 Parkkumäki	  2
 Partakoski	  2
 Perämäki	  2
@@ -227,8 +228,10 @@ Saimaan kanava	  2
 Säkylä	  2
 Salo	  2
 Siikajoki	  2
+Sipoo	  2
 Skara	  2
 Stralsund;Ruotsi;Saksa	  2
+Suomenlahti;Suomi;Viipurin kuvernementti;Uudenmaan ja Hämeen lääni;Inkeri;Viro	  2
 Suomenlinna	  2
 Suomi;Karjala;Inkeri	  2
 Suomi;Kreikka	  2
@@ -240,7 +243,6 @@ Tornionjoki	  2
 Tukholma;Tornio;Venäjä	  2
 Turun saaristo;Ahvenanmaa	  2
 Tytärsaari	  2
-Uskela	  2
 Uusikirkko Tl.	  2
 Valkeasaari	  2
 Vermlanti	  2
@@ -276,6 +278,7 @@ Etelä-Suomi;Suomi	  1
 Etelä-Suomi;Venäjä;Lappi;Kuolan niemimaa;Karjala;Inkeri	  1
 Eurooppa;Pohjois-Eurooppa	  1
 Eurooppa;Pohjois-Eurooppa;Itämeren alue;Aasia	  1
+Eurooppa;Suomi;Venäjä	  1
 Filadelfia	  1
 Finström	  1
 Gamland	  1
@@ -308,6 +311,7 @@ Härmä	  1
 Hattula	  1
 Hauho	  1
 Hauho;Hämeenlinna;Hollola;Asikkala;Luopioinen;Pälkäne;Padasjoki;Lammi;Tuulos;Koski Hl.;Vanaja;Janakkala;Hattula	  1
+Hauhon kihlakunta	  1
 Hausjärvi;Janakkala;Hollola;Nurmijärvi;Loppi;Kärkölä;Koski Hl.	  1
 Hausjärvi;Mäntsälä;Kärkölä;Janakkala;Hämeenlinna;Vanaja;Nurmijärvi;Vihti;Tuusula;Loppi	  1
 Heinävesi;Enonkoski;Savonranta;Kerimäki;Kitee;Rääkkylä;Kangaslampi;Sääminki	  1
@@ -325,6 +329,7 @@ Helsinki;Helsingin pitäjä;Espoo;Sipoo;Kirkkonummi	  1
 Helsinki;Helsinki	  1
 Helsinki;Sipoo	  1
 Helsinki;Suomi	  1
+Helsinki;Turku;Viipuri;Oulu	  1
 Hernösand	  1
 Himanka;Kalajoki	  1
 historia	  1
@@ -372,9 +377,11 @@ Kankaanpää	  1
 Kankaanpää;Merikarvia;Siikainen;Lavia;Noormarkku;Pomarkku	  1
 Karjaa;Tammisaari;Tenhola;Pohja;Perniö;Kisko;Karjalohja	  1
 Karjala;Impilahti	  1
+Karjala;Inkeri	  1
 Karjala;Inkeri;Suomi;Viro;Venäjä	  1
 Karjala;Karjalankannas	  1
 Karjala;Valkjärvi	  1
+Karjalankannas;Inkeri;Karjala	  1
 Karjalankannas;Käkisalmi	  1
 Karjalankannas;Metsäpirtti;Sakkola	  1
 Karjalankannas;Valkjärvi	  1
@@ -383,6 +390,7 @@ Kaskinen;Kristiinankaupunki;Lapväärtti;Närpiö;Teuva	  1
 Kauhava;Ruotsi;Pietarsaari	  1
 Kemi;Tervola	  1
 Kiina	  1
+Kitee	  1
 Kittilä;Sodankylä	  1
 Kivennapa;Terijoki;Uusikirkko Vpl.;Muolaa;Valkjärvi;Rautu	  1
 Kletsk	  1
@@ -396,6 +404,7 @@ Kokkola;Kruunupyy;Luoto	  1
 Könö	  1
 Köping	  1
 Korppoo	  1
+Korppoo;Houtskari	  1
 Korppoo;Houtskari;Kustavi;Iniö	  1
 Korppoo;Nauvo;Dragsfjärd;Kökar	  1
 Korsnäs;Petolahti;Bergö;Maalahti;Ylimarkku;Närpiö	  1
@@ -506,6 +515,7 @@ Pälkäne	  1
 Paltamo	  1
 Parikkala	  1
 Perho	  1
+Pernaja	  1
 Pernaja;Liljendal;Lapinjärvi;Porvoo;Askola;Pornainen;Mäntsälä;Sipoo;Myrskylä	  1
 Pernaja;Porvoo;Sipoo	  1
 Perniö;Halikko;Uskela;Karjalohja;Suomusjärvi;Kiikala;Kisko;Somero	  1
@@ -529,6 +539,7 @@ Pohjanlahti;Uusikaarlepyy	  1
 Pohjanmaa;Kajaanin lääni	  1
 Pohjanmaa;Länsipohja;Turun ja Porin lääni	  1
 Pohjanmaa;Vaasan lääni	  1
+Pohjanmaa;Vaasan lääni;Oulun lääni;Kajaanin lääni	  1
 Pohjanmeri	  1
 Pohjanmeri;Itämeri	  1
 Pohjois-Suomi	  1
@@ -565,6 +576,7 @@ Rautu	  1
 Renko	  1
 Revonlahti	  1
 Riianlahti;Itämeri	  1
+Ritvala	  1
 Rooma	  1
 Rooman valtakunta;Kreikka	  1
 Rovaniemi	  1
@@ -611,7 +623,6 @@ Savonlinna;Kerimäki;Sääminki;Rantasalmi;Sulkava;Puumala;Ruokolahti;Parikkala	
 Savonlinnan ja Kymenkartanon lääni	  1
 Seinäjoki	  1
 Siestarjoki	  1
-Sipoo	  1
 Sipoo;Mäntsälä;Tuusula;Nurmijärvi;Helsingin pitäjä;Espoo;Vihti;Loppi;Janakkala;Hausjärvi;Porvoo;Pornainen	  1
 Sippola	  1
 Sippola;Valkeala;Anjala;Elimäki;Iitti;Nastola;Artjärvi;Lapinjärvi	  1
@@ -628,6 +639,7 @@ Sodankylä	  1
 Söderala	  1
 Somero	  1
 Somero;Tammela;Loimijoki;Uskela;Koski Tl.;Marttila	  1
+Sortavalan kihlakunta	  1
 Sortavalan kihlakunta;Viipurin lääni	  1
 Stralsund	  1
 Strengnäs	  1
@@ -639,7 +651,6 @@ Suomenlahti;Itämeri;Saaristomeri	  1
 Suomenlahti;Kirkkonummi;Espoo	  1
 Suomenlahti;Pohjanlahti	  1
 Suomenlahti;Saaristomeri	  1
-Suomenlahti;Suomi;Viipurin kuvernementti;Uudenmaan ja Hämeen lääni;Inkeri;Viro	  1
 Suomenlahti;Suursaari	  1
 Suomenlinna;Helsinki	  1
 Suomi;Etelä-Suomi;Inkeri;Viro;Suomenlahti	  1
@@ -679,6 +690,7 @@ Suursaari;Vehkalahti;Kotka	  1
 Svartholma	  1
 Sveitsi	  1
 Sysmä	  1
+Sysmä;Hartola;Hirvensalmi;Mikkeli;Juva;Sulkava;Mäntyharju;Ristiina;Puumala	  1
 Tallinna;Viro	  1
 Tammela	  1
 Tammisaari;Tenhola;Karjaa	  1
@@ -691,6 +703,7 @@ Tilasvuori	  1
 Toholampi;Kannus;Sievi;Ylivieska;Rautio;Nivala	  1
 Tukholman saaristo	  1
 Tuomarinkylä	  1
+Turkki	  1
 Turku;Helsinki	  1
 Turku;Naantali;Raisio;Rymättylä;Nauvo;Parainen;Korppoo;Houtskari;Kustavi;Iniö	  1
 Turun ja Porin lääni;Hämeen lääni	  1
@@ -702,6 +715,7 @@ Turun saaristo	  1
 Turun tuomiokunta	  1
 Tyrvää	  1
 Tyrväntö	  1
+Tyrväntö;Hattula;Hauho;Tuulos;Lammi;Asikkala;Vanaja;Renko;Janakkala;Koski Hl.;Hollola;Kärkölä;Orimattila;Nastola;Heinola;Iitti	  1
 Ulvila;Eura;Kokemäki;Tyrvää;Kauvatsa	  1
 Ulvilan kihlakunta	  1
 Ulvilan kihlakunta;Turun ja Porin lääni	  1

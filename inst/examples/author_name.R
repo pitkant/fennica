@@ -1,3 +1,4 @@
-    # Polish the given field
-    df.tmp <- polish_field(df.orig, df.preprocessed, field, verbose = FALSE,
-                           languages = languages)
+# Full author name (Last, First) 
+author <- polish_author(df.orig[[field]], verbose = FALSE)
+df.tmp <- data.frame(author_name = author)
+

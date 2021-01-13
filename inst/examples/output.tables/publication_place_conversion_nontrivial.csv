@@ -1,37 +1,37 @@
 original polished n
-Helsingfors Helsinki 11689
+Helsingfors Helsinki 11741
 Aboae Turku 4871
 [Vasa] Vaasa 2312
-Åbo Turku 2168
-[Åbo] Turku 2091
-[Aboae] Turku 1311
-Turusa Turku 855
+Åbo Turku 2169
+[Åbo] Turku 2092
+[Aboae] Turku 1312
+Turusa Turku 856
 Stockholmisa Stockholm 715
-Viipuri Vyborg 578
-[Helsinki] Helsinki 543
-Borgå Porvoo 516
-Helsingissä Helsinki 475
-[Helsingfors] Helsinki 413
+Viipuri Vyborg 605
+[Helsinki] Helsinki 548
+Borgå Porvoo 517
+Helsingissä Helsinki 481
+[Helsingfors] Helsinki 477
 Upsaliae Uppsala 364
 Tryckt i Åbo Turku 295
+Wiipuri Vyborg 245
 [Stockholm] Stockholm 242
-S.-Peterburg' St Petersburg 224
-[Turku] Turku 220
-Vasa Vaasa 203
+S.-Peterburg' St Petersburg 225
+[Turku] Turku 221
+Vasa Vaasa 204
 [Wasa] Vaasa 181
 Holmiae Stockholm 177
 Helsingforsiae Helsinki 173
-Wiipuri Vyborg 172
 Wasasa Vaasa 166
-Hancock (Mich.) Hancock Mi 158
+Hancock (Mich.) Hancock Mi 163
 Wiborg Vyborg 147
-Tammerfors Tampere 143
+Tammerfors Tampere 144
 Ekenäs Tammisaari 140
-Gel'singfors' Helsinki 137
-Wasa Vaasa 128
-Upsala Uppsala 122
+Gel'singfors' Helsinki 138
+Wasa Vaasa 130
+Upsala Uppsala 123
 Porvoossa Porvoo 121
-Fitchburg (Mass.) Fitchburg Ma 105
+Fitchburg (Mass.) Fitchburg Ma 110
 Nikolaistad Vaasa 91
 Tryckt i Stockholm Stockholm 78
 [Viipuri] Vyborg 77
@@ -41,54 +41,56 @@ Dorpati Livonorum Tartu 70
 Turusa prändätty Turku 67
 Stokholmisa Stockholm 61
 Dorpati Tartu 60
+Tukholma Stockholm 59
 [Vaasa] Vaasa 58
 Jakobstad Pietarsaari 57
 [S.-Peterburg'] St Petersburg 56
 St. Petersburg St Petersburg 56
 Tavastehus Hämeenlinna 56
-Tukholma Stockholm 56
 Stockholmis Stockholm 54
 Kjøbenhavn Copenhagen 52
 [Oulu] Oulu 51
 [Tampere] Tampere 49
+Brooklyn (N.Y.) New York NY 49
 Kaleva (Mich.) Kaleva Mi 49
 Gamlakarleby Kokkola 48
 Hangö Hanko 48
 Tampereella Tampere 48
 Uleåborg Oulu 48
+Sanktpeterburg' St Petersburg 47
 Tryckt i Upsala Uppsala 46
-Brooklyn (N.Y.) New York NY 45
 Hämeenlinnassa Hämeenlinna 45
-Sanktpeterburg' St Petersburg 45
 Pietari St Petersburg 44
 [Upsaliae] Uppsala 40
 Fredrikshamn Hamina 40
+[Tukholma] Stockholm 39
 Stockholmisa ja Turusa Stockholm 39
 Wiipurissa Vyborg 39
 [Sanktpeterburg'] St Petersburg 37
-[Tukholma] Stockholm 37
 Prändätty Turusa Turku 37
 New York New York NY 36
 [Aboae?] Turku 34
-[Turusa] Turku 33
+[Turusa] Turku 34
+Ashtabula (Ohio) Ashtabula Oh 34
 Moskva Moscow 32
 Turussa Turku 32
 [Stockholmisa] Stockholm 31
-Duluth (Minn.) Duluth MN 28
-Kristiania Oslo 28
+Duluth (Minn.) Duluth MN 30
+Kristiania Oslo 29
+Calumet (Mich.) Calumet Mi 28
 Nikolainkaupunki Vaasa 28
 Rostochii Rostock 28
 Tryckt i Abo Turku 28
 Ubsaliae Uppsala 28
+Vyborg' Vyborg 28
 Jyväskylässä Jyväskylä 27
 København Copenhagen 27
-Vyborg' Vyborg 27
 Waasa Vaasa 27
-Calumet (Mich.) Calumet Mi 26
 Kristiina Kristiinankaupunki 26
 Petrograd' St Petersburg 26
 [Holmiae] Stockholm 25
 Kristinestad Kristiinankaupunki 25
+[Kuopio] Kuopio 24
 Lovisa Loviisa 24
 Präntätty Turusa Turku 23
 Hki Helsinki 22
@@ -96,7 +98,6 @@ Kronoby Kruunupyy 21
 Nykarleby Uusikaarlepyy 21
 [Helsingforsiae] Helsinki 20
 [Jyväskylä] Jyväskylä 20
-[Kuopio] Kuopio 20
 Abo Turku 20
 München München 20
 Sordavala Sortavala 20
@@ -107,11 +108,11 @@ Excusa Aboae Turku 19
 [Wasasa] Vaasa 18
 Port Arthur (Ont.) Port Arthur On 18
 Präntätty Stockholmis Stockholm 18
+Brooklyn (N. Y.) New York NY 17
 Wiburgi Vyborg 17
 Wien Vienna 17
 [Sortavala] Sortavala 16
 Abogiae Turku 16
-Brooklyn (N. Y.) New York NY 16
 Wittebergae Wittenberg 16
 [Dorpat] Tartu 15
 [Porvoo] Porvoo 15
@@ -119,7 +120,6 @@ Brooklyn, (N. Y.) New York NY 15
 Reval Tallinn 15
 Revaliae Tallinn 15
 [Raahe] Raahe 14
-Ashtabula (Ohio) Ashtabula Oh 14
 Hancock, (Mich.) Hancock Mi 14
 Kaskö Kaskinen 14
 Oulussa Oulu 14
@@ -138,20 +138,21 @@ Turengi Turenki 12
 [Åbo?] Turku 11
 [Tryckt i Stockholm] Stockholm 11
 Astoria (Or.) Astoria Or 11
+Hancock, Michigan Hancock Mi 11
 Nystad Uusikaupunki 11
 Superior (Wis.) Superior Wi 11
 Tryckt i Vpsala Uppsala 11
 Tryckt i Wiborg Vyborg 11
 [Borgå] Porvoo 10
 [Viborg] Vyborg 10
+Ashtabula, (Ohio) Ashtabula Oh 10
+Brooklyn New York NY 10
 Fitchburg, (Mass.) Fitchburg Ma 10
-Hancock, Michigan Hancock Mi 10
 Ironwood (Mich.) Ironwood Mi 10
 Pernaviae Pärnu 10
 Turuusa Turku 10
 [Berlin] Berlin 9
 [Turku?] Turku 9
-Brooklyn New York NY 9
 Helsinki ;;Viipuri Helsinki 9
 I Åbo Turku 9
 Tukholmassa Stockholm 9
@@ -161,7 +162,7 @@ Witebergae Wittenberg 9
 [Hämeenlinna] Hämeenlinna 8
 [Leipzig] Leipzig 8
 [Wiborg] Vyborg 8
-Ashtabula, (Ohio) Ashtabula Oh 8
+Göteborg Gothenburg 8
 Hämeenlinna ;;Tampere Hämeenlinna 8
 Kjöbenhavn Copenhagen 8
 New York (N.Y.) New York NY 8
@@ -179,10 +180,10 @@ A Amsterdam Amsterdam 7
 Arosiae Västerås 7
 Astoria (Ore.) Astoria Or 7
 Copenhague Copenhagen 7
-Göteborg Gothenburg 7
 Gryphiswaldiae Greifswald 7
 I Stockholm Stockholm 7
 Impr. Aboae Turku 7
+Lübeck Lübeck 7
 Mikkelissä Mikkeli 7
 Porissa Pori 7
 Roma Rome 7
@@ -202,7 +203,6 @@ Hernösand Härnösand 6
 Ísafjördur Isafjördur 6
 Ishpeming (Mich.) Ishpeming Mi 6
 Lincopiae Linköping 6
-Lübeck Lübeck 6
 New York Mills (Minn.) New York Mills Mn 6
 Norimbergae Nürnberg 6
 Petrograd St Petersburg 6
@@ -216,11 +216,14 @@ Westerås Västerås 6
 Worcester (Mass.) Worcester Ma 6
 [Augsburg] Augsburg 5
 [Gel'singfors'] Helsinki 5
+[Hancock (Mich.)] Hancock Mi 5
 [Lund] Lund 5
+[St. Petersburg] St Petersburg 5
 [Stockholm?] Stockholm 5
 [Stockholmis] Stockholm 5
 [Tryckt i Åbo] Turku 5
 [Tukholma?] Stockholm 5
+Almena (Wis.) Almena Wi 5
 Calumet, (Mich.) Calumet Mi 5
 Christiania Oslo 5
 Fitchburg, Massachusetts Fitchburg Ma 5
@@ -246,11 +249,9 @@ Wästerås Västerås 5
 Wilno Vilnius 5
 [Budapest] Budapest 4
 [Dorpati Livonorum] Tartu 4
-[Hancock (Mich.)] Hancock Mi 4
 [Nytorp] Nytorp 4
 [Präntätty Turusa] Turku 4
 [Savonlinna] Savonlinna 4
-[St. Petersburg] St Petersburg 4
 [Stockholmiae] Stockholm 4
 [Stokholmisa] Stockholm 4
 [Tammerfors] Tampere 4
@@ -284,6 +285,7 @@ Turusa, prändätty Turku 4
 Upsalas Uppsala 4
 Upsaliae impressum Uppsala 4
 [Duluth (Minn.)] Duluth MN 3
+[Fitchburg (Mass.)] Fitchburg Ma 3
 [Göteborg] Gothenburg 3
 [Hamburg] Hamburg 3
 [Käkisalmi] Käkisalmi 3
@@ -318,6 +320,7 @@ Brahestad Raahe 3
 Brooklyn (NY) New York NY 3
 Bruxelles Brussels 3
 Carlscrona Karlskrona 3
+Chicago (Ill.) Chicago IL 3
 Dorpat Tartu 3
 Exc. Aboae Turku 3
 Fitchburg, Mass. Fitchburg Ma 3
@@ -415,19 +418,19 @@ A Utrecht Utrecht 2
 Aboa Turku 2
 Aboae impressit Turku 2
 Abodiae Turku 2
-Almena (Wis.) Almena Wi 2
 Amstelaedami Amsterdam 2
 Ashtabula Ashtabula Oh 2
 Ashtabula, OH Ashtabula Oh 2
+Ashtabula, Ohio Ashtabula Oh 2
 At the Theater in Oxford Oxford 2
 Augustae Vindel. [Augsburg] Augsburg 2
 B'' Sanktpeterburgê St Petersburg 2
 Berlin-Charlottenburg Berlin 2
 Boston Boston Ma 2
+Bridgeport (Conn.) Bridgeport Ct 2
 Brvnsbergae Braniewo 2
 Calumet, Mich. Calumet Mi 2
 Carlskrona Karlskrona 2
-Chicago (Ill.) Chicago IL 2
 Chigago (Ill.) Chicago IL 2
 Chisholm (Minn.) Chisholm MN 2
 Cincinnati Cincinnati Oh 2
@@ -482,6 +485,7 @@ Moskau Moscow 2
 Mu Helsinki Helsinki 2
 Napoli Naples 2
 New Haven New Haven Ct 2
+New York (N. Y.) New York NY 2
 Nürnberg Nürnberg 2
 Nyslott Savonlinna 2
 Omtryckt i Åbo Turku 2
@@ -507,6 +511,7 @@ St Michel Mikkeli 2
 St. Mikkelissä Mikkeli 2
 St. Peterbourg St Petersburg 2
 St. Pietarborissa St Petersburg 2
+Stockholm :;Leipzig Stockholm 2
 Stockholm och Upsala Stockholm 2
 Stokkholmisa [sic] Stockholm 2
 Strängnäsis Strängnäs 2
@@ -536,6 +541,7 @@ Wittenbergae Wittenberg 2
 [Auctoritate Regia Privilegialis Holmiae] Stockholm 1
 [Basel] Basel 1
 [Björneborg] Pori 1
+[Brahestad] Raahe 1
 [Brändö] Brändö 1
 [Bremae] Bremen 1
 [Brünn] Brunn 1
@@ -546,9 +552,9 @@ Wittenbergae Wittenberg 2
 [En Barcelona] Barcelona 1
 [Erfurt] Erfurt 1
 [Eveleth, Minnesota] Eveleth Mi 1
-[Fitchburg (Mass.)] Fitchburg Ma 1
 [Franckfurt am Mäyn und Leipzig] Frankfurt 1
 [Frankfurt] Frankfurt 1
+[Fredrikshamn] Hamina 1
 [Gamlakarleby] Kokkola 1
 [Giessae] Gießen 1
 [Giöthebörisa [sic] ruotzin kielen prändätty Eric Stackbergildä. Mutta palkan edestä suomexi Turusa] Turku 1
@@ -638,6 +644,7 @@ Wittenbergae Wittenberg 2
 [Ravenna] Ravenna 1
 [Rigasa prändätty] Riga 1
 [Rigasa] Riga 1
+[S.-Peterburg] St Petersburg 1
 [S.l.] :;Tampere Tampere 1
 [S.l.] 4b Viipurin läänin maatalouskomisioni Vyborg 1
 [Salo] Salo 1
@@ -740,11 +747,11 @@ Arhangel'sk'' Archangelsk 1
 Arhangelsk Archangelsk 1
 Armollisimman käskyn jälken präntätty Rigasa Riga 1
 Ashtabula (OH) Ashtabula Oh 1
-Ashtabula, Ohio Ashtabula Oh 1
 Askersundiae Askersund 1
 Astoria Astoria Or 1
 Astoria (Oregon) Astoria Or 1
 Astoria, (Oregon) Astoria Or 1
+Aug. Vind. [Augsburg] Augsburg 1
 Bennäs Pännäinen 1
 Bergen :;Stockholm :;Kjøbenhavn Bergen 1
 Berlin und Stettin Berlin 1
@@ -755,7 +762,6 @@ Björbeborg Pori 1
 Borgå̊ Porvoo 1
 Borgosa Porvoo 1
 Brahestads Raahe 1
-Bridgeport (Conn.) Bridgeport Ct 1
 Bronx (N. Y.) New York NY 1
 Brooklyn (N.Y) New York NY 1
 Brooklyn [N.Y.] New York NY 1
@@ -900,6 +906,7 @@ Imprimé á Stockholm Stockholm 1
 Imprimebat Aboae Turku 1
 Imprimebatur Gryphisuualdiae Greifswald 1
 Imprimebatur Wisingsbvrgi Visingsborg 1
+In Burgo Sancti Petri St Petersburg 1
 Ingå Inkoo 1
 Ingressu Aboae Turku 1
 Inkerinmaalla Inkeri 1
@@ -984,13 +991,14 @@ Nanaimo (B.C.) Nanaimo BC 1
 Närpes Närpiö 1
 Ne York New York NY 1
 Neapel Naples 1
+Neu-Ruppin Neuruppin 1
 New York (Mills.) New York Mills Mn 1
-New York (N. Y.) New York NY 1
 New York (NY) New York NY 1
 New York Mills New York Mills Mn 1
 New York Mills (MN) New York Mills Mn 1
 New York Mills, MN New York Mills Mn 1
 New York, N.Y. New York NY 1
+Norimberge Nürnberg 1
 Norköping Norrköping 1
 Nu på nytt vplagdt och tryckt i Vpsala Uppsala 1
 Nya Wasa Vaasa 1
@@ -1212,6 +1220,7 @@ Turku ;;Helsinki Turku 1
 Turku ja Helsinki Turku 1
 Turun kaupungisa Turku 1
 Turura [!] Turku 1
+Turura [sic] Turku 1
 Turus Turku 1
 Turusa anomuxen jälkeen präntätyt Turku 1
 Tvrvsa Turku 1

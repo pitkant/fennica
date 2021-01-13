@@ -1,51 +1,52 @@
 Name	Count
-Total count (na.rm TRUE): 	36094
-FI-H	11964
-FI-Suom. kaunok. 3	 1174
-FI-Suom. kaunokirj. 1	  918
-FI-Suom. kaunok. 4	  771
+Total count (na.rm TRUE): 	36295
+FI-H	12011
+FI-Suom. kaunok. 3	 1175
+FI-Suom. kaunokirj. 1	  919
+FI-Suom. kaunok. 4	  773
 FI-K.Hbrtauskirj.	  507
-FI-Suom. kaunokirj. 2	  504
-FI-Hbrtauskirj.	  483
-FI-Ruots. kaunokirj. 1	  419
+FI-Suom. kaunokirj. 2	  506
+FI-Hbrtauskirj.	  484
+FI-Ruots. kaunokirj. 1	  421
 FI-Suom. kaunok. 2	  399
-FI-Matematiikka	  389
-FI-Lahetys	  387
+FI-Matematiikka	  391
+FI-Lahetys	  388
 FI-Siv.seur.: Kansanvalistusseura 3	  354
-FI-Laäketiede 3	  350
+FI-Laäketiede 3	  352
 FI-Yl. hist.	  341
-FI-Suom. lastenkirj. 5	  339
+FI-Suom. lastenkirj. 5	  340
 FI-Maanviljelys 2B	  330
 FI-losofia	  325
 FI-Diss. HY	  305
-FI-Amerikka 3	  255
-FI-Teollisuus 3	  249
+FI-Amerikka 3	  275
+FI-Teollisuus 3	  251
 FI-K.Hbrtauskirj	  241
 FI-Maantiede 1	  210
-FI-Lakitiede 3	  197
+FI-Lakitiede 3	  198
+FI-Raamatunhist.	  181
 FI-Kasvatusoppi 3	  180
 FI-K.Suom.kaunok.	  177
-FI-Raamatunhist.	  177
 FI-Ruots. kaunok. 3	  175
 FI-Tiet. seur.: Suom. kirj. seura	  175
 FI-Kirj. hist.	  174
 FI-Suom. lastenkirj. 4	  171
+FI-K. Saarnakirjallisuus	  168
 FI-K.Saarnakirj.	  168
 FI-Raittius 2 , Raittiuden	  167
-FI-K. Saarnakirjallisuus	  164
 FI-Suom. kaunok. 1.	  157
 FI-K.Raittius	  152
 FI-Suom.kaunokirj.1	  151
-FI-K. Hbrtauskirj.	  149
-FI-Foliot	  141
+FI-K. Hbrtauskirj.	  150
+FI-Foliot	  145
 FI-Teologia 3	  134
+FI-Suom. lastenkirj. 2	  133
 FI-Pohjoism. kielit.	  131
 FI-Kom. miet. 1	  129
 FI-Elamisentaito	  126
 FI-Suom. kiel. 3	  116
-FI-K.Laäketiede	  106
+FI-K.Laäketiede	  107
+FI-Saarnakirj.	  105
 FI-Eksegetiikka	  103
-FI-Saarnakirj.	  101
 FI-Suom. kaunok. 6	   94
 FI-Tiet. seur.: Svenska litt. sallsk.	   93
 FI-Germ. kielit.	   89
@@ -56,11 +57,10 @@ FI-Maanviljelys 3	   88
 FI-Urheilu 3	   88
 FI-Heng.laulukirj.1.	   86
 FI-Ruotsal. lastenkirj. 3	   86
-FI-Suom. lastenkirj. 2	   86
 FI-Vakuutus 5	   83
 FI-Nuorisoseurat 2	   82
 FI-Laäketiede 2	   80
-FI-K.Teknologia	   77
+FI-K.Teknologia	   78
 FI-K.Maanviljelys	   76
 FI-Yl.luonnontiede	   76
 FI-K.Kasvatusoppi	   75
@@ -88,19 +88,19 @@ FI-Maanviljelys 2 C	   53
 FI-Maanvilj. 3	   52
 FI-Suom. kaunok. 3, Kevytta lukemista	   52
 FI-Taide 2	   52
+FI-Amerikka 3.	   51
 FI-Ruots. kaunokirj. 2	   51
 FI-K.Lahetys	   50
 FI-Siv.seur.: Kansanvalistusseura 4	   50
 FI-Metsanhoito 3	   49
+FI-Naisasia 2	   49
 FI-K.Heng.laulukirj.	   48
 FI-Kielitiede: Tulkkikirjat	   48
-FI-Naisasia 2	   48
 FI-Lainvalm.kunta 2	   47
-FI-Amerikka 3.	   46
+FI-Kunn. hall. 4	   46
 FI-Ruots.kaunok. 1.	   46
 FI-Suom. kaunok. 1	   46
 FI-Romaan. kielit.	   45
-FI-Kunn. hall. 4	   44
 FI-Maantiede 2	   44
 FI-Uni- ja povauskirjat	   44
 FI-K.Kansanopetus	   43
@@ -112,19 +112,19 @@ FI-Siv.seur.: Svenska folkskolans vanner	   42
 FI-Yl.lukemistot 2	   42
 FI-Ruots. lastenkirj. 3	   41
 FI-Vierask. kaunokirj. 1	   41
+FI-Fol. A	   40
 FI-Musiikki 4	   40
-FI-Fol. A	   39
 FI-K. Teologia	   39
 FI-Ruots. kaunokirj. 4	   39
 FI-Sanakirjat	   39
+FI-Suom. elamäkerrat 1	   39
 FI-Suom. elamäkerrat 2	   39
 FI-K.Metsanhoito	   38
 FI-Kirkkohist.	   38
 FI-Piirustus 3	   38
-FI-Suom. elamäkerrat 1	   38
+FI-Diss. Ulk.	   37
 FI-K.Matematiikka	   37
 FI-Klass. kielit. 2	   37
-FI-Diss. Ulk.	   36
 FI-Heng. seurat 2	   36
 FI-Kasvatusoppi 3 Koti	   36
 FI-Kom. miet. 2.	   36
@@ -145,10 +145,10 @@ FI-Heng. laulukirj. 1	   33
 FI-Katekism. 2	   33
 FI-Kotitalous 3	   32
 FI-Rautatiet 3	   32
+FI-K.Kirj.hist.	   31
 FI-Katekism. 1	   31
 FI-Suom. kaunok. 3, Kirjan 50 pennin kirjasto	   31
 FI-Suomi - Venäjä 3	   31
-FI-K.Kirj.hist.	   30
 FI-Meijeritalous 3	   30
 FI-Opuscula	   30
 FI-Ruots. kaunok. 1	   30
@@ -172,6 +172,7 @@ FI-Kauppa 3	   25
 FI-Maantiede 1 , Bidrag	   25
 FI-Pienkarjanhoito 2	   25
 FI-Rautatiet 4	   25
+FI-Alkukoulut 3	   24
 FI-Heng. seurat 1	   24
 FI-Maantiede 2.	   24
 FI-Naisasia 2, Foreningen Marthas	   24
@@ -180,7 +181,6 @@ FI-Raamatut 5	   24
 FI-Tiet. seur.: Suom.-ugril. seura	   24
 FI-Tiet. seur.: Vanamo	   24
 FI-Alkukoulut 2	   23
-FI-Alkukoulut 3	   23
 FI-Heng. laulukirj. 1.	   23
 FI-K. Maanviljelys 2	   23
 FI-K. Matematiikka	   23
@@ -210,12 +210,12 @@ FI-Raamatut 1	   19
 FI-Vakuutus 6, Suomen	   19
 FI-Yleiset sarjat 1 , Paivänkysymyksiä	   19
 FI-Heng. seurat 1 Pyhien	   18
+FI-K. Amerikka 2	   18
 FI-Maanvilj. 2B, Maatalousseurojen	   18
 FI-Metsastys 3	   18
 FI-Palosuojelu 2	   18
 FI-Teologia 3 , Uskonnollisia	   18
 FI-Diss. HY;FI-Kirj. hist.	   17
-FI-K. Amerikka 2	   17
 FI-K.Ruots.kaunok.	   17
 FI-Palosuojelu	   17
 FI-Suom. kaunok. 5.	   17
@@ -230,6 +230,7 @@ FI-Siveellisyys , Aikamme	   16
 FI-Suom. kaunokirj. 2;FI-Suom. kaunok. 3	   16
 FI-Suom. sukututkimus 2	   16
 FI-Tyovaenkysymys 3	   16
+FI-K. Suomi - Venajä	   15
 FI-Kauppayhdistykset	   15
 FI-Suom.kansanrunous 1	   15
 FI-Yleiset sarjat 1 , Kirjasia	   15
@@ -238,11 +239,11 @@ FI-K.Suom.hist.	   14
 FI-Kirkoll. kasikirj. 4	   14
 FI-Kunn. hall. 4, Helsingin	   14
 FI-Lait 2	   14
+FI-Taide 3	   14
 FI-Tiet. seur.: Suomen historiallinen seura	   14
 FI-Tulli 2	   14
 FI-Diss. HY;FI-Lakitiede 3	   13
 FI-K. Elainlääk.	   13
-FI-K. Suomi - Venajä	   13
 FI-K.Henkilokirj.	   13
 FI-K.Kemia	   13
 FI-K.Urheilu	   13
@@ -250,7 +251,6 @@ FI-Merenkulku 5	   13
 FI-Rahalaitokset 6	   13
 FI-Raittius 3	   13
 FI-Sosiaalipolitiikka 3	   13
-FI-Taide 3	   13
 FI-Tulli 3	   13
 FI-Virsikirjat 2	   13
 FI-Hydrogr.	   12
@@ -278,6 +278,7 @@ FI-Kasvatusoppi 3 Kasvatusopillisia	   11
 FI-Lahetys, (Ambomaa)	   11
 FI-Posti 4	   11
 FI-Ruotsal. lastenkirj. 2	   11
+FI-Ruotsal. lastenkirj. 4	   11
 FI-Synodaalikirj.	   11
 FI-Teologia 2	   11
 FI-Valtio-oppi 3	   11
@@ -294,13 +295,13 @@ FI-Kom. miet. 1;FI-Vakuutus 6	   10
 FI-Maanvilj. 3, Maatalouskirjasto	   10
 FI-Oppikoulut 1	   10
 FI-Rahalaitokset 2	   10
-FI-Ruotsal. lastenkirj. 4	   10
 FI-Seminaarit	   10
 FI-Siveellisyys , Sukuelamä	   10
 FI-Tiet. seur.: Suomal. teol. kirj. seura	   10
 FI-Ulkom. sopimukset	   10
 FI-Yleiset sarjat 1 , Tieteen	   10
 FI-Diakonissalaitos	    9
+FI-K.Kasvitiede	    9
 FI-K.Kielikysymys	    9
 FI-K.Suom.kaunok.;FI-Suom. kaunok. 2 (ks. Tolstoi, Kertoelmia kansalle)	    9
 FI-Kirjastot 3	    9
@@ -326,7 +327,6 @@ FI-Itam. kielit.	    8
 FI-K. Suom. kaunokirj. 1	    8
 FI-K.Kansatiede	    8
 FI-K.Karjanhoito	    8
-FI-K.Kasvitiede	    8
 FI-K.Kiel.Kotim.,suom	    8
 FI-K.Pikakirjoitus	    8
 FI-K.Suomal.kaunokirj.	    8
@@ -350,12 +350,14 @@ FI-Suomal. kielit. 3.	    8
 FI-Teollisuusopetus	    8
 FI-Teollisuusyhdistykset	    8
 FI-Teologia 3 , Nykyajan	    8
+FI-Tie -ja vesirakennus	    8
 FI-Valokuvaus 3	    8
 FI-Yl.lukemistot 1 , Kansakoulun	    8
 FI-Yleiset sarjat 1 , Otavan	    8
 FI-Yleiset sarjat 1 , Tietoaarre	    8
 FI-Diss. HY;FI-Maanviljelys 2B	    7
 FI-K. Kiel.,vanhat	    7
+FI-K.Elaintiede	    7
 FI-K.Fysiikka	    7
 FI-K.Geol.& Miner.	    7
 FI-K.Kiel.kotim.,suom	    7
@@ -375,7 +377,6 @@ FI-Suom. kaunok. 2, Pihlstrand, R.	    7
 FI-Suom.kaunok.1.	    7
 FI-Teologia 1	    7
 FI-Teologia 3 , Seurakuntaelamä	    7
-FI-Tie -ja vesirakennus	    7
 FI-Vakuutus 3 , Tiihonen	    7
 FI-Vakuutus 5, Kaleva	    7
 FI-Vitr.	    7
@@ -389,7 +390,6 @@ FI-Hbrtaus	    6
 FI-Hbrtauskirj. Kustannusosakeyhtio	    6
 FI-Helsingin yliopisto 5	    6
 FI-Heng.lauluk.1.	    6
-FI-K.Elaintiede	    6
 FI-K.Hevostenhoito	    6
 FI-Kasvatusoppi 3 Kansakoulu...	    6
 FI-Keinotek. kielet 3	    6
@@ -496,6 +496,7 @@ FI-Suom. kaunok. 1.;FI-Suom. kaunok. 3	    4
 FI-Suom. kaunok. 2;FI-Suom. kaunok. 3	    4
 FI-Suom. kaunok. 3, Gummerus	    4
 FI-Suom. kaunokirj. 1, Calamnius	    4
+FI-Suom. lastenkirj. 2, Kolmisoinnun	    4
 FI-Suom. lastenkirj. 3, Stenback, Lyydi	    4
 FI-Suom. lastenkirj. 3;FI-Suom. lastenkirj. 5	    4
 FI-Suom. lastenkirj. 4;FI-Suom. lastenkirj. 5	    4
@@ -525,6 +526,7 @@ FI-Heng.laulukirj.	    3
 FI-Hydrogr. Meddelanden	    3
 FI-Hydrogr. Suomen	    3
 FI-K. Filosofia	    3
+FI-K. Folio	    3
 FI-K. Kasvitiede	    3
 FI-K. Kiel.;kotim. Suomi	    3
 FI-K. Meijerihoito	    3
@@ -590,7 +592,6 @@ FI-Suom. kaunok. 2;FI-Suom. kaunokirj. 3	    3
 FI-Suom. kaunok. 3 (1. p.)	    3
 FI-Suom. kaunokirj. 1, Forsman	    3
 FI-Suom. kaunokirj. 1;FI-Suom. kaunok. 3	    3
-FI-Suom. lastenkirj. 2, Kolmisoinnun	    3
 FI-Suom. sukututkimus 1	    3
 FI-Suom. sukututkimus 1;FI-Tiet. seur.: Svenska litt. sallsk.	    3
 FI-Suom.lastenkirj. 1	    3
@@ -642,7 +643,6 @@ FI-HYK	    2
 FI-Hyvantekeväisyys	    2
 FI-K. Amerikka 1	    2
 FI-K. Astronomia	    2
-FI-K. Folio	    2
 FI-K. Hatäapu	    2
 FI-K. Kiel., itam.	    2
 FI-K. Kiel., slaav.	    2
@@ -779,6 +779,7 @@ FI-Suom. kaunokirj. 1;FI-Suom. lastenkirj. 5	    2
 FI-Suom. kaunokirj. 1.	    2
 FI-Suom. kaunokirj. 2, Knudsen, Jakob	    2
 FI-Suom. kaunokirj. 3	    2
+FI-Suom. lastenkirj. 2, Kristofer	    2
 FI-Suom. lastenkirj. 2, Meidan	    2
 FI-Suom. lastenkirj. 2, Pienokaiset	    2
 FI-Suom. lastenkirj. 2, Pikku	    2
@@ -884,6 +885,7 @@ FI-Elainlääkintä 3;FI-Maanviljelys 2B	    1
 FI-Elaintiede;FI-Kirjatieto 3;FI-K. Elaintiede	    1
 FI-Elaintiede;FI-Siv.seur.: Svenska folkskolans vanner	    1
 FI-Elaintiede;FI-Yl.luonnontiede	    1
+FI-Elamisentaito;FI-K. Amerikka 2	    1
 FI-Elamisentaito;FI-losofia	    1
 FI-Elamisentaito;FI-Ruots. kaunokirj. 1	    1
 FI-Elamisentaito. Kniggen	    1
@@ -959,11 +961,13 @@ FI-Hevostenhoito 2	    1
 FI-Hevostenhoito 3	    1
 FI-Hydrogr.  Finnlandische	    1
 FI-Hydrogr. Mitteilungen	    1
+FI-III.3.a./1	    1
 FI-III.3.a./10	    1
 FI-III.3.a./11	    1
 FI-III.3.a./12	    1
 FI-III.3.a./13	    1
 FI-III.3.a./2	    1
+FI-III.3.a./3	    1
 FI-III.3.a./4	    1
 FI-III.3.a./5	    1
 FI-III.3.a./6	    1
@@ -974,8 +978,10 @@ FI-III.3.b./20	    1
 FI-III.3.b/.155	    1
 FI-III.3.b/.17	    1
 FI-III.3.b/1	    1
+FI-III.3.b/10	    1
 FI-III.3.b/11	    1
 FI-III.3.b/12	    1
+FI-III.3.b/13	    1
 FI-III.3.b/15	    1
 FI-III.3.b/16	    1
 FI-III.3.b/18	    1
@@ -991,9 +997,12 @@ FI-III.3.b/5	    1
 FI-III.3.b/51	    1
 FI-III.3.b/6	    1
 FI-III.3.b/62	    1
+FI-III.3.b/63	    1
+FI-III.3.b/64	    1
 FI-III.3.b/7	    1
 FI-III.3.b/74	    1
 FI-III.3.b/8	    1
+FI-III.3.b/9	    1
 FI-Ilmailu 3;FI-Teollisuus 3	    1
 FI-K. Amerikka 2 , Ilmonen	    1
 FI-K. Elainlääk. , Savela	    1
@@ -1019,6 +1028,7 @@ FI-K.Elainlääk.;FI-K. Elainlääk.	    1
 FI-K.Fysiikka;FI-Vakuutus 5	    1
 FI-K.Genealogia, Juselius	    1
 FI-K.Geol. & Miner.	    1
+FI-K.Geol.&  Miner.	    1
 FI-K.H.artauskirj.	    1
 FI-K.hartauskirj.	    1
 FI-K.Hatäapu , Kommande;FI-K. Maanviljelys 2	    1
@@ -1051,6 +1061,7 @@ FI-K.Hbrtauskirj.;FI-K.Saarnakirj., Williamson, W.	    1
 FI-K.Hbrtauskirj.;FI-K.Suom.kaunok.	    1
 FI-K.Hbrtauskirj.;FI-Suom. kaunok. 3	    1
 FI-K.Hbutauskirj.	    1
+FI-K.Heng. laulukirj.	    1
 FI-K.Heng.laulukirj. , Heratyslauluja	    1
 FI-K.Heng.laulukirj. , Herrens	    1
 FI-K.Heng.laulukirj. , Laulukokoelma	    1
@@ -1147,6 +1158,7 @@ FI-K.Saarnakirj., Litzell, Carl Emil	    1
 FI-K.Saarnakirj., Sarlin, B.	    1
 FI-K.Saarnakirj.;FI-Lahetys	    1
 FI-K.Saarnakirj..	    1
+FI-K.Suom.hist.;FI-K.Suomi-Venajä, Estl. 1232	    1
 FI-K.suom.kaunok.	    1
 FI-K.Suom.kaunok., 'Tahden'	    1
 FI-K.Suom.kaunok., Helminen Henrik	    1
@@ -1197,6 +1209,7 @@ FI-K.Suomi-Venajä, Estl. 1136	    1
 FI-K.Suomi-Venajä, Estl. 1137	    1
 FI-K.Suomi-Venajä, Estl. 1138	    1
 FI-K.Suomi-Venajä, Estl. 1139	    1
+FI-K.Suomi-Venajä, Estl. 114	    1
 FI-K.Suomi-Venajä, Estl. 1142a	    1
 FI-K.Suomi-Venajä, Estl. 1142b	    1
 FI-K.Suomi-Venajä, Estl. 1148a	    1
@@ -1213,6 +1226,7 @@ FI-K.Suomi-Venajä, Estl. 1189	    1
 FI-K.Suomi-Venajä, Estl. 119	    1
 FI-K.Suomi-Venajä, Estl. 12	    1
 FI-K.Suomi-Venajä, Estl. 120	    1
+FI-K.Suomi-Venajä, Estl. 121	    1
 FI-K.Suomi-Venajä, Estl. 122a	    1
 FI-K.Suomi-Venajä, Estl. 123	    1
 FI-K.Suomi-Venajä, Estl. 1251	    1
@@ -1246,6 +1260,8 @@ FI-K.Suomi-Venajä, Estl. 282	    1
 FI-K.Suomi-Venajä, Estl. 284	    1
 FI-K.Suomi-Venajä, Estl. 285	    1
 FI-K.Suomi-Venajä, Estl. 286	    1
+FI-K.Suomi-Venajä, Estl. 312	    1
+FI-K.Suomi-Venajä, Estl. 313	    1
 FI-K.Suomi-Venajä, Estl. 315	    1
 FI-K.Suomi-Venajä, Estl. 32	    1
 FI-K.Suomi-Venajä, Estl. 328	    1
@@ -1289,17 +1305,23 @@ FI-K.Suomi-Venajä, Estl. 770	    1
 FI-K.Suomi-Venajä, Estl. 78b	    1
 FI-K.Suomi-Venajä, Estl. 79	    1
 FI-K.Suomi-Venajä, Estl. 866a	    1
+FI-K.Suomi-Venajä, Estl. 867a	    1
 FI-K.Suomi-Venajä, Estl. 869	    1
 FI-K.Suomi-Venajä, Estl. 871	    1
+FI-K.Suomi-Venajä, Estl. 878a	    1
+FI-K.Suomi-Venajä, Estl. 888	    1
 FI-K.Suomi-Venajä, Estl. 894	    1
+FI-K.Suomi-Venajä, Estl. 898	    1
 FI-K.Suomi-Venajä, Estl. 90	    1
 FI-K.Suomi-Venajä, Estl. 902	    1
+FI-K.Suomi-Venajä, Estl. 904	    1
 FI-K.Suomi-Venajä, Estl. 91;FI-K.Tulli	    1
 FI-K.Suomi-Venajä, Estl. 916	    1
 FI-K.Suomi-Venajä, Estl. 924a	    1
 FI-K.Suomi-Venajä, Estl. 929	    1
 FI-K.Suomi-Venajä, Estl. 939	    1
 FI-K.Suomi-Venajä, Estl. 93b	    1
+FI-K.Suomi-Venajä, Estl. 947	    1
 FI-K.Suomi-Venajä, Estl. 96	    1
 FI-K.Taidehist., Reuter, E.	    1
 FI-K.Teknologia, Lehtonen, Anni	    1
@@ -1392,6 +1414,7 @@ FI-Kom. miet. 1;FI-Piirustus 2	    1
 FI-Kom. miet. 1;FI-Seminaarit	    1
 FI-Kom. miet. 1;FI-Teologia 2	    1
 FI-Kom. miet. 1;FI-Tie- ja vesirakennus	    1
+FI-Kom. miet. 1;FI-Valtiopaivät 1	    1
 FI-Kom. miet. 2. 1896:11;FI-Rahalaitokset 2	    1
 FI-Kom. miet. 2. 1896:12;FI-Rahalaitokset 2	    1
 FI-Kom. miet. 2. 1896:13;FI-Rahalaitokset 2	    1
@@ -1936,6 +1959,7 @@ FI-Suom. lastenkirj. 2, Janis	    1
 FI-Suom. lastenkirj. 2, Jorva	    1
 FI-Suom. lastenkirj. 2, Juttuja	    1
 FI-Suom. lastenkirj. 2, Kalastaja	    1
+FI-Suom. lastenkirj. 2, Kauniita	    1
 FI-Suom. lastenkirj. 2, Koti-eaimet	    1
 FI-Suom. lastenkirj. 2, Kotoisia	    1
 FI-Suom. lastenkirj. 2, Kuvia Suomen	    1
@@ -1948,6 +1972,7 @@ FI-Suom. lastenkirj. 2, Meren	    1
 FI-Suom. lastenkirj. 2, Metsa-elävät	    1
 FI-Suom. lastenkirj. 2, Metsavuokkoja	    1
 FI-Suom. lastenkirj. 2, Nelja	    1
+FI-Suom. lastenkirj. 2, Paitaressujen	    1
 FI-Suom. lastenkirj. 2, Professori	    1
 FI-Suom. lastenkirj. 2, Siisti-Pelle	    1
 FI-Suom. lastenkirj. 2, Tuhma	    1
@@ -2046,6 +2071,7 @@ FI-Tulli 2, Tullitaksa	    1
 FI-Tulli 2, Tulltaxan	    1
 FI-Tuomiokapitulit	    1
 FI-Turun yliopisto 2	    1
+FI-Tyovaemkys. 3.;FI-Amerikka 3	    1
 FI-Tyovaenkys. 2 , Hämeenlinnan	    1
 FI-Tyovaenkys. 2 , Kotkan	    1
 FI-Tyovaenkys. 2 , Kuopion	    1

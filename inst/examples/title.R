@@ -1,3 +1,2 @@
-    # Polish the given field
-    df.tmp <- polish_field(df.orig, df.preprocessed, field, verbose = FALSE,
-                           languages = languages)
+df.tmp <- data.frame(title = polish_title(df.orig[[field]]))
+

@@ -8,9 +8,9 @@ output: markdown_document
 
 ### Publishers
 
- * 12948 [unique publishers](output.tables/publisher_accepted.csv)
+ * 12995 [unique publishers](output.tables/publisher_accepted.csv)
 
- * 60751 documents have unambiguous publisher information (85.2%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
+ * 61144 documents have unambiguous publisher information (85%). This includes documents identified as self-published; the author name is used as the publisher in those cases (if known).
 
  * 0 documents are identified as self-published (0%). 
 
@@ -24,6 +24,10 @@ The 50 most common publishers are shown with the number of documents.
 
 ```
 ## Error in top_plot(df, "publisher", ntop): could not find function "top_plot"
+```
+
+```
+## Error in if (length(unique(intervals)) > 1 & any(diff(scale(intervals)) < : missing value where TRUE/FALSE needed
 ```
 
 ![plot of chunk summarypublisher2](figure/summarypublisher2-1.png)
@@ -62,9 +66,9 @@ Title count versus paper consumption (top publishers):
 
 Summaries of the corporate field.
 
- * 1415 [unique corporates](output.tables/corporate_accepted.csv)
+ * 1419 [unique corporates](output.tables/corporate_accepted.csv)
 
- * 20305 documents have unambiguous corporate information (28.5%). 
+ * 20324 documents have unambiguous corporate information (28.3%). 
 
  * [Discarded corporate entries](output.tables/corporate_discarded.csv)
 
@@ -76,6 +80,10 @@ The 50 most common corporates are shown with the number of documents.
 
 ```
 ## Error in top_plot(df, "corporate", ntop): could not find function "top_plot"
+```
+
+```
+## Error in if (length(unique(intervals)) > 1 & any(diff(scale(intervals)) < : missing value where TRUE/FALSE needed
 ```
 
 ![plot of chunk summarycorporate2](figure/summarycorporate2-1.png)

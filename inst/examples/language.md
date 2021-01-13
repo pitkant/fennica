@@ -9,10 +9,10 @@ output: markdown_document
 
  * 40 [unique languages](output.tables/language_accepted.csv)
  * 34 [unique primary languages](output.tables/language_accepted.csv)  
- * 67046 single-language documents (94.03%)
- * 4255 multilingual documents (5.97%) 
+ * 67623 single-language documents (94.03%)
+ * 4296 multilingual documents (5.97%) 
  * [Conversions from raw to preprocessed language entries](output.tables/language_conversions.csv) 
- * 731 documents (1.03%) with [unrecognized language](output.tables/language_discarded.csv)
+ * 733 documents (1.02%) with [unrecognized language](output.tables/language_discarded.csv)
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/language_abbreviations.csv).
 
@@ -32,14 +32,14 @@ see [accepted languages](output.tables/language_accepted.csv).
 
 |Language        |Documents (n) |Fraction (%) |
 |:---------------|:-------------|:------------|
-|Finnish         |32396         |45.4         |
-|Swedish         |23301         |32.7         |
-|Latin           |6575          |9.2          |
-|German          |1868          |2.6          |
-|Finnish;Swedish |1382          |1.9          |
-|Undetermined    |731           |1            |
-|Russian         |731           |1            |
-|French          |621           |0.9          |
-|Latin;Swedish   |610           |0.9          |
-|English         |344           |0.5          |
+|Finnish         |32708         |45.5         |
+|Swedish         |23476         |32.6         |
+|Latin           |6587          |9.2          |
+|German          |1899          |2.6          |
+|Finnish;Swedish |1397          |1.9          |
+|Russian         |749           |1            |
+|Undetermined    |733           |1            |
+|French          |646           |0.9          |
+|Latin;Swedish   |610           |0.8          |
+|English         |345           |0.5          |
 

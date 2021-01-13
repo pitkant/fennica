@@ -11,10 +11,8 @@ library(knitr)
 
 # Set global parameters
 #timespan <- c(1400, 1920)
-#timespan <- c(1470, 1828)
-#timespan <- c(-Inf, Inf)
-datafile <- "df.Rds"
-datafile.orig <- "df.raw.Rds"
+datafile <- "df.Rds" # Final preprocessed, enriched, validated data
+datafile.orig <- "df.raw.Rds" # Original raw data entries for comparison
 ntop <- 20
 author <- "Helsinki Computational History Group (COMHIS)"
 

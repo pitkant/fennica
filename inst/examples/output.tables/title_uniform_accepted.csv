@@ -1,5 +1,5 @@
 Name	Count
-Total count (na.rm TRUE): 	12194
+Total count (na.rm TRUE): 	12209
 Meditationes sancti evangelii.	103
 Meditationes sanctarum epistolarum.	 77
 Chronicon episcoporum Finlandensium.	 56
@@ -58,12 +58,12 @@ Lasten paras tawara.	 10
 Oratoria.	 10
 Institutiones pneumaticae.	  9
 Lärobok i Finlands historie och geografi	  9
+Nadeschda	  9
 Arcus semi-diurni siderum, ad latitudinem Aboënsem.	  8
 De signis relationum nominalium in lingua fennica.	  8
 De viris in Fennia peritia litterarum Graecarum claris.	  8
 Epistolarum conscribendarum forma & ratio.	  8
 Hortus Academiae Aboensis.	  8
-Nadeschda	  8
 Sciagraphia morborum.	  8
 Compendium metaphysicae.	  7
 De excidio orbis substantiali et totali.	  7
@@ -906,6 +906,7 @@ Kiertokirje (1799-01-07)	  2
 Kiertokirje (1799-01-08)	  2
 Kiertokirje (1799-03-12)	  2
 Kiertokirje (1800-06-17)	  2
+Kiertokirje (1801-06-17)	  2
 Kiertokirje (1809-09-01)	  2
 Kihlamisen tapa (1655 tai aik.)	  2
 Kihlaus	  2
@@ -3479,6 +3480,7 @@ De spiritu vivificante, Joh. cap. VI. com. 63	  1
 De spiritus vini usu et abusu	  1
 De statistices apud veteres vestigiis et fontibus.	  1
 De statu & religione Cornelii centurionis, ante ejus ad Jesu fidem, conversionem	  1
+De statu ac conditione artium liberalium	  1
 De statu Christi exaltationis	  1
 De statu gratiae iraeve aliorum, occasione dicti de Barnaba act. XI: 23. leviter examinata	  1
 De statu hominis originali; potissimum vero de imagine Dei in homine ante lapsum.	  1
@@ -4759,8 +4761,10 @@ Kiertokirje (1796-08-29)	  1
 Kiertokirje (1796-11-14)	  1
 Kiertokirje (1796-11-18)	  1
 Kiertokirje (1796-12-07)	  1
+Kiertokirje (1797-05-18)	  1
 Kiertokirje (1797-06-12)	  1
 Kiertokirje (1797-06-13)	  1
+Kiertokirje (1798-05-10)	  1
 Kiertokirje (1798-07-19)	  1
 Kiertokirje (1798-10-23)	  1
 Kiertokirje (1798-10-29)	  1
@@ -4768,15 +4772,16 @@ Kiertokirje (1798-12-11)	  1
 Kiertokirje (1798-12-17)	  1
 Kiertokirje (1799-02-15)	  1
 Kiertokirje (1799-02-26)	  1
+Kiertokirje (1799-06-12)	  1
 Kiertokirje (1799-10-22)	  1
 Kiertokirje (1799-12-11)	  1
 Kiertokirje (1800-03-04)	  1
 Kiertokirje (1800-03-10)	  1
+Kiertokirje (1800-05-28)	  1
 Kiertokirje (1801-01-24)	  1
 Kiertokirje (1801-03-09)	  1
 Kiertokirje (1801-03-11)	  1
 Kiertokirje (1801-06-12)	  1
-Kiertokirje (1801-06-17)	  1
 Kiertokirje (1801-06-22)	  1
 Kiertokirje (1801-07-17)	  1
 Kiertokirje (1801-08-01)	  1
@@ -4789,13 +4794,16 @@ Kiertokirje (1803-02-12)	  1
 Kiertokirje (1803-02-14)	  1
 Kiertokirje (1803-03-19)	  1
 Kiertokirje (1803-03-26)	  1
+Kiertokirje (1803-06-08)	  1
 Kiertokirje (1803-08-26)	  1
 Kiertokirje (1804-03-13)	  1
+Kiertokirje (1804-06-07)	  1
 Kiertokirje (1804-07-09)	  1
 Kiertokirje (1804-12-21)	  1
 Kiertokirje (1804-1808).	  1
 Kiertokirje (1805-05-14)	  1
 Kiertokirje (1805-05-15)	  1
+Kiertokirje (1805-06-20)	  1
 Kiertokirje (1805-11-13)	  1
 Kiertokirje (1805-11-18)	  1
 Kiertokirje (1805-12-09)	  1
@@ -4809,6 +4817,7 @@ Kiertokirje (1806-09-16)	  1
 Kiertokirje (1806-10-13)	  1
 Kiertokirje (1806-10-27)	  1
 Kiertokirje (1807-03-10)	  1
+Kiertokirje (1807-07-02)	  1
 Kiertokirje (1807-07-04)	  1
 Kiertokirje (1808-01-07)	  1
 Kiertokirje (1808-02-17)	  1
@@ -4820,6 +4829,9 @@ Kiertokirje (1809-11-2/14)	  1
 Kiertokirjeet (1736-1750)	  1
 Kiertokirjeet (1736-1758)	  1
 Kiertokirjeet (1759-1787)	  1
+Kiertokirjeet (1802-05-13)	  1
+Kiertokirjeet (1806-06-03)	  1
+Kiertokirjeet (1808-07-06)	  1
 Kinder- und Hausmärchen	  1
 King Lear	  1
 Kirke og Orgel	  1
@@ -7723,6 +7735,7 @@ Mansuetudo	  1
 Manuductio ad studium juris Sveco-Romani	  1
 Mare aeneum Salomoneum, cum selectis q̳ibusdam aphorismis, historicè & mathematicè explicatum	  1
 Materia emptionis-venditionis	  1
+Max und Moritz	  1
 Mechaniska häf-tyget wiggens egenskaper	  1
 Medicina ars nobilissima	  1
 Meditatio mortis	  1

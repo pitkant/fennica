@@ -17,41 +17,26 @@ saveRDS(df.orig, "df.raw.Rds", compress = TRUE)
 saveRDS(conversions, "conversions.Rds", compress = TRUE)
 
 # ----------------------------------------------------
-#           VALIDATE PREPROCESSED DATA
-# ----------------------------------------------------
-
-# NOTE: for Fennica this validation is repeated also a second time after
-# the fennica-specific parts. It might be sufficient to skip this first round
-# and get the same results but cant say without checking more carefully
-data.validated <- validate_preprocessed_data(df.preprocessed)
-
-# ----------------------------------------------------
 #           ENRICH VALIDATED DATA
 # ----------------------------------------------------
 
 # NOTE: for Fennica this enrichment is repeated also a second time after
 # the fennica-specific parts. It might be sufficient to skip this first round
 # and get the same results but cant say without checking more carefully
-data.enriched <- enrich_preprocessed_data(data.validated, df.orig)
-source("enrich.fennica.R")
-rm(data.validated)
-rm(data.enriched)
-
-source("validation.fennica.R") # Year checks: must come after enrich
+data.enriched <- enrich_preprocessed_data(df.preprocessed, df.orig)
 
 # General validation and enrichment for the final data one more time
 # (for instance, publisher field needs Fennica-specific modifications above
 #  but that is just one example)
-data.validated2 <- validate_preprocessed_data(data.to.analysis.fennica)
-data.enriched2 <- enrich_preprocessed_data(data.validated2, df.orig)
+data.validated <- validate_preprocessed_data(data.enriched)
 
 # ---------------------------------------------------
 
 print("Saving updates on preprocessed data")
-df.preprocessed <- data.enriched2
-saveRDS(df.preprocessed, "df.Rds")
+saveRDS(data.validated, "df.Rds")
 
 # Summary analyses
+df.preprocessed <- data.validated
 source("analysis.init.R")
 source("analysis.run.R")
 

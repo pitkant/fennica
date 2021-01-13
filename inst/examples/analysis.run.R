@@ -33,7 +33,7 @@ for (id in summaries) {
 
 
 
-# Specific analyses
+# Some specific analyses listed
 # generic.Rmd
 # swedish_gap.Rmd
 # details.Rmd

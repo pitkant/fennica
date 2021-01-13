@@ -7,7 +7,7 @@ output: markdown_document
 
 # Preprocessing summary
 
-The data spanning years 1522-1972 has been included and contains 71301 documents (also other filter may apply depending on the data collection, see the source code for details.
+The data spanning years 11-&infin; has been included and contains 71919 documents (also other filter may apply depending on the data collection, see the source code for details.
 
 
 
@@ -54,8 +54,8 @@ Same in exact numbers: documents with available/missing entries, and number of u
 
 ```
 ##            used  (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells  1523610  81.4    4234055 226.2  5292568 282.7
-## Vcells 24050516 183.5   43433438 331.4 36127830 275.7
+## Ncells  1509821  80.7    5040977 269.3  6301221 336.6
+## Vcells 22743233 173.6   36158350 275.9 35483435 270.8
 ```
 
 
