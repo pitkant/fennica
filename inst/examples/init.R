@@ -18,10 +18,9 @@ catalog <- "fennica"
 languages <- c("finnish", "latin", "swedish")
 
 # List the preprocessed data file and read the data
-# df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, sep = "|")
-#df.orig <- sample_n(df.orig, 1000)
+df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, sep = "|")
+df.orig <- sample_n(df.orig, 1000) # Try with a smaller subset first!
 
-# FIXME Failing fields commented out for now - fix later
 update.fields <- c(
       "original_row",
       "publication_place",     
