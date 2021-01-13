@@ -53,7 +53,7 @@ saveRDS(df.preprocessed, "df.Rds")
 
 # Summary analyses
 source("analysis.init.R")
-# source("analysis.run.R")
+source("analysis.run.R")
 
 # ---------------------------------------------------
 

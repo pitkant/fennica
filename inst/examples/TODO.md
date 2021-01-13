@@ -4,6 +4,8 @@ TODO
 
 ### Technical
 
+- Move many key functions from funcs.R to R/ folder and package
+
 - Check data/unified/polished/ & ~/data/comhis/Fennica/unified & gitlab@gitlab.utu.fi:leolahti/comhis.git
 
 - Paikkatiedot: Billnäs -> Karjaa?

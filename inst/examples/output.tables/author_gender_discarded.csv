@@ -1,229 +1,5498 @@
 Name	Count
-Total count (na.rm TRUE): 	257
-leino, eino (1878-1926)	4
-luther, martti	4
-gyldenstolpe, michael olai (1608-1670)	3
-a,	2
-cajander, a k	2
-erkko, j h	2
-franzén, frans michael (1772-1847)	2
-g, (1840-1896)	2
-gadolin, gustavus (1769-1843)	2
-genetz, arvid (1848-1915)	2
-grotenfelt, gösta (1855-1922)	2
-heikel, ivar a	2
-lennart, väinö	2
-lunde, albert g	2
-mechelin, l	2
-mesterton, carolus (1715-1773)	2
-miltopaeus, martinus aeschilli (1631-1679)	2
-riverton, stein	2
-rosenqvist, a r	2
-sirenius, sigfrid (1877-1961)	2
-strömborg, j e	2
-strukel, m	2
-suomalainen, k (1850-1907)	2
-tammelinus, laurentius gabrielis (1669-1733)	2
-törnudd, lilli	2
-aboicus, laurentius	1
-ahtela, h (1881-1968)	1
-alkio,	1
-almberg, emil (1852-1929)	1
-andersen, h c	1
-arvekari, b	1
-åström, n	1
-avellan, michaël (1736-1807)	1
-baedeker,	1
-baer, agnes	1
-beauvois, eugène	1
-beecher-stowe, harriet	1
-berghell, hugo (1864-1922)	1
-bergroth, frans gideon (1846-1921)	1
-bergroth, julius efraim (1819-1876)	1
-bernstein, a	1
-björklund, isaacus (1686-1740)	1
-bonsdorff, jacobus (1763-1831)	1
-borenius, ernst (1858-1925)	1
-börjesson, karl	1
-braddon, m e	1
-brehm, alfred	1
-breshko-breshkovskij, n n	1
-burman, olof abrahamsson (1709-1759)	1
-c,	1
-canth, minna (1844-1897)	1
-carpelan, tor (1867-1960)	1
-cederberg, a r	1
-collins, mabel	1
-conradi, l r	1
-cooper, irving s	1
-dent, arthur (1607-na)	1
-e, (1700-na)	1
-ehrnrooth, adelaïde	1
-ervast, karl	1
-eurén, g e (1818-1872)	1
-falkman, severin (1831-1889)	1
-faust, (1879-1918)	1
-favorin, hanna (1845-1919)	1
-forsman, w v	1
-forsselius, laurentius jonae (1653-1729)	1
-frese, jacob (1690-1729)	1
-freudenthal, a o (1836-1911)	1
-frosterus, jacobus zachariae (1705-1750)	1
-gadolin, g	1
-gall, james	1
-grade, anders	1
-graves, armgaard karl	1
-gripenberg, g a (1854-1918)	1
-grönmark, g e	1
-gustafsson, f (1853-1924)	1
-gyldén, c w (1802-1872)	1
-haataja, kyösti	1
-hagfors, edwin	1
-hagman, lucina (1853-1946)	1
-hannikainen, p j	1
-hausen, hans	1
-heikel, b w	1
-heikel, felix (1844-1921)	1
-heikinheimo, olli (1882-1973)	1
-helander, b h	1
-hellman, a	1
-hermanson, berta	1
-hirn, yrjö	1
-hjelmman, j v	1
-hjelt, arthur	1
-hukkinen, yrjö (1886-1946)	1
-hult, ragnar (1857-1899)	1
-humu, martti (1852-1915)	1
-hydén, arvid	1
-ignatius, k e f	1
-j,	1
-jacobs, w w	1
-jakobsson, a	1
-järnefelt, john	1
-järvi, k a	1
-johansson, severin	1
-jorma,	1
-k-nen, h	1
-kallas, aino (1878-1956)	1
-kallio, j e	1
-kalthoff, albert	1
-kärkkäinen, viki (1883-1946)	1
-karttunen, uuno (1874-1959)	1
-kataja, väinö (1867-1914)	1
-kautsky, karl	1
-kettunen, eino	1
-kilpi, s	1
-kipen, a	1
-kivinen, k m	1
-koivistoinen, joh	1
-kolmodin, a	1
-korhos-heikki,	1
-krag, thomas p	1
-l,	1
-lagerborg, rolf	1
-lagerlöf, selma	1
-lähteinen, väinö	1
-lappala, risto	1
-larin-kyösti,	1
-lassinen, emil	1
-lassy, ivar	1
-laurén, l l (1824-1884)	1
-lefrén, laurentius olavi (1722-1803)	1
-levander, k m	1
-lilla, felix	1
-lindström, kössi	1
-ljungberg, emmi (1848-na)	1
-lodbrok,	1
-löfman, o w	1
-london, jack	1
-lönneström, k	1
-lütken, c f	1
-lybeck, mikael (1864-1925)	1
-maasalo, armas	1
-mac gregor, g h c	1
-maikov, p m	1
-malmberg, e w	1
-marinero,	1
-melander, h l (1819-1890)	1
-melander, k r	1
-merikoski, k	1
-meyer-förster, wilhelm	1
-moberg, k a	1
-monisti,	1
-murén, emil (1854-1912)	1
-nansen, peter	1
-neovius, e r	1
-neovius, l (1850-1916)	1
-newton, john	1
-nyberg, arvid	1
-nyberg, hugo	1
-öholm, lars w	1
-ojala, nestor	1
-oksanen, a (1826-1889)	1
-ollinen, j f	1
-ostwald, wilhelm	1
-pakarinen, simo	1
-palmgren, valfrid	1
-pauli, j	1
-paunu, u	1
-petrelius, albert	1
-petterson, väinö	1
-plathan, arthur	1
-plockhorst, b	1
-porthan, lilli	1
-poukka, k a	1
-råbergh, herman (1838-1920)	1
-rapola, f o (1862-1910)	1
-relander, o	1
-relander, v	1
-rentola, a (1881-1919)	1
-reuter, o m (1850-1913)	1
-rindell, arthur	1
-ronkainen, h	1
-rosch,	1
-rosegger, peter	1
-rosendahl, axel (1868-1939)	1
-rosenius, c o	1
-ruuth, martti	1
-salosaari, olavi	1
-sandelin, j f	1
-sandelin, l h	1
-schauman, björn	1
-schmettow, waldemar hermann (1719-1785)	1
-sederholm, j j (1863-1934)	1
-sellergren, peter lorenz	1
-šipov, n n	1
-sjöblom, hannes (1874-1944)	1
-smiles, samuel	1
-snellman, g r	1
-söderhjelm, werner (1859-1931)	1
-soldan-brofeldt, venny	1
-spurgeon, c h	1
-ståhlberg, k j	1
-stechern, gottfried	1
-stenius, m g	1
-streng, w o	1
-szinnyei, józsef	1
-tallgren schalin, aili	1
-tallgren, a m (1885-1945)	1
-talvio, maila	1
-tanner, a f	1
-tea,	1
-tegengren, gustav	1
-tegnér, esaias	1
-theophilander,	1
-tikkanen, j j	1
-topelius, z	1
-torckell, olga (1859-1941)	1
-tunander, nicolaus jonae (1625-1679)	1
-tunkelo, e a (1870-1953)	1
-virtala, esko (1864-1927)	1
-waljakka, yrjö	1
-wallin, olai (1832-1896)	1
-walta, f	1
-weimer, hermann	1
-wichert, ernst	1
-wide, anders	1
-widt, birger	1
-wilkuna, kyösti	1
-wilskman, ivar	1
+Total count (na.rm TRUE): 	18892
+luther, martti	268
+gyldenstolpe, michael olai (1608-1670)	201
+bonsdorff, e (1842-1936)	133
+leino, eino (1878-1926)	124
+grotenfelt, gösta (1855-1922)	119
+franzén, frans michael (1772-1847)	101
+mesterton, carolus (1715-1773)	101
+krohn, julius (1835-1888)	 94
+ragvaldinpoika, thomas (1724-1804)	 94
+vasenius, valfrid	 86
+reuter, o m (1850-1913)	 83
+setälä, e n (1864-1935)	 81
+gebhard, hannes	 77
+söderhjelm, werner (1859-1931)	 73
+leinberg, k g	 72
+tavaststjerna, k a (1860-1898)	 70
+bonsdorff, jacobus (1763-1831)	 68
+päivänsalo, b h	 68
+järnefelt, arvid (1861-1932)	 67
+palmén, e g	 67
+rindell, arthur	 63
+j,	 62
+raitio, k (1855-1924)	 60
+björklund, isaacus (1686-1740)	 58
+canth, minna (1844-1897)	 57
+talvio, maila	 57
+wilskman, ivar	 56
+ahrenberg, jac (1847-1914)	 55
+erkko, j h	 54
+miltopaeus, martinus aeschilli (1631-1679)	 52
+suomalainen, k (1850-1907)	 52
+lefrén, laurentius olavi (1722-1803)	 51
+kataja, väinö (1867-1914)	 50
+gadolin, jacobus (1719-1802)	 49
+tammelinus, laurentius gabrielis (1669-1733)	 49
+larin-kyösti,	 47
+nervander, emil	 47
+sundwall, f w	 47
+snellman, g r	 45
+frese, jacob (1690-1729)	 43
+nycopensis, nicolaus laurentii (1664-na)	 43
+a,	 42
+laurén, l l (1824-1884)	 42
+aina, (1856-1928)	 41
+schybergson, m g	 41
+hasselbom, nicolaus (1690-1764)	 40
+lönnrot, elias (1802-1884)	 40
+zilliacus, konni (1855-1924)	 40
+tengström, jacob (1755-1832)	 39
+ryle, j c	 38
+pauli, j	 37
+wrede, r a	 37
+gyldén, c w (1802-1872)	 36
+rosenius, c o	 36
+sederholm, j j (1863-1934)	 36
+wuori, martti (1858-1934)	 36
+hagman, lucina (1853-1946)	 35
+ramsay, wilhelm (1865-1928)	 35
+sunila, j e	 34
+gustafsson, f (1853-1924)	 33
+hydén, arvid	 33
+lybeck, mikael (1864-1925)	 33
+salenius, j m	 33
+wichmann, yrjö	 33
+forsström, o a	 32
+heikel, axel o (1851-1924)	 32
+rosenqvist, g g (1855-1931)	 32
+högman, k j	 31
+ignatius, k e f	 31
+lindelöf, uno	 31
+soininen, mikael (1860-1924)	 31
+bunyan, john	 30
+gadolin, gustavus (1769-1843)	 30
+hallstén, onni	 30
+hjelt, arthur	 30
+hult, ragnar (1857-1899)	 30
+lie, jonas	 30
+nylander, hannes	 30
+ojala, nestor	 30
+c,	 29
+gripenberg, aleksandra (1857-1913)	 29
+e,	 28
+heikel, ivar a	 28
+k, (1846-1937)	 28
+mechelin, l	 28
+pipping, hugo	 28
+skovgaard-petersen, c	 28
+björnson, björnstjerne	 27
+heilala, yrjö	 27
+lindelöf, l	 27
+spurgeon, c h	 27
+waaranen, k a (1849-1923)	 27
+lindeqvist, k o	 26
+niemi, herman	 26
+ståhlberg, k j	 26
+åström, n	 25
+beck, j t	 25
+borodkin, m	 25
+london, jack	 25
+nagajev, a i	 25
+palmberg, a	 25
+tanner, a f	 25
+boije, rolf	 24
+lagerlöf, selma	 24
+rosenqvist, v t	 24
+tikkanen, j j	 24
+wichmann, v k e	 24
+ailio, julius	 23
+gripenberg, bertel	 23
+heinricius, g	 23
+kaslin, edvin efraim (1856-1905)	 23
+lagerborg, rolf	 23
+ollinen, j f	 23
+russell, c t	 23
+saxén, ralf	 23
+andersen, h c	 22
+cederberg, a r	 22
+frosterus-segerstråle, hanna	 22
+g,	 22
+godenhjelm, b f	 22
+gummerus, k j (1840-1898)	 22
+hwasser, israel (1790-1860)	 22
+kautsky, karl	 22
+kockström, v r	 22
+m	 22
+rosendahl, axel (1868-1939)	 22
+wallin, väinö (1869-1947)	 22
+aro, j e	 21
+böök, einar (1874-1957)	 21
+caine, hall	 21
+cajander, a k	 21
+danielson, joh rich	 21
+eurén, g e (1818-1872)	 21
+forstén, t k	 21
+genetz, arvid (1848-1915)	 21
+haataja, kyösti	 21
+inha, i k (1865-1930)	 21
+jókai, mór	 21
+lindelöf, ernst	 21
+mellberg, e j	 21
+s, (1700-na)	 21
+sandelin, l h	 21
+tallgren, a m (1885-1945)	 21
+alpi, eero (1885-1933)	 20
+aspelin, j r	 20
+elfving, östen	 20
+kauppis-heikki, (1862-1920)	 20
+levander, k m	 20
+lilius, axel	 20
+lunde, albert g	 20
+mörne, arvid	 20
+p, (na-1939)	 20
+schybergson, emil (1856-1920)	 20
+voionmaa, väinö (1869-1947)	 20
+wallin, olai (1832-1896)	 20
+chydenius, anders (1729-1803)	 19
+freudenthal, a o (1836-1911)	 19
+hintikka, s v	 19
+karsten, t e	 19
+sederholm, c r (1818-1903)	 19
+sjöblom, hannes (1874-1944)	 19
+smiles, samuel	 19
+strömborg, j e	 19
+ater, parus (1844-1936)	 18
+jahnsson, yrjö	 18
+järvinen, kyösti (1869-1957)	 18
+liro, j i	 18
+melander, h l (1819-1890)	 18
+o, (1850-1913)	 18
+palmén, j a	 18
+råbergh, herman (1838-1920)	 18
+rosenqvist, i a	 18
+ruotsalainen, armas	 18
+setälä, helmi (1871-1967)	 18
+sirelius, u t	 18
+vendell, herman (1853-1907)	 18
+zola, émile	 18
+allardt, anders (1855-1942)	 17
+danielson-kalmari, j r	 17
+hurtig, karl	 17
+rapola, f o (1862-1910)	 17
+slotte, k f	 17
+sohlberg, hedvig	 17
+spyri, johanna	 17
+tegengren, jacob	 17
+axelson, väinö	 16
+f, (1845-1916)	 16
+favorin, hanna (1845-1919)	 16
+granfelt, a a	 16
+gripenberg, r	 16
+grönhagen, k b	 16
+hainari, o a	 16
+hirn, yrjö	 16
+kahilus, j	 16
+koskenniemi, v a	 16
+l, (na-1893)	 16
+lemström, selim (1838-1904)	 16
+moody, d l	 16
+neovius, l (1850-1916)	 16
+ramstedt, g j	 16
+ruuth, j w	 16
+svensson, joh	 16
+tanner, k o	 16
+wilkuna, kyösti	 16
+willgren, karl	 16
+yrjö-koskinen, y k	 16
+bolin, wilhelm	 15
+cajander, k a	 15
+ervast, karl	 15
+hyvärinen, eero (1859-1931)	 15
+kallio, o a	 15
+kivirikko, k e	 15
+komppa, gust	 15
+lagus, wilhelm	 15
+litzell, karl emil	 15
+melander, k r	 15
+palmgren, rolf	 15
+ramsay, anders	 15
+relander, o	 15
+salamnius, mattias (1691-na)	 15
+stenbäck, thomas (1713-1776)	 15
+sundell, a f	 15
+thesleff, l	 15
+torrey, r a	 15
+tunander, nicolaus jonae (1625-1679)	 15
+walakorpi, u w	 15
+choraeus, michael (1774-1806)	 14
+colliander, o i	 14
+dostojevski, f m	 14
+h,	 14
+hultin, arvid	 14
+järvi, t h	 14
+kares, k r	 14
+kilpeläinen, e (1879-1941)	 14
+lagus, ernst	 14
+lassinen, emil	 14
+löfman, o w	 14
+lönneström, k	 14
+lydecken, arvid (1884-1960)	 14
+oksanen, a (1826-1889)	 14
+onerva, l	 14
+runa,	 14
+salmela, marja (1875-1924)	 14
+strukel, m	 14
+suonio,	 14
+veijola, yrjö	 14
+vollmar, agnes	 14
+andersin, hanna	 13
+bergh, john	 13
+daudet, alphonse	 13
+de lacy, peter	 13
+europaeus, d e d (1820-1884)	 13
+flodin, karl	 13
+hästesko, f a	 13
+jotuni, alfred	 13
+kajava, yrjö (1884-1929)	 13
+keinänen, s a	 13
+lindén, k e	 13
+louhivuori, o w	 13
+macduff, j r	 13
+mattsson, guss	 13
+rantakari, k n	 13
+reinilä, edit	 13
+ruuth, martti	 13
+sirola, yrjö	 13
+sundman, gösta	 13
+tanner, v (1881-1948)	 13
+vennola, j h	 13
+wiklund, k b	 13
+yrjö-koskinen, e s (1858-1916)	 13
+a-ï-a,	 12
+aboicus, laurentius	 12
+agricola, mikael (1510-1557)	 12
+beecher-stowe, harriet	 12
+brotherus, v f	 12
+eerola, eero	 12
+ehrensvärd, augustin (1710-1772)	 12
+fellman, jacob (1795-1875)	 12
+france, anatole	 12
+gripenberg, g a (1854-1918)	 12
+hagfors, k j	 12
+hällstén, k	 12
+hannikainen, k o g	 12
+korhos-heikki,	 12
+l-n, e	 12
+långfors, arthur	 12
+lavonius, w a	 12
+levänen, s	 12
+maunu, j a (1856-1939)	 12
+miller, j r	 12
+neovius, arvid	 12
+pajula, j s	 12
+palomaa, m h	 12
+paunu, u	 12
+poppius, b	 12
+relander, h m j (1865-1947)	 12
+reuter, samuel laurentii (1679-na)	 12
+runeberg, j w	 12
+tiander, karl (1873-1938)	 12
+uschakoff, i	 12
+wells, h g	 12
+wesley, john	 12
+westerlund, f w	 12
+wilcox, thomas	 12
+witting, rolf	 12
+wrede, k a	 12
+anttila, selma (1867-1942)	 11
+barratt, t b	 11
+bergholm, axel (1841-1924)	 11
+blomstedt, yrjö (1871-1912)	 11
+churberg, waldemar	 11
+fabritius, l j	 11
+fagerlund, l w	 11
+freudenthal, edla	 11
+granö, j g	 11
+homén, e a	 11
+laurila, k s	 11
+lindman, karl f	 11
+merikoski, k	 11
+meyer, f b	 11
+ojala, herman	 11
+ruin, waldemar	 11
+salminen, väinö	 11
+sjöstedt, carolus gustavus (1799-1834)	 11
+spjut, einar	 11
+thesleff, arthur	 11
+alkio,	 10
+blicher-clausen, j	 10
+bonsdorff, w	 10
+busemann, l	 10
+ekebom, (1839-1892)	 10
+engström, julius (1863-1942)	 10
+evald,	 10
+fedotov, n	 10
+haapalainen, eero (1880-1937)	 10
+hagelstam, jarl (1860-1935)	 10
+hammarström, nanny (1870-1953)	 10
+hannikainen, p w	 10
+heikel, felix (1844-1921)	 10
+hirvisalo, k f	 10
+kallas, aino (1878-1956)	 10
+karvonen, a	 10
+lang, j n	 10
+laurbecchius, isaacus petri (1678-1716)	 10
+lindforss, c m	 10
+mikkola, j j	 10
+mikszáth, kálmán	 10
+murén, emil (1854-1912)	 10
+neovius, e r	 10
+pipping, w	 10
+poukka, k a	 10
+ronkainen, h	 10
+roslin-kalliola, matilda (1837-1923)	 10
+sarlin, a j (1866-1933)	 10
+sirenius, sigfrid (1877-1961)	 10
+snellman, a h (1864-1924)	 10
+steiner, rudolf	 10
+stenbäck, lars (1811-1870)	 10
+stenberg, e a	 10
+tegengren, gustav	 10
+alanen, yrjö j e	  9
+bäck, a j	  9
+backman, woldemar	  9
+berendts, edward	  9
+bergroth, hugo (1866-1937)	  9
+burman, olof abrahamsson (1709-1759)	  9
+granström, arthur	  9
+helander, b h	  9
+hermelin, s g	  9
+j -nen,	  9
+järvi, k a	  9
+johansson, severin	  9
+juusela, väinö	  9
+juvelius, j w	  9
+krohn, helmi (1871-1967)	  9
+lindström, kössi	  9
+lönnbeck, waldemar	  9
+marx, karl	  9
+murray, andrew	  9
+nemo,	  9
+neovius-nevanlinna, l (1850-1916)	  9
+nyberg, berndt mikael	  9
+ongelin, hanna (1848-1893)	  9
+ottelin, f a	  9
+paasikivi, j k	  9
+perttilä, emil	  9
+ponkala, e w (1862-1943)	  9
+riverton, stein	  9
+sarlin, k k	  9
+simolin, albin	  9
+stenroos, k e	  9
+sudermann, hermann	  9
+szinnyei, józsef	  9
+tennberg, constantin	  9
+unonius, k j w	  9
+viljanen, v m j	  9
+wallensköld, a	  9
+wänttinen, ernest	  9
+widenius, k a	  9
+wretlind, e w	  9
+zschokke, heinrich	  9
+-g, -a (1807-1879)	  8
+alfthan, axel (1862-1934)	  8
+arppe, n j	  8
+bang, gustav	  8
+blomqvist, t j	  8
+bonsdorff, a	  8
+brummer, o j	  8
+carlstedt, a v	  8
+castrén, jonas (1850-1922)	  8
+charpentier, axel (1865-1949)	  8
+chesterton, g k	  8
+dahn, felix	  8
+donner, anders	  8
+ekelund, carolus evert (1791-1843)	  8
+enckell, karl	  8
+frenssen, gustav	  8
+gadolin, g	  8
+gustafsson, c	  8
+hausen, hans	  8
+hedin, sven	  8
+heikinheimo, olli (1882-1973)	  8
+hellström, f e	  8
+herkner, heinrich	  8
+hermanson, berta	  8
+hortling, ivar	  8
+huhtala, kyösti	  8
+hukkinen, yrjö (1886-1946)	  8
+i,	  8
+jaakkola, k	  8
+jalander, y w	  8
+james, d	  8
+jokinen, eeli (1888-1963)	  8
+karjalainen, k f	  8
+kihlgren, edit	  8
+kivialho, k	  8
+kohonen, a	  8
+kolkkala, väinö	  8
+krogerus, v j g	  8
+lagus, aina (1861-1939)	  8
+lagus, jonas (1798-1857)	  8
+lampén, ernst (1865-1938)	  8
+lewetzow, cornelia	  8
+lille, axel	  8
+lodbrok,	  8
+lönnbeck, albin (1856-1914)	  8
+lönnberg, ernst	  8
+mäkinen, eero (1886-1953)	  8
+malin, v (1863-1937)	  8
+meinander, k k	  8
+müller, j p	  8
+nordenstreng, sigurd	  8
+öholm, lars w	  8
+pallin, j r	  8
+parmanen, eino i	  8
+partanen, l w	  8
+poppius, alfred	  8
+rauta, hanna	  8
+rosegger, peter	  8
+sahlstén, p a	  8
+sawela, herman	  8
+schulman, hugo	  8
+sinclair, upton	  8
+soldan-brofeldt, venny	  8
+stadius, uno	  8
+ståhlberg, israël (1747-1816)	  8
+šubert, g l	  8
+svanljung, john	  8
+thors, mårten	  8
+törmälä, emanuel (1849-1900)	  8
+törnudd, lilli	  8
+valvanne, väinö	  8
+waaranen, (1849-1923)	  8
+waerland, are	  8
+weman, carolus gustavus (1740-1803)	  8
+wirén, edvin	  8
+aarnio, b	  7
+achrenius, anders (1745-1810)	  7
+äimä, f	  7
+åkerblom, j f	  7
+b,	  7
+bååth-holmberg, cecilia	  7
+billman, p m	  7
+blomqvist, a g	  7
+boisman, a w (1851-1922)	  7
+brehm, alfred	  7
+cedercreutz, emil (1879-1949)	  7
+d,	  7
+donovan, dick	  7
+durchman, frans wilhelm	  7
+eneroth, olof	  7
+escholin, israel (1742-na)	  7
+finno, jacobus (1540-1588)	  7
+forsskål, petter (1732-1763)	  7
+gabrielsson, k a	  7
+grönholm, väinö	  7
+grotenfelt, julius	  7
+hämeen-anttila, v (1878-1942)	  7
+hannikainen, p j	  7
+hannula, j r	  7
+hedberg, john	  7
+heikel, b w	  7
+heman, g a	  7
+hertzberg, rafaël (1845-1896)	  7
+hirn, karl e	  7
+humu, martti (1852-1915)	  7
+ignatius, bengt jacob (1761-1827)	  7
+ilmonen, s	  7
+ingemann, b s	  7
+janson, ture	  7
+jansson, uno	  7
+järvinen, eero (1860-na)	  7
+kallio, j e	  7
+kallio, v j	  7
+karttunen, k i	  7
+kerkkola, i e (1873-1943)	  7
+kilpi, o k	  7
+knape, ernst v	  7
+kojonen, rope	  7
+korevo, n n	  7
+korpikivi, kyösti	  7
+lagus, hugo	  7
+lehén, emil	  7
+liebknecht, wilhelm	  7
+lilius, albert	  7
+lindén, john	  7
+loti, pierre	  7
+malmberg, e w	  7
+marden, orison swett	  7
+marryat, frederick	  7
+molière,	  7
+moring, k a	  7
+mott, john r	  7
+n, (1668-1738)	  7
+nohrborg, anders	  7
+ohls, p e	  7
+ohnet, georges	  7
+paavilainen, h	  7
+paleario, antonio	  7
+perälä, väinö	  7
+petrelius, a	  7
+puukko, a f	  7
+r,	  7
+rahunen, petter	  7
+ramsay, jully	  7
+rauhala, k w	  7
+reuter, c	  7
+richter, f e	  7
+rolf, gånge	  7
+roos, sigurd	  7
+saarelainen, k	  7
+sahlberg, john	  7
+sauli, j o	  7
+stenbäck, ottilia (1848-1939)	  7
+sue, eugène	  7
+suvorov, p	  7
+tammelin, nicolaus laurentii (1741-na)	  7
+tawaststjerna, werner	  7
+tiura, a j	  7
+tunkelo, j h	  7
+wagner-groben, c	  7
+weikkolin, ida	  7
+wuolijoki, sulo	  7
+-n, (1857-1936)	  6
+a, (1700-na)	  6
+ahlgren, j e	  6
+aspelund, axel	  6
+aura, (1837-1923)	  6
+bang, herman	  6
+becker, a e	  6
+behm, oscar (1867-1933)	  6
+bernstein, a	  6
+björnsson, rudolf	  6
+blå, fågel	  6
+borg, arvid	  6
+boxström, a	  6
+cajander, elias (1713-1773)	  6
+carlsson, a w	  6
+carter, nicholas	  6
+celander, g m	  6
+collan, karl (1828-1871)	  6
+collins, mabel	  6
+dent, arthur (1607-na)	  6
+diedrich, j	  6
+dragomirow, m	  6
+eckstein, ernst	  6
+ehrnrooth, adelaïde	  6
+estlander, ernst	  6
+fieandt, einar	  6
+forsman, w v	  6
+fransiska,	  6
+frosterus, sigurd	  6
+garshin, wsevolod	  6
+gestrin, e t	  6
+hagfors, edwin	  6
+harvia, yrjö (1887-1947)	  6
+heikel, einar	  6
+heinämaa, siviä (1877-1949)	  6
+heine, heinrich	  6
+heinricius, p a	  6
+herczeg, ferenc	  6
+hidén, k j	  6
+hilty, c	  6
+hjelmman, j v	  6
+holmberg, uno	  6
+hurmerinta, k v	  6
+hymander, j a g	  6
+jahnsson, a w (1841-1894)	  6
+jakobsson, jarl	  6
+jansson, e	  6
+järveläinen, t	  6
+järvinen, nestor	  6
+joutsen, o a (1878-1936)	  6
+kaitila, i v	  6
+karvonen, j j	  6
+keihänen, axel	  6
+kivekäs, k f	  6
+kronman, a	  6
+kuusisto, a w	  6
+lang, j l	  6
+larsson, l	  6
+launis, armas (1884-1959)	  6
+laurosela, jussi	  6
+leadbeater, c w	  6
+liljeroos, j e	  6
+lindqvist, aleksander	  6
+lund, carolus (1638-1715)	  6
+malin, artur	  6
+malmivaara, wilhelmi	  6
+mannermaa, j a	  6
+nevanlinna, e	  6
+nordström, väinö	  6
+nygren, a j	  6
+öhrlund, saimi	  6
+oljemark, karl t	  6
+palmgren, a	  6
+peeters, edward	  6
+pietiläinen, joh ev	  6
+pitkäniemi, f m	  6
+puhdaskoski, k a (1890-1910)	  6
+relander, v	  6
+rittmeijer, m j	  6
+rönnberg, hanna	  6
+rosendahl, karl (1831-1902)	  6
+sanson, nicolas (1600-1667)	  6
+scribe, augustin eugène	  6
+sederholm, karl (1789-1867)	  6
+siegberg, artur (1862-1948)	  6
+sigurd,	  6
+smirnoff, vladimir	  6
+snellman, k	  6
+söderhjelm, henning (1888-1967)	  6
+sonck, emil	  6
+stall, sylvanus	  6
+streng, osv (1872-1951)	  6
+suomalainen, e w	  6
+t, (na-1928)	  6
+talas, onni	  6
+tallqvist, t w	  6
+topp, peter jonsson	  6
+tuhkanen, o	  6
+veijon-veikko,	  6
+vihlman, ivar	  6
+w,	  6
+wallerius, joh gottsch	  6
+wallin, waldemar	  6
+walton, o f	  6
+wasenius, m	  6
+wilde, oscar	  6
+wuorinen, olli	  6
+zidén, jacob (1754-1801)	  6
+zilliacus, emil	  6
+aarne, (1857-1913)	  5
+åberg, g a (1854-1888)	  5
+ahlgren, ernst	  5
+airila, martti (1878-1953)	  5
+alstrin, lars (1775-na)	  5
+andelin, werner (1869-1954)	  5
+andersson, g a	  5
+arminen, k v	  5
+auvinen, a (1857-1918)	  5
+backman, sigrid (1886-1938)	  5
+bellamy, edward	  5
+blaeu, willem janszoon (1571-1638)	  5
+blomberg, k e	  5
+blomqvist, axel	  5
+bobrikov, n i	  5
+borgström, arthur h	  5
+braunerskiöld, laurentius (1657-1729)	  5
+bredenberg, g a	  5
+brekke, k	  5
+brenner, elias isaksson (1647-1717)	  5
+bugge, p o (1764-1849)	  5
+busch, oscar	  5
+cajander, eino (1882-1928)	  5
+cederberg, j a	  5
+cederholm, hanna	  5
+christianson, edwin	  5
+chronander, jacob pettersson	  5
+conradi, l r	  5
+daniel henkikäsi, numero	  5
+dilling, lars	  5
+emlekyl,	  5
+estlander, carolus josephus (1800-1874)	  5
+fabritius, ernst (1842-1899)	  5
+feuillet, octave	  5
+frommel, emil	  5
+frondin, elias (1686-1761)	  5
+furuhjelm, ragnar (1879-1944)	  5
+gadolin, a w	  5
+garborg, arne	  5
+gerok, karl	  5
+gunter, archibald clavering	  5
+haggard, h rider	  5
+hahl, d (1847-1880)	  5
+hahl, m	  5
+hallenborg, j f	  5
+hårdh, albert	  5
+hårdh, emil	  5
+hauff, wilhelm	  5
+hellman, j f (1852-1917)	  5
+helsingius, naëma	  5
+hirvensalo, l r	  5
+holmberg, g o	  5
+holmberg, mårten	  5
+homén, arne	  5
+hostrup, c	  5
+ignatius, k h j (1809-1856)	  5
+ilmoni, immanuel (1797-1856)	  5
+ingman, alfred emil	  5
+ivalo, jenny	  5
+j, (1700-na)	  5
+jacobs, w w	  5
+johanson, v f	  5
+juslenius, samuel (1809-na)	  5
+kaatra, kössi (1882-1928)	  5
+kahma, uuno albert	  5
+karttunen, uuno (1874-1959)	  5
+keller, gottfried	  5
+könönen, t	  5
+korpela, simo (1863-1936)	  5
+kuprin, a i	  5
+kuusi, eino	  5
+lagerlöf, a	  5
+laurén, rafaël	  5
+lehtonen, k v	  5
+lehtonen, u l (1870-1927)	  5
+lemström, g	  5
+leutemann, heinrich	  5
+lidner, bengt	  5
+lindfors, john	  5
+lindholm, karl h	  5
+lindström, karl	  5
+ljungberg, emmi (1848-na)	  5
+lode, jöran wilhelm (1742-1799)	  5
+loenbom, samuel (1725-1776)	  5
+ludenius, laurentius (1592-1654)	  5
+lunde, albert	  5
+mäkelin, yrjö esaias	  5
+malm, e a	  5
+mannermaa, j	  5
+marlitt, e	  5
+mill, john stuart	  5
+muderspach, l	  5
+munch, p	  5
+musikka, väinö	  5
+nevanlinna, o (1867-1927)	  5
+nielsen, a	  5
+ohrt, f	  5
+okkonen, onni	  5
+olander, o	  5
+ordin, k f	  5
+p-n, v	  5
+palmgren, alvar	  5
+pätiälä, h j (1880-1950)	  5
+paul, hermann (1827-1885)	  5
+pippingsköld, j (1825-1892)	  5
+raspe, rudolf erich	  5
+reuter, j n	  5
+rodenbach, georges	  5
+ronimus, j v	  5
+roschier, armas	  5
+roscoe, h e	  5
+rosenqvist, a r	  5
+rusila, o	  5
+ruuth, y o (1887-1956)	  5
+saarenseppä, a r	  5
+salava, a	  5
+salokannel, h (1880-1966)	  5
+sandman, jonas albert (1866-1947)	  5
+savela, h	  5
+savolin, emil j	  5
+schmettow, waldemar hermann (1719-1785)	  5
+schrenk, elias	  5
+segerstråle, albert	  5
+selander, wäinö	  5
+siltala, a j	  5
+simons, a m	  5
+sjöström, alfred	  5
+sohm, rudolph	  5
+sombart, werner	  5
+sternberg, ivar	  5
+streng, w o	  5
+suuronen, philip	  5
+taipale, a e	  5
+tallgren, o j (1878-1941)	  5
+tanner, nestor	  5
+texas, jack	  5
+tigerstedt, a f	  5
+til-lantz, elias (1640-1693)	  5
+torckell, olga (1859-1941)	  5
+turunen, w	  5
+v, (1899-1952)	  5
+valbäck, f j	  5
+vartiainen, j v	  5
+viitanen, frans	  5
+waggoner, e j	  5
+wasastjerna, oscar	  5
+wetterhoff, onni (1835-1892)	  5
+weyman, stanley	  5
+wiitanen, frans	  5
+wodehouse, e a	  5
+a***, (1849-1935)	  4
+aagaard, gustav	  4
+aanrud, hans	  4
+aisopos,	  4
+alighieri, dante	  4
+anttila, werner (1869-1954)	  4
+auerbach, berthold	  4
+aurivillius, carolus	  4
+backlund, o	  4
+bełza, stanisław	  4
+bengelsdorff, g	  4
+berghell, h	  4
+bergholm, a h	  4
+bergman, mathias	  4
+bergroth, frans gideon (1846-1921)	  4
+bergroth, julius efraim (1819-1876)	  4
+berndtson, a	  4
+björklund, gustava	  4
+björkqvist, anders (1741-1809)	  4
+blidberg, nicolaus petri (1710-1772)	  4
+bölsche, wilhelm	  4
+bolton, fannie e	  4
+borgström, l h	  4
+bowen, emanuel (na-1767)	  4
+boxström, b	  4
+brahe, per (1602-1680)	  4
+bramsen, alfred	  4
+brauner, j	  4
+budenz, józsef	  4
+bulwer-lytton, edward	  4
+caselius, o j	  4
+christoph,	  4
+chydenius, jacobus (1732-1809)	  4
+chytraeus, nathanael (1598-na)	  4
+clopatt, arthur	  4
+conway, hugh	  4
+cotter, arthur	  4
+didring, ernst	  4
+dillner, t s	  4
+dimbleby, j b	  4
+duff, mildred	  4
+ekström, f w	  4
+enqvist, g	  4
+erckmann, émile	  4
+erkko, eero (1860-1927)	  4
+ervasti, a w	  4
+fahlenius, jonas (1674-1748)	  4
+färling, f j	  4
+fjellstedt, peter	  4
+flaubert, gustave	  4
+fogelholm, r	  4
+fries, n	  4
+friis, aleks (1874-1939)	  4
+fryxell, anders	  4
+gagner, lars peter	  4
+godenhjelm, uno	  4
+gontšarov, i a	  4
+granström, axel	  4
+groundstroem, edward	  4
+gt, m (1850-1926)	  4
+haag, c	  4
+hällström, k h	  4
+hallström, per	  4
+hämäläinen, albert (1881-1949)	  4
+hangasoja, m	  4
+hannula, frans (1855-1914)	  4
+heikel, karl abiel (1846-1919)	  4
+heino, k	  4
+hellén, alina	  4
+hintikka, e a	  4
+hirn, t (1874-1951)	  4
+hoffmann, heinrich	  4
+hornborg, felix	  4
+hunfalvy, pál	  4
+hyvönen, m	  4
+immanuel, wilhelm	  4
+ingman, jenny	  4
+ingraham, j h	  4
+jalava, ilona (1878-1960)	  4
+järnefelt, armas gideon	  4
+järvinen, k k	  4
+jelenev, f p	  4
+jessen, ernst	  4
+johansson, lasse (1638-1674)	  4
+johnsson, mikael	  4
+jokinen, väinö (1879-1920)	  4
+jurva, risto	  4
+kaasinen, j p	  4
+kapari, väinö	  4
+kapff, s c	  4
+karhinen, hanna (1878-1938)	  4
+kario,	  4
+karlsson, k j	  4
+karsten, hugo	  4
+kemner, heinricus martini (1638-na)	  4
+kilpi, s	  4
+koivistoinen, joh	  4
+korhonen, a (1851-1874)	  4
+korhonen, j	  4
+korolenko, vladimir	  4
+krag, wilhelm	  4
+laine, v j	  4
+larsson, hans	  4
+lassy, ivar	  4
+laulajapoika, (1878-1919)	  4
+lennart, väinö	  4
+liljenstrand, axel (1821-1895)	  4
+liljevan, jacobus petri (1655-na)	  4
+linde, sven	  4
+lindstedt, j k	  4
+lindstedt, wilhelm (1838-1915)	  4
+listo, a	  4
+lodenius, elias	  4
+löhe, wilhelm	  4
+lrn, (1824-1884)	  4
+lübke, wilhelm	  4
+lundqvist, j	  4
+m-n, g	  4
+mac intosh, c h	  4
+malmberg, wilhelm	  4
+mannelin, karl	  4
+mansikka, v j	  4
+mantero, jussi	  4
+markelin-svensson, jenny	  4
+matteson, j g	  4
+müller, hans	  4
+nansen, peter	  4
+neuman, jacob (1701-1768)	  4
+newton, rikhard	  4
+nietschmann, h	  4
+nordenstreng, rolf	  4
+nuupala, frans	  4
+nykopp, carolus gustavus (1785-1849)	  4
+ollila, onni	  4
+österviking,	  4
+ostwald, wilhelm	  4
+ottelin, a k	  4
+palmén, k e	  4
+paloheimo, f a	  4
+pesonen, e j	  4
+petterson, väinö	  4
+pfennigsdorf, e	  4
+pihlemann, j	  4
+pontoppidan, morten	  4
+preczang, ernst	  4
+pryss, samuel (1705-1779)	  4
+puhakka, wäinö	  4
+raala, r	  4
+raguel, franciscus (1605-na)	  4
+rahkonen, a (1841-1877)	  4
+rancken, einar	  4
+rauhamaa, onni	  4
+rentola, a (1881-1919)	  4
+reuter, ernst	  4
+richter, eugen	  4
+riehl, w h	  4
+rönnbäck, ernst (1838-1893)	  4
+roos, samuel (1792-1878)	  4
+ross, isaac (1739-1805)	  4
+runeberg, j l	  4
+ryömä, hannes	  4
+s-n, l	  4
+sallustius crispus, gaius	  4
+salmelainen, eero (1830-1867)	  4
+salonen, b f	  4
+saxon, j l	  4
+schnitzler, arthur	  4
+schulz, heinrich	  4
+selin, helmi	  4
+seyn, frans albert	  4
+silfvenius, a j	  4
+simola, emil j (1876-1954)	  4
+simpson, a b	  4
+snellman, edvin	  4
+söderlund, axel	  4
+sohlman, s a	  4
+soveri, h f	  4
+spångberg, valfrid	  4
+spoof, axel r (1845-1930)	  4
+ståhlberg, karl emil	  4
+strömborg, j	  4
+sulka,	  4
+suolahti, hugo	  4
+suomenmielinen,	  4
+svanberg, jöns	  4
+tagantsev, n s	  4
+tallgrén, h	  4
+tallqvist, j v	  4
+tegnér, esaias	  4
+tela, m	  4
+tohtori-eno,	  4
+törnudd, arne	  4
+törnudd, sigurd	  4
+turunen, armas e (1886-1909)	  4
+turunen, ilona	  4
+valorinta, väinö	  4
+viherjuuri, h j	  4
+virkkunen, a h (1864-1924)	  4
+virtanen, väinö	  4
+wallén, jeremias jeremiae (1693-1772)	  4
+wallenius, i m	  4
+wallenius, jacob (1761-1819)	  4
+wallinheimo, j w	  4
+wallquist, olof (1755-1800)	  4
+wegelius, uno	  4
+weitbrecht, g	  4
+widt, birger	  4
+wijkar, jacobus (1753-na)	  4
+wiklund, c l	  4
+wilkinson, john	  4
+wilkman, w w	  4
+wirtanen, a a	  4
+wrede, sigrid	  4
+z,	  4
+zetterman, g l	  4
+zidbäck, john	  4
+-el-el-,	  3
+-ijo-,	  3
+-s,	  3
+abelin, rudolf	  3
+achté, l n	  3
+ackté, aino (1876-1944)	  3
+ahlberg, hugo	  3
+ahlfors, k axel	  3
+ahtela, h (1881-1968)	  3
+åkerblom, rudolf	  3
+åkerman, jacobus (1770-1829)	  3
+alanus, carolus nicolai (1717-na)	  3
+alenius, c a	  3
+allen, james	  3
+aminoff, léonie	  3
+andelin, väinö (1878-1942)	  3
+antoninus, marcus aurelius	  3
+appelberg, h a	  3
+armfelt, gösta philip (1830-1880)	  3
+aspelund, c e	  3
+auer, axel	  3
+avellan, michaël (1736-1807)	  3
+bán, aladár	  3
+baranovski, s	  3
+becker, waldemar (1840-1907)	  3
+berghell, hugo (1864-1922)	  3
+bertels, john	  3
+bertini, françois	  3
+björk, o l	  3
+björklund, i a	  3
+bladh, c e	  3
+blom, e w	  3
+bondestam, gustav	  3
+bremer, k v	  3
+brofeldt, a	  3
+brotherus, k r	  3
+bruun, albert	  3
+buch, kurt	  3
+buddén, e j	  3
+campe, joachim heinrich	  3
+carplan, lars christersson (1664-1737)	  3
+caspari, k h	  3
+cato, marcus porcius	  3
+cedercreutz, axel	  3
+cederström, g c u	  3
+choraeus, troelius olai (1613-1699)	  3
+christoph, f	  3
+collan, k j m	  3
+comparetti, domenico	  3
+cook, thomas	  3
+coppée, françois	  3
+cygnaeus, uno (1810-1888)	  3
+dahlberg, ragnar	  3
+dalin, olof	  3
+danielsson, axel (1890-1969)	  3
+dennert, e	  3
+derschau, f	  3
+dodel, a	  3
+doktorn, morbror	  3
+donner, j o e	  3
+dybdahl, peter	  3
+e, (1700-na)	  3
+e, (1713-1772)	  3
+edelfelt, albert (1854-1905)	  3
+eekku,	  3
+egge, peter	  3
+ekblom, heléna	  3
+ekelund, ragnar	  3
+ekholm, karl	  3
+eklund, a w	  3
+ekman, r w (1808-1873)	  3
+ekström, john	  3
+ekström, n	  3
+erwast, karl	  3
+eukleides,	  3
+fabritius, h	  3
+fagerdahl, marcus (1765-na)	  3
+falander, isaacus erici (1693-na)	  3
+falkman, severin (1831-1889)	  3
+federley, c b	  3
+finne, en (1820-1912)	  3
+fleming, herman hermansson (1654-1718)	  3
+fontell, a g	  3
+forsberg, j w	  3
+forsselius, laurentius jonae (1653-1729)	  3
+forssell, axel	  3
+forstman, g w	  3
+frerking, w	  3
+fries, b	  3
+gestrinius, martinus erici (1594-1648)	  3
+godenhjelm, hugo	  3
+godenhjelm, ida	  3
+göhre, p	  3
+görner, c a	  3
+gouge, thomas (1609-1681)	  3
+gough, john b	  3
+granath, wilhelm	  3
+granholm, onni	  3
+granit, j m	  3
+grefberg, wilhelm (1842-1886)	  3
+grönberg, john	  3
+grönlund, g a	  3
+grönstrand, hugo (1862-1948)	  3
+grotenfelt, n karl	  3
+gunter, a c	  3
+gusev, p v	  3
+habberton, john	  3
+habermann, wilhelm	  3
+hackman, alfred (1864-1942)	  3
+hahn, nicolaus petri (1732-na)	  3
+hakkarainen, a	  3
+häkkinen, samuel (1858-1918)	  3
+hall, j v	  3
+hallamäki, t	  3
+hällberg, s w (1861-na)	  3
+hallman, carolus gustavus (1698-1770)	  3
+hammarström, r	  3
+härjänsilmä, anders kreunpoika	  3
+harmou, l l	  3
+hartwall, gösta	  3
+havulinna, j w	  3
+häyrén, ernst	  3
+hedberg, f g	  3
+hedman, valfrid (1872-1939)	  3
+heikel, j a	  3
+heikel, t a	  3
+heimburg, w	  3
+heinrichs, axel	  3
+heinricius, sigrid	  3
+helenius, carolus (1784-1855)	  3
+helle, l t	  3
+hemmer, helga	  3
+hemmer, jarl	  3
+henry, rené	  3
+henty, g a	  3
+herzog, rudolf	  3
+hietalahti, uuno	  3
+hildén, a (1873-1940)	  3
+hindhede, m	  3
+hjelmman, a l	  3
+hjelt-cajanus, esther	  3
+holmström, israel (1708-na)	  3
+holsti, hugo	  3
+holsti, rudolf	  3
+hope, anthony	  3
+hoppu, k w	  3
+hornborg, herman emanuel	  3
+hostrup, j c	  3
+hume, fergus	  3
+huxley, thomas h	  3
+idman, nicolaus nicolai (1716-1790)	  3
+iliodor,	  3
+ingman, junia	  3
+ingman, w	  3
+itikka,	  3
+jägerroos, b h	  3
+jansen, j j	  3
+järnefelt, eugen	  3
+järvi, hanna	  3
+jevreinov, g a	  3
+jinarajadasa, c	  3
+johansson, g	  3
+joutsela, j n	  3
+jungell, felix	  3
+jurva, aura (1882-1954)	  3
+jurwa, k a	  3
+juva, valter (1865-1922)	  3
+kaila, eino (1890-1958)	  3
+kalakangas, j	  3
+kalima, eino	  3
+kankaanpää, väinö	  3
+karhunen, onni	  3
+karilas, yrjö	  3
+karsten, edvin	  3
+karvinen, väinö	  3
+kauppi, emil (1875-1930)	  3
+keller, s	  3
+kierkegaard, søren	  3
+kilburn, m c	  3
+klencke, hermann	  3
+kollontai, aleksandra (1872-1952)	  3
+kolmodin, a	  3
+korpela, j o (1877-1912)	  3
+koskenjaakko, a a	  3
+krag, thomas p	  3
+krishnamurti, j	  3
+krogerus-ritoniemi, w j g	  3
+krohin, v p	  3
+kurkilahti, j h	  3
+kurvinen, p j i	  3
+kuusi,	  3
+kvist, joh	  3
+lagus, f h b	  3
+laitinen, joh	  3
+lakari, o j	  3
+lamberg, j	  3
+langenskjöld, greta (1889-1975)	  3
+lappalainen, anders	  3
+latvala, salu (1870-1928)	  3
+lau, samuel	  3
+laurén, per åke	  3
+lehto, a e	  3
+lehtonen, m	  3
+leutz, ferd	  3
+lewis, arthur m	  3
+lieto, (1857-1936)	  3
+liljenthal, michael	  3
+lindeberg, j w	  3
+lindfors, a e	  3
+lindsten, o	  3
+linkola, k (1888-1942)	  3
+ljadov, m	  3
+loimaranta, yrjö	  3
+luther, a	  3
+maamies,	  3
+madsen, n p	  3
+mäkelä, a b	  3
+malinen, v (1863-1937)	  3
+malmberg, aino	  3
+mannerheim, j	  3
+mardell widman, jacob (1769-na)	  3
+marinero,	  3
+martineau, harriet	  3
+martini, jacobus	  3
+mauro, philip	  3
+may, karl	  3
+mickwitz, axel	  3
+miettinen, e	  3
+mihailovski-danilevski, a i	  3
+miikkulainen, aune	  3
+moberg, nenne	  3
+müller, wilhelm	  3
+mustonen, j a	  3
+mustonen, o a f	  3
+myrberg, p j	  3
+nevalinna, l	  3
+nieritz, gustav	  3
+nissinen, t	  3
+nordensvan, c o	  3
+nordström, anders wilhelm	  3
+nordström, ernst	  3
+noro, yrjö	  3
+north, brownlow	  3
+nuorisoseuralainen, (1875-1919)	  3
+nyberg, a g	  3
+nyberg, mikael	  3
+nyholm, c v	  3
+ödegaard, n	  3
+ohlsson, ilona	  3
+osmio, uno	  3
+ottelin, carolus gustavus (1792-1864)	  3
+pahlman, oscar	  3
+päiviö, väinö	  3
+palander, hugo	  3
+paton, james	  3
+petőfi, sándor	  3
+piirinen, e	  3
+pilvi, e	  3
+pira, g	  3
+piranesi, francesco	  3
+planting, birger (1886-1964)	  3
+puaux, rené	  3
+pufendorf, samuel (1632-1694)	  3
+puhakka, p (1874-1949)	  3
+purhonen, o a	  3
+pütz, wilhelm	  3
+ramus, jonas	  3
+rang, ragnar	  3
+rautakoski, a e	  3
+rautanen, martti	  3
+reaney, g s	  3
+reinholm, h a (1819-1883)	  3
+reinius, b m	  3
+reinke, joh	  3
+renfors, agnes	  3
+ricker, a w	  3
+riis, c p	  3
+rjestsoff, n a	  3
+rohrbach, a e	  3
+rosén von rosenstein, nicolaus	  3
+rösiö, p j	  3
+rostedt, r	  3
+rudbeck, olof (1660-1740)	  3
+runeberg, j	  3
+rutström, carolus birgerus (1758-1826)	  3
+saarinen, e k	  3
+sallinen, k	  3
+salminen, k a	  3
+salokangas, h j	  3
+salonen, k e	  3
+såltin, t	  3
+samzelius, hugo	  3
+schandorph, s	  3
+schauman, a	  3
+schulten, samuel (1680-1752)	  3
+schuré, édouard	  3
+sellergren, peter lorentz	  3
+serenius, bengt	  3
+serenius, jacobus (1700-1776)	  3
+sevon, j f	  3
+seyfferth, a	  3
+sigurdsson, a	  3
+silfvast, anders	  3
+silfverberg, k w (1883-1965)	  3
+sjöblom, frida	  3
+sjöström, j a	  3
+sofokles,	  3
+spargo, john	  3
+spensenius, albertus erici (1717-na)	  3
+staaff, c t	  3
+stalker, james	  3
+steger, v st	  3
+steinberger, g	  3
+steinmetz, alfred	  3
+stenbäck, laurentius (1710-1742)	  3
+stenhagen, petter (1712-1772)	  3
+stinde, julius ernst wilhelm	  3
+sundman, karl f	  3
+svidzinskij, e	  3
+svinhufvud, p e	  3
+syrjästä katsoja	  3
+t-r, nestor	  3
+tallgren, k z	  3
+tegengren, f r	  3
+teräs, kyösti	  3
+thesleff, rolf	  3
+tigerstedt, e s	  3
+tikkanen, eino	  3
+tikkanen, l j	  3
+tirranen, m	  3
+tolstoi, aleksei konstantinovitš	  3
+törnwall, bertel	  3
+toth, kolomán	  3
+tunkelo, e a (1870-1953)	  3
+u,	  3
+ullmann, v	  3
+v,	  3
+vallgren, ville	  3
+verna, draba (1850-1919)	  3
+viebahn,	  3
+virta, kyösti	  3
+virtala, esko (1864-1927)	  3
+volmari, set	  3
+von konow, agnes	  3
+vuokko, väikkö	  3
+wahlfors, k r	  3
+wallin, j o	  3
+weckström, m (1803-1873)	  3
+wegelius, sigurd	  3
+wendelius, lars (1710-1770)	  3
+werming, n g	  3
+wettenhovi-aspa, sigurd	  3
+white, james	  3
+wichmann, s e	  3
+wilén, h	  3
+wilhelmsson, john	  3
+wiljaranta, sulo	  3
+willkomm, moritz	  3
+winter, john strange	  3
+witkovsky, b	  3
+woldstedt, l	  3
+x, (1857-1913)	  3
+ylänne, yrjö	  3
+young, ernest	  3
+yrjö,	  3
+zaccone, pierre	  3
+zethrin, michael	  3
+zweigbergk, p a	  3
+-gf-, (1849-1937)	  2
+-l-b-s,	  2
+-nd-,	  2
+-r-r, (1847-1893)	  2
+-r-t,	  2
+-u,	  2
+a-a, (1858-1937)	  2
+a-n, w-a	  2
+aartovaara, gust a	  2
+aavikko, armas (1885-na)	  2
+aawik, j	  2
+abercromby, john	  2
+åberg, e	  2
+adam, eno	  2
+aeimelaeus, nicolaus (1753-1817)	  2
+ag, e (1852-1929)	  2
+ahlberg, p a	  2
+ahonius, karl severin	  2
+åhrén, emil	  2
+ährenström, d a	  2
+aira,	  2
+åkerblom, k v	  2
+akkanen, ville (1894-1974)	  2
+alatalo, o e	  2
+alava, v	  2
+alfthan, a e	  2
+alfthan, a v	  2
+aliquis	  2
+alkman, k g	  2
+alm, gustav	  2
+alpola, albin	  2
+alstrin, laurentius (1727-na)	  2
+alttius, emil	  2
+aminoff, t j	  2
+ammundsen, valdemar	  2
+andelin, anders	  2
+andersin, emil	  2
+andersson, anders	  2
+andersson, oscar	  2
+andring, e a	  2
+antila, j e	  2
+anttonen, a e	  2
+appelberg, k a	  2
+appelberg, karl	  2
+appelgren, t g	  2
+arimo, atri s	  2
+aro, k k	  2
+arvekari, b	  2
+ashworth, john	  2
+asmussen, g	  2
+asp, m	  2
+aurén, p w (1826-1896)	  2
+autere, olga	  2
+auvard, a	  2
+avellan, edvin (1830-1912)	  2
+bacmeister, lucas lucii (1570-1638)	  2
+baden-powell, r s s	  2
+baranoffski, s i	  2
+bärlund, artur	  2
+barrière, théodore	  2
+baumann, aleksander	  2
+bazin, rené	  2
+beck, dorothy	  2
+begbie, harold	  2
+benecke, b	  2
+bensow, oscar	  2
+bensow, s c	  2
+berezin, n	  2
+bergbom, axel	  2
+bergh, julius immanuel (1810-1878)	  2
+bergman, carolus (1734-1802)	  2
+bergstedt, karl	  2
+bergstedt, karl anders	  2
+berzelius, j j	  2
+beskow, g e	  2
+bettex, f	  2
+bettex, frédéric	  2
+biese, ernst	  2
+biggs, herman	  2
+billman, b w	  2
+björck, israel (1716-1782)	  2
+björkman, l e	  2
+blåfield, g i	  2
+blåfield, v	  2
+blicher, steen steensen	  2
+blomberg, karl evert	  2
+blumenthal, o	  2
+boas, j e v	  2
+boberg, o	  2
+bockström, bertel	  2
+boehm, emil	  2
+bogdanoff, a	  2
+bohlin, b	  2
+boije, o a	  2
+boner, e g	  2
+böök, emil (1835-1914)	  2
+boström, h j (1876-1930)	  2
+boucherett, jersy	  2
+bracke, wilhelm	  2
+braddon, m e	  2
+brander, uuno	  2
+brandt, wilhelm	  2
+brasse, carolus (1767-1822)	  2
+brausewetter, ernst	  2
+brenner, mårten (1926-2012)	  2
+bringius, israel nicolai (1587-1662)	  2
+brotherus, valter a	  2
+brummer, uno	  2
+buch, hans	  2
+buus, n p j	  2
+byman, l l	  2
+cajanus, werner	  2
+cammarano, salvadore	  2
+candolin, einar	  2
+capendu, ernest	  2
+carlsén-hartman, cé́lia	  2
+carlyle, thomas	  2
+carnegie, andrew	  2
+carpelan, tor (1867-1960)	  2
+carstens, c	  2
+castrén, jalmar (1873-1946)	  2
+castrén, k a	  2
+celsius, anders (1701-1744)	  2
+celsius, nicolaus	  2
+chambers, arthur	  2
+chronander, gustavus (1734-1801)	  2
+chydenius, k u	  2
+cicero,	  2
+clarenburg, w	  2
+cnattingius, anders jacob	  2
+cobb, sylvanus	  2
+collan, yrjö	  2
+collin, j g	  2
+collins, e c	  2
+collodi, carlo	  2
+costa, r	  2
+cuique, suum (1856-1920)	  2
+dahl, jonas	  2
+dahlin, t	  2
+dammann, j	  2
+dartois, achille	  2
+dau, michael (1710-na)	  2
+däumig, ernst	  2
+de fer, n (1646-1720)	  2
+degerholm, emelie	  2
+delitzsch, franz	  2
+dietrichson, l	  2
+dietrichson, lorentz	  2
+dietzgen, j	  2
+dillborg, jonas	  2
+dolman, d h	  2
+drechsler, yrjö	  2
+duhem, p	  2
+dumrath, o h	  2
+dupouy, edmond	  2
+e-,	  2
+e***,	  2
+edenius, jordanus nicolai (1624-1666)	  2
+edlund, g w (1829-1907)	  2
+edvin,	  2
+eerola, albert	  2
+ehrenström, j a (1762-1847)	  2
+eichorn,	  2
+eisen, m j	  2
+ekblom, c h	  2
+ekholm, evert	  2
+eklund, mårten	  2
+ekman, e j	  2
+ekmarck, a	  2
+elfvik, p a	  2
+elna,	  2
+emeleus, e v	  2
+enberg, l m	  2
+enckell-bronikowsky, arvid	  2
+enckell, a r	  2
+engelberg, john	  2
+engelhardt, e v	  2
+enkvist, armas	  2
+ennes, b a	  2
+estlander, j j	  2
+eucken, rudolf	  2
+eurén, i	  2
+fabritius, e j	  2
+fahler, alfred	  2
+falander, jacobus erici (1658-1720)	  2
+falander, jacobus erici (1719-1779)	  2
+fant, michael erici (1676-1746)	  2
+farnol, jeffery	  2
+faust, (1879-1918)	  2
+favén, anders emil	  2
+fennander, o w	  2
+ferri, enrico	  2
+fieandt, karl	  2
+filén, s j	  2
+finander, albin	  2
+fircks, curt	  2
+flach, axel wilhelm	  2
+flavia,	  2
+flojerus, nicolaus (1717-na)	  2
+floman, wilhelm	  2
+fogazzaro, antonio	  2
+fontell, i w	  2
+forsander, emil	  2
+forsblom, valter w	  2
+forselius, laurentius (1713-1799)	  2
+freytag, gustav	  2
+friedmann, hermann	  2
+frietsch, karl g	  2
+frosterus, carolus jacobus (1774-1854)	  2
+frosterus, jacobus zachariae (1705-1750)	  2
+g, (1840-1896)	  2
+galanin, m	  2
+galle, lars l	  2
+galsworthy, john	  2
+gammal, martinus matthiae	  2
+gamtšenko, s	  2
+gárdonyi, géza	  2
+garwolius, jacobus matthiae (1671-1734)	  2
+gauffin, a	  2
+gauffin, arthur	  2
+gea,	  2
+gebhard, hedvig	  2
+geibel, emanuel	  2
+geier, martinus (1614-1680)	  2
+geikie, archibald	  2
+geissler, moritz	  2
+geitel, natta	  2
+getz, b	  2
+gleye, arthur	  2
+glöckner, j g	  2
+glyn, elinor	  2
+godet, frédéric	  2
+göös, k	  2
+gråå, martinus martini (1758-na)	  2
+granberg, selma	  2
+granfelt, eino	  2
+granit, a w	  2
+granlund, j a	  2
+granström, e	  2
+grape, p o	  2
+graves, armgaard karl	  2
+green, k a	  2
+grillparzer, franz	  2
+gröhn, h g	  2
+grönblad, edward	  2
+gröndahl, a t	  2
+grönlund, karl	  2
+grönmark, g e	  2
+grundmann, j	  2
+grundtvig, n f s	  2
+gt, a	  2
+h-i, a	  2
+h-nen, h	  2
+h-nn, m	  2
+haanpää, j	  2
+haapanen, eino	  2
+haapanen, emmi	  2
+haartman, jacobus gabrielis (1713-1767)	  2
+haeckel, ernst	  2
+hagert, thure e (1771-na)	  2
+häggström, lorentz wilhelm	  2
+hahn, michael	  2
+haimila, e	  2
+hainari, tilma (1861-1940)	  2
+hakala, eeli j (1886-1963)	  2
+hakulinen, j h (1866-1928)	  2
+hall, john vine	  2
+hallio, f	  2
+hällström, selma	  2
+halonen, yrjö (1862-1941)	  2
+halvorsen, a	  2
+hämäläinen, a h	  2
+hämäläinen, j	  2
+hämäläinen, k	  2
+hämeenniemi, hanna	  2
+hamilton, james	  2
+hancock, irving	  2
+hårdh, r	  2
+hardy, thomas	  2
+härmä, f v	  2
+hartman, jonas	  2
+haruzin, n n	  2
+hasselblatt, i w	  2
+hasselgreen, elias petri	  2
+hastings, h l	  2
+hector, d s	  2
+hedberg, a r	  2
+hedberg, frans	  2
+hedengren, j	  2
+hedman, edvin l (1863-1915)	  2
+heikel, s m	  2
+heikinheimo, a m (1871-1939)	  2
+heikinheimo, v a	  2
+heimer, alfred b	  2
+heinonen, g a	  2
+heinonen, k	  2
+heiskanen, o	  2
+hellberg, helle (1884-1980)	  2
+hellén, e f	  2
+hellevaara, e	  2
+hellsten, a f	  2
+helsingius, g a	  2
+hemgren, karl	  2
+henning, h	  2
+henschen, s e	  2
+hermogen,	  2
+herzog, s	  2
+hesse, hermann	  2
+hetsch, g f	  2
+hidén, carolus	  2
+hidén, gust a	  2
+hietakari, eero	  2
+hillquit, morris	  2
+hintikka, signe	  2
+hirn, julius	  2
+hirvensalo, l o	  2
+hisinger, f l	  2
+höcker, gustav	  2
+hoffmann, e t a	  2
+hoffren, p	  2
+holm, karl emil	  2
+holm, o f	  2
+holmberg, einar	  2
+holmberg, m	  2
+homeros,	  2
+hönsskötare, en	  2
+hopkins, ellice	  2
+hornanlinna, rikhard	  2
+huch, ricarda	  2
+huhtala, k	  2
+hulth, j m	  2
+hultin, herman	  2
+huovinen, kusti	  2
+huuri, a	  2
+huvineuvos,	  2
+hyne, c j cutcliffe	  2
+hynninen, p j	  2
+hyren, frederic	  2
+hyvärinen, m f	  2
+i-n, g	  2
+i-s, h	  2
+ihle, annette	  2
+il-o,	  2
+indreen, nathanael	  2
+ingerslev, a	  2
+ingman, a w (1819-1877)	  2
+inkala,	  2
+j-n, herman	  2
+j, (1636-1708)	  2
+jaakkola, aleks	  2
+jaakkola, hanna (1875-1924)	  2
+jacobsen, e	  2
+jakobsson, a	  2
+jakubow, a	  2
+järnefelt, a a	  2
+järnefelt, john	  2
+järvi, hanna lydia	  2
+jauhiainen, f k	  2
+johansson, a w	  2
+johansson, ossi (1886-1941)	  2
+johnsson, helmi	  2
+jönsson, n	  2
+jörgensen, arne (1883-1941)	  2
+jorma,	  2
+joutsen, jali	  2
+julenius, jacobus zachariae (1691-na)	  2
+jung, j	  2
+jurist, en	  2
+jusélius, axel	  2
+juusten, paulus petri (1516-1575)	  2
+juuti, k j	  2
+juvelius, einar w	  2
+kaarna, emil	  2
+kåhlman, a	  2
+kahva, k e (1869-1909)	  2
+kairamo, hugo	  2
+kala, j h	  2
+kallén, i v	  2
+kallio, a	  2
+kallioniemi, aarne i	  2
+kanniainen, kyösti (1871-1915)	  2
+kanninen, juhana	  2
+kansakoulunopettaja, (1848-1927)	  2
+karhumäki, w (1880-1945)	  2
+karjalainen, kasper	  2
+kärki, frans (1884-1965)	  2
+kärkkäinen, viki (1883-1946)	  2
+karola,	  2
+karppinen, immanuel	  2
+kaselius, j	  2
+kellner, l	  2
+kenraali,	  2
+keuhkotautinen,	  2
+kihlman, alfred	  2
+kindvall, c a	  2
+kiöhlman, jacob	  2
+kirton, j w	  2
+kivikoski, j f	  2
+kivilinna, väinö	  2
+kivinen, k m	  2
+kjellén, rudolf	  2
+kjöllerfelt, marcus	  2
+klingenstierna, samuel (1698-1765)	  2
+klingstedt, f w	  2
+knaapinen, m a (1863-1954)	  2
+knopf, s a	  2
+knös, gustavus	  2
+kochs, e	  2
+kocke, anders	  2
+koistinen, olli (1877-1943)	  2
+koito,	  2
+könig, samuel	  2
+koponen, j s w	  2
+koponen, wilhelm	  2
+korff, s a	  2
+korhonen, w w	  2
+korkunoff, n m	  2
+kormano, a	  2
+korpi, frans	  2
+korsström, herman	  2
+koskelainen, yrjö (1885-1951)	  2
+kraemer, k v	  2
+kraepelin, karl	  2
+kramer, anders	  2
+kristanja,	  2
+krogius, lars	  2
+krohn, aune	  2
+krohn, k	  2
+kuhne, l	  2
+kühnle, k	  2
+kujola, joh	  2
+kunik, ernst	  2
+kurikka, e j	  2
+kuusisto, a	  2
+kyllijoki, j f	  2
+kyösti,	  2
+l-m, a	  2
+l-r-l,	  2
+laaksovirta, aarne	  2
+laatija, lapatossun	  2
+labiche,	  2
+lachmann, j j	  2
+lagerfelt, märta	  2
+lagerlöf, hedvig	  2
+laitinen, a a a	  2
+laitinen, j	  2
+lakimies,	  2
+landtmän, tre	  2
+lange, karl	  2
+langenskjöld, k	  2
+lankinen, j	  2
+lärarinna, en	  2
+lassi, sawon (1822-1872)	  2
+lassila, d	  2
+laurell, axel (1790-na)	  2
+lauri, k a	  2
+laurila, j k	  2
+lawrence, abbot	  2
+lawson, thomas w	  2
+le bon, gustave	  2
+leche, wilhelm	  2
+lehto, f e	  2
+leikku, j	  2
+leinberg, karl gustav	  2
+leiner, j h	  2
+lemberg, naëma	  2
+lenhardtson, a	  2
+leroux, gaston	  2
+levälahti, k e	  2
+levertin, oscar	  2
+lidforss, bengt	  2
+liljeberg, k a	  2
+lille, bengt olof (1807-1875)	  2
+lindberg, björn	  2
+lindberg, ernst	  2
+lindblom, jacob axelsson (1746-1819)	  2
+lindebäck, jacob (1765-1820)	  2
+lindfors, jenny	  2
+lindgren, jenny	  2
+lindroos, k	  2
+lindroos, karl	  2
+lindroth, j ivar	  2
+lindström, g	  2
+lindström, g i	  2
+ljungh, ernst	  2
+löfberg, j	  2
+lojander, hugo	  2
+lönegren, ernst	  2
+lönnberg, åke	  2
+lönnbohm, olga	  2
+lönnrot, oscar	  2
+loppenove, m	  2
+lördags-pelle,	  2
+losinsky, eugen	  2
+lucianus,	  2
+lujanen, feliks	  2
+lukkarinen, j	  2
+lundahl, l	  2
+lundelin, albert	  2
+lundell, oscar	  2
+lungsotist,	  2
+lütkemann, joachim (1608-1655)	  2
+lydén, ragnar	  2
+lyytinen, m	  2
+maamiestä, kolme	  2
+määttälä, evert	  2
+macaulay, thomas babington	  2
+macgregor, c h c	  2
+macleod, fiona	  2
+magnevill, anders	  2
+mahlberg, linda	  2
+maikov, p m	  2
+malm, a e	  2
+malmsten, jacob	  2
+mankell, julius	  2
+manuel, eugène	  2
+marja, (1875-1924)	  2
+martensen, hans lassen	  2
+marvin, f r	  2
+maslovski, d f	  2
+mattsson, m	  2
+meinander, valter b	  2
+melan, l	  2
+melanchthon, philipp	  2
+melartopaeus, carolus (1701-1758)	  2
+merabov, g a	  2
+mereshkovski, d	  2
+merikari, e	  2
+merisointu, sine	  2
+messaroš, p i	  2
+michoud, léon	  2
+mickwitz, r	  2
+miesmaa, j w	  2
+mihailowa, e	  2
+miljukov, a	  2
+miltopaeus, erich	  2
+minni, j w	  2
+minzès, boris	  2
+moberg, k a	  2
+moll, herman (na-1732)	  2
+mollin, jonas (1734-na)	  2
+mollin, josephus (1756-1810)	  2
+monod, adolphe	  2
+montin, samuel (1738-1819)	  2
+montonen, arvid	  2
+morrison, arthur	  2
+mühlbach, louise	  2
+müller, heinrich	  2
+murto, j a	  2
+myšlaevski, a z	  2
+naryschkin, d	  2
+neovius, arthur	  2
+nerén, john	  2
+neresius, j	  2
+nestler, albert	  2
+nielsen, hans	  2
+niemelä, nestor (1862-1889)	  2
+niemi, clemens	  2
+nikander, j k	  2
+niskanen, onni	  2
+nissen, j	  2
+nissinen, tatu	  2
+njuberg, a g	  2
+nordberg, gösta	  2
+nordberg, isaacus (1755-1797)	  2
+nordenadler, lorentz (1758-1837)	  2
+nordström, j e	  2
+norlind, tobias	  2
+numelin, ragnar	  2
+nummelin, c h	  2
+nummelin, emil	  2
+nummelin, p a	  2
+nyberg, m	  2
+nyman, g j	  2
+nymansson, p	  2
+oganovski, n p	  2
+öhberg, alfred	  2
+öhman, c a	  2
+öhman, e f	  2
+oksanen, jussi (1886-1945)	  2
+oksanen, väinö	  2
+olander, k m	  2
+öller, uno	  2
+ollila, onni valdemar	  2
+ollilainen, p	  2
+ollut, mukana (1864-1935)	  2
+olrik, axel	  2
+olsson, edit	  2
+olsson, hagar	  2
+ommerbo, peter	  2
+onola, onni	  2
+örnskog, sonen (1791-1858)	  2
+österblom, frans (1870-1907)	  2
+österlid, sven	  2
+östling, g j	  2
+ottelin, karl	  2
+outhier, réginald (1694-1774)	  2
+overskou, thomas	  2
+paavo-kallio, valfrid	  2
+päiviö, naëmi	  2
+pakarinen, simo	  2
+pakkala, e w	  2
+palmén, a j	  2
+palmén, john	  2
+palustris, myosotis	  2
+panelius, aina	  2
+pärnänen, j a	  2
+parvus,	  2
+paulsen, john	  2
+peitzius, martinus gabrielis (1716-1782)	  2
+peldan, isaacus (1699-1748)	  2
+petander, f l	  2
+petander, k e	  2
+pethrus, lewi	  2
+petrejus, jonas petri (1645-1696)	  2
+petrelius, albert	  2
+pfaler, k a	  2
+pierson, a t	  2
+pihlman, herman	  2
+piilonen, k v	  2
+piirinen, hanna	  2
+pilgrimen,	  2
+pipping, elna	  2
+pipping, josephus (1710-1788)	  2
+pirilä, salomo (1865-1923)	  2
+plathan, arthur	  2
+plockhorst, b	  2
+polón, edit	  2
+popert, hermann	  2
+porthan, lilli	  2
+power, p b	  2
+printz, jacobus nicolai (1658-1713)	  2
+pulkkinen, salomo	  2
+quennerstedt, axel	  2
+qvigstad, j	  2
+rae, edward	  2
+rainio, r	  2
+rainio, yrjö	  2
+raitio, jussi (1882-1954)	  2
+raivio, j p (1874-1935)	  2
+rajalin, thomas	  2
+raleigh, thomas	  2
+rancken, c w	  2
+rangabé, a r	  2
+ranginen, j (1851-1884)	  2
+rautell, frans anders	  2
+reade, arthur	  2
+regnér, laur	  2
+reguly, antal	  2
+rein, karl aleksander	  2
+reinbeck, emil	  2
+reinilä-hellman, edit	  2
+relander, felix (1839-na)	  2
+riddell, newton n	  2
+riihiaho, emil	  2
+ritoniemi, v j g	  2
+ritter, p h	  2
+ronai, armin	  2
+ronimus, g g	  2
+rosberg, j e	  2
+rosch,	  2
+rosen, julius	  2
+rosenberg, g	  2
+rosenlund, a b a	  2
+rothsten, f w	  2
+rousti, k j	  2
+routanen, b l	  2
+rudin, w	  2
+runeberg, carolina (1808-1891)	  2
+ruskin, john	  2
+russobtovski, m	  2
+ruta, žalia	  2
+rutgers, j	  2
+rutström, a c	  2
+s-n, h (1879-1932)	  2
+saarnio, a a	  2
+sahlan, alfred	  2
+salmelainen, a e	  2
+salmelainen, olli	  2
+salmensaari, s s	  2
+salon-kaiku,	  2
+sampoinen,	  2
+sandelin, a e	  2
+sandman, elna	  2
+sanio, c	  2
+saraoja, emil	  2
+sarlin, a b	  2
+sasonoff, n	  2
+saxén, uno	  2
+schalin, arnold	  2
+schalin, e arnold	  2
+schärlund, onni	  2
+schauman, b o (1821-1895)	  2
+schauman, björn	  2
+scherping, jacob	  2
+schiller, ernst	  2
+schlatter, a	  2
+schlegel, gustav	  2
+schöldström, birger	  2
+schönberg-erken, henriette	  2
+schönherr, karl	  2
+schott, wilhelm	  2
+schreiner, olive	  2
+schroeder-hallakorpi, i a	  2
+schubarth, tobias	  2
+schübeler, f c	  2
+schurtz, heinrich	  2
+schwab, gustav	  2
+schybergson, ernst	  2
+segerdahl, a m	  2
+sellergren, peter lorenz	  2
+selmer, e	  2
+semenov, d	  2
+senex, john (1678-1740)	  2
+seppä, jussi	  2
+setä, (1875-1947)	  2
+severin,	  2
+sherrig, z	  2
+siggonius, laurentius (1694-na)	  2
+silander, h f	  2
+silfvenius, karl wilhelm	  2
+sillanpää, f e	  2
+sillman, edgar	  2
+similä, yrjö	  2
+simola, e f	  2
+simonius, isaacus	  2
+sippola, w:m	  2
+sirven, alfred	  2
+šiško, l	  2
+sissala, eero (1851-1909)	  2
+sivén, albert	  2
+sivunen, s	  2
+sjöström, bertil	  2
+sjöström, w	  2
+smedman, karl	  2
+smeds, karl	  2
+södergran, edith	  2
+söderholm, gösta	  2
+söderholm, john	  2
+söderlund, hans	  2
+sohlman, k v	  2
+soininen, sofia	  2
+sokolov, d	  2
+solitander, axel	  2
+solstrand, p	  2
+somero, kyösti (1886-1941)	  2
+souvestre, émile	  2
+soveri, a j	  2
+spåre, g a	  2
+spencer, herbert	  2
+ståhl, j	  2
+stahre, a	  2
+stead, f herbert	  2
+stenbäck, j	  2
+stenberg, herman	  2
+stenius, carolus (1742-1810)	  2
+stenius, e	  2
+stenius, einar	  2
+stenius, sigurd	  2
+stevenson, burton e	  2
+stigell, rich v	  2
+streng, a e	  2
+struve, f g v	  2
+stutzer, albert	  2
+sundell, i a	  2
+sundius, jacobus (1772-1838)	  2
+suomalainen,	  2
+suonio, aino	  2
+suru,	  2
+svedberg, anders (1832-1889)	  2
+swift, jonathan	  2
+t-f, j	  2
+t, (1700-1928)	  2
+talmage,	  2
+tanner, j alfred	  2
+tarjanne, a j (1866-1946)	  2
+tarvas, armas	  2
+tesche, e a	  2
+theobaldt, etty	  2
+theophilander,	  2
+therman, einar	  2
+theuriet, andré	  2
+thornton, j p	  2
+tigerstedt, k k	  2
+toivonen, j g	  2
+toivonen, y h	  2
+topelius, z	  2
+torén, anders waldemar	  2
+törnudd, alvar	  2
+toukola, aleks	  2
+trast, v k	  2
+travers-borgström, arthur	  2
+tripplin, t	  2
+tudeer, a e	  2
+tudeer, o e (1850-1930)	  2
+tuhkanen, t g	  2
+tukydides,	  2
+tuomikoski, yrjö	  2
+tuomioja, w w	  2
+tuulensuu, k j	  2
+uddgren, h e	  2
+uggla, g a	  2
+untermann, ernest	  2
+urquhart, john	  2
+uusikylä, a (1884-1951)	  2
+v, (1830-1907)	  2
+v, (1867-1948)	  2
+vagabond,	  2
+vainio, j n	  2
+väisänen, a o	  2
+vakuutusmies,	  2
+valk, gerardo	  2
+valkola, väinö	  2
+valmari, j	  2
+vän, en (1873-1956)	  2
+vankkoja, väinö	  2
+varén, j i (1851-1912)	  2
+varma, e l	  2
+vatanen, j i (1868-1918)	  2
+veistola, e	  2
+vesten, tyr	  2
+vesterinen, emil	  2
+viitanen, f o	  2
+voipio, aino	  2
+voss-schrader, a	  2
+w, (1880-1945)	  2
+w:nen, a	  2
+wadell, laurentius (1770-1830)	  2
+wadström, v	  2
+wägner, sven	  2
+wahlbeck, edit	  2
+wahlberg, arth	  2
+waliszewski, k	  2
+walker, james	  2
+wallance, j h	  2
+walldén, evert woldemar (1869-1921)	  2
+walleen, c a	  2
+wallenius, jeremias (1717-1787)	  2
+wallgren, axel	  2
+wallmark, p a (1777-1858)	  2
+walter, edna	  2
+warburg, karl	  2
+wargelin, john	  2
+wasenius, k f	  2
+waurio, k l	  2
+weänänen, a j (1820-1863)	  2
+wegelius, k a (1864-1939)	  2
+wegelius, uuno	  2
+weilin, yrjö (1875-1930)	  2
+wellewill, m	  2
+wellingk, e a	  2
+weretennikoff, m	  2
+wesén, arne	  2
+weske, m	  2
+wessman, f	  2
+westerlund, a w	  2
+wetterhoff-asp, sigurd	  2
+wichmann, elna	  2
+wide, anders	  2
+wieselgren, h	  2
+wiik, k h	  2
+wikander, c w	  2
+wikner, per	  2
+wilkman, a j	  2
+wingborg, f a	  2
+winge, hans petter (1770-1836)	  2
+winge, j m	  2
+wirtanen, h	  2
+wisius, michael canuti (1624-1679)	  2
+witting, r j	  2
+wolff, eugen	  2
+wothe, anny	  2
+wrigstadius, jonas jonae (1692-1746)	  2
+wuolle, b	  2
+wuorela, kyösti	  2
+y,	  2
+ystävä, eräs (1849-1923)	  2
+zamenhof, l l	  2
+zilliacus, w	  2
+-a-e-i,	  1
+-aini-, n	  1
+-der, a	  1
+-ei-,	  1
+-el-el,	  1
+-i -i, (1858-1934)	  1
+-i,	  1
+-ii-,	  1
+-im,	  1
+-k, -s	  1
+-lma,	  1
+-n-n,	  1
+-n, -r	  1
+-ns-, (1865-1930)	  1
+-nw-,	  1
+-r, (1700-na)	  1
+-ro, -ho	  1
+-s-s,	  1
+-st-, (1909-na)	  1
+-teini, (1851-1911)	  1
+***, a	  1
+***talia,	  1
+**tarina,	  1
+a -m, k	  1
+a l, -	  1
+a-d,	  1
+a-e,	  1
+a-g, e (1852-1929)	  1
+a-nen,	  1
+a-nen, h	  1
+a-nen, j	  1
+a-pinen, a	  1
+a-r, w	  1
+å,	  1
+a, (1693-1750)	  1
+a, (1842-1914)	  1
+a, (1898-1953)	  1
+a:b, f	  1
+aaltonen, v w	  1
+aaltoranta, v f	  1
+aarrestad, sven	  1
+aatelo, eine	  1
+aatila, evert	  1
+abbot, jacob	  1
+abbot, john s c	  1
+abbott, jacob	  1
+abbott, john s c	  1
+åberg, laurentius	  1
+åbo-bor, tvänne	  1
+about, edmond	  1
+abrahamson, karl	  1
+abrahamsson, g a	  1
+achrén, l j (1811-1842)	  1
+ackté-renvall, aino	  1
+adelborg, ottilia	  1
+adler, a p	  1
+adler, ananias	  1
+adlercreutz, g	  1
+aeimelaeus, carolus nicolai (1734-1760)	  1
+aereboe, h s	  1
+afzelius, j a	  1
+agardh, carolus a	  1
+agnoostos,	  1
+agrell, alfhild	  1
+ahlblad, waldemar	  1
+ahlborn, c	  1
+ahlfors, a k	  1
+ahlholm, isaacus (1799-1856)	  1
+ahlholm, j	  1
+ahlman, john e	  1
+ahlstedt, k k	  1
+ahlstedt, uno	  1
+ahlstrand, m w	  1
+ahlström, bertel	  1
+ahlström, j v	  1
+åhman, nicolaus (1707-1790)	  1
+ahnger, minna	  1
+aho, j	  1
+ahonen, a a	  1
+ahrens, w	  1
+ahto, k a	  1
+aimard, gustave	  1
+ainio,	  1
+airaksinen, joh	  1
+airas, väinö	  1
+airila, eero	  1
+airila, y	  1
+airo,	  1
+aiskhylos,	  1
+åkerberg, nicolaus laurentii (1705-1785)	  1
+åkerhielm, k o	  1
+åkerman, anders (1778-na)	  1
+åkesson, å p	  1
+åkesson, e	  1
+akiander, m	  1
+akinen,	  1
+ålander, k j	  1
+alanus,	  1
+albrecht, k	  1
+albrecht, uno	  1
+alcawainen,	  1
+alcock, d	  1
+alektorov, a e	  1
+alén, john	  1
+alenius, a w	  1
+älf, samuel	  1
+ålgren, b	  1
+alhainen, w j	  1
+alho, väinö	  1
+allinson, t r	  1
+allman, james	  1
+alm, e	  1
+alm, l	  1
+almberg, e	  1
+almberg, emil (1852-1929)	  1
+almqvist, arnold	  1
+almqvist, k j l	  1
+alopaeus, ivar	  1
+alopaeus, samuel (1721-1793)	  1
+amand, heinrich	  1
+aminoff, g	  1
+aminoff, ivar	  1
+aminoff, iwan t	  1
+aminoff, k g	  1
+amnell, jacobus	  1
+ampuja, m	  1
+anakreon,	  1
+anckarstierna, derk	  1
+anckarsvärd, michael (1742-1838)	  1
+andelsvärksamhetsvän, en	  1
+andersin, johanna ottilia	  1
+anderson, g f	  1
+anderson, valter	  1
+andersson, g n	  1
+andersson, j a	  1
+andrejev, a p	  1
+andrejev, n	  1
+andrejev, n p	  1
+andrell, gustavus	  1
+andresen, albert	  1
+andresen, kjeld nicolai gotthard	  1
+andström, jacobus (1761-1818)	  1
+angelini, j e	  1
+angell, norman	  1
+annenski, a n	  1
+anstey, f	  1
+antell, alina (1836-1925)	  1
+antell, g w	  1
+anthoni, armas	  1
+anticthon, (1778-na)	  1
+antila, j a	  1
+antipin, waldemar	  1
+anttila, (1838-1898)	  1
+appelberg, bertel	  1
+appelberg, ernst arvid	  1
+appelgren, henning	  1
+appelqvist, h	  1
+arenander, e o	  1
+arenius, thomas olai (1692-na)	  1
+arho, a o	  1
+ari, e	  1
+arima, onni w	  1
+arius, (1860-1889)	  1
+arius, (1862-1948)	  1
+arndt, e m	  1
+arnell, jonas laurentii (1642-1707)	  1
+arnerus, laurentius olai	  1
+arokallio, gust	  1
+aronen, väinö	  1
+arrhenius, axel	  1
+artsyibashew, m	  1
+arvily, (1884-1960)	  1
+aschan, john	  1
+aschaneus, martinus laurentii	  1
+ashton, harold	  1
+ashworth, j	  1
+ask, g j a	  1
+asp, k	  1
+asp, thore	  1
+aspelin, h	  1
+aspelin, signe	  1
+aspelinus, j	  1
+atkinson, w w	  1
+atteridge, h	  1
+audoux, marguerite	  1
+augustin-thierry, gilbert	  1
+aura, (1882-1954)	  1
+aurivillius, samuel	  1
+austriin, claudius törneri (1670-1716)	  1
+autero, h	  1
+autio, (1878-1941)	  1
+autio, n	  1
+avellan, herman (1820-1912)	  1
+avellan, kaarola	  1
+avellan, michaël (1771-1855)	  1
+axelrod, ida	  1
+axelson, m	  1
+axelson, maximilian	  1
+b-n, m	  1
+babcock, m	  1
+backlund, r j	  1
+backman, a l	  1
+backman, artur	  1
+backman, c	  1
+backman, herman	  1
+backman, jacobus	  1
+backman, matts mattsson (1732-1796)	  1
+backmansson, hugo (1860-1953)	  1
+baedeker,	  1
+baer, agnes	  1
+bagghufvud, xx	  1
+bahr, l	  1
+bähr, melchior (1600-na)	  1
+baird, james b	  1
+ballantyne, r m	  1
+banck, jacobus	  1
+bång, jonas (1708-1772)	  1
+bange, jacobus (1752-na)	  1
+bar, l v	  1
+baranowskij, s	  1
+barley, alfred h	  1
+barna, ferdinánd	  1
+barnekov, c	  1
+barnum, p t	  1
+barrat, t b	  1
+bartsch, rudolf hans	  1
+baskakov, v	  1
+bastin, j	  1
+bayard, m	  1
+beauvois, eugène	  1
+becker, gösta	  1
+becker, thorvald	  1
+becker, thorvald wilhelm	  1
+beckman, albert	  1
+behrsinsch, r	  1
+behse, emil	  1
+bêlevits̆, vladimir	  1
+bell, j j	  1
+belly, g	  1
+bengelsdorff, r	  1
+bennett, arnold	  1
+bentheim, a	  1
+berendts, e n	  1
+berg, b o	  1
+berg, herman	  1
+berg, pi	  1
+bergbom, j g	  1
+bergenheim, e	  1
+berger, p	  1
+berggren, b	  1
+bergh, arnold	  1
+bergh, p	  1
+berghult, anders	  1
+berglund, uno	  1
+bergman, arvid m	  1
+bergman, c h	  1
+bergman, g k	  1
+bergman, j a	  1
+bergroth, e	  1
+bergroth, j k	  1
+bergroth, waldemar	  1
+bergstedt, anders	  1
+bergstrand, a	  1
+bergström, c j	  1
+bergström, j b	  1
+berkov, karl	  1
+berlitz, m d	  1
+berner, a	  1
+bersezio, v	  1
+bersier, eugène	  1
+bertran, l	  1
+berzezio, vittorio	  1
+bezkrovni, f	  1
+bielenstein, a	  1
+bilze, luutnantti	  1
+biörk, israël	  1
+birchenstädt, h	  1
+birnbaum, nathan	  1
+bishop, t b	  1
+bisson, a	  1
+björck svensson, sven	  1
+björkenheim, gösta	  1
+björklund, b b	  1
+björklund, j a	  1
+björkman, p	  1
+björkqvist, m l	  1
+björling, e	  1
+björnlund, bengt	  1
+björnram, clas anders	  1
+björnson, björn	  1
+bjugg, emil	  1
+blackie, john stuart	  1
+blåfield, emil	  1
+bland, e a	  1
+blanquet, albert	  1
+blauchmeister, f	  1
+bleuler-waser, hedvig	  1
+bligh, stanley	  1
+bloch, móricz	  1
+blocher, hermann	  1
+blom, berndt	  1
+blom, e j (1817-1887)	  1
+blom, l	  1
+blomberg, a o	  1
+blomberg, evert	  1
+blomberg, k g	  1
+blomgren, gösta	  1
+blomqvist, a	  1
+blomqvist, a r	  1
+blomqvist, a w	  1
+blomqvist, hugo	  1
+blomstedt, o	  1
+blos, wilhelm	  1
+blumenthal, e l	  1
+bobrovski, p o	  1
+bock, michael	  1
+bögelund, p j	  1
+bohkius, franciscus	  1
+bohlin, karl	  1
+böhm, f j	  1
+böhme, g	  1
+bohnhof, a	  1
+bohowityn,	  1
+boije, j e	  1
+boisen, peter outzen	  1
+boisgobey, fortuné du	  1
+bolander, a v	  1
+boldt, r	  1
+boll, j h	  1
+bolotov, v v	  1
+bomansson, j o	  1
+bonsdorff, a j	  1
+bonsdorff, evert julius (1810-1898)	  1
+borchardt, j	  1
+borenius, c e	  1
+borenius, ernst (1858-1925)	  1
+borg, agnes	  1
+borg, c g (1823-1895)	  1
+borg, carolus	  1
+borg, felix	  1
+borg, l g	  1
+borg, väinö	  1
+borg, wäinö	  1
+börjesson, karl	  1
+bormann, karl	  1
+bornhöhe, e	  1
+bosin, d e	  1
+bosk, matias	  1
+botčkovski, g	  1
+boucht, k	  1
+bougeault, alfred	  1
+bourne, e w	  1
+bousset, w	  1
+bowen, thomas (na-1790)	  1
+bowles, carington	  1
+braby, maud churton	  1
+brady, cheyne	  1
+bråkenhjelm, malvina	  1
+brand, wilhelm f	  1
+brander, frans alfred	  1
+brander, k a	  1
+brander, nicolaus gustavus (1763-1841)	  1
+brander, v	  1
+brandt, adelaide	  1
+brandt, p	  1
+brask, samuel petri (1613-1668)	  1
+bratt, birgerus olai (1706-na)	  1
+bratt, claës	  1
+braun, gustav	  1
+braun, w v crusentolpe	  1
+brax, greta	  1
+bredow, alfred	  1
+brehm, j r	  1
+breitfuss, l	  1
+bremer, c g	  1
+bremer, n m	  1
+bremer, nestor maximilian	  1
+breshko-breshkovskij, n n	  1
+brierley, jonathan	  1
+brilliantov, v	  1
+brinck, samuel (1697-1753)	  1
+bring, sven	  1
+broberg, k t	  1
+brobergh, gustavus erici	  1
+broda, w r	  1
+broder, christendoms	  1
+brodzenius, gustavus martini (1679-1710)	  1
+bromander, c v	  1
+brommenius, p	  1
+brotherus, a h	  1
+brotherus, sven	  1
+browder, earl	  1
+brown, archibald	  1
+brown, h d	  1
+bruden,	  1
+bruhn, karl (1894-1978)	  1
+bruhn, m	  1
+brummer, c m e	  1
+brummer, k uno	  1
+brummer, wilhelm	  1
+brunchorst, jörgen	  1
+brunila, birger	  1
+brunou, a	  1
+brusila, a	  1
+brusila, a h	  1
+buckley, a	  1
+budde, s	  1
+buharov, d n	  1
+bull, jacob b	  1
+bünger, e	  1
+buntline, ned	  1
+bure, anders (1571-1646)	  1
+burghausen, c v (1811-1844)	  1
+burjam, a w	  1
+burjam, f	  1
+burman, ab	  1
+bursman, nicolaus (1732-na)	  1
+burwinkel, o	  1
+bury, j b	  1
+buscherus, martinus martini (1745-na)	  1
+büttner,	  1
+büttner, heinrich	  1
+byström, thomas	  1
+c-m, arne	  1
+c-r-t-r,	  1
+caîrenius, laurentius (1753-1804)	  1
+calani, aristide	  1
+calonius, f l	  1
+cameen, carolus	  1
+campanula,	  1
+cannelin, thom	  1
+cannelin, thomas	  1
+cantacuzène-altieri, olga	  1
+carducci, giosuè	  1
+carelius, canutus martini	  1
+carelius, olof	  1
+carenius, ephraim (1739-1802)	  1
+carlenius, christoph	  1
+carlsson, carolus	  1
+carlsson, m	  1
+carp, jacobus arndt (1753-1820)	  1
+carpelan, christer (1704-1763)	  1
+carpelan, wilhelm (1787-1830)	  1
+carplan, christer	  1
+carr, john (1772-1832)	  1
+cäsar, julius	  1
+caselius, ano	  1
+casson, herbert n	  1
+castelnuovo, e	  1
+castle, agnes	  1
+castrén, hanna	  1
+castrén, j	  1
+castrén, samuel (1765-1797)	  1
+cavonius, einar	  1
+cavonius, igor	  1
+cebes,	  1
+ceder, g w	  1
+ceder, k r	  1
+ceder, r	  1
+cederberg, armas	  1
+cederberg, eino (1889-1963)	  1
+cedercreutz, herman (1684-1754)	  1
+cedercreutz, nanny (1866-1950)	  1
+cederholm, arne	  1
+cederhvarf, björn	  1
+cederschiöld, g	  1
+cederström, emil	  1
+centnerszwer, m	  1
+cerenius, martinus (1707-1765)	  1
+ch, st-julien	  1
+chase, c f	  1
+châteillon, sébastien	  1
+chayla, a -m du	  1
+christiansen, einar	  1
+christie, h	  1
+churchill, winston s	  1
+chydenius, j g	  1
+chydenius, k	  1
+claus, w	  1
+clausen, c c	  1
+clericus, l	  1
+cleve, p t	  1
+clive-bayley, a m c	  1
+clopatt, a	  1
+clopatt, arthur rudolf	  1
+collan, claudius	  1
+collan, emil	  1
+collan, valter	  1
+colliander, a n	  1
+colliander, sigrid	  1
+collin, c a	  1
+collner, j	  1
+colwin, jac	  1
+conrad, j	  1
+cook, f c	  1
+cook, frederick a	  1
+cooper, edward h	  1
+cooper, irving s	  1
+cörberus, josephus	  1
+corell, v f	  1
+corneille, pierre	  1
+cornelius, peter	  1
+costley, w	  1
+cox, samuel s	  1
+cramer, w	  1
+creutz, lorentz lorentzson (1672-1709)	  1
+cronhiort, hans henning (1688-1727)	  1
+crucelius, nicolaus (1717-na)	  1
+curtil, andré	  1
+d'ennery,	  1
+dag, ragnar	  1
+dahl, g	  1
+dahl, gustav	  1
+dahl, k g	  1
+dahlbeck, sven petter	  1
+dahlberg, åke	  1
+dahlberg, john	  1
+dahlberg, t j	  1
+dahleen, abrah	  1
+dahlgren, alta	  1
+dahlgren, jonas (1717-1772)	  1
+dahlheim, ivar	  1
+dahlman, laurentius	  1
+daiber, albert	  1
+dal, nicolaus	  1
+dale, john t	  1
+dalkvist, o	  1
+damberg, joh	  1
+daniels, w h	  1
+danielson, j r	  1
+danilewski, g p	  1
+danvers, milton	  1
+daumig, e	  1
+davis, andrew jackson	  1
+de forest, p a	  1
+de witt talmag, t	  1
+deák, frans	  1
+degerman, peter	  1
+dehio, karl	  1
+delarochette, l (1731-1802)	  1
+denisov, v i	  1
+desbeaux, émile	  1
+descartes, rené	  1
+descuret, j b f	  1
+dickson, w k l	  1
+diemer, mikael	  1
+dierckx, j	  1
+dietrich, j	  1
+dikštein, s	  1
+dinesen, w	  1
+disselhoff, julius	  1
+dmowski, r	  1
+dobson, g	  1
+dock, f w	  1
+domander, gustavus	  1
+donizetti, gaetano	  1
+doroschevitsch, v	  1
+dörries, b	  1
+dreijer, k g	  1
+dreyfus, alfred	  1
+drosinis, georgios	  1
+duffey, e b	  1
+dühr, a	  1
+dumas, a	  1
+dumoulin, pierre	  1
+duncker, d	  1
+durckman, n	  1
+durham, w h	  1
+durham, wm h	  1
+durkheim, é	  1
+e-d,	  1
+e-m,	  1
+e-r, e	  1
+e, (1852-1929)	  1
+e, (1881-1968)	  1
+e, (1895-1964)	  1
+ebelius, caspar	  1
+eckerbom, a k	  1
+edberg, n	  1
+edberg, olof albert	  1
+edelsköld, k j (1831-1879)	  1
+eden, fannie	  1
+edfelt, jacobus	  1
+edlund, e o	  1
+edman, alfred	  1
+eerikäinen, martti	  1
+eerola, e	  1
+eggertz, c g	  1
+egli, j j	  1
+ehrenswärd, augustin	  1
+ehrman, e w	  1
+ehrnrooth, ernst	  1
+ehrnroth, adelaide	  1
+eichwald, e a	  1
+einiö, k	  1
+eivaro,	  1
+eive,	  1
+ekblad, carolus p	  1
+ekblom,	  1
+ekedahl, arvid	  1
+ekelund, hilding (1893-1984)	  1
+ekelund, wilhelm	  1
+ekenberg, per (1603-1656)	  1
+ekholm, hugo j	  1
+eklund, artur	  1
+ekman, a	  1
+ekman, h a	  1
+ekman, karl (1869-1947)	  1
+ekman, kurt	  1
+ekström, e	  1
+ekström, erich	  1
+ekström, karl	  1
+ekvall, j u (1797-1827)	  1
+elek, lippich	  1
+elenius, o	  1
+elfving, carolus gustavus (1773-na)	  1
+elfving, jenny	  1
+elfving, k o	  1
+elfving, ö	  1
+eliae, elias	  1
+eliot, c n e	  1
+ell, c	  1
+eloranta, evert	  1
+elovaara, j l	  1
+elowaara, ernst wilhelm	  1
+elving, h	  1
+emmi, (1848-na)	  1
+enckell, a	  1
+enckell, carolus (1740-1813)	  1
+enelund, michael (1760-1795)	  1
+engdahl, john	  1
+engelberg, g	  1
+engelhardt, a p	  1
+engineer,	  1
+englund, j a	  1
+engman, e	  1
+engström, björn	  1
+ennu,	  1
+ensio, armas	  1
+ensiö, armas	  1
+eränen, yrjö	  1
+erastow, g	  1
+erichsen, erich	  1
+erichsson, anders	  1
+erikson, emil	  1
+eriksson, gösta	  1
+erkko, elias (1863-1888)	  1
+ervast, p	  1
+esa, riitahuhdan	  1
+escande, gustave	  1
+escard, f	  1
+estlander, c g	  1
+estlander, f a	  1
+estlander, j a	  1
+estlander, jacobus jonas (1782-1854)	  1
+estlander, s	  1
+etelä-pohjalainen,	  1
+eurenius, jacobus	  1
+europaeus, aarne	  1
+ewald, karl	  1
+ewans, t h	  1
+ewsew,	  1
+f-n, a	  1
+f-s, v	  1
+faber, wilhelm	  1
+fabre, j h	  1
+fågelvän,	  1
+faggot, jacob	  1
+falck, i	  1
+falck, vivi	  1
+falk, w v	  1
+falkenegg,	  1
+faraday, mikael	  1
+farjeon, b l	  1
+fatalisti,	  1
+faulkner, t a	  1
+fedorov', f a	  1
+fellman, esaias (1700-1756)	  1
+fennoman, en	  1
+feoktistov, v e	  1
+fersen, axel	  1
+fibiger, a	  1
+ficher, frans	  1
+fieandt, nanna v	  1
+filchner, wilhelm	  1
+filon, augustin	  1
+finke, petr	  1
+finne, välmenande	  1
+finney, c g	  1
+firsov, v e	  1
+fischer-ohmann, g	  1
+fittinghoff, l	  1
+flach, jósef	  1
+fleissner, hermann	  1
+fleming, herman (1734-1789)	  1
+fleming, lars claesson (1678-1702)	  1
+flemming, gust	  1
+flick, l f	  1
+flicka, en	  1
+flinck, j a	  1
+flodman, anders	  1
+floks,	  1
+florelius, s	  1
+florinus, thomas martini (1722-na)	  1
+flügel, c a	  1
+fluvianus,	  1
+flygare, john	  1
+fodiin, jonas	  1
+folkhögskoleman, en	  1
+fonselius, isaacus	  1
+fontelius, nicolaus gregorii (1692-na)	  1
+forchhammer, joh	  1
+fornell, lars	  1
+forsberg, a w	  1
+forsberg, s	  1
+forsblom, a	  1
+forselius, isaacus (1757-1823)	  1
+forsell, e a	  1
+forsing, erich erichsson (1652-1687)	  1
+forsius, arne	  1
+forsius, valter	  1
+forsman, c r	  1
+forssell, a l	  1
+forssell, e a	  1
+forssell, ernst albert	  1
+forssman, arvid	  1
+forsstrand,carl,	  1
+forsström, hugo	  1
+forstén, o w	  1
+forstén, rudolf	  1
+forster, m	  1
+forsterus, jacobus erici (1712-na)	  1
+fortelius, isaacus erici (1722-1783)	  1
+fortell, frans isaac	  1
+fortmann, h	  1
+forzelius, nicolaus laurentii (1646-1709)	  1
+fosse, k	  1
+fougel, börje (1715-1799)	  1
+framsynt,	  1
+franc-nohain,	  1
+francé, r h	  1
+francke, h	  1
+francke, julius	  1
+franssila, k a	  1
+franzén, f m	  1
+franzon, m	  1
+franzos, karl emil	  1
+frederiksen, h c	  1
+fredro, j a	  1
+freeman, edward a	  1
+fremling, jonas (1729-1762)	  1
+frey, j	  1
+freyberg, a	  1
+friberg, jonas martinus (1709-1768)	  1
+frich, øvre richter	  1
+fricke, l w	  1
+fried, alfred h	  1
+friedegg, ernst	  1
+friedrich, w	  1
+fries, jacob (1749-1801)	  1
+friman, j	  1
+frisius, samuel nicolai (1668-na)	  1
+frolov, v	  1
+fromentin, eugène	  1
+fronsell, jonas (1700-1737)	  1
+frosterus, g	  1
+frosterus, gustave	  1
+frosterus, jacobus erici	  1
+frychius, swen	  1
+furchtenicht, joachim	  1
+g, (1662-1741)	  1
+g, (1700-na)	  1
+g, (1770-na)	  1
+g, (1845-1928)	  1
+g, (1876-1938)	  1
+g:t, b	  1
+gaboriau, e	  1
+gabrialdo,	  1
+gabrielinpoika, j	  1
+gabriels, axel	  1
+gad, marius	  1
+gadd, jacob herman (1747-1811)	  1
+gadelius, b	  1
+gadolin, a v	  1
+gadolin, axel	  1
+gadolin, jacobus algotus (1797-1848)	  1
+gagner, m l	  1
+gahmberg, thyra	  1
+galingo, j c	  1
+galitzin, d	  1
+gall, james	  1
+gallenga, antonio	  1
+gamle, svipdagr (1791-1858)	  1
+gammalfennoman,	  1
+gamophilus,	  1
+gånge, rolf	  1
+garborg, arne evensen	  1
+gartz, w	  1
+gastineau, octave	  1
+gautier, théophile	  1
+gebert, ernst	  1
+gebhard, h	  1
+gegetshkor,	  1
+geikel, g k	  1
+geitel, m (1864-1953)	  1
+geitlin, j g	  1
+gempt,	  1
+genberg, carolus jonae (1711-1799)	  1
+genetz, emil	  1
+ger, a	  1
+gerdes, jacob	  1
+gerle, f	  1
+gerling, r	  1
+gerschouni, g	  1
+gerschovius, jacobus (1587-1655)	  1
+gershuni, g	  1
+gerstedt, n h	  1
+gervasius, julius	  1
+gestrin, nicolaus (1768-1814)	  1
+géte, a e	  1
+gezelius, j	  1
+gh, m	  1
+ghislanzoni, antonio	  1
+gibbon, p	  1
+giescke, g m	  1
+gilbert, w s	  1
+gioberto, francesco	  1
+giöding, o j	  1
+giöker, a	  1
+girgensohn, gustav karl	  1
+gladstone, w e	  1
+glässer, l	  1
+glaubrecht, o	  1
+gleichen-russwurm, a v	  1
+glinka, f n	  1
+glöckner, d g	  1
+gnudtzmann, albert	  1
+goeldner, m	  1
+goeteeris, a	  1
+goff, mr	  1
+goki,	  1
+goldoni, carlo	  1
+golovats̆ev, v	  1
+golowin, m	  1
+gombocz, zoltán	  1
+gommesen, p	  1
+gondinet, edmond	  1
+goodwin, thomas	  1
+gornborg',	  1
+gosse, edmund	  1
+gossner, j	  1
+gothus, laurentius (1565-1646)	  1
+gotthelf, jeremias	  1
+gottschalk, a	  1
+gottschalk, axel	  1
+grachus,	  1
+grade, anders	  1
+graeffe, emil	  1
+grafström, a a	  1
+granberg, e a	  1
+granberg, rich	  1
+granholm, f	  1
+gränö, j g	  1
+granqvist, ida	  1
+grape, olof isaksson (1719-1754)	  1
+gras, félix	  1
+gråstén, ernst	  1
+gratschoff, l	  1
+gravander, j a	  1
+grebst, w a:son	  1
+green,	  1
+green, a k	  1
+green, c h s	  1
+gren, a	  1
+grendal, gustav	  1
+grey, h	  1
+griffiths, arthur	  1
+grigorjeff, l	  1
+grigorjeff, n j	  1
+grimm, jacob	  1
+gripenberg, arne	  1
+gripenberg, c	  1
+gripenberg, l	  1
+grise, nic	  1
+gröhn, e	  1
+gröndahl, a a	  1
+gröndahl, herman	  1
+gröndahl, karl immanuel	  1
+grönlund, carolus	  1
+grönstrand, s	  1
+grönvall, alfred julius	  1
+grönvall, f	  1
+grönvall, r	  1
+grönvik, axel	  1
+grotenfelt, n b	  1
+grunér, arthur	  1
+gummerus, h e	  1
+gummerus, herman	  1
+gummerus, julius immanuel	  1
+gumplowicz, ladislaus	  1
+günterfeldt, carolus	  1
+gurland, r	  1
+gurre, v	  1
+gusev, p	  1
+gusjev-orenburgski, d	  1
+gussander, p u	  1
+gustafson, g a	  1
+gustafsson, g a	  1
+gustafsson, i	  1
+gustafsson, j g	  1
+gustafsson, k w	  1
+gustavsson, matts	  1
+guthraeus, jacobus	  1
+gutmayer, f	  1
+gutzmann, herman	  1
+gyarmathi, sámuel	  1
+gyldén, hugo	  1
+gylden, n a	  1
+gyllenbögel, e v	  1
+gyllengranat, c a	  1
+h-a, a	  1
+h-e, assessorskan	  1
+h-n, r	  1
+haartman, anders gabrielsson	  1
+haataja, e	  1
+haataja, k	  1
+haataja, v	  1
+hachenburg, hermann wilhelm	  1
+hackman, a	  1
+hacks, gustavus petri (1717-na)	  1
+haellfors, jacobus (1757-1820)	  1
+hagel'strem, v a	  1
+hagelberg, herman	  1
+hagelberg, k t	  1
+hagelin, jonas	  1
+hagelstam-federley, s	  1
+hagfors, ernst arthur	  1
+hägg, carolus (1753-1829)	  1
+häggman, signe	  1
+häggström, nathanael (1721-1797)	  1
+haglinus, jonas leonhardi (1711-na)	  1
+haglund, hedvig	  1
+hagman, a	  1
+hagman, sofia	  1
+haig-müller, w	  1
+hainari, k	  1
+halla, a w	  1
+hallander, w	  1
+hällberg, karl v	  1
+hallenberg, jonas (1748-1834)	  1
+hallman, c j h	  1
+hallsten, a	  1
+hallsten, i	  1
+hällström, a j	  1
+hällström, c p	  1
+hällström, h a	  1
+hallström, jonas	  1
+halme, k	  1
+hämäläinen, a	  1
+hämäläinen, martti (1886-1962)	  1
+hambraeus, jonas	  1
+hämeen-hinttu,	  1
+hamilton, kate	  1
+hammar, nicolaus matthiae (1690-na)	  1
+hammarén, j e	  1
+hammarsköld, l	  1
+handmann, rudolf	  1
+hanho, j t	  1
+hannikainen, a	  1
+hansen, c m	  1
+harbitz, n	  1
+harjunen, s d	  1
+härkönen, i	  1
+härkönen, l w	  1
+harmaja, aino	  1
+harper, h	  1
+harris, w s	  1
+hartea, m	  1
+härting, r	  1
+hartman, jorma	  1
+hartman, k j	  1
+hartman, uno	  1
+hartmann, hugo	  1
+harvio, j	  1
+hasenmüller, joachim	  1
+hasselblatt, emil (1874-1954)	  1
+hast, herman h	  1
+hästbacka, j e	  1
+hauptmann, gerhart	  1
+hausen, c	  1
+hauser, aloys	  1
+havas, eino	  1
+havela, a v	  1
+havemannus, michael (1597-1672)	  1
+hawola, a	  1
+hawthorne, n	  1
+hayward, harriet cornelia	  1
+hedberg, tor	  1
+hedborg, lydia	  1
+hedeen, nicolaus (1709-1778)	  1
+hedengran, petter	  1
+hedenström-welin, agnes	  1
+hedvall, bertel	  1
+hegeler, wilhelm	  1
+heiberg, hermann	  1
+heiberg, j l	  1
+heiden, f	  1
+heikel, a v	  1
+heikel, a w	  1
+heikel, n	  1
+heikel, o j	  1
+heikkeli, eino	  1
+heikki, raittulan (1851-1932)	  1
+heikkilä, t	  1
+heikkinen, e	  1
+heimovaara, yrjö	  1
+heininen, k	  1
+heino, j a	  1
+heinonen, i	  1
+heinonen, o s	  1
+heinovaara, yrjö	  1
+heinrich, heine	  1
+heinrich, k	  1
+heinrichs, alfred	  1
+heistä, yksi	  1
+hela, martti	  1
+helaakoski, a r	  1
+helander, a	  1
+helander, o j	  1
+helenius, a (1852-1919)	  1
+helin, j v	  1
+helkiö, onni e	  1
+hellén, herman	  1
+hellfors, j a	  1
+hellman, a	  1
+helsing, herman	  1
+heman, f	  1
+hemmingius, nicolaus (1600-na)	  1
+hengstenberg, e w	  1
+henking, h	  1
+henrikson, k f	  1
+henriksson, k h	  1
+henttu, s v	  1
+herchenbach, w	  1
+herding, a	  1
+herkner, h	  1
+herlin, h	  1
+herlin, karl (1839-1913)	  1
+herlin, u r	  1
+herman,	  1
+hermann, k a	  1
+hermione,	  1
+hernberg, a	  1
+hernodius, michael jonae	  1
+herodinow, a	  1
+herrar, tre	  1
+hertz, m	  1
+hertzberg, mikael	  1
+hertzen, a	  1
+hesselius, laurentius	  1
+hettner, hermann	  1
+heurlin, u r	  1
+hevosmies,	  1
+heydemarck,	  1
+hiilivirta, eino	  1
+hiilos, h k	  1
+hildebrandt, c	  1
+hildeen, esaias esaiae (1771-1807)	  1
+hildén, carolus constantin (1762-1822)	  1
+hilden, jacob	  1
+hilditch, j	  1
+hilli, f	  1
+hillilä, hugo	  1
+hiltunen, eino	  1
+hiltunen, p j	  1
+hindersson, r	  1
+hintze, k	  1
+hippos,	  1
+hirn, a	  1
+hirn, d f	  1
+hirsch, d	  1
+hirsch, joh l	  1
+hirvikanta, valde	  1
+hirvinen, h	  1
+hirvonen, s (1848-1915)	  1
+hisinger, a	  1
+hjelmman, werner	  1
+hjelmstjerna, c l	  1
+hjelt, e	  1
+hjelt, nicolaus (1739-1808)	  1
+hjelt, o	  1
+hjerpe, h h	  1
+hjort, j	  1
+hochstetter, wilhelm	  1
+hodder, edwin	  1
+hodell, frans	  1
+hofberg, hermann	  1
+hoffman, h	  1
+hoffmann, c	  1
+hoffner, c	  1
+hoffström, k a	  1
+högberg, olof	  1
+högman, ernst	  1
+holbrook, l v	  1
+hollmann, a h	  1
+holm, j f	  1
+holm, k e	  1
+holm, olof	  1
+holm, samuel	  1
+holmberg, michael	  1
+holmberg, werner	  1
+holmlander, m s	  1
+holmsten, e b	  1
+holsti, h ö l	  1
+holsti, östen	  1
+holsti, rudolphus israël (1815-1852)	  1
+holstius, israel (1728-1808)	  1
+holyoake, g j	  1
+holzmayer, j b	  1
+homén, b	  1
+honigh, c	  1
+honka, u	  1
+honkala, k f	  1
+honkavaara, o	  1
+höök, swen (1712-na)	  1
+hopf, a	  1
+hoppe, hugo	  1
+hopper, james	  1
+hörlén, m	  1
+hornborg, a f	  1
+hornstedt, c f	  1
+horton, r f	  1
+høst, jens kragh	  1
+hougberg, emil	  1
+hougberg, isaacus (1722-1782)	  1
+hougberg, k j	  1
+hougberg, wilhelm	  1
+hoving, j w	  1
+howard, h	  1
+hoyle, e	  1
+hubbard, elbert	  1
+hubbart, elbert	  1
+huber, b f	  1
+hudjakov, i a	  1
+hugg, karl	  1
+huhti, j a	  1
+huhtinen, e	  1
+huizinga, w	  1
+hülphers, w	  1
+hult, werner	  1
+hunfalvy, páltól	  1
+hunt, violet	  1
+hunter, m m	  1
+huovila, a	  1
+hurmerinta, a	  1
+hurstinen, sulo	  1
+hurt, j	  1
+huusmann, k	  1
+hvem, likgiltigt	  1
+hyndman, h m	  1
+hypönniemi,	  1
+hytönen, erland	  1
+hytönen, sulo m	  1
+hyyppärä, aarne	  1
+i, (1600-na)	  1
+i, (1700-1757)	  1
+i, (1871-1921)	  1
+i, (1894-1935)	  1
+idman, gösta	  1
+idman, k g	  1
+idman, n b	  1
+igelström, a v	  1
+ignatius, anders	  1
+ihamuotila, a a	  1
+iivari, järvelä	  1
+ikäläinen, e	  1
+iki-tursas,	  1
+ikonen, a j	  1
+ikonen, i	  1
+iku-turso, (1875-1919)	  1
+ilmoni, synnöve	  1
+ilmoni, t o	  1
+iltanen, j j	  1
+ilvessalo, l	  1
+ilvessalo, yrjö (1892-1983)	  1
+ilvonen, eero	  1
+inberg, joh a	  1
+ingman, hanna	  1
+ingman, mathias (1762-1855)	  1
+iodko, o s	  1
+ipsen, alfred	  1
+isaksen, j n	  1
+isänmaanystävä, venäläinen	  1
+iser, j	  1
+isokuortti, i	  1
+isopuro, aino	  1
+issaieff, a a	  1
+itkonen, t i	  1
+ivarson, bengt (1866-1950)	  1
+iversen, felix	  1
+j -nen, h	  1
+j-n, s	  1
+j, (1709-1788)	  1
+j, (1734-1804)	  1
+j:nen, s	  1
+jää, e a	  1
+jaakkola, efraim (1791-1857)	  1
+jaakkola, k j	  1
+jääskeläinen, k	  1
+jääskeläinen, laina	  1
+jääskeläinen, väinö (1894-1974)	  1
+jackson, john	  1
+jacobsen, j p	  1
+jacobshagen, c	  1
+jadwige, terese	  1
+jaenisch, nicolaus (1767-1848)	  1
+jägerskiöld, c l	  1
+jahnsson, e f	  1
+jakku, evald	  1
+jakobson, naima	  1
+jakubov, k j	  1
+jalonen, k f	  1
+jalovaara, helmi	  1
+janeway, james	  1
+janhunen, a	  1
+jannsen, lydia	  1
+jansen, j	  1
+jäntere, k m	  1
+janzon, g	  1
+janzon, k a	  1
+jarl, j e	  1
+järnefelt, armas	  1
+järnefelt, kasper waldemar	  1
+järnström, edw	  1
+järvelä, g	  1
+järveläinen, o	  1
+järvi, w	  1
+järvinen, d	  1
+järvinen, e	  1
+järvinen, impi	  1
+järvinen, k v	  1
+järvinen, laina	  1
+järwinen, n	  1
+jaspis, n s	  1
+jauhiainen, j j	  1
+jauhiainen, k r	  1
+jaux,	  1
+jeanroy, b -a	  1
+jeffery, jos a	  1
+jelisejev, a v	  1
+jensen, gustav	  1
+jensen, hermann	  1
+jepsen, mads	  1
+jerusalem, else	  1
+jerusalem, wilhelm	  1
+jevropeus, d p	  1
+jevstifejev, n p	  1
+jobb, peter simonsson	  1
+johan, karl	  1
+johansson, joh a	  1
+johansson, petter	  1
+johansson, wilhelm	  1
+john, anders	  1
+johnsson, a	  1
+johnsson, j v (1832-1884)	  1
+johnsson, m	  1
+johnstone, arthur edward	  1
+jokela, selma	  1
+jokinen, e	  1
+jokinen, hofrat t e	  1
+jonas, emil	  1
+josephus, flavius	  1
+joukosta, ääni	  1
+jouppi, j	  1
+joutseno, g	  1
+judaeus, d:r	  1
+juha, korven	  1
+juhannus, ossi (1886-1941)	  1
+jukola, jussi	  1
+julenius, samuel zachariae (1717-na)	  1
+julius,	  1
+juncker, e	  1
+junnila, olga	  1
+junttila, frans	  1
+jürisson, m	  1
+jurvelius, thyra	  1
+jurwa, a k	  1
+jusélius, emil	  1
+juselius, f a	  1
+juslén, b	  1
+jussi, (1861-1921)	  1
+jussila, aino	  1
+jussila, john	  1
+justander, samuel erici (1700-na)	  1
+justinus, marcus junianus	  1
+juuti, h j	  1
+juutilainen, w	  1
+juvelius, valter h	  1
+k-a,	  1
+k-a, m	  1
+k-la, j (1878-1919)	  1
+k-n, a	  1
+k-n, w	  1
+k-nen, h	  1
+k-oh-o,	  1
+k, c v	  1
+k, k m	  1
+k:la, k	  1
+kabakoff,	  1
+kabanov, i m	  1
+kadenius, f w	  1
+kåhlman, w	  1
+kaikkonen, axel	  1
+kaila, aina	  1
+kaima,	  1
+kainulainen, (1866-1937)	  1
+kaipaawa, äänioikeutta	  1
+kaipio, k g	  1
+kaiser, j p	  1
+kaisla, e a	  1
+kaitila, wilhelm	  1
+kajander, edward	  1
+kajanus, selma	  1
+kajawa, yrjö	  1
+kalima, tauno (1881-1951)	  1
+kallas, o	  1
+kallia, onni	  1
+kalliala, k j	  1
+kallio, k k	  1
+kallio, kyösti (1873-1940)	  1
+kallio, m j	  1
+kalthoff, albert	  1
+kamke, hanna	  1
+kankaanpää, v	  1
+kankaanranta, o v	  1
+kankaapää, elias	  1
+kankeleit, a	  1
+kansanopistomies,	  1
+kapari, p	  1
+karbe,	  1
+karéieff, n	  1
+karelen, medborgare	  1
+karhu, j	  1
+kari, j k	  1
+karilas, n	  1
+karjalainen, eero	  1
+kärki, j a	  1
+karling, isaacus olai	  1
+karlsson, k	  1
+karlsson, karl axel	  1
+karpoff, a g	  1
+kastman, c	  1
+kastman, karl	  1
+katawisto, m a w	  1
+katila, e (1872-1945)	  1
+katila, e (1884-1959)	  1
+kauffmann, hermann	  1
+kauhanen, walfrid	  1
+kauko, yrjö	  1
+kaukola, artur (1863-1914)	  1
+kaukosilmä,	  1
+kaukovalta, k v	  1
+kaukovalta, kyösti	  1
+kaulbars, n	  1
+kauppi, i	  1
+keats, john	  1
+keckman, helmi	  1
+keder, nicolas (1659-1735)	  1
+keinänen, aino	  1
+keinänen, o a j	  1
+kekäläinen, olli (1791-1858)	  1
+kellgren, h (1822-1856)	  1
+kellner, o	  1
+kemiläinen, j a	  1
+kemppainen, eino	  1
+kemppi, albin	  1
+kena, aleksander	  1
+keränen, m	  1
+kerkkonen, a (1871-1957)	  1
+kerr, norman	  1
+keso, emil	  1
+keto, j w (1884-1947)	  1
+kettunen, eino	  1
+kiellinus, carolus laurentii (1683-1728)	  1
+kiellinus, laurentius brynolphi (1694-na)	  1
+kihl, k w	  1
+kiiskilä, john	  1
+kiiveri, a	  1
+kilburn, john d	  1
+kiljander, l	  1
+kiljander, samuel (1760-1829)	  1
+kilkka, k w	  1
+killinen, k	  1
+killinger, erich	  1
+kilpi, eino	  1
+king, v i	  1
+kinos, k v	  1
+kipen, a	  1
+kirchhoff, alfred	  1
+kitchin, thomas	  1
+kivekäs, f e	  1
+kivekäs, k j	  1
+kivikari, a	  1
+kivilinna, olli	  1
+kivisalo, väinö (1882-1953)	  1
+kivistö, gust	  1
+kjellman, f r	  1
+klausen, michael nicolai	  1
+klingström, o	  1
+kljutshevskij, v	  1
+knjaskoff, s a	  1
+knorring, e	  1
+knutsson, karl	  1
+knuutila, h j	  1
+koch, gust	  1
+kock, n	  1
+kohonen, selma	  1
+kokkinen, severin	  1
+kokko, simo	  1
+kokkola, a j	  1
+kokkonen, m	  1
+kolehmainen, eero	  1
+kolehmainen, l p	  1
+kolmodin, olof (1690-1753)	  1
+kolu, martti	  1
+könönen, aulis v a	  1
+konrad, s	  1
+konst, anders	  1
+kontuniemi, yrjö	  1
+korhonen, aleks	  1
+korhonen, v v	  1
+kornmann, j k	  1
+koronen, j	  1
+korpelainen,	  1
+korpi, john	  1
+korpitie, k j	  1
+korpitie, kusti	  1
+korvenkontio, v a	  1
+koskela, j	  1
+koskenhovi, p a	  1
+koski, yrjö	  1
+koskimies, hildur (1861-1960)	  1
+koskimies, k v	  1
+koskinen, j e	  1
+koskinen, s	  1
+koskinen, sulo	  1
+koskowski, bolesław	  1
+kösse,	  1
+kotikoski, j w	  1
+kotilainen, aarne r	  1
+koulumies, vanha (1820-1905)	  1
+koutaniemi, risto	  1
+kovanko, k je	  1
+kovero, martti	  1
+kranck, w	  1
+krank, hugo	  1
+krank, peter wilhelm	  1
+krasavitski, p m	  1
+krasoff, m j	  1
+krause, w	  1
+kraushar, aleksander	  1
+krausse, w	  1
+krenke, v d	  1
+krepliak, jacob	  1
+krestowski, wsevolod	  1
+kriksciūnas, j	  1
+krochin, v p	  1
+krogerus, rolf	  1
+krogius, paulus (1724-1792)	  1
+krotkov, a	  1
+krt,	  1
+krüger, wilhelm	  1
+kruskopf, p a (1805-1852)	  1
+krylov, i a	  1
+kube, heinrich	  1
+kuhlberg, sofia	  1
+kuhlman, a k	  1
+kuhn, a	  1
+kuivalainen, p	  1
+kukkonen, albert	  1
+kulkuri,	  1
+kullervo, lieto	  1
+kullman, nicolaus	  1
+kulo, k l	  1
+kulvik, bertel	  1
+kumlin, aarne	  1
+kumpulainen, ida sofia	  1
+kuokkanen, eero k	  1
+kuokkanen, h	  1
+kuosmanen, risto	  1
+kuplewasky, n	  1
+kurki, martti v	  1
+kuronen, p v	  1
+kurra, o w	  1
+kurtén, karl	  1
+kurvinen, p	  1
+kusmin, a	  1
+kustaanpoika,	  1
+küster, julius	  1
+kutorga, s	  1
+kuusela, aune	  1
+kuusi, aarne	  1
+kuusi, m i	  1
+kyllönen, j	  1
+kynä,	  1
+kyrklund, karl	  1
+kyrre, sten	  1
+l-m, o	  1
+l-n, (1824-1884)	  1
+l, (1700-1893)	  1
+l, (1852-1893)	  1
+la cour, l f	  1
+labbart, r m	  1
+ladoff, isador	  1
+lagberg, nicolaus ebbori (1703-na)	  1
+lagerbring, g	  1
+lagerfält, israel	  1
+lagerholm, j	  1
+lagerspetz, j c	  1
+lagus, f j	  1
+lagus, nicolaus (1764-1816)	  1
+lähteenpuro,	  1
+lähteinen, f k	  1
+lähteinen, väinö	  1
+laicus,	  1
+laitakari, a v	  1
+laitakari, aarne	  1
+lambert, l a	  1
+lamminen, frans	  1
+lampén, siiri	  1
+lampén, valter (1862-1960)	  1
+lampenius, k w	  1
+lampinen, j d	  1
+lamszus, wilhelm	  1
+lanaeus, j	  1
+landau, e	  1
+landén, ab	  1
+landenberger, albert	  1
+landgren, atte	  1
+landgren, c j	  1
+landquist, john	  1
+landsberger, artur	  1
+landsman, en	  1
+lång, g	  1
+lange, bengt	  1
+lange, nicolaus	  1
+lange, sven	  1
+langenskiöld, g	  1
+langenskjöld, agnes	  1
+langlet, valdemar	  1
+langmann, philipp	  1
+lännenpää, a	  1
+läntinen, v l	  1
+lappala, r	  1
+lappala, risto	  1
+lappi, a f	  1
+lapsi, kansan	  1
+lärärinna, en	  1
+larson, o j	  1
+larsson, a p	  1
+laskovski, f f	  1
+lassi,	  1
+lassila, eero	  1
+lassus, mårten (1802-1875)	  1
+latinki,	  1
+latwala, j w	  1
+laufer, berthold	  1
+lauha, m n	  1
+launhardt, wilhelm	  1
+launonen, j	  1
+laurbecchius, carolus petri (1677-1723)	  1
+laurehn, a w	  1
+laurela, kusti	  1
+laurencin,	  1
+laurent, k a	  1
+laurent, l	  1
+laurila, j	  1
+laurin, martinus (1706-1785)	  1
+laurinus, j	  1
+laurio, e (1880-1931)	  1
+lautsia, a v	  1
+lavisse, ernest	  1
+lavonius, herman	  1
+lavonius, m	  1
+lavrentjev, g	  1
+lavrentjev, k v	  1
+lavrentjeva, s i	  1
+laxenius, jacobus martini (1687-na)	  1
+laxmann, erich	  1
+lbg, h	  1
+lbk, g	  1
+le braz, anatole	  1
+lebell, michaël (1714-1786)	  1
+lechander, lars abrahamsson (1719-na)	  1
+leche, w	  1
+lechler, karl	  1
+leek, j j	  1
+legouvé, ernest	  1
+legrain, m	  1
+lehrberg, a c	  1
+lehtinen, juhana	  1
+lehtinen, m	  1
+lehtiö, e	  1
+lehtirikko, tyykö	  1
+lehto, frans	  1
+lehtonen, a	  1
+lehtonen, helmi lydia	  1
+lehtonen, herman	  1
+lehtonen, j v	  1
+lehtoranta, t	  1
+leijonmarck, jacob (1697-1735)	  1
+leijonmarck, sven christiernsson (1649-1728)	  1
+leino, eila	  1
+leino, j e	  1
+leino, w	  1
+leinonen, aleksander	  1
+leisten, gustav (1748-1818)	  1
+leiviskä, hannes (1873-1918)	  1
+leivo, j e	  1
+lempinen, k	  1
+lenau, nicolaus	  1
+lenk, margareta	  1
+lennéus, b	  1
+lennmalm, c e	  1
+lenormant, françois	  1
+lénström, c j	  1
+lenz, e	  1
+leontjeff, v	  1
+leontjev, p i	  1
+lepistö, a	  1
+lesch, thure	  1
+lethalensis, josephus laurentii (1672-na)	  1
+leuschner, w	  1
+leuven, a	  1
+levander, h	  1
+levenstim, a	  1
+levetzow, cornelia	  1
+levin, meyer	  1
+lewerén, j w	  1
+leyonstedt, wilhelm	  1
+lezint, a	  1
+lg, rf	  1
+lhotzky, heinrich	  1
+lidén, evald	  1
+lieberath, ebbe	  1
+liebknecht, karl	  1
+lignell, nicolaus (1744-1817)	  1
+liikemies,	  1
+liimatainen, a	  1
+liipola, selim (1871-1932)	  1
+lilius-thillots,	  1
+lilius, f o	  1
+lilius, selma	  1
+liljeblom, e	  1
+liljefors, axel	  1
+liljequist, n	  1
+liljeqvist, oscar	  1
+liljeroth, g	  1
+lilla, felix	  1
+lille, bengt	  1
+lilliegreen, ephraim axelsson (1668-1729)	  1
+limatius, nicolaus (1664-1705)	  1
+limingius, laurentius laurentii	  1
+limnell, axel r	  1
+linck, e	  1
+lind, e a	  1
+lind, j	  1
+lind, karl	  1
+lindberg, a v	  1
+lindberg, axel	  1
+lindberg, axel v	  1
+lindberg, ernst e	  1
+lindberg, felix	  1
+lindberg, h	  1
+lindberg, hanna (1869-1909)	  1
+lindberg, hugo	  1
+lindberg, jarl	  1
+lindberg, k e	  1
+lindberg, r o	  1
+lindblad,	  1
+lindblad, waldemar	  1
+linde, j p	  1
+lindell, oscar	  1
+lindell, per	  1
+lindelöf, j a	  1
+lindeman, jacobus	  1
+lindemann, h	  1
+lindemann, m v	  1
+lindén, aleksander	  1
+linden, j a	  1
+lindequist, björn	  1
+lindequist, jacobus (1768-1849)	  1
+lindeqwist, c j	  1
+lindfors, m k	  1
+lindfors, n	  1
+lindgren, armas (1874-1929)	  1
+lindgren, e	  1
+lindgren, hellen	  1
+lindh, e a	  1
+lindh, o	  1
+lindholm, alfred rikhard	  1
+lindholm, artur j	  1
+lindholm, f k e	  1
+lindholm, k	  1
+lindholm, k e	  1
+lindholm, m	  1
+lindholm, valdemar	  1
+lindholm, waldemar	  1
+lindman, w	  1
+lindqvist, j	  1
+lindsteen, o	  1
+lindström, f j	  1
+lindström, ivar	  1
+lindström, j j	  1
+lindvall, c a	  1
+ling, e	  1
+linko, sulo	  1
+linna, h i	  1
+linsén, k f	  1
+lipajev, i v	  1
+liprandi, a p	  1
+lisowskij, m	  1
+lissander, anders	  1
+listner, karl	  1
+litvinov, i s	  1
+ljalina, m a	  1
+ljaštšenko, a i	  1
+lobe, j c	  1
+locke, john	  1
+lockyer, j norman	  1
+loefwing, g m	  1
+löffler,	  1
+löfgren, h a	  1
+löfqvist, reguel	  1
+löfvenskiöld, a h	  1
+löhr, c a j	  1
+lombroso, cesare	  1
+lönborg, sven	  1
+londen, m	  1
+lönnbeck, a a	  1
+lönnberg, k j	  1
+lönnbohm, o a f	  1
+löns, hermann	  1
+loofeldt, per antonsson	  1
+lordbrok,	  1
+lortzing, albert	  1
+löthman, j l	  1
+lotter, t c (1717-1777)	  1
+louekari, f a	  1
+louhelainen, o a	  1
+louise,	  1
+loveson, karl	  1
+lubin, r p augustin (1624-1695)	  1
+lucas,	  1
+lucko, y y	  1
+lukianos,	  1
+lumivuokko, j	  1
+lundahl, b	  1
+lundegård-hagberg, marianne	  1
+lundegård, axel	  1
+lundelin, j a	  1
+lundén, o w	  1
+lundenius, carolus gustavus (1780-1844)	  1
+lundh, thora	  1
+lundin, k f	  1
+lundius,	  1
+lundqvist, k a	  1
+lundsten, j r	  1
+lütken, c f	  1
+lutsenko, e i	  1
+luukkonen, emil (1875-1932)	  1
+lvovitš, v	  1
+lyall, edna	  1
+lydecken, e a	  1
+lyth, p g	  1
+lyytikäinen, lydia	  1
+lyžin, n p	  1
+m-aa, a	  1
+m-g, f	  1
+m-n,	  1
+m-n, e	  1
+m-r,	  1
+maamies, aseeton	  1
+maanpakolainen,	  1
+maasalo, armas	  1
+määttälä, e	  1
+mac fadden, bernarr	  1
+mac grath, harold	  1
+mac gregor, g h c	  1
+mac kunnie, p	  1
+macé, gustave	  1
+macgregor, g h c	  1
+maël, pierre	  1
+maestertius, jacobus (1610-1658)	  1
+mahn, j h f	  1
+mäkelä, h o	  1
+mäkelä, v	  1
+mäkelin, yrjö	  1
+mäki, m e	  1
+mäkinen, alfred	  1
+mäkinen, karl	  1
+mäklin, h	  1
+maksaja, pikku	  1
+maksimoff, c	  1
+malishevskij, j j	  1
+malle,	  1
+malm, e	  1
+malmberg, emil	  1
+malmberg, olli	  1
+malmgren, signe	  1
+malmivaara, väinö	  1
+malmström, r	  1
+malser, hans	  1
+mamin-sibirjak, d n	  1
+mandelin, k f (1854-1906)	  1
+mandelstam, j	  1
+mangasarian, m m	  1
+mangold, h v	  1
+mangold, h w	  1
+manizeff, m	  1
+manner, j v	  1
+mannermaa, k h	  1
+mannteuffel, p	  1
+mantegazza, paolo	  1
+mänttä, j	  1
+marchand, rené	  1
+marchmont, arthur w	  1
+marcus,	  1
+mariaestadius, isaacus	  1
+mariupolsky, l	  1
+marshall, a milnes	  1
+martensen-larsen, h	  1
+martikainen, aura	  1
+martin, l	  1
+martin, roland	  1
+marttini, i	  1
+mason, alfred b	  1
+matareva,	  1
+matelin, v	  1
+mathesius, aaron nicolai (1736-1808)	  1
+matter, m	  1
+matthey, a	  1
+matthiesen, h i f c	  1
+mattila, j h	  1
+mattila, v	  1
+mattila, v h	  1
+mattis,	  1
+mattsson, g	  1
+mattsson, g e	  1
+maunu, j p	  1
+maunu, malmanen (1821-1893)	  1
+may, k	  1
+mc mahon, john	  1
+mcmahon, john	  1
+mead, g r s	  1
+medborgare,	  1
+medin, o	  1
+medlem, en	  1
+mehring, franz	  1
+meibom, i	  1
+meinander, einar	  1
+meissner, alfred	  1
+meissner, hermann	  1
+mela, eino	  1
+melander, anders	  1
+melander, yngve	  1
+melart, xx	  1
+melartin, e g	  1
+mellberg, c a	  1
+mellin, lars hermansson (1670-1744)	  1
+mellqvist, karl	  1
+melnitski, v	  1
+melville, w	  1
+memini,	  1
+menlös, c j	  1
+mensch, g	  1
+merentausta, j	  1
+merian, matthäus	  1
+meriluoto, aino	  1
+meriluoto, k a	  1
+merula, turdus	  1
+messel, p	  1
+metzeen, olof	  1
+meyer-förster, wilhelm	  1
+meyer, k f	  1
+meyer, xx	  1
+mickwitz, a	  1
+micrander, julius (1640-1702)	  1
+middleton, r	  1
+mielikäinen, e	  1
+miettinen, herman	  1
+miettinen, m	  1
+migulin, p	  1
+mihailov, s k	  1
+miikki, m	  1
+mikael, (1877-1918)	  1
+mikkola, l	  1
+miklaszewski, m n	  1
+mikluho-maklai, m n	  1
+millar, g g	  1
+miller, j a	  1
+minucius, felix m	  1
+minut,	  1
+moberg,	  1
+moberg, j	  1
+modeen, a e	  1
+moffett, cleveland	  1
+mohr, o e	  1
+moliis-mellberg, g	  1
+molin, gustavus nicolaus (1779-1824)	  1
+molin, laurentius	  1
+molin, pelle	  1
+möller, a w	  1
+möller, p	  1
+molloy, fitzgerald	  1
+molnár, ferenc	  1
+mölsé, wilhelm	  1
+monhaupt, f n	  1
+monisti,	  1
+monod,	  1
+monod, a	  1
+montanus, mathias	  1
+montell, r	  1
+montell, wilhelm	  1
+montgomery, gust	  1
+montin, isaacus	  1
+montin, r w	  1
+moore, thomas	  1
+morane, pierre	  1
+moravski, s p	  1
+morawsky, s p	  1
+moreau, f	  1
+morel-fatio, l	  1
+morgan, r c	  1
+mörner, birger	  1
+mörnerus, carolus	  1
+morozov, p	  1
+morrice, f l h	  1
+mörtengren, hans	  1
+mosander, k g e	  1
+mosen, julius	  1
+most, john	  1
+mr,	  1
+mühe, ernst	  1
+mukanaollut,	  1
+multamäki, s e	  1
+munck af rosenschiöld, e z	  1
+munster, jacobus bernhardi	  1
+münter, hermann	  1
+munter, i j	  1
+murbeck, peter	  1
+murenius', boëtius	  1
+murman, j w	  1
+murray, c c	  1
+murray, d c	  1
+murray, e e	  1
+musikka,	  1
+mustakallio, joh (1846-1915)	  1
+mustonen, g v	  1
+muukka, elias	  1
+mxn, mz	  1
+mygind, h j	  1
+myging, h j	  1
+mylius, ernest	  1
+myllylä, hannes	  1
+myrsky, eino	  1
+n m, a	  1
+n:o,	  1
+naezenius, esaias gregorii (1707-na)	  1
+nathhorst, alfred	  1
+natunen, elna	  1
+nauckhoff, xx	  1
+näver, jussi	  1
+nea, (1871-1942)	  1
+needran, andrews	  1
+nejberg, a g	  1
+nelson, axel	  1
+nelson, o	  1
+neovius, o	  1
+neovius, werner	  1
+nerman, birger	  1
+nessuno,	  1
+nestor, (1856-1920)	  1
+neubert, c f e	  1
+nevalainen, mandi	  1
+nevolin, k a	  1
+newton, b w	  1
+newton, john	  1
+nicandor,	  1
+nicolai, laurentius (1675-na)	  1
+niemi, h	  1
+nieminen, a w	  1
+nikander, ivar	  1
+nikander, j g	  1
+niloni, joh emil	  1
+nilsson, axel	  1
+nilsson, j o	  1
+nimb, louise	  1
+nirutaka,	  1
+niskanen, kusti	  1
+nisonen, h	  1
+nissinen, aarne	  1
+niurenius, nicolaus petri	  1
+nivalainen, d	  1
+nivé, p a	  1
+nizar, g	  1
+nm, -n	  1
+noberg, j e	  1
+nobesius, michael (1725-1791)	  1
+noble, pere	  1
+noponen, a	  1
+nordberg, frans	  1
+norden, julius	  1
+nordenskiöld, karl (1837-1889)	  1
+nordenstreng, arvid	  1
+nordensvan, g m	  1
+nordhoff, c	  1
+nordin, j l	  1
+nordlund, a o	  1
+nordlund, berta	  1
+nordlund, frans	  1
+nordlund, karl ivar	  1
+nordman, g a	  1
+nordström, åke	  1
+nordström, ernst samuel	  1
+nordström, j j	  1
+norrgren, l	  1
+norris, w e	  1
+norrlander, r	  1
+norrmén, p h	  1
+novorusskij, m	  1
+nummelin, g a	  1
+nurhonen, j	  1
+nurmi, eeli	  1
+nurminen, k j	  1
+nuutinen, j w	  1
+nyberg, arvid	  1
+nyberg, b	  1
+nyberg, claës (1799-1883)	  1
+nyberg, hugo	  1
+nybergh, hugo	  1
+nyblaeus, olof	  1
+nyblom, c g	  1
+nyblom, c r	  1
+nycopensis, martinus olai (1596-1657)	  1
+nyholm, c a	  1
+nyholm, hugo	  1
+nykopp, onni	  1
+nylander, helmi	  1
+nylin, e o	  1
+nylund, h j	  1
+nyman, h	  1
+nyman, jonas	  1
+nystén, e r	  1
+o'hare, kate richards	  1
+o'neil, james	  1
+oahspe,	  1
+öberg, l u f	  1
+obstfelder, siegbjörn	  1
+odel, anders	  1
+öflund, o	  1
+ogilwie, patrik patriksson (1705-na)	  1
+oguse,	  1
+öhberg, a	  1
+ohlsson, edith	  1
+ohlsson, sven	  1
+öhquist, a	  1
+oiva,	  1
+ojajärvi, k w	  1
+ojala, n	  1
+oksa, v	  1
+oksala, k	  1
+oksala, o	  1
+oksanen, v i	  1
+oksanen, w:m	  1
+olenev, i v	  1
+olofsson, o eneroth	  1
+olsson, o	  1
+olsson, p	  1
+oneal, james	  1
+onni,	  1
+opartisk,	  1
+opettaja,	  1
+oppenheim, w	  1
+optimist, (1849-1937)	  1
+oras, jussi	  1
+orava, ida	  1
+orjanheimo,	  1
+orjatsalo, aarne (1883-1941)	  1
+orla-jensen, s	  1
+örling, e w	  1
+orloff, p	  1
+orlow, i	  1
+orlow, n f	  1
+orraeus, paulus gustavus (1759-1803)	  1
+orrman, h l	  1
+orzsezko, eliza	  1
+osatoveri, eräs (1875-1919)	  1
+östberg, jacob	  1
+östberg, karl	  1
+österbottning, en (1867-1932)	  1
+östergaard, c j	  1
+osterloh,	  1
+osterloh, agnes	  1
+österman, bengt	  1
+österman, i s	  1
+osterwald, wilhelm	  1
+östman, j o	  1
+östman, p	  1
+östring, peter	  1
+ostroumov, i	  1
+ostroumow, st	  1
+ostrovski, a n	  1
+oterdahl, jeanna	  1
+otte, heinrich	  1
+ottelin, aino	  1
+ottelin, einar	  1
+otto, c a	  1
+otto, c m	  1
+owen, r d	  1
+oxe, lorentz erich (1674-na)	  1
+oxenden, r	  1
+p-n, j	  1
+p-r, w	  1
+p-ri, m	  1
+p, (1722-1939)	  1
+p, (1888-1939)	  1
+p:nen, l	  1
+p:nen, m	  1
+paananen, henni	  1
+paananen, wäinö	  1
+paasche, hans	  1
+paasikangas, väinö	  1
+paavo-kallio, esaias	  1
+paavonen, t w	  1
+pacius,	  1
+pahlman, w	  1
+paine, thomas	  1
+päivänsalo, laina	  1
+pakarinen, eino	  1
+pakkala, arvid	  1
+palander, e w	  1
+palander, w f (1857-1889)	  1
+palivanoff, peter sergejevitsch	  1
+palletvuori, o a	  1
+palm, a j	  1
+palm, emil	  1
+palm, k o l	  1
+palmberg, bertil albert	  1
+palmberg, karl	  1
+palme, olof (1884-1918)	  1
+palme, sven	  1
+palmer, linda	  1
+palmgren, axel	  1
+palmgren, valfrid	  1
+palmroth, artur	  1
+paloheimo, k a	  1
+palomäki, a j	  1
+panelius, emil	  1
+panknin, c l	  1
+panoff, v i	  1
+panzer, g	  1
+paparregopulos, demetrios	  1
+pappi, suomen	  1
+parker, gilbert	  1
+parkkila, john	  1
+parmanen, eino	  1
+parmanen, w	  1
+parment, jacob	  1
+partanen, a j	  1
+passirinta,	  1
+pathfinder,	  1
+patomäki, k a	  1
+paton, john g	  1
+paulus, j	  1
+pavlovski, vladimir	  1
+payard, m	  1
+peck, g w	  1
+pedagog, en	  1
+pedersen-bjergaard, j	  1
+pedischeff,	  1
+pehkonen, e y	  1
+pehkonen, f a	  1
+pehrsson, olof	  1
+peiboi, v	  1
+pekkala, eino	  1
+pelkonen, e j	  1
+pelkonen, j a	  1
+pellico, silvio	  1
+pellinen, simo	  1
+peltolainen, frans	  1
+peltovuoma, a	  1
+peltowuoma, a	  1
+pennanen, a	  1
+pentti, s j	  1
+penttinen, k j	  1
+perander, h g (1818-1883)	  1
+perander, j j f (1838-1885)	  1
+pergament, m	  1
+peringer, gustavus	  1
+pernerus, nicolaus (1711-1743)	  1
+perttilä, v (1878-1969)	  1
+peschier, eugène	  1
+petander, a h	  1
+peter, a	  1
+petersén, f	  1
+peterson, c f	  1
+peterson, c m	  1
+petri, jeremias	  1
+petriin, nicolaus (1739-na)	  1
+pettersson, alfred	  1
+pfannschmidt-beutner, renate	  1
+phibbs, isabella	  1
+philander	  1
+philip, gösta (1830-1880)	  1
+philippson, alfred	  1
+philips, roland e	  1
+philophilus	  1
+phlips, f c	  1
+piave, j m	  1
+pictorius, carolus olai (1649-na)	  1
+pieles,	  1
+pietilä, väinö (1888-1917)	  1
+piha, waldemar	  1
+pihkala, r	  1
+pihlström, e f	  1
+pikkarainen, a	  1
+pikkuviljelijä,	  1
+pikoff, e	  1
+pimenova, e	  1
+pimiä, j a	  1
+pinello, n e	  1
+piponius, e a	  1
+piponius, h	  1
+pipping, aline	  1
+pipping, rolf	  1
+pippingsköld, f	  1
+pirilä, p w	  1
+pirinen, edward	  1
+pirinen, t	  1
+piscator,	  1
+plantin, olof	  1
+planting, a k	  1
+planting, c w	  1
+planting, e	  1
+plato,	  1
+ploompuu, j	  1
+plüschow, gunther	  1
+plym-forshell, j	  1
+pobyedonostseff, k p	  1
+pogodin, a l	  1
+pohjakallio, k a	  1
+pohjalainen, (1884-1948)	  1
+pohjanen, k (1820-1905)	  1
+pohjanvuori, f	  1
+pohjonen, herman	  1
+pohl, emil	  1
+poirot, j	  1
+pole, r	  1
+polén, jenny	  1
+polevoi, peter nikolajevitsh	  1
+polviander, carolus nicolai (1712-1798)	  1
+polvinen, a	  1
+ponnelle, pierre	  1
+poppenberg, felix	  1
+poppius, xx	  1
+porter, t c	  1
+porthan, caspar (1677-1705)	  1
+portulinus, carolus erici (1656-na)	  1
+poshitnow, k a	  1
+posse, sigrid	  1
+post, r v	  1
+potapénko, i	  1
+potiechin, aleksei antipovitsh	  1
+pötsi, a	  1
+pottier, eugène	  1
+povlsen, karl	  1
+praktikus,	  1
+pratt, ambrose	  1
+pravdin, i	  1
+prentiss, e	  1
+prévost,	  1
+primus nyman, k e (1887-1947)	  1
+pripp, e	  1
+probst, j a	  1
+prochman, carolus martini (1735-na)	  1
+puhakka, väinö	  1
+puke, sven	  1
+pulkkinen, a	  1
+pulkkinen, kasper	  1
+puolueeton,	  1
+puro, olavi h (1883-1933)	  1
+puskanen, jussi	  1
+putkisto, k i	  1
+puttila, t	  1
+puttonen, yrjö	  1
+puukko, anders filemon	  1
+puustinen, einar	  1
+puzyrevski, p	  1
+pylkkänen, n p	  1
+pyykönen, m	  1
+qvist, e	  1
+r-m-n,	  1
+r-mari, j	  1
+r-nen, a	  1
+r-nen, i	  1
+raabe, wilhelm	  1
+rabe, k a	  1
+rack, b a	  1
+radziwill,	  1
+raekallio, joh	  1
+raevuori, yrjö	  1
+railo, jussi	  1
+räisänen, j w	  1
+raitakari, v	  1
+rakhmetov,	  1
+rålamb, åke	  1
+ramatsharaka,	  1
+rambaud, alfred nicolas	  1
+rampau, jacob	  1
+rancken, a w	  1
+rancken, lydia	  1
+rännäri, e a	  1
+ransome, arthur	  1
+ranta, o w	  1
+rantala, eino	  1
+rantala, t	  1
+rantalainen, a	  1
+rantasalo, a v	  1
+rapola, martti	  1
+rappe, wilhelm	  1
+raquette, g	  1
+rasch,	  1
+rask, rasmus	  1
+rasmussen, hans	  1
+räty, a (1825-1852)	  1
+rausch, alfred	  1
+rautanen, v	  1
+rautapää, hugo	  1
+rautiainen,	  1
+rautiainen, d j	  1
+rauvola, t e	  1
+ravn, f kølpin	  1
+reedtz thott, o	  1
+regnard, j f	  1
+rehbinder, o c	  1
+rehhoff,	  1
+rehn, e	  1
+reich, a	  1
+reich, c	  1
+reijonen, t	  1
+reinhold, b	  1
+reinhold, roine	  1
+reinius, israel matthiae (1699-1771)	  1
+reino, o	  1
+reitz, franz	  1
+rekonen, jonas	  1
+relander, artur	  1
+remahl, elias (1712-1788)	  1
+remahl, j	  1
+renée, gaston	  1
+renfors, eskil	  1
+renkonen, w o	  1
+renvald, v h	  1
+renvall, uuno (1877-1918)	  1
+requart, rudolf	  1
+retcliffe, john	  1
+retvih, n p	  1
+reusch, franz heinrich	  1
+reuter, j	  1
+reuterholm, axel	  1
+reuterskiöld, edgar	  1
+revilliod, r	  1
+rhiem, hanna	  1
+richebourg, émile	  1
+richter, albert	  1
+richter, e f	  1
+richter, frans evert	  1
+riegels, v	  1
+rimahl, carolus	  1
+rinman, joh	  1
+rinman, karl	  1
+rissler, jeremias	  1
+rist, p f	  1
+ritsius, joachim	  1
+ritz, c	  1
+roberg, laurentius	  1
+robertson, f w	  1
+robinson, john (1650-1723)	  1
+rochat, l l	  1
+rockefeller, john d	  1
+rodhe, estrid	  1
+rodionov, i a	  1
+roehrig, f l o	  1
+rogberg, anders (1704-1780)	  1
+roine, r	  1
+romani, f	  1
+rømcke, c	  1
+rönkä, ida	  1
+rönngren, r r	  1
+roos, emil	  1
+roos, g h	  1
+rørdam, valdemar	  1
+roschier, l j	  1
+roschier, r h	  1
+rosenback, e e	  1
+rosenback, erland	  1
+rosenberg, k g	  1
+rosendahl, frans (1842-1886)	  1
+rosengren, edvin	  1
+rosenlew, wilhelm	  1
+rosenqvist, axel	  1
+rosenqvist, emil	  1
+rosenthal, moritz	  1
+roshkow, n	  1
+rosqvist, i	  1
+ross, jacob wilhelm (1784-na)	  1
+rosswally, m l	  1
+rosvall, anders	  1
+rothman, a	  1
+rothman, hanna	  1
+roussel, s	  1
+routanen, l	  1
+roy, j -edmond	  1
+rozonov, a c	  1
+rubanovitsch, j	  1
+rudbeck, e (1830-1867)	  1
+rudelbach,	  1
+rudenschöld, ulrik (1704-1765)	  1
+rüdiger, minna	  1
+rudnev, a d	  1
+rudström, a e	  1
+rüegg, h r	  1
+ruhe, algot	  1
+rumjantseff, a	  1
+runeberg, birger	  1
+runkrantz, c a w	  1
+runkrantz, e a w	  1
+runolinna, k w	  1
+ruokosalmi, a	  1
+ruotanen, a r	  1
+ruotsalainen, aina	  1
+ruotsi, m (1875-na)	  1
+russell, r j	  1
+russell, w clark	  1
+rutanen, e g	  1
+rutanen, e k	  1
+ruth, a	  1
+rutström, a e	  1
+rutström, anders karl	  1
+ruusuvuori, oiva	  1
+ruuth, samuel	  1
+ry, wm	  1
+rydberg, per axel	  1
+rydman, arvid	  1
+rylander, a	  1
+rytkönen, a (1870-1930)	  1
+ryynänen, s	  1
+s-m, w-r	  1
+s-oj-i,	  1
+s-t, a	  1
+s:n, b	  1
+s:s, a	  1
+saarinen, j	  1
+saastamoinen, e	  1
+saastamoinen, j v	  1
+saavalainen, a	  1
+sabelhierta, jacob jacobsson (1713-na)	  1
+sabina, k	  1
+sadeniemi, yrjö	  1
+säf, mathias (1732-1776)	  1
+saharov, a	  1
+sahlgren, jöran	  1
+sahlman, joh	  1
+saikku, hanna	  1
+sainio, j a	  1
+saint-boeuf,	  1
+saint-hilaire, k	  1
+sakslin, t	  1
+salanimi,	  1
+salemannus, jonas jonae (1652-na)	  1
+salin, samuel	  1
+salingre, axel	  1
+sällberg, thure	  1
+salli, eino (1882-1926)	  1
+salmela, alfred (1897-1979)	  1
+salmenius, emanuel (1771-1832)	  1
+salmenvuori, e	  1
+salmi, b	  1
+salo,	  1
+salo, a	  1
+salola, fridolf a	  1
+salomaa, j e	  1
+salonen, frans	  1
+salonen, hugo t	  1
+salonen, i a	  1
+salonius, a h	  1
+salosaari, olavi	  1
+salovaara, hannes	  1
+saltykov-štšedrin, m	  1
+salvius, lars (1706-1773)	  1
+samburski, a	  1
+samppa, sav'-ojan	  1
+samppa, sav'ojan	  1
+samuelsson, sven	  1
+sananpalvelija,	  1
+sand, mikael	  1
+sandberg, algot	  1
+sandelin, e	  1
+sandelin, j f	  1
+sandelin, j w	  1
+sandelin, s s	  1
+sandmarck, göran	  1
+sandroos, emil	  1
+sangiacomo, a olivieri	  1
+sapiens, homo (1874-1935)	  1
+sarakorpi, o	  1
+saraste, r	  1
+sarlin, emil	  1
+sarlin, hannes	  1
+sarlin, r	  1
+sarmatus,	  1
+sartellius, henrick	  1
+sårvari, anders	  1
+sasonof,	  1
+saukko,	  1
+saviola, j	  1
+savolahti, k r	  1
+savolainen, herman	  1
+savolin, m	  1
+saxman, herman	  1
+schalin, laurentius	  1
+schaller, a	  1
+schartau, gustava	  1
+schauman, k f j	  1
+scheehter, b	  1
+scheiner, julius	  1
+schele, hans hansson (1747-na)	  1
+schenström, f	  1
+scherer, m	  1
+scheve, gustav	  1
+scheveljagin, n i	  1
+schikaneder, emanuel	  1
+schildt, alfred	  1
+schilinski, a a	  1
+schilling, olof	  1
+schjerbeck, m	  1
+schjerfbeck, m	  1
+schlosser, g	  1
+schmidt, gustav	  1
+schmidt, jacob f	  1
+schmitt, e h	  1
+schneider, l	  1
+schnitzler, j -h	  1
+schogster, gustavus (1769-1829)	  1
+scholander, f w	  1
+schönström, peter	  1
+schorlemmer, c	  1
+schorsch, l	  1
+schreff, h	  1
+schröder, arnold	  1
+schröer, gustav	  1
+schrutz, demetrius	  1
+schultenius, samuel	  1
+schur, israel	  1
+schuster, i	  1
+schütz, caspar (1594-na)	  1
+schvindt, v	  1
+schwanebach, p	  1
+schwanenflügel, h	  1
+schwartz, a	  1
+schwarz, a	  1
+schwindt, blenda	  1
+scott-elliot, w	  1
+scott-moncrieff, c w	  1
+sederholm, e	  1
+sederholm, edwin	  1
+segercrantz, w	  1
+segerstråle, j v	  1
+seibert, g w	  1
+seidel, heinrich	  1
+seidler, u j	  1
+selander, adèle	  1
+selin, r	  1
+sellin, ernst	  1
+selmer, å g	  1
+selow-serman, k e	  1
+selss, g	  1
+seneca, l annæus	  1
+senft, a	  1
+septimus, (1879-1946)	  1
+serenius, h	  1
+serenius, tobias	  1
+sergeeff, g	  1
+sergejevski, n d	  1
+serlachius, f alf	  1
+sesemann, lydia	  1
+seton-karr, h w	  1
+seume, j g	  1
+sextius,	  1
+siebe, josephine	  1
+sieber, jos	  1
+siirala, martti (1889-1948)	  1
+siirilä, väinö	  1
+siitoin, k	  1
+sil-vara,	  1
+silberstein-rixdorf, r	  1
+silén, helga	  1
+silfvast, j	  1
+silieström, olof	  1
+šilovski, p	  1
+siltala silfvenius, a j	  1
+silvanto, reino	  1
+silvennoinen, onni	  1
+simelius, a w	  1
+simelius, jacobus (1755-1806)	  1
+simo, m	  1
+simonnot, e	  1
+simons, g a	  1
+sininen, l (1875-1919)	  1
+sinisalo, sulo	  1
+sinkkonen, olli	  1
+sipi, julius n	  1
+šipov, n n	  1
+sipponen, m	  1
+sirelius, arne	  1
+sirelius, i	  1
+sirén, a	  1
+sirkka, impi	  1
+sirkka, o v	  1
+sirn, carolus	  1
+šiškov, a s	  1
+sivén, v o	  1
+sivori, emil	  1
+siwle, per	  1
+sjöberg, h r a	  1
+sjöberg, o r	  1
+sjöblom, ulrik	  1
+sjölund, k	  1
+sjöstedt, l	  1
+sjöström, e	  1
+skoglund, g m	  1
+skolan, lärarinnor	  1
+sköldberg, p b	  1
+skorikov, n p	  1
+skram, amalie	  1
+smed, göran	  1
+smedberg, f	  1
+smirnoff, a	  1
+smirnoff, peter	  1
+smirnov, m n	  1
+smirnov, miron	  1
+smirnovskij,	  1
+smirnow, petr	  1
+smith, j g	  1
+smith, stephen	  1
+smo, (1875-1919)	  1
+snd, a	  1
+šnejerson, i	  1
+snellman, a e	  1
+snoilsky, c	  1
+snour,	  1
+sobolevski, v	  1
+södengård, p	  1
+söderberg, c g	  1
+söderblom, nathan	  1
+söderholm, a	  1
+söderholm, o	  1
+söderlund, j w	  1
+söderman, karl	  1
+söderström, ivar	  1
+sohlman, b	  1
+sohlman, k e	  1
+sohlström, axel w	  1
+soini, s	  1
+soldin, l a	  1
+solovjev, a	  1
+solovjev, vladimir	  1
+solowjeff, w	  1
+somerville, a n	  1
+sonck, j g	  1
+sonck, lars	  1
+sonninen, j	  1
+sörensen, edith	  1
+sormunen, p	  1
+sorsen, o h	  1
+sorthan, s	  1
+späd, ville	  1
+spåre, h a w	  1
+sparre, claudius erici (1653-1715)	  1
+spegel, haquinus m	  1
+spektator, (1829-1903)	  1
+sperling, a	  1
+sperling, j	  1
+špilevskaja, n	  1
+sprengberg, j	  1
+st john, vincent	  1
+st, g	  1
+stachaeus, laurentius zachariae (1696-na)	  1
+stadigt, v e e	  1
+stadius, elias (1761-1833)	  1
+stadius, elias jacobsson (1664-1740)	  1
+stadsbo,	  1
+ståhl, einar	  1
+ståhlfoot, erland	  1
+stålberg, wilhelmina	  1
+stammen,	  1
+stanjukovitsh, k	  1
+starbäck, c g	  1
+starck, k	  1
+starcke, christoph	  1
+stead, w t	  1
+stechern, gottfried	  1
+steenholm, joh	  1
+stein-mejer, joh b	  1
+stein, ernst	  1
+steinmeyer, j b	  1
+stella,	  1
+stenbäck-lönnberg, signe (1887-1958)	  1
+stenbäck, l	  1
+stendhal,	  1
+stenij, e s	  1
+stenius, axel	  1
+stenius, isaacus martini (1636-1702)	  1
+stenius, jacobus martini (1704-1766)	  1
+stenius, m g	  1
+stenman, i g	  1
+stenroth, a	  1
+stenvik, f	  1
+stenwall, hanna kiwi	  1
+stephani, laurentius (1669-na)	  1
+stern, alfred	  1
+stigzelius, laurentius matthiae (1598-1676)	  1
+stirton, a m	  1
+stjerncreutz, albin (1828-1862)	  1
+stjernstedt, marika	  1
+stjernvall-walleen, emil	  1
+stjernvall, j	  1
+stobaeus, nicolaus	  1
+stöckel, h f	  1
+stockman, w	  1
+stolypin, p a	  1
+storbjörk, j	  1
+storm, sten (1882-1968)	  1
+stott, g	  1
+strahoff, w	  1
+strauss, emil	  1
+strömberg, g j	  1
+strömborg, i	  1
+strömborg, s	  1
+strömborg, signe	  1
+strümpfel, emil	  1
+studnicki, wł	  1
+sturluson, snorri	  1
+sturzen-becker, wilhelm	  1
+stuxberg,	  1
+styrbjörn,	  1
+šubert, f f	  1
+suburg, lilli	  1
+sucksdorff, v	  1
+suder, p	  1
+suharo, vladimir	  1
+suhonen,	  1
+suits, gustav	  1
+sully, james	  1
+sundell, a a	  1
+sundell, i g	  1
+sundholm, albert	  1
+sundqvist, john	  1
+sundström, rudolf	  1
+sundström, sigfrid	  1
+sundvall, e e	  1
+sundvik, e e	  1
+suokas, aarne	  1
+suolahti, e	  1
+suomela, (1827-1884)	  1
+suomela, j (1827-1884)	  1
+suominen, k w	  1
+suonivaara, k v	  1
+suosiva, vireyttä	  1
+süssmuth, j j	  1
+suŝtŝinski, p p	  1
+suštšinski, p p	  1
+suursalmi, onni	  1
+svahnström, a r	  1
+svartz, xx	  1
+svedberg, jesper	  1
+svenonius, laurentius	  1
+svenson, a	  1
+svensson, axel b	  1
+svensson, c g	  1
+svensson, emil	  1
+svensson, sigurd	  1
+sverdsjö, gustav (1773-1813)	  1
+swedenborg, emanuel	  1
+swederus, g	  1
+swindsk,	  1
+sydänheimo, mathias	  1
+synkkälä, ulla	  1
+synnerberg, jonas	  1
+syreen, peter håkanson	  1
+syvänen, j	  1
+szinnyei, frans	  1
+t-'', (1775-1844)	  1
+t-n, a	  1
+t, (1870-1928)	  1
+taanonen, i e	  1
+taburno, j	  1
+tagantseff, n s	  1
+tagantzeff, n s	  1
+tähtilä, r	  1
+tähystäjä,	  1
+takajama, s	  1
+takala, armas	  1
+tallgren schalin, aili	  1
+talliat-kelpša, j	  1
+tallimäki, e	  1
+tallqvist, gösta	  1
+talma, eino	  1
+talmage de witt, t	  1
+talonpoika, suomalainen	  1
+tålpo, a	  1
+tammelin, jacob (1718-1775)	  1
+tammerfors-bo,	  1
+tammio, e j	  1
+tammiputtonen, v (1864-1944)	  1
+tammivuori, e g	  1
+tanner, h	  1
+tanner, väinö (1881-1966)	  1
+tanskanen, e	  1
+taris, étienne	  1
+tarjanne, a (1862-1922)	  1
+tarkiainen, u j	  1
+tarkiainen, v	  1
+tarkkanen, u j	  1
+tarmo, f l	  1
+tärnström, christoph	  1
+taskinen, k	  1
+tavaststjerna, a	  1
+tavaststjerna, h	  1
+tavaststjerna, karl a	  1
+tavaststjerna, onni	  1
+tawaststjerna, a	  1
+taylor, geraldine	  1
+tea,	  1
+techtonius, carolus	  1
+tegengren, k v	  1
+teirikari, j a	  1
+tellman, jonas	  1
+temme, j d h	  1
+tengberg, rudolf	  1
+tenov, elna	  1
+tepponen, h	  1
+tepukka,	  1
+terho, k	  1
+tervo, j p	  1
+tervo, werner mikael	  1
+tesdorpf, j	  1
+tetterman, a	  1
+teza, e	  1
+th, g	  1
+thaulow, e	  1
+thayer, w m	  1
+thebelius, j	  1
+theremin, f	  1
+therman, ernst	  1
+therman, uno	  1
+theslöf, gösta (1872-1939)	  1
+thonberg, e n	  1
+thora,	  1
+thorild, thomas	  1
+thorne, e	  1
+thorne, eglanton	  1
+thoroddsen, thorvald	  1
+thorp, fielden	  1
+thrige, s b	  1
+thurman, j	  1
+thyra,	  1
+thyrén, j	  1
+tidholm, jonas	  1
+tigerstedt, arthur	  1
+tiisala, k v	  1
+tilenius, samuel petri (1683-na)	  1
+timidulus,	  1
+timofejev, l k	  1
+tirkkonen, p j	  1
+tirronen, reijo	  1
+tjeder, michaël (1797-1842)	  1
+tjenare, en	  1
+tohtori,	  1
+toiviainen, e	  1
+toiviainen, juhana	  1
+toiviainen, s	  1
+toivola, h	  1
+toivonen, n j	  1
+toivonen, onni	  1
+tokarski,	  1
+tokutoimi, k	  1
+toll, r g	  1
+tolpo, nicolaus	  1
+tolvanen, onni	  1
+tönniges, c	  1
+tophel, g	  1
+toppelius, g	  1
+torckell, albin	  1
+tornaeus, jonas (1715-na)	  1
+törneroos,	  1
+törneroos, anders (1835-1896)	  1
+törnvall, lars emil	  1
+torpanpoika,	  1
+torpensis, lars (1652-1739)	  1
+torsk, jonas laurentii (1634-1691)	  1
+tourgée, albion w	  1
+toveri,	  1
+tpatter, spencer	  1
+trafikant,	  1
+tråsdahl, j	  1
+travers, rosalind	  1
+treller, franz	  1
+trencknern, joh heinrich	  1
+trizna, d s	  1
+troitski, d	  1
+trotskij-senjutovitš, p n	  1
+tschepurnoff, a	  1
+tschirn, g	  1
+ts̆ernjaev, n i	  1
+tshaikovski, m	  1
+tsion, s a	  1
+ts̆its̆erin, boris nikolaevits̆̌	  1
+tukiainen, m	  1
+tulander, l	  1
+tulenheimo, martti	  1
+tuntematon,	  1
+tuokko,	  1
+tuominen, j h	  1
+tuompo, j e	  1
+tuores, j	  1
+tuplawee,	  1
+turist, en	  1
+tuuri, väinö a (1886-na)	  1
+twining, t	  1
+uggla, john (1870-1954)	  1
+uhl, gustav	  1
+uhlbeck, josephus matthiae (1697-na)	  1
+uhrlander, tobias tobiae	  1
+ulla-täti,	  1
+ulmgreen, laurentius nicolai (1655-1711)	  1
+ulrici, h	  1
+unge, lars (1732-na)	  1
+unger, a w	  1
+unger, hans	  1
+uni-jussi,	  1
+uppgård, karl	  1
+urban, woldemar	  1
+utanblad, tyykö	  1
+utter, carolus gustavus (1774-1805)	  1
+utter, per månsson (1632-na)	  1
+uura, esko	  1
+v konow, agnes	  1
+v qvanten, emil	  1
+v schoultz, gösta	  1
+v, (1880-1915)	  1
+väätänen, aleksander	  1
+vahl, j	  1
+vahrušev, m n	  1
+vainio, armi	  1
+vainio, emil (1867-1918)	  1
+vainio, rufus v	  1
+väinölä, rudolf	  1
+väkeväinen, m	  1
+valiszevsky, k	  1
+valkama, hannes	  1
+valle, k j	  1
+valo, j v	  1
+valtiopäivämies, (1850-1922)	  1
+valvanne, hugo	  1
+vambéry, h	  1
+van, kol	  1
+vandevelde, l	  1
+vappula, o v	  1
+varala, n	  1
+vasilevski, l m	  1
+vasiljev,	  1
+vasiljev, n	  1
+vaulo, k v	  1
+väyrynen, j	  1
+vely, e	  1
+vendell, karl fridolf (1855-1891)	  1
+vergilius,	  1
+verhovskij, p v	  1
+vermasvuori, lempi	  1
+vernède, r e	  1
+vestermarck, r	  1
+vidal, f	  1
+vierailija, kiitollinen	  1
+viiro,	  1
+viita, k	  1
+vikár, béla	  1
+vikélas, d	  1
+viktor, rostedt	  1
+vilén, agda	  1
+vilén, helmi	  1
+viljakainen, t	  1
+vilkuna, t	  1
+virtala, ilma	  1
+virtanen, väinö v	  1
+viva,	  1
+vogel, e	  1
+voikoski, t p	  1
+voionmaa, eino	  1
+voipio, v t	  1
+volhovski, f	  1
+voltti, esko	  1
+von konow, evert	  1
+von schoultz, gösta	  1
+von troil, matilda	  1
+vorländer, karl	  1
+voskamp, c j	  1
+voznesenski, a i	  1
+vuolle, b	  1
+vuorela, k	  1
+vuori, e	  1
+vuorimaa, herman	  1
+vuoristo, p s	  1
+vuorjoki, u j	  1
+w-ma, w	  1
+w-o, a	  1
+w, (1700-na)	  1
+w, (1854-1934)	  1
+w:s,	  1
+waaramäki, sigrid	  1
+wagener, c	  1
+wagner-groben, w	  1
+wahlberg, c f	  1
+wahlenberg, göran (1780-1851)	  1
+wahlroos, hanna	  1
+wahlsten, edwin	  1
+wäisälä, a	  1
+wäkeväinen, m	  1
+walbeck, h j	  1
+walden, p	  1
+waldenström, p	  1
+waldheim, r	  1
+waldius, elias	  1
+waljakka, yrjö	  1
+walkama, e	  1
+walldén, k w	  1
+walle, k j	  1
+wallén, karl w e	  1
+wallenius, arvid	  1
+wallenius, laurentius	  1
+wallenström, carolus samuel (1759-1830)	  1
+wallerius, nicolaus	  1
+walli, waldemar	  1
+wallin, emy	  1
+wallin, j w	  1
+wallin, josephus	  1
+wallin, karl	  1
+wallius, laurentius olai (1588-1638)	  1
+wallmark, j	  1
+walorinta, väinö	  1
+walta, f	  1
+waltala, esko (1864-1927)	  1
+walter, e f w	  1
+walther, c f w	  1
+walther, line	  1
+walve, o	  1
+wanochius, jacobus (1723-1793)	  1
+wanonius, michael (1707-1743)	  1
+warto, k	  1
+wasastjerna, e	  1
+wasastjerna, lars	  1
+wasastjerna, sigrid	  1
+wasenius, hannes	  1
+washington, booker thomas	  1
+wästling, p	  1
+waterloo, stanley	  1
+wattrang, c j	  1
+wauhkonen, d	  1
+waurio, w k	  1
+webb, j b	  1
+wecksell, j a	  1
+wegelius, hannes	  1
+wegelius, karl j	  1
+wegener, hans	  1
+wegscheider-ziegler,	  1
+weigel, christoph (1654-1725)	  1
+weimer, hermann	  1
+weir, mariposa	  1
+weisell, j	  1
+weldingh, c	  1
+welin,	  1
+wellerhausen, e v	  1
+wellerius, jacobus birgeri (1626-1683)	  1
+wendland, joh	  1
+wennberg, p m	  1
+wennergren, a	  1
+wennerholm, j	  1
+wennerström, o w	  1
+wennervirta, l (1882-1959)	  1
+weske, michael	  1
+wessel, a b	  1
+wessel, emil	  1
+wessler, john	  1
+wessmann,	  1
+wessmann, nicolaus	  1
+westén, mandi	  1
+westerholm, uno	  1
+westerlund, a	  1
+westerlund, a f	  1
+westfallius, jacobus nicolai	  1
+westkirch, louise	  1
+westlin, f r	  1
+westrin, l h	  1
+westrin, lars	  1
+wettberg, frans emanuel	  1
+wetterhoff, a	  1
+wetterstrand, g a	  1
+whishaw, e j	  1
+white, f m	  1
+whittemore, e m	  1
+wialén, a o (1844-1941)	  1
+wiberg, anders	  1
+wibiörnssen, b a	  1
+wichert, ernst	  1
+wichmann, einar	  1
+wickelgrehn, hans (1677-1712)	  1
+wickstrand, a a	  1
+widéen, a	  1
+widenius, ephraim (1750-1798)	  1
+widgren, h	  1
+widman, j	  1
+wied, gustav	  1
+wiessner, hermann	  1
+wiitanen, p r	  1
+wijkman, nicolaus christopheri	  1
+wikander, j g	  1
+wikman, anders	  1
+wikström, e	  1
+wikström, matias wilhelm (1804-1835)	  1
+wikström, sigrid	  1
+wilbrandt, a	  1
+wilbrecht, a	  1
+wilckman, thomas (1704-1758)	  1
+wildenbruch, ernst v	  1
+wilder, r p	  1
+wilén, agda	  1
+wilén, g w (1835-1919)	  1
+wilén, sigrid	  1
+wilenius, k g	  1
+wilhelmina,	  1
+wiljakainen, a	  1
+wilk, a j	  1
+wille, b	  1
+willebrand, r f v	  1
+williams, j e hodder	  1
+wilshire, gaylord	  1
+wilskman, a	  1
+wilskman, k	  1
+wilson, j a	  1
+wilson, woodrow	  1
+wingius, paulus	  1
+winiarski, bohdan	  1
+winkler, heinrich	  1
+winqvist, p o	  1
+winsch, wilhelm	  1
+winslow, a p	  1
+winter, a	  1
+winter, evert	  1
+winther, hedwig	  1
+wiré́n, edvin	  1
+wirkberg, john	  1
+wirtanen, frans o	  1
+wirtanen, k	  1
+wiseman, nicholas	  1
+wising, isaac	  1
+wister, owen	  1
+witting, rolf j	  1
+wivallius, laurentius	  1
+wivolin, c g	  1
+wladimirow, w	  1
+woikoski, t p	  1
+woivalenius, elias erici (1655-1714)	  1
+wolff, paulus	  1
+wolff, valentin (1704-1770)	  1
+woloboeff, n i	  1
+wood, michael	  1
+worsaae, j j a	  1
+wuolukka, m v	  1
+wuorimaa, aarne	  1
+würtz, f	  1
+ynglingar, tvenne	  1
+ystävä, hevoshoidon	  1
+zacheus, c	  1
+zadek, j	  1
+zaengerle, m	  1
+zangwill, israel	  1
+zarin, a p	  1
+zart, a	  1
+zatta, antonio	  1
+zauscinski, f p	  1
+zetterström, carolus	  1
+ziegler, j	  1
+ziethe, w	  1
+zilliacus, g r w	  1
+zilliacus, wilhelm	  1
+zitting, g	  1
+zlobin, k k	  1
+zollinger, edvin	  1
+zschokke, hermann	  1
+zujev, n i	  1

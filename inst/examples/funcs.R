@@ -34,7 +34,6 @@ harmonize_field_names <- function (x = NULL) {
 #' @return Polished vector
 #' @export
 #' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @references See citation("bibliographica")
 #' @examples # x2 <- polish_place(c("London", "Paris"))
 #' @keywords utilities
 polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose = FALSE, harmonize = TRUE) {
@@ -43,7 +42,7 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
 
   if (is.null(synonymes)) {
     # Harmonize places with synonyme table
-    f <- system.file("extdata/PublicationPlaceSynonymes.csv", package = "bibliographica")
+    f <- system.file("extdata/PublicationPlaceSynonymes.csv", package = "fennica")
     synonymes <- suppressWarnings(read_mapping(f, include.lowercase = T, self.match = T, ignore.empty = FALSE, mode = "table", trim = TRUE))
 
     if (verbose) { message(paste("Reading special char table", f)) }
@@ -53,7 +52,7 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
     spechars <- suppressWarnings(read_mapping(f, sep = ";", mode = "table", include.lowercase = TRUE))
 
     if (verbose) { message(paste("Reading publication place synonyme table", f)) }
-    f <- system.file("extdata/harmonize_place.csv", package = "bibliographica")
+    f <- system.file("extdata/harmonize_place.csv", package = "fennica")
     synonymes.spec <- suppressWarnings(read_mapping(f, sep = ";", mode = "table", include.lowercase = TRUE))
     if (verbose) { message(paste("Reading publication place synonyme table", f)) }
     
@@ -108,7 +107,7 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
   x <- xuniq <- unique(xorig)
 
   if (verbose) {message("Remove stopwords")}
-  f <- system.file("extdata/stopwords_for_place.csv", package = "bibliographica")
+  f <- system.file("extdata/stopwords_for_place.csv", package = "fennica")
   message(paste("Reading stopwords from file ", f))
   stopwords <- unique(tolower(str_trim(as.character(read.csv(f)[,1]))))
   x <- suppressWarnings(remove_terms(x, stopwords, c("begin", "middle", "end"), recursive = TRUE))
@@ -120,15 +119,16 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
   # Back to original indices, then unique again;
   # reduces number of unique cases further
   if (verbose) {message("Match to original")}
+  
   # Back to original indices, then unique again;
   # reduces number of unique cases further
   xorig <- x[match(xorig, xuniq)]
   x <- xuniq <- unique(xorig)
 
   if (verbose) {message("Detailed polishing")}
-  #s <- synonymes$synonyme
 
-  x <- suppressWarnings(unname(sapply(x, function (x) {polish_place_help(unlist(x, use.names = FALSE), synonymes$synonyme, verbose = verbose)}, USE.NAMES = FALSE)))
+  x <- suppressWarnings(unname(sapply(x, function (x) {
+    polish_place_help(unlist(x, use.names = FALSE), synonymes$synonyme, verbose = verbose)}, USE.NAMES = FALSE)))
   if (length(x) == 0) { return(rep(NA, length(xorig))) }
 
   # Back to original indices, then unique again; reduces
@@ -149,7 +149,8 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
   x <- suppressWarnings(remove_terms(x, stopwords, c("begin", "middle", "end"), recursive = TRUE))
 
   # Remove roman numerals
-  x <- sapply(strsplit(x, " "), function (xi) {paste(xi[!is.roman(suppressWarnings(as.roman(xi)))], collapse = " ")}, USE.NAMES = FALSE)
+  x <- sapply(strsplit(x, " "), function (xi) {
+    paste(xi[!is.roman(suppressWarnings(as.roman(xi)))], collapse = " ")}, USE.NAMES = FALSE)
 
   if (harmonize) {
 
@@ -5894,4 +5895,553 @@ intervalrule <- function (x, revert = FALSE) {
   
   max(xx) - min(xx) + 1
 
+}
+
+
+
+is.decreasing <- function (x) {
+
+  # Remove dashes
+  x <- na.omit(suppressWarnings(as.numeric(unlist(strsplit(x, "-"), use.names = FALSE))))
+
+  # Test if the numeric series is decreasing
+  decr <- FALSE
+  if (!all(is.na(x))) {
+    decr <- all(diff(x) <= 0)
+  }
+
+  decr
+}
+
+
+
+#' @title Harmonize dimension
+#' @description Harmonize dimension information 
+#' @param x A character vector that may contain dimension information
+#' @param synonyms Synonyme table
+#' @return The character vector with dimension information harmonized
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @examples \dontrun{harmonize_dimension("fol.")}
+#' @keywords internal
+harmonize_dimension <- function (x, synonyms = NULL) {
+
+  s <- x
+  s <- gsub("[ |\\.|\\,|\\;|\\:|\\?]+$", "", s)
+
+  # 1915
+  s[grep("^[0-9]{4,}$", s)] <- NA
+
+  # "8" & "20"
+  inds <- grep("^[0-9]*?$", s)
+  s[inds] <- paste0(s[inds], "to")
+
+  # "4; sm 2; 2" -> NA
+  inds <- grep("[0-9]+.o; sm [0-9]+.o; [0-9]+.o", s)
+  s[inds] <- gsub("[0-9]+.o; sm [0-9]+.o; [0-9]+.o", "", s[inds])
+
+  # 2fo(7)
+  inds <- c(grep("[0-9].o\\([0-9]\\)$", s),
+          grep("[0-9].o\\([0-9]\\?\\)$", s))
+  s[inds] <- substr(s[inds], 1, 3)
+
+  # cm12mo cm.12mo
+  inds <- grep("^cm\\.{0,1}[0-9]+.o$", s)
+  s[inds] <- substr(s[inds], 3, 6)
+
+  #"49 cm 2fo, 2fo"
+  inds <- grep("^[0-9]* cm [0-9]+.o\\, [0-9]+.o$", s)
+  s[inds] <- gsub("\\, ", "-", s[inds])
+
+  #2; 1/2; 2
+  inds <- grep("[0-9]+.o; [0-9]+.o; [0-9]+.o", s)
+  s[inds] <- gsub(";", "-", s[inds])
+
+  # 4to, 2fo and 1to
+  inds <- grep("^[0-9]+.o, [0-9]+.o and [0-9]+.o$", s)
+  s[inds] <- NA
+
+  # 4to and 8vo -> 4to-8vo
+  inds <- grep("[0-9]+.o and [0-9]+.o", s)
+  s[inds] <- gsub(" and ", "-", s[inds])  
+
+  #4to.;4to
+  inds <- grep("^[0-9]+.o[\\.|\\,|;| ]+[0-9]+.o$", s)
+  s[inds] <- gsub("[\\.|\\,|;| ]+", "-", s[inds])
+
+  s <- gsub("- ", "-", s)
+
+  s
+
+}
+
+
+#' @title Polish Dimension
+#' @description Polish dimension field of a single document
+#' @param x A dimension note (a single string of one document)
+#' @param synonyms synonyms
+#' @return Polished dimension information with the original string 
+#' 	   and gatherings and cm information collected from it
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @examples # polish_dimension("4")
+#' @keywords internal
+polish_dimension <- function (x, synonyms) {
+
+  # Harmonize terms
+  s <- sorig <- x
+
+  # "small"
+  small <- FALSE
+  if (length(grep("sm", s)) > 0) {
+    s <- gsub("sm ", "", gsub("sm.", "", s))
+    small <- TRUE
+  }
+
+  # Obl: height < width
+  obl <- FALSE
+  if (length(grep("obl", s))>0) {
+    s <- gsub("obl", "", s)
+    obl <- TRUE
+  }
+
+  # Handle long
+  long <- FALSE
+  if (length(grep("long", s)) > 0 || length(grep("\\+", s)) > 0) {
+    long <- TRUE
+    s <- gsub("long", "", s)
+    s <- gsub("\\+", "", s)
+  }
+
+  # Pick all dimension info
+  vol <- width <- height <- NA
+  s <- condense_spaces(s)
+
+  # No units given. Assume the number refers to the gatherings (not cm)
+  x <- unique(str_trim(unlist(strsplit(s, " "), use.names = FALSE)))
+  x[x == "NA"]   <- NA
+  x[x == "NAto"] <- NA
+
+  if (length(grep("cm", x)) == 0 && length(grep("[0-9]?o", x)) == 0) {
+    if (length(x) == 1 && !is.na(x)) {
+      x <- paste(as.numeric(x), "to", sep = "")
+    }
+  } else {
+    # Pick gatherings measures separately
+    x <- str_trim(unlist(strsplit(s, " "), use.names = FALSE))
+  }
+
+  hits <- unique(c(grep("[0-9]+[a-z]o", x), grep("bs", x)))
+
+  gatherings <- NA
+  if (length(hits) > 0) {
+    x <- gsub(";;", "", x[hits])
+
+    x <- unique(x)
+    if (!length(x) == 1) {
+      # Ambiguous gatherings info
+      gatherings <- x
+    } else {
+      gatherings <- x
+      if (long) {
+        a <- unlist(strsplit(gatherings, ""), use.names = FALSE)
+	ind <- min(which(is.na(as.numeric(a))))-1
+	if (is.na(ind)) {ind <- length(a)}
+	gatherings <- paste(paste(a[1:ind], collapse = ""), "long", sep = "")
+      } else if (small) {
+        a <- unlist(strsplit(gatherings, ""), use.names = FALSE)
+	ind <- min(which(is.na(as.numeric(a))))-1
+	if (is.na(ind)) {ind <- length(a)}
+	gatherings <- paste(paste(a[1:ind], collapse = ""), "small", sep = "")
+      }
+    }
+  }
+
+  gatherings <- harmonize_dimension(gatherings, synonyms)
+
+  if ( length(gatherings) == 0 ) { gatherings <- NA }
+  if ( length(unique(gatherings)) > 1 ) { gatherings <- NA }
+
+  # 4to-4to / 4to-2fo
+  inds <- c(grep("^[0-9]+.o-[0-9]+.o$", gatherings), 
+            grep("^[0-9]+.o-[0-9]+.o-[0-9]+.o$", gatherings))
+
+  if (length(inds) > 0) {
+    li <- lapply(gatherings[inds], function (x) {unique(unlist(strsplit(x, "-"), use.names = FALSE))})
+    inds3 <- na.omit(inds[sapply(li, length) == 1])
+    if (length(inds3) > 0) {
+      gatherings[inds3] <- unlist(li[inds3], use.names = FALSE)
+      gatherings[setdiff(inds, inds3)] <- NA
+    } else {
+      gatherings[inds] <- NA
+    }
+  }
+  gatherings <- unlist(gatherings, use.names = FALSE)
+  inds <- grep("^[0-9]+.o, [0-9]+.o$", gatherings)
+  gatherings[inds] <- gsub("\\.;", "-", gatherings[inds])
+
+  # Ambiguous CM information
+  x <- unique(str_trim(unlist(strsplit(s, " "), use.names = FALSE)))
+  if (length(grep("x", x)) > 1) {
+    width <- height <- NA
+  }
+
+  # Pick CM x CM format separately when it is unambiguous
+  if (length(grep("cm", x)) > 0 && length(grep("x", x)) == 1) {
+      # Then pick the dimensions
+      x <- unlist(strsplit(x, "cm"), use.names = FALSE)
+      x <- str_trim(unlist(strsplit(x, " "), use.names = FALSE))
+      i <- which(x == "x")
+      if (is.numeric(str_trim(x[i+1])) && is.numeric(str_trim(x[i-1]))) {
+        height <- as.numeric(str_trim(x[i+1]))
+        width <- as.numeric(str_trim(x[i-1]))
+      }
+  } else if (length(grep("cm", x)) > 0 && length(grep("x", x)) == 0) {
+      # Pick CM format (single value) separately when it is unambiguous
+      # Then pick the dimensions
+      x <- str_trim(unlist(strsplit(x, " "), use.names = FALSE))
+      i <- which(x == "cm")
+      height <- as.numeric(str_trim(x[i-1]))
+      width <- NA
+  } 
+
+  # Obl: height < width
+  if (!is.na(width) && !is.na(height)) {
+    dims <- c(height, width)
+    if (obl) {
+      # NOTE: sort width and height and reverse their order if and only if
+      # obl is stated; otherwise assume that the dimensions are given as height x width
+      dims <- sort(dims)
+      dims <- rev(dims)
+    }
+    width <- dims[[1]]
+    height <- dims[[2]]
+  }
+
+  # If gatherings length > 1 then collapse
+  gatherings <- paste(gatherings, collapse = ";")
+
+  # Return
+  list(original = sorig, gatherings = gatherings,
+       width = width, height = height, obl = obl)
+
+}
+
+
+
+#' @title Augment Dimension Table
+#' @description Estimate missing entries in dimension table where possible.
+#' @param dim.tab Dimension table.
+#' @param dim.info Mapping between document dimensions.
+#' @param sheet.dim.tab Sheet dimension table.
+#' @param verbose verbose
+#' @return Augmented dimension table.
+#' @seealso polish_dimensions
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
+#' @export
+#' @examples # augment_dimension_table(dim.tab)
+#' @keywords utilities
+augment_dimension_table <- function (dim.tab, dim.info = NULL, sheet.dim.tab = NULL, verbose = FALSE) {
+
+  width <- height <- gatherings <- NULL
+
+  if (is.null(dim.info)) {
+    if (verbose) {
+      message("dim.info dimension mapping table not provided, using the default table dimension_table()")
+    }
+    dim.info <- dimension_table()
+  }
+  if (is.null(sheet.dim.tab)) {
+    sheet.dim.tab <- sheet_area(verbose = verbose)
+  }
+
+  # Entry IDs
+  if (verbose) {message("Unique dimension IDs.")}  
+  id.orig <- apply(dim.tab, 1, function (x) {paste(as.character(x), collapse = "")})
+  dim.tab.uniq <- unique(dim.tab)
+  id.uniq <- apply(dim.tab.uniq, 1, function (x) {paste(as.character(x), collapse = "")})
+  match.inds <- match(id.orig, id.uniq)
+  rm(id.orig)
+
+  if (verbose) {message(paste("Polishing dimension info:", nrow(dim.tab.uniq), "unique entries."))}
+
+  # Only consider unique entries to speed up
+  tmp <- NULL
+  for (i in 1:nrow(dim.tab.uniq)) {
+    if (verbose) {message(paste(i, "/", nrow(dim.tab.uniq)))}  
+    tmp <- rbind(tmp, fill_dimensions(dim.tab.uniq[i, ], dim.info, sheet.dim.tab))
+  }
+
+  if (verbose) { message("Dimensions polished. Collecting the results.") }
+  dim.tab.uniq <- as.data.frame(tmp)
+  rm(tmp)
+  rownames(dim.tab.uniq) <- NULL
+  dim.tab.uniq$width <- as.numeric(as.character(dim.tab.uniq$width))
+  dim.tab.uniq$height <- as.numeric(as.character(dim.tab.uniq$height))
+  dim.tab.uniq$gatherings <- order_gatherings(dim.tab.uniq$gatherings)
+  dim.tab.uniq$obl <- as.numeric(as.logical(dim.tab.uniq$obl))
+
+  # print("Add area (width x height)")
+  dim.tab.uniq <- mutate(dim.tab.uniq, area = width * height)
+
+  # Map back to the original domain
+  dim.tab.uniq[match.inds,]
+
+}
+
+
+#' @title Fill Missing Dimensions
+#' @description Estimate missing entries in dimension vector where possible.
+#' @param x dimension string 
+#' @param dimension.table Given mappings between document dimensions
+#' @param sheet.dimension.table Given mappings for sheet dimensions
+#' @return Augmented dimension vector
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @references See citation("bibliographica")
+#' @export
+#' @seealso augment_dimension_table
+#' @examples \dontrun{
+#'   dimension.table <- dimension_table(); 
+#'   fill_dimensions(c(original = NA, gatherings = NA, width = 30, height = 48), dimension.table)
+#' }
+#' @keywords utilities
+fill_dimensions <- function (x, dimension.table = NULL, sheet.dimension.table = NULL) {
+
+    # Read dimension height/width/gatherings conversions
+    if (is.null(dimension.table)) {
+      dimension.table <- dimension_table()
+    }
+    if (is.null(sheet.dimension.table)) {
+      sheet.dimension.table <- sheet_area(verbose = FALSE)
+    }
+
+    # Pick the available dimension information (some may be NAs)
+    h <- as.numeric(as.character(x[["height"]]))
+    w <- as.numeric(as.character(x[["width"]]))
+    g <- as.character(x[["gatherings"]])
+    o <- x[["original"]]
+
+    if (!any("obl" == names(x))) {x[["obl"]] <- NA}
+    obl <- x[["obl"]] 
+
+    e <- estimate_document_dimensions(gatherings = g, height = h, width = w, obl = obl, dimension.table, sheet.dimension.table)
+
+    w <- e$width
+    h <- e$height
+    g <- e$gatherings
+
+    c(original = o, gatherings = g, width = w, height = h, obl = obl)
+
+}
+
+
+
+#' @title Estimate Missing Dimensions
+#' @description Estimate missing dimension information.
+#' @param gatherings Available gatherings information
+#' @param height Available height information
+#' @param width Available width information
+#' @param obl Indicates height smaller than width 
+#' @param dimension.table Document dimension table (from dimension_table())
+#' @param sheet.dimension.table Table to estimate sheet area. 
+#' 	  If not given, the table given by sheet_sizes() is used by default.
+#' @return Augmented dimension information
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @references See citation("bibliographica")
+#' @examples # estimate_document_dimensions(gatherings = 2, height = 44)
+#' @keywords utilities
+estimate_document_dimensions <- function (gatherings = NA, height = NA, width = NA, obl = NULL, dimension.table = NULL, sheet.dimension.table = NULL) {
+
+  if (is.null(gatherings) || length(gatherings) == 0) { gatherings <- NA }
+  if (is.null(height) || length(height) == 0) { height <- NA }
+  if (is.null(width) || length(width) == 0)  { width <- NA }
+
+  # Ensure the inputs are of right format		     
+  gatherings <- as.character(gatherings)
+  width <- as.numeric(as.character(width))
+  height <- as.numeric(as.character(height))
+
+  if (length(grep("NA", gatherings)) > 0) { gatherings <- NA }
+  if (length(grep("NA", width)) > 0)  { width <- NA }
+  if (length(grep("NA", height)) > 0) { height <- NA }
+
+  if (all(is.na(c(gatherings, height, width)))) {
+    return(list(gatherings = gatherings, height = height, width = width))
+  }
+
+  # Height and gatherings given
+  if (is.na(width) && !is.na(height) && !is.na(gatherings)) {
+
+    if (any(gatherings == colnames(dimension.table))) {
+
+      s <- dimension.table[dimension.table$height == round(height), gatherings]
+      width <- as.numeric(as.character(s))
+
+      if (length(width) == 0 || is.na(width)) {
+
+        message(paste("Height (", height,") does not correspond to the gatherings (", gatherings, ") and width is not provided: trying to match width instead", sep = ""))
+        width <- height
+        height <- median(na.omit(as.numeric(as.character(dimension.table[which(as.character(dimension.table[, gatherings]) == round(width)), "height"]))))
+       }
+
+       if (is.na(height) || is.na(width)) {
+         # warning("Height and width could not be estimated from the dimension table. Using the default gatherings size instead.")
+    	 ind <- which(as.character(sheet.dimension.table$gatherings) == gatherings)
+    	 width <- sheet.dimension.table[ind, "width"]
+    	 height <- sheet.dimension.table[ind, "height"]
+       }
+
+    } else {
+      # warning(paste("gatherings", gatherings, "not available in conversion table!"))
+    }
+  } else if (!is.na(width) && is.na(height) && !is.na(gatherings)) {
+    # Else if width and gatherings given
+    # warning("Only width and gatherings given, height is estimated from table !")
+    g <- gatherings
+
+    if (any(g == colnames(dimension.table))) {
+      height <- median(na.omit(as.numeric(as.character(dimension.table[which(as.character(dimension.table[, g]) == round(width)), "height"]))))
+    } else {
+      # warning(paste("gatherings", g, "not available in conversion table!"))
+    }
+
+  } else if (is.na(width) && !is.na(height) && is.na(gatherings)) {
+
+    # Only height given
+    # pick the closest matches from the table
+    hh <- abs(as.numeric(as.character(dimension.table$height)) - height)
+
+    ind <- which(hh == min(hh, na.rm = TRUE))
+    width <- as.numeric(as.character(dimension.table[ind, "NA"]))
+
+    if (is.na(width)) {
+      # warning(paste("No width found for height ", height, " and gatherings ", gatherings, sep = ""))
+      return(
+        list(gatherings = unname(gatherings),
+       	     height = unname(height),
+       	     width = unname(width),
+       	     obl = unname(obl))
+         )
+    }
+
+    # if multiple hits, pick the closest
+    width <- mean(width, na.rm = TRUE)
+
+    # Estimate gatherings
+    gatherings <- estimate_document_dimensions(gatherings = NA, height = round(height), width = round(width), dimension.table = dimension.table, sheet.dimension.table = sheet.dimension.table)$gatherings    
+
+  } else if (is.na(width) && is.na(height) && !is.na(gatherings)) {
+
+    # Only gatherings given
+    ind <- which(as.character(sheet.dimension.table$gatherings) == gatherings)
+    #if (length(ind) == 0) {
+      # warning(paste("gatherings", gatherings, "not available in bibliographica::sheet_area conversion table"))
+    #}
+      
+    width <- sheet.dimension.table[ind, "width"]
+    height <- sheet.dimension.table[ind, "height"]
+
+  } else if (!is.na(width) && !is.na(height) && is.na(gatherings)) {
+
+    # width and height given; estimate gatherings
+    # The closest matched for height
+    hs <- as.numeric(as.character(dimension.table$height))
+
+    hdif <- abs(hs - height)
+
+    inds <- which(hdif == min(hdif, na.rm = TRUE))
+
+    # corresponding widths
+    ws <- dimension.table[inds, ]
+    ginds <- c()
+
+    for (wi in 1:nrow(ws)) {
+      d <- abs(as.numeric(as.character(unlist(ws[wi,], use.names = FALSE))) - width)
+      ginds <- c(ginds, setdiff(which(d == min(d, na.rm = TRUE)), 1:2))
+    }
+    gs <- unique(colnames(dimension.table)[unique(ginds)])
+
+    # If gatherings is uniquely determined
+    if (length(gs) == 1) {
+      gatherings <- gs
+    } else {
+      # warning(paste("Ambiguous gatherings - not determined for width / height ", width, height, paste(gs, collapse = "/")))
+    }
+  } else if (!is.na(width) && is.na(height) && is.na(gatherings)) {
+    # Only width given
+    height <- as.numeric(dimension.table[which.min(abs(as.numeric(dimension.table[, "NA"]) - as.numeric(width))), "NA"])
+    
+    # If multiple heights match, then use average
+    height <- mean(height, na.rm = TRUE)
+
+    # Estimate gatherings
+    gatherings <- estimate_document_dimensions(gatherings = NA, height = height, width = width, dimension.table = dimension.table)$gatherings
+  }
+
+
+  if (length(width) == 0) {width <- NA}
+  if (length(height) == 0) {height <- NA}
+  if (length(gatherings) == 0) {gatherings <- NA}
+
+  if (is.na(width)) {width <- NA}
+  if (is.na(height)) {height <- NA}
+  if (is.na(gatherings)) {gatherings <- NA}
+
+  height <- as.numeric(height)
+  width <- as.numeric(width)
+
+  # In obl width > height
+
+  if (length(obl) > 0 && !is.na(obl) && any(obl)) {
+
+    hw <- cbind(height = height, width = width)
+    inds <- 1
+
+    if (length(obl) > 1) {
+      inds <- which(obl)
+    }
+
+    for (i in inds) {
+      xx <- hw[i, ]
+      if (sum(is.na(xx)) == 0) {
+        hw[i, ] <- sort(xx)
+      }
+    }
+    height <- hw[, "height"]
+    width <- hw[, "width"]     
+  }
+
+  list(gatherings = unname(gatherings),
+       height = unname(height),
+       width = unname(width),
+       obl = unname(obl))
+}
+
+
+#' @title Enrich Geodata
+#' @description Enrich geodata.
+#' @param x Publication place character vector
+#' @return Augmented data.frame
+#' @export
+#' @author Leo Lahti \email{leo.lahti@@iki.fi}
+#' @examples \dontrun{df2 <- enrich_geo(df)}
+#' @keywords utilities
+enrich_geo <- function(x) {
+
+  message("Enriching geo fields..")
+  df <- data.frame(place = x)
+  geonames <- places.geonames <- NULL
+
+  message("Geocoordinates")
+  # Use some manually fetched data
+  load(system.file("extdata/geonames.RData", package = "fennica"))
+  load(system.file("extdata/places.geonames.RData", package = "fennica"))
+  geoc <- bibliographica::get_geocoordinates(df$place,
+            geonames, places.geonames)
+  geoc$place <- df$place
+
+  message("Add publication country")
+  df$country <- get_country(df$place)
+  message(".. publication country added")  
+
+  return (df)
 }

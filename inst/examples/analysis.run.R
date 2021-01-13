@@ -1,13 +1,12 @@
 # Summarize the data and discarded entries
 tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
 
-# Clean up - remove overlaps - is all needed
+# Clean up - remove overlaps - is all of this needed?
 summaries <- c("summary",
                "overview",
 	       "author",
 	       "publicationplace",
-	       # "publisher",
-	       "documents",
+	       "publisher",
 	       "size",
 	       "gender",
 	       "topic",
