@@ -35,12 +35,16 @@ polish_author <- function (s, stopwords = NULL, verbose = FALSE) {
   # TODO add here all known names
   f <- system.file("extdata/author_accepted.csv", package = "fennica")
   author.accepted <- as.character(read.csv(f, sep = "\t")[,1])
-  pseudo <- get_pseudonymes()  
+
+  pseudo <- get_pseudonymes()
+
   accept.names <- unique(c(pseudo, author.accepted))
+
   # Also add individual terms in these names on the list
   accept.names <- c(accept.names, unique(unlist(strsplit(accept.names, " "))))
   # Remove special chars and make lowercase to harmonize
   accept.names <- unique(condense_spaces(gsub("\\,", " ", gsub("\\.", "", tolower(accept.names)))))
+
 
   # Then remove those in stopwords (ie accept these in names)
   # Exclude some names and pseudonyms from assumed stopwords
@@ -95,7 +99,9 @@ polish_author <- function (s, stopwords = NULL, verbose = FALSE) {
     first[inds] <- pick_firstname(s[inds], format = "last, first")
     last[inds]  <-  pick_lastname(s[inds], format = "last, first")
   }
-  
+
+
+
   inds <- inds2 <- setdiff(setdiff(grep(" ", s), inds1), pseudo.inds)
   if (length(inds) > 0) {
     first[inds] <- pick_firstname(s[inds], format = "first last")

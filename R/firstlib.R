@@ -7,10 +7,13 @@
 #' @importFrom stringr str_extract
 #' @importFrom stringr str_replace
 #' @importFrom stringr str_trim
+#' @importFrom data.table fread
 #' @importFrom utils adist
 #' @importFrom utils read.csv
 #' @importFrom utils tail
 #' @importFrom stringr str_split
+#' @importFrom stringr str_count
+#' @importFrom stringr str_c
 #' @importFrom tm stopwords
 
 globalVariables(c("published_in","publication_place"))

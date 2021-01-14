@@ -19,12 +19,14 @@ harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("englis
   town <- df.orig$publication_place
   message("... harmonize_corporate_Finto done")
   
-  # Get remaining values from other fields
+  message("Get remaining values from other fields")
   inds <- intersect(which(!is.na(publisher$name)), which(publisher$name != ""))
+
   publisher$name[-inds] <- clean_publisher(df.orig$publisher[-inds], languages=languages)
+
   publisher$orig[-inds] <- str_trim(as.character(df.orig$publisher[-inds]))
   message("... clean_publisher done")
-  
+
   # TODO: Add town synonyms !
   publisher$town[-inds] <- df.orig$publication_place[-inds]
 

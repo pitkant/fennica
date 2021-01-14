@@ -1,5 +1,5 @@
-print("Enrich geo info: Geocoordinates")
-source("add.geocoordinates.R")
+# print("Enrich geo info: Geocoordinates")
+# source("add.geocoordinates.R")
 
 # Recognize synonymes with string matching;
 # this step can be skipped after the synonyme list is fixed

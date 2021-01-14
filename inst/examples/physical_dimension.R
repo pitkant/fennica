@@ -6,6 +6,5 @@ df.orig$physical_dimension <- comhis::map(df.orig$physical_dimension,
 # area, width, height, gatherings
 # (also keep pure originals before fill in)
 # devtools::load_all("~/comhis/rpkg/bibliographica")
-df.tmp <- polish_dimensions(df.orig[[field]],
-		fill = TRUE, verbose = TRUE)
+df.tmp <- polish_dimensions(df.orig[[field]], fill = TRUE, verbose = TRUE)
 
