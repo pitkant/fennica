@@ -1,7 +1,7 @@
 library(devtools)
-load_all()
-library(fennica)
-library(comhis) # install_github("comhis/comhis")        
+
+library(fennica) # install_github("comhis/fennica") or devtools::load_all() if you are working from the clone and modifying it
+library(comhis)  # install_github("comhis/comhis")        
 library(dplyr)
 library(tm)
 

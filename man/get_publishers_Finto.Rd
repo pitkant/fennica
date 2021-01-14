@@ -30,9 +30,9 @@ Data frame with alt, pref and match_methods
 Use Finto database to unify publisher names.
 }
 \references{
-See citation("bibliographica")
+See citation("fennica")
 }
 \author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
+Hege Roivainen \email{leo.lahti@iki.fi}
 }
 \keyword{utilities}

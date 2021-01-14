@@ -6,8 +6,8 @@
 #' @param useShortcuts If TRUE, loads RDS instead of doing everything from scratch
 #' @return Data frame with alt, pref, match_methods
 #' @export
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @author Hege Roivainen \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
 #' @examples # harmonize_publisher_fennica(df.orig, cheat_list, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
 harmonize_publisher_fennica <- function(df.orig, cheat_list, languages=c("english"), useShortcuts=FALSE) {

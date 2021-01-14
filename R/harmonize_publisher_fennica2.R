@@ -7,8 +7,8 @@
 #' @export
 #' @importFrom stringdist amatch
 #' @importFrom stringr str_replace
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @author Hege Roivainen \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
 #' @examples # harmonize_publisher(x, publication_year, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
 harmonize_publisher_fennica2 <- function(x, publication_year, languages=c("english")) {
@@ -40,11 +40,11 @@ harmonize_publisher_fennica2 <- function(x, publication_year, languages=c("engli
   
   for (language in languages) {
     if (language=="swedish") {
-      f <- system.file("extdata/sv_publisher.csv",package = "bibliographica")
+      f <- system.file("extdata/sv_publisher.csv",package = "fennica")
     } else if (language=="english") {
       
     } else if (language=="finnish") {
-      f <- system.file("extdata/fi_publisher.csv", package = "bibliographica")  
+      f <- system.file("extdata/fi_publisher.csv", package = "fennica")  
     }
     synonyms <- read.csv(f, sep = "\t", fileEncoding = "UTF-8")
     q <- map(q, synonyms, mode="recursive")

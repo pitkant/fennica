@@ -4,8 +4,8 @@
 #' @param languages A vector of languages which are used in detecting relation keywords
 #' @return Vector of publisher names
 #' @export
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @author Hege Roivainen \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
 #' @examples # clean_publisher(x, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
 clean_publisher_destructively <- function(x, languages=c("english")) {
@@ -20,17 +20,17 @@ clean_publisher_destructively <- function(x, languages=c("english")) {
   for (language in languages) {
     if (language == "swedish") {
       msg <- "extdata/sv_publisher_destructive.csv"
-      f <- system.file("extdata/sv_publisher_destructive.csv", package="bibliographica")
+      f <- system.file("extdata/sv_publisher_destructive.csv", package="fennica")
     } else if (language == "english") {
       # TODO
-      #f <- system.file("extdata/en_publisher_destructive.csv", package="bibliographica")
+      #f <- system.file("extdata/en_publisher_destructive.csv", package="fennica")
       #msg <- "extdata/en_publisher_destructive.csv"
     } else if (language == "finnish") {
-      f <- system.file("extdata/fi_publisher_destructive.csv", package="bibliographica")
+      f <- system.file("extdata/fi_publisher_destructive.csv", package="fennica")
       msg <- "extdata/fi_publisher_destructive.csv"
     } else if (language == "latin") {
       # TODO
-      #f <- system.file("extdata/lat_publisher_destructive.csv", package="bibliographica")
+      #f <- system.file("extdata/lat_publisher_destructive.csv", package="fennica")
       #msg <- "extdata/la_publisher_destructive.csv"
     } else {
       print (paste0("Unknown language in languages: ", language))

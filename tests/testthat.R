@@ -1,5 +1,4 @@
 library(stringr)
 library(testthat)
-library(bibliographica)
-
-test_check("bibliographica")
+library(fennica)
+test_check("fennica")

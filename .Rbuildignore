@@ -6,5 +6,6 @@ inst/extras/*
 inst/examples/*cache
 inst/examples/figure*
 inst/examples/
+inst/examples/*
 
 
