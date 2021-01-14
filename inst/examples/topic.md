@@ -1,7 +1,7 @@
 ---
 title: "Subject topic preprocessing summaries"
 author: "Leo Lahti"
-date: "2021-01-13"
+date: "2021-01-15"
 output: markdown_document
 ---
 
@@ -24,7 +24,17 @@ Top-50 subject topics and number of documents for each.
 ## Error in top_plot(tab[!is.na(tab)], ntop = ntop): could not find function "top_plot"
 ```
 
-![plot of chunk summarytopics22](figure/summarytopics22-1.png)
+```
+## Error in p + ggtitle(paste("Top subject topics")): non-numeric argument to binary operator
+```
+
+```
+## Error in p + ylab("Documents"): non-numeric argument to binary operator
+```
+
+```
+## NULL
+```
 
 ### Publication topic
 

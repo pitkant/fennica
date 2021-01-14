@@ -1,7 +1,7 @@
 ---
 title: "Document dimension size summary"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2021-01-13"
+date: "2021-01-15"
 output: markdown_document
 ---
 

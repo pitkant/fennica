@@ -19,7 +19,7 @@ languages <- c("finnish", "latin", "swedish")
 
 # List the preprocessed data file and read the data
 df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, sep = "|")
-df.orig <- sample_n(df.orig, 1000) # Try with a smaller subset first!
+# df.orig <- sample_n(df.orig, 1000) # Try with a smaller subset first!
 
 update.fields <- c(
       "original_row",
