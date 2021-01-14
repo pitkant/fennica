@@ -29,7 +29,7 @@ polish_languages <- function(x) {
   # http://www.loc.gov/marc/languages/language_code.html
   # TODO: XML version available, read directly in R:
   # see http://www.loc.gov/marc/languages/
-  f <- system.file("extdata/language_abbreviations.csv", package = "bibliographica")
+  f <- system.file("extdata/language_abbreviations.csv", package = "fennica")
   abrv <- read.csv(f, sep = "\t", header = TRUE, encoding = "UTF-8")
 
   # Further harmonization

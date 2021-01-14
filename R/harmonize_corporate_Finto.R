@@ -3,8 +3,7 @@
 #' @param x Vector of publishers names
 #' @return Data frame with orig, name, town, year_from and year_till
 #' @export
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @references See citation("fennica")
 harmonize_corporate_Finto <- function(x) {
 
   

@@ -13,8 +13,8 @@ Data frame with possible publisher form and the preferred output
 Get publisher list from an xml file
 }
 \references{
-See citation("bibliographica")
+See citation("fennica")
 }
 \author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
+Hege Roivainen \email{leo.lahti@iki.fi}
 }

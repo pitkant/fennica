@@ -30,9 +30,9 @@ Harmonizes publisher names and enriches them with Finto information.
 # harmonize_publisher_fennica(df.orig, cheat_list, languages=c("finnish", "swedish", "latin"))
 }
 \references{
-See citation("bibliographica")
+See citation("fennica")
 }
 \author{
-Hege Roivainen \email{hege.roivainen@gmail.com}
+Hege Roivainen \email{leo.lahti@iki.fi}
 }
 \keyword{utilities}

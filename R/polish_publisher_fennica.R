@@ -4,8 +4,8 @@
 #' @param useShortcuts If TRUE, loads RDS instead of doing everything from scratch
 #' @return Data frame with orig, mod
 #' @export
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @author Hege Roivainen \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
 #' @keywords utilities
 polish_publisher_fennica <- function (df.preprocessed, useShortcuts=FALSE) {
   

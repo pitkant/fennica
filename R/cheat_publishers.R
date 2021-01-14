@@ -3,8 +3,8 @@
 #' @return Data frame with possible publisher form and the preferred output
 #' @export
 #' @import XML
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @author Hege Roivainen \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
 cheat_publishers <- function() {
   
   #r <- xmlTree
@@ -19,12 +19,12 @@ cheat_publishers <- function() {
   
   
   # Determine the number of known labels
-  f <- system.file("extdata/cn-skos.rdf", package = "bibliographica")
+  f <- system.file("extdata/cn-skos.rdf", package = "fennica")
   tree <- xmlTreeParse(f, useInternalNodes = TRUE)
   node_count <- length(xpathApply(tree, path="//rdac:C10005//skos:altLabel | //rdac:C10005//skos:prefLabel", xmlValue))
   
   # Prepare variables
-  f <- system.file("extdata/cn-skos.rdf", package = "bibliographica")    
+  f <- system.file("extdata/cn-skos.rdf", package = "fennica")    
   rdf <- xmlParse(f)
   r <- xmlChildren(rdf)
   all_names <- cbind.data.frame(alt=character(node_count), pref=character(node_count), stringsAsFactors=FALSE)

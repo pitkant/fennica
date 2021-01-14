@@ -1,11 +1,4 @@
 #' @import dplyr
-#' @importFrom bibliographica capitalize
-#' @importFrom bibliographica clean_publisher
-#' @importFrom bibliographica extract_personal_names
-#' @importFrom bibliographica harmonize_for_comparison
-#' @importFrom bibliographica map
-#' @importFrom bibliographica read_mapping
-#' @importFrom bibliographica remove_endings
 #' @importFrom graphics plot
 #' @importFrom grDevices dev.off
 #' @importFrom grDevices png
@@ -18,6 +11,7 @@
 #' @importFrom utils read.csv
 #' @importFrom utils tail
 #' @importFrom stringr str_split
+#' @importFrom tm stopwords
 
 globalVariables(c("published_in","publication_place"))
 

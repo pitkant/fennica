@@ -7,8 +7,8 @@
 #' @param publication_year Data frame of published_in, published_from and published_till
 #' @return Data frame with alt, pref and match_methods
 #' @export
-#' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @author Hege Roivainen \email{leo.lahti@@iki.fi}
+#' @references See citation("fennica")
 #' @keywords utilities
 get_publishers_Finto <- function(cheat_list, Finto_comp, all_names, unknown_town, publication_year) {
   
