@@ -1,6 +1,7 @@
 library(devtools)
 library(dplyr)
 library(tm)
+library(stringr)
 
 # Install latest version from Github
 # install_github("comhis/fennica")
