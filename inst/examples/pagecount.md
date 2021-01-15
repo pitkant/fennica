@@ -10,11 +10,11 @@ output: markdown_document
 
 ## Page counts
 
-  * Page count available for 927 documents in total (93.6%), including both readily available and estimated page counts.
+  * Page count available for 939 documents in total (94.5%), including both readily available and estimated page counts.
 
   * Page count readily available for 0 documents (0%). 
 
-  * Page count estimated for 927 documents (93.6%).
+  * Page count estimated for 939 documents (94.5%).
 
   * Page count missing and could not be estimated for 0 documents (0%).
 
@@ -136,14 +136,22 @@ count estimate.
 ## Error in FUN(X[[i]], ...): object 'doctype' not found
 ```
 
-Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 927 documents that have missing pagecount info in the original data):
+Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the estimated page counts (for the 939 documents that have missing pagecount info in the original data):
 
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 16 could not be loaded
+```
 
 ```
 ## Error in eval(e, x, parent.frame()): object 'pagecount.orig' not found
 ```
 
-<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" /><img src="figure/pagecount-size-estimated-2.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 16 could not be loaded
+```
+
+<img src="figure/pagecount-size-estimated-1.png" title="plot of chunk size-estimated" alt="plot of chunk size-estimated" width="430px" />
 
 
 
@@ -154,15 +162,19 @@ Left: Gatherings vs. overall pagecounts (original + estimated). Right: Only the 
 ## Error: Problem with `summarise()` input `na`.
 ## ✖ object 'pagecount.orig' not found
 ## ℹ Input `na` is `sum(is.na(pagecount.orig) | (!pagecount.orig == pagecount))`.
-## ℹ The error occurred in group 1: publication_decade = 1570, gatherings = "4to".
+## ℹ The error occurred in group 1: publication_decade = 1580, gatherings = "2fo".
 ```
 
 ```
-## Error in `$<-.data.frame`(`*tmp*`, na, value = logical(0)): replacement has 0 rows, data has 64
+## Error in `$<-.data.frame`(`*tmp*`, na, value = logical(0)): replacement has 0 rows, data has 62
 ```
 
 ```
 ## Error in FUN(X[[i]], ...): object 'gatherings' not found
+```
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
 ```
 
 ![plot of chunk missingpages](figure/pagecount-missingpages-1.png)
@@ -177,12 +189,16 @@ Note: there are 0 documents that have some dimension info but sheet area informa
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 1575.
+## ℹ The error occurred in group 1: publication_year = 1582.
 ```
 
 ```
 ## Error: Can't subset columns that don't exist.
 ## [31m✖[39m Column `publication_year` doesn't exist.
+```
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
 ```
 
 ![plot of chunk paperconsumption](figure/pagecount-paperconsumption-1.png)
@@ -192,14 +208,16 @@ Note: there are 0 documents that have some dimension info but sheet area informa
 ## [31m✖[39m Column `publication_year` doesn't exist.
 ```
 
-![plot of chunk paperconsumption](figure/pagecount-paperconsumption-2.png)
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
 
 
 ```
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 1575, gatherings = "4to".
+## ℹ The error occurred in group 1: publication_year = 1582, gatherings = "2fo".
 ```
 
 ```
@@ -225,7 +243,7 @@ Note: there are 0 documents that have some dimension info but sheet area informa
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_decade = 1570, gatherings = "4to".
+## ℹ The error occurred in group 1: publication_decade = 1580, gatherings = "2fo".
 ```
 
 ```
@@ -253,7 +271,7 @@ Note: there are 0 documents that have some dimension info but sheet area informa
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_decade = 1570.
+## ℹ The error occurred in group 1: publication_decade = 1580.
 ```
 
 ```
@@ -271,7 +289,7 @@ Note: there are 0 documents that have some dimension info but sheet area informa
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 1575, type = "book".
+## ℹ The error occurred in group 1: publication_year = 1582, type = "pamphlet".
 ```
 
 ```
@@ -290,7 +308,7 @@ Note: there are 0 documents that have some dimension info but sheet area informa
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_decade = 1570, length = "(148,250]".
+## ℹ The error occurred in group 1: publication_decade = 1580, length = "(0,32]".
 ```
 
 ```
@@ -315,7 +333,7 @@ Estimated paper consumption by document size
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 1575, gatherings = "4to".
+## ℹ The error occurred in group 1: publication_year = 1582, gatherings = "2fo".
 ```
 
 ```
@@ -333,7 +351,12 @@ Estimated paper consumption by document size
 
 Gatherings height: does it change over time? How increased printing activity is related to book size trends? Alternatively, we could use area (height x width), or median over time. Note that only original (not augmented) dimension info is being used here.
 
-![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-1.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-2.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-3.png)![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-4.png)
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
+
+![plot of chunk pagecounts-gatsize](figure/pagecount-pagecounts-gatsize-1.png)
 
 
 Page counts: does it change over time? Also suggested we could calculate some kind of factor for each time period based on this ? In principle, we could calculate this separately for any given publication place as well but leẗ́s discuss this later. Would help to specify some specific places of interest.

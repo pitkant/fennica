@@ -11,8 +11,6 @@ library(fennica)
 install_github("comhis/comhis")        
 library(comhis)  
 
-
-
 # Load misc functions needed for harmonization
 source("funcs.R")
 

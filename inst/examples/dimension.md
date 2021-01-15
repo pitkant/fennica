@@ -11,13 +11,13 @@ output: markdown_document
 
   * Some dimension info is provided in the original raw data for altogether 0 documents (0%) but could not be interpreted for 0 documents (ie. dimension info was successfully estimated for NaN % of the documents where this field was not empty).
 
-  * Document size (area) info was obtained in the final preprocessed data for altogether 479 documents (48%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
+  * Document size (area) info was obtained in the final preprocessed data for altogether 501 documents (50%). For the remaining documents, critical dimension information was not available or could not be interpreted: [List of entries where document surface could not be estimated](physical_dimension_incomplete.csv)
 
   * Document gatherings info is originally available for NA documents (NA%), and further estimated up to NA documents (NA%) in the final preprocessed data.
 
-  * Document height info is originally available for 39 documents (4%), and further estimated up to 479 documents (48%) in the final preprocessed data.
+  * Document height info is originally available for 35 documents (4%), and further estimated up to 501 documents (50%) in the final preprocessed data.
 
-  * Document width info is originally available for 0 documents (0%), and further estimated up to 479 documents (48%) in the final preprocessed data.
+  * Document width info is originally available for 0 documents (0%), and further estimated up to 501 documents (50%) in the final preprocessed data.
 
 
 These tables can be used to verify the accuracy of the conversions from the raw data to final estimates:
@@ -45,6 +45,14 @@ Left: final gatherings vs. final document dimension (width x height). Right: ori
 
 
 ```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
+
+```
 ## Error: Problem with `filter()` input `..1`.
 ## ✖ object 'paper' not found
 ## ℹ Input `..1` is `!is.na(paper) & !is.na(gatherings)`.
@@ -54,7 +62,11 @@ Left: final gatherings vs. final document dimension (width x height). Right: ori
 ## Error in `[.data.frame`(dfs, , c("gatherings", "paper")): undefined columns selected
 ```
 
-<img src="figure/dimension-summary-1.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" /><img src="figure/dimension-summary-2.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" /><img src="figure/dimension-summary-3.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" />
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
+
+<img src="figure/dimension-summary-1.png" title="plot of chunk summary" alt="plot of chunk summary" width="280px" />
 
 
 Left: Document dimension histogram (surface area);
@@ -63,10 +75,18 @@ Right: title count per gatherings.
 
 
 ```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
+
+```
 ## Error in FUN(X[[i]], ...): object 'paper' not found
 ```
 
-<img src="figure/dimension-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" /><img src="figure/dimension-sizes-2.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
+
+<img src="figure/dimension-sizes-1.png" title="plot of chunk sizes" alt="plot of chunk sizes" width="280px" />
 
 ### Gatherings timelines
 
@@ -103,11 +123,15 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 ## Error: Problem with `summarise()` input `p`.
 ## ✖ object 'paper' not found
 ## ℹ Input `p` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 1575.
+## ℹ The error occurred in group 1: publication_year = 1582.
 ```
 
 ```
 ## Error in ggplot(d, aes(y = n, x = p)): object 'd' not found
+```
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
 ```
 
 ![plot of chunk title_vs_paper](figure/dimension-title_vs_paper-1.png)
@@ -118,6 +142,11 @@ Popularity of different document sizes over time. Left: absolute title counts. R
 ## Average document dimensions 
 
 Here we use the original data only:
+
+
+```
+## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 15 could not be loaded
+```
 
 ![plot of chunk avedimstime](figure/dimension-avedimstime-1.png)
 
