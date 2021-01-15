@@ -7,10 +7,10 @@ output: markdown_document
 
 ## Authors
 
- * 549 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv).
- * 649 documents have unambiguous author information (65%). 
- * 1 [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are recognized based on [custom pseudonyme lists](https://github.com/COMHIS/fennica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
- * -1 [discarded author names](output.tables/author_discarded.csv) This list should not include any real authors (if it does, please send a note to the admin). The stopword lists are considered when discarding names.
+ * 12083 [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv).
+ * 45812 documents have unambiguous author information (64%). 
+ * 10 [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are recognized based on [custom pseudonyme lists](https://github.com/COMHIS/fennica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
+ * 20 [discarded author names](output.tables/author_discarded.csv) This list should not include any real authors (if it does, please send a note to the admin). The stopword lists are considered when discarding names.
  * [Author name conversions](output.tables/author_conversion_nontrivial.csv) Non-trivial conversions from the original raw data to final names.
 
 
@@ -47,9 +47,9 @@ Authors with ambiguous living year information - can we spot here
 cases where these are clearly known identical or distinct authors?
 Should also add living year information from supporting sources later.
 
-368 [authors with missing life years](output.tables/authors_missing_lifeyears.csv) (Life year info can be augmented [here](https://github.com/COMHIS/fennica/blob/master/inst/extdata/author_info.csv))
+9832 [authors with missing life years](output.tables/authors_missing_lifeyears.csv) (Life year info can be augmented [here](https://github.com/COMHIS/fennica/blob/master/inst/extdata/author_info.csv))
 
-2 [authors with ambiguous life years](output.tables/author_life_ambiguous.csv) Some of these might be synonymous and could be added to [author synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv) (the first term will be selected for the final data)
+103 [authors with ambiguous life years](output.tables/author_life_ambiguous.csv) Some of these might be synonymous and could be added to [author synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv) (the first term will be selected for the final data)
 
 
 ### Life span of uniquely identified top authors
@@ -61,7 +61,7 @@ Ordered by productivity (number of documents))
 
 ### Author age
 
-224 documents (22%) have author age at the publication year. These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
+15667 documents (22%) have author age at the publication year. These have been calculated for documents where the publication year and author life years (birth and death) are available, and the document has been printed during the author's life time.
 
 
 ![plot of chunk author_age](figure_slides/author_age-1.png)
@@ -89,7 +89,7 @@ Title count versus paper consumption (all authors):
 
 
 ```
-## Warning: Removed 1 rows containing missing values (position_stack).
+## Warning: Removed 2 rows containing missing values (position_stack).
 ```
 
 ![plot of chunk summaryTop10authorstimeline](figure_slides/summaryTop10authorstimeline-1.png)
@@ -100,7 +100,7 @@ Title count versus paper consumption (all authors):
 ## Error: Problem with `summarise()` input `paper`.
 ## ✖ object 'paper' not found
 ## ℹ Input `paper` is `sum(paper, na.rm = TRUE)`.
-## ℹ The error occurred in group 1: publication_year = 1646, author = "Gyldenstolpe, Michael Olai (1608-1670)".
+## ℹ The error occurred in group 1: publication_year = 1628, author = "Luther, Martti".
 ```
 
 ```

@@ -7,7 +7,7 @@ output: markdown_document
 
 # Preprocessing summary
 
-The data spanning years 1582-1917 has been included and contains 994 documents (also other filter may apply depending on the data collection, see the source code for details.
+The data spanning years 1522-1972 has been included and contains 71301 documents (also other filter may apply depending on the data collection, see the source code for details.
 
 
 
@@ -27,8 +27,8 @@ The data spanning years 1582-1917 has been included and contains 994 documents (
 
 ## Annotated documents
 
-  * 1000 documents in the original raw data
-  * 1000 documents in the final preprocessed data (100%)
+  * 71919 documents in the original raw data
+  * 71919 documents in the final preprocessed data (100%)
 
 Fraction of documents with data:
 
@@ -53,9 +53,9 @@ Same in exact numbers: documents with available/missing entries, and number of u
 ```
 
 ```
-##           used (Mb) gc trigger  (Mb) max used  (Mb)
-## Ncells 1387884 74.2    3832085 204.7  5078112 271.3
-## Vcells 5221781 39.9   19219049 146.7 25840170 197.2
+##            used  (Mb) gc trigger  (Mb) max used  (Mb)
+## Ncells  1502199  80.3    4938682 263.8  6173352 329.7
+## Vcells 22707174 173.3   38371083 292.8 38371083 292.8
 ```
 
 

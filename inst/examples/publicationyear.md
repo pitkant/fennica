@@ -12,7 +12,7 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 994 documents (100%). The publication years span 1582-1917.
+Publication year is available for 71301 documents (100%). The publication years span 1522-1972.
 
 
 ```
@@ -23,7 +23,7 @@ Publication year is available for 994 documents (100%). The publication years sp
 
 ### Publication frequency
 
-Publication frequency information is available for 12 documents (1%). The links are invalid if the lists are empty. The (estimated annual) frequencies are converted to plain text according to their closest match in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/frequency_conversions.csv).
+Publication frequency information is available for 1216 documents (2%). The links are invalid if the lists are empty. The (estimated annual) frequencies are converted to plain text according to their closest match in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/frequency_conversions.csv).
 
 [Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 
@@ -34,7 +34,7 @@ Publication frequency information is available for 12 documents (1%). The links 
 
 ### Publication interval
 
-Publication interval is available for 27 documents (3%). 
+Publication interval is available for 2434 documents (3%). 
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
@@ -52,9 +52,9 @@ are multiple instances from the same earliest year, they are all
 marked as potential first editions. Later need to check if this
 information is readily available in MARC.
 
-There are 981 unique
+There are 58438 unique
 documents with an identical title and author and
-8
+6085
 of those have multiple occurrences, sometimes with different publication
 years.  The earliest occurrence is suggested as the first edition.
 
