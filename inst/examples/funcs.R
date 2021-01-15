@@ -6470,9 +6470,9 @@ get_geocoordinates <- function (x, geonames, places.geonames) {
   rownames(geotab) <- geotab$place
   coms <- intersect(geotab$place, rownames(geocoordinates))
   geocoordinates[coms, c("latitude", "longitude")] <- geotab[coms, c("latitude", "longitude")]
-
   latitude <- as.numeric(as.character(geocoordinates[as.character(pubplace), "latitude"]))
   longitude <- as.numeric(as.character(geocoordinates[as.character(pubplace), "longitude"]))
+  message("ok")
 
   skip <- T
   if (!skip) {
@@ -6506,6 +6506,7 @@ get_geocoordinates <- function (x, geonames, places.geonames) {
   }
 
   }
+
 
   tmpdf <- quickdf(list(latitude = latitude, longitude = longitude))
 
