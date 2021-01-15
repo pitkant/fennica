@@ -1,9 +1,16 @@
 library(devtools)
-load_all()
-library(fennica) # install_github("comhis/fennica") or devtools::load_all() if you are working from the clone and modifying it
-library(comhis)  # install_github("comhis/comhis")        
 library(dplyr)
 library(tm)
+
+# Install latest version from Github
+install_github("comhis/fennica") # or devtools::load_all() if you are working from the clone and modifying it
+library(fennica) 
+
+# Install latest version from Github
+install_github("comhis/comhis")        
+library(comhis)  
+
+
 
 # Load misc functions needed for harmonization
 source("funcs.R")
