@@ -4,12 +4,11 @@ library(tm)
 library(stringr)
 
 # Install latest version from Github
-# install_github("comhis/fennica")
-devtools::load_all() # working from the clone and modifying it
+# install_github("comhis/fennica") # or devtools::load_all() if you are working from the clone and modifying it
 library(fennica) 
 
 # Install latest version from Github
-install_github("comhis/comhis")        
+# install_github("comhis/comhis")        
 library(comhis)  
 
 # Load misc functions needed for harmonization
@@ -26,7 +25,7 @@ languages <- c("finnish", "latin", "swedish")
 
 # List the preprocessed data file and read the data
 df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, sep = "|")
-df.orig <- sample_n(df.orig, 1000) # Try with a smaller subset first!
+# df.orig <- sample_n(df.orig, 1000) # Try with a smaller subset first!
 
 update.fields <- c(
       "original_row",

@@ -9,15 +9,15 @@ output: markdown_document
 
  * [Author-gender mappings](output.tables/author_accepted.csv) in the final data
 
- * 8770 unique male authors
+ * 433 unique male authors
  
- * 920 unique female authors
+ * 40 unique female authors
  
- * 35578 documents (49.9%) with a male author
+ * 509 documents (51.4%) with a male author
  
- * 2980 documents (4.2%) with a female author
+ * 45 documents (4.5%) with a female author
  
- * 32742 documents (45.9%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
+ * 436 documents (44%) with [unresolved gender](output.tables/author_gender_discarded.csv) (including pseudonymes)
 
  * [First names identified as female](output.tables/gender_female.csv) in the preprocessed data (including pseudonymes)
 
@@ -51,16 +51,26 @@ Author gender distribution in the complete data:
 
 |Gender    | Documents (n)| Fraction (%)|
 |:---------|-------------:|------------:|
-|          |             1|         0.00|
-|ambiguous |           632|         0.89|
-|female    |          2980|         4.18|
-|male      |         35578|        49.90|
-|NA        |         32110|        45.03|
+|ambiguous |            10|         1.01|
+|female    |            45|         4.55|
+|male      |           509|        51.41|
+|NA        |           426|        43.03|
 
 Author gender distribution over time. Note that the name-gender mappings change over time and geography but this has not been taken into account here.
 
 
-![plot of chunk summarygendertime](figure/summarygendertime-1.png)
+
+```
+## Error in predLoess(object$y, object$x, newx = if (is.null(newdata)) object$x else if (is.data.frame(newdata)) as.matrix(model.frame(delete.response(terms(object)), : NA/NaN/Inf in foreign function call (arg 5)
+```
+
+```
+## Error in p + labs(x = "Publication decade", y = "Female authors (%)"): non-numeric argument to binary operator
+```
+
+```
+## NULL
+```
 
 
 

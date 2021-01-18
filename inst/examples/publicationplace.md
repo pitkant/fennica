@@ -7,10 +7,10 @@ output: markdown_document
 
 ### Publication places
 
- * 430 [unique publication places](output.tables/publication_place_accepted.csv); available for 68351 documents (96%).
+ * 63 [unique publication places](output.tables/publication_place_accepted.csv); available for 959 documents (97%).
  * 0 [ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 
  * 0 [unknown place names](output.tables/publication_place_todo.csv) These terms do not map to any known place on the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv); either because they require further cleaning or have not yet been encountered in the analyses. Terms that are clearly not place names can be added to [stopwords](inst/extdata/stopwords_for_place.csv); borderline cases that are not accepted as place names can be added as NA on the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv).
- * 32 [discarded place names](output.tables/publication_place_discarded.csv) These terms are potential place names but with a closer check have been explicitly rejected on the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv)
+ * 4 [discarded place names](output.tables/publication_place_discarded.csv) These terms are potential place names but with a closer check have been explicitly rejected on the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv)
  * [Conversions from the original to the accepted place names](output.tables/publication_place_conversion_nontrivial.csv) 
  * [Unit tests for place names](https://github.com/COMHIS/fennica/blob/master/inst/extdata/tests_place.csv) are automatically checked during package build
 
@@ -22,24 +22,16 @@ Top-50 publication places are shown together with the number of documents.
 ```
 
 ```
-## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 16 could not be loaded
-```
-
-```
 ## Error in top_plot(df, "publication_country", ntop): could not find function "top_plot"
 ```
 
-```
-## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 16 could not be loaded
-```
-
-<img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
+<img src="figure/summaryplace-1.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" /><img src="figure/summaryplace-2.png" title="plot of chunk summaryplace" alt="plot of chunk summaryplace" width="430px" />
 
 
 ### Publication countries	
 
- * 34 [unique publication countries](output.tables/publication_country_accepted.csv); available for 68349 documents (96%).
- * 2 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (0.5% of the unique places; can be added to [country mappings](https://github.com/COMHIS/fennica/blob/master/inst/extdata/reg2country.csv))
+ * 13 [unique publication countries](output.tables/publication_country_accepted.csv); available for 959 documents (97%).
+ * 0 [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (0% of the unique places; can be added to [country mappings](https://github.com/COMHIS/fennica/blob/master/inst/extdata/reg2country.csv))
  * 6 [potentially ambiguous region-country mappings](output.tables/publication_country_ambiguous.csv) (these may occur in the data in various synonymes and the country is not always clear when multiple countries have a similar place name; the default country is listed first). NOTE: possible improvements should not be done in this output summary but instead in the [country mapping file](https://github.com/COMHIS/fennica/blob/master/inst/extdata/reg2country.csv).
 
 
@@ -54,12 +46,12 @@ Top-50 publication places are shown together with the number of documents.
 
 |Country | Documents (n)| Fraction (%)|
 |:-------|-------------:|------------:|
-|Finland |         59294|         83.2|
-|Sweden  |          5085|          7.1|
-|Russia  |          1218|          1.7|
-|USA     |           816|          1.1|
-|Germany |           766|          1.1|
-|Estonia |           287|          0.4|
+|Finland |           834|         84.2|
+|Sweden  |            68|          6.9|
+|Russia  |            20|          2.0|
+|Germany |            11|          1.1|
+|USA     |             9|          0.9|
+|Estonia |             6|          0.6|
 
 
 ### Geocoordinates

@@ -5,10 +5,11 @@ date: "`r Sys.Date()`"
 output: markdown_document
 ---
 
-# Preprocessing summary
 
-The data spanning years `r min(na.omit(df$publication_year))`-`r max(na.omit(df$publication_year))` has been included and contains `r nrow(df.preprocessed)` documents (also other filter may apply depending on the data collection, see the source code for details.
 
+# Preprocessing summary: Fennica
+
+The data spanning years `r min(na.omit(df$publication_year))`-`r max(na.omit(df$publication_year))` has been included and contains `r nrow(df.preprocessed)` documents (additional filters may apply depending on the analysis, see the source code for details).
 
 
 ## Specific fields
@@ -23,6 +24,7 @@ The data spanning years `r min(na.omit(df$publication_year))`-`r max(na.omit(df$
   * [Physical dimension](dimension.md)    
   * [Document and subject topics](topic.md)
   * [Languages](language.md)
+
 
 
 ## Annotated documents
@@ -99,6 +101,42 @@ for (field in factor.fields) {
     print(p)
   }
 }
+```
+
+
+Fields of special interest. Real success percentage (proportion of successful conversions compared to non-NA entries in the original data):
+
+```{r missing2, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=15}
+select.fields <- c("author","publication_place","publication_country","publication_year",
+                     "publication_year_from","publication_year_till","corporate","area","pagecount",
+		     "gatherings","width","height","publisher","self_published")
+		     
+dfs <- df
+
+success <- as.data.frame(t(apply(dfs, 2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
+
+original.nonNA <- as.data.frame(t(apply(select(df.orig, publication_place,
+                    publication_time, corporate, physical_extent, physical_dimension, publisher, author_name),
+		      2, function (x) {sum(!is.na(gsub("^NA$", NA, as.character(x))))})))
+
+# Compare the number of non-NA entries in preprocessed data to number
+# of non-NA entries in the original data:
+real.success <- c()
+real.success[["publication_place"]] <- success$publication_place/original.nonNA$publication_place
+real.success[["publication_country"]] <- success$publication_country/original.nonNA$publication_place
+real.success[["publication_year"]] <- success$publication_year/original.nonNA$publication_time
+real.success[["publication_year_from"]] <- success$publication_year_from/original.nonNA$publication_time
+real.success[["publication_year_till"]] <- success$publication_year_till/original.nonNA$publication_time
+real.success[["corporate"]] <- success$corporate/original.nonNA$corporate
+real.success[["publisher"]] <- success$publisher/original.nonNA$publisher
+real.success[["self_published"]] <- success$self_published/original.nonNA$publisher
+real.success[["pagecount"]] <- success$pagecount/original.nonNA$physical_extent
+real.success[["area"]] <- success$area/original.nonNA$physical_dimension
+real.success[["gatherings"]] <- success$gatherings/original.nonNA$physical_dimension
+real.success[["author"]] <- success$author/original.nonNA$author
+# real.success[["paper"]] <- success$paper/sum(rowMeans(!is.na(df.orig[, c("physical_extent", "physical_dimension")])) == 1)
+real.success <- unlist(real.success)
+par(mar = c(3, 8, 2, 1)); barplot(100*sort(real.success), horiz = T, main = "Real success rate (selected fields)", las = 1, xlim = c(0, 100), xlab = "Success rate (%)")
 ```
 
 

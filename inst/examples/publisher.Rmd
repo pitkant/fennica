@@ -89,5 +89,19 @@ p <- p + ylab("Documents")
 print(p)
 ```
 
+## Publisher
+
+[Self-published accepted](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/self_published_accepted.csv) (Check for formatting and synonymes)
+
+[Self-published raw fields](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/self_published_rawfields.csv) (Check that the self-publication is a correct classification for these docs)
+
+## Corporate info
+
+[Accepted corporate info](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
+
+[Discarded corporate info](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/corporate_discarded.csv)
+
+
+
 
 

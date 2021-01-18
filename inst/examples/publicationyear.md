@@ -12,18 +12,13 @@ output: markdown_document
 
 [Publication year discarded](output.tables/publication_year_discarded.csv)
 
-Publication year is available for 71301 documents (100%). The publication years span 1522-1972.
-
-
-```
-## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 30 could not be loaded
-```
+Publication year is available for 990 documents (100%). The publication years span 1575-1917.
 
 ![plot of chunk summarypublicationyear](figure/summarypublicationyear-1.png)
 
 ### Publication frequency
 
-Publication frequency information is available for 1216 documents (2%). The links are invalid if the lists are empty. The (estimated annual) frequencies are converted to plain text according to their closest match in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/frequency_conversions.csv).
+Publication frequency information is available for 16 documents (2%). The links are invalid if the lists are empty. The (estimated annual) frequencies are converted to plain text according to their closest match in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/frequency_conversions.csv).
 
 [Publication frequency accepted](output.tables/publication_frequency_accepted.csv)
 
@@ -34,7 +29,7 @@ Publication frequency information is available for 1216 documents (2%). The link
 
 ### Publication interval
 
-Publication interval is available for 2434 documents (3%). 
+Publication interval is available for 31 documents (3%). 
 
 [Publication interval accepted](output.tables/publication_interval_accepted.csv)
 
@@ -52,18 +47,13 @@ are multiple instances from the same earliest year, they are all
 marked as potential first editions. Later need to check if this
 information is readily available in MARC.
 
-There are 58438 unique
+There are 978 unique
 documents with an identical title and author and
-6085
+10
 of those have multiple occurrences, sometimes with different publication
 years.  The earliest occurrence is suggested as the first edition.
 
 This figure shows the number of first editions per decade.
-
-
-```
-## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 16 could not be loaded
-```
 
 ![plot of chunk firsteditions](figure/firsteditions-1.png)
 

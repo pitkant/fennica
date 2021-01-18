@@ -1,18 +1,31 @@
+library(stringr)
+library(dplyr)
+library(reshape2)
+library(ggplot2)
+library(comhis)
+library(fennica)
+
+ntop <- 20
+
+# Read the preprocessed data
+df <- readRDS("df.Rds")
+df.orig <- readRDS("df.raw.Rds")
+conversions <- readRDS("conversions.Rds")
+
 # Summarize the data and discarded entries
 tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
 
-# Clean up - remove overlaps - is all of this needed?
-summaries <- c("summary",
-               "overview",
+# Clean up - remove overlaps - is all of this needed
+summaries <- c("overview",
 	       "author",
 	       "publicationplace",
 	       "publisher",
-	       "size",
 	       "gender",
 	       "topic",
 	       "language",
 	       "title",
 	       "publicationyear",
+	       "size",	       
 	       "pagecount",
 	       "dimension",
 	       "physical_dimension",

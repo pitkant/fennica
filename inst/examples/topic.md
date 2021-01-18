@@ -25,10 +25,16 @@ Top-50 subject topics and number of documents for each.
 ```
 
 ```
-## Error in grid.Call(C_stringMetric, as.graphicsAnnot(x$label)): X11 font -adobe-helvetica-%s-%s-*-*-%d-*-*-*-*-*-*-*, face 1 at size 30 could not be loaded
+## Error in p + ggtitle(paste("Top subject topics")): non-numeric argument to binary operator
 ```
 
-![plot of chunk summarytopics22](figure/summarytopics22-1.png)
+```
+## Error in p + ylab("Documents"): non-numeric argument to binary operator
+```
+
+```
+## NULL
+```
 
 ### Publication topic
 
