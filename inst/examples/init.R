@@ -28,4 +28,5 @@ df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, 
 ntop <- 20
 author <- "Helsinki Computational History Group (COMHIS)"
 
-
+# Visualization options
+theme_set(theme_bw(20))
