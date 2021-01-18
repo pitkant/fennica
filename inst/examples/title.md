@@ -14,12 +14,5 @@ output: markdown_document
 
 Top-20 titles are shown together with the number of documents.
 
-
-```
-## Error in scale_y_log10(): could not find function "scale_y_log10"
-```
-
-```
-## Error in print(p): object 'p' not found
-```
+![plot of chunk summarytitle](figure/summarytitle-1.png)
 
