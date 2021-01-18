@@ -2,6 +2,8 @@ TODO
 ==========
 
 
+Moving one field at a time from main_transit.R to main.R
+
 ### Technical
 
 - Move many key functions from funcs.R to R/ folder and package

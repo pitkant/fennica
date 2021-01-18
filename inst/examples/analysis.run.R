@@ -1,16 +1,12 @@
-library(stringr)
-library(dplyr)
-library(reshape2)
-library(ggplot2)
-library(comhis)
-library(fennica)
-
-ntop <- 20
+print("Prepare the final data set")
 
 # Read the preprocessed data
-df <- readRDS("df.Rds")
-df.orig <- readRDS("df.raw.Rds")
+df.orig <- readRDS(datafile.orig)
+df0 <- readRDS(datafile)
 conversions <- readRDS("conversions.Rds")
+
+df <- df.preprocessed <- df.preprocessed.orig <- filter(df0,
+        publication_year >=  min(timespan) & publication_year <= max(timespan))
 
 # Summarize the data and discarded entries
 tmp <- generate_summary_tables(df.preprocessed, df.orig, output.folder)
@@ -23,7 +19,6 @@ summaries <- c("overview",
 	       "gender",
 	       "topic",
 	       "language",
-	       "title",
 	       "publicationyear",
 	       "size",	       
 	       "pagecount",
@@ -31,12 +26,8 @@ summaries <- c("overview",
 	       "physical_dimension",
 	       "Paper")
 
-df <- df.preprocessed
-
-# Output file paths		      
-outputs <- c()
-
 # Generate the markdown summaries
+outputs <- c()
 for (id in summaries) {
   this.folder <- getwd()
   outputs[[id]] <- knit(input = paste(id, ".Rmd", sep = ""), 

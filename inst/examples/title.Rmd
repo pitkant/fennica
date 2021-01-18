@@ -1,5 +1,5 @@
 ---
-title: "Title summaries"
+title: "Title field: summary"
 author: "Leo Lahti"
 date: "`r Sys.Date()`"
 output: markdown_document
@@ -16,9 +16,8 @@ Top-`r ntop` titles are shown together with the number of documents.
 
 ```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=16, fig.height=10}
 p <- top_plot(df, "title", ntop = ntop) +
-  ggtitle(paste("Top titles")) +
-  scale_y_log10() +
-  ylab("Documents")
+       scale_y_log10() +
+       labs(y = "Entries (n)", title = Top titles)
 print(p)
 ```
 

@@ -1,25 +1,24 @@
 ---
-title: "Title summaries"
+title: "Title field: summary"
 author: "Leo Lahti"
-date: "2021-01-15"
+date: "2021-01-18"
 output: markdown_document
 ---
 
 
 ### Titles
 
- * 975 [unique titles](output.tables/title_accepted.csv)
- * 990 documents (100%) have a title
+ * 57062 [unique titles](output.tables/title_accepted.csv)
+ * 71916 documents (100%) have a title
  * [Discarded titles](output.tables/title_discarded.csv)
 
-Top-50 titles are shown together with the number of documents.
+Top-20 titles are shown together with the number of documents.
 
 
 ```
-## Error in top_plot(df, "title", ntop = ntop): could not find function "top_plot"
-```
-
-```
-## NULL
+## Error: <text>:3:44: unexpected symbol
+## 2:        scale_y_log10() +
+## 3:        labs(y = "Entries (n)", title = Top titles
+##                                               ^
 ```
 

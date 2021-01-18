@@ -11,6 +11,10 @@
 #' @keywords utilities
 polish_title <- function (x) {
 
+  x0 <- x
+  x <- unique(x)
+  xinds <- match(x0, x)
+
   x <- as.character(x)
 
   x <- gsub("\\,$", "", x)
@@ -41,5 +45,9 @@ polish_title <- function (x) {
   x <- gsub("\\)$", "", x)
   x <- gsub("^\\(", "", x)
 
+  # Map back to originals
+  x <- x[xinds]
+
   x
+  
 }

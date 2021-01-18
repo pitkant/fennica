@@ -242,6 +242,9 @@ get_country <- function (x, map = NULL) {
 #' @keywords utilities
 enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 
+  # NOT processed:
+  # - title
+  
 
   pagecount <- width <- height <- NULL
 
@@ -446,6 +449,9 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 #' @keywords utilities
 validate_preprocessed_data <- function(df, max.pagecount = 5000) {
 
+  # NOT processed:
+  # - title
+
   # TODO perhaps separate validators for different fields
   df.preprocessed <- df
 
@@ -475,8 +481,6 @@ validate_preprocessed_data <- function(df, max.pagecount = 5000) {
 
   data.to.analysis.fennica <- data.validated.fennica <- df.preprocessed
   df <- data.to.analysis.fennica
-
-  ############################################################################  
 
   # Consider all fields if update.fields is not specifically defined
   update.fields <- names(df)

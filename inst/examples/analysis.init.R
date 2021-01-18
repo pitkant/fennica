@@ -6,38 +6,15 @@ library(magrittr)
 library(reshape2)
 library(gridExtra)
 library(knitr)
-
-# ---------------------------------
+library(stringr)
+library(comhis)
 
 # Set global parameters
-#timespan <- c(1400, 1920)
-datafile <- "df.Rds" # Final preprocessed, enriched, validated data
-datafile.orig <- "df.raw.Rds" # Original raw data entries for comparison
-ntop <- 20
-author <- "Helsinki Computational History Group (COMHIS)"
-
-# Already in main.R but it must
-# be possible to run analysis.R
-# independently, therefore redefined here.
-output.folder <- "output.tables/"
-
-# ---------------------------------
-
-print("Prepare the final data set")
-# Read the preprocessed data
-df0 <- readRDS(datafile)
-df.orig <- readRDS(datafile.orig)
-
-# Year limits
-df <- df0
+# timespan <- c(1400, 1920)
 if (!exists("timespan")) {
   timespan <- range(df$publication_year, na.rm = TRUE)
 }
 
-df <- filter(df0,
-        publication_year >=  min(timespan) & publication_year <= max(timespan))
+datafile <- "df.Rds" # Final preprocessed, enriched, validated data
+datafile.orig <- "df.raw.Rds" # Original raw data entries for comparison
 
-
-# Store
-df.preprocessed <- df.preprocessed.orig <- df
-rm(df)

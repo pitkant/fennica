@@ -6,9 +6,14 @@ df.preprocessed <- data.frame(original_row = df.orig$original_row)
 conversions <- list()
 
 # Define the fields
-update.fields <- setdiff(names(df.orig), "original_row")
+update.fields <- setdiff(names(df.orig), c("original_row", "title"))
 
-# Preprocess the field only if it has to be updated
+# Harmonize title field
+source("title.R")
+
+# ---------------------------------------------------
+
+# Harmonize the rest of the fields
 for (field in update.fields) {
 
     message(field)
