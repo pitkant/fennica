@@ -3,6 +3,7 @@ library(dplyr)
 library(tm)
 library(stringr)
 library(knitr)
+library(R.utils)
 
 # Install latest version from Github
 install_github("comhis/fennica") # or devtools::load_all() if you are working from the clone and modifying it

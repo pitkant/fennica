@@ -8,12 +8,12 @@ output: markdown_document
 
 ### Titles
 
- * `r length(unique(df$title))` [unique titles](output.tables/title_accepted.csv)
- * `r sum(!is.na(df$title))` / `r nrow(df)` original documents (`r round(100*mean(!is.na(df$title)), 1)`%) have entries
- * `r sum(is.na(df$title))` / `r nrow(df)` documents (`r round(100*mean(is.na(df$title)), 1)`%) have missing (NA) entries
- * [Discarded titles](output.tables/title_discarded.csv) (excluding NA entries in the original data)
+ * [Unique accepted titles](output.tables/title_accepted.csv): `r length(unique(df$title))`
+ * [Unique discarded titles in original data](output.tables/title_discarded.csv) (excluding NA cases): `r as.vector(countLines(paste0(output.folder, "/title_discarded.csv")) - 1)` 
+ * Original documents (`r round(100*mean(!is.na(df$title)), 1)`%) with non-NA titles: `r sum(!is.na(df$title))` / `r nrow(df)`
+ * Original documents with missing (NA) titles `r sum(is.na(df$title))` / `r nrow(df)` documents (`r round(100*mean(is.na(df$title)), 1)`%) 
 
-Top-`r ntop` titles are shown together with the number of documents.
+Top-`r ntop` titles and their title counts.
 
 ```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=12, fig.height=8}
 library(ggplot2)
