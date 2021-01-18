@@ -24,12 +24,15 @@ message("Accepted entries in the preprocessed data")
 s <- write_xtable(df.tmp[[field]], paste(output.folder, field, "_accepted.csv", sep = ""), count = TRUE)
 
 message("Discarded entries in the original data")
+
 # NA values in the final harmonized data
 inds <- which(is.na(df.tmp[[field]]))
+
 # Original entries that were converted into NA
-original <- as.vector(na.omit(as.character(df.tmp$original[inds])))
+original.na <- df.orig[match(df.tmp$original_row[inds], df.orig$original_row), field]
+
 # .. ie. those are "discarded" cases; list them in a table
-tmp <- write_xtable(original, paste(output.folder, field, "_discarded.csv", sep = ""), count = TRUE)
+tmp <- write_xtable(original.na, paste(output.folder, field, "_discarded.csv", sep = ""), count = TRUE)
 
 # ------------------------------------------------------------
 
