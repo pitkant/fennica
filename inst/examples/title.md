@@ -16,9 +16,10 @@ Top-20 titles are shown together with the number of documents.
 
 
 ```
-## Error: <text>:3:44: unexpected symbol
-## 2:        scale_y_log10() +
-## 3:        labs(y = "Entries (n)", title = Top titles
-##                                               ^
+## Error in scale_y_log10(): could not find function "scale_y_log10"
+```
+
+```
+## Error in print(p): object 'p' not found
 ```
 

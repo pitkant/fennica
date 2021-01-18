@@ -17,7 +17,7 @@ Top-`r ntop` titles are shown together with the number of documents.
 ```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=16, fig.height=10}
 p <- top_plot(df, "title", ntop = ntop) +
        scale_y_log10() +
-       labs(y = "Entries (n)", title = Top titles)
+       labs(y = "Entries (n)", title = "Top titles")
 print(p)
 ```
 
