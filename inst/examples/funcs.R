@@ -5132,11 +5132,11 @@ write_xtable <- function (x, filename = NULL, count = FALSE, sort.by = "Count", 
     }
   }
 
-  if (length(x) == 0) {  
-    message("The input to write_table is empty.")
-    write("The input list is empty.", file = filename)    
-    return(NULL)
-  }
+  #if (length(x) == 0) {  
+  #  message("The input to write_table is empty.")
+  #  write("The input list is empty.", file = filename)    
+  #  return(NULL)
+  #}
 
   tab <- NULL
   if (is.vector(x)) {
@@ -5231,19 +5231,19 @@ write_xtable <- function (x, filename = NULL, count = FALSE, sort.by = "Count", 
       tab <- apply(tab, 2, as.character)
     }
 
-    n <- sum(as.numeric(tab[, "Count"]), na.rm = TRUE)
-
-    ntxt <- n    
-    if (is.matrix(tab)) {
-      suppressWarnings(tab <- rbind(rep("", ncol(tab)), tab))
-      tab[1, 1] <- paste("Total count (na.rm ", na.rm, "): ", sep = "")
-      tab[1, 2] <- ntxt
-      if (ncol(tab)>2) {
-        tab[1, 3:ncol(tab)] <- rep("", ncol(tab) - 2)
-      }
-    } else {
-      tab <- c(paste("Total count:", ntxt), tab)
-    }    
+    #n <- sum(as.numeric(tab[, "Count"]), na.rm = TRUE)
+    #ntxt <- n    
+    #if (is.matrix(tab)) {
+    #  suppressWarnings(tab <- rbind(rep("", ncol(tab)), tab))
+    #  tab[1, 1] <- paste("Total count (na.rm ", na.rm, "): ", sep = "")
+    #  tab[1, 2] <- ntxt
+    #  if (ncol(tab)>2) {
+    #    tab[1, 3:ncol(tab)] <- rep("", ncol(tab) - 2)
+    #  }
+    #} else {
+    #  tab <- c(paste("Total count:", ntxt), tab)
+    #}
+    
   }
 
   if (!is.null(filename)) {
