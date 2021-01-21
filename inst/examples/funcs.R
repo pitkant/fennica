@@ -253,18 +253,6 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
   # Note the source of page counts. Original MARC data by default.
   df.preprocessed$pagecount_from <- rep("original", nrow(df.preprocessed))
 
-  #if ("publication_place" %in% update.fields) {
-  #  tmp <- enrich_geo(df.preprocessed[["publication_place"]])
-  #  df.preprocessed$publication_place <- tmp$place
-  #  df.preprocessed$publication_country <- tmp$country
-  #}
-
-  #if ("publication_geography" %in% update.fields) {
-  #  tmp <- enrich_geo(df.preprocessed[["publication_geography"]])
-  #  df.preprocessed$publication_geography_place <- tmp$place
-  #  df.preprocessed$publication_geography_country <- tmp$country    
-  #}
-
   # Always do. New field "author" needed for first edition recognition.
   # This is fast.
   if (any(c("author_name", "author_date") %in% update.fields)) {
@@ -272,10 +260,6 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
     # 100 entries in df.preprocessed? -vv 
     df.preprocessed <- enrich_author(df.preprocessed)
   }
-
-  # Always do. This is fast.
-  # Must be done after enrich_author
-  df.preprocessed <- enrich_years(df.preprocessed, df.orig)
 
   if ("publisher" %in% update.fields) {
 
@@ -312,72 +296,8 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 
   }
 
-
   message("Identify issues")
   df.preprocessed$issue <- is.issue(df.preprocessed)
-
-  ## COMBINE PUBLICATION-YEAR AND PUBLICATION-INTERVAL FIELDS
-  # Recognize issues: those that have publication interval or frequency defined
-  message("Combining year and interval")
-  # Assume that all cases with denoted interval have start and end year
-  # If one is missing, then it means that start and end are the same year
-  # therefore fill those missing entries here:s
-  df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_from)] <- df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_from)]
-  df.preprocessed$publication_interval_till[is.na(df.preprocessed$publication_interval_till)] <- df.preprocessed$publication_interval_from[is.na(df.preprocessed$publication_interval_till)]
-
-  message("Discard erroneous years")
-  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
-  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
-  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from > 2000] <- NA
-  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
-
-  inds <- which(is.na(df.preprocessed$publication_year))
-
-  message("Compare with publication year field.")
-  # When the non-NA entries are unique, use the same year for all
-  tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
-               till0 = df.preprocessed$publication_year_till[inds],
-               from = df.preprocessed$publication_interval_from[inds],
-               till = df.preprocessed$publication_interval_till[inds]
-               )
-  inds2 <- unname(which(apply(tmp, 1, function (x) {length(unique(na.omit(x)))}) == 1))
-
-
-  y <- unname(apply(matrix(tmp[inds2,], ncol = ncol(tmp)), 1, function (x) {unique(na.omit(x))}))
-
-  df.preprocessed$publication_year_from[inds[inds2]] <- y
-  df.preprocessed$publication_year_till[inds[inds2]] <- y
-
-  message("For conflicting years, select he largest combined span")
-  tmp <- cbind(from0 = df.preprocessed$publication_year_from[inds],
-               till0 = df.preprocessed$publication_year_till[inds],
-               from = df.preprocessed$publication_interval_from[inds],
-               till = df.preprocessed$publication_interval_till[inds]
-               )
-  message("cbind done")
-
-  tmp <- matrix(tmp, ncol = ncol(tmp))
-  mins <- unname(apply(tmp, 1, function (x) {min(x, na.rm = TRUE)}))
-  maxs <- unname(apply(tmp, 1, function (x) {max(x, na.rm = TRUE)}))
-
-  message("minmax done")
-
-  df.preprocessed$publication_year_from[inds] <- mins
-  df.preprocessed$publication_year_till[inds] <- maxs
-
-  # ------------------------------------------------------
-
-  message("Updating publication times")
-
-  # Use from field; if from year not available, then use till year
-  df.preprocessed$publication_year <- df.preprocessed$publication_year_from
-  inds <- which(is.na(df.preprocessed$publication_year))
-  df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[inds]
-
-  # publication_decade
-  df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
-
-  # ------------------------------------------------------
 
   message("Custom gender information for Fennica")
   # For author names, use primarily the Finnish names database
@@ -387,7 +307,7 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 
   # Let us Finnish gender mappings override others
   gender.fi <- get_gender_fi()[, c("name", "gender")] # Finnish
-  genderfi <- get_gender(firstname, gender.fi)
+  genderfi  <- get_gender(firstname, gender.fi)
   inds <- which(!is.na(genderfi))
   df.preprocessed$author_gender[inds] <- genderfi[inds]
 
@@ -398,35 +318,8 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
   inds <- which(!is.na(gendercustom))
   df.preprocessed$author_gender[inds] <- gendercustom[inds]
 
-
-  skip <- TRUE
-  # FIXME add this
-
-
   message("-- Fennica publishers")
   df.preprocessed$publisher <- polish_publisher_fennica(df.preprocessed)
-
-  if (!skip) {        
-  # ----------------------------------------------------------------
-  # Updated geomappings. This is now based on the polished place names.
-  # TODO check if original raw data has any country information
-  # Iiron mappaykset
-  geoinfo <- read.csv("geo/Fennica.Places.csv", fileEncoding = "latin1")
-  # Quick manual fixes
-  df.preprocessed$publication_place <- gsub("Żary", "Zary", df.preprocessed$publication_place)
-  df.preprocessed$publication_place <- gsub("Gdańsk", "Gdansk", df.preprocessed$publication_place)
-  df.preprocessed$publication_place <- gsub("Poznań", "Poznan", df.preprocessed$publication_place)
-  df.preprocessed$publication_place <- gsub("Telč", "Telc", df.preprocessed$publication_place)
-  df.preprocessed$publication_place <- gsub("Litoměrice", "Litomerice", df.preprocessed$publication_place)        
-  # not1 <- setdiff(df.preprocessed$publication_place, geoinfo$publication_place); not2 <- setdiff(geoinfo$publication_place, df.preprocessed$publication_place)
-  inds <- match(df.preprocessed$publication_place, geoinfo$publication_place)
-  df.preprocessed$publication_country <- factor(geoinfo[inds, "country"])
-  df.preprocessed$longitude <- geoinfo[inds, "longitude"]
-  df.preprocessed$latitude <- geoinfo[inds, "latitude"]  
- 
-  # ----------------------------------------------------------------------
-
-  }
 
   message("Enrichment OK")
   return(df.preprocessed)
@@ -452,38 +345,13 @@ validate_preprocessed_data <- function(df, max.pagecount = 5000) {
   # TODO perhaps separate validators for different fields
   df.preprocessed <- df
 
-  # Manually checked for Fennica - 3 publications before 1400;
-  # in all cases it seems that this is misspelling and the original year cant be inferred from the entry
-  max.year <- as.numeric(format(Sys.time(), "%Y")) # this.year
-  min.year <- 1400
-  df.preprocessed$publication_year_from[which(df.preprocessed$publication_year_from > max.year)] <- NA
-  df.preprocessed$publication_year_from[which(df.preprocessed$publication_year_from < min.year)] <- NA
-  df.preprocessed$publication_year_till[which(df.preprocessed$publication_year_till > max.year)] <- NA
-  df.preprocessed$publication_year_till[which(df.preprocessed$publication_year_till < min.year)] <- NA
-
-  # Subsequent correction to the publication year fields
-  print("Publication times")
-  # Use from field; if from year not available, then use till year
-  df.preprocessed$publication_year <- df.preprocessed$publication_year_from
-  inds <- which(is.na(df.preprocessed$publication_year))
-  df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[inds]
-  # publication_decade
-  df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
-
-  # Publication interval must be within 1400-2000
-  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from < 1400] <- NA
-  df.preprocessed$publication_interval_from[df.preprocessed$publication_interval_from > 2000] <- NA
-  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till < 1400] <- NA
-  df.preprocessed$publication_interval_till[df.preprocessed$publication_interval_till > 2000] <- NA
-
   data.to.analysis.fennica <- data.validated.fennica <- df.preprocessed
   df <- data.to.analysis.fennica
 
   # Consider all fields if update.fields is not specifically defined
   update.fields <- names(df)
 
-  min.year <- (-2000)
-  max.year <- as.numeric(format(Sys.time(), "%Y")) # this.year
+
 
   # Some documents have extremely high pagecounts
   # (up to hundreds of thousands of pages)
@@ -503,16 +371,6 @@ validate_preprocessed_data <- function(df, max.pagecount = 5000) {
 
   }
 
-  if ("publication_time" %in% update.fields) {
-
-    message("Fix publication years")
-    # Remove apparent errors: no future publications or publications before historical times
-    df$publication_year_from[which(df$publication_year_from > max.year)] <- NA
-    df$publication_year_from[which(df$publication_year_from < min.year)] <- NA
-    df$publication_year_till[which(df$publication_year_till > max.year)] <- NA
-    df$publication_year_till[which(df$publication_year_till < min.year)] <- NA
-
-  }
 
   if ("author_date" %in% update.fields) {
 
@@ -3124,6 +2982,21 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   df <- data.frame(from = as.numeric(as.character(start_year)),
                    till = as.numeric(as.character(end_year)))
 
+  message("Add publication year")
+  # Use from field; if from year not available, then use till year
+  df$publication_year <- df$from
+  inds <- which(is.na(df$publication_year))
+  df$publication_year[inds] <- df$till[inds]
+
+  message(paste("Checking that the years are within the accepted range:", min.year, "-", max.year))
+  # Manually checked for Fennica - 3 publications before 1400;
+  # FIXME make more explicit in the final reports
+  # in all cases it seems that this is misspelling and the original year cant be inferred from the entry
+  df$from[which(df$from > max.year)] <- NA
+  df$from[which(df$from < min.year)] <- NA
+  df$till[which(df$till > max.year)] <- NA
+  df$till[which(df$publication_year < min.year)] <- NA
+
   # Match the unique cases to the original indices
   # before returning the df
   return(df[match(xorig, xuniq), ])
@@ -4308,71 +4181,7 @@ gender_custom <- function (...) {
 }
 
 
-#' @title Enrich Years
-#' @description Enrich year info.
-#' @param df.preprocessed Preprocessed data.frame
-#' @param df.orig Original data.frame
-#' @return Augmented data.frame
-#' @export
-#' @author Leo Lahti \email{leo.lahti@@iki.fi}
-#' @examples \dontrun{df2 <- enrich_years(df)}
-#' @keywords utilities
-enrich_years <- function(df.preprocessed, df.orig) {
 
-  # needs df.orig. Can we get rid of this? -vv
-  
-  # LL: this uses publication_interval field from df.orig; if that is
-  # processed separately and stored in its own field in
-  # df.preprocessed then this can be trivially handled. Note that
-  # publication_interval is confusingly mixing (at least) to different
-  # types of information: (1) actual years of the publication
-  # interval, and (2) the number of publications during the years
-  # given in the publication_time (df.orig). These should be
-  # identified and separated. Below, df.orig take advantage of the
-  # latter case to retrieve more information of the
-  # publication_frequencies than would be otherwise available.
-
-  message("Enriching publication years..")
-
-    message("Add publication year")
-    # Use from field; if from year not available, then use till year
-    df.preprocessed$publication_year <- df.preprocessed$publication_year_from
-    inds <- which(is.na(df.preprocessed$publication_year))
-    df.preprocessed$publication_year[inds] <- df.preprocessed$publication_year_till[inds]
-
-    message("Add publication decade")
-    df.preprocessed$publication_decade <- floor(df.preprocessed$publication_year/10) * 10 # 1790: 1790-1799
-
-    message("Mark potential first editions")
-    df.preprocessed$first_edition <- is_first_edition(df.preprocessed)
-
-  message("Enrich publication interval")
-  # Based on analysis of a random sample of entries in Fennica,
-  # it seems that when interval is of the form "1908" ie a single year
-  # the publication interval is in all cases 1908-1908 ie a single year.
-  # Hence let us augment the interval based on this if till year is missing.
-  if ("publication_interval_from" %in% names(df.preprocessed)) {
-    nas <- which(!is.na(df.preprocessed$publication_interval_from) & is.na(df.preprocessed$publication_interval_till))
-    df.preprocessed$publication_interval_till[nas] <- df.preprocessed$publication_interval_from[nas]
-  }
-
-  message("Enrich publication frequency")
-  # publication_interval "1-3" etc. does not refer to years but number of publications
-  # within the given years. Augment the data based on this logic.
-  if ("publication_frequency_text" %in% names(df.preprocessed)) {
-    dfo <- df.orig[df.preprocessed$original_row, ]
-    idx <- grep("^[0-9]{1}-[0-9]{1,2}$", gsub("\\.$", "", dfo$publication_interval))
-    if (length(idx) > 0) {
-      f <- sapply(strsplit(gsub("\\.$", "", dfo$publication_interval[idx]), "-"), function (x) {diff(sort(as.numeric(x)))+1})
-      fa <- f/(df.preprocessed$publication_year_till[idx] - df.preprocessed$publication_year_from[idx] + 1)
-      i <- is.na(df.preprocessed$publication_frequency_annual[idx])
-      df.preprocessed$publication_frequency_annual[idx[i]] <- fa[i]
-      df.preprocessed$publication_frequency_text <- publication_frequency_text(df.preprocessed$publication_frequency_text, df.preprocessed$publication_frequency_annual)
-    }
-  }
-
-  return (df.preprocessed)
-}
 
 
 #' @title First Edition Identification
