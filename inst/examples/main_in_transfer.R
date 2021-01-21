@@ -5,13 +5,13 @@
 source("init.R")
 
 update.fields <- c(
-      "original_row",
-      "publication_place",     
-      "language",              
+      "title_uniform",
+      "publication_place",
+      
+      "language",
+      
       "author_name",          
       "author_date",           
-      "title_uniform",         
-      "title",                
       "publication_time",      
       "physical_extent",       
       "physical_dimension",

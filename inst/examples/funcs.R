@@ -244,8 +244,6 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 
   # NOT processed:
   # - title
-  
-
   pagecount <- width <- height <- NULL
 
   # This could be improved - varies in time !
@@ -255,17 +253,17 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
   # Note the source of page counts. Original MARC data by default.
   df.preprocessed$pagecount_from <- rep("original", nrow(df.preprocessed))
 
-  if ("publication_place" %in% update.fields) {
-    tmp <- enrich_geo(df.preprocessed[["publication_place"]])
-    df.preprocessed$publication_place <- tmp$place
-    df.preprocessed$publication_country <- tmp$country
-  }
+  #if ("publication_place" %in% update.fields) {
+  #  tmp <- enrich_geo(df.preprocessed[["publication_place"]])
+  #  df.preprocessed$publication_place <- tmp$place
+  #  df.preprocessed$publication_country <- tmp$country
+  #}
 
-  if ("publication_geography" %in% update.fields) {
-    tmp <- enrich_geo(df.preprocessed[["publication_geography"]])
-    df.preprocessed$publication_geography_place <- tmp$place
-    df.preprocessed$publication_geography_country <- tmp$country    
-  }
+  #if ("publication_geography" %in% update.fields) {
+  #  tmp <- enrich_geo(df.preprocessed[["publication_geography"]])
+  #  df.preprocessed$publication_geography_place <- tmp$place
+  #  df.preprocessed$publication_geography_country <- tmp$country    
+  #}
 
   # Always do. New field "author" needed for first edition recognition.
   # This is fast.
@@ -346,7 +344,6 @@ enrich_preprocessed_data <- function(df.preprocessed, df.orig) {
 
 
   y <- unname(apply(matrix(tmp[inds2,], ncol = ncol(tmp)), 1, function (x) {unique(na.omit(x))}))
-
 
   df.preprocessed$publication_year_from[inds[inds2]] <- y
   df.preprocessed$publication_year_till[inds[inds2]] <- y
@@ -503,6 +500,7 @@ validate_preprocessed_data <- function(df, max.pagecount = 5000) {
     df$pagecount[df$pagecount <= 0] <- NA
     # Round page counts to the closest integer if they are not already integers
     df$pagecount <- round(df$pagecount)
+
   }
 
   if ("publication_time" %in% update.fields) {
@@ -5002,63 +5000,6 @@ generate_summary_tables <- function (df.preprocessed, df.orig, output.folder = "
   write.table(dfs, paste(output.folder, "author_life_ambiguous.csv", sep = ""), quote = F, sep = "\t", row.names = FALSE)
 
   # -------------------------------------------------------
-
-  message("Undefined language")
-  gc(); rm(dfs); rm(tmp) # Cleanup
-  # Remove "und" from the list ("Undetermined")
-  f <- system.file("extdata/language_abbreviations.csv", package = "fennica")
-  abrv <- read_mapping(f, include.lowercase = T, self.match = T, ignore.empty = FALSE, mode = "table", sep = "\t")
-  # List unique languages that occur in the data
-  lang <- tolower(df.orig$language)
-  lang <- unique(lang[!is.na(lang)])
-  lang <- unlist(strsplit(lang, ";"), use.names = FALSE)
-  lang <- unique(lang)
-  lang <- lang[!grepl("^[0-9]$", lang)] # Remove numerics
-  # Remove the known ones (und is Undetermined)
-  known.abbreviations <- setdiff(abrv$synonyme, "und") # und = Undetermined
-  discarded.lang <- c("*", ".", "^,", "", "-", "\\\\?", "&")
-  unknown.lang <- lang[!lang %in% c(known.abbreviations, discarded.lang)]
-
-  message("Write unknown languages")
-  if (length(unknown.lang)>0) {
-    ltab <- table(df.orig$language)
-    #spl <- unlist(strsplit(names(ltab), ";"), use.names = FALSE)
-    # Count occurrences for each unknown lang
-    # TODO should be easy to speed up by considering unique entries only
-    # and them summing up their stats
-    # Identify hits 0/1
-    u <- sapply(unknown.lang, function (ul) grepl(paste("^", ul, "$", sep = ""), names(ltab))) |
-      	 sapply(unknown.lang, function (ul) grepl(paste("^", ul, ";", sep = ""), names(ltab))) |
-      	 sapply(unknown.lang, function (ul) grepl(paste(";", ul, ";", sep = ""), names(ltab))) |
-      	 sapply(unknown.lang, function (ul) grepl(paste(";", ul, "$", sep = ""), names(ltab)))
-
-    # Multiply by counts of each case 
-    u <- apply(u, 2, function (x) {x * ltab})	 
-
-    # Sum up the occurrence counts for each unknown language
-    u <- colSums(u)
-    u <- u[u > 0]    
-    u <- rev(sort(u))
-    tab <- cbind(term = names(u), n = unname(u))
-    tmp <- write.csv(tab,
-	     file = paste(output.folder, "language_discarded.csv", sep = ""),
-	     quote = F, row.names = F)
-  } else {
-    write.csv("No entries.", file = paste(output.folder, "language_discarded.csv", sep = ""))
-  }
-
-  message("Accepted languages")
-  known.lang <- lang[lang %in% known.abbreviations]
-  tmp <- write_xtable(map(known.lang, abrv), paste(output.folder, "language_accepted.csv", sep = ""), count = TRUE)
-
-  message("Language conversions")
-  field = "language"
-  original <- as.character(df.orig[[field]])
-  polished <- as.character(df.preprocessed[[field]])
-  tab <- cbind(original = original, polished = polished)
-  tmp <- write_xtable(tab, paste(output.folder, field, "_conversions.csv", sep = ""), count = TRUE)
-
-  # ---------------------------------------------------------
 
   message("Page counts")
   use.fields <- intersect(c("pagecount", "volnumber", "volcount"), names(df.preprocessed))
