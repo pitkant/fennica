@@ -1,10 +1,15 @@
 TODO
 ==========
 
-
 Moving one field at a time from main_transit.R to main.R
 
+
+See README also?
+
+
 ### Technical
+
+- Use feather instead of Rds?
 
 - Move many key functions from funcs.R to R/ folder and package
 
