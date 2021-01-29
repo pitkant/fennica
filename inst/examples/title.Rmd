@@ -23,18 +23,21 @@ p <- top_plot(df, "title", ntop = ntop) +
 print(p)
 ```
 
-Unique titles histogram.
 
-#organize data by unique title 
-#add frequency column 
-```{r}
-df.tmp<- transform(df.tmp, freq= ave(seq(nrow(df)), title, FUN=length))
-df.tmp[order(-df.tmp$freq), ]
-na.omit(df.tmp)
-```
 
 ```{r uniquetitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+tab <- table(df$title)
+d <- data.frame(title = names(tab), n = as.numeric(tab))
+
 library(ggplot2)
-p <- ggplot(df.tmp, aes(freq, color = "black"))+ geom_bar(width=0.05, colour="blue")+scale_x_log10()+ scale_y_log10()
-print(p) 
+p <- ggplot(d, aes(x = n)) +
+       geom_histogram() +
+       scale_x_log10() +
+       scale_y_log10() +
+       labs(x = "Title duplicates (n)", y = "Documents (n)")
+print(p)
 ```
+
+
+
+
