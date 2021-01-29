@@ -25,6 +25,8 @@ print(p)
 
 
 
+Frequency of unique titles:
+
 ```{r uniquetitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 tab <- table(df$title)
 d <- data.frame(title = names(tab), n = as.numeric(tab))
