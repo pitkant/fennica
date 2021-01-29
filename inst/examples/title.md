@@ -10,6 +10,8 @@ Top-20 titles and their title counts.
 
 ![plot of chunk summarytitle](figure/summarytitle-1.png)
 
-Unique titles 
+
+Unique titles histogram.
+
 
 ![plot of chunk uniquetitles](figure/uniquetitles.png)
