@@ -14,7 +14,7 @@ output: md_document
 
 Top-`r ntop` titles and their title counts.
 
-```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4}
+```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 library(ggplot2)
 p <- top_plot(df, "title", ntop = ntop, log10 = TRUE)+
   labs(y = "Entries (n)", title = "Top titles")
