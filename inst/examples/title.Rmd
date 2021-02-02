@@ -5,7 +5,6 @@ date: "`r Sys.Date()`"
 output: md_document
 ---
 
-
 ### Titles
 
  * [Unique accepted titles](output.tables/title_accepted.csv): `r length(unique(df$title))`
@@ -15,11 +14,10 @@ output: md_document
 
 Top-`r ntop` titles and their title counts.
 
-```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=6, fig.height=4}
 library(ggplot2)
-p <- top_plot(df, "title", ntop = ntop) +
-       scale_y_log10() +
-       labs(y = "Entries (n)", title = "Top titles")
+p <- top_plot(df, "title", ntop = ntop, log10 = TRUE)+
+  labs(y = "Entries (n)", title = "Top titles")
 print(p)
 ```
 
