@@ -18,4 +18,18 @@ print(p)
 ```
 
 
+Frequency of unique titles:
+  
+```{r uniquetitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+tab <- table(df$title)
+d <- data.frame(title = names(tab), n = as.numeric(tab))
 
+library(ggplot2)
+theme_set(theme_bw(base_size = 12))
+p <- ggplot(d, aes(x = n)) +
+  geom_histogram(color="black", fill="white") +
+  scale_x_log10() +
+  scale_y_log10() +
+  labs(x = "Title duplicates (n)", y = "Documents (n)")
+print(p)
+```
