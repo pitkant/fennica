@@ -2,27 +2,20 @@
 title: "title_uniform"
 output: md_document
 ---
+* [Unique accepted titles](output.tables/title_accepted.csv): `r length(unique(df$title_uniform))`
+ * [Unique discarded titles in original data](output.tables/title_discarded.csv) (excluding NA cases): `r as.vector(countLines(paste0(output.folder, "/title_discarded.csv")) - 1)` 
+ * Original documents with non-NA titles: `r sum(!is.na(df$title_uniform))` / `r nrow(df)` (`r round(100*mean(!is.na(df$title_uniform)), 1)`%)
+ * Original documents with missing (NA) titles `r sum(is.na(df$title_uniform))` / `r nrow(df)` documents (`r round(100*mean(is.na(df$title_uniform)), 1)`%) 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+Top-`r ntop` titles and their title counts.
+
+```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+library(ggplot2)
+theme_set(theme_bw(base_size = 12))
+p <- top_plot(df, "title_uniform", ntop = ntop, log10 = TRUE)+
+  labs(y = "Entries (n)", title = "Top titles")
+print(p)
 ```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
