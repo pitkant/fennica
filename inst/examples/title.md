@@ -5,6 +5,9 @@ date: "2021-02-04"
 output: md_document
 ---
 
+
+
+
 ### Titles
 
  * [Unique accepted titles](output.tables/title_accepted.csv): 57062
@@ -14,13 +17,13 @@ output: md_document
 
 Top-20 titles and their title counts.
 
-![plot of chunk summarytitle](figure/summarytitle-1.png)
+![plot of chunk summarytitle](figure/rmd_title_summarytitle-1.png)
 
 
 
 Frequency of unique titles:
 
-![plot of chunk uniquetitles](figure/uniquetitles-1.png)
+![plot of chunk uniquetitles](figure/rmd_title_uniquetitles-1.png)
 
 
 

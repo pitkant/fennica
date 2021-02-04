@@ -8,7 +8,7 @@ output: md_document
 
 ```{r setup, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(fig.path=paste0("rmd_", field, "_"))
+knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
 ```
 
 ### Titles
