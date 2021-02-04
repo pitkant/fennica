@@ -5,6 +5,12 @@ date: "`r Sys.Date()`"
 output: md_document
 ---
 
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.path=paste0("rmd_", field, "_"))
+```
+
 ### Titles
 
  * [Unique accepted titles](output.tables/title_accepted.csv): `r length(unique(df$title))`

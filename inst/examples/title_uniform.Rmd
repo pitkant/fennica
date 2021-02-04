@@ -5,7 +5,10 @@ output: md_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.path=paste0("rmd_", field, "_"))
 ```
+
+
 
 ## R Markdown
 
