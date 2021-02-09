@@ -1,10 +1,7 @@
 TODO
 ==========
 
-Moving one field at a time from main_transit.R to main.R
-
-
-See README also?
+Moving one field at a time from main_in_transfer.R to main.R
 
 
 ### Technical
