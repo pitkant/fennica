@@ -23,3 +23,20 @@ source("note_sourcer.R")
 
 #note_source field
 source("note_source.R")
+
+#note_510c field
+source("note_510c.R")
+
+#corporate field
+source("corporate.R")
+
+#uncontrolled field
+source("uncontrolled.R")
+
+
+#successor field
+source("successor.R")
+
+
+#holder field
+source("holder.R")
