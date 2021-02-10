@@ -15,14 +15,27 @@ source("title.R")
 # Title_uniform field
 source("title_uniform.R")
 
+#note_source field
+source("note_source.R")
+
+#uncontrolled field
+source("uncontrolled.R")
+
+#successor field
+source("successor.R")
+
+#holder field
+source("holder.R")
+
+
+# FIXME These below do not go through when running main.R from fresh R session
+
 #note_dissertation field
 source("note_dissertation.R")
 
 #note_source field
+# -> FIXME  Is this some kind of duplicate of note_source.R??
 source("note_sourcer.R")
-
-#note_source field
-source("note_source.R")
 
 #note_510c field
 source("note_510c.R")
@@ -30,13 +43,3 @@ source("note_510c.R")
 #corporate field
 source("corporate.R")
 
-#uncontrolled field
-source("uncontrolled.R")
-
-
-#successor field
-source("successor.R")
-
-
-#holder field
-source("holder.R")
