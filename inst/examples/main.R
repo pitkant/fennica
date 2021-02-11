@@ -27,15 +27,16 @@ source("successor.R")
 #holder field
 source("holder.R")
 
+#note_granter field
+source("note_granter.R")
+
+#note_subject_topic field
+source("note_subject_topic.R")
 
 # FIXME These below do not go through when running main.R from fresh R session
 
 #note_dissertation field
 source("note_dissertation.R")
-
-#note_source field
-# -> FIXME  Is this some kind of duplicate of note_source.R??
-source("note_sourcer.R")
 
 #note_510c field
 source("note_510c.R")
