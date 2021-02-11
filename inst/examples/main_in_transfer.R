@@ -6,33 +6,36 @@ source("init.R")
 
 update.fields <- c(
 
-      "title_uniform", # TODO like title
-      "language", # Initially done; TODO check and polish      
+      "language", # Initially done; TODO check and polish
+      
       "publication_place", # IT taking care      
-
+      "subject_geography",
+      
       "publication_time", # TO test and generate_summary_tables to add (JM?) 
       "publication_interval", # Some overlap with time.. TODO
 
       "physical_extent",       
       "physical_dimension",
       "publication_frequency", 
-      
+
       "author_name",          
       "author_date",           
 
+      # Notes
       "note_dissertation",    
       "note_granter",          
       "note_source",           
       "note_510c",
-      
-      "subject_topic",         
-      "subject_geography", 
-      
-      "publisher",
+
+      # Subject topics
+      "subject_topic",
+
+      # Publisher and related fields
       "corporate",            
       "uncontrolled",          
       "successor",             
-      "holder"
+      "holder",
+      "publisher"      
       
       )
 
