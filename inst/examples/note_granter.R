@@ -12,7 +12,7 @@ x <- fennica::polish_title(original)
 
 # Collect the results into a data.frame
 df.tmp <- data.frame(original_row = df.orig$original_row,
-                     note_grater = x)
+                     note_granter = x)
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV
