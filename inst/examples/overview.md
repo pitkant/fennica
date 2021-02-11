@@ -23,6 +23,17 @@ The following fields have been harmonized.
   * [Physical dimension](dimension.md)    
   * [Document and subject topics](topic.md)
   * [Languages](language.md)
+  * [Corporate](corporate.md)
+  * [Holder](holder.md)
+  * [Note_510c](note_510c.md)
+  * [Note_dissertation](note_dissertation.md)
+  * [Note_granter](note_granter.md)
+  * [Note_source](note_source.md)
+  * [Subject_topic](subject_topic.md)
+  * [Successor](successor.md)
+  * [Title_uniform](title_uniform.md)
+  * [Uncontrolled](uncontrolled.md)
+
 
 See also [further preprocessing details](details.Rmd).
 
