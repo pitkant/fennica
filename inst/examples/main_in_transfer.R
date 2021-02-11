@@ -6,7 +6,6 @@ source("init.R")
 
 update.fields <- c(
 
-      "title_uniform", # TODO like title
       "language", # Initially done; TODO check and polish      
       "publication_place", # IT taking care      
 
@@ -19,21 +18,15 @@ update.fields <- c(
       
       "author_name",          
       "author_date",           
-
-      "note_dissertation",    
-      "note_granter",          
-      "note_source",           
-      "note_510c",
       
-      "subject_topic",         
       "subject_geography", 
       
       "publisher",
-      "corporate",            
-      "uncontrolled",          
-      "successor",             
-      "holder"
-      
+
+      "note_granter",
+      "subject_topic",         
+
+
       )
 
 df.orig <- df.orig[, update.fields]
