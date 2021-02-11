@@ -33,7 +33,5 @@ The following fields have been harmonized.
   * [Successor](successor.md)
   * [Title_uniform](title_uniform.md)
   * [Uncontrolled](uncontrolled.md)
-
-
 See also [further preprocessing details](details.Rmd).
 
