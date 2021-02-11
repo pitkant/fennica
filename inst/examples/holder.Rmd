@@ -1,0 +1,42 @@
+---
+title: "holder"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
+```
+
+
+* [Unique accepted titles](output.tables/title_accepted.csv): `r length(unique(df$holder))`
+* [Unique discarded titles in original data](output.tables/title_discarded.csv) (excluding NA cases): `r as.vector(countLines(paste0(output.folder, "/holder_discarded.csv")) - 1)` 
+* Original documents with non-NA titles: `r sum(!is.na(df$holder))` / `r nrow(df)` (`r round(100*mean(!is.na(df$holder)), 1)`%)
+* Original documents with missing (NA) titles `r sum(is.na(df$holder))` / `r nrow(df)` documents (`r round(100*mean(is.na(df$holder)), 1)`%)
+
+
+ Top-`r ntop` titles and their title counts.
+ 
+```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+library(ggplot2)
+theme_set(theme_bw(base_size = 12))
+p <- top_plot(df, "holder", ntop = ntop, log10 = TRUE)+
+  labs(y = "Entries (n)", title = "Top titles")
+print(p)
+``` 
+
+Frequency of unique titles:
+  
+```{r uniquetitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+tab <- table(df$holder)
+d <- data.frame(title = names(tab), n = as.numeric(tab))
+
+library(ggplot2)
+theme_set(theme_bw(base_size = 12))
+p <- ggplot(d, aes(x = n)) +
+  geom_histogram(color="black", fill="white") +
+  scale_x_log10() +
+  scale_y_log10() +
+  labs(x = "Title duplicates (n)", y = "Documents (n)")
+print(p)
+```

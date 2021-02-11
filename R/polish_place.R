@@ -100,7 +100,6 @@ polish_place <- function (x, synonymes = NULL, remove.unknown = FALSE, verbose =
   x <- xuniq <- unique(xorig)
 
   if (verbose) {message("Detailed polishing")}
-  #s <- synonymes$synonyme
 
   x <- suppressWarnings(unname(sapply(x, function (x) {polish_place_help(unlist(x, use.names = FALSE), synonymes$synonyme, verbose = verbose)}, USE.NAMES = FALSE)))
   if (length(x) == 0) { return(rep(NA, length(xorig))) }
@@ -180,9 +179,6 @@ polish_place_help <- function (x, s, verbose = FALSE) {
   # london re/now edinburgh -> london
   x <- splitpick(x, " re ", 1)
   
-  # This may loose country info so skip for now
-  #x <- splitpick(x, " now ", 1) # Should we pick latter here instead ?  
-
   # New York N Y -> New York NY
   if (length(grep(" [a-z] [a-z]$", x))>0) {
     n <- nchar(x)

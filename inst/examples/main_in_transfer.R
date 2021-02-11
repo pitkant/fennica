@@ -21,23 +21,10 @@ update.fields <- c(
       "author_name",          
       "author_date",           
 
-      # Notes
-      "note_dissertation",    
-      "note_granter",          
-      "note_source",           
-      "note_510c",
+      "publisher"
 
-      # Subject topics
-      "subject_topic",
-
-      # Publisher and related fields
-      "corporate",            
-      "uncontrolled",          
-      "successor",             
-      "holder",
-      "publisher"      
-      
       )
+
 
 df.orig <- df.orig[, update.fields]
 

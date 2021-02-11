@@ -1,4 +1,4 @@
-# Harmonize the titles
+# Define the field to harmonize
 field <- "language"
 
 # Harmonize the raw data
