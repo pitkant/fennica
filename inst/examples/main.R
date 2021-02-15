@@ -33,16 +33,16 @@ source("subject_topic.R")
 #successor field
 source("successor.R")
 
-# Title field
+#Title field
 source("title.R")
 
-# Title_uniform field
+#Title_uniform field
 source("title_uniform.R")
 
 #uncontrolled field
 source("uncontrolled.R")
 
-# Publication place
+#Publication place field and derived country- and geoinformation
 source("publication_place.R")
 
 
