@@ -9,8 +9,8 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
 ```
 
-* [Unique accepted titles](output.tables/title_accepted.csv): `r length(unique(df$subject_topic))`
-* [Unique discarded titles in original data](output.tables/title_discarded.csv) (excluding NA cases): `r as.vector(countLines(paste0(output.folder, "/subject_topic_discarded.csv")) - 1)` 
+* [Unique accepted entries](output.tables/subject_topic_accepted.csv): `r length(unique(df$subject_topic))`
+* [Unique discarded entries in original data](output.tables/subject_topic_discarded.csv) (excluding NA cases): `r as.vector(countLines(paste0(output.folder, "/subject_topic_discarded.csv")) - 1)` 
 * Original documents with non-NA titles: `r sum(!is.na(df$subject_topic))` / `r nrow(df)` (`r round(100*mean(!is.na(df$subject_topic)), 1)`%)
 * Original documents with missing (NA) titles `r sum(is.na(df$subject_topic))` / `r nrow(df)` documents (`r round(100*mean(is.na(df$subject_topic)), 1)`%)
 
