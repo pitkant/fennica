@@ -4,11 +4,10 @@ field_2 <- "original_row"
 # Harmonize the raw data
 tab <- polish_place(df.orig[[field]], remove.unknown = FALSE)
 
-#Attach country
+# Attach country
 tab_country <- get_country(tab)
 
-#Read geo data table in
-
+# Read geo data table in
 f <- system.file("extdata/all_mapped_places_2020-06-15.csv", package = "fennica")
 geo_data <-  read.csv(f,fileEncoding = "UTF-8")
 
@@ -16,7 +15,7 @@ geo_data <-  read.csv(f,fileEncoding = "UTF-8")
 df.tmp <- data.frame(original_row=df.orig[field_2],publication_place = tab,country=tab_country) %>% left_join(.,geo_data)
 colnames(df.tmp) <- c("original_row","publication_place","publication_country","longitude","latitude","chosen_id")
 
-#Save publication place data
+# Save publication place data
 data.file <- paste0(field, ".Rds")
 saveRDS(df.tmp, file = data.file)
 
@@ -37,7 +36,7 @@ tmp <- write_xtable(original.na, paste(output.folder, field, "_discarded.csv", s
 
 # ------------------------------------------------------------
 
-# Generate markdown summary in note_source.md
+# Generate markdown summary
 df <- readRDS(data.file)
 tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
             output = paste(field, ".md", sep = ""))

@@ -5,7 +5,7 @@
 #' @return Vector of publisher names
 #' @export
 #' @author Hege Roivainen \email{hege.roivainen@@gmail.com}
-#' @references See citation("bibliographica")
+#' @references See citation("fennica")
 #' @examples # clean_publisher(x, languages=c("finnish", "swedish", "latin"))
 #' @keywords utilities
 clean_publisher <- function(x, languages=c("english")) {
@@ -59,7 +59,6 @@ clean_publisher <- function(x, languages=c("english")) {
   # TODO we already have lots of these terms in inst/extdata/printstop_*.csv
   # could we just switch to those ?
   for (language in languages) {
-
     if (language == "swedish") {
       f <- system.file("extdata/sv_publisher.csv", package="fennica")
     } else if (language == "english") {

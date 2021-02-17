@@ -1,7 +1,7 @@
 ---
 title: "Preprocessing overview"
 author: "Helsinki Computational History Group (COMHIS)"
-date: "2021-02-11"
+date: "2021-02-17"
 output: markdown_document
 ---
 
@@ -16,7 +16,7 @@ The following fields have been harmonized.
   * [Author info](author.md)
   * [Gender info](gender.md)
   * [Publisher info](publisher.md)
-  * [Publication geography](publicationplace.md)
+  * [Publication geography](publication_place.md)
   * [Publication year info](publicationyear.md)
   * [Titles](title.md)  
   * [Page counts](pagecount.md)

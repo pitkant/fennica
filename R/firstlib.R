@@ -11,6 +11,7 @@
 #' @importFrom utils adist
 #' @importFrom utils read.csv
 #' @importFrom utils tail
+#' @importFrom utils as.roman
 #' @importFrom stringr str_split
 #' @importFrom stringr str_count
 #' @importFrom stringr str_c

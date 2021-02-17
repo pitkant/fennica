@@ -758,3 +758,19 @@ polish_year <- function(x, start_synonyms = NULL, end_synonyms = NULL, months, v
   return(c(start_year, end_year))
 }
 
+
+christian2numeric <- function (x) {
+  
+  inds <- grep("a.d", x)
+  if (length(inds) > 0) {
+    x[inds] <- as.numeric(str_trim(gsub("a.d", "", x[inds])))
+  }
+  
+  inds <- grep("b.c", x)
+  if (length(inds) > 0) {
+    x[inds] <- -as.numeric(str_trim(gsub("b.c", "", x[inds])))
+  }
+  
+  return(x)
+}
+
