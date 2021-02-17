@@ -1,4 +1,3 @@
-
 field <- "successor"
 df.tmp <- data.frame(df.orig[[field]])
 df.tmp <- data.frame(corporate = polish_corporate(df.orig[[field]]))
@@ -11,20 +10,24 @@ original <- df.orig[[field]]
 x <- fennica::polish_title(original)
 
 # Collect the results into a data.frame
-df.tmp <- data.frame(original_row = df.orig$original_row,
-                     successor = x)
+df.tmp <- data.frame(original_row = df.orig$original_row)
+df.tmp[[field]] <- x
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV
 data.file <- paste0(field, ".Rds")
 saveRDS(df.tmp, file = data.file)
 
+# Define output files
+file_accepted  <- paste0(output.folder, field, "_accepted.csv")
+file_discarded <- paste0(output.folder, field, "_discarded.csv")
+
 # ------------------------------------------------------------
 
 # Generate data summaries
 
 message("Accepted entries in the preprocessed data")
-s <- write_xtable(df.tmp[[field]], paste(output.folder, field, "_accepted.csv", sep = ""), count = TRUE)
+s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
 
 message("Discarded entries in the original data")
 
@@ -35,7 +38,7 @@ inds <- which(is.na(df.tmp[[field]]))
 original.na <- df.orig[match(df.tmp$original_row[inds], df.orig$original_row), field]
 
 # .. ie. those are "discarded" cases; list them in a table
-tmp <- write_xtable(original.na, paste(output.folder, field, "_discarded.csv", sep = ""), count = TRUE)
+tmp <- write_xtable(original.na, file_discarded, count = TRUE)
 
 # ------------------------------------------------------------
 
