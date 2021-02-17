@@ -29,7 +29,7 @@ source("note_source.R")
 
 #note_subject_topic field
 source("subject_topic.R")
-# source("subject_geography.R")
+source("subject_geography.R")
 
 #successor field
 source("successor.R")
