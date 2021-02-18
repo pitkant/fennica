@@ -6,10 +6,7 @@ source("init.R")
 
 update.fields <- c(
 
-      "language", # Initially done; TODO check and polish
-      
-      "publication_place", # IT taking care      
-      "subject_geography",
+      "subject_geography", # IT takes care?
       
       "publication_time", # TO test and generate_summary_tables to add (JM?) 
       "publication_interval", # Some overlap with time.. TODO

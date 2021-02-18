@@ -9,41 +9,44 @@ source("init.R")
 #           PREPROCESS DATA
 # ----------------------------------------------------
 
-#corporate field
+# corporate field
 source("corporate.R")
 
-#holder field
+# Language
+source("language.R")
+
+# holder field
 source("holder.R")
 
-#note_510c field
+# note_510c field
 source("note_510c.R")
 
-#note_dissertation field
+# note_dissertation field
 source("note_dissertation.R")
 
-#note_granter field
+# note_granter field
 source("note_granter.R")
 
-#note_source field
+# note_source field
 source("note_source.R")
 
-#note_subject_topic field
+# note_subject_topic field
 source("subject_topic.R")
 source("subject_geography.R")
 
-#successor field
+# successor field
 source("successor.R")
 
-#Title field
+# Title field
 source("title.R")
 
-#Title_uniform field
+# Title_uniform field
 source("title_uniform.R")
 
-#uncontrolled field
+# uncontrolled field
 source("uncontrolled.R")
 
-#Publication place field and derived country- and geoinformation
+# Publication place field and derived country- and geoinformation
 source("publication_place.R")
 
 
