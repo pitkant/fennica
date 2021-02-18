@@ -9,11 +9,11 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
 ```
 
+* [Unique accepted entries](`r file_accepted`): `r length(unique(df[[field]]))`
+* [Unique discarded entries in original data](`r file_discarded`) (excluding NA cases): `r as.vector(countLines(file_discarded) - 1)`
+* Original documents with non-NA titles: `r sum(!is.na(df[[field]]))` / `r nrow(df)` (`r round(100*mean(!is.na(df[[field]])), 1)`%)
+* Original documents with missing (NA) titles `r sum(is.na(df[[field]]))` / `r nrow(df)` documents (`r round(100*mean(is.na(df[[field]])), 1)`%)
 
- * [Unique accepted entries](output.tables/title_uniform_accepted.csv): `r length(unique(df$title_uniform))`
- * [Unique discarded entries in original data](output.tables/title_uniform_discarded.csv) (excluding NA cases): `r as.vector(countLines(paste0(output.folder, "/title_uniform_discarded.csv")) - 1)` 
- * Original documents with non-NA titles: `r sum(!is.na(df$title_uniform))` / `r nrow(df)` (`r round(100*mean(!is.na(df$title_uniform)), 1)`%)
- * Original documents with missing (NA) titles `r sum(is.na(df$title_uniform))` / `r nrow(df)` documents (`r round(100*mean(is.na(df$title_uniform)), 1)`%) 
 
 Top-`r ntop` titles and their title counts.
 

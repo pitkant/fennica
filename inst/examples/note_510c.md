@@ -1,20 +1,18 @@
----
-title: "note_510c"
-output: md_document
----
+-   [Unique accepted entries](%60r%20file_accepted%60):
+    `r length(unique(df[[field]]))`
+-   [Unique discarded entries in original
+    data](%60r%20file_discarded%60) (excluding NA cases):
+    `r as.vector(countLines(file_discarded) - 1)`
+-   Original documents with non-NA titles: `r sum(!is.na(df[[field]]))`
+    / `r nrow(df)` (`r round(100*mean(!is.na(df[[field]])), 1)`%)
+-   Original documents with missing (NA) titles
+    `r sum(is.na(df[[field]]))` / `r nrow(df)` documents
+    (`r round(100*mean(is.na(df[[field]])), 1)`%)
 
+Top-20 titles and their title counts.
 
-
-* [Unique accepted entries](output.tables/note_510c_accepted.csv): 6451
-* [Unique discarded entries in original data](output.tables/note_510c_discarded.csv) (excluding NA cases): 0 
-* Original documents with non-NA titles: 6652 / 71919 (9.2%)
-* Original documents with missing (NA) titles 65267 / 71919 documents (90.8%)
-
-
- Top-20 titles and their title counts.
- 
 ![plot of chunk summarytitle](figure/rmd_note_510c_summarytitle-1.png)
 
 Frequency of unique titles:
-  
+
 ![plot of chunk uniquetitles](figure/rmd_note_510c_uniquetitles-1.png)

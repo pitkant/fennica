@@ -2,13 +2,11 @@
 title: "uncontrolled"
 output: md_document
 ---
+* [Unique accepted entries](`r file_accepted`): `r length(unique(df[[field]]))`
+* [Unique discarded entries in original data](`r file_discarded`) (excluding NA cases): `r as.vector(countLines(file_discarded) - 1)`
+* Original documents with non-NA titles: `r sum(!is.na(df[[field]]))` / `r nrow(df)` (`r round(100*mean(!is.na(df[[field]])), 1)`%)
+* Original documents with missing (NA) titles `r sum(is.na(df[[field]]))` / `r nrow(df)` documents (`r round(100*mean(is.na(df[[field]])), 1)`%)
 
-
-
-* [Unique accepted entries](output.tables/uncontrolled_accepted.csv): 99
-* [Unique discarded entries in original data](output.tables/uncontrolled_discarded.csv) (excluding NA cases): 0 
-* Original documents with non-NA titles: 111 / 71919 (0.2%)
-* Original documents with missing (NA) titles 71808 / 71919 documents (99.8%)
 
 
  Top-20 titles and their title counts.
