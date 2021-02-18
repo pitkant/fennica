@@ -1,12 +1,14 @@
 # ENRICHMENT AND VALIDATION
-min.year <- 1400
-max.year <- as.numeric(format(Sys.time(), "%Y")) # this.year
-tmp      <- polish_years(df.orig[[field]], check = TRUE, min.year = min.year, max.year = max.year)
+field <- "publication_time"
+tmp   <- polish_years(df.orig[[field]], check = TRUE)
       
 # Make data.frame
 df.harmonized <- data.frame(original_row = df.orig$original_row,
                      publication_year_from = tmp$from,
                      publication_year_till = tmp$till)
+
+# Add publication_year
+df.harmonized$publication_year <- df.harmonized$publication_year_from
 
 # Add publication_decade
 df.harmonized$publication_decade <- decade(df.harmonized$publication_year) 
@@ -20,7 +22,30 @@ saveRDS(df.harmonized, file = data.file)
 
 # ---------------------------------------------------------------------
 
-# TODO pick publication_time specific parts
-# Summarize the data and discarded entries
-#tmp <- generate_summary_tables(df.harmonized, df.orig, output.folder)
+message("Write conversions: publication year")
+df.harmonized$original <- df.orig[[field]]
+
+xx <- as.data.frame(df.harmonized) %>% filter(!is.na(publication_year)) %>%
+                                       group_by(original, publication_year) %>%
+                                       tally() %>%
+				       arrange(desc(n))
+
+tmp <- write.table(xx,
+         file = paste(output.folder, "publication_year_conversion.csv",
+           sep = ""), quote = FALSE, row.names = FALSE)
+  
+message("Discarded publication year")
+o <- as.character(df.orig[[field]])
+x <- as.character(df.harmonized[["publication_year"]])
+inds <- which(is.na(x))
+tmp <- write_xtable(o[inds],
+      paste(output.folder, "publication_year_discarded.csv", sep = ""),
+      count = TRUE)
+
+# ------------------------------------------------------------
+
+# Generate markdown summary 
+df <- readRDS(data.file)
+tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
+            output = paste(field, ".md", sep = ""))
 

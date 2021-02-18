@@ -1,7 +1,7 @@
 
 field <- "corporate"
-df.tmp <- data.frame(df.orig[[field]])
-df.tmp <- data.frame(corporate = polish_corporate(df.orig[[field]]))
+df.tmp <- data.frame(original = df.orig[[field]])
+df.tmp[[field]] <- polish_corporate(df.orig[[field]])
 names(df.tmp) <- field
 
 # Raw data

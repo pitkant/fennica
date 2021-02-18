@@ -49,6 +49,9 @@ source("uncontrolled.R")
 # Publication place field and derived country- and geoinformation
 source("publication_place.R")
 
+# Publication place field and derived country- and geoinformation
+source("publication_time.R")
+
 
 
 # Generate an overview with links to the summary files:

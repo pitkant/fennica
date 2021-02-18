@@ -7,8 +7,8 @@ output: markdown_document
 
 ## Language
 
- * 40 [unique languages](output.tables/language_accepted.csv)
- * 34 [unique primary languages](output.tables/language_accepted.csv)  
+ * 40 [unique languages](output.tables/languages_accepted.csv)
+ * 34 [unique primary languages](output.tables/language_primary_accepted.csv)  
  * 67623 single-language documents (94.03%)
  * 4296 multilingual documents (5.97%) 
  * [Conversions from raw to preprocessed language entries](output.tables/language_conversions.csv) 
@@ -16,14 +16,11 @@ output: markdown_document
 
 Language codes are from [MARC](http://www.loc.gov/marc/languages/language_code.html); new custom abbreviations can be added in [this table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/language_abbreviations.csv).
 
-Title count per language (including multi-language documents; note the log10 scale):
-
-![plot of chunk summarylang](figure/summarylang-1.png)
 
 
 ### Top languages
 
-Number of documents assigned with each language (top-10). For a complete list,
+Number of titles assigned with each language (top-10). For a complete list,
 see [accepted languages](output.tables/language_accepted.csv).
 
 
@@ -40,3 +37,6 @@ see [accepted languages](output.tables/language_accepted.csv).
 |Latin;Swedish   |610           |0.8          |
 |English         |345           |0.5          |
 
+Title count per language (including multi-language documents; note the log10 scale):
+
+![plot of chunk summarylang](figure/summarylang-1.png)

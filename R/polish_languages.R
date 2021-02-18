@@ -11,15 +11,6 @@ polish_languages <- function(x) {
 
   x0 <- x
 
-  # Harmonize
-  x <- tolower(as.character(x))	       
-  x[x == "NA"] <- ""
-  x[x == "n/a"] <- ""
-  x[is.na(x)] <- ""  
-  x <- gsub("^;","",x)
-  x <- gsub(";$","",x)
-  x <- condense_spaces(x)
-
   # Unique entries only to speed up
   xorig <- x
   xuniq <- unique(xorig)
@@ -32,23 +23,6 @@ polish_languages <- function(x) {
   f <- system.file("extdata/language_abbreviations.csv", package = "fennica")
   abrv <- read.csv(f, sep = "\t", header = TRUE, encoding = "UTF-8")
 
-  # Further harmonization
-  x <- gsub("\\(", " ", x)
-  x <- gsub("\\)", " ", x)
-  x <- gsub("\\,", " ", x)
-  x <- gsub(" +", " ", x)
-  x <- condense_spaces(x)
-  # Final name
-  #abrv$name <- gsub("\\(", " ", abrv$name)
-  #abrv$name <- gsub("\\)", " ", abrv$name)
-  #abrv$name <- gsub("\\,", " ", abrv$name)
-  #abrv$name <- gsub(" +", " ", abrv$name)    
-  abrv$synonyme <- gsub("\\(", " ", abrv$synonyme)
-  abrv$synonyme <- gsub("\\)", " ", abrv$synonyme)
-  abrv$synonyme <- gsub("\\,", " ", abrv$synonyme)
-  abrv$synonyme <- gsub(" +", " ", abrv$synonyme)  
-  abrv <- unique(abrv)
-
   # Unrecognized languages?
   unrec <- as.vector(na.omit(setdiff(
   	     unique(unlist(strsplit(as.character(unique(x)), ";"))),
@@ -59,10 +33,8 @@ polish_languages <- function(x) {
     warning(paste("Unidentified languages: ", paste(unrec, collapse = ";")))
   }
 
-
   # TODO Vectorize to speed up ?
-  for (i in 1:length(x)) {
-    
+  for (i in 1:length(x)) {    
       lll <- sapply(unlist(strsplit(x[[i]], ";")), function (xx) {
                as.character(map(xx, abrv, remove.unknown = TRUE, mode = "exact.match"))
 	       })
@@ -86,17 +58,17 @@ polish_languages <- function(x) {
   # (more can be added on custom list if needed)
   xu <- intersect(xu, abrv$name)
 
-  len <- sapply(strsplit(x, ";"), length)
-  dff <- data.frame(language_count = len)  
-  
-  multilingual <- len > 1
-  dff$multilingual <- multilingual
-
   # Now check just the unique and accepted ones, and collapse
   # TODO: add ID for those that are not recognized
   # NOTE: the language count and multilingual fields should be fine however
   # as they are defined above already
   x <- sapply(strsplit(x, ";"), function (xi) {paste(unique(intersect(xi, xu)), collapse = ";")})
+
+  # Multilinguality info
+  len <- sapply(strsplit(x, ";"), length)
+  dff <- data.frame(language_count = len)    
+  multilingual <- len > 1
+  dff$multilingual <- multilingual
 
   dff$languages <- x
   inds <- which(dff$languages == "")
@@ -104,6 +76,7 @@ polish_languages <- function(x) {
     dff$languages[inds] <- "Undetermined"
   }
 
+  # Add primary language
   if (length(grep(";", dff$languages)) > 0) {
     dff$language_primary <- sapply(strsplit(dff$languages, ";"),
                                                function (x) {x[[1]]})
@@ -115,6 +88,6 @@ polish_languages <- function(x) {
   dff$languages <- as.factor(str_trim(dff$languages))
   dff$language_primary <- as.factor(str_trim(dff$language_primary))
   
-  dff[match(xorig, xuniq),]
+  list(harmonized_full = dff[match(xorig, xuniq),], unrecognized = unrec)
 
 }

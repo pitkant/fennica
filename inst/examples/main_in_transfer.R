@@ -8,16 +8,15 @@ update.fields <- c(
 
       "subject_geography", # IT takes care?
       
-      "publication_time", # TO test and generate_summary_tables to add (JM?) 
       "publication_interval", # Some overlap with time.. TODO
+      "publication_frequency", 
 
       "physical_extent",       
       "physical_dimension",
-      "publication_frequency", 
 
-      "author_name",          
       "author_date",           
 
+      "author_name",          
       "publisher"
 
       )
