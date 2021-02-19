@@ -11,10 +11,8 @@
 
 Top-20 titles and their title counts.
 
-![plot of chunk
-summarytitle](figure/rmd_note_dissertation_summarytitle-1.png)
+![plot of chunk summarytitle](figure/topauthorname.png)
 
 Frequency of unique titles:
 
-![plot of chunk
-uniquetitles](figure/rmd_note_dissertation_uniquetitles-1.png)
+![plot of chunk uniquetitles](figure/uniqueauthorname.png)
