@@ -1,14 +1,12 @@
 
 field <- "author_name"
+df.tmp <- data.frame(df.orig[[field]])
+names(df.tmp) <- field
 # Full author name (Last, First) 
 author <- polish_author(df.orig[[field]], verbose = FALSE)
 df.tmp <- data.frame(author_name = author)
 
 
-
-df.tmp <- data.frame(df.orig[[field]])
-df.tmp <- mark_dissertations(df.orig[[field]])
-names(df.tmp) <- field
 
 # Raw data
 original <- df.orig[[field]]

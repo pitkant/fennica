@@ -33,6 +33,9 @@ source("note_granter.R")
 # note_source field
 source("note_source.R")
 
+# publisher field
+source("publisher.R")
+
 # note_subject_topic field
 source("subject_topic.R")
 source("subject_geography.R")
