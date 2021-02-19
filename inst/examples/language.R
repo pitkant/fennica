@@ -11,7 +11,7 @@ df.tmp$original_row <- df.orig$original_row
 # Store the title field data
 # FIXME: convert to feather or plain CSV
 data.file <- paste0(field, ".Rds")
-saveRDS(df.harmonized, file = data.file)
+saveRDS(df.tmp, file = data.file)
 
 # Define output files
 file_discarded <- paste0(output.folder, field, "_discarded.csv")
