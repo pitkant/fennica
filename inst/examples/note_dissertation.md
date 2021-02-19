@@ -1,5 +1,5 @@
 -   [Unique accepted entries](output.tables/note_dissertation_accepted.csv): 4
--   [Unique discarded entries in original    data](output.tables/note_dissertation_discarded.csv) (excluding NA
+-   [Unique discarded entries in original data](output.tables/note_dissertation_discarded.csv) (excluding NA
     cases): 0
 -   Original documents with non-NA titles: 6418 / 71919 (8.9%)
 -   Original documents with missing (NA) titles 65501 / 71919 documents
