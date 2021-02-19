@@ -19,7 +19,6 @@ misc.Rmd
 *.pdf
 *~
 summary_files/
-output.tables/*.csv
 data
 *.Rds
 *.RDs
