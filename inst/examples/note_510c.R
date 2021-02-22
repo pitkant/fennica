@@ -7,7 +7,7 @@ names(df.tmp) <- field
 original <- df.orig[[field]]
 
 # Harmonize the raw data
-x <- fennica::polish_title(original)
+x <- fennica::polish_entry(original)
 
 # Collect the results into a data.frame
 df.tmp <- data.frame(original_row = df.orig$original_row,
