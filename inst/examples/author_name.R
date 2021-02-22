@@ -7,12 +7,6 @@ names(df.tmp) <- field
 author <- polish_author(df.orig[[field]], verbose = FALSE)
 df.tmp <- data.frame(author_name = author)
 
-# Raw data
-original <- df.orig[[field]]
-
-# Harmonize the raw data
-x <- fennica::polish_title(original)
-
 # Collect the results into a data.frame
 df.tmp <- data.frame(original_row = df.orig$original_row,
                      author_name = x)

@@ -6,10 +6,10 @@ output: md_document
 
 
 
-* [Unique accepted entries](output.tables/author_name_accepted.csv): 12328
-* [Unique discarded entries in original data](output.tables/author_name_discarded.csv) (excluding NA cases): 0
-* Original documents with non-NA titles: 45839 / 71919 (63.7%)
-* Original documents with missing (NA) titles 26080 / 71919 documents (36.3%)
+* [Unique accepted entries](output.tables/author_name_accepted.csv): 12734
+* [Unique discarded entries in original data](output.tables/author_name_discarded.csv) (excluding NA cases): 332
+* Original documents with non-NA titles: 70922 / 71919 (98.6%)
+* Original documents with missing (NA) titles 997 / 71919 documents (1.4%)
  
  Top-20 titles and their title counts.
  

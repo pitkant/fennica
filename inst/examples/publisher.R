@@ -1,5 +1,4 @@
 
-
 field <- "publisher"
 df.tmp <- data.frame(df.orig[[field]])
 names(df.tmp) <- field
@@ -9,13 +8,6 @@ tab <- polish_publisher(df.orig[[field]])
 
 # Collect results to data frame
 df.tmp <- data.frame(publisher = tab)
-
-
-# Raw data
-original <- df.orig[[field]]
-
-# Harmonize the raw data
-x <- fennica::polish_title(original)
 
 # Collect the results into a data.frame
 df.tmp <- data.frame(original_row = df.orig$original_row,
@@ -54,3 +46,4 @@ tmp <- write_xtable(original.na, file_discarded, count = TRUE)
 df <- readRDS(data.file)
 tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
             output = paste(field, ".md", sep = ""))
+
