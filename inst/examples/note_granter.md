@@ -5,7 +5,7 @@ output: md_document
 
 
 
-* [Unique accepted entries](output.tables/note_granter_accepted.csv): 88
+* [Unique accepted entries](output.tables/note_granter_accepted.csv): 91
 * [Unique discarded entries in original data](output.tables/note_granter_discarded.csv) (excluding NA cases): 0
 * Original documents with non-NA titles: 5845 / 71919 (8.1%)
 * Original documents with missing (NA) titles 66074 / 71919 documents (91.9%)

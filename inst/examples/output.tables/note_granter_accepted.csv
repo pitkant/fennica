@@ -1,12 +1,12 @@
 Name	Count
 Turun akatemia	4593
 Turku	 273
-Helsingin yliopisto	 256
+Helsingin yliopisto	 252
 Upsala	 230
 Uppsala	 163
 Tartto	  70
 Helsingfors universitet	  34
-Suomen Keisarillinen Aleksanterin yliopisto	  28
+Suomen Keisarillinen Aleksanterin yliopisto	  27
 Rostock	  21
 Wittenberg	  16
 Lund	  13
@@ -15,16 +15,17 @@ Jena	   9
 Pärnu	   8
 Greifswald	   7
 Suomen keisarillinen Aleksanterin yliopisto	   6
+[Helsingin yliopisto]	   4
 Giessen	   4
 Helsinki	   4
 Kokkola	   4
 Suomen yliopisto	   4
+[Uppsala universität]	   3
 1700	   3
 Die Kaiserl. Alexander-Universität in Finnland	   3
 Göttingen	   3
 Leiden	   3
 Marburg	   3
-Uppsala universität	   3
 Uppsala universitet	   3
 Viipuri	   3
 Keisarillinen Suomen Aleksanterin yliopisto	   2
@@ -32,10 +33,10 @@ Kejserliga Aleksanders-Universitetet i Finland	   2
 Kejserliga Alexanders-universitetet i Finland	   2
 Kiel	   2
 Leipzig	   2
-Suomen keisarillinen Aleksanterin-yliopisto	   2
 Suomen Keisarillinen Aleksanterin-Yliopisto	   2
 Universität Bern	   2
 Universität Zürich	   2
+[Suomen keisarillinen Aleksanterin-yliopisto]	   1
 Basel Universität	   1
 Bern	   1
 Dorpat	   1
@@ -46,7 +47,7 @@ Helsingfors : Kejserliga Alexanders-Universitetet i Finland	   1
 Helsingfors Universität	   1
 Helsinki : Kaiserl. Alexanders-Universität in Finland	   1
 Helsinki : Keisarillinen Aleksanterin yliopisto	   1
-Helsinki : Suomen yliopisto [Helsingin yliopisto	   1
+Helsinki : Suomen yliopisto [Helsingin yliopisto]	   1
 HY	   1
 Jena universitet	   1
 Kaiserl. Alexander-Universität in Finland	   1
@@ -68,7 +69,9 @@ Suomen Aleksanderin-Yliopisto	   1
 Suomen Aleksanterin-Yliopisto	   1
 Suomen Keisarillinen Aleksanteri-Yliopisto	   1
 Suomen keisarillinen Aleksanterin - yliopisto	   1
-Suomen yliopisto [Helsingin yliopisto	   1
+Suomen Keisarillinen Aleksanterin yliopisto.	   1
+Suomen keisarillinen Aleksanterin-yliopisto	   1
+Suomen yliopisto [Helsingin yliopisto]	   1
 Technischen Hochschule Hannover	   1
 Teknillinen korkeakoulu	   1
 Tekniska högskolan i Finland	   1

@@ -5,11 +5,10 @@ names(df.tmp) <- field
 
 # Full author name (Last, First) 
 author <- polish_author(df.orig[[field]], verbose = FALSE)
-df.tmp <- data.frame(author_name = author)
 
 # Collect the results into a data.frame
-df.tmp <- data.frame(original_row = df.orig$original_row,
-                     author_name = x)
+df.tmp <- data.frame(original_row = df.orig$original_row, author_name = author)
+
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV
