@@ -5,7 +5,7 @@ The original data set contains 71919 documents.
 
 The following fields have been harmonized.
 
--   [Author info](author_name.md)
+-   [Author\_name](author_name.md)
 -   [Gender info](gender.md)
 -   [Publisher info](publisher.md)
 -   [Publication geography](publication_place.md)
