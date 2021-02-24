@@ -1,8 +1,8 @@
 ---
 title: "Preprocessing overview"
-author: "`r author`"
+author: ""
 date: "`r Sys.Date()`"
-output: markdown_document
+output: md_document
 ---
 
 
@@ -13,7 +13,7 @@ The original data set contains `r nrow(df.orig)` documents.
 
 The following fields have been harmonized.
 
-  * [Author info](author.md)
+  * [Author info](author_name.md)
   * [Gender info](gender.md)
   * [Publisher info](publisher.md)
   * [Publication geography](publication_place.md)
