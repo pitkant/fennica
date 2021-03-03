@@ -1,12 +1,8 @@
-# ----------------------------------------------------
-#            INITIALIZE AND LOAD DATA
-# ----------------------------------------------------
-
-source("init.R")
-
 update.fields <- c(
 
-      "subject_geography", # IT takes care?
+      "author_date",           
+      "author_name" # OK
+      # -> Once both name and date are done, we can add the combined part of the summary
       
       "publication_interval", # Some overlap with time.. TODO
       "publication_frequency", 
@@ -14,11 +10,8 @@ update.fields <- c(
       "physical_extent",       
       "physical_dimension",
 
-      "author_date",           
-
-      "author_name",          
-      "publisher"
-
+      "subject_geography", # IT takes care?
+      
       )
 
 
@@ -54,6 +47,8 @@ data.enriched <- enrich_preprocessed_data(df.preprocessed, df.orig)
 # (for instance, publisher field needs Fennica-specific modifications above
 #  but that is just one example)
 data.validated <- validate_preprocessed_data(data.enriched)
+
+See also validation.R!!!
 
 print("Saving updates on preprocessed data")
 saveRDS(data.validated, "df.Rds")

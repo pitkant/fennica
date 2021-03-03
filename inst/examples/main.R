@@ -49,10 +49,8 @@ source("subject_geography.R")
 # successor field
 source("successor.R")
 
-# Title field
+# Title fields
 source("title.R")
-
-# Title_uniform field
 source("title_uniform.R")
 
 # uncontrolled field
