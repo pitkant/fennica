@@ -74,6 +74,12 @@ print(p)
 Title count versus paper consumption (all authors):
 
 ```{r authortitlespapers, fig.height=8, fig.width=18, echo=FALSE, warning=FALSE}
+library(dplyr)
+library(gridExtra)
+library(grid)
+library(ggplot2)
+library(lattice)
+
 theme_set(theme_bw(base_size = 12))
 res1 <- compare_title_paper(df, "author_name", plot.mode = "text")
 res2 <- compare_title_paper(df, "author_name", plot.mode = "point")

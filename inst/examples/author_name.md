@@ -57,4 +57,4 @@ Top-20 uniquely identified authors and their productivity (title count).
 
 Title count versus paper consumption (all authors):
 
-    ## Error in grid.arrange(res2$plot, res1$plot, nrow = 1): could not find function "grid.arrange"
+![plot of chunk authortitlespapers](figure/authortitlespapers-1.png)
