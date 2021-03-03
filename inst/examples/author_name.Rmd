@@ -39,3 +39,96 @@ p <- ggplot(d, aes(x = n)) +
   labs(x = "Title duplicates (n)", y = "Documents (n)")
 print(p)
 ```
+
+
+## Authors
+
+* `r length(unique(df$author_name))` [unique authors](output.tables/author_accepted.csv) These final names capture all name variants from the custom [author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv), and exclude known pseudonymes (see below). If multiple names for the same author are still observed on this list, they should be added on the [author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv).
+ * `r sum(!is.na(df$author_name))` documents have unambiguous author information (`r round(100*mean(!is.na(df$author_name)))`%). 
+ * `r length(unique(subset(df.preprocessed, author_pseudonyme)$author_name))` [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are recognized based on [custom pseudonyme lists](https://github.com/COMHIS/fennica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
+ * `r length(readLines(paste0(this.folder, "/output.tables/author_discarded.csv")))-2` [discarded author names](output.tables/author_discarded.csv) This list should not include any real authors (if it does, please send a note to the admin). The stopword lists are considered when discarding names.
+ * [Author name conversions](output.tables/author_conversion_nontrivial.csv) Non-trivial conversions from the original raw data to final names.
+ 
+### Auxiliary files
+
+ * [Author synonyme table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv)
+ * [Stopwords for names](https://github.com/COMHIS/fennica/blob/master/inst/extdata/stopwords_for_names.csv)
+ * [Stopwords for titles](https://github.com/COMHIS/fennica/blob/master/inst/extdata/stopwords_titles.csv)
+ * [Custom pseudonyme lists](https://github.com/COMHIS/fennica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv)
+ 
+Top-`r ntop` uniquely identified authors and their productivity (title count).
+
+```{r summaryauthorsnames, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width='430px', fig.show='hold'}
+knitr::opts_chunk$set(fig.path = "figure_slides/", dev="CairoPNG")
+theme_set(theme_bw(base_size = 12))
+p <- NULL
+p <- top_plot(df, "author_name", ntop) +
+     		  ggtitle(paste("Top authors' names")) +
+		  ylab("Documents")
+print(p)
+```
+
+## summary discraded plot does not work 
+```{r summarydiscardedauthors, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=5, out.width='430px', fig.show='hold'}
+dff = df %>%
+      filter(is.na(author) & !is.na(author_name)) %>%
+      select(author_name)
+p <- top_plot(dff,  "author_name", ntop) + ggtitle("Top discarded authors")
+print(p)
+```
+
+
+### Author productivity
+
+Title count versus paper consumption (all authors):
+
+```{r authortitlespapers, fig.height=8, fig.width=18, echo=FALSE, warning=FALSE}
+theme_set(theme_bw(base_size = 12))
+res1 <- compare_title_paper(df, "author_name", plot.mode = "text")
+res2 <- compare_title_paper(df, "author_name", plot.mode = "point")
+grid.arrange(res2$plot, res1$plot, nrow = 1)
+#kable(res1$table)
+```
+
+#Publication_decade not found
+#```{r summaryTop10authorstimeline, fig.height=8, fig.width=16, echo=FALSE}
+theme_set(theme_bw(20))
+top.authors <- names(top_n(df, field = "author_name", n = 3))
+dfs <- df %>% filter(author %in% top.authors) %>%
+     	 group_by(author_name, publication_decade) %>%
+     	 tally() %>%
+     	 arrange(publication_decade)
+p <- ggplot(dfs, aes(x = publication_decade, y = n, fill = author)) +
+       geom_bar(stat = "identity", position = "stack", color = "black") +
+       xlab("Publication Decade") +
+       ylab("Title Count") +
+       scale_fill_grey() +
+       guides(fill = guide_legend("Author")) +
+       ggtitle("Title count timeline for the top authors")
+print(p)
+##```
+
+###Publication year not found
+##```{r topauth, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE, fig.width=13, fig.height=6}
+df <- df.preprocessed
+top.authors <- names(rev(sort(table(df.preprocessed$author))))[1:10]
+df2 <- df %>% filter(author %in% top.authors) %>% group_by(publication_year, author) %>% summarize(paper = sum(paper, na.rm = TRUE), n = n()) 
+
+p <- ggplot(df2, aes(x = publication_year, y = paper, group = author, color = author))
+p <- p + geom_point()
+p <- p + geom_line()
+p <- p + ggtitle("Paper consumption per author")
+p <- p + xlab("Year")
+p <- p + scale_y_log10()
+p <- p + ylab("Paper consumption")
+print(p)
+
+p <- ggplot(df2, aes(x = publication_year, y = n, group = author, color = author))
+p <- p + geom_point()
+p <- p + geom_line()
+p <- p + ggtitle("Documents per author")
+p <- p + xlab("Year")
+p <- p + scale_y_log10()
+p <- p + ylab("Documents (n)")
+print(p)
+###```
