@@ -27,8 +27,8 @@ Authors
     the [author synonyme
     table](https://github.com/COMHIS/fennica/blob/master/inst/extdata/ambiguous-authors.csv).
 -   45812 documents have unambiguous author information (64%).
--   12017 [unique pseudonymes](output.tables/pseudonyme_accepted.csv)
-    are recognized based on [custom pseudonyme
+-   10 [unique pseudonymes](output.tables/pseudonyme_accepted.csv) are
+    recognized based on [custom pseudonyme
     lists](https://github.com/COMHIS/fennica/blob/master/inst/extdata/names/pseudonymes/custom_pseudonymes.csv).
 -   20 [discarded author names](output.tables/author_discarded.csv) This
     list should not include any real authors (if it does, please send a
@@ -51,12 +51,10 @@ Authors
 
 Top-20 uniquely identified authors and their productivity (title count).
 
-![plot of chunk
-summaryauthorsnames](figure/summaryauthorsnames-1.png)
+<img src="figure/rmd_author_name_summaryauthorsnames-1.png" title="plot of chunk summaryauthorsnames" alt="plot of chunk summaryauthorsnames" width="430px" />
 
 ### Author productivity
 
 Title count versus paper consumption (all authors):
 
-![plot of chunk
-authortitlespapers](figure/authornamepapers.png)
+    ## Error in grid.arrange(res2$plot, res1$plot, nrow = 1): could not find function "grid.arrange"
