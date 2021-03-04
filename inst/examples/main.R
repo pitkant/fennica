@@ -9,6 +9,9 @@ source("init.R")
 #           PREPROCESS DATA
 # ----------------------------------------------------
 
+# author_date field
+source("author_date.R")
+
 # author_name field
 source("author_name.R")
 
