@@ -14,8 +14,6 @@ tmp*
 20160715-slides-Krakow-figure
 slides_201606_Krakow
 *cache*
-misc*
-misc.Rmd
 *.pdf
 *~
 summary_files/
