@@ -61,6 +61,9 @@ source("analysis.run.R")
 
 # Specific analyses (to be updated)
 # source("analysis.R")  # Summary md docs
+# publisher.Rmd sisälsi myös publication_decade timelinejä yms
+# jotka jouduttiin poistamaan - lisää uusia integroivia yhteenvetoja
+#
 
 # Data releases
 # CCQ 2019 data release - run separately
