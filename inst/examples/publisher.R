@@ -1,17 +1,13 @@
 
 field <- "publisher"
-df.tmp <- data.frame(df.orig[[field]])
-names(df.tmp) <- field
 
 # Generic cleanup for the publisher field
 tab <- polish_publisher(df.orig[[field]])
 
-# Collect results to data frame
-df.tmp <- data.frame(publisher = tab)
 
 # Collect the results into a data.frame
 df.tmp <- data.frame(original_row = df.orig$original_row,
-                     publisher = x)
+                     publisher = tab)
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV

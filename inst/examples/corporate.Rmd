@@ -9,6 +9,10 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
 ```
 
+[Accepted corporate info](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/corporate_accepted.csv)
+
+[Discarded corporate info](https://github.com/COMHIS/fennica/blob/master/inst/examples/output.tables/corporate_discarded.csv)
+
 * [Unique accepted entries](`r file_accepted`): `r length(unique(df[[field]]))`
 * [Unique discarded entries in original data](`r file_discarded`) (excluding NA cases): `r as.vector(countLines(file_discarded) - 1)`
 * Original documents with non-NA titles: `r sum(!is.na(df[[field]]))` / `r nrow(df)` (`r round(100*mean(!is.na(df[[field]])), 1)`%)
@@ -40,3 +44,7 @@ p <- ggplot(d, aes(x = n)) +
   labs(x = "Title duplicates (n)", y = "Documents (n)")
 print(p)
 ```
+
+
+
+
