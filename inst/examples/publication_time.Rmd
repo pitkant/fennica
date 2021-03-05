@@ -2,7 +2,7 @@
 title: "Publication year summaries"
 author: "Leo Lahti"
 date: "`r Sys.Date()`"
-output: markdown_document
+output: md_document
 ---
 
 
@@ -16,7 +16,6 @@ Publication year is available for `r sum(!is.na(df$publication_year))` documents
 
 ```{r summarypublicationyear, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 # Title count per decade
-df <- df.preprocessed
 df2 <- df %>% group_by(publication_decade) %>% filter(publication_decade < 2010) 
 p <- ggplot(df2, aes(publication_decade)) +
      geom_bar() + scale_y_log10() +
