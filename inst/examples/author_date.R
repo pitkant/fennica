@@ -5,6 +5,7 @@ field <- "author_date"
 df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE)
 df.tmp <- df.tmp %>% dplyr::rename(author_birth = from) %>%
   dplyr::rename(author_death = till)
+df.tmp <- data.frame(original_row = df.orig$original_row, df.tmp)
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV
