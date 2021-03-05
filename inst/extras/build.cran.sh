@@ -7,8 +7,8 @@
 #~/bin/R-4.0.3/bin/R CMD BATCH document.R
 ~/bin/R-4.0.3/bin/R CMD build ../../ --no-build-vignettes #--no-tests
 #~/bin/R-4.0.3/bin/R CMD build ../../ 
-#~/bin/R-4.0.3/bin/R CMD check fennica_0.2.8.tar.gz
-~/bin/R-4.0.3/bin/R CMD check --as-cran fennica_0.2.8.tar.gz --no-tests
-~/bin/R-4.0.3/bin/R CMD INSTALL fennica_0.2.8.tar.gz
+#~/bin/R-4.0.3/bin/R CMD check fennica_0.2.9.tar.gz
+~/bin/R-4.0.3/bin/R CMD check --as-cran fennica_0.2.9.tar.gz --no-tests
+~/bin/R-4.0.3/bin/R CMD INSTALL fennica_0.2.9.tar.gz
 #~/bin/R-4.0.3/bin/R CMD BATCH document.R
 

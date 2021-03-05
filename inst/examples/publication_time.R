@@ -1,13 +1,13 @@
 # ENRICHMENT AND VALIDATION
 field <- "publication_time"
-tmp   <- polish_years(df.orig[[field]], check = TRUE)
+tmp  <- polish_years(df.orig[[field]], check = TRUE)
       
 # Make data.frame
 df.harmonized <- data.frame(original_row = df.orig$original_row,
                      publication_year_from = tmp$from,
                      publication_year_till = tmp$till)
 
-# Add publication_year
+# Add publication_year as a separate column (same as "publication_year_from")
 df.harmonized$publication_year <- df.harmonized$publication_year_from
 
 # Add publication_decade
