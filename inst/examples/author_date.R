@@ -4,8 +4,7 @@ field <- "author_date"
 # TODO make a tidy cleanup function to shorten the code here
 df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE)
 
-df.tmp <- data.frame(original_row = df.orig$original_row, 
-                     author_date = df.orig$author_date)
+
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV
