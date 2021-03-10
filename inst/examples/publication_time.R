@@ -1,4 +1,3 @@
-# ENRICHMENT AND VALIDATION
 field <- "publication_time"
 tmp  <- polish_years(df.orig[[field]], check = TRUE)
       
@@ -30,16 +29,19 @@ xx <- as.data.frame(df.harmonized) %>% filter(!is.na(publication_year)) %>%
                                        tally() %>%
 				       arrange(desc(n))
 
+conversion.file <- paste0(output.folder, field, "_conversion.csv")
 tmp <- write.table(xx,
-         file = paste(output.folder, "publication_year_conversion.csv",
-           sep = ""), quote = FALSE, row.names = FALSE)
+         file = conversion.file,
+	 quote = FALSE,
+	 row.names = FALSE)
   
 message("Discarded publication year")
 o <- as.character(df.orig[[field]])
 x <- as.character(df.harmonized[["publication_year"]])
 inds <- which(is.na(x))
+discard.file <- paste0(output.folder, field, "_discarded.csv")
 tmp <- write_xtable(o[inds],
-      paste(output.folder, "publication_year_discarded.csv", sep = ""),
+         file = discard.file,
       count = TRUE)
 
 # ------------------------------------------------------------
