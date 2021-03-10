@@ -25,8 +25,6 @@ df.tmp$publication_interval_from[df.tmp$publication_interval_from > 2000] <- NA
 df.tmp$publication_interval_till[df.tmp$publication_interval_till < 1400] <- NA
 df.tmp$publication_interval_till[df.tmp$publication_interval_till > 2000] <- NA
 
-
-
 # ---------------------------------------------------------------------
 # Store the title field data
 # FIXME: convert to feather or plain CSV
