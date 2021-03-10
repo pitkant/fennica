@@ -4,9 +4,16 @@ field <- "author_date"
 # TODO make a tidy cleanup function to shorten the code here
 df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE)
 df.tmp <- df.tmp %>% dplyr::rename(author_birth = from) %>%
-                     dplyr::rename(author_death = till)
+  dplyr::rename(author_death = till)
 df.tmp <- bind_cols(original_row = df.orig$original_row, df.tmp)
 rownames(df.tmp) <- NULL
+
+#Added author_age column to df.tmp, turning 0 to NA. 
+#0 means that only year of death available
+
+df.tmp <- bind_cols(df.tmp,author_age=df.tmp$author_death-df.tmp$author_birth)
+rownames(df.tmp) <- NULL
+df.tmp[df.tmp == 0] <- NA
 
 # Store the title field data
 # FIXME: convert to feather or plain CSV

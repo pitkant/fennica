@@ -39,6 +39,9 @@ source("note_source.R")
 # publisher field
 source("publisher.R")
 
+#publication_interval field
+source("publication_interval.R")
+
 # Publication place field and derived country- and geoinformation
 source("publication_place.R")
 
