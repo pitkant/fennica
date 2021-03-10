@@ -13,13 +13,14 @@ The original data set contains `r nrow(df.orig)` documents.
 
 The following fields have been harmonized.
 
-  * [Author\_name(author_name.md)
+  * [Author date](author_date.md)
+  * [Author name](author_name.md)
   * [Gender info](gender.md)
   * [Publisher info](publisher.md)
   * [Publication geography](publication_place.md)
   * [Publication year info](publication_time.md)
   * [Publication year info](publication_frequency.md)
-  * [Publication year info](publication_interval.md)  
+  * [Publication year info](publication_interval.md)
   * [Titles](title.md)  
   * [Page counts](pagecount.md)
   * [Physical dimension](dimension.md)    

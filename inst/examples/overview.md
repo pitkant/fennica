@@ -4,8 +4,8 @@ Fennica preprocessing summary
 The original data set contains 71919 documents.
 
 The following fields have been harmonized.
-
--   [Author\_name](author_name.md)
+-   [Author date](author_date.md)
+-   [Author name](author_name.md)
 -   [Gender info](gender.md)
 -   [Publisher info](publisher.md)
 -   [Publication geography](publication_place.md)
