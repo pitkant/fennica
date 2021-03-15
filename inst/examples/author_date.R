@@ -1,5 +1,4 @@
 
-
 field <- "author_date"
 
 # TODO make a tidy cleanup function to shorten the code here
@@ -10,7 +9,9 @@ df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE) %>%
 	    mutate(author_age = na_if(author_age, 0))          # Replace 0 age with NA
 
 # Add original row info as first column
-df.tmp <- bind_cols(original_row = df.orig$original_row, df.tmp)
+df.tmp <- bind_cols(original_row = df.orig$original_row,
+                    author_date = df.orig$author_date, # add field column 
+                    df.tmp)
 rownames(df.tmp) <- NULL
 
 # Store the title field data
@@ -29,16 +30,13 @@ message("Accepted entries in the preprocessed data")
 s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
 
 message("Discarded entries in the original data")
-
-# NA values in the final harmonized data
-inds <- which(is.na(df.tmp[[field]]))
-
-# Original entries that were converted into NA
-original.na <- df.orig[match(df.tmp$original_row[inds], df.orig$original_row), field]
-
-# .. ie. those are "discarded" cases; list them in a table
-tmp <- write_xtable(original.na, file_discarded, count = TRUE)
-
+o <- as.character(df.orig[[field]])
+x <- as.character(df.tmp[["author_date"]])
+inds <- which(is.na(x))
+discard.file <- paste0(output.folder, field, "_discarded.csv")
+tmp <- write_xtable(o[inds],
+                    file = discard.file,
+                    count = TRUE)
 # ------------------------------------------------------------
 
 # Generate markdown summary 
