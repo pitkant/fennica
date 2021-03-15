@@ -31,7 +31,7 @@ s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
 
 message("Discarded entries in the original data")
 o <- as.character(df.orig[[field]])
-x <- as.character(df.tmp[["author_date"]])
+x <- as.character(df.tmp$author_birth, df.tmp$author_death)
 inds <- which(is.na(x))
 discard.file <- paste0(output.folder, field, "_discarded.csv")
 tmp <- write_xtable(o[inds],
