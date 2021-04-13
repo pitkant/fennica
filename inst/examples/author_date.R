@@ -31,15 +31,16 @@ s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
 
 message("Discarded entries in the original data")
 o <- as.character(df.orig[[field]])
-x <- as.character(df.tmp[["author_date"]])
-inds <- which(is.na(x))
+x <- as.character(df.tmp[["author_birth"]])
+y <- as.character(df.tmp[["author_death"]])
+inds <- which(is.na(x) & (is.na(y)))
 discard.file <- paste0(output.folder, field, "_discarded.csv")
-tmp <- write_xtable(o[inds],
-                    file = discard.file,
-                    count = TRUE)
+tmp <- write_xtable(o[inds],file = discard.file,count = TRUE)
+              
 # ------------------------------------------------------------
 
 # Generate markdown summary 
 df <- readRDS(data.file)
 tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
             output = paste(field, ".md", sep = ""))
+
