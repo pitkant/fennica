@@ -26,16 +26,21 @@ file_discarded <- paste0(output.folder, field, "_discarded.csv")
 # ------------------------------------------------------------
 
 # Generate data summaries
-message("Accepted entries in the preprocessed data")
-s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
 
-message("Discarded entries in the original data")
 o <- as.character(df.orig[[field]])
 x <- as.character(df.tmp[["author_birth"]])
 y <- as.character(df.tmp[["author_death"]])
-inds <- which(is.na(x) & (is.na(y)))
+
+message("Accepted entries in the preprocessed data")
+inds <- !is.na(x) & !is.na(y)
+accept.file <- paste0(output.folder, field, "_accepted.csv")
+tmp <- write_xtable(o[inds],file = accept.file,count = TRUE)
+#s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
+
+message("Discarded entries in the original data")
+inds1 <- is.na(x) & is.na(y)
 discard.file <- paste0(output.folder, field, "_discarded.csv")
-tmp <- write_xtable(o[inds],file = discard.file,count = TRUE)
+tmp1 <- write_xtable(o[inds1],file = discard.file,count = TRUE)
               
 # ------------------------------------------------------------
 
