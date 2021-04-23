@@ -35,7 +35,7 @@ message("Accepted entries in the preprocessed data")
 inds <- !is.na(x) & !is.na(y)
 accept.file <- paste0(output.folder, field, "_accepted.csv")
 tmp <- write_xtable(o[inds],file = accept.file,count = TRUE)
-#s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
+
 
 message("Discarded entries in the original data")
 inds1 <- is.na(x) & is.na(y)
