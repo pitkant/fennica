@@ -31,17 +31,36 @@ o <- as.character(df.orig[[field]])
 x <- as.character(df.tmp[["author_birth"]])
 y <- as.character(df.tmp[["author_death"]])
 
+
+# -------------------
+
 message("Accepted entries in the preprocessed data")
 inds <- !is.na(x) & !is.na(y)
 accept.file <- paste0(output.folder, field, "_accepted.csv")
+<<<<<<< HEAD
 tmp <- write_xtable(o[inds],file = accept.file,count = TRUE)
 
+=======
+n <- rev(sort(table(o[inds])))
+tab <- as.data.frame(n);
+tab$Frequency <- round(100 * tab$Freq/sum(tab$Freq), 1)
+colnames(tab) <- c("Term", "Count", "Frequency")
+write.table(tab, file = accept.file, quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
+#tmp <- write_xtable(o[inds],file = accept.file,count = TRUE)
+#s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
+>>>>>>> 0dc4a5ec6b6dae62dd58c979cc0c290ebeb55289
+
+# -------------------
 
 message("Discarded entries in the original data")
 inds1 <- is.na(x) & is.na(y)
 discard.file <- paste0(output.folder, field, "_discarded.csv")
-tmp1 <- write_xtable(o[inds1],file = discard.file,count = TRUE)
-              
+n <- rev(sort(table(o[inds1])))
+tab <- as.data.frame(n);
+tab$Frequency <- round(100 * tab$Freq/sum(tab$Freq), 1)
+colnames(tab) <- c("Term", "Count", "Frequency")
+write.table(tab, file = discard.file, quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
+
 # ------------------------------------------------------------
 
 # Generate markdown summary 
