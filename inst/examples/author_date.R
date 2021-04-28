@@ -8,17 +8,6 @@ df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE) %>%
 	    mutate(author_age = author_death-author_birth) %>% # Add author age
 	    mutate(author_age = na_if(author_age, 0))          # Replace 0 age with NA
 
-#polish_years_helper
-polish_years_helper <- function(x){
-  b <- grep("[0-9]+ *(-) *[0-9]+ *(e\\. *Kr\\.*)",x)
-  x <- gsub("(n\\. *)|( *e\\. *Kr\\.*)","", x)
-  for (i in b) {
-    spl <- strsplit(x[[i]], "-")[[1]]
-    start <- -as.numeric(spl[[1]])
-    end <- -as.numeric(spl[[2]])
-  }
-  return(c(start, end))
-}
 
 # Add original row info as first column
 df.tmp <- bind_cols(original_row = df.orig$original_row,
@@ -53,8 +42,6 @@ tab <- as.data.frame(n);
 tab$Frequency <- round(100 * tab$Freq/sum(tab$Freq), 1)
 colnames(tab) <- c("Term", "Count", "Frequency")
 write.table(tab, file = accept.file, quote = FALSE, row.names = FALSE, col.names = TRUE, sep = "\t")
-#tmp <- write_xtable(o[inds],file = accept.file,count = TRUE)
-#s <- write_xtable(df.tmp[[field]], file_accepted, count = TRUE)
 
 
 # -------------------
@@ -74,3 +61,4 @@ write.table(tab, file = discard.file, quote = FALSE, row.names = FALSE, col.name
 df <- readRDS(data.file)
 tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
             output = paste(field, ".md", sep = ""))
+
