@@ -1,3 +1,4 @@
+#n. 580-500 e. Kr. -> -580 - -500
 polish_years_helper <- function(x){
   b <- grep("[0-9]+ *(-) *[0-9]+ *(e\\. *Kr\\.*)",x)
   x <- gsub("(n\\. *)|( *e\\. *Kr\\.*)","", x)
@@ -6,5 +7,5 @@ polish_years_helper <- function(x){
     start <- -as.numeric(spl[[1]])
     end <- -as.numeric(spl[[2]])
   }
-  return(c(from=start, till=end))
+  return(c(start,end))
 }

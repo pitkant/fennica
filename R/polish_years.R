@@ -305,7 +305,6 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   df$till[which(df$till > max.year)] <- NA
   df$till[which(df$year < min.year)] <- NA
   df<-polish_years_helper(df)
-  
   # Match the unique cases to the original indices
   # before returning the df
   return(df[match(xorig, xuniq), c("from", "till")])
