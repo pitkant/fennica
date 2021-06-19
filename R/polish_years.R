@@ -30,8 +30,6 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   x <- gsub("&gt;-$", "", x)
   x <- gsub(", *\\[*[0-9]\\]*$", "", x)
   x <- gsub("\\[̂", "[", x)
-  #x <- gsub("\\?\\]", "]", x)
-  #x <- gsub("\\[[0-9]{3}-\\]", "", x)
   x <- gsub("(^|[-[])[0-9]{3}[?]", "\\1", x)
   x <- gsub("(^|[-[])[0-9]{2}[?][?]", "\\1", x)
   x <- gsub("I([0-9]{3})([^0-9]|$)", "1\\1", x)
@@ -289,7 +287,10 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   start_year[is.infinite(start_year)] <- NA
   end_year[is.infinite(end_year)] <- NA  
 
-  # Do not accept years below and above these values	    
+  # Do not accept years below and above these values
+  print(min.year)
+  print(max.year)
+
   start_year[start_year < min.year | start_year > max.year] <- NA
   end_year[end_year < min.year | end_year > max.year] <- NA  
 
