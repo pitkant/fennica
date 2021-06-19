@@ -51,6 +51,12 @@ Title count versus paper consumption (all authors):
 ```
 
 ```
+## The following object is masked from 'package:fennica':
+## 
+##     combine
+```
+
+```
 ## The following object is masked from 'package:dplyr':
 ## 
 ##     combine

@@ -2,12 +2,13 @@
 field <- "author_date"
 
 # TODO make a tidy cleanup function to shorten the code here
-df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE) %>%
+df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE)
+
+df.tmp <- df.tmp %>%
             dplyr::rename(author_birth = from) %>%
   	    dplyr::rename(author_death = till) %>%
 	    mutate(author_age = author_death-author_birth) %>% # Add author age
 	    mutate(author_age = na_if(author_age, 0))          # Replace 0 age with NA
-
 
 # Add original row info as first column
 df.tmp <- bind_cols(original_row = df.orig$original_row,
