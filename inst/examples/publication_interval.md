@@ -1,7 +1,7 @@
 ---
 title: "Publication interval summaries"
 author: "Leo Lahti"
-date: "2021-06-19"
+date: "2021-06-21"
 output: md_document
 ---
 
