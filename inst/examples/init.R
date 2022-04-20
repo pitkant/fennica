@@ -7,7 +7,8 @@ library(R.utils)
 library(ggplot2)
 
 # Install latest version from Github
-install_github("comhis/fennica") # or devtools::load_all() if you are working from the clone and modifying it
+#install_github("comhis/fennica") # or
+devtools::load_all() # if you are working from the clone and modifying it
 library(fennica) 
 
 # Install latest version from Github

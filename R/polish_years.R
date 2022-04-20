@@ -30,8 +30,6 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   x <- gsub("&gt;-$", "", x)
   x <- gsub(", *\\[*[0-9]\\]*$", "", x)
   x <- gsub("\\[̂", "[", x)
-  #x <- gsub("\\?\\]", "]", x)
-  #x <- gsub("\\[[0-9]{3}-\\]", "", x)
   x <- gsub("(^|[-[])[0-9]{3}[?]", "\\1", x)
   x <- gsub("(^|[-[])[0-9]{2}[?][?]", "\\1", x)
   x <- gsub("I([0-9]{3})([^0-9]|$)", "1\\1", x)
@@ -289,13 +287,18 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   start_year[is.infinite(start_year)] <- NA
   end_year[is.infinite(end_year)] <- NA  
 
-  # Do not accept years below and above these values	    
+  # Do not accept years below and above these values
+  print(min.year)
+  print(max.year)
+
   start_year[start_year < min.year | start_year > max.year] <- NA
   end_year[end_year < min.year | end_year > max.year] <- NA  
 
+
+
   df <- data.frame(from = as.numeric(as.character(start_year)),
                    till = as.numeric(as.character(end_year)))
-  
+
   message(paste("Checking that the years are within the accepted range:", min.year, "-", max.year))
   # Manually checked for Fennica - 3 publications before 1400;
   # FIXME make more explicit in the final reports; maybe with a separate enrich function as earlier
@@ -304,10 +307,16 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   df$from[which(df$from < min.year)] <- NA
   df$till[which(df$till > max.year)] <- NA
   df$till[which(df$year < min.year)] <- NA
-  df<-polish_years_helper(df)
+
+  # Not yet incorporated in main function so that it would work
+  # df<-polish_years_helper(df)
   # Match the unique cases to the original indices
   # before returning the df
+
+  #print(max(match(xorig, xuniq))) 
+  #print(nrow(df))
   return(df[match(xorig, xuniq), c("from", "till")])
+
 }
 
 

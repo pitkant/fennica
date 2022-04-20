@@ -62,10 +62,6 @@ source("title_uniform.R")
 # uncontrolled field
 source("uncontrolled.R")
 
-
-
-
-
 # Generate an overview with links to the summary files:
 knit("overview.Rmd")
 # TODO: has to be done after harmonizations are complete, and an aggregated data set can be created
