@@ -139,8 +139,8 @@ polish_author <- function (s, stopwords = NULL, verbose = FALSE) {
 
     if (length(fi) == 0) {fi <- NA}
     if (length(la) == 0) {la <- NA}    
-    if (!is.na(fi) && !is.na(la)) {
-      if (la == fi[[length(fi)]]) {
+    if (all(!is.na(fi)) && all(!is.na(la))) {
+      if (la[[1]] == fi[[length(fi)]]) {
         fi <- fi[-length(fi)]
       }
     }
