@@ -38,6 +38,6 @@ tmp <- write_xtable(original.na, paste(output.folder, field, "_discarded.csv", s
 
 # Generate markdown summary
 df <- readRDS(data.file)
-tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
-            output = paste(field, ".md", sep = ""))
+# tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
+#             output = paste(field, ".md", sep = ""))
 

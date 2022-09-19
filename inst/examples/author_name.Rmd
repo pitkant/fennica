@@ -1,12 +1,18 @@
 ---
-title: "author_name"
+title: "author_Name"
 output: md_document
 ---
 
+# Author's name
 
-```{r setup, include=FALSE}
+```{r setup-author-name, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
+```
+
+```{r source-author-name, include=FALSE}
+# author_name field
+source("author_name.R")
 ```
 
 * [Unique accepted entries](`r file_accepted`): `r length(unique(df[[field]]))`
@@ -16,7 +22,7 @@ knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
  
  Top-`r ntop` titles and their title counts.
  
-```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+```{r summarytitle-author-name, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 library(ggplot2)
 theme_set(theme_bw(base_size = 12))
 p <- top_plot(df, "author_name", ntop = ntop, log10 = TRUE)+
@@ -26,7 +32,7 @@ print(p)
 
 Frequency of unique titles:
   
-```{r uniquetitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+```{r uniquetitles-author-name, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 tab <- table(df$author_name)
 d <- data.frame(title = names(tab), n = as.numeric(tab))
 

@@ -4,10 +4,17 @@ output: md_document
 ---
 
 
-```{r setup, include=FALSE}
+```{r setup-subject-topic, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
 ```
+
+```{r source-subject-topic, include=FALSE, eval=knit_bookdown}
+# note_subject_topic field
+source("subject_topic.R")
+```
+
+# Subject topic
 
 * [Unique accepted entries](`r file_accepted`): `r length(unique(df[[field]]))`
 * [Unique discarded entries in original data](`r file_discarded`) (excluding NA cases): `r as.vector(countLines(file_discarded) - 1)`
@@ -17,7 +24,7 @@ knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))
 
  Top-`r ntop` titles and their title counts.
  
-```{r summarytitle, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+```{r summarytitle-subject-topic, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 library(ggplot2)
 theme_set(theme_bw(base_size = 12))
 p <- top_plot(df, "subject_topic", ntop = ntop, log10 = TRUE)+
@@ -27,7 +34,7 @@ print(p)
 
 Frequency of unique titles:
   
-```{r uniquetitles, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
+```{r uniquetitles-subject-topic, echo=FALSE, message=FALSE, warning=FALSE, fig.width=8, fig.height=6}
 tab <- table(df$subject_topic)
 d <- data.frame(title = names(tab), n = as.numeric(tab))
 

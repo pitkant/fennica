@@ -45,5 +45,5 @@ tmp <- write_xtable(original.na, file_discarded, count = TRUE)
 
 # Generate markdown summary in note_source.md
 df <- readRDS(data.file)
-tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
-            output = paste(field, ".md", sep = ""))
+# tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
+#             output = paste(field, ".md", sep = ""))

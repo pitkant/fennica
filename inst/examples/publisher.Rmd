@@ -1,12 +1,16 @@
 ---
 title: "Publisher preprocessing summary"
-author: "`r author`"
+author: "Helsinki Computational History Group (COMHIS)"
 date: "`r Sys.Date()`"
 output: md_document
 ---
 
+```{r source-publisher, include=FALSE, eval=knit_bookdown}
+# publisher field
+source("publisher.R")
+```
 
-### Publishers
+# Publishers
 
  * `r length(unique(df$publisher))` [unique publishers](output.tables/publisher_accepted.csv)
 

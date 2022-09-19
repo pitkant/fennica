@@ -1,0 +1,16 @@
+--- 
+title: "Harmonized Finnish National Bibliography"
+author: "`r author`"
+date: "`r Sys.Date()`"
+site: "bookdown::bookdown_site"
+output:
+  bookdown::gitbook: default
+documentclass: book
+---
+
+In this bookdown project we will disseminate the fennica dataset cleaning process.
+
+```{r source-index, include=FALSE}
+source("init.R")
+# knit_bookdown <- TRUE in init.R
+```

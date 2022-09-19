@@ -5,7 +5,12 @@ date: "`r Sys.Date()`"
 output: markdown_document
 ---
 
-## Language
+```{r source-language, include=FALSE, eval=knit_bookdown}
+# Language
+source("language.R")
+```
+
+# Language
 
  * `r length(unique(unlist(strsplit(as.character(df$languages), ";"))))-1` [unique languages](output.tables/languages_accepted.csv)
  * `r length(unique(df$language_primary))-1` [unique primary languages](output.tables/language_primary_accepted.csv)  

@@ -2,7 +2,7 @@
 field <- "author_name"
 
 # Full author name (Last, First) 
-author <- polish_author(df.orig[[field]], verbose = FALSE)
+author <- polish_author(df.orig[[field]], verbose = TRUE)
 
 # Collect the results into a data.frame
 df.tmp <- data.frame(original_row = df.orig$original_row, author_name = author)
@@ -39,6 +39,6 @@ tmp <- write_xtable(original.na, file_discarded, count = TRUE)
 
 # Generate markdown summary 
 df <- readRDS(data.file)
-tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
-            output = paste(field, ".md", sep = ""))
+# tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
+#             output = paste(field, ".md", sep = ""))
 

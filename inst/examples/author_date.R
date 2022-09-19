@@ -2,7 +2,7 @@
 field <- "author_date"
 
 # TODO make a tidy cleanup function to shorten the code here
-df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = FALSE)
+df.tmp <- polish_years(df.orig[[field]], check = TRUE, verbose = TRUE)
 
 df.tmp <- df.tmp %>%
             dplyr::rename(author_birth = from) %>%
@@ -60,6 +60,6 @@ write.table(tab, file = discard.file, quote = FALSE, row.names = FALSE, col.name
 
 # Generate markdown summary 
 df <- readRDS(data.file)
-tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
-            output = paste(field, ".md", sep = ""))
+# tmp <- knit(input = paste(field, ".Rmd", sep = ""), 
+#             output = paste(field, ".md", sep = ""))
 

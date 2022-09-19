@@ -1,11 +1,16 @@
 ---
 title: "Publication place preprocessing summary"
-author: "`r author`"
+author: "Leo Lahti"
 date: "`r Sys.Date()`"
 output: markdown_document
 ---
 
-### Publication places
+```{r source-publication-place, include=FALSE, eval=knit_bookdown}
+# Publication place field and derived country- and geoinformation
+source("publication_place.R")
+```
+
+# Publication places
 
  * `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` [unique publication places](output.tables/publication_place_accepted.csv); available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%).
  * `r length(readLines(paste0("output.tables/publication_place_ambiguous.csv"))) - 1` [ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 

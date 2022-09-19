@@ -2,7 +2,13 @@
 title: "author_date"
 output: md_document
 ---
-### Auhtor's lifetime
+
+# Author's lifetime
+
+```{r source-author-date, include=FALSE}
+# author_date field
+source("author_date.R")
+```
 
 [Author date accepted](output.tables/auhtor_date_accepted.csv)
 
