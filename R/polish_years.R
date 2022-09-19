@@ -29,7 +29,7 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   x <- gsub("&gt;$", "", x)
   x <- gsub("&gt;-$", "", x)
   x <- gsub(", *\\[*[0-9]\\]*$", "", x)
-  x <- gsub("\\[̂", "[", x)
+  x <- gsub("\\[\u0302", "[", x) # "[\u0302 = square bracket with circumflex
   x <- gsub("(^|[-[])[0-9]{3}[?]", "\\1", x)
   x <- gsub("(^|[-[])[0-9]{2}[?][?]", "\\1", x)
   x <- gsub("I([0-9]{3})([^0-9]|$)", "1\\1", x)
@@ -213,7 +213,7 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
   x <- condense_spaces(gsub("\\[\\]", " ", x))
   x <- gsub(" -", "-", gsub("- ", "-", x))
   x <- gsub("-+", "-", x)
-  x <- gsub("1̂", "1", x)
+  x <- gsub("1\u0302", "1", x) #1\u0302 = 1 with circumflex
 
   x <- gsub("\\[[a-z| ]*\\]", "", x)
 
@@ -263,7 +263,7 @@ polish_years <- function(x, start_synonyms=NULL, end_synonyms=NULL, verbose = TR
                                   verbose)
                       )
 
-             if (class(a) == "try-error") {
+             if (inherits(a, "try-error")) {
                return(c(NA, NA))
              } else {
                return(a)
