@@ -8,4 +8,6 @@ inst/examples/figure*
 inst/examples/
 inst/examples/*
 
-
+language.Rds
+Dockerfile
+.dockerignore

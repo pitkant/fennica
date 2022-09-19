@@ -7,3 +7,11 @@ inst/examples/data
 *.RData
 *.Rds
 *.Rproj
+
+.DS_Store
+
+language.Rds
+
+# Docker related
+Dockerfile
+.dockerignore
