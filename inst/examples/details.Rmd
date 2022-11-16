@@ -2,7 +2,7 @@
 title: "Preprocessing details"
 author: "`r author`"
 date: "`r Sys.Date()`"
-output: markdown_document
+output: md_document
 ---
 
 
@@ -19,7 +19,7 @@ print(availability$plot)
 Same in exact numbers: documents with available/missing entries, and number of unique entries for each field. Sorted by missing data:
 
 ```{r sumtab, echo=FALSE, message=FALSE, warning=FALSE, echo=FALSE}
-tab <- availability$table %<>% arrange(n)
+tab <- availability$table %>% arrange(n)
 names(tab) <- gsub("missing", "missing (%)", names(tab))
 names(tab) <- gsub("available", "available (%)", names(tab))
 names(tab) <- gsub("^n$", "available (n)", names(tab))

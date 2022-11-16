@@ -1,16 +1,9 @@
----
-title: "Publication year summaries"
-author: "Leo Lahti"
-date: "`r Sys.Date()`"
-output: md_document
----
-
 ```{r source-publication-time, include=FALSE, eval=knit_bookdown}
 # Publication place field and derived country- and geoinformation
 source("publication_time.R")
 ```
 
-# Publication time (publication year)
+# Publication year summaries (publication time)
 
 [Publication year conversions](output.tables/publication_year_conversion.csv)
 

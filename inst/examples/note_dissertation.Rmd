@@ -1,8 +1,3 @@
----
-title: "note_dissertation"
-output: md_document
----
-
 ```{r setup-note-dissertation, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(fig.path=paste0("figure/rmd_", field, "_"))

@@ -1,16 +1,9 @@
----
-title: "Subject geography preprocessing summary"
-author: "`r author`"
-date: "`r Sys.Date()`"
-output: markdown_document
----
-
 ```{r source-subject-geography, include=FALSE, eval=knit_bookdown}
 # note_subject_topic field
 source("subject_geography.R")
 ```
 
-# Subject geographical places
+# Subject geography preprocessing summary (Subject geographical places)
 
 ```{r geo, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 tab <- rev(sort(table(unlist(strsplit(as.character(df$subject_geography), ";")))))

@@ -28,6 +28,11 @@ Imports:
     R.utils
 Suggests:
     rmarkdown,
-    testthat
+    testthat,
+    gridExtra,
+    bookdown,
+    Cairo,
+    stringr,
+    ggthemes
 LazyLoad: yes
 RoxygenNote: 7.1.1

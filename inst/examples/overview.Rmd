@@ -1,40 +1,31 @@
----
-title: "Preprocessing overview"
-author: ""
-date: "`r Sys.Date()`"
-output: md_document
----
-
-
-
 # Fennica preprocessing summary
 
 The original data set contains `r nrow(df.orig)` documents.
 
 The following fields have been harmonized.
 
-  * [Author date](author_date.md)
-  * [Author name](author_name.md)
-  * [Gender info](gender.md)
-  * [Publisher info](publisher.md)
-  * [Publication geography](publication_place.md)
-  * [Publication year info](publication_time.md)
-  * [Publication year info](publication_frequency.md)
-  * [Publication year info](publication_interval.md)
-  * [Titles](title.md)  
-  * [Page counts](pagecount.md)
-  * [Physical dimension](dimension.md)    
-  * [Document and subject topics](topic.md)
-  * [Languages](language.md)
-  * [Corporate](corporate.md)
-  * [Holder](holder.md)
-  * [Note_510c](note_510c.md)
-  * [Note_dissertation](note_dissertation.md)
-  * [Note_granter](note_granter.md)
-  * [Note_source](note_source.md)
-  * [Subject_topic](subject_topic.md)
-  * [Successor](successor.md)
-  * [Title_uniform](title_uniform.md)
-  * [Uncontrolled](uncontrolled.md)
-See also [further preprocessing details](details.Rmd).
+  * [Author date](author_date.html)
+  * [Author name](author_name.html)
+  * [Gender info](gender.html)
+  * [Publisher info](publisher.html)
+  * [Publication geography](publication_place.html)
+  * [Publication year info](publication_time.html)
+  * [Publication year info](publication_frequency.html)
+  * [Publication year info](publication_interval.html)
+  * [Titles](title.html)  
+  * [Page counts](pagecount.html)
+  * [Physical dimension](dimension.html)    
+  * [Document and subject topics](topic.html)
+  * [Languages](language.html)
+  * [Corporate](corporate.html)
+  * [Holder](holder.html)
+  * [Note_510c](note_510c.html)
+  * [Note_dissertation](note_dissertation.html)
+  * [Note_granter](note_granter.html)
+  * [Note_source](note_source.html)
+  * [Subject_topic](subject_topic.html)
+  * [Successor](successor.html)
+  * [Title_uniform](title_uniform.html)
+  * [Uncontrolled](uncontrolled.html)
+See also [further preprocessing details](details.Rhtml).
 

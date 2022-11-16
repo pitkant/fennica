@@ -1,16 +1,9 @@
----
-title: "Publication interval summaries"
-author: "Leo Lahti"
-date: "`r Sys.Date()`"
-output: md_document
----
-
 ```{r source-publication-interval, include=FALSE, eval=knit_bookdown}
 #publication_interval field
 source("publication_interval.R")
 ```
 
-# Publication interval
+# Publication interval summaries
 
 Publication interval is available for `r sum(!is.na(df$publication_interval_from) | !is.na(df$publication_interval_till))` documents (`r round(100*mean(!is.na(df$publication_interval_from) | !is.na(df$publication_interval_till)))`%). 
 

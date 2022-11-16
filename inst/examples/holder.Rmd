@@ -1,8 +1,3 @@
----
-title: "holder"
-output: md_document
----
-
 # Holder
 
 ```{r setup-holder, include=FALSE}

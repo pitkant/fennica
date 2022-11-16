@@ -1,16 +1,9 @@
----
-title: "Publication place preprocessing summary"
-author: "Leo Lahti"
-date: "`r Sys.Date()`"
-output: markdown_document
----
-
 ```{r source-publication-place, include=FALSE, eval=knit_bookdown}
 # Publication place field and derived country- and geoinformation
 source("publication_place.R")
 ```
 
-# Publication places
+# Publication place preprocessing summary
 
  * `r length(unique(str_trim(unlist(strsplit(as.character(df$publication_place), ";")))))` [unique publication places](output.tables/publication_place_accepted.csv); available for `r sum(!is.na(df$publication_place))` documents (`r round(100*mean(!is.na(df$publication_place)))`%).
  * `r length(readLines(paste0("output.tables/publication_place_ambiguous.csv"))) - 1` [ambiguous publication places](output.tables/publication_place_ambiguous.csv); some of these can be possibly resolved by checking that the the [synonyme list](https://github.com/COMHIS/fennica/blob/master/inst/extdata/PublicationPlaceSynonymes.csv) does not contain multiple versions of the final name (case sensitive). 
@@ -36,7 +29,7 @@ print(p)
 ```
 
 
-### Publication countries	
+## Publication countries	
 
  * `r length(unique(df$publication_country))` [unique publication countries](output.tables/publication_country_accepted.csv); available for `r sum(!is.na(df$publication_country))` documents (`r round(100*mean(!is.na(df$publication_country)))`%).
  * `r length(na.omit(unique(subset(df, is.na(publication_country))$publication_place)))` [places with unknown publication country](output.tables/publication_place_missingcountry.csv) (`r round(100 * length(na.omit(unique(subset(df, is.na(publication_country))$publication_place))) / length(na.omit(unique(df$publication_place))), 1)`% of the unique places; can be added to [country mappings](https://github.com/COMHIS/fennica/blob/master/inst/extdata/reg2country.csv))
@@ -50,7 +43,7 @@ kable(head(tab))
 ```
 
 
-### Geocoordinates
+## Geocoordinates
 
  * `r round(100*mean(!is.na(df$latitude) & !is.na(df$longitude)), 1)`% of the documents were matched to geographic coordinates (based on COMHIS geomapping process).
  * `r length(unique(df$publication_place[(is.na(df$latitude))]))` unique places (`r round(100 * length(unique(df$publication_place[(is.na(df$latitude))]))/length(unique(df$publication_place)), 1)`% of all unique places and `r round(100 * mean(is.na(df$latitude) | is.na(df$longitude)), 2)`% of all documents) are missing geocoordinates. See [list of places missing geocoordinate information](output.tables/absentgeocoordinates.csv).

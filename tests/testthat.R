@@ -1,4 +1,4 @@
-library(stringr)
-library(testthat)
-library(fennica)
-test_check("fennica")
+# library(stringr)
+# library(testthat)
+# library(fennica)
+# test_check("fennica")

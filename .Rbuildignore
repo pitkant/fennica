@@ -11,3 +11,4 @@ inst/examples/*
 language.Rds
 Dockerfile
 .dockerignore
+^\.dockerignore$

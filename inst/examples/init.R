@@ -5,6 +5,7 @@ library(stringr)
 library(knitr)
 library(R.utils)
 library(ggplot2)
+library(Cairo)
 
 # Install latest version from Github
 #install_github("comhis/fennica") # or
@@ -31,7 +32,7 @@ df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, 
 # ------------------------------------------------------------
 
 ntop <- 20
-author <- "Helsinki Computational History Group (COMHIS)"
+book_author <- "Helsinki Computational History Group (COMHIS)"
 
 knit_bookdown <- TRUE
 
