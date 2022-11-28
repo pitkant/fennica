@@ -32,7 +32,7 @@ df.orig <- read_bibliographic_metadata("fennica_parsed.csv.gz", verbose = TRUE, 
 # ------------------------------------------------------------
 
 ntop <- 20
-book_author <- "Helsinki Computational History Group (COMHIS)"
+book_author <- "Turku Data Science Group"
 
 knit_bookdown <- TRUE
 
