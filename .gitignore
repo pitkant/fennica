@@ -13,5 +13,5 @@ inst/examples/data
 language.Rds
 
 # Docker related
-Dockerfile
+# Dockerfile
 .dockerignore
