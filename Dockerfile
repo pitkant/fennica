@@ -27,4 +27,6 @@ COPY . /home/fennica
 WORKDIR /home/fennica
 RUN R -e 'remotes::install_local(upgrade="never")'
 WORKDIR /home/fennica/inst/examples
+RUN chgrp -R 0 /home/fennica && \
+    chmod -R g=u /home/fennica
 CMD R -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
