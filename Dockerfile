@@ -30,7 +30,6 @@ WORKDIR /home/fennica/inst/examples
 RUN chgrp -R 0 /home/fennica && \
     chmod -R g=u /home/fennica
 CMD R -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
-
 FROM nginx
 COPY /inst/examples/_book /usr/share/nginx/html
 EXPOSE 80
