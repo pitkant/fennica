@@ -40,18 +40,7 @@ jobs:
             any::rcmdcheck
             any::XML
 
-      - name: Build logo if not present and prepare template
-        run: |
-          # Check that logo is not present
-          if (isFALSE(file.exists(file.path("man", "figures", "logo.png")) ||
-            file.exists(file.path("man", "figures", "logo.png")))) {
-            rogtemplate::rog_logo()
-          } else {
-            message("The package already has a logo")
-          }
-          fennica::fennica_add_template_pkgdown()
-        shell: Rscript {0}
-
+      
       - name: Deploy package
         run: |
           git config --local user.name "$GITHUB_ACTOR"
