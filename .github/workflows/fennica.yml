@@ -39,7 +39,6 @@ jobs:
             any::Cairo
             any::rcmdcheck
             any::XML
-
       
       - name: Deploy package
         run: |
