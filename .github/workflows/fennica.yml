@@ -4,20 +4,17 @@
 on:
   push:
     branches: [master]
-    tags: ['*']
-    paths-ignore: 
-      - 'README.Rmd'
-  repository_dispatch:
-    types: [trigger-pkgdown-workflow]
+    
   workflow_dispatch:
 
-name: fennica-gh-pages
+name: renderbook
 
 jobs:
-  fennica-gh-pages:
+  render-book:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
       - uses: actions/checkout@v2
 
@@ -26,22 +23,61 @@ jobs:
       - uses: r-lib/actions/setup-r@v2
         with:
           use-public-rspm: true
-
+          
+    
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           needs: website
           extra-packages:
             local::.
-            any::pkgdown
-            ake123/fennica
-            any::magick
-            any::tmap
-            any::Cairo
-            any::rcmdcheck
-            any::XML
+            
+      - name: install rmarkdown packages
+        run: Rscript -e 'install.packages(c("rmarkdown","bookdown","Cairo","ggplot2",dependencies = TRUE))'
+        
+      - name: install devtools
+        run: R -e 'install.packages("devtools",dependencies = TRUE)'
+        
+      - name: install stringr
+        run: Rscript -e 'install.packages("stringr",dependencies = TRUE)'
+        
+      - name: install knitr
+        run: Rscript -e 'install.packages("knitr",dependencies = TRUE)'
+        
+      - name: install gridExtra
+        run: Rscript -e 'install.packages("gridExtra",dependencies = TRUE)'
+        
+      - name: install testthat
+        run: Rscript -e 'install.packages("testthat",dependencies = TRUE)'
+        
+      - name: install tm
+        run: Rscript -e 'install.packages("tm",dependencies = TRUE)'
       
+      - name: install XML
+        run: Rscript -e 'install.packages("XML",dependencies = TRUE)'
+      
+      - name: install stringdist
+        run: Rscript -e 'install.packages("stringdist",dependencies = TRUE)'
+      
+      - name: install dplyr
+        run: Rscript -e 'install.packages("dplyr",dependencies = TRUE)'
+        
+      - name: install Rutils
+        run: Rscript -e 'install.packages("R.utils",dependencies = TRUE)'
+      
+      - name: install datatable
+        run: Rscript -e 'install.packages("data.table",dependencies = TRUE)'
+      
+      - name: install comhis
+        run: Rscript -e 'devtools::install_github("comhis/comhis",dependencies = TRUE)'
+      
+     
+      - name: Render Book
+        run: Rscript -e 'bookdown::render_book("inst/examples/")'
+        
       - name: Deploy package
         run: |
+        
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           Rscript -e 'pkgdown::deploy_to_branch(new_process = FALSE)'
+  
